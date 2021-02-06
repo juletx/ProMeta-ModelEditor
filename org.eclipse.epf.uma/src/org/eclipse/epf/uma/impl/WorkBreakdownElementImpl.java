@@ -14,11 +14,16 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.WorkBreakdownElement;
 import org.eclipse.epf.uma.WorkOrder;
@@ -39,8 +44,7 @@ import org.eclipse.epf.uma.WorkOrder;
  *
  * @generated
  */
-public abstract class WorkBreakdownElementImpl extends BreakdownElementImpl
-		implements WorkBreakdownElement {
+public abstract class WorkBreakdownElementImpl extends BreakdownElementImpl implements WorkBreakdownElement {
 	/**
 	 * The default value of the '{@link #getIsRepeatable() <em>Is Repeatable</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -152,8 +156,7 @@ public abstract class WorkBreakdownElementImpl extends BreakdownElementImpl
 		Boolean oldIsRepeatable = isRepeatable;
 		isRepeatable = newIsRepeatable;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.WORK_BREAKDOWN_ELEMENT__IS_REPEATABLE,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.WORK_BREAKDOWN_ELEMENT__IS_REPEATABLE,
 					oldIsRepeatable, isRepeatable));
 	}
 
@@ -175,8 +178,7 @@ public abstract class WorkBreakdownElementImpl extends BreakdownElementImpl
 		Boolean oldIsOngoing = isOngoing;
 		isOngoing = newIsOngoing;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.WORK_BREAKDOWN_ELEMENT__IS_ONGOING,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.WORK_BREAKDOWN_ELEMENT__IS_ONGOING,
 					oldIsOngoing, isOngoing));
 	}
 
@@ -198,8 +200,7 @@ public abstract class WorkBreakdownElementImpl extends BreakdownElementImpl
 		Boolean oldIsEventDriven = isEventDriven;
 		isEventDriven = newIsEventDriven;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.WORK_BREAKDOWN_ELEMENT__IS_EVENT_DRIVEN,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.WORK_BREAKDOWN_ELEMENT__IS_EVENT_DRIVEN,
 					oldIsEventDriven, isEventDriven));
 	}
 
@@ -210,8 +211,7 @@ public abstract class WorkBreakdownElementImpl extends BreakdownElementImpl
 	 */
 	public List<WorkOrder> getLinkToPredecessor() {
 		if (linkToPredecessor == null) {
-			linkToPredecessor = new EObjectResolvingEList<WorkOrder>(
-					WorkOrder.class, this,
+			linkToPredecessor = new EObjectResolvingEList<WorkOrder>(WorkOrder.class, this,
 					UmaPackage.WORK_BREAKDOWN_ELEMENT__LINK_TO_PREDECESSOR);
 		}
 		return linkToPredecessor;
@@ -257,8 +257,7 @@ public abstract class WorkBreakdownElementImpl extends BreakdownElementImpl
 			return;
 		case UmaPackage.WORK_BREAKDOWN_ELEMENT__LINK_TO_PREDECESSOR:
 			getLinkToPredecessor().clear();
-			getLinkToPredecessor().addAll(
-					(Collection<? extends WorkOrder>) newValue);
+			getLinkToPredecessor().addAll((Collection<? extends WorkOrder>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -303,11 +302,9 @@ public abstract class WorkBreakdownElementImpl extends BreakdownElementImpl
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.WORK_BREAKDOWN_ELEMENT__IS_REPEATABLE:
-			return IS_REPEATABLE_EDEFAULT == null ? isRepeatable != null
-					: !IS_REPEATABLE_EDEFAULT.equals(isRepeatable);
+			return IS_REPEATABLE_EDEFAULT == null ? isRepeatable != null : !IS_REPEATABLE_EDEFAULT.equals(isRepeatable);
 		case UmaPackage.WORK_BREAKDOWN_ELEMENT__IS_ONGOING:
-			return IS_ONGOING_EDEFAULT == null ? isOngoing != null
-					: !IS_ONGOING_EDEFAULT.equals(isOngoing);
+			return IS_ONGOING_EDEFAULT == null ? isOngoing != null : !IS_ONGOING_EDEFAULT.equals(isOngoing);
 		case UmaPackage.WORK_BREAKDOWN_ELEMENT__IS_EVENT_DRIVEN:
 			return IS_EVENT_DRIVEN_EDEFAULT == null ? isEventDriven != null
 					: !IS_EVENT_DRIVEN_EDEFAULT.equals(isEventDriven);

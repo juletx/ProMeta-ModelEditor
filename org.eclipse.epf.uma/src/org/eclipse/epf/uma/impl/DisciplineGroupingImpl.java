@@ -14,9 +14,12 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.Discipline;
 import org.eclipse.epf.uma.DisciplineGrouping;
 import org.eclipse.epf.uma.UmaPackage;
@@ -34,8 +37,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class DisciplineGroupingImpl extends ContentCategoryImpl implements
-		DisciplineGrouping {
+public class DisciplineGroupingImpl extends ContentCategoryImpl implements DisciplineGrouping {
 	/**
 	 * The cached value of the '{@link #getDisciplines() <em>Disciplines</em>}' reference list.
 	 * <!-- begin-user-doc -->
@@ -76,8 +78,7 @@ public class DisciplineGroupingImpl extends ContentCategoryImpl implements
 	 */
 	public List<Discipline> getDisciplines() {
 		if (disciplines == null) {
-			disciplines = new EObjectResolvingEList<Discipline>(
-					Discipline.class, this,
+			disciplines = new EObjectResolvingEList<Discipline>(Discipline.class, this,
 					UmaPackage.DISCIPLINE_GROUPING__DISCIPLINES);
 		}
 		return disciplines;
@@ -108,8 +109,7 @@ public class DisciplineGroupingImpl extends ContentCategoryImpl implements
 		switch (featureID) {
 		case UmaPackage.DISCIPLINE_GROUPING__DISCIPLINES:
 			getDisciplines().clear();
-			getDisciplines()
-					.addAll((Collection<? extends Discipline>) newValue);
+			getDisciplines().addAll((Collection<? extends Discipline>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);

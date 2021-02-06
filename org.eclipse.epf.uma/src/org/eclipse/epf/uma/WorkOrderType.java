@@ -33,38 +33,57 @@ public enum WorkOrderType implements Enumerator {
 	 * The '<em><b>Finish To Start</b></em>' literal object.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Breakdown Element (B) cannot start until Breakdown Element (A) finishes. For example, if you have two Breakdown Elements, "Construct fence" and "Paint fence," "Paint fence" can't start until "Construct fence" finishes. This is the most common type of dependency and the default for a new Work Order instance.
+	 * 
+	 * <!-- end-model-doc -->
 	 * @see #FINISH_TO_START_VALUE
 	 * @generated
 	 * @ordered
 	 */
-	FINISH_TO_START(0, "finishToStart", "finishToStart"),
+	FINISH_TO_START(0, "finishToStart", "finishToStart"), //$NON-NLS-1$ //$NON-NLS-2$
+
 	/**
 	 * The '<em><b>Finish To Finish</b></em>' literal object.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Breakdown Element (B) cannot finish until Breakdown Element (A) finishes. For example, if you have two Breakdown Elements, "Add wiring" and "Inspect electrical," "Inspect electrical" can't finish until "Add wiring" finishes.
+	 * 
+	 * <!-- end-model-doc -->
 	 * @see #FINISH_TO_FINISH_VALUE
 	 * @generated
 	 * @ordered
 	 */
-	FINISH_TO_FINISH(1, "finishToFinish", "finishToFinish"),
+	FINISH_TO_FINISH(1, "finishToFinish", "finishToFinish"), //$NON-NLS-1$ //$NON-NLS-2$
+
 	/**
 	 * The '<em><b>Start To Start</b></em>' literal object.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Breakdown Element (B) cannot start until Breakdown Element (A) starts. For example, if you have two Breakdown Elements, "Pour foundation" and "Level concrete," "Level concrete" can't begin until "Pour foundation" begins.
+	 * 
+	 * <!-- end-model-doc -->
 	 * @see #START_TO_START_VALUE
 	 * @generated
 	 * @ordered
 	 */
-	START_TO_START(2, "startToStart", "startToStart"),
+	START_TO_START(2, "startToStart", "startToStart"), //$NON-NLS-1$ //$NON-NLS-2$
+
 	/**
 	 * The '<em><b>Start To Finish</b></em>' literal object.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Breakdown Element (B) cannot finish until Breakdown Element (A) starts. This dependency type can be used for just-in-time scheduling up to a milestone or the project finish date to minimize the risk of a Breakdown Element finishing late if its dependent Breakdown Elements slip. If a related Breakdown Element needs to finish before the milestone or project finish date, but it doesn't matter exactly when and you don't want a late finish to affect the just-in-time Breakdown Element, you can create an SF dependency between the Breakdown Element you want scheduled just in time (the predecessor) and its related Breakdown Element (the successor). Then if you update progress on the successor Breakdown Element, it won't affect the scheduled dates of the predecessor Breakdown Element.
+	 * <!-- end-model-doc -->
 	 * @see #START_TO_FINISH_VALUE
 	 * @generated
 	 * @ordered
 	 */
-	START_TO_FINISH(3, "startToFinish", "startToFinish");
+	START_TO_FINISH(3, "startToFinish", "startToFinish"); //$NON-NLS-1$ //$NON-NLS-2$
+
 	/**
 	 * The '<em><b>Finish To Start</b></em>' literal value.
 	 * <!-- begin-user-doc -->
@@ -130,8 +149,8 @@ public enum WorkOrderType implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	private static final WorkOrderType[] VALUES_ARRAY = new WorkOrderType[] {
-			FINISH_TO_START, FINISH_TO_FINISH, START_TO_START, START_TO_FINISH, };
+	private static final WorkOrderType[] VALUES_ARRAY = new WorkOrderType[] { FINISH_TO_START, FINISH_TO_FINISH,
+			START_TO_START, START_TO_FINISH, };
 
 	/**
 	 * A public read-only list of all the '<em><b>Work Order Type</b></em>' enumerators.
@@ -139,13 +158,14 @@ public enum WorkOrderType implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public static final List<WorkOrderType> VALUES = Collections
-			.unmodifiableList(Arrays.asList(VALUES_ARRAY));
+	public static final List<WorkOrderType> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
 	/**
 	 * Returns the '<em><b>Work Order Type</b></em>' literal with the specified literal value.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * @param literal the literal.
+	 * @return the matching enumerator or <code>null</code>.
 	 * @generated
 	 */
 	public static WorkOrderType get(String literal) {
@@ -162,6 +182,8 @@ public enum WorkOrderType implements Enumerator {
 	 * Returns the '<em><b>Work Order Type</b></em>' literal with the specified name.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * @param name the name.
+	 * @return the matching enumerator or <code>null</code>.
 	 * @generated
 	 */
 	public static WorkOrderType getByName(String name) {
@@ -178,6 +200,8 @@ public enum WorkOrderType implements Enumerator {
 	 * Returns the '<em><b>Work Order Type</b></em>' literal with the specified integer value.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * @param value the integer value.
+	 * @return the matching enumerator or <code>null</code>.
 	 * @generated
 	 */
 	public static WorkOrderType get(int value) {
@@ -264,4 +288,5 @@ public enum WorkOrderType implements Enumerator {
 	public String toString() {
 		return literal;
 	}
-}
+
+} //WorkOrderType

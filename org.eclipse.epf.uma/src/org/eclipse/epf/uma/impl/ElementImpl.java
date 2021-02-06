@@ -11,8 +11,10 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.ecore.EClass;
+
 import org.eclipse.epf.uma.Element;
 import org.eclipse.epf.uma.UmaPackage;
+
 import org.eclipse.epf.uma.ecore.impl.MultiResourceEObject;
 
 /**
@@ -24,8 +26,7 @@ import org.eclipse.epf.uma.ecore.impl.MultiResourceEObject;
  *
  * @generated
  */
-public abstract class ElementImpl extends MultiResourceEObject implements
-		Element {
+public abstract class ElementImpl extends MultiResourceEObject implements Element {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

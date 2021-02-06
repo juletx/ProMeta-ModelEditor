@@ -13,8 +13,8 @@ package org.eclipse.epf.uma.impl;
 import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.ecore.EClass;
-
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 
 import org.eclipse.epf.uma.ApplicableMetaClassInfo;
@@ -33,8 +33,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class ApplicableMetaClassInfoImpl extends ClassifierImpl implements
-		ApplicableMetaClassInfo {
+public class ApplicableMetaClassInfoImpl extends ClassifierImpl implements ApplicableMetaClassInfo {
 	/**
 	 * The default value of the '{@link #getIsPrimaryExtension() <em>Is Primary Extension</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -96,11 +95,9 @@ public class ApplicableMetaClassInfoImpl extends ClassifierImpl implements
 		Boolean oldIsPrimaryExtension = isPrimaryExtension;
 		isPrimaryExtension = newIsPrimaryExtension;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(
-					this,
-					Notification.SET,
-					UmaPackage.APPLICABLE_META_CLASS_INFO__IS_PRIMARY_EXTENSION,
-					oldIsPrimaryExtension, isPrimaryExtension));
+			eNotify(new ENotificationImpl(this, Notification.SET,
+					UmaPackage.APPLICABLE_META_CLASS_INFO__IS_PRIMARY_EXTENSION, oldIsPrimaryExtension,
+					isPrimaryExtension));
 	}
 
 	/**

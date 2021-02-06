@@ -126,8 +126,7 @@ public class DiagramLinkImpl extends DiagramElementImpl implements DiagramLink {
 		Double oldZoom = zoom;
 		zoom = newZoom;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DIAGRAM_LINK__ZOOM, oldZoom, zoom));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DIAGRAM_LINK__ZOOM, oldZoom, zoom));
 	}
 
 	/**
@@ -141,9 +140,8 @@ public class DiagramLinkImpl extends DiagramElementImpl implements DiagramLink {
 			viewport = (Point) eResolveProxy(oldViewport);
 			if (viewport != oldViewport) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.DIAGRAM_LINK__VIEWPORT, oldViewport,
-							viewport));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.DIAGRAM_LINK__VIEWPORT,
+							oldViewport, viewport));
 			}
 		}
 		return viewport;
@@ -167,8 +165,76 @@ public class DiagramLinkImpl extends DiagramElementImpl implements DiagramLink {
 		Point oldViewport = viewport;
 		viewport = newViewport;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DIAGRAM_LINK__VIEWPORT, oldViewport, viewport));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DIAGRAM_LINK__VIEWPORT, oldViewport,
+					viewport));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Diagram getDiagram() {
+		if (diagram != null && ((EObject) diagram).eIsProxy()) {
+			InternalEObject oldDiagram = (InternalEObject) diagram;
+			diagram = (Diagram) eResolveProxy(oldDiagram);
+			if (diagram != oldDiagram) {
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.DIAGRAM_LINK__DIAGRAM,
+							oldDiagram, diagram));
+			}
+		}
+		return diagram;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Diagram basicGetDiagram() {
+		return diagram;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public NotificationChain basicSetDiagram(Diagram newDiagram, NotificationChain msgs) {
+		Diagram oldDiagram = diagram;
+		diagram = newDiagram;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.DIAGRAM_LINK__DIAGRAM, oldDiagram, newDiagram);
+			if (msgs == null)
+				msgs = notification;
+			else
+				msgs.add(notification);
+		}
+		return msgs;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setDiagram(Diagram newDiagram) {
+		if (newDiagram != diagram) {
+			NotificationChain msgs = null;
+			if (diagram != null)
+				msgs = ((InternalEObject) diagram).eInverseRemove(this, UmaPackage.DIAGRAM__DIAGRAM_LINK, Diagram.class,
+						msgs);
+			if (newDiagram != null)
+				msgs = ((InternalEObject) newDiagram).eInverseAdd(this, UmaPackage.DIAGRAM__DIAGRAM_LINK, Diagram.class,
+						msgs);
+			msgs = basicSetDiagram(newDiagram, msgs);
+			if (msgs != null)
+				msgs.dispatch();
+		} else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DIAGRAM_LINK__DIAGRAM, newDiagram,
+					newDiagram));
 	}
 
 	/**
@@ -198,10 +264,8 @@ public class DiagramLinkImpl extends DiagramElementImpl implements DiagramLink {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetGraphElement(GraphElement newGraphElement,
-			NotificationChain msgs) {
-		msgs = eBasicSetContainer((InternalEObject) newGraphElement,
-				UmaPackage.DIAGRAM_LINK__GRAPH_ELEMENT, msgs);
+	public NotificationChain basicSetGraphElement(GraphElement newGraphElement, NotificationChain msgs) {
+		msgs = eBasicSetContainer((InternalEObject) newGraphElement, UmaPackage.DIAGRAM_LINK__GRAPH_ELEMENT, msgs);
 		return msgs;
 	}
 
@@ -214,93 +278,19 @@ public class DiagramLinkImpl extends DiagramElementImpl implements DiagramLink {
 		if (newGraphElement != eInternalContainer()
 				|| (eContainerFeatureID != UmaPackage.DIAGRAM_LINK__GRAPH_ELEMENT && newGraphElement != null)) {
 			if (EcoreUtil.isAncestor(this, (EObject) newGraphElement))
-				throw new IllegalArgumentException(
-						"Recursive containment not allowed for " + toString()); //$NON-NLS-1$
+				throw new IllegalArgumentException("Recursive containment not allowed for " + toString()); //$NON-NLS-1$
 			NotificationChain msgs = null;
 			if (eInternalContainer() != null)
 				msgs = eBasicRemoveFromContainer(msgs);
 			if (newGraphElement != null)
-				msgs = ((InternalEObject) newGraphElement).eInverseAdd(this,
-						UmaPackage.GRAPH_ELEMENT__LINK, GraphElement.class,
-						msgs);
+				msgs = ((InternalEObject) newGraphElement).eInverseAdd(this, UmaPackage.GRAPH_ELEMENT__LINK,
+						GraphElement.class, msgs);
 			msgs = basicSetGraphElement(newGraphElement, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DIAGRAM_LINK__GRAPH_ELEMENT, newGraphElement,
-					newGraphElement));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Diagram getDiagram() {
-		if (diagram != null && ((EObject) diagram).eIsProxy()) {
-			InternalEObject oldDiagram = (InternalEObject) diagram;
-			diagram = (Diagram) eResolveProxy(oldDiagram);
-			if (diagram != oldDiagram) {
-				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.DIAGRAM_LINK__DIAGRAM, oldDiagram,
-							diagram));
-			}
-		}
-		return diagram;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Diagram basicGetDiagram() {
-		return diagram;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public NotificationChain basicSetDiagram(Diagram newDiagram,
-			NotificationChain msgs) {
-		Diagram oldDiagram = diagram;
-		diagram = newDiagram;
-		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET, UmaPackage.DIAGRAM_LINK__DIAGRAM,
-					oldDiagram, newDiagram);
-			if (msgs == null)
-				msgs = notification;
-			else
-				msgs.add(notification);
-		}
-		return msgs;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDiagram(Diagram newDiagram) {
-		if (newDiagram != diagram) {
-			NotificationChain msgs = null;
-			if (diagram != null)
-				msgs = ((InternalEObject) diagram).eInverseRemove(this,
-						UmaPackage.DIAGRAM__DIAGRAM_LINK, Diagram.class, msgs);
-			if (newDiagram != null)
-				msgs = ((InternalEObject) newDiagram).eInverseAdd(this,
-						UmaPackage.DIAGRAM__DIAGRAM_LINK, Diagram.class, msgs);
-			msgs = basicSetDiagram(newDiagram, msgs);
-			if (msgs != null)
-				msgs.dispatch();
-		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DIAGRAM_LINK__DIAGRAM, newDiagram, newDiagram));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DIAGRAM_LINK__GRAPH_ELEMENT,
+					newGraphElement, newGraphElement));
 	}
 
 	/**
@@ -309,13 +299,12 @@ public class DiagramLinkImpl extends DiagramElementImpl implements DiagramLink {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseAdd(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.DIAGRAM_LINK__DIAGRAM:
 			if (diagram != null)
-				msgs = ((InternalEObject) diagram).eInverseRemove(this,
-						UmaPackage.DIAGRAM__DIAGRAM_LINK, Diagram.class, msgs);
+				msgs = ((InternalEObject) diagram).eInverseRemove(this, UmaPackage.DIAGRAM__DIAGRAM_LINK, Diagram.class,
+						msgs);
 			return basicSetDiagram((Diagram) otherEnd, msgs);
 		case UmaPackage.DIAGRAM_LINK__GRAPH_ELEMENT:
 			if (eInternalContainer() != null)
@@ -331,8 +320,7 @@ public class DiagramLinkImpl extends DiagramElementImpl implements DiagramLink {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.DIAGRAM_LINK__DIAGRAM:
 			return basicSetDiagram(null, msgs);
@@ -348,12 +336,10 @@ public class DiagramLinkImpl extends DiagramElementImpl implements DiagramLink {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eBasicRemoveFromContainerFeature(
-			NotificationChain msgs) {
+	public NotificationChain eBasicRemoveFromContainerFeature(NotificationChain msgs) {
 		switch (eContainerFeatureID) {
 		case UmaPackage.DIAGRAM_LINK__GRAPH_ELEMENT:
-			return eInternalContainer().eInverseRemove(this,
-					UmaPackage.GRAPH_ELEMENT__LINK, GraphElement.class, msgs);
+			return eInternalContainer().eInverseRemove(this, UmaPackage.GRAPH_ELEMENT__LINK, GraphElement.class, msgs);
 		}
 		return super.eBasicRemoveFromContainerFeature(msgs);
 	}
@@ -447,8 +433,7 @@ public class DiagramLinkImpl extends DiagramElementImpl implements DiagramLink {
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.DIAGRAM_LINK__ZOOM:
-			return ZOOM_EDEFAULT == null ? zoom != null : !ZOOM_EDEFAULT
-					.equals(zoom);
+			return ZOOM_EDEFAULT == null ? zoom != null : !ZOOM_EDEFAULT.equals(zoom);
 		case UmaPackage.DIAGRAM_LINK__VIEWPORT:
 			return viewport != null;
 		case UmaPackage.DIAGRAM_LINK__DIAGRAM:

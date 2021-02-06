@@ -14,12 +14,16 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.ContentElement;
 import org.eclipse.epf.uma.ContentPackage;
 import org.eclipse.epf.uma.UmaPackage;
@@ -37,8 +41,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class ContentPackageImpl extends MethodPackageImpl implements
-		ContentPackage {
+public class ContentPackageImpl extends MethodPackageImpl implements ContentPackage {
 	/**
 	 * The cached value of the '{@link #getContentElements() <em>Content Elements</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
@@ -79,8 +82,7 @@ public class ContentPackageImpl extends MethodPackageImpl implements
 	 */
 	public List<ContentElement> getContentElements() {
 		if (contentElements == null) {
-			contentElements = new EObjectContainmentEList.Resolving<ContentElement>(
-					ContentElement.class, this,
+			contentElements = new EObjectContainmentEList.Resolving<ContentElement>(ContentElement.class, this,
 					UmaPackage.CONTENT_PACKAGE__CONTENT_ELEMENTS);
 		}
 		return contentElements;
@@ -92,12 +94,10 @@ public class ContentPackageImpl extends MethodPackageImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.CONTENT_PACKAGE__CONTENT_ELEMENTS:
-			return ((InternalEList<?>) getContentElements()).basicRemove(
-					otherEnd, msgs);
+			return ((InternalEList<?>) getContentElements()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -127,8 +127,7 @@ public class ContentPackageImpl extends MethodPackageImpl implements
 		switch (featureID) {
 		case UmaPackage.CONTENT_PACKAGE__CONTENT_ELEMENTS:
 			getContentElements().clear();
-			getContentElements().addAll(
-					(Collection<? extends ContentElement>) newValue);
+			getContentElements().addAll((Collection<? extends ContentElement>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);

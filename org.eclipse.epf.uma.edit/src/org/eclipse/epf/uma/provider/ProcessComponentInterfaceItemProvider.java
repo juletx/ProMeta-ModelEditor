@@ -15,15 +15,12 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
+
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.ProcessComponentInterface;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -34,10 +31,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class ProcessComponentInterfaceItemProvider extends
-		BreakdownElementItemProvider implements IEditingDomainItemProvider,
-		IStructuredItemContentProvider, ITreeItemContentProvider,
-		IItemLabelProvider, IItemPropertySource {
+public class ProcessComponentInterfaceItemProvider extends BreakdownElementItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -72,14 +66,11 @@ public class ProcessComponentInterfaceItemProvider extends
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures
-					.add(UmaPackage.Literals.PROCESS_COMPONENT_INTERFACE__INTERFACE_SPECIFICATIONS);
-			childrenFeatures
-					.add(UmaPackage.Literals.PROCESS_COMPONENT_INTERFACE__INTERFACE_IO);
+			childrenFeatures.add(UmaPackage.Literals.PROCESS_COMPONENT_INTERFACE__INTERFACE_SPECIFICATIONS);
+			childrenFeatures.add(UmaPackage.Literals.PROCESS_COMPONENT_INTERFACE__INTERFACE_IO);
 		}
 		return childrenFeatures;
 	}
@@ -105,8 +96,7 @@ public class ProcessComponentInterfaceItemProvider extends
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/ProcessComponentInterface")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/ProcessComponentInterface")); //$NON-NLS-1$
 	}
 
 	/**
@@ -136,8 +126,7 @@ public class ProcessComponentInterfaceItemProvider extends
 		switch (notification.getFeatureID(ProcessComponentInterface.class)) {
 		case UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_SPECIFICATIONS:
 		case UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_IO:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -151,29 +140,15 @@ public class ProcessComponentInterfaceItemProvider extends
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
 		newChildDescriptors
-				.add(createChildParameter(
-						UmaPackage.Literals.PROCESS_COMPONENT_INTERFACE__INTERFACE_SPECIFICATIONS,
+				.add(createChildParameter(UmaPackage.Literals.PROCESS_COMPONENT_INTERFACE__INTERFACE_SPECIFICATIONS,
 						UmaFactory.eINSTANCE.createTaskDescriptor()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_COMPONENT_INTERFACE__INTERFACE_IO,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_COMPONENT_INTERFACE__INTERFACE_IO,
 				UmaFactory.eINSTANCE.createWorkProductDescriptor()));
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

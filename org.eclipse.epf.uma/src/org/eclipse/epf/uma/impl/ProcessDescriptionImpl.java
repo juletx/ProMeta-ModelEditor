@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.ProcessDescription;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -31,8 +34,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class ProcessDescriptionImpl extends ActivityDescriptionImpl implements
-		ProcessDescription {
+public class ProcessDescriptionImpl extends ActivityDescriptionImpl implements ProcessDescription {
 	/**
 	 * The default value of the '{@link #getScope() <em>Scope</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -41,7 +43,7 @@ public class ProcessDescriptionImpl extends ActivityDescriptionImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String SCOPE_EDEFAULT = "";
+	protected static final String SCOPE_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getScope() <em>Scope</em>}' attribute.
@@ -61,7 +63,7 @@ public class ProcessDescriptionImpl extends ActivityDescriptionImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String USAGE_NOTES_EDEFAULT = "";
+	protected static final String USAGE_NOTES_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getUsageNotes() <em>Usage Notes</em>}' attribute.
@@ -114,8 +116,8 @@ public class ProcessDescriptionImpl extends ActivityDescriptionImpl implements
 		String oldScope = scope;
 		scope = newScope;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PROCESS_DESCRIPTION__SCOPE, oldScope, scope));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PROCESS_DESCRIPTION__SCOPE, oldScope,
+					scope));
 	}
 
 	/**
@@ -136,9 +138,8 @@ public class ProcessDescriptionImpl extends ActivityDescriptionImpl implements
 		String oldUsageNotes = usageNotes;
 		usageNotes = newUsageNotes;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PROCESS_DESCRIPTION__USAGE_NOTES, oldUsageNotes,
-					usageNotes));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PROCESS_DESCRIPTION__USAGE_NOTES,
+					oldUsageNotes, usageNotes));
 	}
 
 	/**
@@ -208,11 +209,9 @@ public class ProcessDescriptionImpl extends ActivityDescriptionImpl implements
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.PROCESS_DESCRIPTION__SCOPE:
-			return SCOPE_EDEFAULT == null ? scope != null : !SCOPE_EDEFAULT
-					.equals(scope);
+			return SCOPE_EDEFAULT == null ? scope != null : !SCOPE_EDEFAULT.equals(scope);
 		case UmaPackage.PROCESS_DESCRIPTION__USAGE_NOTES:
-			return USAGE_NOTES_EDEFAULT == null ? usageNotes != null
-					: !USAGE_NOTES_EDEFAULT.equals(usageNotes);
+			return USAGE_NOTES_EDEFAULT == null ? usageNotes != null : !USAGE_NOTES_EDEFAULT.equals(usageNotes);
 		}
 		return super.eIsSet(featureID);
 	}

@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.DeliverableDescription;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -31,8 +34,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class DeliverableDescriptionImpl extends WorkProductDescriptionImpl
-		implements DeliverableDescription {
+public class DeliverableDescriptionImpl extends WorkProductDescriptionImpl implements DeliverableDescription {
 	/**
 	 * The default value of the '{@link #getExternalDescription() <em>External Description</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -41,7 +43,7 @@ public class DeliverableDescriptionImpl extends WorkProductDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String EXTERNAL_DESCRIPTION_EDEFAULT = "";
+	protected static final String EXTERNAL_DESCRIPTION_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getExternalDescription() <em>External Description</em>}' attribute.
@@ -61,7 +63,7 @@ public class DeliverableDescriptionImpl extends WorkProductDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String PACKAGING_GUIDANCE_EDEFAULT = "";
+	protected static final String PACKAGING_GUIDANCE_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getPackagingGuidance() <em>Packaging Guidance</em>}' attribute.
@@ -115,8 +117,8 @@ public class DeliverableDescriptionImpl extends WorkProductDescriptionImpl
 		externalDescription = newExternalDescription;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DELIVERABLE_DESCRIPTION__EXTERNAL_DESCRIPTION,
-					oldExternalDescription, externalDescription));
+					UmaPackage.DELIVERABLE_DESCRIPTION__EXTERNAL_DESCRIPTION, oldExternalDescription,
+					externalDescription));
 	}
 
 	/**
@@ -138,8 +140,7 @@ public class DeliverableDescriptionImpl extends WorkProductDescriptionImpl
 		packagingGuidance = newPackagingGuidance;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DELIVERABLE_DESCRIPTION__PACKAGING_GUIDANCE,
-					oldPackagingGuidance, packagingGuidance));
+					UmaPackage.DELIVERABLE_DESCRIPTION__PACKAGING_GUIDANCE, oldPackagingGuidance, packagingGuidance));
 	}
 
 	/**
@@ -210,8 +211,7 @@ public class DeliverableDescriptionImpl extends WorkProductDescriptionImpl
 		switch (featureID) {
 		case UmaPackage.DELIVERABLE_DESCRIPTION__EXTERNAL_DESCRIPTION:
 			return EXTERNAL_DESCRIPTION_EDEFAULT == null ? externalDescription != null
-					: !EXTERNAL_DESCRIPTION_EDEFAULT
-							.equals(externalDescription);
+					: !EXTERNAL_DESCRIPTION_EDEFAULT.equals(externalDescription);
 		case UmaPackage.DELIVERABLE_DESCRIPTION__PACKAGING_GUIDANCE:
 			return PACKAGING_GUIDANCE_EDEFAULT == null ? packagingGuidance != null
 					: !PACKAGING_GUIDANCE_EDEFAULT.equals(packagingGuidance);

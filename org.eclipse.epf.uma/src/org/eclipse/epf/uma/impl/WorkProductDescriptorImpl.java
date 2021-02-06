@@ -15,15 +15,20 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 import org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.WorkProduct;
 import org.eclipse.epf.uma.WorkProductDescriptor;
@@ -47,8 +52,7 @@ import org.eclipse.epf.uma.WorkProductDescriptor;
  *
  * @generated
  */
-public class WorkProductDescriptorImpl extends DescriptorImpl implements
-		WorkProductDescriptor {
+public class WorkProductDescriptorImpl extends DescriptorImpl implements WorkProductDescriptor {
 	/**
 	 * The default value of the '{@link #getActivityEntryState() <em>Activity Entry State</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -181,8 +185,8 @@ public class WorkProductDescriptorImpl extends DescriptorImpl implements
 		activityEntryState = newActivityEntryState;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.WORK_PRODUCT_DESCRIPTOR__ACTIVITY_ENTRY_STATE,
-					oldActivityEntryState, activityEntryState));
+					UmaPackage.WORK_PRODUCT_DESCRIPTOR__ACTIVITY_ENTRY_STATE, oldActivityEntryState,
+					activityEntryState));
 	}
 
 	/**
@@ -204,8 +208,7 @@ public class WorkProductDescriptorImpl extends DescriptorImpl implements
 		activityExitState = newActivityExitState;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.WORK_PRODUCT_DESCRIPTOR__ACTIVITY_EXIT_STATE,
-					oldActivityExitState, activityExitState));
+					UmaPackage.WORK_PRODUCT_DESCRIPTOR__ACTIVITY_EXIT_STATE, oldActivityExitState, activityExitState));
 	}
 
 	/**
@@ -220,8 +223,7 @@ public class WorkProductDescriptorImpl extends DescriptorImpl implements
 			if (workProduct != oldWorkProduct) {
 				if (eNotificationRequired())
 					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.WORK_PRODUCT_DESCRIPTOR__WORK_PRODUCT,
-							oldWorkProduct, workProduct));
+							UmaPackage.WORK_PRODUCT_DESCRIPTOR__WORK_PRODUCT, oldWorkProduct, workProduct));
 			}
 		}
 		return workProduct;
@@ -245,8 +247,7 @@ public class WorkProductDescriptorImpl extends DescriptorImpl implements
 		WorkProduct oldWorkProduct = workProduct;
 		workProduct = newWorkProduct;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.WORK_PRODUCT_DESCRIPTOR__WORK_PRODUCT,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.WORK_PRODUCT_DESCRIPTOR__WORK_PRODUCT,
 					oldWorkProduct, workProduct));
 	}
 
@@ -258,8 +259,7 @@ public class WorkProductDescriptorImpl extends DescriptorImpl implements
 	public List<WorkProductDescriptor> getImpactedBy() {
 		if (impactedBy == null) {
 			impactedBy = new EObjectWithInverseResolvingEList.ManyInverse<WorkProductDescriptor>(
-					WorkProductDescriptor.class, this,
-					UmaPackage.WORK_PRODUCT_DESCRIPTOR__IMPACTED_BY,
+					WorkProductDescriptor.class, this, UmaPackage.WORK_PRODUCT_DESCRIPTOR__IMPACTED_BY,
 					UmaPackage.WORK_PRODUCT_DESCRIPTOR__IMPACTS);
 		}
 		return impactedBy;
@@ -273,8 +273,7 @@ public class WorkProductDescriptorImpl extends DescriptorImpl implements
 	public List<WorkProductDescriptor> getImpacts() {
 		if (impacts == null) {
 			impacts = new EObjectWithInverseResolvingEList.ManyInverse<WorkProductDescriptor>(
-					WorkProductDescriptor.class, this,
-					UmaPackage.WORK_PRODUCT_DESCRIPTOR__IMPACTS,
+					WorkProductDescriptor.class, this, UmaPackage.WORK_PRODUCT_DESCRIPTOR__IMPACTS,
 					UmaPackage.WORK_PRODUCT_DESCRIPTOR__IMPACTED_BY);
 		}
 		return impacts;
@@ -287,8 +286,7 @@ public class WorkProductDescriptorImpl extends DescriptorImpl implements
 	 */
 	public List<WorkProductDescriptor> getDeliverableParts() {
 		if (deliverableParts == null) {
-			deliverableParts = new EObjectResolvingEList<WorkProductDescriptor>(
-					WorkProductDescriptor.class, this,
+			deliverableParts = new EObjectResolvingEList<WorkProductDescriptor>(WorkProductDescriptor.class, this,
 					UmaPackage.WORK_PRODUCT_DESCRIPTOR__DELIVERABLE_PARTS);
 		}
 		return deliverableParts;
@@ -301,9 +299,7 @@ public class WorkProductDescriptorImpl extends DescriptorImpl implements
 	 */
 	public List<WorkProduct> getDeliverablePartsExclude() {
 		if (deliverablePartsExclude == null) {
-			deliverablePartsExclude = new EObjectResolvingEList<WorkProduct>(
-					WorkProduct.class,
-					this,
+			deliverablePartsExclude = new EObjectResolvingEList<WorkProduct>(WorkProduct.class, this,
 					UmaPackage.WORK_PRODUCT_DESCRIPTOR__DELIVERABLE_PARTS_EXCLUDE);
 		}
 		return deliverablePartsExclude;
@@ -316,15 +312,12 @@ public class WorkProductDescriptorImpl extends DescriptorImpl implements
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public NotificationChain eInverseAdd(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.WORK_PRODUCT_DESCRIPTOR__IMPACTED_BY:
-			return ((InternalEList<InternalEObject>) (InternalEList<?>) getImpactedBy())
-					.basicAdd(otherEnd, msgs);
+			return ((InternalEList<InternalEObject>) (InternalEList<?>) getImpactedBy()).basicAdd(otherEnd, msgs);
 		case UmaPackage.WORK_PRODUCT_DESCRIPTOR__IMPACTS:
-			return ((InternalEList<InternalEObject>) (InternalEList<?>) getImpacts())
-					.basicAdd(otherEnd, msgs);
+			return ((InternalEList<InternalEObject>) (InternalEList<?>) getImpacts()).basicAdd(otherEnd, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -335,15 +328,12 @@ public class WorkProductDescriptorImpl extends DescriptorImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.WORK_PRODUCT_DESCRIPTOR__IMPACTED_BY:
-			return ((InternalEList<?>) getImpactedBy()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getImpactedBy()).basicRemove(otherEnd, msgs);
 		case UmaPackage.WORK_PRODUCT_DESCRIPTOR__IMPACTS:
-			return ((InternalEList<?>) getImpacts())
-					.basicRemove(otherEnd, msgs);
+			return ((InternalEList<?>) getImpacts()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -396,23 +386,19 @@ public class WorkProductDescriptorImpl extends DescriptorImpl implements
 			return;
 		case UmaPackage.WORK_PRODUCT_DESCRIPTOR__IMPACTED_BY:
 			getImpactedBy().clear();
-			getImpactedBy().addAll(
-					(Collection<? extends WorkProductDescriptor>) newValue);
+			getImpactedBy().addAll((Collection<? extends WorkProductDescriptor>) newValue);
 			return;
 		case UmaPackage.WORK_PRODUCT_DESCRIPTOR__IMPACTS:
 			getImpacts().clear();
-			getImpacts().addAll(
-					(Collection<? extends WorkProductDescriptor>) newValue);
+			getImpacts().addAll((Collection<? extends WorkProductDescriptor>) newValue);
 			return;
 		case UmaPackage.WORK_PRODUCT_DESCRIPTOR__DELIVERABLE_PARTS:
 			getDeliverableParts().clear();
-			getDeliverableParts().addAll(
-					(Collection<? extends WorkProductDescriptor>) newValue);
+			getDeliverableParts().addAll((Collection<? extends WorkProductDescriptor>) newValue);
 			return;
 		case UmaPackage.WORK_PRODUCT_DESCRIPTOR__DELIVERABLE_PARTS_EXCLUDE:
 			getDeliverablePartsExclude().clear();
-			getDeliverablePartsExclude().addAll(
-					(Collection<? extends WorkProduct>) newValue);
+			getDeliverablePartsExclude().addAll((Collection<? extends WorkProduct>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -480,8 +466,7 @@ public class WorkProductDescriptorImpl extends DescriptorImpl implements
 		case UmaPackage.WORK_PRODUCT_DESCRIPTOR__DELIVERABLE_PARTS:
 			return deliverableParts != null && !deliverableParts.isEmpty();
 		case UmaPackage.WORK_PRODUCT_DESCRIPTOR__DELIVERABLE_PARTS_EXCLUDE:
-			return deliverablePartsExclude != null
-					&& !deliverablePartsExclude.isEmpty();
+			return deliverablePartsExclude != null && !deliverablePartsExclude.isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

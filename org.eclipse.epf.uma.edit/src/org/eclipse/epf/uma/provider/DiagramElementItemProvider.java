@@ -15,17 +15,14 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.DiagramElement;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -36,9 +33,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class DiagramElementItemProvider extends MethodElementItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class DiagramElementItemProvider extends MethodElementItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -74,15 +69,11 @@ public class DiagramElementItemProvider extends MethodElementItemProvider
 	 */
 	protected void addIsVisiblePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_DiagramElement_isVisible_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_DiagramElement_isVisible_feature", "_UI_DiagramElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DIAGRAM_ELEMENT__IS_VISIBLE, true,
-						false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_DiagramElement_isVisible_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_DiagramElement_isVisible_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_DiagramElement_type"), //$NON-NLS-1$
+						UmaPackage.Literals.DIAGRAM_ELEMENT__IS_VISIBLE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -94,15 +85,11 @@ public class DiagramElementItemProvider extends MethodElementItemProvider
 	 */
 	protected void addReferencePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_DiagramElement_reference_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_DiagramElement_reference_feature", "_UI_DiagramElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DIAGRAM_ELEMENT__REFERENCE, true,
-						false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_DiagramElement_reference_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_DiagramElement_reference_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_DiagramElement_type"), //$NON-NLS-1$
+						UmaPackage.Literals.DIAGRAM_ELEMENT__REFERENCE, true, false, true, null, null, null));
 	}
 
 	/**
@@ -114,8 +101,7 @@ public class DiagramElementItemProvider extends MethodElementItemProvider
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
 			childrenFeatures.add(UmaPackage.Literals.DIAGRAM_ELEMENT__PROPERTY);
@@ -162,12 +148,10 @@ public class DiagramElementItemProvider extends MethodElementItemProvider
 
 		switch (notification.getFeatureID(DiagramElement.class)) {
 		case UmaPackage.DIAGRAM_ELEMENT__IS_VISIBLE:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), false, true));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		case UmaPackage.DIAGRAM_ELEMENT__PROPERTY:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -181,24 +165,11 @@ public class DiagramElementItemProvider extends MethodElementItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.DIAGRAM_ELEMENT__PROPERTY,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.DIAGRAM_ELEMENT__PROPERTY,
 				UmaFactory.eINSTANCE.createProperty()));
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

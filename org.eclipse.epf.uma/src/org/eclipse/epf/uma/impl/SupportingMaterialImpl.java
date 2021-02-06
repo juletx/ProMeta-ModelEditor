@@ -11,6 +11,7 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.ecore.EClass;
+
 import org.eclipse.epf.uma.SupportingMaterial;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -23,8 +24,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class SupportingMaterialImpl extends GuidanceImpl implements
-		SupportingMaterial {
+public class SupportingMaterialImpl extends GuidanceImpl implements SupportingMaterial {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

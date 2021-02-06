@@ -57,34 +57,6 @@ public interface SemanticModelBridge extends DiagramElement {
 	void setPresentation(String value);
 
 	/**
-	 * Returns the value of the '<em><b>Graph Element</b></em>' container reference.
-	 * It is bidirectional and its opposite is '{@link org.eclipse.epf.uma.GraphElement#getSemanticModel <em>Semantic Model</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Graph Element</em>' container reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Graph Element</em>' container reference.
-	 * @see #setGraphElement(GraphElement)
-	 * @see org.eclipse.epf.uma.UmaPackage#getSemanticModelBridge_GraphElement()
-	 * @see org.eclipse.epf.uma.GraphElement#getSemanticModel
-	 * @model opposite="semanticModel" transient="false" ordered="false"
-	 * @generated
-	 */
-	GraphElement getGraphElement();
-
-	/**
-	 * Sets the value of the '{@link org.eclipse.epf.uma.SemanticModelBridge#getGraphElement <em>Graph Element</em>}' container reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Graph Element</em>' container reference.
-	 * @see #getGraphElement()
-	 * @generated
-	 */
-	void setGraphElement(GraphElement value);
-
-	/**
 	 * Returns the value of the '<em><b>Diagram</b></em>' container reference.
 	 * It is bidirectional and its opposite is '{@link org.eclipse.epf.uma.Diagram#getNamespace <em>Namespace</em>}'.
 	 * <!-- begin-user-doc -->
@@ -111,5 +83,33 @@ public interface SemanticModelBridge extends DiagramElement {
 	 * @generated
 	 */
 	void setDiagram(Diagram value);
+
+	/**
+	 * Returns the value of the '<em><b>Graph Element</b></em>' container reference.
+	 * It is bidirectional and its opposite is '{@link org.eclipse.epf.uma.GraphElement#getSemanticModel <em>Semantic Model</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Graph Element</em>' container reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Graph Element</em>' container reference.
+	 * @see #setGraphElement(GraphElement)
+	 * @see org.eclipse.epf.uma.UmaPackage#getSemanticModelBridge_GraphElement()
+	 * @see org.eclipse.epf.uma.GraphElement#getSemanticModel
+	 * @model opposite="semanticModel" transient="false" ordered="false"
+	 * @generated
+	 */
+	GraphElement getGraphElement();
+
+	/**
+	 * Sets the value of the '{@link org.eclipse.epf.uma.SemanticModelBridge#getGraphElement <em>Graph Element</em>}' container reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Graph Element</em>' container reference.
+	 * @see #getGraphElement()
+	 * @generated
+	 */
+	void setGraphElement(GraphElement value);
 
 } // SemanticModelBridge

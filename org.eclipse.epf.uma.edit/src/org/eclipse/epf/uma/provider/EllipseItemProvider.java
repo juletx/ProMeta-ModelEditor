@@ -15,19 +15,13 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
-import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.Ellipse;
-import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
 
 /**
@@ -36,9 +30,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class EllipseItemProvider extends GraphicPrimitiveItemProvider implements
-		IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class EllipseItemProvider extends GraphicPrimitiveItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -78,15 +70,11 @@ public class EllipseItemProvider extends GraphicPrimitiveItemProvider implements
 	 */
 	protected void addCenterPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Ellipse_center_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Ellipse_center_feature", "_UI_Ellipse_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.ELLIPSE__CENTER, true, false, true,
-						null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Ellipse_center_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Ellipse_center_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Ellipse_type"), //$NON-NLS-1$
+						UmaPackage.Literals.ELLIPSE__CENTER, true, false, true, null, null, null));
 	}
 
 	/**
@@ -97,16 +85,12 @@ public class EllipseItemProvider extends GraphicPrimitiveItemProvider implements
 	 */
 	protected void addRadiusXPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Ellipse_radiusX_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Ellipse_radiusX_feature", "_UI_Ellipse_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.ELLIPSE__RADIUS_X, true, false,
-						false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-						null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Ellipse_radiusX_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Ellipse_radiusX_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Ellipse_type"), //$NON-NLS-1$
+						UmaPackage.Literals.ELLIPSE__RADIUS_X, true, false, false,
+						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -117,16 +101,12 @@ public class EllipseItemProvider extends GraphicPrimitiveItemProvider implements
 	 */
 	protected void addRadiusYPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Ellipse_radiusY_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Ellipse_radiusY_feature", "_UI_Ellipse_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.ELLIPSE__RADIUS_Y, true, false,
-						false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-						null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Ellipse_radiusY_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Ellipse_radiusY_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Ellipse_type"), //$NON-NLS-1$
+						UmaPackage.Literals.ELLIPSE__RADIUS_Y, true, false, false,
+						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -137,16 +117,12 @@ public class EllipseItemProvider extends GraphicPrimitiveItemProvider implements
 	 */
 	protected void addRotationPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Ellipse_rotation_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Ellipse_rotation_feature", "_UI_Ellipse_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.ELLIPSE__ROTATION, true, false,
-						false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-						null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Ellipse_rotation_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Ellipse_rotation_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Ellipse_type"), //$NON-NLS-1$
+						UmaPackage.Literals.ELLIPSE__ROTATION, true, false, false,
+						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -157,16 +133,12 @@ public class EllipseItemProvider extends GraphicPrimitiveItemProvider implements
 	 */
 	protected void addStartAnglePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Ellipse_startAngle_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Ellipse_startAngle_feature", "_UI_Ellipse_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.ELLIPSE__START_ANGLE, true, false,
-						false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-						null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Ellipse_startAngle_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Ellipse_startAngle_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Ellipse_type"), //$NON-NLS-1$
+						UmaPackage.Literals.ELLIPSE__START_ANGLE, true, false, false,
+						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -177,16 +149,12 @@ public class EllipseItemProvider extends GraphicPrimitiveItemProvider implements
 	 */
 	protected void addEndAnglePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Ellipse_endAngle_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Ellipse_endAngle_feature", "_UI_Ellipse_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.ELLIPSE__END_ANGLE, true, false,
-						false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-						null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Ellipse_endAngle_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Ellipse_endAngle_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Ellipse_type"), //$NON-NLS-1$
+						UmaPackage.Literals.ELLIPSE__END_ANGLE, true, false, false,
+						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -197,8 +165,7 @@ public class EllipseItemProvider extends GraphicPrimitiveItemProvider implements
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/Ellipse")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/Ellipse")); //$NON-NLS-1$
 	}
 
 	/**
@@ -231,8 +198,7 @@ public class EllipseItemProvider extends GraphicPrimitiveItemProvider implements
 		case UmaPackage.ELLIPSE__ROTATION:
 		case UmaPackage.ELLIPSE__START_ANGLE:
 		case UmaPackage.ELLIPSE__END_ANGLE:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), false, true));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -246,20 +212,8 @@ public class EllipseItemProvider extends GraphicPrimitiveItemProvider implements
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

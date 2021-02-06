@@ -14,13 +14,17 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.Domain;
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.WorkProduct;
@@ -90,8 +94,8 @@ public class DomainImpl extends ContentCategoryImpl implements Domain {
 	 */
 	public List<WorkProduct> getWorkProducts() {
 		if (workProducts == null) {
-			workProducts = new EObjectResolvingEList<WorkProduct>(
-					WorkProduct.class, this, UmaPackage.DOMAIN__WORK_PRODUCTS);
+			workProducts = new EObjectResolvingEList<WorkProduct>(WorkProduct.class, this,
+					UmaPackage.DOMAIN__WORK_PRODUCTS);
 		}
 		return workProducts;
 	}
@@ -103,8 +107,8 @@ public class DomainImpl extends ContentCategoryImpl implements Domain {
 	 */
 	public List<Domain> getSubdomains() {
 		if (subdomains == null) {
-			subdomains = new EObjectContainmentEList.Resolving<Domain>(
-					Domain.class, this, UmaPackage.DOMAIN__SUBDOMAINS);
+			subdomains = new EObjectContainmentEList.Resolving<Domain>(Domain.class, this,
+					UmaPackage.DOMAIN__SUBDOMAINS);
 		}
 		return subdomains;
 	}
@@ -115,12 +119,10 @@ public class DomainImpl extends ContentCategoryImpl implements Domain {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.DOMAIN__SUBDOMAINS:
-			return ((InternalEList<?>) getSubdomains()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getSubdomains()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -152,8 +154,7 @@ public class DomainImpl extends ContentCategoryImpl implements Domain {
 		switch (featureID) {
 		case UmaPackage.DOMAIN__WORK_PRODUCTS:
 			getWorkProducts().clear();
-			getWorkProducts().addAll(
-					(Collection<? extends WorkProduct>) newValue);
+			getWorkProducts().addAll((Collection<? extends WorkProduct>) newValue);
 			return;
 		case UmaPackage.DOMAIN__SUBDOMAINS:
 			getSubdomains().clear();

@@ -15,16 +15,12 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.PlanningData;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -34,9 +30,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class PlanningDataItemProvider extends ProcessElementItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class PlanningDataItemProvider extends ProcessElementItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -73,15 +67,11 @@ public class PlanningDataItemProvider extends ProcessElementItemProvider
 	 */
 	protected void addStartDatePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_PlanningData_startDate_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_PlanningData_startDate_feature", "_UI_PlanningData_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.PLANNING_DATA__START_DATE, true,
-						false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_PlanningData_startDate_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_PlanningData_startDate_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_PlanningData_type"), //$NON-NLS-1$
+						UmaPackage.Literals.PLANNING_DATA__START_DATE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -93,15 +83,11 @@ public class PlanningDataItemProvider extends ProcessElementItemProvider
 	 */
 	protected void addFinishDatePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_PlanningData_finishDate_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_PlanningData_finishDate_feature", "_UI_PlanningData_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.PLANNING_DATA__FINISH_DATE, true,
-						false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_PlanningData_finishDate_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_PlanningData_finishDate_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_PlanningData_type"), //$NON-NLS-1$
+						UmaPackage.Literals.PLANNING_DATA__FINISH_DATE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -113,16 +99,12 @@ public class PlanningDataItemProvider extends ProcessElementItemProvider
 	 */
 	protected void addRankPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_PlanningData_rank_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_PlanningData_rank_feature", "_UI_PlanningData_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.PLANNING_DATA__RANK, true, false,
-						false, ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
-						null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_PlanningData_rank_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_PlanningData_rank_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_PlanningData_type"), //$NON-NLS-1$
+						UmaPackage.Literals.PLANNING_DATA__RANK, true, false, false,
+						ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -133,8 +115,7 @@ public class PlanningDataItemProvider extends ProcessElementItemProvider
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/PlanningData")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/PlanningData")); //$NON-NLS-1$
 	}
 
 	/**
@@ -165,8 +146,7 @@ public class PlanningDataItemProvider extends ProcessElementItemProvider
 		case UmaPackage.PLANNING_DATA__START_DATE:
 		case UmaPackage.PLANNING_DATA__FINISH_DATE:
 		case UmaPackage.PLANNING_DATA__RANK:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), false, true));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -180,20 +160,8 @@ public class PlanningDataItemProvider extends ProcessElementItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

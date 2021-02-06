@@ -15,16 +15,12 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.SimpleSemanticModelElement;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -34,10 +30,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class SimpleSemanticModelElementItemProvider extends
-		SemanticModelBridgeItemProvider implements IEditingDomainItemProvider,
-		IStructuredItemContentProvider, ITreeItemContentProvider,
-		IItemLabelProvider, IItemPropertySource {
+public class SimpleSemanticModelElementItemProvider extends SemanticModelBridgeItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -71,17 +64,13 @@ public class SimpleSemanticModelElementItemProvider extends
 	 * @generated
 	 */
 	protected void addTypeInfoPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_SimpleSemanticModelElement_typeInfo_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_SimpleSemanticModelElement_typeInfo_feature", "_UI_SimpleSemanticModelElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.SIMPLE_SEMANTIC_MODEL_ELEMENT__TYPE_INFO,
-						true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_SimpleSemanticModelElement_typeInfo_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", "_UI_SimpleSemanticModelElement_typeInfo_feature", //$NON-NLS-1$//$NON-NLS-2$
+						"_UI_SimpleSemanticModelElement_type"), //$NON-NLS-1$
+				UmaPackage.Literals.SIMPLE_SEMANTIC_MODEL_ELEMENT__TYPE_INFO, true, false, false,
+				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -92,8 +81,7 @@ public class SimpleSemanticModelElementItemProvider extends
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/SimpleSemanticModelElement")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/SimpleSemanticModelElement")); //$NON-NLS-1$
 	}
 
 	/**
@@ -122,8 +110,7 @@ public class SimpleSemanticModelElementItemProvider extends
 
 		switch (notification.getFeatureID(SimpleSemanticModelElement.class)) {
 		case UmaPackage.SIMPLE_SEMANTIC_MODEL_ELEMENT__TYPE_INFO:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), false, true));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -137,20 +124,8 @@ public class SimpleSemanticModelElementItemProvider extends
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

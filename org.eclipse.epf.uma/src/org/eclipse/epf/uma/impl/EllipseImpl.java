@@ -11,12 +11,14 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.Ellipse;
 import org.eclipse.epf.uma.Point;
 import org.eclipse.epf.uma.UmaPackage;
@@ -178,124 +180,14 @@ public class EllipseImpl extends GraphicPrimitiveImpl implements Ellipse {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Double getRadiusX() {
-		return radiusX;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRadiusX(Double newRadiusX) {
-		Double oldRadiusX = radiusX;
-		radiusX = newRadiusX;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ELLIPSE__RADIUS_X, oldRadiusX, radiusX));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Double getRadiusY() {
-		return radiusY;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRadiusY(Double newRadiusY) {
-		Double oldRadiusY = radiusY;
-		radiusY = newRadiusY;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ELLIPSE__RADIUS_Y, oldRadiusY, radiusY));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Double getRotation() {
-		return rotation;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRotation(Double newRotation) {
-		Double oldRotation = rotation;
-		rotation = newRotation;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ELLIPSE__ROTATION, oldRotation, rotation));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Double getStartAngle() {
-		return startAngle;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setStartAngle(Double newStartAngle) {
-		Double oldStartAngle = startAngle;
-		startAngle = newStartAngle;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ELLIPSE__START_ANGLE, oldStartAngle, startAngle));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Double getEndAngle() {
-		return endAngle;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setEndAngle(Double newEndAngle) {
-		Double oldEndAngle = endAngle;
-		endAngle = newEndAngle;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ELLIPSE__END_ANGLE, oldEndAngle, endAngle));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public Point getCenter() {
 		if (center != null && ((EObject) center).eIsProxy()) {
 			InternalEObject oldCenter = (InternalEObject) center;
 			center = (Point) eResolveProxy(oldCenter);
 			if (center != oldCenter) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.ELLIPSE__CENTER, oldCenter, center));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.ELLIPSE__CENTER, oldCenter,
+							center));
 			}
 		}
 		return center;
@@ -319,8 +211,114 @@ public class EllipseImpl extends GraphicPrimitiveImpl implements Ellipse {
 		Point oldCenter = center;
 		center = newCenter;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ELLIPSE__CENTER, oldCenter, center));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ELLIPSE__CENTER, oldCenter, center));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Double getRadiusX() {
+		return radiusX;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setRadiusX(Double newRadiusX) {
+		Double oldRadiusX = radiusX;
+		radiusX = newRadiusX;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ELLIPSE__RADIUS_X, oldRadiusX, radiusX));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Double getRadiusY() {
+		return radiusY;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setRadiusY(Double newRadiusY) {
+		Double oldRadiusY = radiusY;
+		radiusY = newRadiusY;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ELLIPSE__RADIUS_Y, oldRadiusY, radiusY));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Double getRotation() {
+		return rotation;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setRotation(Double newRotation) {
+		Double oldRotation = rotation;
+		rotation = newRotation;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ELLIPSE__ROTATION, oldRotation, rotation));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Double getStartAngle() {
+		return startAngle;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setStartAngle(Double newStartAngle) {
+		Double oldStartAngle = startAngle;
+		startAngle = newStartAngle;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ELLIPSE__START_ANGLE, oldStartAngle,
+					startAngle));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Double getEndAngle() {
+		return endAngle;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setEndAngle(Double newEndAngle) {
+		Double oldEndAngle = endAngle;
+		endAngle = newEndAngle;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ELLIPSE__END_ANGLE, oldEndAngle,
+					endAngle));
 	}
 
 	/**
@@ -426,20 +424,15 @@ public class EllipseImpl extends GraphicPrimitiveImpl implements Ellipse {
 		case UmaPackage.ELLIPSE__CENTER:
 			return center != null;
 		case UmaPackage.ELLIPSE__RADIUS_X:
-			return RADIUS_X_EDEFAULT == null ? radiusX != null
-					: !RADIUS_X_EDEFAULT.equals(radiusX);
+			return RADIUS_X_EDEFAULT == null ? radiusX != null : !RADIUS_X_EDEFAULT.equals(radiusX);
 		case UmaPackage.ELLIPSE__RADIUS_Y:
-			return RADIUS_Y_EDEFAULT == null ? radiusY != null
-					: !RADIUS_Y_EDEFAULT.equals(radiusY);
+			return RADIUS_Y_EDEFAULT == null ? radiusY != null : !RADIUS_Y_EDEFAULT.equals(radiusY);
 		case UmaPackage.ELLIPSE__ROTATION:
-			return ROTATION_EDEFAULT == null ? rotation != null
-					: !ROTATION_EDEFAULT.equals(rotation);
+			return ROTATION_EDEFAULT == null ? rotation != null : !ROTATION_EDEFAULT.equals(rotation);
 		case UmaPackage.ELLIPSE__START_ANGLE:
-			return START_ANGLE_EDEFAULT == null ? startAngle != null
-					: !START_ANGLE_EDEFAULT.equals(startAngle);
+			return START_ANGLE_EDEFAULT == null ? startAngle != null : !START_ANGLE_EDEFAULT.equals(startAngle);
 		case UmaPackage.ELLIPSE__END_ANGLE:
-			return END_ANGLE_EDEFAULT == null ? endAngle != null
-					: !END_ANGLE_EDEFAULT.equals(endAngle);
+			return END_ANGLE_EDEFAULT == null ? endAngle != null : !END_ANGLE_EDEFAULT.equals(endAngle);
 		}
 		return super.eIsSet(featureID);
 	}

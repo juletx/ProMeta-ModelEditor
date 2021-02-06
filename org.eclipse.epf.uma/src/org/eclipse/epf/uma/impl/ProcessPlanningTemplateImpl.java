@@ -14,9 +14,12 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.ProcessPlanningTemplate;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -33,8 +36,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class ProcessPlanningTemplateImpl extends ProcessImpl implements
-		ProcessPlanningTemplate {
+public class ProcessPlanningTemplateImpl extends ProcessImpl implements ProcessPlanningTemplate {
 	/**
 	 * The cached value of the '{@link #getBasedOnProcesses() <em>Based On Processes</em>}' reference list.
 	 * <!-- begin-user-doc -->
@@ -75,9 +77,8 @@ public class ProcessPlanningTemplateImpl extends ProcessImpl implements
 	 */
 	public List<org.eclipse.epf.uma.Process> getBasedOnProcesses() {
 		if (basedOnProcesses == null) {
-			basedOnProcesses = new EObjectResolvingEList<org.eclipse.epf.uma.Process>(
-					org.eclipse.epf.uma.Process.class, this,
-					UmaPackage.PROCESS_PLANNING_TEMPLATE__BASED_ON_PROCESSES);
+			basedOnProcesses = new EObjectResolvingEList<org.eclipse.epf.uma.Process>(org.eclipse.epf.uma.Process.class,
+					this, UmaPackage.PROCESS_PLANNING_TEMPLATE__BASED_ON_PROCESSES);
 		}
 		return basedOnProcesses;
 	}
@@ -107,9 +108,7 @@ public class ProcessPlanningTemplateImpl extends ProcessImpl implements
 		switch (featureID) {
 		case UmaPackage.PROCESS_PLANNING_TEMPLATE__BASED_ON_PROCESSES:
 			getBasedOnProcesses().clear();
-			getBasedOnProcesses()
-					.addAll(
-							(Collection<? extends org.eclipse.epf.uma.Process>) newValue);
+			getBasedOnProcesses().addAll((Collection<? extends org.eclipse.epf.uma.Process>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);

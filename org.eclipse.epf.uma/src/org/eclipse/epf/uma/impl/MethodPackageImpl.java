@@ -15,15 +15,19 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
-import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.MethodPackage;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -42,8 +46,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public abstract class MethodPackageImpl extends MethodElementImpl implements
-		MethodPackage {
+public abstract class MethodPackageImpl extends MethodElementImpl implements MethodPackage {
 	/**
 	 * The default value of the '{@link #getGlobal() <em>Global</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -125,8 +128,8 @@ public abstract class MethodPackageImpl extends MethodElementImpl implements
 		Boolean oldGlobal = global;
 		global = newGlobal;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_PACKAGE__GLOBAL, oldGlobal, global));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_PACKAGE__GLOBAL, oldGlobal,
+					global));
 	}
 
 	/**
@@ -136,8 +139,7 @@ public abstract class MethodPackageImpl extends MethodElementImpl implements
 	 */
 	public List<MethodPackage> getReusedPackages() {
 		if (reusedPackages == null) {
-			reusedPackages = new EObjectResolvingEList<MethodPackage>(
-					MethodPackage.class, this,
+			reusedPackages = new EObjectResolvingEList<MethodPackage>(MethodPackage.class, this,
 					UmaPackage.METHOD_PACKAGE__REUSED_PACKAGES);
 		}
 		return reusedPackages;
@@ -150,8 +152,7 @@ public abstract class MethodPackageImpl extends MethodElementImpl implements
 	 */
 	public List<MethodPackage> getChildPackages() {
 		if (childPackages == null) {
-			childPackages = new EObjectContainmentEList.Resolving<MethodPackage>(
-					MethodPackage.class, this,
+			childPackages = new EObjectContainmentEList.Resolving<MethodPackage>(MethodPackage.class, this,
 					UmaPackage.METHOD_PACKAGE__CHILD_PACKAGES);
 		}
 		return childPackages;
@@ -163,12 +164,10 @@ public abstract class MethodPackageImpl extends MethodElementImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.METHOD_PACKAGE__CHILD_PACKAGES:
-			return ((InternalEList<?>) getChildPackages()).basicRemove(
-					otherEnd, msgs);
+			return ((InternalEList<?>) getChildPackages()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -205,13 +204,11 @@ public abstract class MethodPackageImpl extends MethodElementImpl implements
 			return;
 		case UmaPackage.METHOD_PACKAGE__REUSED_PACKAGES:
 			getReusedPackages().clear();
-			getReusedPackages().addAll(
-					(Collection<? extends MethodPackage>) newValue);
+			getReusedPackages().addAll((Collection<? extends MethodPackage>) newValue);
 			return;
 		case UmaPackage.METHOD_PACKAGE__CHILD_PACKAGES:
 			getChildPackages().clear();
-			getChildPackages().addAll(
-					(Collection<? extends MethodPackage>) newValue);
+			getChildPackages().addAll((Collection<? extends MethodPackage>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -253,8 +250,7 @@ public abstract class MethodPackageImpl extends MethodElementImpl implements
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.METHOD_PACKAGE__GLOBAL:
-			return GLOBAL_EDEFAULT == null ? global != null : !GLOBAL_EDEFAULT
-					.equals(global);
+			return GLOBAL_EDEFAULT == null ? global != null : !GLOBAL_EDEFAULT.equals(global);
 		case UmaPackage.METHOD_PACKAGE__REUSED_PACKAGES:
 			return reusedPackages != null && !reusedPackages.isEmpty();
 		case UmaPackage.METHOD_PACKAGE__CHILD_PACKAGES:
@@ -278,17 +274,6 @@ public abstract class MethodPackageImpl extends MethodElementImpl implements
 		result.append(global);
 		result.append(')');
 		return result.toString();
-	}
-
-	/* (non-Javadoc)
-	 * @see org.eclipse.epf.uma.MethodPackage#getParentPackage()
-	 */
-	public MethodPackage getParentPackage() {
-		EObject parent = eContainer();
-		if (parent instanceof MethodPackage) {
-			return (MethodPackage) parent;
-		}
-		return null;
 	}
 
 } //MethodPackageImpl

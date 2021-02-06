@@ -14,9 +14,12 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.CompositeRole;
 import org.eclipse.epf.uma.Role;
 import org.eclipse.epf.uma.UmaPackage;
@@ -34,8 +37,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class CompositeRoleImpl extends RoleDescriptorImpl implements
-		CompositeRole {
+public class CompositeRoleImpl extends RoleDescriptorImpl implements CompositeRole {
 	/**
 	 * The cached value of the '{@link #getAggregatedRoles() <em>Aggregated Roles</em>}' reference list.
 	 * <!-- begin-user-doc -->

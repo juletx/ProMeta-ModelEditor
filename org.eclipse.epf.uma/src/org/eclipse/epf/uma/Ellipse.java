@@ -33,6 +33,32 @@ package org.eclipse.epf.uma;
  */
 public interface Ellipse extends GraphicPrimitive {
 	/**
+	 * Returns the value of the '<em><b>Center</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Center</em>' reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Center</em>' reference.
+	 * @see #setCenter(Point)
+	 * @see org.eclipse.epf.uma.UmaPackage#getEllipse_Center()
+	 * @model required="true" ordered="false"
+	 * @generated
+	 */
+	Point getCenter();
+
+	/**
+	 * Sets the value of the '{@link org.eclipse.epf.uma.Ellipse#getCenter <em>Center</em>}' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Center</em>' reference.
+	 * @see #getCenter()
+	 * @generated
+	 */
+	void setCenter(Point value);
+
+	/**
 	 * Returns the value of the '<em><b>Radius X</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <p>
@@ -161,31 +187,5 @@ public interface Ellipse extends GraphicPrimitive {
 	 * @generated
 	 */
 	void setEndAngle(Double value);
-
-	/**
-	 * Returns the value of the '<em><b>Center</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Center</em>' containment reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Center</em>' reference.
-	 * @see #setCenter(Point)
-	 * @see org.eclipse.epf.uma.UmaPackage#getEllipse_Center()
-	 * @model required="true" ordered="false"
-	 * @generated
-	 */
-	Point getCenter();
-
-	/**
-	 * Sets the value of the '{@link org.eclipse.epf.uma.Ellipse#getCenter <em>Center</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Center</em>' reference.
-	 * @see #getCenter()
-	 * @generated
-	 */
-	void setCenter(Point value);
 
 } // Ellipse

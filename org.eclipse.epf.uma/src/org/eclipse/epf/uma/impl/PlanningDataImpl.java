@@ -13,9 +13,12 @@ package org.eclipse.epf.uma.impl;
 import java.util.Date;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.PlanningData;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -34,8 +37,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class PlanningDataImpl extends ProcessElementImpl implements
-		PlanningData {
+public class PlanningDataImpl extends ProcessElementImpl implements PlanningData {
 	/**
 	 * The default value of the '{@link #getStartDate() <em>Start Date</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -137,8 +139,7 @@ public class PlanningDataImpl extends ProcessElementImpl implements
 		Date oldStartDate = startDate;
 		startDate = newStartDate;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PLANNING_DATA__START_DATE, oldStartDate,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PLANNING_DATA__START_DATE, oldStartDate,
 					startDate));
 	}
 
@@ -160,8 +161,7 @@ public class PlanningDataImpl extends ProcessElementImpl implements
 		Date oldFinishDate = finishDate;
 		finishDate = newFinishDate;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PLANNING_DATA__FINISH_DATE, oldFinishDate,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PLANNING_DATA__FINISH_DATE, oldFinishDate,
 					finishDate));
 	}
 
@@ -183,8 +183,7 @@ public class PlanningDataImpl extends ProcessElementImpl implements
 		int oldRank = rank;
 		rank = newRank;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PLANNING_DATA__RANK, oldRank, rank));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PLANNING_DATA__RANK, oldRank, rank));
 	}
 
 	/**
@@ -262,11 +261,9 @@ public class PlanningDataImpl extends ProcessElementImpl implements
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.PLANNING_DATA__START_DATE:
-			return START_DATE_EDEFAULT == null ? startDate != null
-					: !START_DATE_EDEFAULT.equals(startDate);
+			return START_DATE_EDEFAULT == null ? startDate != null : !START_DATE_EDEFAULT.equals(startDate);
 		case UmaPackage.PLANNING_DATA__FINISH_DATE:
-			return FINISH_DATE_EDEFAULT == null ? finishDate != null
-					: !FINISH_DATE_EDEFAULT.equals(finishDate);
+			return FINISH_DATE_EDEFAULT == null ? finishDate != null : !FINISH_DATE_EDEFAULT.equals(finishDate);
 		case UmaPackage.PLANNING_DATA__RANK:
 			return rank != RANK_EDEFAULT;
 		}

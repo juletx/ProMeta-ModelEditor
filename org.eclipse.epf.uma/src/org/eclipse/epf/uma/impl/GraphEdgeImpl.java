@@ -14,13 +14,17 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.GraphConnector;
 import org.eclipse.epf.uma.GraphEdge;
 import org.eclipse.epf.uma.Point;
@@ -89,24 +93,10 @@ public class GraphEdgeImpl extends GraphElementImpl implements GraphEdge {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public List<GraphConnector> getAnchor() {
-		if (anchor == null) {
-			anchor = new EObjectWithInverseResolvingEList.ManyInverse<GraphConnector>(
-					GraphConnector.class, this, UmaPackage.GRAPH_EDGE__ANCHOR,
-					UmaPackage.GRAPH_CONNECTOR__GRAPH_EDGE);
-		}
-		return anchor;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public List<Point> getWaypoints() {
 		if (waypoints == null) {
-			waypoints = new EObjectContainmentEList.Resolving<Point>(
-					Point.class, this, UmaPackage.GRAPH_EDGE__WAYPOINTS);
+			waypoints = new EObjectContainmentEList.Resolving<Point>(Point.class, this,
+					UmaPackage.GRAPH_EDGE__WAYPOINTS);
 		}
 		return waypoints;
 	}
@@ -116,14 +106,25 @@ public class GraphEdgeImpl extends GraphElementImpl implements GraphEdge {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public List<GraphConnector> getAnchor() {
+		if (anchor == null) {
+			anchor = new EObjectWithInverseResolvingEList.ManyInverse<GraphConnector>(GraphConnector.class, this,
+					UmaPackage.GRAPH_EDGE__ANCHOR, UmaPackage.GRAPH_CONNECTOR__GRAPH_EDGE);
+		}
+		return anchor;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public NotificationChain eInverseAdd(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.GRAPH_EDGE__ANCHOR:
-			return ((InternalEList<InternalEObject>) (InternalEList<?>) getAnchor())
-					.basicAdd(otherEnd, msgs);
+			return ((InternalEList<InternalEObject>) (InternalEList<?>) getAnchor()).basicAdd(otherEnd, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -134,12 +135,10 @@ public class GraphEdgeImpl extends GraphElementImpl implements GraphEdge {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.GRAPH_EDGE__WAYPOINTS:
-			return ((InternalEList<?>) getWaypoints()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getWaypoints()).basicRemove(otherEnd, msgs);
 		case UmaPackage.GRAPH_EDGE__ANCHOR:
 			return ((InternalEList<?>) getAnchor()).basicRemove(otherEnd, msgs);
 		}

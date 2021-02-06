@@ -11,11 +11,15 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.Point;
 import org.eclipse.epf.uma.UmaPackage;
+
 import org.eclipse.epf.uma.ecore.impl.MultiResourceEObject;
 
 /**
@@ -114,8 +118,7 @@ public class PointImpl extends MultiResourceEObject implements Point {
 		Double oldX = x;
 		x = newX;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.POINT__X, oldX, x));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.POINT__X, oldX, x));
 	}
 
 	/**
@@ -136,8 +139,7 @@ public class PointImpl extends MultiResourceEObject implements Point {
 		Double oldY = y;
 		y = newY;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.POINT__Y, oldY, y));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.POINT__Y, oldY, y));
 	}
 
 	/**

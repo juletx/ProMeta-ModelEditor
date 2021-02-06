@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.NamedElement;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -30,8 +33,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public abstract class NamedElementImpl extends ElementImpl implements
-		NamedElement {
+public abstract class NamedElementImpl extends ElementImpl implements NamedElement {
 	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -40,7 +42,7 @@ public abstract class NamedElementImpl extends ElementImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String NAME_EDEFAULT = "";
+	protected static final String NAME_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
@@ -93,8 +95,7 @@ public abstract class NamedElementImpl extends ElementImpl implements
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.NAMED_ELEMENT__NAME, oldName, name));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.NAMED_ELEMENT__NAME, oldName, name));
 	}
 
 	/**
@@ -156,8 +157,7 @@ public abstract class NamedElementImpl extends ElementImpl implements
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.NAMED_ELEMENT__NAME:
-			return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT
-					.equals(name);
+			return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 		}
 		return super.eIsSet(featureID);
 	}

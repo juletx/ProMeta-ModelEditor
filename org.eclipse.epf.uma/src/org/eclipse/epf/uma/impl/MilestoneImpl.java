@@ -12,10 +12,14 @@ package org.eclipse.epf.uma.impl;
 
 import java.util.Collection;
 import java.util.List;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.Milestone;
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.WorkProductDescriptor;
@@ -33,8 +37,7 @@ import org.eclipse.epf.uma.WorkProductDescriptor;
  *
  * @generated
  */
-public class MilestoneImpl extends WorkBreakdownElementImpl implements
-		Milestone {
+public class MilestoneImpl extends WorkBreakdownElementImpl implements Milestone {
 	/**
 	 * The cached value of the '{@link #getRequiredResults() <em>Required Results</em>}' reference list.
 	 * <!-- begin-user-doc -->
@@ -75,8 +78,7 @@ public class MilestoneImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<WorkProductDescriptor> getRequiredResults() {
 		if (requiredResults == null) {
-			requiredResults = new EObjectResolvingEList<WorkProductDescriptor>(
-					WorkProductDescriptor.class, this,
+			requiredResults = new EObjectResolvingEList<WorkProductDescriptor>(WorkProductDescriptor.class, this,
 					UmaPackage.MILESTONE__REQUIRED_RESULTS);
 		}
 		return requiredResults;
@@ -107,8 +109,7 @@ public class MilestoneImpl extends WorkBreakdownElementImpl implements
 		switch (featureID) {
 		case UmaPackage.MILESTONE__REQUIRED_RESULTS:
 			getRequiredResults().clear();
-			getRequiredResults().addAll(
-					(Collection<? extends WorkProductDescriptor>) newValue);
+			getRequiredResults().addAll((Collection<? extends WorkProductDescriptor>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);

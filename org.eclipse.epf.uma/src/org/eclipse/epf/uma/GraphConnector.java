@@ -31,6 +31,24 @@ import java.util.List;
  */
 public interface GraphConnector extends GraphElement {
 	/**
+	 * Returns the value of the '<em><b>Graph Edge</b></em>' reference list.
+	 * The list contents are of type {@link org.eclipse.epf.uma.GraphEdge}.
+	 * It is bidirectional and its opposite is '{@link org.eclipse.epf.uma.GraphEdge#getAnchor <em>Anchor</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Graph Edge</em>' reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Graph Edge</em>' reference list.
+	 * @see org.eclipse.epf.uma.UmaPackage#getGraphConnector_GraphEdge()
+	 * @see org.eclipse.epf.uma.GraphEdge#getAnchor
+	 * @model opposite="anchor" ordered="false"
+	 * @generated
+	 */
+	List<GraphEdge> getGraphEdge();
+
+	/**
 	 * Returns the value of the '<em><b>Graph Element</b></em>' container reference.
 	 * It is bidirectional and its opposite is '{@link org.eclipse.epf.uma.GraphElement#getAnchorage <em>Anchorage</em>}'.
 	 * <!-- begin-user-doc -->
@@ -57,23 +75,5 @@ public interface GraphConnector extends GraphElement {
 	 * @generated
 	 */
 	void setGraphElement(GraphElement value);
-
-	/**
-	 * Returns the value of the '<em><b>Graph Edge</b></em>' reference list.
-	 * The list contents are of type {@link org.eclipse.epf.uma.GraphEdge}.
-	 * It is bidirectional and its opposite is '{@link org.eclipse.epf.uma.GraphEdge#getAnchor <em>Anchor</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Graph Edge</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Graph Edge</em>' reference list.
-	 * @see org.eclipse.epf.uma.UmaPackage#getGraphConnector_GraphEdge()
-	 * @see org.eclipse.epf.uma.GraphEdge#getAnchor
-	 * @model opposite="anchor" ordered="false"
-	 * @generated
-	 */
-	List<GraphEdge> getGraphEdge();
 
 } // GraphConnector

@@ -15,15 +15,12 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
+
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.ProcessPackage;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -34,9 +31,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class ProcessPackageItemProvider extends MethodPackageItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class ProcessPackageItemProvider extends MethodPackageItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -71,12 +66,10 @@ public class ProcessPackageItemProvider extends MethodPackageItemProvider
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures
-					.add(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS);
+			childrenFeatures.add(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS);
 			childrenFeatures.add(UmaPackage.Literals.PROCESS_PACKAGE__DIAGRAMS);
 		}
 		return childrenFeatures;
@@ -103,8 +96,7 @@ public class ProcessPackageItemProvider extends MethodPackageItemProvider
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/ProcessPackage")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/ProcessPackage")); //$NON-NLS-1$
 	}
 
 	/**
@@ -134,8 +126,7 @@ public class ProcessPackageItemProvider extends MethodPackageItemProvider
 		switch (notification.getFeatureID(ProcessPackage.class)) {
 		case UmaPackage.PROCESS_PACKAGE__PROCESS_ELEMENTS:
 		case UmaPackage.PROCESS_PACKAGE__DIAGRAMS:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -149,88 +140,59 @@ public class ProcessPackageItemProvider extends MethodPackageItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createActivity()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createPlanningData()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createWorkOrder()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createMilestone()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createWorkProductDescriptor()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createIteration()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createPhase()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createTeamProfile()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createRoleDescriptor()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createTaskDescriptor()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createCompositeRole()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createDeliveryProcess()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createCapabilityPattern()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createProcessPlanningTemplate()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createProcessComponentDescriptor()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__PROCESS_ELEMENTS,
 				UmaFactory.eINSTANCE.createProcessComponentInterface()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_PACKAGE__DIAGRAMS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_PACKAGE__DIAGRAMS,
 				UmaFactory.eINSTANCE.createDiagram()));
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

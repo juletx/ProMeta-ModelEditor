@@ -12,12 +12,18 @@ package org.eclipse.epf.uma.impl;
 
 import java.util.Collection;
 import java.util.List;
+
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.Descriptor;
 import org.eclipse.epf.uma.Guidance;
 import org.eclipse.epf.uma.UmaPackage;
@@ -37,8 +43,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public abstract class DescriptorImpl extends BreakdownElementImpl implements
-		Descriptor {
+public abstract class DescriptorImpl extends BreakdownElementImpl implements Descriptor {
 	/**
 	 * The default value of the '{@link #getIsSynchronizedWithSource() <em>Is Synchronized With Source</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -120,8 +125,7 @@ public abstract class DescriptorImpl extends BreakdownElementImpl implements
 		Boolean oldIsSynchronizedWithSource = isSynchronizedWithSource;
 		isSynchronizedWithSource = newIsSynchronizedWithSource;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DESCRIPTOR__IS_SYNCHRONIZED_WITH_SOURCE,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DESCRIPTOR__IS_SYNCHRONIZED_WITH_SOURCE,
 					oldIsSynchronizedWithSource, isSynchronizedWithSource));
 	}
 
@@ -132,8 +136,7 @@ public abstract class DescriptorImpl extends BreakdownElementImpl implements
 	 */
 	public List<Guidance> getGuidanceExclude() {
 		if (guidanceExclude == null) {
-			guidanceExclude = new EObjectResolvingEList<Guidance>(
-					Guidance.class, this,
+			guidanceExclude = new EObjectResolvingEList<Guidance>(Guidance.class, this,
 					UmaPackage.DESCRIPTOR__GUIDANCE_EXCLUDE);
 		}
 		return guidanceExclude;
@@ -146,8 +149,7 @@ public abstract class DescriptorImpl extends BreakdownElementImpl implements
 	 */
 	public List<Guidance> getGuidanceAdditional() {
 		if (guidanceAdditional == null) {
-			guidanceAdditional = new EObjectResolvingEList<Guidance>(
-					Guidance.class, this,
+			guidanceAdditional = new EObjectResolvingEList<Guidance>(Guidance.class, this,
 					UmaPackage.DESCRIPTOR__GUIDANCE_ADDITIONAL);
 		}
 		return guidanceAdditional;
@@ -185,13 +187,11 @@ public abstract class DescriptorImpl extends BreakdownElementImpl implements
 			return;
 		case UmaPackage.DESCRIPTOR__GUIDANCE_EXCLUDE:
 			getGuidanceExclude().clear();
-			getGuidanceExclude().addAll(
-					(Collection<? extends Guidance>) newValue);
+			getGuidanceExclude().addAll((Collection<? extends Guidance>) newValue);
 			return;
 		case UmaPackage.DESCRIPTOR__GUIDANCE_ADDITIONAL:
 			getGuidanceAdditional().clear();
-			getGuidanceAdditional().addAll(
-					(Collection<? extends Guidance>) newValue);
+			getGuidanceAdditional().addAll((Collection<? extends Guidance>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -234,8 +234,7 @@ public abstract class DescriptorImpl extends BreakdownElementImpl implements
 		switch (featureID) {
 		case UmaPackage.DESCRIPTOR__IS_SYNCHRONIZED_WITH_SOURCE:
 			return IS_SYNCHRONIZED_WITH_SOURCE_EDEFAULT == null ? isSynchronizedWithSource != null
-					: !IS_SYNCHRONIZED_WITH_SOURCE_EDEFAULT
-							.equals(isSynchronizedWithSource);
+					: !IS_SYNCHRONIZED_WITH_SOURCE_EDEFAULT.equals(isSynchronizedWithSource);
 		case UmaPackage.DESCRIPTOR__GUIDANCE_EXCLUDE:
 			return guidanceExclude != null && !guidanceExclude.isEmpty();
 		case UmaPackage.DESCRIPTOR__GUIDANCE_ADDITIONAL:

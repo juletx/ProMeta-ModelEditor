@@ -11,6 +11,7 @@
 package org.eclipse.epf.uma.provider;
 
 import org.eclipse.emf.common.EMFPlugin;
+
 import org.eclipse.emf.common.util.ResourceLocator;
 
 /**

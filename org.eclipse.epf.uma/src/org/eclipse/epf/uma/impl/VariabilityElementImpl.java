@@ -11,11 +11,14 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.VariabilityElement;
 import org.eclipse.epf.uma.VariabilityType;
@@ -34,8 +37,7 @@ import org.eclipse.epf.uma.VariabilityType;
  *
  * @generated
  */
-public abstract class VariabilityElementImpl extends MethodElementImpl
-		implements VariabilityElement {
+public abstract class VariabilityElementImpl extends MethodElementImpl implements VariabilityElement {
 	/**
 	 * The default value of the '{@link #getVariabilityType() <em>Variability Type</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -105,11 +107,9 @@ public abstract class VariabilityElementImpl extends MethodElementImpl
 	 */
 	public void setVariabilityType(VariabilityType newVariabilityType) {
 		VariabilityType oldVariabilityType = variabilityType;
-		variabilityType = newVariabilityType == null ? VARIABILITY_TYPE_EDEFAULT
-				: newVariabilityType;
+		variabilityType = newVariabilityType == null ? VARIABILITY_TYPE_EDEFAULT : newVariabilityType;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.VARIABILITY_ELEMENT__VARIABILITY_TYPE,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.VARIABILITY_ELEMENT__VARIABILITY_TYPE,
 					oldVariabilityType, variabilityType));
 	}
 
@@ -119,17 +119,13 @@ public abstract class VariabilityElementImpl extends MethodElementImpl
 	 * @generated
 	 */
 	public VariabilityElement getVariabilityBasedOnElement() {
-		if (variabilityBasedOnElement != null
-				&& ((EObject) variabilityBasedOnElement).eIsProxy()) {
+		if (variabilityBasedOnElement != null && ((EObject) variabilityBasedOnElement).eIsProxy()) {
 			InternalEObject oldVariabilityBasedOnElement = (InternalEObject) variabilityBasedOnElement;
 			variabilityBasedOnElement = (VariabilityElement) eResolveProxy(oldVariabilityBasedOnElement);
 			if (variabilityBasedOnElement != oldVariabilityBasedOnElement) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(
-							this,
-							Notification.RESOLVE,
-							UmaPackage.VARIABILITY_ELEMENT__VARIABILITY_BASED_ON_ELEMENT,
-							oldVariabilityBasedOnElement,
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
+							UmaPackage.VARIABILITY_ELEMENT__VARIABILITY_BASED_ON_ELEMENT, oldVariabilityBasedOnElement,
 							variabilityBasedOnElement));
 			}
 		}
@@ -150,16 +146,13 @@ public abstract class VariabilityElementImpl extends MethodElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setVariabilityBasedOnElement(
-			VariabilityElement newVariabilityBasedOnElement) {
+	public void setVariabilityBasedOnElement(VariabilityElement newVariabilityBasedOnElement) {
 		VariabilityElement oldVariabilityBasedOnElement = variabilityBasedOnElement;
 		variabilityBasedOnElement = newVariabilityBasedOnElement;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(
-					this,
-					Notification.SET,
-					UmaPackage.VARIABILITY_ELEMENT__VARIABILITY_BASED_ON_ELEMENT,
-					oldVariabilityBasedOnElement, variabilityBasedOnElement));
+			eNotify(new ENotificationImpl(this, Notification.SET,
+					UmaPackage.VARIABILITY_ELEMENT__VARIABILITY_BASED_ON_ELEMENT, oldVariabilityBasedOnElement,
+					variabilityBasedOnElement));
 	}
 
 	/**

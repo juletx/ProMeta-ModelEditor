@@ -15,14 +15,10 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
+
 import org.eclipse.epf.uma.Milestone;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -32,9 +28,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class MilestoneItemProvider extends WorkBreakdownElementItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class MilestoneItemProvider extends WorkBreakdownElementItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -69,15 +63,11 @@ public class MilestoneItemProvider extends WorkBreakdownElementItemProvider
 	 */
 	protected void addRequiredResultsPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Milestone_requiredResults_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Milestone_requiredResults_feature", "_UI_Milestone_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.MILESTONE__REQUIRED_RESULTS, true,
-						false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Milestone_requiredResults_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Milestone_requiredResults_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Milestone_type"), //$NON-NLS-1$
+						UmaPackage.Literals.MILESTONE__REQUIRED_RESULTS, true, false, true, null, null, null));
 	}
 
 	/**
@@ -88,8 +78,7 @@ public class MilestoneItemProvider extends WorkBreakdownElementItemProvider
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/Milestone")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/Milestone")); //$NON-NLS-1$
 	}
 
 	/**
@@ -126,20 +115,8 @@ public class MilestoneItemProvider extends WorkBreakdownElementItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

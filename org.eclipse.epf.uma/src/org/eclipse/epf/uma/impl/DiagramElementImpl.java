@@ -52,8 +52,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public abstract class DiagramElementImpl extends MethodElementImpl implements
-		DiagramElement {
+public abstract class DiagramElementImpl extends MethodElementImpl implements DiagramElement {
 	/**
 	 * The default value of the '{@link #getIsVisible() <em>Is Visible</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -135,8 +134,7 @@ public abstract class DiagramElementImpl extends MethodElementImpl implements
 		Boolean oldIsVisible = isVisible;
 		isVisible = newIsVisible;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DIAGRAM_ELEMENT__IS_VISIBLE, oldIsVisible,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DIAGRAM_ELEMENT__IS_VISIBLE, oldIsVisible,
 					isVisible));
 	}
 
@@ -167,10 +165,8 @@ public abstract class DiagramElementImpl extends MethodElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetContainer(GraphElement newContainer,
-			NotificationChain msgs) {
-		msgs = eBasicSetContainer((InternalEObject) newContainer,
-				UmaPackage.DIAGRAM_ELEMENT__CONTAINER, msgs);
+	public NotificationChain basicSetContainer(GraphElement newContainer, NotificationChain msgs) {
+		msgs = eBasicSetContainer((InternalEObject) newContainer, UmaPackage.DIAGRAM_ELEMENT__CONTAINER, msgs);
 		return msgs;
 	}
 
@@ -183,21 +179,18 @@ public abstract class DiagramElementImpl extends MethodElementImpl implements
 		if (newContainer != eInternalContainer()
 				|| (eContainerFeatureID != UmaPackage.DIAGRAM_ELEMENT__CONTAINER && newContainer != null)) {
 			if (EcoreUtil.isAncestor(this, (EObject) newContainer))
-				throw new IllegalArgumentException(
-						"Recursive containment not allowed for " + toString()); //$NON-NLS-1$
+				throw new IllegalArgumentException("Recursive containment not allowed for " + toString()); //$NON-NLS-1$
 			NotificationChain msgs = null;
 			if (eInternalContainer() != null)
 				msgs = eBasicRemoveFromContainer(msgs);
 			if (newContainer != null)
-				msgs = ((InternalEObject) newContainer).eInverseAdd(this,
-						UmaPackage.GRAPH_ELEMENT__CONTAINED,
+				msgs = ((InternalEObject) newContainer).eInverseAdd(this, UmaPackage.GRAPH_ELEMENT__CONTAINED,
 						GraphElement.class, msgs);
 			msgs = basicSetContainer(newContainer, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DIAGRAM_ELEMENT__CONTAINER, newContainer,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DIAGRAM_ELEMENT__CONTAINER, newContainer,
 					newContainer));
 	}
 
@@ -208,10 +201,8 @@ public abstract class DiagramElementImpl extends MethodElementImpl implements
 	 */
 	public List<Reference> getReference() {
 		if (reference == null) {
-			reference = new EObjectWithInverseResolvingEList<Reference>(
-					Reference.class, this,
-					UmaPackage.DIAGRAM_ELEMENT__REFERENCE,
-					UmaPackage.REFERENCE__REFERENCED);
+			reference = new EObjectWithInverseResolvingEList<Reference>(Reference.class, this,
+					UmaPackage.DIAGRAM_ELEMENT__REFERENCE, UmaPackage.REFERENCE__REFERENCED);
 		}
 		return reference;
 	}
@@ -223,8 +214,8 @@ public abstract class DiagramElementImpl extends MethodElementImpl implements
 	 */
 	public List<Property> getProperty() {
 		if (property == null) {
-			property = new EObjectContainmentEList.Resolving<Property>(
-					Property.class, this, UmaPackage.DIAGRAM_ELEMENT__PROPERTY);
+			property = new EObjectContainmentEList.Resolving<Property>(Property.class, this,
+					UmaPackage.DIAGRAM_ELEMENT__PROPERTY);
 		}
 		return property;
 	}
@@ -236,16 +227,14 @@ public abstract class DiagramElementImpl extends MethodElementImpl implements
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public NotificationChain eInverseAdd(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.DIAGRAM_ELEMENT__CONTAINER:
 			if (eInternalContainer() != null)
 				msgs = eBasicRemoveFromContainer(msgs);
 			return basicSetContainer((GraphElement) otherEnd, msgs);
 		case UmaPackage.DIAGRAM_ELEMENT__REFERENCE:
-			return ((InternalEList<InternalEObject>) (InternalEList<?>) getReference())
-					.basicAdd(otherEnd, msgs);
+			return ((InternalEList<InternalEObject>) (InternalEList<?>) getReference()).basicAdd(otherEnd, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -256,17 +245,14 @@ public abstract class DiagramElementImpl extends MethodElementImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.DIAGRAM_ELEMENT__CONTAINER:
 			return basicSetContainer(null, msgs);
 		case UmaPackage.DIAGRAM_ELEMENT__REFERENCE:
-			return ((InternalEList<?>) getReference()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getReference()).basicRemove(otherEnd, msgs);
 		case UmaPackage.DIAGRAM_ELEMENT__PROPERTY:
-			return ((InternalEList<?>) getProperty()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getProperty()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -277,12 +263,10 @@ public abstract class DiagramElementImpl extends MethodElementImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eBasicRemoveFromContainerFeature(
-			NotificationChain msgs) {
+	public NotificationChain eBasicRemoveFromContainerFeature(NotificationChain msgs) {
 		switch (eContainerFeatureID) {
 		case UmaPackage.DIAGRAM_ELEMENT__CONTAINER:
-			return eInternalContainer().eInverseRemove(this,
-					UmaPackage.GRAPH_ELEMENT__CONTAINED, GraphElement.class,
+			return eInternalContainer().eInverseRemove(this, UmaPackage.GRAPH_ELEMENT__CONTAINED, GraphElement.class,
 					msgs);
 		}
 		return super.eBasicRemoveFromContainerFeature(msgs);
@@ -376,8 +360,7 @@ public abstract class DiagramElementImpl extends MethodElementImpl implements
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.DIAGRAM_ELEMENT__IS_VISIBLE:
-			return IS_VISIBLE_EDEFAULT == null ? isVisible != null
-					: !IS_VISIBLE_EDEFAULT.equals(isVisible);
+			return IS_VISIBLE_EDEFAULT == null ? isVisible != null : !IS_VISIBLE_EDEFAULT.equals(isVisible);
 		case UmaPackage.DIAGRAM_ELEMENT__CONTAINER:
 			return basicGetContainer() != null;
 		case UmaPackage.DIAGRAM_ELEMENT__REFERENCE:

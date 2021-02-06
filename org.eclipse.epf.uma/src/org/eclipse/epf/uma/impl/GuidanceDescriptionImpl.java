@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.GuidanceDescription;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -30,8 +33,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class GuidanceDescriptionImpl extends ContentDescriptionImpl implements
-		GuidanceDescription {
+public class GuidanceDescriptionImpl extends ContentDescriptionImpl implements GuidanceDescription {
 	/**
 	 * The default value of the '{@link #getAttachments() <em>Attachments</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -40,7 +42,7 @@ public class GuidanceDescriptionImpl extends ContentDescriptionImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String ATTACHMENTS_EDEFAULT = "";
+	protected static final String ATTACHMENTS_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getAttachments() <em>Attachments</em>}' attribute.
@@ -93,8 +95,7 @@ public class GuidanceDescriptionImpl extends ContentDescriptionImpl implements
 		String oldAttachments = attachments;
 		attachments = newAttachments;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.GUIDANCE_DESCRIPTION__ATTACHMENTS,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.GUIDANCE_DESCRIPTION__ATTACHMENTS,
 					oldAttachments, attachments));
 	}
 
@@ -157,8 +158,7 @@ public class GuidanceDescriptionImpl extends ContentDescriptionImpl implements
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.GUIDANCE_DESCRIPTION__ATTACHMENTS:
-			return ATTACHMENTS_EDEFAULT == null ? attachments != null
-					: !ATTACHMENTS_EDEFAULT.equals(attachments);
+			return ATTACHMENTS_EDEFAULT == null ? attachments != null : !ATTACHMENTS_EDEFAULT.equals(attachments);
 		}
 		return super.eIsSet(featureID);
 	}

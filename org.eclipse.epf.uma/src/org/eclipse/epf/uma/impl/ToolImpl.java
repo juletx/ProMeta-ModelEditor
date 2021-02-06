@@ -14,9 +14,12 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.Tool;
 import org.eclipse.epf.uma.ToolMentor;
 import org.eclipse.epf.uma.UmaPackage;
@@ -75,8 +78,7 @@ public class ToolImpl extends ContentCategoryImpl implements Tool {
 	 */
 	public List<ToolMentor> getToolMentors() {
 		if (toolMentors == null) {
-			toolMentors = new EObjectResolvingEList<ToolMentor>(
-					ToolMentor.class, this, UmaPackage.TOOL__TOOL_MENTORS);
+			toolMentors = new EObjectResolvingEList<ToolMentor>(ToolMentor.class, this, UmaPackage.TOOL__TOOL_MENTORS);
 		}
 		return toolMentors;
 	}
@@ -106,8 +108,7 @@ public class ToolImpl extends ContentCategoryImpl implements Tool {
 		switch (featureID) {
 		case UmaPackage.TOOL__TOOL_MENTORS:
 			getToolMentors().clear();
-			getToolMentors()
-					.addAll((Collection<? extends ToolMentor>) newValue);
+			getToolMentors().addAll((Collection<? extends ToolMentor>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);

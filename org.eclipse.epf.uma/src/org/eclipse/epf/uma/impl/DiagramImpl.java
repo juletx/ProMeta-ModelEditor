@@ -129,6 +129,96 @@ public class DiagramImpl extends GraphNodeImpl implements Diagram {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public List<DiagramLink> getDiagramLink() {
+		if (diagramLink == null) {
+			diagramLink = new EObjectWithInverseResolvingEList<DiagramLink>(DiagramLink.class, this,
+					UmaPackage.DIAGRAM__DIAGRAM_LINK, UmaPackage.DIAGRAM_LINK__DIAGRAM);
+		}
+		return diagramLink;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public SemanticModelBridge getNamespace() {
+		if (namespace != null && ((EObject) namespace).eIsProxy()) {
+			InternalEObject oldNamespace = (InternalEObject) namespace;
+			namespace = (SemanticModelBridge) eResolveProxy(oldNamespace);
+			if (namespace != oldNamespace) {
+				InternalEObject newNamespace = (InternalEObject) namespace;
+				NotificationChain msgs = oldNamespace.eInverseRemove(this, UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM,
+						SemanticModelBridge.class, null);
+				if (newNamespace.eInternalContainer() == null) {
+					msgs = newNamespace.eInverseAdd(this, UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM,
+							SemanticModelBridge.class, msgs);
+				}
+				if (msgs != null)
+					msgs.dispatch();
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.DIAGRAM__NAMESPACE,
+							oldNamespace, namespace));
+			}
+		}
+		return namespace;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public SemanticModelBridge basicGetNamespace() {
+		return namespace;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public NotificationChain basicSetNamespace(SemanticModelBridge newNamespace, NotificationChain msgs) {
+		SemanticModelBridge oldNamespace = namespace;
+		namespace = newNamespace;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.DIAGRAM__NAMESPACE, oldNamespace, newNamespace);
+			if (msgs == null)
+				msgs = notification;
+			else
+				msgs.add(notification);
+		}
+		return msgs;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setNamespace(SemanticModelBridge newNamespace) {
+		if (newNamespace != namespace) {
+			NotificationChain msgs = null;
+			if (namespace != null)
+				msgs = ((InternalEObject) namespace).eInverseRemove(this, UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM,
+						SemanticModelBridge.class, msgs);
+			if (newNamespace != null)
+				msgs = ((InternalEObject) newNamespace).eInverseAdd(this, UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM,
+						SemanticModelBridge.class, msgs);
+			msgs = basicSetNamespace(newNamespace, msgs);
+			if (msgs != null)
+				msgs.dispatch();
+		} else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DIAGRAM__NAMESPACE, newNamespace,
+					newNamespace));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public Double getZoom() {
 		return zoom;
 	}
@@ -142,8 +232,7 @@ public class DiagramImpl extends GraphNodeImpl implements Diagram {
 		Double oldZoom = zoom;
 		zoom = newZoom;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DIAGRAM__ZOOM, oldZoom, zoom));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DIAGRAM__ZOOM, oldZoom, zoom));
 	}
 
 	/**
@@ -157,9 +246,8 @@ public class DiagramImpl extends GraphNodeImpl implements Diagram {
 			viewpoint = (Point) eResolveProxy(oldViewpoint);
 			if (viewpoint != oldViewpoint) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.DIAGRAM__VIEWPOINT, oldViewpoint,
-							viewpoint));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.DIAGRAM__VIEWPOINT,
+							oldViewpoint, viewpoint));
 			}
 		}
 		return viewpoint;
@@ -183,106 +271,8 @@ public class DiagramImpl extends GraphNodeImpl implements Diagram {
 		Point oldViewpoint = viewpoint;
 		viewpoint = newViewpoint;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DIAGRAM__VIEWPOINT, oldViewpoint, viewpoint));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public List<DiagramLink> getDiagramLink() {
-		if (diagramLink == null) {
-			diagramLink = new EObjectWithInverseResolvingEList<DiagramLink>(
-					DiagramLink.class, this, UmaPackage.DIAGRAM__DIAGRAM_LINK,
-					UmaPackage.DIAGRAM_LINK__DIAGRAM);
-		}
-		return diagramLink;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public SemanticModelBridge getNamespace() {
-		if (namespace != null && ((EObject) namespace).eIsProxy()) {
-			InternalEObject oldNamespace = (InternalEObject) namespace;
-			namespace = (SemanticModelBridge) eResolveProxy(oldNamespace);
-			if (namespace != oldNamespace) {
-				InternalEObject newNamespace = (InternalEObject) namespace;
-				NotificationChain msgs = oldNamespace.eInverseRemove(this,
-						UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM,
-						SemanticModelBridge.class, null);
-				if (newNamespace.eInternalContainer() == null) {
-					msgs = newNamespace.eInverseAdd(this,
-							UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM,
-							SemanticModelBridge.class, msgs);
-				}
-				if (msgs != null)
-					msgs.dispatch();
-				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.DIAGRAM__NAMESPACE, oldNamespace,
-							namespace));
-			}
-		}
-		return namespace;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public SemanticModelBridge basicGetNamespace() {
-		return namespace;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public NotificationChain basicSetNamespace(
-			SemanticModelBridge newNamespace, NotificationChain msgs) {
-		SemanticModelBridge oldNamespace = namespace;
-		namespace = newNamespace;
-		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET, UmaPackage.DIAGRAM__NAMESPACE,
-					oldNamespace, newNamespace);
-			if (msgs == null)
-				msgs = notification;
-			else
-				msgs.add(notification);
-		}
-		return msgs;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNamespace(SemanticModelBridge newNamespace) {
-		if (newNamespace != namespace) {
-			NotificationChain msgs = null;
-			if (namespace != null)
-				msgs = ((InternalEObject) namespace).eInverseRemove(this,
-						UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM,
-						SemanticModelBridge.class, msgs);
-			if (newNamespace != null)
-				msgs = ((InternalEObject) newNamespace).eInverseAdd(this,
-						UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM,
-						SemanticModelBridge.class, msgs);
-			msgs = basicSetNamespace(newNamespace, msgs);
-			if (msgs != null)
-				msgs.dispatch();
-		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DIAGRAM__NAMESPACE, newNamespace, newNamespace));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DIAGRAM__VIEWPOINT, oldViewpoint,
+					viewpoint));
 	}
 
 	/**
@@ -292,17 +282,14 @@ public class DiagramImpl extends GraphNodeImpl implements Diagram {
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public NotificationChain eInverseAdd(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.DIAGRAM__DIAGRAM_LINK:
-			return ((InternalEList<InternalEObject>) (InternalEList<?>) getDiagramLink())
-					.basicAdd(otherEnd, msgs);
+			return ((InternalEList<InternalEObject>) (InternalEList<?>) getDiagramLink()).basicAdd(otherEnd, msgs);
 		case UmaPackage.DIAGRAM__NAMESPACE:
 			if (namespace != null)
 				msgs = ((InternalEObject) namespace).eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE - UmaPackage.DIAGRAM__NAMESPACE,
-						null, msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.DIAGRAM__NAMESPACE, null, msgs);
 			return basicSetNamespace((SemanticModelBridge) otherEnd, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
@@ -314,12 +301,10 @@ public class DiagramImpl extends GraphNodeImpl implements Diagram {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.DIAGRAM__DIAGRAM_LINK:
-			return ((InternalEList<?>) getDiagramLink()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getDiagramLink()).basicRemove(otherEnd, msgs);
 		case UmaPackage.DIAGRAM__NAMESPACE:
 			return basicSetNamespace(null, msgs);
 		}
@@ -361,8 +346,7 @@ public class DiagramImpl extends GraphNodeImpl implements Diagram {
 		switch (featureID) {
 		case UmaPackage.DIAGRAM__DIAGRAM_LINK:
 			getDiagramLink().clear();
-			getDiagramLink().addAll(
-					(Collection<? extends DiagramLink>) newValue);
+			getDiagramLink().addAll((Collection<? extends DiagramLink>) newValue);
 			return;
 		case UmaPackage.DIAGRAM__NAMESPACE:
 			setNamespace((SemanticModelBridge) newValue);
@@ -420,8 +404,7 @@ public class DiagramImpl extends GraphNodeImpl implements Diagram {
 		case UmaPackage.DIAGRAM__NAMESPACE:
 			return namespace != null;
 		case UmaPackage.DIAGRAM__ZOOM:
-			return ZOOM_EDEFAULT == null ? zoom != null : !ZOOM_EDEFAULT
-					.equals(zoom);
+			return ZOOM_EDEFAULT == null ? zoom != null : !ZOOM_EDEFAULT.equals(zoom);
 		case UmaPackage.DIAGRAM__VIEWPOINT:
 			return viewpoint != null;
 		}

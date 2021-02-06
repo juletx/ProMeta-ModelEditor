@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.RoleDescription;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -32,8 +35,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class RoleDescriptionImpl extends ContentDescriptionImpl implements
-		RoleDescription {
+public class RoleDescriptionImpl extends ContentDescriptionImpl implements RoleDescription {
 	/**
 	 * The default value of the '{@link #getSkills() <em>Skills</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -42,7 +44,7 @@ public class RoleDescriptionImpl extends ContentDescriptionImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String SKILLS_EDEFAULT = "";
+	protected static final String SKILLS_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getSkills() <em>Skills</em>}' attribute.
@@ -62,7 +64,7 @@ public class RoleDescriptionImpl extends ContentDescriptionImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String ASSIGNMENT_APPROACHES_EDEFAULT = "";
+	protected static final String ASSIGNMENT_APPROACHES_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getAssignmentApproaches() <em>Assignment Approaches</em>}' attribute.
@@ -82,7 +84,7 @@ public class RoleDescriptionImpl extends ContentDescriptionImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String SYNONYMS_EDEFAULT = "";
+	protected static final String SYNONYMS_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getSynonyms() <em>Synonyms</em>}' attribute.
@@ -135,8 +137,8 @@ public class RoleDescriptionImpl extends ContentDescriptionImpl implements
 		String oldSkills = skills;
 		skills = newSkills;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ROLE_DESCRIPTION__SKILLS, oldSkills, skills));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ROLE_DESCRIPTION__SKILLS, oldSkills,
+					skills));
 	}
 
 	/**
@@ -157,8 +159,7 @@ public class RoleDescriptionImpl extends ContentDescriptionImpl implements
 		String oldAssignmentApproaches = assignmentApproaches;
 		assignmentApproaches = newAssignmentApproaches;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ROLE_DESCRIPTION__ASSIGNMENT_APPROACHES,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ROLE_DESCRIPTION__ASSIGNMENT_APPROACHES,
 					oldAssignmentApproaches, assignmentApproaches));
 	}
 
@@ -180,8 +181,7 @@ public class RoleDescriptionImpl extends ContentDescriptionImpl implements
 		String oldSynonyms = synonyms;
 		synonyms = newSynonyms;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ROLE_DESCRIPTION__SYNONYMS, oldSynonyms,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ROLE_DESCRIPTION__SYNONYMS, oldSynonyms,
 					synonyms));
 	}
 
@@ -260,15 +260,12 @@ public class RoleDescriptionImpl extends ContentDescriptionImpl implements
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.ROLE_DESCRIPTION__SKILLS:
-			return SKILLS_EDEFAULT == null ? skills != null : !SKILLS_EDEFAULT
-					.equals(skills);
+			return SKILLS_EDEFAULT == null ? skills != null : !SKILLS_EDEFAULT.equals(skills);
 		case UmaPackage.ROLE_DESCRIPTION__ASSIGNMENT_APPROACHES:
 			return ASSIGNMENT_APPROACHES_EDEFAULT == null ? assignmentApproaches != null
-					: !ASSIGNMENT_APPROACHES_EDEFAULT
-							.equals(assignmentApproaches);
+					: !ASSIGNMENT_APPROACHES_EDEFAULT.equals(assignmentApproaches);
 		case UmaPackage.ROLE_DESCRIPTION__SYNONYMS:
-			return SYNONYMS_EDEFAULT == null ? synonyms != null
-					: !SYNONYMS_EDEFAULT.equals(synonyms);
+			return SYNONYMS_EDEFAULT == null ? synonyms != null : !SYNONYMS_EDEFAULT.equals(synonyms);
 		}
 		return super.eIsSet(featureID);
 	}

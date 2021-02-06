@@ -13,25 +13,26 @@ package org.eclipse.epf.uma.impl;
 import java.util.Collection;
 import java.util.List;
 
-import org.eclipse.core.runtime.IAdaptable;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
-import org.eclipse.emf.ecore.xmi.XMLResource;
-import org.eclipse.epf.common.utils.ExtensionHelper;
+
 import org.eclipse.epf.uma.Constraint;
 import org.eclipse.epf.uma.Kind;
 import org.eclipse.epf.uma.MethodElement;
 import org.eclipse.epf.uma.MethodElementProperty;
 import org.eclipse.epf.uma.UmaPackage;
-import org.eclipse.epf.uma.util.UmaUtil;
 
 /**
  * <!-- begin-user-doc -->
@@ -53,8 +54,7 @@ import org.eclipse.epf.uma.util.UmaUtil;
  *
  * @generated
  */
-public abstract class MethodElementImpl extends PackageableElementImpl
-		implements MethodElement {
+public abstract class MethodElementImpl extends PackageableElementImpl implements MethodElement {
 	/**
 	 * The default value of the '{@link #getGuid() <em>Guid</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -211,44 +211,22 @@ public abstract class MethodElementImpl extends PackageableElementImpl
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * @generated
 	 */
 	public String getGuid() {
-		if (guid == null || guid.length() == 0) {
-			guid = UmaUtil.generateGUID();
-		}
 		return guid;
 	}
 
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * @generated
 	 */
 	public void setGuid(String newGuid) {
 		String oldGuid = guid;
 		guid = newGuid;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_ELEMENT__GUID, oldGuid, guid));
-
-		// synch up the resource's IDToEObjectMap and EObjectToIDMap with newGuid
-		//
-		if (eResource() instanceof XMLResource) {
-			XMLResource resource = ((XMLResource) eResource());
-			resource.setID(this, newGuid);
-		}
-	}
-
-	public Object getAdapter(Class adapter) {
-		List<IAdaptable> extensions = ExtensionHelper
-				.getExtensions(
-						"org.eclipse.epf.uma.ecore", "methodElementIAdaptable", IAdaptable.class); //$NON-NLS-1$ //$NON-NLS-2$
-		for (IAdaptable adaptable : extensions) {
-			Object result = adaptable.getAdapter(adapter);
-			if (result != null) {
-				return result;
-			}
-		}
-		return null;
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_ELEMENT__GUID, oldGuid, guid));
 	}
 
 	/**
@@ -269,8 +247,7 @@ public abstract class MethodElementImpl extends PackageableElementImpl
 		String oldPresentationName = presentationName;
 		presentationName = newPresentationName;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_ELEMENT__PRESENTATION_NAME,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_ELEMENT__PRESENTATION_NAME,
 					oldPresentationName, presentationName));
 	}
 
@@ -292,8 +269,7 @@ public abstract class MethodElementImpl extends PackageableElementImpl
 		String oldBriefDescription = briefDescription;
 		briefDescription = newBriefDescription;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_ELEMENT__BRIEF_DESCRIPTION,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_ELEMENT__BRIEF_DESCRIPTION,
 					oldBriefDescription, briefDescription));
 	}
 
@@ -304,8 +280,7 @@ public abstract class MethodElementImpl extends PackageableElementImpl
 	 */
 	public List<Constraint> getOwnedRules() {
 		if (ownedRules == null) {
-			ownedRules = new EObjectContainmentEList.Resolving<Constraint>(
-					Constraint.class, this,
+			ownedRules = new EObjectContainmentEList.Resolving<Constraint>(Constraint.class, this,
 					UmaPackage.METHOD_ELEMENT__OWNED_RULES);
 		}
 		return ownedRules;
@@ -319,8 +294,7 @@ public abstract class MethodElementImpl extends PackageableElementImpl
 	public List<MethodElementProperty> getMethodElementProperty() {
 		if (methodElementProperty == null) {
 			methodElementProperty = new EObjectContainmentEList.Resolving<MethodElementProperty>(
-					MethodElementProperty.class, this,
-					UmaPackage.METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY);
+					MethodElementProperty.class, this, UmaPackage.METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY);
 		}
 		return methodElementProperty;
 	}
@@ -332,8 +306,7 @@ public abstract class MethodElementImpl extends PackageableElementImpl
 	 */
 	public List<Kind> getKind() {
 		if (kind == null) {
-			kind = new EObjectResolvingEList<Kind>(Kind.class, this,
-					UmaPackage.METHOD_ELEMENT__KIND);
+			kind = new EObjectResolvingEList<Kind>(Kind.class, this, UmaPackage.METHOD_ELEMENT__KIND);
 		}
 		return kind;
 	}
@@ -356,8 +329,7 @@ public abstract class MethodElementImpl extends PackageableElementImpl
 		Boolean oldSuppressed = suppressed;
 		suppressed = newSuppressed;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_ELEMENT__SUPPRESSED, oldSuppressed,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_ELEMENT__SUPPRESSED, oldSuppressed,
 					suppressed));
 	}
 
@@ -379,8 +351,7 @@ public abstract class MethodElementImpl extends PackageableElementImpl
 		String oldOrderingGuide = orderingGuide;
 		orderingGuide = newOrderingGuide;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_ELEMENT__ORDERING_GUIDE,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_ELEMENT__ORDERING_GUIDE,
 					oldOrderingGuide, orderingGuide));
 	}
 
@@ -390,15 +361,12 @@ public abstract class MethodElementImpl extends PackageableElementImpl
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.METHOD_ELEMENT__OWNED_RULES:
-			return ((InternalEList<?>) getOwnedRules()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getOwnedRules()).basicRemove(otherEnd, msgs);
 		case UmaPackage.METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY:
-			return ((InternalEList<?>) getMethodElementProperty()).basicRemove(
-					otherEnd, msgs);
+			return ((InternalEList<?>) getMethodElementProperty()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -455,8 +423,7 @@ public abstract class MethodElementImpl extends PackageableElementImpl
 			return;
 		case UmaPackage.METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY:
 			getMethodElementProperty().clear();
-			getMethodElementProperty().addAll(
-					(Collection<? extends MethodElementProperty>) newValue);
+			getMethodElementProperty().addAll((Collection<? extends MethodElementProperty>) newValue);
 			return;
 		case UmaPackage.METHOD_ELEMENT__KIND:
 			getKind().clear();
@@ -523,8 +490,7 @@ public abstract class MethodElementImpl extends PackageableElementImpl
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.METHOD_ELEMENT__GUID:
-			return GUID_EDEFAULT == null ? guid != null : !GUID_EDEFAULT
-					.equals(guid);
+			return GUID_EDEFAULT == null ? guid != null : !GUID_EDEFAULT.equals(guid);
 		case UmaPackage.METHOD_ELEMENT__PRESENTATION_NAME:
 			return PRESENTATION_NAME_EDEFAULT == null ? presentationName != null
 					: !PRESENTATION_NAME_EDEFAULT.equals(presentationName);
@@ -534,13 +500,11 @@ public abstract class MethodElementImpl extends PackageableElementImpl
 		case UmaPackage.METHOD_ELEMENT__OWNED_RULES:
 			return ownedRules != null && !ownedRules.isEmpty();
 		case UmaPackage.METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY:
-			return methodElementProperty != null
-					&& !methodElementProperty.isEmpty();
+			return methodElementProperty != null && !methodElementProperty.isEmpty();
 		case UmaPackage.METHOD_ELEMENT__KIND:
 			return kind != null && !kind.isEmpty();
 		case UmaPackage.METHOD_ELEMENT__SUPPRESSED:
-			return SUPPRESSED_EDEFAULT == null ? suppressed != null
-					: !SUPPRESSED_EDEFAULT.equals(suppressed);
+			return SUPPRESSED_EDEFAULT == null ? suppressed != null : !SUPPRESSED_EDEFAULT.equals(suppressed);
 		case UmaPackage.METHOD_ELEMENT__ORDERING_GUIDE:
 			return ORDERING_GUIDE_EDEFAULT == null ? orderingGuide != null
 					: !ORDERING_GUIDE_EDEFAULT.equals(orderingGuide);

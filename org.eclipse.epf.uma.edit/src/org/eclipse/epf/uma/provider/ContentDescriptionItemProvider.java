@@ -15,17 +15,14 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.ContentDescription;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -36,9 +33,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class ContentDescriptionItemProvider extends MethodUnitItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class ContentDescriptionItemProvider extends MethodUnitItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -76,15 +71,11 @@ public class ContentDescriptionItemProvider extends MethodUnitItemProvider
 	 */
 	protected void addMainDescriptionPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_ContentDescription_mainDescription_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_ContentDescription_mainDescription_feature", "_UI_ContentDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.CONTENT_DESCRIPTION__MAIN_DESCRIPTION,
-						true, false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_ContentDescription_mainDescription_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", //$NON-NLS-1$
+								"_UI_ContentDescription_mainDescription_feature", "_UI_ContentDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$
+						UmaPackage.Literals.CONTENT_DESCRIPTION__MAIN_DESCRIPTION, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -96,15 +87,11 @@ public class ContentDescriptionItemProvider extends MethodUnitItemProvider
 	 */
 	protected void addExternalIdPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_ContentDescription_externalId_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_ContentDescription_externalId_feature", "_UI_ContentDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.CONTENT_DESCRIPTION__EXTERNAL_ID,
-						true, false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_ContentDescription_externalId_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_ContentDescription_externalId_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_ContentDescription_type"), //$NON-NLS-1$
+						UmaPackage.Literals.CONTENT_DESCRIPTION__EXTERNAL_ID, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -116,15 +103,11 @@ public class ContentDescriptionItemProvider extends MethodUnitItemProvider
 	 */
 	protected void addKeyConsiderationsPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_ContentDescription_keyConsiderations_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_ContentDescription_keyConsiderations_feature", "_UI_ContentDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.CONTENT_DESCRIPTION__KEY_CONSIDERATIONS,
-						true, false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_ContentDescription_keyConsiderations_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", //$NON-NLS-1$
+								"_UI_ContentDescription_keyConsiderations_feature", "_UI_ContentDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$
+						UmaPackage.Literals.CONTENT_DESCRIPTION__KEY_CONSIDERATIONS, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -136,15 +119,11 @@ public class ContentDescriptionItemProvider extends MethodUnitItemProvider
 	 */
 	protected void addLongPresentationNamePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_ContentDescription_longPresentationName_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_ContentDescription_longPresentationName_feature", "_UI_ContentDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.CONTENT_DESCRIPTION__LONG_PRESENTATION_NAME,
-						true, false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_ContentDescription_longPresentationName_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", //$NON-NLS-1$
+								"_UI_ContentDescription_longPresentationName_feature", "_UI_ContentDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$
+						UmaPackage.Literals.CONTENT_DESCRIPTION__LONG_PRESENTATION_NAME, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -157,12 +136,10 @@ public class ContentDescriptionItemProvider extends MethodUnitItemProvider
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures
-					.add(UmaPackage.Literals.CONTENT_DESCRIPTION__SECTIONS);
+			childrenFeatures.add(UmaPackage.Literals.CONTENT_DESCRIPTION__SECTIONS);
 		}
 		return childrenFeatures;
 	}
@@ -188,8 +165,7 @@ public class ContentDescriptionItemProvider extends MethodUnitItemProvider
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/ContentDescription")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/ContentDescription")); //$NON-NLS-1$
 	}
 
 	/**
@@ -221,12 +197,10 @@ public class ContentDescriptionItemProvider extends MethodUnitItemProvider
 		case UmaPackage.CONTENT_DESCRIPTION__EXTERNAL_ID:
 		case UmaPackage.CONTENT_DESCRIPTION__KEY_CONSIDERATIONS:
 		case UmaPackage.CONTENT_DESCRIPTION__LONG_PRESENTATION_NAME:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), false, true));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		case UmaPackage.CONTENT_DESCRIPTION__SECTIONS:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -240,28 +214,14 @@ public class ContentDescriptionItemProvider extends MethodUnitItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_DESCRIPTION__SECTIONS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_DESCRIPTION__SECTIONS,
 				UmaFactory.eINSTANCE.createSection()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_DESCRIPTION__SECTIONS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_DESCRIPTION__SECTIONS,
 				UmaFactory.eINSTANCE.createStep()));
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

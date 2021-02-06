@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.TextElement;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -39,7 +42,7 @@ public class TextElementImpl extends LeafElementImpl implements TextElement {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String TEXT_EDEFAULT = "";
+	protected static final String TEXT_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getText() <em>Text</em>}' attribute.
@@ -92,8 +95,7 @@ public class TextElementImpl extends LeafElementImpl implements TextElement {
 		String oldText = text;
 		text = newText;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.TEXT_ELEMENT__TEXT, oldText, text));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.TEXT_ELEMENT__TEXT, oldText, text));
 	}
 
 	/**
@@ -155,8 +157,7 @@ public class TextElementImpl extends LeafElementImpl implements TextElement {
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.TEXT_ELEMENT__TEXT:
-			return TEXT_EDEFAULT == null ? text != null : !TEXT_EDEFAULT
-					.equals(text);
+			return TEXT_EDEFAULT == null ? text != null : !TEXT_EDEFAULT.equals(text);
 		}
 		return super.eIsSet(featureID);
 	}

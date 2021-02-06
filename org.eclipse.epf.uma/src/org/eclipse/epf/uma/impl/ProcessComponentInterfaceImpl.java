@@ -14,12 +14,16 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.ProcessComponentInterface;
 import org.eclipse.epf.uma.TaskDescriptor;
 import org.eclipse.epf.uma.UmaPackage;
@@ -39,8 +43,7 @@ import org.eclipse.epf.uma.WorkProductDescriptor;
  *
  * @generated
  */
-public class ProcessComponentInterfaceImpl extends BreakdownElementImpl
-		implements ProcessComponentInterface {
+public class ProcessComponentInterfaceImpl extends BreakdownElementImpl implements ProcessComponentInterface {
 	/**
 	 * The cached value of the '{@link #getInterfaceSpecifications() <em>Interface Specifications</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
@@ -91,9 +94,7 @@ public class ProcessComponentInterfaceImpl extends BreakdownElementImpl
 	 */
 	public List<TaskDescriptor> getInterfaceSpecifications() {
 		if (interfaceSpecifications == null) {
-			interfaceSpecifications = new EObjectContainmentEList.Resolving<TaskDescriptor>(
-					TaskDescriptor.class,
-					this,
+			interfaceSpecifications = new EObjectContainmentEList.Resolving<TaskDescriptor>(TaskDescriptor.class, this,
 					UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_SPECIFICATIONS);
 		}
 		return interfaceSpecifications;
@@ -106,9 +107,8 @@ public class ProcessComponentInterfaceImpl extends BreakdownElementImpl
 	 */
 	public List<WorkProductDescriptor> getInterfaceIO() {
 		if (interfaceIO == null) {
-			interfaceIO = new EObjectContainmentEList.Resolving<WorkProductDescriptor>(
-					WorkProductDescriptor.class, this,
-					UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_IO);
+			interfaceIO = new EObjectContainmentEList.Resolving<WorkProductDescriptor>(WorkProductDescriptor.class,
+					this, UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_IO);
 		}
 		return interfaceIO;
 	}
@@ -119,15 +119,12 @@ public class ProcessComponentInterfaceImpl extends BreakdownElementImpl
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_SPECIFICATIONS:
-			return ((InternalEList<?>) getInterfaceSpecifications())
-					.basicRemove(otherEnd, msgs);
+			return ((InternalEList<?>) getInterfaceSpecifications()).basicRemove(otherEnd, msgs);
 		case UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_IO:
-			return ((InternalEList<?>) getInterfaceIO()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getInterfaceIO()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -159,13 +156,11 @@ public class ProcessComponentInterfaceImpl extends BreakdownElementImpl
 		switch (featureID) {
 		case UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_SPECIFICATIONS:
 			getInterfaceSpecifications().clear();
-			getInterfaceSpecifications().addAll(
-					(Collection<? extends TaskDescriptor>) newValue);
+			getInterfaceSpecifications().addAll((Collection<? extends TaskDescriptor>) newValue);
 			return;
 		case UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_IO:
 			getInterfaceIO().clear();
-			getInterfaceIO().addAll(
-					(Collection<? extends WorkProductDescriptor>) newValue);
+			getInterfaceIO().addAll((Collection<? extends WorkProductDescriptor>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -204,8 +199,7 @@ public class ProcessComponentInterfaceImpl extends BreakdownElementImpl
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_SPECIFICATIONS:
-			return interfaceSpecifications != null
-					&& !interfaceSpecifications.isEmpty();
+			return interfaceSpecifications != null && !interfaceSpecifications.isEmpty();
 		case UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_IO:
 			return interfaceIO != null && !interfaceIO.isEmpty();
 		}

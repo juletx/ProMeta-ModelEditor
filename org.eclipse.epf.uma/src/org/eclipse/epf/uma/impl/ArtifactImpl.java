@@ -15,15 +15,20 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentWithInverseEList;
 import org.eclipse.emf.ecore.util.EcoreUtil;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.Artifact;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -102,10 +107,9 @@ public class ArtifactImpl extends WorkProductImpl implements Artifact {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetContainerArtifact(
-			Artifact newContainerArtifact, NotificationChain msgs) {
-		msgs = eBasicSetContainer((InternalEObject) newContainerArtifact,
-				UmaPackage.ARTIFACT__CONTAINER_ARTIFACT, msgs);
+	public NotificationChain basicSetContainerArtifact(Artifact newContainerArtifact, NotificationChain msgs) {
+		msgs = eBasicSetContainer((InternalEObject) newContainerArtifact, UmaPackage.ARTIFACT__CONTAINER_ARTIFACT,
+				msgs);
 		return msgs;
 	}
 
@@ -118,21 +122,18 @@ public class ArtifactImpl extends WorkProductImpl implements Artifact {
 		if (newContainerArtifact != eInternalContainer()
 				|| (eContainerFeatureID != UmaPackage.ARTIFACT__CONTAINER_ARTIFACT && newContainerArtifact != null)) {
 			if (EcoreUtil.isAncestor(this, (EObject) newContainerArtifact))
-				throw new IllegalArgumentException(
-						"Recursive containment not allowed for " + toString()); //$NON-NLS-1$
+				throw new IllegalArgumentException("Recursive containment not allowed for " + toString()); //$NON-NLS-1$
 			NotificationChain msgs = null;
 			if (eInternalContainer() != null)
 				msgs = eBasicRemoveFromContainer(msgs);
 			if (newContainerArtifact != null)
-				msgs = ((InternalEObject) newContainerArtifact).eInverseAdd(
-						this, UmaPackage.ARTIFACT__CONTAINED_ARTIFACTS,
-						Artifact.class, msgs);
+				msgs = ((InternalEObject) newContainerArtifact).eInverseAdd(this,
+						UmaPackage.ARTIFACT__CONTAINED_ARTIFACTS, Artifact.class, msgs);
 			msgs = basicSetContainerArtifact(newContainerArtifact, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ARTIFACT__CONTAINER_ARTIFACT,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ARTIFACT__CONTAINER_ARTIFACT,
 					newContainerArtifact, newContainerArtifact));
 	}
 
@@ -143,10 +144,8 @@ public class ArtifactImpl extends WorkProductImpl implements Artifact {
 	 */
 	public List<Artifact> getContainedArtifacts() {
 		if (containedArtifacts == null) {
-			containedArtifacts = new EObjectContainmentWithInverseEList.Resolving<Artifact>(
-					Artifact.class, this,
-					UmaPackage.ARTIFACT__CONTAINED_ARTIFACTS,
-					UmaPackage.ARTIFACT__CONTAINER_ARTIFACT);
+			containedArtifacts = new EObjectContainmentWithInverseEList.Resolving<Artifact>(Artifact.class, this,
+					UmaPackage.ARTIFACT__CONTAINED_ARTIFACTS, UmaPackage.ARTIFACT__CONTAINER_ARTIFACT);
 		}
 		return containedArtifacts;
 	}
@@ -158,16 +157,15 @@ public class ArtifactImpl extends WorkProductImpl implements Artifact {
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public NotificationChain eInverseAdd(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.ARTIFACT__CONTAINER_ARTIFACT:
 			if (eInternalContainer() != null)
 				msgs = eBasicRemoveFromContainer(msgs);
 			return basicSetContainerArtifact((Artifact) otherEnd, msgs);
 		case UmaPackage.ARTIFACT__CONTAINED_ARTIFACTS:
-			return ((InternalEList<InternalEObject>) (InternalEList<?>) getContainedArtifacts())
-					.basicAdd(otherEnd, msgs);
+			return ((InternalEList<InternalEObject>) (InternalEList<?>) getContainedArtifacts()).basicAdd(otherEnd,
+					msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -178,14 +176,12 @@ public class ArtifactImpl extends WorkProductImpl implements Artifact {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.ARTIFACT__CONTAINER_ARTIFACT:
 			return basicSetContainerArtifact(null, msgs);
 		case UmaPackage.ARTIFACT__CONTAINED_ARTIFACTS:
-			return ((InternalEList<?>) getContainedArtifacts()).basicRemove(
-					otherEnd, msgs);
+			return ((InternalEList<?>) getContainedArtifacts()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -196,12 +192,10 @@ public class ArtifactImpl extends WorkProductImpl implements Artifact {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eBasicRemoveFromContainerFeature(
-			NotificationChain msgs) {
+	public NotificationChain eBasicRemoveFromContainerFeature(NotificationChain msgs) {
 		switch (eContainerFeatureID) {
 		case UmaPackage.ARTIFACT__CONTAINER_ARTIFACT:
-			return eInternalContainer().eInverseRemove(this,
-					UmaPackage.ARTIFACT__CONTAINED_ARTIFACTS, Artifact.class,
+			return eInternalContainer().eInverseRemove(this, UmaPackage.ARTIFACT__CONTAINED_ARTIFACTS, Artifact.class,
 					msgs);
 		}
 		return super.eBasicRemoveFromContainerFeature(msgs);
@@ -239,8 +233,7 @@ public class ArtifactImpl extends WorkProductImpl implements Artifact {
 			return;
 		case UmaPackage.ARTIFACT__CONTAINED_ARTIFACTS:
 			getContainedArtifacts().clear();
-			getContainedArtifacts().addAll(
-					(Collection<? extends Artifact>) newValue);
+			getContainedArtifacts().addAll((Collection<? extends Artifact>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);

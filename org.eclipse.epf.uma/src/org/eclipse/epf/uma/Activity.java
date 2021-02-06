@@ -45,8 +45,7 @@ import java.util.List;
  * @model
  * @generated
  */
-public interface Activity extends WorkBreakdownElement, FulfillableElement,
-		VariabilityElement, WorkDefinition {
+public interface Activity extends WorkBreakdownElement, FulfillableElement, VariabilityElement, WorkDefinition {
 	/**
 	 * Returns the value of the '<em><b>Breakdown Elements</b></em>' reference list.
 	 * The list contents are of type {@link org.eclipse.epf.uma.BreakdownElement}.

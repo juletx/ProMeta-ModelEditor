@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.ArtifactDescription;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -33,8 +36,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class ArtifactDescriptionImpl extends WorkProductDescriptionImpl
-		implements ArtifactDescription {
+public class ArtifactDescriptionImpl extends WorkProductDescriptionImpl implements ArtifactDescription {
 	/**
 	 * The default value of the '{@link #getBriefOutline() <em>Brief Outline</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -43,7 +45,7 @@ public class ArtifactDescriptionImpl extends WorkProductDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String BRIEF_OUTLINE_EDEFAULT = "";
+	protected static final String BRIEF_OUTLINE_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getBriefOutline() <em>Brief Outline</em>}' attribute.
@@ -63,7 +65,7 @@ public class ArtifactDescriptionImpl extends WorkProductDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String REPRESENTATION_OPTIONS_EDEFAULT = "";
+	protected static final String REPRESENTATION_OPTIONS_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getRepresentationOptions() <em>Representation Options</em>}' attribute.
@@ -156,8 +158,7 @@ public class ArtifactDescriptionImpl extends WorkProductDescriptionImpl
 		String oldBriefOutline = briefOutline;
 		briefOutline = newBriefOutline;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ARTIFACT_DESCRIPTION__BRIEF_OUTLINE,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ARTIFACT_DESCRIPTION__BRIEF_OUTLINE,
 					oldBriefOutline, briefOutline));
 	}
 
@@ -180,8 +181,8 @@ public class ArtifactDescriptionImpl extends WorkProductDescriptionImpl
 		representationOptions = newRepresentationOptions;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ARTIFACT_DESCRIPTION__REPRESENTATION_OPTIONS,
-					oldRepresentationOptions, representationOptions));
+					UmaPackage.ARTIFACT_DESCRIPTION__REPRESENTATION_OPTIONS, oldRepresentationOptions,
+					representationOptions));
 	}
 
 	/**
@@ -202,8 +203,7 @@ public class ArtifactDescriptionImpl extends WorkProductDescriptionImpl
 		String oldRepresentation = representation;
 		representation = newRepresentation;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ARTIFACT_DESCRIPTION__REPRESENTATION,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ARTIFACT_DESCRIPTION__REPRESENTATION,
 					oldRepresentation, representation));
 	}
 
@@ -225,9 +225,8 @@ public class ArtifactDescriptionImpl extends WorkProductDescriptionImpl
 		String oldNotation = notation;
 		notation = newNotation;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ARTIFACT_DESCRIPTION__NOTATION, oldNotation,
-					notation));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ARTIFACT_DESCRIPTION__NOTATION,
+					oldNotation, notation));
 	}
 
 	/**
@@ -313,18 +312,15 @@ public class ArtifactDescriptionImpl extends WorkProductDescriptionImpl
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.ARTIFACT_DESCRIPTION__BRIEF_OUTLINE:
-			return BRIEF_OUTLINE_EDEFAULT == null ? briefOutline != null
-					: !BRIEF_OUTLINE_EDEFAULT.equals(briefOutline);
+			return BRIEF_OUTLINE_EDEFAULT == null ? briefOutline != null : !BRIEF_OUTLINE_EDEFAULT.equals(briefOutline);
 		case UmaPackage.ARTIFACT_DESCRIPTION__REPRESENTATION_OPTIONS:
 			return REPRESENTATION_OPTIONS_EDEFAULT == null ? representationOptions != null
-					: !REPRESENTATION_OPTIONS_EDEFAULT
-							.equals(representationOptions);
+					: !REPRESENTATION_OPTIONS_EDEFAULT.equals(representationOptions);
 		case UmaPackage.ARTIFACT_DESCRIPTION__REPRESENTATION:
 			return REPRESENTATION_EDEFAULT == null ? representation != null
 					: !REPRESENTATION_EDEFAULT.equals(representation);
 		case UmaPackage.ARTIFACT_DESCRIPTION__NOTATION:
-			return NOTATION_EDEFAULT == null ? notation != null
-					: !NOTATION_EDEFAULT.equals(notation);
+			return NOTATION_EDEFAULT == null ? notation != null : !NOTATION_EDEFAULT.equals(notation);
 		}
 		return super.eIsSet(featureID);
 	}

@@ -15,26 +15,25 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 import org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.Activity;
 import org.eclipse.epf.uma.BreakdownElement;
-import org.eclipse.epf.uma.Checklist;
-import org.eclipse.epf.uma.Concept;
 import org.eclipse.epf.uma.Constraint;
 import org.eclipse.epf.uma.FulfillableElement;
-import org.eclipse.epf.uma.Example;
-import org.eclipse.epf.uma.Guideline;
-import org.eclipse.epf.uma.ReusableAsset;
 import org.eclipse.epf.uma.Roadmap;
-import org.eclipse.epf.uma.SupportingMaterial;
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.VariabilityElement;
 import org.eclipse.epf.uma.VariabilityType;
@@ -170,8 +169,7 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 	 */
 	public List<FulfillableElement> getFulfills() {
 		if (fulfills == null) {
-			fulfills = new EObjectResolvingEList<FulfillableElement>(
-					FulfillableElement.class, this,
+			fulfills = new EObjectResolvingEList<FulfillableElement>(FulfillableElement.class, this,
 					UmaPackage.ACTIVITY__FULFILLS);
 		}
 		return fulfills;
@@ -193,12 +191,10 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 	 */
 	public void setVariabilityType(VariabilityType newVariabilityType) {
 		VariabilityType oldVariabilityType = variabilityType;
-		variabilityType = newVariabilityType == null ? VARIABILITY_TYPE_EDEFAULT
-				: newVariabilityType;
+		variabilityType = newVariabilityType == null ? VARIABILITY_TYPE_EDEFAULT : newVariabilityType;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ACTIVITY__VARIABILITY_TYPE, oldVariabilityType,
-					variabilityType));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ACTIVITY__VARIABILITY_TYPE,
+					oldVariabilityType, variabilityType));
 	}
 
 	/**
@@ -207,15 +203,13 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 	 * @generated
 	 */
 	public VariabilityElement getVariabilityBasedOnElement() {
-		if (variabilityBasedOnElement != null
-				&& ((EObject) variabilityBasedOnElement).eIsProxy()) {
+		if (variabilityBasedOnElement != null && ((EObject) variabilityBasedOnElement).eIsProxy()) {
 			InternalEObject oldVariabilityBasedOnElement = (InternalEObject) variabilityBasedOnElement;
 			variabilityBasedOnElement = (VariabilityElement) eResolveProxy(oldVariabilityBasedOnElement);
 			if (variabilityBasedOnElement != oldVariabilityBasedOnElement) {
 				if (eNotificationRequired())
 					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.ACTIVITY__VARIABILITY_BASED_ON_ELEMENT,
-							oldVariabilityBasedOnElement,
+							UmaPackage.ACTIVITY__VARIABILITY_BASED_ON_ELEMENT, oldVariabilityBasedOnElement,
 							variabilityBasedOnElement));
 			}
 		}
@@ -236,13 +230,11 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setVariabilityBasedOnElement(
-			VariabilityElement newVariabilityBasedOnElement) {
+	public void setVariabilityBasedOnElement(VariabilityElement newVariabilityBasedOnElement) {
 		VariabilityElement oldVariabilityBasedOnElement = variabilityBasedOnElement;
 		variabilityBasedOnElement = newVariabilityBasedOnElement;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ACTIVITY__VARIABILITY_BASED_ON_ELEMENT,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ACTIVITY__VARIABILITY_BASED_ON_ELEMENT,
 					oldVariabilityBasedOnElement, variabilityBasedOnElement));
 	}
 
@@ -257,21 +249,17 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 			precondition = (Constraint) eResolveProxy(oldPrecondition);
 			if (precondition != oldPrecondition) {
 				InternalEObject newPrecondition = (InternalEObject) precondition;
-				NotificationChain msgs = oldPrecondition
-						.eInverseRemove(this, EOPPOSITE_FEATURE_BASE
-								- UmaPackage.ACTIVITY__PRECONDITION, null, null);
+				NotificationChain msgs = oldPrecondition.eInverseRemove(this,
+						EOPPOSITE_FEATURE_BASE - UmaPackage.ACTIVITY__PRECONDITION, null, null);
 				if (newPrecondition.eInternalContainer() == null) {
-					msgs = newPrecondition.eInverseAdd(this,
-							EOPPOSITE_FEATURE_BASE
-									- UmaPackage.ACTIVITY__PRECONDITION, null,
-							msgs);
+					msgs = newPrecondition.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - UmaPackage.ACTIVITY__PRECONDITION,
+							null, msgs);
 				}
 				if (msgs != null)
 					msgs.dispatch();
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.ACTIVITY__PRECONDITION, oldPrecondition,
-							precondition));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.ACTIVITY__PRECONDITION,
+							oldPrecondition, precondition));
 			}
 		}
 		return precondition;
@@ -291,14 +279,12 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetPrecondition(Constraint newPrecondition,
-			NotificationChain msgs) {
+	public NotificationChain basicSetPrecondition(Constraint newPrecondition, NotificationChain msgs) {
 		Constraint oldPrecondition = precondition;
 		precondition = newPrecondition;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET, UmaPackage.ACTIVITY__PRECONDITION,
-					oldPrecondition, newPrecondition);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.ACTIVITY__PRECONDITION, oldPrecondition, newPrecondition);
 			if (msgs == null)
 				msgs = notification;
 			else
@@ -316,19 +302,16 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 		if (newPrecondition != precondition) {
 			NotificationChain msgs = null;
 			if (precondition != null)
-				msgs = ((InternalEObject) precondition)
-						.eInverseRemove(this, EOPPOSITE_FEATURE_BASE
-								- UmaPackage.ACTIVITY__PRECONDITION, null, msgs);
+				msgs = ((InternalEObject) precondition).eInverseRemove(this,
+						EOPPOSITE_FEATURE_BASE - UmaPackage.ACTIVITY__PRECONDITION, null, msgs);
 			if (newPrecondition != null)
-				msgs = ((InternalEObject) newPrecondition)
-						.eInverseAdd(this, EOPPOSITE_FEATURE_BASE
-								- UmaPackage.ACTIVITY__PRECONDITION, null, msgs);
+				msgs = ((InternalEObject) newPrecondition).eInverseAdd(this,
+						EOPPOSITE_FEATURE_BASE - UmaPackage.ACTIVITY__PRECONDITION, null, msgs);
 			msgs = basicSetPrecondition(newPrecondition, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ACTIVITY__PRECONDITION, newPrecondition,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ACTIVITY__PRECONDITION, newPrecondition,
 					newPrecondition));
 	}
 
@@ -344,20 +327,15 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 			if (postcondition != oldPostcondition) {
 				InternalEObject newPostcondition = (InternalEObject) postcondition;
 				NotificationChain msgs = oldPostcondition.eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.ACTIVITY__POSTCONDITION, null,
-						null);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.ACTIVITY__POSTCONDITION, null, null);
 				if (newPostcondition.eInternalContainer() == null) {
 					msgs = newPostcondition.eInverseAdd(this,
-							EOPPOSITE_FEATURE_BASE
-									- UmaPackage.ACTIVITY__POSTCONDITION, null,
-							msgs);
+							EOPPOSITE_FEATURE_BASE - UmaPackage.ACTIVITY__POSTCONDITION, null, msgs);
 				}
 				if (msgs != null)
 					msgs.dispatch();
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.ACTIVITY__POSTCONDITION,
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.ACTIVITY__POSTCONDITION,
 							oldPostcondition, postcondition));
 			}
 		}
@@ -378,14 +356,12 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetPostcondition(Constraint newPostcondition,
-			NotificationChain msgs) {
+	public NotificationChain basicSetPostcondition(Constraint newPostcondition, NotificationChain msgs) {
 		Constraint oldPostcondition = postcondition;
 		postcondition = newPostcondition;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET, UmaPackage.ACTIVITY__POSTCONDITION,
-					oldPostcondition, newPostcondition);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.ACTIVITY__POSTCONDITION, oldPostcondition, newPostcondition);
 			if (msgs == null)
 				msgs = notification;
 			else
@@ -404,20 +380,15 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 			NotificationChain msgs = null;
 			if (postcondition != null)
 				msgs = ((InternalEObject) postcondition).eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.ACTIVITY__POSTCONDITION, null,
-						msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.ACTIVITY__POSTCONDITION, null, msgs);
 			if (newPostcondition != null)
 				msgs = ((InternalEObject) newPostcondition).eInverseAdd(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.ACTIVITY__POSTCONDITION, null,
-						msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.ACTIVITY__POSTCONDITION, null, msgs);
 			msgs = basicSetPostcondition(newPostcondition, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ACTIVITY__POSTCONDITION, newPostcondition,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ACTIVITY__POSTCONDITION, newPostcondition,
 					newPostcondition));
 	}
 
@@ -428,10 +399,8 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 	 */
 	public List<BreakdownElement> getBreakdownElements() {
 		if (breakdownElements == null) {
-			breakdownElements = new EObjectWithInverseResolvingEList<BreakdownElement>(
-					BreakdownElement.class, this,
-					UmaPackage.ACTIVITY__BREAKDOWN_ELEMENTS,
-					UmaPackage.BREAKDOWN_ELEMENT__SUPER_ACTIVITIES);
+			breakdownElements = new EObjectWithInverseResolvingEList<BreakdownElement>(BreakdownElement.class, this,
+					UmaPackage.ACTIVITY__BREAKDOWN_ELEMENTS, UmaPackage.BREAKDOWN_ELEMENT__SUPER_ACTIVITIES);
 		}
 		return breakdownElements;
 	}
@@ -443,8 +412,7 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 	 */
 	public List<Roadmap> getRoadmaps() {
 		if (roadmaps == null) {
-			roadmaps = new EObjectResolvingEList<Roadmap>(Roadmap.class, this,
-					UmaPackage.ACTIVITY__ROADMAPS);
+			roadmaps = new EObjectResolvingEList<Roadmap>(Roadmap.class, this, UmaPackage.ACTIVITY__ROADMAPS);
 		}
 		return roadmaps;
 	}
@@ -456,12 +424,11 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public NotificationChain eInverseAdd(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.ACTIVITY__BREAKDOWN_ELEMENTS:
-			return ((InternalEList<InternalEObject>) (InternalEList<?>) getBreakdownElements())
-					.basicAdd(otherEnd, msgs);
+			return ((InternalEList<InternalEObject>) (InternalEList<?>) getBreakdownElements()).basicAdd(otherEnd,
+					msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -472,16 +439,14 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.ACTIVITY__PRECONDITION:
 			return basicSetPrecondition(null, msgs);
 		case UmaPackage.ACTIVITY__POSTCONDITION:
 			return basicSetPostcondition(null, msgs);
 		case UmaPackage.ACTIVITY__BREAKDOWN_ELEMENTS:
-			return ((InternalEList<?>) getBreakdownElements()).basicRemove(
-					otherEnd, msgs);
+			return ((InternalEList<?>) getBreakdownElements()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -529,8 +494,7 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 		switch (featureID) {
 		case UmaPackage.ACTIVITY__FULFILLS:
 			getFulfills().clear();
-			getFulfills().addAll(
-					(Collection<? extends FulfillableElement>) newValue);
+			getFulfills().addAll((Collection<? extends FulfillableElement>) newValue);
 			return;
 		case UmaPackage.ACTIVITY__VARIABILITY_TYPE:
 			setVariabilityType((VariabilityType) newValue);
@@ -546,8 +510,7 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 			return;
 		case UmaPackage.ACTIVITY__BREAKDOWN_ELEMENTS:
 			getBreakdownElements().clear();
-			getBreakdownElements().addAll(
-					(Collection<? extends BreakdownElement>) newValue);
+			getBreakdownElements().addAll((Collection<? extends BreakdownElement>) newValue);
 			return;
 		case UmaPackage.ACTIVITY__ROADMAPS:
 			getRoadmaps().clear();

@@ -31,7 +31,6 @@ package org.eclipse.epf.uma;
  * @generated
  */
 public interface Classifier extends Type {
-
 	/**
 	 * Returns the value of the '<em><b>Is Abstract</b></em>' attribute.
 	 * The default value is <code>"false"</code>.
@@ -58,4 +57,5 @@ public interface Classifier extends Type {
 	 * @generated
 	 */
 	void setIsAbstract(Boolean value);
+
 } // Classifier

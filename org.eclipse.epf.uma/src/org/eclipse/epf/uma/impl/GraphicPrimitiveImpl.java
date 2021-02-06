@@ -11,6 +11,7 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.ecore.EClass;
+
 import org.eclipse.epf.uma.GraphicPrimitive;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -23,8 +24,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public abstract class GraphicPrimitiveImpl extends LeafElementImpl implements
-		GraphicPrimitive {
+public abstract class GraphicPrimitiveImpl extends LeafElementImpl implements GraphicPrimitive {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

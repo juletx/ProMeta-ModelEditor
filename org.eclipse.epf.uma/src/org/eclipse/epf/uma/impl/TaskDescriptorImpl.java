@@ -14,13 +14,18 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.Descriptor;
 import org.eclipse.epf.uma.Guidance;
 import org.eclipse.epf.uma.Role;
@@ -31,7 +36,6 @@ import org.eclipse.epf.uma.TaskDescriptor;
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.WorkProduct;
 import org.eclipse.epf.uma.WorkProductDescriptor;
-import org.eclipse.epf.uma.ecore.util.DefaultValueManager;
 
 /**
  * <!-- begin-user-doc -->
@@ -63,13 +67,7 @@ import org.eclipse.epf.uma.ecore.util.DefaultValueManager;
  *
  * @generated
  */
-public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
-		TaskDescriptor {
-	/**
-	 * Comment for <code>serialVersionUID</code>
-	 */
-	private static final long serialVersionUID = -4419414664273910863L;
-
+public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements TaskDescriptor {
 	/**
 	 * The default value of the '{@link #getIsSynchronizedWithSource() <em>Is Synchronized With Source</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -302,8 +300,8 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 		isSynchronizedWithSource = newIsSynchronizedWithSource;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.TASK_DESCRIPTOR__IS_SYNCHRONIZED_WITH_SOURCE,
-					oldIsSynchronizedWithSource, isSynchronizedWithSource));
+					UmaPackage.TASK_DESCRIPTOR__IS_SYNCHRONIZED_WITH_SOURCE, oldIsSynchronizedWithSource,
+					isSynchronizedWithSource));
 	}
 
 	/**
@@ -313,8 +311,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<Guidance> getGuidanceExclude() {
 		if (guidanceExclude == null) {
-			guidanceExclude = new EObjectResolvingEList<Guidance>(
-					Guidance.class, this,
+			guidanceExclude = new EObjectResolvingEList<Guidance>(Guidance.class, this,
 					UmaPackage.TASK_DESCRIPTOR__GUIDANCE_EXCLUDE);
 		}
 		return guidanceExclude;
@@ -327,8 +324,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<Guidance> getGuidanceAdditional() {
 		if (guidanceAdditional == null) {
-			guidanceAdditional = new EObjectResolvingEList<Guidance>(
-					Guidance.class, this,
+			guidanceAdditional = new EObjectResolvingEList<Guidance>(Guidance.class, this,
 					UmaPackage.TASK_DESCRIPTOR__GUIDANCE_ADDITIONAL);
 		}
 		return guidanceAdditional;
@@ -345,8 +341,8 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 			task = (Task) eResolveProxy(oldTask);
 			if (task != oldTask) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.TASK_DESCRIPTOR__TASK, oldTask, task));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.TASK_DESCRIPTOR__TASK, oldTask,
+							task));
 			}
 		}
 		return task;
@@ -370,8 +366,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 		Task oldTask = task;
 		task = newTask;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.TASK_DESCRIPTOR__TASK, oldTask, task));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.TASK_DESCRIPTOR__TASK, oldTask, task));
 	}
 
 	/**
@@ -381,8 +376,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<RoleDescriptor> getAdditionallyPerformedBy() {
 		if (additionallyPerformedBy == null) {
-			additionallyPerformedBy = new EObjectResolvingEList<RoleDescriptor>(
-					RoleDescriptor.class, this,
+			additionallyPerformedBy = new EObjectResolvingEList<RoleDescriptor>(RoleDescriptor.class, this,
 					UmaPackage.TASK_DESCRIPTOR__ADDITIONALLY_PERFORMED_BY);
 		}
 		return additionallyPerformedBy;
@@ -395,8 +389,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<RoleDescriptor> getAssistedBy() {
 		if (assistedBy == null) {
-			assistedBy = new EObjectResolvingEList<RoleDescriptor>(
-					RoleDescriptor.class, this,
+			assistedBy = new EObjectResolvingEList<RoleDescriptor>(RoleDescriptor.class, this,
 					UmaPackage.TASK_DESCRIPTOR__ASSISTED_BY);
 		}
 		return assistedBy;
@@ -409,8 +402,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<WorkProductDescriptor> getExternalInput() {
 		if (externalInput == null) {
-			externalInput = new EObjectResolvingEList<WorkProductDescriptor>(
-					WorkProductDescriptor.class, this,
+			externalInput = new EObjectResolvingEList<WorkProductDescriptor>(WorkProductDescriptor.class, this,
 					UmaPackage.TASK_DESCRIPTOR__EXTERNAL_INPUT);
 		}
 		return externalInput;
@@ -423,8 +415,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<WorkProductDescriptor> getMandatoryInput() {
 		if (mandatoryInput == null) {
-			mandatoryInput = new EObjectResolvingEList<WorkProductDescriptor>(
-					WorkProductDescriptor.class, this,
+			mandatoryInput = new EObjectResolvingEList<WorkProductDescriptor>(WorkProductDescriptor.class, this,
 					UmaPackage.TASK_DESCRIPTOR__MANDATORY_INPUT);
 		}
 		return mandatoryInput;
@@ -437,8 +428,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<WorkProductDescriptor> getOptionalInput() {
 		if (optionalInput == null) {
-			optionalInput = new EObjectResolvingEList<WorkProductDescriptor>(
-					WorkProductDescriptor.class, this,
+			optionalInput = new EObjectResolvingEList<WorkProductDescriptor>(WorkProductDescriptor.class, this,
 					UmaPackage.TASK_DESCRIPTOR__OPTIONAL_INPUT);
 		}
 		return optionalInput;
@@ -451,8 +441,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<WorkProductDescriptor> getOutput() {
 		if (output == null) {
-			output = new EObjectResolvingEList<WorkProductDescriptor>(
-					WorkProductDescriptor.class, this,
+			output = new EObjectResolvingEList<WorkProductDescriptor>(WorkProductDescriptor.class, this,
 					UmaPackage.TASK_DESCRIPTOR__OUTPUT);
 		}
 		return output;
@@ -465,8 +454,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<RoleDescriptor> getPerformedPrimarilyBy() {
 		if (performedPrimarilyBy == null) {
-			performedPrimarilyBy = new EObjectResolvingEList<RoleDescriptor>(
-					RoleDescriptor.class, this,
+			performedPrimarilyBy = new EObjectResolvingEList<RoleDescriptor>(RoleDescriptor.class, this,
 					UmaPackage.TASK_DESCRIPTOR__PERFORMED_PRIMARILY_BY);
 		}
 		return performedPrimarilyBy;
@@ -479,8 +467,8 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<Section> getSelectedSteps() {
 		if (selectedSteps == null) {
-			selectedSteps = new EObjectResolvingEList<Section>(Section.class,
-					this, UmaPackage.TASK_DESCRIPTOR__SELECTED_STEPS);
+			selectedSteps = new EObjectResolvingEList<Section>(Section.class, this,
+					UmaPackage.TASK_DESCRIPTOR__SELECTED_STEPS);
 		}
 		return selectedSteps;
 	}
@@ -492,8 +480,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<Role> getPerformedPrimarilyByExcluded() {
 		if (performedPrimarilyByExcluded == null) {
-			performedPrimarilyByExcluded = new EObjectResolvingEList<Role>(
-					Role.class, this,
+			performedPrimarilyByExcluded = new EObjectResolvingEList<Role>(Role.class, this,
 					UmaPackage.TASK_DESCRIPTOR__PERFORMED_PRIMARILY_BY_EXCLUDED);
 		}
 		return performedPrimarilyByExcluded;
@@ -506,9 +493,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<Role> getAdditionallyPerformedByExclude() {
 		if (additionallyPerformedByExclude == null) {
-			additionallyPerformedByExclude = new EObjectResolvingEList<Role>(
-					Role.class,
-					this,
+			additionallyPerformedByExclude = new EObjectResolvingEList<Role>(Role.class, this,
 					UmaPackage.TASK_DESCRIPTOR__ADDITIONALLY_PERFORMED_BY_EXCLUDE);
 		}
 		return additionallyPerformedByExclude;
@@ -521,8 +506,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<WorkProduct> getMandatoryInputExclude() {
 		if (mandatoryInputExclude == null) {
-			mandatoryInputExclude = new EObjectResolvingEList<WorkProduct>(
-					WorkProduct.class, this,
+			mandatoryInputExclude = new EObjectResolvingEList<WorkProduct>(WorkProduct.class, this,
 					UmaPackage.TASK_DESCRIPTOR__MANDATORY_INPUT_EXCLUDE);
 		}
 		return mandatoryInputExclude;
@@ -535,8 +519,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<WorkProduct> getOptionalInputExclude() {
 		if (optionalInputExclude == null) {
-			optionalInputExclude = new EObjectResolvingEList<WorkProduct>(
-					WorkProduct.class, this,
+			optionalInputExclude = new EObjectResolvingEList<WorkProduct>(WorkProduct.class, this,
 					UmaPackage.TASK_DESCRIPTOR__OPTIONAL_INPUT_EXCLUDE);
 		}
 		return optionalInputExclude;
@@ -549,8 +532,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<WorkProduct> getOutputExclude() {
 		if (outputExclude == null) {
-			outputExclude = new EObjectResolvingEList<WorkProduct>(
-					WorkProduct.class, this,
+			outputExclude = new EObjectResolvingEList<WorkProduct>(WorkProduct.class, this,
 					UmaPackage.TASK_DESCRIPTOR__OUTPUT_EXCLUDE);
 		}
 		return outputExclude;
@@ -563,8 +545,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 	 */
 	public List<Section> getSelectedStepsExclude() {
 		if (selectedStepsExclude == null) {
-			selectedStepsExclude = new EObjectResolvingEList<Section>(
-					Section.class, this,
+			selectedStepsExclude = new EObjectResolvingEList<Section>(Section.class, this,
 					UmaPackage.TASK_DESCRIPTOR__SELECTED_STEPS_EXCLUDE);
 		}
 		return selectedStepsExclude;
@@ -634,51 +615,42 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__GUIDANCE_EXCLUDE:
 			getGuidanceExclude().clear();
-			getGuidanceExclude().addAll(
-					(Collection<? extends Guidance>) newValue);
+			getGuidanceExclude().addAll((Collection<? extends Guidance>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__GUIDANCE_ADDITIONAL:
 			getGuidanceAdditional().clear();
-			getGuidanceAdditional().addAll(
-					(Collection<? extends Guidance>) newValue);
+			getGuidanceAdditional().addAll((Collection<? extends Guidance>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__TASK:
 			setTask((Task) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__ADDITIONALLY_PERFORMED_BY:
 			getAdditionallyPerformedBy().clear();
-			getAdditionallyPerformedBy().addAll(
-					(Collection<? extends RoleDescriptor>) newValue);
+			getAdditionallyPerformedBy().addAll((Collection<? extends RoleDescriptor>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__ASSISTED_BY:
 			getAssistedBy().clear();
-			getAssistedBy().addAll(
-					(Collection<? extends RoleDescriptor>) newValue);
+			getAssistedBy().addAll((Collection<? extends RoleDescriptor>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__EXTERNAL_INPUT:
 			getExternalInput().clear();
-			getExternalInput().addAll(
-					(Collection<? extends WorkProductDescriptor>) newValue);
+			getExternalInput().addAll((Collection<? extends WorkProductDescriptor>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__MANDATORY_INPUT:
 			getMandatoryInput().clear();
-			getMandatoryInput().addAll(
-					(Collection<? extends WorkProductDescriptor>) newValue);
+			getMandatoryInput().addAll((Collection<? extends WorkProductDescriptor>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__OPTIONAL_INPUT:
 			getOptionalInput().clear();
-			getOptionalInput().addAll(
-					(Collection<? extends WorkProductDescriptor>) newValue);
+			getOptionalInput().addAll((Collection<? extends WorkProductDescriptor>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__OUTPUT:
 			getOutput().clear();
-			getOutput().addAll(
-					(Collection<? extends WorkProductDescriptor>) newValue);
+			getOutput().addAll((Collection<? extends WorkProductDescriptor>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__PERFORMED_PRIMARILY_BY:
 			getPerformedPrimarilyBy().clear();
-			getPerformedPrimarilyBy().addAll(
-					(Collection<? extends RoleDescriptor>) newValue);
+			getPerformedPrimarilyBy().addAll((Collection<? extends RoleDescriptor>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__SELECTED_STEPS:
 			getSelectedSteps().clear();
@@ -686,33 +658,27 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__PERFORMED_PRIMARILY_BY_EXCLUDED:
 			getPerformedPrimarilyByExcluded().clear();
-			getPerformedPrimarilyByExcluded().addAll(
-					(Collection<? extends Role>) newValue);
+			getPerformedPrimarilyByExcluded().addAll((Collection<? extends Role>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__ADDITIONALLY_PERFORMED_BY_EXCLUDE:
 			getAdditionallyPerformedByExclude().clear();
-			getAdditionallyPerformedByExclude().addAll(
-					(Collection<? extends Role>) newValue);
+			getAdditionallyPerformedByExclude().addAll((Collection<? extends Role>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__MANDATORY_INPUT_EXCLUDE:
 			getMandatoryInputExclude().clear();
-			getMandatoryInputExclude().addAll(
-					(Collection<? extends WorkProduct>) newValue);
+			getMandatoryInputExclude().addAll((Collection<? extends WorkProduct>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__OPTIONAL_INPUT_EXCLUDE:
 			getOptionalInputExclude().clear();
-			getOptionalInputExclude().addAll(
-					(Collection<? extends WorkProduct>) newValue);
+			getOptionalInputExclude().addAll((Collection<? extends WorkProduct>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__OUTPUT_EXCLUDE:
 			getOutputExclude().clear();
-			getOutputExclude().addAll(
-					(Collection<? extends WorkProduct>) newValue);
+			getOutputExclude().addAll((Collection<? extends WorkProduct>) newValue);
 			return;
 		case UmaPackage.TASK_DESCRIPTOR__SELECTED_STEPS_EXCLUDE:
 			getSelectedStepsExclude().clear();
-			getSelectedStepsExclude().addAll(
-					(Collection<? extends Section>) newValue);
+			getSelectedStepsExclude().addAll((Collection<? extends Section>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -800,8 +766,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 		switch (featureID) {
 		case UmaPackage.TASK_DESCRIPTOR__IS_SYNCHRONIZED_WITH_SOURCE:
 			return IS_SYNCHRONIZED_WITH_SOURCE_EDEFAULT == null ? isSynchronizedWithSource != null
-					: !IS_SYNCHRONIZED_WITH_SOURCE_EDEFAULT
-							.equals(isSynchronizedWithSource);
+					: !IS_SYNCHRONIZED_WITH_SOURCE_EDEFAULT.equals(isSynchronizedWithSource);
 		case UmaPackage.TASK_DESCRIPTOR__GUIDANCE_EXCLUDE:
 			return guidanceExclude != null && !guidanceExclude.isEmpty();
 		case UmaPackage.TASK_DESCRIPTOR__GUIDANCE_ADDITIONAL:
@@ -809,8 +774,7 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 		case UmaPackage.TASK_DESCRIPTOR__TASK:
 			return task != null;
 		case UmaPackage.TASK_DESCRIPTOR__ADDITIONALLY_PERFORMED_BY:
-			return additionallyPerformedBy != null
-					&& !additionallyPerformedBy.isEmpty();
+			return additionallyPerformedBy != null && !additionallyPerformedBy.isEmpty();
 		case UmaPackage.TASK_DESCRIPTOR__ASSISTED_BY:
 			return assistedBy != null && !assistedBy.isEmpty();
 		case UmaPackage.TASK_DESCRIPTOR__EXTERNAL_INPUT:
@@ -822,27 +786,21 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 		case UmaPackage.TASK_DESCRIPTOR__OUTPUT:
 			return output != null && !output.isEmpty();
 		case UmaPackage.TASK_DESCRIPTOR__PERFORMED_PRIMARILY_BY:
-			return performedPrimarilyBy != null
-					&& !performedPrimarilyBy.isEmpty();
+			return performedPrimarilyBy != null && !performedPrimarilyBy.isEmpty();
 		case UmaPackage.TASK_DESCRIPTOR__SELECTED_STEPS:
 			return selectedSteps != null && !selectedSteps.isEmpty();
 		case UmaPackage.TASK_DESCRIPTOR__PERFORMED_PRIMARILY_BY_EXCLUDED:
-			return performedPrimarilyByExcluded != null
-					&& !performedPrimarilyByExcluded.isEmpty();
+			return performedPrimarilyByExcluded != null && !performedPrimarilyByExcluded.isEmpty();
 		case UmaPackage.TASK_DESCRIPTOR__ADDITIONALLY_PERFORMED_BY_EXCLUDE:
-			return additionallyPerformedByExclude != null
-					&& !additionallyPerformedByExclude.isEmpty();
+			return additionallyPerformedByExclude != null && !additionallyPerformedByExclude.isEmpty();
 		case UmaPackage.TASK_DESCRIPTOR__MANDATORY_INPUT_EXCLUDE:
-			return mandatoryInputExclude != null
-					&& !mandatoryInputExclude.isEmpty();
+			return mandatoryInputExclude != null && !mandatoryInputExclude.isEmpty();
 		case UmaPackage.TASK_DESCRIPTOR__OPTIONAL_INPUT_EXCLUDE:
-			return optionalInputExclude != null
-					&& !optionalInputExclude.isEmpty();
+			return optionalInputExclude != null && !optionalInputExclude.isEmpty();
 		case UmaPackage.TASK_DESCRIPTOR__OUTPUT_EXCLUDE:
 			return outputExclude != null && !outputExclude.isEmpty();
 		case UmaPackage.TASK_DESCRIPTOR__SELECTED_STEPS_EXCLUDE:
-			return selectedStepsExclude != null
-					&& !selectedStepsExclude.isEmpty();
+			return selectedStepsExclude != null && !selectedStepsExclude.isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}
@@ -908,15 +866,4 @@ public class TaskDescriptorImpl extends WorkBreakdownElementImpl implements
 		return result.toString();
 	}
 
-	////////////////////////
-	// Begin of custom code 
-	////////////////////////
-
-	static {
-		// override the default value of BreakdownElement.isPlanned
-		//
-				DefaultValueManager.INSTANCE.setStaticDefaultValue(UmaPackage.eINSTANCE
-						.getTaskDescriptor(), UmaPackage.eINSTANCE
-						.getBreakdownElement_IsPlanned(), Boolean.FALSE);
-	}
 } //TaskDescriptorImpl

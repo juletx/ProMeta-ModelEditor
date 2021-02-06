@@ -16,8 +16,8 @@ import java.util.List;
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
-
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 
 import org.eclipse.epf.uma.FulfillableElement;
@@ -36,8 +36,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class FulfillableElementImpl extends DescribableElementImpl implements
-		FulfillableElement {
+public class FulfillableElementImpl extends DescribableElementImpl implements FulfillableElement {
 	/**
 	 * The cached value of the '{@link #getFulfills() <em>Fulfills</em>}' reference list.
 	 * <!-- begin-user-doc -->
@@ -78,8 +77,7 @@ public class FulfillableElementImpl extends DescribableElementImpl implements
 	 */
 	public List<FulfillableElement> getFulfills() {
 		if (fulfills == null) {
-			fulfills = new EObjectResolvingEList<FulfillableElement>(
-					FulfillableElement.class, this,
+			fulfills = new EObjectResolvingEList<FulfillableElement>(FulfillableElement.class, this,
 					UmaPackage.FULFILLABLE_ELEMENT__FULFILLS);
 		}
 		return fulfills;
@@ -110,8 +108,7 @@ public class FulfillableElementImpl extends DescribableElementImpl implements
 		switch (featureID) {
 		case UmaPackage.FULFILLABLE_ELEMENT__FULFILLS:
 			getFulfills().clear();
-			getFulfills().addAll(
-					(Collection<? extends FulfillableElement>) newValue);
+			getFulfills().addAll((Collection<? extends FulfillableElement>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);

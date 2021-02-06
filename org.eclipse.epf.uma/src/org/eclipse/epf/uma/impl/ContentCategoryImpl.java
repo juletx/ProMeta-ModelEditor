@@ -11,6 +11,7 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.ecore.EClass;
+
 import org.eclipse.epf.uma.ContentCategory;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -23,8 +24,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public abstract class ContentCategoryImpl extends ContentElementImpl implements
-		ContentCategory {
+public abstract class ContentCategoryImpl extends ContentElementImpl implements ContentCategory {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

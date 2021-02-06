@@ -12,15 +12,21 @@ package org.eclipse.epf.uma.impl;
 
 import java.util.Collection;
 import java.util.List;
+
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.Activity;
 import org.eclipse.epf.uma.BreakdownElement;
 import org.eclipse.epf.uma.Checklist;
@@ -66,8 +72,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public abstract class BreakdownElementImpl extends ProcessElementImpl implements
-		BreakdownElement {
+public abstract class BreakdownElementImpl extends ProcessElementImpl implements BreakdownElement {
 	/**
 	 * The default value of the '{@link #getPrefix() <em>Prefix</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -76,7 +81,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String PREFIX_EDEFAULT = "";
+	protected static final String PREFIX_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getPrefix() <em>Prefix</em>}' attribute.
@@ -329,8 +334,8 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 		String oldPrefix = prefix;
 		prefix = newPrefix;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.BREAKDOWN_ELEMENT__PREFIX, oldPrefix, prefix));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.BREAKDOWN_ELEMENT__PREFIX, oldPrefix,
+					prefix));
 	}
 
 	/**
@@ -351,9 +356,8 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 		Boolean oldIsPlanned = isPlanned;
 		isPlanned = newIsPlanned;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.BREAKDOWN_ELEMENT__IS_PLANNED, oldIsPlanned,
-					isPlanned));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.BREAKDOWN_ELEMENT__IS_PLANNED,
+					oldIsPlanned, isPlanned));
 	}
 
 	/**
@@ -375,8 +379,8 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 		hasMultipleOccurrences = newHasMultipleOccurrences;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.BREAKDOWN_ELEMENT__HAS_MULTIPLE_OCCURRENCES,
-					oldHasMultipleOccurrences, hasMultipleOccurrences));
+					UmaPackage.BREAKDOWN_ELEMENT__HAS_MULTIPLE_OCCURRENCES, oldHasMultipleOccurrences,
+					hasMultipleOccurrences));
 	}
 
 	/**
@@ -397,9 +401,8 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 		Boolean oldIsOptional = isOptional;
 		isOptional = newIsOptional;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.BREAKDOWN_ELEMENT__IS_OPTIONAL, oldIsOptional,
-					isOptional));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.BREAKDOWN_ELEMENT__IS_OPTIONAL,
+					oldIsOptional, isOptional));
 	}
 
 	/**
@@ -414,8 +417,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 			if (presentedAfter != oldPresentedAfter) {
 				if (eNotificationRequired())
 					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.BREAKDOWN_ELEMENT__PRESENTED_AFTER,
-							oldPresentedAfter, presentedAfter));
+							UmaPackage.BREAKDOWN_ELEMENT__PRESENTED_AFTER, oldPresentedAfter, presentedAfter));
 			}
 		}
 		return presentedAfter;
@@ -439,8 +441,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 		BreakdownElement oldPresentedAfter = presentedAfter;
 		presentedAfter = newPresentedAfter;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.BREAKDOWN_ELEMENT__PRESENTED_AFTER,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.BREAKDOWN_ELEMENT__PRESENTED_AFTER,
 					oldPresentedAfter, presentedAfter));
 	}
 
@@ -456,8 +457,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 			if (presentedBefore != oldPresentedBefore) {
 				if (eNotificationRequired())
 					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.BREAKDOWN_ELEMENT__PRESENTED_BEFORE,
-							oldPresentedBefore, presentedBefore));
+							UmaPackage.BREAKDOWN_ELEMENT__PRESENTED_BEFORE, oldPresentedBefore, presentedBefore));
 			}
 		}
 		return presentedBefore;
@@ -481,8 +481,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 		BreakdownElement oldPresentedBefore = presentedBefore;
 		presentedBefore = newPresentedBefore;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.BREAKDOWN_ELEMENT__PRESENTED_BEFORE,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.BREAKDOWN_ELEMENT__PRESENTED_BEFORE,
 					oldPresentedBefore, presentedBefore));
 	}
 
@@ -498,23 +497,16 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 			if (planningData != oldPlanningData) {
 				InternalEObject newPlanningData = (InternalEObject) planningData;
 				NotificationChain msgs = oldPlanningData.eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA,
-						null, null);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA, null, null);
 				if (newPlanningData.eInternalContainer() == null) {
-					msgs = newPlanningData
-							.eInverseAdd(
-									this,
-									EOPPOSITE_FEATURE_BASE
-											- UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA,
-									null, msgs);
+					msgs = newPlanningData.eInverseAdd(this,
+							EOPPOSITE_FEATURE_BASE - UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA, null, msgs);
 				}
 				if (msgs != null)
 					msgs.dispatch();
 				if (eNotificationRequired())
 					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA,
-							oldPlanningData, planningData));
+							UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA, oldPlanningData, planningData));
 			}
 		}
 		return planningData;
@@ -534,15 +526,12 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetPlanningData(PlanningData newPlanningData,
-			NotificationChain msgs) {
+	public NotificationChain basicSetPlanningData(PlanningData newPlanningData, NotificationChain msgs) {
 		PlanningData oldPlanningData = planningData;
 		planningData = newPlanningData;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET,
-					UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA,
-					oldPlanningData, newPlanningData);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA, oldPlanningData, newPlanningData);
 			if (msgs == null)
 				msgs = notification;
 			else
@@ -561,20 +550,15 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 			NotificationChain msgs = null;
 			if (planningData != null)
 				msgs = ((InternalEObject) planningData).eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA,
-						null, msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA, null, msgs);
 			if (newPlanningData != null)
 				msgs = ((InternalEObject) newPlanningData).eInverseAdd(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA,
-						null, msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA, null, msgs);
 			msgs = basicSetPlanningData(newPlanningData, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA,
 					newPlanningData, newPlanningData));
 	}
 
@@ -590,8 +574,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 			if (superActivities != oldSuperActivities) {
 				if (eNotificationRequired())
 					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.BREAKDOWN_ELEMENT__SUPER_ACTIVITIES,
-							oldSuperActivities, superActivities));
+							UmaPackage.BREAKDOWN_ELEMENT__SUPER_ACTIVITIES, oldSuperActivities, superActivities));
 			}
 		}
 		return superActivities;
@@ -611,15 +594,12 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetSuperActivities(
-			Activity newSuperActivities, NotificationChain msgs) {
+	public NotificationChain basicSetSuperActivities(Activity newSuperActivities, NotificationChain msgs) {
 		Activity oldSuperActivities = superActivities;
 		superActivities = newSuperActivities;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET,
-					UmaPackage.BREAKDOWN_ELEMENT__SUPER_ACTIVITIES,
-					oldSuperActivities, newSuperActivities);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.BREAKDOWN_ELEMENT__SUPER_ACTIVITIES, oldSuperActivities, newSuperActivities);
 			if (msgs == null)
 				msgs = notification;
 			else
@@ -637,19 +617,16 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 		if (newSuperActivities != superActivities) {
 			NotificationChain msgs = null;
 			if (superActivities != null)
-				msgs = ((InternalEObject) superActivities).eInverseRemove(this,
-						UmaPackage.ACTIVITY__BREAKDOWN_ELEMENTS,
+				msgs = ((InternalEObject) superActivities).eInverseRemove(this, UmaPackage.ACTIVITY__BREAKDOWN_ELEMENTS,
 						Activity.class, msgs);
 			if (newSuperActivities != null)
-				msgs = ((InternalEObject) newSuperActivities).eInverseAdd(this,
-						UmaPackage.ACTIVITY__BREAKDOWN_ELEMENTS,
+				msgs = ((InternalEObject) newSuperActivities).eInverseAdd(this, UmaPackage.ACTIVITY__BREAKDOWN_ELEMENTS,
 						Activity.class, msgs);
 			msgs = basicSetSuperActivities(newSuperActivities, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.BREAKDOWN_ELEMENT__SUPER_ACTIVITIES,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.BREAKDOWN_ELEMENT__SUPER_ACTIVITIES,
 					newSuperActivities, newSuperActivities));
 	}
 
@@ -660,8 +637,8 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 */
 	public List<Checklist> getChecklists() {
 		if (checklists == null) {
-			checklists = new EObjectResolvingEList<Checklist>(Checklist.class,
-					this, UmaPackage.BREAKDOWN_ELEMENT__CHECKLISTS);
+			checklists = new EObjectResolvingEList<Checklist>(Checklist.class, this,
+					UmaPackage.BREAKDOWN_ELEMENT__CHECKLISTS);
 		}
 		return checklists;
 	}
@@ -673,8 +650,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 */
 	public List<Concept> getConcepts() {
 		if (concepts == null) {
-			concepts = new EObjectResolvingEList<Concept>(Concept.class, this,
-					UmaPackage.BREAKDOWN_ELEMENT__CONCEPTS);
+			concepts = new EObjectResolvingEList<Concept>(Concept.class, this, UmaPackage.BREAKDOWN_ELEMENT__CONCEPTS);
 		}
 		return concepts;
 	}
@@ -686,8 +662,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 */
 	public List<Example> getExamples() {
 		if (examples == null) {
-			examples = new EObjectResolvingEList<Example>(Example.class, this,
-					UmaPackage.BREAKDOWN_ELEMENT__EXAMPLES);
+			examples = new EObjectResolvingEList<Example>(Example.class, this, UmaPackage.BREAKDOWN_ELEMENT__EXAMPLES);
 		}
 		return examples;
 	}
@@ -699,8 +674,8 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 */
 	public List<Guideline> getGuidelines() {
 		if (guidelines == null) {
-			guidelines = new EObjectResolvingEList<Guideline>(Guideline.class,
-					this, UmaPackage.BREAKDOWN_ELEMENT__GUIDELINES);
+			guidelines = new EObjectResolvingEList<Guideline>(Guideline.class, this,
+					UmaPackage.BREAKDOWN_ELEMENT__GUIDELINES);
 		}
 		return guidelines;
 	}
@@ -712,8 +687,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 */
 	public List<ReusableAsset> getReusableAssets() {
 		if (reusableAssets == null) {
-			reusableAssets = new EObjectResolvingEList<ReusableAsset>(
-					ReusableAsset.class, this,
+			reusableAssets = new EObjectResolvingEList<ReusableAsset>(ReusableAsset.class, this,
 					UmaPackage.BREAKDOWN_ELEMENT__REUSABLE_ASSETS);
 		}
 		return reusableAssets;
@@ -726,8 +700,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 */
 	public List<SupportingMaterial> getSupportingMaterials() {
 		if (supportingMaterials == null) {
-			supportingMaterials = new EObjectResolvingEList<SupportingMaterial>(
-					SupportingMaterial.class, this,
+			supportingMaterials = new EObjectResolvingEList<SupportingMaterial>(SupportingMaterial.class, this,
 					UmaPackage.BREAKDOWN_ELEMENT__SUPPORTING_MATERIALS);
 		}
 		return supportingMaterials;
@@ -740,8 +713,8 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 */
 	public List<Template> getTemplates() {
 		if (templates == null) {
-			templates = new EObjectResolvingEList<Template>(Template.class,
-					this, UmaPackage.BREAKDOWN_ELEMENT__TEMPLATES);
+			templates = new EObjectResolvingEList<Template>(Template.class, this,
+					UmaPackage.BREAKDOWN_ELEMENT__TEMPLATES);
 		}
 		return templates;
 	}
@@ -753,8 +726,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 */
 	public List<Report> getReports() {
 		if (reports == null) {
-			reports = new EObjectResolvingEList<Report>(Report.class, this,
-					UmaPackage.BREAKDOWN_ELEMENT__REPORTS);
+			reports = new EObjectResolvingEList<Report>(Report.class, this, UmaPackage.BREAKDOWN_ELEMENT__REPORTS);
 		}
 		return reports;
 	}
@@ -767,8 +739,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	public List<EstimationConsiderations> getEstimationconsiderations() {
 		if (estimationconsiderations == null) {
 			estimationconsiderations = new EObjectResolvingEList<EstimationConsiderations>(
-					EstimationConsiderations.class, this,
-					UmaPackage.BREAKDOWN_ELEMENT__ESTIMATIONCONSIDERATIONS);
+					EstimationConsiderations.class, this, UmaPackage.BREAKDOWN_ELEMENT__ESTIMATIONCONSIDERATIONS);
 		}
 		return estimationconsiderations;
 	}
@@ -780,8 +751,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 */
 	public List<ToolMentor> getToolmentor() {
 		if (toolmentor == null) {
-			toolmentor = new EObjectResolvingEList<ToolMentor>(
-					ToolMentor.class, this,
+			toolmentor = new EObjectResolvingEList<ToolMentor>(ToolMentor.class, this,
 					UmaPackage.BREAKDOWN_ELEMENT__TOOLMENTOR);
 		}
 		return toolmentor;
@@ -793,13 +763,11 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseAdd(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.BREAKDOWN_ELEMENT__SUPER_ACTIVITIES:
 			if (superActivities != null)
-				msgs = ((InternalEObject) superActivities).eInverseRemove(this,
-						UmaPackage.ACTIVITY__BREAKDOWN_ELEMENTS,
+				msgs = ((InternalEObject) superActivities).eInverseRemove(this, UmaPackage.ACTIVITY__BREAKDOWN_ELEMENTS,
 						Activity.class, msgs);
 			return basicSetSuperActivities((Activity) otherEnd, msgs);
 		}
@@ -812,8 +780,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA:
 			return basicSetPlanningData(null, msgs);
@@ -930,13 +897,11 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 			return;
 		case UmaPackage.BREAKDOWN_ELEMENT__REUSABLE_ASSETS:
 			getReusableAssets().clear();
-			getReusableAssets().addAll(
-					(Collection<? extends ReusableAsset>) newValue);
+			getReusableAssets().addAll((Collection<? extends ReusableAsset>) newValue);
 			return;
 		case UmaPackage.BREAKDOWN_ELEMENT__SUPPORTING_MATERIALS:
 			getSupportingMaterials().clear();
-			getSupportingMaterials().addAll(
-					(Collection<? extends SupportingMaterial>) newValue);
+			getSupportingMaterials().addAll((Collection<? extends SupportingMaterial>) newValue);
 			return;
 		case UmaPackage.BREAKDOWN_ELEMENT__TEMPLATES:
 			getTemplates().clear();
@@ -948,8 +913,7 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 			return;
 		case UmaPackage.BREAKDOWN_ELEMENT__ESTIMATIONCONSIDERATIONS:
 			getEstimationconsiderations().clear();
-			getEstimationconsiderations().addAll(
-					(Collection<? extends EstimationConsiderations>) newValue);
+			getEstimationconsiderations().addAll((Collection<? extends EstimationConsiderations>) newValue);
 			return;
 		case UmaPackage.BREAKDOWN_ELEMENT__TOOLMENTOR:
 			getToolmentor().clear();
@@ -1040,18 +1004,14 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.BREAKDOWN_ELEMENT__PREFIX:
-			return PREFIX_EDEFAULT == null ? prefix != null : !PREFIX_EDEFAULT
-					.equals(prefix);
+			return PREFIX_EDEFAULT == null ? prefix != null : !PREFIX_EDEFAULT.equals(prefix);
 		case UmaPackage.BREAKDOWN_ELEMENT__IS_PLANNED:
-			return IS_PLANNED_EDEFAULT == null ? isPlanned != null
-					: !IS_PLANNED_EDEFAULT.equals(isPlanned);
+			return IS_PLANNED_EDEFAULT == null ? isPlanned != null : !IS_PLANNED_EDEFAULT.equals(isPlanned);
 		case UmaPackage.BREAKDOWN_ELEMENT__HAS_MULTIPLE_OCCURRENCES:
 			return HAS_MULTIPLE_OCCURRENCES_EDEFAULT == null ? hasMultipleOccurrences != null
-					: !HAS_MULTIPLE_OCCURRENCES_EDEFAULT
-							.equals(hasMultipleOccurrences);
+					: !HAS_MULTIPLE_OCCURRENCES_EDEFAULT.equals(hasMultipleOccurrences);
 		case UmaPackage.BREAKDOWN_ELEMENT__IS_OPTIONAL:
-			return IS_OPTIONAL_EDEFAULT == null ? isOptional != null
-					: !IS_OPTIONAL_EDEFAULT.equals(isOptional);
+			return IS_OPTIONAL_EDEFAULT == null ? isOptional != null : !IS_OPTIONAL_EDEFAULT.equals(isOptional);
 		case UmaPackage.BREAKDOWN_ELEMENT__PRESENTED_AFTER:
 			return presentedAfter != null;
 		case UmaPackage.BREAKDOWN_ELEMENT__PRESENTED_BEFORE:
@@ -1071,15 +1031,13 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 		case UmaPackage.BREAKDOWN_ELEMENT__REUSABLE_ASSETS:
 			return reusableAssets != null && !reusableAssets.isEmpty();
 		case UmaPackage.BREAKDOWN_ELEMENT__SUPPORTING_MATERIALS:
-			return supportingMaterials != null
-					&& !supportingMaterials.isEmpty();
+			return supportingMaterials != null && !supportingMaterials.isEmpty();
 		case UmaPackage.BREAKDOWN_ELEMENT__TEMPLATES:
 			return templates != null && !templates.isEmpty();
 		case UmaPackage.BREAKDOWN_ELEMENT__REPORTS:
 			return reports != null && !reports.isEmpty();
 		case UmaPackage.BREAKDOWN_ELEMENT__ESTIMATIONCONSIDERATIONS:
-			return estimationconsiderations != null
-					&& !estimationconsiderations.isEmpty();
+			return estimationconsiderations != null && !estimationconsiderations.isEmpty();
 		case UmaPackage.BREAKDOWN_ELEMENT__TOOLMENTOR:
 			return toolmentor != null && !toolmentor.isEmpty();
 		}

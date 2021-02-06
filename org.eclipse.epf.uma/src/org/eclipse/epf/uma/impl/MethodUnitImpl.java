@@ -13,11 +13,14 @@ package org.eclipse.epf.uma.impl;
 import java.util.Date;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.MethodUnit;
 import org.eclipse.epf.uma.SupportingMaterial;
 import org.eclipse.epf.uma.UmaPackage;
@@ -39,8 +42,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public abstract class MethodUnitImpl extends MethodElementImpl implements
-		MethodUnit {
+public abstract class MethodUnitImpl extends MethodElementImpl implements MethodUnit {
 	/**
 	 * The default value of the '{@link #getAuthors() <em>Authors</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -49,7 +51,7 @@ public abstract class MethodUnitImpl extends MethodElementImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String AUTHORS_EDEFAULT = "";
+	protected static final String AUTHORS_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getAuthors() <em>Authors</em>}' attribute.
@@ -89,7 +91,7 @@ public abstract class MethodUnitImpl extends MethodElementImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String CHANGE_DESCRIPTION_EDEFAULT = "";
+	protected static final String CHANGE_DESCRIPTION_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getChangeDescription() <em>Change Description</em>}' attribute.
@@ -109,7 +111,7 @@ public abstract class MethodUnitImpl extends MethodElementImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String VERSION_EDEFAULT = "";
+	protected static final String VERSION_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getVersion() <em>Version</em>}' attribute.
@@ -172,8 +174,8 @@ public abstract class MethodUnitImpl extends MethodElementImpl implements
 		String oldAuthors = authors;
 		authors = newAuthors;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_UNIT__AUTHORS, oldAuthors, authors));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_UNIT__AUTHORS, oldAuthors,
+					authors));
 	}
 
 	/**
@@ -194,8 +196,7 @@ public abstract class MethodUnitImpl extends MethodElementImpl implements
 		Date oldChangeDate = changeDate;
 		changeDate = newChangeDate;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_UNIT__CHANGE_DATE, oldChangeDate,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_UNIT__CHANGE_DATE, oldChangeDate,
 					changeDate));
 	}
 
@@ -217,8 +218,7 @@ public abstract class MethodUnitImpl extends MethodElementImpl implements
 		String oldChangeDescription = changeDescription;
 		changeDescription = newChangeDescription;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_UNIT__CHANGE_DESCRIPTION,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_UNIT__CHANGE_DESCRIPTION,
 					oldChangeDescription, changeDescription));
 	}
 
@@ -240,8 +240,8 @@ public abstract class MethodUnitImpl extends MethodElementImpl implements
 		String oldVersion = version;
 		version = newVersion;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_UNIT__VERSION, oldVersion, version));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_UNIT__VERSION, oldVersion,
+					version));
 	}
 
 	/**
@@ -250,15 +250,13 @@ public abstract class MethodUnitImpl extends MethodElementImpl implements
 	 * @generated
 	 */
 	public SupportingMaterial getCopyrightStatement() {
-		if (copyrightStatement != null
-				&& ((EObject) copyrightStatement).eIsProxy()) {
+		if (copyrightStatement != null && ((EObject) copyrightStatement).eIsProxy()) {
 			InternalEObject oldCopyrightStatement = (InternalEObject) copyrightStatement;
 			copyrightStatement = (SupportingMaterial) eResolveProxy(oldCopyrightStatement);
 			if (copyrightStatement != oldCopyrightStatement) {
 				if (eNotificationRequired())
 					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.METHOD_UNIT__COPYRIGHT_STATEMENT,
-							oldCopyrightStatement, copyrightStatement));
+							UmaPackage.METHOD_UNIT__COPYRIGHT_STATEMENT, oldCopyrightStatement, copyrightStatement));
 			}
 		}
 		return copyrightStatement;
@@ -282,8 +280,7 @@ public abstract class MethodUnitImpl extends MethodElementImpl implements
 		SupportingMaterial oldCopyrightStatement = copyrightStatement;
 		copyrightStatement = newCopyrightStatement;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_UNIT__COPYRIGHT_STATEMENT,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_UNIT__COPYRIGHT_STATEMENT,
 					oldCopyrightStatement, copyrightStatement));
 	}
 
@@ -380,17 +377,14 @@ public abstract class MethodUnitImpl extends MethodElementImpl implements
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.METHOD_UNIT__AUTHORS:
-			return AUTHORS_EDEFAULT == null ? authors != null
-					: !AUTHORS_EDEFAULT.equals(authors);
+			return AUTHORS_EDEFAULT == null ? authors != null : !AUTHORS_EDEFAULT.equals(authors);
 		case UmaPackage.METHOD_UNIT__CHANGE_DATE:
-			return CHANGE_DATE_EDEFAULT == null ? changeDate != null
-					: !CHANGE_DATE_EDEFAULT.equals(changeDate);
+			return CHANGE_DATE_EDEFAULT == null ? changeDate != null : !CHANGE_DATE_EDEFAULT.equals(changeDate);
 		case UmaPackage.METHOD_UNIT__CHANGE_DESCRIPTION:
 			return CHANGE_DESCRIPTION_EDEFAULT == null ? changeDescription != null
 					: !CHANGE_DESCRIPTION_EDEFAULT.equals(changeDescription);
 		case UmaPackage.METHOD_UNIT__VERSION:
-			return VERSION_EDEFAULT == null ? version != null
-					: !VERSION_EDEFAULT.equals(version);
+			return VERSION_EDEFAULT == null ? version != null : !VERSION_EDEFAULT.equals(version);
 		case UmaPackage.METHOD_UNIT__COPYRIGHT_STATEMENT:
 			return copyrightStatement != null;
 		}

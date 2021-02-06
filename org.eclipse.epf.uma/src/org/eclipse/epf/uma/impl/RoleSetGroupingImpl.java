@@ -14,9 +14,12 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.RoleSet;
 import org.eclipse.epf.uma.RoleSetGrouping;
 import org.eclipse.epf.uma.UmaPackage;
@@ -34,8 +37,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class RoleSetGroupingImpl extends ContentCategoryImpl implements
-		RoleSetGrouping {
+public class RoleSetGroupingImpl extends ContentCategoryImpl implements RoleSetGrouping {
 	/**
 	 * The cached value of the '{@link #getRoleSets() <em>Role Sets</em>}' reference list.
 	 * <!-- begin-user-doc -->
@@ -76,8 +78,7 @@ public class RoleSetGroupingImpl extends ContentCategoryImpl implements
 	 */
 	public List<RoleSet> getRoleSets() {
 		if (roleSets == null) {
-			roleSets = new EObjectResolvingEList<RoleSet>(RoleSet.class, this,
-					UmaPackage.ROLE_SET_GROUPING__ROLE_SETS);
+			roleSets = new EObjectResolvingEList<RoleSet>(RoleSet.class, this, UmaPackage.ROLE_SET_GROUPING__ROLE_SETS);
 		}
 		return roleSets;
 	}

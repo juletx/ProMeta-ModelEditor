@@ -14,9 +14,12 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.Deliverable;
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.WorkProduct;
@@ -75,8 +78,7 @@ public class DeliverableImpl extends WorkProductImpl implements Deliverable {
 	 */
 	public List<WorkProduct> getDeliveredWorkProducts() {
 		if (deliveredWorkProducts == null) {
-			deliveredWorkProducts = new EObjectResolvingEList<WorkProduct>(
-					WorkProduct.class, this,
+			deliveredWorkProducts = new EObjectResolvingEList<WorkProduct>(WorkProduct.class, this,
 					UmaPackage.DELIVERABLE__DELIVERED_WORK_PRODUCTS);
 		}
 		return deliveredWorkProducts;
@@ -107,8 +109,7 @@ public class DeliverableImpl extends WorkProductImpl implements Deliverable {
 		switch (featureID) {
 		case UmaPackage.DELIVERABLE__DELIVERED_WORK_PRODUCTS:
 			getDeliveredWorkProducts().clear();
-			getDeliveredWorkProducts().addAll(
-					(Collection<? extends WorkProduct>) newValue);
+			getDeliveredWorkProducts().addAll((Collection<? extends WorkProduct>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -144,8 +145,7 @@ public class DeliverableImpl extends WorkProductImpl implements Deliverable {
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.DELIVERABLE__DELIVERED_WORK_PRODUCTS:
-			return deliveredWorkProducts != null
-					&& !deliveredWorkProducts.isEmpty();
+			return deliveredWorkProducts != null && !deliveredWorkProducts.isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

@@ -16,6 +16,7 @@ import java.util.Collection;
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.Notifier;
+
 import org.eclipse.emf.edit.provider.ChangeNotifier;
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
 import org.eclipse.emf.edit.provider.ComposedAdapterFactory;
@@ -27,6 +28,7 @@ import org.eclipse.emf.edit.provider.IItemPropertySource;
 import org.eclipse.emf.edit.provider.INotifyChangedListener;
 import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
 import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
+
 import org.eclipse.epf.uma.util.UmaAdapterFactory;
 
 /**
@@ -38,8 +40,8 @@ import org.eclipse.epf.uma.util.UmaAdapterFactory;
  * <!-- end-user-doc -->
  * @generated
  */
-public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
-		ComposeableAdapterFactory, IChangeNotifier, IDisposable {
+public class UmaItemProviderAdapterFactory extends UmaAdapterFactory
+		implements ComposeableAdapterFactory, IChangeNotifier, IDisposable {
 	/**
 	 * This keeps track of the root adapter factory that delegates to this adapter factory.
 	 * <!-- begin-user-doc -->
@@ -141,8 +143,7 @@ public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
 	@Override
 	public Adapter createMethodElementPropertyAdapter() {
 		if (methodElementPropertyItemProvider == null) {
-			methodElementPropertyItemProvider = new MethodElementPropertyItemProvider(
-					this);
+			methodElementPropertyItemProvider = new MethodElementPropertyItemProvider(this);
 		}
 
 		return methodElementPropertyItemProvider;
@@ -172,72 +173,233 @@ public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Role} instances.
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ContentDescription} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected RoleItemProvider roleItemProvider;
+	protected ContentDescriptionItemProvider contentDescriptionItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Role}.
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.ContentDescription}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createRoleAdapter() {
-		if (roleItemProvider == null) {
-			roleItemProvider = new RoleItemProvider(this);
+	public Adapter createContentDescriptionAdapter() {
+		if (contentDescriptionItemProvider == null) {
+			contentDescriptionItemProvider = new ContentDescriptionItemProvider(this);
 		}
 
-		return roleItemProvider;
+		return contentDescriptionItemProvider;
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Task} instances.
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.SupportingMaterial} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected TaskItemProvider taskItemProvider;
+	protected SupportingMaterialItemProvider supportingMaterialItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Task}.
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.SupportingMaterial}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createTaskAdapter() {
-		if (taskItemProvider == null) {
-			taskItemProvider = new TaskItemProvider(this);
+	public Adapter createSupportingMaterialAdapter() {
+		if (supportingMaterialItemProvider == null) {
+			supportingMaterialItemProvider = new SupportingMaterialItemProvider(this);
 		}
 
-		return taskItemProvider;
+		return supportingMaterialItemProvider;
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Step} instances.
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Section} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected StepItemProvider stepItemProvider;
+	protected SectionItemProvider sectionItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Step}.
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Section}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createStepAdapter() {
-		if (stepItemProvider == null) {
-			stepItemProvider = new StepItemProvider(this);
+	public Adapter createSectionAdapter() {
+		if (sectionItemProvider == null) {
+			sectionItemProvider = new SectionItemProvider(this);
 		}
 
-		return stepItemProvider;
+		return sectionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Concept} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ConceptItemProvider conceptItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Concept}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createConceptAdapter() {
+		if (conceptItemProvider == null) {
+			conceptItemProvider = new ConceptItemProvider(this);
+		}
+
+		return conceptItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Checklist} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ChecklistItemProvider checklistItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Checklist}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createChecklistAdapter() {
+		if (checklistItemProvider == null) {
+			checklistItemProvider = new ChecklistItemProvider(this);
+		}
+
+		return checklistItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Guideline} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected GuidelineItemProvider guidelineItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Guideline}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createGuidelineAdapter() {
+		if (guidelineItemProvider == null) {
+			guidelineItemProvider = new GuidelineItemProvider(this);
+		}
+
+		return guidelineItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Example} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ExampleItemProvider exampleItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Example}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createExampleAdapter() {
+		if (exampleItemProvider == null) {
+			exampleItemProvider = new ExampleItemProvider(this);
+		}
+
+		return exampleItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ReusableAsset} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ReusableAssetItemProvider reusableAssetItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.ReusableAsset}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createReusableAssetAdapter() {
+		if (reusableAssetItemProvider == null) {
+			reusableAssetItemProvider = new ReusableAssetItemProvider(this);
+		}
+
+		return reusableAssetItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.TermDefinition} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TermDefinitionItemProvider termDefinitionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.TermDefinition}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTermDefinitionAdapter() {
+		if (termDefinitionItemProvider == null) {
+			termDefinitionItemProvider = new TermDefinitionItemProvider(this);
+		}
+
+		return termDefinitionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ApplicableMetaClassInfo} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ApplicableMetaClassInfoItemProvider applicableMetaClassInfoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.ApplicableMetaClassInfo}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createApplicableMetaClassInfoAdapter() {
+		if (applicableMetaClassInfoItemProvider == null) {
+			applicableMetaClassInfoItemProvider = new ApplicableMetaClassInfoItemProvider(this);
+		}
+
+		return applicableMetaClassInfoItemProvider;
 	}
 
 	/**
@@ -303,11 +465,102 @@ public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
 	@Override
 	public Adapter createFulfillableElementAdapter() {
 		if (fulfillableElementItemProvider == null) {
-			fulfillableElementItemProvider = new FulfillableElementItemProvider(
-					this);
+			fulfillableElementItemProvider = new FulfillableElementItemProvider(this);
 		}
 
 		return fulfillableElementItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Report} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ReportItemProvider reportItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Report}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createReportAdapter() {
+		if (reportItemProvider == null) {
+			reportItemProvider = new ReportItemProvider(this);
+		}
+
+		return reportItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Template} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TemplateItemProvider templateItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Template}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTemplateAdapter() {
+		if (templateItemProvider == null) {
+			templateItemProvider = new TemplateItemProvider(this);
+		}
+
+		return templateItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ToolMentor} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ToolMentorItemProvider toolMentorItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.ToolMentor}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createToolMentorAdapter() {
+		if (toolMentorItemProvider == null) {
+			toolMentorItemProvider = new ToolMentorItemProvider(this);
+		}
+
+		return toolMentorItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.EstimationConsiderations} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected EstimationConsiderationsItemProvider estimationConsiderationsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.EstimationConsiderations}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createEstimationConsiderationsAdapter() {
+		if (estimationConsiderationsItemProvider == null) {
+			estimationConsiderationsItemProvider = new EstimationConsiderationsItemProvider(this);
+		}
+
+		return estimationConsiderationsItemProvider;
 	}
 
 	/**
@@ -354,6 +607,1156 @@ public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
 		}
 
 		return outcomeItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Step} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected StepItemProvider stepItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Step}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createStepAdapter() {
+		if (stepItemProvider == null) {
+			stepItemProvider = new StepItemProvider(this);
+		}
+
+		return stepItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Whitepaper} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected WhitepaperItemProvider whitepaperItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Whitepaper}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createWhitepaperAdapter() {
+		if (whitepaperItemProvider == null) {
+			whitepaperItemProvider = new WhitepaperItemProvider(this);
+		}
+
+		return whitepaperItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Task} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TaskItemProvider taskItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Task}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTaskAdapter() {
+		if (taskItemProvider == null) {
+			taskItemProvider = new TaskItemProvider(this);
+		}
+
+		return taskItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Role} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RoleItemProvider roleItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Role}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRoleAdapter() {
+		if (roleItemProvider == null) {
+			roleItemProvider = new RoleItemProvider(this);
+		}
+
+		return roleItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ArtifactDescription} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ArtifactDescriptionItemProvider artifactDescriptionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.ArtifactDescription}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createArtifactDescriptionAdapter() {
+		if (artifactDescriptionItemProvider == null) {
+			artifactDescriptionItemProvider = new ArtifactDescriptionItemProvider(this);
+		}
+
+		return artifactDescriptionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.WorkProductDescription} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected WorkProductDescriptionItemProvider workProductDescriptionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.WorkProductDescription}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createWorkProductDescriptionAdapter() {
+		if (workProductDescriptionItemProvider == null) {
+			workProductDescriptionItemProvider = new WorkProductDescriptionItemProvider(this);
+		}
+
+		return workProductDescriptionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.DeliverableDescription} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DeliverableDescriptionItemProvider deliverableDescriptionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.DeliverableDescription}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDeliverableDescriptionAdapter() {
+		if (deliverableDescriptionItemProvider == null) {
+			deliverableDescriptionItemProvider = new DeliverableDescriptionItemProvider(this);
+		}
+
+		return deliverableDescriptionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.RoleDescription} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RoleDescriptionItemProvider roleDescriptionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.RoleDescription}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRoleDescriptionAdapter() {
+		if (roleDescriptionItemProvider == null) {
+			roleDescriptionItemProvider = new RoleDescriptionItemProvider(this);
+		}
+
+		return roleDescriptionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.TaskDescription} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TaskDescriptionItemProvider taskDescriptionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.TaskDescription}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTaskDescriptionAdapter() {
+		if (taskDescriptionItemProvider == null) {
+			taskDescriptionItemProvider = new TaskDescriptionItemProvider(this);
+		}
+
+		return taskDescriptionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.GuidanceDescription} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected GuidanceDescriptionItemProvider guidanceDescriptionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.GuidanceDescription}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createGuidanceDescriptionAdapter() {
+		if (guidanceDescriptionItemProvider == null) {
+			guidanceDescriptionItemProvider = new GuidanceDescriptionItemProvider(this);
+		}
+
+		return guidanceDescriptionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.PracticeDescription} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PracticeDescriptionItemProvider practiceDescriptionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.PracticeDescription}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPracticeDescriptionAdapter() {
+		if (practiceDescriptionItemProvider == null) {
+			practiceDescriptionItemProvider = new PracticeDescriptionItemProvider(this);
+		}
+
+		return practiceDescriptionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.RoleSet} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RoleSetItemProvider roleSetItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.RoleSet}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRoleSetAdapter() {
+		if (roleSetItemProvider == null) {
+			roleSetItemProvider = new RoleSetItemProvider(this);
+		}
+
+		return roleSetItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Domain} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DomainItemProvider domainItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Domain}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDomainAdapter() {
+		if (domainItemProvider == null) {
+			domainItemProvider = new DomainItemProvider(this);
+		}
+
+		return domainItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.WorkProductType} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected WorkProductTypeItemProvider workProductTypeItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.WorkProductType}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createWorkProductTypeAdapter() {
+		if (workProductTypeItemProvider == null) {
+			workProductTypeItemProvider = new WorkProductTypeItemProvider(this);
+		}
+
+		return workProductTypeItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.DisciplineGrouping} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DisciplineGroupingItemProvider disciplineGroupingItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.DisciplineGrouping}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDisciplineGroupingAdapter() {
+		if (disciplineGroupingItemProvider == null) {
+			disciplineGroupingItemProvider = new DisciplineGroupingItemProvider(this);
+		}
+
+		return disciplineGroupingItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Discipline} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DisciplineItemProvider disciplineItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Discipline}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDisciplineAdapter() {
+		if (disciplineItemProvider == null) {
+			disciplineItemProvider = new DisciplineItemProvider(this);
+		}
+
+		return disciplineItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Activity} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ActivityItemProvider activityItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Activity}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createActivityAdapter() {
+		if (activityItemProvider == null) {
+			activityItemProvider = new ActivityItemProvider(this);
+		}
+
+		return activityItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.PlanningData} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PlanningDataItemProvider planningDataItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.PlanningData}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPlanningDataAdapter() {
+		if (planningDataItemProvider == null) {
+			planningDataItemProvider = new PlanningDataItemProvider(this);
+		}
+
+		return planningDataItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.WorkOrder} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected WorkOrderItemProvider workOrderItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.WorkOrder}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createWorkOrderAdapter() {
+		if (workOrderItemProvider == null) {
+			workOrderItemProvider = new WorkOrderItemProvider(this);
+		}
+
+		return workOrderItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Roadmap} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RoadmapItemProvider roadmapItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Roadmap}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRoadmapAdapter() {
+		if (roadmapItemProvider == null) {
+			roadmapItemProvider = new RoadmapItemProvider(this);
+		}
+
+		return roadmapItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Tool} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ToolItemProvider toolItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Tool}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createToolAdapter() {
+		if (toolItemProvider == null) {
+			toolItemProvider = new ToolItemProvider(this);
+		}
+
+		return toolItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.RoleSetGrouping} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RoleSetGroupingItemProvider roleSetGroupingItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.RoleSetGrouping}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRoleSetGroupingAdapter() {
+		if (roleSetGroupingItemProvider == null) {
+			roleSetGroupingItemProvider = new RoleSetGroupingItemProvider(this);
+		}
+
+		return roleSetGroupingItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.CustomCategory} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CustomCategoryItemProvider customCategoryItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.CustomCategory}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCustomCategoryAdapter() {
+		if (customCategoryItemProvider == null) {
+			customCategoryItemProvider = new CustomCategoryItemProvider(this);
+		}
+
+		return customCategoryItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ContentPackage} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ContentPackageItemProvider contentPackageItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.ContentPackage}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createContentPackageAdapter() {
+		if (contentPackageItemProvider == null) {
+			contentPackageItemProvider = new ContentPackageItemProvider(this);
+		}
+
+		return contentPackageItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Milestone} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected MilestoneItemProvider milestoneItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Milestone}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createMilestoneAdapter() {
+		if (milestoneItemProvider == null) {
+			milestoneItemProvider = new MilestoneItemProvider(this);
+		}
+
+		return milestoneItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.WorkProductDescriptor} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected WorkProductDescriptorItemProvider workProductDescriptorItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.WorkProductDescriptor}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createWorkProductDescriptorAdapter() {
+		if (workProductDescriptorItemProvider == null) {
+			workProductDescriptorItemProvider = new WorkProductDescriptorItemProvider(this);
+		}
+
+		return workProductDescriptorItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Iteration} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected IterationItemProvider iterationItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Iteration}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createIterationAdapter() {
+		if (iterationItemProvider == null) {
+			iterationItemProvider = new IterationItemProvider(this);
+		}
+
+		return iterationItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Phase} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PhaseItemProvider phaseItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Phase}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPhaseAdapter() {
+		if (phaseItemProvider == null) {
+			phaseItemProvider = new PhaseItemProvider(this);
+		}
+
+		return phaseItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.TeamProfile} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TeamProfileItemProvider teamProfileItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.TeamProfile}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTeamProfileAdapter() {
+		if (teamProfileItemProvider == null) {
+			teamProfileItemProvider = new TeamProfileItemProvider(this);
+		}
+
+		return teamProfileItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.RoleDescriptor} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RoleDescriptorItemProvider roleDescriptorItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.RoleDescriptor}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRoleDescriptorAdapter() {
+		if (roleDescriptorItemProvider == null) {
+			roleDescriptorItemProvider = new RoleDescriptorItemProvider(this);
+		}
+
+		return roleDescriptorItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.TaskDescriptor} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TaskDescriptorItemProvider taskDescriptorItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.TaskDescriptor}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTaskDescriptorAdapter() {
+		if (taskDescriptorItemProvider == null) {
+			taskDescriptorItemProvider = new TaskDescriptorItemProvider(this);
+		}
+
+		return taskDescriptorItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.CompositeRole} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CompositeRoleItemProvider compositeRoleItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.CompositeRole}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCompositeRoleAdapter() {
+		if (compositeRoleItemProvider == null) {
+			compositeRoleItemProvider = new CompositeRoleItemProvider(this);
+		}
+
+		return compositeRoleItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.DeliveryProcess} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DeliveryProcessItemProvider deliveryProcessItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.DeliveryProcess}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDeliveryProcessAdapter() {
+		if (deliveryProcessItemProvider == null) {
+			deliveryProcessItemProvider = new DeliveryProcessItemProvider(this);
+		}
+
+		return deliveryProcessItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.CapabilityPattern} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CapabilityPatternItemProvider capabilityPatternItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.CapabilityPattern}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCapabilityPatternAdapter() {
+		if (capabilityPatternItemProvider == null) {
+			capabilityPatternItemProvider = new CapabilityPatternItemProvider(this);
+		}
+
+		return capabilityPatternItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.MethodConfiguration} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected MethodConfigurationItemProvider methodConfigurationItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.MethodConfiguration}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createMethodConfigurationAdapter() {
+		if (methodConfigurationItemProvider == null) {
+			methodConfigurationItemProvider = new MethodConfigurationItemProvider(this);
+		}
+
+		return methodConfigurationItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.MethodPlugin} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected MethodPluginItemProvider methodPluginItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.MethodPlugin}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createMethodPluginAdapter() {
+		if (methodPluginItemProvider == null) {
+			methodPluginItemProvider = new MethodPluginItemProvider(this);
+		}
+
+		return methodPluginItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ProcessPlanningTemplate} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ProcessPlanningTemplateItemProvider processPlanningTemplateItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.ProcessPlanningTemplate}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createProcessPlanningTemplateAdapter() {
+		if (processPlanningTemplateItemProvider == null) {
+			processPlanningTemplateItemProvider = new ProcessPlanningTemplateItemProvider(this);
+		}
+
+		return processPlanningTemplateItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Practice} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PracticeItemProvider practiceItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Practice}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPracticeAdapter() {
+		if (practiceItemProvider == null) {
+			practiceItemProvider = new PracticeItemProvider(this);
+		}
+
+		return practiceItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.BreakdownElementDescription} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BreakdownElementDescriptionItemProvider breakdownElementDescriptionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.BreakdownElementDescription}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createBreakdownElementDescriptionAdapter() {
+		if (breakdownElementDescriptionItemProvider == null) {
+			breakdownElementDescriptionItemProvider = new BreakdownElementDescriptionItemProvider(this);
+		}
+
+		return breakdownElementDescriptionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ActivityDescription} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ActivityDescriptionItemProvider activityDescriptionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.ActivityDescription}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createActivityDescriptionAdapter() {
+		if (activityDescriptionItemProvider == null) {
+			activityDescriptionItemProvider = new ActivityDescriptionItemProvider(this);
+		}
+
+		return activityDescriptionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.DeliveryProcessDescription} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DeliveryProcessDescriptionItemProvider deliveryProcessDescriptionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.DeliveryProcessDescription}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDeliveryProcessDescriptionAdapter() {
+		if (deliveryProcessDescriptionItemProvider == null) {
+			deliveryProcessDescriptionItemProvider = new DeliveryProcessDescriptionItemProvider(this);
+		}
+
+		return deliveryProcessDescriptionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ProcessDescription} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ProcessDescriptionItemProvider processDescriptionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.ProcessDescription}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createProcessDescriptionAdapter() {
+		if (processDescriptionItemProvider == null) {
+			processDescriptionItemProvider = new ProcessDescriptionItemProvider(this);
+		}
+
+		return processDescriptionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.DescriptorDescription} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DescriptorDescriptionItemProvider descriptorDescriptionItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.DescriptorDescription}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDescriptorDescriptionAdapter() {
+		if (descriptorDescriptionItemProvider == null) {
+			descriptorDescriptionItemProvider = new DescriptorDescriptionItemProvider(this);
+		}
+
+		return descriptorDescriptionItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ProcessComponentDescriptor} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ProcessComponentDescriptorItemProvider processComponentDescriptorItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.ProcessComponentDescriptor}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createProcessComponentDescriptorAdapter() {
+		if (processComponentDescriptorItemProvider == null) {
+			processComponentDescriptorItemProvider = new ProcessComponentDescriptorItemProvider(this);
+		}
+
+		return processComponentDescriptorItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ProcessComponent} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ProcessComponentItemProvider processComponentItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.ProcessComponent}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createProcessComponentAdapter() {
+		if (processComponentItemProvider == null) {
+			processComponentItemProvider = new ProcessComponentItemProvider(this);
+		}
+
+		return processComponentItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ProcessPackage} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ProcessPackageItemProvider processPackageItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.ProcessPackage}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createProcessPackageAdapter() {
+		if (processPackageItemProvider == null) {
+			processPackageItemProvider = new ProcessPackageItemProvider(this);
+		}
+
+		return processPackageItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Diagram} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected DiagramItemProvider diagramItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Diagram}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createDiagramAdapter() {
+		if (diagramItemProvider == null) {
+			diagramItemProvider = new DiagramItemProvider(this);
+		}
+
+		return diagramItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.GraphNode} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected GraphNodeItemProvider graphNodeItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.GraphNode}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createGraphNodeAdapter() {
+		if (graphNodeItemProvider == null) {
+			graphNodeItemProvider = new GraphNodeItemProvider(this);
+		}
+
+		return graphNodeItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Reference} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ReferenceItemProvider referenceItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Reference}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createReferenceAdapter() {
+		if (referenceItemProvider == null) {
+			referenceItemProvider = new ReferenceItemProvider(this);
+		}
+
+		return referenceItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Property} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PropertyItemProvider propertyItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Property}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPropertyAdapter() {
+		if (propertyItemProvider == null) {
+			propertyItemProvider = new PropertyItemProvider(this);
+		}
+
+		return propertyItemProvider;
 	}
 
 	/**
@@ -426,75 +1829,6 @@ public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Dimension} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected DimensionItemProvider dimensionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Dimension}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createDimensionAdapter() {
-		if (dimensionItemProvider == null) {
-			dimensionItemProvider = new DimensionItemProvider(this);
-		}
-
-		return dimensionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Reference} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ReferenceItemProvider referenceItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Reference}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createReferenceAdapter() {
-		if (referenceItemProvider == null) {
-			referenceItemProvider = new ReferenceItemProvider(this);
-		}
-
-		return referenceItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Property} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected PropertyItemProvider propertyItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Property}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createPropertyAdapter() {
-		if (propertyItemProvider == null) {
-			propertyItemProvider = new PropertyItemProvider(this);
-		}
-
-		return propertyItemProvider;
-	}
-
-	/**
 	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.GraphEdge} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -518,49 +1852,49 @@ public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Diagram} instances.
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Dimension} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected DiagramItemProvider diagramItemProvider;
+	protected DimensionItemProvider dimensionItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Diagram}.
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.Dimension}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createDiagramAdapter() {
-		if (diagramItemProvider == null) {
-			diagramItemProvider = new DiagramItemProvider(this);
+	public Adapter createDimensionAdapter() {
+		if (dimensionItemProvider == null) {
+			dimensionItemProvider = new DimensionItemProvider(this);
 		}
 
-		return diagramItemProvider;
+		return dimensionItemProvider;
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.GraphNode} instances.
+	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ProcessComponentInterface} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected GraphNodeItemProvider graphNodeItemProvider;
+	protected ProcessComponentInterfaceItemProvider processComponentInterfaceItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.GraphNode}.
+	 * This creates an adapter for a {@link org.eclipse.epf.uma.ProcessComponentInterface}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createGraphNodeAdapter() {
-		if (graphNodeItemProvider == null) {
-			graphNodeItemProvider = new GraphNodeItemProvider(this);
+	public Adapter createProcessComponentInterfaceAdapter() {
+		if (processComponentInterfaceItemProvider == null) {
+			processComponentInterfaceItemProvider = new ProcessComponentInterfaceItemProvider(this);
 		}
 
-		return graphNodeItemProvider;
+		return processComponentInterfaceItemProvider;
 	}
 
 	/**
@@ -580,8 +1914,7 @@ public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
 	@Override
 	public Adapter createSimpleSemanticModelElementAdapter() {
 		if (simpleSemanticModelElementItemProvider == null) {
-			simpleSemanticModelElementItemProvider = new SimpleSemanticModelElementItemProvider(
-					this);
+			simpleSemanticModelElementItemProvider = new SimpleSemanticModelElementItemProvider(this);
 		}
 
 		return simpleSemanticModelElementItemProvider;
@@ -604,8 +1937,7 @@ public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
 	@Override
 	public Adapter createUMASemanticModelBridgeAdapter() {
 		if (umaSemanticModelBridgeItemProvider == null) {
-			umaSemanticModelBridgeItemProvider = new UMASemanticModelBridgeItemProvider(
-					this);
+			umaSemanticModelBridgeItemProvider = new UMASemanticModelBridgeItemProvider(this);
 		}
 
 		return umaSemanticModelBridgeItemProvider;
@@ -628,8 +1960,7 @@ public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
 	@Override
 	public Adapter createCoreSemanticModelBridgeAdapter() {
 		if (coreSemanticModelBridgeItemProvider == null) {
-			coreSemanticModelBridgeItemProvider = new CoreSemanticModelBridgeItemProvider(
-					this);
+			coreSemanticModelBridgeItemProvider = new CoreSemanticModelBridgeItemProvider(this);
 		}
 
 		return coreSemanticModelBridgeItemProvider;
@@ -728,1362 +2059,6 @@ public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Activity} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ActivityItemProvider activityItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Activity}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createActivityAdapter() {
-		if (activityItemProvider == null) {
-			activityItemProvider = new ActivityItemProvider(this);
-		}
-
-		return activityItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Milestone} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected MilestoneItemProvider milestoneItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Milestone}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createMilestoneAdapter() {
-		if (milestoneItemProvider == null) {
-			milestoneItemProvider = new MilestoneItemProvider(this);
-		}
-
-		return milestoneItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Iteration} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IterationItemProvider iterationItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Iteration}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createIterationAdapter() {
-		if (iterationItemProvider == null) {
-			iterationItemProvider = new IterationItemProvider(this);
-		}
-
-		return iterationItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Phase} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected PhaseItemProvider phaseItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Phase}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createPhaseAdapter() {
-		if (phaseItemProvider == null) {
-			phaseItemProvider = new PhaseItemProvider(this);
-		}
-
-		return phaseItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.TeamProfile} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected TeamProfileItemProvider teamProfileItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.TeamProfile}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createTeamProfileAdapter() {
-		if (teamProfileItemProvider == null) {
-			teamProfileItemProvider = new TeamProfileItemProvider(this);
-		}
-
-		return teamProfileItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.RoleDescriptor} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected RoleDescriptorItemProvider roleDescriptorItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.RoleDescriptor}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createRoleDescriptorAdapter() {
-		if (roleDescriptorItemProvider == null) {
-			roleDescriptorItemProvider = new RoleDescriptorItemProvider(this);
-		}
-
-		return roleDescriptorItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.WorkOrder} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected WorkOrderItemProvider workOrderItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.WorkOrder}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createWorkOrderAdapter() {
-		if (workOrderItemProvider == null) {
-			workOrderItemProvider = new WorkOrderItemProvider(this);
-		}
-
-		return workOrderItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.PlanningData} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected PlanningDataItemProvider planningDataItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.PlanningData}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createPlanningDataAdapter() {
-		if (planningDataItemProvider == null) {
-			planningDataItemProvider = new PlanningDataItemProvider(this);
-		}
-
-		return planningDataItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.TaskDescriptor} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected TaskDescriptorItemProvider taskDescriptorItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.TaskDescriptor}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createTaskDescriptorAdapter() {
-		if (taskDescriptorItemProvider == null) {
-			taskDescriptorItemProvider = new TaskDescriptorItemProvider(this);
-		}
-
-		return taskDescriptorItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.WorkProductDescriptor} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected WorkProductDescriptorItemProvider workProductDescriptorItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.WorkProductDescriptor}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createWorkProductDescriptorAdapter() {
-		if (workProductDescriptorItemProvider == null) {
-			workProductDescriptorItemProvider = new WorkProductDescriptorItemProvider(
-					this);
-		}
-
-		return workProductDescriptorItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.CompositeRole} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected CompositeRoleItemProvider compositeRoleItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.CompositeRole}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createCompositeRoleAdapter() {
-		if (compositeRoleItemProvider == null) {
-			compositeRoleItemProvider = new CompositeRoleItemProvider(this);
-		}
-
-		return compositeRoleItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.BreakdownElementDescription} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected BreakdownElementDescriptionItemProvider breakdownElementDescriptionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.BreakdownElementDescription}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createBreakdownElementDescriptionAdapter() {
-		if (breakdownElementDescriptionItemProvider == null) {
-			breakdownElementDescriptionItemProvider = new BreakdownElementDescriptionItemProvider(
-					this);
-		}
-
-		return breakdownElementDescriptionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ActivityDescription} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ActivityDescriptionItemProvider activityDescriptionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.ActivityDescription}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createActivityDescriptionAdapter() {
-		if (activityDescriptionItemProvider == null) {
-			activityDescriptionItemProvider = new ActivityDescriptionItemProvider(
-					this);
-		}
-
-		return activityDescriptionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.DeliveryProcessDescription} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected DeliveryProcessDescriptionItemProvider deliveryProcessDescriptionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.DeliveryProcessDescription}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createDeliveryProcessDescriptionAdapter() {
-		if (deliveryProcessDescriptionItemProvider == null) {
-			deliveryProcessDescriptionItemProvider = new DeliveryProcessDescriptionItemProvider(
-					this);
-		}
-
-		return deliveryProcessDescriptionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ProcessDescription} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ProcessDescriptionItemProvider processDescriptionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.ProcessDescription}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createProcessDescriptionAdapter() {
-		if (processDescriptionItemProvider == null) {
-			processDescriptionItemProvider = new ProcessDescriptionItemProvider(
-					this);
-		}
-
-		return processDescriptionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.DescriptorDescription} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected DescriptorDescriptionItemProvider descriptorDescriptionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.DescriptorDescription}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createDescriptorDescriptionAdapter() {
-		if (descriptorDescriptionItemProvider == null) {
-			descriptorDescriptionItemProvider = new DescriptorDescriptionItemProvider(
-					this);
-		}
-
-		return descriptorDescriptionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Concept} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ConceptItemProvider conceptItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Concept}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createConceptAdapter() {
-		if (conceptItemProvider == null) {
-			conceptItemProvider = new ConceptItemProvider(this);
-		}
-
-		return conceptItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Checklist} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ChecklistItemProvider checklistItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Checklist}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createChecklistAdapter() {
-		if (checklistItemProvider == null) {
-			checklistItemProvider = new ChecklistItemProvider(this);
-		}
-
-		return checklistItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Example} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ExampleItemProvider exampleItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Example}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createExampleAdapter() {
-		if (exampleItemProvider == null) {
-			exampleItemProvider = new ExampleItemProvider(this);
-		}
-
-		return exampleItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Guideline} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected GuidelineItemProvider guidelineItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Guideline}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createGuidelineAdapter() {
-		if (guidelineItemProvider == null) {
-			guidelineItemProvider = new GuidelineItemProvider(this);
-		}
-
-		return guidelineItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.EstimationConsiderations} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected EstimationConsiderationsItemProvider estimationConsiderationsItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.EstimationConsiderations}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createEstimationConsiderationsAdapter() {
-		if (estimationConsiderationsItemProvider == null) {
-			estimationConsiderationsItemProvider = new EstimationConsiderationsItemProvider(
-					this);
-		}
-
-		return estimationConsiderationsItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Report} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ReportItemProvider reportItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Report}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createReportAdapter() {
-		if (reportItemProvider == null) {
-			reportItemProvider = new ReportItemProvider(this);
-		}
-
-		return reportItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Template} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected TemplateItemProvider templateItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Template}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createTemplateAdapter() {
-		if (templateItemProvider == null) {
-			templateItemProvider = new TemplateItemProvider(this);
-		}
-
-		return templateItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.SupportingMaterial} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected SupportingMaterialItemProvider supportingMaterialItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.SupportingMaterial}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createSupportingMaterialAdapter() {
-		if (supportingMaterialItemProvider == null) {
-			supportingMaterialItemProvider = new SupportingMaterialItemProvider(
-					this);
-		}
-
-		return supportingMaterialItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ToolMentor} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ToolMentorItemProvider toolMentorItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.ToolMentor}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createToolMentorAdapter() {
-		if (toolMentorItemProvider == null) {
-			toolMentorItemProvider = new ToolMentorItemProvider(this);
-		}
-
-		return toolMentorItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Whitepaper} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected WhitepaperItemProvider whitepaperItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Whitepaper}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createWhitepaperAdapter() {
-		if (whitepaperItemProvider == null) {
-			whitepaperItemProvider = new WhitepaperItemProvider(this);
-		}
-
-		return whitepaperItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.TermDefinition} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected TermDefinitionItemProvider termDefinitionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.TermDefinition}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createTermDefinitionAdapter() {
-		if (termDefinitionItemProvider == null) {
-			termDefinitionItemProvider = new TermDefinitionItemProvider(this);
-		}
-
-		return termDefinitionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ApplicableMetaClassInfo} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ApplicableMetaClassInfoItemProvider applicableMetaClassInfoItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.ApplicableMetaClassInfo}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createApplicableMetaClassInfoAdapter() {
-		if (applicableMetaClassInfoItemProvider == null) {
-			applicableMetaClassInfoItemProvider = new ApplicableMetaClassInfoItemProvider(
-					this);
-		}
-
-		return applicableMetaClassInfoItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Practice} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected PracticeItemProvider practiceItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Practice}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createPracticeAdapter() {
-		if (practiceItemProvider == null) {
-			practiceItemProvider = new PracticeItemProvider(this);
-		}
-
-		return practiceItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ReusableAsset} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ReusableAssetItemProvider reusableAssetItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.ReusableAsset}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createReusableAssetAdapter() {
-		if (reusableAssetItemProvider == null) {
-			reusableAssetItemProvider = new ReusableAssetItemProvider(this);
-		}
-
-		return reusableAssetItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Discipline} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected DisciplineItemProvider disciplineItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Discipline}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createDisciplineAdapter() {
-		if (disciplineItemProvider == null) {
-			disciplineItemProvider = new DisciplineItemProvider(this);
-		}
-
-		return disciplineItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.RoleSet} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected RoleSetItemProvider roleSetItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.RoleSet}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createRoleSetAdapter() {
-		if (roleSetItemProvider == null) {
-			roleSetItemProvider = new RoleSetItemProvider(this);
-		}
-
-		return roleSetItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Domain} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected DomainItemProvider domainItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Domain}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createDomainAdapter() {
-		if (domainItemProvider == null) {
-			domainItemProvider = new DomainItemProvider(this);
-		}
-
-		return domainItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.WorkProductType} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected WorkProductTypeItemProvider workProductTypeItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.WorkProductType}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createWorkProductTypeAdapter() {
-		if (workProductTypeItemProvider == null) {
-			workProductTypeItemProvider = new WorkProductTypeItemProvider(this);
-		}
-
-		return workProductTypeItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.DisciplineGrouping} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected DisciplineGroupingItemProvider disciplineGroupingItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.DisciplineGrouping}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createDisciplineGroupingAdapter() {
-		if (disciplineGroupingItemProvider == null) {
-			disciplineGroupingItemProvider = new DisciplineGroupingItemProvider(
-					this);
-		}
-
-		return disciplineGroupingItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Tool} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ToolItemProvider toolItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Tool}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createToolAdapter() {
-		if (toolItemProvider == null) {
-			toolItemProvider = new ToolItemProvider(this);
-		}
-
-		return toolItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.RoleSetGrouping} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected RoleSetGroupingItemProvider roleSetGroupingItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.RoleSetGrouping}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createRoleSetGroupingAdapter() {
-		if (roleSetGroupingItemProvider == null) {
-			roleSetGroupingItemProvider = new RoleSetGroupingItemProvider(this);
-		}
-
-		return roleSetGroupingItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.CustomCategory} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected CustomCategoryItemProvider customCategoryItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.CustomCategory}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createCustomCategoryAdapter() {
-		if (customCategoryItemProvider == null) {
-			customCategoryItemProvider = new CustomCategoryItemProvider(this);
-		}
-
-		return customCategoryItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.CapabilityPattern} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected CapabilityPatternItemProvider capabilityPatternItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.CapabilityPattern}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createCapabilityPatternAdapter() {
-		if (capabilityPatternItemProvider == null) {
-			capabilityPatternItemProvider = new CapabilityPatternItemProvider(
-					this);
-		}
-
-		return capabilityPatternItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.DeliveryProcess} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected DeliveryProcessItemProvider deliveryProcessItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.DeliveryProcess}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createDeliveryProcessAdapter() {
-		if (deliveryProcessItemProvider == null) {
-			deliveryProcessItemProvider = new DeliveryProcessItemProvider(this);
-		}
-
-		return deliveryProcessItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ProcessPlanningTemplate} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ProcessPlanningTemplateItemProvider processPlanningTemplateItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.ProcessPlanningTemplate}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createProcessPlanningTemplateAdapter() {
-		if (processPlanningTemplateItemProvider == null) {
-			processPlanningTemplateItemProvider = new ProcessPlanningTemplateItemProvider(
-					this);
-		}
-
-		return processPlanningTemplateItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Roadmap} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected RoadmapItemProvider roadmapItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Roadmap}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createRoadmapAdapter() {
-		if (roadmapItemProvider == null) {
-			roadmapItemProvider = new RoadmapItemProvider(this);
-		}
-
-		return roadmapItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ContentPackage} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ContentPackageItemProvider contentPackageItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.ContentPackage}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createContentPackageAdapter() {
-		if (contentPackageItemProvider == null) {
-			contentPackageItemProvider = new ContentPackageItemProvider(this);
-		}
-
-		return contentPackageItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ProcessComponent} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ProcessComponentItemProvider processComponentItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.ProcessComponent}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createProcessComponentAdapter() {
-		if (processComponentItemProvider == null) {
-			processComponentItemProvider = new ProcessComponentItemProvider(
-					this);
-		}
-
-		return processComponentItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ProcessPackage} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ProcessPackageItemProvider processPackageItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.ProcessPackage}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createProcessPackageAdapter() {
-		if (processPackageItemProvider == null) {
-			processPackageItemProvider = new ProcessPackageItemProvider(this);
-		}
-
-		return processPackageItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ProcessComponentInterface} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ProcessComponentInterfaceItemProvider processComponentInterfaceItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.ProcessComponentInterface}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createProcessComponentInterfaceAdapter() {
-		if (processComponentInterfaceItemProvider == null) {
-			processComponentInterfaceItemProvider = new ProcessComponentInterfaceItemProvider(
-					this);
-		}
-
-		return processComponentInterfaceItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ProcessComponentDescriptor} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ProcessComponentDescriptorItemProvider processComponentDescriptorItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.ProcessComponentDescriptor}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createProcessComponentDescriptorAdapter() {
-		if (processComponentDescriptorItemProvider == null) {
-			processComponentDescriptorItemProvider = new ProcessComponentDescriptorItemProvider(
-					this);
-		}
-
-		return processComponentDescriptorItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.MethodPlugin} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected MethodPluginItemProvider methodPluginItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.MethodPlugin}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createMethodPluginAdapter() {
-		if (methodPluginItemProvider == null) {
-			methodPluginItemProvider = new MethodPluginItemProvider(this);
-		}
-
-		return methodPluginItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ContentDescription} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ContentDescriptionItemProvider contentDescriptionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.ContentDescription}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createContentDescriptionAdapter() {
-		if (contentDescriptionItemProvider == null) {
-			contentDescriptionItemProvider = new ContentDescriptionItemProvider(
-					this);
-		}
-
-		return contentDescriptionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.Section} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected SectionItemProvider sectionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.Section}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createSectionAdapter() {
-		if (sectionItemProvider == null) {
-			sectionItemProvider = new SectionItemProvider(this);
-		}
-
-		return sectionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ArtifactDescription} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ArtifactDescriptionItemProvider artifactDescriptionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.ArtifactDescription}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createArtifactDescriptionAdapter() {
-		if (artifactDescriptionItemProvider == null) {
-			artifactDescriptionItemProvider = new ArtifactDescriptionItemProvider(
-					this);
-		}
-
-		return artifactDescriptionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.WorkProductDescription} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected WorkProductDescriptionItemProvider workProductDescriptionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.WorkProductDescription}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createWorkProductDescriptionAdapter() {
-		if (workProductDescriptionItemProvider == null) {
-			workProductDescriptionItemProvider = new WorkProductDescriptionItemProvider(
-					this);
-		}
-
-		return workProductDescriptionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.DeliverableDescription} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected DeliverableDescriptionItemProvider deliverableDescriptionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.DeliverableDescription}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createDeliverableDescriptionAdapter() {
-		if (deliverableDescriptionItemProvider == null) {
-			deliverableDescriptionItemProvider = new DeliverableDescriptionItemProvider(
-					this);
-		}
-
-		return deliverableDescriptionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.RoleDescription} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected RoleDescriptionItemProvider roleDescriptionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.RoleDescription}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createRoleDescriptionAdapter() {
-		if (roleDescriptionItemProvider == null) {
-			roleDescriptionItemProvider = new RoleDescriptionItemProvider(this);
-		}
-
-		return roleDescriptionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.TaskDescription} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected TaskDescriptionItemProvider taskDescriptionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.TaskDescription}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createTaskDescriptionAdapter() {
-		if (taskDescriptionItemProvider == null) {
-			taskDescriptionItemProvider = new TaskDescriptionItemProvider(this);
-		}
-
-		return taskDescriptionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.GuidanceDescription} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected GuidanceDescriptionItemProvider guidanceDescriptionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.GuidanceDescription}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createGuidanceDescriptionAdapter() {
-		if (guidanceDescriptionItemProvider == null) {
-			guidanceDescriptionItemProvider = new GuidanceDescriptionItemProvider(
-					this);
-		}
-
-		return guidanceDescriptionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.PracticeDescription} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected PracticeDescriptionItemProvider practiceDescriptionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.PracticeDescription}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createPracticeDescriptionAdapter() {
-		if (practiceDescriptionItemProvider == null) {
-			practiceDescriptionItemProvider = new PracticeDescriptionItemProvider(
-					this);
-		}
-
-		return practiceDescriptionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.MethodConfiguration} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected MethodConfigurationItemProvider methodConfigurationItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link org.eclipse.epf.uma.MethodConfiguration}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createMethodConfigurationAdapter() {
-		if (methodConfigurationItemProvider == null) {
-			methodConfigurationItemProvider = new MethodConfigurationItemProvider(
-					this);
-		}
-
-		return methodConfigurationItemProvider;
-	}
-
-	/**
 	 * This keeps track of the one adapter used for all {@link org.eclipse.epf.uma.ProcessFamily} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -2136,8 +2111,7 @@ public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
 	 * @generated
 	 */
 	public ComposeableAdapterFactory getRootAdapterFactory() {
-		return parentAdapterFactory == null ? this : parentAdapterFactory
-				.getRootAdapterFactory();
+		return parentAdapterFactory == null ? this : parentAdapterFactory.getRootAdapterFactory();
 	}
 
 	/**
@@ -2146,8 +2120,7 @@ public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setParentAdapterFactory(
-			ComposedAdapterFactory parentAdapterFactory) {
+	public void setParentAdapterFactory(ComposedAdapterFactory parentAdapterFactory) {
 		this.parentAdapterFactory = parentAdapterFactory;
 	}
 
@@ -2181,8 +2154,7 @@ public class UmaItemProviderAdapterFactory extends UmaAdapterFactory implements
 	public Object adapt(Object object, Object type) {
 		if (isFactoryForType(type)) {
 			Object adapter = super.adapt(object, type);
-			if (!(type instanceof Class)
-					|| (((Class<?>) type).isInstance(adapter))) {
+			if (!(type instanceof Class<?>) || (((Class<?>) type).isInstance(adapter))) {
 				return adapter;
 			}
 		}

@@ -15,14 +15,19 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.MethodPackage;
 import org.eclipse.epf.uma.MethodPlugin;
 import org.eclipse.epf.uma.UmaPackage;
@@ -145,8 +150,7 @@ public class MethodPluginImpl extends MethodUnitImpl implements MethodPlugin {
 		Boolean oldUserChangeable = userChangeable;
 		userChangeable = newUserChangeable;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_PLUGIN__USER_CHANGEABLE,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_PLUGIN__USER_CHANGEABLE,
 					oldUserChangeable, userChangeable));
 	}
 
@@ -157,8 +161,7 @@ public class MethodPluginImpl extends MethodUnitImpl implements MethodPlugin {
 	 */
 	public List<MethodPackage> getMethodPackages() {
 		if (methodPackages == null) {
-			methodPackages = new EObjectContainmentEList.Resolving<MethodPackage>(
-					MethodPackage.class, this,
+			methodPackages = new EObjectContainmentEList.Resolving<MethodPackage>(MethodPackage.class, this,
 					UmaPackage.METHOD_PLUGIN__METHOD_PACKAGES);
 		}
 		return methodPackages;
@@ -171,8 +174,7 @@ public class MethodPluginImpl extends MethodUnitImpl implements MethodPlugin {
 	 */
 	public List<MethodPlugin> getBases() {
 		if (bases == null) {
-			bases = new EObjectResolvingEList<MethodPlugin>(MethodPlugin.class,
-					this, UmaPackage.METHOD_PLUGIN__BASES);
+			bases = new EObjectResolvingEList<MethodPlugin>(MethodPlugin.class, this, UmaPackage.METHOD_PLUGIN__BASES);
 		}
 		return bases;
 	}
@@ -195,8 +197,7 @@ public class MethodPluginImpl extends MethodUnitImpl implements MethodPlugin {
 		boolean oldSupporting = supporting;
 		supporting = newSupporting;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_PLUGIN__SUPPORTING, oldSupporting,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_PLUGIN__SUPPORTING, oldSupporting,
 					supporting));
 	}
 
@@ -206,12 +207,10 @@ public class MethodPluginImpl extends MethodUnitImpl implements MethodPlugin {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.METHOD_PLUGIN__METHOD_PACKAGES:
-			return ((InternalEList<?>) getMethodPackages()).basicRemove(
-					otherEnd, msgs);
+			return ((InternalEList<?>) getMethodPackages()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -250,8 +249,7 @@ public class MethodPluginImpl extends MethodUnitImpl implements MethodPlugin {
 			return;
 		case UmaPackage.METHOD_PLUGIN__METHOD_PACKAGES:
 			getMethodPackages().clear();
-			getMethodPackages().addAll(
-					(Collection<? extends MethodPackage>) newValue);
+			getMethodPackages().addAll((Collection<? extends MethodPackage>) newValue);
 			return;
 		case UmaPackage.METHOD_PLUGIN__BASES:
 			getBases().clear();

@@ -14,9 +14,12 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.Role;
 import org.eclipse.epf.uma.RoleSet;
 import org.eclipse.epf.uma.UmaPackage;
@@ -75,8 +78,7 @@ public class RoleSetImpl extends ContentCategoryImpl implements RoleSet {
 	 */
 	public List<Role> getRoles() {
 		if (roles == null) {
-			roles = new EObjectResolvingEList<Role>(Role.class, this,
-					UmaPackage.ROLE_SET__ROLES);
+			roles = new EObjectResolvingEList<Role>(Role.class, this, UmaPackage.ROLE_SET__ROLES);
 		}
 		return roles;
 	}

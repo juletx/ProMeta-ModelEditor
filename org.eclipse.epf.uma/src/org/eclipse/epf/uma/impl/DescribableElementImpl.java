@@ -12,22 +12,21 @@ package org.eclipse.epf.uma.impl;
 
 import java.net.URI;
 
-import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
-import org.eclipse.emf.common.notify.impl.AdapterImpl;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.Classifier;
 import org.eclipse.epf.uma.ContentDescription;
 import org.eclipse.epf.uma.DescribableElement;
 import org.eclipse.epf.uma.Type;
-import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
-import org.eclipse.epf.uma.util.ContentDescriptionFactory;
 
 /**
  * <!-- begin-user-doc -->
@@ -45,8 +44,7 @@ import org.eclipse.epf.uma.util.ContentDescriptionFactory;
  *
  * @generated
  */
-public abstract class DescribableElementImpl extends MethodElementImpl
-		implements DescribableElement {
+public abstract class DescribableElementImpl extends MethodElementImpl implements DescribableElement {
 	/**
 	 * The default value of the '{@link #getIsAbstract() <em>Is Abstract</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -158,9 +156,8 @@ public abstract class DescribableElementImpl extends MethodElementImpl
 		Boolean oldIsAbstract = isAbstract;
 		isAbstract = newIsAbstract;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DESCRIBABLE_ELEMENT__IS_ABSTRACT, oldIsAbstract,
-					isAbstract));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DESCRIBABLE_ELEMENT__IS_ABSTRACT,
+					oldIsAbstract, isAbstract));
 	}
 
 	/**
@@ -168,21 +165,76 @@ public abstract class DescribableElementImpl extends MethodElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetPresentation(
-			ContentDescription newPresentation, NotificationChain msgs) {
+	public ContentDescription getPresentation() {
+		if (presentation != null && ((EObject) presentation).eIsProxy()) {
+			InternalEObject oldPresentation = (InternalEObject) presentation;
+			presentation = (ContentDescription) eResolveProxy(oldPresentation);
+			if (presentation != oldPresentation) {
+				InternalEObject newPresentation = (InternalEObject) presentation;
+				NotificationChain msgs = oldPresentation.eInverseRemove(this,
+						EOPPOSITE_FEATURE_BASE - UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION, null, null);
+				if (newPresentation.eInternalContainer() == null) {
+					msgs = newPresentation.eInverseAdd(this,
+							EOPPOSITE_FEATURE_BASE - UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION, null, msgs);
+				}
+				if (msgs != null)
+					msgs.dispatch();
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
+							UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION, oldPresentation, presentation));
+			}
+		}
+		return presentation;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public ContentDescription basicGetPresentation() {
+		return presentation;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public NotificationChain basicSetPresentation(ContentDescription newPresentation, NotificationChain msgs) {
 		ContentDescription oldPresentation = presentation;
 		presentation = newPresentation;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET,
-					UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION,
-					oldPresentation, newPresentation);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION, oldPresentation, newPresentation);
 			if (msgs == null)
 				msgs = notification;
 			else
 				msgs.add(notification);
 		}
 		return msgs;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setPresentation(ContentDescription newPresentation) {
+		if (newPresentation != presentation) {
+			NotificationChain msgs = null;
+			if (presentation != null)
+				msgs = ((InternalEObject) presentation).eInverseRemove(this,
+						EOPPOSITE_FEATURE_BASE - UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION, null, msgs);
+			if (newPresentation != null)
+				msgs = ((InternalEObject) newPresentation).eInverseAdd(this,
+						EOPPOSITE_FEATURE_BASE - UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION, null, msgs);
+			msgs = basicSetPresentation(newPresentation, msgs);
+			if (msgs != null)
+				msgs.dispatch();
+		} else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION,
+					newPresentation, newPresentation));
 	}
 
 	/**
@@ -203,9 +255,8 @@ public abstract class DescribableElementImpl extends MethodElementImpl
 		URI oldShapeicon = shapeicon;
 		shapeicon = newShapeicon;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DESCRIBABLE_ELEMENT__SHAPEICON, oldShapeicon,
-					shapeicon));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DESCRIBABLE_ELEMENT__SHAPEICON,
+					oldShapeicon, shapeicon));
 	}
 
 	/**
@@ -226,8 +277,7 @@ public abstract class DescribableElementImpl extends MethodElementImpl
 		URI oldNodeicon = nodeicon;
 		nodeicon = newNodeicon;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DESCRIBABLE_ELEMENT__NODEICON, oldNodeicon,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DESCRIBABLE_ELEMENT__NODEICON, oldNodeicon,
 					nodeicon));
 	}
 
@@ -237,8 +287,7 @@ public abstract class DescribableElementImpl extends MethodElementImpl
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION:
 			return basicSetPresentation(null, msgs);
@@ -331,16 +380,13 @@ public abstract class DescribableElementImpl extends MethodElementImpl
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.DESCRIBABLE_ELEMENT__IS_ABSTRACT:
-			return IS_ABSTRACT_EDEFAULT == null ? isAbstract != null
-					: !IS_ABSTRACT_EDEFAULT.equals(isAbstract);
+			return IS_ABSTRACT_EDEFAULT == null ? isAbstract != null : !IS_ABSTRACT_EDEFAULT.equals(isAbstract);
 		case UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION:
 			return presentation != null;
 		case UmaPackage.DESCRIBABLE_ELEMENT__SHAPEICON:
-			return SHAPEICON_EDEFAULT == null ? shapeicon != null
-					: !SHAPEICON_EDEFAULT.equals(shapeicon);
+			return SHAPEICON_EDEFAULT == null ? shapeicon != null : !SHAPEICON_EDEFAULT.equals(shapeicon);
 		case UmaPackage.DESCRIBABLE_ELEMENT__NODEICON:
-			return NODEICON_EDEFAULT == null ? nodeicon != null
-					: !NODEICON_EDEFAULT.equals(nodeicon);
+			return NODEICON_EDEFAULT == null ? nodeicon != null : !NODEICON_EDEFAULT.equals(nodeicon);
 		}
 		return super.eIsSet(featureID);
 	}
@@ -414,90 +460,4 @@ public abstract class DescribableElementImpl extends MethodElementImpl
 		return result.toString();
 	}
 
-	//
-	// Start custom code
-	//
-
-	public ContentDescription basicGetPresentation() {
-		return presentation;
-	}
-
-	/* (non-Javadoc)
-	 * @see org.eclipse.epf.uma.impl.DescribableElementImpl#getPresentation()
-	 */
-	public ContentDescription getPresentation() {
-		if (presentation instanceof EObject
-				&& ((EObject) presentation).eIsProxy()) {
-			ContentDescription oldPresentation = presentation;
-			presentation = (ContentDescription) eResolveProxy((InternalEObject) presentation);
-			if (presentation != oldPresentation) {
-				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION,
-							oldPresentation, presentation));
-			}
-		} else if (presentation == null) {
-			//			setPresentation(ContentDescriptionFactory.createContentDescription(this));
-			if (emptyPresentation == null) {
-				emptyPresentation = ContentDescriptionFactory
-						.createContentDescription(this);
-				emptyPresentation.eAdapters().add(changeListener);
-			}
-			return emptyPresentation;
-		}
-
-		return presentation;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 */
-	public void setPresentation(ContentDescription newPresentation) {
-		if (newPresentation != presentation) {
-			NotificationChain msgs = null;
-			if (presentation != null)
-				msgs = ((InternalEObject) presentation).eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION,
-						null, msgs);
-			if (newPresentation != null)
-				msgs = ((InternalEObject) newPresentation).eInverseAdd(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION,
-						null, msgs);
-			msgs = basicSetPresentation(newPresentation, msgs);
-
-			// custom code
-			//
-			emptyPresentation = null;
-
-			if (msgs != null)
-				msgs.dispatch();
-		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION,
-					newPresentation, newPresentation));
-	}
-
-	private ContentDescription emptyPresentation;
-
-	private Adapter changeListener = new AdapterImpl() {
-		public void notifyChanged(Notification msg) {
-			switch (msg.getEventType()) {
-			case Notification.ADD:
-			case Notification.ADD_MANY:
-			case Notification.SET:
-				ContentDescription content = (ContentDescription) getTarget();
-				content.eAdapters().remove(this);
-
-				// emptyPresentation is modified, convert it to real presentation if no presentation is set yet 
-				// for the ProcessElement
-				//
-				if (presentation == null) {
-					setPresentation(content);
-				}
-			}
-		}
-	};
 } //DescribableElementImpl

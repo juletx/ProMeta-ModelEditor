@@ -11,11 +11,15 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.Dimension;
 import org.eclipse.epf.uma.UmaPackage;
+
 import org.eclipse.epf.uma.ecore.impl.MultiResourceEObject;
 
 /**
@@ -114,8 +118,7 @@ public class DimensionImpl extends MultiResourceEObject implements Dimension {
 		Double oldWidth = width;
 		width = newWidth;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DIMENSION__WIDTH, oldWidth, width));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DIMENSION__WIDTH, oldWidth, width));
 	}
 
 	/**
@@ -136,8 +139,7 @@ public class DimensionImpl extends MultiResourceEObject implements Dimension {
 		Double oldHeight = height;
 		height = newHeight;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DIMENSION__HEIGHT, oldHeight, height));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DIMENSION__HEIGHT, oldHeight, height));
 	}
 
 	/**
@@ -207,11 +209,9 @@ public class DimensionImpl extends MultiResourceEObject implements Dimension {
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.DIMENSION__WIDTH:
-			return WIDTH_EDEFAULT == null ? width != null : !WIDTH_EDEFAULT
-					.equals(width);
+			return WIDTH_EDEFAULT == null ? width != null : !WIDTH_EDEFAULT.equals(width);
 		case UmaPackage.DIMENSION__HEIGHT:
-			return HEIGHT_EDEFAULT == null ? height != null : !HEIGHT_EDEFAULT
-					.equals(height);
+			return HEIGHT_EDEFAULT == null ? height != null : !HEIGHT_EDEFAULT.equals(height);
 		}
 		return super.eIsSet(featureID);
 	}

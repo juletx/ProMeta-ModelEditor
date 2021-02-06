@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.PracticeDescription;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -35,8 +38,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
-		PracticeDescription {
+public class PracticeDescriptionImpl extends ContentDescriptionImpl implements PracticeDescription {
 	/**
 	 * The default value of the '{@link #getAdditionalInfo() <em>Additional Info</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -45,7 +47,7 @@ public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String ADDITIONAL_INFO_EDEFAULT = "";
+	protected static final String ADDITIONAL_INFO_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getAdditionalInfo() <em>Additional Info</em>}' attribute.
@@ -65,7 +67,7 @@ public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String PROBLEM_EDEFAULT = "";
+	protected static final String PROBLEM_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getProblem() <em>Problem</em>}' attribute.
@@ -85,7 +87,7 @@ public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String BACKGROUND_EDEFAULT = "";
+	protected static final String BACKGROUND_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getBackground() <em>Background</em>}' attribute.
@@ -105,7 +107,7 @@ public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String GOALS_EDEFAULT = "";
+	protected static final String GOALS_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getGoals() <em>Goals</em>}' attribute.
@@ -125,7 +127,7 @@ public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String APPLICATION_EDEFAULT = "";
+	protected static final String APPLICATION_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getApplication() <em>Application</em>}' attribute.
@@ -145,7 +147,7 @@ public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String LEVELS_OF_ADOPTION_EDEFAULT = "";
+	protected static final String LEVELS_OF_ADOPTION_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getLevelsOfAdoption() <em>Levels Of Adoption</em>}' attribute.
@@ -198,8 +200,7 @@ public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
 		String oldAdditionalInfo = additionalInfo;
 		additionalInfo = newAdditionalInfo;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PRACTICE_DESCRIPTION__ADDITIONAL_INFO,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PRACTICE_DESCRIPTION__ADDITIONAL_INFO,
 					oldAdditionalInfo, additionalInfo));
 	}
 
@@ -221,8 +222,7 @@ public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
 		String oldProblem = problem;
 		problem = newProblem;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PRACTICE_DESCRIPTION__PROBLEM, oldProblem,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PRACTICE_DESCRIPTION__PROBLEM, oldProblem,
 					problem));
 	}
 
@@ -244,9 +244,8 @@ public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
 		String oldBackground = background;
 		background = newBackground;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PRACTICE_DESCRIPTION__BACKGROUND, oldBackground,
-					background));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PRACTICE_DESCRIPTION__BACKGROUND,
+					oldBackground, background));
 	}
 
 	/**
@@ -267,8 +266,8 @@ public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
 		String oldGoals = goals;
 		goals = newGoals;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PRACTICE_DESCRIPTION__GOALS, oldGoals, goals));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PRACTICE_DESCRIPTION__GOALS, oldGoals,
+					goals));
 	}
 
 	/**
@@ -289,8 +288,7 @@ public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
 		String oldApplication = application;
 		application = newApplication;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PRACTICE_DESCRIPTION__APPLICATION,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PRACTICE_DESCRIPTION__APPLICATION,
 					oldApplication, application));
 	}
 
@@ -312,8 +310,7 @@ public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
 		String oldLevelsOfAdoption = levelsOfAdoption;
 		levelsOfAdoption = newLevelsOfAdoption;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PRACTICE_DESCRIPTION__LEVELS_OF_ADOPTION,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PRACTICE_DESCRIPTION__LEVELS_OF_ADOPTION,
 					oldLevelsOfAdoption, levelsOfAdoption));
 	}
 
@@ -419,17 +416,13 @@ public class PracticeDescriptionImpl extends ContentDescriptionImpl implements
 			return ADDITIONAL_INFO_EDEFAULT == null ? additionalInfo != null
 					: !ADDITIONAL_INFO_EDEFAULT.equals(additionalInfo);
 		case UmaPackage.PRACTICE_DESCRIPTION__PROBLEM:
-			return PROBLEM_EDEFAULT == null ? problem != null
-					: !PROBLEM_EDEFAULT.equals(problem);
+			return PROBLEM_EDEFAULT == null ? problem != null : !PROBLEM_EDEFAULT.equals(problem);
 		case UmaPackage.PRACTICE_DESCRIPTION__BACKGROUND:
-			return BACKGROUND_EDEFAULT == null ? background != null
-					: !BACKGROUND_EDEFAULT.equals(background);
+			return BACKGROUND_EDEFAULT == null ? background != null : !BACKGROUND_EDEFAULT.equals(background);
 		case UmaPackage.PRACTICE_DESCRIPTION__GOALS:
-			return GOALS_EDEFAULT == null ? goals != null : !GOALS_EDEFAULT
-					.equals(goals);
+			return GOALS_EDEFAULT == null ? goals != null : !GOALS_EDEFAULT.equals(goals);
 		case UmaPackage.PRACTICE_DESCRIPTION__APPLICATION:
-			return APPLICATION_EDEFAULT == null ? application != null
-					: !APPLICATION_EDEFAULT.equals(application);
+			return APPLICATION_EDEFAULT == null ? application != null : !APPLICATION_EDEFAULT.equals(application);
 		case UmaPackage.PRACTICE_DESCRIPTION__LEVELS_OF_ADOPTION:
 			return LEVELS_OF_ADOPTION_EDEFAULT == null ? levelsOfAdoption != null
 					: !LEVELS_OF_ADOPTION_EDEFAULT.equals(levelsOfAdoption);

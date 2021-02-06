@@ -75,6 +75,15 @@ public interface UmaFactory extends EFactory {
 	ContentDescription createContentDescription();
 
 	/**
+	 * Returns a new object of class '<em>Supporting Material</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Supporting Material</em>'.
+	 * @generated
+	 */
+	SupportingMaterial createSupportingMaterial();
+
+	/**
 	 * Returns a new object of class '<em>Section</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -84,31 +93,67 @@ public interface UmaFactory extends EFactory {
 	Section createSection();
 
 	/**
-	 * Returns a new object of class '<em>Role</em>'.
+	 * Returns a new object of class '<em>Concept</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Role</em>'.
+	 * @return a new object of class '<em>Concept</em>'.
 	 * @generated
 	 */
-	Role createRole();
+	Concept createConcept();
 
 	/**
-	 * Returns a new object of class '<em>Task</em>'.
+	 * Returns a new object of class '<em>Checklist</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Task</em>'.
+	 * @return a new object of class '<em>Checklist</em>'.
 	 * @generated
 	 */
-	Task createTask();
+	Checklist createChecklist();
 
 	/**
-	 * Returns a new object of class '<em>Step</em>'.
+	 * Returns a new object of class '<em>Guideline</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Step</em>'.
+	 * @return a new object of class '<em>Guideline</em>'.
 	 * @generated
 	 */
-	Step createStep();
+	Guideline createGuideline();
+
+	/**
+	 * Returns a new object of class '<em>Example</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Example</em>'.
+	 * @generated
+	 */
+	Example createExample();
+
+	/**
+	 * Returns a new object of class '<em>Reusable Asset</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Reusable Asset</em>'.
+	 * @generated
+	 */
+	ReusableAsset createReusableAsset();
+
+	/**
+	 * Returns a new object of class '<em>Term Definition</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Term Definition</em>'.
+	 * @generated
+	 */
+	TermDefinition createTermDefinition();
+
+	/**
+	 * Returns a new object of class '<em>Applicable Meta Class Info</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Applicable Meta Class Info</em>'.
+	 * @generated
+	 */
+	ApplicableMetaClassInfo createApplicableMetaClassInfo();
 
 	/**
 	 * Returns a new object of class '<em>Artifact</em>'.
@@ -138,6 +183,42 @@ public interface UmaFactory extends EFactory {
 	FulfillableElement createFulfillableElement();
 
 	/**
+	 * Returns a new object of class '<em>Report</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Report</em>'.
+	 * @generated
+	 */
+	Report createReport();
+
+	/**
+	 * Returns a new object of class '<em>Template</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Template</em>'.
+	 * @generated
+	 */
+	Template createTemplate();
+
+	/**
+	 * Returns a new object of class '<em>Tool Mentor</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Tool Mentor</em>'.
+	 * @generated
+	 */
+	ToolMentor createToolMentor();
+
+	/**
+	 * Returns a new object of class '<em>Estimation Considerations</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Estimation Considerations</em>'.
+	 * @generated
+	 */
+	EstimationConsiderations createEstimationConsiderations();
+
+	/**
 	 * Returns a new object of class '<em>Deliverable</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -156,13 +237,40 @@ public interface UmaFactory extends EFactory {
 	Outcome createOutcome();
 
 	/**
-	 * Returns a new object of class '<em>Content Package</em>'.
+	 * Returns a new object of class '<em>Step</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Content Package</em>'.
+	 * @return a new object of class '<em>Step</em>'.
 	 * @generated
 	 */
-	ContentPackage createContentPackage();
+	Step createStep();
+
+	/**
+	 * Returns a new object of class '<em>Whitepaper</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Whitepaper</em>'.
+	 * @generated
+	 */
+	Whitepaper createWhitepaper();
+
+	/**
+	 * Returns a new object of class '<em>Task</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Task</em>'.
+	 * @generated
+	 */
+	Task createTask();
+
+	/**
+	 * Returns a new object of class '<em>Role</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Role</em>'.
+	 * @generated
+	 */
+	Role createRole();
 
 	/**
 	 * Returns a new object of class '<em>Artifact Description</em>'.
@@ -228,6 +336,51 @@ public interface UmaFactory extends EFactory {
 	PracticeDescription createPracticeDescription();
 
 	/**
+	 * Returns a new object of class '<em>Role Set</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Role Set</em>'.
+	 * @generated
+	 */
+	RoleSet createRoleSet();
+
+	/**
+	 * Returns a new object of class '<em>Domain</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Domain</em>'.
+	 * @generated
+	 */
+	Domain createDomain();
+
+	/**
+	 * Returns a new object of class '<em>Work Product Type</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Work Product Type</em>'.
+	 * @generated
+	 */
+	WorkProductType createWorkProductType();
+
+	/**
+	 * Returns a new object of class '<em>Discipline Grouping</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Discipline Grouping</em>'.
+	 * @generated
+	 */
+	DisciplineGrouping createDisciplineGrouping();
+
+	/**
+	 * Returns a new object of class '<em>Discipline</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Discipline</em>'.
+	 * @generated
+	 */
+	Discipline createDiscipline();
+
+	/**
 	 * Returns a new object of class '<em>Activity</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -237,6 +390,69 @@ public interface UmaFactory extends EFactory {
 	Activity createActivity();
 
 	/**
+	 * Returns a new object of class '<em>Planning Data</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Planning Data</em>'.
+	 * @generated
+	 */
+	PlanningData createPlanningData();
+
+	/**
+	 * Returns a new object of class '<em>Work Order</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Work Order</em>'.
+	 * @generated
+	 */
+	WorkOrder createWorkOrder();
+
+	/**
+	 * Returns a new object of class '<em>Roadmap</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Roadmap</em>'.
+	 * @generated
+	 */
+	Roadmap createRoadmap();
+
+	/**
+	 * Returns a new object of class '<em>Tool</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Tool</em>'.
+	 * @generated
+	 */
+	Tool createTool();
+
+	/**
+	 * Returns a new object of class '<em>Role Set Grouping</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Role Set Grouping</em>'.
+	 * @generated
+	 */
+	RoleSetGrouping createRoleSetGrouping();
+
+	/**
+	 * Returns a new object of class '<em>Custom Category</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Custom Category</em>'.
+	 * @generated
+	 */
+	CustomCategory createCustomCategory();
+
+	/**
+	 * Returns a new object of class '<em>Content Package</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Content Package</em>'.
+	 * @generated
+	 */
+	ContentPackage createContentPackage();
+
+	/**
 	 * Returns a new object of class '<em>Milestone</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -244,6 +460,15 @@ public interface UmaFactory extends EFactory {
 	 * @generated
 	 */
 	Milestone createMilestone();
+
+	/**
+	 * Returns a new object of class '<em>Work Product Descriptor</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Work Product Descriptor</em>'.
+	 * @generated
+	 */
+	WorkProductDescriptor createWorkProductDescriptor();
 
 	/**
 	 * Returns a new object of class '<em>Iteration</em>'.
@@ -282,24 +507,6 @@ public interface UmaFactory extends EFactory {
 	RoleDescriptor createRoleDescriptor();
 
 	/**
-	 * Returns a new object of class '<em>Work Order</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Work Order</em>'.
-	 * @generated
-	 */
-	WorkOrder createWorkOrder();
-
-	/**
-	 * Returns a new object of class '<em>Planning Data</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Planning Data</em>'.
-	 * @generated
-	 */
-	PlanningData createPlanningData();
-
-	/**
 	 * Returns a new object of class '<em>Task Descriptor</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -309,15 +516,6 @@ public interface UmaFactory extends EFactory {
 	TaskDescriptor createTaskDescriptor();
 
 	/**
-	 * Returns a new object of class '<em>Work Product Descriptor</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Work Product Descriptor</em>'.
-	 * @generated
-	 */
-	WorkProductDescriptor createWorkProductDescriptor();
-
-	/**
 	 * Returns a new object of class '<em>Composite Role</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -325,6 +523,60 @@ public interface UmaFactory extends EFactory {
 	 * @generated
 	 */
 	CompositeRole createCompositeRole();
+
+	/**
+	 * Returns a new object of class '<em>Delivery Process</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Delivery Process</em>'.
+	 * @generated
+	 */
+	DeliveryProcess createDeliveryProcess();
+
+	/**
+	 * Returns a new object of class '<em>Capability Pattern</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Capability Pattern</em>'.
+	 * @generated
+	 */
+	CapabilityPattern createCapabilityPattern();
+
+	/**
+	 * Returns a new object of class '<em>Method Configuration</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Method Configuration</em>'.
+	 * @generated
+	 */
+	MethodConfiguration createMethodConfiguration();
+
+	/**
+	 * Returns a new object of class '<em>Method Plugin</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Method Plugin</em>'.
+	 * @generated
+	 */
+	MethodPlugin createMethodPlugin();
+
+	/**
+	 * Returns a new object of class '<em>Process Planning Template</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Process Planning Template</em>'.
+	 * @generated
+	 */
+	ProcessPlanningTemplate createProcessPlanningTemplate();
+
+	/**
+	 * Returns a new object of class '<em>Practice</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Practice</em>'.
+	 * @generated
+	 */
+	Practice createPractice();
 
 	/**
 	 * Returns a new object of class '<em>Breakdown Element Description</em>'.
@@ -372,238 +624,13 @@ public interface UmaFactory extends EFactory {
 	DescriptorDescription createDescriptorDescription();
 
 	/**
-	 * Returns a new object of class '<em>Concept</em>'.
+	 * Returns a new object of class '<em>Process Component Descriptor</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Concept</em>'.
+	 * @return a new object of class '<em>Process Component Descriptor</em>'.
 	 * @generated
 	 */
-	Concept createConcept();
-
-	/**
-	 * Returns a new object of class '<em>Checklist</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Checklist</em>'.
-	 * @generated
-	 */
-	Checklist createChecklist();
-
-	/**
-	 * Returns a new object of class '<em>Example</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Example</em>'.
-	 * @generated
-	 */
-	Example createExample();
-
-	/**
-	 * Returns a new object of class '<em>Guideline</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Guideline</em>'.
-	 * @generated
-	 */
-	Guideline createGuideline();
-
-	/**
-	 * Returns a new object of class '<em>Estimation Considerations</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Estimation Considerations</em>'.
-	 * @generated
-	 */
-	EstimationConsiderations createEstimationConsiderations();
-
-	/**
-	 * Returns a new object of class '<em>Report</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Report</em>'.
-	 * @generated
-	 */
-	Report createReport();
-
-	/**
-	 * Returns a new object of class '<em>Template</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Template</em>'.
-	 * @generated
-	 */
-	Template createTemplate();
-
-	/**
-	 * Returns a new object of class '<em>Supporting Material</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Supporting Material</em>'.
-	 * @generated
-	 */
-	SupportingMaterial createSupportingMaterial();
-
-	/**
-	 * Returns a new object of class '<em>Tool Mentor</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Tool Mentor</em>'.
-	 * @generated
-	 */
-	ToolMentor createToolMentor();
-
-	/**
-	 * Returns a new object of class '<em>Whitepaper</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Whitepaper</em>'.
-	 * @generated
-	 */
-	Whitepaper createWhitepaper();
-
-	/**
-	 * Returns a new object of class '<em>Term Definition</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Term Definition</em>'.
-	 * @generated
-	 */
-	TermDefinition createTermDefinition();
-
-	/**
-	 * Returns a new object of class '<em>Applicable Meta Class Info</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Applicable Meta Class Info</em>'.
-	 * @generated
-	 */
-	ApplicableMetaClassInfo createApplicableMetaClassInfo();
-
-	/**
-	 * Returns a new object of class '<em>Practice</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Practice</em>'.
-	 * @generated
-	 */
-	Practice createPractice();
-
-	/**
-	 * Returns a new object of class '<em>Reusable Asset</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Reusable Asset</em>'.
-	 * @generated
-	 */
-	ReusableAsset createReusableAsset();
-
-	/**
-	 * Returns a new object of class '<em>Discipline</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Discipline</em>'.
-	 * @generated
-	 */
-	Discipline createDiscipline();
-
-	/**
-	 * Returns a new object of class '<em>Role Set</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Role Set</em>'.
-	 * @generated
-	 */
-	RoleSet createRoleSet();
-
-	/**
-	 * Returns a new object of class '<em>Domain</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Domain</em>'.
-	 * @generated
-	 */
-	Domain createDomain();
-
-	/**
-	 * Returns a new object of class '<em>Work Product Type</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Work Product Type</em>'.
-	 * @generated
-	 */
-	WorkProductType createWorkProductType();
-
-	/**
-	 * Returns a new object of class '<em>Discipline Grouping</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Discipline Grouping</em>'.
-	 * @generated
-	 */
-	DisciplineGrouping createDisciplineGrouping();
-
-	/**
-	 * Returns a new object of class '<em>Tool</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Tool</em>'.
-	 * @generated
-	 */
-	Tool createTool();
-
-	/**
-	 * Returns a new object of class '<em>Role Set Grouping</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Role Set Grouping</em>'.
-	 * @generated
-	 */
-	RoleSetGrouping createRoleSetGrouping();
-
-	/**
-	 * Returns a new object of class '<em>Custom Category</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Custom Category</em>'.
-	 * @generated
-	 */
-	CustomCategory createCustomCategory();
-
-	/**
-	 * Returns a new object of class '<em>Delivery Process</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Delivery Process</em>'.
-	 * @generated
-	 */
-	DeliveryProcess createDeliveryProcess();
-
-	/**
-	 * Returns a new object of class '<em>Capability Pattern</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Capability Pattern</em>'.
-	 * @generated
-	 */
-	CapabilityPattern createCapabilityPattern();
-
-	/**
-	 * Returns a new object of class '<em>Process Planning Template</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Process Planning Template</em>'.
-	 * @generated
-	 */
-	ProcessPlanningTemplate createProcessPlanningTemplate();
-
-	/**
-	 * Returns a new object of class '<em>Roadmap</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Roadmap</em>'.
-	 * @generated
-	 */
-	Roadmap createRoadmap();
+	ProcessComponentDescriptor createProcessComponentDescriptor();
 
 	/**
 	 * Returns a new object of class '<em>Process Component</em>'.
@@ -624,58 +651,40 @@ public interface UmaFactory extends EFactory {
 	ProcessPackage createProcessPackage();
 
 	/**
-	 * Returns a new object of class '<em>Process Component Interface</em>'.
+	 * Returns a new object of class '<em>Diagram</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Process Component Interface</em>'.
+	 * @return a new object of class '<em>Diagram</em>'.
 	 * @generated
 	 */
-	ProcessComponentInterface createProcessComponentInterface();
+	Diagram createDiagram();
 
 	/**
-	 * Returns a new object of class '<em>Process Component Descriptor</em>'.
+	 * Returns a new object of class '<em>Graph Node</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Process Component Descriptor</em>'.
+	 * @return a new object of class '<em>Graph Node</em>'.
 	 * @generated
 	 */
-	ProcessComponentDescriptor createProcessComponentDescriptor();
+	GraphNode createGraphNode();
 
 	/**
-	 * Returns a new object of class '<em>Method Plugin</em>'.
+	 * Returns a new object of class '<em>Reference</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Method Plugin</em>'.
+	 * @return a new object of class '<em>Reference</em>'.
 	 * @generated
 	 */
-	MethodPlugin createMethodPlugin();
+	Reference createReference();
 
 	/**
-	 * Returns a new object of class '<em>Method Configuration</em>'.
+	 * Returns a new object of class '<em>Property</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Method Configuration</em>'.
+	 * @return a new object of class '<em>Property</em>'.
 	 * @generated
 	 */
-	MethodConfiguration createMethodConfiguration();
-
-	/**
-	 * Returns a new object of class '<em>Process Family</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Process Family</em>'.
-	 * @generated
-	 */
-	ProcessFamily createProcessFamily();
-
-	/**
-	 * Returns a new object of class '<em>Method Library</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Method Library</em>'.
-	 * @generated
-	 */
-	MethodLibrary createMethodLibrary();
+	Property createProperty();
 
 	/**
 	 * Returns a new object of class '<em>Point</em>'.
@@ -705,33 +714,6 @@ public interface UmaFactory extends EFactory {
 	GraphConnector createGraphConnector();
 
 	/**
-	 * Returns a new object of class '<em>Dimension</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Dimension</em>'.
-	 * @generated
-	 */
-	Dimension createDimension();
-
-	/**
-	 * Returns a new object of class '<em>Reference</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Reference</em>'.
-	 * @generated
-	 */
-	Reference createReference();
-
-	/**
-	 * Returns a new object of class '<em>Property</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Property</em>'.
-	 * @generated
-	 */
-	Property createProperty();
-
-	/**
 	 * Returns a new object of class '<em>Graph Edge</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -741,22 +723,22 @@ public interface UmaFactory extends EFactory {
 	GraphEdge createGraphEdge();
 
 	/**
-	 * Returns a new object of class '<em>Diagram</em>'.
+	 * Returns a new object of class '<em>Dimension</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Diagram</em>'.
+	 * @return a new object of class '<em>Dimension</em>'.
 	 * @generated
 	 */
-	Diagram createDiagram();
+	Dimension createDimension();
 
 	/**
-	 * Returns a new object of class '<em>Graph Node</em>'.
+	 * Returns a new object of class '<em>Process Component Interface</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Graph Node</em>'.
+	 * @return a new object of class '<em>Process Component Interface</em>'.
 	 * @generated
 	 */
-	GraphNode createGraphNode();
+	ProcessComponentInterface createProcessComponentInterface();
 
 	/**
 	 * Returns a new object of class '<em>Simple Semantic Model Element</em>'.
@@ -820,6 +802,24 @@ public interface UmaFactory extends EFactory {
 	 * @generated
 	 */
 	Ellipse createEllipse();
+
+	/**
+	 * Returns a new object of class '<em>Process Family</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Process Family</em>'.
+	 * @generated
+	 */
+	ProcessFamily createProcessFamily();
+
+	/**
+	 * Returns a new object of class '<em>Method Library</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Method Library</em>'.
+	 * @generated
+	 */
+	MethodLibrary createMethodLibrary();
 
 	/**
 	 * Returns the package supported by this factory.

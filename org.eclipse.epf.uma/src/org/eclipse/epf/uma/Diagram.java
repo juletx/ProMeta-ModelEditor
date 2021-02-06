@@ -33,58 +33,6 @@ import java.util.List;
  */
 public interface Diagram extends GraphNode {
 	/**
-	 * Returns the value of the '<em><b>Zoom</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Zoom</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Zoom</em>' attribute.
-	 * @see #setZoom(Double)
-	 * @see org.eclipse.epf.uma.UmaPackage#getDiagram_Zoom()
-	 * @model dataType="org.eclipse.epf.uma.Double" ordered="false"
-	 * @generated
-	 */
-	Double getZoom();
-
-	/**
-	 * Sets the value of the '{@link org.eclipse.epf.uma.Diagram#getZoom <em>Zoom</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Zoom</em>' attribute.
-	 * @see #getZoom()
-	 * @generated
-	 */
-	void setZoom(Double value);
-
-	/**
-	 * Returns the value of the '<em><b>Viewpoint</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Viewpoint</em>' containment reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Viewpoint</em>' reference.
-	 * @see #setViewpoint(Point)
-	 * @see org.eclipse.epf.uma.UmaPackage#getDiagram_Viewpoint()
-	 * @model required="true" ordered="false"
-	 * @generated
-	 */
-	Point getViewpoint();
-
-	/**
-	 * Sets the value of the '{@link org.eclipse.epf.uma.Diagram#getViewpoint <em>Viewpoint</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Viewpoint</em>' reference.
-	 * @see #getViewpoint()
-	 * @generated
-	 */
-	void setViewpoint(Point value);
-
-	/**
 	 * Returns the value of the '<em><b>Diagram Link</b></em>' reference list.
 	 * The list contents are of type {@link org.eclipse.epf.uma.DiagramLink}.
 	 * It is bidirectional and its opposite is '{@link org.eclipse.epf.uma.DiagramLink#getDiagram <em>Diagram</em>}'.
@@ -129,5 +77,57 @@ public interface Diagram extends GraphNode {
 	 * @generated
 	 */
 	void setNamespace(SemanticModelBridge value);
+
+	/**
+	 * Returns the value of the '<em><b>Zoom</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Zoom</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Zoom</em>' attribute.
+	 * @see #setZoom(Double)
+	 * @see org.eclipse.epf.uma.UmaPackage#getDiagram_Zoom()
+	 * @model dataType="org.eclipse.epf.uma.Double" ordered="false"
+	 * @generated
+	 */
+	Double getZoom();
+
+	/**
+	 * Sets the value of the '{@link org.eclipse.epf.uma.Diagram#getZoom <em>Zoom</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Zoom</em>' attribute.
+	 * @see #getZoom()
+	 * @generated
+	 */
+	void setZoom(Double value);
+
+	/**
+	 * Returns the value of the '<em><b>Viewpoint</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Viewpoint</em>' reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Viewpoint</em>' reference.
+	 * @see #setViewpoint(Point)
+	 * @see org.eclipse.epf.uma.UmaPackage#getDiagram_Viewpoint()
+	 * @model required="true" ordered="false"
+	 * @generated
+	 */
+	Point getViewpoint();
+
+	/**
+	 * Sets the value of the '{@link org.eclipse.epf.uma.Diagram#getViewpoint <em>Viewpoint</em>}' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Viewpoint</em>' reference.
+	 * @see #getViewpoint()
+	 * @generated
+	 */
+	void setViewpoint(Point value);
 
 } // Diagram

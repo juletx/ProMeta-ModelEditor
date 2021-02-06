@@ -15,16 +15,13 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.GraphElement;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -35,9 +32,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class GraphElementItemProvider extends DiagramElementItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class GraphElementItemProvider extends DiagramElementItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -72,15 +67,11 @@ public class GraphElementItemProvider extends DiagramElementItemProvider
 	 */
 	protected void addPositionPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_GraphElement_position_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_GraphElement_position_feature", "_UI_GraphElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.GRAPH_ELEMENT__POSITION, true,
-						false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_GraphElement_position_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_GraphElement_position_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_GraphElement_type"), //$NON-NLS-1$
+						UmaPackage.Literals.GRAPH_ELEMENT__POSITION, true, false, true, null, null, null));
 	}
 
 	/**
@@ -92,15 +83,13 @@ public class GraphElementItemProvider extends DiagramElementItemProvider
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
 			childrenFeatures.add(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED);
 			childrenFeatures.add(UmaPackage.Literals.GRAPH_ELEMENT__LINK);
 			childrenFeatures.add(UmaPackage.Literals.GRAPH_ELEMENT__ANCHORAGE);
-			childrenFeatures
-					.add(UmaPackage.Literals.GRAPH_ELEMENT__SEMANTIC_MODEL);
+			childrenFeatures.add(UmaPackage.Literals.GRAPH_ELEMENT__SEMANTIC_MODEL);
 		}
 		return childrenFeatures;
 	}
@@ -147,8 +136,7 @@ public class GraphElementItemProvider extends DiagramElementItemProvider
 		case UmaPackage.GRAPH_ELEMENT__LINK:
 		case UmaPackage.GRAPH_ELEMENT__ANCHORAGE:
 		case UmaPackage.GRAPH_ELEMENT__SEMANTIC_MODEL:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -162,84 +150,64 @@ public class GraphElementItemProvider extends DiagramElementItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
 				UmaFactory.eINSTANCE.createGraphNode()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
 				UmaFactory.eINSTANCE.createDiagram()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
 				UmaFactory.eINSTANCE.createReference()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
 				UmaFactory.eINSTANCE.createProperty()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
 				UmaFactory.eINSTANCE.createDiagramLink()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
 				UmaFactory.eINSTANCE.createGraphConnector()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
 				UmaFactory.eINSTANCE.createGraphEdge()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
 				UmaFactory.eINSTANCE.createSimpleSemanticModelElement()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
 				UmaFactory.eINSTANCE.createUMASemanticModelBridge()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
 				UmaFactory.eINSTANCE.createCoreSemanticModelBridge()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
 				UmaFactory.eINSTANCE.createTextElement()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
-				UmaFactory.eINSTANCE.createImage()));
+		newChildDescriptors.add(
+				createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED, UmaFactory.eINSTANCE.createImage()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
 				UmaFactory.eINSTANCE.createPolyline()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__CONTAINED,
 				UmaFactory.eINSTANCE.createEllipse()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__LINK, UmaFactory.eINSTANCE
-						.createDiagramLink()));
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__LINK,
+				UmaFactory.eINSTANCE.createDiagramLink()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__ANCHORAGE,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__ANCHORAGE,
 				UmaFactory.eINSTANCE.createGraphConnector()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__SEMANTIC_MODEL,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__SEMANTIC_MODEL,
 				UmaFactory.eINSTANCE.createSimpleSemanticModelElement()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__SEMANTIC_MODEL,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__SEMANTIC_MODEL,
 				UmaFactory.eINSTANCE.createUMASemanticModelBridge()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.GRAPH_ELEMENT__SEMANTIC_MODEL,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.GRAPH_ELEMENT__SEMANTIC_MODEL,
 				UmaFactory.eINSTANCE.createCoreSemanticModelBridge()));
 	}
 
@@ -250,8 +218,7 @@ public class GraphElementItemProvider extends DiagramElementItemProvider
 	 * @generated
 	 */
 	@Override
-	public String getCreateChildText(Object owner, Object feature,
-			Object child, Collection<?> selection) {
+	public String getCreateChildText(Object owner, Object feature, Object child, Collection<?> selection) {
 		Object childFeature = feature;
 		Object childObject = child;
 
@@ -263,21 +230,9 @@ public class GraphElementItemProvider extends DiagramElementItemProvider
 
 		if (qualify) {
 			return getString("_UI_CreateChild_text2", //$NON-NLS-1$
-					new Object[] { getTypeText(childObject),
-							getFeatureText(childFeature), getTypeText(owner) });
+					new Object[] { getTypeText(childObject), getFeatureText(childFeature), getTypeText(owner) });
 		}
 		return super.getCreateChildText(owner, feature, child, selection);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

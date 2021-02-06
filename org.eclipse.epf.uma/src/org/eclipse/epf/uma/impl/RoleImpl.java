@@ -14,14 +14,16 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.FulfillableElement;
 import org.eclipse.epf.uma.Role;
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.WorkProduct;
-import org.eclipse.epf.uma.util.AssociationHelper;
 
 /**
  * <!-- begin-user-doc -->
@@ -89,8 +91,8 @@ public class RoleImpl extends ContentElementImpl implements Role {
 	 */
 	public List<FulfillableElement> getFulfills() {
 		if (fulfills == null) {
-			fulfills = new EObjectResolvingEList<FulfillableElement>(
-					FulfillableElement.class, this, UmaPackage.ROLE__FULFILLS);
+			fulfills = new EObjectResolvingEList<FulfillableElement>(FulfillableElement.class, this,
+					UmaPackage.ROLE__FULFILLS);
 		}
 		return fulfills;
 	}
@@ -98,9 +100,14 @@ public class RoleImpl extends ContentElementImpl implements Role {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * @generated
 	 */
-	public List getModifies() {
-		return AssociationHelper.getModifiedWorkProducts(this);
+	public List<WorkProduct> getModifies() {
+		// TODO: implement this method to return the 'Modifies' reference list
+		// Ensure that you remove @generated or mark it @generated NOT
+		// The list is expected to implement org.eclipse.emf.ecore.util.InternalEList and org.eclipse.emf.ecore.EStructuralFeature.Setting
+		// so it's likely that an appropriate subclass of org.eclipse.emf.ecore.util.EcoreEList should be used.
+		throw new UnsupportedOperationException();
 	}
 
 	/**
@@ -110,8 +117,8 @@ public class RoleImpl extends ContentElementImpl implements Role {
 	 */
 	public List<WorkProduct> getResponsibleFor() {
 		if (responsibleFor == null) {
-			responsibleFor = new EObjectResolvingEList<WorkProduct>(
-					WorkProduct.class, this, UmaPackage.ROLE__RESPONSIBLE_FOR);
+			responsibleFor = new EObjectResolvingEList<WorkProduct>(WorkProduct.class, this,
+					UmaPackage.ROLE__RESPONSIBLE_FOR);
 		}
 		return responsibleFor;
 	}
@@ -145,8 +152,7 @@ public class RoleImpl extends ContentElementImpl implements Role {
 		switch (featureID) {
 		case UmaPackage.ROLE__FULFILLS:
 			getFulfills().clear();
-			getFulfills().addAll(
-					(Collection<? extends FulfillableElement>) newValue);
+			getFulfills().addAll((Collection<? extends FulfillableElement>) newValue);
 			return;
 		case UmaPackage.ROLE__MODIFIES:
 			getModifies().clear();
@@ -154,8 +160,7 @@ public class RoleImpl extends ContentElementImpl implements Role {
 			return;
 		case UmaPackage.ROLE__RESPONSIBLE_FOR:
 			getResponsibleFor().clear();
-			getResponsibleFor().addAll(
-					(Collection<? extends WorkProduct>) newValue);
+			getResponsibleFor().addAll((Collection<? extends WorkProduct>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);

@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.Classifier;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -40,6 +43,7 @@ public abstract class ClassifierImpl extends TypeImpl implements Classifier {
 	 * @ordered
 	 */
 	protected static final Boolean IS_ABSTRACT_EDEFAULT = Boolean.FALSE;
+
 	/**
 	 * The cached value of the '{@link #getIsAbstract() <em>Is Abstract</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -91,8 +95,7 @@ public abstract class ClassifierImpl extends TypeImpl implements Classifier {
 		Boolean oldIsAbstract = isAbstract;
 		isAbstract = newIsAbstract;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.CLASSIFIER__IS_ABSTRACT, oldIsAbstract,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.CLASSIFIER__IS_ABSTRACT, oldIsAbstract,
 					isAbstract));
 	}
 
@@ -155,8 +158,7 @@ public abstract class ClassifierImpl extends TypeImpl implements Classifier {
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.CLASSIFIER__IS_ABSTRACT:
-			return IS_ABSTRACT_EDEFAULT == null ? isAbstract != null
-					: !IS_ABSTRACT_EDEFAULT.equals(isAbstract);
+			return IS_ABSTRACT_EDEFAULT == null ? isAbstract != null : !IS_ABSTRACT_EDEFAULT.equals(isAbstract);
 		}
 		return super.eIsSet(featureID);
 	}

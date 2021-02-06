@@ -11,12 +11,14 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.Dimension;
 import org.eclipse.epf.uma.GraphNode;
 import org.eclipse.epf.uma.UmaPackage;
@@ -79,8 +81,8 @@ public class GraphNodeImpl extends GraphElementImpl implements GraphNode {
 			size = (Dimension) eResolveProxy(oldSize);
 			if (size != oldSize) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.GRAPH_NODE__SIZE, oldSize, size));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.GRAPH_NODE__SIZE, oldSize,
+							size));
 			}
 		}
 		return size;
@@ -104,8 +106,7 @@ public class GraphNodeImpl extends GraphElementImpl implements GraphNode {
 		Dimension oldSize = size;
 		size = newSize;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.GRAPH_NODE__SIZE, oldSize, size));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.GRAPH_NODE__SIZE, oldSize, size));
 	}
 
 	/**

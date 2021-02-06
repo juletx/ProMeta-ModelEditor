@@ -15,13 +15,18 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.ContentDescription;
 import org.eclipse.epf.uma.Section;
 import org.eclipse.epf.uma.UmaPackage;
@@ -43,8 +48,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class ContentDescriptionImpl extends MethodUnitImpl implements
-		ContentDescription {
+public class ContentDescriptionImpl extends MethodUnitImpl implements ContentDescription {
 	/**
 	 * The default value of the '{@link #getMainDescription() <em>Main Description</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -53,7 +57,7 @@ public class ContentDescriptionImpl extends MethodUnitImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String MAIN_DESCRIPTION_EDEFAULT = "";
+	protected static final String MAIN_DESCRIPTION_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getMainDescription() <em>Main Description</em>}' attribute.
@@ -103,7 +107,7 @@ public class ContentDescriptionImpl extends MethodUnitImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String KEY_CONSIDERATIONS_EDEFAULT = "";
+	protected static final String KEY_CONSIDERATIONS_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getKeyConsiderations() <em>Key Considerations</em>}' attribute.
@@ -176,8 +180,7 @@ public class ContentDescriptionImpl extends MethodUnitImpl implements
 		String oldMainDescription = mainDescription;
 		mainDescription = newMainDescription;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.CONTENT_DESCRIPTION__MAIN_DESCRIPTION,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.CONTENT_DESCRIPTION__MAIN_DESCRIPTION,
 					oldMainDescription, mainDescription));
 	}
 
@@ -188,8 +191,7 @@ public class ContentDescriptionImpl extends MethodUnitImpl implements
 	 */
 	public List<Section> getSections() {
 		if (sections == null) {
-			sections = new EObjectContainmentEList.Resolving<Section>(
-					Section.class, this,
+			sections = new EObjectContainmentEList.Resolving<Section>(Section.class, this,
 					UmaPackage.CONTENT_DESCRIPTION__SECTIONS);
 		}
 		return sections;
@@ -213,9 +215,8 @@ public class ContentDescriptionImpl extends MethodUnitImpl implements
 		String oldExternalId = externalId;
 		externalId = newExternalId;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.CONTENT_DESCRIPTION__EXTERNAL_ID, oldExternalId,
-					externalId));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.CONTENT_DESCRIPTION__EXTERNAL_ID,
+					oldExternalId, externalId));
 	}
 
 	/**
@@ -236,8 +237,7 @@ public class ContentDescriptionImpl extends MethodUnitImpl implements
 		String oldKeyConsiderations = keyConsiderations;
 		keyConsiderations = newKeyConsiderations;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.CONTENT_DESCRIPTION__KEY_CONSIDERATIONS,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.CONTENT_DESCRIPTION__KEY_CONSIDERATIONS,
 					oldKeyConsiderations, keyConsiderations));
 	}
 
@@ -260,8 +260,8 @@ public class ContentDescriptionImpl extends MethodUnitImpl implements
 		longPresentationName = newLongPresentationName;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.CONTENT_DESCRIPTION__LONG_PRESENTATION_NAME,
-					oldLongPresentationName, longPresentationName));
+					UmaPackage.CONTENT_DESCRIPTION__LONG_PRESENTATION_NAME, oldLongPresentationName,
+					longPresentationName));
 	}
 
 	/**
@@ -270,12 +270,10 @@ public class ContentDescriptionImpl extends MethodUnitImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.CONTENT_DESCRIPTION__SECTIONS:
-			return ((InternalEList<?>) getSections()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getSections()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -378,15 +376,13 @@ public class ContentDescriptionImpl extends MethodUnitImpl implements
 		case UmaPackage.CONTENT_DESCRIPTION__SECTIONS:
 			return sections != null && !sections.isEmpty();
 		case UmaPackage.CONTENT_DESCRIPTION__EXTERNAL_ID:
-			return EXTERNAL_ID_EDEFAULT == null ? externalId != null
-					: !EXTERNAL_ID_EDEFAULT.equals(externalId);
+			return EXTERNAL_ID_EDEFAULT == null ? externalId != null : !EXTERNAL_ID_EDEFAULT.equals(externalId);
 		case UmaPackage.CONTENT_DESCRIPTION__KEY_CONSIDERATIONS:
 			return KEY_CONSIDERATIONS_EDEFAULT == null ? keyConsiderations != null
 					: !KEY_CONSIDERATIONS_EDEFAULT.equals(keyConsiderations);
 		case UmaPackage.CONTENT_DESCRIPTION__LONG_PRESENTATION_NAME:
 			return LONG_PRESENTATION_NAME_EDEFAULT == null ? longPresentationName != null
-					: !LONG_PRESENTATION_NAME_EDEFAULT
-							.equals(longPresentationName);
+					: !LONG_PRESENTATION_NAME_EDEFAULT.equals(longPresentationName);
 		}
 		return super.eIsSet(featureID);
 	}

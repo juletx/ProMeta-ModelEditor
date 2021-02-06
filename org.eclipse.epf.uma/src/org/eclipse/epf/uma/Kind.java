@@ -11,7 +11,6 @@
 package org.eclipse.epf.uma;
 
 import java.util.List;
-import java.util.Set;
 
 /**
  * <!-- begin-user-doc -->

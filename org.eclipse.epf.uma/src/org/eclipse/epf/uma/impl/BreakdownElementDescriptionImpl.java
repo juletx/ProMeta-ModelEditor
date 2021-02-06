@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.BreakdownElementDescription;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -30,8 +33,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class BreakdownElementDescriptionImpl extends ContentDescriptionImpl
-		implements BreakdownElementDescription {
+public class BreakdownElementDescriptionImpl extends ContentDescriptionImpl implements BreakdownElementDescription {
 	/**
 	 * The default value of the '{@link #getUsageGuidance() <em>Usage Guidance</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -40,7 +42,7 @@ public class BreakdownElementDescriptionImpl extends ContentDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String USAGE_GUIDANCE_EDEFAULT = "";
+	protected static final String USAGE_GUIDANCE_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getUsageGuidance() <em>Usage Guidance</em>}' attribute.
@@ -94,8 +96,7 @@ public class BreakdownElementDescriptionImpl extends ContentDescriptionImpl
 		usageGuidance = newUsageGuidance;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.BREAKDOWN_ELEMENT_DESCRIPTION__USAGE_GUIDANCE,
-					oldUsageGuidance, usageGuidance));
+					UmaPackage.BREAKDOWN_ELEMENT_DESCRIPTION__USAGE_GUIDANCE, oldUsageGuidance, usageGuidance));
 	}
 
 	/**

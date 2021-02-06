@@ -60,7 +60,7 @@ public interface DiagramLink extends DiagramElement {
 	 * Returns the value of the '<em><b>Viewport</b></em>' reference.
 	 * <!-- begin-user-doc -->
 	 * <p>
-	 * If the meaning of the '<em>Viewport</em>' containment reference isn't clear,
+	 * If the meaning of the '<em>Viewport</em>' reference isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
@@ -81,34 +81,6 @@ public interface DiagramLink extends DiagramElement {
 	 * @generated
 	 */
 	void setViewport(Point value);
-
-	/**
-	 * Returns the value of the '<em><b>Graph Element</b></em>' container reference.
-	 * It is bidirectional and its opposite is '{@link org.eclipse.epf.uma.GraphElement#getLink <em>Link</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Graph Element</em>' container reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Graph Element</em>' container reference.
-	 * @see #setGraphElement(GraphElement)
-	 * @see org.eclipse.epf.uma.UmaPackage#getDiagramLink_GraphElement()
-	 * @see org.eclipse.epf.uma.GraphElement#getLink
-	 * @model opposite="link" required="true" transient="false" ordered="false"
-	 * @generated
-	 */
-	GraphElement getGraphElement();
-
-	/**
-	 * Sets the value of the '{@link org.eclipse.epf.uma.DiagramLink#getGraphElement <em>Graph Element</em>}' container reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Graph Element</em>' container reference.
-	 * @see #getGraphElement()
-	 * @generated
-	 */
-	void setGraphElement(GraphElement value);
 
 	/**
 	 * Returns the value of the '<em><b>Diagram</b></em>' reference.
@@ -137,5 +109,33 @@ public interface DiagramLink extends DiagramElement {
 	 * @generated
 	 */
 	void setDiagram(Diagram value);
+
+	/**
+	 * Returns the value of the '<em><b>Graph Element</b></em>' container reference.
+	 * It is bidirectional and its opposite is '{@link org.eclipse.epf.uma.GraphElement#getLink <em>Link</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Graph Element</em>' container reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Graph Element</em>' container reference.
+	 * @see #setGraphElement(GraphElement)
+	 * @see org.eclipse.epf.uma.UmaPackage#getDiagramLink_GraphElement()
+	 * @see org.eclipse.epf.uma.GraphElement#getLink
+	 * @model opposite="link" required="true" transient="false" ordered="false"
+	 * @generated
+	 */
+	GraphElement getGraphElement();
+
+	/**
+	 * Sets the value of the '{@link org.eclipse.epf.uma.DiagramLink#getGraphElement <em>Graph Element</em>}' container reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Graph Element</em>' container reference.
+	 * @see #getGraphElement()
+	 * @generated
+	 */
+	void setGraphElement(GraphElement value);
 
 } // DiagramLink

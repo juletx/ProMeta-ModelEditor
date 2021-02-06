@@ -11,11 +11,14 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.ProcessComponent;
 import org.eclipse.epf.uma.ProcessComponentDescriptor;
 import org.eclipse.epf.uma.UmaPackage;
@@ -33,8 +36,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class ProcessComponentDescriptorImpl extends DescriptorImpl implements
-		ProcessComponentDescriptor {
+public class ProcessComponentDescriptorImpl extends DescriptorImpl implements ProcessComponentDescriptor {
 	/**
 	 * The cached value of the '{@link #get_processComponent() <em>process Component</em>}' reference.
 	 * <!-- begin-user-doc -->
@@ -74,17 +76,14 @@ public class ProcessComponentDescriptorImpl extends DescriptorImpl implements
 	 * @generated
 	 */
 	public ProcessComponent get_processComponent() {
-		if (_processComponent != null
-				&& ((EObject) _processComponent).eIsProxy()) {
+		if (_processComponent != null && ((EObject) _processComponent).eIsProxy()) {
 			InternalEObject old_processComponent = (InternalEObject) _processComponent;
 			_processComponent = (ProcessComponent) eResolveProxy(old_processComponent);
 			if (_processComponent != old_processComponent) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(
-							this,
-							Notification.RESOLVE,
-							UmaPackage.PROCESS_COMPONENT_DESCRIPTOR__PROCESS_COMPONENT,
-							old_processComponent, _processComponent));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
+							UmaPackage.PROCESS_COMPONENT_DESCRIPTOR__PROCESS_COMPONENT, old_processComponent,
+							_processComponent));
 			}
 		}
 		return _processComponent;
@@ -109,8 +108,8 @@ public class ProcessComponentDescriptorImpl extends DescriptorImpl implements
 		_processComponent = new_processComponent;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PROCESS_COMPONENT_DESCRIPTOR__PROCESS_COMPONENT,
-					old_processComponent, _processComponent));
+					UmaPackage.PROCESS_COMPONENT_DESCRIPTOR__PROCESS_COMPONENT, old_processComponent,
+					_processComponent));
 	}
 
 	/**

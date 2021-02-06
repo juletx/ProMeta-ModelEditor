@@ -13,29 +13,19 @@ package org.eclipse.epf.uma.provider;
 import java.util.Collection;
 import java.util.List;
 
-import org.eclipse.emf.common.command.Command;
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
 
-import org.eclipse.emf.ecore.EObject;
-import org.eclipse.emf.edit.command.CopyCommand.Helper;
-import org.eclipse.emf.edit.domain.EditingDomain;
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.MethodElement;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
-import org.eclipse.epf.uma.edit.command.MethodElementCreateCopyCommand;
-import org.eclipse.epf.uma.edit.command.MethodElementInitializeCopyCommand;
 
 /**
  * This is the item provider adapter for a {@link org.eclipse.epf.uma.MethodElement} object.
@@ -43,9 +33,7 @@ import org.eclipse.epf.uma.edit.command.MethodElementInitializeCopyCommand;
  * <!-- end-user-doc -->
  * @generated
  */
-public class MethodElementItemProvider extends PackageableElementItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class MethodElementItemProvider extends PackageableElementItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -85,16 +73,12 @@ public class MethodElementItemProvider extends PackageableElementItemProvider
 	 */
 	protected void addGuidPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_MethodElement_guid_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_MethodElement_guid_feature", "_UI_MethodElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.METHOD_ELEMENT__GUID, true, false,
-						false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-						null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_MethodElement_guid_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_MethodElement_guid_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_MethodElement_type"), //$NON-NLS-1$
+						UmaPackage.Literals.METHOD_ELEMENT__GUID, true, false, false,
+						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -105,15 +89,11 @@ public class MethodElementItemProvider extends PackageableElementItemProvider
 	 */
 	protected void addPresentationNamePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_MethodElement_presentationName_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_MethodElement_presentationName_feature", "_UI_MethodElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.METHOD_ELEMENT__PRESENTATION_NAME,
-						true, false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_MethodElement_presentationName_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_MethodElement_presentationName_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_MethodElement_type"), //$NON-NLS-1$
+						UmaPackage.Literals.METHOD_ELEMENT__PRESENTATION_NAME, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -125,15 +105,11 @@ public class MethodElementItemProvider extends PackageableElementItemProvider
 	 */
 	protected void addBriefDescriptionPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_MethodElement_briefDescription_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_MethodElement_briefDescription_feature", "_UI_MethodElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.METHOD_ELEMENT__BRIEF_DESCRIPTION,
-						true, false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_MethodElement_briefDescription_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_MethodElement_briefDescription_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_MethodElement_type"), //$NON-NLS-1$
+						UmaPackage.Literals.METHOD_ELEMENT__BRIEF_DESCRIPTION, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -145,15 +121,11 @@ public class MethodElementItemProvider extends PackageableElementItemProvider
 	 */
 	protected void addKindPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_MethodElement_kind_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_MethodElement_kind_feature", "_UI_MethodElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.METHOD_ELEMENT__KIND, true, false,
-						true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_MethodElement_kind_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_MethodElement_kind_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_MethodElement_type"), //$NON-NLS-1$
+						UmaPackage.Literals.METHOD_ELEMENT__KIND, true, false, true, null, null, null));
 	}
 
 	/**
@@ -164,15 +136,11 @@ public class MethodElementItemProvider extends PackageableElementItemProvider
 	 */
 	protected void addSuppressedPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_MethodElement_suppressed_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_MethodElement_suppressed_feature", "_UI_MethodElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.METHOD_ELEMENT__SUPPRESSED, true,
-						false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_MethodElement_suppressed_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_MethodElement_suppressed_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_MethodElement_type"), //$NON-NLS-1$
+						UmaPackage.Literals.METHOD_ELEMENT__SUPPRESSED, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -184,15 +152,11 @@ public class MethodElementItemProvider extends PackageableElementItemProvider
 	 */
 	protected void addOrderingGuidePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_MethodElement_orderingGuide_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_MethodElement_orderingGuide_feature", "_UI_MethodElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.METHOD_ELEMENT__ORDERING_GUIDE,
-						true, false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_MethodElement_orderingGuide_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_MethodElement_orderingGuide_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_MethodElement_type"), //$NON-NLS-1$
+						UmaPackage.Literals.METHOD_ELEMENT__ORDERING_GUIDE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -205,14 +169,11 @@ public class MethodElementItemProvider extends PackageableElementItemProvider
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures
-					.add(UmaPackage.Literals.METHOD_ELEMENT__OWNED_RULES);
-			childrenFeatures
-					.add(UmaPackage.Literals.METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY);
+			childrenFeatures.add(UmaPackage.Literals.METHOD_ELEMENT__OWNED_RULES);
+			childrenFeatures.add(UmaPackage.Literals.METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY);
 		}
 		return childrenFeatures;
 	}
@@ -260,13 +221,11 @@ public class MethodElementItemProvider extends PackageableElementItemProvider
 		case UmaPackage.METHOD_ELEMENT__BRIEF_DESCRIPTION:
 		case UmaPackage.METHOD_ELEMENT__SUPPRESSED:
 		case UmaPackage.METHOD_ELEMENT__ORDERING_GUIDE:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), false, true));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		case UmaPackage.METHOD_ELEMENT__OWNED_RULES:
 		case UmaPackage.METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -280,41 +239,14 @@ public class MethodElementItemProvider extends PackageableElementItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.METHOD_ELEMENT__OWNED_RULES,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.METHOD_ELEMENT__OWNED_RULES,
 				UmaFactory.eINSTANCE.createConstraint()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY,
 				UmaFactory.eINSTANCE.createMethodElementProperty()));
 	}
 
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
-	}
-
-	//-------------------//
-	// Start custom code //
-	//-------------------//
-
-	protected Command createInitializeCopyCommand(EditingDomain domain,
-			EObject owner, Helper helper) {
-		return new MethodElementInitializeCopyCommand(domain, owner, helper);
-	}
-
-	protected Command createCreateCopyCommand(EditingDomain domain,
-			EObject owner, Helper helper) {
-		return new MethodElementCreateCopyCommand(domain, owner, helper);
-	}
 }

@@ -15,16 +15,13 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.Discipline;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -35,9 +32,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class DisciplineItemProvider extends ContentCategoryItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class DisciplineItemProvider extends ContentCategoryItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -73,15 +68,11 @@ public class DisciplineItemProvider extends ContentCategoryItemProvider
 	 */
 	protected void addTasksPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Discipline_tasks_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Discipline_tasks_feature", "_UI_Discipline_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DISCIPLINE__TASKS, true, false,
-						true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Discipline_tasks_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Discipline_tasks_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Discipline_type"), //$NON-NLS-1$
+						UmaPackage.Literals.DISCIPLINE__TASKS, true, false, true, null, null, null));
 	}
 
 	/**
@@ -92,15 +83,11 @@ public class DisciplineItemProvider extends ContentCategoryItemProvider
 	 */
 	protected void addReferenceWorkflowsPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Discipline_referenceWorkflows_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Discipline_referenceWorkflows_feature", "_UI_Discipline_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DISCIPLINE__REFERENCE_WORKFLOWS,
-						true, false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Discipline_referenceWorkflows_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Discipline_referenceWorkflows_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Discipline_type"), //$NON-NLS-1$
+						UmaPackage.Literals.DISCIPLINE__REFERENCE_WORKFLOWS, true, false, true, null, null, null));
 	}
 
 	/**
@@ -112,8 +99,7 @@ public class DisciplineItemProvider extends ContentCategoryItemProvider
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
 			childrenFeatures.add(UmaPackage.Literals.DISCIPLINE__SUBDISCIPLINE);
@@ -142,8 +128,7 @@ public class DisciplineItemProvider extends ContentCategoryItemProvider
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/Discipline")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/Discipline")); //$NON-NLS-1$
 	}
 
 	/**
@@ -172,8 +157,7 @@ public class DisciplineItemProvider extends ContentCategoryItemProvider
 
 		switch (notification.getFeatureID(Discipline.class)) {
 		case UmaPackage.DISCIPLINE__SUBDISCIPLINE:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -187,24 +171,11 @@ public class DisciplineItemProvider extends ContentCategoryItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.DISCIPLINE__SUBDISCIPLINE,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.DISCIPLINE__SUBDISCIPLINE,
 				UmaFactory.eINSTANCE.createDiscipline()));
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

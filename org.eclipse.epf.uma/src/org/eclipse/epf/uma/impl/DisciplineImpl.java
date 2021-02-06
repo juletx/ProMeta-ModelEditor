@@ -14,13 +14,17 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.Activity;
 import org.eclipse.epf.uma.Discipline;
 import org.eclipse.epf.uma.Task;
@@ -102,8 +106,7 @@ public class DisciplineImpl extends ContentCategoryImpl implements Discipline {
 	 */
 	public List<Task> getTasks() {
 		if (tasks == null) {
-			tasks = new EObjectResolvingEList<Task>(Task.class, this,
-					UmaPackage.DISCIPLINE__TASKS);
+			tasks = new EObjectResolvingEList<Task>(Task.class, this, UmaPackage.DISCIPLINE__TASKS);
 		}
 		return tasks;
 	}
@@ -115,8 +118,7 @@ public class DisciplineImpl extends ContentCategoryImpl implements Discipline {
 	 */
 	public List<Discipline> getSubdiscipline() {
 		if (subdiscipline == null) {
-			subdiscipline = new EObjectContainmentEList.Resolving<Discipline>(
-					Discipline.class, this,
+			subdiscipline = new EObjectContainmentEList.Resolving<Discipline>(Discipline.class, this,
 					UmaPackage.DISCIPLINE__SUBDISCIPLINE);
 		}
 		return subdiscipline;
@@ -129,8 +131,7 @@ public class DisciplineImpl extends ContentCategoryImpl implements Discipline {
 	 */
 	public List<Activity> getReferenceWorkflows() {
 		if (referenceWorkflows == null) {
-			referenceWorkflows = new EObjectResolvingEList<Activity>(
-					Activity.class, this,
+			referenceWorkflows = new EObjectResolvingEList<Activity>(Activity.class, this,
 					UmaPackage.DISCIPLINE__REFERENCE_WORKFLOWS);
 		}
 		return referenceWorkflows;
@@ -142,12 +143,10 @@ public class DisciplineImpl extends ContentCategoryImpl implements Discipline {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.DISCIPLINE__SUBDISCIPLINE:
-			return ((InternalEList<?>) getSubdiscipline()).basicRemove(
-					otherEnd, msgs);
+			return ((InternalEList<?>) getSubdiscipline()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -185,13 +184,11 @@ public class DisciplineImpl extends ContentCategoryImpl implements Discipline {
 			return;
 		case UmaPackage.DISCIPLINE__SUBDISCIPLINE:
 			getSubdiscipline().clear();
-			getSubdiscipline().addAll(
-					(Collection<? extends Discipline>) newValue);
+			getSubdiscipline().addAll((Collection<? extends Discipline>) newValue);
 			return;
 		case UmaPackage.DISCIPLINE__REFERENCE_WORKFLOWS:
 			getReferenceWorkflows().clear();
-			getReferenceWorkflows().addAll(
-					(Collection<? extends Activity>) newValue);
+			getReferenceWorkflows().addAll((Collection<? extends Activity>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);

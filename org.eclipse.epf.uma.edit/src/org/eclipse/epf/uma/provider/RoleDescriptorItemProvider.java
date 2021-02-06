@@ -15,14 +15,10 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
+
 import org.eclipse.epf.uma.RoleDescriptor;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -32,9 +28,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class RoleDescriptorItemProvider extends DescriptorItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class RoleDescriptorItemProvider extends DescriptorItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -59,6 +53,7 @@ public class RoleDescriptorItemProvider extends DescriptorItemProvider
 			addRolePropertyDescriptor(object);
 			addModifiesPropertyDescriptor(object);
 			addResponsibleForPropertyDescriptor(object);
+			addResponsibleForExcludePropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -71,15 +66,11 @@ public class RoleDescriptorItemProvider extends DescriptorItemProvider
 	 */
 	protected void addRolePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_RoleDescriptor_Role_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_RoleDescriptor_Role_feature", "_UI_RoleDescriptor_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.ROLE_DESCRIPTOR__ROLE, true, false,
-						true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_RoleDescriptor_Role_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_RoleDescriptor_Role_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_RoleDescriptor_type"), //$NON-NLS-1$
+						UmaPackage.Literals.ROLE_DESCRIPTOR__ROLE, true, false, true, null, null, null));
 	}
 
 	/**
@@ -90,15 +81,11 @@ public class RoleDescriptorItemProvider extends DescriptorItemProvider
 	 */
 	protected void addModifiesPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_RoleDescriptor_modifies_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_RoleDescriptor_modifies_feature", "_UI_RoleDescriptor_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.ROLE_DESCRIPTOR__MODIFIES, true,
-						false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_RoleDescriptor_modifies_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_RoleDescriptor_modifies_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_RoleDescriptor_type"), //$NON-NLS-1$
+						UmaPackage.Literals.ROLE_DESCRIPTOR__MODIFIES, true, false, true, null, null, null));
 	}
 
 	/**
@@ -109,15 +96,26 @@ public class RoleDescriptorItemProvider extends DescriptorItemProvider
 	 */
 	protected void addResponsibleForPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_RoleDescriptor_responsibleFor_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_RoleDescriptor_responsibleFor_feature", "_UI_RoleDescriptor_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.ROLE_DESCRIPTOR__RESPONSIBLE_FOR,
-						true, false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_RoleDescriptor_responsibleFor_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_RoleDescriptor_responsibleFor_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_RoleDescriptor_type"), //$NON-NLS-1$
+						UmaPackage.Literals.ROLE_DESCRIPTOR__RESPONSIBLE_FOR, true, false, true, null, null, null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Responsible For Exclude feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addResponsibleForExcludePropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_RoleDescriptor_responsibleForExclude_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", "_UI_RoleDescriptor_responsibleForExclude_feature", //$NON-NLS-1$//$NON-NLS-2$
+						"_UI_RoleDescriptor_type"), //$NON-NLS-1$
+				UmaPackage.Literals.ROLE_DESCRIPTOR__RESPONSIBLE_FOR_EXCLUDE, true, false, true, null, null, null));
 	}
 
 	/**
@@ -128,8 +126,7 @@ public class RoleDescriptorItemProvider extends DescriptorItemProvider
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/RoleDescriptor")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/RoleDescriptor")); //$NON-NLS-1$
 	}
 
 	/**
@@ -166,20 +163,8 @@ public class RoleDescriptorItemProvider extends DescriptorItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

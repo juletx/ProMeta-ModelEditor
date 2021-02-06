@@ -15,17 +15,14 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.Activity;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -36,9 +33,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class ActivityItemProvider extends WorkBreakdownElementItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class ActivityItemProvider extends WorkBreakdownElementItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -77,15 +72,11 @@ public class ActivityItemProvider extends WorkBreakdownElementItemProvider
 	 */
 	protected void addFulfillsPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_FulfillableElement_fulfills_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_FulfillableElement_fulfills_feature", "_UI_FulfillableElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.FULFILLABLE_ELEMENT__FULFILLS,
-						true, false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_FulfillableElement_fulfills_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_FulfillableElement_fulfills_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_FulfillableElement_type"), //$NON-NLS-1$
+						UmaPackage.Literals.FULFILLABLE_ELEMENT__FULFILLS, true, false, true, null, null, null));
 	}
 
 	/**
@@ -96,15 +87,11 @@ public class ActivityItemProvider extends WorkBreakdownElementItemProvider
 	 */
 	protected void addVariabilityTypePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_VariabilityElement_variabilityType_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_VariabilityElement_variabilityType_feature", "_UI_VariabilityElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.VARIABILITY_ELEMENT__VARIABILITY_TYPE,
-						true, false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_VariabilityElement_variabilityType_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", //$NON-NLS-1$
+								"_UI_VariabilityElement_variabilityType_feature", "_UI_VariabilityElement_type"), //$NON-NLS-1$ //$NON-NLS-2$
+						UmaPackage.Literals.VARIABILITY_ELEMENT__VARIABILITY_TYPE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -115,16 +102,43 @@ public class ActivityItemProvider extends WorkBreakdownElementItemProvider
 	 * @generated
 	 */
 	protected void addVariabilityBasedOnElementPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_VariabilityElement_variabilityBasedOnElement_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", //$NON-NLS-1$
+						"_UI_VariabilityElement_variabilityBasedOnElement_feature", "_UI_VariabilityElement_type"), //$NON-NLS-1$ //$NON-NLS-2$
+				UmaPackage.Literals.VARIABILITY_ELEMENT__VARIABILITY_BASED_ON_ELEMENT, true, false, true, null, null,
+				null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Breakdown Elements feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addBreakdownElementsPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_VariabilityElement_variabilityBasedOnElement_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_VariabilityElement_variabilityBasedOnElement_feature", "_UI_VariabilityElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.VARIABILITY_ELEMENT__VARIABILITY_BASED_ON_ELEMENT,
-						true, false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Activity_breakdownElements_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Activity_breakdownElements_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Activity_type"), //$NON-NLS-1$
+						UmaPackage.Literals.ACTIVITY__BREAKDOWN_ELEMENTS, true, false, true, null, null, null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Roadmaps feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addRoadmapsPropertyDescriptor(Object object) {
+		itemPropertyDescriptors
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Activity_roadmaps_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Activity_roadmaps_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Activity_type"), //$NON-NLS-1$
+						UmaPackage.Literals.ACTIVITY__ROADMAPS, true, false, true, null, null, null));
 	}
 
 	/**
@@ -136,14 +150,11 @@ public class ActivityItemProvider extends WorkBreakdownElementItemProvider
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures
-					.add(UmaPackage.Literals.WORK_DEFINITION__PRECONDITION);
-			childrenFeatures
-					.add(UmaPackage.Literals.WORK_DEFINITION__POSTCONDITION);
+			childrenFeatures.add(UmaPackage.Literals.WORK_DEFINITION__PRECONDITION);
+			childrenFeatures.add(UmaPackage.Literals.WORK_DEFINITION__POSTCONDITION);
 		}
 		return childrenFeatures;
 	}
@@ -162,44 +173,6 @@ public class ActivityItemProvider extends WorkBreakdownElementItemProvider
 	}
 
 	/**
-	 * This adds a property descriptor for the Breakdown Elements feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addBreakdownElementsPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Activity_breakdownElements_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Activity_breakdownElements_feature", "_UI_Activity_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.ACTIVITY__BREAKDOWN_ELEMENTS, true,
-						false, true, null, null, null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Roadmaps feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addRoadmapsPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Activity_roadmaps_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Activity_roadmaps_feature", "_UI_Activity_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.ACTIVITY__ROADMAPS, true, false,
-						true, null, null, null));
-	}
-
-	/**
 	 * This returns Activity.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -207,8 +180,7 @@ public class ActivityItemProvider extends WorkBreakdownElementItemProvider
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/Activity")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/Activity")); //$NON-NLS-1$
 	}
 
 	/**
@@ -237,13 +209,11 @@ public class ActivityItemProvider extends WorkBreakdownElementItemProvider
 
 		switch (notification.getFeatureID(Activity.class)) {
 		case UmaPackage.ACTIVITY__VARIABILITY_TYPE:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), false, true));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		case UmaPackage.ACTIVITY__PRECONDITION:
 		case UmaPackage.ACTIVITY__POSTCONDITION:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -257,16 +227,13 @@ public class ActivityItemProvider extends WorkBreakdownElementItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.WORK_DEFINITION__PRECONDITION,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.WORK_DEFINITION__PRECONDITION,
 				UmaFactory.eINSTANCE.createConstraint()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.WORK_DEFINITION__POSTCONDITION,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.WORK_DEFINITION__POSTCONDITION,
 				UmaFactory.eINSTANCE.createConstraint()));
 	}
 
@@ -277,8 +244,7 @@ public class ActivityItemProvider extends WorkBreakdownElementItemProvider
 	 * @generated
 	 */
 	@Override
-	public String getCreateChildText(Object owner, Object feature,
-			Object child, Collection<?> selection) {
+	public String getCreateChildText(Object owner, Object feature, Object child, Collection<?> selection) {
 		Object childFeature = feature;
 		Object childObject = child;
 
@@ -288,21 +254,9 @@ public class ActivityItemProvider extends WorkBreakdownElementItemProvider
 
 		if (qualify) {
 			return getString("_UI_CreateChild_text2", //$NON-NLS-1$
-					new Object[] { getTypeText(childObject),
-							getFeatureText(childFeature), getTypeText(owner) });
+					new Object[] { getTypeText(childObject), getFeatureText(childFeature), getTypeText(owner) });
 		}
 		return super.getCreateChildText(owner, feature, child, selection);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

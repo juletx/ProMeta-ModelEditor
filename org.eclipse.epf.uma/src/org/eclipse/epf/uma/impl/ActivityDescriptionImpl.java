@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.ActivityDescription;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -32,8 +35,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class ActivityDescriptionImpl extends BreakdownElementDescriptionImpl
-		implements ActivityDescription {
+public class ActivityDescriptionImpl extends BreakdownElementDescriptionImpl implements ActivityDescription {
 	/**
 	 * The default value of the '{@link #getPurpose() <em>Purpose</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -42,7 +44,7 @@ public class ActivityDescriptionImpl extends BreakdownElementDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String PURPOSE_EDEFAULT = "";
+	protected static final String PURPOSE_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getPurpose() <em>Purpose</em>}' attribute.
@@ -62,7 +64,7 @@ public class ActivityDescriptionImpl extends BreakdownElementDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String ALTERNATIVES_EDEFAULT = "";
+	protected static final String ALTERNATIVES_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getAlternatives() <em>Alternatives</em>}' attribute.
@@ -82,7 +84,7 @@ public class ActivityDescriptionImpl extends BreakdownElementDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String HOWTO_STAFF_EDEFAULT = "";
+	protected static final String HOWTO_STAFF_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getHowtoStaff() <em>Howto Staff</em>}' attribute.
@@ -135,8 +137,7 @@ public class ActivityDescriptionImpl extends BreakdownElementDescriptionImpl
 		String oldPurpose = purpose;
 		purpose = newPurpose;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ACTIVITY_DESCRIPTION__PURPOSE, oldPurpose,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ACTIVITY_DESCRIPTION__PURPOSE, oldPurpose,
 					purpose));
 	}
 
@@ -158,8 +159,7 @@ public class ActivityDescriptionImpl extends BreakdownElementDescriptionImpl
 		String oldAlternatives = alternatives;
 		alternatives = newAlternatives;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ACTIVITY_DESCRIPTION__ALTERNATIVES,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ACTIVITY_DESCRIPTION__ALTERNATIVES,
 					oldAlternatives, alternatives));
 	}
 
@@ -181,8 +181,7 @@ public class ActivityDescriptionImpl extends BreakdownElementDescriptionImpl
 		String oldHowtoStaff = howtoStaff;
 		howtoStaff = newHowtoStaff;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ACTIVITY_DESCRIPTION__HOWTO_STAFF,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ACTIVITY_DESCRIPTION__HOWTO_STAFF,
 					oldHowtoStaff, howtoStaff));
 	}
 
@@ -261,14 +260,11 @@ public class ActivityDescriptionImpl extends BreakdownElementDescriptionImpl
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.ACTIVITY_DESCRIPTION__PURPOSE:
-			return PURPOSE_EDEFAULT == null ? purpose != null
-					: !PURPOSE_EDEFAULT.equals(purpose);
+			return PURPOSE_EDEFAULT == null ? purpose != null : !PURPOSE_EDEFAULT.equals(purpose);
 		case UmaPackage.ACTIVITY_DESCRIPTION__ALTERNATIVES:
-			return ALTERNATIVES_EDEFAULT == null ? alternatives != null
-					: !ALTERNATIVES_EDEFAULT.equals(alternatives);
+			return ALTERNATIVES_EDEFAULT == null ? alternatives != null : !ALTERNATIVES_EDEFAULT.equals(alternatives);
 		case UmaPackage.ACTIVITY_DESCRIPTION__HOWTO_STAFF:
-			return HOWTO_STAFF_EDEFAULT == null ? howtoStaff != null
-					: !HOWTO_STAFF_EDEFAULT.equals(howtoStaff);
+			return HOWTO_STAFF_EDEFAULT == null ? howtoStaff != null : !HOWTO_STAFF_EDEFAULT.equals(howtoStaff);
 		}
 		return super.eIsSet(featureID);
 	}

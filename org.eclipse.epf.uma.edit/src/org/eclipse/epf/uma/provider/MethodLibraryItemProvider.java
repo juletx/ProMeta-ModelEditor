@@ -15,15 +15,12 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
+
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.MethodLibrary;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -34,9 +31,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class MethodLibraryItemProvider extends MethodUnitItemProvider implements
-		IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class MethodLibraryItemProvider extends MethodUnitItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -71,14 +66,11 @@ public class MethodLibraryItemProvider extends MethodUnitItemProvider implements
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures
-					.add(UmaPackage.Literals.METHOD_LIBRARY__METHOD_PLUGINS);
-			childrenFeatures
-					.add(UmaPackage.Literals.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS);
+			childrenFeatures.add(UmaPackage.Literals.METHOD_LIBRARY__METHOD_PLUGINS);
+			childrenFeatures.add(UmaPackage.Literals.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS);
 		}
 		return childrenFeatures;
 	}
@@ -104,8 +96,7 @@ public class MethodLibraryItemProvider extends MethodUnitItemProvider implements
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/MethodLibrary")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/MethodLibrary")); //$NON-NLS-1$
 	}
 
 	/**
@@ -135,8 +126,7 @@ public class MethodLibraryItemProvider extends MethodUnitItemProvider implements
 		switch (notification.getFeatureID(MethodLibrary.class)) {
 		case UmaPackage.METHOD_LIBRARY__METHOD_PLUGINS:
 		case UmaPackage.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -150,32 +140,17 @@ public class MethodLibraryItemProvider extends MethodUnitItemProvider implements
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.METHOD_LIBRARY__METHOD_PLUGINS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.METHOD_LIBRARY__METHOD_PLUGINS,
 				UmaFactory.eINSTANCE.createMethodPlugin()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS,
 				UmaFactory.eINSTANCE.createMethodConfiguration()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS,
 				UmaFactory.eINSTANCE.createProcessFamily()));
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

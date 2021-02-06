@@ -33,7 +33,6 @@ import java.util.List;
  * @generated
  */
 public interface Milestone extends WorkBreakdownElement {
-
 	/**
 	 * Returns the value of the '<em><b>Required Results</b></em>' reference list.
 	 * The list contents are of type {@link org.eclipse.epf.uma.WorkProductDescriptor}.
@@ -49,4 +48,5 @@ public interface Milestone extends WorkBreakdownElement {
 	 * @generated
 	 */
 	List<WorkProductDescriptor> getRequiredResults();
+
 } // Milestone

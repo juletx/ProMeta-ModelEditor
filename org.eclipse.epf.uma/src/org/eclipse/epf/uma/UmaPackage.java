@@ -47,7 +47,7 @@ public interface UmaPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNAME = "uma";
+	String eNAME = "uma"; //$NON-NLS-1$
 
 	/**
 	 * The package namespace URI.
@@ -55,7 +55,7 @@ public interface UmaPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_URI = "http://www.eclipse.org/epf/uma/1.0.6/uma.ecore";
+	String eNS_URI = "http://www.eclipse.org/epf/uma/1.0.6/uma.ecore"; //$NON-NLS-1$
 
 	/**
 	 * The package namespace name.
@@ -63,7 +63,7 @@ public interface UmaPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_PREFIX = "org.eclipse.epf.uma";
+	String eNS_PREFIX = "org.eclipse.epf.uma"; //$NON-NLS-1$
 
 	/**
 	 * The singleton instance of the package.
@@ -650,16 +650,6 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int DESCRIBABLE_ELEMENT_FEATURE_COUNT = METHOD_ELEMENT_FEATURE_COUNT + 4;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.VariabilityElementImpl <em>Variability Element</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.VariabilityElementImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getVariabilityElement()
-	 * @generated
-	 */
-	int VARIABILITY_ELEMENT = 18;
 
 	/**
 	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ContentElementImpl <em>Content Element</em>}' class.
@@ -1440,66 +1430,6 @@ public interface UmaPackage extends EPackage {
 	int CONTENT_DESCRIPTION_FEATURE_COUNT = METHOD_UNIT_FEATURE_COUNT + 5;
 
 	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.SectionImpl <em>Section</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.SectionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getSection()
-	 * @generated
-	 */
-	int SECTION = 17;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.RoleImpl <em>Role</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.RoleImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRole()
-	 * @generated
-	 */
-	int ROLE = 39;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkProductImpl <em>Work Product</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.WorkProductImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkProduct()
-	 * @generated
-	 */
-	int WORK_PRODUCT = 27;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.TaskImpl <em>Task</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.TaskImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTask()
-	 * @generated
-	 */
-	int TASK = 38;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkDefinitionImpl <em>Work Definition</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.WorkDefinitionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkDefinition()
-	 * @generated
-	 */
-	int WORK_DEFINITION = 36;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.StepImpl <em>Step</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.StepImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getStep()
-	 * @generated
-	 */
-	int STEP = 35;
-
-	/**
 	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.GuidanceImpl <em>Guidance</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1715,406 +1645,6 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int GUIDANCE_FEATURE_COUNT = CONTENT_ELEMENT_FEATURE_COUNT + 0;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ArtifactImpl <em>Artifact</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ArtifactImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getArtifact()
-	 * @generated
-	 */
-	int ARTIFACT = 26;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.FulfillableElementImpl <em>Fulfillable Element</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.FulfillableElementImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getFulfillableElement()
-	 * @generated
-	 */
-	int FULFILLABLE_ELEMENT = 28;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DeliverableImpl <em>Deliverable</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.DeliverableImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDeliverable()
-	 * @generated
-	 */
-	int DELIVERABLE = 33;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.OutcomeImpl <em>Outcome</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.OutcomeImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getOutcome()
-	 * @generated
-	 */
-	int OUTCOME = 34;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.MethodPackageImpl <em>Method Package</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.MethodPackageImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodPackage()
-	 * @generated
-	 */
-	int METHOD_PACKAGE = 63;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ContentPackageImpl <em>Content Package</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ContentPackageImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getContentPackage()
-	 * @generated
-	 */
-	int CONTENT_PACKAGE = 64;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkProductDescriptionImpl <em>Work Product Description</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.WorkProductDescriptionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkProductDescription()
-	 * @generated
-	 */
-	int WORK_PRODUCT_DESCRIPTION = 41;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ArtifactDescriptionImpl <em>Artifact Description</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ArtifactDescriptionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getArtifactDescription()
-	 * @generated
-	 */
-	int ARTIFACT_DESCRIPTION = 40;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DeliverableDescriptionImpl <em>Deliverable Description</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.DeliverableDescriptionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDeliverableDescription()
-	 * @generated
-	 */
-	int DELIVERABLE_DESCRIPTION = 42;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.RoleDescriptionImpl <em>Role Description</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.RoleDescriptionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoleDescription()
-	 * @generated
-	 */
-	int ROLE_DESCRIPTION = 43;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.TaskDescriptionImpl <em>Task Description</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.TaskDescriptionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTaskDescription()
-	 * @generated
-	 */
-	int TASK_DESCRIPTION = 44;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.GuidanceDescriptionImpl <em>Guidance Description</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.GuidanceDescriptionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGuidanceDescription()
-	 * @generated
-	 */
-	int GUIDANCE_DESCRIPTION = 45;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.PracticeDescriptionImpl <em>Practice Description</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.PracticeDescriptionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPracticeDescription()
-	 * @generated
-	 */
-	int PRACTICE_DESCRIPTION = 46;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessElementImpl <em>Process Element</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ProcessElementImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessElement()
-	 * @generated
-	 */
-	int PROCESS_ELEMENT = 56;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.BreakdownElementImpl <em>Breakdown Element</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.BreakdownElementImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getBreakdownElement()
-	 * @generated
-	 */
-	int BREAKDOWN_ELEMENT = 55;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkBreakdownElementImpl <em>Work Breakdown Element</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.WorkBreakdownElementImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkBreakdownElement()
-	 * @generated
-	 */
-	int WORK_BREAKDOWN_ELEMENT = 54;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ActivityImpl <em>Activity</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ActivityImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getActivity()
-	 * @generated
-	 */
-	int ACTIVITY = 53;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.MilestoneImpl <em>Milestone</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.MilestoneImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMilestone()
-	 * @generated
-	 */
-	int MILESTONE = 65;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.IterationImpl <em>Iteration</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.IterationImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getIteration()
-	 * @generated
-	 */
-	int ITERATION = 68;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.PhaseImpl <em>Phase</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.PhaseImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPhase()
-	 * @generated
-	 */
-	int PHASE = 69;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.TeamProfileImpl <em>Team Profile</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.TeamProfileImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTeamProfile()
-	 * @generated
-	 */
-	int TEAM_PROFILE = 70;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DescriptorImpl <em>Descriptor</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.DescriptorImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDescriptor()
-	 * @generated
-	 */
-	int DESCRIPTOR = 67;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.RoleDescriptorImpl <em>Role Descriptor</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.RoleDescriptorImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoleDescriptor()
-	 * @generated
-	 */
-	int ROLE_DESCRIPTOR = 71;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkOrderImpl <em>Work Order</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.WorkOrderImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkOrder()
-	 * @generated
-	 */
-	int WORK_ORDER = 58;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.PlanningDataImpl <em>Planning Data</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.PlanningDataImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPlanningData()
-	 * @generated
-	 */
-	int PLANNING_DATA = 57;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.TaskDescriptorImpl <em>Task Descriptor</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.TaskDescriptorImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTaskDescriptor()
-	 * @generated
-	 */
-	int TASK_DESCRIPTOR = 72;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkProductDescriptorImpl <em>Work Product Descriptor</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.WorkProductDescriptorImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkProductDescriptor()
-	 * @generated
-	 */
-	int WORK_PRODUCT_DESCRIPTOR = 66;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.CompositeRoleImpl <em>Composite Role</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.CompositeRoleImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getCompositeRole()
-	 * @generated
-	 */
-	int COMPOSITE_ROLE = 73;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.BreakdownElementDescriptionImpl <em>Breakdown Element Description</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.BreakdownElementDescriptionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getBreakdownElementDescription()
-	 * @generated
-	 */
-	int BREAKDOWN_ELEMENT_DESCRIPTION = 81;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ActivityDescriptionImpl <em>Activity Description</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ActivityDescriptionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getActivityDescription()
-	 * @generated
-	 */
-	int ACTIVITY_DESCRIPTION = 82;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessDescriptionImpl <em>Process Description</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ProcessDescriptionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessDescription()
-	 * @generated
-	 */
-	int PROCESS_DESCRIPTION = 84;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DeliveryProcessDescriptionImpl <em>Delivery Process Description</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.DeliveryProcessDescriptionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDeliveryProcessDescription()
-	 * @generated
-	 */
-	int DELIVERY_PROCESS_DESCRIPTION = 83;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DescriptorDescriptionImpl <em>Descriptor Description</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.DescriptorDescriptionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDescriptorDescription()
-	 * @generated
-	 */
-	int DESCRIPTOR_DESCRIPTION = 85;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ConceptImpl <em>Concept</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ConceptImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getConcept()
-	 * @generated
-	 */
-	int CONCEPT = 19;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ChecklistImpl <em>Checklist</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ChecklistImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getChecklist()
-	 * @generated
-	 */
-	int CHECKLIST = 20;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ExampleImpl <em>Example</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ExampleImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getExample()
-	 * @generated
-	 */
-	int EXAMPLE = 22;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.GuidelineImpl <em>Guideline</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.GuidelineImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGuideline()
-	 * @generated
-	 */
-	int GUIDELINE = 21;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.EstimationConsiderationsImpl <em>Estimation Considerations</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.EstimationConsiderationsImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getEstimationConsiderations()
-	 * @generated
-	 */
-	int ESTIMATION_CONSIDERATIONS = 32;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ReportImpl <em>Report</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ReportImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getReport()
-	 * @generated
-	 */
-	int REPORT = 29;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.TemplateImpl <em>Template</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.TemplateImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTemplate()
-	 * @generated
-	 */
-	int TEMPLATE = 30;
 
 	/**
 	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.SupportingMaterialImpl <em>Supporting Material</em>}' class.
@@ -2334,6 +1864,16 @@ public interface UmaPackage extends EPackage {
 	int SUPPORTING_MATERIAL_FEATURE_COUNT = GUIDANCE_FEATURE_COUNT + 0;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.VariabilityElementImpl <em>Variability Element</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.VariabilityElementImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getVariabilityElement()
+	 * @generated
+	 */
+	int VARIABILITY_ELEMENT = 18;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -2440,6 +1980,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int VARIABILITY_ELEMENT_FEATURE_COUNT = METHOD_ELEMENT_FEATURE_COUNT + 2;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.SectionImpl <em>Section</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.SectionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getSection()
+	 * @generated
+	 */
+	int SECTION = 17;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -2584,6 +2134,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int SECTION_FEATURE_COUNT = VARIABILITY_ELEMENT_FEATURE_COUNT + 4;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ConceptImpl <em>Concept</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ConceptImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getConcept()
+	 * @generated
+	 */
+	int CONCEPT = 19;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -2793,6 +2353,16 @@ public interface UmaPackage extends EPackage {
 	int CONCEPT_FEATURE_COUNT = GUIDANCE_FEATURE_COUNT + 0;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ChecklistImpl <em>Checklist</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ChecklistImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getChecklist()
+	 * @generated
+	 */
+	int CHECKLIST = 20;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -2998,6 +2568,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int CHECKLIST_FEATURE_COUNT = GUIDANCE_FEATURE_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.GuidelineImpl <em>Guideline</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.GuidelineImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGuideline()
+	 * @generated
+	 */
+	int GUIDELINE = 21;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -3207,6 +2787,16 @@ public interface UmaPackage extends EPackage {
 	int GUIDELINE_FEATURE_COUNT = GUIDANCE_FEATURE_COUNT + 0;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ExampleImpl <em>Example</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ExampleImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getExample()
+	 * @generated
+	 */
+	int EXAMPLE = 22;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -3414,46 +3004,6 @@ public interface UmaPackage extends EPackage {
 	int EXAMPLE_FEATURE_COUNT = GUIDANCE_FEATURE_COUNT + 0;
 
 	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ToolMentorImpl <em>Tool Mentor</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ToolMentorImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getToolMentor()
-	 * @generated
-	 */
-	int TOOL_MENTOR = 31;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WhitepaperImpl <em>Whitepaper</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.WhitepaperImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWhitepaper()
-	 * @generated
-	 */
-	int WHITEPAPER = 37;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.TermDefinitionImpl <em>Term Definition</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.TermDefinitionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTermDefinition()
-	 * @generated
-	 */
-	int TERM_DEFINITION = 24;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.PracticeImpl <em>Practice</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.PracticeImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPractice()
-	 * @generated
-	 */
-	int PRACTICE = 80;
-
-	/**
 	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ReusableAssetImpl <em>Reusable Asset</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -3462,196 +3012,6 @@ public interface UmaPackage extends EPackage {
 	 * @generated
 	 */
 	int REUSABLE_ASSET = 23;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ContentCategoryImpl <em>Content Category</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ContentCategoryImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getContentCategory()
-	 * @generated
-	 */
-	int CONTENT_CATEGORY = 48;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DisciplineImpl <em>Discipline</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.DisciplineImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDiscipline()
-	 * @generated
-	 */
-	int DISCIPLINE = 52;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.RoleSetImpl <em>Role Set</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.RoleSetImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoleSet()
-	 * @generated
-	 */
-	int ROLE_SET = 47;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DomainImpl <em>Domain</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.DomainImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDomain()
-	 * @generated
-	 */
-	int DOMAIN = 49;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkProductTypeImpl <em>Work Product Type</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.WorkProductTypeImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkProductType()
-	 * @generated
-	 */
-	int WORK_PRODUCT_TYPE = 50;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DisciplineGroupingImpl <em>Discipline Grouping</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.DisciplineGroupingImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDisciplineGrouping()
-	 * @generated
-	 */
-	int DISCIPLINE_GROUPING = 51;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ToolImpl <em>Tool</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ToolImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTool()
-	 * @generated
-	 */
-	int TOOL = 60;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.RoleSetGroupingImpl <em>Role Set Grouping</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.RoleSetGroupingImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoleSetGrouping()
-	 * @generated
-	 */
-	int ROLE_SET_GROUPING = 61;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.CustomCategoryImpl <em>Custom Category</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.CustomCategoryImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getCustomCategory()
-	 * @generated
-	 */
-	int CUSTOM_CATEGORY = 62;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessImpl <em>Process</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ProcessImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcess()
-	 * @generated
-	 */
-	int PROCESS = 75;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DeliveryProcessImpl <em>Delivery Process</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.DeliveryProcessImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDeliveryProcess()
-	 * @generated
-	 */
-	int DELIVERY_PROCESS = 74;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.CapabilityPatternImpl <em>Capability Pattern</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.CapabilityPatternImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getCapabilityPattern()
-	 * @generated
-	 */
-	int CAPABILITY_PATTERN = 76;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessPlanningTemplateImpl <em>Process Planning Template</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ProcessPlanningTemplateImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessPlanningTemplate()
-	 * @generated
-	 */
-	int PROCESS_PLANNING_TEMPLATE = 79;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.RoadmapImpl <em>Roadmap</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.RoadmapImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoadmap()
-	 * @generated
-	 */
-	int ROADMAP = 59;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessPackageImpl <em>Process Package</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ProcessPackageImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessPackage()
-	 * @generated
-	 */
-	int PROCESS_PACKAGE = 88;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessComponentImpl <em>Process Component</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ProcessComponentImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessComponent()
-	 * @generated
-	 */
-	int PROCESS_COMPONENT = 87;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessComponentInterfaceImpl <em>Process Component Interface</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ProcessComponentInterfaceImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessComponentInterface()
-	 * @generated
-	 */
-	int PROCESS_COMPONENT_INTERFACE = 101;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessComponentDescriptorImpl <em>Process Component Descriptor</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ProcessComponentDescriptorImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessComponentDescriptor()
-	 * @generated
-	 */
-	int PROCESS_COMPONENT_DESCRIPTOR = 86;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.MethodPluginImpl <em>Method Plugin</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.MethodPluginImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodPlugin()
-	 * @generated
-	 */
-	int METHOD_PLUGIN = 78;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -3859,6 +3219,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int REUSABLE_ASSET_FEATURE_COUNT = GUIDANCE_FEATURE_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.TermDefinitionImpl <em>Term Definition</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.TermDefinitionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTermDefinition()
+	 * @generated
+	 */
+	int TERM_DEFINITION = 24;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -4114,6 +3484,16 @@ public interface UmaPackage extends EPackage {
 	int APPLICABLE_META_CLASS_INFO_FEATURE_COUNT = CLASSIFIER_FEATURE_COUNT + 1;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkProductImpl <em>Work Product</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.WorkProductImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkProduct()
+	 * @generated
+	 */
+	int WORK_PRODUCT = 27;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -4364,6 +3744,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int WORK_PRODUCT_FEATURE_COUNT = CONTENT_ELEMENT_FEATURE_COUNT + 5;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ArtifactImpl <em>Artifact</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ArtifactImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getArtifact()
+	 * @generated
+	 */
+	int ARTIFACT = 26;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -4636,6 +4026,16 @@ public interface UmaPackage extends EPackage {
 	int ARTIFACT_FEATURE_COUNT = WORK_PRODUCT_FEATURE_COUNT + 2;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.FulfillableElementImpl <em>Fulfillable Element</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.FulfillableElementImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getFulfillableElement()
+	 * @generated
+	 */
+	int FULFILLABLE_ELEMENT = 28;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -4769,6 +4169,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int FULFILLABLE_ELEMENT_FEATURE_COUNT = DESCRIBABLE_ELEMENT_FEATURE_COUNT + 1;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ReportImpl <em>Report</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ReportImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getReport()
+	 * @generated
+	 */
+	int REPORT = 29;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -4978,6 +4388,16 @@ public interface UmaPackage extends EPackage {
 	int REPORT_FEATURE_COUNT = GUIDANCE_FEATURE_COUNT + 0;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.TemplateImpl <em>Template</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.TemplateImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTemplate()
+	 * @generated
+	 */
+	int TEMPLATE = 30;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -5183,6 +4603,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int TEMPLATE_FEATURE_COUNT = GUIDANCE_FEATURE_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ToolMentorImpl <em>Tool Mentor</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ToolMentorImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getToolMentor()
+	 * @generated
+	 */
+	int TOOL_MENTOR = 31;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -5392,6 +4822,16 @@ public interface UmaPackage extends EPackage {
 	int TOOL_MENTOR_FEATURE_COUNT = GUIDANCE_FEATURE_COUNT + 0;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.EstimationConsiderationsImpl <em>Estimation Considerations</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.EstimationConsiderationsImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getEstimationConsiderations()
+	 * @generated
+	 */
+	int ESTIMATION_CONSIDERATIONS = 32;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -5597,6 +5037,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int ESTIMATION_CONSIDERATIONS_FEATURE_COUNT = GUIDANCE_FEATURE_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DeliverableImpl <em>Deliverable</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.DeliverableImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDeliverable()
+	 * @generated
+	 */
+	int DELIVERABLE = 33;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -5860,6 +5310,16 @@ public interface UmaPackage extends EPackage {
 	int DELIVERABLE_FEATURE_COUNT = WORK_PRODUCT_FEATURE_COUNT + 1;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.OutcomeImpl <em>Outcome</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.OutcomeImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getOutcome()
+	 * @generated
+	 */
+	int OUTCOME = 34;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -6112,6 +5572,16 @@ public interface UmaPackage extends EPackage {
 	int OUTCOME_FEATURE_COUNT = WORK_PRODUCT_FEATURE_COUNT + 0;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.StepImpl <em>Step</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.StepImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getStep()
+	 * @generated
+	 */
+	int STEP = 35;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -6274,6 +5744,16 @@ public interface UmaPackage extends EPackage {
 	int STEP_FEATURE_COUNT = SECTION_FEATURE_COUNT + 2;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkDefinitionImpl <em>Work Definition</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.WorkDefinitionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkDefinition()
+	 * @generated
+	 */
+	int WORK_DEFINITION = 36;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -6380,6 +5860,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int WORK_DEFINITION_FEATURE_COUNT = METHOD_ELEMENT_FEATURE_COUNT + 2;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WhitepaperImpl <em>Whitepaper</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.WhitepaperImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWhitepaper()
+	 * @generated
+	 */
+	int WHITEPAPER = 37;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -6587,6 +6077,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int WHITEPAPER_FEATURE_COUNT = CONCEPT_FEATURE_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.TaskImpl <em>Task</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.TaskImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTask()
+	 * @generated
+	 */
+	int TASK = 38;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -6886,6 +6386,16 @@ public interface UmaPackage extends EPackage {
 	int TASK_FEATURE_COUNT = CONTENT_ELEMENT_FEATURE_COUNT + 10;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.RoleImpl <em>Role</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.RoleImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRole()
+	 * @generated
+	 */
+	int ROLE = 39;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -7120,6 +6630,16 @@ public interface UmaPackage extends EPackage {
 	int ROLE_FEATURE_COUNT = CONTENT_ELEMENT_FEATURE_COUNT + 3;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkProductDescriptionImpl <em>Work Product Description</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.WorkProductDescriptionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkProductDescription()
+	 * @generated
+	 */
+	int WORK_PRODUCT_DESCRIPTION = 41;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -7325,6 +6845,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int WORK_PRODUCT_DESCRIPTION_FEATURE_COUNT = CONTENT_DESCRIPTION_FEATURE_COUNT + 3;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ArtifactDescriptionImpl <em>Artifact Description</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ArtifactDescriptionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getArtifactDescription()
+	 * @generated
+	 */
+	int ARTIFACT_DESCRIPTION = 40;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -7570,6 +7100,16 @@ public interface UmaPackage extends EPackage {
 	int ARTIFACT_DESCRIPTION_FEATURE_COUNT = WORK_PRODUCT_DESCRIPTION_FEATURE_COUNT + 4;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DeliverableDescriptionImpl <em>Deliverable Description</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.DeliverableDescriptionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDeliverableDescription()
+	 * @generated
+	 */
+	int DELIVERABLE_DESCRIPTION = 42;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -7795,6 +7335,16 @@ public interface UmaPackage extends EPackage {
 	int DELIVERABLE_DESCRIPTION_FEATURE_COUNT = WORK_PRODUCT_DESCRIPTION_FEATURE_COUNT + 2;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.RoleDescriptionImpl <em>Role Description</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.RoleDescriptionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoleDescription()
+	 * @generated
+	 */
+	int ROLE_DESCRIPTION = 43;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -8002,6 +7552,16 @@ public interface UmaPackage extends EPackage {
 	int ROLE_DESCRIPTION_FEATURE_COUNT = CONTENT_DESCRIPTION_FEATURE_COUNT + 3;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.TaskDescriptionImpl <em>Task Description</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.TaskDescriptionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTaskDescription()
+	 * @generated
+	 */
+	int TASK_DESCRIPTION = 44;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -8200,6 +7760,16 @@ public interface UmaPackage extends EPackage {
 	int TASK_DESCRIPTION_FEATURE_COUNT = CONTENT_DESCRIPTION_FEATURE_COUNT + 2;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.GuidanceDescriptionImpl <em>Guidance Description</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.GuidanceDescriptionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGuidanceDescription()
+	 * @generated
+	 */
+	int GUIDANCE_DESCRIPTION = 45;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -8387,6 +7957,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int GUIDANCE_DESCRIPTION_FEATURE_COUNT = CONTENT_DESCRIPTION_FEATURE_COUNT + 1;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.PracticeDescriptionImpl <em>Practice Description</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.PracticeDescriptionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPracticeDescription()
+	 * @generated
+	 */
+	int PRACTICE_DESCRIPTION = 46;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -8623,6 +8203,16 @@ public interface UmaPackage extends EPackage {
 	int PRACTICE_DESCRIPTION_FEATURE_COUNT = CONTENT_DESCRIPTION_FEATURE_COUNT + 6;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ContentCategoryImpl <em>Content Category</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ContentCategoryImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getContentCategory()
+	 * @generated
+	 */
+	int CONTENT_CATEGORY = 48;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -8828,6 +8418,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int CONTENT_CATEGORY_FEATURE_COUNT = CONTENT_ELEMENT_FEATURE_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.RoleSetImpl <em>Role Set</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.RoleSetImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoleSet()
+	 * @generated
+	 */
+	int ROLE_SET = 47;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -9044,6 +8644,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int ROLE_SET_FEATURE_COUNT = CONTENT_CATEGORY_FEATURE_COUNT + 1;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DomainImpl <em>Domain</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.DomainImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDomain()
+	 * @generated
+	 */
+	int DOMAIN = 49;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -9271,6 +8881,16 @@ public interface UmaPackage extends EPackage {
 	int DOMAIN_FEATURE_COUNT = CONTENT_CATEGORY_FEATURE_COUNT + 2;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkProductTypeImpl <em>Work Product Type</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.WorkProductTypeImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkProductType()
+	 * @generated
+	 */
+	int WORK_PRODUCT_TYPE = 50;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -9487,6 +9107,16 @@ public interface UmaPackage extends EPackage {
 	int WORK_PRODUCT_TYPE_FEATURE_COUNT = CONTENT_CATEGORY_FEATURE_COUNT + 1;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DisciplineGroupingImpl <em>Discipline Grouping</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.DisciplineGroupingImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDisciplineGrouping()
+	 * @generated
+	 */
+	int DISCIPLINE_GROUPING = 51;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -9701,6 +9331,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int DISCIPLINE_GROUPING_FEATURE_COUNT = CONTENT_CATEGORY_FEATURE_COUNT + 1;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DisciplineImpl <em>Discipline</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.DisciplineImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDiscipline()
+	 * @generated
+	 */
+	int DISCIPLINE = 52;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -9937,6 +9577,16 @@ public interface UmaPackage extends EPackage {
 	int DISCIPLINE_FEATURE_COUNT = CONTENT_CATEGORY_FEATURE_COUNT + 3;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessElementImpl <em>Process Element</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ProcessElementImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessElement()
+	 * @generated
+	 */
+	int PROCESS_ELEMENT = 56;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -10061,6 +9711,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int PROCESS_ELEMENT_FEATURE_COUNT = DESCRIBABLE_ELEMENT_FEATURE_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.BreakdownElementImpl <em>Breakdown Element</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.BreakdownElementImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getBreakdownElement()
+	 * @generated
+	 */
+	int BREAKDOWN_ELEMENT = 55;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -10349,6 +10009,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int BREAKDOWN_ELEMENT_FEATURE_COUNT = PROCESS_ELEMENT_FEATURE_COUNT + 18;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkBreakdownElementImpl <em>Work Breakdown Element</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.WorkBreakdownElementImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkBreakdownElement()
+	 * @generated
+	 */
+	int WORK_BREAKDOWN_ELEMENT = 54;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -10673,6 +10343,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int WORK_BREAKDOWN_ELEMENT_FEATURE_COUNT = BREAKDOWN_ELEMENT_FEATURE_COUNT + 4;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ActivityImpl <em>Activity</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ActivityImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getActivity()
+	 * @generated
+	 */
+	int ACTIVITY = 53;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -11062,6 +10742,16 @@ public interface UmaPackage extends EPackage {
 	int ACTIVITY_FEATURE_COUNT = WORK_BREAKDOWN_ELEMENT_FEATURE_COUNT + 7;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.PlanningDataImpl <em>Planning Data</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.PlanningDataImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPlanningData()
+	 * @generated
+	 */
+	int PLANNING_DATA = 57;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -11215,6 +10905,16 @@ public interface UmaPackage extends EPackage {
 	int PLANNING_DATA_FEATURE_COUNT = PROCESS_ELEMENT_FEATURE_COUNT + 3;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkOrderImpl <em>Work Order</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.WorkOrderImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkOrder()
+	 * @generated
+	 */
+	int WORK_ORDER = 58;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -11357,6 +11057,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int WORK_ORDER_FEATURE_COUNT = PROCESS_ELEMENT_FEATURE_COUNT + 2;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.RoadmapImpl <em>Roadmap</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.RoadmapImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoadmap()
+	 * @generated
+	 */
+	int ROADMAP = 59;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -11564,6 +11274,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int ROADMAP_FEATURE_COUNT = GUIDANCE_FEATURE_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ToolImpl <em>Tool</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ToolImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTool()
+	 * @generated
+	 */
+	int TOOL = 60;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -11782,6 +11502,16 @@ public interface UmaPackage extends EPackage {
 	int TOOL_FEATURE_COUNT = CONTENT_CATEGORY_FEATURE_COUNT + 1;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.RoleSetGroupingImpl <em>Role Set Grouping</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.RoleSetGroupingImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoleSetGrouping()
+	 * @generated
+	 */
+	int ROLE_SET_GROUPING = 61;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -11996,6 +11726,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int ROLE_SET_GROUPING_FEATURE_COUNT = CONTENT_CATEGORY_FEATURE_COUNT + 1;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.CustomCategoryImpl <em>Custom Category</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.CustomCategoryImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getCustomCategory()
+	 * @generated
+	 */
+	int CUSTOM_CATEGORY = 62;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -12223,6 +11963,16 @@ public interface UmaPackage extends EPackage {
 	int CUSTOM_CATEGORY_FEATURE_COUNT = CONTENT_CATEGORY_FEATURE_COUNT + 2;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.MethodPackageImpl <em>Method Package</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.MethodPackageImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodPackage()
+	 * @generated
+	 */
+	int METHOD_PACKAGE = 63;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -12338,6 +12088,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int METHOD_PACKAGE_FEATURE_COUNT = METHOD_ELEMENT_FEATURE_COUNT + 3;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ContentPackageImpl <em>Content Package</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ContentPackageImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getContentPackage()
+	 * @generated
+	 */
+	int CONTENT_PACKAGE = 64;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -12464,6 +12224,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int CONTENT_PACKAGE_FEATURE_COUNT = METHOD_PACKAGE_FEATURE_COUNT + 1;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.MilestoneImpl <em>Milestone</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.MilestoneImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMilestone()
+	 * @generated
+	 */
+	int MILESTONE = 65;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -12799,6 +12569,16 @@ public interface UmaPackage extends EPackage {
 	int MILESTONE_FEATURE_COUNT = WORK_BREAKDOWN_ELEMENT_FEATURE_COUNT + 1;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DescriptorImpl <em>Descriptor</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.DescriptorImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDescriptor()
+	 * @generated
+	 */
+	int DESCRIPTOR = 67;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -13112,6 +12892,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int DESCRIPTOR_FEATURE_COUNT = BREAKDOWN_ELEMENT_FEATURE_COUNT + 3;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.WorkProductDescriptorImpl <em>Work Product Descriptor</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.WorkProductDescriptorImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkProductDescriptor()
+	 * @generated
+	 */
+	int WORK_PRODUCT_DESCRIPTOR = 66;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -13490,6 +13280,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int WORK_PRODUCT_DESCRIPTOR_FEATURE_COUNT = DESCRIPTOR_FEATURE_COUNT + 7;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.IterationImpl <em>Iteration</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.IterationImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getIteration()
+	 * @generated
+	 */
+	int ITERATION = 68;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -13879,6 +13679,16 @@ public interface UmaPackage extends EPackage {
 	int ITERATION_FEATURE_COUNT = ACTIVITY_FEATURE_COUNT + 0;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.PhaseImpl <em>Phase</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.PhaseImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPhase()
+	 * @generated
+	 */
+	int PHASE = 69;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -14266,6 +14076,16 @@ public interface UmaPackage extends EPackage {
 	int PHASE_FEATURE_COUNT = ACTIVITY_FEATURE_COUNT + 0;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.TeamProfileImpl <em>Team Profile</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.TeamProfileImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTeamProfile()
+	 * @generated
+	 */
+	int TEAM_PROFILE = 70;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -14579,6 +14399,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int TEAM_PROFILE_FEATURE_COUNT = BREAKDOWN_ELEMENT_FEATURE_COUNT + 3;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.RoleDescriptorImpl <em>Role Descriptor</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.RoleDescriptorImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoleDescriptor()
+	 * @generated
+	 */
+	int ROLE_DESCRIPTOR = 71;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -14930,6 +14760,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int ROLE_DESCRIPTOR_FEATURE_COUNT = DESCRIPTOR_FEATURE_COUNT + 4;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.TaskDescriptorImpl <em>Task Descriptor</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.TaskDescriptorImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTaskDescriptor()
+	 * @generated
+	 */
+	int TASK_DESCRIPTOR = 72;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -15418,6 +15258,16 @@ public interface UmaPackage extends EPackage {
 	int TASK_DESCRIPTOR_FEATURE_COUNT = WORK_BREAKDOWN_ELEMENT_FEATURE_COUNT + 18;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.CompositeRoleImpl <em>Composite Role</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.CompositeRoleImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getCompositeRole()
+	 * @generated
+	 */
+	int COMPOSITE_ROLE = 73;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -15776,6 +15626,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int COMPOSITE_ROLE_FEATURE_COUNT = ROLE_DESCRIPTOR_FEATURE_COUNT + 1;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessImpl <em>Process</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ProcessImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcess()
+	 * @generated
+	 */
+	int PROCESS = 75;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -16190,6 +16050,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int PROCESS_FEATURE_COUNT = ACTIVITY_FEATURE_COUNT + 3;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DeliveryProcessImpl <em>Delivery Process</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.DeliveryProcessImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDeliveryProcess()
+	 * @generated
+	 */
+	int DELIVERY_PROCESS = 74;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -16622,6 +16492,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int DELIVERY_PROCESS_FEATURE_COUNT = PROCESS_FEATURE_COUNT + 2;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.CapabilityPatternImpl <em>Capability Pattern</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.CapabilityPatternImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getCapabilityPattern()
+	 * @generated
+	 */
+	int CAPABILITY_PATTERN = 76;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -17246,6 +17126,16 @@ public interface UmaPackage extends EPackage {
 	int METHOD_CONFIGURATION_FEATURE_COUNT = METHOD_UNIT_FEATURE_COUNT + 7;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.MethodPluginImpl <em>Method Plugin</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.MethodPluginImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodPlugin()
+	 * @generated
+	 */
+	int METHOD_PLUGIN = 78;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -17415,6 +17305,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int METHOD_PLUGIN_FEATURE_COUNT = METHOD_UNIT_FEATURE_COUNT + 4;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessPlanningTemplateImpl <em>Process Planning Template</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ProcessPlanningTemplateImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessPlanningTemplate()
+	 * @generated
+	 */
+	int PROCESS_PLANNING_TEMPLATE = 79;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -17840,6 +17740,16 @@ public interface UmaPackage extends EPackage {
 	int PROCESS_PLANNING_TEMPLATE_FEATURE_COUNT = PROCESS_FEATURE_COUNT + 1;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.PracticeImpl <em>Practice</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.PracticeImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPractice()
+	 * @generated
+	 */
+	int PRACTICE = 80;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -18074,6 +17984,16 @@ public interface UmaPackage extends EPackage {
 	int PRACTICE_FEATURE_COUNT = GUIDANCE_FEATURE_COUNT + 3;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.BreakdownElementDescriptionImpl <em>Breakdown Element Description</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.BreakdownElementDescriptionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getBreakdownElementDescription()
+	 * @generated
+	 */
+	int BREAKDOWN_ELEMENT_DESCRIPTION = 81;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -18261,6 +18181,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int BREAKDOWN_ELEMENT_DESCRIPTION_FEATURE_COUNT = CONTENT_DESCRIPTION_FEATURE_COUNT + 1;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ActivityDescriptionImpl <em>Activity Description</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ActivityDescriptionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getActivityDescription()
+	 * @generated
+	 */
+	int ACTIVITY_DESCRIPTION = 82;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -18477,6 +18407,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int ACTIVITY_DESCRIPTION_FEATURE_COUNT = BREAKDOWN_ELEMENT_DESCRIPTION_FEATURE_COUNT + 3;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessDescriptionImpl <em>Process Description</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ProcessDescriptionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessDescription()
+	 * @generated
+	 */
+	int PROCESS_DESCRIPTION = 84;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -18711,6 +18651,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int PROCESS_DESCRIPTION_FEATURE_COUNT = ACTIVITY_DESCRIPTION_FEATURE_COUNT + 2;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DeliveryProcessDescriptionImpl <em>Delivery Process Description</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.DeliveryProcessDescriptionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDeliveryProcessDescription()
+	 * @generated
+	 */
+	int DELIVERY_PROCESS_DESCRIPTION = 83;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -19001,6 +18951,16 @@ public interface UmaPackage extends EPackage {
 	int DELIVERY_PROCESS_DESCRIPTION_FEATURE_COUNT = PROCESS_DESCRIPTION_FEATURE_COUNT + 6;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DescriptorDescriptionImpl <em>Descriptor Description</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.DescriptorDescriptionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDescriptorDescription()
+	 * @generated
+	 */
+	int DESCRIPTOR_DESCRIPTION = 85;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -19197,6 +19157,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int DESCRIPTOR_DESCRIPTION_FEATURE_COUNT = BREAKDOWN_ELEMENT_DESCRIPTION_FEATURE_COUNT + 1;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessComponentDescriptorImpl <em>Process Component Descriptor</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ProcessComponentDescriptorImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessComponentDescriptor()
+	 * @generated
+	 */
+	int PROCESS_COMPONENT_DESCRIPTOR = 86;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -19523,6 +19493,16 @@ public interface UmaPackage extends EPackage {
 	int PROCESS_COMPONENT_DESCRIPTOR_FEATURE_COUNT = DESCRIPTOR_FEATURE_COUNT + 1;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessPackageImpl <em>Process Package</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ProcessPackageImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessPackage()
+	 * @generated
+	 */
+	int PROCESS_PACKAGE = 88;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -19656,6 +19636,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int PROCESS_PACKAGE_FEATURE_COUNT = METHOD_PACKAGE_FEATURE_COUNT + 2;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessComponentImpl <em>Process Component</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ProcessComponentImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessComponent()
+	 * @generated
+	 */
+	int PROCESS_COMPONENT = 87;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -19854,36 +19844,6 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int PROCESS_COMPONENT_FEATURE_COUNT = PROCESS_PACKAGE_FEATURE_COUNT + 7;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessFamilyImpl <em>Process Family</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ProcessFamilyImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessFamily()
-	 * @generated
-	 */
-	int PROCESS_FAMILY = 111;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.MethodLibraryImpl <em>Method Library</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.MethodLibraryImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodLibrary()
-	 * @generated
-	 */
-	int METHOD_LIBRARY = 112;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.PointImpl <em>Point</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.PointImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPoint()
-	 * @generated
-	 */
-	int POINT = 95;
 
 	/**
 	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DiagramElementImpl <em>Diagram Element</em>}' class.
@@ -20201,76 +20161,6 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int GRAPH_ELEMENT_FEATURE_COUNT = DIAGRAM_ELEMENT_FEATURE_COUNT + 5;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DiagramLinkImpl <em>Diagram Link</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.DiagramLinkImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDiagramLink()
-	 * @generated
-	 */
-	int DIAGRAM_LINK = 96;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.GraphConnectorImpl <em>Graph Connector</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.GraphConnectorImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGraphConnector()
-	 * @generated
-	 */
-	int GRAPH_CONNECTOR = 97;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.SemanticModelBridgeImpl <em>Semantic Model Bridge</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.SemanticModelBridgeImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getSemanticModelBridge()
-	 * @generated
-	 */
-	int SEMANTIC_MODEL_BRIDGE = 99;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DimensionImpl <em>Dimension</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.DimensionImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDimension()
-	 * @generated
-	 */
-	int DIMENSION = 100;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ReferenceImpl <em>Reference</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.ReferenceImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getReference()
-	 * @generated
-	 */
-	int REFERENCE = 93;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.PropertyImpl <em>Property</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.PropertyImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProperty()
-	 * @generated
-	 */
-	int PROPERTY = 94;
-
-	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.GraphEdgeImpl <em>Graph Edge</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.impl.GraphEdgeImpl
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGraphEdge()
-	 * @generated
-	 */
-	int GRAPH_EDGE = 98;
 
 	/**
 	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.GraphNodeImpl <em>Graph Node</em>}' class.
@@ -20689,6 +20579,16 @@ public interface UmaPackage extends EPackage {
 	int DIAGRAM_FEATURE_COUNT = GRAPH_NODE_FEATURE_COUNT + 4;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ReferenceImpl <em>Reference</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ReferenceImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getReference()
+	 * @generated
+	 */
+	int REFERENCE = 93;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -20831,6 +20731,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int REFERENCE_FEATURE_COUNT = DIAGRAM_ELEMENT_FEATURE_COUNT + 2;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.PropertyImpl <em>Property</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.PropertyImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProperty()
+	 * @generated
+	 */
+	int PROPERTY = 94;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -20977,6 +20887,16 @@ public interface UmaPackage extends EPackage {
 	int PROPERTY_FEATURE_COUNT = DIAGRAM_ELEMENT_FEATURE_COUNT + 2;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.PointImpl <em>Point</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.PointImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPoint()
+	 * @generated
+	 */
+	int POINT = 95;
+
+	/**
 	 * The feature id for the '<em><b>X</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -21002,6 +20922,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int POINT_FEATURE_COUNT = 2;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DiagramLinkImpl <em>Diagram Link</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.DiagramLinkImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDiagramLink()
+	 * @generated
+	 */
+	int DIAGRAM_LINK = 96;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -21164,6 +21094,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int DIAGRAM_LINK_FEATURE_COUNT = DIAGRAM_ELEMENT_FEATURE_COUNT + 4;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.GraphConnectorImpl <em>Graph Connector</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.GraphConnectorImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGraphConnector()
+	 * @generated
+	 */
+	int GRAPH_CONNECTOR = 97;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -21355,6 +21295,16 @@ public interface UmaPackage extends EPackage {
 	int GRAPH_CONNECTOR_FEATURE_COUNT = GRAPH_ELEMENT_FEATURE_COUNT + 2;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.GraphEdgeImpl <em>Graph Edge</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.GraphEdgeImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGraphEdge()
+	 * @generated
+	 */
+	int GRAPH_EDGE = 98;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -21544,6 +21494,16 @@ public interface UmaPackage extends EPackage {
 	int GRAPH_EDGE_FEATURE_COUNT = GRAPH_ELEMENT_FEATURE_COUNT + 2;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.SemanticModelBridgeImpl <em>Semantic Model Bridge</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.SemanticModelBridgeImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getSemanticModelBridge()
+	 * @generated
+	 */
+	int SEMANTIC_MODEL_BRIDGE = 99;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -21697,6 +21657,16 @@ public interface UmaPackage extends EPackage {
 	int SEMANTIC_MODEL_BRIDGE_FEATURE_COUNT = DIAGRAM_ELEMENT_FEATURE_COUNT + 3;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.DimensionImpl <em>Dimension</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.DimensionImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDimension()
+	 * @generated
+	 */
+	int DIMENSION = 100;
+
+	/**
 	 * The feature id for the '<em><b>Width</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -21722,6 +21692,16 @@ public interface UmaPackage extends EPackage {
 	 * @ordered
 	 */
 	int DIMENSION_FEATURE_COUNT = 2;
+
+	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessComponentInterfaceImpl <em>Process Component Interface</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ProcessComponentInterfaceImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessComponentInterface()
+	 * @generated
+	 */
+	int PROCESS_COMPONENT_INTERFACE = 101;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -23461,6 +23441,16 @@ public interface UmaPackage extends EPackage {
 	int ELLIPSE_FEATURE_COUNT = GRAPHIC_PRIMITIVE_FEATURE_COUNT + 6;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.ProcessFamilyImpl <em>Process Family</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.ProcessFamilyImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessFamily()
+	 * @generated
+	 */
+	int PROCESS_FAMILY = 111;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -23668,6 +23658,16 @@ public interface UmaPackage extends EPackage {
 	int PROCESS_FAMILY_FEATURE_COUNT = METHOD_CONFIGURATION_FEATURE_COUNT + 1;
 
 	/**
+	 * The meta object id for the '{@link org.eclipse.epf.uma.impl.MethodLibraryImpl <em>Method Library</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.eclipse.epf.uma.impl.MethodLibraryImpl
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodLibrary()
+	 * @generated
+	 */
+	int METHOD_LIBRARY = 112;
+
+	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -23821,16 +23821,6 @@ public interface UmaPackage extends EPackage {
 	int METHOD_LIBRARY_FEATURE_COUNT = METHOD_UNIT_FEATURE_COUNT + 2;
 
 	/**
-	 * The meta object id for the '{@link org.eclipse.epf.uma.WorkOrderType <em>Work Order Type</em>}' enum.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see org.eclipse.epf.uma.WorkOrderType
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkOrderType()
-	 * @generated
-	 */
-	int WORK_ORDER_TYPE = 114;
-
-	/**
 	 * The meta object id for the '{@link org.eclipse.epf.uma.VariabilityType <em>Variability Type</em>}' enum.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -23841,24 +23831,14 @@ public interface UmaPackage extends EPackage {
 	int VARIABILITY_TYPE = 113;
 
 	/**
-	 * The meta object id for the '<em>Date</em>' data type.
+	 * The meta object id for the '{@link org.eclipse.epf.uma.WorkOrderType <em>Work Order Type</em>}' enum.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see java.util.Date
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDate()
+	 * @see org.eclipse.epf.uma.WorkOrderType
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkOrderType()
 	 * @generated
 	 */
-	int DATE = 117;
-
-	/**
-	 * The meta object id for the '<em>Uri</em>' data type.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see java.net.URI
-	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getUri()
-	 * @generated
-	 */
-	int URI = 118;
+	int WORK_ORDER_TYPE = 114;
 
 	/**
 	 * The meta object id for the '<em>String</em>' data type.
@@ -23879,6 +23859,26 @@ public interface UmaPackage extends EPackage {
 	 * @generated
 	 */
 	int BOOLEAN = 116;
+
+	/**
+	 * The meta object id for the '<em>Date</em>' data type.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see java.util.Date
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDate()
+	 * @generated
+	 */
+	int DATE = 117;
+
+	/**
+	 * The meta object id for the '<em>Uri</em>' data type.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see java.net.URI
+	 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getUri()
+	 * @generated
+	 */
+	int URI = 118;
 
 	/**
 	 * The meta object id for the '<em>Set</em>' data type.
@@ -23951,14 +23951,14 @@ public interface UmaPackage extends EPackage {
 	EClass getType();
 
 	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Element <em>Element</em>}'.
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.PackageableElement <em>Packageable Element</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Element</em>'.
-	 * @see org.eclipse.epf.uma.Element
+	 * @return the meta object for class '<em>Packageable Element</em>'.
+	 * @see org.eclipse.epf.uma.PackageableElement
 	 * @generated
 	 */
-	EClass getElement();
+	EClass getPackageableElement();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.NamedElement <em>Named Element</em>}'.
@@ -23982,14 +23982,14 @@ public interface UmaPackage extends EPackage {
 	EAttribute getNamedElement_Name();
 
 	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.PackageableElement <em>Packageable Element</em>}'.
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Element <em>Element</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Packageable Element</em>'.
-	 * @see org.eclipse.epf.uma.PackageableElement
+	 * @return the meta object for class '<em>Element</em>'.
+	 * @see org.eclipse.epf.uma.Element
 	 * @generated
 	 */
-	EClass getPackageableElement();
+	EClass getElement();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Package <em>Package</em>}'.
@@ -24010,6 +24010,27 @@ public interface UmaPackage extends EPackage {
 	 * @generated
 	 */
 	EClass getNamespace();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Constraint <em>Constraint</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Constraint</em>'.
+	 * @see org.eclipse.epf.uma.Constraint
+	 * @generated
+	 */
+	EClass getConstraint();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Constraint#getBody <em>Body</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Body</em>'.
+	 * @see org.eclipse.epf.uma.Constraint#getBody()
+	 * @see #getConstraint()
+	 * @generated
+	 */
+	EAttribute getConstraint_Body();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.MethodElement <em>Method Element</em>}'.
@@ -24108,27 +24129,6 @@ public interface UmaPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getMethodElement_OrderingGuide();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Constraint <em>Constraint</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Constraint</em>'.
-	 * @see org.eclipse.epf.uma.Constraint
-	 * @generated
-	 */
-	EClass getConstraint();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Constraint#getBody <em>Body</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Body</em>'.
-	 * @see org.eclipse.epf.uma.Constraint#getBody()
-	 * @see #getConstraint()
-	 * @generated
-	 */
-	EAttribute getConstraint_Body();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.MethodElementProperty <em>Method Element Property</em>}'.
@@ -24368,6 +24368,91 @@ public interface UmaPackage extends EPackage {
 	EAttribute getContentDescription_LongPresentationName();
 
 	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.MethodUnit <em>Method Unit</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Method Unit</em>'.
+	 * @see org.eclipse.epf.uma.MethodUnit
+	 * @generated
+	 */
+	EClass getMethodUnit();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodUnit#getAuthors <em>Authors</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Authors</em>'.
+	 * @see org.eclipse.epf.uma.MethodUnit#getAuthors()
+	 * @see #getMethodUnit()
+	 * @generated
+	 */
+	EAttribute getMethodUnit_Authors();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodUnit#getChangeDate <em>Change Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Change Date</em>'.
+	 * @see org.eclipse.epf.uma.MethodUnit#getChangeDate()
+	 * @see #getMethodUnit()
+	 * @generated
+	 */
+	EAttribute getMethodUnit_ChangeDate();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodUnit#getChangeDescription <em>Change Description</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Change Description</em>'.
+	 * @see org.eclipse.epf.uma.MethodUnit#getChangeDescription()
+	 * @see #getMethodUnit()
+	 * @generated
+	 */
+	EAttribute getMethodUnit_ChangeDescription();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodUnit#getVersion <em>Version</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Version</em>'.
+	 * @see org.eclipse.epf.uma.MethodUnit#getVersion()
+	 * @see #getMethodUnit()
+	 * @generated
+	 */
+	EAttribute getMethodUnit_Version();
+
+	/**
+	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.MethodUnit#getCopyrightStatement <em>Copyright Statement</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Copyright Statement</em>'.
+	 * @see org.eclipse.epf.uma.MethodUnit#getCopyrightStatement()
+	 * @see #getMethodUnit()
+	 * @generated
+	 */
+	EReference getMethodUnit_CopyrightStatement();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.SupportingMaterial <em>Supporting Material</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Supporting Material</em>'.
+	 * @see org.eclipse.epf.uma.SupportingMaterial
+	 * @generated
+	 */
+	EClass getSupportingMaterial();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Guidance <em>Guidance</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Guidance</em>'.
+	 * @see org.eclipse.epf.uma.Guidance
+	 * @generated
+	 */
+	EClass getGuidance();
+
+	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Section <em>Section</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -24422,36 +24507,149 @@ public interface UmaPackage extends EPackage {
 	EReference getSection_Predecessor();
 
 	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Role <em>Role</em>}'.
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.VariabilityElement <em>Variability Element</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Role</em>'.
-	 * @see org.eclipse.epf.uma.Role
+	 * @return the meta object for class '<em>Variability Element</em>'.
+	 * @see org.eclipse.epf.uma.VariabilityElement
 	 * @generated
 	 */
-	EClass getRole();
+	EClass getVariabilityElement();
 
 	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Role#getModifies <em>Modifies</em>}'.
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.VariabilityElement#getVariabilityType <em>Variability Type</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Modifies</em>'.
-	 * @see org.eclipse.epf.uma.Role#getModifies()
-	 * @see #getRole()
+	 * @return the meta object for the attribute '<em>Variability Type</em>'.
+	 * @see org.eclipse.epf.uma.VariabilityElement#getVariabilityType()
+	 * @see #getVariabilityElement()
 	 * @generated
 	 */
-	EReference getRole_Modifies();
+	EAttribute getVariabilityElement_VariabilityType();
 
 	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Role#getResponsibleFor <em>Responsible For</em>}'.
+	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.VariabilityElement#getVariabilityBasedOnElement <em>Variability Based On Element</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Responsible For</em>'.
-	 * @see org.eclipse.epf.uma.Role#getResponsibleFor()
-	 * @see #getRole()
+	 * @return the meta object for the reference '<em>Variability Based On Element</em>'.
+	 * @see org.eclipse.epf.uma.VariabilityElement#getVariabilityBasedOnElement()
+	 * @see #getVariabilityElement()
 	 * @generated
 	 */
-	EReference getRole_ResponsibleFor();
+	EReference getVariabilityElement_VariabilityBasedOnElement();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Concept <em>Concept</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Concept</em>'.
+	 * @see org.eclipse.epf.uma.Concept
+	 * @generated
+	 */
+	EClass getConcept();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Checklist <em>Checklist</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Checklist</em>'.
+	 * @see org.eclipse.epf.uma.Checklist
+	 * @generated
+	 */
+	EClass getChecklist();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Guideline <em>Guideline</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Guideline</em>'.
+	 * @see org.eclipse.epf.uma.Guideline
+	 * @generated
+	 */
+	EClass getGuideline();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Example <em>Example</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Example</em>'.
+	 * @see org.eclipse.epf.uma.Example
+	 * @generated
+	 */
+	EClass getExample();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ReusableAsset <em>Reusable Asset</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Reusable Asset</em>'.
+	 * @see org.eclipse.epf.uma.ReusableAsset
+	 * @generated
+	 */
+	EClass getReusableAsset();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.TermDefinition <em>Term Definition</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Term Definition</em>'.
+	 * @see org.eclipse.epf.uma.TermDefinition
+	 * @generated
+	 */
+	EClass getTermDefinition();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ApplicableMetaClassInfo <em>Applicable Meta Class Info</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Applicable Meta Class Info</em>'.
+	 * @see org.eclipse.epf.uma.ApplicableMetaClassInfo
+	 * @generated
+	 */
+	EClass getApplicableMetaClassInfo();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.ApplicableMetaClassInfo#getIsPrimaryExtension <em>Is Primary Extension</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Is Primary Extension</em>'.
+	 * @see org.eclipse.epf.uma.ApplicableMetaClassInfo#getIsPrimaryExtension()
+	 * @see #getApplicableMetaClassInfo()
+	 * @generated
+	 */
+	EAttribute getApplicableMetaClassInfo_IsPrimaryExtension();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Artifact <em>Artifact</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Artifact</em>'.
+	 * @see org.eclipse.epf.uma.Artifact
+	 * @generated
+	 */
+	EClass getArtifact();
+
+	/**
+	 * Returns the meta object for the container reference '{@link org.eclipse.epf.uma.Artifact#getContainerArtifact <em>Container Artifact</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the container reference '<em>Container Artifact</em>'.
+	 * @see org.eclipse.epf.uma.Artifact#getContainerArtifact()
+	 * @see #getArtifact()
+	 * @generated
+	 */
+	EReference getArtifact_ContainerArtifact();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.Artifact#getContainedArtifacts <em>Contained Artifacts</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Contained Artifacts</em>'.
+	 * @see org.eclipse.epf.uma.Artifact#getContainedArtifacts()
+	 * @see #getArtifact()
+	 * @generated
+	 */
+	EReference getArtifact_ContainedArtifacts();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.WorkProduct <em>Work Product</em>}'.
@@ -24527,6 +24725,129 @@ public interface UmaPackage extends EPackage {
 	 * @generated
 	 */
 	EReference getFulfillableElement_Fulfills();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Report <em>Report</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Report</em>'.
+	 * @see org.eclipse.epf.uma.Report
+	 * @generated
+	 */
+	EClass getReport();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Template <em>Template</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Template</em>'.
+	 * @see org.eclipse.epf.uma.Template
+	 * @generated
+	 */
+	EClass getTemplate();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ToolMentor <em>Tool Mentor</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Tool Mentor</em>'.
+	 * @see org.eclipse.epf.uma.ToolMentor
+	 * @generated
+	 */
+	EClass getToolMentor();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.EstimationConsiderations <em>Estimation Considerations</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Estimation Considerations</em>'.
+	 * @see org.eclipse.epf.uma.EstimationConsiderations
+	 * @generated
+	 */
+	EClass getEstimationConsiderations();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Deliverable <em>Deliverable</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Deliverable</em>'.
+	 * @see org.eclipse.epf.uma.Deliverable
+	 * @generated
+	 */
+	EClass getDeliverable();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Deliverable#getDeliveredWorkProducts <em>Delivered Work Products</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Delivered Work Products</em>'.
+	 * @see org.eclipse.epf.uma.Deliverable#getDeliveredWorkProducts()
+	 * @see #getDeliverable()
+	 * @generated
+	 */
+	EReference getDeliverable_DeliveredWorkProducts();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Outcome <em>Outcome</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Outcome</em>'.
+	 * @see org.eclipse.epf.uma.Outcome
+	 * @generated
+	 */
+	EClass getOutcome();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Step <em>Step</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Step</em>'.
+	 * @see org.eclipse.epf.uma.Step
+	 * @generated
+	 */
+	EClass getStep();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.WorkDefinition <em>Work Definition</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Work Definition</em>'.
+	 * @see org.eclipse.epf.uma.WorkDefinition
+	 * @generated
+	 */
+	EClass getWorkDefinition();
+
+	/**
+	 * Returns the meta object for the containment reference '{@link org.eclipse.epf.uma.WorkDefinition#getPrecondition <em>Precondition</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference '<em>Precondition</em>'.
+	 * @see org.eclipse.epf.uma.WorkDefinition#getPrecondition()
+	 * @see #getWorkDefinition()
+	 * @generated
+	 */
+	EReference getWorkDefinition_Precondition();
+
+	/**
+	 * Returns the meta object for the containment reference '{@link org.eclipse.epf.uma.WorkDefinition#getPostcondition <em>Postcondition</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference '<em>Postcondition</em>'.
+	 * @see org.eclipse.epf.uma.WorkDefinition#getPostcondition()
+	 * @see #getWorkDefinition()
+	 * @generated
+	 */
+	EReference getWorkDefinition_Postcondition();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Whitepaper <em>Whitepaper</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Whitepaper</em>'.
+	 * @see org.eclipse.epf.uma.Whitepaper
+	 * @generated
+	 */
+	EClass getWhitepaper();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Task <em>Task</em>}'.
@@ -24627,183 +24948,36 @@ public interface UmaPackage extends EPackage {
 	EReference getTask_EstimationConsiderations();
 
 	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.WorkDefinition <em>Work Definition</em>}'.
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Role <em>Role</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Work Definition</em>'.
-	 * @see org.eclipse.epf.uma.WorkDefinition
+	 * @return the meta object for class '<em>Role</em>'.
+	 * @see org.eclipse.epf.uma.Role
 	 * @generated
 	 */
-	EClass getWorkDefinition();
+	EClass getRole();
 
 	/**
-	 * Returns the meta object for the containment reference '{@link org.eclipse.epf.uma.WorkDefinition#getPrecondition <em>Precondition</em>}'.
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Role#getModifies <em>Modifies</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference '<em>Precondition</em>'.
-	 * @see org.eclipse.epf.uma.WorkDefinition#getPrecondition()
-	 * @see #getWorkDefinition()
+	 * @return the meta object for the reference list '<em>Modifies</em>'.
+	 * @see org.eclipse.epf.uma.Role#getModifies()
+	 * @see #getRole()
 	 * @generated
 	 */
-	EReference getWorkDefinition_Precondition();
+	EReference getRole_Modifies();
 
 	/**
-	 * Returns the meta object for the containment reference '{@link org.eclipse.epf.uma.WorkDefinition#getPostcondition <em>Postcondition</em>}'.
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Role#getResponsibleFor <em>Responsible For</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference '<em>Postcondition</em>'.
-	 * @see org.eclipse.epf.uma.WorkDefinition#getPostcondition()
-	 * @see #getWorkDefinition()
+	 * @return the meta object for the reference list '<em>Responsible For</em>'.
+	 * @see org.eclipse.epf.uma.Role#getResponsibleFor()
+	 * @see #getRole()
 	 * @generated
 	 */
-	EReference getWorkDefinition_Postcondition();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Step <em>Step</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Step</em>'.
-	 * @see org.eclipse.epf.uma.Step
-	 * @generated
-	 */
-	EClass getStep();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Guidance <em>Guidance</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Guidance</em>'.
-	 * @see org.eclipse.epf.uma.Guidance
-	 * @generated
-	 */
-	EClass getGuidance();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Artifact <em>Artifact</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Artifact</em>'.
-	 * @see org.eclipse.epf.uma.Artifact
-	 * @generated
-	 */
-	EClass getArtifact();
-
-	/**
-	 * Returns the meta object for the container reference '{@link org.eclipse.epf.uma.Artifact#getContainerArtifact <em>Container Artifact</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the container reference '<em>Container Artifact</em>'.
-	 * @see org.eclipse.epf.uma.Artifact#getContainerArtifact()
-	 * @see #getArtifact()
-	 * @generated
-	 */
-	EReference getArtifact_ContainerArtifact();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.Artifact#getContainedArtifacts <em>Contained Artifacts</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Contained Artifacts</em>'.
-	 * @see org.eclipse.epf.uma.Artifact#getContainedArtifacts()
-	 * @see #getArtifact()
-	 * @generated
-	 */
-	EReference getArtifact_ContainedArtifacts();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Deliverable <em>Deliverable</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Deliverable</em>'.
-	 * @see org.eclipse.epf.uma.Deliverable
-	 * @generated
-	 */
-	EClass getDeliverable();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Deliverable#getDeliveredWorkProducts <em>Delivered Work Products</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Delivered Work Products</em>'.
-	 * @see org.eclipse.epf.uma.Deliverable#getDeliveredWorkProducts()
-	 * @see #getDeliverable()
-	 * @generated
-	 */
-	EReference getDeliverable_DeliveredWorkProducts();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Outcome <em>Outcome</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Outcome</em>'.
-	 * @see org.eclipse.epf.uma.Outcome
-	 * @generated
-	 */
-	EClass getOutcome();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.MethodPackage <em>Method Package</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Method Package</em>'.
-	 * @see org.eclipse.epf.uma.MethodPackage
-	 * @generated
-	 */
-	EClass getMethodPackage();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodPackage#getGlobal <em>Global</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Global</em>'.
-	 * @see org.eclipse.epf.uma.MethodPackage#getGlobal()
-	 * @see #getMethodPackage()
-	 * @generated
-	 */
-	EAttribute getMethodPackage_Global();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodPackage#getReusedPackages <em>Reused Packages</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Reused Packages</em>'.
-	 * @see org.eclipse.epf.uma.MethodPackage#getReusedPackages()
-	 * @see #getMethodPackage()
-	 * @generated
-	 */
-	EReference getMethodPackage_ReusedPackages();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.MethodPackage#getChildPackages <em>Child Packages</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Child Packages</em>'.
-	 * @see org.eclipse.epf.uma.MethodPackage#getChildPackages()
-	 * @see #getMethodPackage()
-	 * @generated
-	 */
-	EReference getMethodPackage_ChildPackages();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ContentPackage <em>Content Package</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Content Package</em>'.
-	 * @see org.eclipse.epf.uma.ContentPackage
-	 * @generated
-	 */
-	EClass getContentPackage();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.ContentPackage#getContentElements <em>Content Elements</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Content Elements</em>'.
-	 * @see org.eclipse.epf.uma.ContentPackage#getContentElements()
-	 * @see #getContentPackage()
-	 * @generated
-	 */
-	EReference getContentPackage_ContentElements();
+	EReference getRole_ResponsibleFor();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ArtifactDescription <em>Artifact Description</em>}'.
@@ -25107,6 +25281,154 @@ public interface UmaPackage extends EPackage {
 	EAttribute getPracticeDescription_LevelsOfAdoption();
 
 	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.RoleSet <em>Role Set</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Role Set</em>'.
+	 * @see org.eclipse.epf.uma.RoleSet
+	 * @generated
+	 */
+	EClass getRoleSet();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.RoleSet#getRoles <em>Roles</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Roles</em>'.
+	 * @see org.eclipse.epf.uma.RoleSet#getRoles()
+	 * @see #getRoleSet()
+	 * @generated
+	 */
+	EReference getRoleSet_Roles();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ContentCategory <em>Content Category</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Content Category</em>'.
+	 * @see org.eclipse.epf.uma.ContentCategory
+	 * @generated
+	 */
+	EClass getContentCategory();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Domain <em>Domain</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Domain</em>'.
+	 * @see org.eclipse.epf.uma.Domain
+	 * @generated
+	 */
+	EClass getDomain();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Domain#getWorkProducts <em>Work Products</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Work Products</em>'.
+	 * @see org.eclipse.epf.uma.Domain#getWorkProducts()
+	 * @see #getDomain()
+	 * @generated
+	 */
+	EReference getDomain_WorkProducts();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.Domain#getSubdomains <em>Subdomains</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Subdomains</em>'.
+	 * @see org.eclipse.epf.uma.Domain#getSubdomains()
+	 * @see #getDomain()
+	 * @generated
+	 */
+	EReference getDomain_Subdomains();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.WorkProductType <em>Work Product Type</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Work Product Type</em>'.
+	 * @see org.eclipse.epf.uma.WorkProductType
+	 * @generated
+	 */
+	EClass getWorkProductType();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.WorkProductType#getWorkProducts <em>Work Products</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Work Products</em>'.
+	 * @see org.eclipse.epf.uma.WorkProductType#getWorkProducts()
+	 * @see #getWorkProductType()
+	 * @generated
+	 */
+	EReference getWorkProductType_WorkProducts();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.DisciplineGrouping <em>Discipline Grouping</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Discipline Grouping</em>'.
+	 * @see org.eclipse.epf.uma.DisciplineGrouping
+	 * @generated
+	 */
+	EClass getDisciplineGrouping();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.DisciplineGrouping#getDisciplines <em>Disciplines</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Disciplines</em>'.
+	 * @see org.eclipse.epf.uma.DisciplineGrouping#getDisciplines()
+	 * @see #getDisciplineGrouping()
+	 * @generated
+	 */
+	EReference getDisciplineGrouping_Disciplines();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Discipline <em>Discipline</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Discipline</em>'.
+	 * @see org.eclipse.epf.uma.Discipline
+	 * @generated
+	 */
+	EClass getDiscipline();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Discipline#getTasks <em>Tasks</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Tasks</em>'.
+	 * @see org.eclipse.epf.uma.Discipline#getTasks()
+	 * @see #getDiscipline()
+	 * @generated
+	 */
+	EReference getDiscipline_Tasks();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.Discipline#getSubdiscipline <em>Subdiscipline</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Subdiscipline</em>'.
+	 * @see org.eclipse.epf.uma.Discipline#getSubdiscipline()
+	 * @see #getDiscipline()
+	 * @generated
+	 */
+	EReference getDiscipline_Subdiscipline();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Discipline#getReferenceWorkflows <em>Reference Workflows</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Reference Workflows</em>'.
+	 * @see org.eclipse.epf.uma.Discipline#getReferenceWorkflows()
+	 * @see #getDiscipline()
+	 * @generated
+	 */
+	EReference getDiscipline_ReferenceWorkflows();
+
+	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Activity <em>Activity</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -25401,6 +25723,239 @@ public interface UmaPackage extends EPackage {
 	EReference getBreakdownElement_Toolmentor();
 
 	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ProcessElement <em>Process Element</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Process Element</em>'.
+	 * @see org.eclipse.epf.uma.ProcessElement
+	 * @generated
+	 */
+	EClass getProcessElement();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.PlanningData <em>Planning Data</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Planning Data</em>'.
+	 * @see org.eclipse.epf.uma.PlanningData
+	 * @generated
+	 */
+	EClass getPlanningData();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.PlanningData#getStartDate <em>Start Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Start Date</em>'.
+	 * @see org.eclipse.epf.uma.PlanningData#getStartDate()
+	 * @see #getPlanningData()
+	 * @generated
+	 */
+	EAttribute getPlanningData_StartDate();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.PlanningData#getFinishDate <em>Finish Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Finish Date</em>'.
+	 * @see org.eclipse.epf.uma.PlanningData#getFinishDate()
+	 * @see #getPlanningData()
+	 * @generated
+	 */
+	EAttribute getPlanningData_FinishDate();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.PlanningData#getRank <em>Rank</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Rank</em>'.
+	 * @see org.eclipse.epf.uma.PlanningData#getRank()
+	 * @see #getPlanningData()
+	 * @generated
+	 */
+	EAttribute getPlanningData_Rank();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.WorkOrder <em>Work Order</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Work Order</em>'.
+	 * @see org.eclipse.epf.uma.WorkOrder
+	 * @generated
+	 */
+	EClass getWorkOrder();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.WorkOrder#getLinkType <em>Link Type</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Link Type</em>'.
+	 * @see org.eclipse.epf.uma.WorkOrder#getLinkType()
+	 * @see #getWorkOrder()
+	 * @generated
+	 */
+	EAttribute getWorkOrder_LinkType();
+
+	/**
+	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.WorkOrder#getPred <em>Pred</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Pred</em>'.
+	 * @see org.eclipse.epf.uma.WorkOrder#getPred()
+	 * @see #getWorkOrder()
+	 * @generated
+	 */
+	EReference getWorkOrder_Pred();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Roadmap <em>Roadmap</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Roadmap</em>'.
+	 * @see org.eclipse.epf.uma.Roadmap
+	 * @generated
+	 */
+	EClass getRoadmap();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Tool <em>Tool</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Tool</em>'.
+	 * @see org.eclipse.epf.uma.Tool
+	 * @generated
+	 */
+	EClass getTool();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Tool#getToolMentors <em>Tool Mentors</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Tool Mentors</em>'.
+	 * @see org.eclipse.epf.uma.Tool#getToolMentors()
+	 * @see #getTool()
+	 * @generated
+	 */
+	EReference getTool_ToolMentors();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.RoleSetGrouping <em>Role Set Grouping</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Role Set Grouping</em>'.
+	 * @see org.eclipse.epf.uma.RoleSetGrouping
+	 * @generated
+	 */
+	EClass getRoleSetGrouping();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.RoleSetGrouping#getRoleSets <em>Role Sets</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Role Sets</em>'.
+	 * @see org.eclipse.epf.uma.RoleSetGrouping#getRoleSets()
+	 * @see #getRoleSetGrouping()
+	 * @generated
+	 */
+	EReference getRoleSetGrouping_RoleSets();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.CustomCategory <em>Custom Category</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Custom Category</em>'.
+	 * @see org.eclipse.epf.uma.CustomCategory
+	 * @generated
+	 */
+	EClass getCustomCategory();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.CustomCategory#getCategorizedElements <em>Categorized Elements</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Categorized Elements</em>'.
+	 * @see org.eclipse.epf.uma.CustomCategory#getCategorizedElements()
+	 * @see #getCustomCategory()
+	 * @generated
+	 */
+	EReference getCustomCategory_CategorizedElements();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.CustomCategory#getSubCategories <em>Sub Categories</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Sub Categories</em>'.
+	 * @see org.eclipse.epf.uma.CustomCategory#getSubCategories()
+	 * @see #getCustomCategory()
+	 * @generated
+	 */
+	EReference getCustomCategory_SubCategories();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.MethodPackage <em>Method Package</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Method Package</em>'.
+	 * @see org.eclipse.epf.uma.MethodPackage
+	 * @generated
+	 */
+	EClass getMethodPackage();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodPackage#getGlobal <em>Global</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Global</em>'.
+	 * @see org.eclipse.epf.uma.MethodPackage#getGlobal()
+	 * @see #getMethodPackage()
+	 * @generated
+	 */
+	EAttribute getMethodPackage_Global();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodPackage#getReusedPackages <em>Reused Packages</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Reused Packages</em>'.
+	 * @see org.eclipse.epf.uma.MethodPackage#getReusedPackages()
+	 * @see #getMethodPackage()
+	 * @generated
+	 */
+	EReference getMethodPackage_ReusedPackages();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.MethodPackage#getChildPackages <em>Child Packages</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Child Packages</em>'.
+	 * @see org.eclipse.epf.uma.MethodPackage#getChildPackages()
+	 * @see #getMethodPackage()
+	 * @generated
+	 */
+	EReference getMethodPackage_ChildPackages();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ContentPackage <em>Content Package</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Content Package</em>'.
+	 * @see org.eclipse.epf.uma.ContentPackage
+	 * @generated
+	 */
+	EClass getContentPackage();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.ContentPackage#getContentElements <em>Content Elements</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Content Elements</em>'.
+	 * @see org.eclipse.epf.uma.ContentPackage#getContentElements()
+	 * @see #getContentPackage()
+	 * @generated
+	 */
+	EReference getContentPackage_ContentElements();
+
+	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Milestone <em>Milestone</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -25420,6 +25975,136 @@ public interface UmaPackage extends EPackage {
 	 * @generated
 	 */
 	EReference getMilestone_RequiredResults();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.WorkProductDescriptor <em>Work Product Descriptor</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Work Product Descriptor</em>'.
+	 * @see org.eclipse.epf.uma.WorkProductDescriptor
+	 * @generated
+	 */
+	EClass getWorkProductDescriptor();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.WorkProductDescriptor#getActivityEntryState <em>Activity Entry State</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Activity Entry State</em>'.
+	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getActivityEntryState()
+	 * @see #getWorkProductDescriptor()
+	 * @generated
+	 */
+	EAttribute getWorkProductDescriptor_ActivityEntryState();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.WorkProductDescriptor#getActivityExitState <em>Activity Exit State</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Activity Exit State</em>'.
+	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getActivityExitState()
+	 * @see #getWorkProductDescriptor()
+	 * @generated
+	 */
+	EAttribute getWorkProductDescriptor_ActivityExitState();
+
+	/**
+	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.WorkProductDescriptor#getWorkProduct <em>Work Product</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Work Product</em>'.
+	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getWorkProduct()
+	 * @see #getWorkProductDescriptor()
+	 * @generated
+	 */
+	EReference getWorkProductDescriptor_WorkProduct();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.WorkProductDescriptor#getImpactedBy <em>Impacted By</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Impacted By</em>'.
+	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getImpactedBy()
+	 * @see #getWorkProductDescriptor()
+	 * @generated
+	 */
+	EReference getWorkProductDescriptor_ImpactedBy();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.WorkProductDescriptor#getImpacts <em>Impacts</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Impacts</em>'.
+	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getImpacts()
+	 * @see #getWorkProductDescriptor()
+	 * @generated
+	 */
+	EReference getWorkProductDescriptor_Impacts();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.WorkProductDescriptor#getDeliverableParts <em>Deliverable Parts</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Deliverable Parts</em>'.
+	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getDeliverableParts()
+	 * @see #getWorkProductDescriptor()
+	 * @generated
+	 */
+	EReference getWorkProductDescriptor_DeliverableParts();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.WorkProductDescriptor#getDeliverablePartsExclude <em>Deliverable Parts Exclude</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Deliverable Parts Exclude</em>'.
+	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getDeliverablePartsExclude()
+	 * @see #getWorkProductDescriptor()
+	 * @generated
+	 */
+	EReference getWorkProductDescriptor_DeliverablePartsExclude();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Descriptor <em>Descriptor</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Descriptor</em>'.
+	 * @see org.eclipse.epf.uma.Descriptor
+	 * @generated
+	 */
+	EClass getDescriptor();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Descriptor#getIsSynchronizedWithSource <em>Is Synchronized With Source</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Is Synchronized With Source</em>'.
+	 * @see org.eclipse.epf.uma.Descriptor#getIsSynchronizedWithSource()
+	 * @see #getDescriptor()
+	 * @generated
+	 */
+	EAttribute getDescriptor_IsSynchronizedWithSource();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Descriptor#getGuidanceExclude <em>Guidance Exclude</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Guidance Exclude</em>'.
+	 * @see org.eclipse.epf.uma.Descriptor#getGuidanceExclude()
+	 * @see #getDescriptor()
+	 * @generated
+	 */
+	EReference getDescriptor_GuidanceExclude();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Descriptor#getGuidanceAdditional <em>Guidance Additional</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Guidance Additional</em>'.
+	 * @see org.eclipse.epf.uma.Descriptor#getGuidanceAdditional()
+	 * @see #getDescriptor()
+	 * @generated
+	 */
+	EReference getDescriptor_GuidanceAdditional();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Iteration <em>Iteration</em>}'.
@@ -25537,134 +26222,6 @@ public interface UmaPackage extends EPackage {
 	 * @generated
 	 */
 	EReference getRoleDescriptor_ResponsibleForExclude();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.WorkOrder <em>Work Order</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Work Order</em>'.
-	 * @see org.eclipse.epf.uma.WorkOrder
-	 * @generated
-	 */
-	EClass getWorkOrder();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.WorkOrder#getLinkType <em>Link Type</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Link Type</em>'.
-	 * @see org.eclipse.epf.uma.WorkOrder#getLinkType()
-	 * @see #getWorkOrder()
-	 * @generated
-	 */
-	EAttribute getWorkOrder_LinkType();
-
-	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.WorkOrder#getPred <em>Pred</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Pred</em>'.
-	 * @see org.eclipse.epf.uma.WorkOrder#getPred()
-	 * @see #getWorkOrder()
-	 * @generated
-	 */
-	EReference getWorkOrder_Pred();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ProcessElement <em>Process Element</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Process Element</em>'.
-	 * @see org.eclipse.epf.uma.ProcessElement
-	 * @generated
-	 */
-	EClass getProcessElement();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.PlanningData <em>Planning Data</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Planning Data</em>'.
-	 * @see org.eclipse.epf.uma.PlanningData
-	 * @generated
-	 */
-	EClass getPlanningData();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.PlanningData#getStartDate <em>Start Date</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Start Date</em>'.
-	 * @see org.eclipse.epf.uma.PlanningData#getStartDate()
-	 * @see #getPlanningData()
-	 * @generated
-	 */
-	EAttribute getPlanningData_StartDate();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.PlanningData#getFinishDate <em>Finish Date</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Finish Date</em>'.
-	 * @see org.eclipse.epf.uma.PlanningData#getFinishDate()
-	 * @see #getPlanningData()
-	 * @generated
-	 */
-	EAttribute getPlanningData_FinishDate();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.PlanningData#getRank <em>Rank</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Rank</em>'.
-	 * @see org.eclipse.epf.uma.PlanningData#getRank()
-	 * @see #getPlanningData()
-	 * @generated
-	 */
-	EAttribute getPlanningData_Rank();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Descriptor <em>Descriptor</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Descriptor</em>'.
-	 * @see org.eclipse.epf.uma.Descriptor
-	 * @generated
-	 */
-	EClass getDescriptor();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Descriptor#getIsSynchronizedWithSource <em>Is Synchronized With Source</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Is Synchronized With Source</em>'.
-	 * @see org.eclipse.epf.uma.Descriptor#getIsSynchronizedWithSource()
-	 * @see #getDescriptor()
-	 * @generated
-	 */
-	EAttribute getDescriptor_IsSynchronizedWithSource();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Descriptor#getGuidanceExclude <em>Guidance Exclude</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Guidance Exclude</em>'.
-	 * @see org.eclipse.epf.uma.Descriptor#getGuidanceExclude()
-	 * @see #getDescriptor()
-	 * @generated
-	 */
-	EReference getDescriptor_GuidanceExclude();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Descriptor#getGuidanceAdditional <em>Guidance Additional</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Guidance Additional</em>'.
-	 * @see org.eclipse.epf.uma.Descriptor#getGuidanceAdditional()
-	 * @see #getDescriptor()
-	 * @generated
-	 */
-	EReference getDescriptor_GuidanceAdditional();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.TaskDescriptor <em>Task Descriptor</em>}'.
@@ -25842,93 +26399,6 @@ public interface UmaPackage extends EPackage {
 	EReference getTaskDescriptor_SelectedStepsExclude();
 
 	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.WorkProductDescriptor <em>Work Product Descriptor</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Work Product Descriptor</em>'.
-	 * @see org.eclipse.epf.uma.WorkProductDescriptor
-	 * @generated
-	 */
-	EClass getWorkProductDescriptor();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.WorkProductDescriptor#getActivityEntryState <em>Activity Entry State</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Activity Entry State</em>'.
-	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getActivityEntryState()
-	 * @see #getWorkProductDescriptor()
-	 * @generated
-	 */
-	EAttribute getWorkProductDescriptor_ActivityEntryState();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.WorkProductDescriptor#getActivityExitState <em>Activity Exit State</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Activity Exit State</em>'.
-	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getActivityExitState()
-	 * @see #getWorkProductDescriptor()
-	 * @generated
-	 */
-	EAttribute getWorkProductDescriptor_ActivityExitState();
-
-	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.WorkProductDescriptor#getWorkProduct <em>Work Product</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Work Product</em>'.
-	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getWorkProduct()
-	 * @see #getWorkProductDescriptor()
-	 * @generated
-	 */
-	EReference getWorkProductDescriptor_WorkProduct();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.WorkProductDescriptor#getImpactedBy <em>Impacted By</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Impacted By</em>'.
-	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getImpactedBy()
-	 * @see #getWorkProductDescriptor()
-	 * @generated
-	 */
-	EReference getWorkProductDescriptor_ImpactedBy();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.WorkProductDescriptor#getImpacts <em>Impacts</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Impacts</em>'.
-	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getImpacts()
-	 * @see #getWorkProductDescriptor()
-	 * @generated
-	 */
-	EReference getWorkProductDescriptor_Impacts();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.WorkProductDescriptor#getDeliverableParts <em>Deliverable Parts</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Deliverable Parts</em>'.
-	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getDeliverableParts()
-	 * @see #getWorkProductDescriptor()
-	 * @generated
-	 */
-	EReference getWorkProductDescriptor_DeliverableParts();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.WorkProductDescriptor#getDeliverablePartsExclude <em>Deliverable Parts Exclude</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Deliverable Parts Exclude</em>'.
-	 * @see org.eclipse.epf.uma.WorkProductDescriptor#getDeliverablePartsExclude()
-	 * @see #getWorkProductDescriptor()
-	 * @generated
-	 */
-	EReference getWorkProductDescriptor_DeliverablePartsExclude();
-
-	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.CompositeRole <em>Composite Role</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -25948,6 +26418,296 @@ public interface UmaPackage extends EPackage {
 	 * @generated
 	 */
 	EReference getCompositeRole_AggregatedRoles();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.DeliveryProcess <em>Delivery Process</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Delivery Process</em>'.
+	 * @see org.eclipse.epf.uma.DeliveryProcess
+	 * @generated
+	 */
+	EClass getDeliveryProcess();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.DeliveryProcess#getEducationMaterials <em>Education Materials</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Education Materials</em>'.
+	 * @see org.eclipse.epf.uma.DeliveryProcess#getEducationMaterials()
+	 * @see #getDeliveryProcess()
+	 * @generated
+	 */
+	EReference getDeliveryProcess_EducationMaterials();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.DeliveryProcess#getCommunicationsMaterials <em>Communications Materials</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Communications Materials</em>'.
+	 * @see org.eclipse.epf.uma.DeliveryProcess#getCommunicationsMaterials()
+	 * @see #getDeliveryProcess()
+	 * @generated
+	 */
+	EReference getDeliveryProcess_CommunicationsMaterials();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Process <em>Process</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Process</em>'.
+	 * @see org.eclipse.epf.uma.Process
+	 * @generated
+	 */
+	EClass getProcess();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Process#getIncludesPatterns <em>Includes Patterns</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Includes Patterns</em>'.
+	 * @see org.eclipse.epf.uma.Process#getIncludesPatterns()
+	 * @see #getProcess()
+	 * @generated
+	 */
+	EReference getProcess_IncludesPatterns();
+
+	/**
+	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.Process#getDefaultContext <em>Default Context</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Default Context</em>'.
+	 * @see org.eclipse.epf.uma.Process#getDefaultContext()
+	 * @see #getProcess()
+	 * @generated
+	 */
+	EReference getProcess_DefaultContext();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Process#getValidContext <em>Valid Context</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Valid Context</em>'.
+	 * @see org.eclipse.epf.uma.Process#getValidContext()
+	 * @see #getProcess()
+	 * @generated
+	 */
+	EReference getProcess_ValidContext();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.CapabilityPattern <em>Capability Pattern</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Capability Pattern</em>'.
+	 * @see org.eclipse.epf.uma.CapabilityPattern
+	 * @generated
+	 */
+	EClass getCapabilityPattern();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.MethodConfiguration <em>Method Configuration</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Method Configuration</em>'.
+	 * @see org.eclipse.epf.uma.MethodConfiguration
+	 * @generated
+	 */
+	EClass getMethodConfiguration();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodConfiguration#getMethodPluginSelection <em>Method Plugin Selection</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Method Plugin Selection</em>'.
+	 * @see org.eclipse.epf.uma.MethodConfiguration#getMethodPluginSelection()
+	 * @see #getMethodConfiguration()
+	 * @generated
+	 */
+	EReference getMethodConfiguration_MethodPluginSelection();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodConfiguration#getMethodPackageSelection <em>Method Package Selection</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Method Package Selection</em>'.
+	 * @see org.eclipse.epf.uma.MethodConfiguration#getMethodPackageSelection()
+	 * @see #getMethodConfiguration()
+	 * @generated
+	 */
+	EReference getMethodConfiguration_MethodPackageSelection();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodConfiguration#getProcessViews <em>Process Views</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Process Views</em>'.
+	 * @see org.eclipse.epf.uma.MethodConfiguration#getProcessViews()
+	 * @see #getMethodConfiguration()
+	 * @generated
+	 */
+	EReference getMethodConfiguration_ProcessViews();
+
+	/**
+	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.MethodConfiguration#getDefaultView <em>Default View</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Default View</em>'.
+	 * @see org.eclipse.epf.uma.MethodConfiguration#getDefaultView()
+	 * @see #getMethodConfiguration()
+	 * @generated
+	 */
+	EReference getMethodConfiguration_DefaultView();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodConfiguration#getBaseConfigurations <em>Base Configurations</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Base Configurations</em>'.
+	 * @see org.eclipse.epf.uma.MethodConfiguration#getBaseConfigurations()
+	 * @see #getMethodConfiguration()
+	 * @generated
+	 */
+	EReference getMethodConfiguration_BaseConfigurations();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodConfiguration#getSubtractedCategory <em>Subtracted Category</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Subtracted Category</em>'.
+	 * @see org.eclipse.epf.uma.MethodConfiguration#getSubtractedCategory()
+	 * @see #getMethodConfiguration()
+	 * @generated
+	 */
+	EReference getMethodConfiguration_SubtractedCategory();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodConfiguration#getAddedCategory <em>Added Category</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Added Category</em>'.
+	 * @see org.eclipse.epf.uma.MethodConfiguration#getAddedCategory()
+	 * @see #getMethodConfiguration()
+	 * @generated
+	 */
+	EReference getMethodConfiguration_AddedCategory();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.MethodPlugin <em>Method Plugin</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Method Plugin</em>'.
+	 * @see org.eclipse.epf.uma.MethodPlugin
+	 * @generated
+	 */
+	EClass getMethodPlugin();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodPlugin#getUserChangeable <em>User Changeable</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>User Changeable</em>'.
+	 * @see org.eclipse.epf.uma.MethodPlugin#getUserChangeable()
+	 * @see #getMethodPlugin()
+	 * @generated
+	 */
+	EAttribute getMethodPlugin_UserChangeable();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.MethodPlugin#getMethodPackages <em>Method Packages</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Method Packages</em>'.
+	 * @see org.eclipse.epf.uma.MethodPlugin#getMethodPackages()
+	 * @see #getMethodPlugin()
+	 * @generated
+	 */
+	EReference getMethodPlugin_MethodPackages();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodPlugin#getBases <em>Bases</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Bases</em>'.
+	 * @see org.eclipse.epf.uma.MethodPlugin#getBases()
+	 * @see #getMethodPlugin()
+	 * @generated
+	 */
+	EReference getMethodPlugin_Bases();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodPlugin#isSupporting <em>Supporting</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Supporting</em>'.
+	 * @see org.eclipse.epf.uma.MethodPlugin#isSupporting()
+	 * @see #getMethodPlugin()
+	 * @generated
+	 */
+	EAttribute getMethodPlugin_Supporting();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ProcessPlanningTemplate <em>Process Planning Template</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Process Planning Template</em>'.
+	 * @see org.eclipse.epf.uma.ProcessPlanningTemplate
+	 * @generated
+	 */
+	EClass getProcessPlanningTemplate();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.ProcessPlanningTemplate#getBasedOnProcesses <em>Based On Processes</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Based On Processes</em>'.
+	 * @see org.eclipse.epf.uma.ProcessPlanningTemplate#getBasedOnProcesses()
+	 * @see #getProcessPlanningTemplate()
+	 * @generated
+	 */
+	EReference getProcessPlanningTemplate_BasedOnProcesses();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Practice <em>Practice</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Practice</em>'.
+	 * @see org.eclipse.epf.uma.Practice
+	 * @generated
+	 */
+	EClass getPractice();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.Practice#getSubPractices <em>Sub Practices</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Sub Practices</em>'.
+	 * @see org.eclipse.epf.uma.Practice#getSubPractices()
+	 * @see #getPractice()
+	 * @generated
+	 */
+	EReference getPractice_SubPractices();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Practice#getContentReferences <em>Content References</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Content References</em>'.
+	 * @see org.eclipse.epf.uma.Practice#getContentReferences()
+	 * @see #getPractice()
+	 * @generated
+	 */
+	EReference getPractice_ContentReferences();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Practice#getActivityReferences <em>Activity References</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Activity References</em>'.
+	 * @see org.eclipse.epf.uma.Practice#getActivityReferences()
+	 * @see #getPractice()
+	 * @generated
+	 */
+	EReference getPractice_ActivityReferences();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.BreakdownElementDescription <em>Breakdown Element Description</em>}'.
@@ -26143,526 +26903,25 @@ public interface UmaPackage extends EPackage {
 	EAttribute getDescriptorDescription_RefinedDescription();
 
 	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Concept <em>Concept</em>}'.
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ProcessComponentDescriptor <em>Process Component Descriptor</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Concept</em>'.
-	 * @see org.eclipse.epf.uma.Concept
+	 * @return the meta object for class '<em>Process Component Descriptor</em>'.
+	 * @see org.eclipse.epf.uma.ProcessComponentDescriptor
 	 * @generated
 	 */
-	EClass getConcept();
+	EClass getProcessComponentDescriptor();
 
 	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Checklist <em>Checklist</em>}'.
+	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.ProcessComponentDescriptor#get_processComponent <em>process Component</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Checklist</em>'.
-	 * @see org.eclipse.epf.uma.Checklist
+	 * @return the meta object for the reference '<em>process Component</em>'.
+	 * @see org.eclipse.epf.uma.ProcessComponentDescriptor#get_processComponent()
+	 * @see #getProcessComponentDescriptor()
 	 * @generated
 	 */
-	EClass getChecklist();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Example <em>Example</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Example</em>'.
-	 * @see org.eclipse.epf.uma.Example
-	 * @generated
-	 */
-	EClass getExample();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Guideline <em>Guideline</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Guideline</em>'.
-	 * @see org.eclipse.epf.uma.Guideline
-	 * @generated
-	 */
-	EClass getGuideline();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.EstimationConsiderations <em>Estimation Considerations</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Estimation Considerations</em>'.
-	 * @see org.eclipse.epf.uma.EstimationConsiderations
-	 * @generated
-	 */
-	EClass getEstimationConsiderations();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Report <em>Report</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Report</em>'.
-	 * @see org.eclipse.epf.uma.Report
-	 * @generated
-	 */
-	EClass getReport();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Template <em>Template</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Template</em>'.
-	 * @see org.eclipse.epf.uma.Template
-	 * @generated
-	 */
-	EClass getTemplate();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.SupportingMaterial <em>Supporting Material</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Supporting Material</em>'.
-	 * @see org.eclipse.epf.uma.SupportingMaterial
-	 * @generated
-	 */
-	EClass getSupportingMaterial();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ToolMentor <em>Tool Mentor</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Tool Mentor</em>'.
-	 * @see org.eclipse.epf.uma.ToolMentor
-	 * @generated
-	 */
-	EClass getToolMentor();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Whitepaper <em>Whitepaper</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Whitepaper</em>'.
-	 * @see org.eclipse.epf.uma.Whitepaper
-	 * @generated
-	 */
-	EClass getWhitepaper();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.TermDefinition <em>Term Definition</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Term Definition</em>'.
-	 * @see org.eclipse.epf.uma.TermDefinition
-	 * @generated
-	 */
-	EClass getTermDefinition();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ApplicableMetaClassInfo <em>Applicable Meta Class Info</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Applicable Meta Class Info</em>'.
-	 * @see org.eclipse.epf.uma.ApplicableMetaClassInfo
-	 * @generated
-	 */
-	EClass getApplicableMetaClassInfo();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.ApplicableMetaClassInfo#getIsPrimaryExtension <em>Is Primary Extension</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Is Primary Extension</em>'.
-	 * @see org.eclipse.epf.uma.ApplicableMetaClassInfo#getIsPrimaryExtension()
-	 * @see #getApplicableMetaClassInfo()
-	 * @generated
-	 */
-	EAttribute getApplicableMetaClassInfo_IsPrimaryExtension();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Practice <em>Practice</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Practice</em>'.
-	 * @see org.eclipse.epf.uma.Practice
-	 * @generated
-	 */
-	EClass getPractice();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.Practice#getSubPractices <em>Sub Practices</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Sub Practices</em>'.
-	 * @see org.eclipse.epf.uma.Practice#getSubPractices()
-	 * @see #getPractice()
-	 * @generated
-	 */
-	EReference getPractice_SubPractices();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Practice#getContentReferences <em>Content References</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Content References</em>'.
-	 * @see org.eclipse.epf.uma.Practice#getContentReferences()
-	 * @see #getPractice()
-	 * @generated
-	 */
-	EReference getPractice_ContentReferences();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Practice#getActivityReferences <em>Activity References</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Activity References</em>'.
-	 * @see org.eclipse.epf.uma.Practice#getActivityReferences()
-	 * @see #getPractice()
-	 * @generated
-	 */
-	EReference getPractice_ActivityReferences();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ReusableAsset <em>Reusable Asset</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Reusable Asset</em>'.
-	 * @see org.eclipse.epf.uma.ReusableAsset
-	 * @generated
-	 */
-	EClass getReusableAsset();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Discipline <em>Discipline</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Discipline</em>'.
-	 * @see org.eclipse.epf.uma.Discipline
-	 * @generated
-	 */
-	EClass getDiscipline();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Discipline#getTasks <em>Tasks</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Tasks</em>'.
-	 * @see org.eclipse.epf.uma.Discipline#getTasks()
-	 * @see #getDiscipline()
-	 * @generated
-	 */
-	EReference getDiscipline_Tasks();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.Discipline#getSubdiscipline <em>Subdiscipline</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Subdiscipline</em>'.
-	 * @see org.eclipse.epf.uma.Discipline#getSubdiscipline()
-	 * @see #getDiscipline()
-	 * @generated
-	 */
-	EReference getDiscipline_Subdiscipline();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Discipline#getReferenceWorkflows <em>Reference Workflows</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Reference Workflows</em>'.
-	 * @see org.eclipse.epf.uma.Discipline#getReferenceWorkflows()
-	 * @see #getDiscipline()
-	 * @generated
-	 */
-	EReference getDiscipline_ReferenceWorkflows();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ContentCategory <em>Content Category</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Content Category</em>'.
-	 * @see org.eclipse.epf.uma.ContentCategory
-	 * @generated
-	 */
-	EClass getContentCategory();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.RoleSet <em>Role Set</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Role Set</em>'.
-	 * @see org.eclipse.epf.uma.RoleSet
-	 * @generated
-	 */
-	EClass getRoleSet();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.RoleSet#getRoles <em>Roles</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Roles</em>'.
-	 * @see org.eclipse.epf.uma.RoleSet#getRoles()
-	 * @see #getRoleSet()
-	 * @generated
-	 */
-	EReference getRoleSet_Roles();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Domain <em>Domain</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Domain</em>'.
-	 * @see org.eclipse.epf.uma.Domain
-	 * @generated
-	 */
-	EClass getDomain();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Domain#getWorkProducts <em>Work Products</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Work Products</em>'.
-	 * @see org.eclipse.epf.uma.Domain#getWorkProducts()
-	 * @see #getDomain()
-	 * @generated
-	 */
-	EReference getDomain_WorkProducts();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.Domain#getSubdomains <em>Subdomains</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Subdomains</em>'.
-	 * @see org.eclipse.epf.uma.Domain#getSubdomains()
-	 * @see #getDomain()
-	 * @generated
-	 */
-	EReference getDomain_Subdomains();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.WorkProductType <em>Work Product Type</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Work Product Type</em>'.
-	 * @see org.eclipse.epf.uma.WorkProductType
-	 * @generated
-	 */
-	EClass getWorkProductType();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.WorkProductType#getWorkProducts <em>Work Products</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Work Products</em>'.
-	 * @see org.eclipse.epf.uma.WorkProductType#getWorkProducts()
-	 * @see #getWorkProductType()
-	 * @generated
-	 */
-	EReference getWorkProductType_WorkProducts();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.DisciplineGrouping <em>Discipline Grouping</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Discipline Grouping</em>'.
-	 * @see org.eclipse.epf.uma.DisciplineGrouping
-	 * @generated
-	 */
-	EClass getDisciplineGrouping();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.DisciplineGrouping#getDisciplines <em>Disciplines</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Disciplines</em>'.
-	 * @see org.eclipse.epf.uma.DisciplineGrouping#getDisciplines()
-	 * @see #getDisciplineGrouping()
-	 * @generated
-	 */
-	EReference getDisciplineGrouping_Disciplines();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Tool <em>Tool</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Tool</em>'.
-	 * @see org.eclipse.epf.uma.Tool
-	 * @generated
-	 */
-	EClass getTool();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Tool#getToolMentors <em>Tool Mentors</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Tool Mentors</em>'.
-	 * @see org.eclipse.epf.uma.Tool#getToolMentors()
-	 * @see #getTool()
-	 * @generated
-	 */
-	EReference getTool_ToolMentors();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.RoleSetGrouping <em>Role Set Grouping</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Role Set Grouping</em>'.
-	 * @see org.eclipse.epf.uma.RoleSetGrouping
-	 * @generated
-	 */
-	EClass getRoleSetGrouping();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.RoleSetGrouping#getRoleSets <em>Role Sets</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Role Sets</em>'.
-	 * @see org.eclipse.epf.uma.RoleSetGrouping#getRoleSets()
-	 * @see #getRoleSetGrouping()
-	 * @generated
-	 */
-	EReference getRoleSetGrouping_RoleSets();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.CustomCategory <em>Custom Category</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Custom Category</em>'.
-	 * @see org.eclipse.epf.uma.CustomCategory
-	 * @generated
-	 */
-	EClass getCustomCategory();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.CustomCategory#getCategorizedElements <em>Categorized Elements</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Categorized Elements</em>'.
-	 * @see org.eclipse.epf.uma.CustomCategory#getCategorizedElements()
-	 * @see #getCustomCategory()
-	 * @generated
-	 */
-	EReference getCustomCategory_CategorizedElements();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.CustomCategory#getSubCategories <em>Sub Categories</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Sub Categories</em>'.
-	 * @see org.eclipse.epf.uma.CustomCategory#getSubCategories()
-	 * @see #getCustomCategory()
-	 * @generated
-	 */
-	EReference getCustomCategory_SubCategories();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.DeliveryProcess <em>Delivery Process</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Delivery Process</em>'.
-	 * @see org.eclipse.epf.uma.DeliveryProcess
-	 * @generated
-	 */
-	EClass getDeliveryProcess();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.DeliveryProcess#getEducationMaterials <em>Education Materials</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Education Materials</em>'.
-	 * @see org.eclipse.epf.uma.DeliveryProcess#getEducationMaterials()
-	 * @see #getDeliveryProcess()
-	 * @generated
-	 */
-	EReference getDeliveryProcess_EducationMaterials();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.DeliveryProcess#getCommunicationsMaterials <em>Communications Materials</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Communications Materials</em>'.
-	 * @see org.eclipse.epf.uma.DeliveryProcess#getCommunicationsMaterials()
-	 * @see #getDeliveryProcess()
-	 * @generated
-	 */
-	EReference getDeliveryProcess_CommunicationsMaterials();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Process <em>Process</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Process</em>'.
-	 * @see org.eclipse.epf.uma.Process
-	 * @generated
-	 */
-	EClass getProcess();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Process#getIncludesPatterns <em>Includes Patterns</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Includes Patterns</em>'.
-	 * @see org.eclipse.epf.uma.Process#getIncludesPatterns()
-	 * @see #getProcess()
-	 * @generated
-	 */
-	EReference getProcess_IncludesPatterns();
-
-	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.Process#getDefaultContext <em>Default Context</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Default Context</em>'.
-	 * @see org.eclipse.epf.uma.Process#getDefaultContext()
-	 * @see #getProcess()
-	 * @generated
-	 */
-	EReference getProcess_DefaultContext();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Process#getValidContext <em>Valid Context</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Valid Context</em>'.
-	 * @see org.eclipse.epf.uma.Process#getValidContext()
-	 * @see #getProcess()
-	 * @generated
-	 */
-	EReference getProcess_ValidContext();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.CapabilityPattern <em>Capability Pattern</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Capability Pattern</em>'.
-	 * @see org.eclipse.epf.uma.CapabilityPattern
-	 * @generated
-	 */
-	EClass getCapabilityPattern();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ProcessPlanningTemplate <em>Process Planning Template</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Process Planning Template</em>'.
-	 * @see org.eclipse.epf.uma.ProcessPlanningTemplate
-	 * @generated
-	 */
-	EClass getProcessPlanningTemplate();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.ProcessPlanningTemplate#getBasedOnProcesses <em>Based On Processes</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Based On Processes</em>'.
-	 * @see org.eclipse.epf.uma.ProcessPlanningTemplate#getBasedOnProcesses()
-	 * @see #getProcessPlanningTemplate()
-	 * @generated
-	 */
-	EReference getProcessPlanningTemplate_BasedOnProcesses();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Roadmap <em>Roadmap</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Roadmap</em>'.
-	 * @see org.eclipse.epf.uma.Roadmap
-	 * @generated
-	 */
-	EClass getRoadmap();
+	EReference getProcessComponentDescriptor__processComponent();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ProcessComponent <em>Process Component</em>}'.
@@ -26729,380 +26988,79 @@ public interface UmaPackage extends EPackage {
 	EReference getProcessPackage_Diagrams();
 
 	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ProcessComponentInterface <em>Process Component Interface</em>}'.
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Diagram <em>Diagram</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Process Component Interface</em>'.
-	 * @see org.eclipse.epf.uma.ProcessComponentInterface
+	 * @return the meta object for class '<em>Diagram</em>'.
+	 * @see org.eclipse.epf.uma.Diagram
 	 * @generated
 	 */
-	EClass getProcessComponentInterface();
+	EClass getDiagram();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.ProcessComponentInterface#getInterfaceSpecifications <em>Interface Specifications</em>}'.
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Diagram#getDiagramLink <em>Diagram Link</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Interface Specifications</em>'.
-	 * @see org.eclipse.epf.uma.ProcessComponentInterface#getInterfaceSpecifications()
-	 * @see #getProcessComponentInterface()
+	 * @return the meta object for the reference list '<em>Diagram Link</em>'.
+	 * @see org.eclipse.epf.uma.Diagram#getDiagramLink()
+	 * @see #getDiagram()
 	 * @generated
 	 */
-	EReference getProcessComponentInterface_InterfaceSpecifications();
+	EReference getDiagram_DiagramLink();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.ProcessComponentInterface#getInterfaceIO <em>Interface IO</em>}'.
+	 * Returns the meta object for the containment reference '{@link org.eclipse.epf.uma.Diagram#getNamespace <em>Namespace</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Interface IO</em>'.
-	 * @see org.eclipse.epf.uma.ProcessComponentInterface#getInterfaceIO()
-	 * @see #getProcessComponentInterface()
+	 * @return the meta object for the containment reference '<em>Namespace</em>'.
+	 * @see org.eclipse.epf.uma.Diagram#getNamespace()
+	 * @see #getDiagram()
 	 * @generated
 	 */
-	EReference getProcessComponentInterface_InterfaceIO();
+	EReference getDiagram_Namespace();
 
 	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ProcessComponentDescriptor <em>Process Component Descriptor</em>}'.
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Diagram#getZoom <em>Zoom</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Process Component Descriptor</em>'.
-	 * @see org.eclipse.epf.uma.ProcessComponentDescriptor
+	 * @return the meta object for the attribute '<em>Zoom</em>'.
+	 * @see org.eclipse.epf.uma.Diagram#getZoom()
+	 * @see #getDiagram()
 	 * @generated
 	 */
-	EClass getProcessComponentDescriptor();
+	EAttribute getDiagram_Zoom();
 
 	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.ProcessComponentDescriptor#get_processComponent <em>process Component</em>}'.
+	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.Diagram#getViewpoint <em>Viewpoint</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>process Component</em>'.
-	 * @see org.eclipse.epf.uma.ProcessComponentDescriptor#get_processComponent()
-	 * @see #getProcessComponentDescriptor()
+	 * @return the meta object for the reference '<em>Viewpoint</em>'.
+	 * @see org.eclipse.epf.uma.Diagram#getViewpoint()
+	 * @see #getDiagram()
 	 * @generated
 	 */
-	EReference getProcessComponentDescriptor__processComponent();
+	EReference getDiagram_Viewpoint();
 
 	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.MethodPlugin <em>Method Plugin</em>}'.
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.GraphNode <em>Graph Node</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Method Plugin</em>'.
-	 * @see org.eclipse.epf.uma.MethodPlugin
+	 * @return the meta object for class '<em>Graph Node</em>'.
+	 * @see org.eclipse.epf.uma.GraphNode
 	 * @generated
 	 */
-	EClass getMethodPlugin();
+	EClass getGraphNode();
 
 	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodPlugin#getUserChangeable <em>User Changeable</em>}'.
+	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.GraphNode#getSize <em>Size</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>User Changeable</em>'.
-	 * @see org.eclipse.epf.uma.MethodPlugin#getUserChangeable()
-	 * @see #getMethodPlugin()
+	 * @return the meta object for the reference '<em>Size</em>'.
+	 * @see org.eclipse.epf.uma.GraphNode#getSize()
+	 * @see #getGraphNode()
 	 * @generated
 	 */
-	EAttribute getMethodPlugin_UserChangeable();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.MethodPlugin#getMethodPackages <em>Method Packages</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Method Packages</em>'.
-	 * @see org.eclipse.epf.uma.MethodPlugin#getMethodPackages()
-	 * @see #getMethodPlugin()
-	 * @generated
-	 */
-	EReference getMethodPlugin_MethodPackages();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodPlugin#getBases <em>Bases</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Bases</em>'.
-	 * @see org.eclipse.epf.uma.MethodPlugin#getBases()
-	 * @see #getMethodPlugin()
-	 * @generated
-	 */
-	EReference getMethodPlugin_Bases();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodPlugin#isSupporting <em>Supporting</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Supporting</em>'.
-	 * @see org.eclipse.epf.uma.MethodPlugin#isSupporting()
-	 * @see #getMethodPlugin()
-	 * @generated
-	 */
-	EAttribute getMethodPlugin_Supporting();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.VariabilityElement <em>Variability Element</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Variability Element</em>'.
-	 * @see org.eclipse.epf.uma.VariabilityElement
-	 * @generated
-	 */
-	EClass getVariabilityElement();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.VariabilityElement#getVariabilityType <em>Variability Type</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Variability Type</em>'.
-	 * @see org.eclipse.epf.uma.VariabilityElement#getVariabilityType()
-	 * @see #getVariabilityElement()
-	 * @generated
-	 */
-	EAttribute getVariabilityElement_VariabilityType();
-
-	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.VariabilityElement#getVariabilityBasedOnElement <em>Variability Based On Element</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Variability Based On Element</em>'.
-	 * @see org.eclipse.epf.uma.VariabilityElement#getVariabilityBasedOnElement()
-	 * @see #getVariabilityElement()
-	 * @generated
-	 */
-	EReference getVariabilityElement_VariabilityBasedOnElement();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.MethodUnit <em>Method Unit</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Method Unit</em>'.
-	 * @see org.eclipse.epf.uma.MethodUnit
-	 * @generated
-	 */
-	EClass getMethodUnit();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodUnit#getAuthors <em>Authors</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Authors</em>'.
-	 * @see org.eclipse.epf.uma.MethodUnit#getAuthors()
-	 * @see #getMethodUnit()
-	 * @generated
-	 */
-	EAttribute getMethodUnit_Authors();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodUnit#getChangeDate <em>Change Date</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Change Date</em>'.
-	 * @see org.eclipse.epf.uma.MethodUnit#getChangeDate()
-	 * @see #getMethodUnit()
-	 * @generated
-	 */
-	EAttribute getMethodUnit_ChangeDate();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodUnit#getChangeDescription <em>Change Description</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Change Description</em>'.
-	 * @see org.eclipse.epf.uma.MethodUnit#getChangeDescription()
-	 * @see #getMethodUnit()
-	 * @generated
-	 */
-	EAttribute getMethodUnit_ChangeDescription();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.MethodUnit#getVersion <em>Version</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Version</em>'.
-	 * @see org.eclipse.epf.uma.MethodUnit#getVersion()
-	 * @see #getMethodUnit()
-	 * @generated
-	 */
-	EAttribute getMethodUnit_Version();
-
-	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.MethodUnit#getCopyrightStatement <em>Copyright Statement</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Copyright Statement</em>'.
-	 * @see org.eclipse.epf.uma.MethodUnit#getCopyrightStatement()
-	 * @see #getMethodUnit()
-	 * @generated
-	 */
-	EReference getMethodUnit_CopyrightStatement();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.MethodConfiguration <em>Method Configuration</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Method Configuration</em>'.
-	 * @see org.eclipse.epf.uma.MethodConfiguration
-	 * @generated
-	 */
-	EClass getMethodConfiguration();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodConfiguration#getMethodPluginSelection <em>Method Plugin Selection</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Method Plugin Selection</em>'.
-	 * @see org.eclipse.epf.uma.MethodConfiguration#getMethodPluginSelection()
-	 * @see #getMethodConfiguration()
-	 * @generated
-	 */
-	EReference getMethodConfiguration_MethodPluginSelection();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodConfiguration#getMethodPackageSelection <em>Method Package Selection</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Method Package Selection</em>'.
-	 * @see org.eclipse.epf.uma.MethodConfiguration#getMethodPackageSelection()
-	 * @see #getMethodConfiguration()
-	 * @generated
-	 */
-	EReference getMethodConfiguration_MethodPackageSelection();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodConfiguration#getProcessViews <em>Process Views</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Process Views</em>'.
-	 * @see org.eclipse.epf.uma.MethodConfiguration#getProcessViews()
-	 * @see #getMethodConfiguration()
-	 * @generated
-	 */
-	EReference getMethodConfiguration_ProcessViews();
-
-	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.MethodConfiguration#getDefaultView <em>Default View</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Default View</em>'.
-	 * @see org.eclipse.epf.uma.MethodConfiguration#getDefaultView()
-	 * @see #getMethodConfiguration()
-	 * @generated
-	 */
-	EReference getMethodConfiguration_DefaultView();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodConfiguration#getBaseConfigurations <em>Base Configurations</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Base Configurations</em>'.
-	 * @see org.eclipse.epf.uma.MethodConfiguration#getBaseConfigurations()
-	 * @see #getMethodConfiguration()
-	 * @generated
-	 */
-	EReference getMethodConfiguration_BaseConfigurations();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodConfiguration#getSubtractedCategory <em>Subtracted Category</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Subtracted Category</em>'.
-	 * @see org.eclipse.epf.uma.MethodConfiguration#getSubtractedCategory()
-	 * @see #getMethodConfiguration()
-	 * @generated
-	 */
-	EReference getMethodConfiguration_SubtractedCategory();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.MethodConfiguration#getAddedCategory <em>Added Category</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Added Category</em>'.
-	 * @see org.eclipse.epf.uma.MethodConfiguration#getAddedCategory()
-	 * @see #getMethodConfiguration()
-	 * @generated
-	 */
-	EReference getMethodConfiguration_AddedCategory();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ProcessFamily <em>Process Family</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Process Family</em>'.
-	 * @see org.eclipse.epf.uma.ProcessFamily
-	 * @generated
-	 */
-	EClass getProcessFamily();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.ProcessFamily#getDeliveryProcesses <em>Delivery Processes</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Delivery Processes</em>'.
-	 * @see org.eclipse.epf.uma.ProcessFamily#getDeliveryProcesses()
-	 * @see #getProcessFamily()
-	 * @generated
-	 */
-	EReference getProcessFamily_DeliveryProcesses();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.MethodLibrary <em>Method Library</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Method Library</em>'.
-	 * @see org.eclipse.epf.uma.MethodLibrary
-	 * @generated
-	 */
-	EClass getMethodLibrary();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.MethodLibrary#getMethodPlugins <em>Method Plugins</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Method Plugins</em>'.
-	 * @see org.eclipse.epf.uma.MethodLibrary#getMethodPlugins()
-	 * @see #getMethodLibrary()
-	 * @generated
-	 */
-	EReference getMethodLibrary_MethodPlugins();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.MethodLibrary#getPredefinedConfigurations <em>Predefined Configurations</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Predefined Configurations</em>'.
-	 * @see org.eclipse.epf.uma.MethodLibrary#getPredefinedConfigurations()
-	 * @see #getMethodLibrary()
-	 * @generated
-	 */
-	EReference getMethodLibrary_PredefinedConfigurations();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Point <em>Point</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Point</em>'.
-	 * @see org.eclipse.epf.uma.Point
-	 * @generated
-	 */
-	EClass getPoint();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Point#getX <em>X</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>X</em>'.
-	 * @see org.eclipse.epf.uma.Point#getX()
-	 * @see #getPoint()
-	 * @generated
-	 */
-	EAttribute getPoint_X();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Point#getY <em>Y</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Y</em>'.
-	 * @see org.eclipse.epf.uma.Point#getY()
-	 * @see #getPoint()
-	 * @generated
-	 */
-	EAttribute getPoint_Y();
+	EReference getGraphNode_Size();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.GraphElement <em>Graph Element</em>}'.
@@ -27115,17 +27073,6 @@ public interface UmaPackage extends EPackage {
 	EClass getGraphElement();
 
 	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.GraphElement#getPosition <em>Position</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Position</em>'.
-	 * @see org.eclipse.epf.uma.GraphElement#getPosition()
-	 * @see #getGraphElement()
-	 * @generated
-	 */
-	EReference getGraphElement_Position();
-
-	/**
 	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.GraphElement#getContained <em>Contained</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -27135,6 +27082,17 @@ public interface UmaPackage extends EPackage {
 	 * @generated
 	 */
 	EReference getGraphElement_Contained();
+
+	/**
+	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.GraphElement#getPosition <em>Position</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Position</em>'.
+	 * @see org.eclipse.epf.uma.GraphElement#getPosition()
+	 * @see #getGraphElement()
+	 * @generated
+	 */
+	EReference getGraphElement_Position();
 
 	/**
 	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.GraphElement#getLink <em>Link</em>}'.
@@ -27224,167 +27182,6 @@ public interface UmaPackage extends EPackage {
 	EReference getDiagramElement_Property();
 
 	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.DiagramLink <em>Diagram Link</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Diagram Link</em>'.
-	 * @see org.eclipse.epf.uma.DiagramLink
-	 * @generated
-	 */
-	EClass getDiagramLink();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.DiagramLink#getZoom <em>Zoom</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Zoom</em>'.
-	 * @see org.eclipse.epf.uma.DiagramLink#getZoom()
-	 * @see #getDiagramLink()
-	 * @generated
-	 */
-	EAttribute getDiagramLink_Zoom();
-
-	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.DiagramLink#getViewport <em>Viewport</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Viewport</em>'.
-	 * @see org.eclipse.epf.uma.DiagramLink#getViewport()
-	 * @see #getDiagramLink()
-	 * @generated
-	 */
-	EReference getDiagramLink_Viewport();
-
-	/**
-	 * Returns the meta object for the container reference '{@link org.eclipse.epf.uma.DiagramLink#getGraphElement <em>Graph Element</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the container reference '<em>Graph Element</em>'.
-	 * @see org.eclipse.epf.uma.DiagramLink#getGraphElement()
-	 * @see #getDiagramLink()
-	 * @generated
-	 */
-	EReference getDiagramLink_GraphElement();
-
-	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.DiagramLink#getDiagram <em>Diagram</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Diagram</em>'.
-	 * @see org.eclipse.epf.uma.DiagramLink#getDiagram()
-	 * @see #getDiagramLink()
-	 * @generated
-	 */
-	EReference getDiagramLink_Diagram();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.GraphConnector <em>Graph Connector</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Graph Connector</em>'.
-	 * @see org.eclipse.epf.uma.GraphConnector
-	 * @generated
-	 */
-	EClass getGraphConnector();
-
-	/**
-	 * Returns the meta object for the container reference '{@link org.eclipse.epf.uma.GraphConnector#getGraphElement <em>Graph Element</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the container reference '<em>Graph Element</em>'.
-	 * @see org.eclipse.epf.uma.GraphConnector#getGraphElement()
-	 * @see #getGraphConnector()
-	 * @generated
-	 */
-	EReference getGraphConnector_GraphElement();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.GraphConnector#getGraphEdge <em>Graph Edge</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Graph Edge</em>'.
-	 * @see org.eclipse.epf.uma.GraphConnector#getGraphEdge()
-	 * @see #getGraphConnector()
-	 * @generated
-	 */
-	EReference getGraphConnector_GraphEdge();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.SemanticModelBridge <em>Semantic Model Bridge</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Semantic Model Bridge</em>'.
-	 * @see org.eclipse.epf.uma.SemanticModelBridge
-	 * @generated
-	 */
-	EClass getSemanticModelBridge();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.SemanticModelBridge#getPresentation <em>Presentation</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Presentation</em>'.
-	 * @see org.eclipse.epf.uma.SemanticModelBridge#getPresentation()
-	 * @see #getSemanticModelBridge()
-	 * @generated
-	 */
-	EAttribute getSemanticModelBridge_Presentation();
-
-	/**
-	 * Returns the meta object for the container reference '{@link org.eclipse.epf.uma.SemanticModelBridge#getGraphElement <em>Graph Element</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the container reference '<em>Graph Element</em>'.
-	 * @see org.eclipse.epf.uma.SemanticModelBridge#getGraphElement()
-	 * @see #getSemanticModelBridge()
-	 * @generated
-	 */
-	EReference getSemanticModelBridge_GraphElement();
-
-	/**
-	 * Returns the meta object for the container reference '{@link org.eclipse.epf.uma.SemanticModelBridge#getDiagram <em>Diagram</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the container reference '<em>Diagram</em>'.
-	 * @see org.eclipse.epf.uma.SemanticModelBridge#getDiagram()
-	 * @see #getSemanticModelBridge()
-	 * @generated
-	 */
-	EReference getSemanticModelBridge_Diagram();
-
-	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Dimension <em>Dimension</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Dimension</em>'.
-	 * @see org.eclipse.epf.uma.Dimension
-	 * @generated
-	 */
-	EClass getDimension();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Dimension#getWidth <em>Width</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Width</em>'.
-	 * @see org.eclipse.epf.uma.Dimension#getWidth()
-	 * @see #getDimension()
-	 * @generated
-	 */
-	EAttribute getDimension_Width();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Dimension#getHeight <em>Height</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Height</em>'.
-	 * @see org.eclipse.epf.uma.Dimension#getHeight()
-	 * @see #getDimension()
-	 * @generated
-	 */
-	EAttribute getDimension_Height();
-
-	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Reference <em>Reference</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -27449,6 +27246,124 @@ public interface UmaPackage extends EPackage {
 	EAttribute getProperty_Value();
 
 	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Point <em>Point</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Point</em>'.
+	 * @see org.eclipse.epf.uma.Point
+	 * @generated
+	 */
+	EClass getPoint();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Point#getX <em>X</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>X</em>'.
+	 * @see org.eclipse.epf.uma.Point#getX()
+	 * @see #getPoint()
+	 * @generated
+	 */
+	EAttribute getPoint_X();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Point#getY <em>Y</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Y</em>'.
+	 * @see org.eclipse.epf.uma.Point#getY()
+	 * @see #getPoint()
+	 * @generated
+	 */
+	EAttribute getPoint_Y();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.DiagramLink <em>Diagram Link</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Diagram Link</em>'.
+	 * @see org.eclipse.epf.uma.DiagramLink
+	 * @generated
+	 */
+	EClass getDiagramLink();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.DiagramLink#getZoom <em>Zoom</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Zoom</em>'.
+	 * @see org.eclipse.epf.uma.DiagramLink#getZoom()
+	 * @see #getDiagramLink()
+	 * @generated
+	 */
+	EAttribute getDiagramLink_Zoom();
+
+	/**
+	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.DiagramLink#getViewport <em>Viewport</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Viewport</em>'.
+	 * @see org.eclipse.epf.uma.DiagramLink#getViewport()
+	 * @see #getDiagramLink()
+	 * @generated
+	 */
+	EReference getDiagramLink_Viewport();
+
+	/**
+	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.DiagramLink#getDiagram <em>Diagram</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Diagram</em>'.
+	 * @see org.eclipse.epf.uma.DiagramLink#getDiagram()
+	 * @see #getDiagramLink()
+	 * @generated
+	 */
+	EReference getDiagramLink_Diagram();
+
+	/**
+	 * Returns the meta object for the container reference '{@link org.eclipse.epf.uma.DiagramLink#getGraphElement <em>Graph Element</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the container reference '<em>Graph Element</em>'.
+	 * @see org.eclipse.epf.uma.DiagramLink#getGraphElement()
+	 * @see #getDiagramLink()
+	 * @generated
+	 */
+	EReference getDiagramLink_GraphElement();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.GraphConnector <em>Graph Connector</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Graph Connector</em>'.
+	 * @see org.eclipse.epf.uma.GraphConnector
+	 * @generated
+	 */
+	EClass getGraphConnector();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.GraphConnector#getGraphEdge <em>Graph Edge</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Graph Edge</em>'.
+	 * @see org.eclipse.epf.uma.GraphConnector#getGraphEdge()
+	 * @see #getGraphConnector()
+	 * @generated
+	 */
+	EReference getGraphConnector_GraphEdge();
+
+	/**
+	 * Returns the meta object for the container reference '{@link org.eclipse.epf.uma.GraphConnector#getGraphElement <em>Graph Element</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the container reference '<em>Graph Element</em>'.
+	 * @see org.eclipse.epf.uma.GraphConnector#getGraphElement()
+	 * @see #getGraphConnector()
+	 * @generated
+	 */
+	EReference getGraphConnector_GraphElement();
+
+	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.GraphEdge <em>Graph Edge</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -27457,17 +27372,6 @@ public interface UmaPackage extends EPackage {
 	 * @generated
 	 */
 	EClass getGraphEdge();
-
-	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.GraphEdge#getAnchor <em>Anchor</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Anchor</em>'.
-	 * @see org.eclipse.epf.uma.GraphEdge#getAnchor()
-	 * @see #getGraphEdge()
-	 * @generated
-	 */
-	EReference getGraphEdge_Anchor();
 
 	/**
 	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.GraphEdge#getWaypoints <em>Waypoints</em>}'.
@@ -27481,79 +27385,122 @@ public interface UmaPackage extends EPackage {
 	EReference getGraphEdge_Waypoints();
 
 	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Diagram <em>Diagram</em>}'.
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.GraphEdge#getAnchor <em>Anchor</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Diagram</em>'.
-	 * @see org.eclipse.epf.uma.Diagram
+	 * @return the meta object for the reference list '<em>Anchor</em>'.
+	 * @see org.eclipse.epf.uma.GraphEdge#getAnchor()
+	 * @see #getGraphEdge()
 	 * @generated
 	 */
-	EClass getDiagram();
+	EReference getGraphEdge_Anchor();
 
 	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Diagram#getZoom <em>Zoom</em>}'.
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.SemanticModelBridge <em>Semantic Model Bridge</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Zoom</em>'.
-	 * @see org.eclipse.epf.uma.Diagram#getZoom()
-	 * @see #getDiagram()
+	 * @return the meta object for class '<em>Semantic Model Bridge</em>'.
+	 * @see org.eclipse.epf.uma.SemanticModelBridge
 	 * @generated
 	 */
-	EAttribute getDiagram_Zoom();
+	EClass getSemanticModelBridge();
 
 	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.Diagram#getViewpoint <em>Viewpoint</em>}'.
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.SemanticModelBridge#getPresentation <em>Presentation</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Viewpoint</em>'.
-	 * @see org.eclipse.epf.uma.Diagram#getViewpoint()
-	 * @see #getDiagram()
+	 * @return the meta object for the attribute '<em>Presentation</em>'.
+	 * @see org.eclipse.epf.uma.SemanticModelBridge#getPresentation()
+	 * @see #getSemanticModelBridge()
 	 * @generated
 	 */
-	EReference getDiagram_Viewpoint();
+	EAttribute getSemanticModelBridge_Presentation();
 
 	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.Diagram#getDiagramLink <em>Diagram Link</em>}'.
+	 * Returns the meta object for the container reference '{@link org.eclipse.epf.uma.SemanticModelBridge#getDiagram <em>Diagram</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Diagram Link</em>'.
-	 * @see org.eclipse.epf.uma.Diagram#getDiagramLink()
-	 * @see #getDiagram()
+	 * @return the meta object for the container reference '<em>Diagram</em>'.
+	 * @see org.eclipse.epf.uma.SemanticModelBridge#getDiagram()
+	 * @see #getSemanticModelBridge()
 	 * @generated
 	 */
-	EReference getDiagram_DiagramLink();
+	EReference getSemanticModelBridge_Diagram();
 
 	/**
-	 * Returns the meta object for the containment reference '{@link org.eclipse.epf.uma.Diagram#getNamespace <em>Namespace</em>}'.
+	 * Returns the meta object for the container reference '{@link org.eclipse.epf.uma.SemanticModelBridge#getGraphElement <em>Graph Element</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference '<em>Namespace</em>'.
-	 * @see org.eclipse.epf.uma.Diagram#getNamespace()
-	 * @see #getDiagram()
+	 * @return the meta object for the container reference '<em>Graph Element</em>'.
+	 * @see org.eclipse.epf.uma.SemanticModelBridge#getGraphElement()
+	 * @see #getSemanticModelBridge()
 	 * @generated
 	 */
-	EReference getDiagram_Namespace();
+	EReference getSemanticModelBridge_GraphElement();
 
 	/**
-	 * Returns the meta object for class '{@link org.eclipse.epf.uma.GraphNode <em>Graph Node</em>}'.
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.Dimension <em>Dimension</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Graph Node</em>'.
-	 * @see org.eclipse.epf.uma.GraphNode
+	 * @return the meta object for class '<em>Dimension</em>'.
+	 * @see org.eclipse.epf.uma.Dimension
 	 * @generated
 	 */
-	EClass getGraphNode();
+	EClass getDimension();
 
 	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.GraphNode#getSize <em>Size</em>}'.
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Dimension#getWidth <em>Width</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Size</em>'.
-	 * @see org.eclipse.epf.uma.GraphNode#getSize()
-	 * @see #getGraphNode()
+	 * @return the meta object for the attribute '<em>Width</em>'.
+	 * @see org.eclipse.epf.uma.Dimension#getWidth()
+	 * @see #getDimension()
 	 * @generated
 	 */
-	EReference getGraphNode_Size();
+	EAttribute getDimension_Width();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Dimension#getHeight <em>Height</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Height</em>'.
+	 * @see org.eclipse.epf.uma.Dimension#getHeight()
+	 * @see #getDimension()
+	 * @generated
+	 */
+	EAttribute getDimension_Height();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ProcessComponentInterface <em>Process Component Interface</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Process Component Interface</em>'.
+	 * @see org.eclipse.epf.uma.ProcessComponentInterface
+	 * @generated
+	 */
+	EClass getProcessComponentInterface();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.ProcessComponentInterface#getInterfaceSpecifications <em>Interface Specifications</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Interface Specifications</em>'.
+	 * @see org.eclipse.epf.uma.ProcessComponentInterface#getInterfaceSpecifications()
+	 * @see #getProcessComponentInterface()
+	 * @generated
+	 */
+	EReference getProcessComponentInterface_InterfaceSpecifications();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.ProcessComponentInterface#getInterfaceIO <em>Interface IO</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Interface IO</em>'.
+	 * @see org.eclipse.epf.uma.ProcessComponentInterface#getInterfaceIO()
+	 * @see #getProcessComponentInterface()
+	 * @generated
+	 */
+	EReference getProcessComponentInterface_InterfaceIO();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.epf.uma.SimpleSemanticModelElement <em>Simple Semantic Model Element</em>}'.
@@ -27734,6 +27681,17 @@ public interface UmaPackage extends EPackage {
 	EClass getEllipse();
 
 	/**
+	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.Ellipse#getCenter <em>Center</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Center</em>'.
+	 * @see org.eclipse.epf.uma.Ellipse#getCenter()
+	 * @see #getEllipse()
+	 * @generated
+	 */
+	EReference getEllipse_Center();
+
+	/**
 	 * Returns the meta object for the attribute '{@link org.eclipse.epf.uma.Ellipse#getRadiusX <em>Radius X</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -27789,25 +27747,57 @@ public interface UmaPackage extends EPackage {
 	EAttribute getEllipse_EndAngle();
 
 	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.epf.uma.Ellipse#getCenter <em>Center</em>}'.
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.ProcessFamily <em>Process Family</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Center</em>'.
-	 * @see org.eclipse.epf.uma.Ellipse#getCenter()
-	 * @see #getEllipse()
+	 * @return the meta object for class '<em>Process Family</em>'.
+	 * @see org.eclipse.epf.uma.ProcessFamily
 	 * @generated
 	 */
-	EReference getEllipse_Center();
+	EClass getProcessFamily();
 
 	/**
-	 * Returns the meta object for enum '{@link org.eclipse.epf.uma.WorkOrderType <em>Work Order Type</em>}'.
+	 * Returns the meta object for the reference list '{@link org.eclipse.epf.uma.ProcessFamily#getDeliveryProcesses <em>Delivery Processes</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for enum '<em>Work Order Type</em>'.
-	 * @see org.eclipse.epf.uma.WorkOrderType
+	 * @return the meta object for the reference list '<em>Delivery Processes</em>'.
+	 * @see org.eclipse.epf.uma.ProcessFamily#getDeliveryProcesses()
+	 * @see #getProcessFamily()
 	 * @generated
 	 */
-	EEnum getWorkOrderType();
+	EReference getProcessFamily_DeliveryProcesses();
+
+	/**
+	 * Returns the meta object for class '{@link org.eclipse.epf.uma.MethodLibrary <em>Method Library</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Method Library</em>'.
+	 * @see org.eclipse.epf.uma.MethodLibrary
+	 * @generated
+	 */
+	EClass getMethodLibrary();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.MethodLibrary#getMethodPlugins <em>Method Plugins</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Method Plugins</em>'.
+	 * @see org.eclipse.epf.uma.MethodLibrary#getMethodPlugins()
+	 * @see #getMethodLibrary()
+	 * @generated
+	 */
+	EReference getMethodLibrary_MethodPlugins();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.eclipse.epf.uma.MethodLibrary#getPredefinedConfigurations <em>Predefined Configurations</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Predefined Configurations</em>'.
+	 * @see org.eclipse.epf.uma.MethodLibrary#getPredefinedConfigurations()
+	 * @see #getMethodLibrary()
+	 * @generated
+	 */
+	EReference getMethodLibrary_PredefinedConfigurations();
 
 	/**
 	 * Returns the meta object for enum '{@link org.eclipse.epf.uma.VariabilityType <em>Variability Type</em>}'.
@@ -27820,31 +27810,22 @@ public interface UmaPackage extends EPackage {
 	EEnum getVariabilityType();
 
 	/**
-	 * Returns the meta object for data type '{@link java.util.Date <em>Date</em>}'.
+	 * Returns the meta object for enum '{@link org.eclipse.epf.uma.WorkOrderType <em>Work Order Type</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for data type '<em>Date</em>'.
-	 * @see java.util.Date
-	 * @model instanceClass="java.util.Date"
+	 * @return the meta object for enum '<em>Work Order Type</em>'.
+	 * @see org.eclipse.epf.uma.WorkOrderType
 	 * @generated
 	 */
-	EDataType getDate();
-
-	/**
-	 * Returns the meta object for data type '{@link java.net.URI <em>Uri</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for data type '<em>Uri</em>'.
-	 * @see java.net.URI
-	 * @model instanceClass="java.net.URI"
-	 * @generated
-	 */
-	EDataType getUri();
+	EEnum getWorkOrderType();
 
 	/**
 	 * Returns the meta object for data type '{@link java.lang.String <em>String</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * A string is a sequence of characters in some suitable character set used to display information about the model. Character sets may include non-Roman alphabets and characters.
+	 * <!-- end-model-doc -->
 	 * @return the meta object for data type '<em>String</em>'.
 	 * @see java.lang.String
 	 * @model instanceClass="java.lang.String"
@@ -27856,12 +27837,43 @@ public interface UmaPackage extends EPackage {
 	 * Returns the meta object for data type '{@link java.lang.Boolean <em>Boolean</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * A Boolean type is used for logical expression, consisting of the predefined values true and false.
+	 * <!-- end-model-doc -->
 	 * @return the meta object for data type '<em>Boolean</em>'.
 	 * @see java.lang.Boolean
 	 * @model instanceClass="java.lang.Boolean"
 	 * @generated
 	 */
 	EDataType getBoolean();
+
+	/**
+	 * Returns the meta object for data type '{@link java.util.Date <em>Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Data type used for attributes of meta-model classes of the type Date.
+	 * <!-- end-model-doc -->
+	 * @return the meta object for data type '<em>Date</em>'.
+	 * @see java.util.Date
+	 * @model instanceClass="java.util.Date"
+	 * @generated
+	 */
+	EDataType getDate();
+
+	/**
+	 * Returns the meta object for data type '{@link java.net.URI <em>Uri</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Data type used for attributes of meta-model classes that point to resources such as files.
+	 * <!-- end-model-doc -->
+	 * @return the meta object for data type '<em>Uri</em>'.
+	 * @see java.net.URI
+	 * @model instanceClass="java.net.URI"
+	 * @generated
+	 */
+	EDataType getUri();
 
 	/**
 	 * Returns the meta object for data type '{@link java.util.Set <em>Set</em>}'.
@@ -27889,6 +27901,9 @@ public interface UmaPackage extends EPackage {
 	 * Returns the meta object for data type '<em>Integer</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * An integer is a primitive type representing integer values.
+	 * <!-- end-model-doc -->
 	 * @return the meta object for data type '<em>Integer</em>'.
 	 * @model instanceClass="int"
 	 * @generated
@@ -27944,8 +27959,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute CLASSIFIER__IS_ABSTRACT = eINSTANCE
-				.getClassifier_IsAbstract();
+		EAttribute CLASSIFIER__IS_ABSTRACT = eINSTANCE.getClassifier_IsAbstract();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.TypeImpl <em>Type</em>}' class.
@@ -27958,14 +27972,14 @@ public interface UmaPackage extends EPackage {
 		EClass TYPE = eINSTANCE.getType();
 
 		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ElementImpl <em>Element</em>}' class.
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.PackageableElementImpl <em>Packageable Element</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ElementImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getElement()
+		 * @see org.eclipse.epf.uma.impl.PackageableElementImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPackageableElement()
 		 * @generated
 		 */
-		EClass ELEMENT = eINSTANCE.getElement();
+		EClass PACKAGEABLE_ELEMENT = eINSTANCE.getPackageableElement();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.NamedElementImpl <em>Named Element</em>}' class.
@@ -27986,14 +28000,14 @@ public interface UmaPackage extends EPackage {
 		EAttribute NAMED_ELEMENT__NAME = eINSTANCE.getNamedElement_Name();
 
 		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.PackageableElementImpl <em>Packageable Element</em>}' class.
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ElementImpl <em>Element</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.PackageableElementImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPackageableElement()
+		 * @see org.eclipse.epf.uma.impl.ElementImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getElement()
 		 * @generated
 		 */
-		EClass PACKAGEABLE_ELEMENT = eINSTANCE.getPackageableElement();
+		EClass ELEMENT = eINSTANCE.getElement();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.PackageImpl <em>Package</em>}' class.
@@ -28014,6 +28028,24 @@ public interface UmaPackage extends EPackage {
 		 * @generated
 		 */
 		EClass NAMESPACE = eINSTANCE.getNamespace();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ConstraintImpl <em>Constraint</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ConstraintImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getConstraint()
+		 * @generated
+		 */
+		EClass CONSTRAINT = eINSTANCE.getConstraint();
+
+		/**
+		 * The meta object literal for the '<em><b>Body</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CONSTRAINT__BODY = eINSTANCE.getConstraint_Body();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.MethodElementImpl <em>Method Element</em>}' class.
@@ -28039,8 +28071,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute METHOD_ELEMENT__PRESENTATION_NAME = eINSTANCE
-				.getMethodElement_PresentationName();
+		EAttribute METHOD_ELEMENT__PRESENTATION_NAME = eINSTANCE.getMethodElement_PresentationName();
 
 		/**
 		 * The meta object literal for the '<em><b>Brief Description</b></em>' attribute feature.
@@ -28048,8 +28079,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute METHOD_ELEMENT__BRIEF_DESCRIPTION = eINSTANCE
-				.getMethodElement_BriefDescription();
+		EAttribute METHOD_ELEMENT__BRIEF_DESCRIPTION = eINSTANCE.getMethodElement_BriefDescription();
 
 		/**
 		 * The meta object literal for the '<em><b>Owned Rules</b></em>' containment reference list feature.
@@ -28057,8 +28087,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference METHOD_ELEMENT__OWNED_RULES = eINSTANCE
-				.getMethodElement_OwnedRules();
+		EReference METHOD_ELEMENT__OWNED_RULES = eINSTANCE.getMethodElement_OwnedRules();
 
 		/**
 		 * The meta object literal for the '<em><b>Method Element Property</b></em>' containment reference list feature.
@@ -28066,8 +28095,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY = eINSTANCE
-				.getMethodElement_MethodElementProperty();
+		EReference METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY = eINSTANCE.getMethodElement_MethodElementProperty();
 
 		/**
 		 * The meta object literal for the '<em><b>Kind</b></em>' reference list feature.
@@ -28083,8 +28111,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute METHOD_ELEMENT__SUPPRESSED = eINSTANCE
-				.getMethodElement_Suppressed();
+		EAttribute METHOD_ELEMENT__SUPPRESSED = eINSTANCE.getMethodElement_Suppressed();
 
 		/**
 		 * The meta object literal for the '<em><b>Ordering Guide</b></em>' attribute feature.
@@ -28092,26 +28119,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute METHOD_ELEMENT__ORDERING_GUIDE = eINSTANCE
-				.getMethodElement_OrderingGuide();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ConstraintImpl <em>Constraint</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ConstraintImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getConstraint()
-		 * @generated
-		 */
-		EClass CONSTRAINT = eINSTANCE.getConstraint();
-
-		/**
-		 * The meta object literal for the '<em><b>Body</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute CONSTRAINT__BODY = eINSTANCE.getConstraint_Body();
+		EAttribute METHOD_ELEMENT__ORDERING_GUIDE = eINSTANCE.getMethodElement_OrderingGuide();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.MethodElementPropertyImpl <em>Method Element Property</em>}' class.
@@ -28129,8 +28137,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute METHOD_ELEMENT_PROPERTY__VALUE = eINSTANCE
-				.getMethodElementProperty_Value();
+		EAttribute METHOD_ELEMENT_PROPERTY__VALUE = eINSTANCE.getMethodElementProperty_Value();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.KindImpl <em>Kind</em>}' class.
@@ -28148,8 +28155,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference KIND__APPLICABLE_META_CLASS_INFO = eINSTANCE
-				.getKind_ApplicableMetaClassInfo();
+		EReference KIND__APPLICABLE_META_CLASS_INFO = eINSTANCE.getKind_ApplicableMetaClassInfo();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ContentElementImpl <em>Content Element</em>}' class.
@@ -28167,8 +28173,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference CONTENT_ELEMENT__SUPPORTING_MATERIALS = eINSTANCE
-				.getContentElement_SupportingMaterials();
+		EReference CONTENT_ELEMENT__SUPPORTING_MATERIALS = eINSTANCE.getContentElement_SupportingMaterials();
 
 		/**
 		 * The meta object literal for the '<em><b>Concepts And Papers</b></em>' reference list feature.
@@ -28176,8 +28181,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference CONTENT_ELEMENT__CONCEPTS_AND_PAPERS = eINSTANCE
-				.getContentElement_ConceptsAndPapers();
+		EReference CONTENT_ELEMENT__CONCEPTS_AND_PAPERS = eINSTANCE.getContentElement_ConceptsAndPapers();
 
 		/**
 		 * The meta object literal for the '<em><b>Checklists</b></em>' reference list feature.
@@ -28185,8 +28189,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference CONTENT_ELEMENT__CHECKLISTS = eINSTANCE
-				.getContentElement_Checklists();
+		EReference CONTENT_ELEMENT__CHECKLISTS = eINSTANCE.getContentElement_Checklists();
 
 		/**
 		 * The meta object literal for the '<em><b>Guidelines</b></em>' reference list feature.
@@ -28194,8 +28197,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference CONTENT_ELEMENT__GUIDELINES = eINSTANCE
-				.getContentElement_Guidelines();
+		EReference CONTENT_ELEMENT__GUIDELINES = eINSTANCE.getContentElement_Guidelines();
 
 		/**
 		 * The meta object literal for the '<em><b>Examples</b></em>' reference list feature.
@@ -28203,8 +28205,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference CONTENT_ELEMENT__EXAMPLES = eINSTANCE
-				.getContentElement_Examples();
+		EReference CONTENT_ELEMENT__EXAMPLES = eINSTANCE.getContentElement_Examples();
 
 		/**
 		 * The meta object literal for the '<em><b>Assets</b></em>' reference list feature.
@@ -28212,8 +28213,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference CONTENT_ELEMENT__ASSETS = eINSTANCE
-				.getContentElement_Assets();
+		EReference CONTENT_ELEMENT__ASSETS = eINSTANCE.getContentElement_Assets();
 
 		/**
 		 * The meta object literal for the '<em><b>Termdefinition</b></em>' reference list feature.
@@ -28221,8 +28221,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference CONTENT_ELEMENT__TERMDEFINITION = eINSTANCE
-				.getContentElement_Termdefinition();
+		EReference CONTENT_ELEMENT__TERMDEFINITION = eINSTANCE.getContentElement_Termdefinition();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DescribableElementImpl <em>Describable Element</em>}' class.
@@ -28240,8 +28239,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference DESCRIBABLE_ELEMENT__PRESENTATION = eINSTANCE
-				.getDescribableElement_Presentation();
+		EReference DESCRIBABLE_ELEMENT__PRESENTATION = eINSTANCE.getDescribableElement_Presentation();
 
 		/**
 		 * The meta object literal for the '<em><b>Shapeicon</b></em>' attribute feature.
@@ -28249,8 +28247,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute DESCRIBABLE_ELEMENT__SHAPEICON = eINSTANCE
-				.getDescribableElement_Shapeicon();
+		EAttribute DESCRIBABLE_ELEMENT__SHAPEICON = eINSTANCE.getDescribableElement_Shapeicon();
 
 		/**
 		 * The meta object literal for the '<em><b>Nodeicon</b></em>' attribute feature.
@@ -28258,8 +28255,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute DESCRIBABLE_ELEMENT__NODEICON = eINSTANCE
-				.getDescribableElement_Nodeicon();
+		EAttribute DESCRIBABLE_ELEMENT__NODEICON = eINSTANCE.getDescribableElement_Nodeicon();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ContentDescriptionImpl <em>Content Description</em>}' class.
@@ -28277,8 +28273,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute CONTENT_DESCRIPTION__MAIN_DESCRIPTION = eINSTANCE
-				.getContentDescription_MainDescription();
+		EAttribute CONTENT_DESCRIPTION__MAIN_DESCRIPTION = eINSTANCE.getContentDescription_MainDescription();
 
 		/**
 		 * The meta object literal for the '<em><b>Sections</b></em>' containment reference list feature.
@@ -28286,8 +28281,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference CONTENT_DESCRIPTION__SECTIONS = eINSTANCE
-				.getContentDescription_Sections();
+		EReference CONTENT_DESCRIPTION__SECTIONS = eINSTANCE.getContentDescription_Sections();
 
 		/**
 		 * The meta object literal for the '<em><b>External Id</b></em>' attribute feature.
@@ -28295,8 +28289,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute CONTENT_DESCRIPTION__EXTERNAL_ID = eINSTANCE
-				.getContentDescription_ExternalId();
+		EAttribute CONTENT_DESCRIPTION__EXTERNAL_ID = eINSTANCE.getContentDescription_ExternalId();
 
 		/**
 		 * The meta object literal for the '<em><b>Key Considerations</b></em>' attribute feature.
@@ -28304,8 +28297,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute CONTENT_DESCRIPTION__KEY_CONSIDERATIONS = eINSTANCE
-				.getContentDescription_KeyConsiderations();
+		EAttribute CONTENT_DESCRIPTION__KEY_CONSIDERATIONS = eINSTANCE.getContentDescription_KeyConsiderations();
 
 		/**
 		 * The meta object literal for the '<em><b>Long Presentation Name</b></em>' attribute feature.
@@ -28313,8 +28305,77 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute CONTENT_DESCRIPTION__LONG_PRESENTATION_NAME = eINSTANCE
-				.getContentDescription_LongPresentationName();
+		EAttribute CONTENT_DESCRIPTION__LONG_PRESENTATION_NAME = eINSTANCE.getContentDescription_LongPresentationName();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.MethodUnitImpl <em>Method Unit</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.MethodUnitImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodUnit()
+		 * @generated
+		 */
+		EClass METHOD_UNIT = eINSTANCE.getMethodUnit();
+
+		/**
+		 * The meta object literal for the '<em><b>Authors</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute METHOD_UNIT__AUTHORS = eINSTANCE.getMethodUnit_Authors();
+
+		/**
+		 * The meta object literal for the '<em><b>Change Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute METHOD_UNIT__CHANGE_DATE = eINSTANCE.getMethodUnit_ChangeDate();
+
+		/**
+		 * The meta object literal for the '<em><b>Change Description</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute METHOD_UNIT__CHANGE_DESCRIPTION = eINSTANCE.getMethodUnit_ChangeDescription();
+
+		/**
+		 * The meta object literal for the '<em><b>Version</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute METHOD_UNIT__VERSION = eINSTANCE.getMethodUnit_Version();
+
+		/**
+		 * The meta object literal for the '<em><b>Copyright Statement</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_UNIT__COPYRIGHT_STATEMENT = eINSTANCE.getMethodUnit_CopyrightStatement();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.SupportingMaterialImpl <em>Supporting Material</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.SupportingMaterialImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getSupportingMaterial()
+		 * @generated
+		 */
+		EClass SUPPORTING_MATERIAL = eINSTANCE.getSupportingMaterial();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.GuidanceImpl <em>Guidance</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.GuidanceImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGuidance()
+		 * @generated
+		 */
+		EClass GUIDANCE = eINSTANCE.getGuidance();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.SectionImpl <em>Section</em>}' class.
@@ -28340,8 +28401,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute SECTION__SECTION_DESCRIPTION = eINSTANCE
-				.getSection_SectionDescription();
+		EAttribute SECTION__SECTION_DESCRIPTION = eINSTANCE.getSection_SectionDescription();
 
 		/**
 		 * The meta object literal for the '<em><b>Sub Sections</b></em>' containment reference list feature.
@@ -28360,30 +28420,136 @@ public interface UmaPackage extends EPackage {
 		EReference SECTION__PREDECESSOR = eINSTANCE.getSection_Predecessor();
 
 		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.RoleImpl <em>Role</em>}' class.
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.VariabilityElementImpl <em>Variability Element</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.RoleImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRole()
+		 * @see org.eclipse.epf.uma.impl.VariabilityElementImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getVariabilityElement()
 		 * @generated
 		 */
-		EClass ROLE = eINSTANCE.getRole();
+		EClass VARIABILITY_ELEMENT = eINSTANCE.getVariabilityElement();
 
 		/**
-		 * The meta object literal for the '<em><b>Modifies</b></em>' reference list feature.
+		 * The meta object literal for the '<em><b>Variability Type</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference ROLE__MODIFIES = eINSTANCE.getRole_Modifies();
+		EAttribute VARIABILITY_ELEMENT__VARIABILITY_TYPE = eINSTANCE.getVariabilityElement_VariabilityType();
 
 		/**
-		 * The meta object literal for the '<em><b>Responsible For</b></em>' reference list feature.
+		 * The meta object literal for the '<em><b>Variability Based On Element</b></em>' reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference ROLE__RESPONSIBLE_FOR = eINSTANCE.getRole_ResponsibleFor();
+		EReference VARIABILITY_ELEMENT__VARIABILITY_BASED_ON_ELEMENT = eINSTANCE
+				.getVariabilityElement_VariabilityBasedOnElement();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ConceptImpl <em>Concept</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ConceptImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getConcept()
+		 * @generated
+		 */
+		EClass CONCEPT = eINSTANCE.getConcept();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ChecklistImpl <em>Checklist</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ChecklistImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getChecklist()
+		 * @generated
+		 */
+		EClass CHECKLIST = eINSTANCE.getChecklist();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.GuidelineImpl <em>Guideline</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.GuidelineImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGuideline()
+		 * @generated
+		 */
+		EClass GUIDELINE = eINSTANCE.getGuideline();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ExampleImpl <em>Example</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ExampleImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getExample()
+		 * @generated
+		 */
+		EClass EXAMPLE = eINSTANCE.getExample();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ReusableAssetImpl <em>Reusable Asset</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ReusableAssetImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getReusableAsset()
+		 * @generated
+		 */
+		EClass REUSABLE_ASSET = eINSTANCE.getReusableAsset();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.TermDefinitionImpl <em>Term Definition</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.TermDefinitionImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTermDefinition()
+		 * @generated
+		 */
+		EClass TERM_DEFINITION = eINSTANCE.getTermDefinition();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ApplicableMetaClassInfoImpl <em>Applicable Meta Class Info</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ApplicableMetaClassInfoImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getApplicableMetaClassInfo()
+		 * @generated
+		 */
+		EClass APPLICABLE_META_CLASS_INFO = eINSTANCE.getApplicableMetaClassInfo();
+
+		/**
+		 * The meta object literal for the '<em><b>Is Primary Extension</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute APPLICABLE_META_CLASS_INFO__IS_PRIMARY_EXTENSION = eINSTANCE
+				.getApplicableMetaClassInfo_IsPrimaryExtension();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ArtifactImpl <em>Artifact</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ArtifactImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getArtifact()
+		 * @generated
+		 */
+		EClass ARTIFACT = eINSTANCE.getArtifact();
+
+		/**
+		 * The meta object literal for the '<em><b>Container Artifact</b></em>' container reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ARTIFACT__CONTAINER_ARTIFACT = eINSTANCE.getArtifact_ContainerArtifact();
+
+		/**
+		 * The meta object literal for the '<em><b>Contained Artifacts</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ARTIFACT__CONTAINED_ARTIFACTS = eINSTANCE.getArtifact_ContainedArtifacts();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.WorkProductImpl <em>Work Product</em>}' class.
@@ -28409,8 +28575,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference WORK_PRODUCT__TEMPLATES = eINSTANCE
-				.getWorkProduct_Templates();
+		EReference WORK_PRODUCT__TEMPLATES = eINSTANCE.getWorkProduct_Templates();
 
 		/**
 		 * The meta object literal for the '<em><b>Tool Mentors</b></em>' reference list feature.
@@ -28418,8 +28583,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference WORK_PRODUCT__TOOL_MENTORS = eINSTANCE
-				.getWorkProduct_ToolMentors();
+		EReference WORK_PRODUCT__TOOL_MENTORS = eINSTANCE.getWorkProduct_ToolMentors();
 
 		/**
 		 * The meta object literal for the '<em><b>Estimation Considerations</b></em>' reference list feature.
@@ -28427,8 +28591,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference WORK_PRODUCT__ESTIMATION_CONSIDERATIONS = eINSTANCE
-				.getWorkProduct_EstimationConsiderations();
+		EReference WORK_PRODUCT__ESTIMATION_CONSIDERATIONS = eINSTANCE.getWorkProduct_EstimationConsiderations();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.FulfillableElementImpl <em>Fulfillable Element</em>}' class.
@@ -28446,8 +28609,121 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference FULFILLABLE_ELEMENT__FULFILLS = eINSTANCE
-				.getFulfillableElement_Fulfills();
+		EReference FULFILLABLE_ELEMENT__FULFILLS = eINSTANCE.getFulfillableElement_Fulfills();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ReportImpl <em>Report</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ReportImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getReport()
+		 * @generated
+		 */
+		EClass REPORT = eINSTANCE.getReport();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.TemplateImpl <em>Template</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.TemplateImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTemplate()
+		 * @generated
+		 */
+		EClass TEMPLATE = eINSTANCE.getTemplate();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ToolMentorImpl <em>Tool Mentor</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ToolMentorImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getToolMentor()
+		 * @generated
+		 */
+		EClass TOOL_MENTOR = eINSTANCE.getToolMentor();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.EstimationConsiderationsImpl <em>Estimation Considerations</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.EstimationConsiderationsImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getEstimationConsiderations()
+		 * @generated
+		 */
+		EClass ESTIMATION_CONSIDERATIONS = eINSTANCE.getEstimationConsiderations();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DeliverableImpl <em>Deliverable</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.DeliverableImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDeliverable()
+		 * @generated
+		 */
+		EClass DELIVERABLE = eINSTANCE.getDeliverable();
+
+		/**
+		 * The meta object literal for the '<em><b>Delivered Work Products</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DELIVERABLE__DELIVERED_WORK_PRODUCTS = eINSTANCE.getDeliverable_DeliveredWorkProducts();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.OutcomeImpl <em>Outcome</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.OutcomeImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getOutcome()
+		 * @generated
+		 */
+		EClass OUTCOME = eINSTANCE.getOutcome();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.StepImpl <em>Step</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.StepImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getStep()
+		 * @generated
+		 */
+		EClass STEP = eINSTANCE.getStep();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.WorkDefinitionImpl <em>Work Definition</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.WorkDefinitionImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkDefinition()
+		 * @generated
+		 */
+		EClass WORK_DEFINITION = eINSTANCE.getWorkDefinition();
+
+		/**
+		 * The meta object literal for the '<em><b>Precondition</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference WORK_DEFINITION__PRECONDITION = eINSTANCE.getWorkDefinition_Precondition();
+
+		/**
+		 * The meta object literal for the '<em><b>Postcondition</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference WORK_DEFINITION__POSTCONDITION = eINSTANCE.getWorkDefinition_Postcondition();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.WhitepaperImpl <em>Whitepaper</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.WhitepaperImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWhitepaper()
+		 * @generated
+		 */
+		EClass WHITEPAPER = eINSTANCE.getWhitepaper();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.TaskImpl <em>Task</em>}' class.
@@ -28489,8 +28765,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK__ADDITIONALLY_PERFORMED_BY = eINSTANCE
-				.getTask_AdditionallyPerformedBy();
+		EReference TASK__ADDITIONALLY_PERFORMED_BY = eINSTANCE.getTask_AdditionallyPerformedBy();
 
 		/**
 		 * The meta object literal for the '<em><b>Optional Input</b></em>' reference list feature.
@@ -28522,168 +28797,33 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK__ESTIMATION_CONSIDERATIONS = eINSTANCE
-				.getTask_EstimationConsiderations();
+		EReference TASK__ESTIMATION_CONSIDERATIONS = eINSTANCE.getTask_EstimationConsiderations();
 
 		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.WorkDefinitionImpl <em>Work Definition</em>}' class.
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.RoleImpl <em>Role</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.WorkDefinitionImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkDefinition()
+		 * @see org.eclipse.epf.uma.impl.RoleImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRole()
 		 * @generated
 		 */
-		EClass WORK_DEFINITION = eINSTANCE.getWorkDefinition();
+		EClass ROLE = eINSTANCE.getRole();
 
 		/**
-		 * The meta object literal for the '<em><b>Precondition</b></em>' containment reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference WORK_DEFINITION__PRECONDITION = eINSTANCE
-				.getWorkDefinition_Precondition();
-
-		/**
-		 * The meta object literal for the '<em><b>Postcondition</b></em>' containment reference feature.
+		 * The meta object literal for the '<em><b>Modifies</b></em>' reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference WORK_DEFINITION__POSTCONDITION = eINSTANCE
-				.getWorkDefinition_Postcondition();
+		EReference ROLE__MODIFIES = eINSTANCE.getRole_Modifies();
 
 		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.StepImpl <em>Step</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.StepImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getStep()
-		 * @generated
-		 */
-		EClass STEP = eINSTANCE.getStep();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.GuidanceImpl <em>Guidance</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.GuidanceImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGuidance()
-		 * @generated
-		 */
-		EClass GUIDANCE = eINSTANCE.getGuidance();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ArtifactImpl <em>Artifact</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ArtifactImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getArtifact()
-		 * @generated
-		 */
-		EClass ARTIFACT = eINSTANCE.getArtifact();
-
-		/**
-		 * The meta object literal for the '<em><b>Container Artifact</b></em>' container reference feature.
+		 * The meta object literal for the '<em><b>Responsible For</b></em>' reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference ARTIFACT__CONTAINER_ARTIFACT = eINSTANCE
-				.getArtifact_ContainerArtifact();
-
-		/**
-		 * The meta object literal for the '<em><b>Contained Artifacts</b></em>' containment reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference ARTIFACT__CONTAINED_ARTIFACTS = eINSTANCE
-				.getArtifact_ContainedArtifacts();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DeliverableImpl <em>Deliverable</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.DeliverableImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDeliverable()
-		 * @generated
-		 */
-		EClass DELIVERABLE = eINSTANCE.getDeliverable();
-
-		/**
-		 * The meta object literal for the '<em><b>Delivered Work Products</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DELIVERABLE__DELIVERED_WORK_PRODUCTS = eINSTANCE
-				.getDeliverable_DeliveredWorkProducts();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.OutcomeImpl <em>Outcome</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.OutcomeImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getOutcome()
-		 * @generated
-		 */
-		EClass OUTCOME = eINSTANCE.getOutcome();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.MethodPackageImpl <em>Method Package</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.MethodPackageImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodPackage()
-		 * @generated
-		 */
-		EClass METHOD_PACKAGE = eINSTANCE.getMethodPackage();
-
-		/**
-		 * The meta object literal for the '<em><b>Global</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute METHOD_PACKAGE__GLOBAL = eINSTANCE.getMethodPackage_Global();
-
-		/**
-		 * The meta object literal for the '<em><b>Reused Packages</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference METHOD_PACKAGE__REUSED_PACKAGES = eINSTANCE
-				.getMethodPackage_ReusedPackages();
-
-		/**
-		 * The meta object literal for the '<em><b>Child Packages</b></em>' containment reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference METHOD_PACKAGE__CHILD_PACKAGES = eINSTANCE
-				.getMethodPackage_ChildPackages();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ContentPackageImpl <em>Content Package</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ContentPackageImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getContentPackage()
-		 * @generated
-		 */
-		EClass CONTENT_PACKAGE = eINSTANCE.getContentPackage();
-
-		/**
-		 * The meta object literal for the '<em><b>Content Elements</b></em>' containment reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference CONTENT_PACKAGE__CONTENT_ELEMENTS = eINSTANCE
-				.getContentPackage_ContentElements();
+		EReference ROLE__RESPONSIBLE_FOR = eINSTANCE.getRole_ResponsibleFor();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ArtifactDescriptionImpl <em>Artifact Description</em>}' class.
@@ -28701,8 +28841,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute ARTIFACT_DESCRIPTION__BRIEF_OUTLINE = eINSTANCE
-				.getArtifactDescription_BriefOutline();
+		EAttribute ARTIFACT_DESCRIPTION__BRIEF_OUTLINE = eINSTANCE.getArtifactDescription_BriefOutline();
 
 		/**
 		 * The meta object literal for the '<em><b>Representation Options</b></em>' attribute feature.
@@ -28719,8 +28858,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute ARTIFACT_DESCRIPTION__REPRESENTATION = eINSTANCE
-				.getArtifactDescription_Representation();
+		EAttribute ARTIFACT_DESCRIPTION__REPRESENTATION = eINSTANCE.getArtifactDescription_Representation();
 
 		/**
 		 * The meta object literal for the '<em><b>Notation</b></em>' attribute feature.
@@ -28728,8 +28866,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute ARTIFACT_DESCRIPTION__NOTATION = eINSTANCE
-				.getArtifactDescription_Notation();
+		EAttribute ARTIFACT_DESCRIPTION__NOTATION = eINSTANCE.getArtifactDescription_Notation();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.WorkProductDescriptionImpl <em>Work Product Description</em>}' class.
@@ -28747,8 +28884,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute WORK_PRODUCT_DESCRIPTION__PURPOSE = eINSTANCE
-				.getWorkProductDescription_Purpose();
+		EAttribute WORK_PRODUCT_DESCRIPTION__PURPOSE = eINSTANCE.getWorkProductDescription_Purpose();
 
 		/**
 		 * The meta object literal for the '<em><b>Impact Of Not Having</b></em>' attribute feature.
@@ -28812,8 +28948,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute ROLE_DESCRIPTION__SKILLS = eINSTANCE
-				.getRoleDescription_Skills();
+		EAttribute ROLE_DESCRIPTION__SKILLS = eINSTANCE.getRoleDescription_Skills();
 
 		/**
 		 * The meta object literal for the '<em><b>Assignment Approaches</b></em>' attribute feature.
@@ -28821,8 +28956,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute ROLE_DESCRIPTION__ASSIGNMENT_APPROACHES = eINSTANCE
-				.getRoleDescription_AssignmentApproaches();
+		EAttribute ROLE_DESCRIPTION__ASSIGNMENT_APPROACHES = eINSTANCE.getRoleDescription_AssignmentApproaches();
 
 		/**
 		 * The meta object literal for the '<em><b>Synonyms</b></em>' attribute feature.
@@ -28830,8 +28964,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute ROLE_DESCRIPTION__SYNONYMS = eINSTANCE
-				.getRoleDescription_Synonyms();
+		EAttribute ROLE_DESCRIPTION__SYNONYMS = eINSTANCE.getRoleDescription_Synonyms();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.TaskDescriptionImpl <em>Task Description</em>}' class.
@@ -28849,8 +28982,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute TASK_DESCRIPTION__PURPOSE = eINSTANCE
-				.getTaskDescription_Purpose();
+		EAttribute TASK_DESCRIPTION__PURPOSE = eINSTANCE.getTaskDescription_Purpose();
 
 		/**
 		 * The meta object literal for the '<em><b>Alternatives</b></em>' attribute feature.
@@ -28858,8 +28990,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute TASK_DESCRIPTION__ALTERNATIVES = eINSTANCE
-				.getTaskDescription_Alternatives();
+		EAttribute TASK_DESCRIPTION__ALTERNATIVES = eINSTANCE.getTaskDescription_Alternatives();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.GuidanceDescriptionImpl <em>Guidance Description</em>}' class.
@@ -28877,8 +29008,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute GUIDANCE_DESCRIPTION__ATTACHMENTS = eINSTANCE
-				.getGuidanceDescription_Attachments();
+		EAttribute GUIDANCE_DESCRIPTION__ATTACHMENTS = eINSTANCE.getGuidanceDescription_Attachments();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.PracticeDescriptionImpl <em>Practice Description</em>}' class.
@@ -28896,8 +29026,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute PRACTICE_DESCRIPTION__ADDITIONAL_INFO = eINSTANCE
-				.getPracticeDescription_AdditionalInfo();
+		EAttribute PRACTICE_DESCRIPTION__ADDITIONAL_INFO = eINSTANCE.getPracticeDescription_AdditionalInfo();
 
 		/**
 		 * The meta object literal for the '<em><b>Problem</b></em>' attribute feature.
@@ -28905,8 +29034,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute PRACTICE_DESCRIPTION__PROBLEM = eINSTANCE
-				.getPracticeDescription_Problem();
+		EAttribute PRACTICE_DESCRIPTION__PROBLEM = eINSTANCE.getPracticeDescription_Problem();
 
 		/**
 		 * The meta object literal for the '<em><b>Background</b></em>' attribute feature.
@@ -28914,8 +29042,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute PRACTICE_DESCRIPTION__BACKGROUND = eINSTANCE
-				.getPracticeDescription_Background();
+		EAttribute PRACTICE_DESCRIPTION__BACKGROUND = eINSTANCE.getPracticeDescription_Background();
 
 		/**
 		 * The meta object literal for the '<em><b>Goals</b></em>' attribute feature.
@@ -28923,8 +29050,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute PRACTICE_DESCRIPTION__GOALS = eINSTANCE
-				.getPracticeDescription_Goals();
+		EAttribute PRACTICE_DESCRIPTION__GOALS = eINSTANCE.getPracticeDescription_Goals();
 
 		/**
 		 * The meta object literal for the '<em><b>Application</b></em>' attribute feature.
@@ -28932,8 +29058,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute PRACTICE_DESCRIPTION__APPLICATION = eINSTANCE
-				.getPracticeDescription_Application();
+		EAttribute PRACTICE_DESCRIPTION__APPLICATION = eINSTANCE.getPracticeDescription_Application();
 
 		/**
 		 * The meta object literal for the '<em><b>Levels Of Adoption</b></em>' attribute feature.
@@ -28941,8 +29066,131 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute PRACTICE_DESCRIPTION__LEVELS_OF_ADOPTION = eINSTANCE
-				.getPracticeDescription_LevelsOfAdoption();
+		EAttribute PRACTICE_DESCRIPTION__LEVELS_OF_ADOPTION = eINSTANCE.getPracticeDescription_LevelsOfAdoption();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.RoleSetImpl <em>Role Set</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.RoleSetImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoleSet()
+		 * @generated
+		 */
+		EClass ROLE_SET = eINSTANCE.getRoleSet();
+
+		/**
+		 * The meta object literal for the '<em><b>Roles</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ROLE_SET__ROLES = eINSTANCE.getRoleSet_Roles();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ContentCategoryImpl <em>Content Category</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ContentCategoryImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getContentCategory()
+		 * @generated
+		 */
+		EClass CONTENT_CATEGORY = eINSTANCE.getContentCategory();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DomainImpl <em>Domain</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.DomainImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDomain()
+		 * @generated
+		 */
+		EClass DOMAIN = eINSTANCE.getDomain();
+
+		/**
+		 * The meta object literal for the '<em><b>Work Products</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOMAIN__WORK_PRODUCTS = eINSTANCE.getDomain_WorkProducts();
+
+		/**
+		 * The meta object literal for the '<em><b>Subdomains</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOMAIN__SUBDOMAINS = eINSTANCE.getDomain_Subdomains();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.WorkProductTypeImpl <em>Work Product Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.WorkProductTypeImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkProductType()
+		 * @generated
+		 */
+		EClass WORK_PRODUCT_TYPE = eINSTANCE.getWorkProductType();
+
+		/**
+		 * The meta object literal for the '<em><b>Work Products</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference WORK_PRODUCT_TYPE__WORK_PRODUCTS = eINSTANCE.getWorkProductType_WorkProducts();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DisciplineGroupingImpl <em>Discipline Grouping</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.DisciplineGroupingImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDisciplineGrouping()
+		 * @generated
+		 */
+		EClass DISCIPLINE_GROUPING = eINSTANCE.getDisciplineGrouping();
+
+		/**
+		 * The meta object literal for the '<em><b>Disciplines</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DISCIPLINE_GROUPING__DISCIPLINES = eINSTANCE.getDisciplineGrouping_Disciplines();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DisciplineImpl <em>Discipline</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.DisciplineImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDiscipline()
+		 * @generated
+		 */
+		EClass DISCIPLINE = eINSTANCE.getDiscipline();
+
+		/**
+		 * The meta object literal for the '<em><b>Tasks</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DISCIPLINE__TASKS = eINSTANCE.getDiscipline_Tasks();
+
+		/**
+		 * The meta object literal for the '<em><b>Subdiscipline</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DISCIPLINE__SUBDISCIPLINE = eINSTANCE.getDiscipline_Subdiscipline();
+
+		/**
+		 * The meta object literal for the '<em><b>Reference Workflows</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DISCIPLINE__REFERENCE_WORKFLOWS = eINSTANCE.getDiscipline_ReferenceWorkflows();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ActivityImpl <em>Activity</em>}' class.
@@ -28960,8 +29208,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference ACTIVITY__BREAKDOWN_ELEMENTS = eINSTANCE
-				.getActivity_BreakdownElements();
+		EReference ACTIVITY__BREAKDOWN_ELEMENTS = eINSTANCE.getActivity_BreakdownElements();
 
 		/**
 		 * The meta object literal for the '<em><b>Roadmaps</b></em>' reference list feature.
@@ -28987,8 +29234,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute WORK_BREAKDOWN_ELEMENT__IS_REPEATABLE = eINSTANCE
-				.getWorkBreakdownElement_IsRepeatable();
+		EAttribute WORK_BREAKDOWN_ELEMENT__IS_REPEATABLE = eINSTANCE.getWorkBreakdownElement_IsRepeatable();
 
 		/**
 		 * The meta object literal for the '<em><b>Is Ongoing</b></em>' attribute feature.
@@ -28996,8 +29242,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute WORK_BREAKDOWN_ELEMENT__IS_ONGOING = eINSTANCE
-				.getWorkBreakdownElement_IsOngoing();
+		EAttribute WORK_BREAKDOWN_ELEMENT__IS_ONGOING = eINSTANCE.getWorkBreakdownElement_IsOngoing();
 
 		/**
 		 * The meta object literal for the '<em><b>Is Event Driven</b></em>' attribute feature.
@@ -29005,8 +29250,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute WORK_BREAKDOWN_ELEMENT__IS_EVENT_DRIVEN = eINSTANCE
-				.getWorkBreakdownElement_IsEventDriven();
+		EAttribute WORK_BREAKDOWN_ELEMENT__IS_EVENT_DRIVEN = eINSTANCE.getWorkBreakdownElement_IsEventDriven();
 
 		/**
 		 * The meta object literal for the '<em><b>Link To Predecessor</b></em>' reference list feature.
@@ -29014,8 +29258,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference WORK_BREAKDOWN_ELEMENT__LINK_TO_PREDECESSOR = eINSTANCE
-				.getWorkBreakdownElement_LinkToPredecessor();
+		EReference WORK_BREAKDOWN_ELEMENT__LINK_TO_PREDECESSOR = eINSTANCE.getWorkBreakdownElement_LinkToPredecessor();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.BreakdownElementImpl <em>Breakdown Element</em>}' class.
@@ -29033,8 +29276,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute BREAKDOWN_ELEMENT__PREFIX = eINSTANCE
-				.getBreakdownElement_Prefix();
+		EAttribute BREAKDOWN_ELEMENT__PREFIX = eINSTANCE.getBreakdownElement_Prefix();
 
 		/**
 		 * The meta object literal for the '<em><b>Is Planned</b></em>' attribute feature.
@@ -29042,8 +29284,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute BREAKDOWN_ELEMENT__IS_PLANNED = eINSTANCE
-				.getBreakdownElement_IsPlanned();
+		EAttribute BREAKDOWN_ELEMENT__IS_PLANNED = eINSTANCE.getBreakdownElement_IsPlanned();
 
 		/**
 		 * The meta object literal for the '<em><b>Has Multiple Occurrences</b></em>' attribute feature.
@@ -29051,8 +29292,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute BREAKDOWN_ELEMENT__HAS_MULTIPLE_OCCURRENCES = eINSTANCE
-				.getBreakdownElement_HasMultipleOccurrences();
+		EAttribute BREAKDOWN_ELEMENT__HAS_MULTIPLE_OCCURRENCES = eINSTANCE.getBreakdownElement_HasMultipleOccurrences();
 
 		/**
 		 * The meta object literal for the '<em><b>Is Optional</b></em>' attribute feature.
@@ -29060,8 +29300,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute BREAKDOWN_ELEMENT__IS_OPTIONAL = eINSTANCE
-				.getBreakdownElement_IsOptional();
+		EAttribute BREAKDOWN_ELEMENT__IS_OPTIONAL = eINSTANCE.getBreakdownElement_IsOptional();
 
 		/**
 		 * The meta object literal for the '<em><b>Presented After</b></em>' reference feature.
@@ -29069,8 +29308,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference BREAKDOWN_ELEMENT__PRESENTED_AFTER = eINSTANCE
-				.getBreakdownElement_PresentedAfter();
+		EReference BREAKDOWN_ELEMENT__PRESENTED_AFTER = eINSTANCE.getBreakdownElement_PresentedAfter();
 
 		/**
 		 * The meta object literal for the '<em><b>Presented Before</b></em>' reference feature.
@@ -29078,8 +29316,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference BREAKDOWN_ELEMENT__PRESENTED_BEFORE = eINSTANCE
-				.getBreakdownElement_PresentedBefore();
+		EReference BREAKDOWN_ELEMENT__PRESENTED_BEFORE = eINSTANCE.getBreakdownElement_PresentedBefore();
 
 		/**
 		 * The meta object literal for the '<em><b>Planning Data</b></em>' containment reference feature.
@@ -29087,8 +29324,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference BREAKDOWN_ELEMENT__PLANNING_DATA = eINSTANCE
-				.getBreakdownElement_PlanningData();
+		EReference BREAKDOWN_ELEMENT__PLANNING_DATA = eINSTANCE.getBreakdownElement_PlanningData();
 
 		/**
 		 * The meta object literal for the '<em><b>Super Activities</b></em>' reference feature.
@@ -29096,8 +29332,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference BREAKDOWN_ELEMENT__SUPER_ACTIVITIES = eINSTANCE
-				.getBreakdownElement_SuperActivities();
+		EReference BREAKDOWN_ELEMENT__SUPER_ACTIVITIES = eINSTANCE.getBreakdownElement_SuperActivities();
 
 		/**
 		 * The meta object literal for the '<em><b>Checklists</b></em>' reference list feature.
@@ -29105,8 +29340,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference BREAKDOWN_ELEMENT__CHECKLISTS = eINSTANCE
-				.getBreakdownElement_Checklists();
+		EReference BREAKDOWN_ELEMENT__CHECKLISTS = eINSTANCE.getBreakdownElement_Checklists();
 
 		/**
 		 * The meta object literal for the '<em><b>Concepts</b></em>' reference list feature.
@@ -29114,8 +29348,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference BREAKDOWN_ELEMENT__CONCEPTS = eINSTANCE
-				.getBreakdownElement_Concepts();
+		EReference BREAKDOWN_ELEMENT__CONCEPTS = eINSTANCE.getBreakdownElement_Concepts();
 
 		/**
 		 * The meta object literal for the '<em><b>Examples</b></em>' reference list feature.
@@ -29123,8 +29356,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference BREAKDOWN_ELEMENT__EXAMPLES = eINSTANCE
-				.getBreakdownElement_Examples();
+		EReference BREAKDOWN_ELEMENT__EXAMPLES = eINSTANCE.getBreakdownElement_Examples();
 
 		/**
 		 * The meta object literal for the '<em><b>Guidelines</b></em>' reference list feature.
@@ -29132,8 +29364,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference BREAKDOWN_ELEMENT__GUIDELINES = eINSTANCE
-				.getBreakdownElement_Guidelines();
+		EReference BREAKDOWN_ELEMENT__GUIDELINES = eINSTANCE.getBreakdownElement_Guidelines();
 
 		/**
 		 * The meta object literal for the '<em><b>Reusable Assets</b></em>' reference list feature.
@@ -29141,8 +29372,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference BREAKDOWN_ELEMENT__REUSABLE_ASSETS = eINSTANCE
-				.getBreakdownElement_ReusableAssets();
+		EReference BREAKDOWN_ELEMENT__REUSABLE_ASSETS = eINSTANCE.getBreakdownElement_ReusableAssets();
 
 		/**
 		 * The meta object literal for the '<em><b>Supporting Materials</b></em>' reference list feature.
@@ -29150,8 +29380,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference BREAKDOWN_ELEMENT__SUPPORTING_MATERIALS = eINSTANCE
-				.getBreakdownElement_SupportingMaterials();
+		EReference BREAKDOWN_ELEMENT__SUPPORTING_MATERIALS = eINSTANCE.getBreakdownElement_SupportingMaterials();
 
 		/**
 		 * The meta object literal for the '<em><b>Templates</b></em>' reference list feature.
@@ -29159,8 +29388,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference BREAKDOWN_ELEMENT__TEMPLATES = eINSTANCE
-				.getBreakdownElement_Templates();
+		EReference BREAKDOWN_ELEMENT__TEMPLATES = eINSTANCE.getBreakdownElement_Templates();
 
 		/**
 		 * The meta object literal for the '<em><b>Reports</b></em>' reference list feature.
@@ -29168,8 +29396,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference BREAKDOWN_ELEMENT__REPORTS = eINSTANCE
-				.getBreakdownElement_Reports();
+		EReference BREAKDOWN_ELEMENT__REPORTS = eINSTANCE.getBreakdownElement_Reports();
 
 		/**
 		 * The meta object literal for the '<em><b>Estimationconsiderations</b></em>' reference list feature.
@@ -29186,8 +29413,201 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference BREAKDOWN_ELEMENT__TOOLMENTOR = eINSTANCE
-				.getBreakdownElement_Toolmentor();
+		EReference BREAKDOWN_ELEMENT__TOOLMENTOR = eINSTANCE.getBreakdownElement_Toolmentor();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessElementImpl <em>Process Element</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ProcessElementImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessElement()
+		 * @generated
+		 */
+		EClass PROCESS_ELEMENT = eINSTANCE.getProcessElement();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.PlanningDataImpl <em>Planning Data</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.PlanningDataImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPlanningData()
+		 * @generated
+		 */
+		EClass PLANNING_DATA = eINSTANCE.getPlanningData();
+
+		/**
+		 * The meta object literal for the '<em><b>Start Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PLANNING_DATA__START_DATE = eINSTANCE.getPlanningData_StartDate();
+
+		/**
+		 * The meta object literal for the '<em><b>Finish Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PLANNING_DATA__FINISH_DATE = eINSTANCE.getPlanningData_FinishDate();
+
+		/**
+		 * The meta object literal for the '<em><b>Rank</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PLANNING_DATA__RANK = eINSTANCE.getPlanningData_Rank();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.WorkOrderImpl <em>Work Order</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.WorkOrderImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkOrder()
+		 * @generated
+		 */
+		EClass WORK_ORDER = eINSTANCE.getWorkOrder();
+
+		/**
+		 * The meta object literal for the '<em><b>Link Type</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute WORK_ORDER__LINK_TYPE = eINSTANCE.getWorkOrder_LinkType();
+
+		/**
+		 * The meta object literal for the '<em><b>Pred</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference WORK_ORDER__PRED = eINSTANCE.getWorkOrder_Pred();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.RoadmapImpl <em>Roadmap</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.RoadmapImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoadmap()
+		 * @generated
+		 */
+		EClass ROADMAP = eINSTANCE.getRoadmap();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ToolImpl <em>Tool</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ToolImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTool()
+		 * @generated
+		 */
+		EClass TOOL = eINSTANCE.getTool();
+
+		/**
+		 * The meta object literal for the '<em><b>Tool Mentors</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TOOL__TOOL_MENTORS = eINSTANCE.getTool_ToolMentors();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.RoleSetGroupingImpl <em>Role Set Grouping</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.RoleSetGroupingImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoleSetGrouping()
+		 * @generated
+		 */
+		EClass ROLE_SET_GROUPING = eINSTANCE.getRoleSetGrouping();
+
+		/**
+		 * The meta object literal for the '<em><b>Role Sets</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ROLE_SET_GROUPING__ROLE_SETS = eINSTANCE.getRoleSetGrouping_RoleSets();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.CustomCategoryImpl <em>Custom Category</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.CustomCategoryImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getCustomCategory()
+		 * @generated
+		 */
+		EClass CUSTOM_CATEGORY = eINSTANCE.getCustomCategory();
+
+		/**
+		 * The meta object literal for the '<em><b>Categorized Elements</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference CUSTOM_CATEGORY__CATEGORIZED_ELEMENTS = eINSTANCE.getCustomCategory_CategorizedElements();
+
+		/**
+		 * The meta object literal for the '<em><b>Sub Categories</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference CUSTOM_CATEGORY__SUB_CATEGORIES = eINSTANCE.getCustomCategory_SubCategories();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.MethodPackageImpl <em>Method Package</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.MethodPackageImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodPackage()
+		 * @generated
+		 */
+		EClass METHOD_PACKAGE = eINSTANCE.getMethodPackage();
+
+		/**
+		 * The meta object literal for the '<em><b>Global</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute METHOD_PACKAGE__GLOBAL = eINSTANCE.getMethodPackage_Global();
+
+		/**
+		 * The meta object literal for the '<em><b>Reused Packages</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_PACKAGE__REUSED_PACKAGES = eINSTANCE.getMethodPackage_ReusedPackages();
+
+		/**
+		 * The meta object literal for the '<em><b>Child Packages</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_PACKAGE__CHILD_PACKAGES = eINSTANCE.getMethodPackage_ChildPackages();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ContentPackageImpl <em>Content Package</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ContentPackageImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getContentPackage()
+		 * @generated
+		 */
+		EClass CONTENT_PACKAGE = eINSTANCE.getContentPackage();
+
+		/**
+		 * The meta object literal for the '<em><b>Content Elements</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference CONTENT_PACKAGE__CONTENT_ELEMENTS = eINSTANCE.getContentPackage_ContentElements();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.MilestoneImpl <em>Milestone</em>}' class.
@@ -29205,8 +29625,110 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference MILESTONE__REQUIRED_RESULTS = eINSTANCE
-				.getMilestone_RequiredResults();
+		EReference MILESTONE__REQUIRED_RESULTS = eINSTANCE.getMilestone_RequiredResults();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.WorkProductDescriptorImpl <em>Work Product Descriptor</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.WorkProductDescriptorImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkProductDescriptor()
+		 * @generated
+		 */
+		EClass WORK_PRODUCT_DESCRIPTOR = eINSTANCE.getWorkProductDescriptor();
+
+		/**
+		 * The meta object literal for the '<em><b>Activity Entry State</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute WORK_PRODUCT_DESCRIPTOR__ACTIVITY_ENTRY_STATE = eINSTANCE
+				.getWorkProductDescriptor_ActivityEntryState();
+
+		/**
+		 * The meta object literal for the '<em><b>Activity Exit State</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute WORK_PRODUCT_DESCRIPTOR__ACTIVITY_EXIT_STATE = eINSTANCE
+				.getWorkProductDescriptor_ActivityExitState();
+
+		/**
+		 * The meta object literal for the '<em><b>Work Product</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference WORK_PRODUCT_DESCRIPTOR__WORK_PRODUCT = eINSTANCE.getWorkProductDescriptor_WorkProduct();
+
+		/**
+		 * The meta object literal for the '<em><b>Impacted By</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference WORK_PRODUCT_DESCRIPTOR__IMPACTED_BY = eINSTANCE.getWorkProductDescriptor_ImpactedBy();
+
+		/**
+		 * The meta object literal for the '<em><b>Impacts</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference WORK_PRODUCT_DESCRIPTOR__IMPACTS = eINSTANCE.getWorkProductDescriptor_Impacts();
+
+		/**
+		 * The meta object literal for the '<em><b>Deliverable Parts</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference WORK_PRODUCT_DESCRIPTOR__DELIVERABLE_PARTS = eINSTANCE.getWorkProductDescriptor_DeliverableParts();
+
+		/**
+		 * The meta object literal for the '<em><b>Deliverable Parts Exclude</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference WORK_PRODUCT_DESCRIPTOR__DELIVERABLE_PARTS_EXCLUDE = eINSTANCE
+				.getWorkProductDescriptor_DeliverablePartsExclude();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DescriptorImpl <em>Descriptor</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.DescriptorImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDescriptor()
+		 * @generated
+		 */
+		EClass DESCRIPTOR = eINSTANCE.getDescriptor();
+
+		/**
+		 * The meta object literal for the '<em><b>Is Synchronized With Source</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DESCRIPTOR__IS_SYNCHRONIZED_WITH_SOURCE = eINSTANCE.getDescriptor_IsSynchronizedWithSource();
+
+		/**
+		 * The meta object literal for the '<em><b>Guidance Exclude</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DESCRIPTOR__GUIDANCE_EXCLUDE = eINSTANCE.getDescriptor_GuidanceExclude();
+
+		/**
+		 * The meta object literal for the '<em><b>Guidance Additional</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DESCRIPTOR__GUIDANCE_ADDITIONAL = eINSTANCE.getDescriptor_GuidanceAdditional();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.IterationImpl <em>Iteration</em>}' class.
@@ -29244,8 +29766,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TEAM_PROFILE__TEAM_ROLES = eINSTANCE
-				.getTeamProfile_TeamRoles();
+		EReference TEAM_PROFILE__TEAM_ROLES = eINSTANCE.getTeamProfile_TeamRoles();
 
 		/**
 		 * The meta object literal for the '<em><b>Super Team</b></em>' reference feature.
@@ -29253,8 +29774,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TEAM_PROFILE__SUPER_TEAM = eINSTANCE
-				.getTeamProfile_SuperTeam();
+		EReference TEAM_PROFILE__SUPER_TEAM = eINSTANCE.getTeamProfile_SuperTeam();
 
 		/**
 		 * The meta object literal for the '<em><b>Sub Team</b></em>' reference list feature.
@@ -29288,8 +29808,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference ROLE_DESCRIPTOR__MODIFIES = eINSTANCE
-				.getRoleDescriptor_Modifies();
+		EReference ROLE_DESCRIPTOR__MODIFIES = eINSTANCE.getRoleDescriptor_Modifies();
 
 		/**
 		 * The meta object literal for the '<em><b>Responsible For</b></em>' reference list feature.
@@ -29297,8 +29816,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference ROLE_DESCRIPTOR__RESPONSIBLE_FOR = eINSTANCE
-				.getRoleDescriptor_ResponsibleFor();
+		EReference ROLE_DESCRIPTOR__RESPONSIBLE_FOR = eINSTANCE.getRoleDescriptor_ResponsibleFor();
 
 		/**
 		 * The meta object literal for the '<em><b>Responsible For Exclude</b></em>' reference list feature.
@@ -29306,117 +29824,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference ROLE_DESCRIPTOR__RESPONSIBLE_FOR_EXCLUDE = eINSTANCE
-				.getRoleDescriptor_ResponsibleForExclude();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.WorkOrderImpl <em>Work Order</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.WorkOrderImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkOrder()
-		 * @generated
-		 */
-		EClass WORK_ORDER = eINSTANCE.getWorkOrder();
-
-		/**
-		 * The meta object literal for the '<em><b>Link Type</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute WORK_ORDER__LINK_TYPE = eINSTANCE.getWorkOrder_LinkType();
-
-		/**
-		 * The meta object literal for the '<em><b>Pred</b></em>' reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference WORK_ORDER__PRED = eINSTANCE.getWorkOrder_Pred();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessElementImpl <em>Process Element</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ProcessElementImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessElement()
-		 * @generated
-		 */
-		EClass PROCESS_ELEMENT = eINSTANCE.getProcessElement();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.PlanningDataImpl <em>Planning Data</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.PlanningDataImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPlanningData()
-		 * @generated
-		 */
-		EClass PLANNING_DATA = eINSTANCE.getPlanningData();
-
-		/**
-		 * The meta object literal for the '<em><b>Start Date</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute PLANNING_DATA__START_DATE = eINSTANCE
-				.getPlanningData_StartDate();
-
-		/**
-		 * The meta object literal for the '<em><b>Finish Date</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute PLANNING_DATA__FINISH_DATE = eINSTANCE
-				.getPlanningData_FinishDate();
-
-		/**
-		 * The meta object literal for the '<em><b>Rank</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute PLANNING_DATA__RANK = eINSTANCE.getPlanningData_Rank();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DescriptorImpl <em>Descriptor</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.DescriptorImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDescriptor()
-		 * @generated
-		 */
-		EClass DESCRIPTOR = eINSTANCE.getDescriptor();
-
-		/**
-		 * The meta object literal for the '<em><b>Is Synchronized With Source</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute DESCRIPTOR__IS_SYNCHRONIZED_WITH_SOURCE = eINSTANCE
-				.getDescriptor_IsSynchronizedWithSource();
-
-		/**
-		 * The meta object literal for the '<em><b>Guidance Exclude</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DESCRIPTOR__GUIDANCE_EXCLUDE = eINSTANCE
-				.getDescriptor_GuidanceExclude();
-
-		/**
-		 * The meta object literal for the '<em><b>Guidance Additional</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DESCRIPTOR__GUIDANCE_ADDITIONAL = eINSTANCE
-				.getDescriptor_GuidanceAdditional();
+		EReference ROLE_DESCRIPTOR__RESPONSIBLE_FOR_EXCLUDE = eINSTANCE.getRoleDescriptor_ResponsibleForExclude();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.TaskDescriptorImpl <em>Task Descriptor</em>}' class.
@@ -29442,8 +29850,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK_DESCRIPTOR__ADDITIONALLY_PERFORMED_BY = eINSTANCE
-				.getTaskDescriptor_AdditionallyPerformedBy();
+		EReference TASK_DESCRIPTOR__ADDITIONALLY_PERFORMED_BY = eINSTANCE.getTaskDescriptor_AdditionallyPerformedBy();
 
 		/**
 		 * The meta object literal for the '<em><b>Assisted By</b></em>' reference list feature.
@@ -29451,8 +29858,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK_DESCRIPTOR__ASSISTED_BY = eINSTANCE
-				.getTaskDescriptor_AssistedBy();
+		EReference TASK_DESCRIPTOR__ASSISTED_BY = eINSTANCE.getTaskDescriptor_AssistedBy();
 
 		/**
 		 * The meta object literal for the '<em><b>External Input</b></em>' reference list feature.
@@ -29460,8 +29866,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK_DESCRIPTOR__EXTERNAL_INPUT = eINSTANCE
-				.getTaskDescriptor_ExternalInput();
+		EReference TASK_DESCRIPTOR__EXTERNAL_INPUT = eINSTANCE.getTaskDescriptor_ExternalInput();
 
 		/**
 		 * The meta object literal for the '<em><b>Mandatory Input</b></em>' reference list feature.
@@ -29469,8 +29874,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK_DESCRIPTOR__MANDATORY_INPUT = eINSTANCE
-				.getTaskDescriptor_MandatoryInput();
+		EReference TASK_DESCRIPTOR__MANDATORY_INPUT = eINSTANCE.getTaskDescriptor_MandatoryInput();
 
 		/**
 		 * The meta object literal for the '<em><b>Optional Input</b></em>' reference list feature.
@@ -29478,8 +29882,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK_DESCRIPTOR__OPTIONAL_INPUT = eINSTANCE
-				.getTaskDescriptor_OptionalInput();
+		EReference TASK_DESCRIPTOR__OPTIONAL_INPUT = eINSTANCE.getTaskDescriptor_OptionalInput();
 
 		/**
 		 * The meta object literal for the '<em><b>Output</b></em>' reference list feature.
@@ -29487,8 +29890,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK_DESCRIPTOR__OUTPUT = eINSTANCE
-				.getTaskDescriptor_Output();
+		EReference TASK_DESCRIPTOR__OUTPUT = eINSTANCE.getTaskDescriptor_Output();
 
 		/**
 		 * The meta object literal for the '<em><b>Performed Primarily By</b></em>' reference list feature.
@@ -29496,8 +29898,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK_DESCRIPTOR__PERFORMED_PRIMARILY_BY = eINSTANCE
-				.getTaskDescriptor_PerformedPrimarilyBy();
+		EReference TASK_DESCRIPTOR__PERFORMED_PRIMARILY_BY = eINSTANCE.getTaskDescriptor_PerformedPrimarilyBy();
 
 		/**
 		 * The meta object literal for the '<em><b>Selected Steps</b></em>' reference list feature.
@@ -29505,8 +29906,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK_DESCRIPTOR__SELECTED_STEPS = eINSTANCE
-				.getTaskDescriptor_SelectedSteps();
+		EReference TASK_DESCRIPTOR__SELECTED_STEPS = eINSTANCE.getTaskDescriptor_SelectedSteps();
 
 		/**
 		 * The meta object literal for the '<em><b>Performed Primarily By Excluded</b></em>' reference list feature.
@@ -29532,8 +29932,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK_DESCRIPTOR__MANDATORY_INPUT_EXCLUDE = eINSTANCE
-				.getTaskDescriptor_MandatoryInputExclude();
+		EReference TASK_DESCRIPTOR__MANDATORY_INPUT_EXCLUDE = eINSTANCE.getTaskDescriptor_MandatoryInputExclude();
 
 		/**
 		 * The meta object literal for the '<em><b>Optional Input Exclude</b></em>' reference list feature.
@@ -29541,8 +29940,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK_DESCRIPTOR__OPTIONAL_INPUT_EXCLUDE = eINSTANCE
-				.getTaskDescriptor_OptionalInputExclude();
+		EReference TASK_DESCRIPTOR__OPTIONAL_INPUT_EXCLUDE = eINSTANCE.getTaskDescriptor_OptionalInputExclude();
 
 		/**
 		 * The meta object literal for the '<em><b>Output Exclude</b></em>' reference list feature.
@@ -29550,8 +29948,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK_DESCRIPTOR__OUTPUT_EXCLUDE = eINSTANCE
-				.getTaskDescriptor_OutputExclude();
+		EReference TASK_DESCRIPTOR__OUTPUT_EXCLUDE = eINSTANCE.getTaskDescriptor_OutputExclude();
 
 		/**
 		 * The meta object literal for the '<em><b>Selected Steps Exclude</b></em>' reference list feature.
@@ -29559,81 +29956,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TASK_DESCRIPTOR__SELECTED_STEPS_EXCLUDE = eINSTANCE
-				.getTaskDescriptor_SelectedStepsExclude();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.WorkProductDescriptorImpl <em>Work Product Descriptor</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.WorkProductDescriptorImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkProductDescriptor()
-		 * @generated
-		 */
-		EClass WORK_PRODUCT_DESCRIPTOR = eINSTANCE.getWorkProductDescriptor();
-
-		/**
-		 * The meta object literal for the '<em><b>Activity Entry State</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute WORK_PRODUCT_DESCRIPTOR__ACTIVITY_ENTRY_STATE = eINSTANCE
-				.getWorkProductDescriptor_ActivityEntryState();
-
-		/**
-		 * The meta object literal for the '<em><b>Activity Exit State</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute WORK_PRODUCT_DESCRIPTOR__ACTIVITY_EXIT_STATE = eINSTANCE
-				.getWorkProductDescriptor_ActivityExitState();
-
-		/**
-		 * The meta object literal for the '<em><b>Work Product</b></em>' reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference WORK_PRODUCT_DESCRIPTOR__WORK_PRODUCT = eINSTANCE
-				.getWorkProductDescriptor_WorkProduct();
-
-		/**
-		 * The meta object literal for the '<em><b>Impacted By</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference WORK_PRODUCT_DESCRIPTOR__IMPACTED_BY = eINSTANCE
-				.getWorkProductDescriptor_ImpactedBy();
-
-		/**
-		 * The meta object literal for the '<em><b>Impacts</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference WORK_PRODUCT_DESCRIPTOR__IMPACTS = eINSTANCE
-				.getWorkProductDescriptor_Impacts();
-
-		/**
-		 * The meta object literal for the '<em><b>Deliverable Parts</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference WORK_PRODUCT_DESCRIPTOR__DELIVERABLE_PARTS = eINSTANCE
-				.getWorkProductDescriptor_DeliverableParts();
-
-		/**
-		 * The meta object literal for the '<em><b>Deliverable Parts Exclude</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference WORK_PRODUCT_DESCRIPTOR__DELIVERABLE_PARTS_EXCLUDE = eINSTANCE
-				.getWorkProductDescriptor_DeliverablePartsExclude();
+		EReference TASK_DESCRIPTOR__SELECTED_STEPS_EXCLUDE = eINSTANCE.getTaskDescriptor_SelectedStepsExclude();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.CompositeRoleImpl <em>Composite Role</em>}' class.
@@ -29651,8 +29974,240 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference COMPOSITE_ROLE__AGGREGATED_ROLES = eINSTANCE
-				.getCompositeRole_AggregatedRoles();
+		EReference COMPOSITE_ROLE__AGGREGATED_ROLES = eINSTANCE.getCompositeRole_AggregatedRoles();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DeliveryProcessImpl <em>Delivery Process</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.DeliveryProcessImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDeliveryProcess()
+		 * @generated
+		 */
+		EClass DELIVERY_PROCESS = eINSTANCE.getDeliveryProcess();
+
+		/**
+		 * The meta object literal for the '<em><b>Education Materials</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DELIVERY_PROCESS__EDUCATION_MATERIALS = eINSTANCE.getDeliveryProcess_EducationMaterials();
+
+		/**
+		 * The meta object literal for the '<em><b>Communications Materials</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DELIVERY_PROCESS__COMMUNICATIONS_MATERIALS = eINSTANCE.getDeliveryProcess_CommunicationsMaterials();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessImpl <em>Process</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ProcessImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcess()
+		 * @generated
+		 */
+		EClass PROCESS = eINSTANCE.getProcess();
+
+		/**
+		 * The meta object literal for the '<em><b>Includes Patterns</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PROCESS__INCLUDES_PATTERNS = eINSTANCE.getProcess_IncludesPatterns();
+
+		/**
+		 * The meta object literal for the '<em><b>Default Context</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PROCESS__DEFAULT_CONTEXT = eINSTANCE.getProcess_DefaultContext();
+
+		/**
+		 * The meta object literal for the '<em><b>Valid Context</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PROCESS__VALID_CONTEXT = eINSTANCE.getProcess_ValidContext();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.CapabilityPatternImpl <em>Capability Pattern</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.CapabilityPatternImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getCapabilityPattern()
+		 * @generated
+		 */
+		EClass CAPABILITY_PATTERN = eINSTANCE.getCapabilityPattern();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.MethodConfigurationImpl <em>Method Configuration</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.MethodConfigurationImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodConfiguration()
+		 * @generated
+		 */
+		EClass METHOD_CONFIGURATION = eINSTANCE.getMethodConfiguration();
+
+		/**
+		 * The meta object literal for the '<em><b>Method Plugin Selection</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_CONFIGURATION__METHOD_PLUGIN_SELECTION = eINSTANCE
+				.getMethodConfiguration_MethodPluginSelection();
+
+		/**
+		 * The meta object literal for the '<em><b>Method Package Selection</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_CONFIGURATION__METHOD_PACKAGE_SELECTION = eINSTANCE
+				.getMethodConfiguration_MethodPackageSelection();
+
+		/**
+		 * The meta object literal for the '<em><b>Process Views</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_CONFIGURATION__PROCESS_VIEWS = eINSTANCE.getMethodConfiguration_ProcessViews();
+
+		/**
+		 * The meta object literal for the '<em><b>Default View</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_CONFIGURATION__DEFAULT_VIEW = eINSTANCE.getMethodConfiguration_DefaultView();
+
+		/**
+		 * The meta object literal for the '<em><b>Base Configurations</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_CONFIGURATION__BASE_CONFIGURATIONS = eINSTANCE.getMethodConfiguration_BaseConfigurations();
+
+		/**
+		 * The meta object literal for the '<em><b>Subtracted Category</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_CONFIGURATION__SUBTRACTED_CATEGORY = eINSTANCE.getMethodConfiguration_SubtractedCategory();
+
+		/**
+		 * The meta object literal for the '<em><b>Added Category</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_CONFIGURATION__ADDED_CATEGORY = eINSTANCE.getMethodConfiguration_AddedCategory();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.MethodPluginImpl <em>Method Plugin</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.MethodPluginImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodPlugin()
+		 * @generated
+		 */
+		EClass METHOD_PLUGIN = eINSTANCE.getMethodPlugin();
+
+		/**
+		 * The meta object literal for the '<em><b>User Changeable</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute METHOD_PLUGIN__USER_CHANGEABLE = eINSTANCE.getMethodPlugin_UserChangeable();
+
+		/**
+		 * The meta object literal for the '<em><b>Method Packages</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_PLUGIN__METHOD_PACKAGES = eINSTANCE.getMethodPlugin_MethodPackages();
+
+		/**
+		 * The meta object literal for the '<em><b>Bases</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_PLUGIN__BASES = eINSTANCE.getMethodPlugin_Bases();
+
+		/**
+		 * The meta object literal for the '<em><b>Supporting</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute METHOD_PLUGIN__SUPPORTING = eINSTANCE.getMethodPlugin_Supporting();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessPlanningTemplateImpl <em>Process Planning Template</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ProcessPlanningTemplateImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessPlanningTemplate()
+		 * @generated
+		 */
+		EClass PROCESS_PLANNING_TEMPLATE = eINSTANCE.getProcessPlanningTemplate();
+
+		/**
+		 * The meta object literal for the '<em><b>Based On Processes</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PROCESS_PLANNING_TEMPLATE__BASED_ON_PROCESSES = eINSTANCE
+				.getProcessPlanningTemplate_BasedOnProcesses();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.PracticeImpl <em>Practice</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.PracticeImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPractice()
+		 * @generated
+		 */
+		EClass PRACTICE = eINSTANCE.getPractice();
+
+		/**
+		 * The meta object literal for the '<em><b>Sub Practices</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRACTICE__SUB_PRACTICES = eINSTANCE.getPractice_SubPractices();
+
+		/**
+		 * The meta object literal for the '<em><b>Content References</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRACTICE__CONTENT_REFERENCES = eINSTANCE.getPractice_ContentReferences();
+
+		/**
+		 * The meta object literal for the '<em><b>Activity References</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRACTICE__ACTIVITY_REFERENCES = eINSTANCE.getPractice_ActivityReferences();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.BreakdownElementDescriptionImpl <em>Breakdown Element Description</em>}' class.
@@ -29662,8 +30217,7 @@ public interface UmaPackage extends EPackage {
 		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getBreakdownElementDescription()
 		 * @generated
 		 */
-		EClass BREAKDOWN_ELEMENT_DESCRIPTION = eINSTANCE
-				.getBreakdownElementDescription();
+		EClass BREAKDOWN_ELEMENT_DESCRIPTION = eINSTANCE.getBreakdownElementDescription();
 
 		/**
 		 * The meta object literal for the '<em><b>Usage Guidance</b></em>' attribute feature.
@@ -29690,8 +30244,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute ACTIVITY_DESCRIPTION__PURPOSE = eINSTANCE
-				.getActivityDescription_Purpose();
+		EAttribute ACTIVITY_DESCRIPTION__PURPOSE = eINSTANCE.getActivityDescription_Purpose();
 
 		/**
 		 * The meta object literal for the '<em><b>Alternatives</b></em>' attribute feature.
@@ -29699,8 +30252,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute ACTIVITY_DESCRIPTION__ALTERNATIVES = eINSTANCE
-				.getActivityDescription_Alternatives();
+		EAttribute ACTIVITY_DESCRIPTION__ALTERNATIVES = eINSTANCE.getActivityDescription_Alternatives();
 
 		/**
 		 * The meta object literal for the '<em><b>Howto Staff</b></em>' attribute feature.
@@ -29708,8 +30260,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute ACTIVITY_DESCRIPTION__HOWTO_STAFF = eINSTANCE
-				.getActivityDescription_HowtoStaff();
+		EAttribute ACTIVITY_DESCRIPTION__HOWTO_STAFF = eINSTANCE.getActivityDescription_HowtoStaff();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DeliveryProcessDescriptionImpl <em>Delivery Process Description</em>}' class.
@@ -29719,8 +30270,7 @@ public interface UmaPackage extends EPackage {
 		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDeliveryProcessDescription()
 		 * @generated
 		 */
-		EClass DELIVERY_PROCESS_DESCRIPTION = eINSTANCE
-				.getDeliveryProcessDescription();
+		EClass DELIVERY_PROCESS_DESCRIPTION = eINSTANCE.getDeliveryProcessDescription();
 
 		/**
 		 * The meta object literal for the '<em><b>Scale</b></em>' attribute feature.
@@ -29728,8 +30278,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute DELIVERY_PROCESS_DESCRIPTION__SCALE = eINSTANCE
-				.getDeliveryProcessDescription_Scale();
+		EAttribute DELIVERY_PROCESS_DESCRIPTION__SCALE = eINSTANCE.getDeliveryProcessDescription_Scale();
 
 		/**
 		 * The meta object literal for the '<em><b>Project Characteristics</b></em>' attribute feature.
@@ -29746,8 +30295,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute DELIVERY_PROCESS_DESCRIPTION__RISK_LEVEL = eINSTANCE
-				.getDeliveryProcessDescription_RiskLevel();
+		EAttribute DELIVERY_PROCESS_DESCRIPTION__RISK_LEVEL = eINSTANCE.getDeliveryProcessDescription_RiskLevel();
 
 		/**
 		 * The meta object literal for the '<em><b>Estimating Technique</b></em>' attribute feature.
@@ -29792,8 +30340,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute PROCESS_DESCRIPTION__SCOPE = eINSTANCE
-				.getProcessDescription_Scope();
+		EAttribute PROCESS_DESCRIPTION__SCOPE = eINSTANCE.getProcessDescription_Scope();
 
 		/**
 		 * The meta object literal for the '<em><b>Usage Notes</b></em>' attribute feature.
@@ -29801,8 +30348,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute PROCESS_DESCRIPTION__USAGE_NOTES = eINSTANCE
-				.getProcessDescription_UsageNotes();
+		EAttribute PROCESS_DESCRIPTION__USAGE_NOTES = eINSTANCE.getProcessDescription_UsageNotes();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DescriptorDescriptionImpl <em>Descriptor Description</em>}' class.
@@ -29824,479 +30370,23 @@ public interface UmaPackage extends EPackage {
 				.getDescriptorDescription_RefinedDescription();
 
 		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ConceptImpl <em>Concept</em>}' class.
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessComponentDescriptorImpl <em>Process Component Descriptor</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ConceptImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getConcept()
+		 * @see org.eclipse.epf.uma.impl.ProcessComponentDescriptorImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessComponentDescriptor()
 		 * @generated
 		 */
-		EClass CONCEPT = eINSTANCE.getConcept();
+		EClass PROCESS_COMPONENT_DESCRIPTOR = eINSTANCE.getProcessComponentDescriptor();
 
 		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ChecklistImpl <em>Checklist</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ChecklistImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getChecklist()
-		 * @generated
-		 */
-		EClass CHECKLIST = eINSTANCE.getChecklist();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ExampleImpl <em>Example</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ExampleImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getExample()
-		 * @generated
-		 */
-		EClass EXAMPLE = eINSTANCE.getExample();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.GuidelineImpl <em>Guideline</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.GuidelineImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGuideline()
-		 * @generated
-		 */
-		EClass GUIDELINE = eINSTANCE.getGuideline();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.EstimationConsiderationsImpl <em>Estimation Considerations</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.EstimationConsiderationsImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getEstimationConsiderations()
-		 * @generated
-		 */
-		EClass ESTIMATION_CONSIDERATIONS = eINSTANCE
-				.getEstimationConsiderations();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ReportImpl <em>Report</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ReportImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getReport()
-		 * @generated
-		 */
-		EClass REPORT = eINSTANCE.getReport();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.TemplateImpl <em>Template</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.TemplateImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTemplate()
-		 * @generated
-		 */
-		EClass TEMPLATE = eINSTANCE.getTemplate();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.SupportingMaterialImpl <em>Supporting Material</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.SupportingMaterialImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getSupportingMaterial()
-		 * @generated
-		 */
-		EClass SUPPORTING_MATERIAL = eINSTANCE.getSupportingMaterial();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ToolMentorImpl <em>Tool Mentor</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ToolMentorImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getToolMentor()
-		 * @generated
-		 */
-		EClass TOOL_MENTOR = eINSTANCE.getToolMentor();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.WhitepaperImpl <em>Whitepaper</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.WhitepaperImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWhitepaper()
-		 * @generated
-		 */
-		EClass WHITEPAPER = eINSTANCE.getWhitepaper();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.TermDefinitionImpl <em>Term Definition</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.TermDefinitionImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTermDefinition()
-		 * @generated
-		 */
-		EClass TERM_DEFINITION = eINSTANCE.getTermDefinition();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ApplicableMetaClassInfoImpl <em>Applicable Meta Class Info</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ApplicableMetaClassInfoImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getApplicableMetaClassInfo()
-		 * @generated
-		 */
-		EClass APPLICABLE_META_CLASS_INFO = eINSTANCE
-				.getApplicableMetaClassInfo();
-
-		/**
-		 * The meta object literal for the '<em><b>Is Primary Extension</b></em>' attribute feature.
+		 * The meta object literal for the '<em><b>process Component</b></em>' reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute APPLICABLE_META_CLASS_INFO__IS_PRIMARY_EXTENSION = eINSTANCE
-				.getApplicableMetaClassInfo_IsPrimaryExtension();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.PracticeImpl <em>Practice</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.PracticeImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPractice()
-		 * @generated
-		 */
-		EClass PRACTICE = eINSTANCE.getPractice();
-
-		/**
-		 * The meta object literal for the '<em><b>Sub Practices</b></em>' containment reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference PRACTICE__SUB_PRACTICES = eINSTANCE
-				.getPractice_SubPractices();
-
-		/**
-		 * The meta object literal for the '<em><b>Content References</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference PRACTICE__CONTENT_REFERENCES = eINSTANCE
-				.getPractice_ContentReferences();
-
-		/**
-		 * The meta object literal for the '<em><b>Activity References</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference PRACTICE__ACTIVITY_REFERENCES = eINSTANCE
-				.getPractice_ActivityReferences();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ReusableAssetImpl <em>Reusable Asset</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ReusableAssetImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getReusableAsset()
-		 * @generated
-		 */
-		EClass REUSABLE_ASSET = eINSTANCE.getReusableAsset();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DisciplineImpl <em>Discipline</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.DisciplineImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDiscipline()
-		 * @generated
-		 */
-		EClass DISCIPLINE = eINSTANCE.getDiscipline();
-
-		/**
-		 * The meta object literal for the '<em><b>Tasks</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DISCIPLINE__TASKS = eINSTANCE.getDiscipline_Tasks();
-
-		/**
-		 * The meta object literal for the '<em><b>Subdiscipline</b></em>' containment reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DISCIPLINE__SUBDISCIPLINE = eINSTANCE
-				.getDiscipline_Subdiscipline();
-
-		/**
-		 * The meta object literal for the '<em><b>Reference Workflows</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DISCIPLINE__REFERENCE_WORKFLOWS = eINSTANCE
-				.getDiscipline_ReferenceWorkflows();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ContentCategoryImpl <em>Content Category</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ContentCategoryImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getContentCategory()
-		 * @generated
-		 */
-		EClass CONTENT_CATEGORY = eINSTANCE.getContentCategory();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.RoleSetImpl <em>Role Set</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.RoleSetImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoleSet()
-		 * @generated
-		 */
-		EClass ROLE_SET = eINSTANCE.getRoleSet();
-
-		/**
-		 * The meta object literal for the '<em><b>Roles</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference ROLE_SET__ROLES = eINSTANCE.getRoleSet_Roles();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DomainImpl <em>Domain</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.DomainImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDomain()
-		 * @generated
-		 */
-		EClass DOMAIN = eINSTANCE.getDomain();
-
-		/**
-		 * The meta object literal for the '<em><b>Work Products</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DOMAIN__WORK_PRODUCTS = eINSTANCE.getDomain_WorkProducts();
-
-		/**
-		 * The meta object literal for the '<em><b>Subdomains</b></em>' containment reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DOMAIN__SUBDOMAINS = eINSTANCE.getDomain_Subdomains();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.WorkProductTypeImpl <em>Work Product Type</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.WorkProductTypeImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkProductType()
-		 * @generated
-		 */
-		EClass WORK_PRODUCT_TYPE = eINSTANCE.getWorkProductType();
-
-		/**
-		 * The meta object literal for the '<em><b>Work Products</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference WORK_PRODUCT_TYPE__WORK_PRODUCTS = eINSTANCE
-				.getWorkProductType_WorkProducts();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DisciplineGroupingImpl <em>Discipline Grouping</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.DisciplineGroupingImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDisciplineGrouping()
-		 * @generated
-		 */
-		EClass DISCIPLINE_GROUPING = eINSTANCE.getDisciplineGrouping();
-
-		/**
-		 * The meta object literal for the '<em><b>Disciplines</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DISCIPLINE_GROUPING__DISCIPLINES = eINSTANCE
-				.getDisciplineGrouping_Disciplines();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ToolImpl <em>Tool</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ToolImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getTool()
-		 * @generated
-		 */
-		EClass TOOL = eINSTANCE.getTool();
-
-		/**
-		 * The meta object literal for the '<em><b>Tool Mentors</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference TOOL__TOOL_MENTORS = eINSTANCE.getTool_ToolMentors();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.RoleSetGroupingImpl <em>Role Set Grouping</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.RoleSetGroupingImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoleSetGrouping()
-		 * @generated
-		 */
-		EClass ROLE_SET_GROUPING = eINSTANCE.getRoleSetGrouping();
-
-		/**
-		 * The meta object literal for the '<em><b>Role Sets</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference ROLE_SET_GROUPING__ROLE_SETS = eINSTANCE
-				.getRoleSetGrouping_RoleSets();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.CustomCategoryImpl <em>Custom Category</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.CustomCategoryImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getCustomCategory()
-		 * @generated
-		 */
-		EClass CUSTOM_CATEGORY = eINSTANCE.getCustomCategory();
-
-		/**
-		 * The meta object literal for the '<em><b>Categorized Elements</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference CUSTOM_CATEGORY__CATEGORIZED_ELEMENTS = eINSTANCE
-				.getCustomCategory_CategorizedElements();
-
-		/**
-		 * The meta object literal for the '<em><b>Sub Categories</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference CUSTOM_CATEGORY__SUB_CATEGORIES = eINSTANCE
-				.getCustomCategory_SubCategories();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DeliveryProcessImpl <em>Delivery Process</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.DeliveryProcessImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDeliveryProcess()
-		 * @generated
-		 */
-		EClass DELIVERY_PROCESS = eINSTANCE.getDeliveryProcess();
-
-		/**
-		 * The meta object literal for the '<em><b>Education Materials</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DELIVERY_PROCESS__EDUCATION_MATERIALS = eINSTANCE
-				.getDeliveryProcess_EducationMaterials();
-
-		/**
-		 * The meta object literal for the '<em><b>Communications Materials</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DELIVERY_PROCESS__COMMUNICATIONS_MATERIALS = eINSTANCE
-				.getDeliveryProcess_CommunicationsMaterials();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessImpl <em>Process</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ProcessImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcess()
-		 * @generated
-		 */
-		EClass PROCESS = eINSTANCE.getProcess();
-
-		/**
-		 * The meta object literal for the '<em><b>Includes Patterns</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference PROCESS__INCLUDES_PATTERNS = eINSTANCE
-				.getProcess_IncludesPatterns();
-
-		/**
-		 * The meta object literal for the '<em><b>Default Context</b></em>' reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference PROCESS__DEFAULT_CONTEXT = eINSTANCE
-				.getProcess_DefaultContext();
-
-		/**
-		 * The meta object literal for the '<em><b>Valid Context</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference PROCESS__VALID_CONTEXT = eINSTANCE.getProcess_ValidContext();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.CapabilityPatternImpl <em>Capability Pattern</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.CapabilityPatternImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getCapabilityPattern()
-		 * @generated
-		 */
-		EClass CAPABILITY_PATTERN = eINSTANCE.getCapabilityPattern();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessPlanningTemplateImpl <em>Process Planning Template</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ProcessPlanningTemplateImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessPlanningTemplate()
-		 * @generated
-		 */
-		EClass PROCESS_PLANNING_TEMPLATE = eINSTANCE
-				.getProcessPlanningTemplate();
-
-		/**
-		 * The meta object literal for the '<em><b>Based On Processes</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference PROCESS_PLANNING_TEMPLATE__BASED_ON_PROCESSES = eINSTANCE
-				.getProcessPlanningTemplate_BasedOnProcesses();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.RoadmapImpl <em>Roadmap</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.RoadmapImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getRoadmap()
-		 * @generated
-		 */
-		EClass ROADMAP = eINSTANCE.getRoadmap();
+		EReference PROCESS_COMPONENT_DESCRIPTOR__PROCESS_COMPONENT = eINSTANCE
+				.getProcessComponentDescriptor__processComponent();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessComponentImpl <em>Process Component</em>}' class.
@@ -30314,8 +30404,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference PROCESS_COMPONENT__INTERFACES = eINSTANCE
-				.getProcessComponent_Interfaces();
+		EReference PROCESS_COMPONENT__INTERFACES = eINSTANCE.getProcessComponent_Interfaces();
 
 		/**
 		 * The meta object literal for the '<em><b>Process</b></em>' containment reference feature.
@@ -30323,8 +30412,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference PROCESS_COMPONENT__PROCESS = eINSTANCE
-				.getProcessComponent_Process();
+		EReference PROCESS_COMPONENT__PROCESS = eINSTANCE.getProcessComponent_Process();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessPackageImpl <em>Process Package</em>}' class.
@@ -30342,8 +30430,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference PROCESS_PACKAGE__PROCESS_ELEMENTS = eINSTANCE
-				.getProcessPackage_ProcessElements();
+		EReference PROCESS_PACKAGE__PROCESS_ELEMENTS = eINSTANCE.getProcessPackage_ProcessElements();
 
 		/**
 		 * The meta object literal for the '<em><b>Diagrams</b></em>' containment reference list feature.
@@ -30351,329 +30438,67 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference PROCESS_PACKAGE__DIAGRAMS = eINSTANCE
-				.getProcessPackage_Diagrams();
+		EReference PROCESS_PACKAGE__DIAGRAMS = eINSTANCE.getProcessPackage_Diagrams();
 
 		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessComponentInterfaceImpl <em>Process Component Interface</em>}' class.
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DiagramImpl <em>Diagram</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ProcessComponentInterfaceImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessComponentInterface()
+		 * @see org.eclipse.epf.uma.impl.DiagramImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDiagram()
 		 * @generated
 		 */
-		EClass PROCESS_COMPONENT_INTERFACE = eINSTANCE
-				.getProcessComponentInterface();
+		EClass DIAGRAM = eINSTANCE.getDiagram();
 
 		/**
-		 * The meta object literal for the '<em><b>Interface Specifications</b></em>' containment reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference PROCESS_COMPONENT_INTERFACE__INTERFACE_SPECIFICATIONS = eINSTANCE
-				.getProcessComponentInterface_InterfaceSpecifications();
-
-		/**
-		 * The meta object literal for the '<em><b>Interface IO</b></em>' containment reference list feature.
+		 * The meta object literal for the '<em><b>Diagram Link</b></em>' reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference PROCESS_COMPONENT_INTERFACE__INTERFACE_IO = eINSTANCE
-				.getProcessComponentInterface_InterfaceIO();
+		EReference DIAGRAM__DIAGRAM_LINK = eINSTANCE.getDiagram_DiagramLink();
 
 		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessComponentDescriptorImpl <em>Process Component Descriptor</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ProcessComponentDescriptorImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessComponentDescriptor()
-		 * @generated
-		 */
-		EClass PROCESS_COMPONENT_DESCRIPTOR = eINSTANCE
-				.getProcessComponentDescriptor();
-
-		/**
-		 * The meta object literal for the '<em><b>process Component</b></em>' reference feature.
+		 * The meta object literal for the '<em><b>Namespace</b></em>' containment reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference PROCESS_COMPONENT_DESCRIPTOR__PROCESS_COMPONENT = eINSTANCE
-				.getProcessComponentDescriptor__processComponent();
+		EReference DIAGRAM__NAMESPACE = eINSTANCE.getDiagram_Namespace();
 
 		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.MethodPluginImpl <em>Method Plugin</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.MethodPluginImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodPlugin()
-		 * @generated
-		 */
-		EClass METHOD_PLUGIN = eINSTANCE.getMethodPlugin();
-
-		/**
-		 * The meta object literal for the '<em><b>User Changeable</b></em>' attribute feature.
+		 * The meta object literal for the '<em><b>Zoom</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute METHOD_PLUGIN__USER_CHANGEABLE = eINSTANCE
-				.getMethodPlugin_UserChangeable();
+		EAttribute DIAGRAM__ZOOM = eINSTANCE.getDiagram_Zoom();
 
 		/**
-		 * The meta object literal for the '<em><b>Method Packages</b></em>' containment reference list feature.
+		 * The meta object literal for the '<em><b>Viewpoint</b></em>' reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference METHOD_PLUGIN__METHOD_PACKAGES = eINSTANCE
-				.getMethodPlugin_MethodPackages();
+		EReference DIAGRAM__VIEWPOINT = eINSTANCE.getDiagram_Viewpoint();
 
 		/**
-		 * The meta object literal for the '<em><b>Bases</b></em>' reference list feature.
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.GraphNodeImpl <em>Graph Node</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.GraphNodeImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGraphNode()
+		 * @generated
+		 */
+		EClass GRAPH_NODE = eINSTANCE.getGraphNode();
+
+		/**
+		 * The meta object literal for the '<em><b>Size</b></em>' reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference METHOD_PLUGIN__BASES = eINSTANCE.getMethodPlugin_Bases();
-
-		/**
-		 * The meta object literal for the '<em><b>Supporting</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute METHOD_PLUGIN__SUPPORTING = eINSTANCE
-				.getMethodPlugin_Supporting();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.VariabilityElementImpl <em>Variability Element</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.VariabilityElementImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getVariabilityElement()
-		 * @generated
-		 */
-		EClass VARIABILITY_ELEMENT = eINSTANCE.getVariabilityElement();
-
-		/**
-		 * The meta object literal for the '<em><b>Variability Type</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute VARIABILITY_ELEMENT__VARIABILITY_TYPE = eINSTANCE
-				.getVariabilityElement_VariabilityType();
-
-		/**
-		 * The meta object literal for the '<em><b>Variability Based On Element</b></em>' reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference VARIABILITY_ELEMENT__VARIABILITY_BASED_ON_ELEMENT = eINSTANCE
-				.getVariabilityElement_VariabilityBasedOnElement();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.MethodUnitImpl <em>Method Unit</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.MethodUnitImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodUnit()
-		 * @generated
-		 */
-		EClass METHOD_UNIT = eINSTANCE.getMethodUnit();
-
-		/**
-		 * The meta object literal for the '<em><b>Authors</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute METHOD_UNIT__AUTHORS = eINSTANCE.getMethodUnit_Authors();
-
-		/**
-		 * The meta object literal for the '<em><b>Change Date</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute METHOD_UNIT__CHANGE_DATE = eINSTANCE
-				.getMethodUnit_ChangeDate();
-
-		/**
-		 * The meta object literal for the '<em><b>Change Description</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute METHOD_UNIT__CHANGE_DESCRIPTION = eINSTANCE
-				.getMethodUnit_ChangeDescription();
-
-		/**
-		 * The meta object literal for the '<em><b>Version</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute METHOD_UNIT__VERSION = eINSTANCE.getMethodUnit_Version();
-
-		/**
-		 * The meta object literal for the '<em><b>Copyright Statement</b></em>' reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference METHOD_UNIT__COPYRIGHT_STATEMENT = eINSTANCE
-				.getMethodUnit_CopyrightStatement();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.MethodConfigurationImpl <em>Method Configuration</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.MethodConfigurationImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodConfiguration()
-		 * @generated
-		 */
-		EClass METHOD_CONFIGURATION = eINSTANCE.getMethodConfiguration();
-
-		/**
-		 * The meta object literal for the '<em><b>Method Plugin Selection</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference METHOD_CONFIGURATION__METHOD_PLUGIN_SELECTION = eINSTANCE
-				.getMethodConfiguration_MethodPluginSelection();
-
-		/**
-		 * The meta object literal for the '<em><b>Method Package Selection</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference METHOD_CONFIGURATION__METHOD_PACKAGE_SELECTION = eINSTANCE
-				.getMethodConfiguration_MethodPackageSelection();
-
-		/**
-		 * The meta object literal for the '<em><b>Process Views</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference METHOD_CONFIGURATION__PROCESS_VIEWS = eINSTANCE
-				.getMethodConfiguration_ProcessViews();
-
-		/**
-		 * The meta object literal for the '<em><b>Default View</b></em>' reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference METHOD_CONFIGURATION__DEFAULT_VIEW = eINSTANCE
-				.getMethodConfiguration_DefaultView();
-
-		/**
-		 * The meta object literal for the '<em><b>Base Configurations</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference METHOD_CONFIGURATION__BASE_CONFIGURATIONS = eINSTANCE
-				.getMethodConfiguration_BaseConfigurations();
-
-		/**
-		 * The meta object literal for the '<em><b>Subtracted Category</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference METHOD_CONFIGURATION__SUBTRACTED_CATEGORY = eINSTANCE
-				.getMethodConfiguration_SubtractedCategory();
-
-		/**
-		 * The meta object literal for the '<em><b>Added Category</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference METHOD_CONFIGURATION__ADDED_CATEGORY = eINSTANCE
-				.getMethodConfiguration_AddedCategory();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessFamilyImpl <em>Process Family</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.ProcessFamilyImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessFamily()
-		 * @generated
-		 */
-		EClass PROCESS_FAMILY = eINSTANCE.getProcessFamily();
-
-		/**
-		 * The meta object literal for the '<em><b>Delivery Processes</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference PROCESS_FAMILY__DELIVERY_PROCESSES = eINSTANCE
-				.getProcessFamily_DeliveryProcesses();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.MethodLibraryImpl <em>Method Library</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.MethodLibraryImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodLibrary()
-		 * @generated
-		 */
-		EClass METHOD_LIBRARY = eINSTANCE.getMethodLibrary();
-
-		/**
-		 * The meta object literal for the '<em><b>Method Plugins</b></em>' containment reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference METHOD_LIBRARY__METHOD_PLUGINS = eINSTANCE
-				.getMethodLibrary_MethodPlugins();
-
-		/**
-		 * The meta object literal for the '<em><b>Predefined Configurations</b></em>' containment reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS = eINSTANCE
-				.getMethodLibrary_PredefinedConfigurations();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.PointImpl <em>Point</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.PointImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPoint()
-		 * @generated
-		 */
-		EClass POINT = eINSTANCE.getPoint();
-
-		/**
-		 * The meta object literal for the '<em><b>X</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute POINT__X = eINSTANCE.getPoint_X();
-
-		/**
-		 * The meta object literal for the '<em><b>Y</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute POINT__Y = eINSTANCE.getPoint_Y();
+		EReference GRAPH_NODE__SIZE = eINSTANCE.getGraphNode_Size();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.GraphElementImpl <em>Graph Element</em>}' class.
@@ -30686,22 +30511,20 @@ public interface UmaPackage extends EPackage {
 		EClass GRAPH_ELEMENT = eINSTANCE.getGraphElement();
 
 		/**
-		 * The meta object literal for the '<em><b>Position</b></em>' reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference GRAPH_ELEMENT__POSITION = eINSTANCE
-				.getGraphElement_Position();
-
-		/**
 		 * The meta object literal for the '<em><b>Contained</b></em>' containment reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference GRAPH_ELEMENT__CONTAINED = eINSTANCE
-				.getGraphElement_Contained();
+		EReference GRAPH_ELEMENT__CONTAINED = eINSTANCE.getGraphElement_Contained();
+
+		/**
+		 * The meta object literal for the '<em><b>Position</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference GRAPH_ELEMENT__POSITION = eINSTANCE.getGraphElement_Position();
 
 		/**
 		 * The meta object literal for the '<em><b>Link</b></em>' containment reference list feature.
@@ -30717,8 +30540,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference GRAPH_ELEMENT__ANCHORAGE = eINSTANCE
-				.getGraphElement_Anchorage();
+		EReference GRAPH_ELEMENT__ANCHORAGE = eINSTANCE.getGraphElement_Anchorage();
 
 		/**
 		 * The meta object literal for the '<em><b>Semantic Model</b></em>' containment reference feature.
@@ -30726,8 +30548,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference GRAPH_ELEMENT__SEMANTIC_MODEL = eINSTANCE
-				.getGraphElement_SemanticModel();
+		EReference GRAPH_ELEMENT__SEMANTIC_MODEL = eINSTANCE.getGraphElement_SemanticModel();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DiagramElementImpl <em>Diagram Element</em>}' class.
@@ -30745,8 +30566,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute DIAGRAM_ELEMENT__IS_VISIBLE = eINSTANCE
-				.getDiagramElement_IsVisible();
+		EAttribute DIAGRAM_ELEMENT__IS_VISIBLE = eINSTANCE.getDiagramElement_IsVisible();
 
 		/**
 		 * The meta object literal for the '<em><b>Container</b></em>' container reference feature.
@@ -30754,8 +30574,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference DIAGRAM_ELEMENT__CONTAINER = eINSTANCE
-				.getDiagramElement_Container();
+		EReference DIAGRAM_ELEMENT__CONTAINER = eINSTANCE.getDiagramElement_Container();
 
 		/**
 		 * The meta object literal for the '<em><b>Reference</b></em>' reference list feature.
@@ -30763,8 +30582,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference DIAGRAM_ELEMENT__REFERENCE = eINSTANCE
-				.getDiagramElement_Reference();
+		EReference DIAGRAM_ELEMENT__REFERENCE = eINSTANCE.getDiagramElement_Reference();
 
 		/**
 		 * The meta object literal for the '<em><b>Property</b></em>' containment reference list feature.
@@ -30772,142 +30590,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference DIAGRAM_ELEMENT__PROPERTY = eINSTANCE
-				.getDiagramElement_Property();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DiagramLinkImpl <em>Diagram Link</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.DiagramLinkImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDiagramLink()
-		 * @generated
-		 */
-		EClass DIAGRAM_LINK = eINSTANCE.getDiagramLink();
-
-		/**
-		 * The meta object literal for the '<em><b>Zoom</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute DIAGRAM_LINK__ZOOM = eINSTANCE.getDiagramLink_Zoom();
-
-		/**
-		 * The meta object literal for the '<em><b>Viewport</b></em>' reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DIAGRAM_LINK__VIEWPORT = eINSTANCE.getDiagramLink_Viewport();
-
-		/**
-		 * The meta object literal for the '<em><b>Graph Element</b></em>' container reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DIAGRAM_LINK__GRAPH_ELEMENT = eINSTANCE
-				.getDiagramLink_GraphElement();
-
-		/**
-		 * The meta object literal for the '<em><b>Diagram</b></em>' reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference DIAGRAM_LINK__DIAGRAM = eINSTANCE.getDiagramLink_Diagram();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.GraphConnectorImpl <em>Graph Connector</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.GraphConnectorImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGraphConnector()
-		 * @generated
-		 */
-		EClass GRAPH_CONNECTOR = eINSTANCE.getGraphConnector();
-
-		/**
-		 * The meta object literal for the '<em><b>Graph Element</b></em>' container reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference GRAPH_CONNECTOR__GRAPH_ELEMENT = eINSTANCE
-				.getGraphConnector_GraphElement();
-
-		/**
-		 * The meta object literal for the '<em><b>Graph Edge</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference GRAPH_CONNECTOR__GRAPH_EDGE = eINSTANCE
-				.getGraphConnector_GraphEdge();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.SemanticModelBridgeImpl <em>Semantic Model Bridge</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.SemanticModelBridgeImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getSemanticModelBridge()
-		 * @generated
-		 */
-		EClass SEMANTIC_MODEL_BRIDGE = eINSTANCE.getSemanticModelBridge();
-
-		/**
-		 * The meta object literal for the '<em><b>Presentation</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute SEMANTIC_MODEL_BRIDGE__PRESENTATION = eINSTANCE
-				.getSemanticModelBridge_Presentation();
-
-		/**
-		 * The meta object literal for the '<em><b>Graph Element</b></em>' container reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference SEMANTIC_MODEL_BRIDGE__GRAPH_ELEMENT = eINSTANCE
-				.getSemanticModelBridge_GraphElement();
-
-		/**
-		 * The meta object literal for the '<em><b>Diagram</b></em>' container reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference SEMANTIC_MODEL_BRIDGE__DIAGRAM = eINSTANCE
-				.getSemanticModelBridge_Diagram();
-
-		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DimensionImpl <em>Dimension</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.DimensionImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDimension()
-		 * @generated
-		 */
-		EClass DIMENSION = eINSTANCE.getDimension();
-
-		/**
-		 * The meta object literal for the '<em><b>Width</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute DIMENSION__WIDTH = eINSTANCE.getDimension_Width();
-
-		/**
-		 * The meta object literal for the '<em><b>Height</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute DIMENSION__HEIGHT = eINSTANCE.getDimension_Height();
+		EReference DIAGRAM_ELEMENT__PROPERTY = eINSTANCE.getDiagramElement_Property();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ReferenceImpl <em>Reference</em>}' class.
@@ -30925,8 +30608,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute REFERENCE__IS_INDIVIDUAL_REPRESENTATION = eINSTANCE
-				.getReference_IsIndividualRepresentation();
+		EAttribute REFERENCE__IS_INDIVIDUAL_REPRESENTATION = eINSTANCE.getReference_IsIndividualRepresentation();
 
 		/**
 		 * The meta object literal for the '<em><b>Referenced</b></em>' reference feature.
@@ -30963,6 +30645,100 @@ public interface UmaPackage extends EPackage {
 		EAttribute PROPERTY__VALUE = eINSTANCE.getProperty_Value();
 
 		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.PointImpl <em>Point</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.PointImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getPoint()
+		 * @generated
+		 */
+		EClass POINT = eINSTANCE.getPoint();
+
+		/**
+		 * The meta object literal for the '<em><b>X</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute POINT__X = eINSTANCE.getPoint_X();
+
+		/**
+		 * The meta object literal for the '<em><b>Y</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute POINT__Y = eINSTANCE.getPoint_Y();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DiagramLinkImpl <em>Diagram Link</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.DiagramLinkImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDiagramLink()
+		 * @generated
+		 */
+		EClass DIAGRAM_LINK = eINSTANCE.getDiagramLink();
+
+		/**
+		 * The meta object literal for the '<em><b>Zoom</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DIAGRAM_LINK__ZOOM = eINSTANCE.getDiagramLink_Zoom();
+
+		/**
+		 * The meta object literal for the '<em><b>Viewport</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DIAGRAM_LINK__VIEWPORT = eINSTANCE.getDiagramLink_Viewport();
+
+		/**
+		 * The meta object literal for the '<em><b>Diagram</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DIAGRAM_LINK__DIAGRAM = eINSTANCE.getDiagramLink_Diagram();
+
+		/**
+		 * The meta object literal for the '<em><b>Graph Element</b></em>' container reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DIAGRAM_LINK__GRAPH_ELEMENT = eINSTANCE.getDiagramLink_GraphElement();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.GraphConnectorImpl <em>Graph Connector</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.GraphConnectorImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGraphConnector()
+		 * @generated
+		 */
+		EClass GRAPH_CONNECTOR = eINSTANCE.getGraphConnector();
+
+		/**
+		 * The meta object literal for the '<em><b>Graph Edge</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference GRAPH_CONNECTOR__GRAPH_EDGE = eINSTANCE.getGraphConnector_GraphEdge();
+
+		/**
+		 * The meta object literal for the '<em><b>Graph Element</b></em>' container reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference GRAPH_CONNECTOR__GRAPH_ELEMENT = eINSTANCE.getGraphConnector_GraphElement();
+
+		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.GraphEdgeImpl <em>Graph Edge</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -30973,14 +30749,6 @@ public interface UmaPackage extends EPackage {
 		EClass GRAPH_EDGE = eINSTANCE.getGraphEdge();
 
 		/**
-		 * The meta object literal for the '<em><b>Anchor</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference GRAPH_EDGE__ANCHOR = eINSTANCE.getGraphEdge_Anchor();
-
-		/**
 		 * The meta object literal for the '<em><b>Waypoints</b></em>' containment reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -30989,64 +30757,99 @@ public interface UmaPackage extends EPackage {
 		EReference GRAPH_EDGE__WAYPOINTS = eINSTANCE.getGraphEdge_Waypoints();
 
 		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DiagramImpl <em>Diagram</em>}' class.
+		 * The meta object literal for the '<em><b>Anchor</b></em>' reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.DiagramImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDiagram()
 		 * @generated
 		 */
-		EClass DIAGRAM = eINSTANCE.getDiagram();
+		EReference GRAPH_EDGE__ANCHOR = eINSTANCE.getGraphEdge_Anchor();
 
 		/**
-		 * The meta object literal for the '<em><b>Zoom</b></em>' attribute feature.
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.SemanticModelBridgeImpl <em>Semantic Model Bridge</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.SemanticModelBridgeImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getSemanticModelBridge()
 		 * @generated
 		 */
-		EAttribute DIAGRAM__ZOOM = eINSTANCE.getDiagram_Zoom();
+		EClass SEMANTIC_MODEL_BRIDGE = eINSTANCE.getSemanticModelBridge();
 
 		/**
-		 * The meta object literal for the '<em><b>Viewpoint</b></em>' reference feature.
+		 * The meta object literal for the '<em><b>Presentation</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference DIAGRAM__VIEWPOINT = eINSTANCE.getDiagram_Viewpoint();
+		EAttribute SEMANTIC_MODEL_BRIDGE__PRESENTATION = eINSTANCE.getSemanticModelBridge_Presentation();
 
 		/**
-		 * The meta object literal for the '<em><b>Diagram Link</b></em>' reference list feature.
+		 * The meta object literal for the '<em><b>Diagram</b></em>' container reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference DIAGRAM__DIAGRAM_LINK = eINSTANCE.getDiagram_DiagramLink();
+		EReference SEMANTIC_MODEL_BRIDGE__DIAGRAM = eINSTANCE.getSemanticModelBridge_Diagram();
 
 		/**
-		 * The meta object literal for the '<em><b>Namespace</b></em>' containment reference feature.
+		 * The meta object literal for the '<em><b>Graph Element</b></em>' container reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference DIAGRAM__NAMESPACE = eINSTANCE.getDiagram_Namespace();
+		EReference SEMANTIC_MODEL_BRIDGE__GRAPH_ELEMENT = eINSTANCE.getSemanticModelBridge_GraphElement();
 
 		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.GraphNodeImpl <em>Graph Node</em>}' class.
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.DimensionImpl <em>Dimension</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.impl.GraphNodeImpl
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getGraphNode()
+		 * @see org.eclipse.epf.uma.impl.DimensionImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDimension()
 		 * @generated
 		 */
-		EClass GRAPH_NODE = eINSTANCE.getGraphNode();
+		EClass DIMENSION = eINSTANCE.getDimension();
 
 		/**
-		 * The meta object literal for the '<em><b>Size</b></em>' reference feature.
+		 * The meta object literal for the '<em><b>Width</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference GRAPH_NODE__SIZE = eINSTANCE.getGraphNode_Size();
+		EAttribute DIMENSION__WIDTH = eINSTANCE.getDimension_Width();
+
+		/**
+		 * The meta object literal for the '<em><b>Height</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DIMENSION__HEIGHT = eINSTANCE.getDimension_Height();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessComponentInterfaceImpl <em>Process Component Interface</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ProcessComponentInterfaceImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessComponentInterface()
+		 * @generated
+		 */
+		EClass PROCESS_COMPONENT_INTERFACE = eINSTANCE.getProcessComponentInterface();
+
+		/**
+		 * The meta object literal for the '<em><b>Interface Specifications</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PROCESS_COMPONENT_INTERFACE__INTERFACE_SPECIFICATIONS = eINSTANCE
+				.getProcessComponentInterface_InterfaceSpecifications();
+
+		/**
+		 * The meta object literal for the '<em><b>Interface IO</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PROCESS_COMPONENT_INTERFACE__INTERFACE_IO = eINSTANCE.getProcessComponentInterface_InterfaceIO();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.SimpleSemanticModelElementImpl <em>Simple Semantic Model Element</em>}' class.
@@ -31056,8 +30859,7 @@ public interface UmaPackage extends EPackage {
 		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getSimpleSemanticModelElement()
 		 * @generated
 		 */
-		EClass SIMPLE_SEMANTIC_MODEL_ELEMENT = eINSTANCE
-				.getSimpleSemanticModelElement();
+		EClass SIMPLE_SEMANTIC_MODEL_ELEMENT = eINSTANCE.getSimpleSemanticModelElement();
 
 		/**
 		 * The meta object literal for the '<em><b>Type Info</b></em>' attribute feature.
@@ -31065,8 +30867,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute SIMPLE_SEMANTIC_MODEL_ELEMENT__TYPE_INFO = eINSTANCE
-				.getSimpleSemanticModelElement_TypeInfo();
+		EAttribute SIMPLE_SEMANTIC_MODEL_ELEMENT__TYPE_INFO = eINSTANCE.getSimpleSemanticModelElement_TypeInfo();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.UMASemanticModelBridgeImpl <em>UMA Semantic Model Bridge</em>}' class.
@@ -31076,8 +30877,7 @@ public interface UmaPackage extends EPackage {
 		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getUMASemanticModelBridge()
 		 * @generated
 		 */
-		EClass UMA_SEMANTIC_MODEL_BRIDGE = eINSTANCE
-				.getUMASemanticModelBridge();
+		EClass UMA_SEMANTIC_MODEL_BRIDGE = eINSTANCE.getUMASemanticModelBridge();
 
 		/**
 		 * The meta object literal for the '<em><b>Element</b></em>' reference feature.
@@ -31085,8 +30885,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference UMA_SEMANTIC_MODEL_BRIDGE__ELEMENT = eINSTANCE
-				.getUMASemanticModelBridge_Element();
+		EReference UMA_SEMANTIC_MODEL_BRIDGE__ELEMENT = eINSTANCE.getUMASemanticModelBridge_Element();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.CoreSemanticModelBridgeImpl <em>Core Semantic Model Bridge</em>}' class.
@@ -31096,8 +30895,7 @@ public interface UmaPackage extends EPackage {
 		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getCoreSemanticModelBridge()
 		 * @generated
 		 */
-		EClass CORE_SEMANTIC_MODEL_BRIDGE = eINSTANCE
-				.getCoreSemanticModelBridge();
+		EClass CORE_SEMANTIC_MODEL_BRIDGE = eINSTANCE.getCoreSemanticModelBridge();
 
 		/**
 		 * The meta object literal for the '<em><b>Element</b></em>' reference feature.
@@ -31105,8 +30903,7 @@ public interface UmaPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference CORE_SEMANTIC_MODEL_BRIDGE__ELEMENT = eINSTANCE
-				.getCoreSemanticModelBridge_Element();
+		EReference CORE_SEMANTIC_MODEL_BRIDGE__ELEMENT = eINSTANCE.getCoreSemanticModelBridge_Element();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.LeafElementImpl <em>Leaf Element</em>}' class.
@@ -31209,6 +31006,14 @@ public interface UmaPackage extends EPackage {
 		EClass ELLIPSE = eINSTANCE.getEllipse();
 
 		/**
+		 * The meta object literal for the '<em><b>Center</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ELLIPSE__CENTER = eINSTANCE.getEllipse_Center();
+
+		/**
 		 * The meta object literal for the '<em><b>Radius X</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -31249,22 +31054,48 @@ public interface UmaPackage extends EPackage {
 		EAttribute ELLIPSE__END_ANGLE = eINSTANCE.getEllipse_EndAngle();
 
 		/**
-		 * The meta object literal for the '<em><b>Center</b></em>' reference feature.
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.ProcessFamilyImpl <em>Process Family</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.ProcessFamilyImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getProcessFamily()
 		 * @generated
 		 */
-		EReference ELLIPSE__CENTER = eINSTANCE.getEllipse_Center();
+		EClass PROCESS_FAMILY = eINSTANCE.getProcessFamily();
 
 		/**
-		 * The meta object literal for the '{@link org.eclipse.epf.uma.WorkOrderType <em>Work Order Type</em>}' enum.
+		 * The meta object literal for the '<em><b>Delivery Processes</b></em>' reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see org.eclipse.epf.uma.WorkOrderType
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkOrderType()
 		 * @generated
 		 */
-		EEnum WORK_ORDER_TYPE = eINSTANCE.getWorkOrderType();
+		EReference PROCESS_FAMILY__DELIVERY_PROCESSES = eINSTANCE.getProcessFamily_DeliveryProcesses();
+
+		/**
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.impl.MethodLibraryImpl <em>Method Library</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.eclipse.epf.uma.impl.MethodLibraryImpl
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getMethodLibrary()
+		 * @generated
+		 */
+		EClass METHOD_LIBRARY = eINSTANCE.getMethodLibrary();
+
+		/**
+		 * The meta object literal for the '<em><b>Method Plugins</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_LIBRARY__METHOD_PLUGINS = eINSTANCE.getMethodLibrary_MethodPlugins();
+
+		/**
+		 * The meta object literal for the '<em><b>Predefined Configurations</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS = eINSTANCE.getMethodLibrary_PredefinedConfigurations();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.epf.uma.VariabilityType <em>Variability Type</em>}' enum.
@@ -31277,24 +31108,14 @@ public interface UmaPackage extends EPackage {
 		EEnum VARIABILITY_TYPE = eINSTANCE.getVariabilityType();
 
 		/**
-		 * The meta object literal for the '<em>Date</em>' data type.
+		 * The meta object literal for the '{@link org.eclipse.epf.uma.WorkOrderType <em>Work Order Type</em>}' enum.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see java.util.Date
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDate()
+		 * @see org.eclipse.epf.uma.WorkOrderType
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getWorkOrderType()
 		 * @generated
 		 */
-		EDataType DATE = eINSTANCE.getDate();
-
-		/**
-		 * The meta object literal for the '<em>Uri</em>' data type.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see java.net.URI
-		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getUri()
-		 * @generated
-		 */
-		EDataType URI = eINSTANCE.getUri();
+		EEnum WORK_ORDER_TYPE = eINSTANCE.getWorkOrderType();
 
 		/**
 		 * The meta object literal for the '<em>String</em>' data type.
@@ -31315,6 +31136,26 @@ public interface UmaPackage extends EPackage {
 		 * @generated
 		 */
 		EDataType BOOLEAN = eINSTANCE.getBoolean();
+
+		/**
+		 * The meta object literal for the '<em>Date</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.util.Date
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getDate()
+		 * @generated
+		 */
+		EDataType DATE = eINSTANCE.getDate();
+
+		/**
+		 * The meta object literal for the '<em>Uri</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.net.URI
+		 * @see org.eclipse.epf.uma.impl.UmaPackageImpl#getUri()
+		 * @generated
+		 */
+		EDataType URI = eINSTANCE.getUri();
 
 		/**
 		 * The meta object literal for the '<em>Set</em>' data type.

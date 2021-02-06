@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.SimpleSemanticModelElement;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -30,8 +33,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class SimpleSemanticModelElementImpl extends SemanticModelBridgeImpl
-		implements SimpleSemanticModelElement {
+public class SimpleSemanticModelElementImpl extends SemanticModelBridgeImpl implements SimpleSemanticModelElement {
 	/**
 	 * The default value of the '{@link #getTypeInfo() <em>Type Info</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -40,7 +42,7 @@ public class SimpleSemanticModelElementImpl extends SemanticModelBridgeImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String TYPE_INFO_EDEFAULT = "";
+	protected static final String TYPE_INFO_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getTypeInfo() <em>Type Info</em>}' attribute.
@@ -93,8 +95,7 @@ public class SimpleSemanticModelElementImpl extends SemanticModelBridgeImpl
 		String oldTypeInfo = typeInfo;
 		typeInfo = newTypeInfo;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.SIMPLE_SEMANTIC_MODEL_ELEMENT__TYPE_INFO,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.SIMPLE_SEMANTIC_MODEL_ELEMENT__TYPE_INFO,
 					oldTypeInfo, typeInfo));
 	}
 
@@ -157,8 +158,7 @@ public class SimpleSemanticModelElementImpl extends SemanticModelBridgeImpl
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.SIMPLE_SEMANTIC_MODEL_ELEMENT__TYPE_INFO:
-			return TYPE_INFO_EDEFAULT == null ? typeInfo != null
-					: !TYPE_INFO_EDEFAULT.equals(typeInfo);
+			return TYPE_INFO_EDEFAULT == null ? typeInfo != null : !TYPE_INFO_EDEFAULT.equals(typeInfo);
 		}
 		return super.eIsSet(featureID);
 	}

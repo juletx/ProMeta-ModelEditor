@@ -12,11 +12,14 @@ package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.Constraint;
 import org.eclipse.epf.uma.Step;
 import org.eclipse.epf.uma.UmaPackage;
@@ -92,19 +95,16 @@ public class StepImpl extends SectionImpl implements Step {
 			if (precondition != oldPrecondition) {
 				InternalEObject newPrecondition = (InternalEObject) precondition;
 				NotificationChain msgs = oldPrecondition.eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__PRECONDITION,
-						null, null);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__PRECONDITION, null, null);
 				if (newPrecondition.eInternalContainer() == null) {
-					msgs = newPrecondition
-							.eInverseAdd(this, EOPPOSITE_FEATURE_BASE
-									- UmaPackage.STEP__PRECONDITION, null, msgs);
+					msgs = newPrecondition.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__PRECONDITION,
+							null, msgs);
 				}
 				if (msgs != null)
 					msgs.dispatch();
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.STEP__PRECONDITION, oldPrecondition,
-							precondition));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.STEP__PRECONDITION,
+							oldPrecondition, precondition));
 			}
 		}
 		return precondition;
@@ -124,14 +124,12 @@ public class StepImpl extends SectionImpl implements Step {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetPrecondition(Constraint newPrecondition,
-			NotificationChain msgs) {
+	public NotificationChain basicSetPrecondition(Constraint newPrecondition, NotificationChain msgs) {
 		Constraint oldPrecondition = precondition;
 		precondition = newPrecondition;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET, UmaPackage.STEP__PRECONDITION,
-					oldPrecondition, newPrecondition);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.STEP__PRECONDITION, oldPrecondition, newPrecondition);
 			if (msgs == null)
 				msgs = notification;
 			else
@@ -150,18 +148,15 @@ public class StepImpl extends SectionImpl implements Step {
 			NotificationChain msgs = null;
 			if (precondition != null)
 				msgs = ((InternalEObject) precondition).eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__PRECONDITION,
-						null, msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__PRECONDITION, null, msgs);
 			if (newPrecondition != null)
 				msgs = ((InternalEObject) newPrecondition).eInverseAdd(this,
-						EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__PRECONDITION,
-						null, msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__PRECONDITION, null, msgs);
 			msgs = basicSetPrecondition(newPrecondition, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.STEP__PRECONDITION, newPrecondition,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.STEP__PRECONDITION, newPrecondition,
 					newPrecondition));
 	}
 
@@ -176,21 +171,17 @@ public class StepImpl extends SectionImpl implements Step {
 			postcondition = (Constraint) eResolveProxy(oldPostcondition);
 			if (postcondition != oldPostcondition) {
 				InternalEObject newPostcondition = (InternalEObject) postcondition;
-				NotificationChain msgs = oldPostcondition
-						.eInverseRemove(this, EOPPOSITE_FEATURE_BASE
-								- UmaPackage.STEP__POSTCONDITION, null, null);
+				NotificationChain msgs = oldPostcondition.eInverseRemove(this,
+						EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__POSTCONDITION, null, null);
 				if (newPostcondition.eInternalContainer() == null) {
-					msgs = newPostcondition.eInverseAdd(this,
-							EOPPOSITE_FEATURE_BASE
-									- UmaPackage.STEP__POSTCONDITION, null,
-							msgs);
+					msgs = newPostcondition.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__POSTCONDITION,
+							null, msgs);
 				}
 				if (msgs != null)
 					msgs.dispatch();
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.STEP__POSTCONDITION, oldPostcondition,
-							postcondition));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.STEP__POSTCONDITION,
+							oldPostcondition, postcondition));
 			}
 		}
 		return postcondition;
@@ -210,14 +201,12 @@ public class StepImpl extends SectionImpl implements Step {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetPostcondition(Constraint newPostcondition,
-			NotificationChain msgs) {
+	public NotificationChain basicSetPostcondition(Constraint newPostcondition, NotificationChain msgs) {
 		Constraint oldPostcondition = postcondition;
 		postcondition = newPostcondition;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET, UmaPackage.STEP__POSTCONDITION,
-					oldPostcondition, newPostcondition);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.STEP__POSTCONDITION, oldPostcondition, newPostcondition);
 			if (msgs == null)
 				msgs = notification;
 			else
@@ -235,19 +224,16 @@ public class StepImpl extends SectionImpl implements Step {
 		if (newPostcondition != postcondition) {
 			NotificationChain msgs = null;
 			if (postcondition != null)
-				msgs = ((InternalEObject) postcondition)
-						.eInverseRemove(this, EOPPOSITE_FEATURE_BASE
-								- UmaPackage.STEP__POSTCONDITION, null, msgs);
+				msgs = ((InternalEObject) postcondition).eInverseRemove(this,
+						EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__POSTCONDITION, null, msgs);
 			if (newPostcondition != null)
-				msgs = ((InternalEObject) newPostcondition)
-						.eInverseAdd(this, EOPPOSITE_FEATURE_BASE
-								- UmaPackage.STEP__POSTCONDITION, null, msgs);
+				msgs = ((InternalEObject) newPostcondition).eInverseAdd(this,
+						EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__POSTCONDITION, null, msgs);
 			msgs = basicSetPostcondition(newPostcondition, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.STEP__POSTCONDITION, newPostcondition,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.STEP__POSTCONDITION, newPostcondition,
 					newPostcondition));
 	}
 
@@ -257,8 +243,7 @@ public class StepImpl extends SectionImpl implements Step {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.STEP__PRECONDITION:
 			return basicSetPrecondition(null, msgs);

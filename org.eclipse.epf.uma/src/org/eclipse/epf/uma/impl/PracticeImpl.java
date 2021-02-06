@@ -14,13 +14,17 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.Activity;
 import org.eclipse.epf.uma.ContentElement;
 import org.eclipse.epf.uma.Practice;
@@ -102,8 +106,8 @@ public class PracticeImpl extends GuidanceImpl implements Practice {
 	 */
 	public List<Practice> getSubPractices() {
 		if (subPractices == null) {
-			subPractices = new EObjectContainmentEList.Resolving<Practice>(
-					Practice.class, this, UmaPackage.PRACTICE__SUB_PRACTICES);
+			subPractices = new EObjectContainmentEList.Resolving<Practice>(Practice.class, this,
+					UmaPackage.PRACTICE__SUB_PRACTICES);
 		}
 		return subPractices;
 	}
@@ -115,8 +119,7 @@ public class PracticeImpl extends GuidanceImpl implements Practice {
 	 */
 	public List<ContentElement> getContentReferences() {
 		if (contentReferences == null) {
-			contentReferences = new EObjectResolvingEList<ContentElement>(
-					ContentElement.class, this,
+			contentReferences = new EObjectResolvingEList<ContentElement>(ContentElement.class, this,
 					UmaPackage.PRACTICE__CONTENT_REFERENCES);
 		}
 		return contentReferences;
@@ -129,8 +132,7 @@ public class PracticeImpl extends GuidanceImpl implements Practice {
 	 */
 	public List<Activity> getActivityReferences() {
 		if (activityReferences == null) {
-			activityReferences = new EObjectResolvingEList<Activity>(
-					Activity.class, this,
+			activityReferences = new EObjectResolvingEList<Activity>(Activity.class, this,
 					UmaPackage.PRACTICE__ACTIVITY_REFERENCES);
 		}
 		return activityReferences;
@@ -142,12 +144,10 @@ public class PracticeImpl extends GuidanceImpl implements Practice {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.PRACTICE__SUB_PRACTICES:
-			return ((InternalEList<?>) getSubPractices()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getSubPractices()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -185,13 +185,11 @@ public class PracticeImpl extends GuidanceImpl implements Practice {
 			return;
 		case UmaPackage.PRACTICE__CONTENT_REFERENCES:
 			getContentReferences().clear();
-			getContentReferences().addAll(
-					(Collection<? extends ContentElement>) newValue);
+			getContentReferences().addAll((Collection<? extends ContentElement>) newValue);
 			return;
 		case UmaPackage.PRACTICE__ACTIVITY_REFERENCES:
 			getActivityReferences().clear();
-			getActivityReferences().addAll(
-					(Collection<? extends Activity>) newValue);
+			getActivityReferences().addAll((Collection<? extends Activity>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);

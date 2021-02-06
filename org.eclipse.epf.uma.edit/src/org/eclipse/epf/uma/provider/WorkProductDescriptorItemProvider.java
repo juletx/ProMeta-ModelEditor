@@ -15,16 +15,12 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.WorkProductDescriptor;
 
@@ -34,9 +30,7 @@ import org.eclipse.epf.uma.WorkProductDescriptor;
  * <!-- end-user-doc -->
  * @generated
  */
-public class WorkProductDescriptorItemProvider extends DescriptorItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class WorkProductDescriptorItemProvider extends DescriptorItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -64,6 +58,7 @@ public class WorkProductDescriptorItemProvider extends DescriptorItemProvider
 			addImpactedByPropertyDescriptor(object);
 			addImpactsPropertyDescriptor(object);
 			addDeliverablePartsPropertyDescriptor(object);
+			addDeliverablePartsExcludePropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -75,17 +70,13 @@ public class WorkProductDescriptorItemProvider extends DescriptorItemProvider
 	 * @generated
 	 */
 	protected void addActivityEntryStatePropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_WorkProductDescriptor_activityEntryState_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_WorkProductDescriptor_activityEntryState_feature", "_UI_WorkProductDescriptor_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.WORK_PRODUCT_DESCRIPTOR__ACTIVITY_ENTRY_STATE,
-						true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_WorkProductDescriptor_activityEntryState_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", "_UI_WorkProductDescriptor_activityEntryState_feature", //$NON-NLS-1$//$NON-NLS-2$
+						"_UI_WorkProductDescriptor_type"), //$NON-NLS-1$
+				UmaPackage.Literals.WORK_PRODUCT_DESCRIPTOR__ACTIVITY_ENTRY_STATE, true, false, false,
+				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -95,17 +86,13 @@ public class WorkProductDescriptorItemProvider extends DescriptorItemProvider
 	 * @generated
 	 */
 	protected void addActivityExitStatePropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_WorkProductDescriptor_activityExitState_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_WorkProductDescriptor_activityExitState_feature", "_UI_WorkProductDescriptor_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.WORK_PRODUCT_DESCRIPTOR__ACTIVITY_EXIT_STATE,
-						true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_WorkProductDescriptor_activityExitState_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", "_UI_WorkProductDescriptor_activityExitState_feature", //$NON-NLS-1$//$NON-NLS-2$
+						"_UI_WorkProductDescriptor_type"), //$NON-NLS-1$
+				UmaPackage.Literals.WORK_PRODUCT_DESCRIPTOR__ACTIVITY_EXIT_STATE, true, false, false,
+				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -115,16 +102,12 @@ public class WorkProductDescriptorItemProvider extends DescriptorItemProvider
 	 * @generated
 	 */
 	protected void addWorkProductPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_WorkProductDescriptor_WorkProduct_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_WorkProductDescriptor_WorkProduct_feature", "_UI_WorkProductDescriptor_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.WORK_PRODUCT_DESCRIPTOR__WORK_PRODUCT,
-						true, false, true, null, null, null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_WorkProductDescriptor_WorkProduct_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", "_UI_WorkProductDescriptor_WorkProduct_feature", //$NON-NLS-1$//$NON-NLS-2$
+						"_UI_WorkProductDescriptor_type"), //$NON-NLS-1$
+				UmaPackage.Literals.WORK_PRODUCT_DESCRIPTOR__WORK_PRODUCT, true, false, true, null, null, null));
 	}
 
 	/**
@@ -135,15 +118,11 @@ public class WorkProductDescriptorItemProvider extends DescriptorItemProvider
 	 */
 	protected void addImpactedByPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_WorkProductDescriptor_impactedBy_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_WorkProductDescriptor_impactedBy_feature", "_UI_WorkProductDescriptor_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.WORK_PRODUCT_DESCRIPTOR__IMPACTED_BY,
-						true, false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_WorkProductDescriptor_impactedBy_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_WorkProductDescriptor_impactedBy_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_WorkProductDescriptor_type"), //$NON-NLS-1$
+						UmaPackage.Literals.WORK_PRODUCT_DESCRIPTOR__IMPACTED_BY, true, false, true, null, null, null));
 	}
 
 	/**
@@ -154,15 +133,11 @@ public class WorkProductDescriptorItemProvider extends DescriptorItemProvider
 	 */
 	protected void addImpactsPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_WorkProductDescriptor_impacts_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_WorkProductDescriptor_impacts_feature", "_UI_WorkProductDescriptor_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.WORK_PRODUCT_DESCRIPTOR__IMPACTS,
-						true, false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_WorkProductDescriptor_impacts_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_WorkProductDescriptor_impacts_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_WorkProductDescriptor_type"), //$NON-NLS-1$
+						UmaPackage.Literals.WORK_PRODUCT_DESCRIPTOR__IMPACTS, true, false, true, null, null, null));
 	}
 
 	/**
@@ -172,16 +147,28 @@ public class WorkProductDescriptorItemProvider extends DescriptorItemProvider
 	 * @generated
 	 */
 	protected void addDeliverablePartsPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_WorkProductDescriptor_deliverableParts_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_WorkProductDescriptor_deliverableParts_feature", "_UI_WorkProductDescriptor_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.WORK_PRODUCT_DESCRIPTOR__DELIVERABLE_PARTS,
-						true, false, true, null, null, null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_WorkProductDescriptor_deliverableParts_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", "_UI_WorkProductDescriptor_deliverableParts_feature", //$NON-NLS-1$//$NON-NLS-2$
+						"_UI_WorkProductDescriptor_type"), //$NON-NLS-1$
+				UmaPackage.Literals.WORK_PRODUCT_DESCRIPTOR__DELIVERABLE_PARTS, true, false, true, null, null, null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Deliverable Parts Exclude feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addDeliverablePartsExcludePropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_WorkProductDescriptor_deliverablePartsExclude_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", //$NON-NLS-1$
+						"_UI_WorkProductDescriptor_deliverablePartsExclude_feature", "_UI_WorkProductDescriptor_type"), //$NON-NLS-1$ //$NON-NLS-2$
+				UmaPackage.Literals.WORK_PRODUCT_DESCRIPTOR__DELIVERABLE_PARTS_EXCLUDE, true, false, true, null, null,
+				null));
 	}
 
 	/**
@@ -192,8 +179,7 @@ public class WorkProductDescriptorItemProvider extends DescriptorItemProvider
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/WorkProductDescriptor")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/WorkProductDescriptor")); //$NON-NLS-1$
 	}
 
 	/**
@@ -223,8 +209,7 @@ public class WorkProductDescriptorItemProvider extends DescriptorItemProvider
 		switch (notification.getFeatureID(WorkProductDescriptor.class)) {
 		case UmaPackage.WORK_PRODUCT_DESCRIPTOR__ACTIVITY_ENTRY_STATE:
 		case UmaPackage.WORK_PRODUCT_DESCRIPTOR__ACTIVITY_EXIT_STATE:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), false, true));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -238,20 +223,8 @@ public class WorkProductDescriptorItemProvider extends DescriptorItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

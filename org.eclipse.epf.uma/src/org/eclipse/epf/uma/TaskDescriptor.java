@@ -177,7 +177,7 @@ public interface TaskDescriptor extends WorkBreakdownElement, Descriptor {
 	 * The list contents are of type {@link org.eclipse.epf.uma.RoleDescriptor}.
 	 * <!-- begin-user-doc -->
 	 * <p>
-	 * If the meaning of the '<em>Performed Primarily By</em>' reference isn't clear,
+	 * If the meaning of the '<em>Performed Primarily By</em>' reference list isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->

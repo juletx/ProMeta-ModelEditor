@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.DescriptorDescription;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -30,8 +33,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class DescriptorDescriptionImpl extends BreakdownElementDescriptionImpl
-		implements DescriptorDescription {
+public class DescriptorDescriptionImpl extends BreakdownElementDescriptionImpl implements DescriptorDescription {
 	/**
 	 * The default value of the '{@link #getRefinedDescription() <em>Refined Description</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -40,7 +42,7 @@ public class DescriptorDescriptionImpl extends BreakdownElementDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String REFINED_DESCRIPTION_EDEFAULT = "";
+	protected static final String REFINED_DESCRIPTION_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getRefinedDescription() <em>Refined Description</em>}' attribute.
@@ -94,8 +96,7 @@ public class DescriptorDescriptionImpl extends BreakdownElementDescriptionImpl
 		refinedDescription = newRefinedDescription;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DESCRIPTOR_DESCRIPTION__REFINED_DESCRIPTION,
-					oldRefinedDescription, refinedDescription));
+					UmaPackage.DESCRIPTOR_DESCRIPTION__REFINED_DESCRIPTION, oldRefinedDescription, refinedDescription));
 	}
 
 	/**

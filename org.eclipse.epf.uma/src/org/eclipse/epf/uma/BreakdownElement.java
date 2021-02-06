@@ -242,7 +242,7 @@ public interface BreakdownElement extends ProcessElement {
 	 * It is bidirectional and its opposite is '{@link org.eclipse.epf.uma.Activity#getBreakdownElements <em>Breakdown Elements</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <p>
-	 * If the meaning of the '<em>Super Activities</em>' reference list isn't clear,
+	 * If the meaning of the '<em>Super Activities</em>' reference isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->

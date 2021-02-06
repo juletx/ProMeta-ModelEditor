@@ -12,11 +12,14 @@ package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.DiagramElement;
 import org.eclipse.epf.uma.Reference;
 import org.eclipse.epf.uma.UmaPackage;
@@ -103,13 +106,11 @@ public class ReferenceImpl extends DiagramElementImpl implements Reference {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setIsIndividualRepresentation(
-			Boolean newIsIndividualRepresentation) {
+	public void setIsIndividualRepresentation(Boolean newIsIndividualRepresentation) {
 		Boolean oldIsIndividualRepresentation = isIndividualRepresentation;
 		isIndividualRepresentation = newIsIndividualRepresentation;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.REFERENCE__IS_INDIVIDUAL_REPRESENTATION,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.REFERENCE__IS_INDIVIDUAL_REPRESENTATION,
 					oldIsIndividualRepresentation, isIndividualRepresentation));
 	}
 
@@ -124,9 +125,8 @@ public class ReferenceImpl extends DiagramElementImpl implements Reference {
 			referenced = (DiagramElement) eResolveProxy(oldReferenced);
 			if (referenced != oldReferenced) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.REFERENCE__REFERENCED, oldReferenced,
-							referenced));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.REFERENCE__REFERENCED,
+							oldReferenced, referenced));
 			}
 		}
 		return referenced;
@@ -146,14 +146,12 @@ public class ReferenceImpl extends DiagramElementImpl implements Reference {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetReferenced(DiagramElement newReferenced,
-			NotificationChain msgs) {
+	public NotificationChain basicSetReferenced(DiagramElement newReferenced, NotificationChain msgs) {
 		DiagramElement oldReferenced = referenced;
 		referenced = newReferenced;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET, UmaPackage.REFERENCE__REFERENCED,
-					oldReferenced, newReferenced);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.REFERENCE__REFERENCED, oldReferenced, newReferenced);
 			if (msgs == null)
 				msgs = notification;
 			else
@@ -171,19 +169,16 @@ public class ReferenceImpl extends DiagramElementImpl implements Reference {
 		if (newReferenced != referenced) {
 			NotificationChain msgs = null;
 			if (referenced != null)
-				msgs = ((InternalEObject) referenced).eInverseRemove(this,
-						UmaPackage.DIAGRAM_ELEMENT__REFERENCE,
+				msgs = ((InternalEObject) referenced).eInverseRemove(this, UmaPackage.DIAGRAM_ELEMENT__REFERENCE,
 						DiagramElement.class, msgs);
 			if (newReferenced != null)
-				msgs = ((InternalEObject) newReferenced).eInverseAdd(this,
-						UmaPackage.DIAGRAM_ELEMENT__REFERENCE,
+				msgs = ((InternalEObject) newReferenced).eInverseAdd(this, UmaPackage.DIAGRAM_ELEMENT__REFERENCE,
 						DiagramElement.class, msgs);
 			msgs = basicSetReferenced(newReferenced, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.REFERENCE__REFERENCED, newReferenced,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.REFERENCE__REFERENCED, newReferenced,
 					newReferenced));
 	}
 
@@ -193,13 +188,11 @@ public class ReferenceImpl extends DiagramElementImpl implements Reference {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseAdd(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.REFERENCE__REFERENCED:
 			if (referenced != null)
-				msgs = ((InternalEObject) referenced).eInverseRemove(this,
-						UmaPackage.DIAGRAM_ELEMENT__REFERENCE,
+				msgs = ((InternalEObject) referenced).eInverseRemove(this, UmaPackage.DIAGRAM_ELEMENT__REFERENCE,
 						DiagramElement.class, msgs);
 			return basicSetReferenced((DiagramElement) otherEnd, msgs);
 		}
@@ -212,8 +205,7 @@ public class ReferenceImpl extends DiagramElementImpl implements Reference {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.REFERENCE__REFERENCED:
 			return basicSetReferenced(null, msgs);
@@ -291,8 +283,7 @@ public class ReferenceImpl extends DiagramElementImpl implements Reference {
 		switch (featureID) {
 		case UmaPackage.REFERENCE__IS_INDIVIDUAL_REPRESENTATION:
 			return IS_INDIVIDUAL_REPRESENTATION_EDEFAULT == null ? isIndividualRepresentation != null
-					: !IS_INDIVIDUAL_REPRESENTATION_EDEFAULT
-							.equals(isIndividualRepresentation);
+					: !IS_INDIVIDUAL_REPRESENTATION_EDEFAULT.equals(isIndividualRepresentation);
 		case UmaPackage.REFERENCE__REFERENCED:
 			return referenced != null;
 		}

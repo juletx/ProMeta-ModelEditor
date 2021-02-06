@@ -16,13 +16,18 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.MethodUnit;
 import org.eclipse.epf.uma.ProcessComponent;
 import org.eclipse.epf.uma.ProcessComponentInterface;
@@ -48,8 +53,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class ProcessComponentImpl extends ProcessPackageImpl implements
-		ProcessComponent {
+public class ProcessComponentImpl extends ProcessPackageImpl implements ProcessComponent {
 	/**
 	 * The default value of the '{@link #getAuthors() <em>Authors</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -58,7 +62,7 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String AUTHORS_EDEFAULT = "";
+	protected static final String AUTHORS_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getAuthors() <em>Authors</em>}' attribute.
@@ -98,7 +102,7 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String CHANGE_DESCRIPTION_EDEFAULT = "";
+	protected static final String CHANGE_DESCRIPTION_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getChangeDescription() <em>Change Description</em>}' attribute.
@@ -118,7 +122,7 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String VERSION_EDEFAULT = "";
+	protected static final String VERSION_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getVersion() <em>Version</em>}' attribute.
@@ -201,8 +205,8 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 		String oldAuthors = authors;
 		authors = newAuthors;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PROCESS_COMPONENT__AUTHORS, oldAuthors, authors));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PROCESS_COMPONENT__AUTHORS, oldAuthors,
+					authors));
 	}
 
 	/**
@@ -223,9 +227,8 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 		Date oldChangeDate = changeDate;
 		changeDate = newChangeDate;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PROCESS_COMPONENT__CHANGE_DATE, oldChangeDate,
-					changeDate));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PROCESS_COMPONENT__CHANGE_DATE,
+					oldChangeDate, changeDate));
 	}
 
 	/**
@@ -246,8 +249,7 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 		String oldChangeDescription = changeDescription;
 		changeDescription = newChangeDescription;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PROCESS_COMPONENT__CHANGE_DESCRIPTION,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PROCESS_COMPONENT__CHANGE_DESCRIPTION,
 					oldChangeDescription, changeDescription));
 	}
 
@@ -269,8 +271,8 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 		String oldVersion = version;
 		version = newVersion;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PROCESS_COMPONENT__VERSION, oldVersion, version));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PROCESS_COMPONENT__VERSION, oldVersion,
+					version));
 	}
 
 	/**
@@ -279,15 +281,14 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 	 * @generated
 	 */
 	public SupportingMaterial getCopyrightStatement() {
-		if (copyrightStatement != null
-				&& ((EObject) copyrightStatement).eIsProxy()) {
+		if (copyrightStatement != null && ((EObject) copyrightStatement).eIsProxy()) {
 			InternalEObject oldCopyrightStatement = (InternalEObject) copyrightStatement;
 			copyrightStatement = (SupportingMaterial) eResolveProxy(oldCopyrightStatement);
 			if (copyrightStatement != oldCopyrightStatement) {
 				if (eNotificationRequired())
 					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.PROCESS_COMPONENT__COPYRIGHT_STATEMENT,
-							oldCopyrightStatement, copyrightStatement));
+							UmaPackage.PROCESS_COMPONENT__COPYRIGHT_STATEMENT, oldCopyrightStatement,
+							copyrightStatement));
 			}
 		}
 		return copyrightStatement;
@@ -311,8 +312,7 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 		SupportingMaterial oldCopyrightStatement = copyrightStatement;
 		copyrightStatement = newCopyrightStatement;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PROCESS_COMPONENT__COPYRIGHT_STATEMENT,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PROCESS_COMPONENT__COPYRIGHT_STATEMENT,
 					oldCopyrightStatement, copyrightStatement));
 	}
 
@@ -323,8 +323,7 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 	 */
 	public List<ProcessComponentInterface> getInterfaces() {
 		if (interfaces == null) {
-			interfaces = new EObjectResolvingEList<ProcessComponentInterface>(
-					ProcessComponentInterface.class, this,
+			interfaces = new EObjectResolvingEList<ProcessComponentInterface>(ProcessComponentInterface.class, this,
 					UmaPackage.PROCESS_COMPONENT__INTERFACES);
 		}
 		return interfaces;
@@ -342,21 +341,16 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 			if (process != oldProcess) {
 				InternalEObject newProcess = (InternalEObject) process;
 				NotificationChain msgs = oldProcess.eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.PROCESS_COMPONENT__PROCESS, null,
-						null);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.PROCESS_COMPONENT__PROCESS, null, null);
 				if (newProcess.eInternalContainer() == null) {
-					msgs = newProcess
-							.eInverseAdd(this, EOPPOSITE_FEATURE_BASE
-									- UmaPackage.PROCESS_COMPONENT__PROCESS,
-									null, msgs);
+					msgs = newProcess.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - UmaPackage.PROCESS_COMPONENT__PROCESS,
+							null, msgs);
 				}
 				if (msgs != null)
 					msgs.dispatch();
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.PROCESS_COMPONENT__PROCESS, oldProcess,
-							process));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.PROCESS_COMPONENT__PROCESS,
+							oldProcess, process));
 			}
 		}
 		return process;
@@ -376,14 +370,12 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetProcess(
-			org.eclipse.epf.uma.Process newProcess, NotificationChain msgs) {
+	public NotificationChain basicSetProcess(org.eclipse.epf.uma.Process newProcess, NotificationChain msgs) {
 		org.eclipse.epf.uma.Process oldProcess = process;
 		process = newProcess;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET, UmaPackage.PROCESS_COMPONENT__PROCESS,
-					oldProcess, newProcess);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.PROCESS_COMPONENT__PROCESS, oldProcess, newProcess);
 			if (msgs == null)
 				msgs = notification;
 			else
@@ -402,20 +394,15 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 			NotificationChain msgs = null;
 			if (process != null)
 				msgs = ((InternalEObject) process).eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.PROCESS_COMPONENT__PROCESS, null,
-						msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.PROCESS_COMPONENT__PROCESS, null, msgs);
 			if (newProcess != null)
 				msgs = ((InternalEObject) newProcess).eInverseAdd(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.PROCESS_COMPONENT__PROCESS, null,
-						msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.PROCESS_COMPONENT__PROCESS, null, msgs);
 			msgs = basicSetProcess(newProcess, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PROCESS_COMPONENT__PROCESS, newProcess,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PROCESS_COMPONENT__PROCESS, newProcess,
 					newProcess));
 	}
 
@@ -425,8 +412,7 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.PROCESS_COMPONENT__PROCESS:
 			return basicSetProcess(null, msgs);
@@ -490,8 +476,7 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 			return;
 		case UmaPackage.PROCESS_COMPONENT__INTERFACES:
 			getInterfaces().clear();
-			getInterfaces().addAll(
-					(Collection<? extends ProcessComponentInterface>) newValue);
+			getInterfaces().addAll((Collection<? extends ProcessComponentInterface>) newValue);
 			return;
 		case UmaPackage.PROCESS_COMPONENT__PROCESS:
 			setProcess((org.eclipse.epf.uma.Process) newValue);
@@ -548,17 +533,14 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.PROCESS_COMPONENT__AUTHORS:
-			return AUTHORS_EDEFAULT == null ? authors != null
-					: !AUTHORS_EDEFAULT.equals(authors);
+			return AUTHORS_EDEFAULT == null ? authors != null : !AUTHORS_EDEFAULT.equals(authors);
 		case UmaPackage.PROCESS_COMPONENT__CHANGE_DATE:
-			return CHANGE_DATE_EDEFAULT == null ? changeDate != null
-					: !CHANGE_DATE_EDEFAULT.equals(changeDate);
+			return CHANGE_DATE_EDEFAULT == null ? changeDate != null : !CHANGE_DATE_EDEFAULT.equals(changeDate);
 		case UmaPackage.PROCESS_COMPONENT__CHANGE_DESCRIPTION:
 			return CHANGE_DESCRIPTION_EDEFAULT == null ? changeDescription != null
 					: !CHANGE_DESCRIPTION_EDEFAULT.equals(changeDescription);
 		case UmaPackage.PROCESS_COMPONENT__VERSION:
-			return VERSION_EDEFAULT == null ? version != null
-					: !VERSION_EDEFAULT.equals(version);
+			return VERSION_EDEFAULT == null ? version != null : !VERSION_EDEFAULT.equals(version);
 		case UmaPackage.PROCESS_COMPONENT__COPYRIGHT_STATEMENT:
 			return copyrightStatement != null;
 		case UmaPackage.PROCESS_COMPONENT__INTERFACES:

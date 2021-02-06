@@ -12,11 +12,14 @@ package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.Constraint;
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.WorkDefinition;
@@ -35,8 +38,7 @@ import org.eclipse.epf.uma.WorkDefinition;
  *
  * @generated
  */
-public abstract class WorkDefinitionImpl extends MethodElementImpl implements
-		WorkDefinition {
+public abstract class WorkDefinitionImpl extends MethodElementImpl implements WorkDefinition {
 	/**
 	 * The cached value of the '{@link #getPrecondition() <em>Precondition</em>}' containment reference.
 	 * <!-- begin-user-doc -->
@@ -92,20 +94,15 @@ public abstract class WorkDefinitionImpl extends MethodElementImpl implements
 			if (precondition != oldPrecondition) {
 				InternalEObject newPrecondition = (InternalEObject) precondition;
 				NotificationChain msgs = oldPrecondition.eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.WORK_DEFINITION__PRECONDITION,
-						null, null);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.WORK_DEFINITION__PRECONDITION, null, null);
 				if (newPrecondition.eInternalContainer() == null) {
 					msgs = newPrecondition.eInverseAdd(this,
-							EOPPOSITE_FEATURE_BASE
-									- UmaPackage.WORK_DEFINITION__PRECONDITION,
-							null, msgs);
+							EOPPOSITE_FEATURE_BASE - UmaPackage.WORK_DEFINITION__PRECONDITION, null, msgs);
 				}
 				if (msgs != null)
 					msgs.dispatch();
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.WORK_DEFINITION__PRECONDITION,
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.WORK_DEFINITION__PRECONDITION,
 							oldPrecondition, precondition));
 			}
 		}
@@ -126,14 +123,12 @@ public abstract class WorkDefinitionImpl extends MethodElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetPrecondition(Constraint newPrecondition,
-			NotificationChain msgs) {
+	public NotificationChain basicSetPrecondition(Constraint newPrecondition, NotificationChain msgs) {
 		Constraint oldPrecondition = precondition;
 		precondition = newPrecondition;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET, UmaPackage.WORK_DEFINITION__PRECONDITION,
-					oldPrecondition, newPrecondition);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.WORK_DEFINITION__PRECONDITION, oldPrecondition, newPrecondition);
 			if (msgs == null)
 				msgs = notification;
 			else
@@ -152,21 +147,16 @@ public abstract class WorkDefinitionImpl extends MethodElementImpl implements
 			NotificationChain msgs = null;
 			if (precondition != null)
 				msgs = ((InternalEObject) precondition).eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.WORK_DEFINITION__PRECONDITION,
-						null, msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.WORK_DEFINITION__PRECONDITION, null, msgs);
 			if (newPrecondition != null)
 				msgs = ((InternalEObject) newPrecondition).eInverseAdd(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.WORK_DEFINITION__PRECONDITION,
-						null, msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.WORK_DEFINITION__PRECONDITION, null, msgs);
 			msgs = basicSetPrecondition(newPrecondition, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.WORK_DEFINITION__PRECONDITION, newPrecondition,
-					newPrecondition));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.WORK_DEFINITION__PRECONDITION,
+					newPrecondition, newPrecondition));
 	}
 
 	/**
@@ -181,22 +171,15 @@ public abstract class WorkDefinitionImpl extends MethodElementImpl implements
 			if (postcondition != oldPostcondition) {
 				InternalEObject newPostcondition = (InternalEObject) postcondition;
 				NotificationChain msgs = oldPostcondition.eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.WORK_DEFINITION__POSTCONDITION,
-						null, null);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.WORK_DEFINITION__POSTCONDITION, null, null);
 				if (newPostcondition.eInternalContainer() == null) {
-					msgs = newPostcondition
-							.eInverseAdd(
-									this,
-									EOPPOSITE_FEATURE_BASE
-											- UmaPackage.WORK_DEFINITION__POSTCONDITION,
-									null, msgs);
+					msgs = newPostcondition.eInverseAdd(this,
+							EOPPOSITE_FEATURE_BASE - UmaPackage.WORK_DEFINITION__POSTCONDITION, null, msgs);
 				}
 				if (msgs != null)
 					msgs.dispatch();
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.WORK_DEFINITION__POSTCONDITION,
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.WORK_DEFINITION__POSTCONDITION,
 							oldPostcondition, postcondition));
 			}
 		}
@@ -217,15 +200,12 @@ public abstract class WorkDefinitionImpl extends MethodElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetPostcondition(Constraint newPostcondition,
-			NotificationChain msgs) {
+	public NotificationChain basicSetPostcondition(Constraint newPostcondition, NotificationChain msgs) {
 		Constraint oldPostcondition = postcondition;
 		postcondition = newPostcondition;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET,
-					UmaPackage.WORK_DEFINITION__POSTCONDITION,
-					oldPostcondition, newPostcondition);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.WORK_DEFINITION__POSTCONDITION, oldPostcondition, newPostcondition);
 			if (msgs == null)
 				msgs = notification;
 			else
@@ -244,20 +224,15 @@ public abstract class WorkDefinitionImpl extends MethodElementImpl implements
 			NotificationChain msgs = null;
 			if (postcondition != null)
 				msgs = ((InternalEObject) postcondition).eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.WORK_DEFINITION__POSTCONDITION,
-						null, msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.WORK_DEFINITION__POSTCONDITION, null, msgs);
 			if (newPostcondition != null)
 				msgs = ((InternalEObject) newPostcondition).eInverseAdd(this,
-						EOPPOSITE_FEATURE_BASE
-								- UmaPackage.WORK_DEFINITION__POSTCONDITION,
-						null, msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.WORK_DEFINITION__POSTCONDITION, null, msgs);
 			msgs = basicSetPostcondition(newPostcondition, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.WORK_DEFINITION__POSTCONDITION,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.WORK_DEFINITION__POSTCONDITION,
 					newPostcondition, newPostcondition));
 	}
 
@@ -267,8 +242,7 @@ public abstract class WorkDefinitionImpl extends MethodElementImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.WORK_DEFINITION__PRECONDITION:
 			return basicSetPrecondition(null, msgs);

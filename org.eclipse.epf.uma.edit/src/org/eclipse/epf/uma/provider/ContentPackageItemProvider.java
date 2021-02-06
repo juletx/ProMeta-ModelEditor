@@ -15,15 +15,12 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
+
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.ContentPackage;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -34,9 +31,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class ContentPackageItemProvider extends MethodPackageItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class ContentPackageItemProvider extends MethodPackageItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -71,12 +66,10 @@ public class ContentPackageItemProvider extends MethodPackageItemProvider
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures
-					.add(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS);
+			childrenFeatures.add(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS);
 		}
 		return childrenFeatures;
 	}
@@ -102,8 +95,7 @@ public class ContentPackageItemProvider extends MethodPackageItemProvider
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/ContentPackage")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/ContentPackage")); //$NON-NLS-1$
 	}
 
 	/**
@@ -132,8 +124,7 @@ public class ContentPackageItemProvider extends MethodPackageItemProvider
 
 		switch (notification.getFeatureID(ContentPackage.class)) {
 		case UmaPackage.CONTENT_PACKAGE__CONTENT_ELEMENTS:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -147,136 +138,95 @@ public class ContentPackageItemProvider extends MethodPackageItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createKind()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createSupportingMaterial()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createConcept()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createChecklist()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createGuideline()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createExample()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createReusableAsset()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createTermDefinition()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createWorkProduct()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createArtifact()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createReport()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createTemplate()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createToolMentor()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createEstimationConsiderations()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createDeliverable()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createOutcome()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createWhitepaper()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createTask()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createRole()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createRoleSet()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createDomain()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createWorkProductType()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createDisciplineGrouping()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createDiscipline()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createRoadmap()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createTool()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createRoleSetGrouping()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createCustomCategory()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.CONTENT_PACKAGE__CONTENT_ELEMENTS,
 				UmaFactory.eINSTANCE.createPractice()));
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

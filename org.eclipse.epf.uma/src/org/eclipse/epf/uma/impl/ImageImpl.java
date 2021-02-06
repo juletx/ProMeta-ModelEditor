@@ -13,11 +13,13 @@ package org.eclipse.epf.uma.impl;
 import java.net.URI;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.Image;
-import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
 
 /**
@@ -63,7 +65,7 @@ public class ImageImpl extends LeafElementImpl implements Image {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String MIME_TYPE_EDEFAULT = "";
+	protected static final String MIME_TYPE_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getMimeType() <em>Mime Type</em>}' attribute.
@@ -116,8 +118,7 @@ public class ImageImpl extends LeafElementImpl implements Image {
 		URI oldUri = uri;
 		uri = newUri;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.IMAGE__URI, oldUri, uri));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.IMAGE__URI, oldUri, uri));
 	}
 
 	/**
@@ -138,8 +139,7 @@ public class ImageImpl extends LeafElementImpl implements Image {
 		String oldMimeType = mimeType;
 		mimeType = newMimeType;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.IMAGE__MIME_TYPE, oldMimeType, mimeType));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.IMAGE__MIME_TYPE, oldMimeType, mimeType));
 	}
 
 	/**
@@ -209,11 +209,9 @@ public class ImageImpl extends LeafElementImpl implements Image {
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.IMAGE__URI:
-			return URI_EDEFAULT == null ? uri != null : !URI_EDEFAULT
-					.equals(uri);
+			return URI_EDEFAULT == null ? uri != null : !URI_EDEFAULT.equals(uri);
 		case UmaPackage.IMAGE__MIME_TYPE:
-			return MIME_TYPE_EDEFAULT == null ? mimeType != null
-					: !MIME_TYPE_EDEFAULT.equals(mimeType);
+			return MIME_TYPE_EDEFAULT == null ? mimeType != null : !MIME_TYPE_EDEFAULT.equals(mimeType);
 		}
 		return super.eIsSet(featureID);
 	}

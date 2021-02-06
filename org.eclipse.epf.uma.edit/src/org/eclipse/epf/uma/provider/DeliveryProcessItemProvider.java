@@ -15,14 +15,10 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
+
 import org.eclipse.epf.uma.DeliveryProcess;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -32,9 +28,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class DeliveryProcessItemProvider extends ProcessItemProvider implements
-		IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class DeliveryProcessItemProvider extends ProcessItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -69,16 +63,12 @@ public class DeliveryProcessItemProvider extends ProcessItemProvider implements
 	 * @generated
 	 */
 	protected void addEducationMaterialsPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_DeliveryProcess_educationMaterials_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_DeliveryProcess_educationMaterials_feature", "_UI_DeliveryProcess_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DELIVERY_PROCESS__EDUCATION_MATERIALS,
-						true, false, true, null, null, null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_DeliveryProcess_educationMaterials_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", "_UI_DeliveryProcess_educationMaterials_feature", //$NON-NLS-1$//$NON-NLS-2$
+						"_UI_DeliveryProcess_type"), //$NON-NLS-1$
+				UmaPackage.Literals.DELIVERY_PROCESS__EDUCATION_MATERIALS, true, false, true, null, null, null));
 	}
 
 	/**
@@ -88,16 +78,12 @@ public class DeliveryProcessItemProvider extends ProcessItemProvider implements
 	 * @generated
 	 */
 	protected void addCommunicationsMaterialsPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_DeliveryProcess_communicationsMaterials_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_DeliveryProcess_communicationsMaterials_feature", "_UI_DeliveryProcess_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DELIVERY_PROCESS__COMMUNICATIONS_MATERIALS,
-						true, false, true, null, null, null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_DeliveryProcess_communicationsMaterials_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", "_UI_DeliveryProcess_communicationsMaterials_feature", //$NON-NLS-1$//$NON-NLS-2$
+						"_UI_DeliveryProcess_type"), //$NON-NLS-1$
+				UmaPackage.Literals.DELIVERY_PROCESS__COMMUNICATIONS_MATERIALS, true, false, true, null, null, null));
 	}
 
 	/**
@@ -108,8 +94,7 @@ public class DeliveryProcessItemProvider extends ProcessItemProvider implements
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/DeliveryProcess")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/DeliveryProcess")); //$NON-NLS-1$
 	}
 
 	/**
@@ -146,8 +131,7 @@ public class DeliveryProcessItemProvider extends ProcessItemProvider implements
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 	}
 
@@ -158,8 +142,7 @@ public class DeliveryProcessItemProvider extends ProcessItemProvider implements
 	 * @generated
 	 */
 	@Override
-	public String getCreateChildText(Object owner, Object feature,
-			Object child, Collection<?> selection) {
+	public String getCreateChildText(Object owner, Object feature, Object child, Collection<?> selection) {
 		Object childFeature = feature;
 		Object childObject = child;
 
@@ -169,21 +152,9 @@ public class DeliveryProcessItemProvider extends ProcessItemProvider implements
 
 		if (qualify) {
 			return getString("_UI_CreateChild_text2", //$NON-NLS-1$
-					new Object[] { getTypeText(childObject),
-							getFeatureText(childFeature), getTypeText(owner) });
+					new Object[] { getTypeText(childObject), getFeatureText(childFeature), getTypeText(owner) });
 		}
 		return super.getCreateChildText(owner, feature, child, selection);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

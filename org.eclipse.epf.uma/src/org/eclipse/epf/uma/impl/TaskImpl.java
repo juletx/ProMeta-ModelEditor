@@ -15,13 +15,18 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.Constraint;
 import org.eclipse.epf.uma.EstimationConsiderations;
 import org.eclipse.epf.uma.Role;
@@ -180,19 +185,16 @@ public class TaskImpl extends ContentElementImpl implements Task {
 			if (precondition != oldPrecondition) {
 				InternalEObject newPrecondition = (InternalEObject) precondition;
 				NotificationChain msgs = oldPrecondition.eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE - UmaPackage.TASK__PRECONDITION,
-						null, null);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.TASK__PRECONDITION, null, null);
 				if (newPrecondition.eInternalContainer() == null) {
-					msgs = newPrecondition
-							.eInverseAdd(this, EOPPOSITE_FEATURE_BASE
-									- UmaPackage.TASK__PRECONDITION, null, msgs);
+					msgs = newPrecondition.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - UmaPackage.TASK__PRECONDITION,
+							null, msgs);
 				}
 				if (msgs != null)
 					msgs.dispatch();
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.TASK__PRECONDITION, oldPrecondition,
-							precondition));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.TASK__PRECONDITION,
+							oldPrecondition, precondition));
 			}
 		}
 		return precondition;
@@ -212,14 +214,12 @@ public class TaskImpl extends ContentElementImpl implements Task {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetPrecondition(Constraint newPrecondition,
-			NotificationChain msgs) {
+	public NotificationChain basicSetPrecondition(Constraint newPrecondition, NotificationChain msgs) {
 		Constraint oldPrecondition = precondition;
 		precondition = newPrecondition;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET, UmaPackage.TASK__PRECONDITION,
-					oldPrecondition, newPrecondition);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.TASK__PRECONDITION, oldPrecondition, newPrecondition);
 			if (msgs == null)
 				msgs = notification;
 			else
@@ -238,18 +238,15 @@ public class TaskImpl extends ContentElementImpl implements Task {
 			NotificationChain msgs = null;
 			if (precondition != null)
 				msgs = ((InternalEObject) precondition).eInverseRemove(this,
-						EOPPOSITE_FEATURE_BASE - UmaPackage.TASK__PRECONDITION,
-						null, msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.TASK__PRECONDITION, null, msgs);
 			if (newPrecondition != null)
 				msgs = ((InternalEObject) newPrecondition).eInverseAdd(this,
-						EOPPOSITE_FEATURE_BASE - UmaPackage.TASK__PRECONDITION,
-						null, msgs);
+						EOPPOSITE_FEATURE_BASE - UmaPackage.TASK__PRECONDITION, null, msgs);
 			msgs = basicSetPrecondition(newPrecondition, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.TASK__PRECONDITION, newPrecondition,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.TASK__PRECONDITION, newPrecondition,
 					newPrecondition));
 	}
 
@@ -264,21 +261,17 @@ public class TaskImpl extends ContentElementImpl implements Task {
 			postcondition = (Constraint) eResolveProxy(oldPostcondition);
 			if (postcondition != oldPostcondition) {
 				InternalEObject newPostcondition = (InternalEObject) postcondition;
-				NotificationChain msgs = oldPostcondition
-						.eInverseRemove(this, EOPPOSITE_FEATURE_BASE
-								- UmaPackage.TASK__POSTCONDITION, null, null);
+				NotificationChain msgs = oldPostcondition.eInverseRemove(this,
+						EOPPOSITE_FEATURE_BASE - UmaPackage.TASK__POSTCONDITION, null, null);
 				if (newPostcondition.eInternalContainer() == null) {
-					msgs = newPostcondition.eInverseAdd(this,
-							EOPPOSITE_FEATURE_BASE
-									- UmaPackage.TASK__POSTCONDITION, null,
-							msgs);
+					msgs = newPostcondition.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - UmaPackage.TASK__POSTCONDITION,
+							null, msgs);
 				}
 				if (msgs != null)
 					msgs.dispatch();
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.TASK__POSTCONDITION, oldPostcondition,
-							postcondition));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.TASK__POSTCONDITION,
+							oldPostcondition, postcondition));
 			}
 		}
 		return postcondition;
@@ -298,14 +291,12 @@ public class TaskImpl extends ContentElementImpl implements Task {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetPostcondition(Constraint newPostcondition,
-			NotificationChain msgs) {
+	public NotificationChain basicSetPostcondition(Constraint newPostcondition, NotificationChain msgs) {
 		Constraint oldPostcondition = postcondition;
 		postcondition = newPostcondition;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET, UmaPackage.TASK__POSTCONDITION,
-					oldPostcondition, newPostcondition);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.TASK__POSTCONDITION, oldPostcondition, newPostcondition);
 			if (msgs == null)
 				msgs = notification;
 			else
@@ -323,19 +314,16 @@ public class TaskImpl extends ContentElementImpl implements Task {
 		if (newPostcondition != postcondition) {
 			NotificationChain msgs = null;
 			if (postcondition != null)
-				msgs = ((InternalEObject) postcondition)
-						.eInverseRemove(this, EOPPOSITE_FEATURE_BASE
-								- UmaPackage.TASK__POSTCONDITION, null, msgs);
+				msgs = ((InternalEObject) postcondition).eInverseRemove(this,
+						EOPPOSITE_FEATURE_BASE - UmaPackage.TASK__POSTCONDITION, null, msgs);
 			if (newPostcondition != null)
-				msgs = ((InternalEObject) newPostcondition)
-						.eInverseAdd(this, EOPPOSITE_FEATURE_BASE
-								- UmaPackage.TASK__POSTCONDITION, null, msgs);
+				msgs = ((InternalEObject) newPostcondition).eInverseAdd(this,
+						EOPPOSITE_FEATURE_BASE - UmaPackage.TASK__POSTCONDITION, null, msgs);
 			msgs = basicSetPostcondition(newPostcondition, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.TASK__POSTCONDITION, newPostcondition,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.TASK__POSTCONDITION, newPostcondition,
 					newPostcondition));
 	}
 
@@ -346,8 +334,7 @@ public class TaskImpl extends ContentElementImpl implements Task {
 	 */
 	public List<Role> getPerformedBy() {
 		if (performedBy == null) {
-			performedBy = new EObjectResolvingEList<Role>(Role.class, this,
-					UmaPackage.TASK__PERFORMED_BY);
+			performedBy = new EObjectResolvingEList<Role>(Role.class, this, UmaPackage.TASK__PERFORMED_BY);
 		}
 		return performedBy;
 	}
@@ -359,8 +346,8 @@ public class TaskImpl extends ContentElementImpl implements Task {
 	 */
 	public List<WorkProduct> getMandatoryInput() {
 		if (mandatoryInput == null) {
-			mandatoryInput = new EObjectResolvingEList<WorkProduct>(
-					WorkProduct.class, this, UmaPackage.TASK__MANDATORY_INPUT);
+			mandatoryInput = new EObjectResolvingEList<WorkProduct>(WorkProduct.class, this,
+					UmaPackage.TASK__MANDATORY_INPUT);
 		}
 		return mandatoryInput;
 	}
@@ -372,8 +359,7 @@ public class TaskImpl extends ContentElementImpl implements Task {
 	 */
 	public List<WorkProduct> getOutput() {
 		if (output == null) {
-			output = new EObjectResolvingEList<WorkProduct>(WorkProduct.class,
-					this, UmaPackage.TASK__OUTPUT);
+			output = new EObjectResolvingEList<WorkProduct>(WorkProduct.class, this, UmaPackage.TASK__OUTPUT);
 		}
 		return output;
 	}
@@ -385,8 +371,7 @@ public class TaskImpl extends ContentElementImpl implements Task {
 	 */
 	public List<Role> getAdditionallyPerformedBy() {
 		if (additionallyPerformedBy == null) {
-			additionallyPerformedBy = new EObjectResolvingEList<Role>(
-					Role.class, this,
+			additionallyPerformedBy = new EObjectResolvingEList<Role>(Role.class, this,
 					UmaPackage.TASK__ADDITIONALLY_PERFORMED_BY);
 		}
 		return additionallyPerformedBy;
@@ -399,8 +384,8 @@ public class TaskImpl extends ContentElementImpl implements Task {
 	 */
 	public List<WorkProduct> getOptionalInput() {
 		if (optionalInput == null) {
-			optionalInput = new EObjectResolvingEList<WorkProduct>(
-					WorkProduct.class, this, UmaPackage.TASK__OPTIONAL_INPUT);
+			optionalInput = new EObjectResolvingEList<WorkProduct>(WorkProduct.class, this,
+					UmaPackage.TASK__OPTIONAL_INPUT);
 		}
 		return optionalInput;
 	}
@@ -408,9 +393,14 @@ public class TaskImpl extends ContentElementImpl implements Task {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * @generated
 	 */
-	public List getSteps() {
-		return getPresentation().getSections();
+	public List<Step> getSteps() {
+		// TODO: implement this method to return the 'Steps' reference list
+		// Ensure that you remove @generated or mark it @generated NOT
+		// The list is expected to implement org.eclipse.emf.ecore.util.InternalEList and org.eclipse.emf.ecore.EStructuralFeature.Setting
+		// so it's likely that an appropriate subclass of org.eclipse.emf.ecore.util.EcoreEList should be used.
+		throw new UnsupportedOperationException();
 	}
 
 	/**
@@ -420,8 +410,7 @@ public class TaskImpl extends ContentElementImpl implements Task {
 	 */
 	public List<ToolMentor> getToolMentors() {
 		if (toolMentors == null) {
-			toolMentors = new EObjectResolvingEList<ToolMentor>(
-					ToolMentor.class, this, UmaPackage.TASK__TOOL_MENTORS);
+			toolMentors = new EObjectResolvingEList<ToolMentor>(ToolMentor.class, this, UmaPackage.TASK__TOOL_MENTORS);
 		}
 		return toolMentors;
 	}
@@ -434,8 +423,7 @@ public class TaskImpl extends ContentElementImpl implements Task {
 	public List<EstimationConsiderations> getEstimationConsiderations() {
 		if (estimationConsiderations == null) {
 			estimationConsiderations = new EObjectResolvingEList<EstimationConsiderations>(
-					EstimationConsiderations.class, this,
-					UmaPackage.TASK__ESTIMATION_CONSIDERATIONS);
+					EstimationConsiderations.class, this, UmaPackage.TASK__ESTIMATION_CONSIDERATIONS);
 		}
 		return estimationConsiderations;
 	}
@@ -446,8 +434,7 @@ public class TaskImpl extends ContentElementImpl implements Task {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.TASK__PRECONDITION:
 			return basicSetPrecondition(null, msgs);
@@ -514,8 +501,7 @@ public class TaskImpl extends ContentElementImpl implements Task {
 			return;
 		case UmaPackage.TASK__MANDATORY_INPUT:
 			getMandatoryInput().clear();
-			getMandatoryInput().addAll(
-					(Collection<? extends WorkProduct>) newValue);
+			getMandatoryInput().addAll((Collection<? extends WorkProduct>) newValue);
 			return;
 		case UmaPackage.TASK__OUTPUT:
 			getOutput().clear();
@@ -523,13 +509,11 @@ public class TaskImpl extends ContentElementImpl implements Task {
 			return;
 		case UmaPackage.TASK__ADDITIONALLY_PERFORMED_BY:
 			getAdditionallyPerformedBy().clear();
-			getAdditionallyPerformedBy().addAll(
-					(Collection<? extends Role>) newValue);
+			getAdditionallyPerformedBy().addAll((Collection<? extends Role>) newValue);
 			return;
 		case UmaPackage.TASK__OPTIONAL_INPUT:
 			getOptionalInput().clear();
-			getOptionalInput().addAll(
-					(Collection<? extends WorkProduct>) newValue);
+			getOptionalInput().addAll((Collection<? extends WorkProduct>) newValue);
 			return;
 		case UmaPackage.TASK__STEPS:
 			getSteps().clear();
@@ -537,13 +521,11 @@ public class TaskImpl extends ContentElementImpl implements Task {
 			return;
 		case UmaPackage.TASK__TOOL_MENTORS:
 			getToolMentors().clear();
-			getToolMentors()
-					.addAll((Collection<? extends ToolMentor>) newValue);
+			getToolMentors().addAll((Collection<? extends ToolMentor>) newValue);
 			return;
 		case UmaPackage.TASK__ESTIMATION_CONSIDERATIONS:
 			getEstimationConsiderations().clear();
-			getEstimationConsiderations().addAll(
-					(Collection<? extends EstimationConsiderations>) newValue);
+			getEstimationConsiderations().addAll((Collection<? extends EstimationConsiderations>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -616,8 +598,7 @@ public class TaskImpl extends ContentElementImpl implements Task {
 		case UmaPackage.TASK__OUTPUT:
 			return output != null && !output.isEmpty();
 		case UmaPackage.TASK__ADDITIONALLY_PERFORMED_BY:
-			return additionallyPerformedBy != null
-					&& !additionallyPerformedBy.isEmpty();
+			return additionallyPerformedBy != null && !additionallyPerformedBy.isEmpty();
 		case UmaPackage.TASK__OPTIONAL_INPUT:
 			return optionalInput != null && !optionalInput.isEmpty();
 		case UmaPackage.TASK__STEPS:
@@ -625,8 +606,7 @@ public class TaskImpl extends ContentElementImpl implements Task {
 		case UmaPackage.TASK__TOOL_MENTORS:
 			return toolMentors != null && !toolMentors.isEmpty();
 		case UmaPackage.TASK__ESTIMATION_CONSIDERATIONS:
-			return estimationConsiderations != null
-					&& !estimationConsiderations.isEmpty();
+			return estimationConsiderations != null && !estimationConsiderations.isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

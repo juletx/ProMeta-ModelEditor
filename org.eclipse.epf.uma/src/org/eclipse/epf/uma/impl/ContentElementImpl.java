@@ -14,13 +14,18 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.Checklist;
 import org.eclipse.epf.uma.Concept;
 import org.eclipse.epf.uma.ContentElement;
@@ -32,7 +37,6 @@ import org.eclipse.epf.uma.TermDefinition;
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.VariabilityElement;
 import org.eclipse.epf.uma.VariabilityType;
-import org.eclipse.epf.uma.util.UmaUtil;
 
 /**
  * <!-- begin-user-doc -->
@@ -55,8 +59,7 @@ import org.eclipse.epf.uma.util.UmaUtil;
  *
  * @generated
  */
-public abstract class ContentElementImpl extends DescribableElementImpl
-		implements ContentElement {
+public abstract class ContentElementImpl extends DescribableElementImpl implements ContentElement {
 	/**
 	 * The default value of the '{@link #getVariabilityType() <em>Variability Type</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -196,11 +199,9 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 	 */
 	public void setVariabilityType(VariabilityType newVariabilityType) {
 		VariabilityType oldVariabilityType = variabilityType;
-		variabilityType = newVariabilityType == null ? VARIABILITY_TYPE_EDEFAULT
-				: newVariabilityType;
+		variabilityType = newVariabilityType == null ? VARIABILITY_TYPE_EDEFAULT : newVariabilityType;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.CONTENT_ELEMENT__VARIABILITY_TYPE,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.CONTENT_ELEMENT__VARIABILITY_TYPE,
 					oldVariabilityType, variabilityType));
 	}
 
@@ -210,17 +211,13 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 	 * @generated
 	 */
 	public VariabilityElement getVariabilityBasedOnElement() {
-		if (variabilityBasedOnElement != null
-				&& ((EObject) variabilityBasedOnElement).eIsProxy()) {
+		if (variabilityBasedOnElement != null && ((EObject) variabilityBasedOnElement).eIsProxy()) {
 			InternalEObject oldVariabilityBasedOnElement = (InternalEObject) variabilityBasedOnElement;
 			variabilityBasedOnElement = (VariabilityElement) eResolveProxy(oldVariabilityBasedOnElement);
 			if (variabilityBasedOnElement != oldVariabilityBasedOnElement) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(
-							this,
-							Notification.RESOLVE,
-							UmaPackage.CONTENT_ELEMENT__VARIABILITY_BASED_ON_ELEMENT,
-							oldVariabilityBasedOnElement,
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
+							UmaPackage.CONTENT_ELEMENT__VARIABILITY_BASED_ON_ELEMENT, oldVariabilityBasedOnElement,
 							variabilityBasedOnElement));
 			}
 		}
@@ -241,14 +238,26 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setVariabilityBasedOnElement(
-			VariabilityElement newVariabilityBasedOnElement) {
+	public void setVariabilityBasedOnElement(VariabilityElement newVariabilityBasedOnElement) {
 		VariabilityElement oldVariabilityBasedOnElement = variabilityBasedOnElement;
 		variabilityBasedOnElement = newVariabilityBasedOnElement;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.CONTENT_ELEMENT__VARIABILITY_BASED_ON_ELEMENT,
-					oldVariabilityBasedOnElement, variabilityBasedOnElement));
+					UmaPackage.CONTENT_ELEMENT__VARIABILITY_BASED_ON_ELEMENT, oldVariabilityBasedOnElement,
+					variabilityBasedOnElement));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public List<SupportingMaterial> getSupportingMaterials() {
+		if (supportingMaterials == null) {
+			supportingMaterials = new EObjectResolvingEList<SupportingMaterial>(SupportingMaterial.class, this,
+					UmaPackage.CONTENT_ELEMENT__SUPPORTING_MATERIALS);
+		}
+		return supportingMaterials;
 	}
 
 	/**
@@ -258,8 +267,7 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 	 */
 	public List<Concept> getConceptsAndPapers() {
 		if (conceptsAndPapers == null) {
-			conceptsAndPapers = new EObjectResolvingEList<Concept>(
-					Concept.class, this,
+			conceptsAndPapers = new EObjectResolvingEList<Concept>(Concept.class, this,
 					UmaPackage.CONTENT_ELEMENT__CONCEPTS_AND_PAPERS);
 		}
 		return conceptsAndPapers;
@@ -272,8 +280,8 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 	 */
 	public List<Checklist> getChecklists() {
 		if (checklists == null) {
-			checklists = new EObjectResolvingEList<Checklist>(Checklist.class,
-					this, UmaPackage.CONTENT_ELEMENT__CHECKLISTS);
+			checklists = new EObjectResolvingEList<Checklist>(Checklist.class, this,
+					UmaPackage.CONTENT_ELEMENT__CHECKLISTS);
 		}
 		return checklists;
 	}
@@ -285,8 +293,8 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 	 */
 	public List<Guideline> getGuidelines() {
 		if (guidelines == null) {
-			guidelines = new EObjectResolvingEList<Guideline>(Guideline.class,
-					this, UmaPackage.CONTENT_ELEMENT__GUIDELINES);
+			guidelines = new EObjectResolvingEList<Guideline>(Guideline.class, this,
+					UmaPackage.CONTENT_ELEMENT__GUIDELINES);
 		}
 		return guidelines;
 	}
@@ -298,8 +306,7 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 	 */
 	public List<Example> getExamples() {
 		if (examples == null) {
-			examples = new EObjectResolvingEList<Example>(Example.class, this,
-					UmaPackage.CONTENT_ELEMENT__EXAMPLES);
+			examples = new EObjectResolvingEList<Example>(Example.class, this, UmaPackage.CONTENT_ELEMENT__EXAMPLES);
 		}
 		return examples;
 	}
@@ -311,8 +318,7 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 	 */
 	public List<ReusableAsset> getAssets() {
 		if (assets == null) {
-			assets = new EObjectResolvingEList<ReusableAsset>(
-					ReusableAsset.class, this,
+			assets = new EObjectResolvingEList<ReusableAsset>(ReusableAsset.class, this,
 					UmaPackage.CONTENT_ELEMENT__ASSETS);
 		}
 		return assets;
@@ -325,8 +331,7 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 	 */
 	public List<TermDefinition> getTermdefinition() {
 		if (termdefinition == null) {
-			termdefinition = new EObjectResolvingEList<TermDefinition>(
-					TermDefinition.class, this,
+			termdefinition = new EObjectResolvingEList<TermDefinition>(TermDefinition.class, this,
 					UmaPackage.CONTENT_ELEMENT__TERMDEFINITION);
 		}
 		return termdefinition;
@@ -381,13 +386,11 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 			return;
 		case UmaPackage.CONTENT_ELEMENT__SUPPORTING_MATERIALS:
 			getSupportingMaterials().clear();
-			getSupportingMaterials().addAll(
-					(Collection<? extends SupportingMaterial>) newValue);
+			getSupportingMaterials().addAll((Collection<? extends SupportingMaterial>) newValue);
 			return;
 		case UmaPackage.CONTENT_ELEMENT__CONCEPTS_AND_PAPERS:
 			getConceptsAndPapers().clear();
-			getConceptsAndPapers().addAll(
-					(Collection<? extends Concept>) newValue);
+			getConceptsAndPapers().addAll((Collection<? extends Concept>) newValue);
 			return;
 		case UmaPackage.CONTENT_ELEMENT__CHECKLISTS:
 			getChecklists().clear();
@@ -407,8 +410,7 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 			return;
 		case UmaPackage.CONTENT_ELEMENT__TERMDEFINITION:
 			getTermdefinition().clear();
-			getTermdefinition().addAll(
-					(Collection<? extends TermDefinition>) newValue);
+			getTermdefinition().addAll((Collection<? extends TermDefinition>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -472,8 +474,7 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 		case UmaPackage.CONTENT_ELEMENT__VARIABILITY_BASED_ON_ELEMENT:
 			return variabilityBasedOnElement != null;
 		case UmaPackage.CONTENT_ELEMENT__SUPPORTING_MATERIALS:
-			return supportingMaterials != null
-					&& !supportingMaterials.isEmpty();
+			return supportingMaterials != null && !supportingMaterials.isEmpty();
 		case UmaPackage.CONTENT_ELEMENT__CONCEPTS_AND_PAPERS:
 			return conceptsAndPapers != null && !conceptsAndPapers.isEmpty();
 		case UmaPackage.CONTENT_ELEMENT__CHECKLISTS:
@@ -488,20 +489,6 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 			return termdefinition != null && !termdefinition.isEmpty();
 		}
 		return super.eIsSet(featureID);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public List<SupportingMaterial> getSupportingMaterials() {
-		if (supportingMaterials == null) {
-			supportingMaterials = new EObjectResolvingEList<SupportingMaterial>(
-					SupportingMaterial.class, this,
-					UmaPackage.CONTENT_ELEMENT__SUPPORTING_MATERIALS);
-		}
-		return supportingMaterials;
 	}
 
 	/**
@@ -559,26 +546,6 @@ public abstract class ContentElementImpl extends DescribableElementImpl
 		result.append(variabilityType);
 		result.append(')');
 		return result.toString();
-	}
-
-	//
-	// Start custom code
-	//
-
-	/* (non-Javadoc)
-	 * @see org.eclipse.epf.uma.impl.NamedElementImpl#setName(java.lang.String)
-	 */
-	public void setName(String newName) {
-		if (presentation == null) {
-			super.setName(newName);
-			return;
-		}
-
-		String oldName = name;
-		super.setName(newName);
-		if (newName != null && !newName.equals(oldName)) {
-			presentation.setName(UmaUtil.createContentDescriptionName(this));
-		}
 	}
 
 } //ContentElementImpl

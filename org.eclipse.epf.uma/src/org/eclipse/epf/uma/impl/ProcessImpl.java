@@ -14,13 +14,18 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.CapabilityPattern;
 import org.eclipse.epf.uma.MethodConfiguration;
 import org.eclipse.epf.uma.UmaPackage;
@@ -40,8 +45,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public abstract class ProcessImpl extends ActivityImpl implements
-		org.eclipse.epf.uma.Process {
+public abstract class ProcessImpl extends ActivityImpl implements org.eclipse.epf.uma.Process {
 	/**
 	 * The cached value of the '{@link #getIncludesPatterns() <em>Includes Patterns</em>}' reference list.
 	 * <!-- begin-user-doc -->
@@ -102,8 +106,7 @@ public abstract class ProcessImpl extends ActivityImpl implements
 	 */
 	public List<CapabilityPattern> getIncludesPatterns() {
 		if (includesPatterns == null) {
-			includesPatterns = new EObjectResolvingEList<CapabilityPattern>(
-					CapabilityPattern.class, this,
+			includesPatterns = new EObjectResolvingEList<CapabilityPattern>(CapabilityPattern.class, this,
 					UmaPackage.PROCESS__INCLUDES_PATTERNS);
 		}
 		return includesPatterns;
@@ -120,8 +123,7 @@ public abstract class ProcessImpl extends ActivityImpl implements
 			defaultContext = (MethodConfiguration) eResolveProxy(oldDefaultContext);
 			if (defaultContext != oldDefaultContext) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.PROCESS__DEFAULT_CONTEXT,
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.PROCESS__DEFAULT_CONTEXT,
 							oldDefaultContext, defaultContext));
 			}
 		}
@@ -146,9 +148,8 @@ public abstract class ProcessImpl extends ActivityImpl implements
 		MethodConfiguration oldDefaultContext = defaultContext;
 		defaultContext = newDefaultContext;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PROCESS__DEFAULT_CONTEXT, oldDefaultContext,
-					defaultContext));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PROCESS__DEFAULT_CONTEXT,
+					oldDefaultContext, defaultContext));
 	}
 
 	/**
@@ -158,8 +159,7 @@ public abstract class ProcessImpl extends ActivityImpl implements
 	 */
 	public List<MethodConfiguration> getValidContext() {
 		if (validContext == null) {
-			validContext = new EObjectResolvingEList<MethodConfiguration>(
-					MethodConfiguration.class, this,
+			validContext = new EObjectResolvingEList<MethodConfiguration>(MethodConfiguration.class, this,
 					UmaPackage.PROCESS__VALID_CONTEXT);
 		}
 		return validContext;
@@ -196,16 +196,14 @@ public abstract class ProcessImpl extends ActivityImpl implements
 		switch (featureID) {
 		case UmaPackage.PROCESS__INCLUDES_PATTERNS:
 			getIncludesPatterns().clear();
-			getIncludesPatterns().addAll(
-					(Collection<? extends CapabilityPattern>) newValue);
+			getIncludesPatterns().addAll((Collection<? extends CapabilityPattern>) newValue);
 			return;
 		case UmaPackage.PROCESS__DEFAULT_CONTEXT:
 			setDefaultContext((MethodConfiguration) newValue);
 			return;
 		case UmaPackage.PROCESS__VALID_CONTEXT:
 			getValidContext().clear();
-			getValidContext().addAll(
-					(Collection<? extends MethodConfiguration>) newValue);
+			getValidContext().addAll((Collection<? extends MethodConfiguration>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);

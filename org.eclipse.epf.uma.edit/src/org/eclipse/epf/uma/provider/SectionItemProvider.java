@@ -15,17 +15,14 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.Section;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -36,9 +33,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class SectionItemProvider extends VariabilityElementItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class SectionItemProvider extends VariabilityElementItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -75,16 +70,12 @@ public class SectionItemProvider extends VariabilityElementItemProvider
 	 */
 	protected void addSectionNamePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Section_sectionName_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Section_sectionName_feature", "_UI_Section_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.SECTION__SECTION_NAME, true, false,
-						false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-						null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Section_sectionName_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Section_sectionName_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Section_type"), //$NON-NLS-1$
+						UmaPackage.Literals.SECTION__SECTION_NAME, true, false, false,
+						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -95,15 +86,11 @@ public class SectionItemProvider extends VariabilityElementItemProvider
 	 */
 	protected void addSectionDescriptionPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Section_sectionDescription_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Section_sectionDescription_feature", "_UI_Section_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.SECTION__SECTION_DESCRIPTION, true,
-						false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Section_sectionDescription_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Section_sectionDescription_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Section_type"), //$NON-NLS-1$
+						UmaPackage.Literals.SECTION__SECTION_DESCRIPTION, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -115,15 +102,11 @@ public class SectionItemProvider extends VariabilityElementItemProvider
 	 */
 	protected void addPredecessorPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Section_predecessor_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Section_predecessor_feature", "_UI_Section_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.SECTION__PREDECESSOR, true, false,
-						true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Section_predecessor_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Section_predecessor_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Section_type"), //$NON-NLS-1$
+						UmaPackage.Literals.SECTION__PREDECESSOR, true, false, true, null, null, null));
 	}
 
 	/**
@@ -135,8 +118,7 @@ public class SectionItemProvider extends VariabilityElementItemProvider
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
 			childrenFeatures.add(UmaPackage.Literals.SECTION__SUB_SECTIONS);
@@ -165,8 +147,7 @@ public class SectionItemProvider extends VariabilityElementItemProvider
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/Section")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/Section")); //$NON-NLS-1$
 	}
 
 	/**
@@ -196,12 +177,10 @@ public class SectionItemProvider extends VariabilityElementItemProvider
 		switch (notification.getFeatureID(Section.class)) {
 		case UmaPackage.SECTION__SECTION_NAME:
 		case UmaPackage.SECTION__SECTION_DESCRIPTION:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), false, true));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		case UmaPackage.SECTION__SUB_SECTIONS:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -215,28 +194,14 @@ public class SectionItemProvider extends VariabilityElementItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.SECTION__SUB_SECTIONS, UmaFactory.eINSTANCE
-						.createSection()));
+		newChildDescriptors.add(
+				createChildParameter(UmaPackage.Literals.SECTION__SUB_SECTIONS, UmaFactory.eINSTANCE.createSection()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.SECTION__SUB_SECTIONS, UmaFactory.eINSTANCE
-						.createStep()));
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
+		newChildDescriptors.add(
+				createChildParameter(UmaPackage.Literals.SECTION__SUB_SECTIONS, UmaFactory.eINSTANCE.createStep()));
 	}
 
 }

@@ -36,8 +36,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class CoreSemanticModelBridgeImpl extends SemanticModelBridgeImpl
-		implements CoreSemanticModelBridge {
+public class CoreSemanticModelBridgeImpl extends SemanticModelBridgeImpl implements CoreSemanticModelBridge {
 	/**
 	 * The cached value of the '{@link #getElement() <em>Element</em>}' reference.
 	 * <!-- begin-user-doc -->
@@ -83,8 +82,7 @@ public class CoreSemanticModelBridgeImpl extends SemanticModelBridgeImpl
 			if (element != oldElement) {
 				if (eNotificationRequired())
 					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.CORE_SEMANTIC_MODEL_BRIDGE__ELEMENT,
-							oldElement, element));
+							UmaPackage.CORE_SEMANTIC_MODEL_BRIDGE__ELEMENT, oldElement, element));
 			}
 		}
 		return element;
@@ -108,9 +106,8 @@ public class CoreSemanticModelBridgeImpl extends SemanticModelBridgeImpl
 		Element oldElement = element;
 		element = newElement;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.CORE_SEMANTIC_MODEL_BRIDGE__ELEMENT, oldElement,
-					element));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.CORE_SEMANTIC_MODEL_BRIDGE__ELEMENT,
+					oldElement, element));
 	}
 
 	/**

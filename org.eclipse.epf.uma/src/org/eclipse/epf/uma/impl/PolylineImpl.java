@@ -15,13 +15,18 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.Point;
 import org.eclipse.epf.uma.Polyline;
 import org.eclipse.epf.uma.UmaPackage;
@@ -112,8 +117,7 @@ public class PolylineImpl extends GraphicPrimitiveImpl implements Polyline {
 		Boolean oldClosed = closed;
 		closed = newClosed;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.POLYLINE__CLOSED, oldClosed, closed));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.POLYLINE__CLOSED, oldClosed, closed));
 	}
 
 	/**
@@ -123,8 +127,7 @@ public class PolylineImpl extends GraphicPrimitiveImpl implements Polyline {
 	 */
 	public List<Point> getWaypoints() {
 		if (waypoints == null) {
-			waypoints = new EObjectContainmentEList.Resolving<Point>(
-					Point.class, this, UmaPackage.POLYLINE__WAYPOINTS);
+			waypoints = new EObjectContainmentEList.Resolving<Point>(Point.class, this, UmaPackage.POLYLINE__WAYPOINTS);
 		}
 		return waypoints;
 	}
@@ -135,12 +138,10 @@ public class PolylineImpl extends GraphicPrimitiveImpl implements Polyline {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.POLYLINE__WAYPOINTS:
-			return ((InternalEList<?>) getWaypoints()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getWaypoints()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -214,8 +215,7 @@ public class PolylineImpl extends GraphicPrimitiveImpl implements Polyline {
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.POLYLINE__CLOSED:
-			return CLOSED_EDEFAULT == null ? closed != null : !CLOSED_EDEFAULT
-					.equals(closed);
+			return CLOSED_EDEFAULT == null ? closed != null : !CLOSED_EDEFAULT.equals(closed);
 		case UmaPackage.POLYLINE__WAYPOINTS:
 			return waypoints != null && !waypoints.isEmpty();
 		}

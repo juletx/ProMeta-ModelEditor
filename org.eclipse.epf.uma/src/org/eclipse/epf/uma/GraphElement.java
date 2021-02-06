@@ -34,10 +34,28 @@ import java.util.List;
  */
 public interface GraphElement extends DiagramElement {
 	/**
+	 * Returns the value of the '<em><b>Contained</b></em>' containment reference list.
+	 * The list contents are of type {@link org.eclipse.epf.uma.DiagramElement}.
+	 * It is bidirectional and its opposite is '{@link org.eclipse.epf.uma.DiagramElement#getContainer <em>Container</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Contained</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Contained</em>' containment reference list.
+	 * @see org.eclipse.epf.uma.UmaPackage#getGraphElement_Contained()
+	 * @see org.eclipse.epf.uma.DiagramElement#getContainer
+	 * @model opposite="container" containment="true" resolveProxies="true" ordered="false"
+	 * @generated
+	 */
+	List<DiagramElement> getContained();
+
+	/**
 	 * Returns the value of the '<em><b>Position</b></em>' reference.
 	 * <!-- begin-user-doc -->
 	 * <p>
-	 * If the meaning of the '<em>Position</em>' containment reference isn't clear,
+	 * If the meaning of the '<em>Position</em>' reference isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
@@ -58,24 +76,6 @@ public interface GraphElement extends DiagramElement {
 	 * @generated
 	 */
 	void setPosition(Point value);
-
-	/**
-	 * Returns the value of the '<em><b>Contained</b></em>' containment reference list.
-	 * The list contents are of type {@link org.eclipse.epf.uma.DiagramElement}.
-	 * It is bidirectional and its opposite is '{@link org.eclipse.epf.uma.DiagramElement#getContainer <em>Container</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Contained</em>' containment reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Contained</em>' containment reference list.
-	 * @see org.eclipse.epf.uma.UmaPackage#getGraphElement_Contained()
-	 * @see org.eclipse.epf.uma.DiagramElement#getContainer
-	 * @model opposite="container" containment="true" resolveProxies="true" ordered="false"
-	 * @generated
-	 */
-	List<DiagramElement> getContained();
 
 	/**
 	 * Returns the value of the '<em><b>Link</b></em>' containment reference list.

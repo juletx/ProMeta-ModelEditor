@@ -15,14 +15,10 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
+
 import org.eclipse.epf.uma.Role;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -32,9 +28,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class RoleItemProvider extends ContentElementItemProvider implements
-		IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class RoleItemProvider extends ContentElementItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -71,15 +65,11 @@ public class RoleItemProvider extends ContentElementItemProvider implements
 	 */
 	protected void addFulfillsPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_FulfillableElement_fulfills_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_FulfillableElement_fulfills_feature", "_UI_FulfillableElement_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.FULFILLABLE_ELEMENT__FULFILLS,
-						true, false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_FulfillableElement_fulfills_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_FulfillableElement_fulfills_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_FulfillableElement_type"), //$NON-NLS-1$
+						UmaPackage.Literals.FULFILLABLE_ELEMENT__FULFILLS, true, false, true, null, null, null));
 	}
 
 	/**
@@ -90,15 +80,10 @@ public class RoleItemProvider extends ContentElementItemProvider implements
 	 */
 	protected void addModifiesPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Role_modifies_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Role_modifies_feature", "_UI_Role_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.ROLE__MODIFIES, true, false, true,
-						null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Role_modifies_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Role_modifies_feature", "_UI_Role_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
+						UmaPackage.Literals.ROLE__MODIFIES, true, false, true, null, null, null));
 	}
 
 	/**
@@ -109,15 +94,11 @@ public class RoleItemProvider extends ContentElementItemProvider implements
 	 */
 	protected void addResponsibleForPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Role_responsibleFor_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Role_responsibleFor_feature", "_UI_Role_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.ROLE__RESPONSIBLE_FOR, true, false,
-						true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Role_responsibleFor_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Role_responsibleFor_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Role_type"), //$NON-NLS-1$
+						UmaPackage.Literals.ROLE__RESPONSIBLE_FOR, true, false, true, null, null, null));
 	}
 
 	/**
@@ -128,8 +109,7 @@ public class RoleItemProvider extends ContentElementItemProvider implements
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/Role")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/Role")); //$NON-NLS-1$
 	}
 
 	/**
@@ -166,20 +146,8 @@ public class RoleItemProvider extends ContentElementItemProvider implements
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

@@ -15,16 +15,12 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.DeliveryProcessDescription;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -34,10 +30,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class DeliveryProcessDescriptionItemProvider extends
-		ProcessDescriptionItemProvider implements IEditingDomainItemProvider,
-		IStructuredItemContentProvider, ITreeItemContentProvider,
-		IItemLabelProvider, IItemPropertySource {
+public class DeliveryProcessDescriptionItemProvider extends ProcessDescriptionItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -77,15 +70,11 @@ public class DeliveryProcessDescriptionItemProvider extends
 	 */
 	protected void addScalePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_DeliveryProcessDescription_scale_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_DeliveryProcessDescription_scale_feature", "_UI_DeliveryProcessDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DELIVERY_PROCESS_DESCRIPTION__SCALE,
-						true, false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_DeliveryProcessDescription_scale_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_DeliveryProcessDescription_scale_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_DeliveryProcessDescription_type"), //$NON-NLS-1$
+						UmaPackage.Literals.DELIVERY_PROCESS_DESCRIPTION__SCALE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -96,17 +85,14 @@ public class DeliveryProcessDescriptionItemProvider extends
 	 * @generated
 	 */
 	protected void addProjectCharacteristicsPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_DeliveryProcessDescription_projectCharacteristics_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_DeliveryProcessDescription_projectCharacteristics_feature", "_UI_DeliveryProcessDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DELIVERY_PROCESS_DESCRIPTION__PROJECT_CHARACTERISTICS,
-						true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_DeliveryProcessDescription_projectCharacteristics_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", //$NON-NLS-1$
+						"_UI_DeliveryProcessDescription_projectCharacteristics_feature", //$NON-NLS-1$
+						"_UI_DeliveryProcessDescription_type"), //$NON-NLS-1$
+				UmaPackage.Literals.DELIVERY_PROCESS_DESCRIPTION__PROJECT_CHARACTERISTICS, true, false, false,
+				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -116,17 +102,13 @@ public class DeliveryProcessDescriptionItemProvider extends
 	 * @generated
 	 */
 	protected void addRiskLevelPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_DeliveryProcessDescription_riskLevel_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_DeliveryProcessDescription_riskLevel_feature", "_UI_DeliveryProcessDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DELIVERY_PROCESS_DESCRIPTION__RISK_LEVEL,
-						true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_DeliveryProcessDescription_riskLevel_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", "_UI_DeliveryProcessDescription_riskLevel_feature", //$NON-NLS-1$//$NON-NLS-2$
+						"_UI_DeliveryProcessDescription_type"), //$NON-NLS-1$
+				UmaPackage.Literals.DELIVERY_PROCESS_DESCRIPTION__RISK_LEVEL, true, false, false,
+				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -137,15 +119,12 @@ public class DeliveryProcessDescriptionItemProvider extends
 	 */
 	protected void addEstimatingTechniquePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_DeliveryProcessDescription_estimatingTechnique_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_DeliveryProcessDescription_estimatingTechnique_feature", "_UI_DeliveryProcessDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DELIVERY_PROCESS_DESCRIPTION__ESTIMATING_TECHNIQUE,
-						true, false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_DeliveryProcessDescription_estimatingTechnique_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", //$NON-NLS-1$
+								"_UI_DeliveryProcessDescription_estimatingTechnique_feature", //$NON-NLS-1$
+								"_UI_DeliveryProcessDescription_type"), //$NON-NLS-1$
+						UmaPackage.Literals.DELIVERY_PROCESS_DESCRIPTION__ESTIMATING_TECHNIQUE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -156,17 +135,14 @@ public class DeliveryProcessDescriptionItemProvider extends
 	 * @generated
 	 */
 	protected void addProjectMemberExpertisePropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_DeliveryProcessDescription_projectMemberExpertise_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_DeliveryProcessDescription_projectMemberExpertise_feature", "_UI_DeliveryProcessDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DELIVERY_PROCESS_DESCRIPTION__PROJECT_MEMBER_EXPERTISE,
-						true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_DeliveryProcessDescription_projectMemberExpertise_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", //$NON-NLS-1$
+						"_UI_DeliveryProcessDescription_projectMemberExpertise_feature", //$NON-NLS-1$
+						"_UI_DeliveryProcessDescription_type"), //$NON-NLS-1$
+				UmaPackage.Literals.DELIVERY_PROCESS_DESCRIPTION__PROJECT_MEMBER_EXPERTISE, true, false, false,
+				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -176,17 +152,13 @@ public class DeliveryProcessDescriptionItemProvider extends
 	 * @generated
 	 */
 	protected void addTypeOfContractPropertyDescriptor(Object object) {
-		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_DeliveryProcessDescription_typeOfContract_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_DeliveryProcessDescription_typeOfContract_feature", "_UI_DeliveryProcessDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DELIVERY_PROCESS_DESCRIPTION__TYPE_OF_CONTRACT,
-						true, false, false,
-						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_DeliveryProcessDescription_typeOfContract_feature"), //$NON-NLS-1$
+				getString("_UI_PropertyDescriptor_description", "_UI_DeliveryProcessDescription_typeOfContract_feature", //$NON-NLS-1$//$NON-NLS-2$
+						"_UI_DeliveryProcessDescription_type"), //$NON-NLS-1$
+				UmaPackage.Literals.DELIVERY_PROCESS_DESCRIPTION__TYPE_OF_CONTRACT, true, false, false,
+				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -197,8 +169,7 @@ public class DeliveryProcessDescriptionItemProvider extends
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/DeliveryProcessDescription")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/DeliveryProcessDescription")); //$NON-NLS-1$
 	}
 
 	/**
@@ -232,8 +203,7 @@ public class DeliveryProcessDescriptionItemProvider extends
 		case UmaPackage.DELIVERY_PROCESS_DESCRIPTION__ESTIMATING_TECHNIQUE:
 		case UmaPackage.DELIVERY_PROCESS_DESCRIPTION__PROJECT_MEMBER_EXPERTISE:
 		case UmaPackage.DELIVERY_PROCESS_DESCRIPTION__TYPE_OF_CONTRACT:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), false, true));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -247,20 +217,8 @@ public class DeliveryProcessDescriptionItemProvider extends
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

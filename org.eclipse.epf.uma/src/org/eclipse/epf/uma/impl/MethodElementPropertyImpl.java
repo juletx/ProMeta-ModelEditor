@@ -33,8 +33,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class MethodElementPropertyImpl extends PackageableElementImpl implements
-		MethodElementProperty {
+public class MethodElementPropertyImpl extends PackageableElementImpl implements MethodElementProperty {
 	/**
 	 * The default value of the '{@link #getValue() <em>Value</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -96,8 +95,8 @@ public class MethodElementPropertyImpl extends PackageableElementImpl implements
 		String oldValue = value;
 		value = newValue;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.METHOD_ELEMENT_PROPERTY__VALUE, oldValue, value));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.METHOD_ELEMENT_PROPERTY__VALUE, oldValue,
+					value));
 	}
 
 	/**
@@ -159,8 +158,7 @@ public class MethodElementPropertyImpl extends PackageableElementImpl implements
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.METHOD_ELEMENT_PROPERTY__VALUE:
-			return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT
-					.equals(value);
+			return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
 		}
 		return super.eIsSet(featureID);
 	}

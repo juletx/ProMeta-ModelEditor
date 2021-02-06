@@ -15,16 +15,13 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.Task;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -35,9 +32,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class TaskItemProvider extends ContentElementItemProvider implements
-		IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class TaskItemProvider extends ContentElementItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -79,15 +74,11 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 	 */
 	protected void addPerformedByPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Task_performedBy_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Task_performedBy_feature", "_UI_Task_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.TASK__PERFORMED_BY, true, false,
-						true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Task_performedBy_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Task_performedBy_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Task_type"), //$NON-NLS-1$
+						UmaPackage.Literals.TASK__PERFORMED_BY, true, false, true, null, null, null));
 	}
 
 	/**
@@ -98,15 +89,11 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 	 */
 	protected void addMandatoryInputPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Task_mandatoryInput_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Task_mandatoryInput_feature", "_UI_Task_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.TASK__MANDATORY_INPUT, true, false,
-						true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Task_mandatoryInput_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Task_mandatoryInput_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Task_type"), //$NON-NLS-1$
+						UmaPackage.Literals.TASK__MANDATORY_INPUT, true, false, true, null, null, null));
 	}
 
 	/**
@@ -117,15 +104,10 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 	 */
 	protected void addOutputPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Task_output_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Task_output_feature", "_UI_Task_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.TASK__OUTPUT, true, false, true,
-						null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Task_output_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Task_output_feature", "_UI_Task_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
+						UmaPackage.Literals.TASK__OUTPUT, true, false, true, null, null, null));
 	}
 
 	/**
@@ -136,15 +118,11 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 	 */
 	protected void addAdditionallyPerformedByPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Task_additionallyPerformedBy_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Task_additionallyPerformedBy_feature", "_UI_Task_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.TASK__ADDITIONALLY_PERFORMED_BY,
-						true, false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Task_additionallyPerformedBy_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Task_additionallyPerformedBy_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Task_type"), //$NON-NLS-1$
+						UmaPackage.Literals.TASK__ADDITIONALLY_PERFORMED_BY, true, false, true, null, null, null));
 	}
 
 	/**
@@ -155,15 +133,11 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 	 */
 	protected void addOptionalInputPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Task_optionalInput_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Task_optionalInput_feature", "_UI_Task_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.TASK__OPTIONAL_INPUT, true, false,
-						true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Task_optionalInput_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Task_optionalInput_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Task_type"), //$NON-NLS-1$
+						UmaPackage.Literals.TASK__OPTIONAL_INPUT, true, false, true, null, null, null));
 	}
 
 	/**
@@ -174,15 +148,10 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 	 */
 	protected void addStepsPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Task_steps_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Task_steps_feature", "_UI_Task_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.TASK__STEPS, true, false, true,
-						null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Task_steps_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Task_steps_feature", "_UI_Task_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
+						UmaPackage.Literals.TASK__STEPS, true, false, true, null, null, null));
 	}
 
 	/**
@@ -193,15 +162,11 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 	 */
 	protected void addToolMentorsPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Task_toolMentors_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Task_toolMentors_feature", "_UI_Task_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.TASK__TOOL_MENTORS, true, false,
-						true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Task_toolMentors_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Task_toolMentors_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Task_type"), //$NON-NLS-1$
+						UmaPackage.Literals.TASK__TOOL_MENTORS, true, false, true, null, null, null));
 	}
 
 	/**
@@ -212,15 +177,11 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 	 */
 	protected void addEstimationConsiderationsPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Task_estimationConsiderations_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Task_estimationConsiderations_feature", "_UI_Task_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.TASK__ESTIMATION_CONSIDERATIONS,
-						true, false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Task_estimationConsiderations_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Task_estimationConsiderations_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Task_type"), //$NON-NLS-1$
+						UmaPackage.Literals.TASK__ESTIMATION_CONSIDERATIONS, true, false, true, null, null, null));
 	}
 
 	/**
@@ -232,14 +193,11 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures
-					.add(UmaPackage.Literals.WORK_DEFINITION__PRECONDITION);
-			childrenFeatures
-					.add(UmaPackage.Literals.WORK_DEFINITION__POSTCONDITION);
+			childrenFeatures.add(UmaPackage.Literals.WORK_DEFINITION__PRECONDITION);
+			childrenFeatures.add(UmaPackage.Literals.WORK_DEFINITION__POSTCONDITION);
 		}
 		return childrenFeatures;
 	}
@@ -265,8 +223,7 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/Task")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/Task")); //$NON-NLS-1$
 	}
 
 	/**
@@ -296,8 +253,7 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 		switch (notification.getFeatureID(Task.class)) {
 		case UmaPackage.TASK__PRECONDITION:
 		case UmaPackage.TASK__POSTCONDITION:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -311,16 +267,13 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.WORK_DEFINITION__PRECONDITION,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.WORK_DEFINITION__PRECONDITION,
 				UmaFactory.eINSTANCE.createConstraint()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.WORK_DEFINITION__POSTCONDITION,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.WORK_DEFINITION__POSTCONDITION,
 				UmaFactory.eINSTANCE.createConstraint()));
 	}
 
@@ -331,8 +284,7 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 	 * @generated
 	 */
 	@Override
-	public String getCreateChildText(Object owner, Object feature,
-			Object child, Collection<?> selection) {
+	public String getCreateChildText(Object owner, Object feature, Object child, Collection<?> selection) {
 		Object childFeature = feature;
 		Object childObject = child;
 
@@ -342,21 +294,9 @@ public class TaskItemProvider extends ContentElementItemProvider implements
 
 		if (qualify) {
 			return getString("_UI_CreateChild_text2", //$NON-NLS-1$
-					new Object[] { getTypeText(childObject),
-							getFeatureText(childFeature), getTypeText(owner) });
+					new Object[] { getTypeText(childObject), getFeatureText(childFeature), getTypeText(owner) });
 		}
 		return super.getCreateChildText(owner, feature, child, selection);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

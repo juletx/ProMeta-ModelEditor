@@ -14,12 +14,16 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.MethodConfiguration;
 import org.eclipse.epf.uma.MethodLibrary;
 import org.eclipse.epf.uma.MethodPlugin;
@@ -90,8 +94,7 @@ public class MethodLibraryImpl extends MethodUnitImpl implements MethodLibrary {
 	 */
 	public List<MethodPlugin> getMethodPlugins() {
 		if (methodPlugins == null) {
-			methodPlugins = new EObjectContainmentEList.Resolving<MethodPlugin>(
-					MethodPlugin.class, this,
+			methodPlugins = new EObjectContainmentEList.Resolving<MethodPlugin>(MethodPlugin.class, this,
 					UmaPackage.METHOD_LIBRARY__METHOD_PLUGINS);
 		}
 		return methodPlugins;
@@ -105,8 +108,7 @@ public class MethodLibraryImpl extends MethodUnitImpl implements MethodLibrary {
 	public List<MethodConfiguration> getPredefinedConfigurations() {
 		if (predefinedConfigurations == null) {
 			predefinedConfigurations = new EObjectContainmentEList.Resolving<MethodConfiguration>(
-					MethodConfiguration.class, this,
-					UmaPackage.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS);
+					MethodConfiguration.class, this, UmaPackage.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS);
 		}
 		return predefinedConfigurations;
 	}
@@ -117,15 +119,12 @@ public class MethodLibraryImpl extends MethodUnitImpl implements MethodLibrary {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.METHOD_LIBRARY__METHOD_PLUGINS:
-			return ((InternalEList<?>) getMethodPlugins()).basicRemove(
-					otherEnd, msgs);
+			return ((InternalEList<?>) getMethodPlugins()).basicRemove(otherEnd, msgs);
 		case UmaPackage.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS:
-			return ((InternalEList<?>) getPredefinedConfigurations())
-					.basicRemove(otherEnd, msgs);
+			return ((InternalEList<?>) getPredefinedConfigurations()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -157,13 +156,11 @@ public class MethodLibraryImpl extends MethodUnitImpl implements MethodLibrary {
 		switch (featureID) {
 		case UmaPackage.METHOD_LIBRARY__METHOD_PLUGINS:
 			getMethodPlugins().clear();
-			getMethodPlugins().addAll(
-					(Collection<? extends MethodPlugin>) newValue);
+			getMethodPlugins().addAll((Collection<? extends MethodPlugin>) newValue);
 			return;
 		case UmaPackage.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS:
 			getPredefinedConfigurations().clear();
-			getPredefinedConfigurations().addAll(
-					(Collection<? extends MethodConfiguration>) newValue);
+			getPredefinedConfigurations().addAll((Collection<? extends MethodConfiguration>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -204,8 +201,7 @@ public class MethodLibraryImpl extends MethodUnitImpl implements MethodLibrary {
 		case UmaPackage.METHOD_LIBRARY__METHOD_PLUGINS:
 			return methodPlugins != null && !methodPlugins.isEmpty();
 		case UmaPackage.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS:
-			return predefinedConfigurations != null
-					&& !predefinedConfigurations.isEmpty();
+			return predefinedConfigurations != null && !predefinedConfigurations.isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

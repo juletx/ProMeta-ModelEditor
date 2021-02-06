@@ -14,9 +14,12 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.ContentCategory;
 import org.eclipse.epf.uma.CustomCategory;
 import org.eclipse.epf.uma.DescribableElement;
@@ -36,8 +39,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class CustomCategoryImpl extends ContentCategoryImpl implements
-		CustomCategory {
+public class CustomCategoryImpl extends ContentCategoryImpl implements CustomCategory {
 	/**
 	 * The cached value of the '{@link #getCategorizedElements() <em>Categorized Elements</em>}' reference list.
 	 * <!-- begin-user-doc -->
@@ -88,8 +90,7 @@ public class CustomCategoryImpl extends ContentCategoryImpl implements
 	 */
 	public List<DescribableElement> getCategorizedElements() {
 		if (categorizedElements == null) {
-			categorizedElements = new EObjectResolvingEList<DescribableElement>(
-					DescribableElement.class, this,
+			categorizedElements = new EObjectResolvingEList<DescribableElement>(DescribableElement.class, this,
 					UmaPackage.CUSTOM_CATEGORY__CATEGORIZED_ELEMENTS);
 		}
 		return categorizedElements;
@@ -102,8 +103,7 @@ public class CustomCategoryImpl extends ContentCategoryImpl implements
 	 */
 	public List<ContentCategory> getSubCategories() {
 		if (subCategories == null) {
-			subCategories = new EObjectResolvingEList<ContentCategory>(
-					ContentCategory.class, this,
+			subCategories = new EObjectResolvingEList<ContentCategory>(ContentCategory.class, this,
 					UmaPackage.CUSTOM_CATEGORY__SUB_CATEGORIES);
 		}
 		return subCategories;
@@ -136,13 +136,11 @@ public class CustomCategoryImpl extends ContentCategoryImpl implements
 		switch (featureID) {
 		case UmaPackage.CUSTOM_CATEGORY__CATEGORIZED_ELEMENTS:
 			getCategorizedElements().clear();
-			getCategorizedElements().addAll(
-					(Collection<? extends DescribableElement>) newValue);
+			getCategorizedElements().addAll((Collection<? extends DescribableElement>) newValue);
 			return;
 		case UmaPackage.CUSTOM_CATEGORY__SUB_CATEGORIES:
 			getSubCategories().clear();
-			getSubCategories().addAll(
-					(Collection<? extends ContentCategory>) newValue);
+			getSubCategories().addAll((Collection<? extends ContentCategory>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -181,8 +179,7 @@ public class CustomCategoryImpl extends ContentCategoryImpl implements
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.CUSTOM_CATEGORY__CATEGORIZED_ELEMENTS:
-			return categorizedElements != null
-					&& !categorizedElements.isEmpty();
+			return categorizedElements != null && !categorizedElements.isEmpty();
 		case UmaPackage.CUSTOM_CATEGORY__SUB_CATEGORIES:
 			return subCategories != null && !subCategories.isEmpty();
 		}

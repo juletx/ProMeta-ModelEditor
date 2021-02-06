@@ -12,20 +12,19 @@ package org.eclipse.epf.uma.impl;
 
 import java.util.Collection;
 import java.util.List;
+
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
-import java.util.Set;
-import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.ecore.EClass;
-
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
-import org.eclipse.epf.uma.ApplicableMetaClassInfo;
-import org.eclipse.emf.ecore.impl.ENotificationImpl;
 
+import org.eclipse.epf.uma.ApplicableMetaClassInfo;
 import org.eclipse.epf.uma.Kind;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -84,8 +83,7 @@ public class KindImpl extends ContentElementImpl implements Kind {
 	public List<ApplicableMetaClassInfo> getApplicableMetaClassInfo() {
 		if (applicableMetaClassInfo == null) {
 			applicableMetaClassInfo = new EObjectContainmentEList.Resolving<ApplicableMetaClassInfo>(
-					ApplicableMetaClassInfo.class, this,
-					UmaPackage.KIND__APPLICABLE_META_CLASS_INFO);
+					ApplicableMetaClassInfo.class, this, UmaPackage.KIND__APPLICABLE_META_CLASS_INFO);
 		}
 		return applicableMetaClassInfo;
 	}
@@ -96,12 +94,10 @@ public class KindImpl extends ContentElementImpl implements Kind {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.KIND__APPLICABLE_META_CLASS_INFO:
-			return ((InternalEList<?>) getApplicableMetaClassInfo())
-					.basicRemove(otherEnd, msgs);
+			return ((InternalEList<?>) getApplicableMetaClassInfo()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -131,8 +127,7 @@ public class KindImpl extends ContentElementImpl implements Kind {
 		switch (featureID) {
 		case UmaPackage.KIND__APPLICABLE_META_CLASS_INFO:
 			getApplicableMetaClassInfo().clear();
-			getApplicableMetaClassInfo().addAll(
-					(Collection<? extends ApplicableMetaClassInfo>) newValue);
+			getApplicableMetaClassInfo().addAll((Collection<? extends ApplicableMetaClassInfo>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -168,8 +163,7 @@ public class KindImpl extends ContentElementImpl implements Kind {
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.KIND__APPLICABLE_META_CLASS_INFO:
-			return applicableMetaClassInfo != null
-					&& !applicableMetaClassInfo.isEmpty();
+			return applicableMetaClassInfo != null && !applicableMetaClassInfo.isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

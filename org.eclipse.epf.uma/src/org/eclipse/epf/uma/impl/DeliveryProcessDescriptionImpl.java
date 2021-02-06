@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.DeliveryProcessDescription;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -35,8 +38,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
-		implements DeliveryProcessDescription {
+public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl implements DeliveryProcessDescription {
 	/**
 	 * The default value of the '{@link #getScale() <em>Scale</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -45,7 +47,7 @@ public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String SCALE_EDEFAULT = "";
+	protected static final String SCALE_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getScale() <em>Scale</em>}' attribute.
@@ -65,7 +67,7 @@ public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String PROJECT_CHARACTERISTICS_EDEFAULT = "";
+	protected static final String PROJECT_CHARACTERISTICS_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getProjectCharacteristics() <em>Project Characteristics</em>}' attribute.
@@ -85,7 +87,7 @@ public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String RISK_LEVEL_EDEFAULT = "";
+	protected static final String RISK_LEVEL_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getRiskLevel() <em>Risk Level</em>}' attribute.
@@ -105,7 +107,7 @@ public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String ESTIMATING_TECHNIQUE_EDEFAULT = "";
+	protected static final String ESTIMATING_TECHNIQUE_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getEstimatingTechnique() <em>Estimating Technique</em>}' attribute.
@@ -125,7 +127,7 @@ public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String PROJECT_MEMBER_EXPERTISE_EDEFAULT = "";
+	protected static final String PROJECT_MEMBER_EXPERTISE_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getProjectMemberExpertise() <em>Project Member Expertise</em>}' attribute.
@@ -145,7 +147,7 @@ public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String TYPE_OF_CONTRACT_EDEFAULT = "";
+	protected static final String TYPE_OF_CONTRACT_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getTypeOfContract() <em>Type Of Contract</em>}' attribute.
@@ -198,9 +200,8 @@ public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
 		String oldScale = scale;
 		scale = newScale;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DELIVERY_PROCESS_DESCRIPTION__SCALE, oldScale,
-					scale));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DELIVERY_PROCESS_DESCRIPTION__SCALE,
+					oldScale, scale));
 	}
 
 	/**
@@ -221,11 +222,9 @@ public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
 		String oldProjectCharacteristics = projectCharacteristics;
 		projectCharacteristics = newProjectCharacteristics;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(
-					this,
-					Notification.SET,
-					UmaPackage.DELIVERY_PROCESS_DESCRIPTION__PROJECT_CHARACTERISTICS,
-					oldProjectCharacteristics, projectCharacteristics));
+			eNotify(new ENotificationImpl(this, Notification.SET,
+					UmaPackage.DELIVERY_PROCESS_DESCRIPTION__PROJECT_CHARACTERISTICS, oldProjectCharacteristics,
+					projectCharacteristics));
 	}
 
 	/**
@@ -246,8 +245,7 @@ public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
 		String oldRiskLevel = riskLevel;
 		riskLevel = newRiskLevel;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DELIVERY_PROCESS_DESCRIPTION__RISK_LEVEL,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.DELIVERY_PROCESS_DESCRIPTION__RISK_LEVEL,
 					oldRiskLevel, riskLevel));
 	}
 
@@ -269,11 +267,9 @@ public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
 		String oldEstimatingTechnique = estimatingTechnique;
 		estimatingTechnique = newEstimatingTechnique;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(
-					this,
-					Notification.SET,
-					UmaPackage.DELIVERY_PROCESS_DESCRIPTION__ESTIMATING_TECHNIQUE,
-					oldEstimatingTechnique, estimatingTechnique));
+			eNotify(new ENotificationImpl(this, Notification.SET,
+					UmaPackage.DELIVERY_PROCESS_DESCRIPTION__ESTIMATING_TECHNIQUE, oldEstimatingTechnique,
+					estimatingTechnique));
 	}
 
 	/**
@@ -294,11 +290,9 @@ public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
 		String oldProjectMemberExpertise = projectMemberExpertise;
 		projectMemberExpertise = newProjectMemberExpertise;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(
-					this,
-					Notification.SET,
-					UmaPackage.DELIVERY_PROCESS_DESCRIPTION__PROJECT_MEMBER_EXPERTISE,
-					oldProjectMemberExpertise, projectMemberExpertise));
+			eNotify(new ENotificationImpl(this, Notification.SET,
+					UmaPackage.DELIVERY_PROCESS_DESCRIPTION__PROJECT_MEMBER_EXPERTISE, oldProjectMemberExpertise,
+					projectMemberExpertise));
 	}
 
 	/**
@@ -320,8 +314,7 @@ public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
 		typeOfContract = newTypeOfContract;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.DELIVERY_PROCESS_DESCRIPTION__TYPE_OF_CONTRACT,
-					oldTypeOfContract, typeOfContract));
+					UmaPackage.DELIVERY_PROCESS_DESCRIPTION__TYPE_OF_CONTRACT, oldTypeOfContract, typeOfContract));
 	}
 
 	/**
@@ -423,23 +416,18 @@ public class DeliveryProcessDescriptionImpl extends ProcessDescriptionImpl
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.DELIVERY_PROCESS_DESCRIPTION__SCALE:
-			return SCALE_EDEFAULT == null ? scale != null : !SCALE_EDEFAULT
-					.equals(scale);
+			return SCALE_EDEFAULT == null ? scale != null : !SCALE_EDEFAULT.equals(scale);
 		case UmaPackage.DELIVERY_PROCESS_DESCRIPTION__PROJECT_CHARACTERISTICS:
 			return PROJECT_CHARACTERISTICS_EDEFAULT == null ? projectCharacteristics != null
-					: !PROJECT_CHARACTERISTICS_EDEFAULT
-							.equals(projectCharacteristics);
+					: !PROJECT_CHARACTERISTICS_EDEFAULT.equals(projectCharacteristics);
 		case UmaPackage.DELIVERY_PROCESS_DESCRIPTION__RISK_LEVEL:
-			return RISK_LEVEL_EDEFAULT == null ? riskLevel != null
-					: !RISK_LEVEL_EDEFAULT.equals(riskLevel);
+			return RISK_LEVEL_EDEFAULT == null ? riskLevel != null : !RISK_LEVEL_EDEFAULT.equals(riskLevel);
 		case UmaPackage.DELIVERY_PROCESS_DESCRIPTION__ESTIMATING_TECHNIQUE:
 			return ESTIMATING_TECHNIQUE_EDEFAULT == null ? estimatingTechnique != null
-					: !ESTIMATING_TECHNIQUE_EDEFAULT
-							.equals(estimatingTechnique);
+					: !ESTIMATING_TECHNIQUE_EDEFAULT.equals(estimatingTechnique);
 		case UmaPackage.DELIVERY_PROCESS_DESCRIPTION__PROJECT_MEMBER_EXPERTISE:
 			return PROJECT_MEMBER_EXPERTISE_EDEFAULT == null ? projectMemberExpertise != null
-					: !PROJECT_MEMBER_EXPERTISE_EDEFAULT
-							.equals(projectMemberExpertise);
+					: !PROJECT_MEMBER_EXPERTISE_EDEFAULT.equals(projectMemberExpertise);
 		case UmaPackage.DELIVERY_PROCESS_DESCRIPTION__TYPE_OF_CONTRACT:
 			return TYPE_OF_CONTRACT_EDEFAULT == null ? typeOfContract != null
 					: !TYPE_OF_CONTRACT_EDEFAULT.equals(typeOfContract);

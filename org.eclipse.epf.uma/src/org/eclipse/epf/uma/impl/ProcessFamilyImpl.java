@@ -14,9 +14,12 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
 import org.eclipse.epf.uma.DeliveryProcess;
 import org.eclipse.epf.uma.ProcessFamily;
 import org.eclipse.epf.uma.UmaPackage;
@@ -34,8 +37,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class ProcessFamilyImpl extends MethodConfigurationImpl implements
-		ProcessFamily {
+public class ProcessFamilyImpl extends MethodConfigurationImpl implements ProcessFamily {
 	/**
 	 * The cached value of the '{@link #getDeliveryProcesses() <em>Delivery Processes</em>}' reference list.
 	 * <!-- begin-user-doc -->
@@ -76,8 +78,7 @@ public class ProcessFamilyImpl extends MethodConfigurationImpl implements
 	 */
 	public List<DeliveryProcess> getDeliveryProcesses() {
 		if (deliveryProcesses == null) {
-			deliveryProcesses = new EObjectResolvingEList<DeliveryProcess>(
-					DeliveryProcess.class, this,
+			deliveryProcesses = new EObjectResolvingEList<DeliveryProcess>(DeliveryProcess.class, this,
 					UmaPackage.PROCESS_FAMILY__DELIVERY_PROCESSES);
 		}
 		return deliveryProcesses;
@@ -108,8 +109,7 @@ public class ProcessFamilyImpl extends MethodConfigurationImpl implements
 		switch (featureID) {
 		case UmaPackage.PROCESS_FAMILY__DELIVERY_PROCESSES:
 			getDeliveryProcesses().clear();
-			getDeliveryProcesses().addAll(
-					(Collection<? extends DeliveryProcess>) newValue);
+			getDeliveryProcesses().addAll((Collection<? extends DeliveryProcess>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);

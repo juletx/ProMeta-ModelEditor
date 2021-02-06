@@ -101,10 +101,6 @@ public interface MethodPlugin extends MethodUnit, org.eclipse.epf.uma.Package {
 	/**
 	 * Returns the value of the '<em><b>Supporting</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Supporting</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
 	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * A supporting method plug-in is a plug-in that contains supporting and optional method elements. Only the elements that are referenced from non-supporting plug-in are to be considered for inclusion into a method configuration. In other words, if a supporting method plug-in is selected for a configuration only its elements referenced from outside of this plug-in will be considered for the configuration.  All other unreferenced elements will not be.

@@ -11,26 +11,26 @@
 package org.eclipse.epf.uma.impl;
 
 import java.util.Collection;
-import java.util.Iterator;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
-import org.eclipse.emf.ecore.util.BasicInternalEList;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
-import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.Role;
 import org.eclipse.epf.uma.RoleDescriptor;
-import org.eclipse.epf.uma.TaskDescriptor;
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.WorkProduct;
 import org.eclipse.epf.uma.WorkProductDescriptor;
-import org.eclipse.epf.uma.util.AssociationHelper;
 
 /**
  * <!-- begin-user-doc -->
@@ -48,8 +48,7 @@ import org.eclipse.epf.uma.util.AssociationHelper;
  *
  * @generated
  */
-public class RoleDescriptorImpl extends DescriptorImpl implements
-		RoleDescriptor {
+public class RoleDescriptorImpl extends DescriptorImpl implements RoleDescriptor {
 	/**
 	 * The cached value of the '{@link #getRole() <em>Role</em>}' reference.
 	 * <!-- begin-user-doc -->
@@ -114,8 +113,8 @@ public class RoleDescriptorImpl extends DescriptorImpl implements
 			role = (Role) eResolveProxy(oldRole);
 			if (role != oldRole) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.ROLE_DESCRIPTOR__ROLE, oldRole, role));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.ROLE_DESCRIPTOR__ROLE, oldRole,
+							role));
 			}
 		}
 		return role;
@@ -139,38 +138,20 @@ public class RoleDescriptorImpl extends DescriptorImpl implements
 		Role oldRole = role;
 		role = newRole;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.ROLE_DESCRIPTOR__ROLE, oldRole, role));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.ROLE_DESCRIPTOR__ROLE, oldRole, role));
 	}
 
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * @generated
 	 */
-	public List getModifies() {
-		List performs = AssociationHelper.getPrimaryTaskDescriptors(this);
-		InternalEList modifies = new BasicInternalEList(
-				WorkProductDescriptor.class);
-		if (performs != null && performs.size() > 0) {
-			for (Iterator i = performs.iterator(); i.hasNext();) {
-				TaskDescriptor td = (TaskDescriptor) i.next();
-
-				// for each task, get output work product;
-				List outputWPs = td.getOutput();
-				if (outputWPs != null && outputWPs.size() > 0) {
-					for (Iterator it = outputWPs.iterator(); it.hasNext();) {
-						WorkProductDescriptor wpd = (WorkProductDescriptor) it
-								.next();
-						if (wpd != null) {
-							if (!modifies.contains(wpd)) {
-								modifies.add(wpd);
-							}
-						}
-					}
-				}
-			}
-		}
-		return modifies;
+	public List<WorkProductDescriptor> getModifies() {
+		// TODO: implement this method to return the 'Modifies' reference list
+		// Ensure that you remove @generated or mark it @generated NOT
+		// The list is expected to implement org.eclipse.emf.ecore.util.InternalEList and org.eclipse.emf.ecore.EStructuralFeature.Setting
+		// so it's likely that an appropriate subclass of org.eclipse.emf.ecore.util.EcoreEList should be used.
+		throw new UnsupportedOperationException();
 	}
 
 	/**
@@ -180,8 +161,7 @@ public class RoleDescriptorImpl extends DescriptorImpl implements
 	 */
 	public List<WorkProductDescriptor> getResponsibleFor() {
 		if (responsibleFor == null) {
-			responsibleFor = new EObjectResolvingEList<WorkProductDescriptor>(
-					WorkProductDescriptor.class, this,
+			responsibleFor = new EObjectResolvingEList<WorkProductDescriptor>(WorkProductDescriptor.class, this,
 					UmaPackage.ROLE_DESCRIPTOR__RESPONSIBLE_FOR);
 		}
 		return responsibleFor;
@@ -194,8 +174,7 @@ public class RoleDescriptorImpl extends DescriptorImpl implements
 	 */
 	public List<WorkProduct> getResponsibleForExclude() {
 		if (responsibleForExclude == null) {
-			responsibleForExclude = new EObjectResolvingEList<WorkProduct>(
-					WorkProduct.class, this,
+			responsibleForExclude = new EObjectResolvingEList<WorkProduct>(WorkProduct.class, this,
 					UmaPackage.ROLE_DESCRIPTOR__RESPONSIBLE_FOR_EXCLUDE);
 		}
 		return responsibleForExclude;
@@ -237,18 +216,15 @@ public class RoleDescriptorImpl extends DescriptorImpl implements
 			return;
 		case UmaPackage.ROLE_DESCRIPTOR__MODIFIES:
 			getModifies().clear();
-			getModifies().addAll(
-					(Collection<? extends WorkProductDescriptor>) newValue);
+			getModifies().addAll((Collection<? extends WorkProductDescriptor>) newValue);
 			return;
 		case UmaPackage.ROLE_DESCRIPTOR__RESPONSIBLE_FOR:
 			getResponsibleFor().clear();
-			getResponsibleFor().addAll(
-					(Collection<? extends WorkProductDescriptor>) newValue);
+			getResponsibleFor().addAll((Collection<? extends WorkProductDescriptor>) newValue);
 			return;
 		case UmaPackage.ROLE_DESCRIPTOR__RESPONSIBLE_FOR_EXCLUDE:
 			getResponsibleForExclude().clear();
-			getResponsibleForExclude().addAll(
-					(Collection<? extends WorkProduct>) newValue);
+			getResponsibleForExclude().addAll((Collection<? extends WorkProduct>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -299,8 +275,7 @@ public class RoleDescriptorImpl extends DescriptorImpl implements
 		case UmaPackage.ROLE_DESCRIPTOR__RESPONSIBLE_FOR:
 			return responsibleFor != null && !responsibleFor.isEmpty();
 		case UmaPackage.ROLE_DESCRIPTOR__RESPONSIBLE_FOR_EXCLUDE:
-			return responsibleForExclude != null
-					&& !responsibleForExclude.isEmpty();
+			return responsibleForExclude != null && !responsibleForExclude.isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

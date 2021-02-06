@@ -11,6 +11,7 @@
 package org.eclipse.epf.uma.impl;
 
 import java.net.URI;
+
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -19,8 +20,11 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EDataType;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
+
 import org.eclipse.emf.ecore.impl.EFactoryImpl;
+
 import org.eclipse.emf.ecore.plugin.EcorePlugin;
+
 import org.eclipse.epf.uma.Activity;
 import org.eclipse.epf.uma.ActivityDescription;
 import org.eclipse.epf.uma.ApplicableMetaClassInfo;
@@ -128,8 +132,7 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 */
 	public static UmaFactory init() {
 		try {
-			UmaFactory theUmaFactory = (UmaFactory) EPackage.Registry.INSTANCE
-					.getEFactory("http://www.eclipse.org/epf/uma/1.0.6/uma.ecore"); //$NON-NLS-1$ 
+			UmaFactory theUmaFactory = (UmaFactory) EPackage.Registry.INSTANCE.getEFactory(UmaPackage.eNS_URI);
 			if (theUmaFactory != null) {
 				return theUmaFactory;
 			}
@@ -334,8 +337,7 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 		case UmaPackage.METHOD_LIBRARY:
 			return (EObject) createMethodLibrary();
 		default:
-			throw new IllegalArgumentException(
-					"The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
+			throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
 	}
 
@@ -368,8 +370,7 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 		case UmaPackage.DOUBLE:
 			return createDoubleFromString(eDataType, initialValue);
 		default:
-			throw new IllegalArgumentException(
-					"The datatype '" + eDataType.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
+			throw new IllegalArgumentException("The datatype '" + eDataType.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
 	}
 
@@ -402,8 +403,7 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 		case UmaPackage.DOUBLE:
 			return convertDoubleToString(eDataType, instanceValue);
 		default:
-			throw new IllegalArgumentException(
-					"The datatype '" + eDataType.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
+			throw new IllegalArgumentException("The datatype '" + eDataType.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
 	}
 
@@ -462,6 +462,16 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public SupportingMaterial createSupportingMaterial() {
+		SupportingMaterialImpl supportingMaterial = new SupportingMaterialImpl();
+		return supportingMaterial;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public Section createSection() {
 		SectionImpl section = new SectionImpl();
 		return section;
@@ -472,9 +482,9 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Role createRole() {
-		RoleImpl role = new RoleImpl();
-		return role;
+	public Concept createConcept() {
+		ConceptImpl concept = new ConceptImpl();
+		return concept;
 	}
 
 	/**
@@ -482,9 +492,9 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Task createTask() {
-		TaskImpl task = new TaskImpl();
-		return task;
+	public Checklist createChecklist() {
+		ChecklistImpl checklist = new ChecklistImpl();
+		return checklist;
 	}
 
 	/**
@@ -492,9 +502,49 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Step createStep() {
-		StepImpl step = new StepImpl();
-		return step;
+	public Guideline createGuideline() {
+		GuidelineImpl guideline = new GuidelineImpl();
+		return guideline;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Example createExample() {
+		ExampleImpl example = new ExampleImpl();
+		return example;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public ReusableAsset createReusableAsset() {
+		ReusableAssetImpl reusableAsset = new ReusableAssetImpl();
+		return reusableAsset;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public TermDefinition createTermDefinition() {
+		TermDefinitionImpl termDefinition = new TermDefinitionImpl();
+		return termDefinition;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public ApplicableMetaClassInfo createApplicableMetaClassInfo() {
+		ApplicableMetaClassInfoImpl applicableMetaClassInfo = new ApplicableMetaClassInfoImpl();
+		return applicableMetaClassInfo;
 	}
 
 	/**
@@ -532,6 +582,46 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public Report createReport() {
+		ReportImpl report = new ReportImpl();
+		return report;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Template createTemplate() {
+		TemplateImpl template = new TemplateImpl();
+		return template;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public ToolMentor createToolMentor() {
+		ToolMentorImpl toolMentor = new ToolMentorImpl();
+		return toolMentor;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EstimationConsiderations createEstimationConsiderations() {
+		EstimationConsiderationsImpl estimationConsiderations = new EstimationConsiderationsImpl();
+		return estimationConsiderations;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public Deliverable createDeliverable() {
 		DeliverableImpl deliverable = new DeliverableImpl();
 		return deliverable;
@@ -552,9 +642,39 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ContentPackage createContentPackage() {
-		ContentPackageImpl contentPackage = new ContentPackageImpl();
-		return contentPackage;
+	public Step createStep() {
+		StepImpl step = new StepImpl();
+		return step;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Whitepaper createWhitepaper() {
+		WhitepaperImpl whitepaper = new WhitepaperImpl();
+		return whitepaper;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Task createTask() {
+		TaskImpl task = new TaskImpl();
+		return task;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Role createRole() {
+		RoleImpl role = new RoleImpl();
+		return role;
 	}
 
 	/**
@@ -632,6 +752,56 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public RoleSet createRoleSet() {
+		RoleSetImpl roleSet = new RoleSetImpl();
+		return roleSet;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Domain createDomain() {
+		DomainImpl domain = new DomainImpl();
+		return domain;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public WorkProductType createWorkProductType() {
+		WorkProductTypeImpl workProductType = new WorkProductTypeImpl();
+		return workProductType;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public DisciplineGrouping createDisciplineGrouping() {
+		DisciplineGroupingImpl disciplineGrouping = new DisciplineGroupingImpl();
+		return disciplineGrouping;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Discipline createDiscipline() {
+		DisciplineImpl discipline = new DisciplineImpl();
+		return discipline;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public Activity createActivity() {
 		ActivityImpl activity = new ActivityImpl();
 		return activity;
@@ -642,9 +812,89 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public PlanningData createPlanningData() {
+		PlanningDataImpl planningData = new PlanningDataImpl();
+		return planningData;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public WorkOrder createWorkOrder() {
+		WorkOrderImpl workOrder = new WorkOrderImpl();
+		return workOrder;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Roadmap createRoadmap() {
+		RoadmapImpl roadmap = new RoadmapImpl();
+		return roadmap;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Tool createTool() {
+		ToolImpl tool = new ToolImpl();
+		return tool;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public RoleSetGrouping createRoleSetGrouping() {
+		RoleSetGroupingImpl roleSetGrouping = new RoleSetGroupingImpl();
+		return roleSetGrouping;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public CustomCategory createCustomCategory() {
+		CustomCategoryImpl customCategory = new CustomCategoryImpl();
+		return customCategory;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public ContentPackage createContentPackage() {
+		ContentPackageImpl contentPackage = new ContentPackageImpl();
+		return contentPackage;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public Milestone createMilestone() {
 		MilestoneImpl milestone = new MilestoneImpl();
 		return milestone;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public WorkProductDescriptor createWorkProductDescriptor() {
+		WorkProductDescriptorImpl workProductDescriptor = new WorkProductDescriptorImpl();
+		return workProductDescriptor;
 	}
 
 	/**
@@ -692,26 +942,6 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public WorkOrder createWorkOrder() {
-		WorkOrderImpl workOrder = new WorkOrderImpl();
-		return workOrder;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public PlanningData createPlanningData() {
-		PlanningDataImpl planningData = new PlanningDataImpl();
-		return planningData;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public TaskDescriptor createTaskDescriptor() {
 		TaskDescriptorImpl taskDescriptor = new TaskDescriptorImpl();
 		return taskDescriptor;
@@ -722,9 +952,9 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public WorkProductDescriptor createWorkProductDescriptor() {
-		WorkProductDescriptorImpl workProductDescriptor = new WorkProductDescriptorImpl();
-		return workProductDescriptor;
+	public CompositeRole createCompositeRole() {
+		CompositeRoleImpl compositeRole = new CompositeRoleImpl();
+		return compositeRole;
 	}
 
 	/**
@@ -732,9 +962,59 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public CompositeRole createCompositeRole() {
-		CompositeRoleImpl compositeRole = new CompositeRoleImpl();
-		return compositeRole;
+	public DeliveryProcess createDeliveryProcess() {
+		DeliveryProcessImpl deliveryProcess = new DeliveryProcessImpl();
+		return deliveryProcess;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public CapabilityPattern createCapabilityPattern() {
+		CapabilityPatternImpl capabilityPattern = new CapabilityPatternImpl();
+		return capabilityPattern;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public MethodConfiguration createMethodConfiguration() {
+		MethodConfigurationImpl methodConfiguration = new MethodConfigurationImpl();
+		return methodConfiguration;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public MethodPlugin createMethodPlugin() {
+		MethodPluginImpl methodPlugin = new MethodPluginImpl();
+		return methodPlugin;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public ProcessPlanningTemplate createProcessPlanningTemplate() {
+		ProcessPlanningTemplateImpl processPlanningTemplate = new ProcessPlanningTemplateImpl();
+		return processPlanningTemplate;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Practice createPractice() {
+		PracticeImpl practice = new PracticeImpl();
+		return practice;
 	}
 
 	/**
@@ -792,259 +1072,9 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Concept createConcept() {
-		ConceptImpl concept = new ConceptImpl();
-		return concept;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Checklist createChecklist() {
-		ChecklistImpl checklist = new ChecklistImpl();
-		return checklist;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Example createExample() {
-		ExampleImpl example = new ExampleImpl();
-		return example;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Guideline createGuideline() {
-		GuidelineImpl guideline = new GuidelineImpl();
-		return guideline;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EstimationConsiderations createEstimationConsiderations() {
-		EstimationConsiderationsImpl estimationConsiderations = new EstimationConsiderationsImpl();
-		return estimationConsiderations;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Report createReport() {
-		ReportImpl report = new ReportImpl();
-		return report;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Template createTemplate() {
-		TemplateImpl template = new TemplateImpl();
-		return template;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public SupportingMaterial createSupportingMaterial() {
-		SupportingMaterialImpl supportingMaterial = new SupportingMaterialImpl();
-		return supportingMaterial;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ToolMentor createToolMentor() {
-		ToolMentorImpl toolMentor = new ToolMentorImpl();
-		return toolMentor;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Whitepaper createWhitepaper() {
-		WhitepaperImpl whitepaper = new WhitepaperImpl();
-		return whitepaper;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public TermDefinition createTermDefinition() {
-		TermDefinitionImpl termDefinition = new TermDefinitionImpl();
-		return termDefinition;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ApplicableMetaClassInfo createApplicableMetaClassInfo() {
-		ApplicableMetaClassInfoImpl applicableMetaClassInfo = new ApplicableMetaClassInfoImpl();
-		return applicableMetaClassInfo;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Practice createPractice() {
-		PracticeImpl practice = new PracticeImpl();
-		return practice;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ReusableAsset createReusableAsset() {
-		ReusableAssetImpl reusableAsset = new ReusableAssetImpl();
-		return reusableAsset;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Discipline createDiscipline() {
-		DisciplineImpl discipline = new DisciplineImpl();
-		return discipline;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public RoleSet createRoleSet() {
-		RoleSetImpl roleSet = new RoleSetImpl();
-		return roleSet;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Domain createDomain() {
-		DomainImpl domain = new DomainImpl();
-		return domain;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public WorkProductType createWorkProductType() {
-		WorkProductTypeImpl workProductType = new WorkProductTypeImpl();
-		return workProductType;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public DisciplineGrouping createDisciplineGrouping() {
-		DisciplineGroupingImpl disciplineGrouping = new DisciplineGroupingImpl();
-		return disciplineGrouping;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tool createTool() {
-		ToolImpl tool = new ToolImpl();
-		return tool;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public RoleSetGrouping createRoleSetGrouping() {
-		RoleSetGroupingImpl roleSetGrouping = new RoleSetGroupingImpl();
-		return roleSetGrouping;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public CustomCategory createCustomCategory() {
-		CustomCategoryImpl customCategory = new CustomCategoryImpl();
-		return customCategory;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public DeliveryProcess createDeliveryProcess() {
-		DeliveryProcessImpl deliveryProcess = new DeliveryProcessImpl();
-		return deliveryProcess;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public CapabilityPattern createCapabilityPattern() {
-		CapabilityPatternImpl capabilityPattern = new CapabilityPatternImpl();
-		return capabilityPattern;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ProcessPlanningTemplate createProcessPlanningTemplate() {
-		ProcessPlanningTemplateImpl processPlanningTemplate = new ProcessPlanningTemplateImpl();
-		return processPlanningTemplate;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Roadmap createRoadmap() {
-		RoadmapImpl roadmap = new RoadmapImpl();
-		return roadmap;
+	public ProcessComponentDescriptor createProcessComponentDescriptor() {
+		ProcessComponentDescriptorImpl processComponentDescriptor = new ProcessComponentDescriptorImpl();
+		return processComponentDescriptor;
 	}
 
 	/**
@@ -1072,9 +1102,9 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ProcessComponentInterface createProcessComponentInterface() {
-		ProcessComponentInterfaceImpl processComponentInterface = new ProcessComponentInterfaceImpl();
-		return processComponentInterface;
+	public Diagram createDiagram() {
+		DiagramImpl diagram = new DiagramImpl();
+		return diagram;
 	}
 
 	/**
@@ -1082,9 +1112,9 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ProcessComponentDescriptor createProcessComponentDescriptor() {
-		ProcessComponentDescriptorImpl processComponentDescriptor = new ProcessComponentDescriptorImpl();
-		return processComponentDescriptor;
+	public GraphNode createGraphNode() {
+		GraphNodeImpl graphNode = new GraphNodeImpl();
+		return graphNode;
 	}
 
 	/**
@@ -1092,9 +1122,9 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public MethodPlugin createMethodPlugin() {
-		MethodPluginImpl methodPlugin = new MethodPluginImpl();
-		return methodPlugin;
+	public Reference createReference() {
+		ReferenceImpl reference = new ReferenceImpl();
+		return reference;
 	}
 
 	/**
@@ -1102,29 +1132,9 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public MethodConfiguration createMethodConfiguration() {
-		MethodConfigurationImpl methodConfiguration = new MethodConfigurationImpl();
-		return methodConfiguration;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ProcessFamily createProcessFamily() {
-		ProcessFamilyImpl processFamily = new ProcessFamilyImpl();
-		return processFamily;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public MethodLibrary createMethodLibrary() {
-		MethodLibraryImpl methodLibrary = new MethodLibraryImpl();
-		return methodLibrary;
+	public Property createProperty() {
+		PropertyImpl property = new PropertyImpl();
+		return property;
 	}
 
 	/**
@@ -1162,36 +1172,6 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Dimension createDimension() {
-		DimensionImpl dimension = new DimensionImpl();
-		return dimension;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Reference createReference() {
-		ReferenceImpl reference = new ReferenceImpl();
-		return reference;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Property createProperty() {
-		PropertyImpl property = new PropertyImpl();
-		return property;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public GraphEdge createGraphEdge() {
 		GraphEdgeImpl graphEdge = new GraphEdgeImpl();
 		return graphEdge;
@@ -1202,9 +1182,9 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Diagram createDiagram() {
-		DiagramImpl diagram = new DiagramImpl();
-		return diagram;
+	public Dimension createDimension() {
+		DimensionImpl dimension = new DimensionImpl();
+		return dimension;
 	}
 
 	/**
@@ -1212,9 +1192,9 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public GraphNode createGraphNode() {
-		GraphNodeImpl graphNode = new GraphNodeImpl();
-		return graphNode;
+	public ProcessComponentInterface createProcessComponentInterface() {
+		ProcessComponentInterfaceImpl processComponentInterface = new ProcessComponentInterfaceImpl();
+		return processComponentInterface;
 	}
 
 	/**
@@ -1292,13 +1272,9 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public WorkOrderType createWorkOrderTypeFromString(EDataType eDataType,
-			String initialValue) {
-		WorkOrderType result = WorkOrderType.get(initialValue);
-		if (result == null)
-			throw new IllegalArgumentException(
-					"The value '" + initialValue + "' is not a valid enumerator of '" + eDataType.getName() + "'"); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-		return result;
+	public ProcessFamily createProcessFamily() {
+		ProcessFamilyImpl processFamily = new ProcessFamilyImpl();
+		return processFamily;
 	}
 
 	/**
@@ -1306,9 +1282,9 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String convertWorkOrderTypeToString(EDataType eDataType,
-			Object instanceValue) {
-		return instanceValue == null ? null : instanceValue.toString();
+	public MethodLibrary createMethodLibrary() {
+		MethodLibraryImpl methodLibrary = new MethodLibraryImpl();
+		return methodLibrary;
 	}
 
 	/**
@@ -1316,8 +1292,7 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public VariabilityType createVariabilityTypeFromString(EDataType eDataType,
-			String initialValue) {
+	public VariabilityType createVariabilityTypeFromString(EDataType eDataType, String initialValue) {
 		VariabilityType result = VariabilityType.get(initialValue);
 		if (result == null)
 			throw new IllegalArgumentException(
@@ -1330,9 +1305,66 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String convertVariabilityTypeToString(EDataType eDataType,
-			Object instanceValue) {
+	public String convertVariabilityTypeToString(EDataType eDataType, Object instanceValue) {
 		return instanceValue == null ? null : instanceValue.toString();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public WorkOrderType createWorkOrderTypeFromString(EDataType eDataType, String initialValue) {
+		WorkOrderType result = WorkOrderType.get(initialValue);
+		if (result == null)
+			throw new IllegalArgumentException(
+					"The value '" + initialValue + "' is not a valid enumerator of '" + eDataType.getName() + "'"); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
+		return result;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public String convertWorkOrderTypeToString(EDataType eDataType, Object instanceValue) {
+		return instanceValue == null ? null : instanceValue.toString();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public String createStringFromString(EDataType eDataType, String initialValue) {
+		return (String) super.createFromString(eDataType, initialValue);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public String convertStringToString(EDataType eDataType, Object instanceValue) {
+		return super.convertToString(eDataType, instanceValue);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Boolean createBooleanFromString(EDataType eDataType, String initialValue) {
+		return (Boolean) super.createFromString(eDataType, initialValue);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public String convertBooleanToString(EDataType eDataType, Object instanceValue) {
+		return super.convertToString(eDataType, instanceValue);
 	}
 
 	/**
@@ -1376,46 +1408,6 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String createStringFromString(EDataType eDataType,
-			String initialValue) {
-		return (String) super.createFromString(eDataType, initialValue);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String convertStringToString(EDataType eDataType,
-			Object instanceValue) {
-		return super.convertToString(eDataType, instanceValue);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Boolean createBooleanFromString(EDataType eDataType,
-			String initialValue) {
-		return (Boolean) super.createFromString(eDataType, initialValue);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String convertBooleanToString(EDataType eDataType,
-			Object instanceValue) {
-		return super.convertToString(eDataType, instanceValue);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public Set createSetFromString(EDataType eDataType, String initialValue) {
 		return (Set) super.createFromString(eDataType, initialValue);
 	}
@@ -1434,8 +1426,7 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public List createSequenceFromString(EDataType eDataType,
-			String initialValue) {
+	public List createSequenceFromString(EDataType eDataType, String initialValue) {
 		return (List) super.createFromString(eDataType, initialValue);
 	}
 
@@ -1444,8 +1435,7 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String convertSequenceToString(EDataType eDataType,
-			Object instanceValue) {
+	public String convertSequenceToString(EDataType eDataType, Object instanceValue) {
 		return super.convertToString(eDataType, instanceValue);
 	}
 
@@ -1454,8 +1444,7 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Integer createIntegerFromString(EDataType eDataType,
-			String initialValue) {
+	public Integer createIntegerFromString(EDataType eDataType, String initialValue) {
 		return (Integer) super.createFromString(eDataType, initialValue);
 	}
 
@@ -1464,8 +1453,7 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String convertIntegerToString(EDataType eDataType,
-			Object instanceValue) {
+	public String convertIntegerToString(EDataType eDataType, Object instanceValue) {
 		return super.convertToString(eDataType, instanceValue);
 	}
 
@@ -1474,8 +1462,7 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Double createDoubleFromString(EDataType eDataType,
-			String initialValue) {
+	public Double createDoubleFromString(EDataType eDataType, String initialValue) {
 		return (Double) super.createFromString(eDataType, initialValue);
 	}
 
@@ -1484,8 +1471,7 @@ public class UmaFactoryImpl extends EFactoryImpl implements UmaFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String convertDoubleToString(EDataType eDataType,
-			Object instanceValue) {
+	public String convertDoubleToString(EDataType eDataType, Object instanceValue) {
 		return super.convertToString(eDataType, instanceValue);
 	}
 

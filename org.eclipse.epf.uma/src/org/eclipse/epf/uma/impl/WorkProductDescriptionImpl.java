@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.UmaPackage;
 import org.eclipse.epf.uma.WorkProductDescription;
 
@@ -32,8 +35,7 @@ import org.eclipse.epf.uma.WorkProductDescription;
  *
  * @generated
  */
-public class WorkProductDescriptionImpl extends ContentDescriptionImpl
-		implements WorkProductDescription {
+public class WorkProductDescriptionImpl extends ContentDescriptionImpl implements WorkProductDescription {
 	/**
 	 * The default value of the '{@link #getPurpose() <em>Purpose</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -42,7 +44,7 @@ public class WorkProductDescriptionImpl extends ContentDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String PURPOSE_EDEFAULT = "";
+	protected static final String PURPOSE_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getPurpose() <em>Purpose</em>}' attribute.
@@ -62,7 +64,7 @@ public class WorkProductDescriptionImpl extends ContentDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String IMPACT_OF_NOT_HAVING_EDEFAULT = "";
+	protected static final String IMPACT_OF_NOT_HAVING_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getImpactOfNotHaving() <em>Impact Of Not Having</em>}' attribute.
@@ -82,7 +84,7 @@ public class WorkProductDescriptionImpl extends ContentDescriptionImpl
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String REASONS_FOR_NOT_NEEDING_EDEFAULT = "";
+	protected static final String REASONS_FOR_NOT_NEEDING_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getReasonsForNotNeeding() <em>Reasons For Not Needing</em>}' attribute.
@@ -135,9 +137,8 @@ public class WorkProductDescriptionImpl extends ContentDescriptionImpl
 		String oldPurpose = purpose;
 		purpose = newPurpose;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.WORK_PRODUCT_DESCRIPTION__PURPOSE, oldPurpose,
-					purpose));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.WORK_PRODUCT_DESCRIPTION__PURPOSE,
+					oldPurpose, purpose));
 	}
 
 	/**
@@ -159,8 +160,8 @@ public class WorkProductDescriptionImpl extends ContentDescriptionImpl
 		impactOfNotHaving = newImpactOfNotHaving;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.WORK_PRODUCT_DESCRIPTION__IMPACT_OF_NOT_HAVING,
-					oldImpactOfNotHaving, impactOfNotHaving));
+					UmaPackage.WORK_PRODUCT_DESCRIPTION__IMPACT_OF_NOT_HAVING, oldImpactOfNotHaving,
+					impactOfNotHaving));
 	}
 
 	/**
@@ -181,11 +182,9 @@ public class WorkProductDescriptionImpl extends ContentDescriptionImpl
 		String oldReasonsForNotNeeding = reasonsForNotNeeding;
 		reasonsForNotNeeding = newReasonsForNotNeeding;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(
-					this,
-					Notification.SET,
-					UmaPackage.WORK_PRODUCT_DESCRIPTION__REASONS_FOR_NOT_NEEDING,
-					oldReasonsForNotNeeding, reasonsForNotNeeding));
+			eNotify(new ENotificationImpl(this, Notification.SET,
+					UmaPackage.WORK_PRODUCT_DESCRIPTION__REASONS_FOR_NOT_NEEDING, oldReasonsForNotNeeding,
+					reasonsForNotNeeding));
 	}
 
 	/**
@@ -263,15 +262,13 @@ public class WorkProductDescriptionImpl extends ContentDescriptionImpl
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.WORK_PRODUCT_DESCRIPTION__PURPOSE:
-			return PURPOSE_EDEFAULT == null ? purpose != null
-					: !PURPOSE_EDEFAULT.equals(purpose);
+			return PURPOSE_EDEFAULT == null ? purpose != null : !PURPOSE_EDEFAULT.equals(purpose);
 		case UmaPackage.WORK_PRODUCT_DESCRIPTION__IMPACT_OF_NOT_HAVING:
 			return IMPACT_OF_NOT_HAVING_EDEFAULT == null ? impactOfNotHaving != null
 					: !IMPACT_OF_NOT_HAVING_EDEFAULT.equals(impactOfNotHaving);
 		case UmaPackage.WORK_PRODUCT_DESCRIPTION__REASONS_FOR_NOT_NEEDING:
 			return REASONS_FOR_NOT_NEEDING_EDEFAULT == null ? reasonsForNotNeeding != null
-					: !REASONS_FOR_NOT_NEEDING_EDEFAULT
-							.equals(reasonsForNotNeeding);
+					: !REASONS_FOR_NOT_NEEDING_EDEFAULT.equals(reasonsForNotNeeding);
 		}
 		return super.eIsSet(featureID);
 	}

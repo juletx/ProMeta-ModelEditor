@@ -15,14 +15,19 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.Section;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -51,7 +56,7 @@ public class SectionImpl extends VariabilityElementImpl implements Section {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String SECTION_NAME_EDEFAULT = "";
+	protected static final String SECTION_NAME_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getSectionName() <em>Section Name</em>}' attribute.
@@ -71,7 +76,7 @@ public class SectionImpl extends VariabilityElementImpl implements Section {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String SECTION_DESCRIPTION_EDEFAULT = "";
+	protected static final String SECTION_DESCRIPTION_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getSectionDescription() <em>Section Description</em>}' attribute.
@@ -144,8 +149,7 @@ public class SectionImpl extends VariabilityElementImpl implements Section {
 		String oldSectionName = sectionName;
 		sectionName = newSectionName;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.SECTION__SECTION_NAME, oldSectionName,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.SECTION__SECTION_NAME, oldSectionName,
 					sectionName));
 	}
 
@@ -167,8 +171,7 @@ public class SectionImpl extends VariabilityElementImpl implements Section {
 		String oldSectionDescription = sectionDescription;
 		sectionDescription = newSectionDescription;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.SECTION__SECTION_DESCRIPTION,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.SECTION__SECTION_DESCRIPTION,
 					oldSectionDescription, sectionDescription));
 	}
 
@@ -179,8 +182,8 @@ public class SectionImpl extends VariabilityElementImpl implements Section {
 	 */
 	public List<Section> getSubSections() {
 		if (subSections == null) {
-			subSections = new EObjectContainmentEList.Resolving<Section>(
-					Section.class, this, UmaPackage.SECTION__SUB_SECTIONS);
+			subSections = new EObjectContainmentEList.Resolving<Section>(Section.class, this,
+					UmaPackage.SECTION__SUB_SECTIONS);
 		}
 		return subSections;
 	}
@@ -196,9 +199,8 @@ public class SectionImpl extends VariabilityElementImpl implements Section {
 			predecessor = (Section) eResolveProxy(oldPredecessor);
 			if (predecessor != oldPredecessor) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.SECTION__PREDECESSOR, oldPredecessor,
-							predecessor));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.SECTION__PREDECESSOR,
+							oldPredecessor, predecessor));
 			}
 		}
 		return predecessor;
@@ -222,8 +224,7 @@ public class SectionImpl extends VariabilityElementImpl implements Section {
 		Section oldPredecessor = predecessor;
 		predecessor = newPredecessor;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.SECTION__PREDECESSOR, oldPredecessor,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.SECTION__PREDECESSOR, oldPredecessor,
 					predecessor));
 	}
 
@@ -233,12 +234,10 @@ public class SectionImpl extends VariabilityElementImpl implements Section {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.SECTION__SUB_SECTIONS:
-			return ((InternalEList<?>) getSubSections()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getSubSections()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -330,8 +329,7 @@ public class SectionImpl extends VariabilityElementImpl implements Section {
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.SECTION__SECTION_NAME:
-			return SECTION_NAME_EDEFAULT == null ? sectionName != null
-					: !SECTION_NAME_EDEFAULT.equals(sectionName);
+			return SECTION_NAME_EDEFAULT == null ? sectionName != null : !SECTION_NAME_EDEFAULT.equals(sectionName);
 		case UmaPackage.SECTION__SECTION_DESCRIPTION:
 			return SECTION_DESCRIPTION_EDEFAULT == null ? sectionDescription != null
 					: !SECTION_DESCRIPTION_EDEFAULT.equals(sectionDescription);

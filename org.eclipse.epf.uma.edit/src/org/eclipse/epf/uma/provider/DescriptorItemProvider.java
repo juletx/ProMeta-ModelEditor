@@ -15,16 +15,12 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.Descriptor;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -34,9 +30,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class DescriptorItemProvider extends BreakdownElementItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class DescriptorItemProvider extends BreakdownElementItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -59,6 +53,8 @@ public class DescriptorItemProvider extends BreakdownElementItemProvider
 			super.getPropertyDescriptors(object);
 
 			addIsSynchronizedWithSourcePropertyDescriptor(object);
+			addGuidanceExcludePropertyDescriptor(object);
+			addGuidanceAdditionalPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -71,16 +67,42 @@ public class DescriptorItemProvider extends BreakdownElementItemProvider
 	 */
 	protected void addIsSynchronizedWithSourcePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Descriptor_isSynchronizedWithSource_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Descriptor_isSynchronizedWithSource_feature", "_UI_Descriptor_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DESCRIPTOR__IS_SYNCHRONIZED_WITH_SOURCE,
-						true, false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Descriptor_isSynchronizedWithSource_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", //$NON-NLS-1$
+								"_UI_Descriptor_isSynchronizedWithSource_feature", "_UI_Descriptor_type"), //$NON-NLS-1$ //$NON-NLS-2$
+						UmaPackage.Literals.DESCRIPTOR__IS_SYNCHRONIZED_WITH_SOURCE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Guidance Exclude feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addGuidanceExcludePropertyDescriptor(Object object) {
+		itemPropertyDescriptors
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Descriptor_guidanceExclude_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Descriptor_guidanceExclude_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Descriptor_type"), //$NON-NLS-1$
+						UmaPackage.Literals.DESCRIPTOR__GUIDANCE_EXCLUDE, true, false, true, null, null, null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Guidance Additional feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addGuidanceAdditionalPropertyDescriptor(Object object) {
+		itemPropertyDescriptors
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Descriptor_guidanceAdditional_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Descriptor_guidanceAdditional_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Descriptor_type"), //$NON-NLS-1$
+						UmaPackage.Literals.DESCRIPTOR__GUIDANCE_ADDITIONAL, true, false, true, null, null, null));
 	}
 
 	/**
@@ -109,8 +131,7 @@ public class DescriptorItemProvider extends BreakdownElementItemProvider
 
 		switch (notification.getFeatureID(Descriptor.class)) {
 		case UmaPackage.DESCRIPTOR__IS_SYNCHRONIZED_WITH_SOURCE:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), false, true));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -124,20 +145,8 @@ public class DescriptorItemProvider extends BreakdownElementItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

@@ -15,16 +15,13 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.Domain;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -35,9 +32,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class DomainItemProvider extends ContentCategoryItemProvider implements
-		IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class DomainItemProvider extends ContentCategoryItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -72,15 +67,11 @@ public class DomainItemProvider extends ContentCategoryItemProvider implements
 	 */
 	protected void addWorkProductsPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_Domain_workProducts_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_Domain_workProducts_feature", "_UI_Domain_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.DOMAIN__WORK_PRODUCTS, true, false,
-						true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Domain_workProducts_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_Domain_workProducts_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_Domain_type"), //$NON-NLS-1$
+						UmaPackage.Literals.DOMAIN__WORK_PRODUCTS, true, false, true, null, null, null));
 	}
 
 	/**
@@ -92,8 +83,7 @@ public class DomainItemProvider extends ContentCategoryItemProvider implements
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
 			childrenFeatures.add(UmaPackage.Literals.DOMAIN__SUBDOMAINS);
@@ -122,8 +112,7 @@ public class DomainItemProvider extends ContentCategoryItemProvider implements
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/Domain")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/Domain")); //$NON-NLS-1$
 	}
 
 	/**
@@ -152,8 +141,7 @@ public class DomainItemProvider extends ContentCategoryItemProvider implements
 
 		switch (notification.getFeatureID(Domain.class)) {
 		case UmaPackage.DOMAIN__SUBDOMAINS:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -167,24 +155,11 @@ public class DomainItemProvider extends ContentCategoryItemProvider implements
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.DOMAIN__SUBDOMAINS, UmaFactory.eINSTANCE
-						.createDomain()));
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
+		newChildDescriptors
+				.add(createChildParameter(UmaPackage.Literals.DOMAIN__SUBDOMAINS, UmaFactory.eINSTANCE.createDomain()));
 	}
 
 }

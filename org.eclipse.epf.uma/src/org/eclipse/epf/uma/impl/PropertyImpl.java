@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.Property;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -40,7 +43,7 @@ public class PropertyImpl extends DiagramElementImpl implements Property {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String KEY_EDEFAULT = "";
+	protected static final String KEY_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getKey() <em>Key</em>}' attribute.
@@ -60,7 +63,7 @@ public class PropertyImpl extends DiagramElementImpl implements Property {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String VALUE_EDEFAULT = "";
+	protected static final String VALUE_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getValue() <em>Value</em>}' attribute.
@@ -113,8 +116,7 @@ public class PropertyImpl extends DiagramElementImpl implements Property {
 		String oldKey = key;
 		key = newKey;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PROPERTY__KEY, oldKey, key));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PROPERTY__KEY, oldKey, key));
 	}
 
 	/**
@@ -135,8 +137,7 @@ public class PropertyImpl extends DiagramElementImpl implements Property {
 		String oldValue = value;
 		value = newValue;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.PROPERTY__VALUE, oldValue, value));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.PROPERTY__VALUE, oldValue, value));
 	}
 
 	/**
@@ -206,11 +207,9 @@ public class PropertyImpl extends DiagramElementImpl implements Property {
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.PROPERTY__KEY:
-			return KEY_EDEFAULT == null ? key != null : !KEY_EDEFAULT
-					.equals(key);
+			return KEY_EDEFAULT == null ? key != null : !KEY_EDEFAULT.equals(key);
 		case UmaPackage.PROPERTY__VALUE:
-			return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT
-					.equals(value);
+			return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
 		}
 		return super.eIsSet(featureID);
 	}

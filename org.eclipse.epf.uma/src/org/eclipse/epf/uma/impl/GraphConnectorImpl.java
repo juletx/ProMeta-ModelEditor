@@ -15,15 +15,20 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList;
 import org.eclipse.emf.ecore.util.EcoreUtil;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.GraphConnector;
 import org.eclipse.epf.uma.GraphEdge;
 import org.eclipse.epf.uma.GraphElement;
@@ -43,8 +48,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class GraphConnectorImpl extends GraphElementImpl implements
-		GraphConnector {
+public class GraphConnectorImpl extends GraphElementImpl implements GraphConnector {
 	/**
 	 * The cached value of the '{@link #getGraphEdge() <em>Graph Edge</em>}' reference list.
 	 * <!-- begin-user-doc -->
@@ -83,6 +87,19 @@ public class GraphConnectorImpl extends GraphElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public List<GraphEdge> getGraphEdge() {
+		if (graphEdge == null) {
+			graphEdge = new EObjectWithInverseResolvingEList.ManyInverse<GraphEdge>(GraphEdge.class, this,
+					UmaPackage.GRAPH_CONNECTOR__GRAPH_EDGE, UmaPackage.GRAPH_EDGE__ANCHOR);
+		}
+		return graphEdge;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public GraphElement getGraphElement() {
 		if (eContainerFeatureID != UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT)
 			return null;
@@ -105,10 +122,8 @@ public class GraphConnectorImpl extends GraphElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetGraphElement(GraphElement newGraphElement,
-			NotificationChain msgs) {
-		msgs = eBasicSetContainer((InternalEObject) newGraphElement,
-				UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT, msgs);
+	public NotificationChain basicSetGraphElement(GraphElement newGraphElement, NotificationChain msgs) {
+		msgs = eBasicSetContainer((InternalEObject) newGraphElement, UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT, msgs);
 		return msgs;
 	}
 
@@ -121,37 +136,19 @@ public class GraphConnectorImpl extends GraphElementImpl implements
 		if (newGraphElement != eInternalContainer()
 				|| (eContainerFeatureID != UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT && newGraphElement != null)) {
 			if (EcoreUtil.isAncestor(this, (EObject) newGraphElement))
-				throw new IllegalArgumentException(
-						"Recursive containment not allowed for " + toString()); //$NON-NLS-1$
+				throw new IllegalArgumentException("Recursive containment not allowed for " + toString()); //$NON-NLS-1$
 			NotificationChain msgs = null;
 			if (eInternalContainer() != null)
 				msgs = eBasicRemoveFromContainer(msgs);
 			if (newGraphElement != null)
-				msgs = ((InternalEObject) newGraphElement).eInverseAdd(this,
-						UmaPackage.GRAPH_ELEMENT__ANCHORAGE,
+				msgs = ((InternalEObject) newGraphElement).eInverseAdd(this, UmaPackage.GRAPH_ELEMENT__ANCHORAGE,
 						GraphElement.class, msgs);
 			msgs = basicSetGraphElement(newGraphElement, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT, newGraphElement,
-					newGraphElement));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public List<GraphEdge> getGraphEdge() {
-		if (graphEdge == null) {
-			graphEdge = new EObjectWithInverseResolvingEList.ManyInverse<GraphEdge>(
-					GraphEdge.class, this,
-					UmaPackage.GRAPH_CONNECTOR__GRAPH_EDGE,
-					UmaPackage.GRAPH_EDGE__ANCHOR);
-		}
-		return graphEdge;
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT,
+					newGraphElement, newGraphElement));
 	}
 
 	/**
@@ -161,12 +158,10 @@ public class GraphConnectorImpl extends GraphElementImpl implements
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public NotificationChain eInverseAdd(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.GRAPH_CONNECTOR__GRAPH_EDGE:
-			return ((InternalEList<InternalEObject>) (InternalEList<?>) getGraphEdge())
-					.basicAdd(otherEnd, msgs);
+			return ((InternalEList<InternalEObject>) (InternalEList<?>) getGraphEdge()).basicAdd(otherEnd, msgs);
 		case UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT:
 			if (eInternalContainer() != null)
 				msgs = eBasicRemoveFromContainer(msgs);
@@ -181,12 +176,10 @@ public class GraphConnectorImpl extends GraphElementImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.GRAPH_CONNECTOR__GRAPH_EDGE:
-			return ((InternalEList<?>) getGraphEdge()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getGraphEdge()).basicRemove(otherEnd, msgs);
 		case UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT:
 			return basicSetGraphElement(null, msgs);
 		}
@@ -199,12 +192,10 @@ public class GraphConnectorImpl extends GraphElementImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eBasicRemoveFromContainerFeature(
-			NotificationChain msgs) {
+	public NotificationChain eBasicRemoveFromContainerFeature(NotificationChain msgs) {
 		switch (eContainerFeatureID) {
 		case UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT:
-			return eInternalContainer().eInverseRemove(this,
-					UmaPackage.GRAPH_ELEMENT__ANCHORAGE, GraphElement.class,
+			return eInternalContainer().eInverseRemove(this, UmaPackage.GRAPH_ELEMENT__ANCHORAGE, GraphElement.class,
 					msgs);
 		}
 		return super.eBasicRemoveFromContainerFeature(msgs);

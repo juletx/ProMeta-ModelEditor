@@ -11,6 +11,7 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.ecore.EClass;
+
 import org.eclipse.epf.uma.EstimationConsiderations;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -23,8 +24,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class EstimationConsiderationsImpl extends GuidanceImpl implements
-		EstimationConsiderations {
+public class EstimationConsiderationsImpl extends GuidanceImpl implements EstimationConsiderations {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

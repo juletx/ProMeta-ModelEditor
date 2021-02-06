@@ -15,15 +15,12 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
+
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.Step;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -34,9 +31,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class StepItemProvider extends SectionItemProvider implements
-		IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class StepItemProvider extends SectionItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -71,14 +66,11 @@ public class StepItemProvider extends SectionItemProvider implements
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures
-					.add(UmaPackage.Literals.WORK_DEFINITION__PRECONDITION);
-			childrenFeatures
-					.add(UmaPackage.Literals.WORK_DEFINITION__POSTCONDITION);
+			childrenFeatures.add(UmaPackage.Literals.WORK_DEFINITION__PRECONDITION);
+			childrenFeatures.add(UmaPackage.Literals.WORK_DEFINITION__POSTCONDITION);
 		}
 		return childrenFeatures;
 	}
@@ -104,8 +96,7 @@ public class StepItemProvider extends SectionItemProvider implements
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/Step")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/Step")); //$NON-NLS-1$
 	}
 
 	/**
@@ -135,8 +126,7 @@ public class StepItemProvider extends SectionItemProvider implements
 		switch (notification.getFeatureID(Step.class)) {
 		case UmaPackage.STEP__PRECONDITION:
 		case UmaPackage.STEP__POSTCONDITION:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -150,16 +140,13 @@ public class StepItemProvider extends SectionItemProvider implements
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.WORK_DEFINITION__PRECONDITION,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.WORK_DEFINITION__PRECONDITION,
 				UmaFactory.eINSTANCE.createConstraint()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.WORK_DEFINITION__POSTCONDITION,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.WORK_DEFINITION__POSTCONDITION,
 				UmaFactory.eINSTANCE.createConstraint()));
 	}
 
@@ -170,8 +157,7 @@ public class StepItemProvider extends SectionItemProvider implements
 	 * @generated
 	 */
 	@Override
-	public String getCreateChildText(Object owner, Object feature,
-			Object child, Collection<?> selection) {
+	public String getCreateChildText(Object owner, Object feature, Object child, Collection<?> selection) {
 		Object childFeature = feature;
 		Object childObject = child;
 
@@ -181,21 +167,9 @@ public class StepItemProvider extends SectionItemProvider implements
 
 		if (qualify) {
 			return getString("_UI_CreateChild_text2", //$NON-NLS-1$
-					new Object[] { getTypeText(childObject),
-							getFeatureText(childFeature), getTypeText(owner) });
+					new Object[] { getTypeText(childObject), getFeatureText(childFeature), getTypeText(owner) });
 		}
 		return super.getCreateChildText(owner, feature, child, selection);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

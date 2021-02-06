@@ -34,8 +34,7 @@ import java.util.List;
  * @model abstract="true"
  * @generated
  */
-public interface MethodPackage extends MethodElement,
-		org.eclipse.epf.uma.Package {
+public interface MethodPackage extends MethodElement, org.eclipse.epf.uma.Package {
 	/**
 	 * Returns the value of the '<em><b>Global</b></em>' attribute.
 	 * The default value is <code>"false"</code>.
@@ -93,7 +92,5 @@ public interface MethodPackage extends MethodElement,
 	 * @generated
 	 */
 	List<MethodPackage> getChildPackages();
-
-	MethodPackage getParentPackage();
 
 } // MethodPackage

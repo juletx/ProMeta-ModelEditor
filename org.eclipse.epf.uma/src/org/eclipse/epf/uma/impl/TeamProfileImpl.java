@@ -15,15 +15,20 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 import org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.RoleDescriptor;
 import org.eclipse.epf.uma.TeamProfile;
 import org.eclipse.epf.uma.UmaPackage;
@@ -43,8 +48,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class TeamProfileImpl extends BreakdownElementImpl implements
-		TeamProfile {
+public class TeamProfileImpl extends BreakdownElementImpl implements TeamProfile {
 	/**
 	 * The cached value of the '{@link #getTeamRoles() <em>Team Roles</em>}' reference list.
 	 * <!-- begin-user-doc -->
@@ -105,8 +109,7 @@ public class TeamProfileImpl extends BreakdownElementImpl implements
 	 */
 	public List<RoleDescriptor> getTeamRoles() {
 		if (teamRoles == null) {
-			teamRoles = new EObjectResolvingEList<RoleDescriptor>(
-					RoleDescriptor.class, this,
+			teamRoles = new EObjectResolvingEList<RoleDescriptor>(RoleDescriptor.class, this,
 					UmaPackage.TEAM_PROFILE__TEAM_ROLES);
 		}
 		return teamRoles;
@@ -123,9 +126,8 @@ public class TeamProfileImpl extends BreakdownElementImpl implements
 			superTeam = (TeamProfile) eResolveProxy(oldSuperTeam);
 			if (superTeam != oldSuperTeam) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							UmaPackage.TEAM_PROFILE__SUPER_TEAM, oldSuperTeam,
-							superTeam));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.TEAM_PROFILE__SUPER_TEAM,
+							oldSuperTeam, superTeam));
 			}
 		}
 		return superTeam;
@@ -145,14 +147,12 @@ public class TeamProfileImpl extends BreakdownElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetSuperTeam(TeamProfile newSuperTeam,
-			NotificationChain msgs) {
+	public NotificationChain basicSetSuperTeam(TeamProfile newSuperTeam, NotificationChain msgs) {
 		TeamProfile oldSuperTeam = superTeam;
 		superTeam = newSuperTeam;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this,
-					Notification.SET, UmaPackage.TEAM_PROFILE__SUPER_TEAM,
-					oldSuperTeam, newSuperTeam);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
+					UmaPackage.TEAM_PROFILE__SUPER_TEAM, oldSuperTeam, newSuperTeam);
 			if (msgs == null)
 				msgs = notification;
 			else
@@ -170,19 +170,16 @@ public class TeamProfileImpl extends BreakdownElementImpl implements
 		if (newSuperTeam != superTeam) {
 			NotificationChain msgs = null;
 			if (superTeam != null)
-				msgs = ((InternalEObject) superTeam).eInverseRemove(this,
-						UmaPackage.TEAM_PROFILE__SUB_TEAM, TeamProfile.class,
-						msgs);
+				msgs = ((InternalEObject) superTeam).eInverseRemove(this, UmaPackage.TEAM_PROFILE__SUB_TEAM,
+						TeamProfile.class, msgs);
 			if (newSuperTeam != null)
-				msgs = ((InternalEObject) newSuperTeam).eInverseAdd(this,
-						UmaPackage.TEAM_PROFILE__SUB_TEAM, TeamProfile.class,
-						msgs);
+				msgs = ((InternalEObject) newSuperTeam).eInverseAdd(this, UmaPackage.TEAM_PROFILE__SUB_TEAM,
+						TeamProfile.class, msgs);
 			msgs = basicSetSuperTeam(newSuperTeam, msgs);
 			if (msgs != null)
 				msgs.dispatch();
 		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.TEAM_PROFILE__SUPER_TEAM, newSuperTeam,
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.TEAM_PROFILE__SUPER_TEAM, newSuperTeam,
 					newSuperTeam));
 	}
 
@@ -193,9 +190,8 @@ public class TeamProfileImpl extends BreakdownElementImpl implements
 	 */
 	public List<TeamProfile> getSubTeam() {
 		if (subTeam == null) {
-			subTeam = new EObjectWithInverseResolvingEList<TeamProfile>(
-					TeamProfile.class, this, UmaPackage.TEAM_PROFILE__SUB_TEAM,
-					UmaPackage.TEAM_PROFILE__SUPER_TEAM);
+			subTeam = new EObjectWithInverseResolvingEList<TeamProfile>(TeamProfile.class, this,
+					UmaPackage.TEAM_PROFILE__SUB_TEAM, UmaPackage.TEAM_PROFILE__SUPER_TEAM);
 		}
 		return subTeam;
 	}
@@ -207,18 +203,15 @@ public class TeamProfileImpl extends BreakdownElementImpl implements
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public NotificationChain eInverseAdd(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.TEAM_PROFILE__SUPER_TEAM:
 			if (superTeam != null)
-				msgs = ((InternalEObject) superTeam).eInverseRemove(this,
-						UmaPackage.TEAM_PROFILE__SUB_TEAM, TeamProfile.class,
-						msgs);
+				msgs = ((InternalEObject) superTeam).eInverseRemove(this, UmaPackage.TEAM_PROFILE__SUB_TEAM,
+						TeamProfile.class, msgs);
 			return basicSetSuperTeam((TeamProfile) otherEnd, msgs);
 		case UmaPackage.TEAM_PROFILE__SUB_TEAM:
-			return ((InternalEList<InternalEObject>) (InternalEList<?>) getSubTeam())
-					.basicAdd(otherEnd, msgs);
+			return ((InternalEList<InternalEObject>) (InternalEList<?>) getSubTeam()).basicAdd(otherEnd, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -229,14 +222,12 @@ public class TeamProfileImpl extends BreakdownElementImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.TEAM_PROFILE__SUPER_TEAM:
 			return basicSetSuperTeam(null, msgs);
 		case UmaPackage.TEAM_PROFILE__SUB_TEAM:
-			return ((InternalEList<?>) getSubTeam())
-					.basicRemove(otherEnd, msgs);
+			return ((InternalEList<?>) getSubTeam()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -272,8 +263,7 @@ public class TeamProfileImpl extends BreakdownElementImpl implements
 		switch (featureID) {
 		case UmaPackage.TEAM_PROFILE__TEAM_ROLES:
 			getTeamRoles().clear();
-			getTeamRoles().addAll(
-					(Collection<? extends RoleDescriptor>) newValue);
+			getTeamRoles().addAll((Collection<? extends RoleDescriptor>) newValue);
 			return;
 		case UmaPackage.TEAM_PROFILE__SUPER_TEAM:
 			setSuperTeam((TeamProfile) newValue);

@@ -15,16 +15,12 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.TaskDescription;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -34,9 +30,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class TaskDescriptionItemProvider extends ContentDescriptionItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class TaskDescriptionItemProvider extends ContentDescriptionItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -72,15 +66,11 @@ public class TaskDescriptionItemProvider extends ContentDescriptionItemProvider
 	 */
 	protected void addPurposePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_TaskDescription_purpose_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_TaskDescription_purpose_feature", "_UI_TaskDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.TASK_DESCRIPTION__PURPOSE, true,
-						false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_TaskDescription_purpose_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_TaskDescription_purpose_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_TaskDescription_type"), //$NON-NLS-1$
+						UmaPackage.Literals.TASK_DESCRIPTION__PURPOSE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -92,15 +82,11 @@ public class TaskDescriptionItemProvider extends ContentDescriptionItemProvider
 	 */
 	protected void addAlternativesPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_TaskDescription_alternatives_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_TaskDescription_alternatives_feature", "_UI_TaskDescription_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.TASK_DESCRIPTION__ALTERNATIVES,
-						true, false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_TaskDescription_alternatives_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_TaskDescription_alternatives_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_TaskDescription_type"), //$NON-NLS-1$
+						UmaPackage.Literals.TASK_DESCRIPTION__ALTERNATIVES, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -112,8 +98,7 @@ public class TaskDescriptionItemProvider extends ContentDescriptionItemProvider
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/TaskDescription")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/TaskDescription")); //$NON-NLS-1$
 	}
 
 	/**
@@ -143,8 +128,7 @@ public class TaskDescriptionItemProvider extends ContentDescriptionItemProvider
 		switch (notification.getFeatureID(TaskDescription.class)) {
 		case UmaPackage.TASK_DESCRIPTION__PURPOSE:
 		case UmaPackage.TASK_DESCRIPTION__ALTERNATIVES:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), false, true));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -158,20 +142,8 @@ public class TaskDescriptionItemProvider extends ContentDescriptionItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

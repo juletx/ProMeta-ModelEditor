@@ -31,6 +31,22 @@ import java.util.List;
  */
 public interface GraphEdge extends GraphElement {
 	/**
+	 * Returns the value of the '<em><b>Waypoints</b></em>' containment reference list.
+	 * The list contents are of type {@link org.eclipse.epf.uma.Point}.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Waypoints</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Waypoints</em>' containment reference list.
+	 * @see org.eclipse.epf.uma.UmaPackage#getGraphEdge_Waypoints()
+	 * @model containment="true" resolveProxies="true" lower="2" ordered="false"
+	 * @generated
+	 */
+	List<Point> getWaypoints();
+
+	/**
 	 * Returns the value of the '<em><b>Anchor</b></em>' reference list.
 	 * The list contents are of type {@link org.eclipse.epf.uma.GraphConnector}.
 	 * It is bidirectional and its opposite is '{@link org.eclipse.epf.uma.GraphConnector#getGraphEdge <em>Graph Edge</em>}'.
@@ -47,21 +63,5 @@ public interface GraphEdge extends GraphElement {
 	 * @generated
 	 */
 	List<GraphConnector> getAnchor();
-
-	/**
-	 * Returns the value of the '<em><b>Waypoints</b></em>' containment reference list.
-	 * The list contents are of type {@link org.eclipse.epf.uma.Point}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Waypoints</em>' containment reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Waypoints</em>' containment reference list.
-	 * @see org.eclipse.epf.uma.UmaPackage#getGraphEdge_Waypoints()
-	 * @model containment="true" resolveProxies="true" lower="2" ordered="false"
-	 * @generated
-	 */
-	List<Point> getWaypoints();
 
 } // GraphEdge

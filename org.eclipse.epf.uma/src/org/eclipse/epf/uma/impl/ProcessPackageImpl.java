@@ -14,12 +14,16 @@ import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import org.eclipse.epf.uma.Diagram;
 import org.eclipse.epf.uma.ProcessElement;
 import org.eclipse.epf.uma.ProcessPackage;
@@ -39,8 +43,7 @@ import org.eclipse.epf.uma.UmaPackage;
  *
  * @generated
  */
-public class ProcessPackageImpl extends MethodPackageImpl implements
-		ProcessPackage {
+public class ProcessPackageImpl extends MethodPackageImpl implements ProcessPackage {
 	/**
 	 * The cached value of the '{@link #getProcessElements() <em>Process Elements</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
@@ -91,8 +94,7 @@ public class ProcessPackageImpl extends MethodPackageImpl implements
 	 */
 	public List<ProcessElement> getProcessElements() {
 		if (processElements == null) {
-			processElements = new EObjectContainmentEList.Resolving<ProcessElement>(
-					ProcessElement.class, this,
+			processElements = new EObjectContainmentEList.Resolving<ProcessElement>(ProcessElement.class, this,
 					UmaPackage.PROCESS_PACKAGE__PROCESS_ELEMENTS);
 		}
 		return processElements;
@@ -105,8 +107,8 @@ public class ProcessPackageImpl extends MethodPackageImpl implements
 	 */
 	public List<Diagram> getDiagrams() {
 		if (diagrams == null) {
-			diagrams = new EObjectContainmentEList.Resolving<Diagram>(
-					Diagram.class, this, UmaPackage.PROCESS_PACKAGE__DIAGRAMS);
+			diagrams = new EObjectContainmentEList.Resolving<Diagram>(Diagram.class, this,
+					UmaPackage.PROCESS_PACKAGE__DIAGRAMS);
 		}
 		return diagrams;
 	}
@@ -117,15 +119,12 @@ public class ProcessPackageImpl extends MethodPackageImpl implements
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd,
-			int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case UmaPackage.PROCESS_PACKAGE__PROCESS_ELEMENTS:
-			return ((InternalEList<?>) getProcessElements()).basicRemove(
-					otherEnd, msgs);
+			return ((InternalEList<?>) getProcessElements()).basicRemove(otherEnd, msgs);
 		case UmaPackage.PROCESS_PACKAGE__DIAGRAMS:
-			return ((InternalEList<?>) getDiagrams()).basicRemove(otherEnd,
-					msgs);
+			return ((InternalEList<?>) getDiagrams()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -157,8 +156,7 @@ public class ProcessPackageImpl extends MethodPackageImpl implements
 		switch (featureID) {
 		case UmaPackage.PROCESS_PACKAGE__PROCESS_ELEMENTS:
 			getProcessElements().clear();
-			getProcessElements().addAll(
-					(Collection<? extends ProcessElement>) newValue);
+			getProcessElements().addAll((Collection<? extends ProcessElement>) newValue);
 			return;
 		case UmaPackage.PROCESS_PACKAGE__DIAGRAMS:
 			getDiagrams().clear();

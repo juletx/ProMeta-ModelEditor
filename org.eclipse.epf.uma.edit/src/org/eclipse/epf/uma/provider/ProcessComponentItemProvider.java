@@ -15,17 +15,14 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.util.ResourceLocator;
+
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
-import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
-import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.IItemPropertySource;
-import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
-import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
+
 import org.eclipse.epf.uma.ProcessComponent;
 import org.eclipse.epf.uma.UmaFactory;
 import org.eclipse.epf.uma.UmaPackage;
@@ -36,9 +33,7 @@ import org.eclipse.epf.uma.UmaPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class ProcessComponentItemProvider extends ProcessPackageItemProvider
-		implements IEditingDomainItemProvider, IStructuredItemContentProvider,
-		ITreeItemContentProvider, IItemLabelProvider, IItemPropertySource {
+public class ProcessComponentItemProvider extends ProcessPackageItemProvider {
 	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
@@ -78,16 +73,12 @@ public class ProcessComponentItemProvider extends ProcessPackageItemProvider
 	 */
 	protected void addAuthorsPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_MethodUnit_authors_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_MethodUnit_authors_feature", "_UI_MethodUnit_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.METHOD_UNIT__AUTHORS, true, false,
-						false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-						null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_MethodUnit_authors_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_MethodUnit_authors_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_MethodUnit_type"), //$NON-NLS-1$
+						UmaPackage.Literals.METHOD_UNIT__AUTHORS, true, false, false,
+						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -98,15 +89,11 @@ public class ProcessComponentItemProvider extends ProcessPackageItemProvider
 	 */
 	protected void addChangeDatePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_MethodUnit_changeDate_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_MethodUnit_changeDate_feature", "_UI_MethodUnit_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.METHOD_UNIT__CHANGE_DATE, true,
-						false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_MethodUnit_changeDate_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_MethodUnit_changeDate_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_MethodUnit_type"), //$NON-NLS-1$
+						UmaPackage.Literals.METHOD_UNIT__CHANGE_DATE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -118,15 +105,11 @@ public class ProcessComponentItemProvider extends ProcessPackageItemProvider
 	 */
 	protected void addChangeDescriptionPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_MethodUnit_changeDescription_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_MethodUnit_changeDescription_feature", "_UI_MethodUnit_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.METHOD_UNIT__CHANGE_DESCRIPTION,
-						true, false, false,
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_MethodUnit_changeDescription_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_MethodUnit_changeDescription_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_MethodUnit_type"), //$NON-NLS-1$
+						UmaPackage.Literals.METHOD_UNIT__CHANGE_DESCRIPTION, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
@@ -138,16 +121,12 @@ public class ProcessComponentItemProvider extends ProcessPackageItemProvider
 	 */
 	protected void addVersionPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_MethodUnit_version_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_MethodUnit_version_feature", "_UI_MethodUnit_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.METHOD_UNIT__VERSION, true, false,
-						false, ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-						null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_MethodUnit_version_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_MethodUnit_version_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_MethodUnit_type"), //$NON-NLS-1$
+						UmaPackage.Literals.METHOD_UNIT__VERSION, true, false, false,
+						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -158,15 +137,11 @@ public class ProcessComponentItemProvider extends ProcessPackageItemProvider
 	 */
 	protected void addCopyrightStatementPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_MethodUnit_copyrightStatement_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_MethodUnit_copyrightStatement_feature", "_UI_MethodUnit_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.METHOD_UNIT__COPYRIGHT_STATEMENT,
-						true, false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_MethodUnit_copyrightStatement_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_MethodUnit_copyrightStatement_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_MethodUnit_type"), //$NON-NLS-1$
+						UmaPackage.Literals.METHOD_UNIT__COPYRIGHT_STATEMENT, true, false, true, null, null, null));
 	}
 
 	/**
@@ -177,15 +152,11 @@ public class ProcessComponentItemProvider extends ProcessPackageItemProvider
 	 */
 	protected void addInterfacesPropertyDescriptor(Object object) {
 		itemPropertyDescriptors
-				.add(createItemPropertyDescriptor(
-						((ComposeableAdapterFactory) adapterFactory)
-								.getRootAdapterFactory(),
-						getResourceLocator(),
-						getString("_UI_ProcessComponent_interfaces_feature"), //$NON-NLS-1$
-						getString(
-								"_UI_PropertyDescriptor_description", "_UI_ProcessComponent_interfaces_feature", "_UI_ProcessComponent_type"), //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-						UmaPackage.Literals.PROCESS_COMPONENT__INTERFACES,
-						true, false, true, null, null, null));
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_ProcessComponent_interfaces_feature"), //$NON-NLS-1$
+						getString("_UI_PropertyDescriptor_description", "_UI_ProcessComponent_interfaces_feature", //$NON-NLS-1$//$NON-NLS-2$
+								"_UI_ProcessComponent_type"), //$NON-NLS-1$
+						UmaPackage.Literals.PROCESS_COMPONENT__INTERFACES, true, false, true, null, null, null));
 	}
 
 	/**
@@ -197,12 +168,10 @@ public class ProcessComponentItemProvider extends ProcessPackageItemProvider
 	 * @generated
 	 */
 	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(
-			Object object) {
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures
-					.add(UmaPackage.Literals.PROCESS_COMPONENT__PROCESS);
+			childrenFeatures.add(UmaPackage.Literals.PROCESS_COMPONENT__PROCESS);
 		}
 		return childrenFeatures;
 	}
@@ -228,8 +197,7 @@ public class ProcessComponentItemProvider extends ProcessPackageItemProvider
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/ProcessComponent")); //$NON-NLS-1$
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/ProcessComponent")); //$NON-NLS-1$
 	}
 
 	/**
@@ -261,12 +229,10 @@ public class ProcessComponentItemProvider extends ProcessPackageItemProvider
 		case UmaPackage.PROCESS_COMPONENT__CHANGE_DATE:
 		case UmaPackage.PROCESS_COMPONENT__CHANGE_DESCRIPTION:
 		case UmaPackage.PROCESS_COMPONENT__VERSION:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), false, true));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 			return;
 		case UmaPackage.PROCESS_COMPONENT__PROCESS:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
 		super.notifyChanged(notification);
@@ -280,20 +246,16 @@ public class ProcessComponentItemProvider extends ProcessPackageItemProvider
 	 * @generated
 	 */
 	@Override
-	protected void collectNewChildDescriptors(
-			Collection<Object> newChildDescriptors, Object object) {
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_COMPONENT__PROCESS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_COMPONENT__PROCESS,
 				UmaFactory.eINSTANCE.createDeliveryProcess()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_COMPONENT__PROCESS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_COMPONENT__PROCESS,
 				UmaFactory.eINSTANCE.createCapabilityPattern()));
 
-		newChildDescriptors.add(createChildParameter(
-				UmaPackage.Literals.PROCESS_COMPONENT__PROCESS,
+		newChildDescriptors.add(createChildParameter(UmaPackage.Literals.PROCESS_COMPONENT__PROCESS,
 				UmaFactory.eINSTANCE.createProcessPlanningTemplate()));
 	}
 
@@ -304,8 +266,7 @@ public class ProcessComponentItemProvider extends ProcessPackageItemProvider
 	 * @generated
 	 */
 	@Override
-	public String getCreateChildText(Object owner, Object feature,
-			Object child, Collection<?> selection) {
+	public String getCreateChildText(Object owner, Object feature, Object child, Collection<?> selection) {
 		Object childFeature = feature;
 		Object childObject = child;
 
@@ -314,21 +275,9 @@ public class ProcessComponentItemProvider extends ProcessPackageItemProvider
 
 		if (qualify) {
 			return getString("_UI_CreateChild_text2", //$NON-NLS-1$
-					new Object[] { getTypeText(childObject),
-							getFeatureText(childFeature), getTypeText(owner) });
+					new Object[] { getTypeText(childObject), getFeatureText(childFeature), getTypeText(owner) });
 		}
 		return super.getCreateChildText(owner, feature, child, selection);
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return UmaEditPlugin.INSTANCE;
 	}
 
 }

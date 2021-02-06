@@ -11,9 +11,12 @@
 package org.eclipse.epf.uma.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.epf.uma.Constraint;
 import org.eclipse.epf.uma.UmaPackage;
 
@@ -39,7 +42,7 @@ public class ConstraintImpl extends MethodElementImpl implements Constraint {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String BODY_EDEFAULT = "";
+	protected static final String BODY_EDEFAULT = ""; //$NON-NLS-1$
 
 	/**
 	 * The cached value of the '{@link #getBody() <em>Body</em>}' attribute.
@@ -92,8 +95,7 @@ public class ConstraintImpl extends MethodElementImpl implements Constraint {
 		String oldBody = body;
 		body = newBody;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					UmaPackage.CONSTRAINT__BODY, oldBody, body));
+			eNotify(new ENotificationImpl(this, Notification.SET, UmaPackage.CONSTRAINT__BODY, oldBody, body));
 	}
 
 	/**
@@ -155,8 +157,7 @@ public class ConstraintImpl extends MethodElementImpl implements Constraint {
 		//UMA<--		
 		switch (featureID) {
 		case UmaPackage.CONSTRAINT__BODY:
-			return BODY_EDEFAULT == null ? body != null : !BODY_EDEFAULT
-					.equals(body);
+			return BODY_EDEFAULT == null ? body != null : !BODY_EDEFAULT.equals(body);
 		}
 		return super.eIsSet(featureID);
 	}
