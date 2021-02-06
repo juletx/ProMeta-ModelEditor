@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9JS0f7ekEd-D7YZN9NgldQ" guid="_9JS0f7ekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="_-h9QgLekEd-D7YZN9NgldQ" id="-9Tmr_SLa7cTvE0oKQS0ASA" uri="customcategories/navigation_view_generic.xmi"/>
+    <resourceDescriptors xmi:id="_-h9QgbekEd-D7YZN9NgldQ" id="-k2NlICHyHtI5SlMLr7c5cg" uri="customcategories/structured_practice_list.xmi"/>
+    <resourceDescriptors xmi:id="_-h9QgrekEd-D7YZN9NgldQ" id="-hUN4Pfxbnmse1E-ThpHJrQ" uri="customcategories/release_info.xmi"/>
+    <resourceDescriptors xmi:id="_-iZ8cLekEd-D7YZN9NgldQ" id="-GHjXglv-7VqexaeTpzqp3Q" uri="guidances/supportingmaterials/welcome.xmi"/>
+    <resourceDescriptors xmi:id="_-iZ8cbekEd-D7YZN9NgldQ" id="-0aLpkB-z90mAiTJ2xDxrgg" uri="guidances/supportingmaterials/references.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_vsno4EKmEdyrauqpmnA8jQ" name="core.default.nav_view.base" guid="_vsno4EKmEdyrauqpmnA8jQ" presentationName="Default Navigation View" briefDescription="This plug-in defines a default view for configurations of open source practices." changeDate="2008-03-03T01:24:37.000-0800">
+    <methodElementProperty xmi:id="_-gnMsrekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JS0cLekEd-D7YZN9NgldQ" name="Content" guid="_9JS0cLekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JS0cbekEd-D7YZN9NgldQ" name="Categories" guid="_9JS0cbekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JS0crekEd-D7YZN9NgldQ" name="Domains" guid="_9JS0crekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JS0c7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9JS0c7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JS0dLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9JS0dLekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JS0dbekEd-D7YZN9NgldQ" name="WP Types" guid="_9JS0dbekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JS0drekEd-D7YZN9NgldQ" name="Tools" guid="_9JS0drekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JS0d7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9JS0d7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JS0eLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9JS0eLekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JS0ebekEd-D7YZN9NgldQ" name="Hidden" guid="_9JS0ebekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9JS0erekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9JS0erekEd-D7YZN9NgldQ" categorizedElements="_1-9JoEKmEdyrauqpmnA8jQ _O3UtkMRdEdyD76CYS6Ta7A _QbmjwMRdEdyD76CYS6Ta7A"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_1-9JoEKmEdyrauqpmnA8jQ" name="navigation_view_generic" guid="_1-9JoEKmEdyrauqpmnA8jQ" presentationName="Team" shapeicon="customcategories/resources/lib_32.gif" nodeicon="customcategories/resources/lib_16.gif" categorizedElements="_g910gCapEd21TMX858E1gw _WCIHYMRdEdyD76CYS6Ta7A _WCIHYsRdEdyD76CYS6Ta7A _RJ__ECLJEd2ct852UDqXGQ _WCIHZMRdEdyD76CYS6Ta7A __O1Y8MRgEdyD76CYS6Ta7A _CXQicMRhEdyD76CYS6Ta7A _qdO80MRhEdyD76CYS6Ta7A _VTspMMRfEdyD76CYS6Ta7A _irqswCLOEd2ct852UDqXGQ">
+            <presentation xmi:id="-9Tmr_SLa7cTvE0oKQS0ASA" href="uma://-9Tmr_SLa7cTvE0oKQS0ASA#-9Tmr_SLa7cTvE0oKQS0ASA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_O3UtkMRdEdyD76CYS6Ta7A" name="do_not_publish" guid="_O3UtkMRdEdyD76CYS6Ta7A" presentationName="Do NOT Publish" briefDescription="Category slot for elements not to be published, which should be included as a &#xD;&#xA;subtractive category in every configuration" nodeicon="customcategories/resources/false.gif"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_QbmjwMRdEdyD76CYS6Ta7A" name="nav_view_building_blocks" guid="_QbmjwMRdEdyD76CYS6Ta7A" presentationName="Navigation Building Blocks" briefDescription="Do not include this category; it is just a container for the standard navigational &#xD;&#xA;elements" categorizedElements="_WCIHYMRdEdyD76CYS6Ta7A _WCIHYsRdEdyD76CYS6Ta7A _h-lc4MReEdyD76CYS6Ta7A _WCIHZMRdEdyD76CYS6Ta7A _WCR4YMRdEdyD76CYS6Ta7A _WCR4YcRdEdyD76CYS6Ta7A _WCR4YsRdEdyD76CYS6Ta7A _pGt9MMReEdyD76CYS6Ta7A _WCR4Y8RdEdyD76CYS6Ta7A _WCR4ZMRdEdyD76CYS6Ta7A _WCR4ZcRdEdyD76CYS6Ta7A _WCIHY8RdEdyD76CYS6Ta7A _RJ__ECLJEd2ct852UDqXGQ _sJd8gMReEdyD76CYS6Ta7A _ZWrWcMRfEdyD76CYS6Ta7A _WCR4ZsRdEdyD76CYS6Ta7A _WCR4Z8RdEdyD76CYS6Ta7A _WCR4acRdEdyD76CYS6Ta7A _Km2E8MRfEdyD76CYS6Ta7A _EfGDkMRfEdyD76CYS6Ta7A _HcVQwMRfEdyD76CYS6Ta7A _PxzG4MRfEdyD76CYS6Ta7A _VTspMMRfEdyD76CYS6Ta7A _4IC8cMRgEdyD76CYS6Ta7A">
+            <methodElementProperty xmi:id="_9wVmULekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Manual"/>
+            <methodElementProperty xmi:id="_9wVmUbekEd-D7YZN9NgldQ" name="PUBLISH_CATEGORY" value="false"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCIHYMRdEdyD76CYS6Ta7A" name="getting_started_list" guid="_WCIHYMRdEdyD76CYS6Ta7A" presentationName="Getting Started" briefDescription="This content provides guidance on how to get started with this configuration." shapeicon="customcategories/resources/micl.gif" nodeicon="customcategories/resources/mic.gif"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCIHYsRdEdyD76CYS6Ta7A" name="delivery_process_list" guid="_WCIHYsRdEdyD76CYS6Ta7A" presentationName="Delivery Processes" briefDescription="This provides a list of delivery processes that have been published." shapeicon="customcategories/resources/delproc_lg_dgm32.gif" nodeicon="customcategories/resources/delproc_obj.gif">
+            <methodElementProperty xmi:id="_9wohQLekEd-D7YZN9NgldQ" name="include" value="DeliveryProcess"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCIHY8RdEdyD76CYS6Ta7A" name="practice_list" guid="_WCIHY8RdEdyD76CYS6Ta7A" presentationName="Practices" briefDescription="List of included practices." shapeicon="customcategories/resources/practice_set.gif" nodeicon="customcategories/resources/practice_set_obj.gif">
+            <methodElementProperty xmi:id="_9wxrMLekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9wxrMbekEd-D7YZN9NgldQ" name="include" value="Practice"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCIHZMRdEdyD76CYS6Ta7A" name="role_list" guid="_WCIHZMRdEdyD76CYS6Ta7A" presentationName="Roles" briefDescription="Alphabetical list of all included roles." shapeicon="customcategories/resources/rolel.gif" nodeicon="customcategories/resources/role.gif">
+            <methodElementProperty xmi:id="_9wxrMrekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9wxrM7ekEd-D7YZN9NgldQ" name="include" value="Role"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4YMRdEdyD76CYS6Ta7A" name="artifact_list" guid="_WCR4YMRdEdyD76CYS6Ta7A" presentationName="All artifacts" briefDescription="Alphabetical listing of all included artifacts (tangible inputs and outputs)." shapeicon="customcategories/resources/artifactl.gif" nodeicon="customcategories/resources/artifact.gif">
+            <methodElementProperty xmi:id="_9w7cMLekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9w7cMbekEd-D7YZN9NgldQ" name="include" value="Artifact"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4YcRdEdyD76CYS6Ta7A" name="deliverable_list" guid="_WCR4YcRdEdyD76CYS6Ta7A" presentationName="All deliverables" briefDescription="Alphabetical listing of all included deliverables." shapeicon="customcategories/resources/deliverablel.gif" nodeicon="customcategories/resources/deliverable.gif">
+            <methodElementProperty xmi:id="_9xFNMLekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9xFNMbekEd-D7YZN9NgldQ" name="include" value="Deliverable"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4YsRdEdyD76CYS6Ta7A" name="outcome_list" guid="_WCR4YsRdEdyD76CYS6Ta7A" presentationName="All outcomes" briefDescription="Alphabetical list of all included outcomes (intangible inputs and outputs)." shapeicon="customcategories/resources/outcomel.gif" nodeicon="customcategories/resources/outcome.gif">
+            <methodElementProperty xmi:id="_9xOXILekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9xOXIbekEd-D7YZN9NgldQ" name="include" value="Outcome"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4Y8RdEdyD76CYS6Ta7A" name="concept_list" guid="_WCR4Y8RdEdyD76CYS6Ta7A" presentationName="Concepts" briefDescription="Alphabetical list of included concepts (guidance that provides basic background &#xD;&#xA;information)." shapeicon="customcategories/resources/concept_dgm32.gif" nodeicon="customcategories/resources/concept_obj.gif">
+            <methodElementProperty xmi:id="_9xOXIrekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9xOXI7ekEd-D7YZN9NgldQ" name="include" value="Concept"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4ZMRdEdyD76CYS6Ta7A" name="example_list" guid="_WCR4ZMRdEdyD76CYS6Ta7A" presentationName="Examples" briefDescription="Alphabetical list of included examples." shapeicon="customcategories/resources/example_dgm32.gif" nodeicon="customcategories/resources/example_obj.gif">
+            <methodElementProperty xmi:id="_9xYIILekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9xYIIbekEd-D7YZN9NgldQ" name="include" value="Example"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4ZcRdEdyD76CYS6Ta7A" name="guideline_list" guid="_WCR4ZcRdEdyD76CYS6Ta7A" presentationName="Guidelines" briefDescription="Alphabetical list of included guidelines (general guidance on how to perform tasks &#xD;&#xA;or create work products)." shapeicon="customcategories/resources/guide_dgm32.gif" nodeicon="customcategories/resources/guide_obj.gif">
+            <methodElementProperty xmi:id="_9xh5ILekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9xh5IbekEd-D7YZN9NgldQ" name="include" value="Guideline"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4ZsRdEdyD76CYS6Ta7A" name="roadmap_list" guid="_WCR4ZsRdEdyD76CYS6Ta7A" presentationName="Roadmaps" briefDescription="List of included roadmaps (these provide guidance on the overall process)." shapeicon="customcategories/resources/roadmap32.gif" nodeicon="customcategories/resources/roadmap16.gif">
+            <methodElementProperty xmi:id="_9xrDELekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9xrDEbekEd-D7YZN9NgldQ" name="include" value="Roadmap"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4Z8RdEdyD76CYS6Ta7A" name="template_list" guid="_WCR4Z8RdEdyD76CYS6Ta7A" presentationName="Templates" briefDescription="Alphabetical list of included templates." shapeicon="customcategories/resources/template_dgm32.gif" nodeicon="customcategories/resources/template_obj.gif">
+            <methodElementProperty xmi:id="_9xrDErekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9xrDE7ekEd-D7YZN9NgldQ" name="include" value="Template"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4acRdEdyD76CYS6Ta7A" name="whitepaper_list" guid="_WCR4acRdEdyD76CYS6Ta7A" presentationName="White papers" briefDescription="Alphabetical list of included white papers (formal guidance on additional topics)." shapeicon="customcategories/resources/white_lg_dgm32.gif" nodeicon="customcategories/resources/white_obj.gif">
+            <methodElementProperty xmi:id="_9yHvALekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9yHvAbekEd-D7YZN9NgldQ" name="include" value="Whitepaper"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_h-lc4MReEdyD76CYS6Ta7A" name="capability_pattern_list" guid="_h-lc4MReEdyD76CYS6Ta7A" presentationName="Capability patterns" nodeicon="customcategories/resources/capabilitypattern16.gif">
+            <methodElementProperty xmi:id="_9yRgALekEd-D7YZN9NgldQ" name="include" value="CapabilityPattern"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_pGt9MMReEdyD76CYS6Ta7A" name="checklist_list" guid="_pGt9MMReEdyD76CYS6Ta7A" presentationName="Checklists" briefDescription="Alphabetical listing of all checklists." shapeicon="customcategories/resources/checklist_dgm32.gif" nodeicon="customcategories/resources/checklist_obj.gif">
+            <methodElementProperty xmi:id="_9yap8LekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9yap8bekEd-D7YZN9NgldQ" name="include" value="Checklist"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_sJd8gMReEdyD76CYS6Ta7A" name="report_list" guid="_sJd8gMReEdyD76CYS6Ta7A" presentationName="Reports" shapeicon="customcategories/resources/report_dgm32.gif" nodeicon="customcategories/resources/report_obj.gif">
+            <methodElementProperty xmi:id="_9yap8rekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9yap87ekEd-D7YZN9NgldQ" name="include" value="Report"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_EfGDkMRfEdyD76CYS6Ta7A" name="domain_list" guid="_EfGDkMRfEdyD76CYS6Ta7A" presentationName="Domains" briefDescription="List of domains for categorizing work products." shapeicon="customcategories/resources/workproducts_lg_obj.gif" nodeicon="customcategories/resources/workproducts_obj.gif">
+            <methodElementProperty xmi:id="_9yka8LekEd-D7YZN9NgldQ" name="include" value="Domain"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_HcVQwMRfEdyD76CYS6Ta7A" name="wp_kind_list" guid="_HcVQwMRfEdyD76CYS6Ta7A" presentationName="Work product kinds" shapeicon="customcategories/resources/workproductstype_lg_obj.gif" nodeicon="customcategories/resources/workproductstype_obj.gif">
+            <methodElementProperty xmi:id="_9yuL8LekEd-D7YZN9NgldQ" name="include" value="WorkProductType"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Km2E8MRfEdyD76CYS6Ta7A" name="role_set_list" guid="_Km2E8MRfEdyD76CYS6Ta7A" presentationName="Role sets" briefDescription="This category lists roles organized by role set." shapeicon="customcategories/resources/roles_dgm32.gif" nodeicon="customcategories/resources/roles_obj.gif">
+            <methodElementProperty xmi:id="_9y3V4LekEd-D7YZN9NgldQ" name="include" value="RoleSet"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_PxzG4MRfEdyD76CYS6Ta7A" name="discipline_list" guid="_PxzG4MRfEdyD76CYS6Ta7A" presentationName="Disciplines" briefDescription="List of the disciplines for organizing tasks." shapeicon="customcategories/resources/discipline_dgm32.gif" nodeicon="customcategories/resources/discipline_obj.gif">
+            <methodElementProperty xmi:id="_9zBG4LekEd-D7YZN9NgldQ" name="include" value="Discipline"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_VTspMMRfEdyD76CYS6Ta7A" name="tool_list" guid="_VTspMMRfEdyD76CYS6Ta7A" presentationName="Tools" shapeicon="customcategories/resources/toolment_lg_dgm32.gif" nodeicon="customcategories/resources/toolment_obj.gif">
+            <methodElementProperty xmi:id="_9zBG4bekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9zBG4rekEd-D7YZN9NgldQ" name="include" value="Tool"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_ZWrWcMRfEdyD76CYS6Ta7A" name="reusable_asset_list" guid="_ZWrWcMRfEdyD76CYS6Ta7A" presentationName="Reusable Assets" shapeicon="customcategories/resources/reasset_dgm32.gif" nodeicon="customcategories/resources/reasset_obj.gif">
+            <methodElementProperty xmi:id="_9zKQ0LekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_9zKQ0bekEd-D7YZN9NgldQ" name="include" value="ReusableAsset"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_4IC8cMRgEdyD76CYS6Ta7A" name="roles" guid="_4IC8cMRgEdyD76CYS6Ta7A" presentationName="Roles" shapeicon="customcategories/resources/roles_dgm32.gif" nodeicon="customcategories/resources/roles_obj.gif" categorizedElements="_Km2E8MRfEdyD76CYS6Ta7A _WCIHZMRdEdyD76CYS6Ta7A"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="__O1Y8MRgEdyD76CYS6Ta7A" name="work_products" guid="__O1Y8MRgEdyD76CYS6Ta7A" presentationName="Work Products" briefDescription="List of work products organized by domain." shapeicon="customcategories/resources/workproduct_dgm32.gif" nodeicon="customcategories/resources/workproduct_obj.gif">
+            <methodElementProperty xmi:id="_9zUB0LekEd-D7YZN9NgldQ" name="include" value="Domain"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_CXQicMRhEdyD76CYS6Ta7A" name="tasks" guid="_CXQicMRhEdyD76CYS6Ta7A" presentationName="Tasks" briefDescription="List of tasks organized by discipline." shapeicon="customcategories/resources/discipline_dgm32.gif" nodeicon="customcategories/resources/discipline_obj.gif">
+            <methodElementProperty xmi:id="_9zdy0LekEd-D7YZN9NgldQ" name="include" value="Discipline"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_qdO80MRhEdyD76CYS6Ta7A" name="guidance" guid="_qdO80MRhEdyD76CYS6Ta7A" presentationName="Guidance" briefDescription="List of all of the guidance, organized by type." shapeicon="customcategories/resources/bookcl.gif" nodeicon="customcategories/resources/bookc.gif" categorizedElements="_pGt9MMReEdyD76CYS6Ta7A _WCR4Y8RdEdyD76CYS6Ta7A _WCR4ZMRdEdyD76CYS6Ta7A _WCR4ZcRdEdyD76CYS6Ta7A _WCIHY8RdEdyD76CYS6Ta7A _sJd8gMReEdyD76CYS6Ta7A _ZWrWcMRfEdyD76CYS6Ta7A _WCR4ZsRdEdyD76CYS6Ta7A _WCR4Z8RdEdyD76CYS6Ta7A _WCR4acRdEdyD76CYS6Ta7A __nHToFndEd2EdJKkAyeBng">
+            <methodElementProperty xmi:id="_9zdy0bekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_RJ__ECLJEd2ct852UDqXGQ" name="structured_practice_list" guid="_RJ__ECLJEd2ct852UDqXGQ" presentationName="Practices" briefDescription="List of included practices" shapeicon="customcategories/resources/practice_set.gif" nodeicon="customcategories/resources/practice_set_obj.gif">
+            <methodElementProperty xmi:id="_O479UA87EeKP67D0FPmpTA" name="me_edited" value="true"/>
+            <presentation xmi:id="-k2NlICHyHtI5SlMLr7c5cg" href="uma://-k2NlICHyHtI5SlMLr7c5cg#-k2NlICHyHtI5SlMLr7c5cg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_irqswCLOEd2ct852UDqXGQ" name="release_info" guid="_irqswCLOEd2ct852UDqXGQ" presentationName="Release Info" briefDescription="This is a list of the &quot;release&quot; pages for the content included in this configuration." shapeicon="customcategories/resources/whats_new_set.gif" nodeicon="customcategories/resources/whats_new_set_obj.gif">
+            <methodElementProperty xmi:id="_9zwtwLekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <presentation xmi:id="-hUN4Pfxbnmse1E-ThpHJrQ" href="uma://-hUN4Pfxbnmse1E-ThpHJrQ#-hUN4Pfxbnmse1E-ThpHJrQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JS0e7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9JS0e7ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_e_hGoCapEd21TMX858E1gw" name="general" guid="_e_hGoCapEd21TMX858E1gw" presentationName="General">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_g910gCapEd21TMX858E1gw" name="welcome" guid="_g910gCapEd21TMX858E1gw" presentationName="Welcome" shapeicon="guidances/supportingmaterials/resources/icon_introl.gif" nodeicon="guidances/supportingmaterials/resources/mic.gif">
+            <presentation xmi:id="-GHjXglv-7VqexaeTpzqp3Q" href="uma://-GHjXglv-7VqexaeTpzqp3Q#-GHjXglv-7VqexaeTpzqp3Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="__nHToFndEd2EdJKkAyeBng" name="references" guid="__nHToFndEd2EdJKkAyeBng" presentationName="References" briefDescription="This page lists books, articles, and other references.">
+            <presentation xmi:id="-0aLpkB-z90mAiTJ2xDxrgg" href="uma://-0aLpkB-z90mAiTJ2xDxrgg#-0aLpkB-z90mAiTJ2xDxrgg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9JS0fLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9JS0fLekEd-D7YZN9NgldQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9JS0fbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9JS0fbekEd-D7YZN9NgldQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9JS0frekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9JS0frekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

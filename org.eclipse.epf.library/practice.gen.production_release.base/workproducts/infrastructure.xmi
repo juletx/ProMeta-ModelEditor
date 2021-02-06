@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-I1cGb0If2i9wNcOXbEU6XA" name="infrastructure,_gbSJ0GPoEeCXEsUUiTbOuQ" guid="-I1cGb0If2i9wNcOXbEU6XA" changeDate="2011-04-19T08:33:58.208-0600" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Infrastructure normally is defined as anything that supports the flow and processing of information in an organization.&#xD;
+    The infrastructure needed to support a release package normally includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Software, including: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Operating systems and applications for servers and clients&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Desktop applications&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Middleware&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Protocols&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Hardware&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks, including: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Routers&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Aggregators&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Repeaters&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Other transmission media devices that control movement of data and signals&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Facilities&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <purpose>The purpose of this work product is to provide the underlying capabilities within which an application can be run as&#xD;
+designed.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

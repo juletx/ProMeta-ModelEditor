@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-qZE4XgeMK93LmJMKuQWGFg" name=",_3PJ38EvqEdunZcj9T5hrMQ" guid="-qZE4XgeMK93LmJMKuQWGFg" changeDate="2008-07-15T11:29:19.000-0700" version="7.2.0">
+  <mainDescription>A set of values and principles for software development that use lean production techniques to deliver value to&#xD;
+stakeholders quickly and frequently. See the agile manifesto at: &lt;a&#xD;
+href=&quot;http://agilemanifesto.org/&quot;>http://agilemanifesto.org/&lt;/a></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

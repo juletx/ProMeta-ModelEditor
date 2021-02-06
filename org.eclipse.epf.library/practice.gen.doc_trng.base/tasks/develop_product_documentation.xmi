@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Msu85VH5rLUfl0OEAnZdIQ" name="01_create_update_product_documenation,_t15g4DHMEeC7j_IRiP-WPQ" guid="-Msu85VH5rLUfl0OEAnZdIQ" changeDate="2012-05-30T13:03:23.148-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Development team members sometimes take documentation for granted, or do not give it enough consideration. However,&#xD;
+    after a product is delivered, customers who pay for the system and for support often do not have enough information to&#xD;
+    effectively manage the product.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If a technical writer is made available to a development team, that role often takes the burden off the team for&#xD;
+    developing the formal product documentation and for ensuring that it is in the correct format and business language. If&#xD;
+    a technical writer is not available, the development team and product owner must make every effort to create enough&#xD;
+    documentation to ensure that the features that have been developed for each release are understood and can be&#xD;
+    communicated effectively by the paying customer to their stakeholders.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Delivering a professionally developed product requires that a development team provide the customer with accurate,&#xD;
+    detailed, and comprehensive product documentation.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_-zf1suB8EeC1y_NExchKwQ" name="Identify features of current release" guid="_-zf1suB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    Every release will contain a set of features that were developed during the preceding feature development sprint or&#xD;
+    iterations. This list should drive the table of contents of the product documentation. It also is possible that some&#xD;
+    nonfunctional requirements should be documented as well.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While the product documentation will not be used directly as user documentation, it will become the basis for the user&#xD;
+    documentation. That foundation of information is why this step is important.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_-zf1seB8EeC1y_NExchKwQ" name="Document each feature" guid="_-zf1seB8EeC1y_NExchKwQ">
+    <sectionDescription>Write a comprehensive description of each feature and include appropriate screen shots as well as relevant information&#xD;
+about how the feature was developed.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zf1s-B8EeC1y_NExchKwQ" name="Review product documentation with stakeholders" guid="_-zf1s-B8EeC1y_NExchKwQ">
+    <sectionDescription>Schedule a review session with key stakeholders to ensure that the product documentation is adequate and that it contains&#xD;
+the level of detail needed by the product customer. If more detail is required, elicit one or more examples from the&#xD;
+stakeholders that show how they would like the documentation to be prepared.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zfOr-B8EeC1y_NExchKwQ" name="Update product documentation as necessary" guid="_-zfOr-B8EeC1y_NExchKwQ">
+    <sectionDescription>Based on the outcome of the review session, update the product documentation so that it can receive the proper approval on&#xD;
+delivery.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zf1sOB8EeC1y_NExchKwQ" name="Deliver product documentation" guid="_-zf1sOB8EeC1y_NExchKwQ">
+    <sectionDescription>For this release, deliver the final product documentation to the customer and key stakeholders. Obtain their formal&#xD;
+approval if necessary.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to document enough information about the features that were developed in a particular release&#xD;
+to be useful to customers throughout the life of the product.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

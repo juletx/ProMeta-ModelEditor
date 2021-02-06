@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-wv4JAmTQ0R_KjP76LgDITg" name="new_concept,_ryuL0LsbEdyfAY9BXNFkDg" guid="-wv4JAmTQ0R_KjP76LgDITg" changeDate="2008-10-13T09:31:33.000-0700" version="7.2.0">
+  <mainDescription>&lt;h3>&#xD;
+    Specifying Use Cases&#xD;
+&lt;/h3>&#xD;
+&lt;h4>&#xD;
+    &lt;a id=&quot;How to Find Use Cases&quot; name=&quot;How to Find Use Cases&quot;>How to Find Use Cases&lt;/a>&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    See the&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/identify_and_outline_actors_and_ucs_BB5516A9.html&quot;&#xD;
+     guid=&quot;_eyL0wCu-EdqSxKAVa9kmvA&quot;>Guideline: Identify and Outline Actors and Use Cases&lt;/a>&amp;nbsp;for guidance on finding&#xD;
+    Actors and Use Cases.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    &lt;a id=&quot;How a Use Case Evolves&quot; name=&quot;How a Use Case Evolves&quot;>How a Use Case Evolves&lt;/a>&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    See the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/detail_ucs_and_scenarios_6BC56BB7.html&quot;&#xD;
+    guid=&quot;_4BJ_YCxSEdqjsdw1QLH_6Q&quot;>Guideline: Detail Use Cases and Scenarios&lt;/a>&amp;nbsp;for guidance on evolving use cases.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Level of detail necessary in use cases&amp;nbsp;&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    There will often be use cases in your model that are so simple that they do not need a detailed description of the flow&#xD;
+    of events, a step-by-step outline is quite enough. The criteria for making this decision is that you don't see&#xD;
+    disagreement among user kind of readers on what the use case means, and that designers and testers are comfortable with&#xD;
+    the level of detail provided by the step-by-step format. Examples are use cases that describe simple entry or retrieval&#xD;
+    of some data from the system.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    &lt;a id=&quot;The Scope of a Use Case&quot; name=&quot;The Scope of a Use Case&quot;>The Scope of a Use Case&lt;/a>&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    It is often hard to decide if a set of user-system interactions, or dialog, is one or several use cases. Consider the&#xD;
+    use of a recycling machine. The customer inserts deposit items, such as cans, bottles, and crates, into the recycling&#xD;
+    machine. When she has inserted all her deposit items, she presses a button, and a receipt is printed. She can then&#xD;
+    exchange this receipt for money.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is it one use case to insert a deposit item, and another use case to require the receipt? Or is it all one use case?&#xD;
+    There are two actions, but one without the other is of little value to the customer. Rather, it is the complete dialog&#xD;
+    with all the insertions, and getting the receipt, that is of value for the customer (and makes sense to her). Thus, the&#xD;
+    complete dialog, from inserting the first deposit item, to pressing the button and getting the receipt, is a complete&#xD;
+    case of use, a use case.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Additionally, you want to keep the two actions together, to be able to review them at the same time, modify them&#xD;
+    together, test them together, write manuals for them and in general manage them as a unit. This becomes very obvious in&#xD;
+    larger systems.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

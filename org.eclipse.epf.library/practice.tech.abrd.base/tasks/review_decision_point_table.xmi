@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-GPF0smZFlAxXRJQwghRiZA" name="review_decision_point_table,_9lyMUCM5EduaRb7bvJMixg" guid="-GPF0smZFlAxXRJQwghRiZA" authors="Jerome Boyer" changeDate="2008-09-04T11:41:46.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_decision_point_table__review&quot; name=&quot;XE_decision_point_table__review&quot;>&lt;/a>See the step description&amp;nbsp;below.</mainDescription>
+  <sections xmi:id="_sruWzQjqEdyj5bYZ0eCR5g" name="Get the decision point table" guid="_sruWzQjqEdyj5bYZ0eCR5g">
+    <sectionDescription>&lt;p>&#xD;
+    &amp;nbsp;Get the&amp;nbsp;decision point table and persist it in a project workbook. If there is no decision point table, the&#xD;
+    team should develop it during this step.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the team needs to develop a decision point table the following simple process can be done:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        From the business process description in BPM map or use case format, study the task or activity description and&#xD;
+        search for verb&amp;nbsp;which involves mental processing or thinking.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Work with the Subject Matter Expert or with the business analyst responsible to document the Business Process, and&#xD;
+        address with them&amp;nbsp;how&amp;nbsp;decisions on those activities are taken. If there is some type of rule based&#xD;
+        decision, log in a table the task reference, it forms a decision point.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_XA_IIHrPEd2o_5d3MWaNxQ" name="Define the source of rule for the discovery" guid="_XA_IIHrPEd2o_5d3MWaNxQ">
+    <sectionDescription>&lt;p>&#xD;
+    There are at least three kinds of source to harvest the rules from:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Human: A Subject Matter Expert who has the knowledge of the business process and the decisions to take to process a&#xD;
+        given event. Also a person doing the day today activity is a very good source for rule discovery and business&#xD;
+        process exception management. The process to extract rule from human source will be done by using elicitation&#xD;
+        workshop.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Documentation: legal, internal policies, procedure. Gather the documents with the reference on version, date of&#xD;
+        validity... The elicitation is based on reading and Question and Answer workshop sessions.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Code: procedure code, SQL procedures, listing... The elicitation is based on reading the code, executes it, getting&#xD;
+        data and expected results. Some care has to be taken in this case. Sometime the &quot;business rules&quot; implemented in&#xD;
+        procedural code are loosing their context of execution as soon as we extract them, so code review should always be&#xD;
+        complemented by workshop sessions for Q&amp;amp;A. A rule in a system done some years ago may not apply in current&#xD;
+        business context.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_sruWzwjqEdyj5bYZ0eCR5g" name="Complete the table" guid="_sruWzwjqEdyj5bYZ0eCR5g">
+    <sectionDescription>If from the Inception phase the table is not completed, it is important to do it before starting the pure discovery phase.</sectionDescription>
+  </sections>
+  <sections xmi:id="_sruW0AjqEdyj5bYZ0eCR5g" name="Gather the related documents" guid="_sruW0AjqEdyj5bYZ0eCR5g">
+    <sectionDescription>For the rule discovery based on document or code try to get all the needed documents or at least understand how&#xD;
+to&amp;nbsp;access to them. If there is no document management in place may be it is a good timing to propose something.</sectionDescription>
+  </sections>
+  <sections xmi:id="_1KxREHrNEd2o_5d3MWaNxQ" name="Set priority" guid="_1KxREHrNEd2o_5d3MWaNxQ">
+    <sectionDescription>Review the decision points with the stakeholders and set the priority for rule harvesting at each decision point level. You&#xD;
+may want to start with a simple one to train on the elicitation process and on the methodology.</sectionDescription>
+  </sections>
+  <sections xmi:id="_sruWzgjqEdyj5bYZ0eCR5g" name="Study some of the decision points" guid="_sruWzgjqEdyj5bYZ0eCR5g">
+    <sectionDescription>&lt;p>&#xD;
+    Study some of the decision point and the related documents to evaluate what will be the best rule harvesting&#xD;
+    process.&lt;br />&#xD;
+    To complete this section, you may need to get answers to at least the following questions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&#xD;
+            What is the rule type involved in this decision point? Are they underwriting rules, scoring rules, pricing&#xD;
+            rules, data validation or, compliance rules?&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&#xD;
+            Are there any other dimension to classify the rule such as&amp;nbsp;country/geography or product?&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&#xD;
+            Do the rule needs to be localized?&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&#xD;
+            What is the number of rules forecasted?&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&#xD;
+            What are examples of actual rules?&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&#xD;
+            What is the current process to define, document, implement, test and up-date the business rules?&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&#xD;
+            Is there a rule sharing policy?&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>Pre set the roadmap definition task. Verify that we have the important information on the business process and the related
+decision points.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

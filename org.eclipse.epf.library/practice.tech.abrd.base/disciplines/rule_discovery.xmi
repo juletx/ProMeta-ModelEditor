@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-7kB5cTcNbXPpvIaoUeTVrA" name="new_discipline,__u-KMLRXEd-0GaneRZjjRw" guid="-7kB5cTcNbXPpvIaoUeTVrA" authors="Jerome Boyer" changeDate="2010-08-30T10:00:03.000-0700" version="7.5.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_discovery&quot; name=&quot;XE_rule_discovery&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>&lt;span style=&quot;mso-bidi-language: HE&quot;>Rule Discovery is also named Business Rules
+    Modeling in the industry and has the focus to develop simple modeling artifacts like rule descriptions, business entity
+    diagrams and business process maps.&lt;/span>&lt;span style=&quot;mso-bidi-language: HE&quot;>&amp;nbsp;&lt;/span>&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>The purposes of Rule Discovery&amp;nbsp; are:&lt;/span>
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>To define the rule classification from the business process&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>To attach decision point to business process activities and / or use case
+        steps&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l1 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>To define the rule sources for the discovery and the type of roadmap to support
+        the knowledge acquisition.&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l1 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>To formalize the rules using templates and business term and language
+        understood by the business user&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l1 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>To prepare the test data &amp;nbsp;for the rules&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l1 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>To define the object model for the rules&lt;/span>
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>If the business modeling activity is done&amp;nbsp;during the Inception&amp;nbsp;phase of
+    the project you should leverage the previous artifacts like the conceptual data model and the decision point
+    table.&lt;/span>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>The discovery activities&amp;nbsp; are conducted during the Elaboration phase of the
+    project, but the same process is conducted even after the system has gone into production when there is a new business
+    event, or when there is a need to modify the decision logic&amp;nbsp;of the application.&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>&lt;img style=&quot;WIDTH: 720px; HEIGHT: 352px&quot; height=&quot;318&quot; alt=&quot;&quot;
+    src=&quot;resources/discovery_process.gif&quot; width=&quot;600&quot; />&amp;nbsp;&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>The most unique aspect of the rules discovery phase is the perception of a business
+    event as a set of decision-rich activities. We unravel a business event as a set of decisions and policies. We then
+    dissect the decisions and policies into executable and precise business rules that guide the business event in a
+    predictable and desirable manner.&lt;/span>
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

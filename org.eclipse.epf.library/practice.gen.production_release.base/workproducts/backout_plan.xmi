@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-O9dNph5o0Au5C2deOUG8Bg" name="backout_plan,_mfw0wGPoEeCXEsUUiTbOuQ" guid="-O9dNph5o0Au5C2deOUG8Bg" changeDate="2012-05-30T14:24:40.931-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    While someone on the development team normally authors a draft version of the Backout Plan, the Deployment Engineer is&#xD;
+    ultimately responsible for its contents and existence. A backout plan typically answers the following questions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Under what circumstances will a rollback be required? Or conversely, under what circumstances will the deployment&#xD;
+        be considered a success?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What is the time period within which a rollback can take place?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Which authorizing agent will make the decision to revert?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who will perform the rollback and how soon after the decision has been made will the rollback be performed?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What procedures (manual and automated) will be followed to execute the rollback?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What other contingency measures or available workarounds should be considered?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What is the expected time required to perform a reversion?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What are the communication procedures required in the event of a backout?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Has the Backout Plan been successfully tested?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <purpose>The purpose of this work product is for the development team to provide, in one document, all the information needed by the&#xD;
+production support organization to determine if a rollback is needed, who will authorize it, how it will be performed, etc.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

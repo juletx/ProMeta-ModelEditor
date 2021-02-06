@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-JR-x8arulRODu1y2tP928w" name="project_management_discipline,_iGSHtFZ-EdyIUdvDLLUdeg" guid="-JR-x8arulRODu1y2tP928w" changeDate="2008-01-18T03:26:47.000-0800" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    The purpose of this discipline is to: &amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Encourage stakeholder&amp;nbsp;consensus on prioritizing the sequence of work&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Stimulate team collaboration on creating long-term and short-term plans for the project.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Focus the team on continually delivering tested software for stakeholder evaluation&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Help create an effective working environment to maximize team productivity&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Keep stakeholders and the team informed of project progress&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Provide a framework to manage project risk and continually adapt to change&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Project Management is an umbrella discipline that impacts, and is impacted by, all other disciplines. Project&#xD;
+    management activities add value to creating a high-performance work environment where:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        stakeholders trust in the team's ability to successfully deliver value and understand the capabilities and&#xD;
+        tradeoffs of the technical platform&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Project team members understand stakeholder intentions and confirm that understanding by continually producing a&#xD;
+        working software product for evaluation&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

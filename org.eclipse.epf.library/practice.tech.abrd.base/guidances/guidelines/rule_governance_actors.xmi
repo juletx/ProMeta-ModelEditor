@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-VIS5QkD4sg5ofp6v7HwLbw" name="new_guideline,_npFyQGDtEdyKlZvvtnMrMg" guid="-VIS5QkD4sg5ofp6v7HwLbw" changeDate="2009-11-09T02:45:26.000-0800" version="7.5.0">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The following table lists the actors of the rule governance&lt;a id=&quot;XE_rule_governance__actors_guideline&quot;
+    name=&quot;XE_rule_governance__actors_guideline&quot;>&lt;/a> processes, their role and responsibility, as well as their
+    department-unit…&lt;br />
+    &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+    &lt;br />
+&lt;/p>
+&lt;table class=&quot;ISISTable&quot;
+style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-table-layout-alt: fixed; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-padding-alt: 0in 5.4pt 0in 5.4pt&quot;
+ cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;684&quot; border=&quot;1&quot;>
+    &lt;tbody>
+        &lt;tr style=&quot;mso-yfti-irow: -1; mso-yfti-firstrow: yes&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: gray 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid&quot;
+             valign=&quot;top&quot; width=&quot;90&quot;>
+                &lt;p class=&quot;MsoNormalCxSpFirst&quot; style=&quot;TEXT-ALIGN: left; mso-yfti-cnfc: 1&quot; align=&quot;left&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                    style=&quot;COLOR: #005da0&quot;>&lt;font size=&quot;3&quot;>&lt;font face=&quot;Times New Roman&quot;>Role&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;83&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: left; mso-yfti-cnfc: 1&quot; align=&quot;left&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                    style=&quot;COLOR: #005da0&quot;>&lt;font size=&quot;3&quot;>&lt;font face=&quot;Times New Roman&quot;>Unit&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;307&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: left; mso-yfti-cnfc: 1&quot; align=&quot;left&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                    style=&quot;COLOR: #005da0&quot;>&lt;font size=&quot;3&quot;>&lt;font
+                    face=&quot;Times New Roman&quot;>Role-Responsibilities&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;204&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: left; mso-yfti-cnfc: 1&quot; align=&quot;left&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                    style=&quot;COLOR: #005da0&quot;>&lt;font size=&quot;3&quot;>&lt;font face=&quot;Times New Roman&quot;>Skill&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 0&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;90&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font
+                    face=&quot;Times New Roman&quot;>Business Owner&lt;/font>&lt;/span>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;83&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;font face=&quot;Times New Roman&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>Business unit&lt;/span>&lt;/font>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;307&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Control the execution of a Line Of
+                    Business&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;204&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Management skill&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Business problem-solve&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Strong business experience&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 1&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;90&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font
+                    face=&quot;Times New Roman&quot;>Policy Manager or Subject Matter Expert (SME)&lt;/font>&lt;/span>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;83&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Business unit&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;307&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Support the definition of business
+                    processes&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: 17.35pt&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Determine and manage the implementation of a
+                    business policy, generally by providing the content for the business rules that enforce the policy and
+                    the process contexts in which the rules are applied.&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: 17.35pt&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Oversee the execution of that policy via
+                    business rules applied. Such oversight includes confirming that implemented rules fully and faithfully
+                    correspond to the intended policy.&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: 17.35pt&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Review rules, rule flow&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: 17.35pt&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Review the results of testing and
+                    simulation&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: 17.35pt&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Manage business vocabulary&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l1 level1 lfo5; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Resolve business issues relating to
+                    BR&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l1 level1 lfo5; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Be accountable for the quality of the
+                    BR&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Approve major changes to BR&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;204&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Strong business experience&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Analytical&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l1 level1 lfo5; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Management skill&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l1 level1 lfo5; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Business problem-solver&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l1 level1 lfo5; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Effective communicator&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l1 level1 lfo5; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Strong leader&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Decision maker&lt;/font>&lt;/span>
+                &lt;/p>&lt;br class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot; />
+                &lt;br />
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 2&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;90&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font
+                    face=&quot;Times New Roman&quot;>Manager Or Rule Steward&lt;/font>&lt;/span>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;83&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Rule management team&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;307&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Develop and maintain a comprehensive plan for
+                    the rule management group activities&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Establish BR policies&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Identify business sponsors for issues
+                    relating to BR&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Develop processes for rule management and
+                    standards for rule capture and documentation&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Ensure that repository management processes
+                    are followed&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Ensure that enterprise rule standards are
+                    followed&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Standard management position&lt;/font>&lt;/span>
+                &lt;/p>&lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                &lt;br />
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;204&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Management skill&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Business problem-solver&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Practical business experience&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Effective communicator&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Strong leader&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Comfortable with technology&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 3&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;90&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Rule
+                    Architect&lt;/font>&lt;/span>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;83&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Architect team or Rule management
+                    team&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;307&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Select technology to ensure performance and
+                    usability&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Design, test, implement rules using
+                    appropriate technology (triggers, rule engine)&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: 17.35pt list .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Ensure the overall deployment organization of
+                    the rules makes sense from an application segmentation perspective&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Ensure rule execution is
+                    optimized&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Establish traceability for rules within the
+                    technical architecture&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Ensure rule reuse&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Design the structure of the rule repository
+                    (defining what metadata customizations are needed and possibly implementing the
+                    structure)&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Develop the processes developed around
+                    repository management&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Assist evaluation of implementations with
+                    respect to the rules&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Coordinate with application developers on
+                    system design, implementation and testing&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Act as a liaison between business and
+                    IT&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;204&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Good understanding on how to translate BR to
+                    implemented one&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Competent with structure and
+                    models&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Understanding of rule application
+                    infrastructure&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Detail oriented&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Diligent about enforcing
+                    standards&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Works well with system designers, developers
+                    and testers&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;font face=&quot;Times New Roman&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>Enterprise&lt;/span> &lt;span
+                    style=&quot;FONT-SIZE: 8pt&quot;>Application Integration&lt;/span>&lt;/font>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Service Oriented Architecture&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>UML tools&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 4&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;90&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Rule
+                    Analyst&lt;/font>&lt;/span>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;83&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Analyst team&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;307&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Assist business in identifying existing
+                    BR&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Research the meaning and origin of
+                    BR&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: 17.35pt list .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Create rule templates for rule authors to
+                    use&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: 17.35pt list .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Analyze rules for completeness, correctness,
+                    optimization (from a logical, not performance, perspective)&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Identify how rules are used in processes that
+                    implement business policies&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Ensure the quality of the BR&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Ensure consistent terminology is used in the
+                    BRs&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Analyze BR to identify conflicts,
+                    redundancies&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Ensure consistency of BR across function,
+                    geographies and systems&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Conduct impact analysis for revising or
+                    replacing BR&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Integrate new or revised rules into existing
+                    rule set&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Make recommendations for BR changes based on
+                    business knowledge&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Facilitate resolution of BR
+                    issues&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Act as consultant for the project
+                    team&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Act as a liaison between business and
+                    IT&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;204&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Analytical&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Good business knowledge&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Creative thinking&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Writing&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Good communication skill&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Problem-solving ability&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Proficient in BRMS web
+                    interface&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Knowledge of Rule IDE&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Proficient in Rule&amp;nbsp;testing environment
+                    and framework&lt;/font>&lt;/span>&amp;nbsp;
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 5&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;90&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font
+                    face=&quot;Times New Roman&quot;>Vocabulary Analyst&lt;/font>&lt;/span>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;83&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Analyst team&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;307&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Formalize the business terms (and phrases)
+                    used in business rules; this formalization may be in a logical data model, fact model, business object
+                    model or some other format that standardizes the terms used and their definitions. 'Terms' include
+                    nouns, noun phrases and qualified nouns that are referenced in business rules&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Create and manage abstract layer of the data
+                    model&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;204&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Object and/or data and/or fact
+                    modeling&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Proficient of Rule IDE&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Proficient in BRMS web
+                    interface&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &amp;nbsp;&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>&amp;nbsp;&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 6&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;90&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font
+                    face=&quot;Times New Roman&quot;>Process Analyst&lt;/font>&lt;/span>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;83&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Analyst team&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;307&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: 17.35pt list .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Define the overall process context for the
+                    business area/ application.&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: 17.35pt list .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Work with business SMEs to understand the
+                    logical business processes and how they fit together in a logical flow (or in an implementation flow
+                    for a given application).&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Identify where rules are needed in
+                    processes&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Create and update process flow&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;204&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Process Modeling&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Business Process Modeling
+                    Notation&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 7&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;90&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Rule
+                    Author&lt;/font>&lt;/span>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;83&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Rule management team&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;307&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Write detailed rules, following appropriate
+                    syntax and using standard vocabulary Validate rules in detail against the object model and data
+                    model&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Perform impact analysis for potential changes
+                    to rules from technical perspective&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Identify events where rules should
+                    fire&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Challenge BR for ambiguity, inconsistency and
+                    conflict from a technical perspective&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Test Rules&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Create and update rule flow&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Run simulations&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Ensure rule reuse&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Debug rule logic&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Create and manage test cases to test the rule
+                    logic&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;204&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Knowledge of Rule IDE&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font
+                    face=&quot;Times New Roman&quot;>Proficient in BRMS web interface&lt;/font>&lt;/span>&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Proficient in rule life cycle&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Proficient in rule deployment
+                    process&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l4 level1 lfo2; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font
+                    face=&quot;Times New Roman&quot;>Proficient in Rule&amp;nbsp;testing environment and
+                    framework&lt;/font>&lt;/span>&amp;nbsp;&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Less sophisticated rule authors may be
+                    limited to changing parameters or creating new rules based on existing templates; testing likely
+                    limited to scenarios and scenario suites&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>More sophisticated rule authors may create
+                    rules from scratch and involve rule flow; testing may include simulation&lt;/font>&lt;/span>&amp;nbsp;&amp;nbsp;&lt;span
+                    style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>&amp;nbsp;&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 8&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;90&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font
+                    face=&quot;Times New Roman&quot;>Business Analyst- develop business solution&lt;/font>&lt;/span>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;83&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Business unit&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;307&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Understand business goals&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Find business solutions to business
+                    problems&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Ensure business solutions support business
+                    goals&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Make recommendations for business change
+                    based on business knowledge&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Conduct impact analysis of proposed business
+                    changes&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Identify and assess business tactics and
+                    associated risks&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Facilitate meetings to gather business
+                    requirements&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Document &quot;as-is&quot; and &quot;to be&quot;
+                    workflows&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Record terminology, business concepts and
+                    fact model&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Capture and express business
+                    rules&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Analyze BR, identifying conflicts,
+                    redundancies&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Decompose BR to atomic level&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Act as business team lead for the project
+                    team&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Act as a liaison between business and
+                    IT&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Understand business rules methodology and how
+                    to apply it&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;204&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Analytical&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Good business knowledge&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Creative thinking&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Writing&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Good communication skill&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Problem-solving ability&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Facilitation skills&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Organize content into structured forms
+                    (models and structured documents) that are understandable by the business experts (for approval) and IT
+                    (for implementation). Such analysts often bring an ability to incorporate an enterprise perspective on
+                    requirements in a specific area of the business, but this is not relevant on all
+                    projects.&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 9&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;90&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font
+                    face=&quot;Times New Roman&quot;>Developer&lt;/font>&lt;/span>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;83&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>IT development&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;307&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Develop application business logic, database
+                    access layer, GUI&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Domain object model&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: 17.35pt list .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Meet functional specs&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Write technical rules in low level ILOG Rules
+                    Language&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Set rule project foundations:&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.75in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level2 lfo4; tab-stops: list .75in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: 'Courier New'; mso-fareast-font-family: 'Courier New'&quot;>&lt;span
+                    style=&quot;mso-list: Ignore&quot;>o&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span> &lt;span
+                    style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Rule project structure&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.75in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level2 lfo4; tab-stops: list .75in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: 'Courier New'; mso-fareast-font-family: 'Courier New'&quot;>&lt;span
+                    style=&quot;mso-list: Ignore&quot;>o&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span> &lt;span
+                    style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>rule set parameters&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.75in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level2 lfo4; tab-stops: list .75in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: 'Courier New'; mso-fareast-font-family: 'Courier New'&quot;>&lt;span
+                    style=&quot;mso-list: Ignore&quot;>o&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span> &lt;span
+                    style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>rule flow&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.75in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level2 lfo4; tab-stops: list .75in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: 'Courier New'; mso-fareast-font-family: 'Courier New'&quot;>&lt;span
+                    style=&quot;mso-list: Ignore&quot;>o&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span> &lt;span
+                    style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>sandbox testing in Rule Studio&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.75in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level2 lfo4; tab-stops: list .75in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: 'Courier New'; mso-fareast-font-family: 'Courier New'&quot;>&lt;span
+                    style=&quot;mso-list: Ignore&quot;>o&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span> &lt;span
+                    style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Develop the BOM to XOM mapping&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: 10.05pt list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span> &lt;span
+                    style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>May have rule management requirements if rules are
+                    primarily technical rather than business-managed&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>&amp;nbsp;&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;204&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Problem-solving ability&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l3 level1 lfo3; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Proficient in Java or .Net, application
+                    server, Eclipse, Visual Studio&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Proficient in Rule IDE&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in .5in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Low-level rule syntax&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in .5in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>API knowledge&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in .5in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Rule optimization techniques&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Physical object modeling&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Competent with structure and
+                    models&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &amp;nbsp;&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>System integration&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Detail oriented&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Diligent about enforcing
+                    standards&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Works well with system designers, developers
+                    and testers&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &amp;nbsp;&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>&amp;nbsp;&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 10&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;90&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>QA
+                    engineer&lt;/font>&lt;/span>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;83&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>IT development&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;307&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Manage application and rule set
+                    quality&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Develop Rule Test cases&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Define Key Performance Indicator with the
+                    Policy manager&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;204&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Problem-solving ability&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Good business knowledge&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Good communication skill&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Testing and QA methodology&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Detail oriented&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Diligent about enforcing
+                    standards&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Works well with system designers, developers
+                    and testers&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Proficient in&amp;nbsp;BRMS web
+                    interface&amp;nbsp;and Rule IDE&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Proficient in Rule Execution
+                    Server&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Proficient in Rule Test
+                    Framework&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 11; mso-yfti-lastrow: yes&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;90&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Rule
+                    Repository Administrator&lt;/font>&lt;/span>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;83&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>IT production&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;307&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Manage the different rule repository cross
+                    departments&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Develop the standards that are required
+                    across projects&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Manage the rule deployment and rule set
+                    quality&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Install and configure
+                    environment&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Deploy the application&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in .5in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Re-deploy rulesets as changes are
+                    made&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span
+                    style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                     style=&quot;mso-list: Ignore&quot;>·&lt;span
+                    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>User management (security)&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+             valign=&quot;top&quot; width=&quot;204&quot;>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Proficient in Rule Execution
+                    Server&lt;/font>&lt;/span>
+                &lt;/p>
+                &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l2 level1 lfo4; tab-stops: list .25in&quot;>
+                    &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Proficient in Rule Repository management and
+                    database management&lt;/font>&lt;/span>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>&lt;br />
+&lt;br />
+&lt;br />
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

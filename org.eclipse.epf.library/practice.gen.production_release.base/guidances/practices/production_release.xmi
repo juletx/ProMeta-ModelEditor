@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:PracticeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-WOrmi0u1gYsdoetUWXbIEg" name="production_release,_IAG5wOB-EeC1y_NExchKwQ" guid="-WOrmi0u1gYsdoetUWXbIEg" changeDate="2011-10-15T12:04:55.657-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Mike Cohn, noted author on Scrum, states:&#xD;
+&lt;/p>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p class=&quot;quote&quot;>&#xD;
+        ...&quot;Some large or complex projects will require the use of &quot;release Sprint/Iteration&quot; or &quot;hardening&#xD;
+        Sprint/Iteration&quot; at the end of a release cycle (say 6 two-week Sprint/Iterations then a 2-week release&#xD;
+        Sprint/Iteration). The release Sprint/Iteration is not a dumping ground for sloppy work; rather it is a place where&#xD;
+        some hardening of the system can occur.&quot;&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;p dir=&quot;ltr&quot;>&#xD;
+    There are two components of the Production Release practice: 1) Release Preparation, and 2) Deployment. Release&#xD;
+    preparation establishes a release baseline and produces all the necessary supporting material necessary to deploy (and&#xD;
+    back out, if necessary) the release.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Deployment involves the act of delivering the release into the production environment, verifying that the integration&#xD;
+    of the release package into the existing environment was successful, and notifying all relevant stakeholders that the&#xD;
+    features of the release are available for use.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Unfortunately, there is little guidance available today regarding the practice of releasing to production. Although&#xD;
+    there is wealth of information documented in the Information Technology Infrastructure Library (ITIL) set of process&#xD;
+    books on this topic, those reference materials are used primarily by members of Production Support and IT Operations&#xD;
+    organizations and not application development groups.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This practice is designed to fill some of the void in this area for product development teams.&#xD;
+&lt;/p></mainDescription>
+  <additionalInfo>&lt;p>&#xD;
+    For additional information about Production Release, see:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Dean Leffingwell. &lt;em>Agile Software Requirements: Lean Requirements Practices for Team, Programs, and the&#xD;
+    Enterprise&lt;/em>. Addison Wesley, 2011.&#xD;
+&lt;/p>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p>&#xD;
+        Introduces the &quot;Big Picture&quot; of Scaled Agile and describes various aspects of that model, some in more detail than&#xD;
+        are covered in this method. Overall, a refinement of his previous works with the addition of Lean IT practices&#xD;
+        adopted from Lean Manufacturing.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;p>&#xD;
+    Dean Leffingwell. &lt;em>Scaling Software Agility: Best Practices for Large Enterprises&lt;/em>. Addison Wesley, 2007.&#xD;
+&lt;/p>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p>&#xD;
+        The first major work on scaling Agile that was based on key implementation experiences at several international&#xD;
+        companies.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote></additionalInfo>
+  <problem>&lt;p>&#xD;
+    Releasing a finished or emerging product into production is no trivial matter. Sometimes, business operations are&#xD;
+    interrupted or shut down because a release has somehow corrupted the production environment. Because the release&#xD;
+    activity can have such a dramatic impact on the business, the purpose of the Production Release practice is to ensure&#xD;
+    that the application developed is properly prepared to be released into production without any unintended consequences.&#xD;
+&lt;/p></problem>
+  <application>&lt;p>&#xD;
+    The best way to read this practice is to become familiar with its overall structure, what is in it, and how it is&#xD;
+    organized.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Start with the tasks for preparing the release for production, then review the work products that result from those&#xD;
+    tasks. Next, review the tasks of the deployment activity. Although these tasks sound straightforward, there is much&#xD;
+    skill and effort that goes into them. That is why a seasoned Deployment Engineer should execute these tasks.&#xD;
+&lt;/p></application>
+</org.eclipse.epf.uma:PracticeDescription>

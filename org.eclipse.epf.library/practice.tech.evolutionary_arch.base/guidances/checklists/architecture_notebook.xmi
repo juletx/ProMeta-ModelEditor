@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_17Ve8Nd6EdmIm-bsRSNCgw" name="architecture,_17PYUNd6EdmIm-bsRSNCgw" guid="_17Ve8Nd6EdmIm-bsRSNCgw" authors="Chris Doyle, Mark Dickson" changeDate="2008-08-11T10:07:36.000-0700" changeDescription="(Mark Dickson) formatted &amp; applied changes from Chris Doyle " version="1.2">
+  <sections xmi:id="_MN7hMNjcEdydTt3eL7YyCQ" name="Is the architecture understandable?" guid="_MN7hMNjcEdydTt3eL7YyCQ">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Is the description of the architecture complete, meaningful, and clear?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the&amp;nbsp;architecture&amp;nbsp;at an appropriate level of detail, given the objectives?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are concepts&amp;nbsp;handled in the simplest way possible?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does&amp;nbsp;the architecture clearly convey not only the solution but also the motivation and objectives related to&#xD;
+        the&amp;nbsp;decisions that have been made in shaping the architecture?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are the key assumptions and decisions that the&amp;nbsp;architecture is based on documented and visible to reviewers&#xD;
+        and those who will use the architecture?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the architecture description current?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Have the design guidelines been followed?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_U-wp8NvXEdyrWIQpneun6w" name="Have the architectural goals, constraints and requirements been adequately described and handled?" guid="_U-wp8NvXEdyrWIQpneun6w">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Have the &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/arch_goals_CB41D8AE.html&quot;&#xD;
+        guid=&quot;_HlRqANpbEdyP58ppo1Ieaw&quot;>Architectural Goals&lt;/a>&amp;nbsp;been clearly described?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Have any &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/arch_constraints_AE56B662.html&quot;&#xD;
+        guid=&quot;_jdKSsNpiEdyP58ppo1Ieaw&quot;>Architectural Constraints&lt;/a>&amp;nbsp;been identified and documented?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Have the &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html&quot;&#xD;
+        guid=&quot;_HrZGIA4MEduibvKwrGxWxA&quot;>Architecturally Significant Requirements&lt;/a>&amp;nbsp;been identified and are they&#xD;
+        clearly described.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the architecture is consistent with the architectural goals, constraints and requirements?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_UCJbQNvYEdyrWIQpneun6w" name="Have necessary architectural mechanisms been identified and described?" guid="_UCJbQNvYEdyrWIQpneun6w">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Is it clear when&amp;nbsp;each &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html&quot;&#xD;
+        guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a>&amp;nbsp;should be applied?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is there a clearly defined design pattern in place to support&amp;nbsp;each mechanism?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does each mechanism adequately address the requirements it is intended to meet?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_hKAz8NvZEdyrWIQpneun6w" name="Have the system partitions been adequately defined?" guid="_hKAz8NvZEdyrWIQpneun6w">
+    <sectionDescription>&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        Is partitioning approach clearly described and applied consistently?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does the partitioning approach reduce complexity and improve understanding?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Have the partitions been defined to be highly cohesive within the partition, while the partitions themselves are&#xD;
+        loosely coupled?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_eYXBINvYEdyrWIQpneun6w" name="Have the key elements been adequately defined?" guid="_eYXBINvYEdyrWIQpneun6w">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Have the &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/key_abstractions_1474DBF2.html&quot;&#xD;
+        guid=&quot;_pLEGUNqGEdy88NBoQgfGyg&quot;>Key Abstractions&lt;/a>&amp;nbsp;adequately defined?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Have the the key design elements (i.e., &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/component_CB167D48.html&quot;&#xD;
+        guid=&quot;_0YP18MlgEdmt3adZL5Dmdw&quot;>Component&lt;/a>s) adequately defined?&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Do the components have well-defined interfaces?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Have the system's responsibilities been allocated to the components?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Are the number and types of components reasonable?&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_KU3WQNvbEdyrWIQpneun6w" name="Have interfaces to external systems been adequately represented?" guid="_KU3WQNvbEdyrWIQpneun6w">
+    <sectionDescription>&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/guidelines/repres_interfaces_to_ext_systems_51A34F6E.html&quot;&#xD;
+    guid=&quot;_0gjdYMlgEdmt3adZL5Dmdw&quot;>Guideline: Representing Interfaces to External Systems&lt;/a>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_bQB24NvbEdyrWIQpneun6w" name="Has all reuse been identified?" guid="_bQB24NvbEdyrWIQpneun6w">
+    <sectionDescription>Have all reusable assets been identified -- either those reused by the system, or those elements within the system that&#xD;
+have been built to be reused.&amp;nbsp; For more information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+href=&quot;./../../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html&quot;&#xD;
+guid=&quot;_vO2uoO0OEduUpsu85bVhiQ&quot;>Guideline: Software Reuse&lt;/a>.</sectionDescription>
+  </sections>
+  <sections xmi:id="_pgGfsNvaEdyrWIQpneun6w" name="Has the architecture been built to evolve?" guid="_pgGfsNvaEdyrWIQpneun6w">
+    <sectionDescription>&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        Can the&amp;nbsp;architecture easily evolve,&amp;nbsp;so that&amp;nbsp;expected changes can be easily accommodated?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are all technical risks either mitigated or addressed in a contingency plan?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Has the&amp;nbsp;architecture been overly structured to handle unlikely change at the expense of simplicity and&#xD;
+        comprehensibility? (Hint: &quot;Yes&quot; to this question is not good.)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br />&#xD;
+&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_aWun4NjcEdydTt3eL7YyCQ" name="Can the architecture be delivered by the team?" guid="_aWun4NjcEdydTt3eL7YyCQ">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Does the architecture provide a suitable basis for organizing the development teams?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does each team have the skills required to implement their allocated components?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are responsibilities divided well between teams?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Do all team members share the same understanding of the architecture as the one presented by the architect?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Can team members understand enough from the architecture to successfully design and code their allocated&#xD;
+        components?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_9LIDYNvbEdyrWIQpneun6w" name="Has the software been adequately mapped to the hardware?" guid="_9LIDYNvbEdyrWIQpneun6w">
+    <sectionDescription>&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        Have the deployable software components been mapped to physical nodes?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

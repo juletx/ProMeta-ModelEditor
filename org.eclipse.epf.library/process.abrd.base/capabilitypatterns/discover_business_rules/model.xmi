@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__Z1Ts7ekEd-D7YZN9NgldQ" guid="__Z1Ts7ekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__Z1TtLekEd-D7YZN9NgldQ" id="-z9VrO6XKxLBPsLPbkRNDlg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jI_akVmSEeCcpdiAcH0w-w" id="-lm3kKBz3aGKgtfJqku4utw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jI_aklmSEeCcpdiAcH0w-w" id="-68Th4UZYizWD_CWSKyd3iw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jI_ak1mSEeCcpdiAcH0w-w" id="-Jj9nvyH0gVrdCHxKpOws0A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jI_alFmSEeCcpdiAcH0w-w" id="-FWD_oEKFs78KJKJ_KSHXHw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jI_alVmSEeCcpdiAcH0w-w" id="-Zt7Ibx5DM49KKxndcqRTtw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jI_allmSEeCcpdiAcH0w-w" id="-rLfn7xRB2TQqbODEHjDh-g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jJJLkFmSEeCcpdiAcH0w-w" id="-Z6HScOkPIosgyp7UCf6Qlg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jJJLkVmSEeCcpdiAcH0w-w" id="-CdOZnJTJqXUWqZwWTv00YA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jJJLklmSEeCcpdiAcH0w-w" id="-00teH0OUZQu5a2dSdjcT0g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jJJLk1mSEeCcpdiAcH0w-w" id="-oMh2j3Q0H1ko6v__BoxY0Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jJSVgFmSEeCcpdiAcH0w-w" id="-WnGCuUFJzEEm0quNf1yoRg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jJSVgVmSEeCcpdiAcH0w-w" id="-TyRUd1xh4OgmE7l9ZXFTCg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jJSVglmSEeCcpdiAcH0w-w" id="-dUUjRXpEQ7U-x2t9WG3nXg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_40DokHqkEd2o_5d3MWaNxQ" name="discover_business_rules" guid="_40DokHqkEd2o_5d3MWaNxQ">
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Q2X4ZHtxEd2tkbw8c1Rm7g" name="use_case_model" guid="_Q2X4ZHtxEd2tkbw8c1Rm7g" presentationName="Use-Case Model" briefDescription="This artifact captures a model of the intended functions and environment of the system and serves as a contract between the customer and the team." isPlanned="false" superActivities="_40DokXqkEd2o_5d3MWaNxQ">
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_0U6OEMlgEdmt3adZL5Dmdw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_KudM0NcJEdqz_d2XWoVt6Q"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_2jyfUAhVEduRe8TeoBmuGg"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_zGqO0MDpEduTGJ8i4u8TMw"/>
+      <examples href="uma://_OOB2AAouEdyhlpBPrduOMw#_t4QdAMNqEdu2IdAIaWZyAw"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_W2SgEDR5EdutE_HNDTJk5Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ELiLsD3hEd-rQL4FfV6WbQ" name="identify_decision_point" guid="_ELiLsD3hEd-rQL4FfV6WbQ" presentationName="Identify Decision Points" briefDescription="Decision points are points of variability and decision in a business process. The goal of this task is to list the potential decision points in scope for the project." superActivities="_40DokXqkEd2o_5d3MWaNxQ" output="_H0NM8nt0Ed2obd5av1OT7w _h4FMVlmSEeCcpdiAcH0w-w">
+      <presentation xmi:id="-lm3kKBz3aGKgtfJqku4utw" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-lm3kKBz3aGKgtfJqku4utw"/>
+      <examples href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_yNUigIMUEd-68ahhmSUqHw"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_eORS8GhhEd-FVuzXjnvIWA"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_A2d5sCyQEd-ER8gMc_Ftrw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_H0NM8Ht0Ed2obd5av1OT7w" name="review_decision_point_table" guid="_H0NM8Ht0Ed2obd5av1OT7w" presentationName="Review Decision Point Table, Business Process Map, Use Case Model" briefDescription="After the business modeling activity of the Inception Phase the project team should have a decision point table document as a source for the rule discovery phase. A review of each decision point is needed. If this table is not present the team can start by the current business process description and then layouts this DP table." superActivities="_40DokXqkEd2o_5d3MWaNxQ" isSynchronizedWithSource="false" mandatoryInput="_H0NM83t0Ed2obd5av1OT7w" optionalInput="_Q2X4ZHtxEd2tkbw8c1Rm7g _H0NM8nt0Ed2obd5av1OT7w" output="_H0NM8nt0Ed2obd5av1OT7w">
+      <presentation xmi:id="-68Th4UZYizWD_CWSKyd3iw" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-68Th4UZYizWD_CWSKyd3iw"/>
+      <examples href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_Fpgz4HqsEd2o_5d3MWaNxQ"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_eORS8GhhEd-FVuzXjnvIWA"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruWzAjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-GPF0smZFlAxXRJQwghRiZA#_sruWzQjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-GPF0smZFlAxXRJQwghRiZA#_XA_IIHrPEd2o_5d3MWaNxQ"/>
+      <selectedSteps href="uma://-GPF0smZFlAxXRJQwghRiZA#_sruWzwjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-GPF0smZFlAxXRJQwghRiZA#_sruW0AjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-GPF0smZFlAxXRJQwghRiZA#_1KxREHrNEd2o_5d3MWaNxQ"/>
+      <selectedSteps href="uma://-GPF0smZFlAxXRJQwghRiZA#_sruWzgjqEdyj5bYZ0eCR5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_H0NM8nt0Ed2obd5av1OT7w" name="decision_point_table" guid="_H0NM8nt0Ed2obd5av1OT7w" presentationName="Decision Point Table" isPlanned="false" superActivities="_40DokXqkEd2o_5d3MWaNxQ">
+      <presentation xmi:id="-Jj9nvyH0gVrdCHxKpOws0A" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-Jj9nvyH0gVrdCHxKpOws0A"/>
+      <examples href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_kRoWgBDFEdyJtJ3PbfdVDw"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_SlELAAsbEdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_H0NM83t0Ed2obd5av1OT7w" name="business_process_map" guid="_H0NM83t0Ed2obd5av1OT7w" presentationName="Business Process Map" briefDescription="A Process map describes graphically using Business Process Management Notation (BPMN) the business process under scope." isPlanned="false" superActivities="_40DokXqkEd2o_5d3MWaNxQ">
+      <presentation xmi:id="-FWD_oEKFs78KJKJ_KSHXHw" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-FWD_oEKFs78KJKJ_KSHXHw"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_Uw8aYBDGEdyJtJ3PbfdVDw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_JbeFsHt0Ed2obd5av1OT7w" name="define_discovery_roadmap" guid="_JbeFsHt0Ed2obd5av1OT7w" presentationName="Define Discovery Roadmap" briefDescription="The definition of the discovery roadmap is an important step to understand how the development team will extract the rules from the different kind of sources. There are multiple types of roadmaps according to the different starting points and rule sources." superActivities="_40DokXqkEd2o_5d3MWaNxQ" linkToPredecessor="_KKtxUHt0Ed2obd5av1OT7w" isSynchronizedWithSource="false" mandatoryInput="_H0NM8nt0Ed2obd5av1OT7w" optionalInput="_Q2X4ZHtxEd2tkbw8c1Rm7g _H0NM83t0Ed2obd5av1OT7w _h4FMWVmSEeCcpdiAcH0w-w" output="_JbeFsnt0Ed2obd5av1OT7w">
+      <presentation xmi:id="-Zt7Ibx5DM49KKxndcqRTtw" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-Zt7Ibx5DM49KKxndcqRTtw"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruWygjqEdyj5bYZ0eCR5g"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_srklxgjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-Ak_E6i3qbz4NMG7ynyf4DA#_srklyQjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-Ak_E6i3qbz4NMG7ynyf4DA#_srklxwjqEdyj5bYZ0eCR5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_KKtxUHt0Ed2obd5av1OT7w" guid="_KKtxUHt0Ed2obd5av1OT7w" pred="_H0NM8Ht0Ed2obd5av1OT7w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_JbeFsnt0Ed2obd5av1OT7w" name="rule_discovery_roadmap" guid="_JbeFsnt0Ed2obd5av1OT7w" presentationName="Rule Discovery Roadmap" isPlanned="false" superActivities="_40DokXqkEd2o_5d3MWaNxQ">
+      <presentation xmi:id="-rLfn7xRB2TQqbODEHjDh-g" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-rLfn7xRB2TQqbODEHjDh-g"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruWygjqEdyj5bYZ0eCR5g"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW2QjqEdyj5bYZ0eCR5g"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW1QjqEdyj5bYZ0eCR5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_LIaIoHt0Ed2obd5av1OT7w" name="organise_workshop" guid="_LIaIoHt0Ed2obd5av1OT7w" presentationName="Organize Workshop" briefDescription="In case of human source for the rule the team needs to organize elicitation workshops" superActivities="_40DokXqkEd2o_5d3MWaNxQ" linkToPredecessor="_L4_RAHt0Ed2obd5av1OT7w" mandatoryInput="_JbeFsnt0Ed2obd5av1OT7w" output="_LIaIoXt0Ed2obd5av1OT7w">
+      <presentation xmi:id="-Z6HScOkPIosgyp7UCf6Qlg" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-Z6HScOkPIosgyp7UCf6Qlg"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW0QjqEdyj5bYZ0eCR5g"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruWxAjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-ffYBUOhR5mZssG9eZxktmg#_sruWyQjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-ffYBUOhR5mZssG9eZxktmg#_sruWxwjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-ffYBUOhR5mZssG9eZxktmg#_sruWxgjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-ffYBUOhR5mZssG9eZxktmg#_sruWyAjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-ffYBUOhR5mZssG9eZxktmg#_sruWxQjqEdyj5bYZ0eCR5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_L4_RAHt0Ed2obd5av1OT7w" guid="_L4_RAHt0Ed2obd5av1OT7w" pred="_JbeFsHt0Ed2obd5av1OT7w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_LIaIoXt0Ed2obd5av1OT7w" name="discovery_workshop_itinerary" guid="_LIaIoXt0Ed2obd5av1OT7w" presentationName="Rule Discovery Workshop Itinerary" isPlanned="false" superActivities="_40DokXqkEd2o_5d3MWaNxQ">
+      <presentation xmi:id="-CdOZnJTJqXUWqZwWTv00YA" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-CdOZnJTJqXUWqZwWTv00YA"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW0wjqEdyj5bYZ0eCR5g"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_srklwQjqEdyj5bYZ0eCR5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ac8CoHt0Ed2obd5av1OT7w" name="execute_rule_discovery_roadmap" guid="_ac8CoHt0Ed2obd5av1OT7w" presentationName="Execute Rule Discovery Roadmap" briefDescription="This activity or task includes the three types of rule discovery: business users and experts workshop session, document study, legacy code mining. Even if the main source of rules are documents or code, it is still important to come back to a SME to get feedbacks on the team findings." hasMultipleOccurrences="true" superActivities="_40DokXqkEd2o_5d3MWaNxQ" isRepeatable="true" linkToPredecessor="_a7e_0Ht0Ed2obd5av1OT7w" mandatoryInput="_H0NM83t0Ed2obd5av1OT7w _H0NM8nt0Ed2obd5av1OT7w" optionalInput="_LIaIoXt0Ed2obd5av1OT7w" output="_ac8CoXt0Ed2obd5av1OT7w _ac8Cont0Ed2obd5av1OT7w _ac8Co3t0Ed2obd5av1OT7w">
+      <presentation xmi:id="-00teH0OUZQu5a2dSdjcT0g" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-00teH0OUZQu5a2dSdjcT0g"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW1gjqEdyj5bYZ0eCR5g"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW3AjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-QyQxGy-JR3YceDG_VUN5aw#_sruW4QjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-QyQxGy-JR3YceDG_VUN5aw#_sruW4AjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-QyQxGy-JR3YceDG_VUN5aw#_sruW3gjqEdyj5bYZ0eCR5g"/>
+      <selectedSteps href="uma://-QyQxGy-JR3YceDG_VUN5aw#_sruW3QjqEdyj5bYZ0eCR5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_a7e_0Ht0Ed2obd5av1OT7w" guid="_a7e_0Ht0Ed2obd5av1OT7w" pred="_LIaIoHt0Ed2obd5av1OT7w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ac8CoXt0Ed2obd5av1OT7w" name="business_terms_glossary" guid="_ac8CoXt0Ed2obd5av1OT7w" presentationName="Business Terms Glossary" briefDescription="Log in one document the terms and their definition as used by the business user" isPlanned="false" superActivities="_40DokXqkEd2o_5d3MWaNxQ">
+      <presentation xmi:id="-oMh2j3Q0H1ko6v__BoxY0Q" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-oMh2j3Q0H1ko6v__BoxY0Q"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW1wjqEdyj5bYZ0eCR5g"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_srklygjqEdyj5bYZ0eCR5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ac8Cont0Ed2obd5av1OT7w" name="rule_description_doc" guid="_ac8Cont0Ed2obd5av1OT7w" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_40DokXqkEd2o_5d3MWaNxQ">
+      <presentation xmi:id="-WnGCuUFJzEEm0quNf1yoRg" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-WnGCuUFJzEEm0quNf1yoRg"/>
+      <examples href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_j4-ukDS3EdyTBtGu8YeFfg"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_srklxAjqEdyj5bYZ0eCR5g"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_srklxQjqEdyj5bYZ0eCR5g"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW2gjqEdyj5bYZ0eCR5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ac8Co3t0Ed2obd5av1OT7w" name="conceptual_data_model" guid="_ac8Co3t0Ed2obd5av1OT7w" presentationName="Conceptual Data Model" isPlanned="false" superActivities="_40DokXqkEd2o_5d3MWaNxQ">
+      <presentation xmi:id="-TyRUd1xh4OgmE7l9ZXFTCg" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-TyRUd1xh4OgmE7l9ZXFTCg"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_hYc8UHr9Ed2l9d4UccBrvQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_h4FMVlmSEeCcpdiAcH0w-w" name="business_event_description" guid="_h4FMVlmSEeCcpdiAcH0w-w" presentationName="Business Event Description" briefDescription="Logging the business events source of business process execution helps to drive rule discovery." isPlanned="false" superActivities="_40DokXqkEd2o_5d3MWaNxQ">
+      <methodElementProperty xmi:id="_h4FMV1mSEeCcpdiAcH0w-w" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-dUUjRXpEQ7U-x2t9WG3nXg" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-dUUjRXpEQ7U-x2t9WG3nXg"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_HSrrgGhiEd-FVuzXjnvIWA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_h4FMWVmSEeCcpdiAcH0w-w" name="use_case" guid="_h4FMWVmSEeCcpdiAcH0w-w" presentationName="Use Case" briefDescription="This artifact captures the system behavior to yield an observable result of value to those who interact with the system." isPlanned="false" superActivities="_40DokXqkEd2o_5d3MWaNxQ">
+      <methodElementProperty xmi:id="_h4FMWlmSEeCcpdiAcH0w-w" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_0kNwINk1Edq2Q8qZoWbvGA"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_KudM0NcJEdqz_d2XWoVt6Q"/>
+      <examples href="uma://_OOB2AAouEdyhlpBPrduOMw#_JLOiIMNvEdu2IdAIaWZyAw"/>
+      <templates href="uma://_OOB2AAouEdyhlpBPrduOMw#_3Y3XUI5fEdyO5aWob1UGDA"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0VGbUMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_40DokXqkEd2o_5d3MWaNxQ" name="discover_business_rules" guid="_40DokXqkEd2o_5d3MWaNxQ" presentationName="Discover Business Rules" breakdownElements="_Q2X4ZHtxEd2tkbw8c1Rm7g _ELiLsD3hEd-rQL4FfV6WbQ _H0NM8Ht0Ed2obd5av1OT7w _H0NM8nt0Ed2obd5av1OT7w _H0NM83t0Ed2obd5av1OT7w _JbeFsHt0Ed2obd5av1OT7w _JbeFsnt0Ed2obd5av1OT7w _LIaIoHt0Ed2obd5av1OT7w _LIaIoXt0Ed2obd5av1OT7w _ac8CoHt0Ed2obd5av1OT7w _ac8CoXt0Ed2obd5av1OT7w _ac8Cont0Ed2obd5av1OT7w _ac8Co3t0Ed2obd5av1OT7w _h4FMVlmSEeCcpdiAcH0w-w _h4FMWVmSEeCcpdiAcH0w-w">
+      <presentation xmi:id="-z9VrO6XKxLBPsLPbkRNDlg" href="uma://-z9VrO6XKxLBPsLPbkRNDlg#-z9VrO6XKxLBPsLPbkRNDlg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

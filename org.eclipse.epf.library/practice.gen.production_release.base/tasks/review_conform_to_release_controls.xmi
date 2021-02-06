@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-zT8t7LcbcrgIhYd_XUi6DA" name="01_review_conform_to_release_controls,_PwLDcDHMEeC7j_IRiP-WPQ" guid="-zT8t7LcbcrgIhYd_XUi6DA" changeDate="2012-05-30T14:22:34.002-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Release controls describe the minimum number of requirements that a software package must adhere to before being&#xD;
+    released into production. This is especially important if a development team is new or emerging, because they might not&#xD;
+    be aware of the great responsibilities a deployment manager has. In fact, a deployment manager is responsible to senior&#xD;
+    management for ensuring that nothing is placed into production that does not conform to the rigid controls designed to&#xD;
+    protect the IT organization's ability to successfully deliver IT services to internal and external customers.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Release controls typically consist of the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Release or deployment plan&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Backout plan&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Release component definitions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Release package integrity verification&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        References to configuration items (CIs)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Customer approval&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ready for transfer to operations and support staff&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <sections xmi:id="_IAJWAuB-EeC1y_NExchKwQ" name="Locate release controls" guid="_IAJWAuB-EeC1y_NExchKwQ">
+    <sectionDescription>If the program's release controls are not readily available, the development team must engage the deployment manager and/or&#xD;
+their deployment engineers to know where to find the release controls and be able to comply with them.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAJWAeB-EeC1y_NExchKwQ" name="Review release controls" guid="_IAJWAeB-EeC1y_NExchKwQ">
+    <sectionDescription>The development team should thoroughly review the release controls so that it understands what is expected before a release&#xD;
+is accepted into the production environment. If the team has any questions or issues with the controls, team members should&#xD;
+communicate directly with the deployment manager or the deployment engineer to understand the issues.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAJWAOB-EeC1y_NExchKwQ" name="Ensure the team release conforms to the controls" guid="_IAJWAOB-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    Coordinated releases at the program level are very formal processes. They are formal for a very good reason - namely,&#xD;
+    the company's production environment could be corrupted and serious business ramifications could result, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Lost revenue&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        customer dissatisfaction&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Fines resulting from legal noncompliance&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Lost employee productivity&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    All development team members that contribute to a release are expected to adhere to all the controls defined at the&#xD;
+    program level. Non-compliance could result in multiple impacts:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The entire release being abandoned, which could lead to customer or end user dissatisfaction&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The results of multiple feature development Sprint/Iterations not being included in the release&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Embarrassment on the part of the development team member that did not comply with the controls&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Loss of funding for that development team&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to ensure that there are no (or minimal) negative impacts to existing production systems,&#xD;
+products, services, and operations.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

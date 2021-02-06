@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-_h7-0RcdiOHilolPvT5AbA" name="define_data_scenario,_eAWtgFv3EdykEsBjRsVfZw" guid="-_h7-0RcdiOHilolPvT5AbA" authors="Jerome Boyer" changeDate="2010-05-25T06:17:29.000-0700" version="7.5.0">
+  <mainDescription>This task is initiated during the rule harvesting phase, and completed over the development life cycle. Developing the data
+model used by the rules enforces to adopt a test driven development approach which define the&amp;nbsp;data with the project
+model. Extracting the terms and the facts used by the rules helps to define the conceptual&amp;nbsp;data model, this model can
+be unit tested with framework like Junit. Data defined in these test cases&amp;nbsp;should come&amp;nbsp;from the rule discovery
+session. Rule discovery is easily facilitate when concrete example is used to drive understanding of the
+business&amp;nbsp;intent for each rule. The concrete example is used to populate data for test.&amp;nbsp;&amp;nbsp;</mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

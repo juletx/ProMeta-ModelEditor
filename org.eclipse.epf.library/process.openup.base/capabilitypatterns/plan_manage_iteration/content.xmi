@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-b6sTuOuA7eFhaR_H3EfgBw" name="plan_manage_iteration,_oZgCsdOEEdyqlogshP8l4g" guid="-b6sTuOuA7eFhaR_H3EfgBw" version="7.2.0">
+    <mainDescription>&lt;p>
+    This activity is performed throughout the project lifecycle. The goal of this activity is to identify risks and issues
+    early enough that they can be mitigated, to establish the goals for the iteration, and to support the development team
+    in reaching these goals.
+&lt;/p>
+&lt;p>
+    The project manager and the team launch the iteration. The prioritization of work for a given iteration takes place.
+    The project manager, stakeholders, and team members agree on what is supposed to be developed during that iteration.
+&lt;/p>
+&lt;p>
+    Team members sign up for the work items they will develop in that iteration. Each team member breaks down the work
+    items into development tasks and estimates the effort. This provides a more accurate estimate of the amount of time
+    that will be spent, and of what can be realistically achieved, in a given iteration.
+&lt;/p>
+&lt;p>
+    As the iteration runs, the team meets regularly to report status of work completed, the work to do next, and issues
+    blocking the progress. In some projects, this status checking occurs in daily meetings, which allows for a more precise
+    understanding of how the work in an iteration is progressing. As necessary, the team makes corrections to achieve what
+    was planned. The overall idea is that risks and issues are identified and managed throughout the iteration, and
+    everyone knows the project status in a timely manner.
+&lt;/p>
+&lt;p>
+    During iteration assessments, the key success criterion is the demonstration that planned functionality has been
+    implemented. Lessons learned are captured in order to modify the project or improve the process. If the iteration end
+    coincides with the phase end, make sure the objectives for that phase have been met (see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/phase_milestones_5678231E.html&quot; guid=&quot;_HNxbwMBJEdqSgKaj2SZBmg&quot;>Concept: Phase Milestones&lt;/a> for more information).
+&lt;/p></mainDescription>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HoXXyN2BKM1DoI1eHGVrGw" name="plan_iteration,_y05RQNOJEdyqlogshP8l4g" guid="-HoXXyN2BKM1DoI1eHGVrGw">
+    <refinedDescription>&lt;p>&#xD;
+    During project planning, iterations are identified, but the estimates have an acceptable uncertainty due to the lack of&#xD;
+    detail at the project inception. This task is repeated for each iteration within a release. It allows the team to&#xD;
+    increase the accuracy of the estimates for one iteration, as more detail is known along the project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Ensure that the team commits to a reasonable amount of work for the iteration, based on team performance from previous&#xD;
+    iterations.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-b0cwbrvCtusECT9Bx_eEkQ" name="iteration_plan,_y1MMMNOJEdyqlogshP8l4g" guid="-b0cwbrvCtusECT9Bx_eEkQ">
+    <keyConsiderations>&lt;p>&#xD;
+    Work items assigned to an iteration do not necessarily have the same priority. When selecting work items from the Work&#xD;
+    Items List, the iteration plan may end up having work items with different priorities (for example, you assign the&#xD;
+    remaining high priority work items, plus a few mid-priority ones from the Work Items List). Once work items have been&#xD;
+    assigned to the iteration, the team ensures that they can complete all work, regardless of original work item&#xD;
+    priorities. Deciding what to develop first on an iteration will vary across projects and iterations.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact captures the key milestones of an iteration, showing start and end dates, intermediate milestones,&#xD;
+    synchronization points with other teams, demos, and so on. This artifact is also used to capture issues that need to be&#xD;
+    solved during the iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You should list a few objectives for the iteration, which will help guide you throughout the iteration. Also, assess at&#xD;
+    the end if those objectives have been achieved.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The task assignments for an iteration are a subset of all tasks on the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot;&#xD;
+    guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Artifact: Work Items List&lt;/a>. Therefore, the iteration plan ideally references those&#xD;
+    work items.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The evaluation criteria and iteration assessment information are captured in this artifact, so that you can communicate&#xD;
+    results and actions from assessments.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-uiigawastH3uIscV6br3Mg" name="risk_list,_y1MMMdOJEdyqlogshP8l4g" guid="-uiigawastH3uIscV6br3Mg">
+    <keyConsiderations>&lt;p>&#xD;
+    This list should capture the critical and serious risks. If you find this list extending beyond 20 items, carefully&#xD;
+    consider whether they are really serious risks. Tracking more than 20 risks is an onerous task.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This list identifies, in decreasing order of priority, all the &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.base/guidances/termdefinitions/risk_33255339.html&quot;&#xD;
+    guid=&quot;_ii2LUEvGEdunZcj9T5hrMQ&quot;>risks&lt;/a> associated to a project.&amp;nbsp;It serves as a focal point for project&#xD;
+    activities, and is the basis around which iterations are organized.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot;&#xD;
+    guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>Concept: Risk&lt;/a>&amp;nbsp;for more details.&lt;!--EndFragment-->&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mTtAiA6WcEVWloBE8ZdcOg" name="work_items_list,_y1MMMtOJEdyqlogshP8l4g" guid="-mTtAiA6WcEVWloBE8ZdcOg">
+    <keyConsiderations>&lt;p>&#xD;
+    Work Items should contain estimates. See guidelines on managing work items and agile estimation.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact provides a focal point for the entire team:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        It provides one list containing all requests for additional capabilities or enhancement for that application. Note&#xD;
+        that some of these requests may never be implemented, or be implemented in later projects.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one list of all the work to be prioritized, estimated, and assigned within the project. The risk list&#xD;
+        is prioritized separately.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one place to go to for the development team to understand what&amp;nbsp;micro-increments&amp;nbsp;need to be&#xD;
+        delivered, get references to material required to carry out the work, and report progress made.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    These are the typical work items that go on this list:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Use cases (and references to use-case specifications)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Changes and enhancement requests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defects&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Development tasks&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Work items can be very large in scope, especially when capturing requests for enhancements, such as &quot;Support Financial&#xD;
+    Planning&quot; for a personal finance application. To allow the application to be developed in micro-increments, work items&#xD;
+    are analyzed and broken down into smaller work items so that they can be assigned to an iteration, such as a use-case&#xD;
+    scenario for&amp;nbsp;&quot;Calculate Net Worth&quot;. Further breakdown may be required to identify suitable tasks to be assigned to&#xD;
+    developers, such as &quot;Develop UI for Calculate Net Worth&quot;. This means that work items often have parent/child&#xD;
+    relationships, where the lowest level is a specification and tracking device for micro-increments.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZTgIJKYY8ZpIoo7b-pFrFg" name="manage_iteration,_zjF0ANOJEdyqlogshP8l4g" guid="-ZTgIJKYY8ZpIoo7b-pFrFg">
+    <refinedDescription>&lt;p>&#xD;
+    Developing the team is part of executing the project. Improve the interactions and trust between team members,&#xD;
+    incorporating team building into project activities, and empowering the team to make decisions. Management is done by&#xD;
+    objectives and not by time reporting.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Help the team meet the iteration objectives by removing constraints, and by monitoring the progress and work remaining&#xD;
+    to completion. When the team is falling behind, help the team assess how it can reduce work and still meet the&#xD;
+    iteration goals. Involve stakeholders in approving changes and actions that affect them, so that their objectives for&#xD;
+    the iteration can be met, and the issues they raise can be solved throughout the iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Select an approach for the collection of basic metrics: ideally, they are automatically generated from the tools at&#xD;
+    hand, but can be manually assembled, or both. &lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Outline&#xD;
+    which metrics the project should use in the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.slot.base/workproducts/project_definition_and_scope_slot_BB8EB6F7.html&quot;&#xD;
+    guid=&quot;_RJMUcNpUEdyzZqGyZ7hwdw&quot;>[Project Definition and Scope]&lt;/a>.&lt;/span>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2lpprtg7ud6uXyuBYZMnIg" name="assess_results,_0Qiv4NOJEdyqlogshP8l4g" guid="-2lpprtg7ud6uXyuBYZMnIg">
+    <refinedDescription>Coordinate the assessment and discuss with the team how the iteration results will be best presented to stakeholders, so&#xD;
+that they can learn as much about the solution as possible. Listen to what the team has to say about what went wrong (and&#xD;
+what went right) during the iteration. This knowledge will help everybody make informed decisions about the next iteration&#xD;
+planning, and determine the best course of action for the project. This task is performed at the end of every iteration&#xD;
+until the end of the project.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-uskJm_ZUbwQ-IfE56A_rOQ" name="developer_test,_FJm0e5oPEeGnJt_Qpwdfdg" guid="-uskJm_ZUbwQ-IfE56A_rOQ">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact covers all of the steps to validate a specific aspect of an implementation element. For example, a test&#xD;
+    could ensure that the parameters of a method properly accept the uppermost and lowermost required values. A developer&#xD;
+    test specifies test entries, execution conditions, and expected results. These details are identified to evaluate a&#xD;
+    particular aspect of a scenario.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When you collect developer tests for a specific implementation element, you can validate that the element performs as&#xD;
+    specified.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The tests be self-documenting so that it is clear upon completion of the test whether the implementation element has&#xD;
+    run correctly.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gnvdWJk9YxvDdMf7_smU-A" name="implementation,_FJm0fpoPEeGnJt_Qpwdfdg" guid="-gnvdWJk9YxvDdMf7_smU-A">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-y0XtxCz8Q2s7_a5qXQ6jYQ" name="build,_FJm0gZoPEeGnJt_Qpwdfdg" guid="-y0XtxCz8Q2s7_a5qXQ6jYQ">
+    <refinedDescription>&lt;p>&#xD;
+    This working version of the system or part of the system&amp;nbsp;is the result of putting the implementation through a&#xD;
+    build process (typically an automated build script) that creates an executable version, or one that runs. This&#xD;
+    executable version will typically have a number of supporting files that are also considered part of this artifact.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-sT0Sl-iSQDRRp5fh1HPbUw" name="design,_FJm0hJoPEeGnJt_Qpwdfdg" guid="-sT0Sl-iSQDRRp5fh1HPbUw">
+    <refinedDescription>&lt;p>&#xD;
+    This work product describes the elements that will make up the implemented system. It communicates abstractions of&#xD;
+    particular portions of the implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While architecture focuses on interfaces, patterns, and key decisions, the design fleshes out the technical details in&#xD;
+    readiness for implementation, or as part of implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This product can describe multiple static and dynamic views of the system for examination. Although various views may&#xD;
+    focus on divergent, seemingly independent issues of how the system will be put together and work, they should fit&#xD;
+    together without contradiction.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kf93WiVNlTyNTwYo2aW6lA" name="setup_tools,_3MJwMpoQEeGnJt_Qpwdfdg" guid="-kf93WiVNlTyNTwYo2aW6lA">
+    <refinedDescription>&lt;p>
+    Many software-development tools support teams of people, with several users working with information stored in a shared
+    repository. Each user uses the tool on their personal computer (client) and the shared repository is stored on a
+    central server.&amp;nbsp;In this case the tool must be installed on the server and on the clients. Customizing the tool is
+    done both on the server and on the client.&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/p>
+&lt;p>
+    There are tools that do not use a shared repository, such as compilers, debuggers, editors, graphic tools, etc. These
+    tools can simply be installed on the users' computers. It may still be needed to customize the tools so that all
+    members of the project use the tool in the same way.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    The approach should be to automate as much as possible of the installation and customization procedures.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aqrOibs8yam4NLnHTUTdUg" name="verify_tool_config_installation,_3MJwM5oQEeGnJt_Qpwdfdg" guid="-aqrOibs8yam4NLnHTUTdUg">
+    <refinedDescription>The tools and the development infrastructure has to be verified before the project starts using them. How this is done will
+clearly vary dependent upon skills, technology, and tools.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7RmZkWZOtagh0VZHppUXJA" name="project_defined_process,_3MJwNJoQEeGnJt_Qpwdfdg" guid="-7RmZkWZOtagh0VZHppUXJA">
+    <refinedDescription>&lt;p>&#xD;
+    A project process typically describes or references the following items:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        what organizational processes and policies must be adhered to.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        what standard process, if any, is being adopted by the project.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        any tailoring of the standard process, or deviations from policy mandates.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        rationale for tailoring and deviations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        approvals for deviations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        which work products are reviewed at which milestones, and their level of completion.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        guidelines and information that the project wants to use in addition to the information contained in the main.&#xD;
+        process&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        what reviews will be performed, and their level of formality.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        what approvals are required, by whom, and when.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

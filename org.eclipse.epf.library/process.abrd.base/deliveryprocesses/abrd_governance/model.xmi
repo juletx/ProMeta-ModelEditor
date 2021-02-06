@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__aIOoLekEd-D7YZN9NgldQ" guid="__aIOoLekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__aIOobekEd-D7YZN9NgldQ" id="-V7HN63g-3o7JOUbWgrhcug" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_92FEQH_DEd2YWI_0AZcMOA" name="abrd_governance" guid="_92FEQH_DEd2YWI_0AZcMOA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWjx7ekEd-D7YZN9NgldQ" name="Set Governance Processes" guid="_9tWjx7ekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_AxPN0X_EEd2YWI_0AZcMOA" name="Set Governance Processes" guid="_AxPN0X_EEd2YWI_0AZcMOA" presentationName="Setting Governance Processes" superActivities="_92FEQX_DEd2YWI_0AZcMOA" breakdownElements="_YqiyMKvrEd2Pv_z50upsAg _UPAD4Kv_Ed2Pv_z50upsAg _dyP7wKv_Ed2Pv_z50upsAg _sB74A4jpEd2EyNRJ3Sc47g _sB74BIjpEd2EyNRJ3Sc47g _jvkOwKv_Ed2Pv_z50upsAg _onAe0Kv_Ed2Pv_z50upsAg _m7Fk8KzCEd2aLdlF48Bk1g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_YqiyMKvrEd2Pv_z50upsAg" name="develop_organization_map" guid="_YqiyMKvrEd2Pv_z50upsAg" presentationName="Develop Organization Map" superActivities="_AxPN0X_EEd2YWI_0AZcMOA">
+        <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_IFeJQKveEd2Pv_z50upsAg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_UPAD4Kv_Ed2Pv_z50upsAg" name="define_ruleset_ownership" guid="_UPAD4Kv_Ed2Pv_z50upsAg" presentationName="Define Rule Set Ownership and Access Control" superActivities="_AxPN0X_EEd2YWI_0AZcMOA">
+        <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_O93X4KvzEd2Pv_z50upsAg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_dyP7wKv_Ed2Pv_z50upsAg" name="define_policy_change_templates" guid="_dyP7wKv_Ed2Pv_z50upsAg" presentationName="Define Business Policy Change Templates" superActivities="_AxPN0X_EEd2YWI_0AZcMOA">
+        <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_tzUvgKv7Ed2Pv_z50upsAg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sB74A4jpEd2EyNRJ3Sc47g" name="define_rule_life_cycle" guid="_sB74A4jpEd2EyNRJ3Sc47g" presentationName="Define Rule Life Cycle" superActivities="_AxPN0X_EEd2YWI_0AZcMOA">
+        <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_RBu1YFH7Edy72tV0zV7--Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sB74BIjpEd2EyNRJ3Sc47g" name="define_ruleset_life_cycle" guid="_sB74BIjpEd2EyNRJ3Sc47g" presentationName="Define Rule Set Life Cycle " superActivities="_AxPN0X_EEd2YWI_0AZcMOA">
+        <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_RBu1YVH7Edy72tV0zV7--Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_jvkOwKv_Ed2Pv_z50upsAg" name="plan_deployment" guid="_jvkOwKv_Ed2Pv_z50upsAg" presentationName="Plan Deployment" superActivities="_AxPN0X_EEd2YWI_0AZcMOA">
+        <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_E5968Kv8Ed2Pv_z50upsAg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_onAe0Kv_Ed2Pv_z50upsAg" name="develop_process_maps" guid="_onAe0Kv_Ed2Pv_z50upsAg" presentationName="Develop Process Maps" superActivities="_AxPN0X_EEd2YWI_0AZcMOA">
+        <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_deyUkKv8Ed2Pv_z50upsAg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_m7Fk8KzCEd2aLdlF48Bk1g" name="monitor_improve_process" guid="_m7Fk8KzCEd2aLdlF48Bk1g" presentationName="Monitor and Improve Process" superActivities="_AxPN0X_EEd2YWI_0AZcMOA">
+        <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_w0x40KzAEd2aLdlF48Bk1g"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWjyLekEd-D7YZN9NgldQ" name="Maintain Rule" guid="_9tWjyLekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_DtuNEX_EEd2YWI_0AZcMOA" name="Maintain Rule" guid="_DtuNEX_EEd2YWI_0AZcMOA" presentationName="Maintain Rule" superActivities="_92FEQX_DEd2YWI_0AZcMOA" breakdownElements="_2ofj0IjlEd2IHKPn1CJaaw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_2ofj0IjlEd2IHKPn1CJaaw" name="Maintain Rules - Decision Logic" guid="_2ofj0IjlEd2IHKPn1CJaaw" presentationName="Maintain Rules - Decision Logic" superActivities="_DtuNEX_EEd2YWI_0AZcMOA" isSynchronizedWithSource="false">
+        <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_z9ORcKnrEdyzmOHu2kw1UA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_92FEQX_DEd2YWI_0AZcMOA" name="abrd_governance" guid="_92FEQX_DEd2YWI_0AZcMOA" presentationName="Rule Governance" breakdownElements="_AxPN0X_EEd2YWI_0AZcMOA _DtuNEX_EEd2YWI_0AZcMOA">
+      <presentation xmi:id="-V7HN63g-3o7JOUbWgrhcug" href="uma://-V7HN63g-3o7JOUbWgrhcug#-V7HN63g-3o7JOUbWgrhcug"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

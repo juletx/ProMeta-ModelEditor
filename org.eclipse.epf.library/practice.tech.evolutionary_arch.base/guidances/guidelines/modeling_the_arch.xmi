@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-mEJbo_5lG227hXMdftmX_A" name="new_guideline_2,_HrgUQNcuEdy1nJEYZGzN4A" guid="-mEJbo_5lG227hXMdftmX_A" changeDate="2008-10-15T06:32:49.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    When architecting a system, developing visual models of the architecture can be quite helpful as such models provide an&#xD;
+    excellent high-level picture of the system, its &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/component_CB167D48.html&quot;&#xD;
+    guid=&quot;_0YP18MlgEdmt3adZL5Dmdw&quot;>Component&lt;/a>s and their relationships. Specifically, you may find it useful to develop&#xD;
+    these three Unified Modeling Language (UML) diagrams:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Layer map&lt;/strong> (represented as a class diagram using packages) that describes the upper-level layers of&#xD;
+        the architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Deployment diagram&lt;/strong> (represented by a deployment diagram) that outlines the&amp;nbsp;expected network&#xD;
+        topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Key Abstractions diagram&lt;/strong> (represented by a class diagram) that shows the key&#xD;
+        abstractions/components&amp;nbsp;and important relationships among them&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    For more information on visual modeling, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/guidelines/using_visual_modeling_DA1CA6E4.html&quot;&#xD;
+    guid=&quot;_0SsecNr8EdyXE6np2_hUMA&quot;>Guideline: Using Visual Modeling&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

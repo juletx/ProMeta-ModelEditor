@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-i0ekME-sXjZ7YmeJwZzW_A" name="new_artifact,_35jJkFpiEd2nNZq0B7jtNw" guid="-i0ekME-sXjZ7YmeJwZzW_A" changeDate="2008-09-30T00:06:08.000-0700" version="7.5.0">
+  <representationOptions>&lt;h3>&#xD;
+    As part of the Iteration Plan&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.mgmt.iterative_dev.base/workproducts/iteration_plan_B46FED39.html&quot;&#xD;
+    guid=&quot;_0aQBEslgEdmt3adZL5Dmdw&quot;>Iteration Plan&lt;/a> typically references work items that are assigned to that iteration.&#xD;
+    If the team is capturing the iteration plan on a whiteboard, for example, the team may choose to reference high-level&#xD;
+    work items in the Work Items List that are assigned to the iteration, and maintain low-level child work items used to&#xD;
+    track day-to-day work only in an iteration plan.&#xD;
+&lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

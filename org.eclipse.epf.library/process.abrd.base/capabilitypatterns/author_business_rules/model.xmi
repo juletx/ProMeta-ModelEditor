@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__ZPd0bekEd-D7YZN9NgldQ" guid="__ZPd0bekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__ZPd0rekEd-D7YZN9NgldQ" id="-TUyCFXMljyPPGFQbnWy_Zw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_HSEXAFmSEeCcpdiAcH0w-w" id="-aoZNCrSMHCobCqrNM4Z5JA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_HSOIAFmSEeCcpdiAcH0w-w" id="-ch1YD3W6ZaDbDWdgfmcFbw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_HSOIAVmSEeCcpdiAcH0w-w" id="-bNDT40_Dob9KbffUI6mIJA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_HSXR8FmSEeCcpdiAcH0w-w" id="-cNLxGN0Xk1GRudfSGVb8ig" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_HSXR8VmSEeCcpdiAcH0w-w" id="-g7yvSbhyKtzLJkvnHGyvKA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_HSXR8lmSEeCcpdiAcH0w-w" id="-KokWTSqEp1OW6qZiJx7Fnw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_OQxnAH_CEd2YWI_0AZcMOA" name="author_business_rules" guid="_OQxnAH_CEd2YWI_0AZcMOA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_VsH-QH_CEd2YWI_0AZcMOA" name="develop_unit_tests" guid="_VsH-QH_CEd2YWI_0AZcMOA" presentationName="Develop Rule Unit Tests" briefDescription="The goal of this task is to track down anomalies in the rules such as conflicts, redundancies or overlaps.&#xD;&#xA;" superActivities="_OQxnAX_CEd2YWI_0AZcMOA" isSynchronizedWithSource="false">
+      <presentation xmi:id="-aoZNCrSMHCobCqrNM4Z5JA" href="uma://-TUyCFXMljyPPGFQbnWy_Zw#-aoZNCrSMHCobCqrNM4Z5JA"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_ioCPkDzEEdyA6a_I80swHw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_VTsQIH_CEd2YWI_0AZcMOA" name="develop_rules" guid="_VTsQIH_CEd2YWI_0AZcMOA" presentationName="Develop Rules" briefDescription="This task is about developing each rule in the rule project." superActivities="_OQxnAX_CEd2YWI_0AZcMOA" output="_VTsQIn_CEd2YWI_0AZcMOA">
+      <presentation xmi:id="-ch1YD3W6ZaDbDWdgfmcFbw" href="uma://-TUyCFXMljyPPGFQbnWy_Zw#-ch1YD3W6ZaDbDWdgfmcFbw"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_Y2CxEDzEEdyA6a_I80swHw"/>
+      <selectedSteps href="uma://-J2_dBqOPRwbukM0MbrxpRg#_bsPp8ErtEdyEE-k1R6LmOA"/>
+      <selectedSteps href="uma://-J2_dBqOPRwbukM0MbrxpRg#_qfzk4ErtEdyEE-k1R6LmOA"/>
+      <selectedSteps href="uma://-J2_dBqOPRwbukM0MbrxpRg#_tdNKIErtEdyEE-k1R6LmOA"/>
+      <selectedSteps href="uma://-J2_dBqOPRwbukM0MbrxpRg#_zAvrMErtEdyEE-k1R6LmOA"/>
+      <selectedSteps href="uma://-J2_dBqOPRwbukM0MbrxpRg#_GvK9oEruEdyEE-k1R6LmOA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_VTsQIn_CEd2YWI_0AZcMOA" name="ruleset" guid="_VTsQIn_CEd2YWI_0AZcMOA" presentationName="Ruleset" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_OQxnAX_CEd2YWI_0AZcMOA">
+      <presentation xmi:id="-bNDT40_Dob9KbffUI6mIJA" href="uma://-TUyCFXMljyPPGFQbnWy_Zw#-bNDT40_Dob9KbffUI6mIJA"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_mqnOETmsEdy8N6BRpa8ByQ"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_vjWPcDzEEdyA6a_I80swHw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_WyUKQH_CEd2YWI_0AZcMOA" name="enhance_object_models" guid="_WyUKQH_CEd2YWI_0AZcMOA" presentationName="Enhance Object Models" briefDescription="The data model is started during the analysis and design tasks. But it will involve over time. So this activity supports the enhancement of the object models." superActivities="_OQxnAX_CEd2YWI_0AZcMOA">
+      <presentation xmi:id="-cNLxGN0Xk1GRudfSGVb8ig" href="uma://-TUyCFXMljyPPGFQbnWy_Zw#-cNLxGN0Xk1GRudfSGVb8ig"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_UXrv8Eb3EdySHMdInS9eGA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_XDv4gH_CEd2YWI_0AZcMOA" name="execute_rule_set" guid="_XDv4gH_CEd2YWI_0AZcMOA" presentationName="Execute Rule Set" briefDescription="Execute the tests to trigger the rule execution. Analyze the output logs. Report issues." superActivities="_OQxnAX_CEd2YWI_0AZcMOA" output="_VTsQIn_CEd2YWI_0AZcMOA">
+      <presentation xmi:id="-g7yvSbhyKtzLJkvnHGyvKA" href="uma://-TUyCFXMljyPPGFQbnWy_Zw#-g7yvSbhyKtzLJkvnHGyvKA"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_JCHfMEXhEdy14e5PT9v3HQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_XR5pQH_CEd2YWI_0AZcMOA" name="log_issue" guid="_XR5pQH_CEd2YWI_0AZcMOA" presentationName="Log Issue" superActivities="_OQxnAX_CEd2YWI_0AZcMOA" isSynchronizedWithSource="false">
+      <presentation xmi:id="-KokWTSqEp1OW6qZiJx7Fnw" href="uma://-TUyCFXMljyPPGFQbnWy_Zw#-KokWTSqEp1OW6qZiJx7Fnw"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_yGbYIEb0EdySHMdInS9eGA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_OQxnAX_CEd2YWI_0AZcMOA" name="author_business_rules" guid="_OQxnAX_CEd2YWI_0AZcMOA" presentationName="Author Business Rules" breakdownElements="_VsH-QH_CEd2YWI_0AZcMOA _VTsQIH_CEd2YWI_0AZcMOA _VTsQIn_CEd2YWI_0AZcMOA _WyUKQH_CEd2YWI_0AZcMOA _XDv4gH_CEd2YWI_0AZcMOA _XR5pQH_CEd2YWI_0AZcMOA">
+      <presentation xmi:id="-TUyCFXMljyPPGFQbnWy_Zw" href="uma://-TUyCFXMljyPPGFQbnWy_Zw#-TUyCFXMljyPPGFQbnWy_Zw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

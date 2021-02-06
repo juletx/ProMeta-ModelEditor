@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-rZqO0o7t94PG0CUh3wZe3w" name=",_T-dywEIuEd2GCesTWQms8Q" guid="-rZqO0o7t94PG0CUh3wZe3w" changeDate="2008-06-24T01:45:29.000-0700" version="7.5.0">
+  <assignmentApproaches>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        href=&quot;./../../practice.mgmt.release_planning.base/guidances/guidelines/staffing_project_70705561.html&quot;&#xD;
+        guid=&quot;_Jq64EJjsEduad8I_c-ogIA&quot;>Guideline: Staffing a Project&lt;/a>&amp;nbsp;to see how members of small agile teams can&#xD;
+        share in this role.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

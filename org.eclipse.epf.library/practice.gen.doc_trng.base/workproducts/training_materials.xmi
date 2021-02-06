@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-U5rK8ue_5v305MPzxKzQUg" name="training_materials,_B2vaMEVvEeC6_c5S_pc9RA" guid="-U5rK8ue_5v305MPzxKzQUg" changeDate="2012-05-30T14:04:32.231-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Training materials that can be used to train end users and production support personnel might be of the following&#xD;
+    types:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Presentation slides&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Handouts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Job aids&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Tutorials&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        On-line demos&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Video vignettes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Lab exercises&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Quizzes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Workshop materials, etc.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <purpose>The purpose of this work product is to provide direct understanding of how to use or support a set of features deployed in&#xD;
+a particular release.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

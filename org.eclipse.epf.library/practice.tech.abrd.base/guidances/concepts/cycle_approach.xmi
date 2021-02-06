@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-zJrrd5jHHhFAcnOJTOW4rQ" name="cycle_approach,_ftAoIAjrEdyj5bYZ0eCR5g" guid="-zJrrd5jHHhFAcnOJTOW4rQ" authors="Jerome Boyer with some revision done by Steve Nunez" changeDate="2008-12-15T02:40:28.000-0800" version="1.0.2">
+  <mainDescription>&lt;p style=&quot;MARGIN: 3pt 0in&quot;>
+    The Agile Business Rule Development (ABRD) Methodology provides a framework that project teams may adapt to meet the
+    needs of their specific business rules application project. The methodology supports the full rule lifecycle, from
+    discovery to governance by using an 'agile', iterative approach. ABRD activities fall into five categories described
+    below. Each of these activities is executed multiple times as the process is followed.&lt;br />
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+            Rule Discovery
+        &lt;/p>
+    &lt;/li>
+    &lt;li>
+        &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+            Rule Analysis
+        &lt;/p>
+    &lt;/li>
+    &lt;li>
+        &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+            Rule Design
+        &lt;/p>
+    &lt;/li>
+    &lt;li>
+        &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+            Rule Authoring
+        &lt;/p>
+    &lt;/li>
+    &lt;li>
+        &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+            Rule Validation
+        &lt;/p>
+    &lt;/li>
+    &lt;li>
+        &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+            Rule Deployment&amp;nbsp;
+        &lt;/p>
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    Like all agile methodologies, in ABRD rules as other software element are developed incrementally, in multiple
+    iterations of short time frames. However, in ABRD, the entire process lifecycle may not be followed for each iteration.
+    Instead, a number of very short cycles between phases may occur, with the entire rule set gradually evolving. The
+    entire process may be represented by the process flow diagram below:&lt;br />
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;img alt=&quot;&quot; src=&quot;resources/life_cycle_horizontal.jpg&quot; />
+&lt;/p>
+&lt;p>
+    &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+    In the process flow diagram above, each of the tasks loops back to previous tasks in the flow. These 'loops', or
+    cycles, are repeated as required, with the loops gradually moving from left to right through the process until the rule
+    sets are deployed. This method of rule development reflects the nature of BRMS: a mature and stable domain object model
+    is a prerequisite for rule development, therefore we may multiply cycles through the early part of the process flow in
+    order to develop such models early in the process. As each of these cycles is completed, the ruleset will gradually
+    grow until it reaches a state where it reflects the requirements set forth by the business.
+&lt;/p>
+&lt;h4>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'; mso-bidi-language: AR-SA; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-font-family: 'Times New Roman'; mso-bidi-font-size: 12.0pt&quot;>&lt;span
+     style=&quot;FONT-FAMILY: 'Arial','sans-serif'; mso-ansi-language: EN-US&quot;>A typical&amp;nbsp;ABRD Project&lt;/span>&lt;/span>
+&lt;/h4>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 12pt; TEXT-INDENT: 0in; mso-prop-change: 'Steve Núñez' 20080723T0858&quot;>
+    From a project management perspective, there are five phases, or activities of project, each of which maps onto parts
+    of the technical process flow described above. The project phases are:
+&lt;/p>
+&lt;ol>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 12pt; TEXT-INDENT: 0in; mso-prop-change: 'Steve Núñez' 20080723T0858&quot;>
+            Harvesting, the activity of gathering business rules
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 12pt; TEXT-INDENT: 0in; mso-prop-change: 'Steve Núñez' 20080723T0858&quot;>
+            Prototyping, the activity of&amp;nbsp; entering business rules into the BRMS
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 12pt; TEXT-INDENT: 0in; mso-prop-change: 'Steve Núñez' 20080723T0858&quot;>
+            Building, the activity of building a working system representing the organizations business rules
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 12pt; TEXT-INDENT: 0in; mso-prop-change: 'Steve Núñez' 20080723T0858&quot;>
+            Integrating, the activity of deploying the rules to an execution environment suitable for end to end testing
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 12pt; TEXT-INDENT: 0in; mso-prop-change: 'Steve Núñez' 20080723T0858&quot;>
+            Governance, the activity of monitoring, maintaining and enhancing business rules&amp;nbsp;&lt;br />
+            &amp;nbsp;
+        &lt;/div>
+    &lt;/li>
+&lt;/ol>
+&lt;h5 class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Cycle 1- Harvesting
+&lt;/h5>
+&lt;h5 class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &amp;nbsp;
+&lt;/h5>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    Rule harvesting, consisting of the Discovery &amp;amp; Analysis tasks, involves gathering together all the sources of
+    knowledge available to the team. These sources may include a business process description, subject matter experts,
+    policy manuals or other sources of rules. The goal of this activity is to understand the Domain Object Model within the
+    scope of the application and to identify enough rule patterns to begin implementation of rules in the next phase.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    During this activity, the development teams divide the day into two parts, executing discovery workshops in the morning
+    (in 2 or 3-hour sessions), then performing analysis and documentation for the remainder of the day. The team iterates
+    on these two steps during 2 to 5 days maximum, depending on the number of rules and their complexity&lt;br />
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &amp;nbsp;&lt;img height=&quot;222&quot; alt=&quot;&quot; src=&quot;resources/cycle1.jpg&quot; width=&quot;242&quot; />
+&lt;/p>
+&lt;p>
+    &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'; mso-bidi-language: AR-SA; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-font-family: 'Times New Roman'; mso-bidi-font-size: 12.0pt&quot;>The
+    starting point of the Rule Discovery is a&lt;/span> &lt;span
+    style=&quot;FONT-SIZE: 10pt; COLOR: #003399; FONT-FAMILY: 'Arial','sans-serif'; mso-bidi-language: AR-SA; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>&lt;a
+     class=&quot;elementLink&quot; href=&quot;./../../../practice.tech.abrd.base/guidances/templates/decision_point_table_AB877257.html&quot;
+    guid=&quot;_kRoWgBDFEdyJtJ3PbfdVDw&quot;>Decision Point Table&lt;/a>&amp;nbsp;&lt;/span>artifact&lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'; mso-bidi-language: AR-SA; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-font-family: 'Times New Roman'; mso-bidi-font-size: 12.0pt&quot;>:&amp;nbsp;
+    During the inception phase (See OpenUP for more information)&amp;nbsp;the project team is doing business modeling
+    activities (not covered here) which aim at describing the business process and decisions applied to any business events
+    supported by the application.&amp;nbsp;One important work product built during&amp;nbsp;this modeling phase is the&amp;nbsp; &lt;span
+    style=&quot;FONT-SIZE: 10pt; COLOR: #003399; FONT-FAMILY: 'Arial','sans-serif'; mso-bidi-language: AR-SA; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>&lt;a
+     class=&quot;elementLink&quot; href=&quot;./../../../practice.tech.abrd.base/guidances/templates/decision_point_table_AB877257.html&quot;
+    guid=&quot;_kRoWgBDFEdyJtJ3PbfdVDw&quot;>Decision Point Table&lt;/a>&amp;nbsp;&lt;/span>&lt;/span>&lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'; mso-bidi-language: AR-SA; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-font-family: 'Times New Roman'; mso-bidi-font-size: 12.0pt&quot;>which
+    describes the point in the process (task, activities, transition) where decisions are made.&amp;nbsp;Decision point
+    represents potential candidate for rule sets.&lt;/span>
+&lt;/p>
+&lt;p>
+    &lt;br />
+    &lt;strong>Cycle 2- Prototyping&lt;/strong>
+&lt;/p>
+&lt;p>
+    The prototyping activity extends the tasks performed to include rule authoring. When a workable number of rules (this
+    number will vary by project) have been harvested the development team should start to define the structure of the rule
+    project: the rule set parameters (input-output business objects), and the basic sequencing of the rules (the &lt;a
+    class=&quot;elementLink&quot; href=&quot;./../../../practice.tech.abrd.base/guidances/termdefinitions/ruleflow_27B05442.html&quot;
+    guid=&quot;__2sZYBCWEdyJtJ3PbfdVDw&quot;>ruleflow&lt;/a>), and the major elements of the &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../../practice.tech.abrd.base/guidances/termdefinitions/bom_6AC0E84F.html&quot;
+    guid=&quot;_1iTjABCXEdyJtJ3PbfdVDw&quot;>Business Object Model&lt;/a>. The team should then be able to already implement some rules.
+&lt;/p>
+&lt;p>
+    Tip: During the first pass through the prototyping activity, it is better to err on the side of too few rules
+&lt;/p>
+&lt;p>
+    A best practice is to execute the step &quot;Rule Authoring&quot; as soon as possible to uncover possible analysis and design
+    issues. Indeed, most of the rules look good on paper but real issues arise most of the time during implementation and
+    test. The next morning workshop session communicates the issues back to the business team. This leverages the feedback
+    loop approach and provides an efficient mechanism to build a pragmatic, adequate and business-relevant executable rule
+    set.&lt;br />
+&lt;/p>&lt;br />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    &amp;nbsp;&lt;img height=&quot;249&quot; alt=&quot;&quot; src=&quot;resources/cycle2.jpg&quot; width=&quot;470&quot; />
+&lt;/p>&lt;br />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;strong>Cycle 3- Building&lt;/strong>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    The goal of the build activity is to create rules that can be 'seen', 'used' and, most importantly, tested, by business
+    users. Rules that can be executed by the rule engine are more valuable than ones defined on paper or in abstract forms.
+    This fully endorses the agile statement: &quot;Working software over comprehensive documentation.&quot;
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    The second goal of this phase is to create a set of realistic test scenarios, using real data if possible, to test the
+    rules created during the Authoring activity. This is a form of Test Driven Development (TDD). This activity extends the
+    Build activity by adding a Rule Validation task.&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+    &lt;br />
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &amp;nbsp;&lt;img height=&quot;249&quot; alt=&quot;&quot; src=&quot;resources/cycle3.jpg&quot; width=&quot;619&quot; />
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    The&amp;nbsp;day-to-day authoring activities consist of a series of&amp;nbsp;small steps that include:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+            Test case implementation
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+            Writing rules and executing rules
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+            Validating&amp;nbsp;rules with the business team members.
+        &lt;/div>
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    The build activity consists of all the previous tasks, with short iterations:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+            Enhance rules (Authoring &amp;amp; Validation tasks)
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+            Improve rules (Analysis, Authoring &amp;amp; Validation) as needs are identified
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+            Complement rules (Discovery, Analysis, Authoring &amp;amp; Validation) with additional rules to provide complete
+            coverage of the business domain (once every two days).
+        &lt;/div>
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    The Building activity should take between two and three weeks, and the output artifacts should be a ruleset that can be
+    loaded into the rule engine and executed.
+&lt;/p>
+&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+    &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+        Checkpoint:&lt;br />
+        &lt;em>During the first iteration of this activity, the total number of rules will be only around 40% to 60%
+        completed. The idea is to get something to business users that is sufficient to get comment and feedback on, and
+        that will form the basis of the next phase. By this point, the Business Object Model (BOM) should be at least 90%
+        complete&lt;/em>.&lt;br />
+    &lt;/p>
+&lt;/blockquote>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    Depending on the size of the ruleset, this activity may deliver less than 40% of the rules. In that case, this activity
+    may have to be repeated. In this situation, it is recommended that the activity be time-boxed to three weeks so that a
+    concrete build may be delivered to the QA or validation team for review. Once a build is delivered, another iteration
+    of this cycle may be started.&lt;br />
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    At the end of this cycle it is possible to release the rule set integrated as a&amp;nbsp;decision service into the core
+    business application. The development team can then execute functional test on it.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    &lt;br />
+    &amp;nbsp;
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-spacerun: yes&quot;>&lt;strong>Cycle 4- Integrating&lt;/strong>&lt;/span>
+&lt;/p>
+&lt;p>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'; mso-bidi-language: AR-SA; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-font-family: 'Times New Roman'; mso-bidi-font-size: 12.0pt&quot;>The
+    goal of this cycle is to deploy the rule set under construction to the execution server in order to test it with an
+    end-to-end scenario. The integration of the decision service and the&amp;nbsp;domain object model is an important task.
+    Integration involves the marshaling of data to/from external data sources, such as Database, MOM, files or sockets
+    into a form that can be understood by the execution engine. This is a 'mapping' of the data received by the decision
+    service to the Business Object Model created in previous activities.&lt;br />
+    There are a number of tools and techniques that can be used to marshal data, and the best choice will vary by project.
+    When this activity is complete, data (preferably 'real' data) will be sent to the rule engine to fire rules, make
+    decision and the results delivered over the same channels as the production system. These test scenarios were developed
+    in previous phases, but now they're being run with all of the 'plumbing' in place. In the future they will serve as
+    non-regression test suite&lt;br />
+    &lt;/span>&amp;nbsp;
+&lt;/p>
+&lt;p>
+    &amp;nbsp;&lt;img height=&quot;160&quot; alt=&quot;&quot; src=&quot;resources/cycle4.jpg&quot; width=&quot;208&quot; />
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;strong>Cycle 5- Enhancing&lt;/strong>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    Cycle 5 is used during the development phase as well as during the rule maintenance or governance activity.&amp;nbsp;One of
+    the goal here is to empower business users or at least business analysts to author and test the rules.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    The Enhancing cycle is a transition phase in which last minute changes can be made involving some short, face to face
+    discovery meetings with SMEs (Subject Matter Experts) to wrap up any outstanding issues or questions before entering
+    the Governance activity. The Governance activity is an open-ended, long running process to enhance and maintain the
+    rules created in previous activities. A governance process will vary by organization and is a fundamentally different
+    process, usually performed by a different team than the rule development team. This team is more business oriented and,
+    as owners of the rules and business policies, they can develop at their own pace, using the infrastructure put in place
+    by the development team.&lt;br />
+    &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+    &lt;br />
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &amp;nbsp;&lt;img height=&quot;182&quot; alt=&quot;&quot; src=&quot;resources/cycle5.jpg&quot; width=&quot;750&quot; />
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;p class=&quot;isisguidance&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    &lt;span
+    style=&quot;COLOR: windowtext; FONT-FAMILY: 'Arial','sans-serif'; mso-bidi-font-family: 'Times New Roman'; mso-bidi-font-size: 12.0pt&quot;>It
+    is important to note that there will almost certainly be some need to enhance the object model or physical data model
+    to add some new facts, attributes, or entities. These modifications will follow the standard release management process
+    of the core business application.&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;strong>Summary&lt;/strong>&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: AR-SA; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-font-family: 'Times New Roman'; mso-bidi-font-size: 12.0pt&quot;>ABRD
+    has many advantages as a framework for the&amp;nbsp; business rule development process. It involves all the key
+    stakeholders, provides a proven development process and a clear transition to business analysts to start the governance
+    activities . As a business application using a rule engine is, per design, very agile and supportive of changes, all
+    parts of the organization need to be brought together, such as business analysts, software architects and software
+    developers to gain an understanding early in the development process how the components exposed to the rule engine work
+    together, how to change, add, remove rules, how to deploy them&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: AR-SA; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-font-family: 'Times New Roman'; mso-bidi-font-size: 12.0pt&quot;>In
+    parallel of these Rule Set development activities the software architect develops the &lt;a
+    href=&quot;./../../../practice.tech.abrd.base/guidances/termdefinitions/decision_service_6C51F997.html&quot;
+    guid=&quot;_M0nWsAsYEdyPCr4G1Tb79A&quot;>Decision Service&lt;/a>s&amp;nbsp;integrated into the core business application. Each of these
+    decision services executes one or more rule sets.&lt;/span>
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-RmI9Gd5lRxXnmr1bxVU5Cg" name="business_glossary,_sruW1wjqEdyj5bYZ0eCR5g" guid="-RmI9Gd5lRxXnmr1bxVU5Cg" version="1.0.0">
+  <mainDescription>&lt;p>
+    &lt;a id=&quot;XE_business__glossary_template&quot; name=&quot;XE_business__glossary_template&quot;>&lt;/a>The following template can be used
+&lt;/p>&lt;br />
+&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;br />
+&lt;br />
+&lt;table class=&quot;MsoTableGrid&quot;
+style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-table-layout-alt: fixed; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext&quot;
+ cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;>
+    &lt;tbody>
+        &lt;tr style=&quot;HEIGHT: 15.75pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 77.95pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 15.75pt; mso-border-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;104&quot;>
+                &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+                    &lt;b>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                    style=&quot;COLOR: #005da0; mso-bidi-font-family: Arial; mso-bidi-language: HE&quot;>Term&lt;/span>&lt;/i>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 2cm; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 15.75pt; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;76&quot;>
+                &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+                    &lt;b>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                    style=&quot;COLOR: #005da0; mso-bidi-font-family: Arial; mso-bidi-language: HE&quot;>Acronym&lt;/span>&lt;/i>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 318.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 15.75pt; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;425&quot;>
+                &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+                    &lt;b>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                    style=&quot;COLOR: #005da0; mso-bidi-font-family: Arial; mso-bidi-language: HE&quot;>Definition&lt;/span>&lt;/i>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 56.75pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 15.75pt; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;76&quot;>
+                &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+                    &lt;b>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                    style=&quot;COLOR: #005da0; mso-bidi-font-family: Arial; mso-bidi-language: HE&quot;>Owner&lt;/span>&lt;/i>&lt;/b>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 1&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 77.95pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;104&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 2cm; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;76&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 318.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;425&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 56.75pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;76&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 2&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 77.95pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;104&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 2cm; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;76&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 318.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;425&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 56.75pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;76&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 3&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 77.95pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;104&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 2cm; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;76&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 318.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;425&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 56.75pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;76&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr style=&quot;mso-yfti-irow: 4; mso-yfti-lastrow: yes&quot;>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 77.95pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;104&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 2cm; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;76&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 318.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;425&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+            &lt;td
+            style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 56.75pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot;
+             valign=&quot;top&quot; width=&quot;76&quot;>
+                &lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+                &lt;br />
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>&lt;br />
+&lt;br /></mainDescription>
+  <attachments>resources/abrd_tmpl_businessglossary.dot</attachments>
+</org.eclipse.epf.uma:GuidanceDescription>

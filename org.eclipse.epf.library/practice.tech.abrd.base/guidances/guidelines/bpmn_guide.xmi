@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-5EYtwKBXPe1ViPCFmdnS1g" name="new_guideline,_Phd-gMo4Ed6zaeiCeLZoXA" guid="-5EYtwKBXPe1ViPCFmdnS1g" authors="Jerome Boyer" changeDate="2010-01-15T04:32:28.000-0800" version="7.5.0">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    BPMN was developed by Business Process Management Initiative (BPMI), and is now being maintained by the Object
+    Management Group. It provides a dictionary of standardized shapes to use to draw business process. The four basic
+    categories of elements of BPMN are:
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br />
+&lt;ul>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+            Flow Objects
+        &lt;/div>
+    &lt;/li>
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>
+        &lt;ul style=&quot;MARGIN-TOP: 0in&quot; type=&quot;circle&quot;>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level2 lfo1; tab-stops: list 1.0in&quot;>
+                Events
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level2 lfo1; tab-stops: list 1.0in&quot;>
+                Activities
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level2 lfo1; tab-stops: list 1.0in&quot;>
+                Gateways
+            &lt;/li>
+        &lt;/ul>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1; tab-stops: list .5in&quot;>
+        Connecting Objects
+    &lt;/li>
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>
+        &lt;ul style=&quot;MARGIN-TOP: 0in&quot; type=&quot;circle&quot;>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level2 lfo1; tab-stops: list 1.0in&quot;>
+                Sequence Flow
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level2 lfo1; tab-stops: list 1.0in&quot;>
+                Message Flow
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level2 lfo1; tab-stops: list 1.0in&quot;>
+                Association
+            &lt;/li>
+        &lt;/ul>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1; tab-stops: list .5in&quot;>
+        Swim lanes: to organize different activities into categories of the same functionality.
+    &lt;/li>
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>
+        &lt;ul style=&quot;MARGIN-TOP: 0in&quot; type=&quot;circle&quot;>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level2 lfo1; tab-stops: list 1.0in&quot;>
+                Pool: contains many Flow Objects, Connecting Objects and Artifact
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level2 lfo1; tab-stops: list 1.0in&quot;>
+                Lane: it is a sub-part of the pool
+            &lt;/li>
+        &lt;/ul>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1; tab-stops: list .5in&quot;>
+        Artifacts
+    &lt;/li>
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>
+        &lt;ul style=&quot;MARGIN-TOP: 0in&quot; type=&quot;circle&quot;>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level2 lfo1; tab-stops: list 1.0in&quot;>
+                Data Objects
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level2 lfo1; tab-stops: list 1.0in&quot;>
+                Group
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level2 lfo1; tab-stops: list 1.0in&quot;>
+                Annotation
+            &lt;/li>
+        &lt;/ul>
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    Business process modeling is used to communicate a wide variety of information to a wide variety of audiences. BPMN is
+    designed to cover this wide range of usage and allows modeling of end-to-end business processes to allow the viewer of
+    the diagram to be able to easily differentiate between sections of a BPMN Diagram. There are three basic types of
+    sub-models within a BPMN model:
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0in&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1; tab-stops: list .5in&quot;>
+        Private or internal business processes: internal to the performing organization it is also referenced as workflow.
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1; tab-stops: list .5in&quot;>
+        Abstract or public processes: represent the Message flows between a private business process and another process or
+        participant
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1; tab-stops: list .5in&quot;>
+        Collaboration or global processes between two business entities (different lanes)
+    &lt;/li>
+&lt;/ul>&lt;br />
+&lt;p>
+    See the powerpoint presentation to get a summary of the BPMN notation. &lt;a   href=&quot;resources/isis_guid_bpmn.ppt&quot;
+    target=&quot;_blank&quot;  >isis_guid_bpmn.ppt&lt;/a>
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

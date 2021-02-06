@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-E53fUEmqkW0sT-FCrmpFDw" name="new_supporting_material,__dz3oMuIEdyRPtFYRAKVDg" guid="-E53fUEmqkW0sT-FCrmpFDw" changeDate="2010-09-20T09:16:18.171-0700" version="7.2.0">
+  <mainDescription>&lt;h3>&#xD;
+    EPF Base&#xD;
+&lt;/h3>&#xD;
+&lt;h4>&#xD;
+    1.5.1&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Minor fixes only.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    1.5&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    This is the first version of this practice.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

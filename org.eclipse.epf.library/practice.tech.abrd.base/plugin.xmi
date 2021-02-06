@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9emWELekEd-D7YZN9NgldQ" guid="_9emWELekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__E-eALekEd-D7YZN9NgldQ" id="-DEo0FwoLXSgTmChGZLYliQ" uri="domains/abrd_domains.xmi"/>
+    <resourceDescriptors xmi:id="__FHn8LekEd-D7YZN9NgldQ" id="-12uNh11d18KuhJIwFQ1Z7g" uri="domains/architecture.xmi"/>
+    <resourceDescriptors xmi:id="__FRY8LekEd-D7YZN9NgldQ" id="-ip9UURimPFPet8tFQmoWAw" uri="domains/rule_analysis.xmi"/>
+    <resourceDescriptors xmi:id="__FRY8bekEd-D7YZN9NgldQ" id="-tonXL15iso_Dx_i-GPxkCw" uri="domains/rule_authoring.xmi"/>
+    <resourceDescriptors xmi:id="__FRY8rekEd-D7YZN9NgldQ" id="-d8-O9HvFXzloRUATA6YpKA" uri="domains/rule_discovery.xmi"/>
+    <resourceDescriptors xmi:id="__FRY87ekEd-D7YZN9NgldQ" id="-chsZtuqoFJvMTRBEyua-dA" uri="domains/rule_governance.xmi"/>
+    <resourceDescriptors xmi:id="__Fai4LekEd-D7YZN9NgldQ" id="-qaXo_7UyB6_1HszLQS8HCw" uri="disciplines/architecture.xmi"/>
+    <resourceDescriptors xmi:id="__FkT4LekEd-D7YZN9NgldQ" id="-lYqLRNLjiEk9cAHTAnf8KQ" uri="disciplines/rule_analysis.xmi"/>
+    <resourceDescriptors xmi:id="__FkT4bekEd-D7YZN9NgldQ" id="-ZH40CYda0JUXYhHNb8gblw" uri="disciplines/rule_authoring.xmi"/>
+    <resourceDescriptors xmi:id="__FuE4LekEd-D7YZN9NgldQ" id="-WFxMgyCTCaf56fvIoZa9OA" uri="disciplines/rule_deployment.xmi"/>
+    <resourceDescriptors xmi:id="__FuE4bekEd-D7YZN9NgldQ" id="-Lbh2RMxAEPiWOb2RPByNkw" uri="disciplines/rule_design.xmi"/>
+    <resourceDescriptors xmi:id="__F3O0LekEd-D7YZN9NgldQ" id="-KruwyDnFg1HaLU8BO3jhvg" uri="disciplines/rule_governance.xmi"/>
+    <resourceDescriptors xmi:id="__F3O0bekEd-D7YZN9NgldQ" id="-2gh02SiG_rUGf0S6BxyEtg" uri="disciplines/rule_validation.xmi"/>
+    <resourceDescriptors xmi:id="__GA_0LekEd-D7YZN9NgldQ" id="-7kB5cTcNbXPpvIaoUeTVrA" uri="disciplines/rule_discovery.xmi"/>
+    <resourceDescriptors xmi:id="__GA_0bekEd-D7YZN9NgldQ" id="-ahQOe8UmyVyogbRDnkzo7Q" uri="guidances/supportingmaterials/introduction.xmi"/>
+    <resourceDescriptors xmi:id="__GKw0LekEd-D7YZN9NgldQ" id="-zJrrd5jHHhFAcnOJTOW4rQ" uri="guidances/concepts/cycle_approach.xmi"/>
+    <resourceDescriptors xmi:id="__GKw0bekEd-D7YZN9NgldQ" id="-7skHLaUfQVh3R2DzJN4YGw" uri="guidances/termdefinitions/decision_service.xmi"/>
+    <resourceDescriptors xmi:id="__GKw0rekEd-D7YZN9NgldQ" id="-JeU5-VpKF7poakbnlEeVnw" uri="guidances/termdefinitions/rule_set.xmi"/>
+    <resourceDescriptors xmi:id="__GT6wLekEd-D7YZN9NgldQ" id="-CqRW_LvWNGc-KcPRG0x0Pg" uri="guidances/termdefinitions/brms.xmi"/>
+    <resourceDescriptors xmi:id="__GT6wbekEd-D7YZN9NgldQ" id="-_xB6ZIkxGVrJogLhipCwwQ" uri="guidances/termdefinitions/business_rule.xmi"/>
+    <resourceDescriptors xmi:id="__GT6wrekEd-D7YZN9NgldQ" id="-ph6qkAb7iv0PHQWVz9I2Rw" uri="guidances/termdefinitions/ruleflow.xmi"/>
+    <resourceDescriptors xmi:id="__GdrwLekEd-D7YZN9NgldQ" id="-oRsNgXJO4ReXH00KgFCNXg" uri="guidances/termdefinitions/bom.xmi"/>
+    <resourceDescriptors xmi:id="__GdrwbekEd-D7YZN9NgldQ" id="-kapR44-WRS4O8yV-MH6WUQ" uri="guidances/termdefinitions/decision_table.xmi"/>
+    <resourceDescriptors xmi:id="__GdrwrekEd-D7YZN9NgldQ" id="-fuNfpGWXFzLs9BBY6daPVw" uri="guidances/supportingmaterials/phase1_diagram.xmi"/>
+    <resourceDescriptors xmi:id="__Gm1sLekEd-D7YZN9NgldQ" id="-GGU81sIJmmDpd-CCRb0CoQ" uri="guidances/supportingmaterials/phase2_diagram.xmi"/>
+    <resourceDescriptors xmi:id="__Gm1sbekEd-D7YZN9NgldQ" id="-wi0nXj5ED9feOgeYX5EAeQ" uri="guidances/supportingmaterials/phase3_diagram.xmi"/>
+    <resourceDescriptors xmi:id="__GwmsLekEd-D7YZN9NgldQ" id="-X00awszVoj7CpfwCbNhuOg" uri="guidances/supportingmaterials/phase4_diagram.xmi"/>
+    <resourceDescriptors xmi:id="__GwmsbekEd-D7YZN9NgldQ" id="-74H2uzfjpcz4etOw-5ttMg" uri="guidances/supportingmaterials/phase5_diagram.xmi"/>
+    <resourceDescriptors xmi:id="__GwmsrekEd-D7YZN9NgldQ" id="-AHeoazhukfFoT2-taOR0mA" uri="guidances/termdefinitions/term.xmi"/>
+    <resourceDescriptors xmi:id="__G6XsLekEd-D7YZN9NgldQ" id="-BoxqXrLpUsIO-6SMZOTKlQ" uri="guidances/termdefinitions/fact.xmi"/>
+    <resourceDescriptors xmi:id="__G6XsbekEd-D7YZN9NgldQ" id="--8L9G7jt2OshtVlzm7W-Bg" uri="guidances/termdefinitions/rule_project.xmi"/>
+    <resourceDescriptors xmi:id="__G6XsrekEd-D7YZN9NgldQ" id="-pyI2dIKLruhVeNCMc3MUdQ" uri="guidances/termdefinitions/rule_repository.xmi"/>
+    <resourceDescriptors xmi:id="__HDhoLekEd-D7YZN9NgldQ" id="-J09_IJ2SO7r5n_TcsOe6yg" uri="guidances/termdefinitions/rule_engine.xmi"/>
+    <resourceDescriptors xmi:id="__HNSoLekEd-D7YZN9NgldQ" id="-cTx4XxpRYKBXhRKY3yHlUw" uri="guidances/termdefinitions/decision_tree.xmi"/>
+    <resourceDescriptors xmi:id="__HXDoLekEd-D7YZN9NgldQ" id="-TJTj_a1tzxX6OWQ1EF8yUQ" uri="guidances/termdefinitions/decision_point.xmi"/>
+    <resourceDescriptors xmi:id="__HgNkLekEd-D7YZN9NgldQ" id="-Z17eaHqe7KYLNe9wdrQSXw" uri="guidances/termdefinitions/rule_life_cycle.xmi"/>
+    <resourceDescriptors xmi:id="__HgNkbekEd-D7YZN9NgldQ" id="-FaTNEonCdWxGGbPANu5vXg" uri="guidances/termdefinitions/rule_property.xmi"/>
+    <resourceDescriptors xmi:id="__HgNkrekEd-D7YZN9NgldQ" id="-6Y-YTrnh2OzIAbHk2eZFiA" uri="guidances/roadmaps/how_to_adopt_abrd.xmi"/>
+    <resourceDescriptors xmi:id="__Hp-kLekEd-D7YZN9NgldQ" id="-ooC2fUyKT4Ex91Bj0BprZg" uri="guidances/termdefinitions/business_policy.xmi"/>
+    <resourceDescriptors xmi:id="__HzIgLekEd-D7YZN9NgldQ" id="-5EYtwKBXPe1ViPCFmdnS1g" uri="guidances/guidelines/bpmn_guide.xmi"/>
+    <resourceDescriptors xmi:id="__HzIgbekEd-D7YZN9NgldQ" id="-VzK7KlhcXwRjbQizwE1ivg" uri="guidances/practices/abrd.xmi"/>
+    <resourceDescriptors xmi:id="__H85gLekEd-D7YZN9NgldQ" id="-Lb7eL_oVmsuUOP7BmKoVHw" uri="guidances/supportingmaterials/release_info_abrd.xmi"/>
+    <resourceDescriptors xmi:id="__H85gbekEd-D7YZN9NgldQ" id="-BjBe9W9MoeDYfdk1gtOUww" uri="guidances/termdefinitions/business_event.xmi"/>
+    <resourceDescriptors xmi:id="__H85grekEd-D7YZN9NgldQ" id="-YEKj9AQ6ectNMAYjrZzdlg" uri="guidances/templates/bom.xmi"/>
+    <resourceDescriptors xmi:id="__IGqgLekEd-D7YZN9NgldQ" id="-RmI9Gd5lRxXnmr1bxVU5Cg" uri="guidances/templates/business_glossary.xmi"/>
+    <resourceDescriptors xmi:id="__IGqgbekEd-D7YZN9NgldQ" id="-7kyRa3WUFEN5mgjhaATn5Q" uri="guidances/templates/decision_point_table.xmi"/>
+    <resourceDescriptors xmi:id="__IGqgrekEd-D7YZN9NgldQ" id="-cFn9DmsGUTlVAvJw2qxG4Q" uri="guidances/templates/rule_discovery_roadmap.xmi"/>
+    <resourceDescriptors xmi:id="__IP0cLekEd-D7YZN9NgldQ" id="-vrO0eV88bBwlh-6MOJ5OOA" uri="guidances/templates/rule_discovery_invite.xmi"/>
+    <resourceDescriptors xmi:id="__IP0cbekEd-D7YZN9NgldQ" id="-UGL2U1EsVB2XrZfc2fUB-g" uri="guidances/templates/rule_template_for_workflow_project.xmi"/>
+    <resourceDescriptors xmi:id="__IZlcLekEd-D7YZN9NgldQ" id="-dQ6WdArBS4VBassPuchW7w" uri="guidances/templates/rule_templates.xmi"/>
+    <resourceDescriptors xmi:id="__IZlcbekEd-D7YZN9NgldQ" id="-gyMzLqN6rM07LFeV_WGGcA" uri="guidances/templates/rule_set_table.xmi"/>
+    <resourceDescriptors xmi:id="__IZlcrekEd-D7YZN9NgldQ" id="-Ak_E6i3qbz4NMG7ynyf4DA" uri="tasks/define_discovery_roadmap.xmi"/>
+    <resourceDescriptors xmi:id="__IjWcLekEd-D7YZN9NgldQ" id="-ffYBUOhR5mZssG9eZxktmg" uri="tasks/organise_workshop.xmi"/>
+    <resourceDescriptors xmi:id="__IjWcbekEd-D7YZN9NgldQ" id="-ecmNOjIecQbgATy-r7SjMQ" uri="workproducts/rule_discovery_roadmap.xmi"/>
+    <resourceDescriptors xmi:id="__IjWcrekEd-D7YZN9NgldQ" id="-GzNU7GgxpjyjNK83ohr32Q" uri="workproducts/discovery_workshop_itinerary.xmi"/>
+    <resourceDescriptors xmi:id="__IsgYLekEd-D7YZN9NgldQ" id="-UEBifbGrsPKtO4mHXnV4eQ" uri="workproducts/rule_description_doc.xmi"/>
+    <resourceDescriptors xmi:id="__IsgYbekEd-D7YZN9NgldQ" id="-3aW2yZI3NRHTURx_MUJcfg" uri="guidances/guidelines/execute_rule_discovery_workshop.xmi"/>
+    <resourceDescriptors xmi:id="__I2RYLekEd-D7YZN9NgldQ" id="-QrGjlBTXK2wqmPY-mb5SWg" uri="guidances/guidelines/organise_rule_discovery_workshop.xmi"/>
+    <resourceDescriptors xmi:id="__I2RYbekEd-D7YZN9NgldQ" id="-f_C19dHfbYGTJrBoaWdPJA" uri="guidances/guidelines/types_of_rule_discovery.xmi"/>
+    <resourceDescriptors xmi:id="__I2RYrekEd-D7YZN9NgldQ" id="-YOh7SRAvgX5LaQv_eFTwLA" uri="workproducts/business_terms_glossary.xmi"/>
+    <resourceDescriptors xmi:id="__I_bULekEd-D7YZN9NgldQ" id="-GPF0smZFlAxXRJQwghRiZA" uri="tasks/review_decision_point_table.xmi"/>
+    <resourceDescriptors xmi:id="__I_bUbekEd-D7YZN9NgldQ" id="-QyQxGy-JR3YceDG_VUN5aw" uri="tasks/execute_rule_discovery_roadmap.xmi"/>
+    <resourceDescriptors xmi:id="__JJMULekEd-D7YZN9NgldQ" id="-x26EWamhBSgqD9BkdzzgsA" uri="workproducts/decision_point_table.xmi"/>
+    <resourceDescriptors xmi:id="__JJMUbekEd-D7YZN9NgldQ" id="-OsXLwf_NhIR9VN9cXEsxzw" uri="workproducts/business_process_map.xmi"/>
+    <resourceDescriptors xmi:id="__JJMUrekEd-D7YZN9NgldQ" id="-ev_Paqsh3jUiSVi8jJqDqg" uri="guidances/examples/discover_decision_points.xmi"/>
+    <resourceDescriptors xmi:id="__JS9ULekEd-D7YZN9NgldQ" id="-xQs5Y0wrgJ-kBONErf3QcQ" uri="guidances/examples/discovery_output.xmi"/>
+    <resourceDescriptors xmi:id="__JS9UbekEd-D7YZN9NgldQ" id="-X5ZeFd3vVHLrkhW_5RhKlQ" uri="guidances/guidelines/business_rule_classification.xmi"/>
+    <resourceDescriptors xmi:id="__JcHQLekEd-D7YZN9NgldQ" id="-0CwjwqKABQul6r5sX8T7sg" uri="workproducts/conceptual_data_model.xmi"/>
+    <resourceDescriptors xmi:id="__JcHQbekEd-D7YZN9NgldQ" id="-K2GqbCbU-fYoV1Ypz3rbVg" uri="tasks/identify_decision_point.xmi"/>
+    <resourceDescriptors xmi:id="__JcHQrekEd-D7YZN9NgldQ" id="-iclYJ9CwppZV4g4QWF_MEA" uri="workproducts/business_event_description.xmi"/>
+    <resourceDescriptors xmi:id="__Jl4QLekEd-D7YZN9NgldQ" id="-SdzKUbb2e3z0HiJfkIG2QA" uri="guidances/guidelines/decision_point.xmi"/>
+    <resourceDescriptors xmi:id="__Jl4QbekEd-D7YZN9NgldQ" id="-kaG_G7QLbZmoHMO8_47GiQ" uri="tasks/transform_rules.xmi"/>
+    <resourceDescriptors xmi:id="__JvpQLekEd-D7YZN9NgldQ" id="-vTGEYZTOIwIiLPxQ4_NyEw" uri="tasks/synchronize_data_model.xmi"/>
+    <resourceDescriptors xmi:id="__JvpQbekEd-D7YZN9NgldQ" id="-PGUrY4neqnbUO1lGQgrxPA" uri="guidances/examples/rule_atomicity.xmi"/>
+    <resourceDescriptors xmi:id="__JvpQrekEd-D7YZN9NgldQ" id="-Guj2mWoOjjzdPkcqGihq4g" uri="tasks/extract_rule_meaning.xmi"/>
+    <resourceDescriptors xmi:id="__J4zMLekEd-D7YZN9NgldQ" id="-bQ1C5d6LPzfik1-iTbIjtg" uri="workproducts/fact_model.xmi"/>
+    <resourceDescriptors xmi:id="__J4zMbekEd-D7YZN9NgldQ" id="-3fT4U_TQiQFAHZQp8_7GkQ" uri="workproducts/logical_data_model.xmi"/>
+    <resourceDescriptors xmi:id="__J4zMrekEd-D7YZN9NgldQ" id="-LP0SlsHoERAIzSe1UpKmlw" uri="tasks/build_test_scenario.xmi"/>
+    <resourceDescriptors xmi:id="__KCkMLekEd-D7YZN9NgldQ" id="-O1HfhcSrdCAKGBTRVqt73w" uri="guidances/guidelines/discover_fact_model.xmi"/>
+    <resourceDescriptors xmi:id="__KCkMbekEd-D7YZN9NgldQ" id="-fZn4nTBQjy1YPY8BQSTvJg" uri="guidances/guidelines/boolean_logic.xmi"/>
+    <resourceDescriptors xmi:id="__KCkMrekEd-D7YZN9NgldQ" id="-h3v2kueoq4jxIVjo665E5A" uri="guidances/guidelines/sbvr.xmi"/>
+    <resourceDescriptors xmi:id="__KLuILekEd-D7YZN9NgldQ" id="-dXhX3UdJOPU-4Z-rr1lung" uri="guidances/concepts/rdf_owl.xmi"/>
+    <resourceDescriptors xmi:id="__KLuIbekEd-D7YZN9NgldQ" id="-AUjqKQk_naPhdZWAQR-Mmg" uri="tasks/develop_architecture.xmi"/>
+    <resourceDescriptors xmi:id="__KLuIrekEd-D7YZN9NgldQ" id="-wmNktMd6FNHo9XGSzcXqXQ" uri="workproducts/decision_service_architecture.xmi"/>
+    <resourceDescriptors xmi:id="__KVfILekEd-D7YZN9NgldQ" id="-x2B_poM4twsuSvzhIuu6Zg" uri="tasks/design_models_for_bre.xmi"/>
+    <resourceDescriptors xmi:id="__KVfIbekEd-D7YZN9NgldQ" id="-QqiIwonwt-ErT139DDUqsA" uri="tasks/design_reference_data_integration.xmi"/>
+    <resourceDescriptors xmi:id="__KVfIrekEd-D7YZN9NgldQ" id="-G84eS7wnll4Jn8DpfP2lSw" uri="tasks/integrate_bre.xmi"/>
+    <resourceDescriptors xmi:id="__KfQILekEd-D7YZN9NgldQ" id="-H6wteXNcAgxFYU3xQqceZw" uri="guidances/guidelines/jsr94.xmi"/>
+    <resourceDescriptors xmi:id="__KfQIbekEd-D7YZN9NgldQ" id="-z4b7YSb0hoz7fKqCWsc8uQ" uri="guidances/guidelines/web_service_design.xmi"/>
+    <resourceDescriptors xmi:id="__KoaELekEd-D7YZN9NgldQ" id="-J2_dBqOPRwbukM0MbrxpRg" uri="tasks/develop_rules.xmi"/>
+    <resourceDescriptors xmi:id="__K78ELekEd-D7YZN9NgldQ" id="-7v9Ia3BxJdgAGS6Kol2L3w" uri="tasks/develop_unit_tests.xmi"/>
+    <resourceDescriptors xmi:id="__K78EbekEd-D7YZN9NgldQ" id="-kIbRHBcvprHrw1ysjSHbjg" uri="workproducts/ruleset.xmi"/>
+    <resourceDescriptors xmi:id="__K78ErekEd-D7YZN9NgldQ" id="-HGIMaI0TAz3tFa9EvyORaQ" uri="tasks/execute_rule_set.xmi"/>
+    <resourceDescriptors xmi:id="__LFGALekEd-D7YZN9NgldQ" id="-9h3rmFETu0bjz23397rWEQ" uri="tasks/log_issue.xmi"/>
+    <resourceDescriptors xmi:id="__LFGAbekEd-D7YZN9NgldQ" id="-lypBvtMtbcwBw-8OfxHiFw" uri="tasks/enhance_object_models.xmi"/>
+    <resourceDescriptors xmi:id="__LFGArekEd-D7YZN9NgldQ" id="-g6d8BHtxEivC6G4goOaTIw" uri="tasks/deploy_rules.xmi"/>
+    <resourceDescriptors xmi:id="__LO3ALekEd-D7YZN9NgldQ" id="-kQcHMF0BjLtXdNzGHnpN0g" uri="tasks/synchronize_with_wrms.xmi"/>
+    <resourceDescriptors xmi:id="__LO3AbekEd-D7YZN9NgldQ" id="-JJP0LEZp7perSzhxppFQrg" uri="workproducts/rule_repository_in_db.xmi"/>
+    <resourceDescriptors xmi:id="__LO3ArekEd-D7YZN9NgldQ" id="-Dhahg2KaFT27Ni6XSzv8vw" uri="tasks/define_rule_life_cycle.xmi"/>
+    <resourceDescriptors xmi:id="__LYA8LekEd-D7YZN9NgldQ" id="-q4RNuzxv2L7KBRAdU9xA6A" uri="tasks/define_ruleset_life_cycle.xmi"/>
+    <resourceDescriptors xmi:id="__LYA8bekEd-D7YZN9NgldQ" id="-6mbvD1IeLjpN72bPh--axw" uri="workproducts/rule_life_cycle.xmi"/>
+    <resourceDescriptors xmi:id="__Lhx8LekEd-D7YZN9NgldQ" id="-XLYCsIJzpy8ugr9-QCpfkQ" uri="guidances/termdefinitions/rule_governance.xmi"/>
+    <resourceDescriptors xmi:id="__Lhx8bekEd-D7YZN9NgldQ" id="-5BzRQYWJ5yziQVS25PLu5g" uri="guidances/guidelines/rule_management_team_mission.xmi"/>
+    <resourceDescriptors xmi:id="__Lhx8rekEd-D7YZN9NgldQ" id="-UNX6EwsAw60sN8SWPPyReg" uri="workproducts/brms_organization_chart.xmi"/>
+    <resourceDescriptors xmi:id="__Lri8LekEd-D7YZN9NgldQ" id="-v40uyF5CQwrOj5aFQeHyGw" uri="workproducts/rule_governance_actors.xmi"/>
+    <resourceDescriptors xmi:id="__Lri8bekEd-D7YZN9NgldQ" id="-VIS5QkD4sg5ofp6v7HwLbw" uri="guidances/guidelines/rule_governance_actors.xmi"/>
+    <resourceDescriptors xmi:id="__L0s4LekEd-D7YZN9NgldQ" id="-sryODZJvBPM6Z635j3b56w" uri="tasks/maintain_rules.xmi"/>
+    <resourceDescriptors xmi:id="__L0s4bekEd-D7YZN9NgldQ" id="-AnRIdz0rPYyQVyzGVBxSqA" uri="tasks/develop_organization_map.xmi"/>
+    <resourceDescriptors xmi:id="__L0s4rekEd-D7YZN9NgldQ" id="-adR9CHI731TY87a_p-QAdw" uri="tasks/define_ruleset_ownership.xmi"/>
+    <resourceDescriptors xmi:id="__L-d4LekEd-D7YZN9NgldQ" id="-aim_xTKZyZptD_PbMWAtVA" uri="tasks/develop_process_maps.xmi"/>
+    <resourceDescriptors xmi:id="__L-d4bekEd-D7YZN9NgldQ" id="-U58uj3agRic_PaRUPnuXyA" uri="workproducts/rule_set_table.xmi"/>
+    <resourceDescriptors xmi:id="__MIO4LekEd-D7YZN9NgldQ" id="-ejZeo5A3u76_1K4bqoFH6g" uri="guidances/guidelines/rule_delta_testing.xmi"/>
+    <resourceDescriptors xmi:id="__MIO4bekEd-D7YZN9NgldQ" id="-h0EyBlb8J_vcYfkol3_K1Q" uri="workproducts/rsm_report.xmi"/>
+    <resourceDescriptors xmi:id="__MRY0LekEd-D7YZN9NgldQ" id="-JGH-CWdlDpfb9DOmU5XTqw" uri="workproducts/rule_report.xmi"/>
+    <resourceDescriptors xmi:id="__MRY0bekEd-D7YZN9NgldQ" id="-Ad6YqvwEevWhaZQqLrL8Tw" uri="tasks/test_analysis.xmi"/>
+    <resourceDescriptors xmi:id="__MRY0rekEd-D7YZN9NgldQ" id="-Ime61oGmvnS6DSkVwFHALA" uri="workproducts/sme_recommendations.xmi"/>
+    <resourceDescriptors xmi:id="__MbJ0LekEd-D7YZN9NgldQ" id="-OwhD3z6EF2Rxl8vJeX_9Zg" uri="tasks/get_sme_feedback.xmi"/>
+    <resourceDescriptors xmi:id="__MbJ0bekEd-D7YZN9NgldQ" id="-X9Vd0VWjHic6KtQOGWYJYg" uri="tasks/execute_ruleset_functional_test.xmi"/>
+    <resourceDescriptors xmi:id="__MbJ0rekEd-D7YZN9NgldQ" id="-Zf7BWTSjLSrv650HXb5Bvw" uri="tasks/get_rule_set_reports.xmi"/>
+    <resourceDescriptors xmi:id="__MkTwLekEd-D7YZN9NgldQ" id="-_h7-0RcdiOHilolPvT5AbA" uri="tasks/define_data_scenario.xmi"/>
+    <resourceDescriptors xmi:id="__MkTwbekEd-D7YZN9NgldQ" id="-l9UMxPIZrGi8cIWuAJ4OBQ" uri="tasks/define_ruleset_testing.xmi"/>
+    <resourceDescriptors xmi:id="__MuEwLekEd-D7YZN9NgldQ" id="-1HWHN5iFc1KJiC7WdlvipA" uri="tasks/build_object_models.xmi"/>
+    <resourceDescriptors xmi:id="__MuEwbekEd-D7YZN9NgldQ" id="-FSjG7hFXf5jUyW13bEdakQ" uri="tasks/build_rule_project_structure.xmi"/>
+    <resourceDescriptors xmi:id="__M31wLekEd-D7YZN9NgldQ" id="-RIbruSRPcrAZIMhywydlAw" uri="tasks/determine_rule_implementation.xmi"/>
+    <resourceDescriptors xmi:id="__NA_sLekEd-D7YZN9NgldQ" id="-bFlEvOsmuJvDiRkZZcf_uA" uri="tasks/prototype_rules.xmi"/>
+    <resourceDescriptors xmi:id="__NA_sbekEd-D7YZN9NgldQ" id="-Q3uNkTzGMszwa7-zNGSwmw" uri="workproducts/rule_meta_properties.xmi"/>
+    <resourceDescriptors xmi:id="__NKwsLekEd-D7YZN9NgldQ" id="-XK2y_joEadUUL0zRfQGr6w" uri="workproducts/rule_repository.xmi"/>
+    <resourceDescriptors xmi:id="__NKwsbekEd-D7YZN9NgldQ" id="-gt8CaPXz6HldH1v7OnThvg" uri="tasks/define_ruleset.xmi"/>
+    <resourceDescriptors xmi:id="__NUhsLekEd-D7YZN9NgldQ" id="-VyLjMs-sfve4Nx3sJNZDWg" uri="guidances/guidelines/define_rule_implementation.xmi"/>
+    <resourceDescriptors xmi:id="_wlRsAML6EeChb6L1Ye70Lg" id="-CglGea79naRCy_OjttJQ4g" uri="guidances/examples/decision_table.xmi"/>
+    <resourceDescriptors xmi:id="_IPED8cL_EeChb6L1Ye70Lg" id="-0r_lLfJ64UPsgvvFD24wjw" uri="guidances/examples/decision_tree.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_XLuWYHn8Ed2ozs6whO3m5w" name="practice.tech.abrd.base" guid="_XLuWYHn8Ed2ozs6whO3m5w" presentationName="Agile Business Rules Development" briefDescription="This plugin presents a simple and pragmatic iterative and incremental methodology to develop a business application using Business Rule Management System and Business Process Management System." authors="Jerome Boyer / IBM Inc" changeDate="2010-08-18T11:13:29.000-0700" version="1.0">
+    <methodElementProperty xmi:id="_-gnMzrekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9edMILekEd-D7YZN9NgldQ" name="Content" guid="_9edMILekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9edMIbekEd-D7YZN9NgldQ" name="Categories" guid="_9edMIbekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9edMIrekEd-D7YZN9NgldQ" name="Domains" guid="_9edMIrekEd-D7YZN9NgldQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_YYpywKRdEd2fX-RO52WAtA" name="abrd_domains" guid="_YYpywKRdEd2fX-RO52WAtA" variabilityType="contributes">
+            <presentation xmi:id="-DEo0FwoLXSgTmChGZLYliQ" href="uma://-DEo0FwoLXSgTmChGZLYliQ#-DEo0FwoLXSgTmChGZLYliQ"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_MRPloEFXEdy9ENCpSugIjA#_UtGCIKsREd-4oa5dU5v0Eg"/>
+            <subdomains xmi:id="_fp7oAKRdEd2fX-RO52WAtA" name="architecture" guid="_fp7oAKRdEd2fX-RO52WAtA" presentationName="Architecture" briefDescription="This is the list of work products related to BRMS architecture domain." workProducts="_6BE7QAp_EdyPCr4G1Tb79A _U003IIm4Ed2cL6yqw-_-uA">
+              <presentation xmi:id="-12uNh11d18KuhJIwFQ1Z7g" href="uma://-12uNh11d18KuhJIwFQ1Z7g#-12uNh11d18KuhJIwFQ1Z7g"/>
+            </subdomains>
+            <subdomains xmi:id="_fp7oAaRdEd2fX-RO52WAtA" name="rule_analysis" guid="_fp7oAaRdEd2fX-RO52WAtA" presentationName="Rule Analysis" workProducts="_csL3wHrMEd2o_5d3MWaNxQ _sruW2AjqEdyj5bYZ0eCR5g">
+              <presentation xmi:id="-ip9UURimPFPet8tFQmoWAw" href="uma://-ip9UURimPFPet8tFQmoWAw#-ip9UURimPFPet8tFQmoWAw"/>
+            </subdomains>
+            <subdomains xmi:id="_fp7oAqRdEd2fX-RO52WAtA" name="rule_authoring" guid="_fp7oAqRdEd2fX-RO52WAtA" presentationName="Rule Authoring" workProducts="_vjWPcDzEEdyA6a_I80swHw">
+              <presentation xmi:id="-tonXL15iso_Dx_i-GPxkCw" href="uma://-tonXL15iso_Dx_i-GPxkCw#-tonXL15iso_Dx_i-GPxkCw"/>
+            </subdomains>
+            <subdomains xmi:id="_fp7oA6RdEd2fX-RO52WAtA" name="rule_discovery" guid="_fp7oA6RdEd2fX-RO52WAtA" presentationName="Rule Discovery">
+              <presentation xmi:id="-d8-O9HvFXzloRUATA6YpKA" href="uma://-d8-O9HvFXzloRUATA6YpKA#-d8-O9HvFXzloRUATA6YpKA"/>
+              <workProducts href="uma://_OOB2AAouEdyhlpBPrduOMw#_0VGbUMlgEdmt3adZL5Dmdw"/>
+              <workProducts href="uma://_OOB2AAouEdyhlpBPrduOMw#_W2SgEDR5EdutE_HNDTJk5Q"/>
+              <workProducts href="#_Uw8aYBDGEdyJtJ3PbfdVDw"/>
+              <workProducts href="#_srklygjqEdyj5bYZ0eCR5g"/>
+              <workProducts href="#_SlELAAsbEdyPCr4G1Tb79A"/>
+              <workProducts href="#_srklwQjqEdyj5bYZ0eCR5g"/>
+              <workProducts href="#_sruW2gjqEdyj5bYZ0eCR5g"/>
+              <workProducts href="#_sruW1QjqEdyj5bYZ0eCR5g"/>
+              <workProducts href="#_hYc8UHr9Ed2l9d4UccBrvQ"/>
+              <workProducts href="#_HSrrgGhiEd-FVuzXjnvIWA"/>
+            </subdomains>
+            <subdomains xmi:id="_fp7oBKRdEd2fX-RO52WAtA" name="rule_governance" guid="_fp7oBKRdEd2fX-RO52WAtA" presentationName="Rule Governance" workProducts="__hcZYGDrEdyKlZvvtnMrMg _VzXG0GDtEdyKlZvvtnMrMg _DmUjsFH8Edy72tV0zV7--Q _sruW2AjqEdyj5bYZ0eCR5g _GkaEUKR5Ed2fX-RO52WAtA _GapYYLIxEd-Pl5C2Q7Ib_Q">
+              <presentation xmi:id="-chsZtuqoFJvMTRBEyua-dA" href="uma://-chsZtuqoFJvMTRBEyua-dA#-chsZtuqoFJvMTRBEyua-dA"/>
+            </subdomains>
+            <subdomains xmi:id="_fp7oBaRdEd2fX-RO52WAtA" name="rule_validation" guid="_fp7oBaRdEd2fX-RO52WAtA" presentationName="Rule Validation" workProducts="_arqeoEtZEdyEE-k1R6LmOA _arqeoUtZEdyEE-k1R6LmOA _BnlgsEtaEdyEE-k1R6LmOA"/>
+            <subdomains xmi:id="_RTHwEKyYEd2-Ve_PZdE8yA" name="rule_deployment" guid="_RTHwEKyYEd2-Ve_PZdE8yA" presentationName="Rule Deployment" workProducts="_jqxtYFttEdykEsBjRsVfZw"/>
+            <subdomains xmi:id="_WPotYKyYEd2-Ve_PZdE8yA" name="rule_design" guid="_WPotYKyYEd2-Ve_PZdE8yA" presentationName="Rule Design" workProducts="_oz2LcDmsEdy8N6BRpa8ByQ _BMI-QDmoEdy8N6BRpa8ByQ _oz2LcTmsEdy8N6BRpa8ByQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9edMI7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9edMI7ekEd-D7YZN9NgldQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_u8WxEKshEd-4oa5dU5v0Eg" name="abrd_disciplines" guid="_u8WxEKshEd-4oa5dU5v0Eg" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_g-STsKshEd-4oa5dU5v0Eg"/>
+            <subdiscipline xmi:id="_1QK4gKshEd-4oa5dU5v0Eg" name="architecture" guid="_1QK4gKshEd-4oa5dU5v0Eg" presentationName="BRMS Architecture" guidelines="_IuFgEIm-Ed2dvb7--2nAHw _YRiuIItDEd2gksNyFVJN4g" tasks="_nOQHsAp6EdyPCr4G1Tb79A _lYC2IGDAEdyKlZvvtnMrMg _6-p2EH_BEd2YWI_0AZcMOA _HMQasGDFEdyKlZvvtnMrMg">
+              <presentation xmi:id="-qaXo_7UyB6_1HszLQS8HCw" href="uma://-qaXo_7UyB6_1HszLQS8HCw#-qaXo_7UyB6_1HszLQS8HCw"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_1QK4gashEd-4oa5dU5v0Eg" name="rule_analysis" guid="_1QK4gashEd-4oa5dU5v0Eg" presentationName="Rule Analysis" conceptsAndPapers="_gPfSoIpzEd2gksNyFVJN4g" guidelines="_x_5XgH9iEd26h9j0X6pKmw _8_mWgH3GEd2sJcA0evSBQw _1ZyHAHrZEd2l9d4UccBrvQ" examples="_K6-3kDmnEdy8N6BRpa8ByQ" tasks="_o19QgF2BEd2T6cNSe41mOg _8mZw8DmhEdy8N6BRpa8ByQ _prtzIDmiEdy8N6BRpa8ByQ _1dlWkH3GEd2sJcA0evSBQw">
+              <presentation xmi:id="-lYqLRNLjiEk9cAHTAnf8KQ" href="uma://-lYqLRNLjiEk9cAHTAnf8KQ#-lYqLRNLjiEk9cAHTAnf8KQ"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_1QK4gqshEd-4oa5dU5v0Eg" name="rule_authoring" guid="_1QK4gqshEd-4oa5dU5v0Eg" presentationName="Rule Authoring" tasks="_ioCPkDzEEdyA6a_I80swHw _Y2CxEDzEEdyA6a_I80swHw _UXrv8Eb3EdySHMdInS9eGA _JCHfMEXhEdy14e5PT9v3HQ _yGbYIEb0EdySHMdInS9eGA">
+              <presentation xmi:id="-ZH40CYda0JUXYhHNb8gblw" href="uma://-ZH40CYda0JUXYhHNb8gblw#-ZH40CYda0JUXYhHNb8gblw"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_1QK4g6shEd-4oa5dU5v0Eg" name="rule_deployment" guid="_1QK4g6shEd-4oa5dU5v0Eg" presentationName="Rule Deployment" tasks="_YkGwYFtsEdykEsBjRsVfZw _AgQVAD5QEdyA6a_I80swHw">
+              <presentation xmi:id="-WFxMgyCTCaf56fvIoZa9OA" href="uma://-WFxMgyCTCaf56fvIoZa9OA#-WFxMgyCTCaf56fvIoZa9OA"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_1QK4hKshEd-4oa5dU5v0Eg" name="rule_design" guid="_1QK4hKshEd-4oa5dU5v0Eg" presentationName="Rule Design" briefDescription="Group all the activities related to the design of the rule set." guidelines="_x-GVQIsqEd2gksNyFVJN4g" tasks="_qzveUBk5Edyoe_hnDlTB5A _ZffcIDmiEdy8N6BRpa8ByQ _O92DQDV5EdyTBtGu8YeFfg _dds-IDmiEdy8N6BRpa8ByQ _7L2MIDyOEdyA6a_I80swHw">
+              <presentation xmi:id="-Lbh2RMxAEPiWOb2RPByNkw" href="uma://-Lbh2RMxAEPiWOb2RPByNkw#-Lbh2RMxAEPiWOb2RPByNkw"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_1QK4hqshEd-4oa5dU5v0Eg" name="rule_governance" guid="_1QK4hqshEd-4oa5dU5v0Eg" presentationName="Rule Governance" briefDescription="When a BRMS approach is introduced, the business rule management moves from IT team into the business unit team. Formal process needs to be developed.&#xD;&#xA;Business rules are exposed, separated, stated in formal terms and managed for change against a formal governance processes that span among business and IT.&#xD;&#xA;" guidelines="_npFyQGDtEdyKlZvvtnMrMg _fCRxoGDmEdyKlZvvtnMrMg" tasks="_IFeJQKveEd2Pv_z50upsAg _O93X4KvzEd2Pv_z50upsAg _tzUvgKv7Ed2Pv_z50upsAg _RBu1YFH7Edy72tV0zV7--Q _RBu1YVH7Edy72tV0zV7--Q _E5968Kv8Ed2Pv_z50upsAg _deyUkKv8Ed2Pv_z50upsAg _w0x40KzAEd2aLdlF48Bk1g _z9ORcKnrEdyzmOHu2kw1UA">
+              <presentation xmi:id="-KruwyDnFg1HaLU8BO3jhvg" href="uma://-KruwyDnFg1HaLU8BO3jhvg#-KruwyDnFg1HaLU8BO3jhvg"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_1QK4h6shEd-4oa5dU5v0Eg" name="rule_validation" guid="_1QK4h6shEd-4oa5dU5v0Eg" presentationName="Rule Validation" briefDescription="Validation will involve testing the rules and get Subject Matter Expert feedbacks to improve the quality of the rules. A set of tools are available in high end BRMS platform to do some rule conflict analysis, testing, and executing complex queries to understand how rules are impacting others rules result.&#xD;&#xA;The tasks are following a TDD approach, where data scenarios are defined as early as the rule discovery, and tests are developed to integrate the data definition to trigger rule execution in the context of the rule set deployed. &#xD;&#xA;" guidelines="_OmI3QEtZEdyEE-k1R6LmOA" tasks="_mDL5YGhkEd-FVuzXjnvIWA _eAWtgFv3EdykEsBjRsVfZw _euAb8FtuEdykEsBjRsVfZw _LGd_MFtvEdykEsBjRsVfZw _CmBe4EtaEdyEE-k1R6LmOA _cik88EtZEdyEE-k1R6LmOA">
+              <presentation xmi:id="-2gh02SiG_rUGf0S6BxyEtg" href="uma://-2gh02SiG_rUGf0S6BxyEtg#-2gh02SiG_rUGf0S6BxyEtg"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="__u-KMLRXEd-0GaneRZjjRw" name="rule_discovery" guid="__u-KMLRXEd-0GaneRZjjRw" presentationName="Rule Discovery" guidelines="_Fpgz4HqsEd2o_5d3MWaNxQ _sruW1gjqEdyj5bYZ0eCR5g _sruW0QjqEdyj5bYZ0eCR5g _sruWygjqEdyj5bYZ0eCR5g" examples="_ZDdmQDSmEdyTBtGu8YeFfg" tasks="_srklxgjqEdyj5bYZ0eCR5g _sruW3AjqEdyj5bYZ0eCR5g _A2d5sCyQEd-ER8gMc_Ftrw _sruWxAjqEdyj5bYZ0eCR5g _sruWzAjqEdyj5bYZ0eCR5g">
+              <presentation xmi:id="-7kB5cTcNbXPpvIaoUeTVrA" href="uma://-7kB5cTcNbXPpvIaoUeTVrA#-7kB5cTcNbXPpvIaoUeTVrA"/>
+            </subdiscipline>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9edMJLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9edMJLekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9edMJbekEd-D7YZN9NgldQ" name="WP Types" guid="_9edMJbekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9edMJrekEd-D7YZN9NgldQ" name="Tools" guid="_9edMJrekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9edMJ7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9edMJ7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9edMKLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9edMKLekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9edMKbekEd-D7YZN9NgldQ" name="Hidden" guid="_9edMKbekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9edMKrekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9edMKrekEd-D7YZN9NgldQ" categorizedElements="_YScDUKwvEd25tLopP-whwQ"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_YScDUKwvEd25tLopP-whwQ" name="templates_view" guid="_YScDUKwvEd25tLopP-whwQ" presentationName="Templates" nodeicon="customcategories/resources/bookc.gif" categorizedElements="_sruW0gjqEdyj5bYZ0eCR5g _sruW1wjqEdyj5bYZ0eCR5g _kRoWgBDFEdyJtJ3PbfdVDw _sruW0wjqEdyj5bYZ0eCR5g _sruW2QjqEdyj5bYZ0eCR5g _mqnOETmsEdy8N6BRpa8ByQ _srklxAjqEdyj5bYZ0eCR5g _srklxQjqEdyj5bYZ0eCR5g"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9edMK7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9edMK7ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_d6iaYAjqEdyj5bYZ0eCR5g" name="common" guid="_d6iaYAjqEdyj5bYZ0eCR5g">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_0Hgy4AjqEdyj5bYZ0eCR5g" name="introduction" guid="_0Hgy4AjqEdyj5bYZ0eCR5g" presentationName="Introduction to Agile Business Rule Development" nodeicon="guidances/supportingmaterials/resources/mic.gif">
+            <presentation xmi:id="-ahQOe8UmyVyogbRDnkzo7Q" href="uma://-ahQOe8UmyVyogbRDnkzo7Q#-ahQOe8UmyVyogbRDnkzo7Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_ftAoIAjrEdyj5bYZ0eCR5g" name="cycle_approach" guid="_ftAoIAjrEdyj5bYZ0eCR5g" presentationName="Cycle Approach to Rules Development" briefDescription="An iterative approach to develop business rules." shapeicon="guidances/concepts/resources/abrdl.gif" nodeicon="guidances/concepts/resources/abrd.gif">
+            <presentation xmi:id="-zJrrd5jHHhFAcnOJTOW4rQ" href="uma://-zJrrd5jHHhFAcnOJTOW4rQ#-zJrrd5jHHhFAcnOJTOW4rQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_M0nWsAsYEdyPCr4G1Tb79A" name="decision_service" guid="_M0nWsAsYEdyPCr4G1Tb79A" presentationName="Decision service">
+            <presentation xmi:id="-7skHLaUfQVh3R2DzJN4YGw" href="uma://-7skHLaUfQVh3R2DzJN4YGw#-7skHLaUfQVh3R2DzJN4YGw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_DdvcwBCQEdyJtJ3PbfdVDw" name="rule_set" guid="_DdvcwBCQEdyJtJ3PbfdVDw" presentationName="Rule Set">
+            <presentation xmi:id="-JeU5-VpKF7poakbnlEeVnw" href="uma://-JeU5-VpKF7poakbnlEeVnw#-JeU5-VpKF7poakbnlEeVnw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_19DpgBCQEdyJtJ3PbfdVDw" name="brms" guid="_19DpgBCQEdyJtJ3PbfdVDw" presentationName="Business Rule Management System">
+            <presentation xmi:id="-CqRW_LvWNGc-KcPRG0x0Pg" href="uma://-CqRW_LvWNGc-KcPRG0x0Pg#-CqRW_LvWNGc-KcPRG0x0Pg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_M8GYIBCREdyJtJ3PbfdVDw" name="business_rule" guid="_M8GYIBCREdyJtJ3PbfdVDw" presentationName="Business rule">
+            <presentation xmi:id="-_xB6ZIkxGVrJogLhipCwwQ" href="uma://-_xB6ZIkxGVrJogLhipCwwQ#-_xB6ZIkxGVrJogLhipCwwQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="__2sZYBCWEdyJtJ3PbfdVDw" name="ruleflow" guid="__2sZYBCWEdyJtJ3PbfdVDw" presentationName="ruleflow">
+            <presentation xmi:id="-ph6qkAb7iv0PHQWVz9I2Rw" href="uma://-ph6qkAb7iv0PHQWVz9I2Rw#-ph6qkAb7iv0PHQWVz9I2Rw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_1iTjABCXEdyJtJ3PbfdVDw" name="bom" guid="_1iTjABCXEdyJtJ3PbfdVDw" presentationName="Business Object Model">
+            <presentation xmi:id="-oRsNgXJO4ReXH00KgFCNXg" href="uma://-oRsNgXJO4ReXH00KgFCNXg#-oRsNgXJO4ReXH00KgFCNXg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_iDLJcBCaEdyJtJ3PbfdVDw" name="decision_table" guid="_iDLJcBCaEdyJtJ3PbfdVDw" presentationName="Decision table">
+            <presentation xmi:id="-kapR44-WRS4O8yV-MH6WUQ" href="uma://-kapR44-WRS4O8yV-MH6WUQ#-kapR44-WRS4O8yV-MH6WUQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_JepaYBXiEdy4jPxXJJCIUg" name="phase1_diagram" guid="_JepaYBXiEdy4jPxXJJCIUg" presentationName="Phase 1 Diagram">
+            <presentation xmi:id="-fuNfpGWXFzLs9BBY6daPVw" href="uma://-fuNfpGWXFzLs9BBY6daPVw#-fuNfpGWXFzLs9BBY6daPVw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_JepaYRXiEdy4jPxXJJCIUg" name="phase2_diagram" guid="_JepaYRXiEdy4jPxXJJCIUg" presentationName="Phase 2 Diagram">
+            <presentation xmi:id="-GGU81sIJmmDpd-CCRb0CoQ" href="uma://-GGU81sIJmmDpd-CCRb0CoQ#-GGU81sIJmmDpd-CCRb0CoQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_JepaYhXiEdy4jPxXJJCIUg" name="phase3_diagram" guid="_JepaYhXiEdy4jPxXJJCIUg" presentationName="Phase 3 Diagram">
+            <presentation xmi:id="-wi0nXj5ED9feOgeYX5EAeQ" href="uma://-wi0nXj5ED9feOgeYX5EAeQ#-wi0nXj5ED9feOgeYX5EAeQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_JepaYxXiEdy4jPxXJJCIUg" name="phase4_diagram" guid="_JepaYxXiEdy4jPxXJJCIUg" presentationName="Phase 4 Diagram" briefDescription="Jerome Boyer">
+            <presentation xmi:id="-X00awszVoj7CpfwCbNhuOg" href="uma://-X00awszVoj7CpfwCbNhuOg#-X00awszVoj7CpfwCbNhuOg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_JepaZBXiEdy4jPxXJJCIUg" name="phase5_diagram" guid="_JepaZBXiEdy4jPxXJJCIUg" presentationName="Phase 5 Diagram">
+            <presentation xmi:id="-74H2uzfjpcz4etOw-5ttMg" href="uma://-74H2uzfjpcz4etOw-5ttMg#-74H2uzfjpcz4etOw-5ttMg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_UhsdMDrmEdy8N6BRpa8ByQ" name="term" guid="_UhsdMDrmEdy8N6BRpa8ByQ" presentationName="term">
+            <presentation xmi:id="-AHeoazhukfFoT2-taOR0mA" href="uma://-AHeoazhukfFoT2-taOR0mA#-AHeoazhukfFoT2-taOR0mA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_iMWPUDrmEdy8N6BRpa8ByQ" name="fact" guid="_iMWPUDrmEdy8N6BRpa8ByQ" presentationName="Fact">
+            <presentation xmi:id="-BoxqXrLpUsIO-6SMZOTKlQ" href="uma://-BoxqXrLpUsIO-6SMZOTKlQ#-BoxqXrLpUsIO-6SMZOTKlQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_2uHVUDsJEdy8N6BRpa8ByQ" name="rule_project" guid="_2uHVUDsJEdy8N6BRpa8ByQ" presentationName="rule project">
+            <presentation xmi:id="--8L9G7jt2OshtVlzm7W-Bg" href="uma://--8L9G7jt2OshtVlzm7W-Bg#--8L9G7jt2OshtVlzm7W-Bg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_dYXxoDukEdy8N6BRpa8ByQ" name="rule_repository" guid="_dYXxoDukEdy8N6BRpa8ByQ" presentationName="Rule repository">
+            <presentation xmi:id="-pyI2dIKLruhVeNCMc3MUdQ" href="uma://-pyI2dIKLruhVeNCMc3MUdQ#-pyI2dIKLruhVeNCMc3MUdQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_QQcSoEXXEdy14e5PT9v3HQ" name="rule_engine" guid="_QQcSoEXXEdy14e5PT9v3HQ" presentationName="Rule engine">
+            <presentation xmi:id="-J09_IJ2SO7r5n_TcsOe6yg" href="uma://-J09_IJ2SO7r5n_TcsOe6yg#-J09_IJ2SO7r5n_TcsOe6yg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_dVXOsEbNEdySHMdInS9eGA" name="decision_tree" guid="_dVXOsEbNEdySHMdInS9eGA" presentationName="Decision tree">
+            <presentation xmi:id="-cTx4XxpRYKBXhRKY3yHlUw" href="uma://-cTx4XxpRYKBXhRKY3yHlUw#-cTx4XxpRYKBXhRKY3yHlUw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_XUyFIEb1EdySHMdInS9eGA" name="decision_point" guid="_XUyFIEb1EdySHMdInS9eGA" presentationName="Decision point">
+            <presentation xmi:id="-TJTj_a1tzxX6OWQ1EF8yUQ" href="uma://-TJTj_a1tzxX6OWQ1EF8yUQ#-TJTj_a1tzxX6OWQ1EF8yUQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_s5iCsFH7Edy72tV0zV7--Q" name="rule_life_cycle" guid="_s5iCsFH7Edy72tV0zV7--Q" presentationName="rule life cycle">
+            <presentation xmi:id="-Z17eaHqe7KYLNe9wdrQSXw" href="uma://-Z17eaHqe7KYLNe9wdrQSXw#-Z17eaHqe7KYLNe9wdrQSXw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_4xo4Ugp1EdyPCr4G1Tb79A" name="rule_property" guid="_4xo4Ugp1EdyPCr4G1Tb79A" presentationName="Rule Property">
+            <presentation xmi:id="-FaTNEonCdWxGGbPANu5vXg" href="uma://-FaTNEonCdWxGGbPANu5vXg#-FaTNEonCdWxGGbPANu5vXg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_lV38AFUdEd2sDeWJVZ0Ifg" name="how_to_adopt_abrd" guid="_lV38AFUdEd2sDeWJVZ0Ifg" presentationName="How to Adopt Agile Business Rule Development Practice" briefDescription="This roadmap describes how to adopt the Agile Business Rule Development Practice for your own need.">
+            <presentation xmi:id="-6Y-YTrnh2OzIAbHk2eZFiA" href="uma://-6Y-YTrnh2OzIAbHk2eZFiA#-6Y-YTrnh2OzIAbHk2eZFiA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_Pf_E8HsIEd2l9d4UccBrvQ" name="business_policy" guid="_Pf_E8HsIEd2l9d4UccBrvQ" presentationName="Business policy">
+            <presentation xmi:id="-ooC2fUyKT4Ex91Bj0BprZg" href="uma://-ooC2fUyKT4Ex91Bj0BprZg#-ooC2fUyKT4Ex91Bj0BprZg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_eORS8GhhEd-FVuzXjnvIWA" name="bpmn_guide" guid="_eORS8GhhEd-FVuzXjnvIWA" presentationName="BPMN" briefDescription="Business Process Modeling Notation (BPMN) is a standardized graphical notation for drawing business processes in a workflow. This guidance presents a summary and a power point presentation on the subject.">
+            <presentation xmi:id="-5EYtwKBXPe1ViPCFmdnS1g" href="uma://-5EYtwKBXPe1ViPCFmdnS1g#-5EYtwKBXPe1ViPCFmdnS1g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_MuX6YKcnEd-VK6zqjMaiPQ" name="abrd" guid="_MuX6YKcnEd-VK6zqjMaiPQ" presentationName="Agile Business Rule Development" briefDescription="Agile Business Rule Development is a practice to implement business application using business rule management system and rule engine technology." contentReferences="_JepaYBXiEdy4jPxXJJCIUg _JepaYRXiEdy4jPxXJJCIUg _JepaYhXiEdy4jPxXJJCIUg _JepaYxXiEdy4jPxXJJCIUg _JepaZBXiEdy4jPxXJJCIUg _ftAoIAjrEdyj5bYZ0eCR5g _gPfSoIpzEd2gksNyFVJN4g _x_5XgH9iEd26h9j0X6pKmw _eORS8GhhEd-FVuzXjnvIWA _Fpgz4HqsEd2o_5d3MWaNxQ _yNUigIMUEd-68ahhmSUqHw _x-GVQIsqEd2gksNyFVJN4g _8_mWgH3GEd2sJcA0evSBQw _sruW1gjqEdyj5bYZ0eCR5g _IuFgEIm-Ed2dvb7--2nAHw _sruW0QjqEdyj5bYZ0eCR5g _OmI3QEtZEdyEE-k1R6LmOA _npFyQGDtEdyKlZvvtnMrMg _fCRxoGDmEdyKlZvvtnMrMg _1ZyHAHrZEd2l9d4UccBrvQ _sruWygjqEdyj5bYZ0eCR5g _YRiuIItDEd2gksNyFVJN4g _ZDdmQDSmEdyTBtGu8YeFfg _j4-ukDS3EdyTBtGu8YeFfg _K6-3kDmnEdy8N6BRpa8ByQ __hcZYGDrEdyKlZvvtnMrMg _HSrrgGhiEd-FVuzXjnvIWA _Uw8aYBDGEdyJtJ3PbfdVDw _srklygjqEdyj5bYZ0eCR5g _hYc8UHr9Ed2l9d4UccBrvQ _SlELAAsbEdyPCr4G1Tb79A _6BE7QAp_EdyPCr4G1Tb79A _srklwQjqEdyj5bYZ0eCR5g _U003IIm4Ed2cL6yqw-_-uA _csL3wHrMEd2o_5d3MWaNxQ _sruW2AjqEdyj5bYZ0eCR5g _arqeoEtZEdyEE-k1R6LmOA _sruW2gjqEdyj5bYZ0eCR5g _sruW1QjqEdyj5bYZ0eCR5g _VzXG0GDtEdyKlZvvtnMrMg _DmUjsFH8Edy72tV0zV7--Q _oz2LcDmsEdy8N6BRpa8ByQ _arqeoUtZEdyEE-k1R6LmOA _BMI-QDmoEdy8N6BRpa8ByQ _jqxtYFttEdykEsBjRsVfZw _GkaEUKR5Ed2fX-RO52WAtA _vjWPcDzEEdyA6a_I80swHw _oz2LcTmsEdy8N6BRpa8ByQ _BnlgsEtaEdyEE-k1R6LmOA _sruW0gjqEdyj5bYZ0eCR5g _sruW1wjqEdyj5bYZ0eCR5g _kRoWgBDFEdyJtJ3PbfdVDw _sruW0wjqEdyj5bYZ0eCR5g _sruW2QjqEdyj5bYZ0eCR5g _mqnOETmsEdy8N6BRpa8ByQ _srklxAjqEdyj5bYZ0eCR5g _srklxQjqEdyj5bYZ0eCR5g _ZffcIDmiEdy8N6BRpa8ByQ _O92DQDV5EdyTBtGu8YeFfg _1dlWkH3GEd2sJcA0evSBQw _eAWtgFv3EdykEsBjRsVfZw _srklxgjqEdyj5bYZ0eCR5g _tzUvgKv7Ed2Pv_z50upsAg _RBu1YFH7Edy72tV0zV7--Q _7L2MIDyOEdyA6a_I80swHw _RBu1YVH7Edy72tV0zV7--Q _O93X4KvzEd2Pv_z50upsAg _mDL5YGhkEd-FVuzXjnvIWA _AgQVAD5QEdyA6a_I80swHw _lYC2IGDAEdyKlZvvtnMrMg _HMQasGDFEdyKlZvvtnMrMg _qzveUBk5Edyoe_hnDlTB5A _nOQHsAp6EdyPCr4G1Tb79A _IFeJQKveEd2Pv_z50upsAg _deyUkKv8Ed2Pv_z50upsAg _Y2CxEDzEEdyA6a_I80swHw _ioCPkDzEEdyA6a_I80swHw _UXrv8Eb3EdySHMdInS9eGA _sruW3AjqEdyj5bYZ0eCR5g _JCHfMEXhEdy14e5PT9v3HQ _euAb8FtuEdykEsBjRsVfZw _o19QgF2BEd2T6cNSe41mOg _LGd_MFtvEdykEsBjRsVfZw _CmBe4EtaEdyEE-k1R6LmOA _A2d5sCyQEd-ER8gMc_Ftrw _6-p2EH_BEd2YWI_0AZcMOA _yGbYIEb0EdySHMdInS9eGA _z9ORcKnrEdyzmOHu2kw1UA _w0x40KzAEd2aLdlF48Bk1g _sruWxAjqEdyj5bYZ0eCR5g _E5968Kv8Ed2Pv_z50upsAg _dds-IDmiEdy8N6BRpa8ByQ _sruWzAjqEdyj5bYZ0eCR5g _prtzIDmiEdy8N6BRpa8ByQ _YkGwYFtsEdykEsBjRsVfZw _cik88EtZEdyEE-k1R6LmOA _8mZw8DmhEdy8N6BRpa8ByQ _lV38AFUdEd2sDeWJVZ0Ifg _5B4dUMVPEd2pfdXgw7I2qQ">
+            <presentation xmi:id="-VzK7KlhcXwRjbQizwE1ivg" href="uma://-VzK7KlhcXwRjbQizwE1ivg#-VzK7KlhcXwRjbQizwE1ivg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_5B4dUMVPEd2pfdXgw7I2qQ" name="release_info_abrd" guid="_5B4dUMVPEd2pfdXgw7I2qQ" presentationName="Practice: Agile Business Rule Development" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-Lb7eL_oVmsuUOP7BmKoVHw" href="uma://-Lb7eL_oVmsuUOP7BmKoVHw#-Lb7eL_oVmsuUOP7BmKoVHw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_R2owALIwEd-Pl5C2Q7Ib_Q" name="business_event" guid="_R2owALIwEd-Pl5C2Q7Ib_Q" presentationName="Business Event">
+            <presentation xmi:id="-BjBe9W9MoeDYfdk1gtOUww" href="uma://-BjBe9W9MoeDYfdk1gtOUww#-BjBe9W9MoeDYfdk1gtOUww"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_jSkf0ML6EeChb6L1Ye70Lg" name="decision_table" guid="_jSkf0ML6EeChb6L1Ye70Lg" presentationName="Decision Table">
+            <presentation xmi:id="-CglGea79naRCy_OjttJQ4g" href="uma://-CglGea79naRCy_OjttJQ4g#-CglGea79naRCy_OjttJQ4g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_MZlOgML9EeChb6L1Ye70Lg" name="decision_tree" guid="_MZlOgML9EeChb6L1Ye70Lg" presentationName="Decision Tree">
+            <presentation xmi:id="-0r_lLfJ64UPsgvvFD24wjw" href="uma://-0r_lLfJ64UPsgvvFD24wjw#-0r_lLfJ64UPsgvvFD24wjw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kyj3gBXiEdy4jPxXJJCIUg" name="templates" guid="_kyj3gBXiEdy4jPxXJJCIUg" briefDescription="Templates container">
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_sruW0gjqEdyj5bYZ0eCR5g" name="bom" guid="_sruW0gjqEdyj5bYZ0eCR5g" presentationName="Business Object Model" briefDescription="This template should be used to define the Rule Business Object Model in details, especially the verbalizations used to offer high level language of the business terms used in the rules.">
+            <methodElementProperty xmi:id="_TZxKoDgAEeK0qZOeymIN_A" name="me_edited" value="true"/>
+            <presentation xmi:id="-YEKj9AQ6ectNMAYjrZzdlg" href="uma://-YEKj9AQ6ectNMAYjrZzdlg#-YEKj9AQ6ectNMAYjrZzdlg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_sruW1wjqEdyj5bYZ0eCR5g" name="business_glossary" guid="_sruW1wjqEdyj5bYZ0eCR5g" presentationName="Business Terms Glossary" briefDescription="This is a template. From our project experience it seems a real value for the business users and IT people to get this kind of common definition of terms. Some organization already define this kind of glossary, and even it is possible to use some industry standard. But standards are always adapted by the organization so it is important to develop this kind of glossary during the project life cycle. ">
+            <methodElementProperty xmi:id="_TbmWoDgAEeK0qZOeymIN_A" name="me_edited" value="true"/>
+            <presentation xmi:id="-RmI9Gd5lRxXnmr1bxVU5Cg" href="uma://-RmI9Gd5lRxXnmr1bxVU5Cg#-RmI9Gd5lRxXnmr1bxVU5Cg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_kRoWgBDFEdyJtJ3PbfdVDw" name="decision_point_table" guid="_kRoWgBDFEdyJtJ3PbfdVDw" presentationName="Decision Point Table" briefDescription="This template is used during the inception phase of the project or when executing some business modeling task.">
+            <methodElementProperty xmi:id="_TcUvYDgAEeK0qZOeymIN_A" name="me_edited" value="true"/>
+            <presentation xmi:id="-7kyRa3WUFEN5mgjhaATn5Q" href="uma://-7kyRa3WUFEN5mgjhaATn5Q#-7kyRa3WUFEN5mgjhaATn5Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_sruW2QjqEdyj5bYZ0eCR5g" name="rule_discovery_roadmap" guid="_sruW2QjqEdyj5bYZ0eCR5g" presentationName="Rule Discovery Roadmap" briefDescription="This table template  has to be used during the Define roadmap task. Use one table per rule class">
+            <presentation xmi:id="-cFn9DmsGUTlVAvJw2qxG4Q" href="uma://-cFn9DmsGUTlVAvJw2qxG4Q#-cFn9DmsGUTlVAvJw2qxG4Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_sruW0wjqEdyj5bYZ0eCR5g" name="rule_discovery_invite" guid="_sruW0wjqEdyj5bYZ0eCR5g" presentationName="Rule Discovery Workshop Invite" briefDescription="Invite letter to send to the analyst team member">
+            <presentation xmi:id="-vrO0eV88bBwlh-6MOJ5OOA" href="uma://-vrO0eV88bBwlh-6MOJ5OOA#-vrO0eV88bBwlh-6MOJ5OOA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_srklxAjqEdyj5bYZ0eCR5g" name="rule_template_for_workflow_project" guid="_srklxAjqEdyj5bYZ0eCR5g" presentationName="Rule Template for Workflow Project" briefDescription="This template should be used for project based on a discovery roadmap using business process or workflow process. The implementation of the business application will use a workflow engine.">
+            <presentation xmi:id="-UGL2U1EsVB2XrZfc2fUB-g" href="uma://-UGL2U1EsVB2XrZfc2fUB-g#-UGL2U1EsVB2XrZfc2fUB-g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_srklxQjqEdyj5bYZ0eCR5g" name="rule_templates" guid="_srklxQjqEdyj5bYZ0eCR5g" presentationName="Rule Templates" briefDescription="These templates are used to document business rules during the rule discovery workshop. In the word template, the first rule template allows a more business-centric description than the second. The excel file is a simplified version of the first template to collect rules as a list, a more convenient way for certain cases.">
+            <presentation xmi:id="-dQ6WdArBS4VBassPuchW7w" href="uma://-dQ6WdArBS4VBassPuchW7w#-dQ6WdArBS4VBassPuchW7w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_mqnOETmsEdy8N6BRpa8ByQ" name="rule_set_table" guid="_mqnOETmsEdy8N6BRpa8ByQ" presentationName="Rule Set Table" briefDescription="This template is used to describe all the rule sets of the business application or at the enterprise level, with the team ownership and access permissions.">
+            <presentation xmi:id="-gyMzLqN6rM07LFeV_WGGcA" href="uma://-gyMzLqN6rM07LFeV_WGGcA#-gyMzLqN6rM07LFeV_WGGcA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_srklwAjqEdyj5bYZ0eCR5g" name="rule_discovery" guid="_srklwAjqEdyj5bYZ0eCR5g" briefDescription="Contains all the artifact, activity, work product and guidance descriptions to execute the rule discovery activities.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_srklxgjqEdyj5bYZ0eCR5g" name="define_discovery_roadmap" guid="_srklxgjqEdyj5bYZ0eCR5g" presentationName="Define Discovery Roadmap" briefDescription="The definition of the discovery roadmap is an important step to understand how the development team will extract the rules from the different kind of sources. There are multiple types of roadmaps according to the different starting points and rule sources." guidelines="_sruWygjqEdyj5bYZ0eCR5g" mandatoryInput="_SlELAAsbEdyPCr4G1Tb79A" output="_sruW1QjqEdyj5bYZ0eCR5g">
+            <presentation xmi:id="-Ak_E6i3qbz4NMG7ynyf4DA" href="uma://-Ak_E6i3qbz4NMG7ynyf4DA#-Ak_E6i3qbz4NMG7ynyf4DA"/>
+            <optionalInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_W2SgEDR5EdutE_HNDTJk5Q"/>
+            <optionalInput href="#_Uw8aYBDGEdyJtJ3PbfdVDw"/>
+            <optionalInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_0VGbUMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_sruWxAjqEdyj5bYZ0eCR5g" name="organise_workshop" guid="_sruWxAjqEdyj5bYZ0eCR5g" presentationName="Organize Workshop" briefDescription="In case of human source for the rule the team needs to organize elicitation workshops" guidelines="_sruW0QjqEdyj5bYZ0eCR5g" mandatoryInput="_sruW1QjqEdyj5bYZ0eCR5g" output="_srklwQjqEdyj5bYZ0eCR5g">
+            <presentation xmi:id="-ffYBUOhR5mZssG9eZxktmg" href="uma://-ffYBUOhR5mZssG9eZxktmg#-ffYBUOhR5mZssG9eZxktmg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_sruW1QjqEdyj5bYZ0eCR5g" name="rule_discovery_roadmap" guid="_sruW1QjqEdyj5bYZ0eCR5g" presentationName="Rule Discovery Roadmap" guidelines="_sruWygjqEdyj5bYZ0eCR5g" templates="_sruW2QjqEdyj5bYZ0eCR5g">
+            <presentation xmi:id="-ecmNOjIecQbgATy-r7SjMQ" href="uma://-ecmNOjIecQbgATy-r7SjMQ#-ecmNOjIecQbgATy-r7SjMQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_srklwQjqEdyj5bYZ0eCR5g" name="discovery_workshop_itinerary" guid="_srklwQjqEdyj5bYZ0eCR5g" presentationName="Rule Discovery Workshop Itinerary" templates="_sruW0wjqEdyj5bYZ0eCR5g">
+            <presentation xmi:id="-GzNU7GgxpjyjNK83ohr32Q" href="uma://-GzNU7GgxpjyjNK83ohr32Q#-GzNU7GgxpjyjNK83ohr32Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_sruW2gjqEdyj5bYZ0eCR5g" name="rule_description_doc" guid="_sruW2gjqEdyj5bYZ0eCR5g" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " guidelines="_1ZyHAHrZEd2l9d4UccBrvQ" examples="_j4-ukDS3EdyTBtGu8YeFfg" templates="_srklxAjqEdyj5bYZ0eCR5g _srklxQjqEdyj5bYZ0eCR5g">
+            <presentation xmi:id="-UEBifbGrsPKtO4mHXnV4eQ" href="uma://-UEBifbGrsPKtO4mHXnV4eQ#-UEBifbGrsPKtO4mHXnV4eQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_sruW1gjqEdyj5bYZ0eCR5g" name="execute_rule_discovery_workshop" guid="_sruW1gjqEdyj5bYZ0eCR5g" presentationName="Execute Rule Discovery Workshop">
+            <presentation xmi:id="-3aW2yZI3NRHTURx_MUJcfg" href="uma://-3aW2yZI3NRHTURx_MUJcfg#-3aW2yZI3NRHTURx_MUJcfg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_sruW0QjqEdyj5bYZ0eCR5g" name="organise_rule_discovery_workshop" guid="_sruW0QjqEdyj5bYZ0eCR5g" presentationName="Organise Rule Discovery Workshop">
+            <presentation xmi:id="-QrGjlBTXK2wqmPY-mb5SWg" href="uma://-QrGjlBTXK2wqmPY-mb5SWg#-QrGjlBTXK2wqmPY-mb5SWg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_sruWygjqEdyj5bYZ0eCR5g" name="types_of_rule_discovery" guid="_sruWygjqEdyj5bYZ0eCR5g" presentationName="Different Rule Discovery Types" briefDescription="This guideline presents the different types of possible discovery analysis  starting point according to the type methodology used.">
+            <presentation xmi:id="-f_C19dHfbYGTJrBoaWdPJA" href="uma://-f_C19dHfbYGTJrBoaWdPJA#-f_C19dHfbYGTJrBoaWdPJA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_srklygjqEdyj5bYZ0eCR5g" name="business_terms_glossary" guid="_srklygjqEdyj5bYZ0eCR5g" presentationName="Business Terms Glossary" briefDescription="Log in one document the terms and their definition as used by the business user" templates="_sruW1wjqEdyj5bYZ0eCR5g">
+            <presentation xmi:id="-YOh7SRAvgX5LaQv_eFTwLA" href="uma://-YOh7SRAvgX5LaQv_eFTwLA#-YOh7SRAvgX5LaQv_eFTwLA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_sruWzAjqEdyj5bYZ0eCR5g" name="review_decision_point_table" guid="_sruWzAjqEdyj5bYZ0eCR5g" presentationName="Review Decision Point Table, Business Process Map, Use Case Model" briefDescription="After the business modeling activity of the Inception Phase the project team should have a decision point table document as a source for the rule discovery phase. A review of each decision point is needed. If this table is not present the team can start by the current business process description and then layouts this DP table." guidelines="_Fpgz4HqsEd2o_5d3MWaNxQ _eORS8GhhEd-FVuzXjnvIWA" examples="_ZDdmQDSmEdyTBtGu8YeFfg" mandatoryInput="_Uw8aYBDGEdyJtJ3PbfdVDw" output="_SlELAAsbEdyPCr4G1Tb79A">
+            <presentation xmi:id="-GPF0smZFlAxXRJQwghRiZA" href="uma://-GPF0smZFlAxXRJQwghRiZA#-GPF0smZFlAxXRJQwghRiZA"/>
+            <optionalInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_W2SgEDR5EdutE_HNDTJk5Q"/>
+            <optionalInput href="#_SlELAAsbEdyPCr4G1Tb79A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_sruW3AjqEdyj5bYZ0eCR5g" name="execute_rule_discovery_roadmap" guid="_sruW3AjqEdyj5bYZ0eCR5g" presentationName="Execute Rule Discovery Roadmap" briefDescription="This activity or task includes the three types of rule discovery: business users and experts workshop session, document study, legacy code mining. Even if the main source of rules are documents or code, it is still important to come back to a SME to get feedbacks on the team findings." guidelines="_sruW1gjqEdyj5bYZ0eCR5g" mandatoryInput="_Uw8aYBDGEdyJtJ3PbfdVDw _SlELAAsbEdyPCr4G1Tb79A" output="_srklygjqEdyj5bYZ0eCR5g _sruW2gjqEdyj5bYZ0eCR5g _hYc8UHr9Ed2l9d4UccBrvQ" optionalInput="_srklwQjqEdyj5bYZ0eCR5g">
+            <presentation xmi:id="-QyQxGy-JR3YceDG_VUN5aw" href="uma://-QyQxGy-JR3YceDG_VUN5aw#-QyQxGy-JR3YceDG_VUN5aw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_SlELAAsbEdyPCr4G1Tb79A" name="decision_point_table" guid="_SlELAAsbEdyPCr4G1Tb79A" presentationName="Decision Point Table" examples="_ZDdmQDSmEdyTBtGu8YeFfg" templates="_kRoWgBDFEdyJtJ3PbfdVDw">
+            <presentation xmi:id="-x26EWamhBSgqD9BkdzzgsA" href="uma://-x26EWamhBSgqD9BkdzzgsA#-x26EWamhBSgqD9BkdzzgsA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Uw8aYBDGEdyJtJ3PbfdVDw" name="business_process_map" guid="_Uw8aYBDGEdyJtJ3PbfdVDw" presentationName="Business Process Map" briefDescription="A Process map describes graphically using Business Process Management Notation (BPMN) the business process under scope.">
+            <presentation xmi:id="-OsXLwf_NhIR9VN9cXEsxzw" href="uma://-OsXLwf_NhIR9VN9cXEsxzw#-OsXLwf_NhIR9VN9cXEsxzw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_ZDdmQDSmEdyTBtGu8YeFfg" name="discover_decision_points" guid="_ZDdmQDSmEdyTBtGu8YeFfg" presentationName="Discover Decision Points" briefDescription="Discover decision points for a loan underwriting application">
+            <presentation xmi:id="-ev_Paqsh3jUiSVi8jJqDqg" href="uma://-ev_Paqsh3jUiSVi8jJqDqg#-ev_Paqsh3jUiSVi8jJqDqg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_j4-ukDS3EdyTBtGu8YeFfg" name="discovery_output" guid="_j4-ukDS3EdyTBtGu8YeFfg" presentationName="Discovery Output">
+            <presentation xmi:id="-xQs5Y0wrgJ-kBONErf3QcQ" href="uma://-xQs5Y0wrgJ-kBONErf3QcQ#-xQs5Y0wrgJ-kBONErf3QcQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_Fpgz4HqsEd2o_5d3MWaNxQ" name="business_rule_classification" guid="_Fpgz4HqsEd2o_5d3MWaNxQ" presentationName="Business Rule Classification" briefDescription="The business rule can be classified in three main groups: structural rule, decision logic, and process flow.">
+            <presentation xmi:id="-X5ZeFd3vVHLrkhW_5RhKlQ" href="uma://-X5ZeFd3vVHLrkhW_5RhKlQ#-X5ZeFd3vVHLrkhW_5RhKlQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_hYc8UHr9Ed2l9d4UccBrvQ" name="conceptual_data_model" guid="_hYc8UHr9Ed2l9d4UccBrvQ" presentationName="Conceptual Data Model">
+            <presentation xmi:id="-0CwjwqKABQul6r5sX8T7sg" href="uma://-0CwjwqKABQul6r5sX8T7sg#-0CwjwqKABQul6r5sX8T7sg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_A2d5sCyQEd-ER8gMc_Ftrw" name="identify_decision_point" guid="_A2d5sCyQEd-ER8gMc_Ftrw" presentationName="Identify Decision Points" briefDescription="Decision points are points of variability and decision in a business process. The goal of this task is to list the potential decision points in scope for the project." guidelines="_yNUigIMUEd-68ahhmSUqHw _eORS8GhhEd-FVuzXjnvIWA" examples="_ZDdmQDSmEdyTBtGu8YeFfg" output="_SlELAAsbEdyPCr4G1Tb79A _HSrrgGhiEd-FVuzXjnvIWA">
+            <presentation xmi:id="-K2GqbCbU-fYoV1Ypz3rbVg" href="uma://-K2GqbCbU-fYoV1Ypz3rbVg#-K2GqbCbU-fYoV1Ypz3rbVg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_HSrrgGhiEd-FVuzXjnvIWA" name="business_event_description" guid="_HSrrgGhiEd-FVuzXjnvIWA" presentationName="Business Event Description" briefDescription="Logging the business events source of business process execution helps to drive rule discovery.">
+            <presentation xmi:id="-iclYJ9CwppZV4g4QWF_MEA" href="uma://-iclYJ9CwppZV4g4QWF_MEA#-iclYJ9CwppZV4g4QWF_MEA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_yNUigIMUEd-68ahhmSUqHw" name="decision_point" guid="_yNUigIMUEd-68ahhmSUqHw" presentationName="Decision Point Discovery Guidance">
+            <presentation xmi:id="-SdzKUbb2e3z0HiJfkIG2QA" href="uma://-SdzKUbb2e3z0HiJfkIG2QA#-SdzKUbb2e3z0HiJfkIG2QA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_PgvAIBk5Edyoe_hnDlTB5A" name="rule_analysis" guid="_PgvAIBk5Edyoe_hnDlTB5A">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8mZw8DmhEdy8N6BRpa8ByQ" name="transform_rules" guid="_8mZw8DmhEdy8N6BRpa8ByQ" presentationName="Transform Rules" briefDescription="Transform the rule to avoid ambiguity and make them more atomic" guidelines="_x_5XgH9iEd26h9j0X6pKmw" examples="_K6-3kDmnEdy8N6BRpa8ByQ" mandatoryInput="_csL3wHrMEd2o_5d3MWaNxQ _sruW2AjqEdyj5bYZ0eCR5g _sruW2gjqEdyj5bYZ0eCR5g" output="_csL3wHrMEd2o_5d3MWaNxQ _sruW2AjqEdyj5bYZ0eCR5g _sruW2gjqEdyj5bYZ0eCR5g">
+            <presentation xmi:id="-kaG_G7QLbZmoHMO8_47GiQ" href="uma://-kaG_G7QLbZmoHMO8_47GiQ#-kaG_G7QLbZmoHMO8_47GiQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_prtzIDmiEdy8N6BRpa8ByQ" name="synchronize_data_model" guid="_prtzIDmiEdy8N6BRpa8ByQ" presentationName="Synchronize Data Models" briefDescription="Ensure the terms and entities used in the rule march element in the different date models used by the IT components" mandatoryInput="_csL3wHrMEd2o_5d3MWaNxQ _sruW2AjqEdyj5bYZ0eCR5g _sruW2gjqEdyj5bYZ0eCR5g" output="_sruW2AjqEdyj5bYZ0eCR5g _sruW2gjqEdyj5bYZ0eCR5g">
+            <presentation xmi:id="-vTGEYZTOIwIiLPxQ4_NyEw" href="uma://-vTGEYZTOIwIiLPxQ4_NyEw#-vTGEYZTOIwIiLPxQ4_NyEw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_K6-3kDmnEdy8N6BRpa8ByQ" name="rule_atomicity" guid="_K6-3kDmnEdy8N6BRpa8ByQ" presentationName="Rule Atomicity">
+            <presentation xmi:id="-PGUrY4neqnbUO1lGQgrxPA" href="uma://-PGUrY4neqnbUO1lGQgrxPA#-PGUrY4neqnbUO1lGQgrxPA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_o19QgF2BEd2T6cNSe41mOg" name="extract_rule_meaning" guid="_o19QgF2BEd2T6cNSe41mOg" presentationName="Extract Rule Meaning" briefDescription="Extract the semantic of the rule to prepare for a data model and to remove any ambiguity and redundancy." conceptsAndPapers="_gPfSoIpzEd2gksNyFVJN4g" guidelines="_8_mWgH3GEd2sJcA0evSBQw _1ZyHAHrZEd2l9d4UccBrvQ" mandatoryInput="_sruW2gjqEdyj5bYZ0eCR5g" output="_csL3wHrMEd2o_5d3MWaNxQ _sruW2AjqEdyj5bYZ0eCR5g">
+            <presentation xmi:id="-Guj2mWoOjjzdPkcqGihq4g" href="uma://-Guj2mWoOjjzdPkcqGihq4g#-Guj2mWoOjjzdPkcqGihq4g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_csL3wHrMEd2o_5d3MWaNxQ" name="fact_model" guid="_csL3wHrMEd2o_5d3MWaNxQ" presentationName="Fact Model">
+            <presentation xmi:id="-bQ1C5d6LPzfik1-iTbIjtg" href="uma://-bQ1C5d6LPzfik1-iTbIjtg#-bQ1C5d6LPzfik1-iTbIjtg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_sruW2AjqEdyj5bYZ0eCR5g" name="logical_data_model" guid="_sruW2AjqEdyj5bYZ0eCR5g" presentationName="Logical Data Model" briefDescription="Logical Data Model represents the organization business-domain concepts in a set of diagram and logical schema. The choice of representation will depend of the design approach and the target audience. It could be relational (Table - columns, association), object oriented  (class - attribute association) or XML (tags) defined.">
+            <presentation xmi:id="-3fT4U_TQiQFAHZQp8_7GkQ" href="uma://-3fT4U_TQiQFAHZQp8_7GkQ#-3fT4U_TQiQFAHZQp8_7GkQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_1dlWkH3GEd2sJcA0evSBQw" name="build_test_scenario" guid="_1dlWkH3GEd2sJcA0evSBQw" presentationName="Build Test Scenarios" briefDescription="Work with analysis team to define concrete scenario with real data so that we can later on test the process and the rules.">
+            <presentation xmi:id="-LP0SlsHoERAIzSe1UpKmlw" href="uma://-LP0SlsHoERAIzSe1UpKmlw#-LP0SlsHoERAIzSe1UpKmlw"/>
+            <supportingMaterials href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_vLvAUGjFEd2PJ-nlV-86WA"/>
+            <guidelines href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_5s_DUJ03EdyQ3oTO93enUw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_8_mWgH3GEd2sJcA0evSBQw" name="discover_fact_model" guid="_8_mWgH3GEd2sJcA0evSBQw" presentationName="Discover fact model" briefDescription="From all the information captured during the discovery activities, we can identify the Terms and Facts used by the business. Terms and facts are important for designing all future data models.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+            <presentation xmi:id="-O1HfhcSrdCAKGBTRVqt73w" href="uma://-O1HfhcSrdCAKGBTRVqt73w#-O1HfhcSrdCAKGBTRVqt73w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_x_5XgH9iEd26h9j0X6pKmw" name="boolean_logic" guid="_x_5XgH9iEd26h9j0X6pKmw" presentationName="Boolean logic or algebra" briefDescription="Boolean algebra is the algebra of two values like true and false as we are using in rule criteria expression.">
+            <presentation xmi:id="-fZn4nTBQjy1YPY8BQSTvJg" href="uma://-fZn4nTBQjy1YPY8BQSTvJg#-fZn4nTBQjy1YPY8BQSTvJg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_1ZyHAHrZEd2l9d4UccBrvQ" name="sbvr" guid="_1ZyHAHrZEd2l9d4UccBrvQ" presentationName="Semantics of Business Vocabulary and Business Rules">
+            <presentation xmi:id="-h3v2kueoq4jxIVjo665E5A" href="uma://-h3v2kueoq4jxIVjo665E5A#-h3v2kueoq4jxIVjo665E5A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_gPfSoIpzEd2gksNyFVJN4g" name="rdf_owl" guid="_gPfSoIpzEd2gksNyFVJN4g" presentationName="RDF and OWL" briefDescription="Developed to specify semantic web, OWL and RDF can be used to model enterprise ontologies. Ontologies are sources for data model used by the rule as an alternate to traditional OOA and the controversial SBVR.">
+            <presentation xmi:id="-dXhX3UdJOPU-4Z-rr1lung" href="uma://-dXhX3UdJOPU-4Z-rr1lung#-dXhX3UdJOPU-4Z-rr1lung"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_knNM8Ap6EdyPCr4G1Tb79A" name="architecture" guid="_knNM8Ap6EdyPCr4G1Tb79A">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nOQHsAp6EdyPCr4G1Tb79A" name="develop_architecture" guid="_nOQHsAp6EdyPCr4G1Tb79A" presentationName="Develop Business Rule Application Architecture" briefDescription="The purpose of the architecture activities is to support the following major items:&#xD;&#xA;•&#x9;Integrate the Rule Engine into the business application&#xD;&#xA;•&#x9;Deploy Business Rules Management System into the business and IT organizations." mandatoryInput="_sruW2AjqEdyj5bYZ0eCR5g _SlELAAsbEdyPCr4G1Tb79A" output="_6BE7QAp_EdyPCr4G1Tb79A">
+            <presentation xmi:id="-AUjqKQk_naPhdZWAQR-Mmg" href="uma://-AUjqKQk_naPhdZWAQR-Mmg#-AUjqKQk_naPhdZWAQR-Mmg"/>
+            <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_O1kAANvfEduv2KOT-Teh6w"/>
+            <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
+            <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0gjdYMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_6BE7QAp_EdyPCr4G1Tb79A" name="decision_service_architecture" guid="_6BE7QAp_EdyPCr4G1Tb79A" presentationName="Decision Service Architecture" briefDescription="A decision service is a piece of logic which uses a decision engine like a rule engine in order to infer actions on the input data." guidelines="_YRiuIItDEd2gksNyFVJN4g _eORS8GhhEd-FVuzXjnvIWA">
+            <presentation xmi:id="-wmNktMd6FNHo9XGSzcXqXQ" href="uma://-wmNktMd6FNHo9XGSzcXqXQ#-wmNktMd6FNHo9XGSzcXqXQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_lYC2IGDAEdyKlZvvtnMrMg" name="design_models_for_bre" guid="_lYC2IGDAEdyKlZvvtnMrMg" presentationName="Design Business Object Models for Rule Engine Processing" briefDescription="Design the object model to be processed by the rule engine. " mandatoryInput="_csL3wHrMEd2o_5d3MWaNxQ _sruW2AjqEdyj5bYZ0eCR5g" output="_U003IIm4Ed2cL6yqw-_-uA">
+            <presentation xmi:id="-x2B_poM4twsuSvzhIuu6Zg" href="uma://-x2B_poM4twsuSvzhIuu6Zg#-x2B_poM4twsuSvzhIuu6Zg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HMQasGDFEdyKlZvvtnMrMg" name="design_reference_data_integration" guid="_HMQasGDFEdyKlZvvtnMrMg" presentationName="Design Integration to Reference Data" briefDescription="Reference data are everywhere in business application, from basic enumeration value like the US sates to business codes with business meaning (like medical code). Those references data should be managed in a central Data Base or repository. The Rule engine needs to access them at execution but also during the authoring phase.">
+            <presentation xmi:id="-QqiIwonwt-ErT139DDUqsA" href="uma://-QqiIwonwt-ErT139DDUqsA#-QqiIwonwt-ErT139DDUqsA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6-p2EH_BEd2YWI_0AZcMOA" name="integrate_bre" guid="_6-p2EH_BEd2YWI_0AZcMOA" presentationName="Integrate BRE within Service Layer" briefDescription="The integration of the rule engine can be done in different approaches depending of the type of application, and architecture." guidelines="_IuFgEIm-Ed2dvb7--2nAHw _YRiuIItDEd2gksNyFVJN4g">
+            <presentation xmi:id="-G84eS7wnll4Jn8DpfP2lSw" href="uma://-G84eS7wnll4Jn8DpfP2lSw#-G84eS7wnll4Jn8DpfP2lSw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_U003IIm4Ed2cL6yqw-_-uA" name="executable_object_model" guid="_U003IIm4Ed2cL6yqw-_-uA" presentationName="Executable Object Model" briefDescription="A Java, .Net or XML schema implementation of the logical data model"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_IuFgEIm-Ed2dvb7--2nAHw" name="jsr94" guid="_IuFgEIm-Ed2dvb7--2nAHw" presentationName="JSR94" briefDescription="JSR-94  is an industry standard that defines how Java programs deployed in JSE or JEE can acquire and interact with a rule engine. Being able to change engine implementation is a nice design approach, but as of today this specification is limited by the fact that there is still no standard to exchange rule definition between engines. So rule written for one engine can not be used by another one. W3C is working on the final specification of Rule Interchange Format.">
+            <presentation xmi:id="-H6wteXNcAgxFYU3xQqceZw" href="uma://-H6wteXNcAgxFYU3xQqceZw#-H6wteXNcAgxFYU3xQqceZw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_YRiuIItDEd2gksNyFVJN4g" name="web_service_design" guid="_YRiuIItDEd2gksNyFVJN4g" presentationName="Web Service Design">
+            <presentation xmi:id="-z4b7YSb0hoz7fKqCWsc8uQ" href="uma://-z4b7YSb0hoz7fKqCWsc8uQ#-z4b7YSb0hoz7fKqCWsc8uQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yL2W0DyEEdyA6a_I80swHw" name="rule_authoring" guid="_yL2W0DyEEdyA6a_I80swHw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Y2CxEDzEEdyA6a_I80swHw" name="develop_rules" guid="_Y2CxEDzEEdyA6a_I80swHw" presentationName="Develop Rules" briefDescription="This task is about developing each rule in the rule project." output="_vjWPcDzEEdyA6a_I80swHw">
+            <presentation xmi:id="-J2_dBqOPRwbukM0MbrxpRg" href="uma://-J2_dBqOPRwbukM0MbrxpRg#-J2_dBqOPRwbukM0MbrxpRg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ioCPkDzEEdyA6a_I80swHw" name="develop_unit_tests" guid="_ioCPkDzEEdyA6a_I80swHw" presentationName="Develop Rule Unit Tests" briefDescription="The goal of this task is to track down anomalies in the rules such as conflicts, redundancies or overlaps.&#xD;&#xA;">
+            <presentation xmi:id="-7v9Ia3BxJdgAGS6Kol2L3w" href="uma://-7v9Ia3BxJdgAGS6Kol2L3w#-7v9Ia3BxJdgAGS6Kol2L3w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_vjWPcDzEEdyA6a_I80swHw" name="ruleset" guid="_vjWPcDzEEdyA6a_I80swHw" presentationName="Ruleset" briefDescription="Set of rule as a standalone component executed by a rule engine. " templates="_mqnOETmsEdy8N6BRpa8ByQ">
+            <presentation xmi:id="-kIbRHBcvprHrw1ysjSHbjg" href="uma://-kIbRHBcvprHrw1ysjSHbjg#-kIbRHBcvprHrw1ysjSHbjg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_JCHfMEXhEdy14e5PT9v3HQ" name="execute_rule_set" guid="_JCHfMEXhEdy14e5PT9v3HQ" presentationName="Execute Rule Set" briefDescription="Execute the tests to trigger the rule execution. Analyze the output logs. Report issues." output="_vjWPcDzEEdyA6a_I80swHw">
+            <presentation xmi:id="-HGIMaI0TAz3tFa9EvyORaQ" href="uma://-HGIMaI0TAz3tFa9EvyORaQ#-HGIMaI0TAz3tFa9EvyORaQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_yGbYIEb0EdySHMdInS9eGA" name="log_issue" guid="_yGbYIEb0EdySHMdInS9eGA" presentationName="Log Issue">
+            <presentation xmi:id="-9h3rmFETu0bjz23397rWEQ" href="uma://-9h3rmFETu0bjz23397rWEQ#-9h3rmFETu0bjz23397rWEQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_UXrv8Eb3EdySHMdInS9eGA" name="enhance_object_models" guid="_UXrv8Eb3EdySHMdInS9eGA" presentationName="Enhance Object Models" briefDescription="The data model is started during the analysis and design tasks. But it will involve over time. So this activity supports the enhancement of the object models.">
+            <presentation xmi:id="-lypBvtMtbcwBw-8OfxHiFw" href="uma://-lypBvtMtbcwBw-8OfxHiFw#-lypBvtMtbcwBw-8OfxHiFw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__-uQ0DyEEdyA6a_I80swHw" name="rule_deployment" guid="__-uQ0DyEEdyA6a_I80swHw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_AgQVAD5QEdyA6a_I80swHw" name="deploy_rules" guid="_AgQVAD5QEdyA6a_I80swHw" presentationName="Deploy Rules" briefDescription="Deploy rule set in the integrated core application" mandatoryInput="_vjWPcDzEEdyA6a_I80swHw" output="_vjWPcDzEEdyA6a_I80swHw">
+            <presentation xmi:id="-g6d8BHtxEivC6G4goOaTIw" href="uma://-g6d8BHtxEivC6G4goOaTIw#-g6d8BHtxEivC6G4goOaTIw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YkGwYFtsEdykEsBjRsVfZw" name="synchronize_with_wrms" guid="_YkGwYFtsEdykEsBjRsVfZw" presentationName="Synchronize with Web-Based Rule Management System" output="_jqxtYFttEdykEsBjRsVfZw">
+            <presentation xmi:id="-kQcHMF0BjLtXdNzGHnpN0g" href="uma://-kQcHMF0BjLtXdNzGHnpN0g#-kQcHMF0BjLtXdNzGHnpN0g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_jqxtYFttEdykEsBjRsVfZw" name="rule_repository_in_db" guid="_jqxtYFttEdykEsBjRsVfZw" presentationName="Rule Repository in DB">
+            <presentation xmi:id="-JJP0LEZp7perSzhxppFQrg" href="uma://-JJP0LEZp7perSzhxppFQrg#-JJP0LEZp7perSzhxppFQrg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_oVs1gFHXEdy72tV0zV7--Q" name="rule_governance" guid="_oVs1gFHXEdy72tV0zV7--Q">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_RBu1YFH7Edy72tV0zV7--Q" name="define_rule_life_cycle" guid="_RBu1YFH7Edy72tV0zV7--Q" presentationName="Define Rule Life Cycle" output="_DmUjsFH8Edy72tV0zV7--Q">
+            <presentation xmi:id="-Dhahg2KaFT27Ni6XSzv8vw" href="uma://-Dhahg2KaFT27Ni6XSzv8vw#-Dhahg2KaFT27Ni6XSzv8vw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_RBu1YVH7Edy72tV0zV7--Q" name="define_ruleset_life_cycle" guid="_RBu1YVH7Edy72tV0zV7--Q" presentationName="Define Rule Set Life Cycle ">
+            <presentation xmi:id="-q4RNuzxv2L7KBRAdU9xA6A" href="uma://-q4RNuzxv2L7KBRAdU9xA6A#-q4RNuzxv2L7KBRAdU9xA6A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_DmUjsFH8Edy72tV0zV7--Q" name="rule_life_cycle" guid="_DmUjsFH8Edy72tV0zV7--Q" presentationName="Rule Life Cycle">
+            <presentation xmi:id="-6mbvD1IeLjpN72bPh--axw" href="uma://-6mbvD1IeLjpN72bPh--axw#-6mbvD1IeLjpN72bPh--axw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_VVvNQFWVEdylmNmr0Opybg" name="rule_governance" guid="_VVvNQFWVEdylmNmr0Opybg" presentationName="Rule Governance">
+            <presentation xmi:id="-XLYCsIJzpy8ugr9-QCpfkQ" href="uma://-XLYCsIJzpy8ugr9-QCpfkQ#-XLYCsIJzpy8ugr9-QCpfkQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_fCRxoGDmEdyKlZvvtnMrMg" name="rule_management_team_mission" guid="_fCRxoGDmEdyKlZvvtnMrMg" presentationName="Rule Management Team Mission">
+            <presentation xmi:id="-5BzRQYWJ5yziQVS25PLu5g" href="uma://-5BzRQYWJ5yziQVS25PLu5g#-5BzRQYWJ5yziQVS25PLu5g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__hcZYGDrEdyKlZvvtnMrMg" name="brms_organization_chart" guid="__hcZYGDrEdyKlZvvtnMrMg" presentationName="Organization Chart">
+            <presentation xmi:id="-UNX6EwsAw60sN8SWPPyReg" href="uma://-UNX6EwsAw60sN8SWPPyReg#-UNX6EwsAw60sN8SWPPyReg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_VzXG0GDtEdyKlZvvtnMrMg" name="rule_governance_actors" guid="_VzXG0GDtEdyKlZvvtnMrMg" presentationName="Rule Governance Actors" guidelines="_npFyQGDtEdyKlZvvtnMrMg">
+            <presentation xmi:id="-v40uyF5CQwrOj5aFQeHyGw" href="uma://-v40uyF5CQwrOj5aFQeHyGw#-v40uyF5CQwrOj5aFQeHyGw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_npFyQGDtEdyKlZvvtnMrMg" name="rule_governance_actors" guid="_npFyQGDtEdyKlZvvtnMrMg" presentationName="Rule Governance Actors">
+            <presentation xmi:id="-VIS5QkD4sg5ofp6v7HwLbw" href="uma://-VIS5QkD4sg5ofp6v7HwLbw#-VIS5QkD4sg5ofp6v7HwLbw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_z9ORcKnrEdyzmOHu2kw1UA" name="maintain_rules" guid="_z9ORcKnrEdyzmOHu2kw1UA" presentationName="Maintain Rules" briefDescription="The goal of this task is to maintain the rules in order to correct faults or improve performance." mandatoryInput="_vjWPcDzEEdyA6a_I80swHw _jqxtYFttEdykEsBjRsVfZw" output="_vjWPcDzEEdyA6a_I80swHw _jqxtYFttEdykEsBjRsVfZw">
+            <presentation xmi:id="-sryODZJvBPM6Z635j3b56w" href="uma://-sryODZJvBPM6Z635j3b56w#-sryODZJvBPM6Z635j3b56w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_GkaEUKR5Ed2fX-RO52WAtA" name="rule_set_life_cycle" guid="_GkaEUKR5Ed2fX-RO52WAtA" presentationName="Rule Set Life Cycle"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IFeJQKveEd2Pv_z50upsAg" name="develop_organization_map" guid="_IFeJQKveEd2Pv_z50upsAg" presentationName="Develop Organization Map" briefDescription="The first task in rule governance consists in understanding the enterprise's organizational structure to help in defining the adequate rule governance actors and the Rule Management Team." guidelines="_fCRxoGDmEdyKlZvvtnMrMg _npFyQGDtEdyKlZvvtnMrMg" output="__hcZYGDrEdyKlZvvtnMrMg _VzXG0GDtEdyKlZvvtnMrMg">
+            <presentation xmi:id="-AnRIdz0rPYyQVyzGVBxSqA" href="uma://-AnRIdz0rPYyQVyzGVBxSqA#-AnRIdz0rPYyQVyzGVBxSqA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_O93X4KvzEd2Pv_z50upsAg" name="define_ruleset_ownership" guid="_O93X4KvzEd2Pv_z50upsAg" presentationName="Define Rule Set Ownership and Access Control" briefDescription="For each rule set it has to be defined one owner and access control for team members and others. ">
+            <presentation xmi:id="-adR9CHI731TY87a_p-QAdw" href="uma://-adR9CHI731TY87a_p-QAdw#-adR9CHI731TY87a_p-QAdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_tzUvgKv7Ed2Pv_z50upsAg" name="define_policy_change_templates" guid="_tzUvgKv7Ed2Pv_z50upsAg" presentationName="Define Business Policy Change Templates" briefDescription="Define an inventory of probable ways in which the policies may or will change and with which frequency."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_E5968Kv8Ed2Pv_z50upsAg" name="plan_deployment" guid="_E5968Kv8Ed2Pv_z50upsAg" presentationName="Plan Deployment" briefDescription="Plan deployment procedures for the different platforms: testing, staging and production. Also plan for production monitoring. "/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_deyUkKv8Ed2Pv_z50upsAg" name="develop_process_maps" guid="_deyUkKv8Ed2Pv_z50upsAg" presentationName="Develop Process Maps" briefDescription="For each of the rule development and management processes, the architect should develop a process map to be followed during rule governance.">
+            <presentation xmi:id="-aim_xTKZyZptD_PbMWAtVA" href="uma://-aim_xTKZyZptD_PbMWAtVA#-aim_xTKZyZptD_PbMWAtVA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_w0x40KzAEd2aLdlF48Bk1g" name="monitor_improve_process" guid="_w0x40KzAEd2aLdlF48Bk1g" presentationName="Monitor and Improve Process" briefDescription="Rule governance process should be monitored and improved to achieve better efficiency."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_GapYYLIxEd-Pl5C2Q7Ib_Q" name="rule_set_table" guid="_GapYYLIxEd-Pl5C2Q7Ib_Q" presentationName="Rule Set Table" briefDescription="One or more tables to describe rule sets and related information such goals, parameters, ownership and access control." templates="_mqnOETmsEdy8N6BRpa8ByQ">
+            <presentation xmi:id="-U58uj3agRic_PaRUPnuXyA" href="uma://-U58uj3agRic_PaRUPnuXyA#-U58uj3agRic_PaRUPnuXyA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnbADyEEdyA6a_I80swHw" name="rule_validation" guid="_9UnbADyEEdyA6a_I80swHw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_OmI3QEtZEdyEE-k1R6LmOA" name="rule_delta_testing" guid="_OmI3QEtZEdyEE-k1R6LmOA" presentationName="Delta-Testing" briefDescription="This whitepaper presents an alternative to the testing approach based on expected results. Instead it proposes an approach based on expected result differences between the currently deployed system and the new system under test.">
+            <presentation xmi:id="-ejZeo5A3u76_1K4bqoFH6g" href="uma://-ejZeo5A3u76_1K4bqoFH6g#-ejZeo5A3u76_1K4bqoFH6g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_arqeoEtZEdyEE-k1R6LmOA" name="rsm_report" guid="_arqeoEtZEdyEE-k1R6LmOA" presentationName="RSM Report">
+            <presentation xmi:id="-h0EyBlb8J_vcYfkol3_K1Q" href="uma://-h0EyBlb8J_vcYfkol3_K1Q#-h0EyBlb8J_vcYfkol3_K1Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_arqeoUtZEdyEE-k1R6LmOA" name="rule_report" guid="_arqeoUtZEdyEE-k1R6LmOA" presentationName="Rule Report">
+            <presentation xmi:id="-JGH-CWdlDpfb9DOmU5XTqw" href="uma://-JGH-CWdlDpfb9DOmU5XTqw#-JGH-CWdlDpfb9DOmU5XTqw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_cik88EtZEdyEE-k1R6LmOA" name="test_analysis" guid="_cik88EtZEdyEE-k1R6LmOA" presentationName="Test Analysis" guidelines="_OmI3QEtZEdyEE-k1R6LmOA" mandatoryInput="_arqeoEtZEdyEE-k1R6LmOA _arqeoUtZEdyEE-k1R6LmOA">
+            <presentation xmi:id="-Ad6YqvwEevWhaZQqLrL8Tw" href="uma://-Ad6YqvwEevWhaZQqLrL8Tw#-Ad6YqvwEevWhaZQqLrL8Tw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BnlgsEtaEdyEE-k1R6LmOA" name="sme_recommendations" guid="_BnlgsEtaEdyEE-k1R6LmOA" presentationName="SME Recommendations">
+            <presentation xmi:id="-Ime61oGmvnS6DSkVwFHALA" href="uma://-Ime61oGmvnS6DSkVwFHALA#-Ime61oGmvnS6DSkVwFHALA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CmBe4EtaEdyEE-k1R6LmOA" name="get_sme_feedback" guid="_CmBe4EtaEdyEE-k1R6LmOA" presentationName="Get SME Feedback" mandatoryInput="_arqeoUtZEdyEE-k1R6LmOA" output="_BnlgsEtaEdyEE-k1R6LmOA">
+            <presentation xmi:id="-OwhD3z6EF2Rxl8vJeX_9Zg" href="uma://-OwhD3z6EF2Rxl8vJeX_9Zg#-OwhD3z6EF2Rxl8vJeX_9Zg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_euAb8FtuEdykEsBjRsVfZw" name="execute_ruleset_functional_test" guid="_euAb8FtuEdykEsBjRsVfZw" presentationName="Execute Rule Set Functional Tests" briefDescription="Validate the function supported by the rule set with end to end scenarios. This involve client code calling the rule service." mandatoryInput="_vjWPcDzEEdyA6a_I80swHw">
+            <presentation xmi:id="-X9Vd0VWjHic6KtQOGWYJYg" href="uma://-X9Vd0VWjHic6KtQOGWYJYg#-X9Vd0VWjHic6KtQOGWYJYg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LGd_MFtvEdykEsBjRsVfZw" name="get_rule_set_reports" guid="_LGd_MFtvEdykEsBjRsVfZw" presentationName="Get Rule Set Reports" output="_arqeoUtZEdyEE-k1R6LmOA">
+            <presentation xmi:id="-Zf7BWTSjLSrv650HXb5Bvw" href="uma://-Zf7BWTSjLSrv650HXb5Bvw#-Zf7BWTSjLSrv650HXb5Bvw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_eAWtgFv3EdykEsBjRsVfZw" name="define_data_scenario" guid="_eAWtgFv3EdykEsBjRsVfZw" presentationName="Define Data Scenarios to Test Rule" briefDescription="This task supports the definition of the data used to trigger the rule execution in scope for validating the rule set quality.">
+            <presentation xmi:id="-_h7-0RcdiOHilolPvT5AbA" href="uma://-_h7-0RcdiOHilolPvT5AbA#-_h7-0RcdiOHilolPvT5AbA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_mDL5YGhkEd-FVuzXjnvIWA" name="define_ruleset_testing" guid="_mDL5YGhkEd-FVuzXjnvIWA" presentationName="Define Rule Testing Approach" briefDescription="Rule testing has been a crucial and intensive task within rule development, due to the nature of a lot of business rules working together.">
+            <presentation xmi:id="-l9UMxPIZrGi8cIWuAJ4OBQ" href="uma://-l9UMxPIZrGi8cIWuAJ4OBQ#-l9UMxPIZrGi8cIWuAJ4OBQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wLidUHrVEd2l9d4UccBrvQ" name="rule_design" guid="_wLidUHrVEd2l9d4UccBrvQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ZffcIDmiEdy8N6BRpa8ByQ" name="build_object_models" guid="_ZffcIDmiEdy8N6BRpa8ByQ" presentationName="Build Object Models">
+            <presentation xmi:id="-1HWHN5iFc1KJiC7WdlvipA" href="uma://-1HWHN5iFc1KJiC7WdlvipA#-1HWHN5iFc1KJiC7WdlvipA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_O92DQDV5EdyTBtGu8YeFfg" name="build_rule_project_structure" guid="_O92DQDV5EdyTBtGu8YeFfg" presentationName="Build Rule Project Structure" briefDescription="Designing and building how the rule will be managed is an important activity of a BRMS project. This task describes how to build the set of rule and non rules projects that support the business application.">
+            <presentation xmi:id="-FSjG7hFXf5jUyW13bEdakQ" href="uma://-FSjG7hFXf5jUyW13bEdakQ#-FSjG7hFXf5jUyW13bEdakQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qzveUBk5Edyoe_hnDlTB5A" name="determine_rule_implementation" guid="_qzveUBk5Edyoe_hnDlTB5A" presentationName="Determine Rule Implementation" briefDescription="This task tries to answer the question of where to implement the business rules that have been discovered.">
+            <presentation xmi:id="-RIbruSRPcrAZIMhywydlAw" href="uma://-RIbruSRPcrAZIMhywydlAw#-RIbruSRPcrAZIMhywydlAw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_dds-IDmiEdy8N6BRpa8ByQ" name="prototype_rules" guid="_dds-IDmiEdy8N6BRpa8ByQ" presentationName="Prototype Rules" briefDescription="Prototyping rules is an important step of the rule analysis, as it is when we are really coding that issues arrived. Paper work is fine, but working rules is far better." guidelines="_x-GVQIsqEd2gksNyFVJN4g">
+            <presentation xmi:id="-bFlEvOsmuJvDiRkZZcf_uA" href="uma://-bFlEvOsmuJvDiRkZZcf_uA#-bFlEvOsmuJvDiRkZZcf_uA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_oz2LcDmsEdy8N6BRpa8ByQ" name="rule_meta_properties" guid="_oz2LcDmsEdy8N6BRpa8ByQ" presentationName="Rule Meta Properties">
+            <presentation xmi:id="-Q3uNkTzGMszwa7-zNGSwmw" href="uma://-Q3uNkTzGMszwa7-zNGSwmw#-Q3uNkTzGMszwa7-zNGSwmw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BMI-QDmoEdy8N6BRpa8ByQ" name="rule_repository" guid="_BMI-QDmoEdy8N6BRpa8ByQ" presentationName="Rule Repository" briefDescription="The rule repository is a structural model for rule project artifacts coupled with a persistence mechanism to control the life cycle of the rule projects and the rules within the projects.">
+            <presentation xmi:id="-XK2y_joEadUUL0zRfQGr6w" href="uma://-XK2y_joEadUUL0zRfQGr6w#-XK2y_joEadUUL0zRfQGr6w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_oz2LcTmsEdy8N6BRpa8ByQ" name="ruleset_table" guid="_oz2LcTmsEdy8N6BRpa8ByQ" presentationName="Ruleset Table" briefDescription="The ruleset table is used during the analysis and design activities of the project to list the different rule sets, the parameters, object model the business application will use, completed with the type of exception or errors it may create, and how it will be deployed."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_7L2MIDyOEdyA6a_I80swHw" name="define_ruleset" guid="_7L2MIDyOEdyA6a_I80swHw" presentationName="Define Rule Set" mandatoryInput="_SlELAAsbEdyPCr4G1Tb79A _sruW2gjqEdyj5bYZ0eCR5g" output="_vjWPcDzEEdyA6a_I80swHw">
+            <presentation xmi:id="-gt8CaPXz6HldH1v7OnThvg" href="uma://-gt8CaPXz6HldH1v7OnThvg#-gt8CaPXz6HldH1v7OnThvg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_x-GVQIsqEd2gksNyFVJN4g" name="define_rule_implementation" guid="_x-GVQIsqEd2gksNyFVJN4g" presentationName="Define Rule Implementation">
+            <presentation xmi:id="-VyLjMs-sfve4Nx3sJNZDWg" href="uma://-VyLjMs-sfve4Nx3sJNZDWg#-VyLjMs-sfve4Nx3sJNZDWg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9edMLLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9edMLLekEd-D7YZN9NgldQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9edMLbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9edMLbekEd-D7YZN9NgldQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9edMLrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9edMLrekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="uma://_OOB2AAouEdyhlpBPrduOMw#_OOB2AAouEdyhlpBPrduOMw"/>
+    <bases href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_DZ1rEI7-Edy7q8CKc_B8eg"/>
+    <bases href="uma://_00zMMMt1EdyRPtFYRAKVDg#_00zMMMt1EdyRPtFYRAKVDg"/>
+    <bases href="uma://_A118oMYaEdyXeo04os5BOw#_A118oMYaEdyXeo04os5BOw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

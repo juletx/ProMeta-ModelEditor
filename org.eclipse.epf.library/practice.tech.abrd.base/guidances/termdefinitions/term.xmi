@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-AHeoazhukfFoT2-taOR0mA" name="new_term_definition,_AegYQBtrEdu_BZ3CL1I6hw" guid="-AHeoazhukfFoT2-taOR0mA" authors="Jerome Boyer" changeDate="2008-09-03T04:14:00.000-0700" version="1.0.0">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+    Term &lt;a id=&quot;XE_term&quot; name=&quot;XE_term&quot;>&lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-font-size: 9.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: HE&quot;>references&amp;nbsp;a
+    business concept used in daily business operations. It can be one or more words, nouns. They are often found in
+    different departments&amp;nbsp;and refer to the same business concept from a different perspective: they are
+    synonyms&lt;/span>&lt;/span>&lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>.&lt;/span>&lt;/a> A term may describe business
+    concept which will be mapped to a class and a characteristic of a business entity will be mapped to attribute of a
+    class, and sometime a term may describe the way a business object behave, in that last case it will be mapped within
+    method or state machine.
+&lt;/p>&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>Examples:&lt;/span>
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span
+            style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-font-size: 9.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: HE&quot;>Taxpayer,
+            taxpayer obligation, loan, claim, legal entity, etc.&lt;/span>&lt;/span>
+        &lt;/div>
+    &lt;/li>
+&lt;/ul>&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

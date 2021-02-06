@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-dXhX3UdJOPU-4Z-rr1lung" name="new_concept,_5Fm1kIZrEd25RvE15gqLvA" guid="-dXhX3UdJOPU-4Z-rr1lung" changeDate="2008-09-24T01:02:13.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    RDF - the Resource Description Framework - is a standard way for simple descriptions to be made. What XML is for
+    syntax, RDF is for &lt;strong>semantics&lt;/strong> - a clear set of rules for providing simple descriptive information. RDF
+    Schema then provides a way for those descriptions to be combined into a single vocabulary. RDF is integrated into a
+    variety of applications including:&lt;br />
+    &lt;br />
+    * library catalogs&lt;br />
+    * world-wide directories&lt;br />
+    * syndication and aggregation of news, software, and content&lt;br />
+    * personal collections of music, photos, and events&lt;br />
+    &lt;br />
+    The RDF specifications provide a powerful framework for supporting the exchange of &lt;strong>knowledge&lt;/strong> on the
+    Web.
+&lt;/p>
+&lt;p>
+    What's needed next is a way to develop subject - or domain - specific vocabularies. That is the role of an ontology. An
+    ontology defines the terms used to describe and represent an area of knowledge. Ontologies are used by people,
+    databases, and applications that need to share subject-specific (domain) information - like medicine, tool
+    manufacturing, real estate, automobile repair, financial management, etc. Ontologies include computer-usable
+    definitions of basic concepts in the domain and the relationships among them. They encode knowledge in a domain and
+    also knowledge that spans domains. In this way, they make that knowledge reusable.&lt;br />
+    &lt;br />
+    OWL - the Web Ontology Language - provides a language for defining structured, Web-based ontologies which delivers
+    richer integration and interoperability of data among descriptive communities. OWL uses both URIs for naming and the
+    description framework for the Web provided by RDF to add the following capabilities to ontologies:&lt;br />
+    &lt;br />
+    * Ability to be distributed across many systems&lt;br />
+    * Scalability to Web needs&lt;br />
+    * Compatibility with Web standards for accessibility and internationalization&lt;br />
+    * Openness and extensiblility&lt;br />
+&lt;/p>
+&lt;p>
+    OWL and RDF implement an object-relational model allowing creation of a directed graph, a network of objects and
+    relationships describing data. It is possible to infer new information from OWL and RDF data. Ex: if a container is for
+    San Francisco then it is shipped to Oakland.
+&lt;/p>
+&lt;p>
+    For Tim Berners-Lee who specifies the semantic web, rules constitute a key element of the semantic web, allowing
+    integration, derivation and transformation of the data from multiple sources in a distributes, transparent and scalable
+    manner.
+&lt;/p>
+&lt;p>
+    Bringing semantic web into BPMS-BRMS practice offers rigorous data modeling combined with a rule engine to reason,
+    classify and improve data quality.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

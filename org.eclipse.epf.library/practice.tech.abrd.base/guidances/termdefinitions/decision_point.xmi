@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-TJTj_a1tzxX6OWQ1EF8yUQ" name="new_term_definition,_ISeLwCC5EduGAdKOTiDQdQ" guid="-TJTj_a1tzxX6OWQ1EF8yUQ" authors="Jerome Boyer" changeDate="2011-09-28T15:37:24.165-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Groups&#xD;
+    together all potential rules that determine one decision.&lt;/span> &lt;a id=&quot;XE_decision_point&quot; name=&quot;XE_decision_point&quot;>It&#xD;
+    can be found in a use case description or in a Business Process Map task description. During the inception phase, the&#xD;
+    project team can build a decision point table to log the potential decision points which need to be managed during the&#xD;
+    Rule Harvesting phase.&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Example:&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;span style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;>Group all rules that determine 'eligibility for&#xD;
+        membership'&lt;/span>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;span style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;>Verify the claim data&lt;/span>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;span style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;>Adjudicate the claim&lt;/span>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Any task or activity description which includes mental thinking. Decision points are indicated by verbs&amp;nbsp;such as&#xD;
+    check, qualify, compute, calculate, estimate, evaluate, determine, assess, compare, verify, validate, confirm, decide,&#xD;
+    diagnose, process, and so on.&amp;nbsp; Those verbs help the team to extract a lot of business knowledge, including how the&#xD;
+    decisions are done.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

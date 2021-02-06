@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-YTA7QOxZpdM-is9Zx_tJXQ" name=",_jcjbMEmgEd-UYMQAaXd4fQ" guid="-YTA7QOxZpdM-is9Zx_tJXQ" changeDate="2010-04-16T02:40:19.000-0700" version="7.5.0">
+  <mainDescription>The tools and the development infrastructure has to be verified before the project starts using them. How this is done will
+clearly vary dependent upon skills, technology, and tools.</mainDescription>
+  <sections xmi:id="_tJ7fcEmgEd-UYMQAaXd4fQ" name="Verify the Environment  " guid="_tJ7fcEmgEd-UYMQAaXd4fQ">
+    <sectionDescription>Verify the environment contains the correct hardware, software, and data. Verify that the correct hardware is installed.&#xD;
+This may be done visually or through a tool (such as using Windows Properties for My Computer).&amp;nbsp;</sectionDescription>
+  </sections>
+  <sections xmi:id="_tcICsEmgEd-UYMQAaXd4fQ" name="Verify the Tools " guid="_tcICsEmgEd-UYMQAaXd4fQ">
+    <sectionDescription>Verify that the correct software configuration is installed. This may be done by looking at the registry settings, 'ini'&#xD;
+files, or by launching the tool and looking at some information options or configuration options.</sectionDescription>
+  </sections>
+  <sections xmi:id="_u7Q6MEmgEd-UYMQAaXd4fQ" name="Verify Data" guid="_u7Q6MEmgEd-UYMQAaXd4fQ">
+    <sectionDescription>Verify the data contains the appropriate data. Verifying data may require using tools to visually inspect the data, or&#xD;
+using an application to display the data. At some point, one or more use cases may be selected and executed (one or more&#xD;
+scenarios) for each tool to ensure the tool and the results of using the tool are consistent with the need.</sectionDescription>
+  </sections>
+  <sections xmi:id="_xHb20EmgEd-UYMQAaXd4fQ" name="Run the Tools" guid="_xHb20EmgEd-UYMQAaXd4fQ">
+    <sectionDescription>&lt;p>&#xD;
+    Assemble a small team of people who know the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.mgmt.project_process_tailoring.base/workproducts/tools_FA0BCC4E.html&quot;&#xD;
+    guid=&quot;_AeUr0EmiEd-UYMQAaXd4fQ&quot;>Tools&lt;/a>and the&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.base/workproducts/project_defined_process_8BF5845B.html&quot;&#xD;
+    guid=&quot;_2CEzsLrREd-0rKmWr1vEGQ&quot;>Project Defined Process&lt;/a>&amp;nbsp;well, and let them run the tools.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Test multi site, many colliding users&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        At least one use case scenario for each tool has been executed to verify the appropriate installation and&#xD;
+        configuration of the tools.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Try the normal scenarios of the development process and in the tool guidelines.&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test the integration between different tools.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Issue change requests if necessary.&amp;nbsp;&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to verify that the tools can be used to develop the system.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-AY7-wWpxUmZp4c-odX8e7g" name="capability_pattern,_2RUJACO4EdqaNq6Ptg8uyA" guid="-AY7-wWpxUmZp4c-odX8e7g" changeDate="2007-12-05T10:00:44.000-0800" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;!--StartFragment-->A&amp;nbsp;special type of&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/process_68E308B4.html&quot;&#xD;
+    guid=&quot;_yQ5m2NnmEdmO6L4XMImrsA&quot;>process&lt;/a>&amp;nbsp;used to define a stereotypical way of performing work related to a&#xD;
+    particular subject.&amp;nbsp; Capability Patterns are often used as course grained building blocks to assemble delivery&#xD;
+    processes.&lt;!--EndFragment-->&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

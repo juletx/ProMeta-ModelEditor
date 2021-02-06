@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_NrC20qeqEdmKDbQuyzCoqQ" name="design_solution,_0fshwMlgEdmt3adZL5Dmdw" guid="_NrC20qeqEdmKDbQuyzCoqQ" changeDate="2008-01-25T09:58:59.000-0800" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    This task is about designing part of the system, not the whole system.&amp;nbsp; It should be applied based upon some small&#xD;
+    subset of requirements.&amp;nbsp; The requirements driving the design could be scenario-based functional requirements,&#xD;
+    non-functional requirements, or a combination.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This task can be applied in some specific context such as the database access elements required for some&#xD;
+    scenario.&amp;nbsp; In this case the task might be applied&amp;nbsp;again later&amp;nbsp;to deal with a different context on the&#xD;
+    same requirements.&amp;nbsp; Keep in mind that to actually build some functionality of value&amp;nbsp;to the users, all&#xD;
+    contexts will typically need to be designed and implemented. For example, to actually utilize some system capability it&#xD;
+    will have to have been designed and implemented all its context such as user interface, business rules, database&#xD;
+    access, etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For cohesion and completeness, this task is described as an end-to-end pass of designing a scenario of system usage. In&#xD;
+    practice, this task will be revisited many times as the design is first considered, portions are implemented, more&#xD;
+    design is performed based on what was learned, etc. The healthiest application of this task is in very close proximity&#xD;
+    to the implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If this task is being performed on an architecturally significant element the results of this design should be&#xD;
+    referenced by the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.slot.base/workproducts/technical_architecture_slot_FF074CDD.html&quot;&#xD;
+    guid=&quot;_8OD-cLPTEduocbW-TPTq7A&quot;>[Technical Architecture]&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Each step in this task can cause all previous steps to be revisited in light of new information and decisions.&amp;nbsp;&#xD;
+    For example, while determining how elements collaborate&amp;nbsp;you might find a gap in the requirements that causes you&#xD;
+    to go back to the beginning after collaborating with the analyst, or when evaluating the design a reviewer&#xD;
+    could&amp;nbsp;note that a reusable element being used doesn't work as expected and that could cause you to identify new&#xD;
+    elements to take its place.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Consider the architecture while performing this task.&amp;nbsp; All design work must be done while regarding the&#xD;
+    architecture within which the design exists.&amp;nbsp; Furthermore, certain design elements will be deemed architecturally&#xD;
+    significant; those elements will require updates to the architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This task will be applied numerous times.&amp;nbsp; Design is best performed in small chunks.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Even when starting the design for a particular project it&amp;nbsp;is expected that there will be existing frameworks and&#xD;
+    reusable elements.&amp;nbsp; Every step of this task must give attention to the existing design and existing&#xD;
+    implementation, utilizing existing elements when possible and emulating or improving existing elements as appropriate&#xD;
+    while designing this portion of the solution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Apply patterns throughout this task.&amp;nbsp; Patterns represent proven designs and their usage promotes quality and&#xD;
+    consistency across the design.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_4Z7WYKuKEdmhFZtkg1nakg" name="Understand requirement details" guid="_4Z7WYKuKEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p>&#xD;
+    Examine the relevant&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.slot.base/workproducts/technical_specification_slot_2812F7EF.html&quot;&#xD;
+    guid=&quot;_i3vkoLS-EduDY8LNbMCDBA&quot;>[Technical Specification]&lt;/a>&amp;nbsp;to understand the scope of the design task and the&#xD;
+    expectations on the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.evolutionary_design.base/workproducts/design_D677D182.html&quot;&#xD;
+    guid=&quot;_0WuL8slgEdmt3adZL5Dmdw&quot;>Design&lt;/a>. Work with the stakeholder and Analyst to clarify ambiguous or missing&#xD;
+    information.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the requirements are not represented in some sort of scenario form (for example a non-functional requirement might&#xD;
+    not have a scenario associated with it), a scenario will have to be identified that appropriately exercises the&#xD;
+    requirements under consideration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the requirements are&amp;nbsp;determined to be&amp;nbsp;incomplete or incorrect, work with the analyst to get the&#xD;
+    requirements improved and possibly submit a change request against the requirements.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Ci7aYFixEdusJoWkvSRO9Q" name="Understand the architecture" guid="_Ci7aYFixEdusJoWkvSRO9Q">
+    <sectionDescription>&lt;p>&#xD;
+    Review the Architecture Notebook to identify changes and additions to the architecture. See&amp;nbsp;&lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.evolutionary_design.base/guidances/guidelines/evolve_the_design_3C9D6965.html&quot;&#xD;
+    guid=&quot;_C4U9QPTeEduDKIuqTXQ8SA&quot;>Guideline: Evolve the Design&lt;/a>&amp;nbsp;for more information. Work with the architect if&#xD;
+    there is any uncertainty on the understanding of relevant parts of the architecture or of the conformance of the design&#xD;
+    strategy.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This step can be skipped if there were no changes to the&amp;nbsp;architecture in the previous iteration&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_--6tYKuKEdmhFZtkg1nakg" name="Identify design elements" guid="_--6tYKuKEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p>&#xD;
+    Identify the elements that collaborate together to provide the required behavior. This can start with the key&#xD;
+    abstractions identified in the Architecture Notebook, design, domain analysis, and classical analysis of the&#xD;
+    requirements (noun filtering) to derive the elements that would be required to fulfill them. The &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/entity_control_boundary_pattern_C4047897.html&quot;&#xD;
+    guid=&quot;_uF-QYEAhEdq_UJTvM1DM2Q&quot;>Entity-Control-Boundary Pattern&lt;/a> provides a good start for identifying elements. Also&#xD;
+    see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html&quot;&#xD;
+    guid=&quot;__MnggPTdEduDKIuqTXQ8SA&quot;>Guideline: Analyze the Design&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Existing elements of the design should be examined to see if they should participate in the collaboration. It is a&#xD;
+    mistake to create all new elements in each execution of this task.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_A_LU8KuLEdmhFZtkg1nakg" name="Determine how elements collaborate to realize the scenario" guid="_A_LU8KuLEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p>&#xD;
+    Walk through the scenario distributing responsibilities to the participating elements and ensuring that the elements&#xD;
+    have the relationships required to collaborate.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    These responsibilities can be simple statements of behavior assigned to elements; they need not be detailed operation&#xD;
+    specifications with parameters, etc. Similarly, the relationships can just be defined at this step. This step is about&#xD;
+    ensuring that a quality model is being created that is robust enough to support the requirements. See &lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html&quot;&#xD;
+    guid=&quot;__MnggPTdEduDKIuqTXQ8SA&quot;>Guideline: Analyze the Design&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Look to the architecture and previous design work to create a consistent collaboration. Work with the architect to&#xD;
+    understand the details and motivations of the architecture. Look to reuse existing behavior and relations or to apply&#xD;
+    similar structure to simplify the design of the overall system.&amp;nbsp; For more information, see&amp;nbsp; &lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html&quot;&#xD;
+    guid=&quot;_vO2uoO0OEduUpsu85bVhiQ&quot;>Guideline: Software Reuse&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ENwJwKuLEdmhFZtkg1nakg" name="Refine design decisions" guid="_ENwJwKuLEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p>&#xD;
+    Refine the design to an appropriate level of detail to drive implementation and to ensure that it fits into the&#xD;
+    architecture. In this step the design can take into consideration the actual implementation language and other&#xD;
+    technical decisions. Revisit the identification of the elements and the collaborations that realize the scenarios if&#xD;
+    necessary as this refinement takes into consideration details at a lower level of abstraction. Discuss testability&#xD;
+    issues, such as design elements that are difficult to test or critical performance areas, with the tester and&#xD;
+    architect.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Evolve the design by examining recent changes in the larger context of the design and determine if refactoring and&#xD;
+    redesigning techniques will improve the robustness, flexibility, and understandability of the design. See&amp;nbsp;&lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.evolutionary_design.base/guidances/guidelines/evolve_the_design_3C9D6965.html&quot;&#xD;
+    guid=&quot;_C4U9QPTeEduDKIuqTXQ8SA&quot;>Guideline: Evolve the Design&lt;/a> for guidance specific design decisions and on making&#xD;
+    design improvements just when they're needed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Incorporate &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html&quot;&#xD;
+    guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a>s from the architecture. Apply consistent structure of the&#xD;
+    elements and organization of the behavior as in other areas of the design and use patterns identified in the&#xD;
+    architecture.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_KNZYAKuLEdmhFZtkg1nakg" name="Design internals (for large or complex elements)" guid="_KNZYAKuLEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p>&#xD;
+    Design large or complex elements or some complex internal behavior in more detail.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This might just involve devising an algorithm that could be performed to produce the desired behavior. Add additional&#xD;
+    operations, attributes, and relationships to support the expectations of an element.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Design the state of the element over the course of its lifetime to ensure its proper behavior in various circumstances.&#xD;
+    It may be useful to describe a state machine for elements with complex states.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_OGYbwKuLEdmhFZtkg1nakg" name="Communicate the design" guid="_OGYbwKuLEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p>&#xD;
+    Communicate&amp;nbsp;the system's design to&amp;nbsp;those who need to understand it. Though this is described here toward the&#xD;
+    end of the task, communication should be going on throughout the steps. Working collaboratively is always better than&#xD;
+    reviewing the work after it is complete.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Here are some ways to communicate&amp;nbsp;the design:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Formal models&amp;nbsp;specified in UML.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Informal diagrams that render static structure and capture&amp;nbsp;dynamic behavior.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Annotated code that communicates information about the static structure. This can be&amp;nbsp;supplemented with textual&#xD;
+        descriptions of collaborative behavior across code modules.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data models to describe the database schema.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Here are some examples of individuals&amp;nbsp;who will need to understand the design of the system:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Developers&amp;nbsp;who will implement a solution based on the design.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architects who can review the design to ensure that it conforms to the architecture or who might examine the design&#xD;
+        for opportunities to improve the architecture.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Other designers who can examine the design for applicability to other parts of the system.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Developers or other designers who will be working on other parts of the system that will&amp;nbsp;depend on the&#xD;
+        elements designed in this task.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Other reviewers&amp;nbsp;who will review the design for quality and adherence to standards.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_mUVt8BfnEduD353bkQ4frw" name="Evaluate the design" guid="_mUVt8BfnEduD353bkQ4frw">
+    <sectionDescription>&lt;p>&#xD;
+    Evaluate the object design for coupling, cohesion, and other quality design measurements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Consider the design from various angles to ensure that it is a high-quality, communicable design. Work with other&#xD;
+    technical team members; an independent party can provide a fresh perspective. Use the tester and architect to provide&#xD;
+    perspectives on design quality and adherence to the architecture. However, when identifying potential reviewers keep in&#xD;
+    mind that if someone can add value by reviewing the design, then perhaps they could have added even more value by&#xD;
+    actively participating in the design effort itself. If design flaws are identified, improve the design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.evolutionary_design.base/guidances/concepts/design_E36137FA.html&quot;&#xD;
+    guid=&quot;_bFjlAPTYEduDKIuqTXQ8SA&quot;>Concept: Design&lt;/a>, &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html&quot;&#xD;
+    guid=&quot;__MnggPTdEduDKIuqTXQ8SA&quot;>Guideline: Analyze the Design&lt;/a>, and &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.evolutionary_design.base/guidances/guidelines/evolve_the_design_3C9D6965.html&quot;&#xD;
+    guid=&quot;_C4U9QPTeEduDKIuqTXQ8SA&quot;>Guideline: Evolve the Design&lt;/a>&amp;nbsp;for more information.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purpose of&amp;nbsp;this&amp;nbsp;task&amp;nbsp;is to describe the&amp;nbsp;elements of the system so that they support the&#xD;
+    required behavior, are of high quality, and fit within the architecture.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-MllWL01NL93RTB7VsY69fw" name=",_NL4DMEvFEdunZcj9T5hrMQ" guid="-MllWL01NL93RTB7VsY69fw" changeDate="2008-07-08T03:22:55.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Second major project milestone that occurs at the end of &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/termdefinitions/elaboration_3D6C8392.html&quot;&#xD;
+    guid=&quot;_8DkT4EvDEdunZcj9T5hrMQ&quot;>Elaboration&lt;/a> phase. At this point, a baseline of requirements is agreed&#xD;
+    to.&amp;nbsp;Examine the detailed system objectives and scope, the choice of architecture, and the resolution of the major&#xD;
+    risks. The milestone is achieved when the architecture has been validated.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

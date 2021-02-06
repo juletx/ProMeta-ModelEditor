@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-AO488Z6M5HCAbxm1c-SjUA" name="new_supporting_material,_xKvXkMn8EdyuBO4ZIzcyig" guid="-AO488Z6M5HCAbxm1c-SjUA" changeDate="2008-06-06T03:35:19.000-0700" version="7.2.0">
+  <mainDescription>&lt;h3>
+    Introduction
+&lt;/h3>
+&lt;p>
+    A good way to understand OpenUP is to think of it as targeted to teams that have the following objectives:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Apply the minimally necessary process that brings value.
+    &lt;/li>
+    &lt;li>
+        Avoid being overloaded with unproductive formal work products.
+    &lt;/li>
+    &lt;li>
+        Use a process that can be tailored and extended for additional needs that may arise during the software development
+        lifecycle.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    In order to be applied to as many project environments as possible, OpenUP is a process that has the following
+    characteristics:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Minimal - only fundamental content is included
+    &lt;/li>
+    &lt;li>
+        Complete - it can be manifested as an entire process to build a system
+    &lt;/li>
+    &lt;li>
+        Extensible - it can be used as a foundation on which process content can be added or tailored as needed
+    &lt;/li>
+&lt;/ul>
+&lt;h4>
+    Minimal
+&lt;/h4>
+&lt;p>
+    OpenUP is considered an agile, lightweight process that promotes software development best practices such as:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        iterative development
+    &lt;/li>
+    &lt;li>
+        team collaboration
+    &lt;/li>
+    &lt;li>
+        continuous integration and tests
+    &lt;/li>
+    &lt;li>
+        frequent deliveries of working software
+    &lt;/li>
+    &lt;li>
+        adaptation to changes, and so on.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    Other factors also count when determining the size of process material, such as the number of method elements like
+    roles, tasks, artifacts and guidance.
+&lt;/p>
+&lt;p>
+    OpenUP provides descriptions of responsibilities, skills and competencies of the fundamental roles in a team. See the
+    list of &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.default.nav_view.base/customcategories/role_list_4C636D88.html&quot; guid=&quot;_WCIHZMRdEdyD76CYS6Ta7A&quot;>Roles&lt;/a>&amp;nbsp;for more details.
+&lt;/p>
+&lt;p>
+    OpenUP provides the essential artifacts needed to capture and communicate decisions. Ultimately, the process is not
+    governed by artifact creation. For example, thinking about design is more important than documenting the design;
+    assessing and planning an iteration is about promoting team collaboration instead of creating plans that are written in
+    stone. In addition, for each artifact, OpenUP suggests informal representations or provides informal templates as
+    starting points for teams that do not need to create their own. The team decides what the most appropriate form to be
+    applied is. See the list of &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.default.nav_view.base/customcategories/work_products_FB13601A.html&quot; guid=&quot;__O1Y8MRgEdyD76CYS6Ta7A&quot;>Work Products&lt;/a>&amp;nbsp;organized by domains.
+&lt;/p>
+&lt;p>
+    Tasks in OpenUP are clear and focused on results. Text is usually short and objective, describing how individuals
+    should collaborate to achieve objectives. Steps are short descriptions of what to achieve, and point to external
+    guidance on how to do it. See the list of&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.default.nav_view.base/customcategories/tasks_E310E5A5.html&quot; guid=&quot;_CXQicMRhEdyD76CYS6Ta7A&quot;>Tasks&lt;/a>&amp;nbsp;organized by disciplines.
+&lt;/p>
+&lt;p>
+    OpenUP recommends the least amount of process guidance a team should use in order to be successful. Teams may have
+    different names or responsibilities for roles, may perform tasks in or have different representations for artifacts,
+    but they still want to follow the principles and practices described in OpenUP to increase the chances of project
+    success.
+&lt;/p>
+&lt;h4>
+    Complete
+&lt;/h4>
+&lt;p>
+    OpenUP is considered a complete process because it covers the essential disciplines in a software development lifecycle
+    by guiding the team in the following high level activities:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Customer needs and requirements are elicited and captured, with continuous customer involvement.
+    &lt;/li>
+    &lt;li>
+        A robust architecture for the system is evolved, addressing technical risks and promoting team organization.
+    &lt;/li>
+    &lt;li>
+        For each requirement, a technical solution is designed, implemented and tested, which conforms to the architectural
+        decisions.
+    &lt;/li>
+    &lt;li>
+        The system is evaluated by tests that validate customer requirements.
+    &lt;/li>
+    &lt;li>
+        Defects and enhancements feed back into development.
+    &lt;/li>
+    &lt;li>
+        Work is prioritized, iterations are planned and assessed, and team members take on work to be done.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    However, OpenUP assumes that the project team is not responsible for certain activities and decisions that are assigned
+    to other areas of the organization, such as:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Creation of the business case is dealt with by management who decides whether or not the project is worth investing
+        in, what is the return on investment, and so on.
+    &lt;/li>
+    &lt;li>
+        Environment setup - some organizational issues may not be in the scope of the team, such as: installation,
+        configuration and licensing of development tools and configuration management tools; development process
+        customization and publishing, etc.
+    &lt;/li>
+    &lt;li>
+        Deployment and operation - addressed at an organizational rather than a team level.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    Other areas of concern are also not present in OpenUP, because small teams do not need to deal with the formality or
+    overhead of these areas. They include, but are not limited to:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Advanced configuration management
+    &lt;/li>
+    &lt;li>
+        Advanced requirements management
+    &lt;/li>
+    &lt;li>
+        Program and portfolio management
+    &lt;/li>
+&lt;/ul>
+&lt;h4>
+    Extensible
+&lt;/h4>
+&lt;p>
+    OpenUP can be adopted by projects as it is, out-of-the-box, because it's minimal and complete.
+&lt;/p>
+&lt;p>
+    However, different projects may have different needs. Organizations may be interested in customizing some aspects of
+    OpenUP to adapt it to their projects. These are some examples of possible customization:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Add new or rename existing roles
+    &lt;/li>
+    &lt;li>
+        Add steps to existing tasks
+    &lt;/li>
+    &lt;li>
+        Create new guidelines on a given technique
+    &lt;/li>
+    &lt;li>
+        Remove a given content area
+    &lt;/li>
+    &lt;li>
+        Modify existing or add new templates to artifacts
+    &lt;/li>
+    &lt;li>
+        Modify or create a new process lifecycle
+    &lt;/li>
+    &lt;li>
+        Add or remove process content
+    &lt;/li>
+    &lt;li>
+        Add guidance on how to achieve compliance
+    &lt;/li>
+    &lt;li>
+        Add guidance specific to a technology being used
+    &lt;/li>
+    &lt;li>
+        Replace or augment&amp;nbsp;one of the layers with new&amp;nbsp;content (e.g. by changing&amp;nbsp;or adding material to how
+        management is performed)
+    &lt;/li>
+    &lt;li>
+        Etc.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    OpenUP can be customized and extended by using the EPF Composer tool, which allows you to author, configure and publish
+    methods. With EPF Composer, you can add, remove and change elements according to your team needs, then publish the
+    content to serve as guidance for your team.
+&lt;/p>
+&lt;p>
+    See more information about customization in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.default.tool_def.base/guidances/supportingmaterials/resources_for_customizing_methods_7663A1A6.html&quot; guid=&quot;_omneEMX4EduywMSzPTUUwA&quot;>Supporting Material: Resources for Customizing Methods&lt;/a>.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

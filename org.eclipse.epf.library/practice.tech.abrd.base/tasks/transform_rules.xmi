@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-kaG_G7QLbZmoHMO8_47GiQ" name=",_8mZw8DmhEdy8N6BRpa8ByQ" guid="-kaG_G7QLbZmoHMO8_47GiQ" authors="Jerome Boyer" changeDate="2008-09-08T11:02:32.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    Rule Analyst has to study the rule discovered and try to transform it so that the implementation and the management of
+    the rule will be more easy. This includes transforming the rule in atomic element using a syntax without ambiguity,
+    remove redundant rules, conflicting rules, and finally try to redefine the scope of the rule by searching by
+    non-handled cases.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    At this stage rule analyst can build some rule template which&amp;nbsp;are built from rules that have the same set of
+    conditions with some little variations: adding new value in test condition, or new condition.
+&lt;/p></mainDescription>
+  <keyConsiderations>This activity will also be done during the implementation of the rule set, but it is started during the analysis, so we are
+detailing it in this context.</keyConsiderations>
+  <sections xmi:id="_7HEPsDmiEdy8N6BRpa8ByQ" name="Refine Rule as Atomic" guid="_7HEPsDmiEdy8N6BRpa8ByQ">
+    <sectionDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt&quot; type=&quot;disc&quot;>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>A&#xD;
+    rule is atomic if it cannot be further decomposed without losing meaning. Atomicity is desired for understandability,&#xD;
+    ease of maintenance&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;div style=&quot;MARGIN-TOP: 0cm; MARGIN-LEFT: 2em&quot; type=&quot;disc&quot;>&#xD;
+    &lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>&#xD;
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt&quot;>&#xD;
+            Make sure each rule has one result&#xD;
+        &lt;/li>&#xD;
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt&quot;>&#xD;
+            When expressed an inference rule or an action enabler, do not allow ANDs on the right hand side; break the rule&#xD;
+        &lt;/li>&#xD;
+        &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+            &lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>&#xD;
+                &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level3 lfo1; tab-stops: list 108.0pt&quot;>&#xD;
+                    IF A THEN do(B) AND do(C)&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&amp;nbsp;&lt;/span> can be rewritten as two&#xD;
+                    rules IF A THEN do(B) and IF A THEN do(C)&#xD;
+                &lt;/li>&#xD;
+            &lt;/ul>&#xD;
+        &lt;/li>&#xD;
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt&quot;>&#xD;
+            When expressing an inference rule or an action enabler, do not allow ORs on the left hand side; break the rule&#xD;
+        &lt;/li>&#xD;
+        &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+            &lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>&#xD;
+                &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level3 lfo1; tab-stops: list 108.0pt&quot;>&#xD;
+                    IF A OR B THEN do(C) can be rewritten as two rules IF A THEN do(C) and IF B THEN do(C)&#xD;
+                &lt;/li>&#xD;
+            &lt;/ul>&#xD;
+        &lt;/li>&#xD;
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt&quot;>&#xD;
+            When expressing constraints and guidelines, do not allow for ANDs&#xD;
+        &lt;/li>&#xD;
+        &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+            &lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>&#xD;
+                &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level3 lfo1; tab-stops: list 108.0pt&quot;>&#xD;
+                    A driver must be 25 years old or older AND must have good credit rating&#xD;
+                &lt;/li>&#xD;
+                &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level3 lfo1; tab-stops: list 108.0pt&quot;>&#xD;
+                    A driver must be 25 years old or older; a driver must have good credit rating&#xD;
+                &lt;/li>&#xD;
+            &lt;/ul>&#xD;
+        &lt;/li>&#xD;
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt&quot;>&#xD;
+            Make sure that each rule contains only necessary conditions; don't over-constrain the rule applicability&#xD;
+        &lt;/li>&#xD;
+    &lt;/ul>&#xD;
+&lt;/div></sectionDescription>
+  </sections>
+  <sections xmi:id="_tFwpYDmoEdy8N6BRpa8ByQ" name="Remove redundant rules" guid="_tFwpYDmoEdy8N6BRpa8ByQ">
+    <sectionDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm 3pt 18pt&quot;>&#xD;
+    This step is important to avoid developing complex rule sets. Redundant rules are&#xD;
+&lt;/p>&#xD;
+&lt;div style=&quot;MARGIN-TOP: 0cm; MARGIN-LEFT: 2em&quot; type=&quot;disc&quot;>&#xD;
+    &lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>&#xD;
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt&quot;>&#xD;
+            Duplicated rules&#xD;
+        &lt;/li>&#xD;
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt&quot;>&#xD;
+            Duplicated through some transformations (renaming, inversion of conditions, etc.)&#xD;
+        &lt;/li>&#xD;
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt&quot;>&#xD;
+            Redundancies among rules that create a common data value or a common truth value, or initiate a common action&#xD;
+        &lt;/li>&#xD;
+    &lt;/ul>&#xD;
+&lt;/div>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>&#xD;
+    &lt;span lang=&quot;EN-CA&quot; style=&quot;mso-ansi-language: EN-CA&quot;>&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&#xD;
+    This step is made simpler if we make the rules atomic, for otherwise, we will be lost in the equivalence of complex&#xD;
+    logical formulas (e.g. If NOT (A AND B) is equivalent to&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> IF (NOT A) OR&#xD;
+    (NOT B)). There are for sure more subtle forms of redundancy: IF A AND B THEN C is equivalent to IF (NOT C) THEN (NOT&#xD;
+    A) OR (NOT B). Some time changing the order of conditions can help to highlight same rules: &lt;span&#xD;
+    style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span>IF A AND B THEN C is the same as IF B AND A THEN C&lt;/span>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_vMBLQDmoEdy8N6BRpa8ByQ" name="Remove inconsistency rules" guid="_vMBLQDmoEdy8N6BRpa8ByQ">
+    <sectionDescription>&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Overlapping&#xD;
+    rules are partially redundant because they are not semantically equivalent but they point to problems: One rule may say&#xD;
+    IF A AND B THEN C, the other says IF A THEN C. The question is, is B really needed to infer C? One of the two rules&#xD;
+    should be eliminated.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is also possible to get semantically equivalent conditions, contradictory conclusions: two rules like IF A THEN B;&#xD;
+    and IF A THEN NOT(B) are leading us to have two conflicting rules, probably coming from two different sources.&#xD;
+    Typically, this is symptomatic of the fact that we are missing some necessary conditions in either rule (or both, e.g.:&#xD;
+    IF A AND C THEN B; IF A AND D THEN NOT(B))&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Another standard case is around the same conclusions derived from contradictory conditions: rules like IF A THEN B;&#xD;
+    &lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span>and IF NOT (A) THEN B: Logically, this means that the conclusions should&#xD;
+    always be true. This is symptomatic of the fact that the condition is really not relevant to the conclusion&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_LmcIADmqEdy8N6BRpa8ByQ" name="Ensure completeness among rules" guid="_LmcIADmqEdy8N6BRpa8ByQ">
+    <sectionDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+    We are often considering three kinds of completeness:&#xD;
+&lt;/p>&#xD;
+&lt;div style=&quot;MARGIN-TOP: 0cm; MARGIN-LEFT: 2em&quot; type=&quot;disc&quot;>&#xD;
+    &lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>&#xD;
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt&quot;>&#xD;
+            Make sure that all the possibilities are covered for a given rule pattern. If you have a rule that says &quot;loans&#xD;
+            for value greater than 250,000 $ should be approved by the branch manager&quot;, it does not tell us who must/can&#xD;
+            approve loans of value less than 250,000 $&#xD;
+        &lt;/li>&#xD;
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt&quot;>&#xD;
+            Make sure that all derived data in the object model has corresponding computation or inference rules. This&#xD;
+            involves computed attributes, qualifications (e.g. customer status, account type, etc.)&#xD;
+        &lt;/li>&#xD;
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt&quot;>&#xD;
+            Make sure that integrity and cardinality constraints are somehow represented. Either in the object model or in&#xD;
+            rules&#xD;
+        &lt;/li>&#xD;
+    &lt;/ul>&#xD;
+&lt;/div></sectionDescription>
+  </sections>
+  <sections xmi:id="_w3cyUDmoEdy8N6BRpa8ByQ" name="Analyze rule volatility" guid="_w3cyUDmoEdy8N6BRpa8ByQ">
+    <sectionDescription>&lt;span&#xD;
+style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>This&#xD;
+a good timing to ask the business user how often the rule will change once we did the rule transformation.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_0-T6ADmoEdy8N6BRpa8ByQ" name="Understand rule dependencies, rule sharing" guid="_0-T6ADmoEdy8N6BRpa8ByQ">
+    <sectionDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+    A rule R1 depends on a rule R2 if the enforcement of R2 results into a situation where R1 is relevant (or needs to be&#xD;
+    enforced). A simple common example, is a rule R2 which is creating new data, or is modifying existing data that is&#xD;
+    tested by R1.&#xD;
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot; />&#xD;
+&lt;br />&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+    Understanding dependencies help determine the likely &quot;execution&quot; sequence of rules. The execution sequence is useful&#xD;
+    for rule analysis to detect undesirable dependencies to plan rule testing. For the implementation the execution&#xD;
+    sequence is useful to understand how the results will look like: some rule engine tools&amp;nbsp;will determine that&#xD;
+    sequence automatically, and on the fly (chaining). If we implement business rules in a procedural fashion, we need to&#xD;
+    understand the execution sequence to enforce it&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-CA&quot; style=&quot;mso-ansi-language: EN-CA&quot;>Some of the undesirable dependencies include circular dependencies&#xD;
+    leading to infinite loops. Others will cause us to re-evaluate rule jurisdiction&lt;/span>&#xD;
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot; />&#xD;
+&lt;br />&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-CA&quot; style=&quot;mso-ansi-language: EN-CA&quot;>When the work is done the last step is to look at how rule can be&#xD;
+    shared between process flow. Rule sharing is an important step of the analysis. It can be done once we have progressed&#xD;
+    in the rule set implementation. Rule re-factoring activity can help on implementing some rule sharing pattern.&lt;/span>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The goal of the this task is to transform the rule in an artifact the business user can understand, and rule writer can
+    understand, implement, test and maintain.
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

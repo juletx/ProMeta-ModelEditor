@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-mG2MksMZ8rnYuB_UxF53ow" name="process_engineer,{6C7FFC1C-5C80-42A4-82F3-1917FB75C31A}" guid="-mG2MksMZ8rnYuB_UxF53ow" changeDate="2010-10-19T11:49:06.720-0700" version="7.1.0">
+  <mainDescription>&lt;p>&#xD;
+    This role plays an important part of any management team of a software project. The role is responsible for&#xD;
+    all process related aspects of the project, such as :&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Tailoring the process to match the specific needs of the project&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Educating and mentoring project members on process related issues.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring that valuable project experience is harvested and fed back into the process.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <skills>It is important for a person playing this role to have an in-depth understanding of the underlying process&#xD;
+definition and available tools to be able to make informed choices for tailoring. Ideally, a person playing this role&#xD;
+should have had multiple experiences working on software projects, and should understand the various considerations to be&#xD;
+made when tailoring processes.&lt;br /></skills>
+  <assignmentApproaches>&lt;p>&#xD;
+    Individuals filling this role are often part of a process group that defines organizational configurations and act as&#xD;
+    process mentors on projects.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is common practice for organizations undergoing a process transformation to look for resources outside the company&#xD;
+    for filling this role for the initial pilot projects.&#xD;
+&lt;/p></assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

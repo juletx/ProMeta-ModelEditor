@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-88Vj7cM5EcVnfesDYaAkww" name="new_term_definition,_K9eecMaGEduMlb2cQZNTYw" guid="-88Vj7cM5EcVnfesDYaAkww" changeDate="2007-12-05T10:15:10.000-0800" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    A specialized type of activity&amp;nbsp;that represents a significant period in a project normally ending with a decision&#xD;
+    checkpoint, major milestones, or a set of deliverables.&amp;nbsp; Phases typically have well defined objectives and provide&#xD;
+    the basis for how the project work will be structured.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

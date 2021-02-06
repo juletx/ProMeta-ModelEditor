@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-m6mx-VR4CReQNhrf4b8ykQ" name="new_term_definition,_1xELEMaFEduMlb2cQZNTYw" guid="-m6mx-VR4CReQNhrf4b8ykQ" changeDate="2008-03-10T00:59:48.000-0700" version="7.2.0">
+  <mainDescription>A&amp;nbsp;physical container for &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/method_plugin_190B9F5E.html&quot;&#xD;
+guid=&quot;_D4TLgMaGEduMlb2cQZNTYw&quot;>method plug-ins&lt;/a> and &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/method_configuration_C2B8FA8A.html&quot;&#xD;
+guid=&quot;__V7pAMaEEduMlb2cQZNTYw&quot;>method configuration&lt;/a> definitions. All&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/method_element_A8EA8685.html&quot;&#xD;
+guid=&quot;_4svVUO7bEdyYoPJ0YfnNbQ&quot;>method element&lt;/a>s are stored in a method library.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

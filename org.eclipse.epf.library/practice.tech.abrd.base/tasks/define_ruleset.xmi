@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-gt8CaPXz6HldH1v7OnThvg" name=",_7L2MIDyOEdyA6a_I80swHw" guid="-gt8CaPXz6HldH1v7OnThvg" authors="Jerome Boyer" changeDate="2008-09-10T09:52:27.000-0700" version="7.5.1">
+  <mainDescription>&lt;a id=&quot;XE_rule_set__define&quot; name=&quot;XE_rule_set__define&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>When designing an application using one BRE and a simple rule set this activity
+    will be done quickly. The rule developer still needs to think about the parameters the exception management, &lt;span
+    style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span>what are the rule part of the rule set, and how they are executed.&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>So for a simple unique rule set the following information needs to be designed and
+    documented:&lt;/span>
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>Input, output parameters&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>Type of data model&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>Rule execution flow using a rule flow. But it is still possible with modern BRE
+        to use re-entrant rule set, so executing a rule flow from a rule task or rule package.&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>Exception management&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>Inference objects like a result object which may be used to control the future
+        execution of the caller application or the BRE.&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>What are the rule part of the rule set&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>What is their execution order. It is recommended to avoid using a ordering
+        mechanism like the rule priority, but some time at a rule task level it is needed to use sorting mechanism&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>When does a rule is not candidate to enter in a rule set. This is linked to the
+        rule life cycle.&lt;/span>
+    &lt;/li>
+&lt;/ul></mainDescription>
+  <sections xmi:id="_uGtsEErrEdyEE-k1R6LmOA" name="Define rule set parameters" guid="_uGtsEErrEdyEE-k1R6LmOA"/>
+  <sections xmi:id="_pIE9sEafEdySHMdInS9eGA" name="Develop or enhance prototyped Rule Flow" guid="_pIE9sEafEdySHMdInS9eGA">
+    <sectionDescription>Organize the tasks with the business logic and the technical rules needed to prepare the rule execution. There are always a&#xD;
+need to have some functions, technical rules, or asserting type of rules (rule without conditions which are asserting&#xD;
+object in working memory) that needs to be included in pre or post processing of the rule flow.</sectionDescription>
+  </sections>
+  <sections xmi:id="__SG24DyOEdyA6a_I80swHw" name="Selecting and Extracting the Rule Artifacts that Go Into the Ruleset" guid="__SG24DyOEdyA6a_I80swHw"/>
+  <sections xmi:id="_vYhSMErrEdyEE-k1R6LmOA" name="Work on the rule execution sequence" guid="_vYhSMErrEdyEE-k1R6LmOA"/>
+  <sections xmi:id="_4V6rAErrEdyEE-k1R6LmOA" name="Define when a rule is part or not of a rule set" guid="_4V6rAErrEdyEE-k1R6LmOA"/>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-9lCfOj2da5Xm8VvefI9b5g" name="publishing,_Z7gHED08Ed-lU6YVR9_PJQ" guid="-9lCfOj2da5Xm8VvefI9b5g" changeDate="2011-10-10T10:23:30.727-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Publishing an individual &lt;a&#xD;
+    id=&quot;A_-_-_C:/AMasell_cc_view/umf/lib751/shared/core.default.uma_concept.base/guidances/concepts/practice_F5C8EAAB.html:.:.:&quot;&#xD;
+     class=&quot;elementLink&quot; href=&quot;./../../../core.default.uma_concept.base/guidances/concepts/practice_F5C8EAAB.html&quot;&#xD;
+    guid=&quot;_qhCTAFRREd2CWscN8Mx6rg&quot;>Practice&lt;/a>&amp;nbsp;is a valuable exercise as it allows you to see the practice in its&#xD;
+    published form, which may result in some refinements.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Publishing an individual practice&amp;nbsp;involves publishing a &lt;a&#xD;
+    id=&quot;A_-_-_C:/AMasell_cc_view/umf/lib751/shared/core.default.uma_concept.base/guidances/termdefinitions/method_configuration_C2B8FA8A.html:.:.:&quot;&#xD;
+     class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/method_configuration_C2B8FA8A.html&quot;&#xD;
+    guid=&quot;__V7pAMaEEduMlb2cQZNTYw&quot;>method configuration&lt;/a>&amp;nbsp;that specifies what practices will be published (the&#xD;
+    selected practice&amp;nbsp;&lt;a&#xD;
+    id=&quot;A_-_-_C:/AMasell_cc_view/umf/lib751/shared/core.default.uma_concept.base/guidances/termdefinitions/method_plugin_190B9F5E.html:.:.:&quot;&#xD;
+     class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/method_plugin_190B9F5E.html&quot;&#xD;
+    guid=&quot;_D4TLgMaGEduMlb2cQZNTYw&quot;>method plug-in&lt;/a>s and packages) and how they will appear in the published method (the&#xD;
+    navigation views).&amp;nbsp;Such a configuration is usually not delivered to an end-user, but is quite helpful during the&#xD;
+    development of the practice.&amp;nbsp;It is recommended that the name of the configuration include the name of the&#xD;
+    practice.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For convenience, publishing options may be stored in&amp;nbsp;a configuration file.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Once the configuration has been defined it can be published.&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Publishing in the UMF&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    When defining configurations in the Unified Method Framework (UMF), you can use the generic navigation view defined in&#xD;
+    the default navigation view definition plug-in in the UMF core as the navigation view for the test configuration.&#xD;
+    Usually, that is all that is needed. However, feel free to define additional navigation views, if needed.&amp;nbsp;For more&#xD;
+    information on how navigation views are implemented in the UMF, see Navigation Views in the UMF in&amp;nbsp;&lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../practice.bus.mdev.base/guidances/guidelines/defining_method_elements_CADE4FF6.html&quot;&#xD;
+    guid=&quot;_fx7TMD3REd-realK_We5vA&quot;>Guideline: Defining Method Elements&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As with all configurations in the UMF, any configuration-specific elements (e.g., navigation views, welcome pages,&#xD;
+    processes, etc.) need to be define in a separate&amp;nbsp;Publish plug-in for the test configuration and that Publish&#xD;
+    plug-in must be included in the test configuration.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

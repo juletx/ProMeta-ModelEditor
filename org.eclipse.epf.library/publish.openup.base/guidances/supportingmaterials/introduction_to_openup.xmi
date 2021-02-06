@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-5KKBPZ4Oza-UdqN4OlQiqg" name="introduction_to_openup,_sOaNACatEd21TMX858E1gw" guid="-5KKBPZ4Oza-UdqN4OlQiqg" changeDate="2008-05-20T01:52:14.000-0700" version="7.5.0">
+  <mainDescription>&lt;br />
+&lt;table border=&quot;0&quot; width=&quot;589&quot; align=&quot;center&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td width=&quot;96&quot;>
+                &lt;div align=&quot;center&quot;>
+                    &lt;a href=&quot;./../../../publish.openup.base/customcategories/getting_started_5684BDA6.html&quot;
+                    guid=&quot;_CjSiUMn-EdyuBO4ZIzcyig&quot;>&lt;img border=&quot;0&quot; alt=&quot;Getting Started&quot;
+                    src=&quot;resources/get_started_48.gif&quot; width=&quot;48&quot; height=&quot;48&quot; usemap=&quot;#map0&quot; />&lt;/a>
+                &lt;/div>
+            &lt;/td>
+            &lt;td width=&quot;95&quot;>
+                &lt;div align=&quot;center&quot;>
+                    &lt;a href=&quot;./../../../publish.openup.base/customcategories/core_principles_category_B7B55076.html&quot;
+                    guid=&quot;_qktUMMn7EdyuBO4ZIzcyig&quot;>&lt;img border=&quot;0&quot; alt=&quot;Core Principles&quot;
+                    src=&quot;resources/core_principles_48.gif&quot; width=&quot;48&quot; height=&quot;48&quot; usemap=&quot;#map2&quot; />&lt;/a>
+                &lt;/div>
+            &lt;/td>
+            &lt;td width=&quot;88&quot;>
+                &lt;div align=&quot;center&quot;>
+                    &lt;a href=&quot;./../../../core.default.nav_view.base/customcategories/role_list_4C636D88.html&quot;
+                    guid=&quot;_WCIHZMRdEdyD76CYS6Ta7A&quot;>&lt;img border=&quot;0&quot; alt=&quot;Roles&quot; src=&quot;resources/roles_48.gif&quot; width=&quot;48&quot;
+                    height=&quot;48&quot; usemap=&quot;#map3&quot; />&lt;/a>
+                &lt;/div>
+            &lt;/td>
+            &lt;td width=&quot;98&quot;>
+                &lt;div align=&quot;center&quot;>
+                    &lt;a href=&quot;./../../../core.default.nav_view.base/customcategories/work_products_FB13601A.html&quot;
+                    guid=&quot;__O1Y8MRgEdyD76CYS6Ta7A&quot;>&lt;img border=&quot;0&quot; alt=&quot;Work Products&quot; src=&quot;resources/work_products_48.gif&quot;
+                    width=&quot;48&quot; height=&quot;48&quot; usemap=&quot;#map4&quot; />&lt;/a>
+                &lt;/div>
+            &lt;/td>
+            &lt;td width=&quot;88&quot;>
+                &lt;div align=&quot;center&quot;>
+                    &lt;a href=&quot;./../../../core.default.nav_view.base/customcategories/tasks_E310E5A5.html&quot;
+                    guid=&quot;_CXQicMRhEdyD76CYS6Ta7A&quot;>&lt;img border=&quot;0&quot; alt=&quot;Disciplines&quot; src=&quot;resources/disciplines_48.gif&quot;
+                    width=&quot;48&quot; height=&quot;48&quot; usemap=&quot;#map5&quot; />&lt;/a>
+                &lt;/div>
+            &lt;/td>
+            &lt;td width=&quot;98&quot;>
+                &lt;div align=&quot;center&quot;>
+                    &lt;a href=&quot;./../../../process.openup.base/deliveryprocesses/openup_lifecycle_EE511F3A.html&quot;
+                    guid=&quot;_SuWj4dOPEdyqlogshP8l4g&quot;>&lt;img border=&quot;0&quot; alt=&quot;LifeCycle&quot; src=&quot;resources/life_cycle_48.gif&quot;
+                    width=&quot;48&quot; height=&quot;48&quot; usemap=&quot;#map6&quot; />&lt;/a>
+                &lt;/div>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr valign=&quot;top&quot; align=&quot;middle&quot;>
+            &lt;td width=&quot;96&quot;>
+                &lt;div align=&quot;center&quot;>
+                    &lt;a class=&quot;elementLink&quot;
+                    href=&quot;./../../../publish.openup.base/customcategories/getting_started_5684BDA6.html&quot;
+                    guid=&quot;_CjSiUMn-EdyuBO4ZIzcyig&quot;>Getting Started&lt;/a>
+                &lt;/div>
+            &lt;/td>
+            &lt;td width=&quot;95&quot;>
+                &lt;div align=&quot;center&quot;>
+                    &lt;a class=&quot;elementLink&quot;
+                    href=&quot;./../../../publish.openup.base/customcategories/core_principles_category_B7B55076.html&quot;
+                    guid=&quot;_qktUMMn7EdyuBO4ZIzcyig&quot;>Core Principles&lt;/a>
+                &lt;/div>
+            &lt;/td>
+            &lt;td width=&quot;88&quot;>
+                &lt;div align=&quot;center&quot;>
+                    &lt;a class=&quot;elementLinkWithUserText&quot;
+                    href=&quot;./../../../core.default.nav_view.base/customcategories/role_list_4C636D88.html&quot;
+                    guid=&quot;_WCIHZMRdEdyD76CYS6Ta7A&quot;>Roles&lt;/a>
+                &lt;/div>
+            &lt;/td>
+            &lt;td width=&quot;98&quot;>
+                &lt;div align=&quot;center&quot;>
+                    &lt;a class=&quot;elementLinkWithUserText&quot;
+                    href=&quot;./../../../core.default.nav_view.base/customcategories/work_products_FB13601A.html&quot;
+                    guid=&quot;__O1Y8MRgEdyD76CYS6Ta7A&quot;>Work Products&lt;/a>
+                &lt;/div>
+            &lt;/td>
+            &lt;td width=&quot;88&quot;>
+                &lt;div align=&quot;center&quot;>
+                    &lt;a class=&quot;elementLinkWithUserText&quot;
+                    href=&quot;./../../../core.default.nav_view.base/customcategories/tasks_E310E5A5.html&quot;
+                    guid=&quot;_CXQicMRhEdyD76CYS6Ta7A&quot;>Disciplines&lt;/a>
+                &lt;/div>
+            &lt;/td>
+            &lt;td width=&quot;98&quot;>
+                &lt;div align=&quot;center&quot;>
+                    &lt;a class=&quot;elementLinkWithUserText&quot;
+                    href=&quot;./../../../process.openup.base/deliveryprocesses/openup_lifecycle_EE511F3A.html&quot;
+                    guid=&quot;_SuWj4dOPEdyqlogshP8l4g&quot;>Lifecycle&lt;/a>
+                &lt;/div>
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>
+&lt;h3>
+    What is OpenUP?
+&lt;/h3>
+&lt;p>
+    OpenUP is a lean Unified Process that applies iterative and incremental approaches within a structured lifecycle.
+    OpenUP embraces a pragmatic, agile philosophy that focuses on the collaborative nature of software development. It is a
+    tools-agnostic, low-ceremony process that can be extended to address a broad variety of project types.
+&lt;/p>
+&lt;p>
+    &lt;img border=&quot;0&quot; alt=&quot;OpenUP layers: micro-increments, iteration lifecycle and project lifecycle&quot;
+    src=&quot;resources/three_layers.jpg&quot; width=&quot;700&quot; height=&quot;546&quot; usemap=&quot;#map&quot; project=&quot;&quot; and=&quot;&quot; lifecycle=&quot;&quot; iteration=&quot;&quot;
+    layers:=&quot;&quot; tag=&quot;OpenUP&quot; /> &lt;map id=&quot;Map&quot; name=&quot;Map&quot;>
+        &lt;area href=&quot;./../../../practice.mgmt.iterative_dev.base/guidances/concepts/iteration_lifecycle_B16552E2.html&quot;
+        shape=&quot;rect&quot; alt=&quot;Iteration Lifecycle&quot; coords=&quot;11,170,100,219&quot; guid=&quot;_DI_tICNaEdyCq8v2ZO4QcA&quot; />
+        &lt;area href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/project_lifecycle_203F87.html&quot;
+        shape=&quot;rect&quot; alt=&quot;Project Lifecycle&quot; coords=&quot;11,383,100,435&quot; guid=&quot;_nSfVwCNYEdyCq8v2ZO4QcA&quot; />
+        &lt;area href=&quot;./../../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot; shape=&quot;rect&quot;
+        alt=&quot;Work Item&quot; coords=&quot;110,55,188,104&quot; guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot; />
+        &lt;area href=&quot;./../../../practice.mgmt.iterative_dev.base/workproducts/iteration_plan_B46FED39.html&quot; shape=&quot;rect&quot;
+        alt=&quot;Iteration Plan&quot; coords=&quot;117,208,179,302&quot; guid=&quot;_0aQBEslgEdmt3adZL5Dmdw&quot; />
+        &lt;area href=&quot;./../../../practice.mgmt.release_planning.base/workproducts/project_plan_1CDBB7E4.html&quot; shape=&quot;rect&quot;
+        alt=&quot;Project Plan&quot; coords=&quot;118,421,176,514&quot; guid=&quot;_0a6vcMlgEdmt3adZL5Dmdw&quot; />
+        &lt;area href=&quot;./../../../practice.mgmt.iterative_dev.base/guidances/concepts/micro_increments_C8773066.html&quot;
+        shape=&quot;poly&quot; alt=&quot;Increment&quot;
+        coords=&quot;332,96,332,97,332,98,332,99,332,100,332,101,333,102,333,103,333,104,333,105,333,106,334,107,334,107,334,108,334,109,335,110,335,111,335,112,336,113,336,114,336,115,337,116,337,117,338,118,338,118,339,119,339,120,340,121,340,122,341,123,342,123,342,124,343,125,343,126,344,126,345,127,346,128,346,129,347,129,348,130,348,131,349,131,350,132,351,132,352,133,352,134,353,134,354,135,355,135,356,136,357,136,358,137,358,137,359,137,360,138,361,138,362,138,363,139,364,139,365,139,366,140,367,140,368,140,369,140,370,141,371,141,372,141,373,141,374,141,375,141,376,141,377,141,378,141,379,141,380,141,381,141,382,141,383,141,384,141,385,141,386,141,387,140,388,140,389,140,389,140,390,139,391,139,392,139,393,138,394,138,395,138,396,137,397,137,398,137,399,136,400,136,400,135,401,135,402,134,403,134,404,133,405,132,405,132,406,131,407,131,408,130,408,129,409,129,410,128,411,127,411,126,412,126,413,125,413,124,414,123,414,123,415,122,416,121,416,120,417,119,417,118,418,118,418,117,418,116,419,115,419,114,420,113,420,112,420,111,421,110,421,109,421,108,422,107,422,107,422,106,422,105,422,104,423,103,423,102,423,101,423,100,423,99,423,98,423,97,423,96,423,95,423,94,423,93,423,92,423,91,423,90,423,89,422,88,422,87,422,86,422,85,422,84,421,83,421,82,421,81,420,80,420,79,420,78,419,77,419,76,418,76,418,75,418,74,417,73,417,72,416,71,416,70,415,70,414,69,414,68,413,67,413,66,412,66,411,65,411,64,410,64,409,63,408,62,408,62,407,61,406,60,405,60,405,59,404,58,403,58,402,57,401,57,400,56,400,56,399,55,398,55,397,54,396,54,395,54,394,53,393,53,392,53,391,52,390,52,389,52,389,52,388,51,387,51,386,51,385,51,384,51,383,50,382,50,381,50,380,50,379,50,378,50,377,50,376,50,375,50,374,50,373,50,372,51,371,51,370,51,369,51,368,51,367,52,366,52,365,52,364,52,363,53,362,53,361,53,360,54,359,54,358,54,358,55,357,55,356,56,355,56,354,57,353,57,352,58,352,58,351,59,350,60,349,60,348,61,348,62,347,62,346,63,346,64,345,64,344,65,343,66,343,66,342,67,342,68,341,69,340,70,340,70,339,71,339,72,338,73,338,74,337,75,337,76,336,76,336,77,336,78,335,79,335,80,335,81,334,82,334,83,334,84,334,85,333,86,333,87,333,88,333,89,333,90,332,91,332,92,332,93,332,94,332,95&quot;
+         guid=&quot;_S80VwCNbEdyCq8v2ZO4QcA&quot; />
+        &lt;area href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/iteration_C20B1904.html&quot; shape=&quot;poly&quot;
+        alt=&quot;Iteration&quot;
+        coords=&quot;346,250,346,252,346,253,346,254,346,255,346,257,346,258,346,259,347,260,347,261,347,263,347,264,347,265,348,266,348,267,348,269,349,270,349,271,349,272,350,273,350,274,351,275,351,277,352,278,352,279,353,280,353,281,354,282,354,283,355,284,355,285,356,286,357,287,357,288,358,289,359,290,359,291,360,292,361,293,362,294,363,295,363,296,364,297,365,298,366,299,367,300,368,300,368,301,369,302,370,303,371,304,372,304,373,305,374,306,375,307,376,307,377,308,378,309,379,309,380,310,381,310,382,311,384,311,385,312,386,313,387,313,388,314,389,314,390,314,391,315,393,315,394,316,395,316,396,316,397,317,398,317,400,317,401,317,402,318,403,318,404,318,406,318,407,318,408,318,409,319,410,319,412,319,413,319,414,319,415,319,417,319,418,319,419,319,420,318,421,318,423,318,424,318,425,318,426,318,427,317,429,317,430,317,431,317,432,316,433,316,434,316,436,315,437,315,438,314,439,314,440,314,441,313,442,313,444,312,445,311,446,311,447,310,448,310,449,309,450,309,451,308,452,307,453,307,454,306,455,305,456,304,457,304,458,303,459,302,460,301,461,300,461,300,462,299,463,298,464,297,465,296,466,295,466,294,467,293,468,292,469,291,469,290,470,289,471,288,471,287,472,286,473,285,473,284,474,283,475,282,475,281,476,280,476,279,477,278,477,277,478,275,478,274,478,273,479,272,479,271,480,270,480,269,480,267,480,266,481,265,481,264,481,263,481,261,482,260,482,259,482,258,482,257,482,255,482,254,482,253,482,252,482,250,482,249,482,248,482,247,482,246,482,244,482,243,482,242,482,241,481,240,481,238,481,237,481,236,480,235,480,234,480,232,480,231,479,230,479,229,478,228,478,227,478,225,477,224,477,223,476,222,476,221,475,220,475,219,474,218,473,217,473,216,472,215,471,214,471,213,470,212,469,211,469,210,468,209,467,208,466,207,466,206,465,205,464,204,463,203,462,202,461,201,461,200,460,200,459,199,458,198,457,197,456,197,455,196,454,195,453,194,452,194,451,193,450,192,449,192,448,191,447,191,446,190,445,189,444,189,442,188,441,188,440,187,439,187,438,186,437,186,436,186,434,185,433,185,432,185,431,184,430,184,429,184,427,183,426,183,425,183,424,183,423,183,421,183,420,182,419,182,418,182,417,182,415,182,414,182,413,182,412,182,410,182,409,182,408,182,407,183,406,183,404,183,403,183,402,183,401,183,400,184,398,184,397,184,396,185,395,185,394,185,393,186,391,186,390,186,389,187,388,187,387,188,386,188,385,189,384,189,382,190,381,191,380,191,379,192,378,192,377,193,376,194,375,194,374,195,373,196,372,197,371,197,370,198,369,199,368,200,368,200,367,201,366,202,365,203,364,204,363,205,363,206,362,207,361,208,360,209,359,210,359,211,358,212,357,213,357,214,356,215,355,216,355,217,354,218,354,219,353,220,353,221,352,222,352,223,351,224,351,225,350,227,350,228,349,229,349,230,349,231,348,232,348,234,348,235,347,236,347,237,347,238,347,240,347,241,346,242,346,243,346,244,346,246,346,247,346,248,346,249&quot;
+         guid=&quot;_lam4ADkBEduxovfWMDsntw&quot; />
+        &lt;area href=&quot;./../../../core.tech.common.extend_supp/workproducts/build_95D7D8FD.html&quot; shape=&quot;rect&quot; alt=&quot;Build&quot;
+        coords=&quot;581,228,656,330&quot; guid=&quot;_0YuXEMlgEdmt3adZL5Dmdw&quot; />
+        &lt;area href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/inception_phase_C4456871.html&quot;
+        shape=&quot;rect&quot; alt=&quot;Inception Phase&quot; coords=&quot;249,387,304,404&quot; guid=&quot;_0hmKgBOMEduCNqgZdt_OaA&quot; />
+        &lt;area href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html&quot;
+        shape=&quot;rect&quot; alt=&quot;Elaboration Phase&quot; coords=&quot;305,386,399,404&quot; guid=&quot;_2plxwBOMEduCNqgZdt_OaA&quot; />
+        &lt;area href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/construction_phase_873B6559.html&quot;
+        shape=&quot;rect&quot; alt=&quot;Construction Phase&quot; coords=&quot;400,387,543,404&quot; guid=&quot;_48EKsBOMEduCNqgZdt_OaA&quot; />
+        &lt;area href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/transition_phase_DD5986E5.html&quot;
+        shape=&quot;rect&quot; alt=&quot;Transition Phase&quot; coords=&quot;545,387,598,404&quot; guid=&quot;__ca5UBOMEduCNqgZdt_OaA&quot; />
+        &lt;area href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot; shape=&quot;rect&quot; alt=&quot;Risk&quot;
+        coords=&quot;306,457,344,485&quot; guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot; />
+        &lt;area href=&quot;./../../../publish.openup.base/guidances/concepts/core_principle_balance_793DD27.html&quot; shape=&quot;rect&quot;
+        alt=&quot;Value&quot; coords=&quot;452,427,498,452&quot; guid=&quot;_ssG6MMvpEdqukPpotm3DYg&quot; />
+        &lt;area href=&quot;./../../../practice.mgmt.iterative_dev.base/guidances/concepts/micro_increments_C8773066.html&quot;
+        shape=&quot;rect&quot; alt=&quot;Micro Increment&quot; coords=&quot;11,11,177,35&quot; guid=&quot;_S80VwCNbEdyCq8v2ZO4QcA&quot; />
+    &lt;/map>
+&lt;/p>
+&lt;p>
+    &lt;em>OpenUP layers: micro-increments, iteration lifecycle and project lifecycle&lt;/em>
+&lt;/p>
+&lt;p>
+    Personal effort on an OpenUP project is organized in &lt;strong>micro-increments&lt;/strong>. These represent short units of
+    work that produce a steady, measurable pace of project progress (typically measured in hours or a few days). The
+    process applies intensive collaboration as the system is incrementally developed by a committed, self-organized team.
+    These micro-increments provide an extremely short feedback loop that drives adaptive decisions within each iteration.
+&lt;/p>
+&lt;p>
+    OpenUP divides the project into iterations: planned, time-boxed intervals typically measured in weeks. Iterations focus
+    the team on delivering incremental value to stakeholders in a predictable manner. The iteration plan defines what
+    should be delivered within the iteration, and the result is a demo-able or shippable build. OpenUP teams self-organize
+    around how to accomplish iteration objectives and commit to delivering the results. They do that by defining and
+    &quot;pulling&quot; fine-grained tasks from a work items list. OpenUP applies an &lt;strong>iteration lifecycle&lt;/strong> that
+    structures how micro-increments are applied to deliver stable, cohesive builds of the system that incrementally
+    progresses towards the iteration objectives.
+&lt;/p>
+&lt;p>
+    OpenUP structures the &lt;strong>project lifecycle&lt;/strong> into four phases: Inception, Elaboration, Construction, and
+    Transition. The project lifecycle provides stakeholders and team members with visibility and decision points throughout
+    the project. This enables effective oversight, and allows you to make &quot;go or no-go&quot; decisions at appropriate times. A
+    project plan defines the lifecycle, and the end result is a released application.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

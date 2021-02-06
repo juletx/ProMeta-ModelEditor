@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-E459X-McFVuJGngiFPWf6w" name=",_1kmN0NqREdy88NBoQgfGyg" guid="-E459X-McFVuJGngiFPWf6w" changeDate="2008-02-13T04:15:20.000-0800" version="7.2.0">
+  <keyConsiderations>&lt;p>&#xD;
+    As you evolve the architecture, you may wish to evolve your architectural models.&amp;nbsp; For more information, see &lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.evolutionary_arch.base/guidances/guidelines/modeling_the_arch_8BE6E55B.html&quot;&#xD;
+    guid=&quot;_HrgUQNcuEdy1nJEYZGzN4A&quot;>Guideline: Modeling the Architecture&lt;/a>.&#xD;
+&lt;/p></keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

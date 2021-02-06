@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-xQs5Y0wrgJ-kBONErf3QcQ" name="discovery_output,_j4-ukDS3EdyTBtGu8YeFfg" guid="-xQs5Y0wrgJ-kBONErf3QcQ" authors="Jerome Boyer" changeDate="2008-09-05T10:20:37.000-0700" version="7.5.1">
+  <mainDescription>&lt;a id=&quot;XE_discovery_output&quot; name=&quot;XE_discovery_output&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The architect may need to establish the different rule services in scope and what will be the input and output data.
+    The first table represents the mapping between the process task and the rule service.
+&lt;/p>&lt;br />
+&lt;br />
+&lt;table title=&quot;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;85%&quot; border=&quot;1&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;th id=&quot;&quot; scope=&quot;col&quot; abbr=&quot;&quot;>
+                Process Step- Decision Step
+            &lt;/th>
+            &lt;th id=&quot;&quot; scope=&quot;col&quot; abbr=&quot;&quot;>
+                Decision Service
+            &lt;/th>
+            &lt;th id=&quot;&quot; scope=&quot;col&quot; abbr=&quot;&quot;>
+                Input
+            &lt;/th>
+            &lt;th id=&quot;&quot; scope=&quot;col&quot; abbr=&quot;&quot;>
+                Output
+            &lt;/th>
+            &lt;th id=&quot;&quot; scope=&quot;col&quot; abbr=&quot;&quot;>
+                Exceptions
+            &lt;/th>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                Loan Application&amp;nbsp;Validation&lt;br />
+                &lt;br />
+                &lt;br />
+                &lt;br />
+                &lt;br />
+                &lt;br />
+            &lt;/td>
+            &lt;td>
+                myAusLoanValidation
+            &lt;/td>
+            &lt;td>
+                loanApplication
+            &lt;/td>
+            &lt;td>
+                &lt;p>
+                    loanApplication
+                &lt;/p>
+                &lt;p>
+                    loanApplicationResults&amp;nbsp;
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+                &lt;p>
+                    Could not process the loanApplication
+                &lt;/p>
+                &lt;p>
+                    loanApplication null, empty
+                &lt;/p>
+                &lt;p>
+                    Any mandatory elements not present&amp;nbsp;&amp;nbsp;&amp;nbsp;
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                Calculate Risk grade and credit score&lt;br />
+            &lt;/td>
+            &lt;td>
+                myAusCalculateRisk
+            &lt;/td>
+            &lt;td>
+                loanApplication
+            &lt;/td>
+            &lt;td>
+                &lt;p>
+                    loanApplication
+                &lt;/p>
+                &lt;p>
+                    loanApplicationResults
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                Eligibility&lt;br />
+            &lt;/td>
+            &lt;td>
+                myAusLoanEligibility
+            &lt;/td>
+            &lt;td>
+                loanApplication
+            &lt;/td>
+            &lt;td>
+                &lt;p>
+                    loanApplication
+                &lt;/p>
+                &lt;p>
+                    loanApplicationResults
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                Pricing
+            &lt;/td>
+            &lt;td>
+                myAusLoanPricing
+            &lt;/td>
+            &lt;td>
+                loanApplication
+            &lt;/td>
+            &lt;td>
+                &lt;p>
+                    loanApplication
+                &lt;/p>
+                &lt;p>
+                    proposal
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>&lt;br />
+The rule analyst may leverage a rule template for workflow project to get some description of the data validation rules for
+example. &lt;br />
+&lt;br />
+&lt;br />
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

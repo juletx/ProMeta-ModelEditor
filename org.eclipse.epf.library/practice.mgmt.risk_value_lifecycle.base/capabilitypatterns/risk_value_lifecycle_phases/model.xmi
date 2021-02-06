@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__CvCULekEd-D7YZN9NgldQ" guid="__CvCULekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__CvCUbekEd-D7YZN9NgldQ" id="-Uq-ecMy01nzV6sLsXMJ1ow" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="__CvCUrekEd-D7YZN9NgldQ" id="-2OtVEeOzetzCgwp0Rgr4Yw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="__CvCU7ekEd-D7YZN9NgldQ" id="-6PEqL-4C0ngDnSot7_JayA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="__C4zULekEd-D7YZN9NgldQ" id="-qs6M0AwWCTfjqB3am3SE9A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="__C4zUbekEd-D7YZN9NgldQ" id="-1IlTGK1mPdoxAMwuAjqLYg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_SKnAwOL9EdyM47cGD2jiaQ" name="risk_value_lifecycle_phases" guid="_SKnAwOL9EdyM47cGD2jiaQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9ZFj8LekEd-D7YZN9NgldQ" name="inception_phase" guid="_9ZFj8LekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9ZFj8bekEd-D7YZN9NgldQ" name="inception_iteration" guid="_9ZFj8bekEd-D7YZN9NgldQ">
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_SKnAzuL9EdyM47cGD2jiaQ" name="inception_iteration" guid="_SKnAzuL9EdyM47cGD2jiaQ" presentationName="Inception Iteration [1..n]" briefDescription="This is a placeholder for a typical Inception phase iteration. It provides a place to include the activities typically performed during a single iteration in the Inception phase." superActivities="_-UFkUVThEd2ZeY-22kx0mw" isRepeatable="true"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_-UFkUVThEd2ZeY-22kx0mw" name="inception_phase" guid="_-UFkUVThEd2ZeY-22kx0mw" presentationName="Inception Phase" briefDescription="The overriding goal of the inception phase is to achieve concurrence among all stakeholders on the lifecycle objectives for the project." superActivities="_SKnA1uL9EdyM47cGD2jiaQ" breakdownElements="_SKnAzuL9EdyM47cGD2jiaQ _TUrpQFTiEd2ZeY-22kx0mw">
+        <presentation xmi:id="-Uq-ecMy01nzV6sLsXMJ1ow" href="uma://-Uq-ecMy01nzV6sLsXMJ1ow#-Uq-ecMy01nzV6sLsXMJ1ow"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_TUrpQFTiEd2ZeY-22kx0mw" name="Lifecycle Objectives Milestone" guid="_TUrpQFTiEd2ZeY-22kx0mw" presentationName="Lifecycle Objectives Milestone" briefDescription="At the end of the inception phase is the first major project milestone. At this point, you examine the lifecycle objectives of the project, and decide either to proceed with the project or to cancel it." superActivities="_-UFkUVThEd2ZeY-22kx0mw" linkToPredecessor="_t3LQgFTiEd2ZeY-22kx0mw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t3LQgFTiEd2ZeY-22kx0mw" guid="_t3LQgFTiEd2ZeY-22kx0mw" pred="_SKnAzuL9EdyM47cGD2jiaQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9ZFj87ekEd-D7YZN9NgldQ" name="elaboration_phase" guid="_9ZFj87ekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9ZFj9bekEd-D7YZN9NgldQ" name="elaboration_iteration" guid="_9ZFj9bekEd-D7YZN9NgldQ">
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_SKnA0uL9EdyM47cGD2jiaQ" name="elaboration_iteration" guid="_SKnA0uL9EdyM47cGD2jiaQ" presentationName="Elaboration Iteration [1..n]" briefDescription="This is a placeholder for a typical Elaboration phase iteration. It provides a place to include the activities typically performed during a single iteration in the Elaboration phase." superActivities="_2_nRIVThEd2ZeY-22kx0mw" isRepeatable="true" linkToPredecessor="_u6ZoEFTiEd2ZeY-22kx0mw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_u6ZoEFTiEd2ZeY-22kx0mw" guid="_u6ZoEFTiEd2ZeY-22kx0mw" pred="_TUrpQFTiEd2ZeY-22kx0mw"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_2_nRIVThEd2ZeY-22kx0mw" name="elaboration_phase" guid="_2_nRIVThEd2ZeY-22kx0mw" presentationName="Elaboration Phase" briefDescription="The goal of the elaboration phase is to baseline the architecture of the system to provide a stable basis for the bulk of the design and implementation effort in the construction phase." superActivities="_SKnA1uL9EdyM47cGD2jiaQ" linkToPredecessor="_DrnNMVTjEd2ZeY-22kx0mw" breakdownElements="_SKnA0uL9EdyM47cGD2jiaQ _XJ0u0FTiEd2ZeY-22kx0mw">
+        <presentation xmi:id="-2OtVEeOzetzCgwp0Rgr4Yw" href="uma://-Uq-ecMy01nzV6sLsXMJ1ow#-2OtVEeOzetzCgwp0Rgr4Yw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_DrnNMVTjEd2ZeY-22kx0mw" guid="_DrnNMVTjEd2ZeY-22kx0mw" pred="_-UFkUVThEd2ZeY-22kx0mw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_XJ0u0FTiEd2ZeY-22kx0mw" name="Lifecycle Architecture Milestone" guid="_XJ0u0FTiEd2ZeY-22kx0mw" presentationName="Lifecycle Architecture Milestone" briefDescription="At the end of the elaboration phase is the second important project milestone, the Lifecycle Architecture Milestone. At this point, you examine the detailed system objectives and scope, the choice of architecture, and the resolution of the major risks." superActivities="_2_nRIVThEd2ZeY-22kx0mw" linkToPredecessor="_vlksAFTiEd2ZeY-22kx0mw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_vlksAFTiEd2ZeY-22kx0mw" guid="_vlksAFTiEd2ZeY-22kx0mw" pred="_SKnA0uL9EdyM47cGD2jiaQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9ZFj-LekEd-D7YZN9NgldQ" name="construction_phase" guid="_9ZFj-LekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9ZFj-rekEd-D7YZN9NgldQ" name="construction_iteration" guid="_9ZFj-rekEd-D7YZN9NgldQ">
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_SKnAyOL9EdyM47cGD2jiaQ" name="construction_iteration" guid="_SKnAyOL9EdyM47cGD2jiaQ" presentationName="Construction Iteration [1..n]" briefDescription="This is a placeholder for a typical Construction phase iteration. It provides a place to include the activities typically performed during a single iteration in the Construction phase." superActivities="__r658VThEd2ZeY-22kx0mw" isRepeatable="true" linkToPredecessor="_wZs3oFTiEd2ZeY-22kx0mw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wZs3oFTiEd2ZeY-22kx0mw" guid="_wZs3oFTiEd2ZeY-22kx0mw" pred="_XJ0u0FTiEd2ZeY-22kx0mw"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="__r658VThEd2ZeY-22kx0mw" name="construction_phase" guid="__r658VThEd2ZeY-22kx0mw" presentationName="Construction Phase" briefDescription="The goal of the construction phase is clarifying the remaining requirements and completing the development of the system based upon the baselined architecture." superActivities="_SKnA1uL9EdyM47cGD2jiaQ" linkToPredecessor="_EA-ZMVTjEd2ZeY-22kx0mw" breakdownElements="_SKnAyOL9EdyM47cGD2jiaQ _ePfxAFTiEd2ZeY-22kx0mw">
+        <presentation xmi:id="-6PEqL-4C0ngDnSot7_JayA" href="uma://-Uq-ecMy01nzV6sLsXMJ1ow#-6PEqL-4C0ngDnSot7_JayA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_EA-ZMVTjEd2ZeY-22kx0mw" guid="_EA-ZMVTjEd2ZeY-22kx0mw" pred="_2_nRIVThEd2ZeY-22kx0mw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_ePfxAFTiEd2ZeY-22kx0mw" name="Initial Operational Capability" guid="_ePfxAFTiEd2ZeY-22kx0mw" presentationName="Initial Operational Capability Milestone" briefDescription="At the Initial Operational Capability Milestone, the product is ready to be handed over to the Transition Team. All functionality has been developed and all alpha testing (if any) has been completed. In addition to the software, user documentation has been developed, and there is a description of the current release." superActivities="__r658VThEd2ZeY-22kx0mw" linkToPredecessor="_xcB3UFTiEd2ZeY-22kx0mw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_xcB3UFTiEd2ZeY-22kx0mw" guid="_xcB3UFTiEd2ZeY-22kx0mw" pred="_SKnAyOL9EdyM47cGD2jiaQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9ZFj_bekEd-D7YZN9NgldQ" name="transition_phase" guid="_9ZFj_bekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9ZFj_7ekEd-D7YZN9NgldQ" name="transition_iteration" guid="_9ZFj_7ekEd-D7YZN9NgldQ">
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_SKnAxOL9EdyM47cGD2jiaQ" name="transition_iteration" guid="_SKnAxOL9EdyM47cGD2jiaQ" presentationName="Transition Iteration [1..n]" briefDescription="This is a placeholder for a typical Transition phase iteration. It provides a place to include the activities typically performed during a single iteration in the Transition phase." superActivities="_BBN48VTiEd2ZeY-22kx0mw" isRepeatable="true" linkToPredecessor="_ztFT8FTiEd2ZeY-22kx0mw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ztFT8FTiEd2ZeY-22kx0mw" guid="_ztFT8FTiEd2ZeY-22kx0mw" pred="_ePfxAFTiEd2ZeY-22kx0mw"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_BBN48VTiEd2ZeY-22kx0mw" name="transition_phase" guid="_BBN48VTiEd2ZeY-22kx0mw" presentationName="Transition Phase" briefDescription="The focus of the Transition Phase is to ensure that software is available for its end users." superActivities="_SKnA1uL9EdyM47cGD2jiaQ" linkToPredecessor="_EUZEcVTjEd2ZeY-22kx0mw" breakdownElements="_SKnAxOL9EdyM47cGD2jiaQ _nm0swFTiEd2ZeY-22kx0mw">
+        <presentation xmi:id="-qs6M0AwWCTfjqB3am3SE9A" href="uma://-Uq-ecMy01nzV6sLsXMJ1ow#-qs6M0AwWCTfjqB3am3SE9A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_EUZEcVTjEd2ZeY-22kx0mw" guid="_EUZEcVTjEd2ZeY-22kx0mw" pred="__r658VThEd2ZeY-22kx0mw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_nm0swFTiEd2ZeY-22kx0mw" name="Product Release Milestone" guid="_nm0swFTiEd2ZeY-22kx0mw" presentationName="Product Release Milestone" briefDescription="At the end of the transition phase is the fourth important project milestone, the Product Release Milestone. At this point, you decide if the objectives were met, and if you should start another development cycle. The Product Release Milestone is the result of the customer reviewing and accepting the project deliverables." superActivities="_BBN48VTiEd2ZeY-22kx0mw" linkToPredecessor="_3Kw7wFTiEd2ZeY-22kx0mw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_3Kw7wFTiEd2ZeY-22kx0mw" guid="_3Kw7wFTiEd2ZeY-22kx0mw" pred="_SKnAxOL9EdyM47cGD2jiaQ"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_SKnA1uL9EdyM47cGD2jiaQ" name="risk_value_lifecycle_phases" guid="_SKnA1uL9EdyM47cGD2jiaQ" presentationName="Risk-Value Lifecycle Phases" briefDescription="This capability pattern illustrates a Unified Process lifecycle, with the organization of iterations within phases." breakdownElements="_-UFkUVThEd2ZeY-22kx0mw _2_nRIVThEd2ZeY-22kx0mw __r658VThEd2ZeY-22kx0mw _BBN48VTiEd2ZeY-22kx0mw">
+      <presentation xmi:id="-1IlTGK1mPdoxAMwuAjqLYg" href="uma://-Uq-ecMy01nzV6sLsXMJ1ow#-1IlTGK1mPdoxAMwuAjqLYg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fz8LKMHNt9wb0sZo4mO04w" name="01_01_create_update_product_documenation,_VpCWQPd3EeCFmpfCmMPILg" guid="-fz8LKMHNt9wb0sZo4mO04w">
+    <refinedDescription>&lt;p>&#xD;
+    Development team members sometimes take documentation for granted, or do not give it enough consideration. However,&#xD;
+    after a product is delivered, Customers who pay for the system and for support often do not have enough information to&#xD;
+    effectively manage the product.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If a Technical Writer is made available to a development team, that role often takes the burden off the team for&#xD;
+    developing the formal product documentation and for ensuring that it is in the correct format and business language. If&#xD;
+    a Technical Writer is not available, the development team and Product Owner must make every effort to create enough&#xD;
+    documentation to ensure that the features that have been developed for each Release are understood and can be&#xD;
+    communicated effectively by the paying Customer to their stakeholders.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Delivering a professionally developed product requires that a development team provide the Customer with accurate,&#xD;
+    detailed, and comprehensive product documentation.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-h5qFmsSg2p-6LPnB_IUogA" name="01_02_create_update_user_documenation,_VpC9UPd3EeCFmpfCmMPILg" guid="-h5qFmsSg2p-6LPnB_IUogA">
+    <refinedDescription>&lt;p>&#xD;
+    User documentation might include all or parts of user manuals (electronic or paper-based), tutorials, frequently asked&#xD;
+    questions (FAQs), on-line Help Files, installation instructions, operational procedures, etc. User documentation often&#xD;
+    is used as the basis for training materials - if the documentation is of poor quality, the training materials might not&#xD;
+    be any better.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Without good user documentation, a system might be well developed by a development team but might not meet the End User's&#xD;
+    expectations because they will not be able operate the application effectively.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gdsRvq0kijdAY9bJ0FONYg" name="01_03_create_update_support_documenation,_VpC9Ufd3EeCFmpfCmMPILg" guid="-gdsRvq0kijdAY9bJ0FONYg">
+    <refinedDescription>&lt;p>&#xD;
+    Support documentation often is the most overlooked aspect of a documentation effort. Anyone who has had the opportunity&#xD;
+    to provide End User support for a particular application can appreciate how important effective, well-written support&#xD;
+    documentation can be. This documentation very often is technical in nature and differs significantly from user or&#xD;
+    product documentation, which normally is written for the lay person.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The development team should do its best to make sure that personnel who perform an IT support role have the right amount and&#xD;
+    the relevant type of information necessary to support the application, whether they provide Tier 1, Tier 2, or Tier 3&#xD;
+    support. Support documentation often is developed based on these three different support categories. How&#xD;
+    effectively the code base is commented and the ease with which those comments are found and understood contributes to&#xD;
+    the quality and quantity of support documentation.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qS1z2DJT2_jfCUcou-xFYw" name="technical_writer,_VpIc4Pd3EeCFmpfCmMPILg" guid="-qS1z2DJT2_jfCUcou-xFYw">
+    <refinedDescription>&lt;p>&#xD;
+    Some organizations might engage a Technical Writer to help a development team review and refine the documentation that&#xD;
+    is produced by the team during a Sprint/Iteration in support of delivered features.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Because they often are skilled at creating and maintaining technical documentation, Technical Writers help to ensure&#xD;
+    consistency and conformance to corporate standards.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-A9zavwG_ylHmUBtjwrhbpQ" name="product_owner,_VpIc5Pd3EeCFmpfCmMPILg" guid="-A9zavwG_ylHmUBtjwrhbpQ">
+    <keyConsiderations>The Product Owner's commitment is essential to ensure the project success. By defining the product vision, they provide&#xD;
+direction to the team. By externally promoting each Sprint/Iteration result, the Product Owner brings recognition and motivation&#xD;
+to the team.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This role is the one and only person responsible for managing the Product Backlog and ensuring the value of the work&#xD;
+    the development team performs. The Product Owner has the responsibility of defining what is the right product to build,&#xD;
+    determining the order in which features will be built, and making sure that the product actually works. The Product&#xD;
+    Owner is responsible for defining the features of the product to be developed by the team in terms of:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Functionality:&lt;/strong> Identifies each product requirement as a Product Backlog Item and supplies&#xD;
+        details for those requirements when they are needed by the team, including specifying the acceptance tests for&#xD;
+        each requirement&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Priority:&lt;/strong> Defines the order in which those backlog items will be developed, according to the value&#xD;
+        that they bring to Customers and users, which provides the team with a Product Backlog ready for Sprint/Iteration&#xD;
+        planning&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Goal:&lt;/strong> Defines the release goals and makes decisions concerning release planning&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The Product Owner has the following responsibilities:&#xD;
+&lt;/p>&#xD;
+&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        Define the features of the product&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Decide on release date and content&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Responsible for the profitability of the product (ROI)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Prioritize features according to market value&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Adjust features and priorities as needed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Accept or reject work results&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    This person maintains the Product Backlog and ensures that it is visible to everyone. Everyone understands what items&#xD;
+    have the highest priority, so everyone on the development team knows what will be worked on.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Product Owner is one person, not a committee. Committees may exist that advise or influence this person but team&#xD;
+    members who want to change an item's priority must first convince the Product Owner. In this way, organizational&#xD;
+    methods for setting priorities and requirements are influenced over time by this role.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For the Product Owner to succeed, everyone in the organization must respect their decisions. No one is allowed to&#xD;
+    direct the development team to work from a different set of priorities. Team members are not allowed to follow the direction&#xD;
+    of anyone whose direction does not coincide with the direction provided by the Product Owner. The Product Owner’s&#xD;
+    decisions are visible in the content and prioritization of the Product Backlog. This visibility requires that the&#xD;
+    Product Owner do their best. Visibility makes the role of Product Owner both a demanding and a rewarding experience.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Product Owner is responsible for the first of the three Scrum ceremonies, Sprint/Iteration Planning. The development team evaluates&#xD;
+    the prioritized Product Backlog, identifies the top priority items, and commits to completing the selected items during&#xD;
+    a Sprint/Iteration. These items become the basis for the Sprint/Iteration Backlog.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In return for the development team's commitment to completing the selected tasks, the Product Owner commits that they will&#xD;
+    not introduce new requirements to the team during the Sprint/Iteration. Requirements are allowed to change but only outside the&#xD;
+    Sprint/Iteration. After the team begins a Sprint/Iteration, it remains focused on the goals of that Sprint/Iteration. The only exception to this&#xD;
+    rule is that a similar amount of work can be removed from a Sprint/Iteration to accommodate a new requirement.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_kmWRdAS15z9HHQOi2bRUw" name="product_documentation,_VpJD8Pd3EeCFmpfCmMPILg" guid="-_kmWRdAS15z9HHQOi2bRUw">
+    <refinedDescription>&lt;p>&#xD;
+    Product documentation is created for the benefit of the marketing arm of an organization, the Program Manager, and&#xD;
+    those people who must assess the business value of a particular system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an often overlooked aspect of development team implementation. The team should consider that the customers of a&#xD;
+    particular Release usually are not technical themselves, but do require a detailed enough understanding of how their&#xD;
+    product operates and how it meets stated business goals and needs.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pyRevWV0HtFS5y1wBPcCjw" name="user_documentation,_VpJD8vd3EeCFmpfCmMPILg" guid="-pyRevWV0HtFS5y1wBPcCjw">
+    <refinedDescription>&lt;p>&#xD;
+    User documentation might include all or parts of user manuals (electronic or paper-based), tutorials, frequently asked&#xD;
+    questions (FAQs), on-line Help Files, installation instructions, work instructions, operational procedures, etc.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-48XjWeRRpF2qfA3kioGYSA" name="support_documentation,_VpJD9Pd3EeCFmpfCmMPILg" guid="-48XjWeRRpF2qfA3kioGYSA">
+    <refinedDescription>&lt;p>&#xD;
+    Support documentation usually is developed for the three common tiers of a support organization. Tier 1 typically is&#xD;
+    the Help Desk where users call when they have a problem with a particular system. Tier 1 support personnel&#xD;
+    normally answer basic questions and, if necessary, log a ticket and escalate it to the appropriate Level 2 support&#xD;
+    desk.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Tier 2 support personnel may deal with more complex questions or issues regarding an application and might need to&#xD;
+    do some research on the characteristics of the system to provide an answer. If that person cannot resolve the&#xD;
+    issue, the ticket is escalated to Tier 3 support personnel who have a deeper understanding of the application's&#xD;
+    code and the technology support the system's architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To properly convey the necessary information to each support tier, the application's code base should be well commented&#xD;
+    and logically organized. This approach will facilitate the development of the support documentation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Support documentation typically includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        User manuals with work instructions, process descriptions, and procedures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Communications, training, and knowledge transfer deliverables&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Support and operations manuals&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service information, including Help Desk scripts&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-yeqVyv9laglLKJHLoavEgA" name="prepare_product_documentation,_NTPI8fd3EeCFmpfCmMPILg" guid="-yeqVyv9laglLKJHLoavEgA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LQefSmUJtkoZkQhMtmQpfg" name="develop_training_materials,_ofI9sJlWEeGlkdGl1HQlDA" guid="-LQefSmUJtkoZkQhMtmQpfg">
+    <refinedDescription>&lt;p>&#xD;
+    Having the correct amount and type of materials available to adequately train End Users and supporters of an&#xD;
+    application is necessary to promote usability and to achieve the desired business value. If a Course Developer is&#xD;
+    available, they can assume most of the burden of creating the training materials, lab exercises, and workshops&amp;nbsp;for&#xD;
+    delivery of&amp;nbsp;those courses to either End Users or support personnel. If a Course Developer is not&#xD;
+    available,&amp;nbsp;Development team members should take the time to properly develop a suite of training materials for the&#xD;
+    feature set developed during a Release.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Although different parts of training materials should be created during Feature Development Sprint/Iterations, the bulk of the&#xD;
+    work (and the integration of the materials) usually is reserved for the Release Sprint/Iteration that occurs immediately before a&#xD;
+    scheduled Release.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TEGuv2rdghGx-gULZxUyJQ" name="course_developer,_ofSHoJlWEeGlkdGl1HQlDA" guid="-TEGuv2rdghGx-gULZxUyJQ">
+    <refinedDescription>Many organizations engage Trainers to deliver product training to various audiences. Unlike a software Developer, most&#xD;
+Trainers have extensive experience in delivering training materials in a fashion that is well suited to communicating&#xD;
+complex concepts to End Users. They bring a necessary creativity and talent that complements the implementation and testing&#xD;
+skills of a development team.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-81zxeCXkSnPW-ndmULZWlQ" name="training_materials,_ofSHoplWEeGlkdGl1HQlDA" guid="-81zxeCXkSnPW-ndmULZWlQ">
+    <refinedDescription>&lt;p>&#xD;
+    Training materials that can be used to train end users and production support personnel might consist of:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Presentation slides&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Handouts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Job aids&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Tutorials&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        On-line demos&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Video vignettes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Lab exercises&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Quizzes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Workshop materials, etc.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

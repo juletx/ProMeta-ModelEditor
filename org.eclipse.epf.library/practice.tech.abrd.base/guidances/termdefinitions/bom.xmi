@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-oRsNgXJO4ReXH00KgFCNXg" name="bom,_1iTjABCXEdyJtJ3PbfdVDw" guid="-oRsNgXJO4ReXH00KgFCNXg" authors="Jerome Boyer" changeDate="2011-09-28T15:21:21.115-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;a id=&quot;XE_BOM&quot; name=&quot;XE_BOM&quot;>R&lt;/a>&lt;a id=&quot;XE_business_object_model&quot; name=&quot;XE_business_object_model&quot;>e&lt;/a>&lt;a id=&quot;6012&quot;&#xD;
+    name=&quot;6012&quot;>presentation of the core concepts of a business and their logical connections. The business object model is&#xD;
+    the basis for the vocabulary used in business rules. The elements of a business object model map to those of a&#xD;
+    corresponding execution domain object model.&lt;/a>&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

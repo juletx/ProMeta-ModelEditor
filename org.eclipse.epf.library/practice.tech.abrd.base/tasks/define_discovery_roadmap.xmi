@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Ak_E6i3qbz4NMG7ynyf4DA" name="define_discovery_roadmap,_srklxgjqEdyj5bYZ0eCR5g" guid="-Ak_E6i3qbz4NMG7ynyf4DA" authors="Jerome Boyer" changeDate="2008-09-05T10:15:16.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>
+    There are two dimensions to consider when preparing the rule discovery activities or roadmap:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        The type of source for rule harvesting
+    &lt;/li>
+    &lt;li>
+        The type of analysis used by the project team: use case approach, business process modeling, mission policies
+        analysis
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    Tony Morgan in his book &quot;Business Rules and Information Systems: Aligning IT with Business Goals&quot; proposes the
+    following discovery processed according to the different source above:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        The static analysis process uses reading and highlighting the rules within documentation. The elicitation is based
+        on reading session completed with Question / Answer workshop sessions
+    &lt;/li>
+    &lt;li>
+        Interactive involves a Subject Matter Expert who has the knowledge of the business process and the decisions to
+        take to process a given business event.The process will be done by using elicitation workshop
+    &lt;/li>
+    &lt;li>
+        Automated involve using a computer and special application to search for rule statement within procedure code, SQL
+        procedures, code listing... Code review should always be complemented by workshop sessions for Q&amp;amp;A.&lt;br />
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    So for each decision point within the DP table do the following steps&amp;nbsp;
+&lt;/p></mainDescription>
+  <sections xmi:id="_srklyQjqEdyj5bYZ0eCR5g" name="Review the decision points  table with stakeholders and prioritize them" guid="_srklyQjqEdyj5bYZ0eCR5g">
+    <sectionDescription>&lt;p style=&quot;MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>&#xD;
+    &lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span style=&quot;mso-bidi-language: HE&quot;>Review the decision points with the&#xD;
+    stakeholders and set the priority&lt;/span>&lt;/i> &lt;span style=&quot;mso-bidi-language: HE&quot;>on each decision point.&lt;/span>&#xD;
+    Depending of the complexity of the business process the team should prioritize which rule harvesting&amp;nbsp;to tackle&#xD;
+    first. A good practice is to start with a simple, well understood decision point, to help training the team on the&#xD;
+    practice, but keep also in mind that the management wants to see the business value of what the team is working on. So&#xD;
+    a decision point that is important by bringing a value, should be in the top of the list.&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>&#xD;
+    If needed review the business context to keep the business needs and reassess the priority accordingly. It is important&#xD;
+    to start by extracting rules that is bringing immediate value to the business users, to get their buy in, and&#xD;
+    motivation to continue to do this painful work. It may be relevant&amp;nbsp;to start&amp;nbsp;with the most complex business&#xD;
+    scenario. It helps convincing business users and rapidly enriches the conceptual data model. It is important to set the&#xD;
+    expectation among the stakeholders that not all the rules will be discovered during this phase. The goal is to complete&#xD;
+    a rule set up to 40-60% to have some tangible decision on standard business event to process. The rule writers or the&#xD;
+    development team will enhance the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.abrd.base/guidances/termdefinitions/rule_set_4D4C8DB1.html&quot;&#xD;
+    guid=&quot;_DdvcwBCQEdyJtJ3PbfdVDw&quot;>Rule Set&lt;/a> later on.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>One&#xD;
+    good practice is to implement the decision logic using rules for the main stream of business processing, letting the&#xD;
+    exceptions to the human. It will be always possible to add rules to manage some newly discovered exception later&#xD;
+    on.&amp;nbsp; A typical case is in the underwriting type of rules. An expert will quickly extract some basic rules that&#xD;
+    always need to be true to accept the Application. As soon as the discussions start to be around the &quot;but there is a&#xD;
+    case where ...&quot; a lot of new rules will arrive.&lt;/span>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_srklxwjqEdyj5bYZ0eCR5g" name="Select acquisition process according to the source of rule." guid="_srklxwjqEdyj5bYZ0eCR5g">
+    <sectionDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span style=&quot;mso-bidi-language: HE&quot;>Select the acquisition process&#xD;
+    according to the source of rule: Map the rule source to a suitable acquisition process:&lt;/span>&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>&#xD;
+            &lt;span style=&quot;mso-bidi-language: HE&quot;>Human&amp;nbsp;&amp;nbsp; =&amp;gt; workshop session&lt;/span>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>&#xD;
+            &lt;span style=&quot;mso-bidi-language: HE&quot;>Documentation (legal)&amp;nbsp;&amp;nbsp; =&amp;gt;&amp;nbsp;&amp;nbsp; Active&#xD;
+            reading&amp;nbsp;followed and Q&amp;amp; A sessions&lt;/span>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>&#xD;
+            &lt;span style=&quot;mso-bidi-language: HE&quot;>Code&amp;nbsp;&amp;nbsp; =&amp;gt;&amp;nbsp; Mining followed Q&amp;amp;A sessions and design&#xD;
+            sessions&lt;/span>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>&#xD;
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>When the source is people we need to start individual interview to get the core of&#xD;
+    the knowledge and then follow up with workshops to resolve outstanding issues and process exception paths with the&#xD;
+    team.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>&#xD;
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>&lt;br />&#xD;
+    &lt;/span>&lt;span style=&quot;mso-bidi-language: HE&quot;>Modify for each decision point in the table the acquisition process chosen&#xD;
+    and the owner of the process&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>&#xD;
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>&lt;br />&#xD;
+    &amp;nbsp;&lt;/span>&#xD;
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 72.0pt; mso-list: l0 level2 lfo1&quot; />&#xD;
+&lt;br /></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

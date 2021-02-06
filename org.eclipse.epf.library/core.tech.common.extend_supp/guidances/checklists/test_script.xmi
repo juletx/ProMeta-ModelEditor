@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_4LuPMMPcEdmbOvqy4O0adg" name="test_script,_0Z9tMMlgEdmt3adZL5Dmdw" guid="_4LuPMMPcEdmbOvqy4O0adg" changeDate="2005-07-26T01:21:21.000-0700" version="1.0.0">
+  <sections xmi:id="_DiPTsE_cEduqM_QlWBlZ_g" name="The test script conforms to the related test case" guid="_DiPTsE_cEduqM_QlWBlZ_g">
+    <sectionDescription>Ensure that the test script conforms to the specification established in the test case if one is associated with the test&#xD;
+script.&amp;nbsp; The test case captures the intent of the test; the test script must conform to this intent.</sectionDescription>
+  </sections>
+  <sections xmi:id="_KS930Bg9EduxCP6DVVLxsA" name="The test script is testable" guid="_KS930Bg9EduxCP6DVVLxsA"/>
+  <sections xmi:id="_H-q58Bg9EduxCP6DVVLxsA" name="The test script is reusable" guid="_H-q58Bg9EduxCP6DVVLxsA">
+    <sectionDescription>Ensure that your test scripts can be reused by designing your test scripts to maximize reuse.&amp;nbsp; Promoting reuse takes&#xD;
+different forms depending on whether you are generating, programming, or recording test scripts.</sectionDescription>
+  </sections>
+  <sections xmi:id="_5_92wE_cEduqM_QlWBlZ_g" name="The test script is prescriptive and unambiguous" guid="_5_92wE_cEduqM_QlWBlZ_g">
+    <sectionDescription>Ensure that the test script represents clear instructions on how the test must be run and how the results should be&#xD;
+analyzed.&amp;nbsp; While non-automated tests can be written in such a way that the tester can have leeway in how the test is&#xD;
+precisely run, there is no room for creativity in how the test results are to be analyzed for success or failure.</sectionDescription>
+  </sections>
+  <sections xmi:id="_La5wQBg9EduxCP6DVVLxsA" name="The test script is named consistently with the other test work products" guid="_La5wQBg9EduxCP6DVVLxsA">
+    <sectionDescription>Ensure that the naming of your test scripts is consistent with other test-related work products.&amp;nbsp; For example, if you&#xD;
+are creating test classes for each of your test cases, ensure that the naming represents this relationship.&amp;nbsp;&#xD;
+Alternatively, if you are building test scripts inside of a library, use a consistent naming convention to reflect the&#xD;
+library or libraries.</sectionDescription>
+  </sections>
+  <sections xmi:id="_Ng5zcBg9EduxCP6DVVLxsA" name="The test script provides appropriate test coverage" guid="_Ng5zcBg9EduxCP6DVVLxsA">
+    <sectionDescription>Ensure that your test scripts provide test coverage consistent with the system under test.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

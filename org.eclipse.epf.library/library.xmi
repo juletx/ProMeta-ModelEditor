@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_20ICILekEd-D7YZN9NgldQ" guid="_20ICILekEd-D7YZN9NgldQ">
+    <subManagers xmi:id="_9I2IgLekEd-D7YZN9NgldQ" href="uma://_MRPloEFXEdy9ENCpSugIjA#_9I2IgLekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9JS0f7ekEd-D7YZN9NgldQ" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_9JS0f7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9Jlvb7ekEd-D7YZN9NgldQ" href="uma://_iVydgENdEdy245g62lfWcA#_9Jlvb7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9KCbULekEd-D7YZN9NgldQ" href="uma://_A118oMYaEdyXeo04os5BOw#_9KCbULekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9KfHT7ekEd-D7YZN9NgldQ" href="uma://_fRdVEMYbEdyXeo04os5BOw#_9KfHT7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9K7zP7ekEd-D7YZN9NgldQ" href="uma://_WCUhAO8KEdmKSqa_gSYthg#_9K7zP7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9LhpELekEd-D7YZN9NgldQ" href="uma://_14Ft0M3pEdyuBO4ZIzcyig#_9LhpELekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9MIGALekEd-D7YZN9NgldQ" href="uma://_ji3-gEMXEdyP_Jn83ylwUQ#_9MIGALekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9NA237ekEd-D7YZN9NgldQ" href="uma://_CX-9AM3qEdyuBO4ZIzcyig#_9NA237ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9NnTz7ekEd-D7YZN9NgldQ" href="uma://_Q_mBoGphEd24CboUCnKL3A#_9NnTz7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9N6Ov7ekEd-D7YZN9NgldQ" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_9N6Ov7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9PZccLekEd-D7YZN9NgldQ" href="uma://_vJYucEfUEdyiPI8btkmvmw#_9PZccLekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9QS0X7ekEd-D7YZN9NgldQ" href="uma://_LdRtkM3qEdyuBO4ZIzcyig#_9QS0X7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9RCbMLekEd-D7YZN9NgldQ" href="uma://_Qyp8YGpiEd24CboUCnKL3A#_9RCbMLekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9S-U4LekEd-D7YZN9NgldQ" href="uma://_OOB2AAouEdyhlpBPrduOMw#_9S-U4LekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9TbA0LekEd-D7YZN9NgldQ" href="uma://_-bv0ELXuEduGP_98XMd0fg#_9TbA0LekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9Tui37ekEd-D7YZN9NgldQ" href="uma://_HVCXcE7xEd-ttuvo_zEJ_g#_9Tui37ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9UKnv7ekEd-D7YZN9NgldQ" href="uma://_iNwFsMhNEdygFZkm1d5NtQ#_9UKnv7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9UnTr7ekEd-D7YZN9NgldQ" href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_9UnTr7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9VD_n7ekEd-D7YZN9NgldQ" href="uma://_7uMwYDIWEd-YE6CeBfCofg#_9VD_n7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9Vqcj7ekEd-D7YZN9NgldQ" href="uma://_NOBspSZLEd-QuZFPf_YdqQ#_9Vqcj7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9WQSYLekEd-D7YZN9NgldQ" href="uma://_NBRHwMh3EdygFZkm1d5NtQ#_9WQSYLekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9WjNX7ekEd-D7YZN9NgldQ" href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_9WjNX7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9XTbT7ekEd-D7YZN9NgldQ" href="uma://_4gXdoL8BEdyWX5Yd-9QZ1A#_9XTbT7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9ZFkEbekEd-D7YZN9NgldQ" href="uma://_ugihsOxXEdyCFeiQwJE7Vg#_9ZFkEbekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9Z1K37ekEd-D7YZN9NgldQ" href="uma://_44o4AOvVEdyp6czxLiQq9g#_9Z1K37ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9cNwf7ekEd-D7YZN9NgldQ" href="uma://_vtUfcEIuEd2GCesTWQms8Q#_9cNwf7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9dHIULekEd-D7YZN9NgldQ" href="uma://_40sbAJ6YEdyQN-zRFaRrCQ#_9dHIULekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9eJqL7ekEd-D7YZN9NgldQ" href="uma://_VVRjYHoCEd2ozs6whO3m5w#_9eJqL7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9emWELekEd-D7YZN9NgldQ" href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_9emWELekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9fyo77ekEd-D7YZN9NgldQ" href="uma://_IItp4MuXEdyLOriywSJkoQ#_9fyo77ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9gPU37ekEd-D7YZN9NgldQ" href="uma://_Hz9OMG5KEdyAHIxjZ9kpqw#_9gPU37ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9hIssLekEd-D7YZN9NgldQ" href="uma://_h_9roM3PEdyKkus0T68H3Q#_9hIssLekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9hbnr7ekEd-D7YZN9NgldQ" href="uma://_D-ExQMktEdygFZkm1d5NtQ#_9hbnr7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9iU_j7ekEd-D7YZN9NgldQ" href="uma://_GxBjAM2sEdym_ZFqrJcXUg#_9iU_j7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9ixrf7ekEd-D7YZN9NgldQ" href="uma://_4gaS4LPREduocbW-TPTq7A#_9ixrf7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9jOXb7ekEd-D7YZN9NgldQ" href="uma://_XPLD8MudEdyRPtFYRAKVDg#_9jOXb7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9j0NQLekEd-D7YZN9NgldQ" href="uma://_Z2cK0LPPEduocbW-TPTq7A#_9j0NQLekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9kaqP7ekEd-D7YZN9NgldQ" href="uma://_NjNCEMrmEdyd6uFrFHNXhA#_9kaqP7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9k2vH7ekEd-D7YZN9NgldQ" href="uma://_Y9TKMLS9EduDY8LNbMCDBA#_9k2vH7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9mDB4LekEd-D7YZN9NgldQ" href="uma://_00zMMMt1EdyRPtFYRAKVDg#_9mDB4LekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9nGKwLekEd-D7YZN9NgldQ" href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_9nGKwLekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9nsAoLekEd-D7YZN9NgldQ" href="uma://_HYAA4MriEdyd6uFrFHNXhA#_9nsAoLekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9pU_b7ekEd-D7YZN9NgldQ" href="uma://_GbYfULPaEduocbW-TPTq7A#_9pU_b7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9p7cULekEd-D7YZN9NgldQ" href="uma://_Pnn0sMruEd2sX5aq6os4oQ#_9p7cULekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9tgU3bekEd-D7YZN9NgldQ" href="uma://_Z7teANQ1EdyQ89W1tgswSQ#_9tgU3bekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9uGKwbekEd-D7YZN9NgldQ" href="uma://_xco1IMVNEd2pfdXgw7I2qQ#_9uGKwbekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9ui2n7ekEd-D7YZN9NgldQ" href="uma://_bIIs0FRFEd2CWscN8Mx6rg#_9ui2n7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_9u_igLekEd-D7YZN9NgldQ" href="uma://_4ulTgMg7EdyXeo04os5BOw#_9u_igLekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_wDcysOCFEeC1y_NExchKwQ" href="uma://_wDZIUOCFEeC1y_NExchKwQ#_wDcysOCFEeC1y_NExchKwQ"/>
+    <subManagers xmi:id="_mYj6YOCIEeC1y_NExchKwQ" href="uma://_mYfo8OCIEeC1y_NExchKwQ#_mYj6YOCIEeC1y_NExchKwQ"/>
+    <subManagers xmi:id="_p1NpsJlfEeGlkdGl1HQlDA" href="uma://_p0w9wJlfEeGlkdGl1HQlDA#_p1NpsJlfEeGlkdGl1HQlDA"/>
+    <subManagers xmi:id="_XPLl4JljEeGlkdGl1HQlDA" href="uma://_XOu58JljEeGlkdGl1HQlDA#_XPLl4JljEeGlkdGl1HQlDA"/>
+    <resourceDescriptors xmi:id="_20ICIbekEd-D7YZN9NgldQ" id="_2z-4MLekEd-D7YZN9NgldQ" uri=""/>
+    <resourceDescriptors xmi:id="_9I2IgbekEd-D7YZN9NgldQ" id="_MRPloEFXEdy9ENCpSugIjA" uri="core.default.cat_def.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9JS0gLekEd-D7YZN9NgldQ" id="_vsno4EKmEdyrauqpmnA8jQ" uri="core.default.nav_view.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9JlvcLekEd-D7YZN9NgldQ" id="_iVydgENdEdy245g62lfWcA" uri="core.default.release_copyright.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9KCbUbekEd-D7YZN9NgldQ" id="_A118oMYaEdyXeo04os5BOw" uri="core.default.role_def.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9KfHULekEd-D7YZN9NgldQ" id="_fRdVEMYbEdyXeo04os5BOw" uri="core.default.tool_def.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9K7zQLekEd-D7YZN9NgldQ" id="_WCUhAO8KEdmKSqa_gSYthg" uri="core.default.uma_concept.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9LhpEbekEd-D7YZN9NgldQ" id="_14Ft0M3pEdyuBO4ZIzcyig" uri="core.gen.common.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9MIGAbekEd-D7YZN9NgldQ" id="_ji3-gEMXEdyP_Jn83ylwUQ" uri="core.gen.common.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9NA24LekEd-D7YZN9NgldQ" id="_CX-9AM3qEdyuBO4ZIzcyig" uri="core.mgmt.common.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9NnT0LekEd-D7YZN9NgldQ" id="_Q_mBoGphEd24CboUCnKL3A" uri="core.mgmt.common.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9N6OwLekEd-D7YZN9NgldQ" id="_0TmecJ-VEdy3Nc4rvuj7bA" uri="core.mgmt.common.extend_supp/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9PZccbekEd-D7YZN9NgldQ" id="_vJYucEfUEdyiPI8btkmvmw" uri="core.mgmt.slot.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9QS0YLekEd-D7YZN9NgldQ" id="_LdRtkM3qEdyuBO4ZIzcyig" uri="core.tech.common.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9RCbMbekEd-D7YZN9NgldQ" id="_Qyp8YGpiEd24CboUCnKL3A" uri="core.tech.common.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9S-U4bekEd-D7YZN9NgldQ" id="_OOB2AAouEdyhlpBPrduOMw" uri="core.tech.common.extend_supp/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9TbA0bekEd-D7YZN9NgldQ" id="_-bv0ELXuEduGP_98XMd0fg" uri="core.tech.slot.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9Tui4LekEd-D7YZN9NgldQ" id="_HVCXcE7xEd-ttuvo_zEJ_g" uri="practice.bus.mdev.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9UKnwLekEd-D7YZN9NgldQ" id="_iNwFsMhNEdygFZkm1d5NtQ" uri="practice.mgmt.iterative_dev.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9UnTsLekEd-D7YZN9NgldQ" id="_qqyzAJ6WEdyQN-zRFaRrCQ" uri="practice.mgmt.iterative_dev.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9VD_oLekEd-D7YZN9NgldQ" id="_7uMwYDIWEd-YE6CeBfCofg" uri="practice.mgmt.project_process_tailoring.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9VqckLekEd-D7YZN9NgldQ" id="_NOBspSZLEd-QuZFPf_YdqQ" uri="practice.mgmt.project_process_tailoring.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9WQSYbekEd-D7YZN9NgldQ" id="_NBRHwMh3EdygFZkm1d5NtQ" uri="practice.mgmt.release_planning.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9WjNYLekEd-D7YZN9NgldQ" id="_nKS10J6YEdyQN-zRFaRrCQ" uri="practice.mgmt.release_planning.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9XTbULekEd-D7YZN9NgldQ" id="_4gXdoL8BEdyWX5Yd-9QZ1A" uri="practice.mgmt.risk_value_lifecycle.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9ZFkErekEd-D7YZN9NgldQ" id="_ugihsOxXEdyCFeiQwJE7Vg" uri="practice.mgmt.team_change_mgmt.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9Z1K4LekEd-D7YZN9NgldQ" id="_44o4AOvVEdyp6czxLiQq9g" uri="practice.mgmt.team_change_mgmt.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9cNwgLekEd-D7YZN9NgldQ" id="_vtUfcEIuEd2GCesTWQms8Q" uri="practice.mgmt.whole_team.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9dHIUbekEd-D7YZN9NgldQ" id="_40sbAJ6YEdyQN-zRFaRrCQ" uri="practice.mgmt.whole_team.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9eJqMLekEd-D7YZN9NgldQ" id="_VVRjYHoCEd2ozs6whO3m5w" uri="practice.tech.abrd.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9emWEbekEd-D7YZN9NgldQ" id="_XLuWYHn8Ed2ozs6whO3m5w" uri="practice.tech.abrd.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9fyo8LekEd-D7YZN9NgldQ" id="_IItp4MuXEdyLOriywSJkoQ" uri="practice.tech.concurrent_testing.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9gPU4LekEd-D7YZN9NgldQ" id="_Hz9OMG5KEdyAHIxjZ9kpqw" uri="practice.tech.concurrent_testing.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9hIssbekEd-D7YZN9NgldQ" id="_h_9roM3PEdyKkus0T68H3Q" uri="practice.tech.continuous_integration.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9hbnsLekEd-D7YZN9NgldQ" id="_D-ExQMktEdygFZkm1d5NtQ" uri="practice.tech.continuous_integration.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9iU_kLekEd-D7YZN9NgldQ" id="_GxBjAM2sEdym_ZFqrJcXUg" uri="practice.tech.evolutionary_arch.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9ixrgLekEd-D7YZN9NgldQ" id="_4gaS4LPREduocbW-TPTq7A" uri="practice.tech.evolutionary_arch.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9jOXcLekEd-D7YZN9NgldQ" id="_XPLD8MudEdyRPtFYRAKVDg" uri="practice.tech.evolutionary_design.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9j0NQbekEd-D7YZN9NgldQ" id="_Z2cK0LPPEduocbW-TPTq7A" uri="practice.tech.evolutionary_design.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9kaqQLekEd-D7YZN9NgldQ" id="_NjNCEMrmEdyd6uFrFHNXhA" uri="practice.tech.shared_vision.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9k2vILekEd-D7YZN9NgldQ" id="_Y9TKMLS9EduDY8LNbMCDBA" uri="practice.tech.shared_vision.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9mDB4bekEd-D7YZN9NgldQ" id="_00zMMMt1EdyRPtFYRAKVDg" uri="practice.tech.test_driven_development.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9nGKwbekEd-D7YZN9NgldQ" id="_DZ1rEI7-Edy7q8CKc_B8eg" uri="practice.tech.test_driven_development.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9nsAobekEd-D7YZN9NgldQ" id="_HYAA4MriEdyd6uFrFHNXhA" uri="practice.tech.use_case_driven_dev.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9pU_cLekEd-D7YZN9NgldQ" id="_GbYfULPaEduocbW-TPTq7A" uri="practice.tech.use_case_driven_dev.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9p7cUbekEd-D7YZN9NgldQ" id="_Pnn0sMruEd2sX5aq6os4oQ" uri="process.abrd.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9tgU3rekEd-D7YZN9NgldQ" id="_Z7teANQ1EdyQ89W1tgswSQ" uri="process.openup.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9uGKwrekEd-D7YZN9NgldQ" id="_xco1IMVNEd2pfdXgw7I2qQ" uri="publish.abrd.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9ui2oLekEd-D7YZN9NgldQ" id="_bIIs0FRFEd2CWscN8Mx6rg" uri="publish.all_epf_practices.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9u_igbekEd-D7YZN9NgldQ" id="_4ulTgMg7EdyXeo04os5BOw" uri="publish.openup.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_-g6HoLekEd-D7YZN9NgldQ" id="_T6l317ekEd-D7YZN9NgldQ" uri=""/>
+    <resourceDescriptors xmi:id="_89uoMJiaEeGlkdGl1HQlDA" id="_wDZIUOCFEeC1y_NExchKwQ" uri="practice.gen.doc_trng.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_8-LUIJiaEeGlkdGl1HQlDA" id="_mYfo8OCIEeC1y_NExchKwQ" uri="practice.gen.production_release.base/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_p1NpsZlfEeGlkdGl1HQlDA" id="_p0w9wJlfEeGlkdGl1HQlDA" uri="practice.gen.doc_trng.assign/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_XPLl4ZljEeGlkdGl1HQlDA" id="_XOu58JljEeGlkdGl1HQlDA" uri="practice.gen.production_release.assign/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_T6l317ekEd-D7YZN9NgldQ" guid="_T6l317ekEd-D7YZN9NgldQ">
+    <methodElementProperty xmi:id="_-gnMsLekEd-D7YZN9NgldQ" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_MRPloEFXEdy9ENCpSugIjA" href="uma://_MRPloEFXEdy9ENCpSugIjA#_MRPloEFXEdy9ENCpSugIjA"/>
+    <methodPlugins xmi:id="_vsno4EKmEdyrauqpmnA8jQ" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <methodPlugins xmi:id="_iVydgENdEdy245g62lfWcA" href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <methodPlugins xmi:id="_A118oMYaEdyXeo04os5BOw" href="uma://_A118oMYaEdyXeo04os5BOw#_A118oMYaEdyXeo04os5BOw"/>
+    <methodPlugins xmi:id="_fRdVEMYbEdyXeo04os5BOw" href="uma://_fRdVEMYbEdyXeo04os5BOw#_fRdVEMYbEdyXeo04os5BOw"/>
+    <methodPlugins xmi:id="_WCUhAO8KEdmKSqa_gSYthg" href="uma://_WCUhAO8KEdmKSqa_gSYthg#_WCUhAO8KEdmKSqa_gSYthg"/>
+    <methodPlugins xmi:id="_14Ft0M3pEdyuBO4ZIzcyig" href="uma://_14Ft0M3pEdyuBO4ZIzcyig#_14Ft0M3pEdyuBO4ZIzcyig"/>
+    <methodPlugins xmi:id="_ji3-gEMXEdyP_Jn83ylwUQ" href="uma://_ji3-gEMXEdyP_Jn83ylwUQ#_ji3-gEMXEdyP_Jn83ylwUQ"/>
+    <methodPlugins xmi:id="_CX-9AM3qEdyuBO4ZIzcyig" href="uma://_CX-9AM3qEdyuBO4ZIzcyig#_CX-9AM3qEdyuBO4ZIzcyig"/>
+    <methodPlugins xmi:id="_Q_mBoGphEd24CboUCnKL3A" href="uma://_Q_mBoGphEd24CboUCnKL3A#_Q_mBoGphEd24CboUCnKL3A"/>
+    <methodPlugins xmi:id="_0TmecJ-VEdy3Nc4rvuj7bA" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+    <methodPlugins xmi:id="_vJYucEfUEdyiPI8btkmvmw" href="uma://_vJYucEfUEdyiPI8btkmvmw#_vJYucEfUEdyiPI8btkmvmw"/>
+    <methodPlugins xmi:id="_LdRtkM3qEdyuBO4ZIzcyig" href="uma://_LdRtkM3qEdyuBO4ZIzcyig#_LdRtkM3qEdyuBO4ZIzcyig"/>
+    <methodPlugins xmi:id="_Qyp8YGpiEd24CboUCnKL3A" href="uma://_Qyp8YGpiEd24CboUCnKL3A#_Qyp8YGpiEd24CboUCnKL3A"/>
+    <methodPlugins xmi:id="_OOB2AAouEdyhlpBPrduOMw" href="uma://_OOB2AAouEdyhlpBPrduOMw#_OOB2AAouEdyhlpBPrduOMw"/>
+    <methodPlugins xmi:id="_-bv0ELXuEduGP_98XMd0fg" href="uma://_-bv0ELXuEduGP_98XMd0fg#_-bv0ELXuEduGP_98XMd0fg"/>
+    <methodPlugins xmi:id="_HVCXcE7xEd-ttuvo_zEJ_g" href="uma://_HVCXcE7xEd-ttuvo_zEJ_g#_HVCXcE7xEd-ttuvo_zEJ_g"/>
+    <methodPlugins xmi:id="_iNwFsMhNEdygFZkm1d5NtQ" href="uma://_iNwFsMhNEdygFZkm1d5NtQ#_iNwFsMhNEdygFZkm1d5NtQ"/>
+    <methodPlugins xmi:id="_qqyzAJ6WEdyQN-zRFaRrCQ" href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_qqyzAJ6WEdyQN-zRFaRrCQ"/>
+    <methodPlugins xmi:id="_7uMwYDIWEd-YE6CeBfCofg" href="uma://_7uMwYDIWEd-YE6CeBfCofg#_7uMwYDIWEd-YE6CeBfCofg"/>
+    <methodPlugins xmi:id="_NOBspSZLEd-QuZFPf_YdqQ" href="uma://_NOBspSZLEd-QuZFPf_YdqQ#_NOBspSZLEd-QuZFPf_YdqQ"/>
+    <methodPlugins xmi:id="_NBRHwMh3EdygFZkm1d5NtQ" href="uma://_NBRHwMh3EdygFZkm1d5NtQ#_NBRHwMh3EdygFZkm1d5NtQ"/>
+    <methodPlugins xmi:id="_nKS10J6YEdyQN-zRFaRrCQ" href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_nKS10J6YEdyQN-zRFaRrCQ"/>
+    <methodPlugins xmi:id="_4gXdoL8BEdyWX5Yd-9QZ1A" href="uma://_4gXdoL8BEdyWX5Yd-9QZ1A#_4gXdoL8BEdyWX5Yd-9QZ1A"/>
+    <methodPlugins xmi:id="_ugihsOxXEdyCFeiQwJE7Vg" href="uma://_ugihsOxXEdyCFeiQwJE7Vg#_ugihsOxXEdyCFeiQwJE7Vg"/>
+    <methodPlugins xmi:id="_44o4AOvVEdyp6czxLiQq9g" href="uma://_44o4AOvVEdyp6czxLiQq9g#_44o4AOvVEdyp6czxLiQq9g"/>
+    <methodPlugins xmi:id="_vtUfcEIuEd2GCesTWQms8Q" href="uma://_vtUfcEIuEd2GCesTWQms8Q#_vtUfcEIuEd2GCesTWQms8Q"/>
+    <methodPlugins xmi:id="_40sbAJ6YEdyQN-zRFaRrCQ" href="uma://_40sbAJ6YEdyQN-zRFaRrCQ#_40sbAJ6YEdyQN-zRFaRrCQ"/>
+    <methodPlugins xmi:id="_VVRjYHoCEd2ozs6whO3m5w" href="uma://_VVRjYHoCEd2ozs6whO3m5w#_VVRjYHoCEd2ozs6whO3m5w"/>
+    <methodPlugins xmi:id="_XLuWYHn8Ed2ozs6whO3m5w" href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_XLuWYHn8Ed2ozs6whO3m5w"/>
+    <methodPlugins xmi:id="_IItp4MuXEdyLOriywSJkoQ" href="uma://_IItp4MuXEdyLOriywSJkoQ#_IItp4MuXEdyLOriywSJkoQ"/>
+    <methodPlugins xmi:id="_Hz9OMG5KEdyAHIxjZ9kpqw" href="uma://_Hz9OMG5KEdyAHIxjZ9kpqw#_Hz9OMG5KEdyAHIxjZ9kpqw"/>
+    <methodPlugins xmi:id="_h_9roM3PEdyKkus0T68H3Q" href="uma://_h_9roM3PEdyKkus0T68H3Q#_h_9roM3PEdyKkus0T68H3Q"/>
+    <methodPlugins xmi:id="_D-ExQMktEdygFZkm1d5NtQ" href="uma://_D-ExQMktEdygFZkm1d5NtQ#_D-ExQMktEdygFZkm1d5NtQ"/>
+    <methodPlugins xmi:id="_GxBjAM2sEdym_ZFqrJcXUg" href="uma://_GxBjAM2sEdym_ZFqrJcXUg#_GxBjAM2sEdym_ZFqrJcXUg"/>
+    <methodPlugins xmi:id="_4gaS4LPREduocbW-TPTq7A" href="uma://_4gaS4LPREduocbW-TPTq7A#_4gaS4LPREduocbW-TPTq7A"/>
+    <methodPlugins xmi:id="_XPLD8MudEdyRPtFYRAKVDg" href="uma://_XPLD8MudEdyRPtFYRAKVDg#_XPLD8MudEdyRPtFYRAKVDg"/>
+    <methodPlugins xmi:id="_Z2cK0LPPEduocbW-TPTq7A" href="uma://_Z2cK0LPPEduocbW-TPTq7A#_Z2cK0LPPEduocbW-TPTq7A"/>
+    <methodPlugins xmi:id="_NjNCEMrmEdyd6uFrFHNXhA" href="uma://_NjNCEMrmEdyd6uFrFHNXhA#_NjNCEMrmEdyd6uFrFHNXhA"/>
+    <methodPlugins xmi:id="_Y9TKMLS9EduDY8LNbMCDBA" href="uma://_Y9TKMLS9EduDY8LNbMCDBA#_Y9TKMLS9EduDY8LNbMCDBA"/>
+    <methodPlugins xmi:id="_00zMMMt1EdyRPtFYRAKVDg" href="uma://_00zMMMt1EdyRPtFYRAKVDg#_00zMMMt1EdyRPtFYRAKVDg"/>
+    <methodPlugins xmi:id="_DZ1rEI7-Edy7q8CKc_B8eg" href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_DZ1rEI7-Edy7q8CKc_B8eg"/>
+    <methodPlugins xmi:id="_HYAA4MriEdyd6uFrFHNXhA" href="uma://_HYAA4MriEdyd6uFrFHNXhA#_HYAA4MriEdyd6uFrFHNXhA"/>
+    <methodPlugins xmi:id="_GbYfULPaEduocbW-TPTq7A" href="uma://_GbYfULPaEduocbW-TPTq7A#_GbYfULPaEduocbW-TPTq7A"/>
+    <methodPlugins xmi:id="_Pnn0sMruEd2sX5aq6os4oQ" href="uma://_Pnn0sMruEd2sX5aq6os4oQ#_Pnn0sMruEd2sX5aq6os4oQ"/>
+    <methodPlugins xmi:id="_Z7teANQ1EdyQ89W1tgswSQ" href="uma://_Z7teANQ1EdyQ89W1tgswSQ#_Z7teANQ1EdyQ89W1tgswSQ"/>
+    <methodPlugins xmi:id="_xco1IMVNEd2pfdXgw7I2qQ" href="uma://_xco1IMVNEd2pfdXgw7I2qQ#_xco1IMVNEd2pfdXgw7I2qQ"/>
+    <methodPlugins xmi:id="_bIIs0FRFEd2CWscN8Mx6rg" href="uma://_bIIs0FRFEd2CWscN8Mx6rg#_bIIs0FRFEd2CWscN8Mx6rg"/>
+    <methodPlugins xmi:id="_4ulTgMg7EdyXeo04os5BOw" href="uma://_4ulTgMg7EdyXeo04os5BOw#_4ulTgMg7EdyXeo04os5BOw"/>
+    <methodPlugins xmi:id="_wDZIUOCFEeC1y_NExchKwQ" href="uma://_wDZIUOCFEeC1y_NExchKwQ#_wDZIUOCFEeC1y_NExchKwQ"/>
+    <methodPlugins xmi:id="_mYfo8OCIEeC1y_NExchKwQ" href="uma://_mYfo8OCIEeC1y_NExchKwQ#_mYfo8OCIEeC1y_NExchKwQ"/>
+    <methodPlugins xmi:id="_p0w9wJlfEeGlkdGl1HQlDA" href="uma://_p0w9wJlfEeGlkdGl1HQlDA#_p0w9wJlfEeGlkdGl1HQlDA"/>
+    <methodPlugins xmi:id="_XOu58JljEeGlkdGl1HQlDA" href="uma://_XOu58JljEeGlkdGl1HQlDA#_XOu58JljEeGlkdGl1HQlDA"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>

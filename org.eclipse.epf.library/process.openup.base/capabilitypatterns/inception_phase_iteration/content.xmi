@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-SMF3QeQbQRdkgCVMy0OpuQ" name="inception_phase_iteration,_h0Gs8dONEdyqlogshP8l4g" guid="-SMF3QeQbQRdkgCVMy0OpuQ" version="7.2.0">
+  <mainDescription>&lt;p>
+    The project starts with the assumption that you have:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Created the business case
+    &lt;/li>
+    &lt;li>
+        Identified the project manager
+    &lt;/li>
+    &lt;li>
+        Defined the team (at least for the first iteration)
+    &lt;/li>
+    &lt;li>
+        Put in place the development environment (including tools and infrastructure)
+    &lt;/li>
+    &lt;li>
+        Prepared your organization to follow the&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../core.default.uma_concept.base/guidances/termdefinitions/delivery_process_BCDF50B7.html&quot; guid=&quot;_ZufeMCO3EdqaNq6Ptg8uyA&quot;>delivery process&lt;/a>&amp;nbsp;suggested by the published process description
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    The number and length of each Inception iteration will vary depending upon the needs of the project.
+&lt;/p>
+&lt;p>
+    The following table summarizes the&amp;nbsp;Inception phase objectives and&amp;nbsp;what activities address each objective:
+&lt;/p>
+&lt;p align=&quot;center&quot;>
+    &lt;strong>Inception phase objectives and activities&lt;/strong>
+&lt;/p>&lt;br />
+&lt;br />
+&lt;table cellspacing=&quot;1&quot; cellpadding=&quot;0&quot; align=&quot;center&quot; border=&quot;1&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;295&quot;>
+                &lt;b>Phase objectives&lt;/b>
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;295&quot;>
+                &lt;b>Activities that address objectives&lt;/b>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;295&quot;>
+                Understand what to build
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;295&quot;>
+                &lt;p>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/identify_and_refine_requirements_7FA6CB14.html&quot; guid=&quot;_xxcpgdOEEdyqlogshP8l4g&quot;>Identify and Refine Requirements&lt;/a>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;295&quot;>
+                Identify key system functionality
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;295&quot;>
+                &lt;p>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/initiate_project_37A47ADB.html&quot; guid=&quot;_eWxZgdOEEdyqlogshP8l4g&quot;>Initiate Project&lt;/a>
+                &lt;/p>
+                &lt;p>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/identify_and_refine_requirements_7FA6CB14.html&quot; guid=&quot;_xxcpgdOEEdyqlogshP8l4g&quot;>Identify and Refine Requirements&lt;/a>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;295&quot;>
+                Determine at least one possible solution
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;295&quot;>
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/agree_technical_approach_7096F6A3.html&quot; guid=&quot;_4ouDUdOEEdyqlogshP8l4g&quot;>Agree on Technical Approach&lt;/a>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;295&quot;>
+                Understand the cost, schedule, and risks associated with the project
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;295&quot;>
+                &lt;p>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/initiate_project_37A47ADB.html&quot; guid=&quot;_eWxZgdOEEdyqlogshP8l4g&quot;>Initiate Project&lt;/a>
+                &lt;/p>
+                &lt;p>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/plan_manage_iteration_F9713A62.html&quot; guid=&quot;_oZgCsdOEEdyqlogshP8l4g&quot;>Plan and Manage Iteration&lt;/a>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>&lt;br />
+&lt;br /></mainDescription>
+  <alternatives>This iteration template does not include any activities that result in any implementation. In some projects there will have
+to be some implementation work done to meet the objectives of Inception. In those cases, additional activities should be
+added to handle that.</alternatives>
+</org.eclipse.epf.uma:ProcessDescription>

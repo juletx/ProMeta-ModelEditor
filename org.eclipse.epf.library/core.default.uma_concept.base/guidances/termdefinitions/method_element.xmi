@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-iC-ATf6wJ3U7W6qqS_wJEg" name="new_term_definition,_4svVUO7bEdyYoPJ0YfnNbQ" guid="-iC-ATf6wJ3U7W6qqS_wJEg" changeDate="2008-03-10T00:58:16.000-0700" version="7.2.0">
+  <mainDescription>There are two kinds of method element: &amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/method_content_6972AE81.html&quot;&#xD;
+guid=&quot;_Ts2joB_MEdq6CKKKq4D7YA&quot;>method content&lt;/a>&amp;nbsp;and &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/process_68E308B4.html&quot;&#xD;
+guid=&quot;_yQ5m2NnmEdmO6L4XMImrsA&quot;>process&lt;/a>.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

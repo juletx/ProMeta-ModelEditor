@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-JeU5-VpKF7poakbnlEeVnw" name="new_term_definition,_glaLMCC5EduGAdKOTiDQdQ" guid="-JeU5-VpKF7poakbnlEeVnw" authors="Jerome Boyer" changeDate="2008-09-03T04:11:46.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>
+    &lt;a id=&quot;XE_rule_set&quot; name=&quot;XE_rule_set&quot;>&lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>A
+    Rule Set is a group of rules that&amp;nbsp;is executed as an aggregate entity.&lt;/span>&lt;/a> &lt;a id=&quot;4894&quot; name=&quot;4894&quot;>&lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold&quot;>This
+    term also refers to the object that is created when a ruleset file is parsed to instantiate an engine.&lt;/span>&lt;/a> Rule
+    artifacts include all of the elements from a rule project that you can put into a Rule Set like decision tables,
+    decision tree, rules.&lt;br />
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

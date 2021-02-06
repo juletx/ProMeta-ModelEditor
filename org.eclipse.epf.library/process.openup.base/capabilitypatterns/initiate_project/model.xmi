@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__fDK4LekEd-D7YZN9NgldQ" guid="__fDK4LekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__fDK4bekEd-D7YZN9NgldQ" id="-kpXvvHptrggypeoQEamfhw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_yd2MEVmPEeCcpdiAcH0w-w" id="-Y4gn4laxnFk1PUA3-GebOg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_yd_WAFmPEeCcpdiAcH0w-w" id="-z5wrOi6JXS768g53hKiYaA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_yd_WAVmPEeCcpdiAcH0w-w" id="-9AN0xXBZYxIDPOg2N3IC6Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_yd_WAlmPEeCcpdiAcH0w-w" id="-ZCPNs3ExxsjnNFRTVybQyA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_yeJHAFmPEeCcpdiAcH0w-w" id="-LpEiAis-mzd1_RcJIRimLA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_eWxZgNOEEdyqlogshP8l4g" name="initiate_project" guid="_eWxZgNOEEdyqlogshP8l4g">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sopKYNOJEdyqlogshP8l4g" name="develop_technical_vision" guid="_sopKYNOJEdyqlogshP8l4g" presentationName="Develop Technical Vision" briefDescription="Define the vision for the future system. Describe the problem and features based on stakeholder requests." superActivities="_eWxZgdOEEdyqlogshP8l4g" optionalInput="_soyUVNOJEdyqlogshP8l4g" output="_soyUVNOJEdyqlogshP8l4g _OpsH8GpmEd24CboUCnKL3A">
+      <presentation xmi:id="-Y4gn4laxnFk1PUA3-GebOg" href="uma://-kpXvvHptrggypeoQEamfhw#-Y4gn4laxnFk1PUA3-GebOg"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_0WoFUMlgEdmt3adZL5Dmdw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_VQ268O0KEdqHTdbLTmC5IQ"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_E-dPIL-GEdqb7N6KIeDL8Q"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_OnoNQNSAEdmLhZ9H5Plxyw"/>
+      <Task href="uma://_Y9TKMLS9EduDY8LNbMCDBA#_0fOAoMlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="uma://_5rJ78Lj3Edmy88CC3LfB_w#_ceK-UED2EdyoefaQkqWN_Q"/>
+      <selectedSteps href="uma://_5rJ78Lj3Edmy88CC3LfB_w#_h7AacED2EdyoefaQkqWN_Q"/>
+      <selectedSteps href="uma://_5rJ78Lj3Edmy88CC3LfB_w#_vbkccED2EdyoefaQkqWN_Q"/>
+      <selectedSteps href="uma://_5rJ78Lj3Edmy88CC3LfB_w#_yeVC0ED2EdyoefaQkqWN_Q"/>
+      <selectedSteps href="uma://_5rJ78Lj3Edmy88CC3LfB_w#_6uIV0ED2EdyoefaQkqWN_Q"/>
+      <selectedSteps href="uma://_5rJ78Lj3Edmy88CC3LfB_w#__nDMkED2EdyoefaQkqWN_Q"/>
+      <selectedSteps href="uma://_5rJ78Lj3Edmy88CC3LfB_w#_Af_gUEIMEd2omsDpG-BNng"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_soyUVNOJEdyqlogshP8l4g" name="vision" guid="_soyUVNOJEdyqlogshP8l4g" presentationName="Vision" briefDescription="This artifact defines the view of the stakeholders of the technical solution to be developed. This definition is specified in terms of the key needs and features of the stakeholders. The vision contains an outline of the envisioned core requirements for the system." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
+      <presentation xmi:id="-z5wrOi6JXS768g53hKiYaA" href="uma://-kpXvvHptrggypeoQEamfhw#-z5wrOi6JXS768g53hKiYaA"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_0WoFUMlgEdmt3adZL5Dmdw"/>
+      <templates href="uma://_OOB2AAouEdyhlpBPrduOMw#_DtlRQI5gEdyO5aWob1UGDA"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0WVxcMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_t7pDUNOJEdyqlogshP8l4g" name="plan_the_project" guid="_t7pDUNOJEdyqlogshP8l4g" presentationName="Plan Project" briefDescription="A collaborative task that outlines an initial agreement on how the project will achieve its goals. The resulting project plan provides a summary-level overview of the project." superActivities="_eWxZgdOEEdyqlogshP8l4g" mandatoryInput="_tzWYwNnFEdyNWvE4rz3mXQ _wU5YkG7rEd2yFK8n6tDvyw" output="_4ypNIO-YEdyEMtC_IfEALw">
+      <presentation xmi:id="-9AN0xXBZYxIDPOg2N3IC6Q" href="uma://-kpXvvHptrggypeoQEamfhw#-9AN0xXBZYxIDPOg2N3IC6Q"/>
+      <guidelines href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_Jq64EJjsEduad8I_c-ogIA"/>
+      <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_CGHskBEdEdqY7JB6N6CW2w"/>
+      <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_VNxL4ACsEdu8m4dIntu6jA"/>
+      <guidelines href="uma://_vJYucEfUEdyiPI8btkmvmw#_sLQ6AN8-Edyhmsbt0Xyl8A"/>
+      <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_yYlQoC3xEdycYKq0PulnEQ"/>
+      <Task href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0lC70MlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="uma://_fPbdIKe2Edmzde8VFK5bxg#_gu-PgIyBEdyhZb-MhCJrlA"/>
+      <selectedSteps href="uma://_fPbdIKe2Edmzde8VFK5bxg#_jknm8IyBEdyhZb-MhCJrlA"/>
+      <selectedSteps href="uma://_fPbdIKe2Edmzde8VFK5bxg#_4Xg3QOFpEdyhmsbt0Xyl8A"/>
+      <selectedSteps href="uma://_fPbdIKe2Edmzde8VFK5bxg#_lrYj0MBAEdqSgKaj2SZBmg"/>
+      <selectedSteps href="uma://_fPbdIKe2Edmzde8VFK5bxg#_xWBhUIyBEdyhZb-MhCJrlA"/>
+      <selectedSteps href="uma://_fPbdIKe2Edmzde8VFK5bxg#_zeN84IyBEdyhZb-MhCJrlA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_tzWYwNnFEdyNWvE4rz3mXQ" name="technical_specification_slot" guid="_tzWYwNnFEdyNWvE4rz3mXQ" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4ypNIO-YEdyEMtC_IfEALw" name="project_plan" guid="_4ypNIO-YEdyEMtC_IfEALw" presentationName="Project Plan" briefDescription="This artifact gathers all of the information required to manage the project on a strategic level. Its main part consists of a coarse-grained plan, identifying project iterations and their goals." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
+      <presentation xmi:id="-ZCPNs3ExxsjnNFRTVybQyA" href="uma://-kpXvvHptrggypeoQEamfhw#-ZCPNs3ExxsjnNFRTVybQyA"/>
+      <checklists href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_-qtjsAasEdy1uLAzgK8btg"/>
+      <examples href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_Yiq2EDcGEdyTZ9G7ByfQTw"/>
+      <templates href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0c7hoMlgEdmt3adZL5Dmdw"/>
+      <reports href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_ePrt8Dj3EduxovfWMDsntw"/>
+      <WorkProduct href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0a6vcMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_OpsH8GpmEd24CboUCnKL3A" name="glossary" guid="_OpsH8GpmEd24CboUCnKL3A" presentationName="Glossary" briefDescription="This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
+      <presentation xmi:id="-LpEiAis-mzd1_RcJIRimLA" href="uma://-kpXvvHptrggypeoQEamfhw#-LpEiAis-mzd1_RcJIRimLA"/>
+      <WorkProduct href="uma://_ji3-gEMXEdyP_Jn83ylwUQ#_Wn7HcNcEEdqz_d2XWoVt6Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_wU5YkG7rEd2yFK8n6tDvyw" name="project_work_slot" guid="_wU5YkG7rEd2yFK8n6tDvyw" presentationName="[Project Work]" briefDescription="This slot serves as an abstraction for any type of work being done on the project. It could be represented as a work items list, an operational schedule, a work breakdown structure, and so on." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
+      <WorkProduct href="uma://_vJYucEfUEdyiPI8btkmvmw#_1QZI8EfUEdyiPI8btkmvmw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_eWxZgdOEEdyqlogshP8l4g" name="initiate_project" guid="_eWxZgdOEEdyqlogshP8l4g" presentationName="Initiate Project" briefDescription="Kick off the project and gain agreement with the stakeholders on the scope of the project, and an initial plan for achieving it. This activity bundles tasks required to define the vision and create a project plan." breakdownElements="_sopKYNOJEdyqlogshP8l4g _soyUVNOJEdyqlogshP8l4g _t7pDUNOJEdyqlogshP8l4g _tzWYwNnFEdyNWvE4rz3mXQ _4ypNIO-YEdyEMtC_IfEALw _OpsH8GpmEd24CboUCnKL3A _wU5YkG7rEd2yFK8n6tDvyw">
+      <presentation xmi:id="-kpXvvHptrggypeoQEamfhw" href="uma://-kpXvvHptrggypeoQEamfhw#-kpXvvHptrggypeoQEamfhw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

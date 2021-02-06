@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-zsWMh4kEcZeEXZbUlvLq_g" name="rule_administrator,_XiII4QqBEdyPCr4G1Tb79A" guid="-zsWMh4kEcZeEXZbUlvLq_g" authors="Jerome Boyer" changeDate="2008-01-22T10:25:01.000-0800" version="7.5.1">
+  <mainDescription>&lt;a id=&quot;XE_rule_administrator&quot; name=&quot;XE_rule_administrator&quot;>&lt;/a>&lt;a id=&quot;4942&quot; name=&quot;4942&quot;>In a&lt;/a> &lt;a id=&quot;4926&quot;&#xD;
+name=&quot;4926&quot;>BRMS the Rule Administrator is a user who is proficient in system configuration and administration and&#xD;
+is responsible for administrating the BRMS.&lt;/a> In particular he/she will deploy a rule set in the different&#xD;
+server environments: development, test, production.</mainDescription>
+</org.eclipse.epf.uma:RoleDescription>

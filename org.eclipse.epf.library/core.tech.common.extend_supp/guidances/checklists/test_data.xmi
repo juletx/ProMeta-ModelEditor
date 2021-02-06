@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-GNUrr3mpSwOOaOKWSuftMg" name="new_checklist,_KZQJMBhBEduxCP6DVVLxsA" guid="-GNUrr3mpSwOOaOKWSuftMg" version="7.2.0">
+  <sections xmi:id="_U06PwBhBEduxCP6DVVLxsA" name="Test data has been provided for the test cases to be implemented" guid="_U06PwBhBEduxCP6DVVLxsA"/>
+  <sections xmi:id="_XBmw0BhBEduxCP6DVVLxsA" name="The test data supports boundary testing" guid="_XBmw0BhBEduxCP6DVVLxsA"/>
+  <sections xmi:id="_Yvo_8BhBEduxCP6DVVLxsA" name="The system under test has been tested under conditions with sufficient data, insufficient data, and the wrong type of data" guid="_Yvo_8BhBEduxCP6DVVLxsA"/>
+  <sections xmi:id="_a6tJUBhBEduxCP6DVVLxsA" name="The test data is organized into production and generated data" guid="_a6tJUBhBEduxCP6DVVLxsA"/>
+  <sections xmi:id="_cqj9YBhBEduxCP6DVVLxsA" name="The test data has been updated to apply to the appropriate iteration" guid="_cqj9YBhBEduxCP6DVVLxsA"/>
+  <sections xmi:id="_eoWfwBhBEduxCP6DVVLxsA" name="The test data is complete for the given test effort" guid="_eoWfwBhBEduxCP6DVVLxsA"/>
+  <sections xmi:id="_h7coMBhBEduxCP6DVVLxsA" name="Data has been identified for input numeric variables, output numeric variables, arrays, and vectors" guid="_h7coMBhBEduxCP6DVVLxsA"/>
+</org.eclipse.epf.uma:ContentDescription>

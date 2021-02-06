@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-2Exr8xUknR1c7fbnPMMrTw" name="core_principles,_HEu9QBOHEduCNqgZdt_OaA" guid="-2Exr8xUknR1c7fbnPMMrTw" changeDate="2008-01-23T05:10:09.000-0800" version="1.0.0">
+  <mainDescription>&lt;p>
+    OpenUP is based on four mutually supporting core principles.
+&lt;/p>
+&lt;h5 style=&quot;MARGIN: 12pt 0in 3pt&quot;>
+    Balance competing priorities to maximize stakeholder value
+&lt;/h5>
+&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+    &lt;p>
+        Promote practices that allow project participants and stakeholders to develop a solution that maximizes stakeholder
+        benefits, and is compliant with constraints placed on the project.&lt;br />
+        See &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../publish.openup.base/guidances/concepts/core_principle_balance_793DD27.html&quot; guid=&quot;_ssG6MMvpEdqukPpotm3DYg&quot;>Balance&lt;/a> core principle for more information.
+    &lt;/p>
+&lt;/blockquote>
+&lt;h5 style=&quot;MARGIN: 12pt 0in 3pt&quot;>
+    Collaborate to align interests and share understanding
+&lt;/h5>
+&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+    &lt;p>
+        Promote practices that foster a healthy team environment, enable collaboration and develop a shared understanding
+        of the project.&lt;br />
+        See &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../publish.openup.base/guidances/concepts/core_principle_collaborate_EC5EB51F.html&quot; guid=&quot;_KkTIsMp7EdqC_NfSivunjA&quot;>Collaborate&lt;/a> core principle for more information.
+    &lt;/p>
+&lt;/blockquote>
+&lt;h5 style=&quot;MARGIN: 12pt 0in 3pt&quot;>
+    Focus on the architecture early to minimize risks and organize development
+&lt;/h5>
+&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+    &lt;p>
+        Promote practices that allow the team to focus on architecture to minimize risks and organize development.&lt;br />
+        See &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../publish.openup.base/guidances/concepts/core_principle_focus_346C6FAF.html&quot; guid=&quot;_9gocwMvoEdqukPpotm3DYg&quot;>Focus&lt;/a> core principle for more information.
+    &lt;/p>
+&lt;/blockquote>
+&lt;h5>
+    Evolve to continuously obtain feedback and improve
+&lt;/h5>
+&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+    &lt;p>
+        Promote practices that allow the team to get early and continuous feedback from stakeholders, and demonstrate
+        incremental value to them.&lt;br />
+        See &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../publish.openup.base/guidances/concepts/core_principle_evolve_BFD9AEB4.html&quot; guid=&quot;_GXiogMvoEdqukPpotm3DYg&quot;>Evolve&lt;/a> core principle for more information.
+    &lt;/p>
+&lt;/blockquote></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

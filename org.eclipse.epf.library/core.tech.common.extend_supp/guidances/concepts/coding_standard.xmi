@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-xo5gft-2zQGWhxjKcGxSQQ" name="new_concept,_0lnRMMqOEduwrYVlQ9zp3w" guid="-xo5gft-2zQGWhxjKcGxSQQ" changeDate="2008-01-08T05:21:22.000-0800" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    Using a coding standard is a widely accepted software development practice. The need for this practice takes on added&#xD;
+    importance in a highly collaborative environment. The team should have a standard way of naming and formatting things&#xD;
+    so they can understand the code quickly and know where to look at all times. This enables shared code ownership since&#xD;
+    any team member should be able to quickly understand the code written by others.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Ideally, the coding standard should be the result of team consensus. Involving the team members will aid adoption of&#xD;
+    the standards.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Coding Standards cover such areas as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Naming standards. This includes the naming of elements all the way down to the smallest variable. In covering&#xD;
+        larger-scale elements, this overlaps into what could be considered design standards.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        File organization. This includes file naming conventions and how the files will be organized on the file system.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Comment standards. Too much emphasis on comments implies a lack of confidence that readable code is being written,&#xD;
+        plus there is always a concern that the comments are not up to date. Yet, a consistent approach to comments&#xD;
+        improves understandability and can support the ability to generate documentation from the code.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Coding conventions. Consistent application of specific code-level conventions and the exclusion of some considered&#xD;
+        poor form improve the quality of the code.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        White space. Though it can be argued to be less critical than the other items listed here, a consistent usage of&#xD;
+        white space as indentation and blank lines also improves readability.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In some cases, decisions will be arbitrary (like how much to indent). Each item in the standard should support one or&#xD;
+    more goals, improved communication being one of the most critical goals. Once the team agrees on a standard, all&#xD;
+    members of the teams are expected to follow it. With time, the team will use and modify the standard to develop a style&#xD;
+    that is well adapted to the environment.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Though some standards can transcend any language, coding standards must be language specific for the most part.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For example coding standards, see the &lt;a href=&quot;http://java.sun.com/docs/codeconv/html/CodeConvTOC.doc.html&quot;&#xD;
+    target=&quot;_blank&quot;>Code Conventions for the JavaTM Programming Language&lt;/a> or these &lt;a&#xD;
+    href=&quot;http://blogs.msdn.com/brada/articles/361363.aspx&quot; target=&quot;_blank&quot;>Internal Coding Guidelines&lt;/a> for .NET&#xD;
+    development.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

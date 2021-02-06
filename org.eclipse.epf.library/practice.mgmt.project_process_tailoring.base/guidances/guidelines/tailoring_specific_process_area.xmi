@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-ay95zSfJCMZRdTLWavrFVA" name="new_guideline,_9UrSwE5hEd-TbrfwCHSPcA" guid="-ay95zSfJCMZRdTLWavrFVA" changeDate="2010-05-10T06:35:20.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    The following are typical activities or key considerations when tailoring any given process area.&amp;nbsp; You can use
+    these considerations in advance, to decide what to tailor for a given process area, or as a checklist to confirm that
+    you've done all the tailoring that makes sense for the given process area. Additional process area-specific guidelines
+    may also be available.
+&lt;/p>
+&lt;p>
+    Identify policies and procedures you are required to follow, and make sure team is made aware of them.
+&lt;/p>
+&lt;p>
+    Capture glossary of terms specific to this process area (project-wide glossary or specific-area process)
+&lt;/p>
+&lt;p>
+    Capture definitions, acronyms, and abbreviations
+&lt;/p>
+&lt;p>
+    Capture references (documents important to this process area)
+&lt;/p>
+&lt;p>
+    Make sure organization, responsibilities and interfaces are described
+&lt;/p>
+&lt;p>
+    Make sure the right tools and infrastructure are available and the team knows how to use them
+&lt;/p>
+&lt;p>
+    Be aware of available metrics and reports and decide which ones you will use and how often.
+&lt;/p>
+&lt;p>
+    Determine that team has the training and resources, including&amp;nbsp;personnel that&amp;nbsp;they require.&lt;br />
+    &lt;br />
+    &lt;br />
+    &lt;br />
+    &lt;br />
+    &lt;br />
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

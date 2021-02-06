@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-8kqk1tE8R96b88T_NC7SoQ" name="release_info_openup_process,_o5lO8Wr4Ed24CboUCnKL3A" guid="-8kqk1tE8R96b88T_NC7SoQ" changeDate="2012-05-30T12:07:07.892-0700" version="7.2.0">
+  <mainDescription>&lt;h3>&#xD;
+    EPF Base&#xD;
+&lt;/h3>&#xD;
+&lt;h4>&#xD;
+    1.5.1.4&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    This is the first version of this practice, included as part of the EPF 1.5.1.4 practices library.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

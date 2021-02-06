@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-w4UHaO9nSn7-q_CMq-Ofog" name="02_02_deliver_end_user_training,_nnueQ2zvEeCPgecPbK9bdg" guid="-w4UHaO9nSn7-q_CMq-Ofog" changeDate="2012-05-30T13:58:23.423-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Often, a trainer will deliver training to end users; rarely will the development team deliver training because they are&#xD;
+    busy developing additional features for this or other systems. If a trainer is not available, the product owner might&#xD;
+    have to train the end users.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    End user training usually consists of presentation slides, job aids, hands-on labs and exercises, or workshops that&#xD;
+    integrate these methods into an environment that the end users can understand and relate to.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_-zeAhOB8EeC1y_NExchKwQ" name="Validate user training logistics" guid="_-zeAhOB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    Before actually delivering the training to end users, ensure that you have all the necessary components of the training&#xD;
+    course, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Presentation slides&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Handouts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Training aids&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Hands-on labs and/or exercises&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Quizzes or tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Feedback and/or instructor assessment forms&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Ensure the classes have been scheduled correctly and attendees have been identified. Verify that the facilities where&#xD;
+    you will deliver the training have been properly booked and are furnished to accommodate the training content and&#xD;
+    audience. If possible, send a reminder notice to the attendees several days (or a week) before the delivery date.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_-zenkuB8EeC1y_NExchKwQ" name="Prepare for user training delivery" guid="_-zenkuB8EeC1y_NExchKwQ">
+    <sectionDescription>Review the training materials so that you are familiar with them. If you encounter any areas in which you are unsure or&#xD;
+tentative about, engage experts from the development team or program who can help you understand the material. Then, update&#xD;
+the training materials accordingly and create instructor notes to help you remember key points as you deliver the training.&#xD;
+Instructor notes that you author will not only help you, but they might assist other instructors in the future who have not&#xD;
+had the benefit of working with the development team or program.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zenkeB8EeC1y_NExchKwQ" name="Deliver user training and gather feedback" guid="_-zenkeB8EeC1y_NExchKwQ">
+    <sectionDescription>On the prescribed day(s) and time(s), deliver the training as planned. When each course is completed, solicit feedback from&#xD;
+the attendees on the course material, its organization and flow, the learning objectives, how well the instructor delivered&#xD;
+the content, and whether the course met their expectations.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zenkOB8EeC1y_NExchKwQ" name="Provide feedback to the program level" guid="_-zenkOB8EeC1y_NExchKwQ">
+    <sectionDescription>Consolidate the feedback from the courses delivered and provide it to the program manager or their delegate for review.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to ensure that end users are properly trained to use the system to achieve the maximum business&#xD;
+value.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-uAmJkciaDVaJ5g3byOMdtg" name=",_h88OsO7-EdySOuhNm0Os1w" guid="-uAmJkciaDVaJ5g3byOMdtg" changeDate="2008-03-10T05:05:11.000-0700" version="7.2.0">
+  <mainDescription>NOTICES AND INFORMATION&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;p>&#xD;
+    These Notices apply to portions of this Program. They are not part of the license under which you receive the Program&#xD;
+    and are provided for informational purposes.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    About This Content&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    May 2, 2006&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    License&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Eclipse Foundation makes available all content in this plug-in (&quot;Content&quot;). Unless otherwise indicated below, the&#xD;
+    Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 (&quot;EPL&quot;). A copy of&#xD;
+    the EPL is available at http://www.eclipse.org/legal/epl-v10.html. For purposes of the EPL, &quot;Program&quot; will mean the&#xD;
+    Content.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another&#xD;
+    party (&quot;Redistributor&quot;) and different terms and conditions may apply to your use of any object code in the Content.&#xD;
+    Check the Redistributor's license that was provided with the Content. If no such license exists, contact the&#xD;
+    Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in&#xD;
+    the Content and such source code may be obtained at http://www.eclipse.org.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

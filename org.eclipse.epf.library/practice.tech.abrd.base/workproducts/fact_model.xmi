@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-bQ1C5d6LPzfik1-iTbIjtg" name="new_artifact,_csL3wHrMEd2o_5d3MWaNxQ" guid="-bQ1C5d6LPzfik1-iTbIjtg" changeDate="2008-09-08T10:57:15.000-0700" version="7.5.0">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>A Fact Model represents structured business vocabulary with true statement like: A
+    customer places an order. The fact model looks like the Object Role Model described by Halpin (2001). When the model
+    starts to grow the notation become quickly invisible and no more helpful, so we do not encourage to follow this
+    notation.&lt;/span> We prefer using UML class diagram showing just the entities, the associations and may be some
+    characteristic as attributes of class.
+&lt;/p>&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>A Fact Model should always include elementary
+    (atomic) fact type:&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -18pt&quot;>
+    &lt;span style=&quot;FONT-FAMILY: 'Times New Roman'; mso-bidi-font-size: 10.0pt&quot;>•&lt;/span>&lt;span
+    style=&quot;FONT-SIZE: 7pt; FONT-FAMILY: 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Noun:&amp;nbsp; Customer, Order, Product&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -18pt&quot;>
+    &lt;span style=&quot;FONT-FAMILY: 'Times New Roman'; mso-bidi-font-size: 10.0pt&quot;>•&lt;/span>&lt;span
+    style=&quot;FONT-SIZE: 7pt; FONT-FAMILY: 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Verb:&amp;nbsp; places, briefs&lt;/span>
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_uqL2gMM3EdmSIPI87WLu3g" name="test_ideas,_0jnYcMlgEdmt3adZL5Dmdw" guid="_uqL2gMM3EdmSIPI87WLu3g" changeDate="2006-07-20T03:10:39.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;strong>Test Ideas List&lt;/strong> - A list of brief statements identifying tests that are potentially useful to conduct.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Test Ideas Catalog&lt;/strong> - A catalog of common faults and mistakes done when developing software.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Test Ideas will describe any of the elements of an executable test.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test ideas ensure the important ideas are not forgotten and are detailed later in test cases.&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test Ideas are to be captured at a less-specific level in an intermediate form.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test ideas are more reviewable and understandable then complete tests.&amp;nbsp; Making the reasoning behind the test&#xD;
+        idea clearer.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test ideas support more powerful test, by not constraining the tester.&amp;nbsp; Making it easier to create tests that&#xD;
+        validate more then just the defined requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test Ideas are often based on explicit and implicit fault modules, to include but not limited to Booleans,&#xD;
+        boundaries and method calls.&amp;nbsp; Test Ideas Lists will contain test ideas from many faults models derived for one&#xD;
+        or many work products.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Creating test ideas before testing for review and inspection of design work products assists in discovering design or&#xD;
+    analysis errors.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

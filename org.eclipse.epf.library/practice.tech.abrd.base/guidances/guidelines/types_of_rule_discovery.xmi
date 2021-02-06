@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-f_C19dHfbYGTJrBoaWdPJA" name="types_of_rule_discovery_roadmap,_aS75QBtjEdu_BZ3CL1I6hw" guid="-f_C19dHfbYGTJrBoaWdPJA" authors="Jerome Boyer" changeDate="2008-09-04T04:24:03.000-0700" version="1.0.0">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>&lt;span style=&quot;mso-bidi-language: HE&quot;>The following table is giving the different
+    possible starting points for the discovery activity.&lt;/span>&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>&lt;span style=&quot;mso-bidi-language: HE&quot;>&amp;nbsp;&lt;/span>&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;table title=&quot;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;85%&quot; border=&quot;1&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;th id=&quot;&quot; scope=&quot;col&quot; abbr=&quot;&quot;>
+                Analysis techniques used - starting point
+            &lt;/th>
+            &lt;th id=&quot;&quot; scope=&quot;col&quot; abbr=&quot;&quot;>
+                Description
+            &lt;/th>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                Business Events
+            &lt;/td>
+            &lt;td>
+                Start with the business events listed in the inception artifacts.&lt;br />
+                Each business event is processed by a set of activities that can be described in document or business
+                process&lt;br />
+                Use when the organization does not utilize use cases.
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                Use Case
+            &lt;/td>
+            &lt;td>
+                Analyze Use case description to find decision points and then rules&lt;br />
+                Preferred approach, used by team used to develop use cases, or Agile user stories.
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                Business process / Workflow
+            &lt;/td>
+            &lt;td>
+                Evaluate individual process steps and tasks to define the&amp;nbsp;decision&amp;nbsp;behind each activity&amp;nbsp;and
+                then the rules.&lt;br />
+                Used when the organization utilizes process decomposition for the requirements gathering and analysis phase
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                Data Analysis
+            &lt;/td>
+            &lt;td>
+                Used in case of data change oriented rules project&lt;br />
+                Starts with the logical data model and how evaluate how entities are created
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                Mission Policies
+            &lt;/td>
+            &lt;td>
+                Based on a top-down rules and business policies approach&lt;br />
+                Rules sources are high level manager, decision makers&lt;br />
+                Part of a business process reengineering effort
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>&lt;br />
+&lt;br />
+&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-O1HfhcSrdCAKGBTRVqt73w" name=",_8_mWgH3GEd2sJcA0evSBQw" guid="-O1HfhcSrdCAKGBTRVqt73w" authors="Jerome Boyer" changeDate="2008-09-08T10:11:17.000-0700" version="7.5.1">
+  <mainDescription>&lt;p>
+    A term may describe business concept as defined by the business. So a term is related to the language of the people
+    within the company. A term used in one group may differ in its meaning within another group. Term in SBVR is a concept
+    and can be declined as noun concept or verb concept.Term represents a unit of knowledge with a unique combination of
+    characteristics. In Object Oriented Analysis we will map to a Class.
+&lt;/p>
+&lt;p>
+    Fact is a combination of terms that describes what business people know about their business. Fact may describe the
+    relationship between terms, like an Insurance Policy is a form of Contract, or it may describe the interactions between
+    terms (collaboration).
+&lt;/p>
+&lt;p>
+    Taking as an example a rule description like:
+&lt;/p>
+&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+    &lt;p>
+        &lt;em>Ask for an audit if&amp;nbsp; one of the treatment includes an emergency room treatment or an ambulance transfer
+        done on a day after the accident&lt;/em>.
+    &lt;/p>
+&lt;/blockquote>
+&lt;p>
+    The analysis team can extract the following business terms: audit, treatment, emergency room, ambulance transfer, day
+    of accident, accident. Discussing with a claim processor we can extract the following facts:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;div
+        style=&quot;MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple&quot;>
+            A&amp;nbsp;car accident is declared in a claim
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div
+        style=&quot;MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple&quot;>
+            Claim has a type, and a date of loss
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div
+        style=&quot;MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple&quot;>
+            There&amp;nbsp;may be&amp;nbsp;some injuries,
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div
+        style=&quot;MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple&quot;>
+            Medical treatments are done by medical providers
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div
+        style=&quot;MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple&quot;>
+            The medical provider issues medical bill
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div
+        style=&quot;MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple&quot;>
+            A medical bill includes the description of the medical treatment done on the patient
+        &lt;/div>
+    &lt;/li>
+&lt;/ul>
+&lt;p
+style=&quot;MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple&quot;>
+    Insurance wants to verify the treatment done, and limit the payments on what is defined in the policy and the legal
+    engagements.
+&lt;/p>&lt;br
+style=&quot;MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple&quot; />
+&lt;br />
+&lt;p
+style=&quot;MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>Later on in the project the facts have to be analyzed to understand how the
+    software application will support it. It can be through implementing the logic, the GUI layout, structuring&amp;nbsp;the
+    different&amp;nbsp;data models or just staying in documentation.&lt;/span>
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

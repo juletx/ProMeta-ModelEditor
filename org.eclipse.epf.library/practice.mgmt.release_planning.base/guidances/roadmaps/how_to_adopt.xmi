@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-4a1QxeLdn2OKx5_Lft8tBA" name="how_to_adopt,_ERIDQOMPEdyM47cGD2jiaQ" guid="-4a1QxeLdn2OKx5_Lft8tBA" changeDate="2009-07-15T04:22:23.000-0700" version="7.2.0">
+  <mainDescription>&lt;h3>&#xD;
+    Getting started&amp;nbsp;&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Release&amp;nbsp;planning is concerned with creating a strategic project plan (where the internal and external releases of&#xD;
+    the project are identified), and tactical iteration plans for individual iterations within releases. It aims at&#xD;
+    creating the right level of granularity for each purpose, so that the investment in planning is held to a minimum.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Begin by understanding the high-level features that the system is expected to possess. These are the system's main&#xD;
+    themes or services, and they are typically described or listed in a vision document. They serve to set goals and&#xD;
+    expectations, both internally and externally, and they guide and constrain the iteration planning.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The project plan is coarser-grained than iteration plans. As &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../../core.mgmt.common.base/guidances/supportingmaterials/references.mgmt_D80619F3.html#LEF07&quot;&#xD;
+    guid=&quot;_JlTPUM6aEdyuBO4ZIzcyig&quot;>[LEF07]&lt;/a> notes, a system can be described with a list of 25-50 features, calibrated&#xD;
+    to the relative complexity of that system. Iteration plans, on the other hand, are described in terms of individual&#xD;
+    user stories, use cases and scenarios, or other work items that will be&amp;nbsp;developed in each iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As early in the project as possible, ideally as part of the kick-off of a new project, hold a planning session (with&#xD;
+    the whole team and the stakeholders of the system) during which the initial project plan is established.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Update the project plan as often as necessary to reflect changing business priorities and needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Iteration plans help to estimate and track individual iterations. For each iteration, its plan is created just-in-time,&#xD;
+    based on the currently highest prioritized work items in the product backlog.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Common pitfalls&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    One of the biggest challenges with agile planning is to resist pressure from upper management if they require to see&#xD;
+    complete plans up-front in the project. This is best avoided by involving them in the planning process, and by&#xD;
+    demonstrating the value of empirical planning by making the process transparent and open (to the organization and the&#xD;
+    project's stakeholders) so that they can easily follow the progress of the project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It can be difficult to find the right level of granularity for the features of a given system. With too many features,&#xD;
+    the planning process becomes tedious and error-prone, and will work counter to the intent.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

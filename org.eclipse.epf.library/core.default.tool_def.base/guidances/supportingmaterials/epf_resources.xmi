@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-_R0yxogmlMQUIc_dSzfpUA" name="new_supporting_material,_C2FS4F_lEd2zpKtX6B7lBg" guid="-_R0yxogmlMQUIc_dSzfpUA" changeDate="2008-09-18T00:21:11.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    To learn more about the Eclipse Process Framework (EPF), read Per Kroll's article, &lt;a&#xD;
+    href=&quot;http://www.ibm.com/developerworks/rational/library/05/1011_kroll/index.html&quot;>The Eclipse Process Framework&#xD;
+    project&lt;/a> (IBM&amp;reg; developerWorks&amp;reg;, November 2005)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more information on EPF Composer, see the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a href=&quot;http://www.ibm.com/developerworks/rational/library/dec05/haumer/&quot;>IBM Rational Method Composer: Part 1:&#xD;
+        Key concepts&lt;/a> by Peter Haumer (IBM developerWorks, December 2005)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        EPF Composer Overview, &lt;a href=&quot;http://www.eclipse.org/epf/general/EPFComposerOverviewPart1.pdf&quot;&#xD;
+        target=&quot;_blank&quot;>Part 1&lt;/a> and &lt;a href=&quot;http://www.eclipse.org/epf/general/EPFComposerOverviewPart2.pdf&quot;&#xD;
+        target=&quot;_blank&quot;>Part 2&lt;/a> .&amp;nbsp;&amp;nbsp;(&lt;a href=&quot;http://get.adobe.com/reader/&quot;>Get Adobe Reader&lt;/a>)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        For an in-depth explanation of the metamodel on which EPF Composer is based, see OMG: &lt;a&#xD;
+        href=&quot;http://www.omg.org/technology/documents/formal/spem.htm&quot; target=&quot;_blank&quot;>Software Process Engineering&#xD;
+        Meta-Model,&lt;/a> Version 2.0, 2008.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

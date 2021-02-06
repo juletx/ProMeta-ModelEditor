@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-CqRW_LvWNGc-KcPRG0x0Pg" name="new_term_definition,_N5kv4B3UEdukzppJ0est2w" guid="-CqRW_LvWNGc-KcPRG0x0Pg" authors="Jerome Boyer" changeDate="2008-01-22T10:21:31.000-0800" version="1.0.0">
+  <mainDescription>&lt;p>
+    &lt;a id=&quot;XE_BRMS&quot; name=&quot;XE_BRMS&quot;>&lt;/a>System designed to modify and manage business logic independently from the
+    enterprise application.&amp;nbsp;&amp;nbsp;BRMS provides a way to automate decision making and execute precisely on business
+    policy. Consequently, policies and decisions form the core of all business processes and activities.&lt;font face=&quot;Arial&quot;
+    size=&quot;1&quot;>&amp;nbsp;&lt;/font>A BRMS product&amp;nbsp;should include facilities to enable:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; tab-stops: list .25in&quot;>
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-font-weight: bold&quot;>Full life-cycle maintenance of
+            business rules by business analysts&lt;/span> and developers
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; tab-stops: list .25in&quot;>
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-font-weight: bold&quot;>Assured consistency by
+            representing business knowledge uniformly with centralized control&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; tab-stops: list .25in&quot;>
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-font-weight: bold&quot;>Facilities for testing, scenario
+            generation, and impact analysis&lt;/span>
+        &lt;/div>
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>BRMS
+    is a method and means to treat rules as a true corporate asset.&lt;/span>&lt;br />
+    &lt;br />
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

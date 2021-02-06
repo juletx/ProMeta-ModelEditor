@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-3aW2yZI3NRHTURx_MUJcfg" name="execute_rule_discovery_workshop_guideline,_GQRngB5pEdutMMt1DDmE3w" guid="-3aW2yZI3NRHTURx_MUJcfg" authors="Jerome Boyer" changeDate="2008-09-04T04:42:08.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_discovery__execute_workshop_guideline&quot; name=&quot;XE_rule_discovery__execute_workshop_guideline&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span style=&quot;mso-bidi-font-style: italic&quot;>Rules and processes
+    elicitation is an &lt;span style=&quot;mso-bidi-font-weight: bold&quot;>ongoing&lt;/span> &lt;span
+    style=&quot;mso-bidi-font-weight: bold&quot;>activity&lt;/span> throughout the whole duration of the project. &lt;span
+    style=&quot;mso-bidi-font-weight: bold&quot;>Constant collaboration&lt;/span> with&amp;nbsp;the stakeholder is critical.&lt;/span>&lt;/span>
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span style=&quot;mso-bidi-font-style: italic&quot;>They will change their
+    minds as the project proceeds and that is perfectly fine.&lt;/span>&lt;/span>&lt;br />
+&lt;/p>
+&lt;h3 style=&quot;MARGIN: 3pt 0cm&quot;>
+    Discover Rules from Subject Matter Experts
+&lt;/h3>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-font-style: italic&quot;>The&amp;nbsp;rules discovery&amp;nbsp;workshop is&amp;nbsp;a powerful technique for
+    eliciting rules. It gathers all the key subject matter experts&amp;nbsp;together for a short but intensely focused period.
+    The use of an outside facilitator experienced in requirements management can ensure the success of the workshop.
+    Brainstorming is the most efficient techniques used during the sessions.&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>Brainstorming involves both idea generation and idea reduction. The most creative,
+    innovative ideas often result from combining, seemingly unrelated ideas. Various voting techniques may be used to
+    prioritize the ideas created.&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>Allow for human behavior but control the following points:&lt;/span>
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l2 level1 lfo2&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>Do not attack other&amp;nbsp;participants&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l2 level1 lfo2&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>Do not come back late from a break: the sessions are short, so&amp;nbsp;there
+        should be plenty of time for&amp;nbsp;other activities during the day.&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l2 level1 lfo2&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>Avoid any domineering position&lt;/span>
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 1.9pt 0cm 0pt; TEXT-ALIGN: justify&quot;>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Some suggestions to improve the process:&lt;/span>
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot;
+    style=&quot;MARGIN: 1.9pt 0cm 0pt; TEXT-ALIGN: justify; tab-stops: list 36.0pt; mso-list: l1 level1 lfo3&quot;>
+        &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Facilitator keeps a timer for all breaks and
+        fines anyone that is late, everyone gets one free pass&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot;
+    style=&quot;MARGIN: 1.9pt 0cm 0pt; TEXT-ALIGN: justify; tab-stops: list 36.0pt; mso-list: l1 level1 lfo3&quot;>
+        &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Facilitator encourages everyone to use
+        5-minute position statement&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot;
+    style=&quot;MARGIN: 1.9pt 0cm 0pt; TEXT-ALIGN: justify; tab-stops: list 36.0pt; mso-list: l1 level1 lfo3&quot;>
+        &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>In case of long discussion without reaching
+        firm conclusion or agreement it is good to use the business concerns to drive the elicitation&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot;
+    style=&quot;MARGIN: 1.9pt 0cm 0pt; TEXT-ALIGN: justify; tab-stops: list 36.0pt; mso-list: l1 level1 lfo3&quot;>
+        &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>If the rule is not clear this is good
+        practice to prototype it.&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot;
+    style=&quot;MARGIN: 1.9pt 0cm 0pt; TEXT-ALIGN: justify; tab-stops: list 36.0pt; mso-list: l1 level1 lfo3&quot;>
+        &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Use concrete scenario to illustrate some
+        rules. It will prepare for the tests.&lt;/span>
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 1.9pt 0cm 0pt; TEXT-ALIGN: justify; tab-stops: list 36.0pt; mso-list: l1 level1 lfo3&quot;>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>In the case of a use case oriented roadmap the
+    analyst team will start from the use case or business process map and may ask the following standard elicitation
+    questions like:&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 1.9pt 0cm 0pt; TEXT-ALIGN: justify; tab-stops: list 36.0pt; mso-list: l1 level1 lfo3&quot; />
+&lt;br />
+&lt;div align=&quot;center&quot;>
+    &lt;table class=&quot;ISISTable&quot;
+    style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-padding-alt: 0in 5.4pt 0in 5.4pt; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver&quot;
+     cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;>
+        &lt;tbody>
+            &lt;tr style=&quot;mso-yfti-irow: -1; mso-yfti-firstrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: gray 1pt solid; WIDTH: 126.9pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;169&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpFirst&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;font size=&quot;3&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0&quot;>Input Document&lt;/span>&lt;/i>&lt;/b>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i
+                        style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0; mso-bidi-font-size: 10.0pt&quot;>Type&lt;/span>&lt;/i>&lt;/b>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 207pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;276&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;font size=&quot;3&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0&quot;>Questions&lt;/span>&lt;/i>&lt;/b>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 108.9pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;145&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;font size=&quot;3&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0&quot;>Impacted Artifacts&lt;/span>&lt;/i>&lt;/b>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 0&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 126.9pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;169&quot;>
+                    &lt;ul>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>Use case&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>Business process map&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                    &lt;/ul>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 207pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;276&quot;>
+                    &lt;ul>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>What happen on this business
+                                activity?&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>What is the input information of
+                                this activity?&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>What is the output ?&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>What kind of validation the user
+                                is doing on this process step?&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span
+                                style=&quot;FONT-SIZE: 8pt; LAYOUT-GRID-MODE: line; COLOR: black; mso-bidi-font-size: 10.0pt&quot;>How
+                                do we check that …&lt;/span>&lt;span
+                                style=&quot;FONT-SIZE: 8pt; COLOR: black; mso-bidi-font-size: 10.0pt&quot;>?&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>What is happening in case of error
+                                or exceptions?&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>Who is taking the final
+                                decision?&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                    &lt;/ul>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 108.9pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;145&quot;>
+                    &lt;ul>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>Use case&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>Business process map&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>Rule description document&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                    &lt;/ul>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 1&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 126.9pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;169&quot;>
+                    &lt;ul>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>Use case&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>Business process map&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>Business entities diagram&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                    &lt;/ul>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 207pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;276&quot;>
+                    &lt;ul>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>What do you mean by …. (a business
+                                term to clearly define)&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                    &lt;/ul>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 108.9pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;145&quot;>
+                    &lt;ul dir=&quot;ltr&quot;>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>Business entities diagram&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                    &lt;/ul>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 2; mso-yfti-lastrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 126.9pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;169&quot;>
+                    &lt;ul>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>Rule statement&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                    &lt;/ul>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 207pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;276&quot;>
+                    &lt;ul>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>What about the other range of
+                                possible values for this condition?&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                    &lt;/ul>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 108.9pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;145&quot;>
+                    &lt;ul>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>Business entities diagram&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li>
+                            &lt;div class=&quot;MsoNormalCxSpMiddle&quot;>
+                                &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>Rule description document&lt;/span>
+                            &lt;/div>
+                        &lt;/li>
+                    &lt;/ul>
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div>&lt;br class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 1.9pt 0cm 0pt; TEXT-ALIGN: justify; tab-stops: list 36.0pt; mso-list: l1 level1 lfo3&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; TEXT-ALIGN: justify&quot;>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: HE; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>Between
+    sessions, try to make some rule analysis to verify that business terms are well defined and the rules make sense and do
+    not have logical conflict. Log all the questions related to this analysis in a issue tracking document.&lt;/span>&lt;br />
+&lt;/p>
+&lt;h3 style=&quot;MARGIN: 3pt 0cm&quot;>
+    Discover Rules from Documentation
+&lt;/h3>
+&lt;p style=&quot;MARGIN: 0in 0in 0pt; TEXT-ALIGN: justify&quot;>
+    When they exist, precisely written business policy documents prove an excellent&amp;nbsp;source of information for rule
+    elicitation. The advantage of a &quot;company certified&quot; policy document is that it is not&amp;nbsp;biased by&amp;nbsp;the
+    individual practice of a subject matter expert.&amp;nbsp;In any case, the elicitation work performed&amp;nbsp;from a document
+    should of course be corroborated by a subject matter expert, and usually takes frequent interaction with the SME to get
+    some explanation on a rule or a term that might be unclear or ambiguous.&amp;nbsp;
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: HE; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>It
+    is&amp;nbsp;recommended to:&lt;/span>
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l1 level1 lfo2&quot;>
+        &lt;span
+        style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: HE; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>Get
+        an exhaustive list of the business events under scope and&amp;nbsp;log them in a table&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l1 level1 lfo2&quot;>
+        &lt;span
+        style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: HE; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>Get
+        the activities, tasks, processes that support the processing of those business events&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l1 level1 lfo2&quot;>
+        &lt;span
+        style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: HE; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>Get
+        the business motivation behind the rules&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l1 level1 lfo2&quot;>
+        &lt;span
+        style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: HE; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>Try
+        to extract the object model under scope, the domain values, etc...&lt;/span>
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; TEXT-ALIGN: justify&quot;>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: HE; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>&lt;span
+     style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>We
+    should still apply agile modeling by involving the SME to get feedback on the findings, assumptions and
+    issues.&amp;nbsp;Use simple diagrams to communicate with the project stakeholders.&lt;/span>&lt;/span>
+&lt;/p>&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

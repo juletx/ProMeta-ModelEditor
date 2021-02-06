@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-ffYBUOhR5mZssG9eZxktmg" name="organise_workshop,_sruWxAjqEdyj5bYZ0eCR5g" guid="-ffYBUOhR5mZssG9eZxktmg" authors="Jerome Boyer" changeDate="2008-09-05T10:15:44.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_workshop__organize&quot; name=&quot;XE_workshop__organize&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    To make the better use of the development and business team's time it is important to plan in advance the workshop
+    sessions and to clearly state what is in the agenda. We recommend organizing the day in two parts:
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        Do morning discovery workshop using elicitation techniques with the project stakeholders and subject matter expert.
+        During the&amp;nbsp;rule harvesting phase the analyst team may want to use the rule template document to enter the rule
+        description and use some simple diagramming techniques to define the business entities (A good tool is the UML
+        class diagram but without the details of the methods)
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        Second part of the day is used by&amp;nbsp;the analyst and development team to perform analysis activities and later on
+        to author the rules.
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    As explained in &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../practice.tech.abrd.base/guidances/concepts/cycle_approach_7FA44D8F.html&quot;
+    guid=&quot;_ftAoIAjrEdyj5bYZ0eCR5g&quot;>Cycle Approach to Rules Development&lt;/a> the discovery workshops are in phase 1, 2, and
+    3, but with different frequency of occurrence. Phase 1 and 2, the workshops can be set every morning, but starting on
+    phase 3 it could happen every two days or more (but never more than a week to keep the focus and efficiency in the
+    process).&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The team should verify to have access to a dedicated meeting room with white boards, pencils, paper; post it, and
+    potentially a UML tool to quickly develop diagrams..
+&lt;/p></mainDescription>
+  <sections xmi:id="_sruWyQjqEdyj5bYZ0eCR5g" name="Select a decision point" guid="_sruWyQjqEdyj5bYZ0eCR5g"/>
+  <sections xmi:id="_sruWxwjqEdyj5bYZ0eCR5g" name="Set the agenda" guid="_sruWxwjqEdyj5bYZ0eCR5g"/>
+  <sections xmi:id="_sruWxgjqEdyj5bYZ0eCR5g" name="Name a moderator" guid="_sruWxgjqEdyj5bYZ0eCR5g">
+    <sectionDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>&#xD;
+    To organize the session the project team may need to name a moderator responsible of managing the meeting and keeping&#xD;
+    the team on track. His other roles are:&#xD;
+&lt;/p>&#xD;
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l1 level1 lfo2; tab-stops: list 36.0pt&quot;>&#xD;
+        Establish professional and objective tone to the meeting.&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l1 level1 lfo2; tab-stops: list 36.0pt&quot;>&#xD;
+        Start and stop the meeting on time.&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l1 level1 lfo2; tab-stops: list 36.0pt&quot;>&#xD;
+        Establish and enforce the &quot;rules&quot; for the meeting.&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l1 level1 lfo2; tab-stops: list 36.0pt&quot;>&#xD;
+        Introduce the goals and agenda for the meeting.&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l1 level1 lfo2; tab-stops: list 36.0pt&quot;>&#xD;
+        Facilitate a process of decision and consensus making, but avoid participating in the content.&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l1 level1 lfo2; tab-stops: list 36.0pt&quot;>&#xD;
+        Make certain that all stakeholders participate and have their input heard.&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l1 level1 lfo2; tab-stops: list 36.0pt&quot;>&#xD;
+        Control disruptive or unproductive behavior.&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l1 level1 lfo2; tab-stops: list 36.0pt&quot;>&#xD;
+        Gather &quot;Open Points&quot; and follow up actions between sessions (use a simple Excel sheet for instance or &quot;Meeting&#xD;
+        Minutes&quot; template document.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_sruWyAjqEdyj5bYZ0eCR5g" name="Define the rules of execution of each workshop session" guid="_sruWyAjqEdyj5bYZ0eCR5g"/>
+  <sections xmi:id="_sruWxQjqEdyj5bYZ0eCR5g" name="Send invite" guid="_sruWxQjqEdyj5bYZ0eCR5g"/>
+</org.eclipse.epf.uma:TaskDescription>

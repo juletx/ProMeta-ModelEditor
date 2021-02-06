@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Rl8kaRW9Bxqdvq32kVCi7w" name=",_LGRBkEvFEdunZcj9T5hrMQ" guid="-Rl8kaRW9Bxqdvq32kVCi7w" changeDate="2008-07-08T03:20:50.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    First major project milestone, which occurs at the end of the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/termdefinitions/inception_B9991FC2.html&quot;&#xD;
+    guid=&quot;_525A8EvDEdunZcj9T5hrMQ&quot;>Inception&lt;/a>&amp;nbsp;phase.&amp;nbsp;At this point, compare the cost to the benefits of the&#xD;
+    project, and decide whether to proceed with the project or to cancel it.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

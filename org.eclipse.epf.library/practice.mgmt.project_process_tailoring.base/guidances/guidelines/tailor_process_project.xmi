@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-nvLaImb1prGvwbEmRDb5yw" name="tailor_process_project,_NOBsvSZLEd-QuZFPf_YdqQ" guid="-nvLaImb1prGvwbEmRDb5yw" changeDate="2010-07-21T02:01:15.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    &lt;strong>1. Defining scope&lt;/strong>&lt;br />
+    &lt;br />
+    Ideally you should be able to match your project to an existing process and tool configuration that has already been
+    applied successfully on similar projects.&lt;br />
+    Thus the scope of your tailoring will be none or relatively small.&lt;br />
+    &lt;br />
+    Process tailoring is different from process instantiation. Process tailoring is about roles and procedures, whereas
+    process instantiation is about specific individuals and specific work products. Process instantiation is covered by
+    project management practices, and typically includes:&lt;br />
+    a. Identifying which individuals perform which roles (may include identifying backup individuals)&lt;br />
+    b. Identifying which individuals do which approvals&lt;br />
+    c. Where each work product is stored.&lt;br />
+    d. Creating project plans with work items that reflect the process.&lt;br />
+    &lt;br />
+    The following are some typical examples of project-specific process tailoring:&lt;br />
+    a. Adding/removing work products and tasks&lt;br />
+    b. Changing milestones, and what work products will be made available at each milestone, and their state of
+    completion&lt;br />
+    c. Tool and/or format used for each work product&lt;br />
+    d. Responsibilities for review and approval (a RACI table is often useful)&lt;br />
+    e. Detailed procedures for reporting progress, performing measurements, managing requirements, managing change
+    requests, etc.&lt;br />
+    &lt;br />
+    Sometimes projects will combine process tailoring and process instantiation. For example, you can create a RACI table
+    that includes both individuals and roles, and create a table that says not only which work products will be produced,
+    but also where the specific instances will be stored.&lt;br />
+    This blending is fine, the only drawback is that such information has to be updated for each project, and can't be used
+    unchanged.&lt;br />
+    &lt;br />
+    &lt;strong>2. Deciding how the process will be documented&lt;/strong>&lt;br />
+    &lt;br />
+    The rest of this guideline assumes you are starting with a published process documented using Rational Method
+    Composer.&lt;br />
+    There are several options for tailoring such a process (listed here from simple to more specialized)&lt;br />
+    &lt;br />
+    1. Automated&lt;br />
+    Tools can automate aspects of the process so that they do not have to be separately documented.&lt;br />
+    For example, the process template in Rational Team Concert can be tailored to require approvals before a work product
+    is closed. Rational Requisite Pro can require specific attributes to be stored for specific requirements types. And so
+    on.&lt;br />
+    &lt;br />
+    2. Document-based&lt;br />
+    You can create one or more documents that describe how your project process varies from the published process.&lt;br />
+    The Development Case is such a document. Examples of information that may be captured in a development case are:&lt;br />
+    - differences in how roles are applied&lt;br />
+    - which artifacts are added or dropped&lt;br />
+    - what level of review formality to apply at each milestone.&lt;br />
+    Other typical process documents include:&lt;br />
+    &lt;br />
+    •Manual Styleguide&lt;br />
+    •Project-specific Templates&lt;br />
+    •Measurement Plan&lt;br />
+    •Problem Resolution Plan&lt;br />
+    •Product Acceptance Plan&lt;br />
+    •Quality Assurance Plan&lt;br />
+    •Risk Management Plan&lt;br />
+    •Requirements Management Plan&lt;br />
+    •Configuration Management Plan&lt;br />
+    &lt;br />
+    Word templates are provided for these documents. Note that these documents can also be implemented as a website or a
+    Wiki.&lt;br />
+    &lt;br />
+    3. Wiki-based&lt;br />
+    You can post a process on an EPF Wiki server. You can then add comments and make changes specific to your project. You
+    can also attach documents created using the &quot;document-based&quot; approach.&lt;br />
+    &lt;br />
+    4. RMC Configuration&lt;br />
+    You can use Rational Method Composer to change the configuration and republish it.&lt;br />
+    You can select and deselect individual practices, or use the tailoring perspective to add/remove individual
+    elements.&lt;br />
+    &lt;br />
+    5. Method Authoring&lt;br />
+    If you do need to do substantial tailoring, then you can author your own practices and plug-ins using a method
+    authoring tool, such as EPF Composer or Rational(R) Method Composer.&lt;br />
+    Guidelines for this are outside the scope of this practice (this is considered to generally be an enterprise-scope
+    concern).
+&lt;/p>
+&lt;p>
+    &lt;strong>3. Developing Project-specific Content&lt;/strong>
+&lt;/p>
+&lt;p>
+    Ideally there is relatively little process content unique to the project.&amp;nbsp; However, project specific information
+    needs to be captured, and your team may develop their own best practices over time.&amp;nbsp; Depending on the scope, and
+    how you've decided to capture process content, this may be a minor step performed by one person, or may require several
+    tasks assigned to several individuals.&lt;br />
+    &lt;br />
+    &lt;strong>4. Deciding which tools will be used to create and maintain work products&lt;br />
+    &lt;/strong>Ideally you should be able to match your project to a tool configuration that has already been applied
+    successfully on similar projects, and just make minor tweaks specific to your project.&lt;br />
+    &lt;br />
+    If you do need to make tool-fit choices, please refer to Practice: Organizational Process Definition, which has
+    guidance on how to select, acquire,&amp;nbsp;and configure tools for specific process needs.&lt;br />
+    &lt;br />
+    &lt;br />
+    &lt;strong>5. Deploying the process&lt;br />
+    &lt;/strong>If only minor changes to the process have been made, then a simple briefing with affected stakeholders is
+    generally sufficient.&lt;br />
+    However, if significant changes have been made to the process, or if the team is unfamiliar with the process being
+    adopted, then we recommend having a workshop to familiarize the team.&lt;br />
+    Having mentors on the team, or accessible to the team, that are familiar with new practices can also increase the
+    success of adopting the practices.&lt;br />
+    If skills are an issue, then additional training may be required and should be scheduled.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

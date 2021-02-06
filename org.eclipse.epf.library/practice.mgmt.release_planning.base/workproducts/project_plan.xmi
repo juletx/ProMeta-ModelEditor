@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_IbVp8KX4EdmvhNXG0Oc2uA" name="project_plan,_0a6vcMlgEdmt3adZL5Dmdw" guid="_IbVp8KX4EdmvhNXG0Oc2uA" changeDate="2009-11-23T06:59:45.000-0800" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    This artifact describes how the project is organized, and identifies what practices will be followed. Additionally, it&#xD;
+    defines the parameters for tracking project progress, and specifies the high-level objectives of the iterations and&#xD;
+    their milestones.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The project plan allows stakeholders and other team members to understand the big picture and, roughly, when to expect&#xD;
+    a certain level of functionality be available.&amp;nbsp;Update the plan&amp;nbsp;as often as necessary, usually at the end of&#xD;
+    each iteration, in order to reflect changing priorities and needs, as well as record the lessons learned from the&#xD;
+    project.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>Create and update the project plan in planning sessions that involve the whole team and appropriate project stakeholders in&#xD;
+order to make sure that everybody agrees with it.</keyConsiderations>
+  <purpose>&lt;p>&#xD;
+    The purpose of this artifact is&amp;nbsp;to provide a central document where any project team member can find the&#xD;
+    information on how the project will be conducted.&amp;nbsp;&#xD;
+&lt;/p></purpose>
+  <impactOfNotHaving>Without this artifact, there can be a lack of clear boundaries of the project scope that can lead to: &#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Risks of gaps or overlap between the roles acting on the project&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Poorly defined or inadequate plan for the project&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Subsequent difficulties in controlling the project&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></impactOfNotHaving>
+  <reasonsForNotNeeding>This artifact is typically required in some form on all but the smallest projects.&amp;nbsp; However, projects taking a purely&#xD;
+evolutionary or maintenance approach to development may choose to omit this artifact.</reasonsForNotNeeding>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-hrDndmFd0zexB0HNYX3gww" name="project_burndown,_ePrt8Dj3EduxovfWMDsntw" guid="-hrDndmFd0zexB0HNYX3gww" changeDate="2008-06-17T10:56:57.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    The project burndown report is&amp;nbsp;the primary tool for understanding the status of a project. It shows the trend for&#xD;
+    how much work is left to do within that project. This is done by adding the estimated effort left for each of the work&#xD;
+    items to be addressed within the project, and showing how the estimated effort is changing from iteration to iteration.&#xD;
+    The project burndown report should be updated at the end of each iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The project burndown rate is usually communicated in graphical form.&amp;nbsp;The project burndown chart consists of two&#xD;
+    perspectives, with the horizontal axis showing the iterations and the vertical axis indicating the remaining points&#xD;
+    from the work items list. Additionally, the average burndown rate from previous iterations is calculated, and a trend&#xD;
+    for the remainder of the project forecasted from that historical data.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Project burndown management is an enabling technique that allows direct linkage of iteration goals to work items. The&#xD;
+    project manager will use the project burndown information for communicating progress and trends to senior management.&#xD;
+&lt;/p>See &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../../practice.mgmt.release_planning.base/guidances/examples/project_burndown_report_example_847643C1.html&quot;&#xD;
+guid=&quot;_Yiq2EDcGEdyTZ9G7ByfQTw&quot;>Project Burndown Report&lt;/a>&amp;nbsp;for an example of project burndown report.&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

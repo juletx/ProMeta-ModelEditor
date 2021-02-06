@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-QB0WnHnpcK1VJbdJJ5QJ5A" name="new_concept,_kgtcoNc8Edyd7OybSySFxg" guid="-QB0WnHnpcK1VJbdJJ5QJ5A" changeDate="2010-08-24T05:16:41.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Architecture can be represented from a variety of viewpoints, all of which can be combined to create a holistic view of&#xD;
+    the system. Each architectural view addresses some specific set of concerns, specific to stakeholders in the&#xD;
+    development process: users, designers, managers, system engineers, maintainers, and so on.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The views capture the major structural design decisions by showing how the software architecture is decomposed into&#xD;
+    components, and how components are connected by connectors to produce useful forms &lt;a class=&quot;elementlinkwithusertext&quot;&#xD;
+    href=&quot;./../../../core.tech.common.base/guidances/supportingmaterials/references.tech_6CCF393.html#PW92&quot;&#xD;
+    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;>[PW92]&lt;/a>. These design choices must be tied to the requirements -- functional and&#xD;
+    supplementary -- and other constraints. But these choices in turn put further constraints on the requirements, and on&#xD;
+    future design decisions at a lower level.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In essence, architectural views are abstractions, or simplifications, of the entire design, in which important&#xD;
+    characteristics are made more visible by leaving details aside. These characteristics are important when reasoning&#xD;
+    about:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        System evolution-going to the next development cycle.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Reuse of the architecture, or parts of it, in the context of a product line.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assessment of supplementary qualities, such as performance, availability, portability, and safety.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assignment of development work to teams or subcontractors.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Decisions about including off-the-shelf components.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Insertion in a wider system.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    To choose the appropriate set of views,&amp;nbsp;identify the stakeholders who depend on software architecture&#xD;
+    documentation and the information that they need. For an example of a set of views that have been used to represent&#xD;
+    architecture, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/examples/four_plus_one_view_of_arch_9A93ACE5.html&quot;&#xD;
+    guid=&quot;_4bC4cNs_EdyEW4klSH3vRA&quot;>Example: 4+1 Views of Software Architecture&lt;/a>.&amp;nbsp; A more comprehensive set of views&#xD;
+    can be found in the &lt;a href=&quot;http://www.ibm.com/developerworks/rational/library/08/0108_cooks-cripps-spaas/&quot;&#xD;
+    target=&quot;_blank&quot;>IBM Views and Viewpoints Framework for IT systems&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

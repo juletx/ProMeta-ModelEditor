@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-KfXoeGTRnQImE1byTBtryQ" name="step,_BqZloB_eEdqAHrsQ7-jSbw" guid="-KfXoeGTRnQImE1byTBtryQ" changeDate="2007-12-05T10:23:34.000-0800" version="7.2.0">
+  <mainDescription>Sub-section of a &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/task_6C1FF051.html&quot;&#xD;
+guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;>task&lt;/a>&amp;nbsp;used to organize the work to be performed to achieve the overall goal of the&#xD;
+task. Not all Steps are necessarily performed each time a task is executed in a process.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

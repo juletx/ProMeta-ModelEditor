@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_zHZW8qYSEdmvhNXG0Oc2uA" name="use_case,_0VGbUMlgEdmt3adZL5Dmdw" guid="_zHZW8qYSEdmvhNXG0Oc2uA" changeDate="2008-09-03T05:31:44.000-0700" version="1.0.0">
+  <purpose>&lt;p>&#xD;
+    Use cases are used for the following purposes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To reach a common understanding of system behavior&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To design elements that support the required behavior&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To identify test cases&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To plan and assess work&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To write user documentation.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  <impactOfNotHaving>Without this artifact, it might be unclear which functionality the solution needs to support.</impactOfNotHaving>
+  <reasonsForNotNeeding>You might not need to use a use case if your project uses alternative requirements practices (for example, &quot;The system&#xD;
+shall...&quot; statements).&lt;br /></reasonsForNotNeeding>
+  <briefOutline>&lt;p>&#xD;
+    A use case typically includes the following information:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Name:&lt;/strong> The name of the use case&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Brief Description:&lt;/strong> A brief description of the role and purpose of the use case&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Flow of Events:&lt;/strong> A textual description of what the system does in regard to a use case scenario&#xD;
+        (not how specific problems are solved by the system). Write the description so that the customer can understand it.&#xD;
+        The flows can include a basic flow, alternative flows, and subflows.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Key scenarios:&lt;/strong> A textual description of the most important or frequently discussed scenarios&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Special Requirements:&lt;/strong> A textual description that collects all of the requirements of the use case&#xD;
+        that are not considered in the use-case model, but that must be taken care of during design or implementation (for&#xD;
+        example, non-functional requirements)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Preconditions:&lt;/strong> A textual description that defines a constraint on the system when the use case&#xD;
+        starts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Post-conditions:&lt;/strong> A textual description that defines a constraint on the system when the use case&#xD;
+        ends&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Extension points:&lt;/strong> A list of locations within the flow of events of the use case at which&#xD;
+        additional behavior can be inserted by using the extend-relationship&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></briefOutline>
+  <representationOptions>&lt;p>&#xD;
+    You can document the use case as a use-case specification document or you can incorporate the use case in a use-case&#xD;
+    model. You can also use a requirements management tool to capture use cases and parts of use cases.&#xD;
+&lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

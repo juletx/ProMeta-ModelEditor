@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-DAk3ahn7Yqi4DY4VKX5b7A" name="new_supporting_material,_vLvAUGjFEd2PJ-nlV-86WA" guid="-DAk3ahn7Yqi4DY4VKX5b7A" changeDate="2008-08-12T04:24:47.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The Test Driven Development practice describes how to use TDD to create a high quality version of the implementation.&#xD;
+    It should be used in conjunction with other practices or process elements to deliver high quality software. This&#xD;
+    example illustrates one possible way of utilizing the TDD practice in conjunction with other practices.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This diagram describes an evolutionary approach to developing the software by considering just a small part of the&#xD;
+    system. A brief amount of time is spent considering the possible design, the code is implemented via the TDD practice,&#xD;
+    and&amp;nbsp;the design is reviewed and refactored until high quality software is achieved. The new part of the system is&#xD;
+    then integrated with the rest of the system, and another small part of the system is selected for development.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;587&quot; alt=&quot;&quot; src=&quot;resources/tdd_in_context.jpg&quot; width=&quot;598&quot; />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

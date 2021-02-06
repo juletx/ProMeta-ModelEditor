@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-kIbRHBcvprHrw1ysjSHbjg" name="ruleset,_vjWPcDzEEdyA6a_I80swHw" guid="-kIbRHBcvprHrw1ysjSHbjg" changeDate="2007-11-29T00:47:21.000-0800" version="7.5.1">
+  <mainDescription>&lt;a id=&quot;XE_rule_set__work_product&quot; name=&quot;XE_rule_set__work_product&quot;>&lt;/a> 
+&lt;p>
+    For more detail see &lt;a class=&quot;elementLink&quot; href=&quot;./../../abrd/guidances/termdefinitions/rule_set_4D4C8DB1.html&quot;
+    guid=&quot;_DdvcwBCQEdyJtJ3PbfdVDw&quot;>Rule Set&lt;/a>&amp;nbsp;and &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../abrd/guidances/termdefinitions/rule_engine_A66B71B3.html&quot; guid=&quot;_QQcSoEXXEdy14e5PT9v3HQ&quot;>rule engine&lt;/a>
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

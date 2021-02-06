@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-SQyJsrOEI73uLZzjRVmSBA" name="outcome,_LNAAcB_iEdqAHrsQ7-jSbw" guid="-SQyJsrOEI73uLZzjRVmSBA" changeDate="2007-12-05T10:13:31.000-0800" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;!--StartFragment-->Specialized type of &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/work_product_826E4C22.html&quot;&#xD;
+    guid=&quot;_H4JXwB_SEdq6CKKKq4D7YA&quot;>work product&lt;/a>s used to describe intangible items such as the completion of some set&#xD;
+    of activities, a result or state. A key differentiator for outcomes against artifacts is that outcomes are not&#xD;
+    candidates for harvesting as reusable assets. Outcomes can not have associated templates or examples and are not&#xD;
+    possible to reuse as assets on other projects.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

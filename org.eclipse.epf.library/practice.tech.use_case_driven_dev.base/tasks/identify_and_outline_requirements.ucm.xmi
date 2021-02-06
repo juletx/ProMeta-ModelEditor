@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Yt8TXGkE1rwydXR34apsrg" name="identify_and_outline_requirements.ucm,_txpV0AFmEduDPKiaP0pu-Q" guid="-Yt8TXGkE1rwydXR34apsrg" version="1.0.0">
+  <sections xmi:id="_N66nkApAEdyT57ElgMr6TA" name="Identify and capture Use Cases and Actors in a Use-Case Model" guid="_N66nkApAEdyT57ElgMr6TA">
+    <sectionDescription>&lt;p>&#xD;
+    Find and define the line that divides the solution and the real world that surrounds the solution. Collaborate with the&#xD;
+    project manager&amp;nbsp;and architect, because decisions concerning system boundaries will have a major impact on cost,&#xD;
+    schedule and system architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Collaborate&amp;nbsp;with stakeholders to identify interfaces, as well as input and output information exchanged with&#xD;
+    users, machines, or systems. Identify and capture&amp;nbsp;the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/actor_411726C.html&quot;&#xD;
+    guid=&quot;_zGqO0MDpEduTGJ8i4u8TMw&quot;>Actor&lt;/a>s and &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/workproducts/use_case_22BE66E2.html&quot; guid=&quot;_0VGbUMlgEdmt3adZL5Dmdw&quot;>Use&#xD;
+    Case&lt;/a>s in the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/workproducts/use_case_model_85965D1B.html&quot;&#xD;
+    guid=&quot;_W2SgEDR5EdutE_HNDTJk5Q&quot;>Use-Case Model&lt;/a>. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.use_case_driven_dev.base/guidances/guidelines/identify_and_outline_actors_and_ucs_BB5516A9.html&quot;&#xD;
+     guid=&quot;_eyL0wCu-EdqSxKAVa9kmvA&quot;>Guideline: Identify and Outline Actors and Use Cases&lt;/a>&amp;nbsp;for more information.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

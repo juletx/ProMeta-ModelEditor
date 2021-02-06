@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-v40uyF5CQwrOj5aFQeHyGw" name="new_artifact,_VzXG0GDtEdyKlZvvtnMrMg" guid="-v40uyF5CQwrOj5aFQeHyGw" changeDate="2007-09-11T10:03:34.000-0700" version="7.5.1">
+  <mainDescription>&lt;a id=&quot;XE_rule_governance__actors&quot; name=&quot;XE_rule_governance__actors&quot;>&lt;/a> 
+&lt;p>
+    The easiest way is to lists the different actors involved in the governance processes within a table format.
+&lt;/p>&lt;br />
+&lt;div align=&quot;center&quot;>
+    &lt;table class=&quot;ISISTable&quot;
+    style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-table-layout-alt: fixed; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver&quot;
+     cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;>
+        &lt;tbody>
+            &lt;tr style=&quot;mso-yfti-irow: -1; mso-yfti-firstrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: gray 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;90&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpFirst&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0&quot;>&lt;font size=&quot;3&quot;>&lt;font
+                        face=&quot;Times New Roman&quot;>Role&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;83&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0&quot;>&lt;font size=&quot;3&quot;>&lt;font
+                        face=&quot;Times New Roman&quot;>Unit&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;307&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0&quot;>&lt;font size=&quot;3&quot;>&lt;font
+                        face=&quot;Times New Roman&quot;>Role-Responsibilities&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;204&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0&quot;>&lt;font size=&quot;3&quot;>&lt;font
+                        face=&quot;Times New Roman&quot;>Skill&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 0; mso-yfti-lastrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 67.5pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;90&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 62.2pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;83&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>Business unit&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 230.3pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;307&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot;
+                    style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -18pt; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list 18.0pt&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 153pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;204&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot;
+                    style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -18pt; mso-add-space: auto; mso-list: l0 level1 lfo1; tab-stops: list 18.0pt&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div></mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-58kSfjmClnawXPOPb1aUnQ" name="rup_tool_specialist,{67BD4971-9474-470E-945B-6F8A380FA8FC}" guid="-58kSfjmClnawXPOPb1aUnQ" changeDate="2010-10-28T10:50:14.911-0700" version="7.1.0">
+  <skills>&lt;a id=&quot;Skills&quot; name=&quot;Skills&quot;>&lt;/a> &#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    An individual playing this role needs to have a broad set of skills. This includes an understanding of the underlying&#xD;
+    processes used by the project, and for this training might be required prior to project startup. General systematic&#xD;
+    analysis skills are beneficial when comparing and selecting tools for the project. Knowledge of the development&#xD;
+    platform(s) is required, on networking issues in particular. A person acting as this role also needs good&#xD;
+    communication skills and a 'service-minded' attitude, since she or he is likely to be a support contact point for the&#xD;
+    project members, on installation and other tool troubleshooting issues.&#xD;
+&lt;/p></skills>
+  <assignmentApproaches>&lt;a id=&quot;RoleAssignment&quot; name=&quot;RoleAssignment&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    This role can be assigned in the following ways:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Assign one or more staff members to perform both this role and developer roles. This is a commonly&#xD;
+        adopted approach, especially in small-to-mid-sized teams, and capitalizes on the common development skills&#xD;
+        that developer role shares with this role.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assign one staff member to perform this role only. This is a commonly adopted approach and is particularly suitable&#xD;
+        for large teams or smaller teams where effective tool support and process automation is a key aspect of the&#xD;
+        projects development plan.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

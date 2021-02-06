@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-vrO0eV88bBwlh-6MOJ5OOA" name=",_IX1TECfvEduKAbJSXjO93A" guid="-vrO0eV88bBwlh-6MOJ5OOA" changeDate="2007-06-12T04:02:06.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_discovery__workshop_invite_template&quot; name=&quot;XE_rule_discovery__workshop_invite_template&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>Goal:&lt;/b> These series of workshop are very important for a BRMS application,
+    it will help to:
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-pagination: none; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span> To separate a
+    rule as a manageable artifact
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-pagination: none; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span> To trace
+    rules from the origin to deployment
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-pagination: none; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span> To link rules
+    to business context
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-pagination: none; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span> To develop
+    the rule description using business term and natural business language.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-pagination: none; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span> To involve
+    business user in the future ownership of the rules
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-pagination: none; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span> To prepare
+    the&amp;nbsp;Rule implementation
+&lt;/p></mainDescription>
+  <attachments>resources/abrd_tmpl_rulediscoveryinvite.dot</attachments>
+</org.eclipse.epf.uma:GuidanceDescription>

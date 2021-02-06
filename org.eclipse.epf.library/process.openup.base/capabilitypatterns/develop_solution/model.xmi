@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__gZOsLekEd-D7YZN9NgldQ" guid="__gZOsLekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__gZOsbekEd-D7YZN9NgldQ" id="-ux7ytJ8wsCQm5rzKYxNA7Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_m1vOkFmREeCcpdiAcH0w-w" id="-vRKhx96vINZLGd2eqNzVyg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_m1vOkVmREeCcpdiAcH0w-w" id="-UAvglC1beVBhR4tcCsrtIA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_m1vOklmREeCcpdiAcH0w-w" id="-2uPX8tYcrG4NCorQpgu0eA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_m1vOk1mREeCcpdiAcH0w-w" id="-fi-xVZ6lCsQU31y75Ax4OA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_m1vOlFmREeCcpdiAcH0w-w" id="-383xzY4iZ_mRmebRFJ71-Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_m1vOlVmREeCcpdiAcH0w-w" id="-9Jb-Nex6ZZzYbdiQZ5yH9Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_m14_kFmREeCcpdiAcH0w-w" id="-aPWmfmaOCZsb1a9aCKpRSw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_m14_kVmREeCcpdiAcH0w-w" id="-nGFCabBnNthDU5t9ws5fbA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_m14_klmREeCcpdiAcH0w-w" id="-FB2KP2UFI653oVtHVkndvA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_m14_k1mREeCcpdiAcH0w-w" id="-9NwuPPfPDuUrGL-0O-B1Uw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_RXGooNOFEdyqlogshP8l4g" name="develop_solution" guid="_RXGooNOFEdyqlogshP8l4g">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_frOcQNOKEdyqlogshP8l4g" name="design_solution" guid="_frOcQNOKEdyqlogshP8l4g" presentationName="Design the Solution" briefDescription="Identify the elements and devise the interactions, behavior, relations, and data necessary to realize some functionality." superActivities="_RXGoodOFEdyqlogshP8l4g" mandatoryInput="_frh-QNOKEdyqlogshP8l4g _frh-QdOKEdyqlogshP8l4g" optionalInput="_frh-QtOKEdyqlogshP8l4g" output="_frh-QtOKEdyqlogshP8l4g">
+      <presentation xmi:id="-vRKhx96vINZLGd2eqNzVyg" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-vRKhx96vINZLGd2eqNzVyg"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
+      <concepts href="uma://_Z2cK0LPPEduocbW-TPTq7A#_bFjlAPTYEduDKIuqTXQ8SA"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_w2ACwA4LEduibvKwrGxWxA"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_0LcUkA4LEduibvKwrGxWxA"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_0YJvUMlgEdmt3adZL5Dmdw"/>
+      <concepts href="uma://_Z2cK0LPPEduocbW-TPTq7A#_T9FbYFRFEd2o7OqLaYh8nA"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_uF-QYEAhEdq_UJTvM1DM2Q"/>
+      <guidelines href="uma://_Z2cK0LPPEduocbW-TPTq7A#__MnggPTdEduDKIuqTXQ8SA"/>
+      <guidelines href="uma://_Z2cK0LPPEduocbW-TPTq7A#_C4U9QPTeEduDKIuqTXQ8SA"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_vO2uoO0OEduUpsu85bVhiQ"/>
+      <Task href="uma://_Z2cK0LPPEduocbW-TPTq7A#_0fshwMlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="uma://_NrC20qeqEdmKDbQuyzCoqQ#_4Z7WYKuKEdmhFZtkg1nakg"/>
+      <selectedSteps href="uma://_NrC20qeqEdmKDbQuyzCoqQ#_Ci7aYFixEdusJoWkvSRO9Q"/>
+      <selectedSteps href="uma://_NrC20qeqEdmKDbQuyzCoqQ#_--6tYKuKEdmhFZtkg1nakg"/>
+      <selectedSteps href="uma://_NrC20qeqEdmKDbQuyzCoqQ#_A_LU8KuLEdmhFZtkg1nakg"/>
+      <selectedSteps href="uma://_NrC20qeqEdmKDbQuyzCoqQ#_ENwJwKuLEdmhFZtkg1nakg"/>
+      <selectedSteps href="uma://_NrC20qeqEdmKDbQuyzCoqQ#_KNZYAKuLEdmhFZtkg1nakg"/>
+      <selectedSteps href="uma://_NrC20qeqEdmKDbQuyzCoqQ#_OGYbwKuLEdmhFZtkg1nakg"/>
+      <selectedSteps href="uma://_NrC20qeqEdmKDbQuyzCoqQ#_mUVt8BfnEduD353bkQ4frw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_frh-QNOKEdyqlogshP8l4g" name="technical_architecture_slot" guid="_frh-QNOKEdyqlogshP8l4g" presentationName="[Technical Architecture]" briefDescription="This slot serves as an abstraction of high level artifacts that represent the documentation of the architecture." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_8OD-cLPTEduocbW-TPTq7A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_frh-QdOKEdyqlogshP8l4g" name="technical_specification_slot" guid="_frh-QdOKEdyqlogshP8l4g" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_frh-QtOKEdyqlogshP8l4g" name="design" guid="_frh-QtOKEdyqlogshP8l4g" presentationName="Design" briefDescription="This artifact describes the realization of required system functionality and serves as an abstraction of the source code." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <presentation xmi:id="-UAvglC1beVBhR4tcCsrtIA" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-UAvglC1beVBhR4tcCsrtIA"/>
+      <checklists href="uma://_Z2cK0LPPEduocbW-TPTq7A#_0XSzsMlgEdmt3adZL5Dmdw"/>
+      <concepts href="uma://_Z2cK0LPPEduocbW-TPTq7A#_bFjlAPTYEduDKIuqTXQ8SA"/>
+      <templates href="uma://_Z2cK0LPPEduocbW-TPTq7A#_EOPcMAMUEdylNddAObilIA"/>
+      <WorkProduct href="uma://_Z2cK0LPPEduocbW-TPTq7A#_0WuL8slgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_gXo2UNOKEdyqlogshP8l4g" name="implement_developer_tests" guid="_gXo2UNOKEdyqlogshP8l4g" presentationName="Implement Developer Tests" briefDescription="Implement one or more tests that enable the validation of the individual implementation elements through execution." superActivities="_RXGoodOFEdyqlogshP8l4g" mandatoryInput="_gX7xQNOKEdyqlogshP8l4g" optionalInput="_gX7xQdOKEdyqlogshP8l4g" output="_gX7xQtOKEdyqlogshP8l4g">
+      <presentation xmi:id="-2uPX8tYcrG4NCorQpgu0eA" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-2uPX8tYcrG4NCorQpgu0eA"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
+      <Task href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_znlIcJR9EdyVKbgqUOtqQA"/>
+      <selectedSteps href="uma://-UW-yTFk3AppqcGGU-Px63A#_C_j_EJR-EdyVKbgqUOtqQA"/>
+      <selectedSteps href="uma://-UW-yTFk3AppqcGGU-Px63A#_Es64wJR-EdyVKbgqUOtqQA"/>
+      <selectedSteps href="uma://-UW-yTFk3AppqcGGU-Px63A#_Fm4moJR-EdyVKbgqUOtqQA"/>
+      <selectedSteps href="uma://-UW-yTFk3AppqcGGU-Px63A#_GZaPwJR-EdyVKbgqUOtqQA"/>
+      <selectedSteps href="uma://-UW-yTFk3AppqcGGU-Px63A#_IMxq0JR-EdyVKbgqUOtqQA"/>
+      <selectedSteps href="uma://-UW-yTFk3AppqcGGU-Px63A#_JAiqEJR-EdyVKbgqUOtqQA"/>
+      <selectedSteps href="uma://-UW-yTFk3AppqcGGU-Px63A#_KkDrQJR-EdyVKbgqUOtqQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gX7xQNOKEdyqlogshP8l4g" name="technical_implementation_slot" guid="_gX7xQNOKEdyqlogshP8l4g" presentationName="[Technical Implementation]" briefDescription="This slot holds the artifacts that represent a technical implementation.  This can include source code, executable code, data, and software/hardware configurations." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gX7xQdOKEdyqlogshP8l4g" name="technical_design_slot" guid="_gX7xQdOKEdyqlogshP8l4g" presentationName="[Technical Design]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe the realization of required system functionality, and serves as an abstraction of the solution." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_IcQOUEqdEdyi3_jfs__bIQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gX7xQtOKEdyqlogshP8l4g" name="developer_test" guid="_gX7xQtOKEdyqlogshP8l4g" presentationName="Developer Test" briefDescription="The Developer Test validates a specific aspect of an implementation element." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <presentation xmi:id="-fi-xVZ6lCsQU31y75Ax4OA" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-fi-xVZ6lCsQU31y75Ax4OA"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_dxaPUF-BEd2T0JdVjRyaQA"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_kh9FcJ02EdyQ3oTO93enUw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hVe-oNOKEdyqlogshP8l4g" name="implement_solution" guid="_hVe-oNOKEdyqlogshP8l4g" presentationName="Implement Solution" briefDescription="Implement source code to provide new functionality or fix defects." superActivities="_RXGoodOFEdyqlogshP8l4g" mandatoryInput="_gX7xQdOKEdyqlogshP8l4g _frh-QdOKEdyqlogshP8l4g" optionalInput="_gX7xQNOKEdyqlogshP8l4g _gX7xQtOKEdyqlogshP8l4g" output="_dC4w4JojEd2XAqcHTC2Siw">
+      <presentation xmi:id="-383xzY4iZ_mRmebRFJ71-Q" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-383xzY4iZ_mRmebRFJ71-Q"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_Poc7IPDzEdqYgerqi84oCA"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_mlKb8JyJEdy9brKHb521mQ"/>
+      <Task href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_Ht-z8JfJEdyZkIR-s-Y8wQ"/>
+      <selectedSteps href="uma://-UaDGd7K2rQIFMwCrDuqQKQ#_RiBg4JfJEdyZkIR-s-Y8wQ"/>
+      <selectedSteps href="uma://-UaDGd7K2rQIFMwCrDuqQKQ#_SW1pAJfJEdyZkIR-s-Y8wQ"/>
+      <selectedSteps href="uma://-UaDGd7K2rQIFMwCrDuqQKQ#_IVaTAJ-uEdyHNcWzRYqQMg"/>
+      <selectedSteps href="uma://-UaDGd7K2rQIFMwCrDuqQKQ#_TadCIJfJEdyZkIR-s-Y8wQ"/>
+      <selectedSteps href="uma://-UaDGd7K2rQIFMwCrDuqQKQ#_WpB28JfJEdyZkIR-s-Y8wQ"/>
+      <selectedSteps href="uma://-UaDGd7K2rQIFMwCrDuqQKQ#_XjAL4JfJEdyZkIR-s-Y8wQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_aJ1X4No7EdyzZqGyZ7hwdw" name="build" guid="_aJ1X4No7EdyzZqGyZ7hwdw" presentationName="Build" briefDescription="An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <presentation xmi:id="-9Jb-Nex6ZZzYbdiQZ5yH9Q" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-9Jb-Nex6ZZzYbdiQZ5yH9Q"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0YuXEMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_iRZNQNOKEdyqlogshP8l4g" name="run_developer_tests" guid="_iRZNQNOKEdyqlogshP8l4g" presentationName="Run Developer Tests" briefDescription="Run tests against the individual implementation elements to verify that their internal structures work as specified." superActivities="_RXGoodOFEdyqlogshP8l4g" mandatoryInput="_gX7xQNOKEdyqlogshP8l4g _gX7xQtOKEdyqlogshP8l4g" output="_dC4w4ZojEd2XAqcHTC2Siw">
+      <presentation xmi:id="-aPWmfmaOCZsb1a9aCKpRSw" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-aPWmfmaOCZsb1a9aCKpRSw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
+      <Task href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_R7atwJfIEdyZkIR-s-Y8wQ"/>
+      <selectedSteps href="uma://-H6ob8eA7gz_mOsk8ulSFMQ#_gjLBUJfIEdyZkIR-s-Y8wQ"/>
+      <selectedSteps href="uma://-H6ob8eA7gz_mOsk8ulSFMQ#_haRocJfIEdyZkIR-s-Y8wQ"/>
+      <selectedSteps href="uma://-H6ob8eA7gz_mOsk8ulSFMQ#_itj1QJfIEdyZkIR-s-Y8wQ"/>
+      <selectedSteps href="uma://-H6ob8eA7gz_mOsk8ulSFMQ#_C0_fYFQAEd2ECfw27om6fw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Dlo8wNo8EdyzZqGyZ7hwdw" name="integrate_and_create_build" guid="_Dlo8wNo8EdyzZqGyZ7hwdw" presentationName="Integrate and Create Build" briefDescription="This task describes how to integrate all changes made by developers into the code base and perform the minimal testing to validate the build." superActivities="_RXGoodOFEdyqlogshP8l4g" mandatoryInput="_Dlo8wdo8EdyzZqGyZ7hwdw _gX7xQNOKEdyqlogshP8l4g" output="_aJ1X4No7EdyzZqGyZ7hwdw">
+      <presentation xmi:id="-nGFCabBnNthDU5t9ws5fbA" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-nGFCabBnNthDU5t9ws5fbA"/>
+      <concepts href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_1QU9MAIoEdyLh7vsrHZ4YA"/>
+      <concepts href="uma://_D-ExQMktEdygFZkm1d5NtQ#_0cEmAMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_D-ExQMktEdygFZkm1d5NtQ#_i8bUEL6cEdqti4GwqTkbsQ"/>
+      <guidelines href="uma://_D-ExQMktEdygFZkm1d5NtQ#_SM4YIL6dEdqti4GwqTkbsQ"/>
+      <Task href="uma://_D-ExQMktEdygFZkm1d5NtQ#_kkZBgJOKEdyaRbFYa4AN4A"/>
+      <selectedSteps href="uma://-01L_eCnHjKmBPsGcdk8XTg#_kkZBhZOKEdyaRbFYa4AN4A"/>
+      <selectedSteps href="uma://-01L_eCnHjKmBPsGcdk8XTg#_kkZBgpOKEdyaRbFYa4AN4A"/>
+      <selectedSteps href="uma://-01L_eCnHjKmBPsGcdk8XTg#_kkZBhJOKEdyaRbFYa4AN4A"/>
+      <selectedSteps href="uma://-01L_eCnHjKmBPsGcdk8XTg#_kkZBg5OKEdyaRbFYa4AN4A"/>
+      <selectedSteps href="uma://-01L_eCnHjKmBPsGcdk8XTg#_kkZBgZOKEdyaRbFYa4AN4A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Dlo8wdo8EdyzZqGyZ7hwdw" name="test_script" guid="_Dlo8wdo8EdyzZqGyZ7hwdw" presentationName="Test Script" briefDescription="This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable&#xD;&#xA;automated testing." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_KZQJMBhBEduxCP6DVVLxsA"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_0Z9tMMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0aDz0MlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0j5sUMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0kF5kMlgEdmt3adZL5Dmdw"/>
+      <templates href="uma://_OOB2AAouEdyhlpBPrduOMw#_yZtgQI5gEdyO5aWob1UGDA"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZfMEMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dC4w4JojEd2XAqcHTC2Siw" name="implementation" guid="_dC4w4JojEd2XAqcHTC2Siw" presentationName="Implementation" briefDescription="Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <presentation xmi:id="-FB2KP2UFI653oVtHVkndvA" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-FB2KP2UFI653oVtHVkndvA"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_JqYbgJ01EdyQ3oTO93enUw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dC4w4ZojEd2XAqcHTC2Siw" name="test_log" guid="_dC4w4ZojEd2XAqcHTC2Siw" presentationName="Test Log" briefDescription="This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <presentation xmi:id="-9NwuPPfPDuUrGL-0O-B1Uw" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-9NwuPPfPDuUrGL-0O-B1Uw"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZlSsMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_RXGoodOFEdyqlogshP8l4g" name="develop_solution" guid="_RXGoodOFEdyqlogshP8l4g" presentationName="Develop Solution Increment" briefDescription="Design, implement, test, and integrate the solution for a requirement within a given context." breakdownElements="_frOcQNOKEdyqlogshP8l4g _frh-QNOKEdyqlogshP8l4g _frh-QdOKEdyqlogshP8l4g _frh-QtOKEdyqlogshP8l4g _gXo2UNOKEdyqlogshP8l4g _gX7xQNOKEdyqlogshP8l4g _gX7xQdOKEdyqlogshP8l4g _gX7xQtOKEdyqlogshP8l4g _hVe-oNOKEdyqlogshP8l4g _aJ1X4No7EdyzZqGyZ7hwdw _iRZNQNOKEdyqlogshP8l4g _Dlo8wNo8EdyzZqGyZ7hwdw _Dlo8wdo8EdyzZqGyZ7hwdw _dC4w4JojEd2XAqcHTC2Siw _dC4w4ZojEd2XAqcHTC2Siw">
+      <presentation xmi:id="-ux7ytJ8wsCQm5rzKYxNA7Q" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-ux7ytJ8wsCQm5rzKYxNA7Q"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

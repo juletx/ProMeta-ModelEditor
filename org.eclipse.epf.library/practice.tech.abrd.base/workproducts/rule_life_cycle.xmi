@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-6mbvD1IeLjpN72bPh--axw" name="new_artifact,_MRMXEDhSEduJsZd6xWxwoQ" guid="-6mbvD1IeLjpN72bPh--axw" changeDate="2008-12-15T02:10:49.000-0800" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_rule__life_cycle&quot; name=&quot;XE_rule__life_cycle&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; tab-stops: list 27.0pt&quot;>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>In the state diagram below the following
+    abbreviations are used:&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; tab-stops: list 27.0pt&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; tab-stops: list 27.0pt; mso-list: l0 level1 lfo1&quot;>
+    &lt;span
+    style=&quot;FONT-FAMILY: Symbol; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol&quot;>&lt;span
+     style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Rule
+    Writer or Rule Author is the end user of the BRMS application&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; tab-stops: list 27.0pt; mso-list: l0 level1 lfo1&quot;>
+    &lt;span
+    style=&quot;FONT-FAMILY: Symbol; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol&quot;>&lt;span
+     style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Rule
+    Admin is an administrator of the rule set.&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; tab-stops: list 27.0pt; mso-list: l0 level1 lfo1; mso-pagination: none; mso-layout-grid-align: none&quot;>
+    &lt;span
+    style=&quot;FONT-FAMILY: Symbol; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol&quot;>&lt;span
+     style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Rule
+    Tester can be an automatic process or a human.&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; tab-stops: list 27.0pt; mso-list: l0 level1 lfo1; mso-pagination: none; mso-layout-grid-align: none&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; tab-stops: list 27.0pt; mso-list: l0 level1 lfo1; mso-pagination: none; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>&lt;img alt=&quot;&quot;
+    src=&quot;resources/rule_life_cycle.gif&quot; />&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; tab-stops: list 27.0pt; mso-list: l0 level1 lfo1; mso-pagination: none; mso-layout-grid-align: none&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>&lt;span lang=&quot;EN&quot;
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial; mso-ansi-language: EN&quot;>Some complementary
+    guidelines:&lt;/span>&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0in 0in 0pt 27pt; TEXT-INDENT: -27pt; tab-stops: list 27.0pt; mso-list: l0 level1 lfo1&quot;>
+    &lt;span
+    style=&quot;FONT-FAMILY: Symbol; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol&quot;>&lt;span
+     style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>When a
+    rule is created its status is new&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0in 0in 0pt 27pt; TEXT-INDENT: -27pt; tab-stops: list 27.0pt; mso-list: l0 level1 lfo1&quot;>
+    &lt;span
+    style=&quot;FONT-FAMILY: Symbol; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol&quot;>&lt;span
+     style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>A rule
+    once promoted could not be deleted.&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0in 0in 0pt 27pt; TEXT-INDENT: -27pt; tab-stops: list 27.0pt; mso-list: l0 level1 lfo1&quot;>
+    &lt;span
+    style=&quot;FONT-FAMILY: Symbol; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol&quot;>&lt;span
+     style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>A rule
+    can be set active or inactive at any state, by using the inactive property&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0in 0in 0pt 27pt; TEXT-INDENT: -27pt; tab-stops: list 27.0pt; mso-list: l0 level1 lfo1&quot;>
+    &lt;span
+    style=&quot;FONT-FAMILY: Symbol; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol&quot;>&lt;span
+     style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>From
+    this life cycle it is important to note that once a rule is promoted the user could not update it. He needs to create a
+    new rule by copy and paste and restart the life cycle up to Validated. Once the rule is ready for deployment a rule
+    administrator will retired the first rule and promote the new one. This is important to follow this process to maintain
+    the integrity of the rule set.&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot; />
+&lt;p class=&quot;ISISGuidance&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+    &lt;span style=&quot;COLOR: windowtext; FONT-STYLE: normal; FONT-FAMILY: Arial&quot;>There is a common requirement that may need to
+    be supported to enhance the rule life cycle: &quot;During its life cycle a rule can be deployed only to a specific Test
+    Decision Service, before going to production&quot;.&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; tab-stops: list 27.0pt; mso-list: l0 level1 lfo1; mso-pagination: none; mso-layout-grid-align: none&quot; />
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

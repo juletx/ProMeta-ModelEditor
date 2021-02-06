@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_z1sDcZiLEeGOvpP1fVrVNA" guid="_z1sDcZiLEeGOvpP1fVrVNA">
+    <resourceDescriptors xmi:id="_z1sDc5iLEeGOvpP1fVrVNA" id="-S5JIDccPmUswHn8Fuoihmg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_z1sDdJiLEeGOvpP1fVrVNA" id="-zWQaePGlqyQtrhSJIcFT5g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_z11NYZiLEeGOvpP1fVrVNA" id="-EOsTkw08ZDXzyCHSCP-bPQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_z11NYpiLEeGOvpP1fVrVNA" id="-EeEevuLnY3VYk0iyk-4PNA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_z11NY5iLEeGOvpP1fVrVNA" id="-KHIo0rQQtM2BlPh4JWpGjg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_z11NZJiLEeGOvpP1fVrVNA" id="-EXc3pddBCA6wj8qQ0Dqamw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_z11NZZiLEeGOvpP1fVrVNA" id="-EIp0kjHvkMcdiHUnbnCsHQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_z1--YJiLEeGOvpP1fVrVNA" id="-XsPT6hPwaXWxv6Z9inqp2w" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_y7az6piLEeGOvpP1fVrVNA" name="provide_product_training" guid="_y7az6piLEeGOvpP1fVrVNA">
+    <methodElementProperty xmi:id="_dDFTsJieEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_y7az8ZiLEeGOvpP1fVrVNA" name="deliver_end_user_training" guid="_y7az8ZiLEeGOvpP1fVrVNA" presentationName="Deliver End User Training" briefDescription="In most cases, End Users of a system require training to use the application effectively." isPlanned="true" superActivities="_y7az8piLEeGOvpP1fVrVNA" mandatoryInput="_y7az75iLEeGOvpP1fVrVNA _y7az7ZiLEeGOvpP1fVrVNA" optionalInput="_y7az8JiLEeGOvpP1fVrVNA">
+      <methodElementProperty xmi:id="_bydZUpieEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-S5JIDccPmUswHn8Fuoihmg" href="uma://-S5JIDccPmUswHn8Fuoihmg#-S5JIDccPmUswHn8Fuoihmg"/>
+      <Task href="uma://_wDZIUOCFEeC1y_NExchKwQ#_-zeAg-B8EeC1y_NExchKwQ"/>
+      <selectedSteps href="uma://-w4UHaO9nSn7-q_CMq-Ofog#_-zeAhOB8EeC1y_NExchKwQ"/>
+      <selectedSteps href="uma://-w4UHaO9nSn7-q_CMq-Ofog#_-zenkuB8EeC1y_NExchKwQ"/>
+      <selectedSteps href="uma://-w4UHaO9nSn7-q_CMq-Ofog#_-zenkeB8EeC1y_NExchKwQ"/>
+      <selectedSteps href="uma://-w4UHaO9nSn7-q_CMq-Ofog#_-zenkOB8EeC1y_NExchKwQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_y7az7piLEeGOvpP1fVrVNA" name="deliver_support_training" guid="_y7az7piLEeGOvpP1fVrVNA" presentationName="Deliver Support Training" briefDescription="Personnel who support an application need training so they can perform their jobs effectively." isPlanned="true" superActivities="_y7az8piLEeGOvpP1fVrVNA" mandatoryInput="_y7az7ZiLEeGOvpP1fVrVNA _y7az65iLEeGOvpP1fVrVNA" optionalInput="_y7az8JiLEeGOvpP1fVrVNA _y7az75iLEeGOvpP1fVrVNA">
+      <methodElementProperty xmi:id="_bynKUZieEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-zWQaePGlqyQtrhSJIcFT5g" href="uma://-S5JIDccPmUswHn8Fuoihmg#-zWQaePGlqyQtrhSJIcFT5g"/>
+      <Task href="uma://_wDZIUOCFEeC1y_NExchKwQ#_-zenlOB8EeC1y_NExchKwQ"/>
+      <selectedSteps href="uma://-xCz7FMvINdv3zLvonMDolQ#_-zenmOB8EeC1y_NExchKwQ"/>
+      <selectedSteps href="uma://-xCz7FMvINdv3zLvonMDolQ#_-zenl-B8EeC1y_NExchKwQ"/>
+      <selectedSteps href="uma://-xCz7FMvINdv3zLvonMDolQ#_-zenluB8EeC1y_NExchKwQ"/>
+      <selectedSteps href="uma://-xCz7FMvINdv3zLvonMDolQ#_-zenleB8EeC1y_NExchKwQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_y7az8JiLEeGOvpP1fVrVNA" name="product_documentation" guid="_y7az8JiLEeGOvpP1fVrVNA" presentationName="Product Documentation" briefDescription="Information about a specific product that has been captured in an organized format." isPlanned="false" superActivities="_y7az8piLEeGOvpP1fVrVNA">
+      <methodElementProperty xmi:id="_z1--Y5iLEeGOvpP1fVrVNA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_byUPYpieEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-EeEevuLnY3VYk0iyk-4PNA" href="uma://-S5JIDccPmUswHn8Fuoihmg#-EeEevuLnY3VYk0iyk-4PNA"/>
+      <WorkProduct href="uma://_wDZIUOCFEeC1y_NExchKwQ#_-zf1tuB8EeC1y_NExchKwQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_y7az65iLEeGOvpP1fVrVNA" name="support_documentation" guid="_y7az65iLEeGOvpP1fVrVNA" presentationName="Support Documentation" briefDescription="Documents used by members of a production support team that provide information about how to service and support a specific product." isPlanned="false" superActivities="_y7az8piLEeGOvpP1fVrVNA">
+      <methodElementProperty xmi:id="_z1--ZJiLEeGOvpP1fVrVNA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_byUPYZieEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-KHIo0rQQtM2BlPh4JWpGjg" href="uma://-S5JIDccPmUswHn8Fuoihmg#-KHIo0rQQtM2BlPh4JWpGjg"/>
+      <WorkProduct href="uma://_wDZIUOCFEeC1y_NExchKwQ#_-zfOreB8EeC1y_NExchKwQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_y7az75iLEeGOvpP1fVrVNA" name="user_documentation" guid="_y7az75iLEeGOvpP1fVrVNA" presentationName="User Documentation" briefDescription="Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product." isPlanned="false" superActivities="_y7az8piLEeGOvpP1fVrVNA">
+      <methodElementProperty xmi:id="_z1--ZZiLEeGOvpP1fVrVNA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_bydZUJieEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-EXc3pddBCA6wj8qQ0Dqamw" href="uma://-S5JIDccPmUswHn8Fuoihmg#-EXc3pddBCA6wj8qQ0Dqamw"/>
+      <WorkProduct href="uma://_wDZIUOCFEeC1y_NExchKwQ#_-zf1tOB8EeC1y_NExchKwQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_y7az7ZiLEeGOvpP1fVrVNA" name="training_materials" guid="_y7az7ZiLEeGOvpP1fVrVNA" presentationName="Training Materials" briefDescription="This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release." isPlanned="false" superActivities="_y7az8piLEeGOvpP1fVrVNA">
+      <methodElementProperty xmi:id="_z1--ZpiLEeGOvpP1fVrVNA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_byUPY5ieEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-EIp0kjHvkMcdiHUnbnCsHQ" href="uma://-S5JIDccPmUswHn8Fuoihmg#-EIp0kjHvkMcdiHUnbnCsHQ"/>
+      <WorkProduct href="uma://_wDZIUOCFEeC1y_NExchKwQ#_-zeAguB8EeC1y_NExchKwQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7az8piLEeGOvpP1fVrVNA" name="provide_product_training" guid="_y7az8piLEeGOvpP1fVrVNA" presentationName="Provide Product Training" briefDescription="This activity provides product training." breakdownElements="_y7az8ZiLEeGOvpP1fVrVNA _y7az7piLEeGOvpP1fVrVNA _y7az8JiLEeGOvpP1fVrVNA _y7az65iLEeGOvpP1fVrVNA _y7az75iLEeGOvpP1fVrVNA _y7az7ZiLEeGOvpP1fVrVNA">
+      <presentation xmi:id="-XsPT6hPwaXWxv6Z9inqp2w" href="uma://-S5JIDccPmUswHn8Fuoihmg#-XsPT6hPwaXWxv6Z9inqp2w"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

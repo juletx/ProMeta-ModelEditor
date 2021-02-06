@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Dhahg2KaFT27Ni6XSzv8vw" name=",_TJ2NwDhOEduJsZd6xWxwoQ" guid="-Dhahg2KaFT27Ni6XSzv8vw" changeDate="2008-11-06T04:05:25.000-0800" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_life_cycle__define&quot; name=&quot;XE_life_cycle__define&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>A rule architect has to develop with the business
+    users what will be the &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../practice.tech.abrd.base/guidances/termdefinitions/rule_life_cycle_B982650C.html&quot;
+    guid=&quot;_s5iCsFH7Edy72tV0zV7--Q&quot;>rule life cycle&lt;/a>. There are a lot of different possibilities for defining this rule
+    life cycle. For the implementation point of view we need to define a&lt;/span> &lt;span lang=&quot;EN&quot;
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial; mso-ansi-language: EN&quot;>&quot;Status&quot; meta property attached
+    to a rule element.&lt;/span> &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>The following states
+    have been identified as a simple but still efficient life cycle:&lt;/span>
+&lt;/p>&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; mso-list: l0 level1 lfo1; tab-stops: list 27.0pt&quot;>
+    &lt;span
+    style=&quot;FONT-FAMILY: Symbol; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol&quot;>&lt;span
+     style=&quot;mso-list: Ignore&quot;>·&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>New&lt;/span>&lt;/b>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>: the rule is created, and can be modified by its
+    owner&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; mso-list: l0 level1 lfo1; tab-stops: list 27.0pt&quot;>
+    &lt;span
+    style=&quot;FONT-FAMILY: Symbol; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol&quot;>&lt;span
+     style=&quot;mso-list: Ignore&quot;>·&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Defined&lt;/span>&lt;/b>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>: the rule has been defined and is currently in unit
+    test&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; mso-list: l0 level1 lfo1; tab-stops: list 27.0pt&quot;>
+    &lt;span
+    style=&quot;FONT-FAMILY: Symbol; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol&quot;>&lt;span
+     style=&quot;mso-list: Ignore&quot;>·&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Rejected&lt;/span>&lt;/b>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>: the rule has been tested un-successfully&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; mso-list: l0 level1 lfo1; tab-stops: list 27.0pt&quot;>
+    &lt;span
+    style=&quot;FONT-FAMILY: Symbol; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol&quot;>&lt;span
+     style=&quot;mso-list: Ignore&quot;>·&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Validated&lt;/span>&lt;/b>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>: the rule has been tested successfully and can be
+    deployed&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; mso-list: l0 level1 lfo1; tab-stops: list 27.0pt&quot;>
+    &lt;span
+    style=&quot;FONT-FAMILY: Symbol; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol&quot;>&lt;span
+     style=&quot;mso-list: Ignore&quot;>·&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Promoted&lt;/span>&lt;/b>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>: the rule has been part of a rule set deployed on
+    production platform&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; mso-list: l0 level1 lfo1; tab-stops: list 27.0pt&quot;>
+    &lt;span
+    style=&quot;FONT-FAMILY: Symbol; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol&quot;>&lt;span
+     style=&quot;mso-list: Ignore&quot;>·&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Retired&lt;/span>&lt;/b>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>: the rule was deployed or validated on a production
+    platform but no more active.&lt;/span>
+&lt;/p>&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    In the state diagram below the following abbreviations are used:
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        Rule Writer or Rule Author is the end user of the BRMS application
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        Rule Admin is an administrator of the rule set.
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot;
+    style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+        Rule Tester can be an automatic process or a human.
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+    &lt;img height=&quot;382&quot; alt=&quot;&quot; src=&quot;resources/rule_life_cycle.gif&quot; width=&quot;409&quot; />
+&lt;/p>&lt;br class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt; mso-pagination: none; mso-layout-grid-align: none&quot; />
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

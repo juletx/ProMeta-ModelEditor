@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Rex8oOBv985RruZNrCW0rg" name="implementation_mechanisms,_3ANskOK5EdqHEo0wLIc5jg" guid="-Rex8oOBv985RruZNrCW0rg" changeDate="2006-09-25T01:09:13.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    An Implementation Mechanism is a refinement of a corresponding Design Mechanism that uses, for example, a particular&#xD;
+    programming language and other implementation technology (such as a particular vendor's middleware product). An&#xD;
+    Implementation Mechanism may instantiate one or more idioms or implementation patterns.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Review these points when you are considering Implementation Mechanisms:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;p>&#xD;
+            &lt;b>Determine the ranges of characteristics.&lt;/b> Take the characteristics that you identified for the Design&#xD;
+            Mechanisms into consideration to determine reasonable, economical, or feasible ranges of values to use in the&#xD;
+            Implementation Mechanism candidate.&#xD;
+        &lt;/p>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;p>&#xD;
+            &lt;b>Consider the cost of purchased components&lt;/b>. For Implementation Mechanism candidates, consider the cost of&#xD;
+            licensing, the maturity of the product, your history or relationship with the vendor, support, and so forth in&#xD;
+            addition to purely technical criteria.&#xD;
+        &lt;/p>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;p>&#xD;
+            &lt;b>Conduct a search for the right components, or build the components.&lt;/b> You will often find that there is no&#xD;
+            apparently suitable Implementation Mechanism for a particular Design Mechanism. This will either trigger a&#xD;
+            search for the right product or make the need for in-house development apparent. You may also find that some&#xD;
+            Implementation Mechanisms are not used at all.&lt;br />&#xD;
+            &lt;br />&#xD;
+            The choice of Implementation Mechanisms is based not only on a good match for the technical characteristics,&#xD;
+            but also on the non-technical characteristics, such as cost. Some of the choices may be provisional. Almost all&#xD;
+            have some risks attached to them. Performance, robustness, and scalability are nearly always concerns and must&#xD;
+            be validated by evaluation, exploratory prototyping, or inclusion in the architectural prototype.&#xD;
+        &lt;/p>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_mYj6YOCIEeC1y_NExchKwQ" guid="_mYj6YOCIEeC1y_NExchKwQ">
+    <resourceDescriptors xmi:id="_I7u0gOB-EeC1y_NExchKwQ" id="-x6K6zdVklh4CbhxTeVvYew" uri="guidances/checklists/deployment_plan.xmi"/>
+    <resourceDescriptors xmi:id="_I7Q6cOB-EeC1y_NExchKwQ" id="-wHkXWtQxFeicCBDHK-f7xg" uri="workproducts/release_communications.xmi"/>
+    <resourceDescriptors xmi:id="_I7F7UOB-EeC1y_NExchKwQ" id="-s-_ZWqfnqO34JF-_nDPk3Q" uri="workproducts/release_controls.xmi"/>
+    <resourceDescriptors xmi:id="_I7La4OB-EeC1y_NExchKwQ" id="-4Fv0TSuJBCRxarK5ssyLGw" uri="workproducts/deployment_plan.xmi"/>
+    <resourceDescriptors xmi:id="_I7Vy8OB-EeC1y_NExchKwQ" id="-mHGd7nm4EywKy0UPe9dZhg" uri="tasks/execute_backout_plan.xmi"/>
+    <resourceDescriptors xmi:id="_I7ZdUOB-EeC1y_NExchKwQ" id="-chKviPT1F1yq5Y_KL9ET9g" uri="tasks/verify_successful_deployment.xmi"/>
+    <resourceDescriptors xmi:id="_I66VIOB-EeC1y_NExchKwQ" id="-zT8t7LcbcrgIhYd_XUi6DA" uri="tasks/review_conform_to_release_controls.xmi"/>
+    <resourceDescriptors xmi:id="_I7qjEOB-EeC1y_NExchKwQ" id="-IwJHnU8hFzICUIbJ3tygeg" uri="guidances/concepts/release_iteration.xmi"/>
+    <resourceDescriptors xmi:id="_I7SvoOB-EeC1y_NExchKwQ" id="-PPEUOk6Gija0ckrWlDdCxA" uri="tasks/execute_deployment_plan.xmi"/>
+    <resourceDescriptors xmi:id="_I7OeMOB-EeC1y_NExchKwQ" id="-O9dNph5o0Au5C2deOUG8Bg" uri="workproducts/backout_plan.xmi"/>
+    <resourceDescriptors xmi:id="_I6_0sOB-EeC1y_NExchKwQ" id="-FWdvN43s5ux00S-GVpDH-w" uri="tasks/develop_release_communications.xmi"/>
+    <resourceDescriptors xmi:id="_I7I-oOB-EeC1y_NExchKwQ" id="-I1cGb0If2i9wNcOXbEU6XA" uri="workproducts/infrastructure.xmi"/>
+    <resourceDescriptors xmi:id="_I7C4AOB-EeC1y_NExchKwQ" id="-Z_sfrl6NWP_8GKlFeHrrgg" uri="tasks/develop_backout_plan.xmi"/>
+    <resourceDescriptors xmi:id="_I7e84OB-EeC1y_NExchKwQ" id="-fBwPDexzVTCxcEM5H1ljeQ" uri="tasks/package_the_release.xmi"/>
+    <resourceDescriptors xmi:id="_I7oG0OB-EeC1y_NExchKwQ" id="-DKbcEDMwu7S4GWFkH-TTkg" uri="guidances/roadmaps/how_to_adopt_production_release.xmi"/>
+    <resourceDescriptors xmi:id="_I7b5kOB-EeC1y_NExchKwQ" id="-HIQR9GY0lX3xDuTpeslNtg" uri="tasks/deliver_release_communications.xmi"/>
+    <resourceDescriptors xmi:id="_I68xYOB-EeC1y_NExchKwQ" id="-QqCVewwu8buOCXKRukpf5g" uri="tasks/plan_deployment.xmi"/>
+    <resourceDescriptors xmi:id="_I62DsOB-EeC1y_NExchKwQ" id="-SLY9_MQQ_ykBIaLojfgzBQ" uri="tasks/install_validate_infrastructure.xmi"/>
+    <resourceDescriptors xmi:id="_I7inQOB-EeC1y_NExchKwQ" id="-WOrmi0u1gYsdoetUWXbIEg" uri="guidances/practices/production_release.xmi"/>
+    <resourceDescriptors xmi:id="___IdEPWeEeC-OfQYYSW77w" id="-8kqk1tE8R96b88T_NC7SoQ" uri="guidances/supportingmaterials/release_info_prod_release.xmi"/>
+    <resourceDescriptors xmi:id="_i3UUQPddEeCG79QDqBlPXg" id="-Lo_rjBFuf6JDjdUw5nJjYw" uri="workproducts/release.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_mYfo8OCIEeC1y_NExchKwQ" name="practice.gen.production_release.base" guid="_mYfo8OCIEeC1y_NExchKwQ" presentationName="Production Release" briefDescription="This practice describes how to prepare and execute the release of a product (or subset thereof) into the production environment." changeDate="2012-05-18T17:09:20.554-0700">
+    <methodElementProperty xmi:id="_mYj6YuCIEeC1y_NExchKwQ" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_qHAScJidEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mYfo8eCIEeC1y_NExchKwQ" name="Content" guid="_mYfo8eCIEeC1y_NExchKwQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mYfo8uCIEeC1y_NExchKwQ" name="Categories" guid="_mYfo8uCIEeC1y_NExchKwQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mYfo8-CIEeC1y_NExchKwQ" name="Domains" guid="_mYfo8-CIEeC1y_NExchKwQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mYfo9OCIEeC1y_NExchKwQ" name="Disciplines" guid="_mYfo9OCIEeC1y_NExchKwQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mYfo9eCIEeC1y_NExchKwQ" name="RoleSets" guid="_mYfo9eCIEeC1y_NExchKwQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mYfo9uCIEeC1y_NExchKwQ" name="WP Types" guid="_mYfo9uCIEeC1y_NExchKwQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mYfo9-CIEeC1y_NExchKwQ" name="Tools" guid="_mYfo9-CIEeC1y_NExchKwQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mYfo-OCIEeC1y_NExchKwQ" name="StandardCategories" guid="_mYfo-OCIEeC1y_NExchKwQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mYfo-eCIEeC1y_NExchKwQ" name="CustomCategories" guid="_mYfo-eCIEeC1y_NExchKwQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mYfo-uCIEeC1y_NExchKwQ" name="Hidden" guid="_mYfo-uCIEeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_mYfo--CIEeC1y_NExchKwQ" name="Custom Categories" guid="_mYfo--CIEeC1y_NExchKwQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mYfo_OCIEeC1y_NExchKwQ" name="CoreContent" guid="_mYfo_OCIEeC1y_NExchKwQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_IADPYOB-EeC1y_NExchKwQ" name="production_release" guid="_IADPYOB-EeC1y_NExchKwQ" presentationName="Production Release">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_IAHg2OB-EeC1y_NExchKwQ" name="release_preparation" guid="_IAHg2OB-EeC1y_NExchKwQ" presentationName="Release Preparation">
+            <methodElementProperty xmi:id="_1iHY8JifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAIH4eB-EeC1y_NExchKwQ" name="install_validate_infrastructure" guid="_IAIH4eB-EeC1y_NExchKwQ" presentationName="Install and Validate Infrastructure" briefDescription="Any infrastructure components needed to support a release must be procured, installed, and tested." mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ" output="_IAJ9EOB-EeC1y_NExchKwQ" optionalInput="_IAJWA-B-EeC1y_NExchKwQ">
+              <methodElementProperty xmi:id="_1jAw0JifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-SLY9_MQQ_ykBIaLojfgzBQ" href="uma://-SLY9_MQQ_ykBIaLojfgzBQ#-SLY9_MQQ_ykBIaLojfgzBQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAIu9uB-EeC1y_NExchKwQ" name="review_conform_to_release_controls" guid="_IAIu9uB-EeC1y_NExchKwQ" presentationName="Review and Conform to Release Controls" briefDescription="Release controls normally are specified by the deployment manager. These controls document the requirements to which all releases must conform before being placed into the production environment." mandatoryInput="_IAJWA-B-EeC1y_NExchKwQ">
+              <methodElementProperty xmi:id="_1ikE4JifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-zT8t7LcbcrgIhYd_XUi6DA" href="uma://-zT8t7LcbcrgIhYd_XUi6DA#-zT8t7LcbcrgIhYd_XUi6DA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAJ9EeB-EeC1y_NExchKwQ" name="plan_deployment" guid="_IAJ9EeB-EeC1y_NExchKwQ" presentationName="Plan Deployment" briefDescription="If a deployment plan for the project already exists, update it to reflect the nature of this release. If this document does not exist, develop a deployment plan to indicate how this release will be rolled out to the production environment." checklists="_IAG5weB-EeC1y_NExchKwQ" output="_IAJ9FeB-EeC1y_NExchKwQ">
+              <methodElementProperty xmi:id="_1lZWcJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-QqCVewwu8buOCXKRukpf5g" href="uma://-QqCVewwu8buOCXKRukpf5g#-QqCVewwu8buOCXKRukpf5g"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAJWBOB-EeC1y_NExchKwQ" name="develop_release_communications" guid="_IAJWBOB-EeC1y_NExchKwQ" presentationName="Develop Release Communications" briefDescription="Stakeholders should be notified when a product (or feature set) is placed into production." mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ" output="_IAIH4OB-EeC1y_NExchKwQ" optionalInput="_IAJWA-B-EeC1y_NExchKwQ">
+              <methodElementProperty xmi:id="_1kWNkJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-FWdvN43s5ux00S-GVpDH-w" href="uma://-FWdvN43s5ux00S-GVpDH-w#-FWdvN43s5ux00S-GVpDH-w"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAIu8uB-EeC1y_NExchKwQ" name="develop_backout_plan" guid="_IAIu8uB-EeC1y_NExchKwQ" presentationName="Develop Backout Plan" briefDescription="This task results in a plan to be used by the production support organization to roll back the release if there is a problem during or after deployment." output="_IAHg2eB-EeC1y_NExchKwQ" optionalInput="_IAJ9FeB-EeC1y_NExchKwQ">
+              <methodElementProperty xmi:id="_1kDSoJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-Z_sfrl6NWP_8GKlFeHrrgg" href="uma://-Z_sfrl6NWP_8GKlFeHrrgg#-Z_sfrl6NWP_8GKlFeHrrgg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAJWA-B-EeC1y_NExchKwQ" name="release_controls" guid="_IAJWA-B-EeC1y_NExchKwQ" presentationName="Release Controls" briefDescription="Release controls normally are established by IT management and enforced by the deployment manager.">
+              <methodElementProperty xmi:id="_daFekKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
+              <presentation xmi:id="-s-_ZWqfnqO34JF-_nDPk3Q" href="uma://-s-_ZWqfnqO34JF-_nDPk3Q#-s-_ZWqfnqO34JF-_nDPk3Q"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAJ9EOB-EeC1y_NExchKwQ" name="infrastructure" guid="_IAJ9EOB-EeC1y_NExchKwQ" presentationName="Infrastructure" briefDescription="In reference to a release sprint, infrastructure refers to all the hardware, software, and network facilities necessary to support a deployed release.">
+              <methodElementProperty xmi:id="_dXyYgKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
+              <presentation xmi:id="-I1cGb0If2i9wNcOXbEU6XA" href="uma://-I1cGb0If2i9wNcOXbEU6XA#-I1cGb0If2i9wNcOXbEU6XA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAJ9FeB-EeC1y_NExchKwQ" name="deployment_plan" guid="_IAJ9FeB-EeC1y_NExchKwQ" presentationName="Deployment Plan" briefDescription="A deployment plan is used to document all the information needed by deployment engineers to deploy a release successfully." checklists="_IAG5weB-EeC1y_NExchKwQ">
+              <methodElementProperty xmi:id="_dWmFsKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
+              <presentation xmi:id="-4Fv0TSuJBCRxarK5ssyLGw" href="uma://-4Fv0TSuJBCRxarK5ssyLGw#-4Fv0TSuJBCRxarK5ssyLGw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAHg2eB-EeC1y_NExchKwQ" name="backout_plan" guid="_IAHg2eB-EeC1y_NExchKwQ" presentationName="Backout Plan" briefDescription="A backout plan defines the criteria and procedures to be followed if a release into production needs to be rolled back.">
+              <methodElementProperty xmi:id="_dV6wQKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
+              <presentation xmi:id="-O9dNph5o0Au5C2deOUG8Bg" href="uma://-O9dNph5o0Au5C2deOUG8Bg#-O9dNph5o0Au5C2deOUG8Bg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAIH4OB-EeC1y_NExchKwQ" name="release_communications" guid="_IAIH4OB-EeC1y_NExchKwQ" presentationName="Release Communications" briefDescription="This artifact provides information to concerned parties that a product (or subset) has been placed into production.">
+              <methodElementProperty xmi:id="_dZzxwKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
+              <presentation xmi:id="-wHkXWtQxFeicCBDHK-f7xg" href="uma://-wHkXWtQxFeicCBDHK-f7xg#-wHkXWtQxFeicCBDHK-f7xg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_EopWMPddEeCG79QDqBlPXg" name="release" guid="_EopWMPddEeCG79QDqBlPXg" presentationName="Release" briefDescription="A release is the transition of an increment of potentially shippable product from the development group into routine use by customers based on a successful placement of a release sprint's output into the production environment.">
+              <methodElementProperty xmi:id="_dYXAQKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
+              <presentation xmi:id="-Lo_rjBFuf6JDjdUw5nJjYw" href="uma://-Lo_rjBFuf6JDjdUw5nJjYw#-Lo_rjBFuf6JDjdUw5nJjYw"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_IADPYuB-EeC1y_NExchKwQ" name="deployment" guid="_IADPYuB-EeC1y_NExchKwQ" presentationName="Deployment">
+            <methodElementProperty xmi:id="_CRWrsJigEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAD2dOB-EeC1y_NExchKwQ" name="execute_deployment_plan" guid="_IAD2dOB-EeC1y_NExchKwQ" presentationName="Execute Deployment Plan" briefDescription="The deployment plan has all the unique instructions necessary to roll out a release." checklists="_IAG5weB-EeC1y_NExchKwQ" mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ _IAJ9EOB-EeC1y_NExchKwQ _EopWMPddEeCG79QDqBlPXg" optionalInput="_IAJWA-B-EeC1y_NExchKwQ">
+              <methodElementProperty xmi:id="_CU7kIJigEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-PPEUOk6Gija0ckrWlDdCxA" href="uma://-PPEUOk6Gija0ckrWlDdCxA#-PPEUOk6Gija0ckrWlDdCxA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IADPY-B-EeC1y_NExchKwQ" name="execute_backout_plan" guid="_IADPY-B-EeC1y_NExchKwQ" presentationName="Execute Backout Plan (if necessary)" briefDescription="If a particular release into production goes wrong, the plan for cleanly reversing that deployment is executed." mandatoryInput="_IAHg2eB-EeC1y_NExchKwQ _EopWMPddEeCG79QDqBlPXg">
+              <methodElementProperty xmi:id="_CZ2gYJigEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-mHGd7nm4EywKy0UPe9dZhg" href="uma://-mHGd7nm4EywKy0UPe9dZhg#-mHGd7nm4EywKy0UPe9dZhg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAFEkuB-EeC1y_NExchKwQ" name="verify_successful_deployment" guid="_IAFEkuB-EeC1y_NExchKwQ" presentationName="Verify Successful Deployment" briefDescription="Determine whether the rollout of a particular release into production has been successful or not." mandatoryInput="_EopWMPddEeCG79QDqBlPXg" optionalInput="_IAJ9FeB-EeC1y_NExchKwQ">
+              <methodElementProperty xmi:id="_CYXSoJigEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-chKviPT1F1yq5Y_KL9ET9g" href="uma://-chKviPT1F1yq5Y_KL9ET9g#-chKviPT1F1yq5Y_KL9ET9g"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAEdhuB-EeC1y_NExchKwQ" name="deliver_release_communications" guid="_IAEdhuB-EeC1y_NExchKwQ" presentationName="Deliver Release Communications" briefDescription="After a product release has been declared a success and is available for use, all relevant stakeholders should receive a communique stating that fact." mandatoryInput="_IAIH4OB-EeC1y_NExchKwQ" optionalInput="_EopWMPddEeCG79QDqBlPXg">
+              <methodElementProperty xmi:id="_CaTMUJigEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-HIQR9GY0lX3xDuTpeslNtg" href="uma://-HIQR9GY0lX3xDuTpeslNtg#-HIQR9GY0lX3xDuTpeslNtg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAEdgOB-EeC1y_NExchKwQ" name="package_the_release" guid="_IAEdgOB-EeC1y_NExchKwQ" presentationName="Package the Release" briefDescription="Each release should be built and packaged in a standard, controlled, and repeatable manner." mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ _IAJWA-B-EeC1y_NExchKwQ" output="_EopWMPddEeCG79QDqBlPXg">
+              <methodElementProperty xmi:id="_CS_qcJigEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-fBwPDexzVTCxcEM5H1ljeQ" href="uma://-fBwPDexzVTCxcEM5H1ljeQ#-fBwPDexzVTCxcEM5H1ljeQ"/>
+            </contentElements>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_IAG5wOB-EeC1y_NExchKwQ" name="production_release" guid="_IAG5wOB-EeC1y_NExchKwQ" presentationName="Production Release" briefDescription="This practice describes how to prepare and execute the release of a product (or subset thereof) into the production environment." contentReferences="_IAHg1uB-EeC1y_NExchKwQ _IAG5weB-EeC1y_NExchKwQ _IAHg2eB-EeC1y_NExchKwQ _IAJ9FeB-EeC1y_NExchKwQ _IAJ9EOB-EeC1y_NExchKwQ _IAIH4OB-EeC1y_NExchKwQ _IAJWA-B-EeC1y_NExchKwQ _EopWMPddEeCG79QDqBlPXg _IAIu9uB-EeC1y_NExchKwQ _IAIH4eB-EeC1y_NExchKwQ _IAJ9EeB-EeC1y_NExchKwQ _IAIu8uB-EeC1y_NExchKwQ _IAJWBOB-EeC1y_NExchKwQ _IAEdgOB-EeC1y_NExchKwQ _IAD2dOB-EeC1y_NExchKwQ _IAFEkuB-EeC1y_NExchKwQ _IADPY-B-EeC1y_NExchKwQ _IAEdhuB-EeC1y_NExchKwQ _IADPYeB-EeC1y_NExchKwQ">
+            <methodElementProperty xmi:id="_I6yZUOB-EeC1y_NExchKwQ" name="CategoryElementsSortType" value="Manual"/>
+            <methodElementProperty xmi:id="_84-cQAmyEeKmAPiw8fAOLA" name="me_edited" value="true"/>
+            <presentation xmi:id="-WOrmi0u1gYsdoetUWXbIEg" href="uma://-WOrmi0u1gYsdoetUWXbIEg#-WOrmi0u1gYsdoetUWXbIEg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_IAGSsuB-EeC1y_NExchKwQ" name="to_delete_2" guid="_IAGSsuB-EeC1y_NExchKwQ" presentationName="To Delete 2">
+            <methodElementProperty xmi:id="_I6yZUeB-EeC1y_NExchKwQ" name="CategoryElementsSortType" value="Manual"/>
+            <methodElementProperty xmi:id="_xLOKwJlbEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_IAGSsOB-EeC1y_NExchKwQ" name="to_delete" guid="_IAGSsOB-EeC1y_NExchKwQ" presentationName="To Delete">
+            <methodElementProperty xmi:id="_I6yZUuB-EeC1y_NExchKwQ" name="CategoryElementsSortType" value="Manual"/>
+            <methodElementProperty xmi:id="_GLx7wJoSEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_IADPYeB-EeC1y_NExchKwQ" name="how_to_adopt_production_release" guid="_IADPYeB-EeC1y_NExchKwQ" presentationName="How to Adopt the Production Release Practice" briefDescription="This roadmap describes how to adopt the Production Release practice.">
+            <presentation xmi:id="-DKbcEDMwu7S4GWFkH-TTkg" href="uma://-DKbcEDMwu7S4GWFkH-TTkg#-DKbcEDMwu7S4GWFkH-TTkg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_IAHg1uB-EeC1y_NExchKwQ" name="release_iteration" guid="_IAHg1uB-EeC1y_NExchKwQ" presentationName="Release Iteration" briefDescription="A Release Iteration/Sprint (sometimes called a Hardening Iteration/Sprint) is one in which no new features are developed; rather, other activities that add value to the product are performed before its release.">
+            <methodElementProperty xmi:id="_6hAAUJq5EeGkJeeBCxGuog" name="me_edited" value="true"/>
+            <presentation xmi:id="-IwJHnU8hFzICUIbJ3tygeg" href="uma://-IwJHnU8hFzICUIbJ3tygeg#-IwJHnU8hFzICUIbJ3tygeg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_IAG5weB-EeC1y_NExchKwQ" name="deployment_plan" guid="_IAG5weB-EeC1y_NExchKwQ" presentationName="Deployment Plan" briefDescription="This checklist is used to verify that a Deployment Plan is created in a correct and consistent manner.">
+            <presentation xmi:id="-x6K6zdVklh4CbhxTeVvYew" href="uma://-x6K6zdVklh4CbhxTeVvYew#-x6K6zdVklh4CbhxTeVvYew"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8eQ-YPWeEeC-OfQYYSW77w" name="release_info" guid="_8eQ-YPWeEeC-OfQYYSW77w" presentationName="Release Info">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="__-Y2MPWeEeC-OfQYYSW77w" name="release_info_prod_release" guid="__-Y2MPWeEeC-OfQYYSW77w" presentationName="Practice: Production Release" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-8kqk1tE8R96b88T_NC7SoQ" href="uma://-8kqk1tE8R96b88T_NC7SoQ#-8kqk1tE8R96b88T_NC7SoQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_mYfo_eCIEeC1y_NExchKwQ" name="CapabilityPatterns" guid="_mYfo_eCIEeC1y_NExchKwQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_mYfo_uCIEeC1y_NExchKwQ" name="DeliveryProcesses" guid="_mYfo_uCIEeC1y_NExchKwQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_mYfo_-CIEeC1y_NExchKwQ" name="ProcessContributions" guid="_mYfo_-CIEeC1y_NExchKwQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="uma://_ji3-gEMXEdyP_Jn83ylwUQ#_ji3-gEMXEdyP_Jn83ylwUQ"/>
+    <bases href="uma://_Q_mBoGphEd24CboUCnKL3A#_Q_mBoGphEd24CboUCnKL3A"/>
+    <bases href="uma://_Qyp8YGpiEd24CboUCnKL3A#_Qyp8YGpiEd24CboUCnKL3A"/>
+    <bases href="uma://_-bv0ELXuEduGP_98XMd0fg#_-bv0ELXuEduGP_98XMd0fg"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

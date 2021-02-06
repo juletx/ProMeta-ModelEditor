@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-G9dXZH2IkpWGi4NZK-2vEw" name="new_term_definition,_eqw94MaFEduMlb2cQZNTYw" guid="-G9dXZH2IkpWGi4NZK-2vEw" changeDate="2007-12-05T10:01:49.000-0800" version="7.2.0">
+  <mainDescription>Used to categorize content based on the user's criteria. One important use is for constructing &lt;a&#xD;
+class=&quot;elementLinkWithUserText&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/view_953B6A0D.html&quot;&#xD;
+guid=&quot;_GH6WUMaJEduMlb2cQZNTYw&quot;>views&lt;/a>&amp;nbsp;for publishing.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

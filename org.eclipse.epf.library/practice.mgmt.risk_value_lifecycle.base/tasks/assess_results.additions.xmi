@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-EYuybNBtVpvW4i5T_j805w" name="assess_results.additions,_g4iB8L8HEdyWX5Yd-9QZ1A" guid="-EYuybNBtVpvW4i5T_j805w" version="7.2.0">
+  <sections xmi:id="_uYLJAOFYEdyhmsbt0Xyl8A" name="Perform a retrospective (end of phase)" guid="_uYLJAOFYEdyhmsbt0Xyl8A">
+    <sectionDescription>&lt;p>&#xD;
+    When the assessment period coincides with the end of a phase, the corresponding milestone review takes place. These are&#xD;
+    informal reviews of the work accomplished where the team and stakeholders agree on moving the project on to the next&#xD;
+    phase, spanning a set of iterations with a new common goal in accordance with the emphasis of the following phase. For&#xD;
+    more information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/phase_milestones_5678231E.html&quot;&#xD;
+    guid=&quot;_HNxbwMBJEdqSgKaj2SZBmg&quot;>Concept: Phase Milestones&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

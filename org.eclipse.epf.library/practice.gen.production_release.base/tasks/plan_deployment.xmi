@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-QqCVewwu8buOCXKRukpf5g" name="03_create_update_deployment_plan,_FR0_0DHNEeC7j_IRiP-WPQ" guid="-QqCVewwu8buOCXKRukpf5g" changeDate="2012-05-30T14:20:09.505-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Because a deployment engineer is responsible for accepting the results of one or more development team members and&#xD;
+    deploying those integrated releases into the production environment, it is important for all parties to agree on the&#xD;
+    details of a particular release. The deployment plan documents, in one place, all the information that will be consumed&#xD;
+    by the deployment engineer before and during the deployment to production of a particular release package.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_IAJ9E-B-EeC1y_NExchKwQ" name="Determine if deployment plan exists" guid="_IAJ9E-B-EeC1y_NExchKwQ">
+    <sectionDescription>Determine whether the development team has a deployment plan already written for a previous release. If so, part of that&#xD;
+plan might be reusable. If this is the development team's first release, another development team with a similar feature&#xD;
+set might have a plan that can be used as a starting point.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAJ9EuB-EeC1y_NExchKwQ" name="Develop the deployment plan (if applicable)" guid="_IAJ9EuB-EeC1y_NExchKwQ">
+    <sectionDescription>If a deployment plan does not exist, or one cannot be found to be used as a starting point, use the recommended format&#xD;
+documented in the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+href=&quot;./../../practice.gen.production_release.base/workproducts/deployment_plan_121938C3.html&quot;&#xD;
+guid=&quot;_IAJ9FeB-EeC1y_NExchKwQ&quot;>Artifact: Deployment Plan&lt;/a> and refer to the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+href=&quot;./../../practice.gen.production_release.base/guidances/checklists/deployment_plan_C4767691.html&quot;&#xD;
+guid=&quot;_IAG5weB-EeC1y_NExchKwQ&quot;>Checklist: Deployment Plan&lt;/a> to start and develop a deployment plan.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAJ9FOB-EeC1y_NExchKwQ" name="Update the deployment plan (if applicable)" guid="_IAJ9FOB-EeC1y_NExchKwQ">
+    <sectionDescription>If a deployment plan does exist that can be used as a baseline, review that plan and update, add, or delete information as&#xD;
+necessary. When the plan is done, it should reflect entirely the contents of the upcoming deployment only, not a release in&#xD;
+the past or one in the future. In other words, the deployment plan should be specific only to this release.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to ensure that the various aspects of deploying a release to production are considered and&#xD;
+understood between the development team and the deployment engineer.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

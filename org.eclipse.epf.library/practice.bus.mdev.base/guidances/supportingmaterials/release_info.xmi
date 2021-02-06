@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-nTT9dDA_7wXIt7w09kNZjg" name="release_info,_jrRzcKvnEd-7tZYmrs5WAg" guid="-nTT9dDA_7wXIt7w09kNZjg" changeDate="2010-09-20T09:16:49.156-0700" version="7.2.0">
+  <mainDescription>&lt;h3>&#xD;
+    EPF Base&#xD;
+&lt;/h3>&#xD;
+&lt;h4>&#xD;
+    1.5.1&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    This is the first version of this practice: it replaces the &quot;Method Authoring Method&quot; (MAM).&amp;nbsp;The new practice&#xD;
+    consolidates and updates authoring guidelines, and integrates the content into the EPF Practices library.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

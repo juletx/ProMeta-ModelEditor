@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-3fT4U_TQiQFAHZQp8_7GkQ" name="logical_data_model,_TI3JIBtsEdu_BZ3CL1I6hw" guid="-3fT4U_TQiQFAHZQp8_7GkQ" changeDate="2008-09-04T02:53:40.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_logical_data_model&quot; name=&quot;XE_logical_data_model&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>A logical data model or LDM is a graphical
+    representation of some of the business requirements and especially the concepts manipulated by the business member. LDM
+    is independent of the technology of implementation, and is mostly used&amp;nbsp;as a communication vehicle for the business
+    analyst and&amp;nbsp;to prepare the implementation of data models.&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>From the point of view of an object-oriented developer
+    data modeling is conceptually similar to class modeling. With data modeling you identify entity types whereas with
+    class modeling you identify classes.&amp;nbsp; Data attributes are assigned to entity type just as you would assign
+    attributes and operations to classes. Traditional data modeling is different from class modeling because it focuses
+    solely on data – class models allow you to explore both the behavior and data aspects of your domain, with a data model
+    you can only explore data issues.&lt;/span>&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot; />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>We use UML simple class diagram to represent
+    a&lt;/span> &lt;span style=&quot;mso-bidi-font-family: Arial&quot;>Logical Data Model&lt;/span> &lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>but&amp;nbsp;by applying&amp;nbsp;Agile's principle of multiple
+    models, it is possible to use other diagrams.&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot; />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    &lt;span style=&quot;mso-bidi-font-family: Arial&quot;>Logical Data Models&lt;/span> &lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>are used to explore the domain concepts, and their
+    relationships, of&amp;nbsp;the problem domain.&amp;nbsp; This could be done for the scope of a single project or for&amp;nbsp;the
+    entire enterprise.&amp;nbsp; LDMs depict the logical entity types, typically referred to simply as entity types, the data
+    attributes describing those entities, and the relationships between the entities.&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    &amp;nbsp;
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    Defining a logical data model prepare for future reuse, and help to build common definition of terms. This is one of
+    major building block for enterprise data model.
+&lt;/p></mainDescription>
+  <purpose>Data modeling is the act of exploring data-oriented structures.&amp;nbsp; Like other modeling artifacts data models can be used
+for a variety of purposes, from high-level conceptual models to physical data models.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9nGKwLekEd-D7YZN9NgldQ" guid="_9nGKwLekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__VqlYLekEd-D7YZN9NgldQ" id="-CGSI-WD83sE5swSmSDjAYA" uri="guidances/roadmaps/adopt_tdd_practice.xmi"/>
+    <resourceDescriptors xmi:id="__VzvULekEd-D7YZN9NgldQ" id="-UW-yTFk3AppqcGGU-Px63A" uri="tasks/implement_developer_tests.xmi"/>
+    <resourceDescriptors xmi:id="__WQbQLekEd-D7YZN9NgldQ" id="-H6ob8eA7gz_mOsk8ulSFMQ" uri="tasks/run_developer_tests.xmi"/>
+    <resourceDescriptors xmi:id="__WtHMLekEd-D7YZN9NgldQ" id="-UaDGd7K2rQIFMwCrDuqQKQ" uri="tasks/implement_solution.xmi"/>
+    <resourceDescriptors xmi:id="__W24MLekEd-D7YZN9NgldQ" id="-mItcFA1WMTAyJvkqMrXuMQ" uri="guidances/guidelines/test_driven_development.xmi"/>
+    <resourceDescriptors xmi:id="__W24MbekEd-D7YZN9NgldQ" id="-ykYi7xrRdC5O9qFXhU3doA" uri="guidances/concepts/collective_code_ownership.xmi"/>
+    <resourceDescriptors xmi:id="__XACILekEd-D7YZN9NgldQ" id="-nV4dgKPmOiwZnl6nUoKqQw" uri="guidances/practices/test_driven_dev.xmi"/>
+    <resourceDescriptors xmi:id="__XACIbekEd-D7YZN9NgldQ" id="-7ketKzGlDB1TVwsYHvVLfg" uri="guidances/guidelines/developer_testing.tdd.xmi"/>
+    <resourceDescriptors xmi:id="__XJzILekEd-D7YZN9NgldQ" id="-DAk3ahn7Yqi4DY4VKX5b7A" uri="guidances/supportingmaterials/using_tdd_in_context.xmi"/>
+    <resourceDescriptors xmi:id="__XJzIbekEd-D7YZN9NgldQ" id="-E53fUEmqkW0sT-FCrmpFDw" uri="guidances/supportingmaterials/release_info_test_driven_development.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_DZ1rEI7-Edy7q8CKc_B8eg" name="practice.tech.test_driven_development.base" guid="_DZ1rEI7-Edy7q8CKc_B8eg" presentationName="Test-Driven Development" briefDescription="This practice develops tests prior to implementing the code and uses those tests to drive the implementation." authors="Jim Ruehlin" changeDate="2008-01-25T02:22:48.000-0800">
+    <methodElementProperty xmi:id="_-gnM2rekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9m8ZwLekEd-D7YZN9NgldQ" name="Content" guid="_9m8ZwLekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9m8ZwbekEd-D7YZN9NgldQ" name="Categories" guid="_9m8ZwbekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9m8ZwrekEd-D7YZN9NgldQ" name="Domains" guid="_9m8ZwrekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9m8Zw7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9m8Zw7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9m8ZxLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9m8ZxLekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9m8ZxbekEd-D7YZN9NgldQ" name="WP Types" guid="_9m8ZxbekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9m8ZxrekEd-D7YZN9NgldQ" name="Tools" guid="_9m8ZxrekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9m8Zx7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9m8Zx7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9m8ZyLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9m8ZyLekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9m8ZybekEd-D7YZN9NgldQ" name="Hidden" guid="_9m8ZybekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9m8ZyrekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9m8ZyrekEd-D7YZN9NgldQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9m8Zy7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9m8Zy7ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iEvlIJMPEdyaRZQqSbPe-w" name="test_driven_development" guid="_iEvlIJMPEdyaRZQqSbPe-w" presentationName="Test Driven Development">
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_8yG48JRqEdyrdaw_xGakyw" name="adopt_tdd_practice" guid="_8yG48JRqEdyrdaw_xGakyw" presentationName="How to Adopt the Test Driven Development Practice" briefDescription="This roadmap describes how to adopt the test driven development (TDD) Practice." supportingMaterials="_vLvAUGjFEd2PJ-nlV-86WA">
+            <presentation xmi:id="-CGSI-WD83sE5swSmSDjAYA" href="uma://-CGSI-WD83sE5swSmSDjAYA#-CGSI-WD83sE5swSmSDjAYA"/>
+            <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_znlIcJR9EdyVKbgqUOtqQA" name="implement_developer_tests" guid="_znlIcJR9EdyVKbgqUOtqQA" presentationName="Implement Developer Tests" briefDescription="Implement one or more tests to verify an implementation element.">
+            <methodElementProperty xmi:id="_0dYcMANgEeKgIrW2BoUv0Q" name="me_edited" value="true"/>
+            <presentation xmi:id="-UW-yTFk3AppqcGGU-Px63A" href="uma://-UW-yTFk3AppqcGGU-Px63A#-UW-yTFk3AppqcGGU-Px63A"/>
+            <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
+            <mandatoryInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
+            <output href="uma://_OOB2AAouEdyhlpBPrduOMw#_kh9FcJ02EdyQ3oTO93enUw"/>
+            <optionalInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_IcQOUEqdEdyi3_jfs__bIQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_R7atwJfIEdyZkIR-s-Y8wQ" name="run_developer_tests" guid="_R7atwJfIEdyZkIR-s-Y8wQ" presentationName="Run Developer Tests" briefDescription="Run tests against the individual implementation elements to verify that their internal structures work as specified.">
+            <presentation xmi:id="-H6ob8eA7gz_mOsk8ulSFMQ" href="uma://-H6ob8eA7gz_mOsk8ulSFMQ#-H6ob8eA7gz_mOsk8ulSFMQ"/>
+            <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
+            <mandatoryInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
+            <mandatoryInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_kh9FcJ02EdyQ3oTO93enUw"/>
+            <output href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZlSsMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Ht-z8JfJEdyZkIR-s-Y8wQ" name="implement_solution" guid="_Ht-z8JfJEdyZkIR-s-Y8wQ" presentationName="Implement Solution" briefDescription="Implement source code to provide new functionality or fix defects.">
+            <presentation xmi:id="-UaDGd7K2rQIFMwCrDuqQKQ" href="uma://-UaDGd7K2rQIFMwCrDuqQKQ#-UaDGd7K2rQIFMwCrDuqQKQ"/>
+            <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_Poc7IPDzEdqYgerqi84oCA"/>
+            <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_mlKb8JyJEdy9brKHb521mQ"/>
+            <mandatoryInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_IcQOUEqdEdyi3_jfs__bIQ"/>
+            <mandatoryInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+            <output href="uma://_OOB2AAouEdyhlpBPrduOMw#_JqYbgJ01EdyQ3oTO93enUw"/>
+            <optionalInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
+            <optionalInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_kh9FcJ02EdyQ3oTO93enUw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_5s_DUJ03EdyQ3oTO93enUw" name="test_driven_development" guid="_5s_DUJ03EdyQ3oTO93enUw" presentationName="Test Driven Development" briefDescription="This guideline explains how to apply test driven design.">
+            <presentation xmi:id="-mItcFA1WMTAyJvkqMrXuMQ" href="uma://-mItcFA1WMTAyJvkqMrXuMQ#-mItcFA1WMTAyJvkqMrXuMQ"/>
+            <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
+            <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_Poc7IPDzEdqYgerqi84oCA"/>
+            <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_YNx2sJ05EdyQ3oTO93enUw"/>
+            <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_ByOd4O6pEduvoopEslG-4g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_xYMPoCZnEdyUaK463Ozu5g" name="collective_code_ownership" guid="_xYMPoCZnEdyUaK463Ozu5g" presentationName="Collective Code Ownership" briefDescription="This concept explains the value of an atmosphere where any team member can change any piece of code in the system.">
+            <presentation xmi:id="-ykYi7xrRdC5O9qFXhU3doA" href="uma://-ykYi7xrRdC5O9qFXhU3doA#-ykYi7xrRdC5O9qFXhU3doA"/>
+            <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_aGqAsJ01EdyQ3oTO93enUw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2ZPqEKhNEdymmoKrEVbjiw" name="implementation.tdd" guid="_2ZPqEKhNEdymmoKrEVbjiw" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_OOB2AAouEdyhlpBPrduOMw#_JqYbgJ01EdyQ3oTO93enUw"/>
+            <fulfills href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_FUDtMB4mEd2bS8fFOQ7WWA" name="test_driven_dev" guid="_FUDtMB4mEd2bS8fFOQ7WWA" presentationName="Test Driven Development" briefDescription="This practice describes an approach to development in which test cases are defined first, then code is developed to pass the tests.">
+            <presentation xmi:id="-nV4dgKPmOiwZnl6nUoKqQw" href="uma://-nV4dgKPmOiwZnl6nUoKqQw#-nV4dgKPmOiwZnl6nUoKqQw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_aGqAsJ01EdyQ3oTO93enUw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_xYMPoCZnEdyUaK463Ozu5g"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_Poc7IPDzEdqYgerqi84oCA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_OOB2AAouEdyhlpBPrduOMw#_ByOd4O6pEduvoopEslG-4g"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_OOB2AAouEdyhlpBPrduOMw#_YNx2sJ05EdyQ3oTO93enUw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_OOB2AAouEdyhlpBPrduOMw#_mlKb8JyJEdy9brKHb521mQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_5s_DUJ03EdyQ3oTO93enUw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_OOB2AAouEdyhlpBPrduOMw#_kh9FcJ02EdyQ3oTO93enUw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_OOB2AAouEdyhlpBPrduOMw#_JqYbgJ01EdyQ3oTO93enUw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_znlIcJR9EdyVKbgqUOtqQA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_Ht-z8JfJEdyZkIR-s-Y8wQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_R7atwJfIEdyZkIR-s-Y8wQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_8yG48JRqEdyrdaw_xGakyw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="#_vLvAUGjFEd2PJ-nlV-86WA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_PnYQMCnkEd2W590fuUWNqw" name="implementation_refactoring.tdd" guid="_PnYQMCnkEd2W590fuUWNqw" variabilityType="contributes" guidelines="_5s_DUJ03EdyQ3oTO93enUw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_OOB2AAouEdyhlpBPrduOMw#_YNx2sJ05EdyQ3oTO93enUw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_zDI-MCnkEd2W590fuUWNqw" name="developer_testing.tdd" guid="_zDI-MCnkEd2W590fuUWNqw" variabilityType="contributes" guidelines="_5s_DUJ03EdyQ3oTO93enUw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_T_ylcCnlEd2W590fuUWNqw" name="developer_testing.tdd" guid="_T_ylcCnlEd2W590fuUWNqw" variabilityType="contributes" guidelines="_5s_DUJ03EdyQ3oTO93enUw">
+            <presentation xmi:id="-7ketKzGlDB1TVwsYHvVLfg" href="uma://-7ketKzGlDB1TVwsYHvVLfg#-7ketKzGlDB1TVwsYHvVLfg"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_OOB2AAouEdyhlpBPrduOMw#_ByOd4O6pEduvoopEslG-4g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_vLvAUGjFEd2PJ-nlV-86WA" name="using_tdd_in_context" guid="_vLvAUGjFEd2PJ-nlV-86WA" presentationName="Using TDD in context" briefDescription="This is one example of how the TDD practice can be used in conjunction with other practices in a development process.">
+            <presentation xmi:id="-DAk3ahn7Yqi4DY4VKX5b7A" href="uma://-DAk3ahn7Yqi4DY4VKX5b7A#-DAk3ahn7Yqi4DY4VKX5b7A"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_IFk7wGmXEd2wW88Ut0zE5w" name="release_info" guid="_IFk7wGmXEd2wW88Ut0zE5w" presentationName="Release Information">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="__dz3oMuIEdyRPtFYRAKVDg" name="release_info_test_driven_development" guid="__dz3oMuIEdyRPtFYRAKVDg" presentationName="Practice: Test Driven Development" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-E53fUEmqkW0sT-FCrmpFDw" href="uma://-E53fUEmqkW0sT-FCrmpFDw#-E53fUEmqkW0sT-FCrmpFDw"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9m8ZzLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9m8ZzLekEd-D7YZN9NgldQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9m8ZzbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9m8ZzbekEd-D7YZN9NgldQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9m8ZzrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9m8ZzrekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_-bv0ELXuEduGP_98XMd0fg#_-bv0ELXuEduGP_98XMd0fg"/>
+    <bases href="uma://_OOB2AAouEdyhlpBPrduOMw#_OOB2AAouEdyhlpBPrduOMw"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

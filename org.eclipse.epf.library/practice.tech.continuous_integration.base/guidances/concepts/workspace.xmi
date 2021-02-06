@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_Dfmk8MPiEdmbOvqy4O0adg" name="workspace,_0cEmAMlgEdmt3adZL5Dmdw" guid="_Dfmk8MPiEdmbOvqy4O0adg" changeDate="2006-09-21T00:22:51.000-0700" version="1.0.0">
+  <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
+    On small teams, shared workspaces may work fine, but you must coordinate activities between team members to avoid&#xD;
+    conflicts.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    A better approach is for each developer to have a reasonably private area for the development and testing of their work&#xD;
+    products. This workspace should be insulated&amp;nbsp;so that destabilizing or conflicting changes made by others do not&#xD;
+    interfere with&amp;nbsp;progress. However, it should&amp;nbsp;not be isolated to the extent that&amp;nbsp;the developer's work is&#xD;
+    unavailable to the team.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    In addition, insulated&amp;nbsp;workspaces can be created for each test phase, such as integration testing and system&#xD;
+    testing. This approach to workspaces provides several benefits &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../../core.tech.common.base/guidances/supportingmaterials/references.tech_6CCF393.html&quot;&#xD;
+    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;>[WIB04]&lt;/a>:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;p>&#xD;
+            Developers can develop, test, and debug software changes without being affected by others team&#xD;
+            members'&amp;nbsp;changes until they are ready. When ready, developers can update their insulated environments to&#xD;
+            test the latest changes from other developers.&#xD;
+        &lt;/p>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;p>&#xD;
+            With separate workspaces for integration and system testing, a team could use a methodology that ensures&#xD;
+            changes have passed integration testing before other developers get them, thereby minimizing the time spent&#xD;
+            solving integration problems.&amp;nbsp; For example, if two team members check in incompatible changes without&#xD;
+            realizing it, and both changes are immediately available to everyone on the team, all team members&amp;nbsp;might&#xD;
+            waste time trying to resolve the broken build. Conversely, if both changes must pass integration testing before&#xD;
+            being distributed to others, the problem could be found and fixed by one person with minimal disruption to the&#xD;
+            team.&#xD;
+        &lt;/p>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;p>&#xD;
+            By setting up an integration area to collect and build the latest changes, the team can integrate early and&#xD;
+            often. That is a well-known best practice for reducing overall cost and time to deliver software projects.&#xD;
+        &lt;/p>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;p>&#xD;
+            The system test area, which is used for preparing releases, is insulated from developers' ongoing changes and&#xD;
+            contains only configurations that have passed integration testing. This lets you control the content of the&#xD;
+            release while still enabling developers to continue working.&#xD;
+        &lt;/p>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

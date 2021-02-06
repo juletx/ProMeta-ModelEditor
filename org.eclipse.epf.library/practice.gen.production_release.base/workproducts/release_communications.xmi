@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-wHkXWtQxFeicCBDHK-f7xg" name="release_communications,_pQGOYGPoEeCXEsUUiTbOuQ" guid="-wHkXWtQxFeicCBDHK-f7xg" changeDate="2012-05-30T14:28:28.971-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Sometimes, depending on the product user base, separate communiques might need to be prepared for each stakeholder&#xD;
+    group. In that case, this artifact should specify the different groups to which communications are directed, the method&#xD;
+    of communication (e.g., email, text or pager message, bulletin, newsletter, phone message, etc.). All communiques&#xD;
+    should be prepared in advance so that it is a matter of disseminating information when the release to production has&#xD;
+    been determined to be successful.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Also included in this artifact is a listing of the responsible parties who will execute the communications when a&#xD;
+    successful release has been declared (normally the Deployment Engineer), as well as the timing and dependencies of the&#xD;
+    communiques.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While there is no prescribed format for the release communications artifact, each communique should indicate the&#xD;
+    preferred delivery mechanisms (for example: beeper notification, telephone calls, a posting to an internal release&#xD;
+    website, live or pre-recorded presentations by senior management, etc.). This artifact generally answers the following&#xD;
+    questions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Who are the parties (stakeholders) that are interested in knowing that a release to production has taken place?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What specifically (features, functions, components) has been placed into production?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Why is this release valuable to stakeholders and what business purpose does it serve?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Where is the product available (on which platforms, geographical locations, business units, etc.)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How can the stakeholders access the system and under what circumstances?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When was the product released (or when will it be released if the release date is in the future)?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <purpose>The purpose of this work product is to inform all the various stakeholders that a release to production has taken place and&#xD;
+the implemented features are now generally available.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-4VJ_0upihz-bR7VRlm63Vw" name="risk_list,_Ckay8Cc_EduIsqH1Q6ZuqA" guid="-4VJ_0upihz-bR7VRlm63Vw" changeDate="2008-09-15T01:32:19.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    This list identifies, in decreasing order of priority, all the &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.base/guidances/termdefinitions/risk_33255339.html&quot;&#xD;
+    guid=&quot;_ii2LUEvGEdunZcj9T5hrMQ&quot;>risks&lt;/a> associated to a project.&amp;nbsp;It serves as a focal point for project&#xD;
+    activities, and is the basis around which iterations are organized.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot;&#xD;
+    guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>Concept: Risk&lt;/a>&amp;nbsp;for more details.&lt;!--EndFragment-->&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    This list should capture the critical and serious risks. If you find this list extending beyond 20 items, carefully&#xD;
+    consider whether they are really serious risks. Tracking more than 20 risks is an onerous task.&#xD;
+&lt;/p></keyConsiderations>
+  <purpose>To&amp;nbsp;capture the perceived risks to the success of the project.</purpose>
+  <impactOfNotHaving>If risks are not identified, then the required mitigation strategies will not be in place, and&amp;nbsp;any adverse events that&#xD;
+do occur on a project will have to be dealt with in an ad-hoc manner.&amp;nbsp; Undocumented risks that do occur are also more&#xD;
+likely to impact the overall schedule and quality of the solution</impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    Unless there are no risks, or very minimal ones, there is no reason not to produce this artifact.&#xD;
+&lt;/p></reasonsForNotNeeding>
+  <representationOptions>&lt;p>&#xD;
+    A representation option for the risk list is to capture it as a section in the coarse-grained plan for the project.&#xD;
+    This means the coarse-grained plan has to be revisited constantly as you update risks. The fine-grained plans will&#xD;
+    contain only the tasks that you will be doing to mitigate risks in the short term.&#xD;
+&lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

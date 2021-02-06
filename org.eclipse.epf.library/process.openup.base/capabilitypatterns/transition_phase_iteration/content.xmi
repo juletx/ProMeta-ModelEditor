@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-ybGHhzGQT4fXY7TTaBPxug" name="transition_phase_iteration,_pzQU0dONEdyqlogshP8l4g" guid="-ybGHhzGQT4fXY7TTaBPxug" version="7.2.0">
+  <mainDescription>&lt;p>
+    In the Transition phase, the main objectives are to fine-tune the functionality, performance, and overall quality of
+    the beta product from the end of the Construction phase.
+&lt;/p>
+&lt;p>
+    The following table summarizes the&amp;nbsp;Transition phase objectives and&amp;nbsp;what activities address each objective:
+&lt;/p>
+&lt;p align=&quot;center&quot;>
+    &lt;strong>Transition phase objectives and activities&lt;/strong>&lt;br />
+    &lt;br />
+&lt;/p>
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;648&quot; align=&quot;center&quot; border=&quot;1&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;b>Phase objectives&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;b>Activities that address objectives&lt;/b>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot; height=&quot;62&quot;>
+                Beta test to validate that user expectations are met
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/ongoing_tasks_CA154C21.html&quot; guid=&quot;__ZInMdOEEdyqlogshP8l4g&quot;>Ongoing Tasks&lt;/a>
+                &lt;/p>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/develop_solution_4FBB0E6E.html&quot; guid=&quot;_RXGoodOFEdyqlogshP8l4g&quot;>Develop Solution Increment&lt;/a>
+                &lt;/p>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/test_solution_D16D88FC.html&quot; guid=&quot;_buG4sdOFEdyqlogshP8l4g&quot;>Test Solution&lt;/a>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                Achieve stakeholder concurrence that deployment is complete
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                &lt;p>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/plan_manage_iteration_F9713A62.html&quot; guid=&quot;_oZgCsdOEEdyqlogshP8l4g&quot;>Plan and Manage Iteration&lt;/a>
+                &lt;/p>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/test_solution_D16D88FC.html&quot; guid=&quot;_buG4sdOFEdyqlogshP8l4g&quot;>Test Solution&lt;/a>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                Improve future project performance through lessons learned
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/plan_manage_iteration_F9713A62.html&quot; guid=&quot;_oZgCsdOEEdyqlogshP8l4g&quot;>Plan and Manage Iteration&lt;/a>
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>&lt;br />
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ProcessDescription>

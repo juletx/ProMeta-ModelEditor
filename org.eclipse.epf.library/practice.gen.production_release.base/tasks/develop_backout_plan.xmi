@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Z_sfrl6NWP_8GKlFeHrrgg" name="04_create_update_backout_plan,_2F7n8DHNEeC7j_IRiP-WPQ" guid="-Z_sfrl6NWP_8GKlFeHrrgg" changeDate="2011-07-28T12:18:22.207-0700" version="7.5.1">
+  <mainDescription>A rollback might be needed for a variety of reasons, including corruption of the production code base, inoperable&#xD;
+components, an unplanned undesirable effect of the release on other production systems, an unhappy customer, etc.&#xD;
+The&amp;nbsp;Development team should provide the production support organization with a specific plan and decision criteria&#xD;
+made available to them to avoid or minimize service interruptions.</mainDescription>
+  <sections xmi:id="_IAIu9eB-EeC1y_NExchKwQ" name="Determine if backout plan exists" guid="_IAIu9eB-EeC1y_NExchKwQ">
+    <sectionDescription>Determine whether the development team has a backout plan already written for a previous release. If so, part of that plan&#xD;
+might be reusable. If this release is the development team's first, another development team with a similar feature set&#xD;
+might have a plan that can be used as a starting point.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAIu8-B-EeC1y_NExchKwQ" name="Develop the backout plan (if applicable)" guid="_IAIu8-B-EeC1y_NExchKwQ">
+    <sectionDescription>If a backout plan does not exist, or one cannot be found to be used as a starting point, answer the questions documented in&#xD;
+the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+href=&quot;./../../practice.gen.production_release.base/workproducts/backout_plan_DC0D7247.html&quot;&#xD;
+guid=&quot;_IAHg2eB-EeC1y_NExchKwQ&quot;>Artifact: Backout Plan&lt;/a> to start and develop a backout plan.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAIu9OB-EeC1y_NExchKwQ" name="Update the backout plan (if applicable)" guid="_IAIu9OB-EeC1y_NExchKwQ">
+    <sectionDescription>If a backout plan does exist that can be used as a baseline, review that plan and update, add, or delete information as&#xD;
+necessary. When the plan is completed, it should reflect entirely the contents of the upcoming deployment only, not a&#xD;
+release in the past or one in the future. In other words, the backout plan should be specific only to this release.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to develop the criteria, procedures, and responsibilities associated with rolling back a&#xD;
+specific release into the production environment to prevent or minimize interruptions to other products or services.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

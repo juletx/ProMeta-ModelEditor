@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-QmIvs-rs3Fiyg7PVRx2IvQ" name="new_roadmap,_irQiEOCsEdynptYdmll41Q" guid="-QmIvs-rs3Fiyg7PVRx2IvQ" changeDate="2008-10-15T09:15:06.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;strong>Getting Started&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Begin by gaining an understanding of&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/pattern_10BE6D96.html&quot;&#xD;
+    guid=&quot;_0YJvUMlgEdmt3adZL5Dmdw&quot;>design patterns&lt;/a>. There are good references in the Additional&amp;nbsp;Information&#xD;
+    section of the&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.tech.evolutionary_design.base/guidances/practices/evolutionary_design_DE27D8D9.html&quot;&#xD;
+    guid=&quot;_aSVhIB4qEd2bS8fFOQ7WWA&quot;>Evolutionary Design&lt;/a>&amp;nbsp;page. Patterns are essential to creating, managing, and&#xD;
+    evolving designs. As the name implies, evolutionary design involves returning to the existing design over and over&#xD;
+    again to refine, change, and improve previous thinking. It can be performed at the beginning of a development cycle&#xD;
+    (before implementation), during a development cycle (while implementing code), after the cycle (when the developer&#xD;
+    tests have&amp;nbsp;successfully executed), or any combination of these. The team should determine where in the development&#xD;
+    cycle the design will be performed. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../practice.tech.evolutionary_design.base/tasks/design_solution_A97CE9EA.html&quot;&#xD;
+    guid=&quot;_0fshwMlgEdmt3adZL5Dmdw&quot;>Task: Design the Solution&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Understand &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/refactoring_1B63BA3B.html&quot;&#xD;
+    guid=&quot;_Poc7IPDzEdqYgerqi84oCA&quot;>refactoring&lt;/a> and the difference between code refactoring and design refactoring.&#xD;
+    There is no exact boundary separating the two, but there are some clear areas where the developer will wear the &quot;design&#xD;
+    hat&quot; when reworking the design into a better structure. These areas will usually involve identifying where design&#xD;
+    patterns can replace or enhance the existing design, or areas of the design where patterns can be identified and&#xD;
+    harvested for reuse.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Common pitfalls&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Evolutionary design emerges from refactoring existing design. This improves the design without changing the behavior of&#xD;
+    the system. Failing to perform developer or unit testing is a high risk activity, as you can not guarantee that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The original design works correctly&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The refactored design works correctly&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Therefore, you must perform rigorous &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/developer_testing_FEBDAED6.html&quot;&#xD;
+    guid=&quot;_ADwlAJRtEdyrdaw_xGakyw&quot;>developer testing&lt;/a> in order to verify the robustness of the design. Otherwise, you&#xD;
+    may waste a lot of time refactoring something that does not work, or refactoring the correct behavior out of the&#xD;
+    system.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

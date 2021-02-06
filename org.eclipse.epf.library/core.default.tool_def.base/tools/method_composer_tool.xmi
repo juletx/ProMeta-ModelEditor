@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-8L-j0rJzgDkBNd0igOyN0A" name="method_composer_tool,_mHQIMMYbEdyXeo04os5BOw" guid="-8L-j0rJzgDkBNd0igOyN0A" changeDate="2008-08-01T03:37:56.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Method Composer is generic term that is used to apply to EPF Composer and its extensions, such as Rational (R) Method&#xD;
+    Composer.&amp;nbsp; Method Composer has two purposes:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    1. To provide a knowledge base of intellectual capital.&amp;nbsp; This knowledge base can be used for reference and&#xD;
+    education.&amp;nbsp; It can be used to communicate best practices across an organization in a consistent form.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2. To provide process engineering capabilities by supporting process engineers and project managers in selecting,&#xD;
+    tailoring, and rapidly assembling processes for different kinds of development projects. Method Composer provides&#xD;
+    catalogs of pre-defined processes for typical project situations that can be adapted to individual needs. It also&#xD;
+    provides process building blocks that represent best development practices for specific disciplines, technologies, or&#xD;
+    development styles. These building blocks form a toolkit for quickly assembling processes based on project specific&#xD;
+    needs. The resulting processes created with Method Composer can be published and deployed as Web sites.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more&amp;nbsp;information on the Eclipse Process Framework (EPF) project and on EPF Composer, see &lt;a&#xD;
+    class=&quot;elementLink&quot; href=&quot;./../../core.default.tool_def.base/guidances/supportingmaterials/epf_resources_446F3946.html&quot;&#xD;
+    guid=&quot;_C2FS4F_lEd2zpKtX6B7lBg&quot;>EPF Resources&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For additional information on Rational Method Composer, see &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.default.tool_def.base/guidances/supportingmaterials/rational_method_composer_resources_ADE2B192.html&quot;&#xD;
+     guid=&quot;_dlGBQF_nEd2zpKtX6B7lBg&quot;>Rational Method Composer Resources&lt;/a>.&#xD;
+&lt;/p>&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-JZkT6zDhNVbrcXx8vHOvBQ" name="new_template,_vb78EF3dEd-8pIBWBGuz7w" guid="-JZkT6zDhNVbrcXx8vHOvBQ" changeDate="2010-05-17T01:50:35.000-0700" version="7.5.0">
+  <mainDescription>&lt;h3 align=&quot;center&quot;>
+    &amp;lt;Project Name&amp;gt; - Development Case
+&lt;/h3>
+&lt;h3>
+    1. Introduction
+&lt;/h3>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[The introduction of the &lt;b>Development Case&lt;/b> provides an overview of the entire document.
+    It includes the purpose, scope, definitions, acronyms, abbreviations, references, and overview of this Development
+    Case.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;h4 class=&quot;Section2&quot;>
+    1.1 Purpose
+&lt;/h4>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[Specify the purpose of this &lt;b>Development Case.&lt;/b>]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;h4 class=&quot;Section2&quot;>
+    1.2 Scope
+&lt;/h4>
+&lt;p>
+    &lt;font color=&quot;#0000ff&quot;>&lt;em>[A brief description of the scope of this &lt;b>Development Case&lt;/b>; what Project(s) it is
+    associated with and anything else that is affected or influenced by this document.]&lt;/em>&lt;/font>
+&lt;/p>
+&lt;h4>
+    1.3 Definitions, Acronyms, and Abbreviations
+&lt;/h4>
+&lt;p>
+    &lt;font color=&quot;#0000ff&quot;>&lt;em>[This subsection provides the definitions of all terms, acronyms, and abbreviations required
+    to properly interpret the &lt;b>Development Case&lt;/b>. This information may be provided by reference to the project's
+    Glossary.]&lt;/em>&lt;/font>
+&lt;/p>
+&lt;h4>
+    1.4 References
+&lt;/h4>
+&lt;p>
+    &lt;font color=&quot;#0000ff&quot;>&lt;em>[This section is &lt;b>optional&lt;/b>. Alternatively to having an explicit references section
+    using the table below, write down the full name of the document you are referring to in-line with the text where if
+    first appears, then add a hyperlink to the location where the referenced element is stored, and add a acronym (between
+    parenthesis) right after the first appearance of that reference. On subsequent appearances of that reference, use the
+    acronym only.&lt;/em>&lt;/font>
+&lt;/p>
+&lt;p>
+    &lt;font color=&quot;#0000ff&quot;>&lt;em>If you use this section, provide a complete list of all documents referenced elsewhere in the
+    &lt;b>Development Case&lt;/b>. Identify each document by title, report number (if applicable), date, and publishing
+    organization. Specify the sources from which the references can be obtained. This information may be provided by
+    reference to an appendix or to another document.&lt;/em>&lt;/font>
+&lt;/p>
+&lt;p>
+    &lt;font color=&quot;#0000ff&quot;>&lt;em>NOTE: Be sure to include a reference to the version of the organizational process this
+    development case is based on.]&lt;/em>&lt;/font>
+&lt;/p>
+&lt;div class=&quot;Section2&quot;>
+    &lt;table class=&quot;MsoTableGrid&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;>
+        &lt;thead>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;208&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>Reference Name&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;211&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>Owner/Author&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;208&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>Where Stored&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+        &lt;/thead>
+        &lt;tbody>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;208&quot;>
+                    &lt;p>
+                        &lt;em>&lt;font color=&quot;#0000ff&quot;>[Source Process: Identify the process you are using as the base for this
+                        development case.]&lt;/font>&lt;/em>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;211&quot;>
+                    &lt;br />
+                    &lt;br />
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;208&quot;>
+                    &lt;br />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;208&quot;>
+                    &lt;p>
+                        &lt;em>&lt;font color=&quot;#0000ff&quot;>[Identify the Work Products Addendum to this development case - if
+                        addendum is used.]&lt;/font>&lt;/em>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;211&quot;>
+                    &lt;br />
+                    &lt;br />
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;208&quot;>
+                    &lt;br />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;208&quot;>
+                    &lt;br />
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;211&quot;>
+                    &lt;br />
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;208&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;208&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;211&quot;>
+                    &lt;br />
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;208&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div>
+&lt;h4>
+    1.5 Overview
+&lt;/h4>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[This subsection describes what the rest of the &lt;b>Development Case&lt;/b> contains and explains
+    how the document is organized.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;h3>
+    2. Overview of the Development Case
+&lt;/h3>
+&lt;h4>
+    2.1 Lifecycle Model
+&lt;/h4>
+&lt;p>
+    &lt;font color=&quot;#0000ff&quot;>&lt;em>[Briefly describe the lifecycle model employed by the project including descriptions of the
+    milestones and their purpose. The purpose is to serve as an introduction to the rest of the development case, not to be
+    a project plan.]&lt;/em>&lt;/font>
+&lt;/p>
+&lt;h4>
+    2.2 Sample Iteration Plans
+&lt;/h4>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[&lt;b>This section is optional&lt;/b>. Include sample iteration plans if they will be helpful for
+    your project.&lt;/font>&lt;/em>
+&lt;/p>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>Your organizational process captured in Method Composer may provide capability patterns that
+    can serve as templates for phase iteration plans. Your organization may have included a delivery process in your
+    published version of the organizational process that can serve as a basis for your iteration plans.&lt;/font>&lt;/em>
+&lt;/p>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>If you are using a separate project management tool to create project plans, this section is
+    not needed.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;h4>
+    2.2.1 Inception Phase
+&lt;/h4>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[List the sample iteration plans used during Inception.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;h4>
+    2.2.2 Elaboration Phase
+&lt;/h4>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[List the sample iteration plans used during Elaboration.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;h4>
+    2.2.3 Construction Phase
+&lt;/h4>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[List the sample iteration plans used during Construction.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;h4>
+    2.2.4 Transition Phase
+&lt;/h4>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[List the sample iteration plans used during Transition.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;h3>
+    3. Workflow
+&lt;/h3>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[This section describes the workflow of each of the development phases in your project
+    lifecycle. For each phase, identify or describe the standard workflow that is used on this project. Following are some
+    suggested ways to identify or describe the standard workflow:&lt;/font>&lt;/em>
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;div>
+            &lt;em>&lt;font color=&quot;#0000ff&quot;>The delivery process in your published organizational process includes activity
+            diagrams for each development phase. You can copy and paste those diagrams here or describe how to locate them.
+            Use the 'Notes on Workflow' section to document differences for your project.&lt;/font>&lt;/em>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            &lt;em>&lt;font color=&quot;#0000ff&quot;>More difficult: rework the activity diagrams to accurately reflect the workflow that
+            your project follows. In this case, there is no need for the 'Notes on Workflow' section, so it can be
+            removed.]&lt;/font>&lt;/em>
+        &lt;/div>
+    &lt;/li>
+&lt;/ul>
+&lt;h4>
+    3.1 Inception Phase
+&lt;/h4>
+&lt;h5>
+    3.1.1 Notes on Inception Phase Workflow
+&lt;/h5>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[Describe any changes made to the standard workflow for this phase. Typical changes include
+    adding or removing activities or tasks to describe project-specific ways of working.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;h4>
+    3.2 Elaboration Phase
+&lt;/h4>
+&lt;h5>
+    3.2.1 Notes on Elaboration Phase Workflow
+&lt;/h5>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[Describe any changes made to the standard workflow for this phase. Typical changes include
+    adding or removing activities or tasks to describe project-specific ways of working.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;h4>
+    3.3 Construction Phase
+&lt;/h4>
+&lt;h5 class=&quot;Section2&quot;>
+    3.3.1 Notes on Construction Phase Workflow
+&lt;/h5>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[Describe any changes made to the standard workflow for this phase. Typical changes include
+    adding or removing activities or tasks to describe project-specific ways of working.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;h4>
+    3.4 Transition Phase
+&lt;/h4>
+&lt;h5>
+    3.4.1 Notes on Transition Phase Workflow
+&lt;/h5>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[Describe any changes made to the standard workflow for this phase. Typical changes include
+    adding or removing activities or tasks to describe project-specific ways of working.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;h3 style=&quot;PAGE-BREAK-BEFORE: always&quot;>
+    4. Work Products
+&lt;/h3>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[A work product is an artifact, outcome, or deliverable. Provide a list of work products to
+    be produced for the project, when the work product is created and completed, along with details of how the work product
+    is reviewed (when appropriate), who reviews and approves the work product (RACI responsibility matrix) what template is
+    used to create the work product, where the work product is kept or what tool is used to manage it. This can be
+    accomplished by embedding a work product addendum to the development case, such as in spreadsheet format.
+    Alternatively, you may use another method to provide the list of work products, either in this document or as an
+    addendum to this document.&lt;/font>&lt;/em>
+&lt;/p>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>Note that if you keep the work products to be produced separately from this document (for
+    example, using an addendum spreadsheet), you must be sure to maintain proper document control of the
+    information.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;p class=&quot;MsoBodyText&quot;>
+    NOTE: The work product addendum is considered to be a part of this development case. The two documents are reviewed and
+    approved as if they were one document.
+&lt;/p>
+&lt;h3>
+    5. Reports
+&lt;/h3>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[List any reports that are useful for this project. Describe who uses the report and how it
+    can be created.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;div class=&quot;Section2&quot;>
+    &lt;table class=&quot;MsoTableGrid&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;>
+        &lt;thead>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;209&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>Report&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;209&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>Audience&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;209&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>How Created/ Where Stored&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+        &lt;/thead>
+        &lt;tbody>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;209&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;209&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;209&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;209&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;209&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;209&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div>
+&lt;h3 style=&quot;PAGE-BREAK-BEFORE: always&quot;>
+    6. Roles
+&lt;/h3>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[This section is used for the following purposes:&lt;/font>&lt;/em>
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;div>
+            &lt;em>&lt;font color=&quot;#0000ff&quot;>To describe any changes in the set of roles; for example, it is common to refine the
+            role stakeholder into more than one role.&lt;/font>&lt;/em>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            &lt;em>&lt;font color=&quot;#0000ff&quot;>To map job positions in the organization to the roles in the organizational process.
+            The reason for this is that in some development organizations there are job positions defined. If these job
+            positions are commonly used and have a wide acceptance within the organization, it may be worth doing a mapping
+            between the roles in the process and the job positions in the organization. Mapping job positions to roles
+            makes it easier for people in the organization to understand how to employ the process. The mapping can also
+            help people understand that roles are not job positions, a common misconception.&lt;/font>&lt;/em>
+        &lt;/div>
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>Explanation of columns:&lt;/font>&lt;/em>
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;div>
+            &lt;em>&lt;font color=&quot;#0000ff&quot;>Role: Identify the roles used on your project. For example, it is common to refine
+            the role stakeholder into more than one role. You might need to add new roles or clarify how each role is used
+            in the organization by providing role names commonly used in your organization&lt;/font>&lt;/em>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            &lt;em>&lt;font color=&quot;#0000ff&quot;>Process Role: &lt;b>Y&lt;/b> if this is a role identified in the organizational process;
+            &lt;b>N&lt;/b> if it is not defined in the process.&lt;/font>&lt;/em>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            &lt;em>&lt;font color=&quot;#0000ff&quot;>Applicability: Use this column to map job positions in the organization to the roles
+            in the organizational process.&lt;/font>&lt;/em>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            &lt;em>&lt;font color=&quot;#0000ff&quot;>Responsibilities: Describe any differences in responsibilities in the organization
+            from those described in the process.]&lt;/font>&lt;/em>
+        &lt;/div>
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;Body&quot;>
+    NOTE: The assignment of specific individuals to particular roles or job positions is documented in the Project Plan.
+&lt;/p>
+&lt;div class=&quot;Section2&quot;>
+    &lt;table class=&quot;MsoTableGrid&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;631&quot; border=&quot;1&quot;>
+        &lt;thead>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;128&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>Role&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;57&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>Process Role&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;183&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>Applicability&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;263&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>Responsibilities Different from Process&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+        &lt;/thead>
+        &lt;tbody>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;bottom&quot; width=&quot;128&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;57&quot;>
+                    &lt;br />
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;183&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;263&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;bottom&quot; width=&quot;128&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;57&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;183&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;263&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div>
+&lt;h3>
+    7. Project-Specific Guidelines and Procedures
+&lt;/h3>
+&lt;p>
+    &lt;em>&lt;font color=&quot;#0000ff&quot;>[Identify any guidelines and procedures used by the project that are not included in the
+    organizational process. These should include any special review procedures, style or coding guidelines, etc. Modify the
+    suggested table to fit your needs.]&lt;/font>&lt;/em>
+&lt;/p>
+&lt;div class=&quot;Section2&quot;>
+    &lt;table class=&quot;MsoTableGrid&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;>
+        &lt;thead>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;167&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>Guideline or Procedure&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;151&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>Owner&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;159&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>Used by&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;161&quot; bgcolor=&quot;silver&quot;>
+                    &lt;p>
+                        &lt;b>Where Stored&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+        &lt;/thead>
+        &lt;tbody>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;167&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;151&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;159&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;161&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;167&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;151&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;159&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+                &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;161&quot;>
+                    &amp;nbsp;
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

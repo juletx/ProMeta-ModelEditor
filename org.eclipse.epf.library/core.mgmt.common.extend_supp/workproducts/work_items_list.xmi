@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-buxz4BVToq97bSxaqyjySg" name="work_items_list,_rGNWsCbSEdqh1LYUOGRh2A" guid="-buxz4BVToq97bSxaqyjySg" changeDate="2008-10-08T09:41:03.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    This artifact provides a focal point for the entire team:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        It provides one list containing all requests for additional capabilities or enhancement for that application. Note&#xD;
+        that some of these requests may never be implemented, or be implemented in later projects.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one list of all the work to be prioritized, estimated, and assigned within the project. The risk list&#xD;
+        is prioritized separately.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one place to go to for the development team to understand what&amp;nbsp;micro-increments&amp;nbsp;need to be&#xD;
+        delivered, get references to material required to carry out the work, and report progress made.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    These are the typical work items that go on this list:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Use cases (and references to use-case specifications)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Changes and enhancement requests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defects&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Development tasks&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Work items can be very large in scope, especially when capturing requests for enhancements, such as &quot;Support Financial&#xD;
+    Planning&quot; for a personal finance application. To allow the application to be developed in micro-increments, work items&#xD;
+    are analyzed and broken down into smaller work items so that they can be assigned to an iteration, such as a use-case&#xD;
+    scenario for&amp;nbsp;&quot;Calculate Net Worth&quot;. Further breakdown may be required to identify suitable tasks to be assigned to&#xD;
+    developers, such as &quot;Develop UI for Calculate Net Worth&quot;. This means that work items often have parent/child&#xD;
+    relationships, where the lowest level is a specification and tracking device for micro-increments.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Work Items should contain estimates. See guidelines on managing work items and agile estimation.&#xD;
+&lt;/p></keyConsiderations>
+  <purpose>To collect all requests for work that will potentially be taken on within the project, so that work can be prioritized,&#xD;
+effort estimated, and progress tracked.</purpose>
+  <impactOfNotHaving>Without this artifact, there is not a single place that provides a list of all of the work to be done and its current&#xD;
+status.&amp;nbsp; Individual team members may also be unclear as to&amp;nbsp;what work has been&amp;nbsp;assigned to them.</impactOfNotHaving>
+  <reasonsForNotNeeding>This artifact may not be needed&amp;nbsp;if the work assignments are going to be managed using a different technique or&#xD;
+artifact.</reasonsForNotNeeding>
+  <briefOutline>&lt;p>&#xD;
+    This artifact should consist of the following information for each work item:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Name and Description&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Priority&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Size Estimate&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        State&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        References&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Assigned work items should also contain the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Target Iteration or Completion Date&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assignee&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Estimated Effort Remaining&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Hours Worked&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></briefOutline>
+  <representationOptions>&lt;p>&#xD;
+    The recommended representation for the&amp;nbsp;work items list is to&amp;nbsp;capture it&amp;nbsp;as a separate artifact,&#xD;
+    represented by a spreadsheet or database table. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/guidances/examples/work_items_list_F527B77D.html&quot;&#xD;
+    guid=&quot;_nHomIDgzEdu4E8ZdmlYjtA&quot;>Example: Work Items List&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Alternatively, the work items list may be captured in tools such as project management, requirements management, or&#xD;
+    change request. In fact, the work items list may&amp;nbsp;be spread over several tools, as&amp;nbsp;you may choose to keep&#xD;
+    different types of work items in different repositories to take advantage of features in those tools.&amp;nbsp;For example,&#xD;
+    you could use a requirements composition or management tool to track information about requirements, and use another&#xD;
+    tool to capture defects.&amp;nbsp;Work items may start in one representation (such as in a spreadsheet) and move to more&#xD;
+    sophisticated tools over time, as the number of work items and the metrics you wish to gather grows more sophisticated.&#xD;
+&lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

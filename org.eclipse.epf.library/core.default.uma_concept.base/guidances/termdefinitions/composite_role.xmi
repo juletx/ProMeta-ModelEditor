@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-KNw2PnSSEEogCvg4sj1ebg" name="new_term_definition,_PzL7EMaEEduMlb2cQZNTYw" guid="-KNw2PnSSEEogCvg4sj1ebg" changeDate="2007-02-27T09:02:53.000-0800" version="7.2.0">
+  <mainDescription>A special role descriptor that relates to more than one &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/role_37A0C602.html&quot;&#xD;
+guid=&quot;_yUefQNnmEdmO6L4XMImrsA&quot;>role&lt;/a>. It represents a grouping of roles with the main purpose of reducing the number of&#xD;
+roles defined in method content for a process.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

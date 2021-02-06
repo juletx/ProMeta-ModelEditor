@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-GzNU7GgxpjyjNK83ohr32Q" name="discovery_workshop_itinerary,_tvA6oBtnEdu_BZ3CL1I6hw" guid="-GzNU7GgxpjyjNK83ohr32Q" changeDate="2008-09-04T05:35:11.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_discovery__workshop_itinerary&quot; name=&quot;XE_rule_discovery__workshop_itinerary&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>Goal:&lt;/b> &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-bidi-font-size: 12.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>These
+    series of Rule discovery workshops&lt;/span> are very important for the &amp;lt;&amp;gt; application, it will help:
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> To separate a rule as a manageable artifact
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> To trace rules from the origin to deployment
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> To link rules to business context
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> To develop the rule description using business term and natural business
+    language.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> To involve business user in the future ownership of the rules
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> To prepare for for the logical data model
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> To prepare the for the rule set implementation
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>Duration&lt;/b>: 2 hours per session
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>Facilities&lt;/b>: white board, pencil, paper; post it, UML tool like Enterprise
+    Architect, ISIS rule templates
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>Agenda&lt;/b>:
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> To formalize the rules using templates and business term and language
+    understood by the business user
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> To prepare the tests for the rules
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> To define the object model for the rule
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> Define the different types of rules, rule writing standards, structure rules
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0cm 0cm 0pt 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot;>
+    &lt;span style=&quot;FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+    style=&quot;mso-list: Ignore&quot;>·&lt;/span>&lt;/span> Address the rule management requirements around rule ownership, and rule
+    change requirements
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>Output:&lt;/b> rule set definition, logical data model
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>Invitees&lt;/b>:
+&lt;/p>
+&lt;div align=&quot;center&quot;>
+    &lt;table class=&quot;ISISTable&quot;
+    style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver&quot;
+     cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;>
+        &lt;tbody>
+            &lt;tr style=&quot;mso-yfti-irow: -1; mso-yfti-firstrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: gray 1pt solid; WIDTH: 241.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;322&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;strong>&lt;em>&lt;font face=&quot;Times New Roman&quot; color=&quot;#005DA0&quot;
+                        size=&quot;3&quot;>Business&lt;/font>&lt;/em>&lt;/strong>&amp;nbsp;
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 241.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;322&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0&quot;>&lt;font size=&quot;3&quot;>&lt;font face=&quot;Times New Roman&quot;>IT&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 0&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 241.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;322&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>Business Analyst&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 241.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;322&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>Rule analyst&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 1&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 241.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;322&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>SME&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 241.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;322&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>Rule writer&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 2&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 241.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;322&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>Lead developer&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 241.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;322&quot;>
+                    &lt;p>
+                        &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                        &lt;br />
+                        &amp;nbsp;
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 3; mso-yfti-lastrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 241.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;322&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: auto auto auto 36pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 241.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;322&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>Pre-requisites&lt;/b>: Decision point table, rule discovery roadmap, conceptual
+    data model
+&lt;/p></mainDescription>
+  <purpose>Use the following itinerary to invite the rule discovery actors&amp;nbsp;for the workshop sessions.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

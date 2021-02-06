@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_yGUuitnmEdmO6L4XMImrsA" name="discipline,_yGUuidnmEdmO6L4XMImrsA" guid="_yGUuitnmEdmO6L4XMImrsA" changeDate="2006-09-28T01:52:55.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Primary categorization mechanism for organizing&amp;nbsp;tasks that&amp;nbsp;define&amp;nbsp;a major 'area of concern' and/or&#xD;
+    cooperation of work effort.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

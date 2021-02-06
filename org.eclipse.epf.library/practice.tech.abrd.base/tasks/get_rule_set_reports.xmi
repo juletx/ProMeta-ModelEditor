@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Zf7BWTSjLSrv650HXb5Bvw" name=",_LGd_MFtvEdykEsBjRsVfZw" guid="-Zf7BWTSjLSrv650HXb5Bvw" authors="Jerome Boyer" changeDate="2011-09-02T08:37:47.489-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    There are multiple type of reports the rule team can analyze:&lt;a id=&quot;XE_rule_set__get_reports&quot;&#xD;
+    name=&quot;XE_rule_set__get_reports&quot;>&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The&amp;nbsp;query report to list the rules part of the rule set, rule flow, package, activate or not.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Static analysis of conflict resolution&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        rules execution report&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    S&lt;a id=&quot;1028579&quot; name=&quot;1028579&quot;>tatic rule analysis is a mechanism for checking whether the rules are semantically&#xD;
+    consistent. Inconsistencies can be found either in a single rule or in a set of rules&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For single rule the analysis will list the rule that never apply, when the conditions of the rule can never be met.&#xD;
+    This could happen when there is mis-used of and/or operator in combined conditions, or if the values in the conditions&#xD;
+    are not in the possible allowable values for a given attribute.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Evaluating rule inconsistency in a rule set leads to discover&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Equivalent rules:&amp;nbsp;rules with same conditions and&amp;nbsp;actions.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <purpose>Get different rule report to analyze the conformance to the expected results</purpose>
+</org.eclipse.epf.uma:TaskDescription>

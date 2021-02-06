@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:PracticeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-O5h7zCsZNfBqp61tzgV95Q" name="new_practice,_9FqrQB4sEd2bS8fFOQ7WWA" guid="-O5h7zCsZNfBqp61tzgV95Q" changeDate="2008-10-13T10:52:16.000-0700" version="7.5.0">
+  <additionalInfo>&lt;h3>&#xD;
+    Additional resources&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    For more information on the risk-value lifecycle approach, see the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Kruchten, P. &quot;&lt;a href=&quot;http://www.ibm.com/developerworks/rational/library/4626.html&quot;>Going Over the Waterfall with&#xD;
+        the RUP&lt;/a>&quot; (IBM developerWorks article, 2004)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Kroll, P. and&amp;nbsp;Kruchten, P. &lt;em>The Rational Unified Process Made Easy&lt;/em>, Addison Wesley, 2003. Chapters 5&#xD;
+        through 9.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></additionalInfo>
+  <problem>&lt;h3>&#xD;
+    Why adopt this practice?&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Project stakeholders look for&amp;nbsp;ways to understand and control project funding, scope, risk exposure, value&#xD;
+    provided, and other aspects of the project. While&amp;nbsp;project iterations deliver&amp;nbsp;product increments that show&#xD;
+    value delivered and show progress at a fine-grained level (meaning that work items are being addressed), they do not&#xD;
+    provide the necessary project oversight, transparency, and steering mechanisms at a coarse-grained level that allow&#xD;
+    stakeholders to make informed business decisions about the project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The organization of iterations into a set of&amp;nbsp;phases -- with a well-defined milestone at the end of each phase --&#xD;
+    provides the&amp;nbsp;structure that stakeholders and managers need to assess whether the objectives of the phase have been&#xD;
+    met and&amp;nbsp;whether the project should move on to the next phase or not. See &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/phase_milestones_5678231E.html&quot;&#xD;
+    guid=&quot;_HNxbwMBJEdqSgKaj2SZBmg&quot;>Phase Milestones&lt;/a>&amp;nbsp;for more&amp;nbsp;details.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    By addressing the goals and risks of each phase, the team has the opportunity to find the right balance between risk&#xD;
+    reduction and immediate value creation, which are two major drivers for stakeholders. See &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/project_lifecycle_203F87.html&quot;&#xD;
+    guid=&quot;_nSfVwCNYEdyCq8v2ZO4QcA&quot;>Project Lifecycle&lt;/a> for more information.&#xD;
+&lt;/p></problem>
+  <application>&lt;p>&#xD;
+    The best way to read this practice is to first familiarize yourself with its overall structure: what it is in it and&#xD;
+    how it is organized.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Start with understanding what phases are and how they relate to iterations.&amp;nbsp;Understand what phase milestones mean&#xD;
+    and the questions that they help answer. See &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/phase_milestones_5678231E.html&quot;&#xD;
+    guid=&quot;_HNxbwMBJEdqSgKaj2SZBmg&quot;>Phase Milestones&lt;/a> for more information. You can also&amp;nbsp;read the definition for&#xD;
+    each phase for more detailed information:&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/inception_phase_C4456871.html&quot;&#xD;
+    guid=&quot;_0hmKgBOMEduCNqgZdt_OaA&quot;>Inception Phase&lt;/a>, &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html&quot;&#xD;
+    guid=&quot;_2plxwBOMEduCNqgZdt_OaA&quot;>Elaboration Phase&lt;/a>, &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/construction_phase_873B6559.html&quot;&#xD;
+    guid=&quot;_48EKsBOMEduCNqgZdt_OaA&quot;>Construction Phase&lt;/a>, and &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/transition_phase_DD5986E5.html&quot;&#xD;
+    guid=&quot;__ca5UBOMEduCNqgZdt_OaA&quot;>Transition Phase&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Then, understand the importance&amp;nbsp;of a structured lifecycle&amp;nbsp;in driving two&#xD;
+    main&amp;nbsp;stakeholders'&amp;nbsp;concerns: risk reduction and value creation. See&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/project_lifecycle_203F87.html&quot;&#xD;
+    guid=&quot;_nSfVwCNYEdyCq8v2ZO4QcA&quot;>Project Lifecycle&lt;/a>&amp;nbsp;for more information.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For&amp;nbsp;instructions on how to adopt this practice, see &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/roadmaps/how_to_adopt_C61F3A1F.html&quot;&#xD;
+    guid=&quot;_ERIDQOMPEdyM47cGD2jiaQ&quot;>How to Adopt the Risk-Value Lifecycle Practice&lt;/a>.&#xD;
+&lt;/p></application>
+</org.eclipse.epf.uma:PracticeDescription>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-vTGEYZTOIwIiLPxQ4_NyEw" name="synchronise_data_model,_d6Qf0B6FEdu_zM9rU7U4dw" guid="-vTGEYZTOIwIiLPxQ4_NyEw" authors="Jerome Boyer" changeDate="2008-09-22T10:46:39.000-0700" version="1.0.0">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    The rule analyst needs to continuously verify that business terms used in rule statements are part of the logical data
+    model (classes/ attributes) and physical data model (PDM). The model exposed to the rule needs to get data from data
+    sources. If a concept is not in the data it has to be quickly handled and managed by the application architect.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    The rule analyst should be in continuous communication with the data model developer, responsible to develop the XML
+    schema or java model (or .Net), and the physical mapping to database.&lt;br />
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    Part of most of the business application are the list of code, enumerated date or domain values. It is important to
+    well design how those data are defined, accessed by the application, and the rule authoring environment.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    It can be helpful for some major business term to define a mapping to a class-attribute, and if the BRMS supports this
+    function it is recommended to detail the &quot;verbalization&quot; of the business term.
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br />
+&lt;div align=&quot;center&quot;>
+    &lt;table class=&quot;MsoNormalTable&quot; style=&quot;WIDTH: 351pt; BORDER-COLLAPSE: collapse; mso-padding-alt: 0in 0in 0in 0in&quot;
+    cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;468&quot; border=&quot;0&quot;>
+        &lt;tbody>
+            &lt;tr style=&quot;HEIGHT: 15.75pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: gray 1pt solid; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 15.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;i>&lt;span style=&quot;COLOR: #005da0&quot;>Business Term&lt;/span>&lt;/i>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 15.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;i>&lt;span style=&quot;COLOR: #005da0&quot;>OO mapping&lt;/span>&lt;/i>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 15.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;i>&lt;span style=&quot;COLOR: #005da0&quot;>Verbalization&lt;/span>&lt;/i>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 1&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>LTV&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>LoanApplication.ltv&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>The loan to value ratio&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 2&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 3; mso-yfti-lastrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div>&lt;br class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1; tab-stops: list .25in left 3.0in&quot; />
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

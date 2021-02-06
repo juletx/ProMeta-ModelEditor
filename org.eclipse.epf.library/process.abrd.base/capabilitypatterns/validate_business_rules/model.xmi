@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__Z_EsbekEd-D7YZN9NgldQ" guid="__Z_EsbekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__Z_EsrekEd-D7YZN9NgldQ" id="-DoGuROok6KaX7uGUGg_iCQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_oh_7EI5HEd21UNSm_M0-kg" name="validate_business_rules" guid="_oh_7EI5HEd21UNSm_M0-kg">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_quqm8I5HEd21UNSm_M0-kg" name="define_data_scenario" guid="_quqm8I5HEd21UNSm_M0-kg" presentationName="Define Data Scenarios to Test Rule" superActivities="_oh_7EY5HEd21UNSm_M0-kg">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_eAWtgFv3EdykEsBjRsVfZw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_quqm8Y5HEd21UNSm_M0-kg" name="execute_ruleset_functional_test" guid="_quqm8Y5HEd21UNSm_M0-kg" presentationName="Execute Rule Set Functional Tests" superActivities="_oh_7EY5HEd21UNSm_M0-kg" mandatoryInput="_quzw4I5HEd21UNSm_M0-kg">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_euAb8FtuEdykEsBjRsVfZw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_quqm8o5HEd21UNSm_M0-kg" name="get_rule_set_reports" guid="_quqm8o5HEd21UNSm_M0-kg" presentationName="Get Rule Set Reports" superActivities="_oh_7EY5HEd21UNSm_M0-kg" output="_quzw4Y5HEd21UNSm_M0-kg">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_LGd_MFtvEdykEsBjRsVfZw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_quqm845HEd21UNSm_M0-kg" name="get_sme_feedback" guid="_quqm845HEd21UNSm_M0-kg" presentationName="Get SME Feedback" superActivities="_oh_7EY5HEd21UNSm_M0-kg" mandatoryInput="_quzw4Y5HEd21UNSm_M0-kg" output="_quzw4o5HEd21UNSm_M0-kg">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_CmBe4EtaEdyEE-k1R6LmOA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_quqm9I5HEd21UNSm_M0-kg" name="test_analysis" guid="_quqm9I5HEd21UNSm_M0-kg" presentationName="Test Analysis" superActivities="_oh_7EY5HEd21UNSm_M0-kg" mandatoryInput="_quzw445HEd21UNSm_M0-kg _quzw4Y5HEd21UNSm_M0-kg">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_cik88EtZEdyEE-k1R6LmOA"/>
+      <selectedSteps href="uma://-Ad6YqvwEevWhaZQqLrL8Tw#_cik88UtZEdyEE-k1R6LmOA"/>
+      <selectedSteps href="uma://-Ad6YqvwEevWhaZQqLrL8Tw#_cik880tZEdyEE-k1R6LmOA"/>
+      <selectedSteps href="uma://-Ad6YqvwEevWhaZQqLrL8Tw#_cik88ktZEdyEE-k1R6LmOA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_quzw4I5HEd21UNSm_M0-kg" name="ruleset" guid="_quzw4I5HEd21UNSm_M0-kg" presentationName="Rule Set" isPlanned="false" superActivities="_oh_7EY5HEd21UNSm_M0-kg">
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_vjWPcDzEEdyA6a_I80swHw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_quzw4Y5HEd21UNSm_M0-kg" name="rule_report" guid="_quzw4Y5HEd21UNSm_M0-kg" presentationName="Rule Report" isPlanned="false" superActivities="_oh_7EY5HEd21UNSm_M0-kg">
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_arqeoUtZEdyEE-k1R6LmOA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_quzw4o5HEd21UNSm_M0-kg" name="sme_recommendations" guid="_quzw4o5HEd21UNSm_M0-kg" presentationName="SME Recommendations" isPlanned="false" superActivities="_oh_7EY5HEd21UNSm_M0-kg">
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_BnlgsEtaEdyEE-k1R6LmOA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_quzw445HEd21UNSm_M0-kg" name="rsm_report" guid="_quzw445HEd21UNSm_M0-kg" presentationName="RSM Report" isPlanned="false" superActivities="_oh_7EY5HEd21UNSm_M0-kg">
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_arqeoEtZEdyEE-k1R6LmOA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_oh_7EY5HEd21UNSm_M0-kg" name="validate_business_rules" guid="_oh_7EY5HEd21UNSm_M0-kg" presentationName="Validate Business Rules" breakdownElements="_quqm8I5HEd21UNSm_M0-kg _quqm8Y5HEd21UNSm_M0-kg _quqm8o5HEd21UNSm_M0-kg _quqm845HEd21UNSm_M0-kg _quqm9I5HEd21UNSm_M0-kg _quzw4I5HEd21UNSm_M0-kg _quzw4Y5HEd21UNSm_M0-kg _quzw4o5HEd21UNSm_M0-kg _quzw445HEd21UNSm_M0-kg">
+      <presentation xmi:id="-DoGuROok6KaX7uGUGg_iCQ" href="uma://-DoGuROok6KaX7uGUGg_iCQ#-DoGuROok6KaX7uGUGg_iCQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

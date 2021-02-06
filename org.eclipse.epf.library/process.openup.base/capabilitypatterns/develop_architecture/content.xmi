@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-VFp5B68iro5ga1pz4nbQFw" name="develop_architecture,_KaeNsdOFEdyqlogshP8l4g" guid="-VFp5B68iro5ga1pz4nbQFw" version="7.2.0">
+    <mainDescription>&lt;p>
+    This activity refines the initial high-level architecture into working software. The objective is to produce stable
+    software that adequately addresses the technical risks in scope.
+&lt;/p>
+&lt;p>
+    The architect and developers work together to:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Refine the initial sketch of the architecture into concrete design elements
+    &lt;/li>
+    &lt;li>
+        Ensure that the architecture decisions are adequately captured and communicated
+    &lt;/li>
+    &lt;li>
+        Ensure that the team has enough information to enable software to be developed
+    &lt;/li>
+    &lt;li>
+        Ensure that the requirements that were prioritized for the current iteration are adequately addressed in the
+        software
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    In an iterative project, the team should not attempt to develop the architecture for the entire project in a single
+    pass. Rather, they should focus on meeting the requirements in scope for the current iteration, while making decisions
+    in the context of the wider project.
+&lt;/p></mainDescription>
+    <howtoStaff>&lt;p>
+    These activities are best carried out as a collaborative effort by the team, with the architect acting as a focal point
+    for coordinating and facilitating the decisions.
+&lt;/p></howtoStaff>
+    <usageNotes>&lt;p>
+    The work is best done in several sessions, perhaps performed over a few days.
+&lt;/p></usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-V51fxSq2AzJuVZF90kMOmA" name="architecture_notebook,_EjG_cNOKEdyqlogshP8l4g" guid="-V51fxSq2AzJuVZF90kMOmA">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;describes the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html&quot;&#xD;
+    guid=&quot;__O7tAMVvEduLYZUGfgZrkQ&quot;>Software Architecture&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It provides a place for maintaining the list of architectural issues, along with the associated architectural&#xD;
+    decisions, designs, patterns, code documented (or pointed to), and so forth -- all at appropriate levels to make it&#xD;
+    easy to understand what architectural decisions have been made and remain to be made.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is helpful for architects to use this artifact to collaborate with other team members in developing the architecture&#xD;
+    and to help team members understand the motivation behind architectural decisions so that those decisions can be&#xD;
+    robustly implemented. For example, the architect may put constraints on how data is packaged and communicated between&#xD;
+    different parts of the system. This may appear to be a burden, but the justification in the Architecture Notebook can&#xD;
+    explain that there is a significant performance bottleneck when communicating with a legacy system. The rest of the&#xD;
+    system must adapt to this bottleneck by following a specific data packaging scheme.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This artifact should also inform the team members how the system is partitioned or organized so that the team can adapt&#xD;
+    to the needs of the system. It also gives a first glimpse of the system and its technical motivations to whoever must&#xD;
+    maintain and change the architecture later.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-j18JWuRaOWhpi32MRwfW7A" name="refine_the_arch,_6RuKMN_1EdyOsumnGvWsEg" guid="-j18JWuRaOWhpi32MRwfW7A">
+    <keyConsiderations>&lt;p>&#xD;
+    It is important to continue to reduce the complexity of the&amp;nbsp;solution by raising the levels of abstraction.&amp;nbsp;&#xD;
+    For more information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/abstract_away_complexity_DBF13AE6.html&quot;&#xD;
+    guid=&quot;_we3F4ACpEdu8m4dIntu6jA&quot;>Guideline: Abstract Away Complexity&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Continue the collaboration with the whole&amp;nbsp;team on the refining of the architecture in order to promote consensus&#xD;
+    and a common understanding of the overall solution. The architect should be working to coordinate and guide the&#xD;
+    technical activities of the team rather than doing all the work alone.&amp;nbsp;Place special emphasis&amp;nbsp;on&#xD;
+    involving&amp;nbsp;the developer(s) throughout this task since it's the developed solution that will prove out the&#xD;
+    architecture and may result in refinements to the architecture documentation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Ensure that those who need to act upon the architectural work&amp;nbsp;understand&amp;nbsp;it and are able to work with&#xD;
+    it.&amp;nbsp;Make sure that the description of the architecture clearly conveys not only the solution but also the&#xD;
+    motivation and objectives related to the&amp;nbsp;decisions that have been made in shaping the architecture. This will make&#xD;
+    it easier for others to understand the architecture and to adapt it over time.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You can communicate your decisions as many ways as you wish.&amp;nbsp; For example:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Publication of&amp;nbsp;reference source code&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Publication of&amp;nbsp;reference models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Publication of&amp;nbsp;software architecture documentation&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Formal&amp;nbsp;presentations of the material&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Informal walkthroughs of the architecture&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This task&amp;nbsp;builds upon the outlined architecture and makes concrete and unambiguous architectural decisions to&#xD;
+    support development.&amp;nbsp; It takes into&amp;nbsp;account any design and implementation work products that have been&#xD;
+    developed so far.&amp;nbsp; In other words, the architecture evolves as the solution is designed and implemented, and the&#xD;
+    architecture documentation is updated to reflect any changes made during development. This is&amp;nbsp;a key,&amp;nbsp;since&#xD;
+    the actual implementation is the only real &quot;proof&quot; that the software architecture is viable and provides the definitive&#xD;
+    basis for validating the suitability&amp;nbsp;of the architecture.&amp;nbsp; For more information, see &lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/executable_arch_D4E68CBD.html&quot;&#xD;
+    guid=&quot;_O1kAANvfEduv2KOT-Teh6w&quot;>Concept: Executable Architecture&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The results are captured for future reference and are communicated across the team.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

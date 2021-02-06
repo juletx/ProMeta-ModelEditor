@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_Nx8icKYdEdmvhNXG0Oc2uA" name="analyst,_0VxJsMlgEdmt3adZL5Dmdw" guid="_Nx8icKYdEdmvhNXG0Oc2uA" changeDate="2009-05-12T04:06:54.000-0700" version="1.0.0">
+  <skills>&lt;p>&#xD;
+    An analyst needs the following knowledge, skills, and abilities:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Expertise in identifying and understanding problems and opportunities&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ability to articulate the needs that are associated with the key problem to be solved or the opportunity to be&#xD;
+        realized&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ability to collaborate effectively with the extended team through collaborative working sessions, workshops, JAD&#xD;
+        sessions and other techniques.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Good communication skills, verbally and in writing&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Knowledge of the business and technology domains or the ability to quickly absorb and understand such information&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></skills>
+  <assignmentApproaches>&lt;p>&#xD;
+    This role can be assigned in the following ways:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        One (or more) team member performs this role exclusively. This commonly adopted approach is suitable for&#xD;
+        complex requirements that are difficult to gather.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        One (or more) team members performs both this role and tests the software. This is a good option for smaller test&#xD;
+        teams or resource&lt;font color=&quot;#ff0000&quot;>-&lt;/font>constrained test teams.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A customer representative performs this role. This approach is suitable to agile teams where the customer is&#xD;
+        available and is part of the team.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

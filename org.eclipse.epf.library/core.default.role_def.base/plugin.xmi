@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9KCbULekEd-D7YZN9NgldQ" guid="_9KCbULekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="_-jvZMLekEd-D7YZN9NgldQ" id="-xLl5B3qPPdk8LfLut7r8hQ" uri="rolesets/basic_role_set.xmi"/>
+    <resourceDescriptors xmi:id="_-jvZMbekEd-D7YZN9NgldQ" id="_Nx8icKYdEdmvhNXG0Oc2uA" uri="roles/analyst.xmi"/>
+    <resourceDescriptors xmi:id="_-jvZMrekEd-D7YZN9NgldQ" id="_NqqcUqeqEdmKDbQuyzCoqQ" uri="roles/any_role.xmi"/>
+    <resourceDescriptors xmi:id="_-j5KMLekEd-D7YZN9NgldQ" id="_Y6tLEKbXEdm9d-ircVOUCA" uri="roles/architect.xmi"/>
+    <resourceDescriptors xmi:id="_-j5KMbekEd-D7YZN9NgldQ" id="_NqL7MqeqEdmKDbQuyzCoqQ" uri="roles/developer.xmi"/>
+    <resourceDescriptors xmi:id="_-j5KMrekEd-D7YZN9NgldQ" id="_Fdq-8KX4EdmvhNXG0Oc2uA" uri="roles/project_manager.xmi"/>
+    <resourceDescriptors xmi:id="_-kCUILekEd-D7YZN9NgldQ" id="_NqYIcKeqEdmKDbQuyzCoqQ" uri="roles/tester.xmi"/>
+    <resourceDescriptors xmi:id="_-kCUIbekEd-D7YZN9NgldQ" id="-2FZPy2In9T_oVCB3M9kB7w" uri="roles/business_analyst.xmi"/>
+    <resourceDescriptors xmi:id="_-kCUIrekEd-D7YZN9NgldQ" id="-RTY4zT0X_3RNb7lElRMu0Q" uri="roles/business_process_analyst.xmi"/>
+    <resourceDescriptors xmi:id="_-kMFILekEd-D7YZN9NgldQ" id="-zsWMh4kEcZeEXZbUlvLq_g" uri="roles/rule_administrator.xmi"/>
+    <resourceDescriptors xmi:id="_-kMFIbekEd-D7YZN9NgldQ" id="-qlAPD9PZWcRLTERMArE6mQ" uri="roles/rule_analyst.xmi"/>
+    <resourceDescriptors xmi:id="_-kMFIrekEd-D7YZN9NgldQ" id="-utBebAOL0zjzOcCgAB-7VQ" uri="roles/rule_architect.xmi"/>
+    <resourceDescriptors xmi:id="_-kV2ILekEd-D7YZN9NgldQ" id="-E4OgmOwmF5GP2780rq8BoQ" uri="roles/rule_writer.xmi"/>
+    <resourceDescriptors xmi:id="_-kV2IbekEd-D7YZN9NgldQ" id="--6iEQW4eBPeK20vzxlDBMQ" uri="roles/subject_matter_expert.xmi"/>
+    <resourceDescriptors xmi:id="_kQjY0L9xEd-AG_DXKKgAXg" id="-mG2MksMZ8rnYuB_UxF53ow" uri="roles/process_engineer.xmi"/>
+    <resourceDescriptors xmi:id="_kQjY0b9xEd-AG_DXKKgAXg" id="-58kSfjmClnawXPOPb1aUnQ" uri="roles/tool_specialist.xmi"/>
+    <resourceDescriptors xmi:id="_M5UnQOCFEeC1y_NExchKwQ" id="-6EIKG9PoBwSQN1WfBu7wtA" uri="roles/deployment_engineer.xmi"/>
+    <resourceDescriptors xmi:id="_DR5aAOCFEeC1y_NExchKwQ" id="-Mcx6tqWLjhR3Dd12ad3EsQ" uri="roles/product_owner.xmi"/>
+    <resourceDescriptors xmi:id="_M5SLAOCFEeC1y_NExchKwQ" id="-hFifDXUlUkM6ZN3q-aXyDA" uri="roles/deployment_manager.xmi"/>
+    <resourceDescriptors xmi:id="_BiBRcOB9EeC1y_NExchKwQ" id="-OW9Mlf5qrIMlT-E_1TEn2A" uri="roles/technical_writer.xmi"/>
+    <resourceDescriptors xmi:id="_BiQiAOB9EeC1y_NExchKwQ" id="-C6ZZTqQccgTUpiCA8BWeKg" uri="roles/trainer.xmi"/>
+    <resourceDescriptors xmi:id="_5KHV4JoJEeGnJt_Qpwdfdg" id="-cselQ8DV7RjrevkGuxck_Q" uri="rolesets/deployment_roles_list.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_A118oMYaEdyXeo04os5BOw" name="core.default.role_def.base" guid="_A118oMYaEdyXeo04os5BOw" presentationName="Default Role Definitions" briefDescription="This plug-in defines the default set of roles." changeDate="2008-01-18T03:12:05.000-0800" supporting="true">
+    <methodElementProperty xmi:id="_-gnMtLekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9J4qULekEd-D7YZN9NgldQ" name="Content" guid="_9J4qULekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9J4qUbekEd-D7YZN9NgldQ" name="Categories" guid="_9J4qUbekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9J4qUrekEd-D7YZN9NgldQ" name="Domains" guid="_9J4qUrekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9J4qU7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9J4qU7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9J4qVLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9J4qVLekEd-D7YZN9NgldQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_SHN90MYaEdyXeo04os5BOw" name="basic_role_set" guid="_SHN90MYaEdyXeo04os5BOw" presentationName="Basic Roles" briefDescription="This is the list of basic software development roles." roles="_0VxJsMlgEdmt3adZL5Dmdw _0dsWoMlgEdmt3adZL5Dmdw _0X9iEMlgEdmt3adZL5Dmdw _0YDosMlgEdmt3adZL5Dmdw _0a0o0MlgEdmt3adZL5Dmdw _dTa6gMAYEdqX-s4mWhkyqQ _0ZM4MclgEdmt3adZL5Dmdw">
+            <presentation xmi:id="-xLl5B3qPPdk8LfLut7r8hQ" href="uma://-xLl5B3qPPdk8LfLut7r8hQ#-xLl5B3qPPdk8LfLut7r8hQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_A5XTkKr-Ed-4oa5dU5v0Eg" name="brd_role_set" guid="_A5XTkKr-Ed-4oa5dU5v0Eg" presentationName="Business Rules Development" briefDescription="List of roles which are involved in business rules development." roles="_Xh-X4AqBEdyPCr4G1Tb79A _5h_uoKcyEd-VK6zqjMaiPQ _XiII4QqBEdyPCr4G1Tb79A _XiII4gqBEdyPCr4G1Tb79A _JkVWIApyEdyKK5Go8zejMw _bYUkIJyiEd23W8_-Tub7Ww _XiII4wqBEdyPCr4G1Tb79A _XiII5AqBEdyPCr4G1Tb79A"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_Wi8j4L9yEd-AG_DXKKgAXg" name="environment_roles_list" guid="_Wi8j4L9yEd-AG_DXKKgAXg" presentationName="Environment" briefDescription="This standard category lists all environment roles in software development." roles="_jmrVYL9xEd-AG_DXKKgAXg _jmrVYb9xEd-AG_DXKKgAXg"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_5H4hQJoJEeGnJt_Qpwdfdg" name="deployment_roles_list" guid="_5H4hQJoJEeGnJt_Qpwdfdg" presentationName="Deployment" briefDescription="This standard category lists all deployment roles in software development." roles="_-zf1teB8EeC1y_NExchKwQ _cQjSAPWkEeC0T_-ipt2c0Q _-zenk-B8EeC1y_NExchKwQ _L-BcoOCFEeC1y_NExchKwQ _L-A1kOCFEeC1y_NExchKwQ _-a85MeCEEeC1y_NExchKwQ">
+            <methodElementProperty xmi:id="_5JE0EJoJEeGnJt_Qpwdfdg" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_ctd5oJoKEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
+            <presentation xmi:id="-cselQ8DV7RjrevkGuxck_Q" href="uma://-cselQ8DV7RjrevkGuxck_Q#-cselQ8DV7RjrevkGuxck_Q"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9J4qVbekEd-D7YZN9NgldQ" name="WP Types" guid="_9J4qVbekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9J4qVrekEd-D7YZN9NgldQ" name="Tools" guid="_9J4qVrekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9J4qV7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9J4qV7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9J4qWLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9J4qWLekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9J4qWbekEd-D7YZN9NgldQ" name="Hidden" guid="_9J4qWbekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9J4qWrekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9J4qWrekEd-D7YZN9NgldQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9J4qW7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9J4qW7ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__0_tgBAYEdyqb5chWQXsPQ" name="basic_roles" guid="__0_tgBAYEdyqb5chWQXsPQ" presentationName="Basic roles">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_0VxJsMlgEdmt3adZL5Dmdw" name="analyst" guid="_0VxJsMlgEdmt3adZL5Dmdw" presentationName="Analyst" briefDescription="The person in this role represents customer and end-user concerns by gathering input from stakeholders to understand the problem to be solved and by capturing and setting priorities for requirements.">
+            <presentation xmi:id="_Nx8icKYdEdmvhNXG0Oc2uA" href="uma://_Nx8icKYdEdmvhNXG0Oc2uA#_Nx8icKYdEdmvhNXG0Oc2uA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_0dsWoMlgEdmt3adZL5Dmdw" name="any_role" guid="_0dsWoMlgEdmt3adZL5Dmdw" presentationName="Any Role" briefDescription="Anyone on a team can fill this role of performing general tasks.">
+            <methodElementProperty xmi:id="_Ua0O4JCyEeGPeI4Nok81MQ" name="me_jazzEnactment" value="false"/>
+            <methodElementProperty xmi:id="_dWqIgJCyEeGPeI4Nok81MQ" name="me_edited" value="true"/>
+            <presentation xmi:id="_NqqcUqeqEdmKDbQuyzCoqQ" href="uma://_NqqcUqeqEdmKDbQuyzCoqQ#_NqqcUqeqEdmKDbQuyzCoqQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_0X9iEMlgEdmt3adZL5Dmdw" name="architect" guid="_0X9iEMlgEdmt3adZL5Dmdw" presentationName="Architect" briefDescription="The Architect is responsible for defining the software architecture, which includes making the key technical decisions that constrain the overall design and implementation of the system.">
+            <presentation xmi:id="_Y6tLEKbXEdm9d-ircVOUCA" href="uma://_Y6tLEKbXEdm9d-ircVOUCA#_Y6tLEKbXEdm9d-ircVOUCA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_0YDosMlgEdmt3adZL5Dmdw" name="developer" guid="_0YDosMlgEdmt3adZL5Dmdw" presentationName="Developer" briefDescription="The Developer is responsible for developing a part of the system, including designing it to fit into the architecture, possibly prototyping the user interface, and then implementing, unit-testing, and integrating the components that are part of the solution.">
+            <presentation xmi:id="_NqL7MqeqEdmKDbQuyzCoqQ" href="uma://_NqL7MqeqEdmKDbQuyzCoqQ#_NqL7MqeqEdmKDbQuyzCoqQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_0a0o0MlgEdmt3adZL5Dmdw" name="project_manager" guid="_0a0o0MlgEdmt3adZL5Dmdw" presentationName="Project Manager" briefDescription="The Project Manager leads the planning of the project, coordinates interactions with the stakeholders, and keeps the project team focused on meeting the project objectives.">
+            <presentation xmi:id="_Fdq-8KX4EdmvhNXG0Oc2uA" href="uma://_Fdq-8KX4EdmvhNXG0Oc2uA#_Fdq-8KX4EdmvhNXG0Oc2uA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_dTa6gMAYEdqX-s4mWhkyqQ" name="stakeholder" guid="_dTa6gMAYEdqX-s4mWhkyqQ" presentationName="Stakeholder" briefDescription="This role represents interest groups whose needs must be satisfied by the project. It is a role that may be played by anyone who is (or potentially will be) materially affected by the outcome of the project."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_0ZM4MclgEdmt3adZL5Dmdw" name="tester" guid="_0ZM4MclgEdmt3adZL5Dmdw" presentationName="Tester" briefDescription="The Tester is responsible for the core activities of the test effort. Those activities include identifying, defining, implementing, and conducting the necessary tests, as well as logging the outcomes of the testing and analyzing the results.">
+            <presentation xmi:id="_NqYIcKeqEdmKDbQuyzCoqQ" href="uma://_NqYIcKeqEdmKDbQuyzCoqQ#_NqYIcKeqEdmKDbQuyzCoqQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_uLoNoKrzEd-4oa5dU5v0Eg" name="business_rules_dev_roles" guid="_uLoNoKrzEd-4oa5dU5v0Eg" presentationName="Business Rules Development Roles">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Xh-X4AqBEdyPCr4G1Tb79A" name="business_analyst" guid="_Xh-X4AqBEdyPCr4G1Tb79A" presentationName="Business Analyst" briefDescription="The Business Analyst (BA) acts as the bridge between the business and IT departments. He understands the IT technologies benefits such as BPM and BRMS and how he can use them. He has a good understanding of the business needs and problems.">
+            <presentation xmi:id="-2FZPy2In9T_oVCB3M9kB7w" href="uma://-2FZPy2In9T_oVCB3M9kB7w#-2FZPy2In9T_oVCB3M9kB7w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_5h_uoKcyEd-VK6zqjMaiPQ" name="business_process_analyst" guid="_5h_uoKcyEd-VK6zqjMaiPQ" presentationName="Business Process Analyst" briefDescription="The role of the Business Process Analyst is to build consensus among the different stakeholders on the as-is and to-be process models, and to look for opportunities to improve the current business process.">
+            <presentation xmi:id="-RTY4zT0X_3RNb7lElRMu0Q" href="uma://-RTY4zT0X_3RNb7lElRMu0Q#-RTY4zT0X_3RNb7lElRMu0Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_XiII4QqBEdyPCr4G1Tb79A" name="rule_administrator" guid="_XiII4QqBEdyPCr4G1Tb79A" presentationName="Rule Administrator" briefDescription="The Rule Administrator manages the rule authoring and deployment. He executes the business rule management process and ensure the integrity of the rule set by using the rule life cycle and rule set life cycle.">
+            <presentation xmi:id="-zsWMh4kEcZeEXZbUlvLq_g" href="uma://-zsWMh4kEcZeEXZbUlvLq_g#-zsWMh4kEcZeEXZbUlvLq_g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_XiII4gqBEdyPCr4G1Tb79A" name="rule_analyst" guid="_XiII4gqBEdyPCr4G1Tb79A" presentationName="Rule Analyst" briefDescription="The Rule Analyst is responsible for putting in place the rule approach and the rule stewardship. He is responsible for the execution of the rule management process, and helps extract and write the business rules.">
+            <presentation xmi:id="-qlAPD9PZWcRLTERMArE6mQ" href="uma://-qlAPD9PZWcRLTERMArE6mQ#-qlAPD9PZWcRLTERMArE6mQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_JkVWIApyEdyKK5Go8zejMw" name="rule_architect" guid="_JkVWIApyEdyKK5Go8zejMw" presentationName="Rule Architect" briefDescription="The Rule Architect is responsible for defining and maintaining the structure of the rule-based application.">
+            <presentation xmi:id="-utBebAOL0zjzOcCgAB-7VQ" href="uma://-utBebAOL0zjzOcCgAB-7VQ#-utBebAOL0zjzOcCgAB-7VQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_bYUkIJyiEd23W8_-Tub7Ww" name="rule_steward" guid="_bYUkIJyiEd23W8_-Tub7Ww" presentationName="Rule Steward" briefDescription="Develops and maintains a comprehensive management plan for the business rule management group activities, and drives the definition of the rule governance processes."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_XiII4wqBEdyPCr4G1Tb79A" name="rule_writer" guid="_XiII4wqBEdyPCr4G1Tb79A" presentationName="Rule Writer" briefDescription="The Rule Writer writes rules using an authoring environment.">
+            <presentation xmi:id="-E4OgmOwmF5GP2780rq8BoQ" href="uma://-E4OgmOwmF5GP2780rq8BoQ#-E4OgmOwmF5GP2780rq8BoQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_XiII5AqBEdyPCr4G1Tb79A" name="subject_matter_expert" guid="_XiII5AqBEdyPCr4G1Tb79A" presentationName="Subject Matter Expert" briefDescription="The Subject Matter Expert (SME) is responsible for defining the business processes, the business policies and the application requirements. He leads the business rules acquisition activities as a domain expert and uses the Rules Management Application as reviewer.">
+            <presentation xmi:id="--6iEQW4eBPeK20vzxlDBMQ" href="uma://--6iEQW4eBPeK20vzxlDBMQ#--6iEQW4eBPeK20vzxlDBMQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_l4CJcL9wEd-AG_DXKKgAXg" name="environment_roles" guid="_l4CJcL9wEd-AG_DXKKgAXg" presentationName="Environment Roles">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_jmrVYL9xEd-AG_DXKKgAXg" name="process_engineer" guid="_jmrVYL9xEd-AG_DXKKgAXg" presentationName="Process Engineer" briefDescription="This role equips the project team with an appropriate development process, and makes sure that the team members are not hindered in doing their jobs.">
+            <presentation xmi:id="-mG2MksMZ8rnYuB_UxF53ow" href="uma://-mG2MksMZ8rnYuB_UxF53ow#-mG2MksMZ8rnYuB_UxF53ow"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_jmrVYb9xEd-AG_DXKKgAXg" name="tool_specialist" guid="_jmrVYb9xEd-AG_DXKKgAXg" presentationName="Tool Specialist" briefDescription="This role supports the tools used by the project and provides technical assistance to the project. This includes selecting and acquiring tools, configuring and setting them up, and verifying that they work.">
+            <presentation xmi:id="-58kSfjmClnawXPOPb1aUnQ" href="uma://-58kSfjmClnawXPOPb1aUnQ#-58kSfjmClnawXPOPb1aUnQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_otZZ4JoLEeGnJt_Qpwdfdg" name="deployment_roles" guid="_otZZ4JoLEeGnJt_Qpwdfdg" presentationName="deployment_roles">
+          <methodElementProperty xmi:id="_otZZ4ZoLEeGnJt_Qpwdfdg" name="pakage_supporting" value="true"/>
+          <methodElementProperty xmi:id="_vSgssJoLEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jmG4EG6qEeGjkJv4E9IX_Q" name="documentation_and_training_roles" guid="_jmG4EG6qEeGjkJv4E9IX_Q" presentationName="Documentation and Training Roles">
+            <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_cQjSAPWkEeC0T_-ipt2c0Q" name="course_developer" guid="_cQjSAPWkEeC0T_-ipt2c0Q" presentationName="Course Developer" briefDescription="A Course Developer creates training materials for delivery either to End Users of the system or to the production support personnel who are responsible for maintaining the system.">
+              <methodElementProperty xmi:id="_Qv2ZsJldEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-C6ZZTqQccgTUpiCA8BWeKg" href="uma://-C6ZZTqQccgTUpiCA8BWeKg#-C6ZZTqQccgTUpiCA8BWeKg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_-zf1teB8EeC1y_NExchKwQ" name="technical_writer" guid="_-zf1teB8EeC1y_NExchKwQ" presentationName="Technical Writer" briefDescription="A Technical Writer often helps a development team member complete the documentation needed for the Product Owner, End Users, and support personnel to understand and to be able to use the delivered features.">
+              <methodElementProperty xmi:id="_Z4RWwJldEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-OW9Mlf5qrIMlT-E_1TEn2A" href="uma://-OW9Mlf5qrIMlT-E_1TEn2A#-OW9Mlf5qrIMlT-E_1TEn2A"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_-zenk-B8EeC1y_NExchKwQ" name="trainer" guid="_-zenk-B8EeC1y_NExchKwQ" presentationName="Trainer" briefDescription="A Trainer delivers training either to End Users of the system or to the production support personnel who are responsible for maintaining the system.">
+              <presentation xmi:id="-C6ZZTqQccgTUpiCA8BWeKg" href="uma://-C6ZZTqQccgTUpiCA8BWeKg#-C6ZZTqQccgTUpiCA8BWeKg"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AOJ6EG-9EeGhTfU24wxTMQ" name="production_release" guid="_AOJ6EG-9EeGhTfU24wxTMQ" presentationName="Production Release">
+            <methodElementProperty xmi:id="_AOJ6EW-9EeGhTfU24wxTMQ" name="pakage_supporting" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_L-BcoOCFEeC1y_NExchKwQ" name="deployment_engineer" guid="_L-BcoOCFEeC1y_NExchKwQ" presentationName="Deployment Engineer" briefDescription="A Deployment Engineer is responsible to the Deployment Manager for the safe deployment of one or more releases into the production environment.">
+              <methodElementProperty xmi:id="_Z4bHwJldEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-6EIKG9PoBwSQN1WfBu7wtA" href="uma://-6EIKG9PoBwSQN1WfBu7wtA#-6EIKG9PoBwSQN1WfBu7wtA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_L-A1kOCFEeC1y_NExchKwQ" name="deployment_manager" guid="_L-A1kOCFEeC1y_NExchKwQ" presentationName="Deployment Manager" briefDescription="This role is responsible for managing and scheduling synchronized releases across one or more programs and/or product lines.">
+              <methodElementProperty xmi:id="_Z4kRsJldEeGlkdGl1HQlDA" name="me_edited" value="true"/>
+              <presentation xmi:id="-hFifDXUlUkM6ZN3q-aXyDA" href="uma://-hFifDXUlUkM6ZN3q-aXyDA#-hFifDXUlUkM6ZN3q-aXyDA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_-a85MeCEEeC1y_NExchKwQ" name="product_owner" guid="_-a85MeCEEeC1y_NExchKwQ" presentationName="Product Owner" briefDescription="The Product Owner represents the End User's needs and defines the &quot;work&quot; in the project. This team member typically is co-located with a development team.">
+              <presentation xmi:id="-Mcx6tqWLjhR3Dd12ad3EsQ" href="uma://-Mcx6tqWLjhR3Dd12ad3EsQ#-Mcx6tqWLjhR3Dd12ad3EsQ"/>
+            </contentElements>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9J4qXLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9J4qXLekEd-D7YZN9NgldQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9J4qXbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9J4qXbekEd-D7YZN9NgldQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9J4qXrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9J4qXrekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

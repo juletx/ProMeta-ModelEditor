@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-fZn4nTBQjy1YPY8BQSTvJg" name="new_guideline,_x_5XgH9iEd26h9j0X6pKmw" guid="-fZn4nTBQjy1YPY8BQSTvJg" changeDate="2008-09-10T11:05:45.000-0700" version="7.5.1">
+  <mainDescription>&lt;p>
+    Criteria in rule is true or false. So when combining criteria together to build the condition part of a rule we need to
+    clearly understand the Boolean logic, and its operations.
+&lt;/p>
+&lt;h5>
+    AND / Conjunction
+&lt;/h5>
+&lt;p>
+    We will use the following notation the dot as operator for AND so A.B is equivalent to A&amp;nbsp;AND B. The conjunction of
+    two propositions is true when both propositions are true. The truth table is
+&lt;/p>&lt;br />
+&lt;br />
+&lt;table title=&quot;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;85%&quot; border=&quot;1&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;strong>AND&amp;nbsp;&amp;nbsp;&amp;nbsp; A&lt;/strong>
+                &lt;/p>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;strong>B&lt;/strong>
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;strong>True&lt;/strong>
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;strong>False&lt;/strong>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;strong>True&lt;/strong>
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;em>True&lt;/em>
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;em>False&lt;/em>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;strong>False&lt;/strong>
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;em>False&lt;/em>
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;em>False&lt;/em>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>&amp;nbsp;&lt;br />
+&lt;br />
+&lt;h5>
+    OR&amp;nbsp; / Disjunction
+&lt;/h5>
+&lt;p>
+    We use the + operator for A OR B like A + B. Disjunction of two propositions is false when both propositions are false.
+&lt;/p>
+&lt;p>
+    &lt;br />
+&lt;/p>
+&lt;table title=&quot;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;85%&quot; border=&quot;1&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td>
+                &lt;p>
+                    &lt;strong>OR&amp;nbsp;&amp;nbsp; A&lt;/strong>
+                &lt;/p>
+                &lt;p>
+                    &lt;strong>B&lt;/strong>
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;strong>True&lt;/strong>
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;strong>False&lt;/strong>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;strong>True&lt;/strong>
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+                &lt;em>True&lt;/em>
+            &lt;/td>
+            &lt;td>
+                &lt;em>True&lt;/em>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                &lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+                    &lt;strong>False&lt;/strong>
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+                &lt;em>True&lt;/em>
+            &lt;/td>
+            &lt;td>
+                &lt;em>False&lt;/em>
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>&lt;br />
+&lt;br />
+&lt;h5>
+    NOT / Negation
+&lt;/h5>
+&lt;table title=&quot;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;85%&quot; border=&quot;1&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td>
+                &lt;strong>A&lt;/strong>
+            &lt;/td>
+            &lt;td>
+                &lt;strong>NOT A&lt;/strong>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                &lt;strong>True&lt;/strong>
+            &lt;/td>
+            &lt;td>
+                &lt;em>False&lt;/em>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                &lt;strong>False&lt;/strong>
+            &lt;/td>
+            &lt;td>
+                &lt;em>True&lt;/em>
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>&lt;br />
+&lt;br />
+&lt;h5>
+    Implication
+&lt;/h5>
+&lt;p>
+    A-&amp;gt; B, implication is a binary operation which is false when A is true and&amp;nbsp;B is false. A -&amp;gt; B can be
+    expressed as NOT A OR B.
+&lt;/p>
+&lt;p>
+    &lt;br />
+&lt;/p>
+&lt;table title=&quot;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;85%&quot; border=&quot;1&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td>
+                &lt;p>
+                    &lt;strong>A -&amp;gt;
+                    B&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+                    A&lt;/strong>
+                &lt;/p>
+                &lt;p>
+                    &lt;strong>B&lt;/strong>
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+                &lt;strong>True&lt;/strong>
+            &lt;/td>
+            &lt;td>
+                &lt;strong>False&lt;/strong>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                &lt;strong>True&lt;/strong>
+            &lt;/td>
+            &lt;td>
+                &lt;em>True&lt;/em>
+            &lt;/td>
+            &lt;td>
+                &lt;em>True&lt;/em>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                &lt;strong>False&lt;/strong>
+            &lt;/td>
+            &lt;td>
+                &lt;em>False&lt;/em>
+            &lt;/td>
+            &lt;td>
+                &lt;em>True&lt;/em>
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>&lt;br />
+&lt;br />
+&lt;h5>
+    XOR or exclusive OR
+&lt;/h5>
+&lt;p>
+    Exclusive-or of two propositions is true just when exactly one of the propositions is true&lt;br />
+    &lt;br />
+&lt;/p>
+&lt;table title=&quot;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;85%&quot; border=&quot;1&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td>
+                &lt;p>
+                    &lt;strong>XOR&amp;nbsp;&amp;nbsp;&amp;nbsp; A&lt;/strong>
+                &lt;/p>
+                &lt;p>
+                    &lt;strong>B&lt;/strong>
+                &lt;/p>
+            &lt;/td>
+            &lt;td>
+                &lt;strong>True&lt;/strong>
+            &lt;/td>
+            &lt;td>
+                &lt;strong>False&lt;/strong>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                &lt;strong>True&lt;/strong>
+            &lt;/td>
+            &lt;td>
+                &lt;em>False&lt;/em>
+            &lt;/td>
+            &lt;td>
+                &lt;em>True&lt;/em>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>
+                &lt;strong>False&lt;/strong>
+            &lt;/td>
+            &lt;td>
+                &lt;em>True&lt;/em>
+            &lt;/td>
+            &lt;td>
+                &lt;em>False&lt;/em>
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>
+&lt;h5>
+    De Morgan's Law
+&lt;/h5>
+&lt;p>
+    De Morgan's law are rules in formal logic relating pairs of dual logical operators in a systematic manner expressed in
+    terms of negation:
+&lt;/p>
+&lt;p>
+    &amp;nbsp; NOT (A AND B) = NOT A OR NOT B
+&lt;/p>
+&lt;p>
+    &amp;nbsp;&amp;nbsp;NOT (A OR B) = NOT A AND NOT B&lt;br />
+    &lt;br />
+    It is important to leverage the De Morgan's law to improve rule writing during&amp;nbsp;the rule transformation.&lt;br />
+    &lt;br />
+    &amp;nbsp;
+&lt;/p>
+&lt;p>
+    &lt;br />
+    &amp;nbsp;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

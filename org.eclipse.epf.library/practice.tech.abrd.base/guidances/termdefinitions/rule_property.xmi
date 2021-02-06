@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-FaTNEonCdWxGGbPANu5vXg" name="rule_property,_jl8KsCC-EduGAdKOTiDQdQ" guid="-FaTNEonCdWxGGbPANu5vXg" authors="Jerome Boyer" changeDate="2008-09-03T04:09:23.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>
+    &lt;a id=&quot;XE_rule_property&quot; name=&quot;XE_rule_property&quot;>&lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>A
+    rule property is&amp;nbsp;an attribute attached to a rule and help to add meta-data on top of the rule&lt;/span>&lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>.&lt;/span>&lt;/a>&amp;nbsp;In
+    BRMS rule properties are used to manage the life cycle of the rule, attach documentation such as business motivation,
+    business context,... and can be used during the extraction of the rule to build a rule set or to dynamically select the
+    rule in front of&amp;nbsp;a business event.&amp;nbsp;
+&lt;/p>&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

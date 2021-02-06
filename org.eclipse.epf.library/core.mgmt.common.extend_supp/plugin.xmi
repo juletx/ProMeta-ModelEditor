@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9N6Ov7ekEd-D7YZN9NgldQ" guid="_9N6Ov7ekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="_-s-0wLekEd-D7YZN9NgldQ" id="_7ygXoMM3EdmSIPI87WLu3g" uri="guidances/concepts/metrics.xmi"/>
+    <resourceDescriptors xmi:id="_-s-0wbekEd-D7YZN9NgldQ" id="-vi8wxwxVZLY0SMPFxZjD7A" uri="guidances/concepts/iteration.xmi"/>
+    <resourceDescriptors xmi:id="_-s-0wrekEd-D7YZN9NgldQ" id="_u6enMMM1EdmSIPI87WLu3g" uri="guidances/concepts/risk.xmi"/>
+    <resourceDescriptors xmi:id="_-tIlwLekEd-D7YZN9NgldQ" id="_CYRMgBEdEdqY7JB6N6CW2w" uri="guidances/guidelines/agile_estimation.xmi"/>
+    <resourceDescriptors xmi:id="_-tRvsLekEd-D7YZN9NgldQ" id="-HhGIkAPjHSIxnPzI3cyDnQ" uri="guidances/guidelines/managing_risks.xmi"/>
+    <resourceDescriptors xmi:id="_-tRvsbekEd-D7YZN9NgldQ" id="-bUmvEAAtFf6B0aUCux8k9Q" uri="guidances/guidelines/assign_changes_to_iteration.xmi"/>
+    <resourceDescriptors xmi:id="_-tbgsLekEd-D7YZN9NgldQ" id="-QpMXBM5_A8w0pRyIT5n5yA" uri="guidances/concepts/change_set.xmi"/>
+    <resourceDescriptors xmi:id="_-tbgsbekEd-D7YZN9NgldQ" id="-aOaMjqW4RZWOiHT1_U1NNw" uri="guidances/guidelines/deploying_the_solution.xmi"/>
+    <resourceDescriptors xmi:id="_-tkqoLekEd-D7YZN9NgldQ" id="-4VJ_0upihz-bR7VRlm63Vw" uri="workproducts/risk_list.xmi"/>
+    <resourceDescriptors xmi:id="_-tkqobekEd-D7YZN9NgldQ" id="-gqNN4DnROmJpgKtrdguhpg" uri="guidances/checklists/risk_list.xmi"/>
+    <resourceDescriptors xmi:id="_-tkqorekEd-D7YZN9NgldQ" id="-buxz4BVToq97bSxaqyjySg" uri="workproducts/work_items_list.xmi"/>
+    <resourceDescriptors xmi:id="_-tuboLekEd-D7YZN9NgldQ" id="-BTXdT-1bO6nbAPf25q0_yA" uri="guidances/checklists/work_items_list.xmi"/>
+    <resourceDescriptors xmi:id="_-tubobekEd-D7YZN9NgldQ" id="-OugFZJszm73z0_KSwRXZPw" uri="guidances/templates/risk_list.xmi"/>
+    <resourceDescriptors xmi:id="_-tuborekEd-D7YZN9NgldQ" id="-qunTPN3vqTIGpELwajXpLA" uri="guidances/examples/work_items_list.xmi"/>
+    <resourceDescriptors xmi:id="_-t4MoLekEd-D7YZN9NgldQ" id="-mPA7vone29k1OvF_1rACjg" uri="guidances/templates/work_items_list.xmi"/>
+    <resourceDescriptors xmi:id="_S0J38brSEd-0rKmWr1vEGQ" id="-wBOoiWwZUP1LDeCTqoNMBQ" uri="workproducts/project_defined_process.xmi"/>
+    <resourceDescriptors xmi:id="_25AiEbrZEd-0rKmWr1vEGQ" id="-AALyHEAmllXObYA9d6qzfg" uri="guidances/checklists/project_defined_process.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_0TmecJ-VEdy3Nc4rvuj7bA" name="core.mgmt.common.extend_supp" guid="_0TmecJ-VEdy3Nc4rvuj7bA" presentationName="Management Common (Extend-SUPP)" briefDescription="This plug-in defines management work products and guidance that is shared across practices." changeDate="2008-08-14T05:24:52.000-0700" supporting="true">
+    <methodElementProperty xmi:id="_-gnMu7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6OsLekEd-D7YZN9NgldQ" name="Content" guid="_9N6OsLekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6OsbekEd-D7YZN9NgldQ" name="Categories" guid="_9N6OsbekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6OsrekEd-D7YZN9NgldQ" name="Domains" guid="_9N6OsrekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6Os7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9N6Os7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6OtLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9N6OtLekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6OtbekEd-D7YZN9NgldQ" name="WP Types" guid="_9N6OtbekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6OtrekEd-D7YZN9NgldQ" name="Tools" guid="_9N6OtrekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6Ot7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9N6Ot7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6OuLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9N6OuLekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6OubekEd-D7YZN9NgldQ" name="Hidden" guid="_9N6OubekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9N6OurekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9N6OurekEd-D7YZN9NgldQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6Ou7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9N6Ou7ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QsmM8J-ZEdywNOckqfsZQg" name="management_guidance" guid="_QsmM8J-ZEdywNOckqfsZQg" presentationName="Management Guidance">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0mYYkMlgEdmt3adZL5Dmdw" name="metrics" guid="_0mYYkMlgEdmt3adZL5Dmdw" presentationName="Metrics" briefDescription="A metric is used to interpret measurements so that team members and stakeholders can know the state of the project.">
+            <presentation xmi:id="_7ygXoMM3EdmSIPI87WLu3g" href="uma://_7ygXoMM3EdmSIPI87WLu3g#_7ygXoMM3EdmSIPI87WLu3g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_lam4ADkBEduxovfWMDsntw" name="iteration" guid="_lam4ADkBEduxovfWMDsntw" presentationName="Iteration" briefDescription="An iteration is a set period of time within a project in which you produce a stable, executable version of the product, together with any other supporting documentation, install scripts, or similar, necessary to use this release. Also referred to as a cycle or a timebox.">
+            <presentation xmi:id="-vi8wxwxVZLY0SMPFxZjD7A" href="uma://-vi8wxwxVZLY0SMPFxZjD7A#-vi8wxwxVZLY0SMPFxZjD7A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0bsLgMlgEdmt3adZL5Dmdw" name="risk" guid="_0bsLgMlgEdmt3adZL5Dmdw" presentationName="Risk" briefDescription="A risk is whatever may stand in the way to success, and is currently unknown or uncertain. Usually, a risk is qualified by the probability of occurrence and the impact in the project, if it occurs.">
+            <presentation xmi:id="_u6enMMM1EdmSIPI87WLu3g" href="uma://_u6enMMM1EdmSIPI87WLu3g#_u6enMMM1EdmSIPI87WLu3g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_CGHskBEdEdqY7JB6N6CW2w" name="agile_estimation" guid="_CGHskBEdEdqY7JB6N6CW2w" presentationName="Agile Estimation" briefDescription="This guideline explains the three key concepts of agile estimation and how they relate to each other. It describes agile estimation concepts of size, velocity, and effort.">
+            <presentation xmi:id="_CYRMgBEdEdqY7JB6N6CW2w" href="uma://_CYRMgBEdEdqY7JB6N6CW2w#_CYRMgBEdEdqY7JB6N6CW2w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_VNxL4ACsEdu8m4dIntu6jA" name="managing_risks" guid="_VNxL4ACsEdu8m4dIntu6jA" presentationName="Managing Risks" briefDescription="This is a fundamental practice that project managers should consider in their projects. Identifying and minimizing risks early in the project lifecycle is key factor for project success.">
+            <presentation xmi:id="-HhGIkAPjHSIxnPzI3cyDnQ" href="uma://-HhGIkAPjHSIxnPzI3cyDnQ#-HhGIkAPjHSIxnPzI3cyDnQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="__yQQ4L6REdqti4GwqTkbsQ" name="assign_changes_to_iteration" guid="__yQQ4L6REdqti4GwqTkbsQ" presentationName="Assign Changes to an Iteration" briefDescription="This guideline promotes the best practice of isolating team members from disruptive changes during the current iteration. Change requests are reviewed and prioritized during the current iteration, but are not acted upon until assigned to a future iteration.">
+            <presentation xmi:id="-bUmvEAAtFf6B0aUCux8k9Q" href="uma://-bUmvEAAtFf6B0aUCux8k9Q#-bUmvEAAtFf6B0aUCux8k9Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_1QU9MAIoEdyLh7vsrHZ4YA" name="change_set" guid="_1QU9MAIoEdyLh7vsrHZ4YA" presentationName="Change Set" briefDescription="A change set is a meaningful set of related changes made to the implementation and supporting artifacts for a particular purpose.">
+            <presentation xmi:id="-QpMXBM5_A8w0pRyIT5n5yA" href="uma://-QpMXBM5_A8w0pRyIT5n5yA#-QpMXBM5_A8w0pRyIT5n5yA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_yYlQoC3xEdycYKq0PulnEQ" name="deploying_the_solution" guid="_yYlQoC3xEdycYKq0PulnEQ" presentationName="Deploy the Solution" briefDescription="This guideline describes activities that usually take place when moving the developed software into production.">
+            <presentation xmi:id="-aOaMjqW4RZWOiHT1_U1NNw" href="uma://-aOaMjqW4RZWOiHT1_U1NNw#-aOaMjqW4RZWOiHT1_U1NNw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lFkpUOFlEdyhmsbt0Xyl8A" name="management_work_products" guid="_lFkpUOFlEdyhmsbt0Xyl8A" presentationName="Management Work Products">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Ckay8Cc_EduIsqH1Q6ZuqA" name="risk_list" guid="_Ckay8Cc_EduIsqH1Q6ZuqA" presentationName="Risk List" briefDescription="This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions." conceptsAndPapers="_0bsLgMlgEdmt3adZL5Dmdw" checklists="_7BZa0DIdEduDTv4Y1akVTA" templates="_MIUO0C8FEduzydamRseoUw">
+            <presentation xmi:id="-4VJ_0upihz-bR7VRlm63Vw" href="uma://-4VJ_0upihz-bR7VRlm63Vw#-4VJ_0upihz-bR7VRlm63Vw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_7BZa0DIdEduDTv4Y1akVTA" name="risk_list" guid="_7BZa0DIdEduDTv4Y1akVTA" presentationName="Risk List" briefDescription="This checklist provides guidance on assessing that all possible risks in a project have been considered." guidelines="_VNxL4ACsEdu8m4dIntu6jA">
+            <presentation xmi:id="-gqNN4DnROmJpgKtrdguhpg" href="uma://-gqNN4DnROmJpgKtrdguhpg#-gqNN4DnROmJpgKtrdguhpg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rGNWsCbSEdqh1LYUOGRh2A" name="work_items_list" guid="_rGNWsCbSEdqh1LYUOGRh2A" presentationName="Work Items List" briefDescription="This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item." checklists="_xlrdEAVtEdy3F_fZDaPZVA" guidelines="_CGHskBEdEdqY7JB6N6CW2w" examples="_nHomIDgzEdu4E8ZdmlYjtA" templates="_QwUJYDg0Edu4E8ZdmlYjtA">
+            <presentation xmi:id="-buxz4BVToq97bSxaqyjySg" href="uma://-buxz4BVToq97bSxaqyjySg#-buxz4BVToq97bSxaqyjySg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_xlrdEAVtEdy3F_fZDaPZVA" name="work_items_list" guid="_xlrdEAVtEdy3F_fZDaPZVA" presentationName="Work Items List" briefDescription="This checklist is used to verify that every kind of work to be done in the project &#xD;&#xA;is being tracked">
+            <presentation xmi:id="-BTXdT-1bO6nbAPf25q0_yA" href="uma://-BTXdT-1bO6nbAPf25q0_yA#-BTXdT-1bO6nbAPf25q0_yA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2CEzsLrREd-0rKmWr1vEGQ" name="project_defined_process" guid="_2CEzsLrREd-0rKmWr1vEGQ" presentationName="Project Defined Process" briefDescription="This work product describes the process that a project is to follow in order to produce the project's desired results.">
+            <methodElementProperty xmi:id="_j67EAKFLEeGoh9FipVFw0g" name="me_edited" value="true"/>
+            <presentation xmi:id="-wBOoiWwZUP1LDeCTqoNMBQ" href="uma://-wBOoiWwZUP1LDeCTqoNMBQ#-wBOoiWwZUP1LDeCTqoNMBQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_wGK8ULrZEd-0rKmWr1vEGQ" name="project_defined_process" guid="_wGK8ULrZEd-0rKmWr1vEGQ" presentationName="Project Defined Process">
+            <presentation xmi:id="-AALyHEAmllXObYA9d6qzfg" href="uma://-AALyHEAmllXObYA9d6qzfg#-AALyHEAmllXObYA9d6qzfg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_onU40OFlEdyhmsbt0Xyl8A" name="management_resources (templates, reports, examples)" guid="_onU40OFlEdyhmsbt0Xyl8A" presentationName="Management Resources (Templates, Reports, Examples)">
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_MIUO0C8FEduzydamRseoUw" name="risk_list" guid="_MIUO0C8FEduzydamRseoUw" presentationName="Risk List" briefDescription="A list or table containing risk attributes. As it is usual to rank risks by priority, spreadsheets may be an alternative to capture risks">
+            <presentation xmi:id="-OugFZJszm73z0_KSwRXZPw" href="uma://-OugFZJszm73z0_KSwRXZPw#-OugFZJszm73z0_KSwRXZPw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_nHomIDgzEdu4E8ZdmlYjtA" name="work_items_list" guid="_nHomIDgzEdu4E8ZdmlYjtA" presentationName="Work Items List" briefDescription="This is an example of a partial Work Items List for a small team who just started to work on iteration 3.">
+            <presentation xmi:id="-qunTPN3vqTIGpELwajXpLA" href="uma://-qunTPN3vqTIGpELwajXpLA#-qunTPN3vqTIGpELwajXpLA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_QwUJYDg0Edu4E8ZdmlYjtA" name="work_items_list" guid="_QwUJYDg0Edu4E8ZdmlYjtA" presentationName="Work Items List" briefDescription="This is a spreadsheet suggested for representing a work items list. Alternative templates would be usage of a specific tool or database with similar information.">
+            <presentation xmi:id="-mPA7vone29k1OvF_1rACjg" href="uma://-mPA7vone29k1OvF_1rACjg#-mPA7vone29k1OvF_1rACjg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9N6OvLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9N6OvLekEd-D7YZN9NgldQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9N6OvbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9N6OvbekEd-D7YZN9NgldQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9N6OvrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9N6OvrekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

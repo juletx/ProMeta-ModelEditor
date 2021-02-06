@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-HJbvivaRmrZ6rdQcdFd78Q" name="new_concept,_pLEGUNqGEdy88NBoQgfGyg" guid="-HJbvivaRmrZ6rdQcdFd78Q" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Key abstractions are the key concepts and abstractions that the system needs to handle. They are those things that,&#xD;
+    without which, you could not describe the system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The requirements are good sources for key abstractions. These abstractions are often easily identified because they&#xD;
+    represent things that are significant to the business. For example, Customer and Account are typical key abstractions&#xD;
+    in the banking business.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each key abstraction should have a short description.&amp;nbsp; The are usually not described in detail as they will change&#xD;
+    and evolve&amp;nbsp;during the course of the project (as they are refined into actual design elements).&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The value of defining the key abstractions (and any obvious relationships between them) is that they establish a common&#xD;
+    understanding of the key concepts amongst the team, thereby enabling them to develop a&amp;nbsp;coherent solution that&#xD;
+    handles them consistently.&amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

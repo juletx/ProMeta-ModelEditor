@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-3WNAtOgFvwsJtFvhDugsVA" name="new_roadmap,_PJKZkMRfEdyBt8f9agIerg" guid="-3WNAtOgFvwsJtFvhDugsVA" changeDate="2009-03-28T11:00:54.000-0700" version="7.2.0">
+  <mainDescription>&lt;h3>&#xD;
+    Getting Started&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    After getting some basic familiarity with the concept of use cases, consider identifying use cases in a workshop&#xD;
+    environment, led by someone experienced in writing use cases. Detail one or a few example scenarios to serve as an&#xD;
+    example for other use case authors, to set a standard for format, style, and level of detail.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some teams prefer to identify all of the use cases and actors first, capturing those in a UML use-case diagram, or&#xD;
+    other sort of visual notation. Then they iteratively detail the use cases assigned to the current or next iteration, by&#xD;
+    outlining the steps in the use case main flow and alternative flows. When these steps and flows are detailed in the&#xD;
+    amount needed for development to start, it is useful to group flows in what is called use-case scenarios. Some teams&#xD;
+    prefer to identify scenarios first and then write the use cases in a more structured way later, by grouping related&#xD;
+    scenarios together. Scenarios can be used as a unit of work assignment and progress measurement on how use cases are&#xD;
+    analyzed, designed, implemented, and tested throughout the project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As you get more comfortable with this practice, consider supplementing your use cases with storyboards, activity&#xD;
+    diagrams, and additional requirements techniques. Modeling use cases in UML diagrams or in modeling tools can be&#xD;
+    helpful when there are lots of use cases, but start with a focus on the text and some key scenarios.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Common pitfalls&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Try to avoid applying functional decomposition approach to use cases. That can lead you to find too many use cases, and&#xD;
+    use-case descriptions that are a half-page or less in length. On the other hand, finding too few use cases can result&#xD;
+    in overloaded use cases. It can lead to long and complex use-case descriptions. Try to find a balance that makes sense&#xD;
+    for your team, stakeholders, and the type of system that you are developing. There are different opinions about what is&#xD;
+    the appropriate number of use cases for a system. The suggestion is that even large, complex systems will have no more&#xD;
+    than a couple dozen use cases on average.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

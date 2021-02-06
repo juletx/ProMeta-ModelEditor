@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_3dzJhNnmEdmO6L4XMImrsA" name="classifying_work_products,7.27749388241665E-306" guid="_3dzJhNnmEdmO6L4XMImrsA" changeDate="2010-04-15T02:00:42.000-0700" version="7.1.0">
+  <mainDescription>&lt;a id=&quot;Top&quot; name=&quot;Top&quot;>&lt;/a> 
+&lt;h3>
+    &lt;a id=&quot;Introduction&quot; name=&quot;Introduction&quot;>Introduction&lt;/a>
+&lt;/h3>
+&lt;p class=&quot;banner&quot;>
+    These classifications can be used to describe how to use work products (and reports) when tailoring the&amp;nbsp; process
+    for a project.&amp;nbsp; These values can be complemented with a separate classifier to define the review procedures for
+    the work product.
+&lt;/p>
+&lt;div align=&quot;center&quot;>
+    &lt;table
+    style=&quot;BORDER-BOTTOM: rgb(128,128,128) 1px solid; BORDER-LEFT: rgb(128,128,128) 1px solid; BORDER-TOP: rgb(128,128,128) 1px solid; BORDER-RIGHT: rgb(128,128,128) 1px solid&quot;
+     border=&quot;1&quot; cellspacing=&quot;0&quot; bordercolorlight=&quot;#808080&quot; bordercolordark=&quot;#808080&quot; cellpadding=&quot;4&quot; width=&quot;85%&quot;>
+        &lt;tbody>
+            &lt;tr>
+                &lt;th width=&quot;10%&quot;>
+                    &lt;p class=&quot;tableheading&quot;>
+                        Classification
+                    &lt;/p>
+                &lt;/th>
+                &lt;th width=&quot;90%&quot;>
+                    &lt;p class=&quot;tableheading&quot;>
+                        Explanation
+                    &lt;/p>
+                &lt;/th>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td width=&quot;10%&quot;>
+                    &lt;p class=&quot;tabletext&quot;>
+                        &lt;a id=&quot;XE_artifact__classification_of__must_have&quot;
+                        name=&quot;XE_artifact__classification_of__must_have&quot;>&lt;/a>Must have
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;90%&quot;>
+                    You must use this work product. It is a key work product and may cause problems later in development if
+                    it's not produced.
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td width=&quot;10%&quot;>
+                    &lt;p class=&quot;tabletext&quot;>
+                        &lt;a id=&quot;XE_artifact__classification_of__should_have&quot;
+                        name=&quot;XE_artifact__classification_of__should_have&quot;>&lt;/a>Should have
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;90%&quot;>
+                    You should have this work product, if at all possible, but it is negotiable. If you do not produce this
+                    work product, you should be able to justify why not.
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td width=&quot;10%&quot;>
+                    &lt;p class=&quot;tabletext&quot;>
+                        &lt;a id=&quot;XE_artifact__classification_of__could_have&quot;
+                        name=&quot;XE_artifact__classification_of__could_have&quot;>&lt;/a>Could have
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;90%&quot;>
+                    Could have means that this work product doesn't have to be produced. It's only produced if it adds
+                    value and if there's enough time.&amp;nbsp;
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td width=&quot;10%&quot;>
+                    &lt;p class=&quot;tabletext&quot;>
+                        &lt;a id=&quot;XE_artifact__classification_of__won't_have&quot;
+                        name=&quot;XE_artifact__classification_of__won't_have&quot;>&lt;/a>Won't have
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;90%&quot;>
+                    This means you won't use this work product. This may occur where a Rational Unified Process work
+                    product is replaced by a local work product.
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>&lt;br />
+&lt;/div>
+&lt;p>
+    This classification scheme can be extended or customized to reflect your organization's individual culture.
+&lt;/p>
+&lt;p>
+    An example of when this classification scheme may be adjusted depends on the level of tailoring that is being
+    performed.&amp;nbsp; For example, when tailoring a process for a specific project, the decision of whether or not a
+    specific work product is to be used is made as part of the tailoring effort. In such cases, the above classification
+    scheme may be reduced&amp;nbsp;to &quot;Required&quot; and &quot;Not Required&quot;.&amp;nbsp; In other cases, say when you are tailoring a process
+    for an organization and further tailoring for individual projects is expected, a more extensive classification scheme
+    as described in the above table becomes important.
+&lt;/p>
+&lt;h3>
+    &lt;a id=&quot;Impact&quot; name=&quot;Impact&quot;>Impact&lt;/a> of Classification
+&lt;/h3>
+&lt;p>
+    All work products classified as &lt;i>Must have&lt;/i> or &lt;i>Should have&lt;/i> must have their review procedures, tools,
+    templates and configuration management practices defined.&amp;nbsp;&amp;nbsp;
+&lt;/p>
+&lt;p>
+    The specification of these procedures is optional for work products classified as &lt;i>Could have&lt;/i>-these decisions
+    could be left to the developers or projects that decide to produce these work products.
+&lt;/p>
+&lt;p>
+    All work products classified as &lt;i>Won't have&lt;/i> must have their omission justified.
+&lt;/p>
+&lt;p>
+    The major benefit of adopting this classification scheme is that it clearly denotes how the process has been
+    customized, and where there are options for negotiation and local decision making.
+&lt;/p>
+&lt;h3>
+    &lt;a id=&quot;Examples&quot; name=&quot;Examples&quot;>Examples of Usage&lt;/a>
+&lt;/h3>
+&lt;p>
+    One way to think about the work product classification scheme is that it sets constraints on how the work products are
+    used.
+&lt;/p>
+&lt;p>
+    For example, if you decide that the project could have an Analysis Model, then further customization could adjust these
+    values by deciding that the project will meet one of the following criteria:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        It will have an Analysis Model
+    &lt;/li>
+    &lt;li>
+        It won't have an Analysis Model
+    &lt;/li>
+    &lt;li>
+        It will stay in its current state (an Analysis Model is optional)
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    The classification scheme can even be used dynamically-allowing the status of the work product to change depending upon
+    which phase the project is in.
+&lt;/p>
+&lt;p>
+    The following table shows different ways of treating the Analysis Model. The &lt;b>How to use&lt;/b> column defines how the
+    work product is used in each of the phases.
+&lt;/p>
+&lt;div align=&quot;center&quot;>
+    &lt;table
+    style=&quot;BORDER-BOTTOM: rgb(128,128,128) 1px solid; BORDER-LEFT: rgb(128,128,128) 1px solid; BORDER-TOP: rgb(128,128,128) 1px solid; BORDER-RIGHT: rgb(128,128,128) 1px solid&quot;
+     border=&quot;1&quot; cellspacing=&quot;0&quot; bordercolorlight=&quot;#808080&quot; bordercolordark=&quot;#808080&quot; cellpadding=&quot;4&quot; width=&quot;85%&quot;>
+        &lt;tbody>
+            &lt;tr>
+                &lt;th id=&quot;col1&quot; rowspan=&quot;2&quot; width=&quot;19%&quot;>
+                    Work Product
+                &lt;/th>
+                &lt;th id=&quot;col2&quot; width=&quot;31%&quot; colspan=&quot;4&quot;>
+                    How to use
+                &lt;/th>
+                &lt;th id=&quot;col3&quot; rowspan=&quot;2&quot; width=&quot;37%&quot;>
+                    Comment
+                &lt;/th>
+            &lt;/tr>
+            &lt;tr>
+                &lt;th id=&quot;col2a&quot; width=&quot;8%&quot; headers=&quot;col2&quot;>
+                    Incep
+                &lt;/th>
+                &lt;th id=&quot;col2b&quot; width=&quot;8%&quot; headers=&quot;col2&quot;>
+                    Elab
+                &lt;/th>
+                &lt;th id=&quot;col2c&quot; width=&quot;8%&quot; headers=&quot;col2&quot;>
+                    Const
+                &lt;/th>
+                &lt;th id=&quot;col2d&quot; width=&quot;8%&quot; headers=&quot;col2&quot;>
+                    Trans
+                &lt;/th>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td width=&quot;19%&quot; headers=&quot;col1&quot;>
+                    &lt;p>
+                        Analysis Mode
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2a&quot;>
+                    &lt;p>
+                        Won't
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2b&quot;>
+                    &lt;p>
+                        Won't
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2c&quot;>
+                    &lt;p>
+                        Won't
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2d&quot;>
+                    &lt;p>
+                        Won't
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;37%&quot; headers=&quot;col3&quot;>
+                    &lt;p>
+                        No Analysis Model is developed
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td width=&quot;19%&quot; headers=&quot;col1&quot;>
+                    &lt;p>
+                        Analysis Model
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2a&quot;>
+                    &lt;p>
+                        Could
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2b&quot;>
+                    &lt;p>
+                        Could
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2c&quot;>
+                    &lt;p>
+                        Could
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2d&quot;>
+                    &lt;p>
+                        Could
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;37%&quot; headers=&quot;col3&quot;>
+                    &lt;p>
+                        Normal
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td width=&quot;19%&quot; headers=&quot;col1&quot;>
+                    &lt;p>
+                        Analysis Model
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2a&quot;>
+                    &lt;p>
+                        Could
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2b&quot;>
+                    &lt;p>
+                        Should
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2c&quot;>
+                    &lt;p>
+                        Won't
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2d&quot;>
+                    &lt;p>
+                        Won't
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;37%&quot; headers=&quot;col3&quot;>
+                    &lt;p>
+                        An evolutionary approach where the Analysis Model is replaced by the Design Model
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td width=&quot;19%&quot; headers=&quot;col1&quot;>
+                    &lt;p>
+                        Analysis Model
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2a&quot;>
+                    &lt;p>
+                        Must
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2b&quot;>
+                    &lt;p>
+                        Won't
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2c&quot;>
+                    &lt;p>
+                        Won't
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2d&quot;>
+                    &lt;p>
+                        Won't
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;37%&quot; headers=&quot;col3&quot;>
+                    &lt;p>
+                        An evolutionary approach where the Analysis Model is mandatory during the Inception phase to help
+                        scope the project but is replaced by the Design Model during Elaboration
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td width=&quot;19%&quot; headers=&quot;col1&quot;>
+                    &lt;p>
+                        Analysis Model
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2a&quot;>
+                    &lt;p>
+                        Should
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2b&quot;>
+                    &lt;p>
+                        Must
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2c&quot;>
+                    &lt;p>
+                        Must
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;8%&quot; headers=&quot;col2 col2d&quot;>
+                    &lt;p>
+                        Must
+                    &lt;/p>
+                &lt;/td>
+                &lt;td width=&quot;37%&quot; headers=&quot;col3&quot;>
+                    &lt;p>
+                        A formal process where the Analysis Model is a mandatory, preserved work product that is optional
+                        in the inception phase
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>&lt;br />
+&lt;/div></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

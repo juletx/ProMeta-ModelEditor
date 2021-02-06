@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-_gTtsZg2sOCefRSeAo-bJg" name="collaboration_guidance_slot,_68JUYN8-Edyhmsbt0Xyl8A" guid="-_gTtsZg2sOCefRSeAo-bJg" changeDate="2008-08-11T09:50:50.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Effective communication and collaboration among the whole team are important aspects of successful projects, no matter&#xD;
+    the size of the project or methodology followed by the team. The whole team (including customers, developers, managers,&#xD;
+    quality assurance team, technical writers, and everyone else involved with the project) collaborates with one purpose&#xD;
+    in mind: to achieve the goals for a project, delivering the results of a project on time and within budget. The whole&#xD;
+    team collaborates and constantly communicates on what the goals are and how they will be attained. &lt;a&#xD;
+    class=&quot;elementlinkwithusertext&quot;&#xD;
+    href=&quot;./../../../core.mgmt.common.base/guidances/supportingmaterials/references.mgmt_D80619F3.html#POL08&quot;&#xD;
+    guid=&quot;_JlTPUM6aEdyuBO4ZIzcyig&quot;>[POL08]&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This guideline is a placeholder for&amp;nbsp;collaboration guidelines contributed by other practices.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

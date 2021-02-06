@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_NqqcUqeqEdmKDbQuyzCoqQ" name="any_role,_0dsWoMlgEdmt3adZL5Dmdw" guid="_NqqcUqeqEdmKDbQuyzCoqQ" changeDate="2006-09-11T11:34:17.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    This role allows anyone on a team to perform general tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Access artifacts in the configuration control system for development and maintenance&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Submit change requests for the project&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Participate in assessments and reviews&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Volunteer to work on a particular iteration&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:RoleDescription>

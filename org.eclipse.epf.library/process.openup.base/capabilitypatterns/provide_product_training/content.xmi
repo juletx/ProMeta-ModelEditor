@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-S5JIDccPmUswHn8Fuoihmg" name="02_02_deliver_end_user_training,_iEP5wfd3EeCFmpfCmMPILg" guid="-S5JIDccPmUswHn8Fuoihmg">
+    <refinedDescription>&lt;p>&#xD;
+    Often, a Trainer will deliver training to End Users; rarely will the development team deliver training because&#xD;
+    they are busy developing additional features for this or other systems. If a Trainer is not available, the&#xD;
+    Product Owner might have to train the End Users.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    End User training usually consists of presentation slides, job aids, hands-on labs and exercises, or workshops that&#xD;
+    integrate these methods into an environment that the End Users can understand and relate to.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zWQaePGlqyQtrhSJIcFT5g" name="02_03_deliver_support_training,_iEP5wvd3EeCFmpfCmMPILg" guid="-zWQaePGlqyQtrhSJIcFT5g">
+    <refinedDescription>&lt;p>&#xD;
+    Because a Release ultimately will have to be supported by Help Desk or other technical personnel, a set of training&#xD;
+    materials designed to convey key concepts to those individuals must be developed and delivered by the&amp;nbsp;Development&#xD;
+    Team or by a technically oriented Trainer.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Delivery of this training might include presentation slides, job aids, lab exercises, or workshops designed to provide&#xD;
+    real-world scenarios to accelerate learning and retention. In addition, the training materials might be different for&#xD;
+    each level (tier) of support.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EOsTkw08ZDXzyCHSCP-bPQ" name="trainer,_iEQg0vd3EeCFmpfCmMPILg" guid="-EOsTkw08ZDXzyCHSCP-bPQ">
+    <refinedDescription>Many organizations engage Trainers to deliver product training to various audiences. Unlike a software Developer, most&#xD;
+Trainers have extensive experience in delivering training materials in a fashion that is well suited to communicating&#xD;
+complex concepts to End Users. They bring a necessary creativity and talent that complements the implementation and testing&#xD;
+skills of a development team.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EeEevuLnY3VYk0iyk-4PNA" name="product_documentation,_iEQg1Pd3EeCFmpfCmMPILg" guid="-EeEevuLnY3VYk0iyk-4PNA">
+    <refinedDescription>&lt;p>&#xD;
+    Product documentation is created for the benefit of the marketing arm of an organization, the Program Manager, and&#xD;
+    those people who must assess the business value of a particular system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an often overlooked aspect of development team implementation. The team should consider that the customers of a&#xD;
+    particular Release usually are not technical themselves, but do require a detailed enough understanding of how their&#xD;
+    product operates and how it meets stated business goals and needs.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KHIo0rQQtM2BlPh4JWpGjg" name="support_documentation,_iEQg1vd3EeCFmpfCmMPILg" guid="-KHIo0rQQtM2BlPh4JWpGjg">
+    <refinedDescription>&lt;p>&#xD;
+    Support documentation usually is developed for the three common tiers of a support organization. Tier 1 typically is&#xD;
+    the Help Desk where users call when they have a problem with a particular system. Tier 1 support personnel&#xD;
+    normally answer basic questions and, if necessary, log a ticket and escalate it to the appropriate Level 2 support&#xD;
+    desk.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Tier 2 support personnel may deal with more complex questions or issues regarding an application and might need to&#xD;
+    do some research on the characteristics of the system to provide an answer. If that person cannot resolve the&#xD;
+    issue, the ticket is escalated to Tier 3 support personnel who have a deeper understanding of the application's&#xD;
+    code and the technology support the system's architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To properly convey the necessary information to each support tier, the application's code base should be well commented&#xD;
+    and logically organized. This approach will facilitate the development of the support documentation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Support documentation typically includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        User manuals with work instructions, process descriptions, and procedures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Communications, training, and knowledge transfer deliverables&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Support and operations manuals&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service information, including Help Desk scripts&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EXc3pddBCA6wj8qQ0Dqamw" name="user_documentation,_iEQg2Pd3EeCFmpfCmMPILg" guid="-EXc3pddBCA6wj8qQ0Dqamw">
+    <refinedDescription>&lt;p>&#xD;
+    User documentation might include all or parts of user manuals (electronic or paper-based), tutorials, frequently asked&#xD;
+    questions (FAQs), on-line Help Files, installation instructions, work instructions, operational procedures, etc.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EIp0kjHvkMcdiHUnbnCsHQ" name="training_materials,_iEQg2vd3EeCFmpfCmMPILg" guid="-EIp0kjHvkMcdiHUnbnCsHQ">
+    <refinedDescription>&lt;p>&#xD;
+    Training materials that can be used to train end users and production support personnel might consist of:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Presentation slides&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Handouts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Job aids&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Tutorials&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        On-line demos&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Video vignettes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Lab exercises&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Quizzes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Workshop materials, etc.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-XsPT6hPwaXWxv6Z9inqp2w" name="x,_ZikMkfd3EeCFmpfCmMPILg" guid="-XsPT6hPwaXWxv6Z9inqp2w"/>
+</xmi:XMI>

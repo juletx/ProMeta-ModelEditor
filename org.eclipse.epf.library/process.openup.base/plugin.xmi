@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9tgU3bekEd-D7YZN9NgldQ" guid="_9tgU3bekEd-D7YZN9NgldQ">
+    <subManagers xmi:id="__fDK4LekEd-D7YZN9NgldQ" href="uma://_eWxZgNOEEdyqlogshP8l4g#__fDK4LekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="__fDK47ekEd-D7YZN9NgldQ" href="uma://_oZgCsNOEEdyqlogshP8l4g#__fDK47ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="__fM74bekEd-D7YZN9NgldQ" href="uma://_RQi0ANONEdyqlogshP8l4g#__fM74bekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="__ff20bekEd-D7YZN9NgldQ" href="uma://_aUsVENONEdyqlogshP8l4g#__ff20bekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="__fpAwbekEd-D7YZN9NgldQ" href="uma://_h0Gs8NONEdyqlogshP8l4g#__fpAwbekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="__fyxwLekEd-D7YZN9NgldQ" href="uma://_pzQU0NONEdyqlogshP8l4g#__fyxwLekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="__fyxw7ekEd-D7YZN9NgldQ" href="uma://_xxcpgNOEEdyqlogshP8l4g#__fyxw7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="__f8iwbekEd-D7YZN9NgldQ" href="uma://_4ouDUNOEEdyqlogshP8l4g#__f8iwbekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="__gFssbekEd-D7YZN9NgldQ" href="uma://__ZInMNOEEdyqlogshP8l4g#__gFssbekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="__gPdsbekEd-D7YZN9NgldQ" href="uma://_KaeNsNOFEdyqlogshP8l4g#__gPdsbekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="__gZOsLekEd-D7YZN9NgldQ" href="uma://_RXGooNOFEdyqlogshP8l4g#__gZOsLekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="__gZOs7ekEd-D7YZN9NgldQ" href="uma://_buG4sNOFEdyqlogshP8l4g#__gZOs7ekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="__giYobekEd-D7YZN9NgldQ" href="uma://_SuWj4NOPEdyqlogshP8l4g#__giYobekEd-D7YZN9NgldQ"/>
+    <subManagers xmi:id="_z1PXgZiLEeGOvpP1fVrVNA" href="uma://_y7a0KpiLEeGOvpP1fVrVNA#_z1PXgZiLEeGOvpP1fVrVNA"/>
+    <subManagers xmi:id="_z1sDcZiLEeGOvpP1fVrVNA" href="uma://_y7az6piLEeGOvpP1fVrVNA#_z1sDcZiLEeGOvpP1fVrVNA"/>
+    <subManagers xmi:id="_z1--aJiLEeGOvpP1fVrVNA" href="uma://_y7az-ZiLEeGOvpP1fVrVNA#_z1--aJiLEeGOvpP1fVrVNA"/>
+    <subManagers xmi:id="_z2k0QJiLEeGOvpP1fVrVNA" href="uma://_y7a0FpiLEeGOvpP1fVrVNA#_z2k0QJiLEeGOvpP1fVrVNA"/>
+    <resourceDescriptors xmi:id="__e5Z4LekEd-D7YZN9NgldQ" id="-8kqk1tE8R96b88T_NC7SoQ" uri="guidances/supportingmaterials/release_info_openup_process.xmi"/>
+    <resourceDescriptors xmi:id="__e5Z4bekEd-D7YZN9NgldQ" id="_eWxZgNOEEdyqlogshP8l4g" uri="capabilitypatterns/initiate_project/model.xmi"/>
+    <resourceDescriptors xmi:id="__fDK4rekEd-D7YZN9NgldQ" id="_oZgCsNOEEdyqlogshP8l4g" uri="capabilitypatterns/plan_manage_iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="__fM74LekEd-D7YZN9NgldQ" id="_RQi0ANONEdyqlogshP8l4g" uri="capabilitypatterns/construction_phase_iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="__ff20LekEd-D7YZN9NgldQ" id="_aUsVENONEdyqlogshP8l4g" uri="capabilitypatterns/elaboration_phase_iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="__fpAwLekEd-D7YZN9NgldQ" id="_h0Gs8NONEdyqlogshP8l4g" uri="capabilitypatterns/inception_phase_iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="__fpAw7ekEd-D7YZN9NgldQ" id="_pzQU0NONEdyqlogshP8l4g" uri="capabilitypatterns/transition_phase_iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="__fyxwrekEd-D7YZN9NgldQ" id="_xxcpgNOEEdyqlogshP8l4g" uri="capabilitypatterns/identify_and_refine_requirements/model.xmi"/>
+    <resourceDescriptors xmi:id="__f8iwLekEd-D7YZN9NgldQ" id="_4ouDUNOEEdyqlogshP8l4g" uri="capabilitypatterns/agree_technical_approach/model.xmi"/>
+    <resourceDescriptors xmi:id="__gFssLekEd-D7YZN9NgldQ" id="__ZInMNOEEdyqlogshP8l4g" uri="capabilitypatterns/ongoing_tasks/model.xmi"/>
+    <resourceDescriptors xmi:id="__gPdsLekEd-D7YZN9NgldQ" id="_KaeNsNOFEdyqlogshP8l4g" uri="capabilitypatterns/develop_architecture/model.xmi"/>
+    <resourceDescriptors xmi:id="__gPds7ekEd-D7YZN9NgldQ" id="_RXGooNOFEdyqlogshP8l4g" uri="capabilitypatterns/develop_solution/model.xmi"/>
+    <resourceDescriptors xmi:id="__gZOsrekEd-D7YZN9NgldQ" id="_buG4sNOFEdyqlogshP8l4g" uri="capabilitypatterns/test_solution/model.xmi"/>
+    <resourceDescriptors xmi:id="__giYoLekEd-D7YZN9NgldQ" id="_SuWj4NOPEdyqlogshP8l4g" uri="deliveryprocesses/openup_lifecycle/model.xmi"/>
+    <resourceDescriptors xmi:id="_z1PXgJiLEeGOvpP1fVrVNA" id="_y7a0KpiLEeGOvpP1fVrVNA" uri="capabilitypatterns/prep_doc_trng/model.xmi"/>
+    <resourceDescriptors xmi:id="_z1sDcJiLEeGOvpP1fVrVNA" id="_y7az6piLEeGOvpP1fVrVNA" uri="capabilitypatterns/provide_product_training/model.xmi"/>
+    <resourceDescriptors xmi:id="_z1--Z5iLEeGOvpP1fVrVNA" id="_y7az-ZiLEeGOvpP1fVrVNA" uri="capabilitypatterns/prepare_for_release/model.xmi"/>
+    <resourceDescriptors xmi:id="_z2bqW5iLEeGOvpP1fVrVNA" id="_y7a0FpiLEeGOvpP1fVrVNA" uri="capabilitypatterns/deploy_release_to_production/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Z7teANQ1EdyQ89W1tgswSQ" name="process.openup.base" guid="_Z7teANQ1EdyQ89W1tgswSQ" presentationName="Processes for OpenUP" briefDescription="This plug-in defines an example process for the OpenUP configuration." changeDate="2008-12-15T01:25:35.000-0800">
+    <methodElementProperty xmi:id="_-gnM3rekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgUzrekEd-D7YZN9NgldQ" name="Content" guid="_9tgUzrekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgUz7ekEd-D7YZN9NgldQ" name="Categories" guid="_9tgUz7ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU0LekEd-D7YZN9NgldQ" name="Domains" guid="_9tgU0LekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU0bekEd-D7YZN9NgldQ" name="Disciplines" guid="_9tgU0bekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU0rekEd-D7YZN9NgldQ" name="RoleSets" guid="_9tgU0rekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU07ekEd-D7YZN9NgldQ" name="WP Types" guid="_9tgU07ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU1LekEd-D7YZN9NgldQ" name="Tools" guid="_9tgU1LekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU1bekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9tgU1bekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU1rekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9tgU1rekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU17ekEd-D7YZN9NgldQ" name="Hidden" guid="_9tgU17ekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9tgU2LekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9tgU2LekEd-D7YZN9NgldQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU2bekEd-D7YZN9NgldQ" name="CoreContent" guid="_9tgU2bekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o5lO8Gr4Ed24CboUCnKL3A" name="release_info" guid="_o5lO8Gr4Ed24CboUCnKL3A" presentationName="Release Information">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_o5lO8Wr4Ed24CboUCnKL3A" name="release_info_openup_process" guid="_o5lO8Wr4Ed24CboUCnKL3A" presentationName="Process: OpenUP" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <methodElementProperty xmi:id="_zi6uAKqKEeGEBp97uxfqnQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-8kqk1tE8R96b88T_NC7SoQ" href="uma://-8kqk1tE8R96b88T_NC7SoQ#-8kqk1tE8R96b88T_NC7SoQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tgU2rekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9tgU2rekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_a0pWkNOEEdyqlogshP8l4g" name="Management" guid="_a0pWkNOEEdyqlogshP8l4g">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_eWxZgNOEEdyqlogshP8l4g" href="uma://_eWxZgNOEEdyqlogshP8l4g#_eWxZgNOEEdyqlogshP8l4g"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_oZgCsNOEEdyqlogshP8l4g" href="uma://_oZgCsNOEEdyqlogshP8l4g#_oZgCsNOEEdyqlogshP8l4g"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_OKykANONEdyqlogshP8l4g" name="Phase Iteration Templates" guid="_OKykANONEdyqlogshP8l4g">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_RQi0ANONEdyqlogshP8l4g" href="uma://_RQi0ANONEdyqlogshP8l4g#_RQi0ANONEdyqlogshP8l4g"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_aUsVENONEdyqlogshP8l4g" href="uma://_aUsVENONEdyqlogshP8l4g#_aUsVENONEdyqlogshP8l4g"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_h0Gs8NONEdyqlogshP8l4g" href="uma://_h0Gs8NONEdyqlogshP8l4g#_h0Gs8NONEdyqlogshP8l4g"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_pzQU0NONEdyqlogshP8l4g" href="uma://_pzQU0NONEdyqlogshP8l4g#_pzQU0NONEdyqlogshP8l4g"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_b_xs8NOEEdyqlogshP8l4g" name="Technical" guid="_b_xs8NOEEdyqlogshP8l4g">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_xxcpgNOEEdyqlogshP8l4g" href="uma://_xxcpgNOEEdyqlogshP8l4g#_xxcpgNOEEdyqlogshP8l4g"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_4ouDUNOEEdyqlogshP8l4g" href="uma://_4ouDUNOEEdyqlogshP8l4g#_4ouDUNOEEdyqlogshP8l4g"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="__ZInMNOEEdyqlogshP8l4g" href="uma://__ZInMNOEEdyqlogshP8l4g#__ZInMNOEEdyqlogshP8l4g"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_KaeNsNOFEdyqlogshP8l4g" href="uma://_KaeNsNOFEdyqlogshP8l4g#_KaeNsNOFEdyqlogshP8l4g"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_RXGooNOFEdyqlogshP8l4g" href="uma://_RXGooNOFEdyqlogshP8l4g#_RXGooNOFEdyqlogshP8l4g"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_buG4sNOFEdyqlogshP8l4g" href="uma://_buG4sNOFEdyqlogshP8l4g#_buG4sNOFEdyqlogshP8l4g"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_DmPF4JieEeGlkdGl1HQlDA" name="General" guid="_DmPF4JieEeGlkdGl1HQlDA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_y7a0FpiLEeGOvpP1fVrVNA" href="uma://_y7a0FpiLEeGOvpP1fVrVNA#_y7a0FpiLEeGOvpP1fVrVNA"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_y7az-ZiLEeGOvpP1fVrVNA" href="uma://_y7az-ZiLEeGOvpP1fVrVNA#_y7az-ZiLEeGOvpP1fVrVNA"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_y7a0KpiLEeGOvpP1fVrVNA" href="uma://_y7a0KpiLEeGOvpP1fVrVNA#_y7a0KpiLEeGOvpP1fVrVNA"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_y7az6piLEeGOvpP1fVrVNA" href="uma://_y7az6piLEeGOvpP1fVrVNA#_y7az6piLEeGOvpP1fVrVNA"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tgU27ekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9tgU27ekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_SuWj4NOPEdyqlogshP8l4g" href="uma://_SuWj4NOPEdyqlogshP8l4g#_SuWj4NOPEdyqlogshP8l4g"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tgU3LekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9tgU3LekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="uma://_A118oMYaEdyXeo04os5BOw#_A118oMYaEdyXeo04os5BOw"/>
+    <bases href="uma://_14Ft0M3pEdyuBO4ZIzcyig#_14Ft0M3pEdyuBO4ZIzcyig"/>
+    <bases href="uma://_ji3-gEMXEdyP_Jn83ylwUQ#_ji3-gEMXEdyP_Jn83ylwUQ"/>
+    <bases href="uma://_CX-9AM3qEdyuBO4ZIzcyig#_CX-9AM3qEdyuBO4ZIzcyig"/>
+    <bases href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+    <bases href="uma://_LdRtkM3qEdyuBO4ZIzcyig#_LdRtkM3qEdyuBO4ZIzcyig"/>
+    <bases href="uma://_OOB2AAouEdyhlpBPrduOMw#_OOB2AAouEdyhlpBPrduOMw"/>
+    <bases href="uma://_iNwFsMhNEdygFZkm1d5NtQ#_iNwFsMhNEdygFZkm1d5NtQ"/>
+    <bases href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_qqyzAJ6WEdyQN-zRFaRrCQ"/>
+    <bases href="uma://_4gXdoL8BEdyWX5Yd-9QZ1A#_4gXdoL8BEdyWX5Yd-9QZ1A"/>
+    <bases href="uma://_NBRHwMh3EdygFZkm1d5NtQ#_NBRHwMh3EdygFZkm1d5NtQ"/>
+    <bases href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_nKS10J6YEdyQN-zRFaRrCQ"/>
+    <bases href="uma://_40sbAJ6YEdyQN-zRFaRrCQ#_40sbAJ6YEdyQN-zRFaRrCQ"/>
+    <bases href="uma://_IItp4MuXEdyLOriywSJkoQ#_IItp4MuXEdyLOriywSJkoQ"/>
+    <bases href="uma://_Hz9OMG5KEdyAHIxjZ9kpqw#_Hz9OMG5KEdyAHIxjZ9kpqw"/>
+    <bases href="uma://_h_9roM3PEdyKkus0T68H3Q#_h_9roM3PEdyKkus0T68H3Q"/>
+    <bases href="uma://_D-ExQMktEdygFZkm1d5NtQ#_D-ExQMktEdygFZkm1d5NtQ"/>
+    <bases href="uma://_GxBjAM2sEdym_ZFqrJcXUg#_GxBjAM2sEdym_ZFqrJcXUg"/>
+    <bases href="uma://_4gaS4LPREduocbW-TPTq7A#_4gaS4LPREduocbW-TPTq7A"/>
+    <bases href="uma://_XPLD8MudEdyRPtFYRAKVDg#_XPLD8MudEdyRPtFYRAKVDg"/>
+    <bases href="uma://_Z2cK0LPPEduocbW-TPTq7A#_Z2cK0LPPEduocbW-TPTq7A"/>
+    <bases href="uma://_NjNCEMrmEdyd6uFrFHNXhA#_NjNCEMrmEdyd6uFrFHNXhA"/>
+    <bases href="uma://_Y9TKMLS9EduDY8LNbMCDBA#_Y9TKMLS9EduDY8LNbMCDBA"/>
+    <bases href="uma://_00zMMMt1EdyRPtFYRAKVDg#_00zMMMt1EdyRPtFYRAKVDg"/>
+    <bases href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_DZ1rEI7-Edy7q8CKc_B8eg"/>
+    <bases href="uma://_HYAA4MriEdyd6uFrFHNXhA#_HYAA4MriEdyd6uFrFHNXhA"/>
+    <bases href="uma://_GbYfULPaEduocbW-TPTq7A#_GbYfULPaEduocbW-TPTq7A"/>
+    <bases href="uma://_44o4AOvVEdyp6czxLiQq9g#_44o4AOvVEdyp6czxLiQq9g"/>
+    <bases href="uma://_ugihsOxXEdyCFeiQwJE7Vg#_ugihsOxXEdyCFeiQwJE7Vg"/>
+    <bases href="uma://_wDZIUOCFEeC1y_NExchKwQ#_wDZIUOCFEeC1y_NExchKwQ"/>
+    <bases href="uma://_mYfo8OCIEeC1y_NExchKwQ#_mYfo8OCIEeC1y_NExchKwQ"/>
+    <bases href="uma://_NOBspSZLEd-QuZFPf_YdqQ#_NOBspSZLEd-QuZFPf_YdqQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-zD7XGTc4k1GFe4PvMKlkKA" name="new_checklist,_dxaPUF-BEd2T0JdVjRyaQA" guid="-zD7XGTc4k1GFe4PvMKlkKA" changeDate="2008-07-31T09:23:44.000-0700" version="7.5.0">
+  <sections xmi:id="_rZ3pEF-BEd2T0JdVjRyaQA" name="The test coverage is acceptable" guid="_rZ3pEF-BEd2T0JdVjRyaQA">
+    <sectionDescription>&lt;p>&#xD;
+    100% test coverage is the ideal, but there may occasionally be places where it's impossible to achieve total coverage.&#xD;
+    For instance, some code may only be executable when exotic system conditions occur that are not feasible to replicate&#xD;
+    on a developer's machine. Every reasonable effort should be made to cover all the code.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_7ncD4F-BEd2T0JdVjRyaQA" name="Developer test names or IDs are consistent with project naming conventions" guid="_7ncD4F-BEd2T0JdVjRyaQA"/>
+  <sections xmi:id="_0nZTIF-CEd2T0JdVjRyaQA" name="The test logic is correct" guid="_0nZTIF-CEd2T0JdVjRyaQA">
+    <sectionDescription>&lt;p>&#xD;
+    Assure the test themselves are correct.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_KfXE8F-DEd2T0JdVjRyaQA" name="Branch coverage is acceptable." guid="_KfXE8F-DEd2T0JdVjRyaQA">
+    <sectionDescription>Assure conditional logic been tested in all combinations.&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_UNewEF-DEd2T0JdVjRyaQA" name="The test is easy to maintain." guid="_UNewEF-DEd2T0JdVjRyaQA">
+    <sectionDescription>Has the test been implemented to account for expected ongoing changes in the application state, such as system date fields,&#xD;
+transaction numbers, and so on?&lt;br /></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

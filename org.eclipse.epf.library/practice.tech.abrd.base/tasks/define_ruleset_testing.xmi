@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-l9UMxPIZrGi8cIWuAJ4OBQ" name=",_mDL5YGhkEd-FVuzXjnvIWA" guid="-l9UMxPIZrGi8cIWuAJ4OBQ" changeDate="2010-05-25T06:29:17.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    The recommended approach is to consider a rule-set as a unit piece of functionality that gets exposed to the rest of
+    the application as a decision service (SOA pattern). Therefore it should be tested using the same strategy as for any
+    other function in the system. One criterion of rule testing lies in the level of user friendliness that should be built
+    into the test harness. Indeed, empowering business analysts with the ability to change the rules also means they should
+    be tested with their changes. Typically developers code fixtures and do automated testing using JUnit. Business
+    analysts should not write code, but should be able to put together fixtures to be tested against the rules.
+&lt;/p>
+&lt;p>
+    How much effort should be spent on the rule test harness really depends on the application, and also importantly on the
+    IT-level of business analyst. Sometimes capturing test data in XML and having business analysts edit them is enough and
+    very cost effective. Sometimes business analysts will feel more comfortable with Excel spreadsheets, or with a full GUI
+    which would need a larger development effort to be facilitated.&lt;br />
+    It is usually a good idea whenever possible to keep individual test case data in files that can be put under source
+    code management. This way the code base, the rules and the test cases can be kept in sync. This becomes important when
+    multiple versions of a business rule are being worked on at different stages such as active development stage, test
+    stage or production stage.&lt;br />
+    BRMS testing fits perfectly into this strategy due to its ability to produce the same sort of test fixtures as the
+    other environments. Utilizing a tool such as JUnit as the test controller, test fixtures are stored in a test fixture
+    repository for which the JUnit can access.
+&lt;/p>
+&lt;h5>
+    Testing Levels&lt;br />
+&lt;/h5>
+&lt;p>
+    The following levels of testing are usually applied during the application construction:&lt;br />
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Unit Test: applied to test classes and other application elements as developers build them. In the context of a
+        BRMS, the goal of unit testing is to make sure that a rule is actually fired when expected, against the expect
+        object instances and performs the expected working memory updates.
+    &lt;/li>
+    &lt;li>
+        Component Test: applied to test a group of elements (e.g. classes) which together represent a significant
+        application component. In the context of a BRMS, a component is typically a rule service.
+    &lt;/li>
+    &lt;li>
+        System Test: applied to test the system performs the right business functions correctly.
+    &lt;/li>
+    &lt;li>
+        Acceptance Test: applied to ensure users are satisfied with the system. The last stages of acceptance testing are
+        the alpha testing (testing performed internally by the company) and beta testing (testing performed by a limited
+        audience outside of the company).
+    &lt;/li>
+    &lt;li>
+        The scope of this section is limited to unit-test (usually performed by rule developers) and component test
+        (performed by both rule developers and rule authors), where components are understood as the rule services
+        implemented by a rule engine.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    Once the rule service components are tested, the next levels can follow the general application testing process
+    followed by the client's QA department, who are considering the rule services as black boxes.&lt;br />
+&lt;/p>
+&lt;h5>
+    Testing Activities
+&lt;/h5>
+&lt;p>
+    This section relates to why testing is performed, that is what we are trying to get out of it. The goal of testing the
+    decision service components is first and foremost to ensure the correctness of the decision rendered by the service
+    with respect to the requirements.&lt;br />
+    Key Performance Indicators (KPIs) are used to measure how close the actual test results are from the expectations. The
+    focus of KPIs vary depending on the type of testing performed: for performance testing, the KPIs will obviously be
+    interested in the time taken to execute the rules or tasks in the rule-set, for coverage, the focus will be on the set
+    of rule fired and the set of tasks executed, and for more business-oriented testing of correctness, the focus will be
+    on the accuracy of the response.&lt;br />
+&lt;/p>
+&lt;h5>
+    Correctness&lt;br />
+&lt;/h5>
+&lt;p>
+    For a decision-rich type of application, this is where most of the testing time and effort will be spent, using all
+    types of resources from developers, to business analysts, to business rule writers and subject matter experts.&lt;br />
+    The goal here is to ensure that for a given request configuration, the system renders a response that conforms to the
+    company business goals and policies, contractual obligations and possibly to compliance rules imposed by external
+    agencies (laws and regulations). The impact of an incorrect decision can be profound, from lawsuits for non-compliance
+    to risky financial commitments.&lt;br />
+    Testing the correctness of a business rules application necessarily involves the participation of SMEs, who will write
+    test cases and manually produce the expected response. This is a very time and resource consuming activity which should
+    be carefully taken into account when designing the test plan for an application.&lt;br />
+    Alternatively, some test cases can be extracted from a legacy system database. The benefit here is obvious: the
+    database provides the number and the variety of test cases needed, and also guarantees the validity of the test
+    cases.&lt;br />
+&lt;/p>
+&lt;h5>
+    Regression&lt;br />
+&lt;/h5>
+&lt;p>
+    The goal of regression testing is to uncover regression problems, that is, problems which were not present in the
+    previous version of the application but appeared in the new version after a change was introduced. Regression testing
+    for rules is used to make sure that after fixing, or updating a rule service, the functionalities which were working
+    before are still working as expected. For example, after implementing a business change request which lowers the rates
+    in the state of California, regression testing should be applied to ensure that rates remained unchanged in all other
+    states.&lt;br />
+    Besides verifying that correctness is conserved from one version to another, regression testing is also used to verify
+    that quality (for example, execution performance) is conserved.&lt;br />
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

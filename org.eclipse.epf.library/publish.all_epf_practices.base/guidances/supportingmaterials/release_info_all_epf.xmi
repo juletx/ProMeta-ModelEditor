@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-cgy293mgN56aZV5c2P163A" name="release_info_all_epf,_vaQe8Wr-Ed29vdqsRXf4ag" guid="-cgy293mgN56aZV5c2P163A" changeDate="2010-09-20T09:15:59.640-0700" version="7.2.0">
+  <mainDescription>&lt;h3>&#xD;
+    EPF Base&#xD;
+&lt;/h3>&#xD;
+&lt;h4>&#xD;
+    1.5.1&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Bugzilla 322016: Updated&amp;nbsp;configuration to include ABRD practice.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Other minor fixes.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    1.5&amp;nbsp;&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    This is the first version of this &quot;publish&quot; plug-in, included as part of the EPF 1.5 practices library.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

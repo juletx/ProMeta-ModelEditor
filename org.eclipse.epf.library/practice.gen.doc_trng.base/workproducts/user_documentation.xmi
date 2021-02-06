@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-SLpYMg7H4HpPFh-tX5CqoA" name="new_artifact,_cN60MEVtEeC6_c5S_pc9RA" guid="-SLpYMg7H4HpPFh-tX5CqoA" changeDate="2011-08-08T21:55:36.674-0600" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    User documentation might include all or parts of user manuals (electronic or paper-based), tutorials, frequently asked&#xD;
+    questions (FAQs), on-line Help Files, installation instructions, work instructions, operational procedures, etc.&#xD;
+&lt;/p></mainDescription>
+  <purpose>The purpose of this work product is to ensure that end users of a particular application have enough information to use the&#xD;
+product effectively.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

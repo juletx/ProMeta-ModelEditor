@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-bFlEvOsmuJvDiRkZZcf_uA" name="prototype_rules,_dds-IDmiEdy8N6BRpa8ByQ" guid="-bFlEvOsmuJvDiRkZZcf_uA" authors="Jerome Boyer" changeDate="2010-08-15T08:52:11.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_rule__prototyping&quot; name=&quot;XE_rule__prototyping&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>The goal of the Rule Analysis activity is to prepare the rules for the
+    implementation. The rule analyst and the rule writer will analyze the rules discovered in a disjointed way into a
+    complete and coherent set. From the rule description, the glossary of business terms and may be from a first version of
+    the logical data model (LDM), the discovery team needs to transform the rules using the terms of the business to
+    elements that will be implemented by the rule writers. The rule analyst executes a set of iterative tasks to reach rule
+    implementation.&lt;/span>
+&lt;/p></mainDescription>
+  <sections xmi:id="_tA5YEDyIEdyA6a_I80swHw" name="Create a simple rule flow" guid="_tA5YEDyIEdyA6a_I80swHw">
+    <sectionDescription>&lt;a id=&quot;1086688&quot; name=&quot;1086688&quot;>The ruleflow defines the execution order of rule artifacts within the context of a larger&#xD;
+decision.&lt;/a></sectionDescription>
+  </sections>
+  <sections xmi:id="_usf-QDyIEdyA6a_I80swHw" name="Prepare a simple unit test code" guid="_usf-QDyIEdyA6a_I80swHw">
+    <sectionDescription>&lt;p>&#xD;
+    The unit test should prepare the input parameter(s) and other related data to trigger the rule execution under&#xD;
+    development. Rule writer should work with the business user to define test data and scenario. Using the IDE to author&#xD;
+    and test rules the rule testing framework can be created, executed, tuned in the same environment to quickly write and&#xD;
+    test rules. As Agile method we recommend to use a Test Driven Development approach.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_6OjFIDyIEdyA6a_I80swHw" name="Code the rule under test" guid="_6OjFIDyIEdyA6a_I80swHw"/>
+  <sections xmi:id="_8RaUwDyIEdyA6a_I80swHw" name="Validate the execution" guid="_8RaUwDyIEdyA6a_I80swHw"/>
+  <sections xmi:id="_-ThWcDyIEdyA6a_I80swHw" name="Report any issue, questions, concerns for the next discovery meeting" guid="_-ThWcDyIEdyA6a_I80swHw"/>
+</org.eclipse.epf.uma:TaskDescription>

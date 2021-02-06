@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-6EIKG9PoBwSQN1WfBu7wtA" name="agile_release_mgt_team_member,_DQqlomzvEeCPgecPbK9bdg" guid="-6EIKG9PoBwSQN1WfBu7wtA" changeDate="2011-10-15T11:10:19.137-0600" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    A Deployment Engineer&amp;nbsp;assists the&amp;nbsp;Deployment Manager who is responsible to senior management for the&#xD;
+    successful deployment of integrated or stand-alone releases into production. This team member role is critical to the&#xD;
+    safety of the production environment and helps prevent the introduction of bad or untested code into production&amp;nbsp;on&#xD;
+    which the organization's internal and external Customers depend. Deployment Engineers support the Deployment Manager in&#xD;
+    the mission to continually lead, facilitate, and coordinate synchronized releases by using the program to&#xD;
+    maximize value delivered to their program Customers.&#xD;
+&lt;/p></mainDescription>
+  <skills>&lt;p>&#xD;
+    Deployment Engineers should possess:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Cross-platform experience and the expertise to identify and resolve integration issues&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Knowledge of system level and integration level testing&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Strong quality assurance background&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Excellent understanding of the continuous integration practice&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Proficiency in specifying and implementing testing and production environment infrastructure&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Expertise with automated testing products, including how to set up automated testing, how to script automated&#xD;
+        tests, how to create automated regression test suites, and how to troubleshoot automated testing issues&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Understanding of the Release and Deployment Management process specified by the Information Technology&#xD;
+        Infrastructure Library (ITIL) process at the Foundation level&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ability to work well with others on a team&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></skills>
+</org.eclipse.epf.uma:RoleDescription>

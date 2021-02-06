@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-wiESSYuJCZQe0miS52kk4g" name="new_supporting_material,_yDfxMMN9Edy3nv0ZK8D4GQ" guid="-wiESSYuJCZQe0miS52kk4g" changeDate="2008-07-17T02:18:06.000-0700" version="7.2.0">
+  <mainDescription>&lt;br />
+&lt;table title=&quot;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;85%&quot; border=&quot;0&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td>
+                &lt;img alt=&quot;image of jigsaw pieces&quot; src=&quot;resources/practices.jpg&quot; />
+            &lt;/td>
+            &lt;td>
+                &lt;font size=&quot;5&quot;>&lt;strong>Welcome to the&lt;br />
+                EPF Practices&lt;/strong>&lt;/font>
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>
+&lt;p>
+    &lt;br />
+    This website lists all the practices included in the Eclipse Process Framework.&amp;nbsp; It is intended to be used by a
+    process engineer to learn about the practices in order to make decisions about which practices to include in a process
+    configuration.
+&lt;/p>
+&lt;p>
+    For more about practices, see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.default.uma_concept.base/guidances/concepts/practice_F5C8EAAB.html&quot; guid=&quot;_qhCTAFRREd2CWscN8Mx6rg&quot;>Concept: Practice&lt;/a>.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

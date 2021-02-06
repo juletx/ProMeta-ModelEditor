@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-iXHnRtLXvdWQRZpysFms8w" name="development_case,_NOBsuyZLEd-QuZFPf_YdqQ" guid="-iXHnRtLXvdWQRZpysFms8w" changeDate="2010-08-05T06:17:31.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    The Development Case is used to&amp;nbsp;document the results of tailoring a process. It provides a mechanism for
+    describing how a project has tailored a process for their specific project.
+&lt;/p>
+&lt;p>
+    In general, the development case typically refers to a standard process, often defined at an organization level, and
+    then describes how that process has been tailored or specialized for the project.&amp;nbsp; This typically includes:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Information about how the process varies from the standard process, and why (typically by identifying work products
+        added or removed from the process)
+    &lt;/li>
+    &lt;li>
+        What work products are reviewed at which milestones, and their level of completion
+    &lt;/li>
+    &lt;li>
+        References to guidelines and information that the project wants to use in addition to the information contained in
+        the main process.
+    &lt;/li>
+    &lt;li>
+        What reviews will be performed, and their level of formality.
+    &lt;/li>
+    &lt;li>
+        What approvals are required, by whom, and when.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    The development case also includes information on what was tailored and why.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

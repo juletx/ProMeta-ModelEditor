@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-gEgZg2UkFLjGeXkJLpAP6A" name=",_O7JBYEvFEdunZcj9T5hrMQ" guid="-gEgZg2UkFLjGeXkJLpAP6A" changeDate="2008-07-08T03:25:16.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Third major project milestone that occurs at the end of the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/termdefinitions/construction_E36D1BB6.html&quot;&#xD;
+    guid=&quot;_0sD60EvDEdunZcj9T5hrMQ&quot;>Construction&lt;/a> phase. At this point, the product is ready to be handed over to the&#xD;
+    Transition team. All functionality has been developed and all alpha testing (if any) has been completed. In addition to&#xD;
+    the software, a user manual has been developed, and there is a description of the current release. The product is ready&#xD;
+    for beta testing.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

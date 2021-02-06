@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_Nr0S4KeqEdmKDbQuyzCoqQ" name="submit_change_request,_0mwzEclgEdmt3adZL5Dmdw" guid="_Nr0S4KeqEdmKDbQuyzCoqQ" changeDate="2005-07-07T02:57:19.000-0700" version="7.2.0">
+  <sections xmi:id="_qEkewKuoEdmEGLSmmpF1Sg" name="Gather change request information" guid="_qEkewKuoEdmEGLSmmpF1Sg">
+    <sectionDescription>&lt;p>&#xD;
+    Gather the information required to describe the change request. This should include a description of the requested&#xD;
+    change, the reason for the change (defect or enhancement), the&amp;nbsp;artifact&amp;nbsp;affected (including&amp;nbsp;the&#xD;
+    version), and&amp;nbsp;the priority of the change. If possible,&amp;nbsp;provide an estimate of the effort required to&#xD;
+    implement the change.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_r2aP0KuoEdmEGLSmmpF1Sg" name="Update the Work Item List" guid="_r2aP0KuoEdmEGLSmmpF1Sg">
+    <sectionDescription>Update the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+href=&quot;./../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot;&#xD;
+guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Artifact: Work Items List&lt;/a>&amp;nbsp;to&amp;nbsp;document the information that you gathered in the&#xD;
+previous step.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

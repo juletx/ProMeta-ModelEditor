@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-5xbLr54QjpynnPU8ZJ3_fw" name="new_concept,_DI_tICNaEdyCq8v2ZO4QcA" guid="-5xbLr54QjpynnPU8ZJ3_fw" changeDate="2008-09-30T01:18:11.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Iterations&amp;nbsp;keep the team focused on delivering incremental customer value every few weeks by delivering a fully&#xD;
+    tested, demonstrable or shippable build (product increment). This creates a healthy focus on ensuring that whatever is&#xD;
+    worked on is of value to the stakeholders. Decision making must happen faster than in a process without iterations,&#xD;
+    because there is no time for endless debate. Iterative development focuses on producing working code, reducing the risk&#xD;
+    of analysis-paralysis. Frequent demonstration of working code provides feedback mechanisms that allow course&#xD;
+    corrections to be taken as needed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Iteration planning, estimation, and progress tracking are centered on work items. The iteration plan is created by&#xD;
+    selecting the top-priority work items. Agile estimation techniques are used to understand how many work items can&#xD;
+    safely fit within the time-boxed iteration, and work items are filtered to ensure that the chosen work items will allow&#xD;
+    the team to deliver upon iteration objectives agreed to by stakeholders. Progress is demonstrated through continuous&#xD;
+    completion of many small work items (see &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.iterative_dev.base/guidances/concepts/micro_increments_C8773066.html&quot;&#xD;
+    guid=&quot;_S80VwCNbEdyCq8v2ZO4QcA&quot;>Micro-Increments&lt;/a>).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Just as a project goes through a lifecycle, iterations go through a lifecycle with a different focus for the team,&#xD;
+    depending on whether you are in the first or the last week of the iteration (see Figure 1 below). An iteration starts&#xD;
+    with an iteration planning meeting that is a few hours long. The initial one or two days are typically focused on&#xD;
+    further planning and architecture to, among other things, understand the dependencies and logical ordering of work&#xD;
+    items, and the architectural impacts of the work to be done. Most of the time during an iteration is spent on executing&#xD;
+    the micro increments. Each micro increment should deliver tested code to a build, as well as validated artifacts. To&#xD;
+    give additional discipline, stable builds are produced at the end of each week. More attention is spent on these builds&#xD;
+    to make sure that the quality is not eroding, and issues are dealt with early so that the success of the iteration&#xD;
+    isn't jeopardized. The last week or last few days of the iteration typically have a stronger emphasis on polishing and&#xD;
+    bug fixing than earlier weeks, even though new features are added as appropriate. The goal is to never let quality&#xD;
+    erode, thus ensuring&amp;nbsp;that a high-quality useful product increment is produced at the end of the iteration. The&#xD;
+    iteration ends with an assessment (with stakeholders) of what was built, and a retrospective to understand how to&#xD;
+    improve the process for next iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Figure 1. An iteration goes through a lifecycle with a stronger focus on planning and architecture early on, and a&#xD;
+    stronger focus on bug fixing and stabilization toward the end.&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img&#xD;
+    alt=&quot;Picture shows an iteration that starts with a planning meeting, has stable weekly builds, and ends with an iteration review.&quot;&#xD;
+     src=&quot;resources/iteration_lifecycle.jpg&quot; />&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

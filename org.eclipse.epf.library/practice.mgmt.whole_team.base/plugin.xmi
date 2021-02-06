@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9dHIULekEd-D7YZN9NgldQ" guid="_9dHIULekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__DoaMLekEd-D7YZN9NgldQ" id="-PZv-hK8T1VJ10ii7iZn85Q" uri="guidances/supportingmaterials/release_info_whole_team.xmi"/>
+    <resourceDescriptors xmi:id="__DoaMbekEd-D7YZN9NgldQ" id="-zqsjK1qfcSGuOsNO5K7UhA" uri="guidances/guidelines/daily_meetings.xmi"/>
+    <resourceDescriptors xmi:id="__EYBELekEd-D7YZN9NgldQ" id="-e26WOHRbTVQrDssK5zijVA" uri="guidances/guidelines/self_organize_work_assignments.xmi"/>
+    <resourceDescriptors xmi:id="__EhyELekEd-D7YZN9NgldQ" id="-aoCtIwigi2NOLiclMAXvgQ" uri="guidances/guidelines/maintain_a_sustainable_pace.xmi"/>
+    <resourceDescriptors xmi:id="__EhyEbekEd-D7YZN9NgldQ" id="-kGPLyLlIylW-w3B0RlwbwQ" uri="guidances/roadmaps/how_to_adopt.xmi"/>
+    <resourceDescriptors xmi:id="__EhyErekEd-D7YZN9NgldQ" id="-UGMg9CCG8I3qxV2ew6EVLw" uri="guidances/practices/whole_team.xmi"/>
+    <resourceDescriptors xmi:id="__Eq8ALekEd-D7YZN9NgldQ" id="-pXI3ZcdGOOyWtDdzIg2E7w" uri="guidances/concepts/whole_team.xmi"/>
+    <resourceDescriptors xmi:id="__Eq8AbekEd-D7YZN9NgldQ" id="-3Poew8AinbZvOYouGiQx6A" uri="guidances/concepts/iteration_lifecycle.contribute.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_40sbAJ6YEdyQN-zRFaRrCQ" name="practice.mgmt.whole_team.base" guid="_40sbAJ6YEdyQN-zRFaRrCQ" presentationName="Whole Team" briefDescription="Organize the team and work assignments through a collaborative approach." changeDate="2009-08-07T02:34:29.000-0700">
+    <methodElementProperty xmi:id="_-gnMzLekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9c9XULekEd-D7YZN9NgldQ" name="Content" guid="_9c9XULekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9c9XUbekEd-D7YZN9NgldQ" name="Categories" guid="_9c9XUbekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9c9XUrekEd-D7YZN9NgldQ" name="Domains" guid="_9c9XUrekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9c9XU7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9c9XU7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9c9XVLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9c9XVLekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9c9XVbekEd-D7YZN9NgldQ" name="WP Types" guid="_9c9XVbekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9c9XVrekEd-D7YZN9NgldQ" name="Tools" guid="_9c9XVrekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9c9XV7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9c9XV7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9c9XWLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9c9XWLekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9c9XWbekEd-D7YZN9NgldQ" name="Hidden" guid="_9c9XWbekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9c9XWrekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9c9XWrekEd-D7YZN9NgldQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9c9XW7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9c9XW7ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_VxJAUJ9WEdy3Nc4rvuj7bA" name="whole_team" guid="_VxJAUJ9WEdy3Nc4rvuj7bA" presentationName="Whole Team">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_idXpgMOAEdy3nv0ZK8D4GQ" name="release_info" guid="_idXpgMOAEdy3nv0ZK8D4GQ" presentationName="Release Info">
+            <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_kAKR8MOAEdy3nv0ZK8D4GQ" name="release_info_whole_team" guid="_kAKR8MOAEdy3nv0ZK8D4GQ" presentationName="Practice: Whole Team" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+              <presentation xmi:id="-PZv-hK8T1VJ10ii7iZn85Q" href="uma://-PZv-hK8T1VJ10ii7iZn85Q#-PZv-hK8T1VJ10ii7iZn85Q"/>
+            </contentElements>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_251UMCmREdyy6Oss2-0s1g" name="daily_meetings" guid="_251UMCmREdyy6Oss2-0s1g" presentationName="Daily Meetings" briefDescription="This guideline describes how the team can synchronize their work and progress by meeting every day for a quick status update and report on impediments.">
+            <presentation xmi:id="-zqsjK1qfcSGuOsNO5K7UhA" href="uma://-zqsjK1qfcSGuOsNO5K7UhA#-zqsjK1qfcSGuOsNO5K7UhA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_rmBEkJjsEduad8I_c-ogIA" name="self_organize_work_assignments" guid="_rmBEkJjsEduad8I_c-ogIA" presentationName="Self-Organize Work Assignments" briefDescription="Agile software development teams organize the work that needs to be done together as a team." conceptsAndPapers="_zLlDwEk5Ed2JToD8KCVSGA" guidelines="_251UMCmREdyy6Oss2-0s1g">
+            <presentation xmi:id="-e26WOHRbTVQrDssK5zijVA" href="uma://-e26WOHRbTVQrDssK5zijVA#-e26WOHRbTVQrDssK5zijVA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_KzYHYMLmEdysDsQChI42QQ" name="maintain_a_sustainable_pace" guid="_KzYHYMLmEdysDsQChI42QQ" presentationName="Maintain a Sustainable Pace" briefDescription="This guideline describes how to maintain a sustainable pace of work that does not burn out team members.">
+            <presentation xmi:id="-aoCtIwigi2NOLiclMAXvgQ" href="uma://-aoCtIwigi2NOLiclMAXvgQ#-aoCtIwigi2NOLiclMAXvgQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_aP5rMN8_Edyhmsbt0Xyl8A" name="project_planning_guidance_slot.assign" guid="_aP5rMN8_Edyhmsbt0Xyl8A" variabilityType="contributes" guidelines="_KzYHYMLmEdysDsQChI42QQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_vJYucEfUEdyiPI8btkmvmw#_sLQ6AN8-Edyhmsbt0Xyl8A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_7FQ-sN8_Edyhmsbt0Xyl8A" name="collaboration_guidance_slot.assign" guid="_7FQ-sN8_Edyhmsbt0Xyl8A" variabilityType="contributes" guidelines="_251UMCmREdyy6Oss2-0s1g">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_vJYucEfUEdyiPI8btkmvmw#_68JUYN8-Edyhmsbt0Xyl8A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_EY3RAN9AEdyhmsbt0Xyl8A" name="work_assignment_guidance_slot.assign" guid="_EY3RAN9AEdyhmsbt0Xyl8A" variabilityType="contributes" guidelines="_rmBEkJjsEduad8I_c-ogIA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_vJYucEfUEdyiPI8btkmvmw#_BslGYN8_Edyhmsbt0Xyl8A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_oHdNYOMPEdyM47cGD2jiaQ" name="how_to_adopt" guid="_oHdNYOMPEdyM47cGD2jiaQ" presentationName="How to Adopt the Whole Team Practice" briefDescription="This roadmap describes how to adopt the whole team practice. It helps an organization understand how to promote effective collaboration.">
+            <presentation xmi:id="-kGPLyLlIylW-w3B0RlwbwQ" href="uma://-kGPLyLlIylW-w3B0RlwbwQ#-kGPLyLlIylW-w3B0RlwbwQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_6C4sMB4rEd2bS8fFOQ7WWA" name="whole_team" guid="_6C4sMB4rEd2bS8fFOQ7WWA" presentationName="Whole Team" briefDescription="The Whole Team practice describes how a development team organizes itself to enable it to work effectively." contentReferences="_oHdNYOMPEdyM47cGD2jiaQ _zLlDwEk5Ed2JToD8KCVSGA _251UMCmREdyy6Oss2-0s1g _KzYHYMLmEdysDsQChI42QQ _rmBEkJjsEduad8I_c-ogIA">
+            <presentation xmi:id="-UGMg9CCG8I3qxV2ew6EVLw" href="uma://-UGMg9CCG8I3qxV2ew6EVLw#-UGMg9CCG8I3qxV2ew6EVLw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_zLlDwEk5Ed2JToD8KCVSGA" name="whole_team" guid="_zLlDwEk5Ed2JToD8KCVSGA" presentationName="Whole Team" briefDescription="Whole Team refers to the organization that delivers software for a project and includes any and all contributors (both direct and indirect participants) to the delivery.">
+            <presentation xmi:id="-pXI3ZcdGOOyWtDdzIg2E7w" href="uma://-pXI3ZcdGOOyWtDdzIg2E7w#-pXI3ZcdGOOyWtDdzIg2E7w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_SrioEE9wEd2FdckE7CIizQ" name="iteration_lifecycle.contribute" guid="_SrioEE9wEd2FdckE7CIizQ" variabilityType="contributes">
+            <presentation xmi:id="-3Poew8AinbZvOYouGiQx6A" href="uma://-3Poew8AinbZvOYouGiQx6A#-3Poew8AinbZvOYouGiQx6A"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_DI_tICNaEdyCq8v2ZO4QcA"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9c9XXLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9c9XXLekEd-D7YZN9NgldQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9c9XXbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9c9XXbekEd-D7YZN9NgldQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9c9XXrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9c9XXrekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="uma://_vJYucEfUEdyiPI8btkmvmw#_vJYucEfUEdyiPI8btkmvmw"/>
+    <bases href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_qqyzAJ6WEdyQN-zRFaRrCQ"/>
+    <bases href="uma://_Qyp8YGpiEd24CboUCnKL3A#_Qyp8YGpiEd24CboUCnKL3A"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

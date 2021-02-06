@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-X7QSjItNBz7w8603yBCv0Q" name="abstract_away_complexity,_we3F4ACpEdu8m4dIntu6jA" guid="-X7QSjItNBz7w8603yBCv0Q" changeDate="2008-08-12T04:36:49.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    Software&amp;nbsp;development is a pursuit characterized by complexity. This can take many forms, such as accommodating&#xD;
+    complex requirements, technology, or team dynamics. Elevating the level of abstraction helps you manage this complexity&#xD;
+    and make measurable progress, despite the inherent difficulty of the task.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Suggestions for several strategies that help abstract away complexity follow.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Leverage patterns&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Patterns help you take advantage of proven techniques for solving common problems. You can benefit from the experience&#xD;
+    of seasoned practitioners and avoid &quot;re-inventing the wheel,&quot; as the saying goes. The use of patterns is a crucial&#xD;
+    aspect of an architecture-centric approach to development, because it helps reduce the novelty and diversity of a&#xD;
+    solution, thus improves quality.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/pattern_10BE6D96.html&quot;&#xD;
+    guid=&quot;_0YJvUMlgEdmt3adZL5Dmdw&quot;>Concept: Pattern&lt;/a>&amp;nbsp;for more information.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Design the architecture with components and services&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    This strategy helps manage software complexity through&amp;nbsp;partitioning&amp;nbsp;a system into a set of loosely coupled&#xD;
+    and highly cohesive components. The benefits of this approach include the ability to organize the team around a set of&#xD;
+    smaller, more manageable objectives, and the ability to substitute parts of the system without disturbing the overall&#xD;
+    cohesion of the system. Exposing services encourages re-use by making the functionality of the system easier to&#xD;
+    comprehend. Focusing on services makes it possible to understand what the system does from a technical perspective&#xD;
+    without necessarily having to understand the details of how the system works.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/component_CB167D48.html&quot;&#xD;
+    guid=&quot;_0YP18MlgEdmt3adZL5Dmdw&quot;>Concept: Component&lt;/a>&amp;nbsp;for more information.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Actively promote reuse&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Incorporating existing software into an overall architecture helps reduce cost and improve quality by reusing proven&#xD;
+    working software, rather than developing from scratch. It also helps reduce the burden of maintenance by eliminating&#xD;
+    duplication in the software. Although often difficult to manage, a project or enterprise can reap significant benefits&#xD;
+    from a well-executed re-use strategy.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html&quot;&#xD;
+    guid=&quot;_vO2uoO0OEduUpsu85bVhiQ&quot;>Guideline: Software Reuse&lt;/a>&amp;nbsp;for more information.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Lbh2RMxAEPiWOb2RPByNkw" name="rule_design,_VHCRBKRdEd2fX-RO52WAtA" guid="-Lbh2RMxAEPiWOb2RPByNkw" changeDate="2010-04-01T04:13:10.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    Rule design address the discipline of designing the rule set structure, which includes the parameters input and output
+    to the rule set, but also the logic of execution of the rules using rule flow or other mechanism. The complexity of a
+    rule set implementation is also coming from the data modeling, therefore the design discipline includes a set of
+    activity to design and build the data model or fact model.
+&lt;/p>
+&lt;p>
+    The task of defining where to implement and enforce the business rule is also part of the design discipline.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

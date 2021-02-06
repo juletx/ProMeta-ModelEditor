@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-7kyRa3WUFEN5mgjhaATn5Q" name="decision_point_table_template,_r6HlYCNFEduEx57zfZOE4Q" guid="-7kyRa3WUFEN5mgjhaATn5Q" authors="Jerome Boyer" changeDate="2008-09-04T00:16:46.000-0700" version="1.0.0">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>During the&amp;nbsp;inception phase and especially the
+    business modeling activities, it is recommended to log in a table format the reference to decision point within a
+    business process. This template is used to present and organize the groups of rule for a business
+    perspective.&lt;/span>&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Decision point&lt;a
+    id=&quot;XE_decision_point_table__template&quot; name=&quot;XE_decision_point_table__template&quot;>&lt;/a> represents a group of business
+    rules that we need to consider in the scope of the rule discovery and analysis.&lt;/span> The group is built from the
+    business logic, a step in the business process or in a use case. This is the concept of &quot;Decision Point&quot;. To search for
+    decision point, look at verbs&amp;nbsp;which involve mental processing or thinking like check, qualify, validate, diagnose,
+    process, decide, assess, compare, determine, evaluate, ... For example a decision point will lead to one or more rule
+    set.
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br /></mainDescription>
+  <attachments>resources/abrd_tmpl_decisionpointtable.dot</attachments>
+</org.eclipse.epf.uma:GuidanceDescription>

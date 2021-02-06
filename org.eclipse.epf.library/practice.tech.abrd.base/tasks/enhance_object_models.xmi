@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-lypBvtMtbcwBw-8OfxHiFw" name="enhance_object_models,_UXrv8Eb3EdySHMdInS9eGA" guid="-lypBvtMtbcwBw-8OfxHiFw" authors="Jerome Boyer" changeDate="2010-04-01T04:21:34.000-0700" version="7.5.0">
+  <mainDescription>Typically the developer adds helper methods in the data model to facilitate the rule writing. Develop utility classes. The
+data elements should not have persistence logic in it. For example in Java do not put JDBC code in the Customer object. Let
+try to stick to the Java bean specification for all the&amp;nbsp;business objects, and leverage a service layer, with service
+facades objects to help gathering and process data.&amp;nbsp;</mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

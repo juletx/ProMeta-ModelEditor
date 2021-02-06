@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-YOh7SRAvgX5LaQv_eFTwLA" name="business_terms_glossary,_xIKTQCJjEduw7qGrhQIfsg" guid="-YOh7SRAvgX5LaQv_eFTwLA" authors="Jerome Boyer" changeDate="2008-09-05T10:07:18.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_business_terms_glossary&quot; name=&quot;XE_business_terms_glossary&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto&quot;>
+    &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>One of the positive feedbacks&amp;nbsp;received from
+    the business and IT team&amp;nbsp;is the&amp;nbsp;business term glossary document. Some organization has already defined this
+    kind of glossary, and even it is possible to use some industry standard. But standard are always adapted by the
+    organization so it is important to work on such&amp;nbsp;glossary during the early phase of the project.&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto&quot;>
+    &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>The following template can be used for logging
+    the business vocabulary. The acronyms are not mandatory. The ownership column describes when a term is under the
+    responsibility of&amp;nbsp;a team.&lt;/span>
+&lt;/p>
+&lt;div align=&quot;center&quot;>
+    &lt;table class=&quot;ISISTable&quot;
+    style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver; mso-table-layout-alt: fixed&quot;
+     cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;>
+        &lt;tbody>
+            &lt;tr style=&quot;HEIGHT: 15.75pt; mso-yfti-irow: -1; mso-yfti-firstrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: gray 1pt solid; WIDTH: 77.95pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 15.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;104&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                    style=&quot;MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center; mso-add-space: auto; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;font size=&quot;3&quot;>&lt;b>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0; FONT-FAMILY: 'Times New Roman'; mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt; mso-bidi-language: HE&quot;>Term&lt;/span>&lt;/i>&lt;/b>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 2cm; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 15.75pt; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;76&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                    style=&quot;MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center; mso-add-space: auto; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;b>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0; FONT-FAMILY: 'Times New Roman'; mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt; mso-bidi-language: HE&quot;>&lt;font
+                         size=&quot;3&quot;>Acronym&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 318.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 15.75pt; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;425&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                    style=&quot;MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center; mso-add-space: auto; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;font size=&quot;3&quot;>&lt;b>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0; FONT-FAMILY: 'Times New Roman'; mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt; mso-bidi-language: HE&quot;>Definition&lt;/span>&lt;/i>&lt;/b>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 56.75pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 15.75pt; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;76&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                    style=&quot;MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center; mso-add-space: auto; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;font size=&quot;3&quot;>&lt;b>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0; FONT-FAMILY: 'Times New Roman'; mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt; mso-bidi-language: HE&quot;>Owner&lt;/span>&lt;/i>&lt;/b>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 0&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 77.95pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;104&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 2cm; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;76&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 318.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;425&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 56.75pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;76&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 1&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 77.95pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;104&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 2cm; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;76&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 318.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;425&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 56.75pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;76&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 2&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 77.95pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;104&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 2cm; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;76&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 318.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;425&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 56.75pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;76&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 3; mso-yfti-lastrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 77.95pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;104&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 2cm; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;76&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 318.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;425&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 56.75pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;76&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: 0cm 0cm 0pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div></mainDescription>
+  <purpose>Get agreement on &quot;standard&quot; or internal definition of terms.</purpose>
+  <impactOfNotHaving>This will be more difficult to develop a common BOM later on. And it may lead to the&amp;nbsp;misunderstanding of some business&#xD;
+rules and policies.</impactOfNotHaving>
+  <reasonsForNotNeeding>The company is using an industry standard for the business terms. In this last case the standard should be provided to the&#xD;
+rule team.</reasonsForNotNeeding>
+  <representationOptions>This is a word document.</representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

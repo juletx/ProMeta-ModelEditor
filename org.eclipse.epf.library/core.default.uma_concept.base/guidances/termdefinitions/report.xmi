@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-lEbg0SKqsikKdCRXPVvRmw" name="new_term_definition,_bDCXUMaHEduMlb2cQZNTYw" guid="-lEbg0SKqsikKdCRXPVvRmw" changeDate="2007-12-05T10:20:32.000-0800" version="7.2.0">
+  <mainDescription>A&amp;nbsp;specialized type&amp;nbsp;of&amp;nbsp;&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/guidance_549AC394.html&quot;&#xD;
+guid=&quot;_83ttAB_NEdq6CKKKq4D7YA&quot;>guidance&lt;/a> used to provide guidance on representing the output of an automated tool that&#xD;
+may be a combination of information from one or more other work products. .</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

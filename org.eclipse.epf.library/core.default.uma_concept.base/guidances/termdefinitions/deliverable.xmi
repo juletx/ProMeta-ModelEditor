@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_yFbWodnmEdmO6L4XMImrsA" name="deliverable,_yFbWoNnmEdmO6L4XMImrsA" guid="_yFbWodnmEdmO6L4XMImrsA" changeDate="2007-12-05T10:02:02.000-0800" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    A&amp;nbsp;specialized type of work product&amp;nbsp;used to define the primary outputs that represent value, material or&#xD;
+    otherwise,&amp;nbsp;to the client, customer or other stakeholders.&amp;nbsp; These are typically the result of packaging&#xD;
+    other&amp;nbsp;work products for sign-off and delivery.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

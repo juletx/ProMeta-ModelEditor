@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="--8L9G7jt2OshtVlzm7W-Bg" name="rule_project,_2uHVUDsJEdy8N6BRpa8ByQ" guid="--8L9G7jt2OshtVlzm7W-Bg" authors="Jerome Boyer" changeDate="2008-09-03T04:06:50.000-0700" version="7.5.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_project&quot; name=&quot;XE_rule_project&quot;>&lt;/a> 
+&lt;p>
+    T&lt;a>ype of project in which you can manage and organize rule artifacts, class path, parameters&amp;nbsp;and domain object
+    models&lt;/a>. A rule project needs to reference a java project, jar file, xml schema or web service as execution object
+    model. A rule project represents one rule set but can have multiple rule flows.&lt;br />
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_u_Zg4PsDEdmyhNQr5STrZQ" name="copyright,_uuunoPsDEdmyhNQr5STrZQ" guid="_u_Zg4PsDEdmyhNQr5STrZQ" changeDate="2010-08-31T02:02:53.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    This program and the accompanying materials are made available under the&lt;br />&#xD;
+    &lt;a href=&quot;http://www.eclipse.org/org/documents/epl-v10.php&quot; target=&quot;_blank&quot;>Eclipse Public License V1.0&lt;/a>, which&#xD;
+    accompanies this distribution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html&quot;&#xD;
+    guid=&quot;_UaGfECcTEduSX6N2jUafGA&quot;>EPF Copyright&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

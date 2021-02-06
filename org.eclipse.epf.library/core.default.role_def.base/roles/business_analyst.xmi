@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-2FZPy2In9T_oVCB3M9kB7w" name="business_analyst,_eRFOABtcEdu_BZ3CL1I6hw" guid="-2FZPy2In9T_oVCB3M9kB7w" authors="Jerome Boyer" changeDate="2008-08-22T05:01:21.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_business_analyst&quot; name=&quot;XE_business_analyst&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    &lt;a id=&quot;1036306&quot; name=&quot;1036306&quot;>Business Analysts (BA) act as the bridge between the business and IT departments,&#xD;
+    by smoothing the way as corporate policy moves from definition to execution inside a software application. Business&#xD;
+    Analysts must translate policy into a formal specification acceptable to developers, and must validate the formal&#xD;
+    specification with policy managers who may not understand the language of the specification.&lt;/a>&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Depending on their level of technical knowledge, Business Analysts may perform tasks that are described as developer&#xD;
+    tasks. However, generally business analysts do not write code. &lt;a id=&quot;4942&quot; name=&quot;4942&quot;>In a BRMS a&#xD;
+    BA also represents a type of user profile who is responsible for modeling business rule application projects&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:RoleDescription>

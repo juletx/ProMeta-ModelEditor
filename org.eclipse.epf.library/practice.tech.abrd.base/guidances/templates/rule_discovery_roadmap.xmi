@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-cFn9DmsGUTlVAvJw2qxG4Q" name="rule_discovery_roadmap,_sruW2QjqEdyj5bYZ0eCR5g" guid="-cFn9DmsGUTlVAvJw2qxG4Q" changeDate="2008-09-04T03:43:57.000-0700" version="1.0.0">
+  <mainDescription>&lt;div align=&quot;center&quot;>
+    &lt;table class=&quot;MsoNormalTable&quot;
+    style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; WIDTH: 448.05pt; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-padding-alt: 0in 5.4pt 0in 5.4pt; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver&quot;
+     cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;597&quot; border=&quot;1&quot;>
+        &lt;tbody>
+            &lt;tr style=&quot;HEIGHT: 15.75pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: silver 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 69.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 15.75pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;93&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpFirst&quot;>
+                        &lt;span style=&quot;COLOR: #005da0; mso-bidi-language: HE&quot;>&lt;strong>Decision Point Name&lt;/strong>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: silver 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 272.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 15.75pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;363&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+                        &lt;strong>&lt;span style=&quot;COLOR: #005da0; mso-bidi-language: HE&quot;>Description&lt;/span>&lt;/strong>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: silver 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 106.1pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 15.75pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;141&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;strong>&lt;span style=&quot;COLOR: #005da0; mso-bidi-language: HE&quot;>Rule Owner - SME&lt;/span>&lt;/strong>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 1&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 69.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;93&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 272.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid silver 1.0pt; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt; mso-border-bottom-alt: solid silver .5pt&quot;
+                 valign=&quot;top&quot; width=&quot;363&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 106.1pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;141&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 2&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 69.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;93&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-language: HE&quot;>&lt;strong>Source for rule&lt;/strong>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 272.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver .5pt&quot;
+                 valign=&quot;top&quot; width=&quot;363&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 106.1pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;141&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 3&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: gray 1pt solid; WIDTH: 448.05pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; mso-border-top-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;597&quot; colspan=&quot;3&quot;>
+                    &lt;p style=&quot;TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+                        &lt;span
+                        style=&quot;COLOR: #005da0; mso-bidi-language: HE; mso-bidi-font-size: 10.0pt&quot;>&lt;strong>Roadmap&lt;/strong>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 4&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 69.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;93&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 10.0pt&quot;>Discovery
+                        Session&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 378.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;504&quot; colspan=&quot;2&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span
+                        style=&quot;FONT-SIZE: 8pt; COLOR: blue; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt&quot;>&amp;lt;dates&amp;gt;&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 5&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 69.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;93&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 10.0pt&quot;>Main Actor&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 378.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;504&quot; colspan=&quot;2&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span
+                        style=&quot;FONT-SIZE: 8pt; COLOR: blue; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt&quot;>Facilitator:&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span
+                        style=&quot;FONT-SIZE: 8pt; COLOR: blue; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt&quot;>Invitees:&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 6&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 69.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;93&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 10.0pt&quot;>Deliverables&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 378.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;504&quot; colspan=&quot;2&quot;>
+                    &lt;p>
+                        &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                        &lt;br />
+                        &amp;nbsp;
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 7; mso-yfti-lastrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 69.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;93&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 10.0pt&quot;>Expected Target
+                        Date to end Discovery&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 378.3pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;504&quot; colspan=&quot;2&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div></mainDescription>
+  <attachments>resources/abrd_tmpl_rulediscoveryroadmap.dot</attachments>
+</org.eclipse.epf.uma:GuidanceDescription>

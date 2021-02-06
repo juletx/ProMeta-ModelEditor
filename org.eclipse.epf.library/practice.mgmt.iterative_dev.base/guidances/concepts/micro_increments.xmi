@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-vysTxqikgsqd3pYIkSofjg" name="new_concept,_S80VwCNbEdyCq8v2ZO4QcA" guid="-vysTxqikgsqd3pYIkSofjg" changeDate="2010-05-17T01:06:48.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Personal contribution on an&amp;nbsp;iterative project is organized in &lt;strong>micro-increments&lt;/strong>. A micro-increment&#xD;
+    represents the outcome of a few hours to a few days of work for one person (or typically a few people collaborating) to&#xD;
+    reach the goals of the iteration. The concept of a micro-increment helps the individual team member to partition their&#xD;
+    work into small units, each of which delivers something of measurable value to the team. Micro-increments provide an&#xD;
+    extremely short feedback loop that drives adaptive decisions within each iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A micro-increment should be well-defined, and you should be able to track daily progress of each micro-increment.&#xD;
+    Micro-increments are specified and tracked by a work item. Change sets represent the physical outcome in terms of the&#xD;
+    files that are modified as a part of completing the work item. Let's have a look at some sample micro-increments:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Identify stakeholders&lt;em>.&lt;/em>&lt;/b> Defining a shared vision is a task that can drag on for weeks, so to ensure&#xD;
+        that you make and track daily progress, divide the task into small and well-defined micro-increments. Describing&#xD;
+        and getting buy-in on which stakeholders to put into a Vision document is a meaningful result, and may take a few&#xD;
+        hours or at most a few days, and thus represents a suitable micro-increment.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Develop Solution Increment.&lt;/b> Defining, designing, implementing, and testing a use case or even a scenario can&#xD;
+        take weeks or longer. To ensure continuous progress, divide the work into smaller increments, each of which can be&#xD;
+        done in a couple of days. A more suitable micro-increment may be to only define, design, implement, and test a&#xD;
+        subflow of a use-case or step within a scenario.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Agree on Technical Approach for Persistency.&lt;/b> Agreeing on your technical solution may take quite some time,&#xD;
+        so you need to narrow the task to something that can be defined and agreed to in a short time. One way to partition&#xD;
+        the work is according to the issues that you need to resolve, such as persistency or reporting. This&#xD;
+        micro-increment will probably involve defining requirements, surveying available assets, prototyping, and&#xD;
+        documenting the decisions.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Plan Iteration.&lt;/b> This micro-increment could include setting up a meeting for creating the iteration plan,&#xD;
+        doing some preparation for the meeting (such as reviewing candidate work items), coaching the team through the&#xD;
+        iteration planning meeting, and posting the iteration plan for easy access. The end result is something complete&#xD;
+        and measurable, a posted plan that has buy-in from the team.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Your project evolves in micro-increments through simultaneous execution of a number of work items. By openly sharing&#xD;
+    progress on your micro-increments through daily team meetings and team collaboration tools, you achieve the&#xD;
+    transparency and insight into each other's work required for effective teamwork. At the same time, you demonstrate&#xD;
+    continuous progress by evolving your application one micro-increment at a time.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Typically,&amp;nbsp;practices&amp;nbsp;provide a set of activities to be performed. Each activity is captured as a set of&#xD;
+    tasks, steps within tasks, and guidance. Even though micro-increments are not explicit constructs in the practices,&#xD;
+    within the activities you will find descriptions of how to carry out a set of related micro-increments that are&#xD;
+    commonly found in projects.&amp;nbsp;This guidance does&amp;nbsp;not provide a complete description of all potential&#xD;
+    micro-increments:&amp;nbsp;each organization should consider adding their own &quot;recipes&quot; for commonly occurring&#xD;
+    micro-increments.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

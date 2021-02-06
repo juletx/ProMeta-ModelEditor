@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Ad6YqvwEevWhaZQqLrL8Tw" name=",__2n_UCvFEdu0iYN7ZQBrLQ" guid="-Ad6YqvwEevWhaZQqLrL8Tw" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_test_analysis&quot; name=&quot;XE_test_analysis&quot;>&lt;/a></mainDescription>
+  <sections xmi:id="_cik88UtZEdyEE-k1R6LmOA" name="Analyze what rules fired and their effect on objects" guid="_cik88UtZEdyEE-k1R6LmOA"/>
+  <sections xmi:id="_cik880tZEdyEE-k1R6LmOA" name="Analyze what assertions failed" guid="_cik880tZEdyEE-k1R6LmOA"/>
+  <sections xmi:id="_cik88ktZEdyEE-k1R6LmOA" name="Analyze what's the impact on the business" guid="_cik88ktZEdyEE-k1R6LmOA"/>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-_-iQ4eQyiQVM7YhXcb90-g" name="new_term_definition,_SwvUgMaIEduMlb2cQZNTYw" guid="-_-iQ4eQyiQVM7YhXcb90-g" changeDate="2007-02-27T09:33:31.000-0800" version="7.2.0">
+  <mainDescription>A&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/guidance_549AC394.html&quot;&#xD;
+guid=&quot;_83ttAB_NEdq6CKKKq4D7YA&quot;>guidance&lt;/a>&amp;nbsp;that is a catch-all for other types of guidance not specifically defined&#xD;
+elsewhere.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

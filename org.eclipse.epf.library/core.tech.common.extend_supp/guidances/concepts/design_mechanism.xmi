@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-EG22TRyJ5TDKW6U88AXfhw" name="design_mechanism,_hNXugOUuEdqGCpzGJ4tJOw" guid="-EG22TRyJ5TDKW6U88AXfhw" changeDate="2008-10-13T01:54:58.000-0700" version="1.0.0">
+  <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
+    A Design Mechanism is a concrete representation of an &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html&quot;&#xD;
+    guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a>. It is refined from an &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/analysis_mechanism_8369C159.html&quot;&#xD;
+    guid=&quot;_0gvqoMlgEdmt3adZL5Dmdw&quot;>Analysis Mechanism&lt;/a>&amp;nbsp;and is further refined into an &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/implementation_mechanism_C92E670B.html&quot;&#xD;
+    guid=&quot;_0LcUkA4LEduibvKwrGxWxA&quot;>Implementation Mechanism&lt;/a>&amp;nbsp;as the design becomes more detailed.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    Design Mechanisms can be&amp;nbsp;represented as specific design patterns and frameworks&amp;nbsp;in the design.&amp;nbsp; They are&#xD;
+    used&amp;nbsp;to guide development. Design Mechanisms should still be relatively independent of implementation but provide&#xD;
+    enough detailed information for implementation choices to be made and software to be developed with confidence.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    See &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/guidelines/example_design_mechanisms_7762C0FB.html&quot;&#xD;
+    guid=&quot;_4k_Hsg4LEduibvKwrGxWxA&quot;>Example: Design Mechanisms&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

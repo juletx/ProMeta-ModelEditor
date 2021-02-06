@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-bkoNpaQhWX6FBG-iOZkRPg" name="create_update_user_documenation,_gMmZoDHMEeC7j_IRiP-WPQ" guid="-bkoNpaQhWX6FBG-iOZkRPg" changeDate="2011-09-12T08:48:05.139-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    User documentation might include all or parts of user manuals (electronic or paper-based), tutorials, frequently asked&#xD;
+    questions (FAQs), on-line Help Files, installation instructions, operational procedures, etc. User documentation often&#xD;
+    is used as the basis for training materials - if the documentation is of poor quality, the training materials might not&#xD;
+    be any better.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Without good user documentation, a system might be well developed by a development team but might not meet the End&#xD;
+    User's expectations because they will not be able operate the application effectively.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_-zfOo-B8EeC1y_NExchKwQ" name="Determine user documentation contents" guid="_-zfOo-B8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    User documentation often consists of a wide variety of content such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        User manuals (electronic or paper-based)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Tutorials&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Frequently asked questions (FAQs)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        On-line Help Files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Installation and configuration instructions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Operational procedures (or job aids)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    For your product and for this release, determine which of these types of user documentation your team will develop and&#xD;
+    deliver.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_-zfOpeB8EeC1y_NExchKwQ" name="Leverage product documentation" guid="_-zfOpeB8EeC1y_NExchKwQ">
+    <sectionDescription>Re-use whatever material you can from the product documentation that your team has created. If adequate time and attention&#xD;
+was given to product documentation, you should be able to leverage a significant amount of it to develop the user&#xD;
+documentation. Because only features (and possibly some nonfunctional requirements) were documented for the product, only&#xD;
+that amount can be leveraged. However, it often provides a nice framework for the user documentation.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zfOpOB8EeC1y_NExchKwQ" name="Leverage other materials" guid="_-zfOpOB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    Other materials developed in the course of the Release might provide excellent input into the user documentation such&#xD;
+    as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        User Stories&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test Cases&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Storyboards&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test Scenarios&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architecture Notebook&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Previously developed training materials&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Each of these may contain content that you do not need to re-create. Use your imagination to find other source&#xD;
+    materials that can help your team document the system for end users.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_-zfOouB8EeC1y_NExchKwQ" name="Write user documentation content" guid="_-zfOouB8EeC1y_NExchKwQ">
+    <sectionDescription>Based on the previous steps, write the user documentation. One way to do this is to assign sections of the document&#xD;
+(described in the step &quot;Determine User Documentation Contents&quot; above) to Development team members as Sprint/Iteration Tasks&#xD;
+in the Release Sprint/Iteration.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zfOoeB8EeC1y_NExchKwQ" name="Perform quality review" guid="_-zfOoeB8EeC1y_NExchKwQ">
+    <sectionDescription>As the user documentation is integrated, plan and conduct a quality review during the Release Sprint/Iteration to ensure&#xD;
+that the documentation is of sufficient quantity and quality. Update and improve the user documentation based on the&#xD;
+results of the quality review.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zfOpuB8EeC1y_NExchKwQ" name="Deliver user documentation" guid="_-zfOpuB8EeC1y_NExchKwQ">
+    <sectionDescription>Before or at the end of a release, deliver the completed user documentation to the deployment manager. Ensure that the&#xD;
+program has a plan for communicating the user documentation to end users.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to provide useful information to end users of the product being released into production.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-9h3rmFETu0bjz23397rWEQ" name="log_issue,_yGbYIEb0EdySHMdInS9eGA" guid="-9h3rmFETu0bjz23397rWEQ" authors="Jerome Boyer" changeDate="2010-04-01T04:17:37.000-0700" version="1.0.0">
+  <mainDescription>&lt;ul>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>Formally log any issues and decisions done during the rule
+            analysis and the rule authoring activities.&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>The issue
+            log is used to manage feedbacks, and to improve the rule set quality.&lt;/span>&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-font-weight: bold&quot;>As a social process, people will
+            change their mind, it is a good practice to log decision on a timely manner.&lt;/span>
+        &lt;/div>
+    &lt;/li>
+&lt;/ul>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot; />
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

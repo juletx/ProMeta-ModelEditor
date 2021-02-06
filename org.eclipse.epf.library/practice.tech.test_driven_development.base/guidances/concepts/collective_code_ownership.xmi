@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-ykYi7xrRdC5O9qFXhU3doA" name=",_xYMPoCZnEdyUaK463Ozu5g" guid="-ykYi7xrRdC5O9qFXhU3doA" changeDate="2008-08-06T03:25:38.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    With collective code ownership, any member of the team can change any piece of code in the system at any time. There&#xD;
+    should not be a policy or norm that one person is responsible for one part of the code base so that others are not&#xD;
+    allowed to modify it.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Fostering an environment where any developer might be expected to modify any piece of code to implement some&#xD;
+    functionality, fix a bug, or improve the solution leads to a more collaborative team experience. Developers will become&#xD;
+    familiar with more of the code and benefit from the experience of others. It drives a high-performance team and removes&#xD;
+    hurdles so that changes can be made by those who need them when they need them. No one person can become the gatekeeper&#xD;
+    or bottleneck for changes to some subsystem within the code base.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Collective code ownership works best if there are coding standards to prevent one developer's style from being&#xD;
+    significantly different than another's (see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/coding_standard_1FF691E0.html&quot;&#xD;
+    guid=&quot;_aGqAsJ01EdyQ3oTO93enUw&quot;>Concept: Coding Standard&lt;/a>). It is also critical that there are developer tests in&#xD;
+    place to ensure that work on a unit of code does not break it.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

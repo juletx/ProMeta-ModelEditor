@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-cev1w72zE7XqPYsSv19prg" name="new_checklist,_OhJKUNWsEduaE6F4-SvXzg" guid="-cev1w72zE7XqPYsSv19prg" changeDate="2008-08-12T04:20:23.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    Appropriate divergence from the quality criteria described here could be worthy of a comment in the implementation so&#xD;
+    that developers examining the code in the future know why the exception occurred.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_etwusZ01EdyQ3oTO93enUw" name="The implementation conforms to the architecture and design" guid="_etwusZ01EdyQ3oTO93enUw">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Is the implementation structured as specified in the design?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are all of the functions in the design implemented?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are all of the interfaces in the design implemented according to their specifications?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does the implementation adhere to all design and architectural constraints?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_etwutJ01EdyQ3oTO93enUw" name="The implementation is testable" guid="_etwutJ01EdyQ3oTO93enUw">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Can you test the expected behavior at the unit level?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the code written in a way that all paths can be exercised?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_etwutZ01EdyQ3oTO93enUw" name="The implementation is correct" guid="_etwutZ01EdyQ3oTO93enUw">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Does the implementation pass all of the developer tests?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does the implementation support the acceptance criteria of the test cases?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is all code executable (no dead code areas)?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_etwus501EdyQ3oTO93enUw" name="The implementation is understandable" guid="_etwus501EdyQ3oTO93enUw">
+    <sectionDescription>&lt;p>&#xD;
+    Is the logic clearly specified?&amp;nbsp; Have comments been used&amp;nbsp;sparingly to add clarity, and not to make up for&#xD;
+    unclear code?&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_etwusp01EdyQ3oTO93enUw" name="There is no redundancy" guid="_etwusp01EdyQ3oTO93enUw">
+    <sectionDescription>&lt;p>&#xD;
+    Is there no redundancy in the implementation? (Identify candidates for refactoring.)&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

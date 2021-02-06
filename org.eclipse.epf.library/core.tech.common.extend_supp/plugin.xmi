@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9S-U4LekEd-D7YZN9NgldQ" guid="_9S-U4LekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="_-ypX4LekEd-D7YZN9NgldQ" id="_zHTQUKYSEdmvhNXG0Oc2uA" uri="workproducts/vision.xmi"/>
+    <resourceDescriptors xmi:id="_-y8S0LekEd-D7YZN9NgldQ" id="-_dNuyh-0q5vpCiIiLfbj6w" uri="workproducts/system_wide_requirements.xmi"/>
+    <resourceDescriptors xmi:id="_-zPNwLekEd-D7YZN9NgldQ" id="_zHZW8qYSEdmvhNXG0Oc2uA" uri="workproducts/use_case.xmi"/>
+    <resourceDescriptors xmi:id="_-zPNwbekEd-D7YZN9NgldQ" id="-kQg7MSGPB3RPjrplyxwimQ" uri="workproducts/use_case_model.xmi"/>
+    <resourceDescriptors xmi:id="_-zPNwrekEd-D7YZN9NgldQ" id="-BQLZ5GRUNrMdU6XeZAfe9Q" uri="guidances/concepts/use_case.xmi"/>
+    <resourceDescriptors xmi:id="_-zY-wLekEd-D7YZN9NgldQ" id="_qktWQMM0EdmSIPI87WLu3g" uri="guidances/checklists/vision.xmi"/>
+    <resourceDescriptors xmi:id="_-zY-wbekEd-D7YZN9NgldQ" id="-yEWkrWZ3VUcjZPhq6bvScg" uri="guidances/concepts/use_case_model.xmi"/>
+    <resourceDescriptors xmi:id="_-zY-wrekEd-D7YZN9NgldQ" id="-aN0zy068ovKHgmkkoYqoYQ" uri="guidances/concepts/actor.xmi"/>
+    <resourceDescriptors xmi:id="_-ziIsLekEd-D7YZN9NgldQ" id="_KEldgMM1EdmSIPI87WLu3g" uri="guidances/checklists/actor.xmi"/>
+    <resourceDescriptors xmi:id="_-zr5sLekEd-D7YZN9NgldQ" id="-fCBrf_5JlrmuKgyrCaKGOA" uri="guidances/concepts/requirement_attributes.xmi"/>
+    <resourceDescriptors xmi:id="_-zr5sbekEd-D7YZN9NgldQ" id="-2o1pXjHpSEPN_rohLce5jA" uri="guidances/checklists/general_requirements.xmi"/>
+    <resourceDescriptors xmi:id="_-z1qsLekEd-D7YZN9NgldQ" id="-9gUpkUYqONF3x8UWwAO_zw" uri="guidances/concepts/failure_analysis_rpt_creation.xmi"/>
+    <resourceDescriptors xmi:id="_-z1qsbekEd-D7YZN9NgldQ" id="_uqL2gMM3EdmSIPI87WLu3g" uri="guidances/concepts/test_ideas.xmi"/>
+    <resourceDescriptors xmi:id="_-z1qsrekEd-D7YZN9NgldQ" id="_y-_PIMPdEdmbOvqy4O0adg" uri="guidances/concepts/testing_qualitative_rqmts.xmi"/>
+    <resourceDescriptors xmi:id="_-z-0oLekEd-D7YZN9NgldQ" id="_kwHAgMPbEdmbOvqy4O0adg" uri="guidances/checklists/test_case.xmi"/>
+    <resourceDescriptors xmi:id="_-z-0obekEd-D7YZN9NgldQ" id="-GNUrr3mpSwOOaOKWSuftMg" uri="guidances/checklists/test_data.xmi"/>
+    <resourceDescriptors xmi:id="_-z-0orekEd-D7YZN9NgldQ" id="_4LuPMMPcEdmbOvqy4O0adg" uri="guidances/checklists/test_script.xmi"/>
+    <resourceDescriptors xmi:id="_-0IloLekEd-D7YZN9NgldQ" id="_NqYIdKeqEdmKDbQuyzCoqQ" uri="workproducts/test_case.xmi"/>
+    <resourceDescriptors xmi:id="_-0bgkLekEd-D7YZN9NgldQ" id="_NqYIcqeqEdmKDbQuyzCoqQ" uri="workproducts/test_script.xmi"/>
+    <resourceDescriptors xmi:id="_-0bgkbekEd-D7YZN9NgldQ" id="_NqePEKeqEdmKDbQuyzCoqQ" uri="workproducts/test_log.xmi"/>
+    <resourceDescriptors xmi:id="_-0bgkrekEd-D7YZN9NgldQ" id="-HPCdXGOQ2SGSCHZaDEKJRg" uri="workproducts/implementation.xmi"/>
+    <resourceDescriptors xmi:id="_-0lRkLekEd-D7YZN9NgldQ" id="-kw2vYHKDkWv2tZrDMrBPNA" uri="guidances/checklists/system_wide_rqmts_furps.xmi"/>
+    <resourceDescriptors xmi:id="_-0lRkbekEd-D7YZN9NgldQ" id="-T2IeqdOunweffIDgL-aM0w" uri="guidances/checklists/use_case.xmi"/>
+    <resourceDescriptors xmi:id="_-0ubgLekEd-D7YZN9NgldQ" id="_MqODAMM1EdmSIPI87WLu3g" uri="guidances/checklists/use_case_model.xmi"/>
+    <resourceDescriptors xmi:id="_-0ubgbekEd-D7YZN9NgldQ" id="-3SXuKijeVOZalgLPgWRyFA" uri="guidances/concepts/system_wide_requirements.xmi"/>
+    <resourceDescriptors xmi:id="_-2EfULekEd-D7YZN9NgldQ" id="-1QQ8ajRx-ZzZnCjhkuaMXQ" uri="workproducts/developer_test.xmi"/>
+    <resourceDescriptors xmi:id="_-2OQULekEd-D7YZN9NgldQ" id="-zD7XGTc4k1GFe4PvMKlkKA" uri="guidances/checklists/developer_test.xmi"/>
+    <resourceDescriptors xmi:id="_-2OQUbekEd-D7YZN9NgldQ" id="_NqSB0KeqEdmKDbQuyzCoqQ" uri="workproducts/build.xmi"/>
+    <resourceDescriptors xmi:id="_-2XaQLekEd-D7YZN9NgldQ" id="_8ngBgMPdEdmbOvqy4O0adg" uri="guidances/guidelines/maintaining_automated_test_suite.xmi"/>
+    <resourceDescriptors xmi:id="_-2XaQbekEd-D7YZN9NgldQ" id="_vuwC4MPcEdmbOvqy4O0adg" uri="guidances/guidelines/programming_automated_tests.xmi"/>
+    <resourceDescriptors xmi:id="_-2hLQLekEd-D7YZN9NgldQ" id="_y3rxsMM3EdmSIPI87WLu3g" uri="guidances/guidelines/test_ideas.xmi"/>
+    <resourceDescriptors xmi:id="_-2hLQbekEd-D7YZN9NgldQ" id="_s60KoMM3EdmSIPI87WLu3g" uri="guidances/guidelines/test_suite.xmi"/>
+    <resourceDescriptors xmi:id="_-2hLQrekEd-D7YZN9NgldQ" id="-TksCtMgc0b4QqzwzniGvIw" uri="guidances/concepts/traceability.xmi"/>
+    <resourceDescriptors xmi:id="_-2q8QLekEd-D7YZN9NgldQ" id="-pNA0DbSdSoUqnjQIiOeHcQ" uri="guidances/guidelines/effective_req_reviews.xmi"/>
+    <resourceDescriptors xmi:id="_-2q8QbekEd-D7YZN9NgldQ" id="_On0agNSAEdmLhZ9H5Plxyw" uri="guidances/guidelines/req_gathering_techniques.xmi"/>
+    <resourceDescriptors xmi:id="_-20GMLekEd-D7YZN9NgldQ" id="-Q72-dNdHnZ93aRXAB_d34A" uri="guidances/guidelines/requirement_pitfalls.xmi"/>
+    <resourceDescriptors xmi:id="_-20GMbekEd-D7YZN9NgldQ" id="-AJQLv2ldVv5KN9eUbdQe_g" uri="guidances/guidelines/writing_good_requirements.xmi"/>
+    <resourceDescriptors xmi:id="_-20GMrekEd-D7YZN9NgldQ" id="_eUfzwMMyEdmdo9HxCRR_Gw" uri="guidances/concepts/requirements.xmi"/>
+    <resourceDescriptors xmi:id="_-293MLekEd-D7YZN9NgldQ" id="-Rex8oOBv985RruZNrCW0rg" uri="guidances/concepts/implementation_mechanism.xmi"/>
+    <resourceDescriptors xmi:id="_-293MbekEd-D7YZN9NgldQ" id="-cev1w72zE7XqPYsSv19prg" uri="guidances/checklists/implementation.xmi"/>
+    <resourceDescriptors xmi:id="_-293MrekEd-D7YZN9NgldQ" id="-xo5gft-2zQGWhxjKcGxSQQ" uri="guidances/concepts/coding_standard.xmi"/>
+    <resourceDescriptors xmi:id="_-3HBILekEd-D7YZN9NgldQ" id="-4HHmcQny_Q08Xj_3Q7Sfig" uri="guidances/guidelines/mapping_design_to_code.xmi"/>
+    <resourceDescriptors xmi:id="_-3HBIbekEd-D7YZN9NgldQ" id="-i7KKltG_fEgqAjlVlIBGFA" uri="guidances/guidelines/refactoring.xmi"/>
+    <resourceDescriptors xmi:id="_-3QyILekEd-D7YZN9NgldQ" id="-EOoqKeF2SEXao6XhNXBD-w" uri="guidances/concepts/developer_testing.xmi"/>
+    <resourceDescriptors xmi:id="_-3QyIbekEd-D7YZN9NgldQ" id="-wuu2cNRUPlrBuaO0OdzLFg" uri="guidances/guidelines/developer_testing.xmi"/>
+    <resourceDescriptors xmi:id="_-3ajILekEd-D7YZN9NgldQ" id="-EG22TRyJ5TDKW6U88AXfhw" uri="guidances/concepts/design_mechanism.xmi"/>
+    <resourceDescriptors xmi:id="_-3ajIbekEd-D7YZN9NgldQ" id="-mAo18f36rZ1R98kpZX7HMw" uri="guidances/guidelines/example_design_mechanisms.xmi"/>
+    <resourceDescriptors xmi:id="_-3ajIrekEd-D7YZN9NgldQ" id="-zfl87vJBFdinDB02ArLXOQ" uri="guidances/concepts/component.vm.xmi"/>
+    <resourceDescriptors xmi:id="_-3jtELekEd-D7YZN9NgldQ" id="-UQ_e8kozIP11Xu008RJd-A" uri="guidances/concepts/software_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_-3teELekEd-D7YZN9NgldQ" id="_TZiasMM1EdmSIPI87WLu3g" uri="guidances/concepts/component.xmi"/>
+    <resourceDescriptors xmi:id="_-3teEbekEd-D7YZN9NgldQ" id="-SJrpVySJ2npYs8NwGvnHjw" uri="guidances/concepts/arch_mechanism.xmi"/>
+    <resourceDescriptors xmi:id="_-33PELekEd-D7YZN9NgldQ" id="_S8KCcMP2EdmWKcx6ixEiwg" uri="guidances/concepts/analysis_mechanism.xmi"/>
+    <resourceDescriptors xmi:id="_-33PEbekEd-D7YZN9NgldQ" id="-0R8BZWlcCQ3Rj84jY2M3Kw" uri="guidances/concepts/executable_arch.xmi"/>
+    <resourceDescriptors xmi:id="_-33PErekEd-D7YZN9NgldQ" id="_iCwb8MM3EdmSIPI87WLu3g" uri="guidances/guidelines/repres_interfaces_to_ext_systems.xmi"/>
+    <resourceDescriptors xmi:id="_-4AZALekEd-D7YZN9NgldQ" id="-QB0WnHnpcK1VJbdJJ5QJ5A" uri="guidances/concepts/arch_views_viewpoints.xmi"/>
+    <resourceDescriptors xmi:id="_-4AZAbekEd-D7YZN9NgldQ" id="-8LfKJab2khAUjdmnImaXPA" uri="guidances/examples/architectural_mechanism_attributes.xmi"/>
+    <resourceDescriptors xmi:id="_-4AZArekEd-D7YZN9NgldQ" id="-EytH4BCNGiHF6pZrp8ISCw" uri="guidances/concepts/arch_significant_requirements.xmi"/>
+    <resourceDescriptors xmi:id="_-4KKALekEd-D7YZN9NgldQ" id="-Mm7s8vlK5CaZZ_Msx8reCQ" uri="guidances/concepts/arch_goals.xmi"/>
+    <resourceDescriptors xmi:id="_-4KKAbekEd-D7YZN9NgldQ" id="-je0zRqgX0Tg_761Z77cIkg" uri="guidances/concepts/arch_constraints.xmi"/>
+    <resourceDescriptors xmi:id="_-4TT8LekEd-D7YZN9NgldQ" id="-HJbvivaRmrZ6rdQcdFd78Q" uri="guidances/concepts/key_abstractions.xmi"/>
+    <resourceDescriptors xmi:id="_-4TT8bekEd-D7YZN9NgldQ" id="-sKBCb98PYCcliL0zVljcyQ" uri="guidances/examples/four_plus_one_view_of_arch.xmi"/>
+    <resourceDescriptors xmi:id="_-4TT8rekEd-D7YZN9NgldQ" id="-oG4WGxO_LjkvjTlqyYrCqA" uri="guidances/guidelines/identify_common_architectural_mechanisms.xmi"/>
+    <resourceDescriptors xmi:id="_-4dE8LekEd-D7YZN9NgldQ" id="_SB1n8MM1EdmSIPI87WLu3g" uri="guidances/concepts/visual_modeling.xmi"/>
+    <resourceDescriptors xmi:id="_-4dE8bekEd-D7YZN9NgldQ" id="-OcMsciNn-UtD9fTHj26LGA" uri="guidances/guidelines/abstract_away_complexity.vm.xmi"/>
+    <resourceDescriptors xmi:id="_-4m18LekEd-D7YZN9NgldQ" id="-QklqSGB4aD07vUpfubpMJg" uri="guidances/guidelines/using_visual_modeling.xmi"/>
+    <resourceDescriptors xmi:id="_-4m18bekEd-D7YZN9NgldQ" id="-X7QSjItNBz7w8603yBCv0Q" uri="guidances/guidelines/abstract_away_complexity.xmi"/>
+    <resourceDescriptors xmi:id="_-4v_4LekEd-D7YZN9NgldQ" id="-Of51hmgdsO_U2-pnbJ67Cg" uri="guidances/concepts/business_pattern.xmi"/>
+    <resourceDescriptors xmi:id="_-4v_4bekEd-D7YZN9NgldQ" id="_QvmkAMM1EdmSIPI87WLu3g" uri="guidances/concepts/pattern.xmi"/>
+    <resourceDescriptors xmi:id="_-45w4LekEd-D7YZN9NgldQ" id="-Vp61zQMUoP-Icm5jgDar7A" uri="guidances/guidelines/software_reuse.xmi"/>
+    <resourceDescriptors xmi:id="_-45w4bekEd-D7YZN9NgldQ" id="-awaQ_2dwhGyKRoVKQ-esPQ" uri="guidances/guidelines/entity_control_boundary_pattern.xmi"/>
+    <resourceDescriptors xmi:id="_-5Dh4LekEd-D7YZN9NgldQ" id="-fj_9xjbrpaYNSETyCz5yJg" uri="guidances/concepts/refactoring.xmi"/>
+    <resourceDescriptors xmi:id="_-5Dh4bekEd-D7YZN9NgldQ" id="_lbGQwMM3EdmSIPI87WLu3g" uri="guidances/guidelines/layering.xmi"/>
+    <resourceDescriptors xmi:id="_-5Mr0LekEd-D7YZN9NgldQ" id="-13wK-dfNa9N1G8Ob27m-Og" uri="guidances/templates/systemwide_requirements_specification.xmi"/>
+    <resourceDescriptors xmi:id="_-5Mr0bekEd-D7YZN9NgldQ" id="-zGnAaKUwKnn2pPANr7E0MQ" uri="guidances/templates/use_case_specification.xmi"/>
+    <resourceDescriptors xmi:id="_-5fmwLekEd-D7YZN9NgldQ" id="-DUD2tbhBn23i6Jm6gcoN9Q" uri="guidances/templates/vision.xmi"/>
+    <resourceDescriptors xmi:id="_-5fmwbekEd-D7YZN9NgldQ" id="-JviMIao63C7w9C8W6iPJrw" uri="guidances/examples/uc_model_evolve.xmi"/>
+    <resourceDescriptors xmi:id="_-5fmwrekEd-D7YZN9NgldQ" id="-qq-9Brh5oa6H3lsdp-m8mQ" uri="guidances/examples/use_case_spec.xmi"/>
+    <resourceDescriptors xmi:id="_-5pXwLekEd-D7YZN9NgldQ" id="-PHKmXwkVhDR81vcyAQAkxQ" uri="guidances/templates/test_script.xmi"/>
+    <resourceDescriptors xmi:id="_-5pXwbekEd-D7YZN9NgldQ" id="-JrYzWdOXPOZBIVGWibK1Bw" uri="guidances/templates/test_case.xmi"/>
+    <resourceDescriptors xmi:id="_-5pXwrekEd-D7YZN9NgldQ" id="-SzcBYJR6jUy4WgOhWVpTjA" uri="guidances/examples/uc_deposit_funds_outline.xmi"/>
+    <resourceDescriptors xmi:id="_-5pXw7ekEd-D7YZN9NgldQ" id="-4MpXAgL3mj3i4Huqt5gctA" uri="guidances/examples/uc_model_elaboration_phase.xmi"/>
+    <resourceDescriptors xmi:id="_-5zIwLekEd-D7YZN9NgldQ" id="-zmbyaoBRHeaLpd8RiE-lDA" uri="guidances/examples/uc_model_inception_phase.xmi"/>
+    <resourceDescriptors xmi:id="_-5zIwbekEd-D7YZN9NgldQ" id="-iVXniR1KNrwul19oCHSvMQ" uri="guidances/examples/uc_transfer_funds_outline.xmi"/>
+    <resourceDescriptors xmi:id="_-5zIwrekEd-D7YZN9NgldQ" id="-BYG2r_TAmU4OL3BapLIU1A" uri="guidances/examples/uc_spec_validate_user.xmi"/>
+    <resourceDescriptors xmi:id="_-58SsLekEd-D7YZN9NgldQ" id="-xHyqz01D_uL6xXLgQUG7Tw" uri="guidances/examples/uc_withdraw_cash_outline.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_OOB2AAouEdyhlpBPrduOMw" name="core.tech.common.extend_supp" guid="_OOB2AAouEdyhlpBPrduOMw" presentationName="Technical Common (Extend-SUPP)" briefDescription="This plug-in defines technical work products and guidance that is shared across practices." changeDate="2008-08-14T05:25:14.000-0700" supporting="true">
+    <methodElementProperty xmi:id="_-gnMv7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K8LekEd-D7YZN9NgldQ" name="Content" guid="_9S1K8LekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K8bekEd-D7YZN9NgldQ" name="Categories" guid="_9S1K8bekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K8rekEd-D7YZN9NgldQ" name="Domains" guid="_9S1K8rekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K87ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9S1K87ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K9LekEd-D7YZN9NgldQ" name="RoleSets" guid="_9S1K9LekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K9bekEd-D7YZN9NgldQ" name="WP Types" guid="_9S1K9bekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K9rekEd-D7YZN9NgldQ" name="Tools" guid="_9S1K9rekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K97ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9S1K97ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K-LekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9S1K-LekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K-bekEd-D7YZN9NgldQ" name="Hidden" guid="_9S1K-bekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9S1K-rekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9S1K-rekEd-D7YZN9NgldQ" categorizedElements="_J6IHANjmEdyAi9EWyDeJBg _Q1R7QNjmEdyAi9EWyDeJBg"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_J6IHANjmEdyAi9EWyDeJBg" name="template_list.assign" guid="_J6IHANjmEdyAi9EWyDeJBg" variabilityType="contributes" categorizedElements="_m7p-AI5fEdyO5aWob1UGDA _3Y3XUI5fEdyO5aWob1UGDA _DtlRQI5gEdyO5aWob1UGDA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCR4Z8RdEdyD76CYS6Ta7A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Q1R7QNjmEdyAi9EWyDeJBg" name="artifact_list.assign" guid="_Q1R7QNjmEdyAi9EWyDeJBg" variabilityType="contributes" categorizedElements="_JqYbgJ01EdyQ3oTO93enUw _BVh9cL-CEdqb7N6KIeDL8Q _0ZS-0MlgEdmt3adZL5Dmdw _0ZlSsMlgEdmt3adZL5Dmdw _0ZfMEMlgEdmt3adZL5Dmdw _0VGbUMlgEdmt3adZL5Dmdw _W2SgEDR5EdutE_HNDTJk5Q _0WVxcMlgEdmt3adZL5Dmdw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCR4YMRdEdyD76CYS6Ta7A"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K-7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9S1K-7ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RhLBwAouEdyhlpBPrduOMw" name="technical_work_products" guid="_RhLBwAouEdyhlpBPrduOMw" presentationName="Technical Work Products">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0WVxcMlgEdmt3adZL5Dmdw" name="vision" guid="_0WVxcMlgEdmt3adZL5Dmdw" presentationName="Vision" briefDescription="This artifact defines the view of the stakeholders of the technical solution to be developed. This definition is specified in terms of the key needs and features of the stakeholders. The vision contains an outline of the envisioned core requirements for the system." checklists="_0WoFUMlgEdmt3adZL5Dmdw" templates="_DtlRQI5gEdyO5aWob1UGDA">
+            <presentation xmi:id="_zHTQUKYSEdmvhNXG0Oc2uA" href="uma://_zHTQUKYSEdmvhNXG0Oc2uA#_zHTQUKYSEdmvhNXG0Oc2uA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BVh9cL-CEdqb7N6KIeDL8Q" name="system_wide_requirements" guid="_BVh9cL-CEdqb7N6KIeDL8Q" presentationName="System-Wide Requirements" briefDescription="This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements." guidelines="_6jXzYNcKEdqz_d2XWoVt6Q" templates="_m7p-AI5fEdyO5aWob1UGDA">
+            <presentation xmi:id="-_dNuyh-0q5vpCiIiLfbj6w" href="uma://-_dNuyh-0q5vpCiIiLfbj6w#-_dNuyh-0q5vpCiIiLfbj6w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0VGbUMlgEdmt3adZL5Dmdw" name="use_case" guid="_0VGbUMlgEdmt3adZL5Dmdw" presentationName="Use Case" briefDescription="This artifact captures the system behavior to yield an observable result of value to those who interact with the system." conceptsAndPapers="_KudM0NcJEdqz_d2XWoVt6Q" checklists="_0kNwINk1Edq2Q8qZoWbvGA" examples="_JLOiIMNvEdu2IdAIaWZyAw" templates="_3Y3XUI5fEdyO5aWob1UGDA">
+            <presentation xmi:id="_zHZW8qYSEdmvhNXG0Oc2uA" href="uma://_zHZW8qYSEdmvhNXG0Oc2uA#_zHZW8qYSEdmvhNXG0Oc2uA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_W2SgEDR5EdutE_HNDTJk5Q" name="use_case_model" guid="_W2SgEDR5EdutE_HNDTJk5Q" presentationName="Use-Case Model" briefDescription="This artifact captures a model of the intended functions and environment of the system and serves as a contract between the customer and the team." conceptsAndPapers="_KudM0NcJEdqz_d2XWoVt6Q _2jyfUAhVEduRe8TeoBmuGg _zGqO0MDpEduTGJ8i4u8TMw" checklists="_0U6OEMlgEdmt3adZL5Dmdw" examples="_t4QdAMNqEdu2IdAIaWZyAw">
+            <presentation xmi:id="-kQg7MSGPB3RPjrplyxwimQ" href="uma://-kQg7MSGPB3RPjrplyxwimQ#-kQg7MSGPB3RPjrplyxwimQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_KudM0NcJEdqz_d2XWoVt6Q" name="use_case" guid="_KudM0NcJEdqz_d2XWoVt6Q" presentationName="Use Case" briefDescription="A use case describes what the system must do to provide value to the stakeholders." conceptsAndPapers="_0Wh-sMlgEdmt3adZL5Dmdw _zGqO0MDpEduTGJ8i4u8TMw">
+            <presentation xmi:id="-BQLZ5GRUNrMdU6XeZAfe9Q" href="uma://-BQLZ5GRUNrMdU6XeZAfe9Q#-BQLZ5GRUNrMdU6XeZAfe9Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0WoFUMlgEdmt3adZL5Dmdw" name="vision" guid="_0WoFUMlgEdmt3adZL5Dmdw" presentationName="Vision" briefDescription="This check list provides questions to verify that the Vision is described in a consistent and complete manner.">
+            <presentation xmi:id="_qktWQMM0EdmSIPI87WLu3g" href="uma://_qktWQMM0EdmSIPI87WLu3g#_qktWQMM0EdmSIPI87WLu3g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_2jyfUAhVEduRe8TeoBmuGg" name="use_case_model" guid="_2jyfUAhVEduRe8TeoBmuGg" presentationName="Use-Case Model" briefDescription="This artifact is a model of the system's intended functions and its surroundings, and serves as a contract between the customer and the project team.">
+            <presentation xmi:id="-yEWkrWZ3VUcjZPhq6bvScg" href="uma://-yEWkrWZ3VUcjZPhq6bvScg#-yEWkrWZ3VUcjZPhq6bvScg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_zGqO0MDpEduTGJ8i4u8TMw" name="actor" guid="_zGqO0MDpEduTGJ8i4u8TMw" presentationName="Actor" briefDescription="An Actor is a role that a person or external system plays when interacting with a system. Instances of an Actor can be an individual or an external system.">
+            <presentation xmi:id="-aN0zy068ovKHgmkkoYqoYQ" href="uma://-aN0zy068ovKHgmkkoYqoYQ#-aN0zy068ovKHgmkkoYqoYQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0VrDEMlgEdmt3adZL5Dmdw" name="actor" guid="_0VrDEMlgEdmt3adZL5Dmdw" presentationName="Actor" briefDescription="This check list provides questions to help ensure that all actors, and only valid actors, have been identified and described correctly.">
+            <presentation xmi:id="_KEldgMM1EdmSIPI87WLu3g" href="uma://_KEldgMM1EdmSIPI87WLu3g#_KEldgMM1EdmSIPI87WLu3g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_VQ268O0KEdqHTdbLTmC5IQ" name="requirement_attributes" guid="_VQ268O0KEdqHTdbLTmC5IQ" presentationName="Requirement Attributes" briefDescription="Requirements attributes capture additional information, such as risk, planned iteration, source of requirement, about each requirement. This additional information is used to manage the project.">
+            <presentation xmi:id="-fCBrf_5JlrmuKgyrCaKGOA" href="uma://-fCBrf_5JlrmuKgyrCaKGOA#-fCBrf_5JlrmuKgyrCaKGOA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_jxn9EO0HEdqHTdbLTmC5IQ" name="general_requirements" guid="_jxn9EO0HEdqHTdbLTmC5IQ" presentationName="General Requirements" briefDescription="This checklist provides guidance on assessing the quality of requirements.">
+            <presentation xmi:id="-2o1pXjHpSEPN_rohLce5jA" href="uma://-2o1pXjHpSEPN_rohLce5jA#-2o1pXjHpSEPN_rohLce5jA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0jhR0MlgEdmt3adZL5Dmdw" name="failure_analysis_rpt_creation" guid="_0jhR0MlgEdmt3adZL5Dmdw" presentationName="Failure Analysis and Report Creation" briefDescription="This concept addresses how to conduct failure analysis based on the execution of tests. The result of this analysis can take the form of a failure analysis report.">
+            <presentation xmi:id="-9gUpkUYqONF3x8UWwAO_zw" href="uma://-9gUpkUYqONF3x8UWwAO_zw#-9gUpkUYqONF3x8UWwAO_zw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0jnYcMlgEdmt3adZL5Dmdw" name="test_ideas" guid="_0jnYcMlgEdmt3adZL5Dmdw" presentationName="Test Ideas" briefDescription="A list of test ideas sorted in decreasing order of importance and associated with specific testing strategies used to create executable tests.">
+            <presentation xmi:id="_uqL2gMM3EdmSIPI87WLu3g" href="uma://_uqL2gMM3EdmSIPI87WLu3g#_uqL2gMM3EdmSIPI87WLu3g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0aJ6cMlgEdmt3adZL5Dmdw" name="testing_qualitative_rqmts" guid="_0aJ6cMlgEdmt3adZL5Dmdw" presentationName="Testing Qualitative Requirements" briefDescription="This concept covers some of different types of testing that is applicable to test the different qualitative requirements based on FURPS.">
+            <presentation xmi:id="_y-_PIMPdEdmbOvqy4O0adg" href="uma://_y-_PIMPdEdmbOvqy4O0adg#_y-_PIMPdEdmbOvqy4O0adg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0Zxf8MlgEdmt3adZL5Dmdw" name="test_case" guid="_0Zxf8MlgEdmt3adZL5Dmdw" presentationName="Test Case" briefDescription="This checklist provides questions to verify that test cases are created in a consistent and complete manner.">
+            <presentation xmi:id="_kwHAgMPbEdmbOvqy4O0adg" href="uma://_kwHAgMPbEdmbOvqy4O0adg#_kwHAgMPbEdmbOvqy4O0adg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_KZQJMBhBEduxCP6DVVLxsA" name="test_data" guid="_KZQJMBhBEduxCP6DVVLxsA" presentationName="Test Data" briefDescription="This checklist provides questions to verify that test data is created in a consistent and complete manner.">
+            <presentation xmi:id="-GNUrr3mpSwOOaOKWSuftMg" href="uma://-GNUrr3mpSwOOaOKWSuftMg#-GNUrr3mpSwOOaOKWSuftMg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0Z9tMMlgEdmt3adZL5Dmdw" name="test_script" guid="_0Z9tMMlgEdmt3adZL5Dmdw" presentationName="Test Script" briefDescription="This checklist provides questions to verify that tests are created in a consistent and complete manner.">
+            <presentation xmi:id="_4LuPMMPcEdmbOvqy4O0adg" href="uma://_4LuPMMPcEdmbOvqy4O0adg#_4LuPMMPcEdmbOvqy4O0adg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0ZS-0MlgEdmt3adZL5Dmdw" name="test_case" guid="_0ZS-0MlgEdmt3adZL5Dmdw" presentationName="Test Case" briefDescription="This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario." conceptsAndPapers="_0aJ6cMlgEdmt3adZL5Dmdw" checklists="_0Zxf8MlgEdmt3adZL5Dmdw" templates="_yWaKEI5fEdyO5aWob1UGDA">
+            <presentation xmi:id="_NqYIdKeqEdmKDbQuyzCoqQ" href="uma://_NqYIdKeqEdmKDbQuyzCoqQ#_NqYIdKeqEdmKDbQuyzCoqQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0ZfMEMlgEdmt3adZL5Dmdw" name="test_script" guid="_0ZfMEMlgEdmt3adZL5Dmdw" presentationName="Test Script" briefDescription="This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable&#xD;&#xA;automated testing." checklists="_KZQJMBhBEduxCP6DVVLxsA _0Z9tMMlgEdmt3adZL5Dmdw" guidelines="_0aDz0MlgEdmt3adZL5Dmdw _0j5sUMlgEdmt3adZL5Dmdw _0kF5kMlgEdmt3adZL5Dmdw" templates="_yZtgQI5gEdyO5aWob1UGDA">
+            <presentation xmi:id="_NqYIcqeqEdmKDbQuyzCoqQ" href="uma://_NqYIcqeqEdmKDbQuyzCoqQ#_NqYIcqeqEdmKDbQuyzCoqQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0ZlSsMlgEdmt3adZL5Dmdw" name="test_log" guid="_0ZlSsMlgEdmt3adZL5Dmdw" presentationName="Test Log" briefDescription="This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run.">
+            <presentation xmi:id="_NqePEKeqEdmKDbQuyzCoqQ" href="uma://_NqePEKeqEdmKDbQuyzCoqQ#_NqePEKeqEdmKDbQuyzCoqQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_JqYbgJ01EdyQ3oTO93enUw" name="implementation" guid="_JqYbgJ01EdyQ3oTO93enUw" presentationName="Implementation" briefDescription="Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built.">
+            <presentation xmi:id="-HPCdXGOQ2SGSCHZaDEKJRg" href="uma://-HPCdXGOQ2SGSCHZaDEKJRg#-HPCdXGOQ2SGSCHZaDEKJRg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_Vael8CGMEdu3VKXZx45D3A" name="system_wide_rqmts_furps" guid="_Vael8CGMEdu3VKXZx45D3A" presentationName="System-Wide Requirements (FURPS+)" briefDescription="This check list is used to verify that the different types of system-wide requirements covered by FURPS+ have been considered.">
+            <presentation xmi:id="-kw2vYHKDkWv2tZrDMrBPNA" href="uma://-kw2vYHKDkWv2tZrDMrBPNA#-kw2vYHKDkWv2tZrDMrBPNA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0kNwINk1Edq2Q8qZoWbvGA" name="use_case" guid="_0kNwINk1Edq2Q8qZoWbvGA" presentationName="Use Case" briefDescription="This checklist provides questions to verify that use cases are described in a consistent and complete manner." variabilityType="replaces">
+            <presentation xmi:id="-T2IeqdOunweffIDgL-aM0w" href="uma://-T2IeqdOunweffIDgL-aM0w#-T2IeqdOunweffIDgL-aM0w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0U6OEMlgEdmt3adZL5Dmdw" name="use_case_model" guid="_0U6OEMlgEdmt3adZL5Dmdw" presentationName="Use-Case Model" briefDescription="This checklist provides questions to verify that the use-case model is described in a consistent and complete manner.">
+            <presentation xmi:id="_MqODAMM1EdmSIPI87WLu3g" href="uma://_MqODAMM1EdmSIPI87WLu3g#_MqODAMM1EdmSIPI87WLu3g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_VXZ5wO0IEdqHTdbLTmC5IQ" name="system_wide_requirements" guid="_VXZ5wO0IEdqHTdbLTmC5IQ" presentationName="System-Wide Requirements" briefDescription="This concept describes the system-wide requirements.">
+            <presentation xmi:id="-3SXuKijeVOZalgLPgWRyFA" href="uma://-3SXuKijeVOZalgLPgWRyFA#-3SXuKijeVOZalgLPgWRyFA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kh9FcJ02EdyQ3oTO93enUw" name="developer_test" guid="_kh9FcJ02EdyQ3oTO93enUw" presentationName="Developer Test" briefDescription="The Developer Test validates a specific aspect of an implementation element." checklists="_dxaPUF-BEd2T0JdVjRyaQA">
+            <presentation xmi:id="-1QQ8ajRx-ZzZnCjhkuaMXQ" href="uma://-1QQ8ajRx-ZzZnCjhkuaMXQ#-1QQ8ajRx-ZzZnCjhkuaMXQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_dxaPUF-BEd2T0JdVjRyaQA" name="developer_test" guid="_dxaPUF-BEd2T0JdVjRyaQA" presentationName="Developer Test">
+            <presentation xmi:id="-zD7XGTc4k1GFe4PvMKlkKA" href="uma://-zD7XGTc4k1GFe4PvMKlkKA#-zD7XGTc4k1GFe4PvMKlkKA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0YuXEMlgEdmt3adZL5Dmdw" name="build" guid="_0YuXEMlgEdmt3adZL5Dmdw" presentationName="Build" briefDescription="An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product.">
+            <presentation xmi:id="_NqSB0KeqEdmKDbQuyzCoqQ" href="uma://_NqSB0KeqEdmKDbQuyzCoqQ#_NqSB0KeqEdmKDbQuyzCoqQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1MdooMOlEdupeqHTre3HvQ" name="technical_guidance" guid="_1MdooMOlEdupeqHTre3HvQ" presentationName="Technical Guidance" briefDescription="Included guidance applies to the elements in any context">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ncVUBEfEdyM7Iu0sxfrPA" name="Test Guidance" guid="_9ncVUBEfEdyM7Iu0sxfrPA">
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_0kF5kMlgEdmt3adZL5Dmdw" name="maintaining_automated_test_suite" guid="_0kF5kMlgEdmt3adZL5Dmdw" presentationName="Maintaining Automated Test Suites" briefDescription="This guideline explains ways to maintain automated test suites - collection of tests performed together for breadth and depth coverage.">
+              <presentation xmi:id="_8ngBgMPdEdmbOvqy4O0adg" href="uma://_8ngBgMPdEdmbOvqy4O0adg#_8ngBgMPdEdmbOvqy4O0adg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_0j5sUMlgEdmt3adZL5Dmdw" name="programming_automated_tests" guid="_0j5sUMlgEdmt3adZL5Dmdw" presentationName="Programming Automated Tests" briefDescription="This guideline discusses ways of structuring, recording, entering data, executing and handling errors in automated tests.">
+              <presentation xmi:id="_vuwC4MPcEdmbOvqy4O0adg" href="uma://_vuwC4MPcEdmbOvqy4O0adg#_vuwC4MPcEdmbOvqy4O0adg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_0jzlsMlgEdmt3adZL5Dmdw" name="test_ideas" guid="_0jzlsMlgEdmt3adZL5Dmdw" presentationName="Test Ideas" briefDescription="This guideline identifies common faults and mistakes done when developing software. It shows how to create test ideas from method calls, and from boolean and relational expressions.">
+              <presentation xmi:id="_y3rxsMM3EdmSIPI87WLu3g" href="uma://_y3rxsMM3EdmSIPI87WLu3g#_y3rxsMM3EdmSIPI87WLu3g"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_0aDz0MlgEdmt3adZL5Dmdw" name="test_suite" guid="_0aDz0MlgEdmt3adZL5Dmdw" presentationName="Test Suite" briefDescription="This guideline discusses how to maintain automated test suites.">
+              <presentation xmi:id="_s60KoMM3EdmSIPI87WLu3g" href="uma://_s60KoMM3EdmSIPI87WLu3g#_s60KoMM3EdmSIPI87WLu3g"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8oxCIMOlEdupeqHTre3HvQ" name="Requirements Guidance" guid="_8oxCIMOlEdupeqHTre3HvQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_eYtQQO0KEdqHTdbLTmC5IQ" name="traceability" guid="_eYtQQO0KEdqHTdbLTmC5IQ" presentationName="Traceability" briefDescription="Traceability is a term used to describe the establishment and maintenance of relationships  between artifacts, such as a requirement and a design class or a requirement and  a test case, so that you can track the completeness of work and assess the impact of changes.">
+              <presentation xmi:id="-TksCtMgc0b4QqzwzniGvIw" href="uma://-TksCtMgc0b4QqzwzniGvIw#-TksCtMgc0b4QqzwzniGvIw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_E-dPIL-GEdqb7N6KIeDL8Q" name="effective_req_reviews" guid="_E-dPIL-GEdqb7N6KIeDL8Q" presentationName="Effective Requirement Reviews" briefDescription="This guideline discusses how to conduct reviews with relevant stakeholders to  ensure agreement, assess quality, and identify changes required." conceptsAndPapers="_HrZGIA4MEduibvKwrGxWxA _0Wh-sMlgEdmt3adZL5Dmdw" checklists="_jxn9EO0HEdqHTdbLTmC5IQ">
+              <presentation xmi:id="-pNA0DbSdSoUqnjQIiOeHcQ" href="uma://-pNA0DbSdSoUqnjQIiOeHcQ#-pNA0DbSdSoUqnjQIiOeHcQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_OnoNQNSAEdmLhZ9H5Plxyw" name="req_gathering_techniques" guid="_OnoNQNSAEdmLhZ9H5Plxyw" presentationName="Requirements Gathering Techniques" briefDescription="This guideline describes various techniques for gathering requirements.">
+              <presentation xmi:id="_On0agNSAEdmLhZ9H5Plxyw" href="uma://_On0agNSAEdmLhZ9H5Plxyw#_On0agNSAEdmLhZ9H5Plxyw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_1AOsMO0JEdqHTdbLTmC5IQ" name="requirement_pitfalls" guid="_1AOsMO0JEdqHTdbLTmC5IQ" presentationName="Requirement Pitfalls" briefDescription="This guideline describes common pitfalls to avoid in defining and writing requirements. In some cases these are the inverse of the guidelines for writing good requirements, however, by showing examples of what NOT to do makes the explanation of what TO DO clearer.">
+              <presentation xmi:id="-Q72-dNdHnZ93aRXAB_d34A" href="uma://-Q72-dNdHnZ93aRXAB_d34A#-Q72-dNdHnZ93aRXAB_d34A"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_6jXzYNcKEdqz_d2XWoVt6Q" name="writing_good_requirements" guid="_6jXzYNcKEdqz_d2XWoVt6Q" presentationName="Writing Requirements Statements" briefDescription="This guideline describes ways of writing good requirements.">
+              <presentation xmi:id="-AJQLv2ldVv5KN9eUbdQe_g" href="uma://-AJQLv2ldVv5KN9eUbdQe_g#-AJQLv2ldVv5KN9eUbdQe_g"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0Wh-sMlgEdmt3adZL5Dmdw" name="requirements" guid="_0Wh-sMlgEdmt3adZL5Dmdw" presentationName="Requirements" briefDescription="This concept page provides an informal definition of requirements.">
+              <presentation xmi:id="_eUfzwMMyEdmdo9HxCRR_Gw" href="uma://_eUfzwMMyEdmdo9HxCRR_Gw#_eUfzwMMyEdmdo9HxCRR_Gw"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cHHEIBEdEdyM7Iu0sxfrPA" name="Implementation Guidance" guid="_cHHEIBEdEdyM7Iu0sxfrPA">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0LcUkA4LEduibvKwrGxWxA" name="implementation_mechanism" guid="_0LcUkA4LEduibvKwrGxWxA" presentationName="Implementation Mechanism" briefDescription="A representation of an Architecture Mechanism that uses a specific programming language or product.">
+              <presentation xmi:id="-Rex8oOBv985RruZNrCW0rg" href="uma://-Rex8oOBv985RruZNrCW0rg#-Rex8oOBv985RruZNrCW0rg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_1fu-oNvTEdyrWIQpneun6w" name="arch_mechanism.impl" guid="_1fu-oNvTEdyrWIQpneun6w" variabilityType="contributes" variabilityBasedOnElement="_mzxI0A4LEduibvKwrGxWxA" conceptsAndPapers="_0LcUkA4LEduibvKwrGxWxA"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_etwusJ01EdyQ3oTO93enUw" name="implementation" guid="_etwusJ01EdyQ3oTO93enUw" presentationName="Implementation">
+              <presentation xmi:id="-cev1w72zE7XqPYsSv19prg" href="uma://-cev1w72zE7XqPYsSv19prg#-cev1w72zE7XqPYsSv19prg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_aGqAsJ01EdyQ3oTO93enUw" name="coding_standard" guid="_aGqAsJ01EdyQ3oTO93enUw" presentationName="Coding Standard" briefDescription="A standard describing various coding conventions used for consistent, quality, understandable implementation.">
+              <presentation xmi:id="-xo5gft-2zQGWhxjKcGxSQQ" href="uma://-xo5gft-2zQGWhxjKcGxSQQ#-xo5gft-2zQGWhxjKcGxSQQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_mlKb8JyJEdy9brKHb521mQ" name="mapping_design_to_code" guid="_mlKb8JyJEdy9brKHb521mQ" presentationName="Mapping from Design to Code" briefDescription="This guideline describes some different options for moving from a design to the implementation, and discusses the benefits and drawbacks of these approaches.">
+              <presentation xmi:id="-4HHmcQny_Q08Xj_3Q7Sfig" href="uma://-4HHmcQny_Q08Xj_3Q7Sfig#-4HHmcQny_Q08Xj_3Q7Sfig"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_YNx2sJ05EdyQ3oTO93enUw" name="refactoring" guid="_YNx2sJ05EdyQ3oTO93enUw" presentationName="Refactoring" briefDescription="This guideline describes how to apply the refactoring technique to improve the quality of existing code." conceptsAndPapers="_aGqAsJ01EdyQ3oTO93enUw _Poc7IPDzEdqYgerqi84oCA" checklists="_etwusJ01EdyQ3oTO93enUw">
+              <presentation xmi:id="-i7KKltG_fEgqAjlVlIBGFA" href="uma://-i7KKltG_fEgqAjlVlIBGFA#-i7KKltG_fEgqAjlVlIBGFA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_ADwlAJRtEdyrdaw_xGakyw" name="developer_testing" guid="_ADwlAJRtEdyrdaw_xGakyw" presentationName="Developer Testing" briefDescription="Developers regression test their code on a continuous basis to ensure that it works as expected." guidelines="_ByOd4O6pEduvoopEslG-4g">
+              <presentation xmi:id="-EOoqKeF2SEXao6XhNXBD-w" href="uma://-EOoqKeF2SEXao6XhNXBD-w#-EOoqKeF2SEXao6XhNXBD-w"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_ByOd4O6pEduvoopEslG-4g" name="developer_testing" guid="_ByOd4O6pEduvoopEslG-4g" presentationName="Developer Testing" briefDescription="This guideline describes techniques for getting started with developer testing and characteristics of good developer tests." conceptsAndPapers="_ADwlAJRtEdyrdaw_xGakyw">
+              <presentation xmi:id="-wuu2cNRUPlrBuaO0OdzLFg" href="uma://-wuu2cNRUPlrBuaO0OdzLFg#-wuu2cNRUPlrBuaO0OdzLFg"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_119G4NPSEduegN_z1rVgJA" name="Design Guidance" guid="_119G4NPSEduegN_z1rVgJA">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_w2ACwA4LEduibvKwrGxWxA" name="design_mechanism" guid="_w2ACwA4LEduibvKwrGxWxA" presentationName="Design Mechanism" briefDescription="A Design Mechanism is a concrete representation of an Architectural Mechanism." conceptsAndPapers="_mzxI0A4LEduibvKwrGxWxA _0gvqoMlgEdmt3adZL5Dmdw _0LcUkA4LEduibvKwrGxWxA" guidelines="_4k_Hsg4LEduibvKwrGxWxA">
+              <presentation xmi:id="-EG22TRyJ5TDKW6U88AXfhw" href="uma://-EG22TRyJ5TDKW6U88AXfhw#-EG22TRyJ5TDKW6U88AXfhw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_4k_Hsg4LEduibvKwrGxWxA" name="example_design_mechanisms" guid="_4k_Hsg4LEduibvKwrGxWxA" presentationName="Example: Design Mechanisms" briefDescription="Examples that show how to describe design mechanisms">
+              <presentation xmi:id="-mAo18f36rZ1R98kpZX7HMw" href="uma://-mAo18f36rZ1R98kpZX7HMw#-mAo18f36rZ1R98kpZX7HMw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_herrINvTEdyrWIQpneun6w" name="arch_mechanism.design" guid="_herrINvTEdyrWIQpneun6w" variabilityType="contributes" variabilityBasedOnElement="_mzxI0A4LEduibvKwrGxWxA" conceptsAndPapers="_w2ACwA4LEduibvKwrGxWxA" guidelines="_4k_Hsg4LEduibvKwrGxWxA"/>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_3AcuwMOlEdupeqHTre3HvQ" name="Architecture Guidance" guid="_3AcuwMOlEdupeqHTre3HvQ">
+            <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qjvdgNZ1EdybtZ_nzDhq6w" name="Arch with Visual Modeling" guid="_qjvdgNZ1EdybtZ_nzDhq6w" briefDescription="This content package adds visual modeling content to the base architecture elements.  This package should only be included in a configuration if the visual modeling package is included.">
+              <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_HZGFsKrPEdu6T6WyNqBzqQ" name="component.vm" guid="_HZGFsKrPEdu6T6WyNqBzqQ" variabilityType="contributes" variabilityBasedOnElement="_0YP18MlgEdmt3adZL5Dmdw">
+                <presentation xmi:id="-zfl87vJBFdinDB02ArLXOQ" href="uma://-zfl87vJBFdinDB02ArLXOQ#-zfl87vJBFdinDB02ArLXOQ"/>
+              </contentElements>
+            </childPackages>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="__O7tAMVvEduLYZUGfgZrkQ" name="software_architecture" guid="__O7tAMVvEduLYZUGfgZrkQ" presentationName="Software Architecture" briefDescription="The software architecture represents the structure or structures of the system, which consists of software components, the externally visible properties of those components, and the relationships among them." conceptsAndPapers="_0YJvUMlgEdmt3adZL5Dmdw _kgtcoNc8Edyd7OybSySFxg _O1kAANvfEduv2KOT-Teh6w _jdKSsNpiEdyP58ppo1Ieaw _HlRqANpbEdyP58ppo1Ieaw _mzxI0A4LEduibvKwrGxWxA _HrZGIA4MEduibvKwrGxWxA _0YP18MlgEdmt3adZL5Dmdw _pLEGUNqGEdy88NBoQgfGyg" guidelines="_0gpkAMlgEdmt3adZL5Dmdw _0gjdYMlgEdmt3adZL5Dmdw _vO2uoO0OEduUpsu85bVhiQ">
+              <presentation xmi:id="-UQ_e8kozIP11Xu008RJd-A" href="uma://-UQ_e8kozIP11Xu008RJd-A#-UQ_e8kozIP11Xu008RJd-A"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0YP18MlgEdmt3adZL5Dmdw" name="component" guid="_0YP18MlgEdmt3adZL5Dmdw" presentationName="Component" briefDescription="This concept describes components as they are applied within this process.">
+              <presentation xmi:id="_TZiasMM1EdmSIPI87WLu3g" href="uma://_TZiasMM1EdmSIPI87WLu3g#_TZiasMM1EdmSIPI87WLu3g"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_mzxI0A4LEduibvKwrGxWxA" name="arch_mechanism" guid="_mzxI0A4LEduibvKwrGxWxA" presentationName="Architectural Mechanism" briefDescription="Architectural Mechanisms are common solutions to common problems that can be used during development to minimize complexity." conceptsAndPapers="_0gvqoMlgEdmt3adZL5Dmdw _HrZGIA4MEduibvKwrGxWxA _0YJvUMlgEdmt3adZL5Dmdw" guidelines="_M2lNcJo7Ed2Jdb_Cbj3yAA" examples="_eQ_s8Om5Edupia_tZIXEqg">
+              <presentation xmi:id="-SJrpVySJ2npYs8NwGvnHjw" href="uma://-SJrpVySJ2npYs8NwGvnHjw#-SJrpVySJ2npYs8NwGvnHjw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0gvqoMlgEdmt3adZL5Dmdw" name="analysis_mechanism" guid="_0gvqoMlgEdmt3adZL5Dmdw" presentationName="Analysis Mechanism" briefDescription="An Analysis Mechanism is a conceptual representation of an Architectural Mechanism." conceptsAndPapers="_mzxI0A4LEduibvKwrGxWxA _w2ACwA4LEduibvKwrGxWxA _0LcUkA4LEduibvKwrGxWxA" examples="_eQ_s8Om5Edupia_tZIXEqg">
+              <presentation xmi:id="_S8KCcMP2EdmWKcx6ixEiwg" href="uma://_S8KCcMP2EdmWKcx6ixEiwg#_S8KCcMP2EdmWKcx6ixEiwg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_O1kAANvfEduv2KOT-Teh6w" name="executable_arch" guid="_O1kAANvfEduv2KOT-Teh6w" presentationName="Executable Architecture" briefDescription="An executable architecture is an implementation that realizes a set of validated architecturally significant requirements." conceptsAndPapers="_HrZGIA4MEduibvKwrGxWxA __O7tAMVvEduLYZUGfgZrkQ">
+              <presentation xmi:id="-0R8BZWlcCQ3Rj84jY2M3Kw" href="uma://-0R8BZWlcCQ3Rj84jY2M3Kw#-0R8BZWlcCQ3Rj84jY2M3Kw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_0gjdYMlgEdmt3adZL5Dmdw" name="repres_interfaces_to_ext_systems" guid="_0gjdYMlgEdmt3adZL5Dmdw" presentationName="Representing Interfaces to External Systems" briefDescription="This guideline introduces system level interfaces." conceptsAndPapers="_0YP18MlgEdmt3adZL5Dmdw" guidelines="_uF-QYEAhEdq_UJTvM1DM2Q">
+              <presentation xmi:id="_iCwb8MM3EdmSIPI87WLu3g" href="uma://_iCwb8MM3EdmSIPI87WLu3g#_iCwb8MM3EdmSIPI87WLu3g"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_kgtcoNc8Edyd7OybSySFxg" name="arch_views_viewpoints" guid="_kgtcoNc8Edyd7OybSySFxg" presentationName="Architectural Views and Viewpoints" briefDescription="This concept describes the important concepts of views and viewpoints in the context of architecture." examples="_4bC4cNs_EdyEW4klSH3vRA">
+              <presentation xmi:id="-QB0WnHnpcK1VJbdJJ5QJ5A" href="uma://-QB0WnHnpcK1VJbdJJ5QJ5A#-QB0WnHnpcK1VJbdJJ5QJ5A"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_eQ_s8Om5Edupia_tZIXEqg" name="architectural_mechanism_attributes" guid="_eQ_s8Om5Edupia_tZIXEqg" presentationName="Architectural Mechanism Attributes" briefDescription="This example illustrates how to represent attributes for Architecture Mechanisms.">
+              <presentation xmi:id="-8LfKJab2khAUjdmnImaXPA" href="uma://-8LfKJab2khAUjdmnImaXPA#-8LfKJab2khAUjdmnImaXPA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_HrZGIA4MEduibvKwrGxWxA" name="arch_significant_requirements" guid="_HrZGIA4MEduibvKwrGxWxA" presentationName="Architecturally Significant Requirements" briefDescription="This concept describes what architecturally significant requirements are and why they are important.">
+              <presentation xmi:id="-EytH4BCNGiHF6pZrp8ISCw" href="uma://-EytH4BCNGiHF6pZrp8ISCw#-EytH4BCNGiHF6pZrp8ISCw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_HlRqANpbEdyP58ppo1Ieaw" name="arch_goals" guid="_HlRqANpbEdyP58ppo1Ieaw" presentationName="Architectural Goals" briefDescription="This concept describes what architectural goals are and why they are important.">
+              <presentation xmi:id="-Mm7s8vlK5CaZZ_Msx8reCQ" href="uma://-Mm7s8vlK5CaZZ_Msx8reCQ#-Mm7s8vlK5CaZZ_Msx8reCQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_jdKSsNpiEdyP58ppo1Ieaw" name="arch_constraints" guid="_jdKSsNpiEdyP58ppo1Ieaw" presentationName="Architectural Constraints" briefDescription="This concept describes those things that may constrain the architecture of a system.">
+              <presentation xmi:id="-je0zRqgX0Tg_761Z77cIkg" href="uma://-je0zRqgX0Tg_761Z77cIkg#-je0zRqgX0Tg_761Z77cIkg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_pLEGUNqGEdy88NBoQgfGyg" name="key_abstractions" guid="_pLEGUNqGEdy88NBoQgfGyg" presentationName="Key Abstractions" briefDescription="This concept describes  key abstractions and the role they play in the architecture">
+              <presentation xmi:id="-HJbvivaRmrZ6rdQcdFd78Q" href="uma://-HJbvivaRmrZ6rdQcdFd78Q#-HJbvivaRmrZ6rdQcdFd78Q"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_4bC4cNs_EdyEW4klSH3vRA" name="four_plus_one_view_of_arch" guid="_4bC4cNs_EdyEW4klSH3vRA" presentationName="4+1 Views of Software Architecture" briefDescription="This example describes a possible set of views for describing a software architecture.">
+              <presentation xmi:id="-sKBCb98PYCcliL0zVljcyQ" href="uma://-sKBCb98PYCcliL0zVljcyQ#-sKBCb98PYCcliL0zVljcyQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_M2lNcJo7Ed2Jdb_Cbj3yAA" name="identify_common_architectural_mechanisms" guid="_M2lNcJo7Ed2Jdb_Cbj3yAA" presentationName="Identify Common Architectural Mechanisms" briefDescription="Many architectural mechanisms have common characteristics that can be used to quickly identify mechanisms that are useful in defining the system.">
+              <presentation xmi:id="-oG4WGxO_LjkvjTlqyYrCqA" href="uma://-oG4WGxO_LjkvjTlqyYrCqA#-oG4WGxO_LjkvjTlqyYrCqA"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mMbw8NZzEdybtZ_nzDhq6w" name="Visual Modeling Guidance" guid="_mMbw8NZzEdybtZ_nzDhq6w" briefDescription="This package contains all common guidance related to visual modeling.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0XY6UMlgEdmt3adZL5Dmdw" name="visual_modeling" guid="_0XY6UMlgEdmt3adZL5Dmdw" presentationName="Visual Modeling" briefDescription="This concept introduces what visual modeling is and its benefits.">
+              <presentation xmi:id="_SB1n8MM1EdmSIPI87WLu3g" href="uma://_SB1n8MM1EdmSIPI87WLu3g#_SB1n8MM1EdmSIPI87WLu3g"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_34jWsLcIEduRNaXpzCOLXQ" name="abstract_away_complexity.vm" guid="_34jWsLcIEduRNaXpzCOLXQ" variabilityType="contributes" variabilityBasedOnElement="_we3F4ACpEdu8m4dIntu6jA" guidelines="_0SsecNr8EdyXE6np2_hUMA">
+              <presentation xmi:id="-OcMsciNn-UtD9fTHj26LGA" href="uma://-OcMsciNn-UtD9fTHj26LGA#-OcMsciNn-UtD9fTHj26LGA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_0SsecNr8EdyXE6np2_hUMA" name="using_visual_modeling" guid="_0SsecNr8EdyXE6np2_hUMA" presentationName="Using Visual Modeling" briefDescription="This guideline provides recommendations on how to use visual modeling when building a system." conceptsAndPapers="_0XY6UMlgEdmt3adZL5Dmdw">
+              <presentation xmi:id="-QklqSGB4aD07vUpfubpMJg" href="uma://-QklqSGB4aD07vUpfubpMJg#-QklqSGB4aD07vUpfubpMJg"/>
+            </contentElements>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_we3F4ACpEdu8m4dIntu6jA" name="abstract_away_complexity" guid="_we3F4ACpEdu8m4dIntu6jA" presentationName="Abstract Away Complexity" conceptsAndPapers="_0YJvUMlgEdmt3adZL5Dmdw _0YP18MlgEdmt3adZL5Dmdw" guidelines="_vO2uoO0OEduUpsu85bVhiQ">
+            <presentation xmi:id="-X7QSjItNBz7w8603yBCv0Q" href="uma://-X7QSjItNBz7w8603yBCv0Q#-X7QSjItNBz7w8603yBCv0Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_Z53x0BapEduSTJywppIxVQ" name="business_pattern" guid="_Z53x0BapEduSTJywppIxVQ" presentationName="Business Pattern" briefDescription="A re-usable portion of design that can be applied to multiple domain-specific activities." conceptsAndPapers="_mzxI0A4LEduibvKwrGxWxA _0YJvUMlgEdmt3adZL5Dmdw">
+            <presentation xmi:id="-Of51hmgdsO_U2-pnbJ67Cg" href="uma://-Of51hmgdsO_U2-pnbJ67Cg#-Of51hmgdsO_U2-pnbJ67Cg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0YJvUMlgEdmt3adZL5Dmdw" name="pattern" guid="_0YJvUMlgEdmt3adZL5Dmdw" presentationName="Pattern" briefDescription="A generalized solution that can be implemented and applied in a problem situation (a context) and thereby eliminate one or more of the inherent problems.">
+            <presentation xmi:id="_QvmkAMM1EdmSIPI87WLu3g" href="uma://_QvmkAMM1EdmSIPI87WLu3g#_QvmkAMM1EdmSIPI87WLu3g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_vO2uoO0OEduUpsu85bVhiQ" name="software_reuse" guid="_vO2uoO0OEduUpsu85bVhiQ" presentationName="Software Reuse" briefDescription="This guideline describes how to re-use software and design elements." conceptsAndPapers="_0YJvUMlgEdmt3adZL5Dmdw _Poc7IPDzEdqYgerqi84oCA" guidelines="_0gpkAMlgEdmt3adZL5Dmdw">
+            <presentation xmi:id="-Vp61zQMUoP-Icm5jgDar7A" href="uma://-Vp61zQMUoP-Icm5jgDar7A#-Vp61zQMUoP-Icm5jgDar7A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_uF-QYEAhEdq_UJTvM1DM2Q" name="entity_control_boundary_pattern" guid="_uF-QYEAhEdq_UJTvM1DM2Q" presentationName="Entity-Control-Boundary Pattern" briefDescription="This guideline describes a rapid way to build a design that is robust enough to realize the functional requirements.">
+            <presentation xmi:id="-awaQ_2dwhGyKRoVKQ-esPQ" href="uma://-awaQ_2dwhGyKRoVKQ-esPQ#-awaQ_2dwhGyKRoVKQ-esPQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_Poc7IPDzEdqYgerqi84oCA" name="refactoring" guid="_Poc7IPDzEdqYgerqi84oCA" presentationName="Refactoring" briefDescription="This concept explains ways of improving the design of existing code in a way that does not alter its external behavior.">
+            <presentation xmi:id="-fj_9xjbrpaYNSETyCz5yJg" href="uma://-fj_9xjbrpaYNSETyCz5yJg#-fj_9xjbrpaYNSETyCz5yJg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_0gpkAMlgEdmt3adZL5Dmdw" name="layering" guid="_0gpkAMlgEdmt3adZL5Dmdw" presentationName="Layering" briefDescription="This guideline provides recommendations for partitioning the system into layers.">
+            <presentation xmi:id="_lbGQwMM3EdmSIPI87WLu3g" href="uma://_lbGQwMM3EdmSIPI87WLu3g#_lbGQwMM3EdmSIPI87WLu3g"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Vqf5EMuFEdyuBO4ZIzcyig" name="technical_resources (templates, reports, examples)" guid="_Vqf5EMuFEdyuBO4ZIzcyig" presentationName="Technical Resources (Templates, Reports, Examples)">
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_m7p-AI5fEdyO5aWob1UGDA" name="systemwide_requirements_specification" guid="_m7p-AI5fEdyO5aWob1UGDA" presentationName="System-Wide Requirements Specification" briefDescription="This is the template suggested for specifying requirements and constraints in accordance with the FURPS+ classification.">
+            <presentation xmi:id="-13wK-dfNa9N1G8Ob27m-Og" href="uma://-13wK-dfNa9N1G8Ob27m-Og#-13wK-dfNa9N1G8Ob27m-Og"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_3Y3XUI5fEdyO5aWob1UGDA" name="use_case_specification" guid="_3Y3XUI5fEdyO5aWob1UGDA" presentationName="Use-Case Specification" briefDescription="This is the informal template suggested for representing a use case specification." examples="_JLOiIMNvEdu2IdAIaWZyAw">
+            <presentation xmi:id="-zGnAaKUwKnn2pPANr7E0MQ" href="uma://-zGnAaKUwKnn2pPANr7E0MQ#-zGnAaKUwKnn2pPANr7E0MQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_DtlRQI5gEdyO5aWob1UGDA" name="vision" guid="_DtlRQI5gEdyO5aWob1UGDA" presentationName="Vision" briefDescription="This is the informal template suggested for representing the Vision document.">
+            <presentation xmi:id="-DUD2tbhBn23i6Jm6gcoN9Q" href="uma://-DUD2tbhBn23i6Jm6gcoN9Q#-DUD2tbhBn23i6Jm6gcoN9Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_t4QdAMNqEdu2IdAIaWZyAw" name="uc_model_evolve" guid="_t4QdAMNqEdu2IdAIaWZyAw" presentationName="Evolution of the Use-Case Model" briefDescription="This example illustrates how the use-case model evolves over time when you use a &amp;quot;breadth before depth&amp;quot; approach to maximize value and minimize risk early in the lifecycle and to minimize re-work later." examples="_jiwo4IHGEd6NhZnUM27HMQ _MNZ2kIHHEd6NhZnUM27HMQ _gbL6UIHOEd6NhZnUM27HMQ _nwykAIHQEd6NhZnUM27HMQ _BkKmAIHSEd6NhZnUM27HMQ _7MzegIHVEd6NhZnUM27HMQ">
+            <presentation xmi:id="-JviMIao63C7w9C8W6iPJrw" href="uma://-JviMIao63C7w9C8W6iPJrw#-JviMIao63C7w9C8W6iPJrw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_JLOiIMNvEdu2IdAIaWZyAw" name="use_case_spec" guid="_JLOiIMNvEdu2IdAIaWZyAw" presentationName="Use-Case Specification" briefDescription="An example of a completed use-case specification for the Withdraw Cash use case for an Automated Teller Machine." examples="_t4QdAMNqEdu2IdAIaWZyAw">
+            <presentation xmi:id="-qq-9Brh5oa6H3lsdp-m8mQ" href="uma://-qq-9Brh5oa6H3lsdp-m8mQ#-qq-9Brh5oa6H3lsdp-m8mQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_yZtgQI5gEdyO5aWob1UGDA" name="test_script" guid="_yZtgQI5gEdyO5aWob1UGDA" presentationName="Test Script" briefDescription="This is the informal template suggested for test scripts.">
+            <presentation xmi:id="-PHKmXwkVhDR81vcyAQAkxQ" href="uma://-PHKmXwkVhDR81vcyAQAkxQ#-PHKmXwkVhDR81vcyAQAkxQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_yWaKEI5fEdyO5aWob1UGDA" name="test_case" guid="_yWaKEI5fEdyO5aWob1UGDA" presentationName="Test Case" briefDescription="This is the informal template suggested for representing test cases.">
+            <presentation xmi:id="-JrYzWdOXPOZBIVGWibK1Bw" href="uma://-JrYzWdOXPOZBIVGWibK1Bw#-JrYzWdOXPOZBIVGWibK1Bw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_jiwo4IHGEd6NhZnUM27HMQ" name="uc_deposit_funds_outline" guid="_jiwo4IHGEd6NhZnUM27HMQ" presentationName="Use Case - Deposit Funds Outline" briefDescription="This is an outline of a use case to deposit funds using an Automated Teller Machine.">
+            <presentation xmi:id="-SzcBYJR6jUy4WgOhWVpTjA" href="uma://-SzcBYJR6jUy4WgOhWVpTjA#-SzcBYJR6jUy4WgOhWVpTjA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_MNZ2kIHHEd6NhZnUM27HMQ" name="uc_model_elaboration_phase" guid="_MNZ2kIHHEd6NhZnUM27HMQ" presentationName="Use Case - Model Elaboration Phase" briefDescription="An example of a Use-Case Model as it would appear in Elaboration.">
+            <presentation xmi:id="-4MpXAgL3mj3i4Huqt5gctA" href="uma://-4MpXAgL3mj3i4Huqt5gctA#-4MpXAgL3mj3i4Huqt5gctA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_gbL6UIHOEd6NhZnUM27HMQ" name="uc_model_inception_phase" guid="_gbL6UIHOEd6NhZnUM27HMQ" presentationName="Use Case - Model Inception Phase" briefDescription="An example of a Use-Case Model as it would appear in the Inception.">
+            <presentation xmi:id="-zmbyaoBRHeaLpd8RiE-lDA" href="uma://-zmbyaoBRHeaLpd8RiE-lDA#-zmbyaoBRHeaLpd8RiE-lDA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_nwykAIHQEd6NhZnUM27HMQ" name="uc_transfer_funds_outline" guid="_nwykAIHQEd6NhZnUM27HMQ" presentationName="Use Case - Transfer Funds Outline" briefDescription="This is an outline of a use case to transfer funds using an Automated Teller Machine.">
+            <presentation xmi:id="-iVXniR1KNrwul19oCHSvMQ" href="uma://-iVXniR1KNrwul19oCHSvMQ#-iVXniR1KNrwul19oCHSvMQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_BkKmAIHSEd6NhZnUM27HMQ" name="uc_spec_validate_user" guid="_BkKmAIHSEd6NhZnUM27HMQ" presentationName="Use Case - Specification Validate User" briefDescription="Describes general behavior for the Automated Teller Machine to validate the user.">
+            <presentation xmi:id="-BYG2r_TAmU4OL3BapLIU1A" href="uma://-BYG2r_TAmU4OL3BapLIU1A#-BYG2r_TAmU4OL3BapLIU1A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_7MzegIHVEd6NhZnUM27HMQ" name="uc_withdraw_cash_outline" guid="_7MzegIHVEd6NhZnUM27HMQ" presentationName="Use Case - Withdraw Cash Outline" briefDescription="This is an outline of a use case to withdraw funds using an Automated Teller Machine.">
+            <presentation xmi:id="-xHyqz01D_uL6xXLgQUG7Tw" href="uma://-xHyqz01D_uL6xXLgQUG7Tw#-xHyqz01D_uL6xXLgQUG7Tw"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9S1K_LekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9S1K_LekEd-D7YZN9NgldQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9S1K_bekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9S1K_bekEd-D7YZN9NgldQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9S1K_rekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9S1K_rekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

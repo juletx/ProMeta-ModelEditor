@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-h09djKXIOUJlez8h6UXrWw" name=",_me8WcAANEdyRS9uciXlZ6g" guid="-h09djKXIOUJlez8h6UXrWw" changeDate="2007-05-11T03:20:56.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Attached is a template applicable for describing the architecture for a small, co-located project.&#xD;
+&lt;/p></mainDescription>
+  <attachments>resources/architecture_notebook_tpl.dot</attachments>
+</org.eclipse.epf.uma:GuidanceDescription>

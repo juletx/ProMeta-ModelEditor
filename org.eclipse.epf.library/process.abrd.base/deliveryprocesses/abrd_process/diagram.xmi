@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:org.eclipse.epf.diagram.model="http://www.eclipse.org/epf/diagram/1.0.0/diagram.ecore" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore">
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_Ahvu4MVVEd2pfdXgw7I2qQ">
+    <linkedElement xmi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_2EcLMHqlEd2o_5d3MWaNxQ#_2EcLMXqlEd2o_5d3MWaNxQ"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_Ahvu4cVVEd2pfdXgw7I2qQ" type="ADD" element="_Ahvu4MVVEd2pfdXgw7I2qQ" name="abrd_process" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_Ahvu4sVVEd2pfdXgw7I2qQ"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_Ahvu48VVEd2pfdXgw7I2qQ"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_Ahvu5MVVEd2pfdXgw7I2qQ"/>
+  </notation:Diagram>
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_AmXJJcVVEd2pfdXgw7I2qQ">
+    <linkedElement xmi:type="org.eclipse.epf.uma:Phase" href="uma://_2EcLMHqlEd2o_5d3MWaNxQ#_CryGMHqmEd2o_5d3MWaNxQ"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_AmXJJsVVEd2pfdXgw7I2qQ" type="ADD" element="_AmXJJcVVEd2pfdXgw7I2qQ" name="Harvesting" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_AmXJJ8VVEd2pfdXgw7I2qQ"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_AmXJKMVVEd2pfdXgw7I2qQ"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_AmXJKcVVEd2pfdXgw7I2qQ"/>
+  </notation:Diagram>
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_Aq1ZcMVVEd2pfdXgw7I2qQ">
+    <linkedElement xmi:type="org.eclipse.epf.uma:Phase" href="uma://_2EcLMHqlEd2o_5d3MWaNxQ#_zPFMAXrDEd2o_5d3MWaNxQ"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_Aq1ZccVVEd2pfdXgw7I2qQ" type="ADD" element="_Aq1ZcMVVEd2pfdXgw7I2qQ" name="prototyping" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_Aq1ZcsVVEd2pfdXgw7I2qQ"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_Aq1Zc8VVEd2pfdXgw7I2qQ"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_Aq1ZdMVVEd2pfdXgw7I2qQ"/>
+  </notation:Diagram>
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_AuQg4MVVEd2pfdXgw7I2qQ">
+    <linkedElement xmi:type="org.eclipse.epf.uma:Phase" href="uma://_2EcLMHqlEd2o_5d3MWaNxQ#_o2AhUXtxEd2tkbw8c1Rm7g"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_AuQg4cVVEd2pfdXgw7I2qQ" type="ADD" element="_AuQg4MVVEd2pfdXgw7I2qQ" name="Cycle3- Building" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_AuQg4sVVEd2pfdXgw7I2qQ"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_AuQg48VVEd2pfdXgw7I2qQ"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_AuQg5MVVEd2pfdXgw7I2qQ"/>
+  </notation:Diagram>
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_AvAu0MVVEd2pfdXgw7I2qQ">
+    <linkedElement xmi:type="org.eclipse.epf.uma:Phase" href="uma://_2EcLMHqlEd2o_5d3MWaNxQ#_3pe8sXtxEd2tkbw8c1Rm7g"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_AvAu0cVVEd2pfdXgw7I2qQ" type="ADD" element="_AvAu0MVVEd2pfdXgw7I2qQ" name="Cycle 4- Integrating" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_AvAu0sVVEd2pfdXgw7I2qQ"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_AvAu08VVEd2pfdXgw7I2qQ"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_AvAu1MVVEd2pfdXgw7I2qQ"/>
+  </notation:Diagram>
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_AzVOIMVVEd2pfdXgw7I2qQ">
+    <linkedElement xmi:type="org.eclipse.epf.uma:Phase" href="uma://_2EcLMHqlEd2o_5d3MWaNxQ#_53V7YXtxEd2tkbw8c1Rm7g"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_AzVOIcVVEd2pfdXgw7I2qQ" type="ADD" element="_AzVOIMVVEd2pfdXgw7I2qQ" name="Cycle 5- Enhancing" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_AzVOIsVVEd2pfdXgw7I2qQ"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_AzVOI8VVEd2pfdXgw7I2qQ"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_AzVOJMVVEd2pfdXgw7I2qQ"/>
+  </notation:Diagram>
+</xmi:XMI>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-OW9Mlf5qrIMlT-E_1TEn2A" name="technical_writer,_-zf1teB8EeC1y_NExchKwQ" guid="-OW9Mlf5qrIMlT-E_1TEn2A" changeDate="2011-10-13T07:00:11.197-0600" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Some organizations might engage a Technical Writer to help a development team member review and refine the documentation that&#xD;
+    is produced by the team during a Sprint/Iteration in support of delivered features.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Because they often are skilled at creating and maintaining technical documentation, Technical Writers help to ensure&#xD;
+    consistency and conformance to corporate standards.&#xD;
+&lt;/p></mainDescription>
+  <skills>&lt;p>&#xD;
+    A Technical Writer should possess the following skills:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Excellent technical writing ability&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ability to understand complex technical concepts and to translate them into user-friendly procedures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ability to create concise Help Files that are delivered as part of the application&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ability to obtain technical details from Developers, Testers, and Product Owners and to document those details in a&#xD;
+        way that is easily understood by End Users and support personnel&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ability to adhere to corporate documentation standards. If those standards don't already exist, this role should be&#xD;
+        able to write those standards and communicate them to the development team&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A strong understand of the domain in which the features are being developed&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></skills>
+</org.eclipse.epf.uma:RoleDescription>

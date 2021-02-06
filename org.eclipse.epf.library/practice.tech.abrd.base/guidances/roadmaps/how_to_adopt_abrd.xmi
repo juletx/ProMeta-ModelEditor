@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-6Y-YTrnh2OzIAbHk2eZFiA" name="how_to_adopt_abrd,_lV38AFUdEd2sDeWJVZ0Ifg" guid="-6Y-YTrnh2OzIAbHk2eZFiA" authors="Jerome Boyer" changeDate="2010-08-15T08:44:24.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    The goal of a BRMS is to be able to manage business rule as a standalone artifact, owned by the business user, and
+    maintainable over time into production system. The implementation of a business rule application follows some
+    activities and tasks that are slightly different than traditional software development life cycle. The integration of
+    one or more business analysts as part of the development team is also less traditional. Finally the core value of such
+    technology is to be able to have business user maintaining the business rules in production with a minimum involvement
+    of&amp;nbsp;IT. Technology is one side of the coin, methodology and best practices is the other.
+&lt;/p>
+&lt;p>
+    A project management office can leverage ABRD as is to integrate it as content for their own methodology.
+&lt;/p>
+&lt;p>
+    If the team is new to business rule application, it is best to start with a small rule set and incrementally add rules
+    and best practices over time. The team has to integrate the rule discovery and analysis activities in their own project
+    plan.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    Prototyping is a major value, as it shows to the team concrete execution, and helps to drive issues, and requirements
+    around business rules and even business process.
+&lt;/p>
+&lt;h3>
+    Common Pitfalls&amp;nbsp;
+&lt;/h3>
+&lt;p>
+    The most common pitfalls in implementing business rules application include:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Harvest all the rules in documentation
+    &lt;/li>
+    &lt;li>
+        Forget about the data model
+    &lt;/li>
+    &lt;li>
+        Do not understand&amp;nbsp;where the rules are enforced
+    &lt;/li>
+    &lt;li>
+        Mix data model from the implementation point of view,&amp;nbsp;versus the domain model, understood by the business
+    &lt;/li>
+    &lt;li>
+        Involve IT only: never forget the business, involve business as early as possible, make them taking ownership of
+        the rules.
+    &lt;/li>
+    &lt;li>
+        Outsource&amp;nbsp;business rule implementation: business rules are enterprise assets: the&amp;nbsp;difference between to
+        insurance policy underlying rules make two&amp;nbsp;insurance companies competing and bringing different values.
+    &lt;/li>
+    &lt;li>
+        Forget to test the rules outside of the application
+    &lt;/li>
+    &lt;li>
+        Do not involve business in the rule validation
+    &lt;/li>
+    &lt;li>
+        Badly design a rule set, by not applying standard design pattern as separation of concerns.&lt;br />
+        &lt;br />
+        &amp;nbsp;
+    &lt;/li>
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

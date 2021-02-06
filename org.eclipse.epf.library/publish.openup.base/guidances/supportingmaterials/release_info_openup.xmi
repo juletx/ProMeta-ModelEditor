@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-id3gpeJmU5zSUE12SUm8Ag" name="release_info_openup,_txM2cWr-Ed29vdqsRXf4ag" guid="-id3gpeJmU5zSUE12SUm8Ag" changeDate="2008-08-15T11:29:52.000-0700" version="7.2.0">
+  <mainDescription>&lt;h3>
+    EPF Base
+&lt;/h3>
+&lt;h4>
+    1.5&amp;nbsp;
+&lt;/h4>
+&lt;p>
+    This is the first version of this &quot;publish&quot; plug-in, included as part of the EPF 1.5 practices library.&amp;nbsp; It is
+    derived primarily from OpenUP 1.0 Content.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-fBwPDexzVTCxcEM5H1ljeQ" name="02_01_package_the_release,_DQowcWzvEeCPgecPbK9bdg" guid="-fBwPDexzVTCxcEM5H1ljeQ" changeDate="2012-05-30T14:12:33.929-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    The key activities normally used to package a release:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Assemble the components and integrate them through a normal (i.e., continuous integration) or release build script&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Install the release package in one or more test environments and verify its integrity&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Tag the elements of the release package in the code base to create a baseline&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Package appropriate documentation to accompany the release: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Deployment plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Build plan, procedures, and scripts&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Backout plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Relevant licensing information&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Relevant infrastructure information&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Release communiques&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <sections xmi:id="_IAEdheB-EeC1y_NExchKwQ" name="Assemble components" guid="_IAEdheB-EeC1y_NExchKwQ">
+    <sectionDescription>Question all the developers on the development team to determine which components are ready for packaging. Only package&#xD;
+those components that were completed and accepted during the previous feature development sprint/iterations. Components&#xD;
+that were not finished or not accepted should not be bundled, unless the customer has granted an exception or they are&#xD;
+infrastructure-related components.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAEdguB-EeC1y_NExchKwQ" name="Test the release" guid="_IAEdguB-EeC1y_NExchKwQ">
+    <sectionDescription>After the components have been packaged and built, that executable should be installed and run in a test environment that&#xD;
+mimics the production environment. A &quot;staging&quot; environment usually is maintained for this purpose. Testing typically&#xD;
+includes a &quot;smoke test&quot; in which key features are exercised to highlight any unplanned behavior.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAEdhOB-EeC1y_NExchKwQ" name="Tag source code repository" guid="_IAEdhOB-EeC1y_NExchKwQ">
+    <sectionDescription>In the team's configuration management (CM) tool, tag all the components that went into the release package so that the&#xD;
+package can be reconstructed at a later date, if needed. This tag is known as the release &quot;baseline.&quot;</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAEdg-B-EeC1y_NExchKwQ" name="Package release documentation" guid="_IAEdg-B-EeC1y_NExchKwQ">
+    <sectionDescription>Gather all the product, user, and support documentation developed earlier in the production release sprint/iteration and&#xD;
+add it to the release package.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAEdgeB-EeC1y_NExchKwQ" name="Deliver release package" guid="_IAEdgeB-EeC1y_NExchKwQ">
+    <sectionDescription>When the entire release package, including documentation, is ready, deliver it to the deployment manager and the release&#xD;
+team in a timely manner. Be prepared to answer questions from the deployment engineer, especially questions about&#xD;
+conformity to release controls.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to render a complete, deployable package capable of being released into the production&#xD;
+environment by the deployment engineer.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

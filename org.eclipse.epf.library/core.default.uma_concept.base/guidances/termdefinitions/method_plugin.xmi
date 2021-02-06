@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-q0ixH8duU7qb8agEywAFHQ" name="new_term_definition,_D4TLgMaGEduMlb2cQZNTYw" guid="-q0ixH8duU7qb8agEywAFHQ" changeDate="2008-03-10T00:04:54.000-0700" version="7.2.0">
+  <mainDescription>Represents a physical container for &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/method_element_A8EA8685.html&quot;&#xD;
+guid=&quot;_4svVUO7bEdyYoPJ0YfnNbQ&quot;>method element&lt;/a>s.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

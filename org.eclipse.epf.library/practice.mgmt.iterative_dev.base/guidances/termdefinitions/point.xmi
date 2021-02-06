@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-oShmMITo9RIi1AzACWI9vw" name="new_term_definition,_MvOuAEvGEdunZcj9T5hrMQ" guid="-oShmMITo9RIi1AzACWI9vw" changeDate="2006-09-24T10:59:48.000-0700" version="7.2.0">
+  <mainDescription>A relative measure of size that is typically used for Agile estimation.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-DKbcEDMwu7S4GWFkH-TTkg" name="how_to_adopt_production_release,_IADPYeB-EeC1y_NExchKwQ" guid="-DKbcEDMwu7S4GWFkH-TTkg" changeDate="2011-10-13T06:52:57.041-0700" version="7.2.0">
+  <mainDescription>&lt;h3>&#xD;
+    Getting started with this practice&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    The goal of the Production Release practice is to transform the business value developed in Feature Development&#xD;
+    Sprint/Iterations into a finished product that can be released into production along with other products as part of a&#xD;
+    coordinated Release.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If a development team has never practiced Production Release before, the best way to think of this special type of&#xD;
+    Sprint/Iteration is to consider a past project in which your team spent a week of 16-hour days doing all the things&#xD;
+    necessary to prepare for a deployment based on an arbitrary release date. Then realize that you do not have to operate&#xD;
+    like that any more, and that a Production Release Sprint/Iteration is your opportunity to calmly deal with all the&#xD;
+    preparatory activities that accompany a well-managed, coordinated release while other development team members are&#xD;
+    doing the same. In short, the Production Release practice represents the way you always wished you could prepare for a&#xD;
+    release but did not have the opportunity.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Common pitfalls&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Because production release provides a development team the opportunity to &quot;fine tune&quot; a product and tighten up&#xD;
+    problematic areas of the code, it is good practice not to squander that Sprint/Iteration.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>A Release Sprint/Iteration is not a time to rest:&lt;/strong> Some development team members think that when&#xD;
+        they get to Production Release they can relax and not work too hard. However, when practicing the Agile value of&#xD;
+        Sustainable Pace, teams should &lt;em>not need to&lt;/em> rest, and team members should maintain the tempo that they&#xD;
+        established during previous Feature Development Sprint/Iterations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Testing is not more important than documentation and training:&lt;/strong> While the various types of testing&#xD;
+        that are conducted in a Release Sprint/Iteration (integration, system, UAT) are important, documentation and&#xD;
+        training are just as important because how well end users can actually use the product to do their work is critical&#xD;
+        to a successful delivery.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Successful hardening is more important than squeezing in marginally tested features:&lt;/strong> Do not think&#xD;
+        that more features delivered is necessarily better. While there is always a temptation to deliver more&#xD;
+        functionality in a Release, resist that desire and deliver only features that are mature and have been well tested&#xD;
+        and integrated.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-EF5eqKSqgTApRj_uXeG39w" name="new_term_definition,_GL2vkKNeEdyMFYhoCpD11Q" guid="-EF5eqKSqgTApRj_uXeG39w" version="7.2.0">
+  <mainDescription>Describes the roles that will be executing a task.&amp;nbsp; There are two types of performs roles, a single primary performer&#xD;
+responsible for the completion of the tasks and additional performers.&amp;nbsp; There may be any number of additional&#xD;
+performers and both are considered as allocated resources for the purposed of project scheduling.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

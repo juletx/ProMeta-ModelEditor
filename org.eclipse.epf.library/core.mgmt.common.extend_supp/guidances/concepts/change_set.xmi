@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-QpMXBM5_A8w0pRyIT5n5yA" name="change_set,_1QU9MAIoEdyLh7vsrHZ4YA" guid="-QpMXBM5_A8w0pRyIT5n5yA" changeDate="2007-05-31T04:18:27.000-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    A change set is a logical grouping of related changes made to the implementation and supporting artifacts. Change sets&#xD;
+    are defined for a specific purpose and encompass all changes made to achieve that purpose.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Change sets allow for multiple related changes to be referred to as single item, simplifying tracking of&amp;nbsp;that&#xD;
+    item's progress through the development lifecycle.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The change set forms the basic unit of configuration control, accountability, and collaboration on the development&#xD;
+    team.&amp;nbsp; Additionally, change sets track the dependencies between artifact changes that facilitate discovery and&#xD;
+    correction of configuration inconsistencies. The relationship between items in a change set can be used to verify that&#xD;
+    all related changes have been included in a build.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Change sets have the following characteristics:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Change sets consist of changes that belong together and can be built and tested together.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Change sets are owned by a single developer.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Change sets represent small, testable changes to the system.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    Multiple change sets&amp;nbsp;may be&amp;nbsp;related to&amp;nbsp;a single work item.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Change sets are also known as CM tasks, activity change sets, change lists or change packages.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

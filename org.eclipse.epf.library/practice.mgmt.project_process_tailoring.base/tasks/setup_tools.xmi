@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-5i4nbMLokgXzl8E2LT94uQ" name=",_okIOcEmfEd-UYMQAaXd4fQ" guid="-5i4nbMLokgXzl8E2LT94uQ" changeDate="2010-04-16T02:33:16.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    Many software-development tools support teams of people, with several users working with information stored in a shared
+    repository. Each user uses the tool on their personal computer (client) and the shared repository is stored on a
+    central server.&amp;nbsp;In this case the tool must be installed on the server and on the clients. Customizing the tool is
+    done both on the server and on the client.&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/p>
+&lt;p>
+    There are tools that do not use a shared repository, such as compilers, debuggers, editors, graphic tools, etc. These
+    tools can simply be installed on the users' computers. It may still be needed to customize the tools so that all
+    members of the project use the tool in the same way.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    The approach should be to automate as much as possible of the installation and customization procedures.
+&lt;/p></mainDescription>
+  <sections xmi:id="_ZUv10NnnEdmO6L4XMImrsA" name=" Install the Tool on the Server " guid="_ZUv10NnnEdmO6L4XMImrsA">
+    <sectionDescription>&lt;a id=&quot;Install the Tool on the Server&quot; name=&quot;Install the Tool on the Server&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Identify what other software is required for the specific tool to work, and install this software.&amp;nbsp;For example, a&#xD;
+    tool may require a database management system (DBMS) be installed first.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When you have installed the support software, you can install the tool on the server.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ZUv10dnnEdmO6L4XMImrsA" name=" Customize the Tool" guid="_ZUv10dnnEdmO6L4XMImrsA">
+    <sectionDescription>&lt;a id=&quot;Customize the Tool (on the Server)&quot; name=&quot;Customize the Tool (on the Server)&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Decide how to customize the tool so that it supports the&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.base/workproducts/project_defined_process_8BF5845B.html&quot;&#xD;
+    guid=&quot;_2CEzsLrREd-0rKmWr1vEGQ&quot;>Project Defined Process&lt;/a>&amp;nbsp;in the best way.&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In addition to customizing the tools, you should set up user groups and access rights on the server.&amp;nbsp; In some&#xD;
+    cases, a tool may provide its own mechanisms for this.&amp;nbsp; In other cases, user groups and access rights are defined&#xD;
+    using the operating system.&amp;nbsp; The configuration of user groups and access rights affects how the tools can be used.&#xD;
+    For example, you can set constraints on what parts of a repository certain users will have access to.&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Document the customizations in project-specific guidelines.&amp;nbsp;&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ZUv109nnEdmO6L4XMImrsA" name=" Integrate with Other Tools " guid="_ZUv109nnEdmO6L4XMImrsA">
+    <sectionDescription>&lt;a id=&quot;Integrate With Other Tools&quot; name=&quot;Integrate With Other Tools&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Integrate the tool with other tools to make it easier to use. An integration between tools is in most cases in the form&#xD;
+    of an extension to one or several tools. An 'integration extension' to a tool typically:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Synchronize data between the different tools. It automates the creation and maintenance of related items in&#xD;
+        development projects&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Automatically adds traceability between related items in different tools.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Allow the user to add traceability between items in different tools.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Allow the user to navigate between tools. For example, access an item in a test tool from a requirements management&#xD;
+        tool.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Allow the user to run certain functionality from one tool. For example, the possibility to create items in another&#xD;
+        tool.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Allow the user to version a tool's items in a configuration management tool.&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Most tools offer ready-to-use extensions to integrate tools with each other.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Describe how the tools are integrated with each other in the project-specific guidelines.&amp;nbsp;&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ZUv11NnnEdmO6L4XMImrsA" name=" Install and Customize Tools on Clients " guid="_ZUv11NnnEdmO6L4XMImrsA">
+    <sectionDescription>&lt;a id=&quot;Install Tools on Clients&quot; name=&quot;Install Tools on Clients&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Install the tool on each client. The least that is needed to do when installing a tool on the client side, is to set up&#xD;
+    the connection to the repository on the server.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Customize the tool on the clients, just as you customized the tool on the server:&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        In some cases you do not have to do anything with the client. For example, if the client is a web-interface it is&#xD;
+        enough that the clients get the address to the application on the server. Some tools allow you to do all&#xD;
+        customization on the server side. When the users access the repository on the server, they automatically get the&#xD;
+        correct settings.&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        In other cases you customize the tool on the client by installing software that customizes the tool, or installing&#xD;
+        files with customization information.&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    It may be necessary to install 'integration software' on the client. Place the 'integration software' on a server and&#xD;
+    allow the users to download and install it on their computers.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If it possible you should automate the tool installation, and the tool customization for the users. The benefit of&#xD;
+    creating installation programs is that it allows you to set up the tools so that the clients get all the right&#xD;
+    settings, extensions, and connections to the repository.&amp;nbsp; You create installation (and customization) programs,&#xD;
+    and place them on a server. Then the users download these programs and run them to install and customize the tool in&#xD;
+    their computer.&amp;nbsp;&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;Top&quot; name=&quot;Top&quot;>&lt;/a> 
+&lt;p>
+    The purpose of this task is to:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Install the tools
+    &lt;/li>
+    &lt;li>
+        Customize the tools.
+    &lt;/li>
+    &lt;li>
+        Make the tools available to the end users.&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    &lt;/li>
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

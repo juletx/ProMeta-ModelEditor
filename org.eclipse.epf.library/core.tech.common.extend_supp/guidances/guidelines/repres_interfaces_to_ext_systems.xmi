@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_iCwb8MM3EdmSIPI87WLu3g" name="repres_interfaces_to_ext_systems,_0gjdYMlgEdmt3adZL5Dmdw" guid="_iCwb8MM3EdmSIPI87WLu3g" changeDate="2008-08-06T06:07:25.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    Interfaces with external systems should be consistently handled throughout the system. The architecture need not&#xD;
+    include a specific, detailed design for each system interface. It is often enough to simply identify the existence of&#xD;
+    the interface as a significant part of the architecture and create a &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/component_CB167D48.html&quot;&#xD;
+    guid=&quot;_0YP18MlgEdmt3adZL5Dmdw&quot;>Component&lt;/a>&amp;nbsp;to encapsulate the detail, so that it can be developed later.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/guidelines/entity_control_boundary_pattern_C4047897.html&quot;&#xD;
+    guid=&quot;_uF-QYEAhEdq_UJTvM1DM2Q&quot;>Entity-Control-Boundary Pattern&lt;/a>&amp;nbsp;provides the basis for a useful technique to&#xD;
+    support this.&amp;nbsp;Specifically, if the system communicates with another system, define one or more components to&#xD;
+    describe the communication protocol.&amp;nbsp; The use of a component allows the interface to the external system to be&#xD;
+    defined and stabilized, while leaving the design details of the system interface hidden as the system evolves.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

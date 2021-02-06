@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-XLYCsIJzpy8ugr9-QCpfkQ" name="rule_governance,_VVvNQFWVEdylmNmr0Opybg" guid="-XLYCsIJzpy8ugr9-QCpfkQ" changeDate="2007-08-28T11:34:42.000-0700" version="7.5.1">
+  <mainDescription>&lt;a id=&quot;XE_rule_governance&quot; name=&quot;XE_rule_governance&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Governance is about operating the business well, and includes being able to demonstrate that you do what you say you
+    do, and being able to explain why you do what you do the way that you are doing it.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Rule Governance is covering the processes to manage rule using a BRMS.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

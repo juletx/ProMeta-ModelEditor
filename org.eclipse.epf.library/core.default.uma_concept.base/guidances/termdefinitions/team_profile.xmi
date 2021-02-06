@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-0cxbeJahkc1eqGKztRpcPw" name="new_term_definition,_rZOGIMaIEduMlb2cQZNTYw" guid="-0cxbeJahkc1eqGKztRpcPw" changeDate="2007-02-27T09:34:15.000-0800" version="7.2.0">
+  <mainDescription>A&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/breakdown_element_E6E32412.html&quot;&#xD;
+guid=&quot;_cvdpEB_LEdq6CKKKq4D7YA&quot;>breakdown element&lt;/a> that groups role descriptors or composite roles, thus defining a&#xD;
+nested hierarchy of teams and team members.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-Uq-ecMy01nzV6sLsXMJ1ow" name="Inception Phase,_-UFkUVThEd2ZeY-22kx0mw" guid="-Uq-ecMy01nzV6sLsXMJ1ow">
+    <mainDescription>For more on this phase, see &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/inception_phase_C4456871.html&quot;&#xD;
+guid=&quot;_0hmKgBOMEduCNqgZdt_OaA&quot;>Inception Phase&lt;/a>.</mainDescription>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-2OtVEeOzetzCgwp0Rgr4Yw" name="Elaboration Phase,_2_nRIVThEd2ZeY-22kx0mw" guid="-2OtVEeOzetzCgwp0Rgr4Yw">
+    <mainDescription>For more on this phase, see &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html&quot;&#xD;
+guid=&quot;_2plxwBOMEduCNqgZdt_OaA&quot;>Elaboration Phase&lt;/a>.</mainDescription>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-6PEqL-4C0ngDnSot7_JayA" name="Construction Phase,__r658VThEd2ZeY-22kx0mw" guid="-6PEqL-4C0ngDnSot7_JayA">
+    <mainDescription>For more on this phase, see &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/construction_phase_873B6559.html&quot;&#xD;
+guid=&quot;_48EKsBOMEduCNqgZdt_OaA&quot;>Construction Phase&lt;/a>.</mainDescription>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-qs6M0AwWCTfjqB3am3SE9A" name="Transition Phase,_BBN48VTiEd2ZeY-22kx0mw" guid="-qs6M0AwWCTfjqB3am3SE9A">
+    <mainDescription>For more on this phase, see &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/transition_phase_DD5986E5.html&quot;&#xD;
+guid=&quot;__ca5UBOMEduCNqgZdt_OaA&quot;>Transition Phase&lt;/a>.</mainDescription>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-1IlTGK1mPdoxAMwuAjqLYg" name="ris_value_lifecycle_phases,_FzchseL7EdyM47cGD2jiaQ" guid="-1IlTGK1mPdoxAMwuAjqLYg" version="7.2.0">
+    <mainDescription>&lt;p>&#xD;
+    This capability pattern illustrates an iterative process with the organization of iterations distributed throughout&#xD;
+    four phases: &lt;a class=&quot;elementLinkwithUserText&quot;&#xD;
+    href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/inception_phase_C4456871.html&quot;&#xD;
+    guid=&quot;_0hmKgBOMEduCNqgZdt_OaA&quot;>Inception&lt;/a>, &lt;a class=&quot;elementLinkwithUserText&quot;&#xD;
+    href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html&quot;&#xD;
+    guid=&quot;_2plxwBOMEduCNqgZdt_OaA&quot;>Elaboration&lt;/a>, &lt;a class=&quot;elementLinkwithUserText&quot;&#xD;
+    href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/construction_phase_873B6559.html&quot;&#xD;
+    guid=&quot;_48EKsBOMEduCNqgZdt_OaA&quot;>Construction&lt;/a>, and &lt;a class=&quot;elementLinkwithUserText&quot;&#xD;
+    href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/transition_phase_DD5986E5.html&quot;&#xD;
+    guid=&quot;__ca5UBOMEduCNqgZdt_OaA&quot;>Transition&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each phase contains one or more iterations.&amp;nbsp;After the last iteration of a phase is performed, there is a milestone&#xD;
+    that provides the questions that check whether the objectives of that phase were met or not, thereby giving&#xD;
+    stakeholders and management the opportunity to make business decisions about whether the project should continue to the&#xD;
+    next phase or not.&#xD;
+&lt;/p></mainDescription>
+    <usageNotes>&lt;p>&#xD;
+    This capability pattern is a template that can be used&amp;nbsp;to assemble an end-to-end delivery process,&amp;nbsp;which&#xD;
+    includes specific activities and tasks&amp;nbsp;to be performed in each&amp;nbsp;iteration.&#xD;
+&lt;/p></usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+</xmi:XMI>

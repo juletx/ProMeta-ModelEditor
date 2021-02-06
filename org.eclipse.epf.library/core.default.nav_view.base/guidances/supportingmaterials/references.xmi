@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-0aLpkB-z90mAiTJ2xDxrgg" name="new_supporting_material,__nHToFndEd2EdJKkAyeBng" guid="-0aLpkB-z90mAiTJ2xDxrgg" changeDate="2008-07-24T05:11:45.000-0700" version="7.5.0">
+  <mainDescription>&lt;h3>&#xD;
+    General&lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/h3>&#xD;
+&lt;table width=&quot;100%&quot; summary=&quot;layout table&quot; border=&quot;0&quot;>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;12%&quot;>&#xD;
+                &lt;a>SPEM08&lt;/a>&#xD;
+            &lt;/td>&#xD;
+            &lt;td colspan=&quot;2&quot;>&#xD;
+                Software Process Engineering Meta-Model, Version 2.0y, Object Management Group, 2008.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+&lt;/table>&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

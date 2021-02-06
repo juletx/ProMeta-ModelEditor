@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_yYy-mtnmEdmO6L4XMImrsA" name="tool_mentor,_yYy-mdnmEdmO6L4XMImrsA" guid="_yYy-mtnmEdmO6L4XMImrsA" changeDate="2008-08-06T03:28:56.000-0700" version="7.2.0">
+  <mainDescription>A tool mentor is a type of &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/guidance_549AC394.html&quot;&#xD;
+guid=&quot;_83ttAB_NEdq6CKKKq4D7YA&quot;>guidance&lt;/a>&amp;nbsp;that explains how to apply a specific tool to accomplish a &lt;a&#xD;
+class=&quot;elementLink&quot; href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/task_6C1FF051.html&quot;&#xD;
+guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;>task&lt;/a>, perform&amp;nbsp;a set of&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/step_EB040824.html&quot;&#xD;
+guid=&quot;_BqZloB_eEdqAHrsQ7-jSbw&quot;>step&lt;/a>s or instantiate a particular &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/work_product_826E4C22.html&quot;&#xD;
+guid=&quot;_H4JXwB_SEdq6CKKKq4D7YA&quot;>work product&lt;/a>.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

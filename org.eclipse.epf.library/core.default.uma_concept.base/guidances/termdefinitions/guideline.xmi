@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-EEF1Y386HZ1XRsyHmGLE3g" name="new_term_definition,_uK8HMMaFEduMlb2cQZNTYw" guid="-EEF1Y386HZ1XRsyHmGLE3g" changeDate="2008-07-31T01:27:36.000-0700" version="7.2.0">
+  <mainDescription>A specialized type of&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/guidance_549AC394.html&quot;&#xD;
+guid=&quot;_83ttAB_NEdq6CKKKq4D7YA&quot;>guidance&lt;/a>&amp;nbsp;that provides additional detail on how to handle a particular &lt;a&#xD;
+class=&quot;elementLink&quot; href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/method_element_A8EA8685.html&quot;&#xD;
+guid=&quot;_4svVUO7bEdyYoPJ0YfnNbQ&quot;>method element&lt;/a>. Guidelines most commonly describe how to perform some set of actions&#xD;
+related to&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/task_6C1FF051.html&quot;&#xD;
+guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;>tasks&lt;/a> or provide additional rules or recommendations related to the representation of &lt;a&#xD;
+class=&quot;elementLinkWithUserText&quot;&#xD;
+href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/work_product_826E4C22.html&quot;&#xD;
+guid=&quot;_H4JXwB_SEdq6CKKKq4D7YA&quot;>work products&lt;/a>.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

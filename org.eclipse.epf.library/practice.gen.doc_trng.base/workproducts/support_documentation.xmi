@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="--5bZB7Fly_OXGWALfR7CCA" name="support_documentation,_OjlLIEVtEeC6_c5S_pc9RA" guid="--5bZB7Fly_OXGWALfR7CCA" changeDate="2012-10-17T08:26:01.407-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Support documentation usually is developed for the three common tiers of a support organization. Tier 1 typically is&#xD;
+    the Help Desk where users call when they have a problem with a particular system. Tier 1 support personnel normally&#xD;
+    answer basic questions and, if necessary, log a ticket and escalate it to the appropriate Level 2 support desk.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Tier 2 support personnel may deal with more complex questions or issues regarding an application and might need to do&#xD;
+    some research on the characteristics of the system to provide an answer. If that person cannot resolve the issue, the&#xD;
+    ticket is escalated to Tier 3 support personnel who have a deeper understanding of the application's code and the&#xD;
+    technology that supports the system's architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To properly convey the necessary information to each support tier, the application's code base should be well commented&#xD;
+    and logically organized. This approach will facilitate the development of the support documentation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Support documentation typically includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        User manuals with work instructions, process descriptions, and procedures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Communications, training, and knowledge transfer deliverables&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Support and operations manuals&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service information, including Help Desk scripts&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <purpose>The purpose of this work product is to convey to the different levels of a support organization (Tiers 1, 2, and 3) enough&#xD;
+information so they can effectively support the application.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

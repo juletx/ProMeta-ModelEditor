@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-PPEUOk6Gija0ckrWlDdCxA" name="02_02_execute_deployment_plan,_FCK_gWzvEeCPgecPbK9bdg" guid="-PPEUOk6Gija0ckrWlDdCxA" changeDate="2012-05-30T14:11:35.736-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    This task is straightforward: follow the procedures in the Deployment Plan for the rollout of a specific product&#xD;
+    release. If the deployment plan does not exist or it is poorly constructed, this task might be much more difficult.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The main point here is that to achieve a high probability of success, the development team should have previously&#xD;
+    developed a detailed plan that organizes and articulates all the unique instructions for deploying that particular&#xD;
+    release. Because an experienced deployment engineer normally executes this task, they might be able to overcome any&#xD;
+    missing deployment procedures or content. However, that is not an excuse for a development team to not develop the&#xD;
+    plan's contents.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_IAD2deB-EeC1y_NExchKwQ" name="Review deployment plan" guid="_IAD2deB-EeC1y_NExchKwQ">
+    <sectionDescription>Review the contents of the deployment plan to ensure that the production environment has all the dependent components&#xD;
+installed and that the system is in the correct state. Also ensure that the release window is ready to be achieved.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAD2duB-EeC1y_NExchKwQ" name="Release code" guid="_IAD2duB-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    When the preliminary review has been completed and the release window has started, deploy the release package into&#xD;
+    production. Depending on the release script and the size of the package, this installation might take anywhere from a&#xD;
+    few minutes to a few hours.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Monitor the release as the release script is run. Be prepared to terminate the script and back out the release if&#xD;
+    significant errors are encountered.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to ensure that the rollout is based on clear, validated, repeatable instructions and to reduce&#xD;
+the risk of a deployment issue.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

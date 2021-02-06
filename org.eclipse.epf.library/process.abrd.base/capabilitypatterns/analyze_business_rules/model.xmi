@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__Y770bekEd-D7YZN9NgldQ" guid="__Y770bekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__Y770rekEd-D7YZN9NgldQ" id="-D3NR4UjCNAA8tz8ik9KxuA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_DwUHgVmSEeCcpdiAcH0w-w" id="-N_CKAaJNHSW61yq8ZoC2jg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_DwUHglmSEeCcpdiAcH0w-w" id="-tcywvwJFy76naDhkV-kE1g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_DwUHg1mSEeCcpdiAcH0w-w" id="-WdZgViZU-KFgjnSALDjXiw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_DwUHhFmSEeCcpdiAcH0w-w" id="-Uesh6anvRV-n8YiCvPAkIg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_Dwd4gFmSEeCcpdiAcH0w-w" id="-KQ7Tq2GDC0gGvnqUTC7HpA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_Dwd4gVmSEeCcpdiAcH0w-w" id="-Lwx7QOcZjNCEknbhZVYHpA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_Dwd4glmSEeCcpdiAcH0w-w" id="-ZXqKURahjzSp8B1-MBY6Hw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_qx-1wH9WEd26h9j0X6pKmw" name="analyze_business_rules" guid="_qx-1wH9WEd26h9j0X6pKmw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_tlXjYH9WEd26h9j0X6pKmw" name="extract_rule_meaning" guid="_tlXjYH9WEd26h9j0X6pKmw" presentationName="Extract Rule Meaning" briefDescription="Extract the semantic of the rule to prepare for a data model and to remove any ambiguity and redundancy." superActivities="_qx-1wX9WEd26h9j0X6pKmw" isSynchronizedWithSource="false" mandatoryInput="_tlzoQn9WEd26h9j0X6pKmw" output="_tlzoQ39WEd26h9j0X6pKmw _tlzoRH9WEd26h9j0X6pKmw">
+      <presentation xmi:id="-N_CKAaJNHSW61yq8ZoC2jg" href="uma://-D3NR4UjCNAA8tz8ik9KxuA#-N_CKAaJNHSW61yq8ZoC2jg"/>
+      <concepts href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_gPfSoIpzEd2gksNyFVJN4g"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_8_mWgH3GEd2sJcA0evSBQw"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_o19QgF2BEd2T6cNSe41mOg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_tlzoQn9WEd26h9j0X6pKmw" name="rule_description_doc" guid="_tlzoQn9WEd26h9j0X6pKmw" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_qx-1wX9WEd26h9j0X6pKmw">
+      <presentation xmi:id="-tcywvwJFy76naDhkV-kE1g" href="uma://-D3NR4UjCNAA8tz8ik9KxuA#-tcywvwJFy76naDhkV-kE1g"/>
+      <examples href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_j4-ukDS3EdyTBtGu8YeFfg"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_srklxAjqEdyj5bYZ0eCR5g"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_srklxQjqEdyj5bYZ0eCR5g"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW2gjqEdyj5bYZ0eCR5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_tlzoQ39WEd26h9j0X6pKmw" name="fact_model" guid="_tlzoQ39WEd26h9j0X6pKmw" presentationName="Fact Model" isPlanned="false" superActivities="_qx-1wX9WEd26h9j0X6pKmw">
+      <presentation xmi:id="-WdZgViZU-KFgjnSALDjXiw" href="uma://-D3NR4UjCNAA8tz8ik9KxuA#-WdZgViZU-KFgjnSALDjXiw"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_csL3wHrMEd2o_5d3MWaNxQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_tlzoRH9WEd26h9j0X6pKmw" name="logical_data_model" guid="_tlzoRH9WEd26h9j0X6pKmw" presentationName="Logical Data Model" briefDescription="Logical Data Model represents the organization business-domain concepts in a set of diagram and logical schema. The choice of representation will depend of the design approach and the target audience. It could be relational (Table - columns, association), object oriented  (class - attribute association) or XML (tags) defined." isPlanned="false" superActivities="_qx-1wX9WEd26h9j0X6pKmw">
+      <presentation xmi:id="-Uesh6anvRV-n8YiCvPAkIg" href="uma://-D3NR4UjCNAA8tz8ik9KxuA#-Uesh6anvRV-n8YiCvPAkIg"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW2AjqEdyj5bYZ0eCR5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_t32agH9WEd26h9j0X6pKmw" name="transform_rules" guid="_t32agH9WEd26h9j0X6pKmw" presentationName="Transform Rules" briefDescription="Transform the rule to avoid ambiguity and make them more atomic" superActivities="_qx-1wX9WEd26h9j0X6pKmw" linkToPredecessor="_vBEFUH9WEd26h9j0X6pKmw" isSynchronizedWithSource="false" mandatoryInput="_tlzoQ39WEd26h9j0X6pKmw _tlzoRH9WEd26h9j0X6pKmw _tlzoQn9WEd26h9j0X6pKmw" output="_tlzoQ39WEd26h9j0X6pKmw _tlzoRH9WEd26h9j0X6pKmw _tlzoQn9WEd26h9j0X6pKmw">
+      <presentation xmi:id="-KQ7Tq2GDC0gGvnqUTC7HpA" href="uma://-D3NR4UjCNAA8tz8ik9KxuA#-KQ7Tq2GDC0gGvnqUTC7HpA"/>
+      <examples href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_K6-3kDmnEdy8N6BRpa8ByQ"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_x_5XgH9iEd26h9j0X6pKmw"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_8mZw8DmhEdy8N6BRpa8ByQ"/>
+      <selectedSteps href="uma://-kaG_G7QLbZmoHMO8_47GiQ#_7HEPsDmiEdy8N6BRpa8ByQ"/>
+      <selectedSteps href="uma://-kaG_G7QLbZmoHMO8_47GiQ#_tFwpYDmoEdy8N6BRpa8ByQ"/>
+      <selectedSteps href="uma://-kaG_G7QLbZmoHMO8_47GiQ#_vMBLQDmoEdy8N6BRpa8ByQ"/>
+      <selectedSteps href="uma://-kaG_G7QLbZmoHMO8_47GiQ#_LmcIADmqEdy8N6BRpa8ByQ"/>
+      <selectedSteps href="uma://-kaG_G7QLbZmoHMO8_47GiQ#_w3cyUDmoEdy8N6BRpa8ByQ"/>
+      <selectedSteps href="uma://-kaG_G7QLbZmoHMO8_47GiQ#_0-T6ADmoEdy8N6BRpa8ByQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_vBEFUH9WEd26h9j0X6pKmw" guid="_vBEFUH9WEd26h9j0X6pKmw" pred="_tlXjYH9WEd26h9j0X6pKmw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_uMueUH9WEd26h9j0X6pKmw" name="build_test_scenario" guid="_uMueUH9WEd26h9j0X6pKmw" presentationName="Build Test Scenarios" briefDescription="Work with analysis team to define concrete scenario with real data so that we can later on test the process and the rules." superActivities="_qx-1wX9WEd26h9j0X6pKmw" linkToPredecessor="_vWrwAH9WEd26h9j0X6pKmw" isSynchronizedWithSource="false">
+      <presentation xmi:id="-Lwx7QOcZjNCEknbhZVYHpA" href="uma://-D3NR4UjCNAA8tz8ik9KxuA#-Lwx7QOcZjNCEknbhZVYHpA"/>
+      <guidelines href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_5s_DUJ03EdyQ3oTO93enUw"/>
+      <supportingMaterials href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_vLvAUGjFEd2PJ-nlV-86WA"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_1dlWkH3GEd2sJcA0evSBQw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_vWrwAH9WEd26h9j0X6pKmw" guid="_vWrwAH9WEd26h9j0X6pKmw" pred="_t32agH9WEd26h9j0X6pKmw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ueoGoH9WEd26h9j0X6pKmw" name="synchronize_data_model" guid="_ueoGoH9WEd26h9j0X6pKmw" presentationName="Synchronize Data Models" briefDescription="Ensure the terms and entities used in the rule march element in the different date models used by the IT components" superActivities="_qx-1wX9WEd26h9j0X6pKmw" linkToPredecessor="_vobnUH9WEd26h9j0X6pKmw" isSynchronizedWithSource="false" mandatoryInput="_tlzoQ39WEd26h9j0X6pKmw _tlzoRH9WEd26h9j0X6pKmw _tlzoQn9WEd26h9j0X6pKmw" output="_tlzoRH9WEd26h9j0X6pKmw _tlzoQn9WEd26h9j0X6pKmw">
+      <presentation xmi:id="-ZXqKURahjzSp8B1-MBY6Hw" href="uma://-D3NR4UjCNAA8tz8ik9KxuA#-ZXqKURahjzSp8B1-MBY6Hw"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_prtzIDmiEdy8N6BRpa8ByQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_vobnUH9WEd26h9j0X6pKmw" guid="_vobnUH9WEd26h9j0X6pKmw" pred="_uMueUH9WEd26h9j0X6pKmw"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_qx-1wX9WEd26h9j0X6pKmw" name="analyze_business_rules" guid="_qx-1wX9WEd26h9j0X6pKmw" presentationName="Analyze Business Rules" breakdownElements="_tlXjYH9WEd26h9j0X6pKmw _tlzoQn9WEd26h9j0X6pKmw _tlzoQ39WEd26h9j0X6pKmw _tlzoRH9WEd26h9j0X6pKmw _t32agH9WEd26h9j0X6pKmw _uMueUH9WEd26h9j0X6pKmw _ueoGoH9WEd26h9j0X6pKmw">
+      <presentation xmi:id="-D3NR4UjCNAA8tz8ik9KxuA" href="uma://-D3NR4UjCNAA8tz8ik9KxuA#-D3NR4UjCNAA8tz8ik9KxuA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

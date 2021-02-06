@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-UW-yTFk3AppqcGGU-Px63A" name=",_znlIcJR9EdyVKbgqUOtqQA" guid="-UW-yTFk3AppqcGGU-Px63A" changeDate="2010-09-15T12:44:18.858-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Developer testing is different from other forms of testing in that it is based on the expected behavior of code units&#xD;
+    rather than being directly based on the system requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is best to do this at a small scale, much smaller than the complete code base to be authored by a developer over the&#xD;
+    course of an iteration. This can be done for one operation, one field added to a user interface, one stored procedure,&#xD;
+    etc. As the code base is incrementally built, new tests will be authored and existing tests might be revisited to test&#xD;
+    additional behavior.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Automate tests via a unit regression testing tool (for example, xUnit) so that tests may be run by developers&#xD;
+        whenever they make changes to the code.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test to the risk of the implementation element. For example, the more critical an element is, the more important it&#xD;
+        is to test it thoroughly.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Pair with&amp;nbsp;team members with testing skills&amp;nbsp;in all steps of this task to gain insight on testing and&#xD;
+        quality considerations.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;[Project Work] is implicitly used in implementation tasks to manage which requirements or change requests are&#xD;
+    being realized in the code.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_C_j_EJR-EdyVKbgqUOtqQA" name="Refine scope and identify the test(s)" guid="_C_j_EJR-EdyVKbgqUOtqQA">
+    <sectionDescription>&lt;p>&#xD;
+    Select the increment of work to be tested and identify developer test(s)&amp;nbsp;to verify that the software&#xD;
+    implementation&amp;nbsp;being developed behaves correctly. One source for the expected behavior for an implementation&#xD;
+    element is the software design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In identifying the&amp;nbsp;tests or in any other part of this task, consider collaborating with a team member who is&#xD;
+    well-versed in the issues of testing.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Es64wJR-EdyVKbgqUOtqQA" name="Write the test setup" guid="_Es64wJR-EdyVKbgqUOtqQA">
+    <sectionDescription>To successfully run a test the system must be in a known state so that the correct behavior can be defined. Implement the&#xD;
+setup logic that must be performed as part of the developer test.</sectionDescription>
+  </sections>
+  <sections xmi:id="_Fm4moJR-EdyVKbgqUOtqQA" name="Define the expected results" guid="_Fm4moJR-EdyVKbgqUOtqQA">
+    <sectionDescription>&lt;p>&#xD;
+    Define the expected results of each test so that it can be verified.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    After a test runs, you need to be able to compare the results of running the test against what was expected to happen.&#xD;
+    The test is successful when the actual results match the expected results.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_GZaPwJR-EdyVKbgqUOtqQA" name="Write the test logic" guid="_GZaPwJR-EdyVKbgqUOtqQA">
+    <sectionDescription>Write the steps that perform the actual test(s).</sectionDescription>
+  </sections>
+  <sections xmi:id="_IMxq0JR-EdyVKbgqUOtqQA" name="Define the test response" guid="_IMxq0JR-EdyVKbgqUOtqQA">
+    <sectionDescription>Define the information the test(s) must produce to successfully indicate success or failure. Consider if a response of True&#xD;
+or False is sufficient, or if a detailed message should be logged as well.</sectionDescription>
+  </sections>
+  <sections xmi:id="_JAiqEJR-EdyVKbgqUOtqQA" name="Write clean-up code" guid="_JAiqEJR-EdyVKbgqUOtqQA">
+    <sectionDescription>Identify, and then implement, the steps to be followed in order to restore the environment to the original state for each&#xD;
+test. The goal is to ensure that there are no side effects from running the tests.</sectionDescription>
+  </sections>
+  <sections xmi:id="_KkDrQJR-EdyVKbgqUOtqQA" name="Test the test" guid="_KkDrQJR-EdyVKbgqUOtqQA">
+    <sectionDescription>&lt;p>&#xD;
+    Verify that each developer test works correctly. To do this:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Run the test(s), observe their behavior, and fix any defects in the tests.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure that the expected results are defined properly and that they're being checked correctly.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Check the clean-up logic for each test.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure that each developer test works within your test suite framework.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>Prepare to validate an implementation element (e.g. an operation, a class, a stored procedure) through unit testing. The&#xD;
+result is one or more new developer tests.</purpose>
+  <alternatives>Rely on acceptance tests to validate your software. This will likely be time consuming, late, and not as effective as&#xD;
+developer testing in identifying bugs and finding their location in the code.</alternatives>
+</org.eclipse.epf.uma:TaskDescription>

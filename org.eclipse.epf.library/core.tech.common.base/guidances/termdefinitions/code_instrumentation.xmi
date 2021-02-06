@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-xIKYtygbLRgQBa97lxIYxw" name="new_term_definition,_lzAWkK9eEdyltJ0KgEd9WQ" guid="-xIKYtygbLRgQBa97lxIYxw" changeDate="2007-12-20T04:49:57.000-0800" version="7.2.0">
+  <mainDescription>&amp;nbsp;&quot;Extra&quot; statements added to source code for the purposes of testing, debugging, tuning,&amp;nbsp;or tracing.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

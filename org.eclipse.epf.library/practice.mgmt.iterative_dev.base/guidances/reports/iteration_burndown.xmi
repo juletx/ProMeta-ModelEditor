@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Aw8p59vJ9rWsOV82rljQiQ" name="iteration_burndown,_uAzgkDg3Edu4E8ZdmlYjtA" guid="-Aw8p59vJ9rWsOV82rljQiQ" changeDate="2006-11-03T07:59:14.000-0800" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    The iteration burndown report is the primary tool for understanding the status of the current iteration. It shows the&#xD;
+    trend for how much work is left to do within the iteration. This is accomplished by adding the estimated effort left&#xD;
+    for each of the work items to be addressed within the iteration, and showing how the estimated effort is changing over&#xD;
+    the duration of the iteration. The iteration backlog should be updated frequently, preferably daily.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    These factors affect the team's assessment of how much work remains:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Work that has been completed, which means there is less work remaining&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The developer responsible for a work item changes the assessment of effort required to complete the work item. This&#xD;
+        should be expected, because you typically understand what it really takes to complete a task after you have done a&#xD;
+        subset of the task. It is common for estimates of the work remaining to increase in the beginning of the iteration,&#xD;
+        especially for inexperienced teams, because they often underestimate efforts. Expect estimates to continue changing&#xD;
+        as teams become more experienced, but the modifications are upward as often as downward.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Daily or frequent updates of the iteration burndown report allow the team to react to changes. For example, changes can&#xD;
+    include cutting the project scope by removing work items from the iteration, reducing the ambition level associated&#xD;
+    with a work item, or finding better ways of approaching work items (such as having an expert team member help with&#xD;
+    difficult work items).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.iterative_dev.base/guidances/examples/iteration_burndown_report_example_1AE62791.html&quot;&#xD;
+    guid=&quot;_GtGisDcGEdyTZ9G7ByfQTw&quot;>Iteration Burndown Report&lt;/a> for an example of an iteration burndown report.&lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

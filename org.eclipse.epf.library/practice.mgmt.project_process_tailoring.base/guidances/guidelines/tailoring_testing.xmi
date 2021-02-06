@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-wDLe1SkoZ7BGW0tvvvQihA" name="new_guideline,_L8DLoJUKEd-PZJVxpTSp1g" guid="-wDLe1SkoZ7BGW0tvvvQihA" changeDate="2010-07-21T01:59:39.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    The choice of testing tools is often affected by the architecture, including the technology choices made by the
+    project, and the software that the system needs to interface with.&amp;nbsp; In some cases you may build custom tools.
+&lt;/p>
+&lt;p>
+    You will want tool support&amp;nbsp;for the following:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        test management
+    &lt;/li>
+    &lt;li>
+        test automation
+    &lt;/li>
+    &lt;li>
+        simulation of external interfaces
+    &lt;/li>
+    &lt;li>
+        simulation of different test environments
+    &lt;/li>
+    &lt;li>
+        performance testing
+    &lt;/li>
+    &lt;li>
+        load testing
+    &lt;/li>
+    &lt;li>
+        vulnerability testing
+    &lt;/li>
+    &lt;li>
+        static and dynamic analysis
+    &lt;/li>
+    &lt;li>
+        manual testing
+    &lt;/li>
+&lt;/ul>&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-QrGjlBTXK2wqmPY-mb5SWg" name="organise_rule_discovery_workshop_guideline,_hEXR4B5lEdu4VsjUNUYdXw" guid="-QrGjlBTXK2wqmPY-mb5SWg" authors="Jerome Boyer" changeDate="2008-09-04T04:41:35.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_organise_rule_discovery_workshop__guideline&quot; name=&quot;XE_organise_rule_discovery_workshop__guideline&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 2pt 0cm 0pt; tab-stops: list 18.0pt&quot;>
+    &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>To organize the workshop the project manager has
+    to set&amp;nbsp;a strict agenda inviting all the domain experts who will help to formalize the rules. Gather the needed
+    documents and explain how the meeting will be managed.&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 2pt 0cm 0pt; tab-stops: list 18.0pt&quot;>
+    &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>Specify in the agenda:&lt;/span>
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>
+        &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>Which decision point under scope&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>
+        &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>Which documents to use&lt;/span> 
+        &lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;circle&quot;>
+            &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 72.0pt; mso-list: l0 level2 lfo1&quot;>
+                &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>Which rule template to use&lt;/span>
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 72.0pt; mso-list: l0 level2 lfo1&quot;>
+                &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>Glossary of term document&lt;/span>
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 72.0pt; mso-list: l0 level2 lfo1&quot;>
+                &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>Business process map or use case
+                documents&lt;/span>
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 72.0pt; mso-list: l0 level2 lfo1&quot;>
+                &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>Business entities diagram or logical
+                data model&lt;/span>
+            &lt;/li>
+        &lt;/ul>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>
+        &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>The meeting room and the schedule&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>
+        &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>The name of the moderator&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1&quot;>
+        &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>The high level rules to follow during the
+        meeting like:&lt;/span> 
+        &lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;circle&quot;>
+            &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 72.0pt; mso-list: l0 level2 lfo1&quot;>
+                &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>Be on time: you will have one joker
+                for one time late. A fee of 5$ will be taken after that for a conclusion party&lt;/span>
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 72.0pt; mso-list: l0 level2 lfo1&quot;>
+                &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>On each session all the members
+                should participate&lt;/span>
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 72.0pt; mso-list: l0 level2 lfo1&quot;>
+                &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>We will use brainstorming
+                techniques&lt;/span>
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 72.0pt; mso-list: l0 level2 lfo1&quot;>
+                &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>The moderator is controlling the
+                time&lt;/span>
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 72.0pt; mso-list: l0 level2 lfo1&quot;>
+                &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>Everyone can have his own
+                opinion&lt;/span>
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: list 72.0pt; mso-list: l0 level2 lfo1&quot;>
+                &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>No criticism&lt;/span>
+            &lt;/li>
+        &lt;/ul>
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    &lt;span style=&quot;mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt&quot;>The session should be between 09.00hr - 11.00hr,
+    no more than 2hrs. This can be schedule for 2 to 5 consecutive days or more.&lt;/span>
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

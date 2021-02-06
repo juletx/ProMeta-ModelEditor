@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-aN0zy068ovKHgmkkoYqoYQ" name=",_zGqO0MDpEduTGJ8i4u8TMw" guid="-aN0zy068ovKHgmkkoYqoYQ" changeDate="2009-08-07T01:39:22.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    To fully understand the system's purpose, you must know who the system is for, that is: Who will use the system? The&#xD;
+    answer to this question is: the Actors.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An Actor is a role that a person or external system plays&amp;nbsp;when interacting with the system.&amp;nbsp; Instances of an&#xD;
+    Actor can be an individual or an external system, however each Actor&amp;nbsp;provides a&#xD;
+    unique&amp;nbsp;and&amp;nbsp;important&amp;nbsp;perspective on the system that is shared by every instance of the Actor.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This difference between an actor and an instance of an actor is illustrated below.&amp;nbsp;&amp;nbsp;Figure 1 shows a case in&#xD;
+    which Ivar and Mark are operators of a recycling machine. When they are using the machine in this capacity, each is&#xD;
+    represented by an instance of the actor called Operator that expects certain functionality of the system (Print Daily&#xD;
+    Reports in this example).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/md_acto2.gif&quot; width=&quot;396&quot; height=&quot;322&quot; />&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p>&#xD;
+        &lt;strong>Figure 1:&amp;nbsp;Example Actor with multiple instances&lt;/strong>&amp;nbsp;&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;p>&#xD;
+    Conversely, the same user can act as several actors (that is, the same person can take on different roles). In Figure&#xD;
+    2, Charlie uses the Depot-Handling System primarily as Depot Manager, but sometimes he also uses the Depot-Handling&#xD;
+    System as an ordinary Depot Staff member. Each of these actors expects different functionality of the system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/md_acto3.gif&quot; width=&quot;367&quot; height=&quot;139&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p>&#xD;
+        &lt;strong>Figure 2: Example of user playing different roles&lt;/strong>&lt;br />&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;p>&#xD;
+    Actors help you to identify external interfaces and to determine the scope the system (what is in the system, vs. what&#xD;
+    is outside the system boundary).&amp;nbsp; Each&amp;nbsp;Actor typically has associated use cases which describe what that&#xD;
+    particular&amp;nbsp;actor expects of the system.&amp;nbsp; It will be very difficult, if not impossible,&amp;nbsp;to assess the&#xD;
+    completeness of the set of Use Cases without the context provided by the associated Actors. Furthermore, missing an&#xD;
+    actor may result in&amp;nbsp;missing important stakeholder perspectives, resulting&amp;nbsp;in a solution that does not meet&#xD;
+    all&amp;nbsp;stakeholder needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Hence, identifying the Actors for the system&amp;nbsp;should be done early in the lifecycle.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

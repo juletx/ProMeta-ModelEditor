@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9UnTr7ekEd-D7YZN9NgldQ" guid="_9UnTr7ekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="_-7lRcLekEd-D7YZN9NgldQ" id="-WeT7CrjLCAbaJKlpVk3O8w" uri="guidances/supportingmaterials/release_info_iterative_dev.xmi"/>
+    <resourceDescriptors xmi:id="_-7vCcLekEd-D7YZN9NgldQ" id="-Aw8p59vJ9rWsOV82rljQiQ" uri="guidances/reports/iteration_burndown.xmi"/>
+    <resourceDescriptors xmi:id="_-7vCcbekEd-D7YZN9NgldQ" id="_Z_bUIMM2EdmSIPI87WLu3g" uri="guidances/templates/iteration_plan.xmi"/>
+    <resourceDescriptors xmi:id="_-7vCcrekEd-D7YZN9NgldQ" id="-FNbGVhn2P45T1cT9RvMiGQ" uri="guidances/examples/iteration_burndown_report_example.xmi"/>
+    <resourceDescriptors xmi:id="_-74MYLekEd-D7YZN9NgldQ" id="-nDr0XNiUWBo6VS1YS6KAqA" uri="guidances/examples/iteration_plan.xmi"/>
+    <resourceDescriptors xmi:id="_-74MYbekEd-D7YZN9NgldQ" id="-5xHoLfZa5sXxhjnW81VZbQ" uri="guidances/toolmentors/use_method_composer_to_update_process.xmi"/>
+    <resourceDescriptors xmi:id="_-74MYrekEd-D7YZN9NgldQ" id="-Yvy3AKQTjSqBPNxsWkizkQ" uri="guidances/practices/iterative_development.xmi"/>
+    <resourceDescriptors xmi:id="_-8B9YLekEd-D7YZN9NgldQ" id="-5xbLr54QjpynnPU8ZJ3_fw" uri="guidances/concepts/iteration_lifecycle.xmi"/>
+    <resourceDescriptors xmi:id="_-8B9YbekEd-D7YZN9NgldQ" id="-vysTxqikgsqd3pYIkSofjg" uri="guidances/concepts/micro_increments.xmi"/>
+    <resourceDescriptors xmi:id="_-8B9YrekEd-D7YZN9NgldQ" id="-ENSD2TqUsFcf3Sf-oeozUA" uri="guidances/concepts/retrospective.xmi"/>
+    <resourceDescriptors xmi:id="_-8LuYLekEd-D7YZN9NgldQ" id="-z4NERMW6W4_X_5DuTTXv6A" uri="guidances/checklists/iteration_plan.xmi"/>
+    <resourceDescriptors xmi:id="_-8LuYbekEd-D7YZN9NgldQ" id="-i-UeSpBxKd6YtGLz_NW8GQ" uri="guidances/guidelines/conduct_retrospective.xmi"/>
+    <resourceDescriptors xmi:id="_-8U4ULekEd-D7YZN9NgldQ" id="-Cn1EflOAHbfuEjRZeLMyzA" uri="guidances/guidelines/iteration_assessment.xmi"/>
+    <resourceDescriptors xmi:id="_-8U4UbekEd-D7YZN9NgldQ" id="-b0rH1AkPSmj1YKyweFWSuQ" uri="guidances/guidelines/prioritizing_work_items.xmi"/>
+    <resourceDescriptors xmi:id="_-8U4UrekEd-D7YZN9NgldQ" id="_a3uz4LBYEdm7Eph_l9Cn9w" uri="tasks/assess_results.xmi"/>
+    <resourceDescriptors xmi:id="_-8epULekEd-D7YZN9NgldQ" id="-PbfqVxB_j9KN-Jx39_pEUA" uri="tasks/manage_iteration.xmi"/>
+    <resourceDescriptors xmi:id="_-8epUbekEd-D7YZN9NgldQ" id="_Wk7noKe1EdmGSrcKGOYDGg" uri="tasks/plan_iteration.xmi"/>
+    <resourceDescriptors xmi:id="_-8oaULekEd-D7YZN9NgldQ" id="_71hDkMPgEdmbOvqy4O0adg" uri="guidances/guidelines/iteration_planning.xmi"/>
+    <resourceDescriptors xmi:id="_-9q8ILekEd-D7YZN9NgldQ" id="-3G3HV0opAmFWGxYgsD5AhA" uri="guidances/termdefinitions/iteration_burndown.xmi"/>
+    <resourceDescriptors xmi:id="_--HoELekEd-D7YZN9NgldQ" id="-mgWkuUy3q0zzFaxE7DY1ag" uri="guidances/termdefinitions/velocity.xmi"/>
+    <resourceDescriptors xmi:id="_--HoEbekEd-D7YZN9NgldQ" id="-1Oc9t_TLaBgW_YLugZcq7w" uri="guidances/termdefinitions/work_item.xmi"/>
+    <resourceDescriptors xmi:id="_--QyALekEd-D7YZN9NgldQ" id="-oShmMITo9RIi1AzACWI9vw" uri="guidances/termdefinitions/point.xmi"/>
+    <resourceDescriptors xmi:id="_--QyAbekEd-D7YZN9NgldQ" id="-_G0VvVOdMoajk615LwFtxg" uri="guidances/termdefinitions/iteration.xmi"/>
+    <resourceDescriptors xmi:id="_--QyArekEd-D7YZN9NgldQ" id="-G1Oxlk6F0R09vClqy1EzOw" uri="guidances/guidelines/managing_work_items.xmi"/>
+    <resourceDescriptors xmi:id="_--QyA7ekEd-D7YZN9NgldQ" id="-hWKKNia-vOmQZTZWO24u5w" uri="guidances/roadmaps/how_to_adopt.xmi"/>
+    <resourceDescriptors xmi:id="_--ajALekEd-D7YZN9NgldQ" id="_BcBR8KX5EdmvhNXG0Oc2uA" uri="workproducts/iteration_plan.xmi"/>
+    <resourceDescriptors xmi:id="_--ajAbekEd-D7YZN9NgldQ" id="-i0ekME-sXjZ7YmeJwZzW_A" uri="workproducts/work_items_list.contributes.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_qqyzAJ6WEdyQN-zRFaRrCQ" name="practice.mgmt.iterative_dev.base" guid="_qqyzAJ6WEdyQN-zRFaRrCQ" presentationName="Iterative Development" briefDescription="Create a solution in increments.  Each increment is completed in a fixed period of time, an &quot;iteration&quot;." changeDate="2008-02-22T06:31:42.000-0800">
+    <methodElementProperty xmi:id="_-gnMw7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnToLekEd-D7YZN9NgldQ" name="Content" guid="_9UnToLekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTobekEd-D7YZN9NgldQ" name="Categories" guid="_9UnTobekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTorekEd-D7YZN9NgldQ" name="Domains" guid="_9UnTorekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTo7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9UnTo7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTpLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9UnTpLekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTpbekEd-D7YZN9NgldQ" name="WP Types" guid="_9UnTpbekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTprekEd-D7YZN9NgldQ" name="Tools" guid="_9UnTprekEd-D7YZN9NgldQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_tYzlcOFSEdyhmsbt0Xyl8A" name="method_composer_tool.assign" guid="_tYzlcOFSEdyhmsbt0Xyl8A" variabilityType="contributes" toolMentors="_pJJuIOFSEdyhmsbt0Xyl8A">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_fRdVEMYbEdyXeo04os5BOw#_mHQIMMYbEdyXeo04os5BOw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTp7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9UnTp7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTqLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9UnTqLekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTqbekEd-D7YZN9NgldQ" name="Hidden" guid="_9UnTqbekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9UnTqrekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9UnTqrekEd-D7YZN9NgldQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTq7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9UnTq7ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BwrisJ9WEdy3Nc4rvuj7bA" name="iterative_development" guid="_BwrisJ9WEdy3Nc4rvuj7bA" presentationName="Iterative Development">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jRZ5EMOBEdy3nv0ZK8D4GQ" name="Release Info" guid="_jRZ5EMOBEdy3nv0ZK8D4GQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_TFhnsMN-Edy3nv0ZK8D4GQ" name="release_info_iterative_dev" guid="_TFhnsMN-Edy3nv0ZK8D4GQ" presentationName="Practice: Iterative Development" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+              <presentation xmi:id="-WeT7CrjLCAbaJKlpVk3O8w" href="uma://-WeT7CrjLCAbaJKlpVk3O8w#-WeT7CrjLCAbaJKlpVk3O8w"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_dLzj4MhPEdygFZkm1d5NtQ" name="Templates, Reports, and Examples" guid="_dLzj4MhPEdygFZkm1d5NtQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Report" xmi:id="_uAzgkDg3Edu4E8ZdmlYjtA" name="iteration_burndown" guid="_uAzgkDg3Edu4E8ZdmlYjtA" presentationName="Iteration Burndown" briefDescription="The iteration burndown shows the trend for how much work is left to do within that iteration.">
+              <presentation xmi:id="-Aw8p59vJ9rWsOV82rljQiQ" href="uma://-Aw8p59vJ9rWsOV82rljQiQ#-Aw8p59vJ9rWsOV82rljQiQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_0dBoQMlgEdmt3adZL5Dmdw" name="iteration_plan" guid="_0dBoQMlgEdmt3adZL5Dmdw" presentationName="Iteration Plan" briefDescription="This is a template for an iteration plan.">
+              <presentation xmi:id="_Z_bUIMM2EdmSIPI87WLu3g" href="uma://_Z_bUIMM2EdmSIPI87WLu3g#_Z_bUIMM2EdmSIPI87WLu3g"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_GtGisDcGEdyTZ9G7ByfQTw" name="iteration_burndown_report_example" guid="_GtGisDcGEdyTZ9G7ByfQTw" presentationName="Iteration Burndown Report" briefDescription="This is an example of an iteration burndown report.">
+              <presentation xmi:id="-FNbGVhn2P45T1cT9RvMiGQ" href="uma://-FNbGVhn2P45T1cT9RvMiGQ#-FNbGVhn2P45T1cT9RvMiGQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_TuNhIEE4EdulKujnGUuxbg" name="iteration_plan" guid="_TuNhIEE4EdulKujnGUuxbg" presentationName="Iteration Plan" briefDescription="This is an example of an iteration plan for iteration 5 for a small team. In this example, the team has chosen not to list work items in the iteration plan. Instead, the team will search the work items list for work items assigned to iteration 5. This is the preferred solution when work items are managed in a tool that provides basic search capabilities.">
+              <presentation xmi:id="-nDr0XNiUWBo6VS1YS6KAqA" href="uma://-nDr0XNiUWBo6VS1YS6KAqA#-nDr0XNiUWBo6VS1YS6KAqA"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gfuaMOFSEdyhmsbt0Xyl8A" name="Method Composer Tool Mentors" guid="_gfuaMOFSEdyhmsbt0Xyl8A">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_pJJuIOFSEdyhmsbt0Xyl8A" name="use_method_composer_to_update_process" guid="_pJJuIOFSEdyhmsbt0Xyl8A" presentationName="Use Method Composer to Update the Process" briefDescription="This tool mentor provides guidance on how to update your process using Method Composer tool.">
+              <presentation xmi:id="-5xHoLfZa5sXxhjnW81VZbQ" href="uma://-5xHoLfZa5sXxhjnW81VZbQ#-5xHoLfZa5sXxhjnW81VZbQ"/>
+              <supportingMaterials href="uma://_fRdVEMYbEdyXeo04os5BOw#_omneEMX4EduywMSzPTUUwA"/>
+            </contentElements>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_LR_g4J9WEdy3Nc4rvuj7bA" name="iterative_development" guid="_LR_g4J9WEdy3Nc4rvuj7bA" presentationName="Iterative Development" briefDescription="Create a solution in increments. Each increment is completed in a fixed period of time, an iteration.">
+            <presentation xmi:id="-Yvy3AKQTjSqBPNxsWkizkQ" href="uma://-Yvy3AKQTjSqBPNxsWkizkQ#-Yvy3AKQTjSqBPNxsWkizkQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_bpWt8OMPEdyM47cGD2jiaQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0l53cMlgEdmt3adZL5Dmdw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_8S2aICbYEdqh1LYUOGRh2A"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0keUEMlgEdmt3adZL5Dmdw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="#_0aQBEslgEdmt3adZL5Dmdw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_DI_tICNaEdyCq8v2ZO4QcA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_S80VwCNbEdyCq8v2ZO4QcA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_2PfbIA4QEdy2q5zsU8WDnA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_CGHskBEdEdqY7JB6N6CW2w"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#__yQQ4L6REdqti4GwqTkbsQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_277QEA4gEdy63f1yVoPyfA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_FekBAC4IEdyhZrtGEIITGQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_0auiMMlgEdmt3adZL5Dmdw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_VNxL4ACsEdu8m4dIntu6jA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_7vEXEMA4EdqSgKaj2SZBmg"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_oVMZADSoEdy07ZJqOGUGaQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Report" href="#_uAzgkDg3Edu4E8ZdmlYjtA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_DI_tICNaEdyCq8v2ZO4QcA" name="iteration_lifecycle" guid="_DI_tICNaEdyCq8v2ZO4QcA" presentationName="Iteration Lifecycle" briefDescription="The iteration lifecycle provides a set of team-based practices describing how to leverage iterations to focus the team on delivering incremental value to stakeholders in a predictable manner.">
+            <presentation xmi:id="-5xbLr54QjpynnPU8ZJ3_fw" href="uma://-5xbLr54QjpynnPU8ZJ3_fw#-5xbLr54QjpynnPU8ZJ3_fw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_S80VwCNbEdyCq8v2ZO4QcA" name="micro_increments" guid="_S80VwCNbEdyCq8v2ZO4QcA" presentationName="Micro-Increments" briefDescription="A micro-increment is a small, measurable step towards reaching the goals of an iteration. A micro-increment represents the outcome of a few hours to a few days of work performed by one person (or typically a few people collaborating) to reach a goal.">
+            <presentation xmi:id="-vysTxqikgsqd3pYIkSofjg" href="uma://-vysTxqikgsqd3pYIkSofjg#-vysTxqikgsqd3pYIkSofjg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_2PfbIA4QEdy2q5zsU8WDnA" name="retrospective" guid="_2PfbIA4QEdy2q5zsU8WDnA" presentationName="Retrospective" briefDescription="Retrospectives provide a way for monitoring the health of a project and helping the team learn from lessons.">
+            <presentation xmi:id="-ENSD2TqUsFcf3Sf-oeozUA" href="uma://-ENSD2TqUsFcf3Sf-oeozUA#-ENSD2TqUsFcf3Sf-oeozUA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_OHRDMAarEdy1uLAzgK8btg" name="iteration_plan" guid="_OHRDMAarEdy1uLAzgK8btg" presentationName="Iteration Plan" briefDescription="This checklist provides questions to verify that iteration plans are created in a consistent manner.">
+            <presentation xmi:id="-z4NERMW6W4_X_5DuTTXv6A" href="uma://-z4NERMW6W4_X_5DuTTXv6A#-z4NERMW6W4_X_5DuTTXv6A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_277QEA4gEdy63f1yVoPyfA" name="conduct_retrospective" guid="_277QEA4gEdy63f1yVoPyfA" presentationName="Conduct Project Retrospective" briefDescription="This guideline covers how to conduct a project retrospective, step by step.">
+            <presentation xmi:id="-i-UeSpBxKd6YtGLz_NW8GQ" href="uma://-i-UeSpBxKd6YtGLz_NW8GQ#-i-UeSpBxKd6YtGLz_NW8GQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_FekBAC4IEdyhZrtGEIITGQ" name="iteration_assessment" guid="_FekBAC4IEdyhZrtGEIITGQ" presentationName="Iteration Assessment" briefDescription="This guideline describes how to review the iteration results with the stakeholders. Iteration assessments provide an observation point for project progress at the end of every iteration. Based on collected feedback the team can adapt and build better software. A decision can be made to put it into production, if it provides enough business value.">
+            <presentation xmi:id="-Cn1EflOAHbfuEjRZeLMyzA" href="uma://-Cn1EflOAHbfuEjRZeLMyzA#-Cn1EflOAHbfuEjRZeLMyzA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_oVMZADSoEdy07ZJqOGUGaQ" name="prioritizing_work_items" guid="_oVMZADSoEdy07ZJqOGUGaQ" presentationName="Prioritizing Work Items" briefDescription="This guidelines describes work items prioritization throughout the project lifecycle.">
+            <presentation xmi:id="-b0rH1AkPSmj1YKyweFWSuQ" href="uma://-b0rH1AkPSmj1YKyweFWSuQ#-b0rH1AkPSmj1YKyweFWSuQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0l53cMlgEdmt3adZL5Dmdw" name="assess_results" guid="_0l53cMlgEdmt3adZL5Dmdw" presentationName="Assess Results" briefDescription="Determine success or failure of the iteration. Apply the lessons learned to modify the project or improve the process." conceptsAndPapers="_2PfbIA4QEdy2q5zsU8WDnA" toolMentors="_pJJuIOFSEdyhmsbt0Xyl8A">
+            <presentation xmi:id="_a3uz4LBYEdm7Eph_l9Cn9w" href="uma://_a3uz4LBYEdm7Eph_l9Cn9w#_a3uz4LBYEdm7Eph_l9Cn9w"/>
+            <guidelines href="#_277QEA4gEdy63f1yVoPyfA"/>
+            <guidelines href="#_FekBAC4IEdyhZrtGEIITGQ"/>
+            <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_yYlQoC3xEdycYKq0PulnEQ"/>
+            <mandatoryInput href="#_0aQBEslgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+            <output href="#_0aQBEslgEdmt3adZL5Dmdw"/>
+            <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+            <optionalInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+            <optionalInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_fahB0EfUEdyiPI8btkmvmw"/>
+            <optionalInput href="uma://_vJYucEfUEdyiPI8btkmvmw#_RJMUcNpUEdyzZqGyZ7hwdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8S2aICbYEdqh1LYUOGRh2A" name="manage_iteration" guid="_8S2aICbYEdqh1LYUOGRh2A" presentationName="Manage Iteration" briefDescription="Assess project status and identify any blocking issues and opportunities. Identify and manage exceptions, problems, and risks. Communicate project status.">
+            <presentation xmi:id="-PbfqVxB_j9KN-Jx39_pEUA" href="uma://-PbfqVxB_j9KN-Jx39_pEUA#-PbfqVxB_j9KN-Jx39_pEUA"/>
+            <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0bsLgMlgEdmt3adZL5Dmdw"/>
+            <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0mYYkMlgEdmt3adZL5Dmdw"/>
+            <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#__yQQ4L6REdqti4GwqTkbsQ"/>
+            <guidelines href="uma://_vJYucEfUEdyiPI8btkmvmw#_68JUYN8-Edyhmsbt0Xyl8A"/>
+            <mandatoryInput href="#_0aQBEslgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+            <mandatoryInput href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+            <mandatoryInput href="uma://_vJYucEfUEdyiPI8btkmvmw#_RJMUcNpUEdyzZqGyZ7hwdw"/>
+            <output href="#_0aQBEslgEdmt3adZL5Dmdw"/>
+            <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+            <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0keUEMlgEdmt3adZL5Dmdw" name="plan_iteration" guid="_0keUEMlgEdmt3adZL5Dmdw" presentationName="Plan Iteration" briefDescription="Plan the scope and responsibilities for a single iteration.">
+            <presentation xmi:id="_Wk7noKe1EdmGSrcKGOYDGg" href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_Wk7noKe1EdmGSrcKGOYDGg"/>
+            <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_CGHskBEdEdqY7JB6N6CW2w"/>
+            <guidelines href="#_0auiMMlgEdmt3adZL5Dmdw"/>
+            <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_VNxL4ACsEdu8m4dIntu6jA"/>
+            <guidelines href="uma://_vJYucEfUEdyiPI8btkmvmw#_sLQ6AN8-Edyhmsbt0Xyl8A"/>
+            <guidelines href="#_oVMZADSoEdy07ZJqOGUGaQ"/>
+            <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#__yQQ4L6REdqti4GwqTkbsQ"/>
+            <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_yYlQoC3xEdycYKq0PulnEQ"/>
+            <mandatoryInput href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+            <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+            <output href="#_0aQBEslgEdmt3adZL5Dmdw"/>
+            <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+            <optionalInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_8OD-cLPTEduocbW-TPTq7A"/>
+            <optionalInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+            <optionalInput href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+            <optionalInput href="#_0aQBEslgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_0auiMMlgEdmt3adZL5Dmdw" name="iteration_planning" guid="_0auiMMlgEdmt3adZL5Dmdw" presentationName="Iteration Planning" briefDescription="This guideline presents the activities related to iteration planning that help establish high-level iteration objectives, produce a plan outlining who needs to do what, and define how to assess end results.">
+            <presentation xmi:id="_71hDkMPgEdmbOvqy4O0adg" href="uma://_71hDkMPgEdmbOvqy4O0adg#_71hDkMPgEdmbOvqy4O0adg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_8b20EEvvEdunZcj9T5hrMQ" name="iteration_burndown" guid="_8b20EEvvEdunZcj9T5hrMQ" presentationName="Iteration Burndown">
+            <presentation xmi:id="-3G3HV0opAmFWGxYgsD5AhA" href="uma://-3G3HV0opAmFWGxYgsD5AhA#-3G3HV0opAmFWGxYgsD5AhA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_Nj2hsEvuEdunZcj9T5hrMQ" name="velocity" guid="_Nj2hsEvuEdunZcj9T5hrMQ" presentationName="Velocity">
+            <presentation xmi:id="-mgWkuUy3q0zzFaxE7DY1ag" href="uma://-mgWkuUy3q0zzFaxE7DY1ag#-mgWkuUy3q0zzFaxE7DY1ag"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_jyVgcEvKEdunZcj9T5hrMQ" name="work_item" guid="_jyVgcEvKEdunZcj9T5hrMQ" presentationName="Work Item">
+            <presentation xmi:id="-1Oc9t_TLaBgW_YLugZcq7w" href="uma://-1Oc9t_TLaBgW_YLugZcq7w#-1Oc9t_TLaBgW_YLugZcq7w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_MvOuAEvGEdunZcj9T5hrMQ" name="point" guid="_MvOuAEvGEdunZcj9T5hrMQ" presentationName="Point">
+            <presentation xmi:id="-oShmMITo9RIi1AzACWI9vw" href="uma://-oShmMITo9RIi1AzACWI9vw#-oShmMITo9RIi1AzACWI9vw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_ZBUnMEvFEdunZcj9T5hrMQ" name="iteration" guid="_ZBUnMEvFEdunZcj9T5hrMQ" presentationName="Iteration">
+            <presentation xmi:id="-_G0VvVOdMoajk615LwFtxg" href="uma://-_G0VvVOdMoajk615LwFtxg#-_G0VvVOdMoajk615LwFtxg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_7vEXEMA4EdqSgKaj2SZBmg" name="managing_work_items" guid="_7vEXEMA4EdqSgKaj2SZBmg" presentationName="Managing Work Items" briefDescription="This guideline explains the lifecycle of work items and how the work items list is used.">
+            <presentation xmi:id="-G1Oxlk6F0R09vClqy1EzOw" href="uma://-G1Oxlk6F0R09vClqy1EzOw#-G1Oxlk6F0R09vClqy1EzOw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_bpWt8OMPEdyM47cGD2jiaQ" name="how_to_adopt" guid="_bpWt8OMPEdyM47cGD2jiaQ" presentationName="How to Adopt the Iterative Development Practice" briefDescription="This roadmap describes how to adopt the iterative development practice. It helps an organization get prepared for developing and delivering software incrementally.">
+            <presentation xmi:id="-hWKKNia-vOmQZTZWO24u5w" href="uma://-hWKKNia-vOmQZTZWO24u5w#-hWKKNia-vOmQZTZWO24u5w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_9BtSUOFlEdyhmsbt0Xyl8A" name="risk_list.pr_slot" guid="_9BtSUOFlEdyhmsbt0Xyl8A" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+            <fulfills href="uma://_vJYucEfUEdyiPI8btkmvmw#_0TkXgNpUEdyzZqGyZ7hwdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ytVaoOKFEdyM47cGD2jiaQ" name="work_items_list.ps_slot" guid="_ytVaoOKFEdyM47cGD2jiaQ" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+            <fulfills href="uma://_vJYucEfUEdyiPI8btkmvmw#_kf7foNpUEdyzZqGyZ7hwdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0aQBEslgEdmt3adZL5Dmdw" name="iteration_plan" guid="_0aQBEslgEdmt3adZL5Dmdw" presentationName="Iteration Plan" briefDescription="A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration." checklists="_OHRDMAarEdy1uLAzgK8btg" examples="_GtGisDcGEdyTZ9G7ByfQTw _TuNhIEE4EdulKujnGUuxbg" reports="_uAzgkDg3Edu4E8ZdmlYjtA" templates="_0dBoQMlgEdmt3adZL5Dmdw">
+            <presentation xmi:id="_BcBR8KX5EdmvhNXG0Oc2uA" href="uma://_BcBR8KX5EdmvhNXG0Oc2uA#_BcBR8KX5EdmvhNXG0Oc2uA"/>
+            <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>
+            <fulfills href="uma://_vJYucEfUEdyiPI8btkmvmw#_1QZI8EfUEdyiPI8btkmvmw"/>
+            <fulfills href="uma://_vJYucEfUEdyiPI8btkmvmw#_kf7foNpUEdyzZqGyZ7hwdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_yE3HkOxYEdyCFeiQwJE7Vg" name="work_items_list.pw_slot" guid="_yE3HkOxYEdyCFeiQwJE7Vg" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+            <fulfills href="uma://_vJYucEfUEdyiPI8btkmvmw#_1QZI8EfUEdyiPI8btkmvmw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_35jJkFpiEd2nNZq0B7jtNw" name="work_items_list.contributes" guid="_35jJkFpiEd2nNZq0B7jtNw" variabilityType="contributes" conceptsAndPapers="_S80VwCNbEdyCq8v2ZO4QcA" guidelines="_7vEXEMA4EdqSgKaj2SZBmg">
+            <presentation xmi:id="-i0ekME-sXjZ7YmeJwZzW_A" href="uma://-i0ekME-sXjZ7YmeJwZzW_A#-i0ekME-sXjZ7YmeJwZzW_A"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9UnTrLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9UnTrLekEd-D7YZN9NgldQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9UnTrbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9UnTrbekEd-D7YZN9NgldQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9UnTrrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9UnTrrekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_vJYucEfUEdyiPI8btkmvmw#_vJYucEfUEdyiPI8btkmvmw"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+    <bases href="uma://_-bv0ELXuEduGP_98XMd0fg#_-bv0ELXuEduGP_98XMd0fg"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="uma://_fRdVEMYbEdyXeo04os5BOw#_fRdVEMYbEdyXeo04os5BOw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

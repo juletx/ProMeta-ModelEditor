@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-qunTPN3vqTIGpELwajXpLA" name="work_items_list,_nHomIDgzEdu4E8ZdmlYjtA" guid="-qunTPN3vqTIGpELwajXpLA" changeDate="2008-06-27T09:58:14.000-0700" version="1.0.0">
+  <attachments>resources/ex_work_items_list.xls</attachments>
+</org.eclipse.epf.uma:GuidanceDescription>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-kapR44-WRS4O8yV-MH6WUQ" name="new_term_definition,_AymZgCC8EduGAdKOTiDQdQ" guid="-kapR44-WRS4O8yV-MH6WUQ" authors="Jerome Boyer" changeDate="2011-08-09T19:59:38.045-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_decision_table&quot; name=&quot;XE_decision_table&quot;>&lt;/a> &#xD;
+&lt;p style=&quot;MARGIN: 0in 0in 0pt&quot; class=&quot;MsoNormal&quot;>&#xD;
+    Spreadsheet like, or&amp;nbsp;table view for&lt;a id=&quot;4305&quot; name=&quot;4305&quot;>&lt;span&#xD;
+    style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-bidi-font-weight: bold&quot;>&amp;nbsp;a set of business rules, where a rule is&#xD;
+    represented by&amp;nbsp;one row in the table.&lt;/span>&lt;/a> &lt;a id=&quot;5839&quot; name=&quot;5839&quot;>&lt;span&#xD;
+    style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-bidi-font-weight: bold; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>The&#xD;
+    rows and columns identify all situations that require a business decision, and specify which action to take in each of&#xD;
+    these situations.&lt;/span>&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;MARGIN: 0in 0in 0pt&quot; class=&quot;MsoNormal&quot;>&#xD;
+    Columns are conditions and actions of the rule. Color background help to identify which are conditions.&#xD;
+&lt;/p>&lt;br style=&quot;MARGIN: 0in 0in 0pt&quot; class=&quot;MsoNormal&quot; />&#xD;
+&lt;br />&#xD;
+&lt;p style=&quot;MARGIN: 0in 0in 0pt&quot; class=&quot;MsoNormal&quot;>&#xD;
+    Here is an example of a &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.tech.abrd.base/guidances/examples/decision_table_F7CE4288.html&quot;&#xD;
+    guid=&quot;_jSkf0ML6EeChb6L1Ye70Lg&quot;>Decision Table&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

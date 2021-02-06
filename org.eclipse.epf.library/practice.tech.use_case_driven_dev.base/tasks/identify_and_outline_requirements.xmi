@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_P9iS8PV_EdmdHa9MmVPgqQ" name="identify_and_outline_requirements,_P9cMUPV_EdmdHa9MmVPgqQ" guid="_P9iS8PV_EdmdHa9MmVPgqQ" changeDate="2008-02-11T02:20:35.000-0800" changeDescription="We need to solve the relationship to work items list" version="1.0.0">
+  <sections xmi:id="_ckG-cCY-EdqNHcQ-rAojXw" name="Gather information" guid="_ckG-cCY-EdqNHcQ-rAojXw">
+    <sectionDescription>&lt;p>&#xD;
+    Use various techniques to make gathering requirements easier. Face-to-face meetings with stakeholders is the most&#xD;
+    effective way to understand stakeholder needs and to gather and validate requirements, but you must prepare in order&#xD;
+    for these meetings to run efficiently.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Be prepared by gathering and reviewing information related to the problem domain, problem statement, business&#xD;
+    environment and key stakeholders. Most of this information&amp;nbsp;must be available in the vision.&amp;nbsp;Also review the&#xD;
+    existing requirements repository for stakeholder requests.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_GAr3IOz3Edq2wJOsmRwmhg" name="Identify and capture domain terms" guid="_GAr3IOz3Edq2wJOsmRwmhg">
+    <sectionDescription>If there are ambiguous or domain-specific terms that need to be clearly defined, make sure you work closely with&#xD;
+stakeholders&amp;nbsp;to capture these&amp;nbsp;terms in the glossary and that you use these terms consistently.</sectionDescription>
+  </sections>
+  <sections xmi:id="_fDbgkCY-EdqNHcQ-rAojXw" name="Identify the types of requirements relevant to your system" guid="_fDbgkCY-EdqNHcQ-rAojXw">
+    <sectionDescription>&lt;p>&#xD;
+    Requirements can be broadly classified as either functional or non-functional requirements. The former specify what the&#xD;
+    system must do. The latter specify constraints on the solution such as usability, reliability, performance,&#xD;
+    supportability, interfaces with legacy systems, etc. Depending upon the domain there&amp;nbsp;might be regulatory&#xD;
+    requirements that apply.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Collaborate with stakeholders to identify the types of requirements relevant to your system. This will help you assess&#xD;
+    the completeness of your requirement set.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_CD_a8JJKEdyk6dG0ehkW5Q" name="Identify and capture use cases and scenarios" guid="_CD_a8JJKEdyk6dG0ehkW5Q">
+    <sectionDescription>&lt;p>&#xD;
+    Collaborate with stakeholders to identify and capture&amp;nbsp;the use cases and scenarios relevant&amp;nbsp;to your system.&#xD;
+    Capture references to these requirements with other project to-do items&amp;nbsp;in the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot;&#xD;
+    guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Work Items List&lt;/a>&amp;nbsp;so that you can prioritize the work.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.use_case_driven_dev.base/guidances/guidelines/identify_and_outline_actors_and_ucs_BB5516A9.html&quot;&#xD;
+     guid=&quot;_eyL0wCu-EdqSxKAVa9kmvA&quot;>Identify and Outline Actors and Use Cases&lt;/a> for more information.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Ql45gEI6Edyrh7YaMjqrlA" name="Identify and capture system-wide requirements" guid="_Ql45gEI6Edyrh7YaMjqrlA">
+    <sectionDescription>&lt;p>&#xD;
+    Collaborate with stakeholders to identify and capture&amp;nbsp;the system-wide requirements relevant&amp;nbsp;to your system.&#xD;
+    Capture references to these requirements with other project to-do items in the&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot;&#xD;
+    guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Work Items List&lt;/a> so that you can prioritize the work.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.use_case_driven_dev.base/guidances/guidelines/system_wide_requirements_8ED0BB6B.html&quot;&#xD;
+    guid=&quot;_wr24gNcGEdqz_d2XWoVt6Q&quot;>Developing System-Wide Requirements Specification&lt;/a> for more information.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_0WhHsN-eEdqiM_wFaqLjNg" name="Achieve concurrence" guid="_0WhHsN-eEdqiM_wFaqLjNg">
+    <sectionDescription>Conduct a review&amp;nbsp;of the&amp;nbsp;requirements with relevant stakeholders and the development team to ensure consistency&#xD;
+with the agreed vision, assess quality, and identify any required changes.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to identify and capture functional and non-functional requirements for the system. These&#xD;
+requirements form the basis of communication and agreement between the stakeholders and the development team on what the&#xD;
+system must do to satisfy stakeholder needs. The goal is to understand the requirements at a high-level so that the initial&#xD;
+scope of work can be determined.&amp;nbsp;Further analysis will be performed to detail these requirements prior to&#xD;
+implementation.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

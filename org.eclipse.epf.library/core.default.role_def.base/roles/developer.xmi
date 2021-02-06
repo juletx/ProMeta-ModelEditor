@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_NqL7MqeqEdmKDbQuyzCoqQ" name="developer,_0YDosMlgEdmt3adZL5Dmdw" guid="_NqL7MqeqEdmKDbQuyzCoqQ" changeDate="2008-07-02T06:41:08.000-0700" version="1.0.0">
+  <skills>&lt;p>&#xD;
+    The person in this role needs the following knowledge, skills, and abilities:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Enough expertise and experience to define and create technical solutions in the project's technology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ability to understand and conform to the architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ability to identify and build developer tests that cover required behavior of the technical components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ability to communicate the design in a way that other team members understand&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></skills>
+  <assignmentApproaches>&lt;p>&#xD;
+    A person performing this role can have specialized skills in a particular technical area but should also have a broad&#xD;
+    understanding of all of the technologies involved to be able to work with other technical team members.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Even in the smallest team, multiple individuals should be working together to create the technical solution. In small,&#xD;
+    agile teams, this role is often shared among several team members who also perform other roles. &#xD;
+&lt;/p>&lt;br /></assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

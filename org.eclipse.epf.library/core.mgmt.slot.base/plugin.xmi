@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9PZccLekEd-D7YZN9NgldQ" guid="_9PZccLekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="_-uBWkLekEd-D7YZN9NgldQ" id="-WHNPkIsytVNbT2cosOFSCA" uri="guidances/guidelines/project_planning_guidance_slot.xmi"/>
+    <resourceDescriptors xmi:id="_-uBWkbekEd-D7YZN9NgldQ" id="-_gTtsZg2sOCefRSeAo-bJg" uri="guidances/guidelines/collaboration_guidance_slot.xmi"/>
+    <resourceDescriptors xmi:id="_-uLHkLekEd-D7YZN9NgldQ" id="-J3F-VWcgroOkoPGMGKyl8A" uri="guidances/guidelines/work_assignment_guidance_slot.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_vJYucEfUEdyiPI8btkmvmw" name="core.mgmt.slot.base" guid="_vJYucEfUEdyiPI8btkmvmw" presentationName="Management Slot" briefDescription="This plug-in defines the management slots." changeDate="2008-02-14T02:05:35.000-0800" supporting="true">
+    <methodElementProperty xmi:id="_-gnMvLekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9PQSgLekEd-D7YZN9NgldQ" name="Content" guid="_9PQSgLekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9PQSgbekEd-D7YZN9NgldQ" name="Categories" guid="_9PQSgbekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9PQSgrekEd-D7YZN9NgldQ" name="Domains" guid="_9PQSgrekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9PQSg7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9PQSg7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9PQShLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9PQShLekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9PQShbekEd-D7YZN9NgldQ" name="WP Types" guid="_9PQShbekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9PQShrekEd-D7YZN9NgldQ" name="Tools" guid="_9PQShrekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9PQSh7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9PQSh7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9PQSiLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9PQSiLekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9PQSibekEd-D7YZN9NgldQ" name="Hidden" guid="_9PQSibekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9PQSirekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9PQSirekEd-D7YZN9NgldQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9PQSi7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9PQSi7ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xo1MYEfUEdyiPI8btkmvmw" name="Management Work Product Slots" guid="_xo1MYEfUEdyiPI8btkmvmw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_RJMUcNpUEdyzZqGyZ7hwdw" name="project_definition_and_scope_slot" guid="_RJMUcNpUEdyzZqGyZ7hwdw" presentationName="[Project Definition and Scope]" briefDescription="This slot serves as an abstraction of high-level artifacts that define the project and its scope. Typical examples of such artifacts could be a project definition, and a high-level project schedule identifying major milestones and major deliverables." isAbstract="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kf7foNpUEdyzZqGyZ7hwdw" name="project_status_slot" guid="_kf7foNpUEdyzZqGyZ7hwdw" presentationName="[Project Status]" briefDescription="This slot serves as an abstraction for any type of status report or assessment of the project's progress. This includes both internal assessments, as well as those of interest to the project sponsors." isAbstract="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0TkXgNpUEdyzZqGyZ7hwdw" name="project_risk_slot" guid="_0TkXgNpUEdyzZqGyZ7hwdw" presentationName="[Project Risk]" briefDescription="This slot serves as an abstraction for artifacts that list, track, and manage project risk, such as a risk list or risk log." isAbstract="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_1QZI8EfUEdyiPI8btkmvmw" name="project_work_slot" guid="_1QZI8EfUEdyiPI8btkmvmw" presentationName="[Project Work]" briefDescription="This slot serves as an abstraction for any type of work being done on the project. It could be represented as a work items list, an operational schedule, a work breakdown structure, and so on." isAbstract="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gxGj0N8-Edyhmsbt0Xyl8A" name="management_guidance_slots" guid="_gxGj0N8-Edyhmsbt0Xyl8A" presentationName="Management Guidance Slots">
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_sLQ6AN8-Edyhmsbt0Xyl8A" name="project_planning_guidance_slot" guid="_sLQ6AN8-Edyhmsbt0Xyl8A" presentationName="[Project Planning Guidance]" briefDescription="This guideline is a collection of additional guidance on project planning, provided by supporting practices.">
+            <presentation xmi:id="-WHNPkIsytVNbT2cosOFSCA" href="uma://-WHNPkIsytVNbT2cosOFSCA#-WHNPkIsytVNbT2cosOFSCA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_68JUYN8-Edyhmsbt0Xyl8A" name="collaboration_guidance_slot" guid="_68JUYN8-Edyhmsbt0Xyl8A" presentationName="[Collaboration Guidance]" briefDescription="This guideline is a collection of additional guidance on collaboration, provided by supporting practices.">
+            <presentation xmi:id="-_gTtsZg2sOCefRSeAo-bJg" href="uma://-_gTtsZg2sOCefRSeAo-bJg#-_gTtsZg2sOCefRSeAo-bJg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_BslGYN8_Edyhmsbt0Xyl8A" name="work_assignment_guidance_slot" guid="_BslGYN8_Edyhmsbt0Xyl8A" presentationName="[Work Assignment Guidance]" briefDescription="This guideline is a collection of additional guidance on making work assignments, provided by supporting practices.">
+            <presentation xmi:id="-J3F-VWcgroOkoPGMGKyl8A" href="uma://-J3F-VWcgroOkoPGMGKyl8A#-J3F-VWcgroOkoPGMGKyl8A"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9PQSjLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9PQSjLekEd-D7YZN9NgldQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9PQSjbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9PQSjbekEd-D7YZN9NgldQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9PQSjrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9PQSjrekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

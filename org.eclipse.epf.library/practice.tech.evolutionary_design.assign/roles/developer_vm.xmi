@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-xbAirPdH1IOKcnklk8hdqw" name="new_role,_sypCEPvjEdqf0-top1XJIg" guid="-xbAirPdH1IOKcnklk8hdqw" changeDate="2006-09-11T11:34:39.000-0700" version="7.2.0">
+  <skills>&lt;p>&#xD;
+    In addition, to create a visual model of the system, the person in this role needs the ability to&amp;nbsp;render the&#xD;
+    design in the Unified Modeling Language (UML).&#xD;
+&lt;/p></skills>
+</org.eclipse.epf.uma:RoleDescription>

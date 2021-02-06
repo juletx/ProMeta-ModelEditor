@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-QklqSGB4aD07vUpfubpMJg" name="new_guideline,_0SsecNr8EdyXE6np2_hUMA" guid="-QklqSGB4aD07vUpfubpMJg" changeDate="2008-02-14T05:06:27.000-0800" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    When applying visual modeling, you can use various techniques:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Identify the key perspectives:&lt;/strong> Focus on modeling the things that count. Few (if any) projects&#xD;
+        benefit from modeling the entire design to a great level of detail. Make sure that you understand why you are&#xD;
+        modeling something and who will benefit.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Communicate key architectural perspectives:&lt;/strong> Even if you choose to model very little&amp;nbsp;of your&#xD;
+        design, it is often advantageous to produce diagrams that communicate the key architectural aspects of the system.&#xD;
+        Conveying the &quot;big picture&quot; to the rest of the team helps them understand the overall approach and develop cohesive&#xD;
+        software.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Sketch the design:&lt;/strong> Not all models need to be detailed completely and presented in a software&#xD;
+        modeling tool. It is often perfectly acceptable (if not desirable) to produce hand-drawn sketches on paper or on a&#xD;
+        whiteboard when you are exploring and communicating the architecture and design with your team. You can use a&#xD;
+        digital camera or an electronic whiteboard to capture these diagrams and share them. For many small projects, this&#xD;
+        is often all you need. See &lt;a href=&quot;http://www.agilemodeling.com/&quot;>http://www.agilemodeling.com/&lt;/a> for more&#xD;
+        information.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Use a modeling tool as needed&lt;/strong>:&amp;nbsp;If the team members are changing models throughout the&#xD;
+        project, sharing patterns/structure, debugging design, describing behavior, etc., then static photos or paper will&#xD;
+        become difficult to work with. The team may want to capture design in a software modeling tool. Other than&#xD;
+        communicating the design to the team, another benefit of a such a tool is the&amp;nbsp;generation of structural code&#xD;
+        from the models. Many software development tools allow you to view the code as models, making it easier to&#xD;
+        comprehend static and dynamic aspects of a complex code base.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Agree on a standard notation:&lt;/strong> In a team environment, it is important that others can understand&#xD;
+        your diagrams without much explanation. Choosing a standard notation enables others to quickly comprehend your&#xD;
+        diagrams without ambiguity. The Unified Modeling Language (UML) provides an industry-standard approach to software&#xD;
+        modeling and is an example of a widely understood notation.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>For more information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/visual_modeling_2C089766.html&quot;&#xD;
+guid=&quot;_0XY6UMlgEdmt3adZL5Dmdw&quot;>Concept: Visual Modeling&lt;/a>.&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

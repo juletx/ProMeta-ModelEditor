@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Q3uNkTzGMszwa7-zNGSwmw" name="rule_meta_properties,_6K-ssCJlEduw7qGrhQIfsg" guid="-Q3uNkTzGMszwa7-zNGSwmw" authors="Jerome Boyer" changeDate="2008-02-01T10:59:40.000-0800" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_rule__meta_properties&quot; name=&quot;XE_rule__meta_properties&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    We recommend to have at least the following&amp;nbsp;properties for a Rule element:
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br />
+&lt;div align=&quot;center&quot;>
+    &lt;table class=&quot;MsoNormalTable&quot; style=&quot;WIDTH: 468.9pt; BORDER-COLLAPSE: collapse; mso-padding-alt: 0in 0in 0in 0in&quot;
+    cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;625&quot; border=&quot;0&quot;>
+        &lt;tbody>
+            &lt;tr style=&quot;HEIGHT: 18.75pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: gray 1pt solid; WIDTH: 79.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 18.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;106&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in; TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+                        &lt;b>&lt;i>&lt;span lang=&quot;EN&quot; style=&quot;COLOR: #005da0; mso-ansi-language: EN&quot;>Property name&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 34.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 18.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;46&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in; TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+                        &lt;b>&lt;i>&lt;span lang=&quot;EN&quot; style=&quot;COLOR: #005da0; mso-ansi-language: EN&quot;>Type&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 53.05pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 18.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;71&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in; TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+                        &lt;b>&lt;i>&lt;span lang=&quot;EN&quot; style=&quot;COLOR: #005da0; mso-ansi-language: EN&quot;>Possible Value&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 84.7pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 18.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;113&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in; TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+                        &lt;b>&lt;i>&lt;span lang=&quot;EN&quot; style=&quot;COLOR: #005da0; mso-ansi-language: EN&quot;>Description&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 30.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 18.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;41&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in; TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+                        &lt;b>&lt;i>&lt;span lang=&quot;EN&quot; style=&quot;COLOR: #005da0; mso-ansi-language: EN&quot;>Null able&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 18.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;90&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in; TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+                        &lt;b>&lt;i>&lt;span lang=&quot;EN&quot; style=&quot;COLOR: #005da0; mso-ansi-language: EN&quot;>Changeable&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 64.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 18.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;86&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in; TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+                        &lt;b>&lt;i>&lt;span lang=&quot;EN&quot; style=&quot;COLOR: #005da0; mso-ansi-language: EN&quot;>Extractable&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 54.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 18.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;72&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in; TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+                        &lt;b>&lt;i>&lt;span lang=&quot;EN&quot; style=&quot;COLOR: #005da0; mso-ansi-language: EN&quot;>Required&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 25.5pt; mso-yfti-irow: 1&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 79.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;106&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Rule ID&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 34.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;46&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Int or string&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 53.05pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;71&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 84.7pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;113&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Unique identifier for the
+                        rules&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 30.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;41&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>No&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;90&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>No&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 64.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;86&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 54.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;72&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 25.5pt; mso-yfti-irow: 2&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 79.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;106&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>BusinessMotivation&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 34.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;46&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>String&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 53.05pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;71&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>&quot;&quot;&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 84.7pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;113&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Link the rule to the business
+                        motivation&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 30.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;41&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;90&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 64.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;86&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&amp;nbsp;No&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 54.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;72&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&amp;nbsp;No&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 25.5pt; mso-yfti-irow: 3&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 79.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;106&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>PolicyReference&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 34.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;46&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>String&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 53.05pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;71&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>&quot;&quot;&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 84.7pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;113&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Link the rule to a business
+                        policy&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 30.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;41&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;90&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 64.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;86&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&amp;nbsp;No&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 54.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;72&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&amp;nbsp;No&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 25.5pt; mso-yfti-irow: 4&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 79.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;106&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>Status&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 34.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;46&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>String&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 53.05pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;71&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>New, Defined, Deployable, Deployed&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 84.7pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;113&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>Support the life cycle of the rule&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 30.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;41&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>No&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;90&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 64.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;86&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 54.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;72&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&amp;nbsp;&lt;/span>&lt;span lang=&quot;EN&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 25.5pt; mso-yfti-irow: 5&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 79.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;106&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Rule Owner&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 34.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;46&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>String&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 53.05pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;71&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 84.7pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;113&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Department team – no named
+                        person&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 30.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;41&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;90&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 64.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;86&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&amp;nbsp;No&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 54.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;72&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&amp;nbsp;&lt;/span>&lt;span lang=&quot;EN&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 25.5pt; mso-yfti-irow: 6&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 79.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;106&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Expiration Date&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 34.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;46&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Date&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 53.05pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;71&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 84.7pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;113&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Date when the rule will not be
+                        extracted&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 30.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;41&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;90&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 64.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;86&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>No&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 54.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 25.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;72&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>No&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 5.85pt; mso-yfti-irow: 7; mso-yfti-lastrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 79.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 5.85pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;106&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Effective Date&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 34.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 5.85pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;46&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Date&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 53.05pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 5.85pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;71&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 84.7pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 5.85pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;113&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Date from when the rule will be
+                        extracted&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 30.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 5.85pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;41&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 67.5pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 5.85pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;90&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span lang=&quot;EN&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN&quot;>Yes&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 64.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 5.85pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;86&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>No&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 54.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 5.85pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;72&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>No&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

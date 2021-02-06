@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-locCQOxOUM8zej2tBD6M6Q" name="detail_use_case_scenarios.ucm,_-pOLIEbEEdyx8quJU3Grxg" guid="-locCQOxOUM8zej2tBD6M6Q" version="1.0.0">
+  <sections xmi:id="_-pOLIUbEEdyx8quJU3Grxg" name="Update Use-Case Model" guid="_-pOLIUbEEdyx8quJU3Grxg">
+    <sectionDescription>&lt;p>&#xD;
+    Based on your work detailing use cases and scenarios, update the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/workproducts/use_case_model_85965D1B.html&quot;&#xD;
+    guid=&quot;_W2SgEDR5EdutE_HNDTJk5Q&quot;>Use-Case Model&lt;/a>.&amp;nbsp;Add, remove or update&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/actor_411726C.html&quot;&#xD;
+    guid=&quot;_zGqO0MDpEduTGJ8i4u8TMw&quot;>Actors&lt;/a> and &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/workproducts/use_case_22BE66E2.html&quot; guid=&quot;_0VGbUMlgEdmt3adZL5Dmdw&quot;>Use&#xD;
+    Case&lt;/a>s as required.&amp;nbsp;&lt;br />&#xD;
+    For more information on creating and structuring your use case model see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.use_case_driven_dev.base/guidances/guidelines/use_case_model_4C64E97D.html&quot;&#xD;
+    guid=&quot;_0VAUsMlgEdmt3adZL5Dmdw&quot;>Guideline: Use-Case Model&lt;/a>.&amp;nbsp;For assistance in assessing the quality of your&#xD;
+    use-case model see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/checklists/use_case_model_27A2D1CF.html&quot;&#xD;
+    guid=&quot;_0U6OEMlgEdmt3adZL5Dmdw&quot;>Checklist: Use-Case Model&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

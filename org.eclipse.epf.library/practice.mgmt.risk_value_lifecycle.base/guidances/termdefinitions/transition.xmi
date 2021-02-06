@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-yoFF90pq-_UV3fm-5oDenw" name=",_-5ms4EvDEdunZcj9T5hrMQ" guid="-yoFF90pq-_UV3fm-5oDenw" changeDate="2008-02-21T10:57:04.000-0800" version="7.2.0">
+  <mainDescription>The fourth and last &lt;span class=&quot;docEmphasis&quot;>phase&lt;/span> of the project lifecycle, which results in a final product &lt;span&#xD;
+class=&quot;docEmphasis&quot;>release&lt;/span>.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

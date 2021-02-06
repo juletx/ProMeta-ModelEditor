@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9TbA0LekEd-D7YZN9NgldQ" guid="_9TbA0LekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="_-6GDsLekEd-D7YZN9NgldQ" id="-jbCbONi6H6_jHT7i7yGLtQ" uri="workproducts/technical_specification_slot.xmi"/>
+    <resourceDescriptors xmi:id="_-6GDsbekEd-D7YZN9NgldQ" id="-OEaOjKP9J283DeVnMku6nA" uri="workproducts/technical_design_slot.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_-bv0ELXuEduGP_98XMd0fg" name="core.tech.slot.base" guid="_-bv0ELXuEduGP_98XMd0fg" presentationName="Technical Slot" briefDescription="This plug-in defines the technical slots." changeDate="2007-08-05T07:25:00.000-0700" supporting="true">
+    <methodElementProperty xmi:id="_-gnMwLekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9TR24LekEd-D7YZN9NgldQ" name="Content" guid="_9TR24LekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9TR24bekEd-D7YZN9NgldQ" name="Categories" guid="_9TR24bekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9TR24rekEd-D7YZN9NgldQ" name="Domains" guid="_9TR24rekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9TR247ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9TR247ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9TR25LekEd-D7YZN9NgldQ" name="RoleSets" guid="_9TR25LekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9TR25bekEd-D7YZN9NgldQ" name="WP Types" guid="_9TR25bekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9TR25rekEd-D7YZN9NgldQ" name="Tools" guid="_9TR25rekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9TR257ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9TR257ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9TR26LekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9TR26LekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9TR26bekEd-D7YZN9NgldQ" name="Hidden" guid="_9TR26bekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9TR26rekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9TR26rekEd-D7YZN9NgldQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9TR267ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9TR267ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__wRXALXuEduGP_98XMd0fg" name="technical_work_product_slots" guid="__wRXALXuEduGP_98XMd0fg" presentationName="Technical Work Product Slots" briefDescription="This package contains the work products that cross practices.  They are organized into content packages that are associated with the practices that produce them.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_8OD-cLPTEduocbW-TPTq7A" name="technical_architecture_slot" guid="_8OD-cLPTEduocbW-TPTq7A" presentationName="[Technical Architecture]" briefDescription="This slot serves as an abstraction of high level artifacts that represent the documentation of the architecture." isAbstract="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_i3vkoLS-EduDY8LNbMCDBA" name="technical_specification_slot" guid="_i3vkoLS-EduDY8LNbMCDBA" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isAbstract="true">
+            <presentation xmi:id="-jbCbONi6H6_jHT7i7yGLtQ" href="uma://-jbCbONi6H6_jHT7i7yGLtQ#-jbCbONi6H6_jHT7i7yGLtQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Vux8UEfUEdyiPI8btkmvmw" name="technical_implementation_slot" guid="_Vux8UEfUEdyiPI8btkmvmw" presentationName="[Technical Implementation]" briefDescription="This slot holds the artifacts that represent a technical implementation.  This can include source code, executable code, data, and software/hardware configurations." isAbstract="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_fahB0EfUEdyiPI8btkmvmw" name="technical_test_results_slot" guid="_fahB0EfUEdyiPI8btkmvmw" presentationName="[Technical Test Results]" briefDescription="This slot serves as an abstraction of high level artifacts that define the results of testing the hardware and software for the system being developed." isAbstract="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IcQOUEqdEdyi3_jfs__bIQ" name="technical_design_slot" guid="_IcQOUEqdEdyi3_jfs__bIQ" presentationName="[Technical Design]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe the realization of required system functionality, and serves as an abstraction of the solution." isAbstract="true">
+            <presentation xmi:id="-OEaOjKP9J283DeVnMku6nA" href="uma://-OEaOjKP9J283DeVnMku6nA#-OEaOjKP9J283DeVnMku6nA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ip7wMJI7Edyk6dG0ehkW5Q" name="technical_guidance_slots" guid="_ip7wMJI7Edyk6dG0ehkW5Q" presentationName="Technical Guidance Slots" briefDescription="This package contains guidance slots used by practices to add guidance to other practices.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_z_wMgJI7Edyk6dG0ehkW5Q" name="design_guidance_slot" guid="_z_wMgJI7Edyk6dG0ehkW5Q" presentationName="[Design Guidance]" briefDescription="This guideline is a collection of additional guidance on performing system design tasks, provided by supporting practices."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_nOk0sJ6fEdyF5fwOV8Jf8A" name="test_guidance_slot" guid="_nOk0sJ6fEdyF5fwOV8Jf8A" presentationName="[Test Guidance]" briefDescription="This guideline is a collection of additional guidance on testing, provided by supporting practices."/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9TR27LekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9TR27LekEd-D7YZN9NgldQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9TR27bekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9TR27bekEd-D7YZN9NgldQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9TR27rekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9TR27rekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

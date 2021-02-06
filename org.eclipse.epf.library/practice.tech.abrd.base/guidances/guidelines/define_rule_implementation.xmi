@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-VyLjMs-sfve4Nx3sJNZDWg" name="new_guideline,_x-GVQIsqEd2gksNyFVJN4g" guid="-VyLjMs-sfve4Nx3sJNZDWg" changeDate="2008-09-25T10:53:28.000-0700" version="7.5.1">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    For the implementation of Guideline and Constraint it is important to consider what should happen when they are
+    violated. Most of the time the action part will rise an exception or a high priority issue.
+&lt;/p>&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    An important item to note in computation rules is that we need to manage the actual calculation but also if there are
+    rules that are required to be managed prior to those calculations and the rules that are required to manage that are
+    included in terms of the calculation – then the entire rule set needs to be managed not only just the actual
+    computation rule. &amp;nbsp;
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    Process flow rules are rules that purely direct the movement through a process flow (or workflow, etc.). It may be
+    helpful to distinguish process flow rules from the business logic rules that determine the values of the parameters on
+    which the process flow is directed.
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    ETL rules, or data transformation rules, are often considered separately from other business rules, although in pattern
+    they are essentially inference rules and computation rules. Data transformation rules, while important to the business,
+    are a side-effect of system implementation rather than a reflection of core business logic per se. For implementation,
+    the decision to use a rule engine for ETL rules should depend on whether the rules are static or dynamic, but also the
+    maturity of the mapping knowledge. We used rule engine to easily implement transformation rules between two data model,
+    and once the environment is more stable, some of those mapping are put back on the code.
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    To the industry standard we can add some other rule pattern we found in lot of business application:
+&lt;/p>
+&lt;div align=&quot;center&quot;>
+    &lt;table class=&quot;MsoNormalTable&quot;
+    style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-padding-alt: 0in 5.4pt 0in 5.4pt; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver&quot;
+     cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;>
+        &lt;tbody>
+            &lt;tr style=&quot;mso-yfti-irow: 0; mso-yfti-firstrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: gray 1pt solid; WIDTH: 95.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;127&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpFirst&quot;
+                    style=&quot;MARGIN: 2pt 0in; TEXT-ALIGN: justify; mso-add-space: auto&quot;>
+                        &lt;font size=&quot;3&quot;>&lt;font face=&quot;Times New Roman&quot;>&lt;b>&lt;i>&lt;span style=&quot;COLOR: #005da0&quot;>Rule
+                        Classification&lt;/span>&lt;/i>&lt;/b>&lt;/font>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;383&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpLast&quot;
+                    style=&quot;MARGIN: 2pt 0in; TEXT-ALIGN: justify; mso-add-space: auto&quot;>
+                        &lt;font size=&quot;3&quot;>&lt;font face=&quot;Times New Roman&quot;>&lt;b>&lt;i>&lt;span style=&quot;COLOR: #005da0&quot;>Type of
+                        application&lt;/span>&lt;/i>&lt;/b>&lt;/font>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 6.65pt; mso-yfti-irow: 1&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 95.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 6.65pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;127&quot; rowspan=&quot;2&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpFirst&quot;
+                    style=&quot;MARGIN: 2pt 0in; TEXT-ALIGN: justify; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;b>&lt;i>&lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN-GB&quot;>Compliance Rules&lt;/span>&lt;/i>&lt;/b>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 6.65pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;383&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpMiddle&quot; style=&quot;MARGIN: 2pt 0in; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>Rules that reject the attempted business
+                        transaction.&lt;/span>&lt;/font>
+                    &lt;/p>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpLast&quot; style=&quot;MARGIN: 2pt 0in; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN-GB&quot;>Yes/no result but completed with reason code and
+                        explanation&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 6.6pt; mso-yfti-irow: 2&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 6.6pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;383&quot;>
+                    &lt;p class=&quot;charCxSpFirst&quot;>
+                        &lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: 'Arial','sans-serif'; mso-ansi-language: EN-GB&quot;>Underwriting&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;charCxSpMiddle&quot;>
+                        &lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: 'Arial','sans-serif'; mso-ansi-language: EN-GB&quot;>F&lt;/span>&lt;span
+                        lang=&quot;EN-GB&quot; style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN-GB&quot;>&lt;font face=&quot;Times New Roman&quot;>raud
+                        detection&lt;/font>&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;charCxSpLast&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN-GB&quot;>Data and form validation&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 11.05pt; mso-yfti-irow: 3&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 95.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;127&quot; rowspan=&quot;2&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpFirst&quot;
+                    style=&quot;MARGIN: 2pt 0in; TEXT-ALIGN: justify; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;b>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>Rating&lt;/span>&lt;/b>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;383&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpLast&quot; style=&quot;MARGIN: 2pt 0in; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>Strongly interrelated rules that compute
+                        metrics for a complex object model&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 11.05pt; mso-yfti-irow: 4&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;383&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpFirst&quot; style=&quot;MARGIN: 2pt 0in; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN-GB&quot;>Scoring and rating&lt;/span>&lt;/font>
+                    &lt;/p>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpMiddle&quot; style=&quot;MARGIN: 2pt 0in; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN-GB&quot;>Contracts and allocation&lt;/span>&lt;/font>
+                    &lt;/p>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpLast&quot; style=&quot;MARGIN: 2pt 0in; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN-GB&quot;>Pure calculations on an object providing a final
+                        value (or rating).&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 11.05pt; mso-yfti-irow: 5&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 95.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;127&quot; rowspan=&quot;2&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpFirst&quot;
+                    style=&quot;MARGIN: 2pt 0in; TEXT-ALIGN: justify; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;b>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>Correlation&lt;/span>&lt;/b>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;383&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpLast&quot; style=&quot;MARGIN: 2pt 0in; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN-GB&quot;>Strongly interrelated rules that correlate
+                        information from a set of objects to Compute some complex metrics&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 11.05pt; mso-yfti-irow: 6&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;383&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpFirst&quot; style=&quot;MARGIN: 1.9pt 0in 0pt; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN-GB&quot;>Billing and cost estimation&lt;/span>&lt;/font>
+                    &lt;/p>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpLast&quot; style=&quot;MARGIN: 2pt 0in; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN-GB&quot;>Complement by inserting information&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 11.05pt; mso-yfti-irow: 7&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 95.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;127&quot; rowspan=&quot;2&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpFirst&quot;
+                    style=&quot;MARGIN: 2pt 0in; TEXT-ALIGN: justify; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;b>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>Stateful&lt;/span>&lt;/b>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;383&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpLast&quot; style=&quot;MARGIN: 2pt 0in; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>Strongly interrelated rules that
+                        correlate events in a stateful way&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 42.2pt; mso-yfti-irow: 8; mso-yfti-lastrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 42.2pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;383&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpFirst&quot; style=&quot;MARGIN: 1.9pt 0in 0pt; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN-GB&quot;>Alarm filtering and correlation&lt;/span>&lt;/font>
+                    &lt;/p>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpMiddle&quot; style=&quot;MARGIN: 1.9pt 0in 0pt; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN-GB&quot;>Web page navigation&lt;/span>&lt;/font>
+                    &lt;/p>
+                    &lt;p class=&quot;msonormalcxspmiddleCxSpLast&quot; style=&quot;MARGIN: 1.9pt 0in 0pt; mso-add-space: auto&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;span lang=&quot;EN-GB&quot;
+                        style=&quot;FONT-SIZE: 8pt; mso-ansi-language: EN-GB&quot;>GUI customization&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

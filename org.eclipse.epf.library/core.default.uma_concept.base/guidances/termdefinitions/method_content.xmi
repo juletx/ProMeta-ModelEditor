@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-akU0PqDaad4Ns5MQhVBJ7Q" name="method_content,_Ts2joB_MEdq6CKKKq4D7YA" guid="-akU0PqDaad4Ns5MQhVBJ7Q" changeDate="2007-12-05T10:10:15.000-0800" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Defines the primary reusable building blocks or reference materials of the method framework that exist outside of any&#xD;
+    predefined lifecycle.&amp;nbsp;The basic content elements are: &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/role_37A0C602.html&quot;&#xD;
+    guid=&quot;_yUefQNnmEdmO6L4XMImrsA&quot;>role&lt;/a>s, &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/task_6C1FF051.html&quot;&#xD;
+    guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;>task&lt;/a>s, &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/work_product_826E4C22.html&quot;&#xD;
+    guid=&quot;_H4JXwB_SEdq6CKKKq4D7YA&quot;>work product&lt;/a>s and &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/guidance_549AC394.html&quot;&#xD;
+    guid=&quot;_83ttAB_NEdq6CKKKq4D7YA&quot;>guidance&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

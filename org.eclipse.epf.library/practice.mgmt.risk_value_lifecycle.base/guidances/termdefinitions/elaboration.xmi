@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-0g2jTHQla8lbP6xGB3iGlg" name=",_8DkT4EvDEdunZcj9T5hrMQ" guid="-0g2jTHQla8lbP6xGB3iGlg" changeDate="2008-07-08T03:29:57.000-0700" version="7.2.0">
+  <mainDescription>Second of four phases in the project lifecycle, when architecturally significant risks are addressed.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

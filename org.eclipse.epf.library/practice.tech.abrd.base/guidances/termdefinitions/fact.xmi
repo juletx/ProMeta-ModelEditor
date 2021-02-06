@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-BoxqXrLpUsIO-6SMZOTKlQ" name="new_term_definition_2,_B6TA0BtrEdu_BZ3CL1I6hw" guid="-BoxqXrLpUsIO-6SMZOTKlQ" authors="Jerome Boyer" changeDate="2008-09-03T03:59:07.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_fact&quot; name=&quot;XE_fact&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; tab-stops: list .5in 1.0in&quot;>
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span style=&quot;mso-bidi-language: HE&quot;>Facts are combinations of terms
+    that describe what business people know about their business. It&lt;/span> &lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>connects terms into sensible business relevant
+    observations.&lt;/span> &lt;span style=&quot;mso-bidi-language: HE&quot;>Facts may describe the relationships between terms, like an
+    Insurance Policy is a form of Contract, or it may describe the interactions between terms
+    (collaboration).&lt;/span>&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; tab-stops: list .5in 1.0in&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>Here are some examples of facts&lt;/span>
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; tab-stops: list .5in 1.0in&quot;>
+            &lt;span style=&quot;mso-bidi-language: HE&quot;>A coverage is the amount of protection against loss.&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; tab-stops: list .5in 1.0in&quot;>
+            &lt;span style=&quot;mso-bidi-language: HE&quot;>A Deductible is the amount the Insured must pay when a loss occurs.&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; tab-stops: list .5in 1.0in&quot;>
+            &lt;span style=&quot;mso-bidi-language: HE&quot;>A user must be part of a group, and the group includes the set of
+            permissions the user can use.&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>A taxpayer
+            files a tax return form.&lt;/span>&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>A insured enters a claim in the system.&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+            &lt;span
+            style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: AR-SA; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>&lt;span
+             style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: AR-SA; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>A
+            customer could have only one purchase order at a time&lt;/span>&lt;/span>
+        &lt;/div>&lt;br />
+    &lt;/li>
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

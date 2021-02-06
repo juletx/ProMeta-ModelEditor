@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-pNLG5Sw3YW-HjuCTssLRYA" name="new_concept,_Bb4xMJ8eEd-1Fp7x64HaLA" guid="-pNLG5Sw3YW-HjuCTssLRYA" changeDate="2010-08-03T09:43:44.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    The following are the primary benefits of documenting a method:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;em>Streamlines&lt;/em> the process, enabling consistency across the organization, both in terms of processes followed
+        and work products produced
+    &lt;/li>
+    &lt;li>
+        &lt;em>Reduces the risk and overall cost&lt;/em> of process execution, unifying process and governance to promote
+        operational excellence without over simplification
+    &lt;/li>
+    &lt;li>
+        &lt;em>Improves the quality&lt;/em> of what is produced.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    The following are some examples of how method authoring can save you time and money:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Defining your process is essentially establishing the rules of collaboration, which reduces failures, which cost
+        money. In many cases, projects fail because the team members don't understand the rules of collaboration. When you
+        share a common set of rules, everyone works more efficiently because there is a common understanding of who does
+        what.
+    &lt;/li>
+    &lt;li>
+        New team members can join and can be productive almost immediately. There is minimal &quot;ramp up&quot; time.
+    &lt;/li>
+    &lt;li>
+        When you document standard processes and then reuse those processes across projects, then you truly standardize
+        your way of working, which can save you time (teams don't have to spend time figuring out what to do next) and
+        money (you can standardize on a set of tools that have been optimized to support the process, and buying and
+        maintaining a standard set of tools is cheaper than buying and maintaining a collection of different tools).
+    &lt;/li>
+    &lt;li>
+        A standard set of terminology, artifacts, key activities, and so on makes it easy to consistently plan a method
+        development project.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    In some cases, having a documented process is a nice-to-have; however, in others, it is a requirement due to regulatory
+    and standards compliance and process certification. In any case, a documented process can go a long way to increasing
+    the efficiency, repeatability and predictability of the process.
+&lt;/p>
+&lt;p>
+    Formally, a method includes both method content&amp;nbsp;and processes. However, it is quite common to refer to &quot;process&quot;
+    in the general sense, where the process is assembled from method content.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

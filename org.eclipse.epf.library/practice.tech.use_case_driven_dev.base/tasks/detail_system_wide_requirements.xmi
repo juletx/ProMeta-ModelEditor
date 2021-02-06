@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-9sNgONA1WJCxf12B40uDgw" name="detail_system_wide_requirements,_4z8Z0EbEEdyx8quJU3Grxg" guid="-9sNgONA1WJCxf12B40uDgw" changeDate="2007-11-14T10:42:54.000-0800" version="1.0.0">
+  <keyConsiderations>To avoid unnecessary rework, only those requirements that are scheduled for implementation in the near term (in the next&#xD;
+iteration or two)&amp;nbsp;must be detailed.</keyConsiderations>
+  <sections xmi:id="_4z8Z1EbEEdyx8quJU3Grxg" name="Detail system-wide requirements" guid="_4z8Z1EbEEdyx8quJU3Grxg">
+    <sectionDescription>&lt;p>&#xD;
+    Some&amp;nbsp;system-wide requirements&amp;nbsp;might need to be clarified or described in more detail.&amp;nbsp;New&#xD;
+    requirements&amp;nbsp;may&amp;nbsp;be discovered&amp;nbsp;while the use cases and scenarios are detailed, and new requirements may&#xD;
+    have been submitted as change requests.&amp;nbsp;Collaborate with stakeholders to capture, refine and validate those&#xD;
+    requirements that will have an impact on near term, planned&amp;nbsp;work or are deemed architecturally significant.&amp;nbsp;&#xD;
+&lt;/p>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_4z8Z0UbEEdyx8quJU3Grxg" name="Detail glossary terms" guid="_4z8Z0UbEEdyx8quJU3Grxg">
+    <sectionDescription>Review the system-wide requirements and collaborate with stakeholders to ensure that you define newly discovered domain&#xD;
+terms, or ambiguous terms properly in the glossary. If your understanding of the domain has improved, refine existing&#xD;
+glossary terms.</sectionDescription>
+  </sections>
+  <sections xmi:id="_4z8Z0kbEEdyx8quJU3Grxg" name="Achieve concurrence" guid="_4z8Z0kbEEdyx8quJU3Grxg">
+    <sectionDescription>&lt;p>&#xD;
+    Review the&amp;nbsp;detailed system-wide requirements with relevant stakeholders and the development team to ensure&#xD;
+    consistency with the&amp;nbsp;agreed vision.&amp;nbsp;Assess quality and identify any required changes.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to describe one or more system-wide requirements in sufficient detail to validate understanding&#xD;
+of the requirements, to ensure concurrence with stakeholder expectations, and to permit software development to begin.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

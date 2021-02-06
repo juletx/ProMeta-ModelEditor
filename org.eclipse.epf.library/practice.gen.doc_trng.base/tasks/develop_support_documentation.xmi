@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-jWMpCvzhJPOglJcxCiAYjA" name="03_create_update_support_documenation,_nGAhcDHMEeC7j_IRiP-WPQ" guid="-jWMpCvzhJPOglJcxCiAYjA" changeDate="2012-05-30T13:11:48.626-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Support documentation often is the most overlooked aspect of a documentation effort. Anyone who has had the opportunity&#xD;
+    to provide end user support for a particular application can appreciate how important effective, well-written support&#xD;
+    documentation can be. This documentation very often is technical in nature and differs significantly from user or&#xD;
+    product documentation, which normally is written for the lay person.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The development team should do its best to make sure that personnel who perform an IT support role have the right&#xD;
+    amount and the relevant type of information necessary to support the application, whether they provide Tier 1, Tier 2,&#xD;
+    or Tier 3 support. Support documentation often is developed based on these three different support categories. How&#xD;
+    effectively the code base is commented and the ease with which those comments are found and understood contributes to&#xD;
+    the quality and quantity of support documentation.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_-zfOquB8EeC1y_NExchKwQ" name="Determine support documentation contents" guid="_-zfOquB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    This step is often challenging for development teams because they must put themselves in the position of IT support&#xD;
+    personnel to develop the right kind and right amount of useful content. It is advantageous to visit the support&#xD;
+    organization and ask them what types of documentation they would want delivered to them at each Release. You might be&#xD;
+    surprised at what they say, and it could make your documentation tasks easier if you know exactly what type of&#xD;
+    information they want.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Because every product is different, and because each program or IT support organization has unique needs, it is&#xD;
+    impossible to list recommended contents for support documentation. However, each program should create support&#xD;
+    documentation standards for the development teams that support its program.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_-zfOq-B8EeC1y_NExchKwQ" name="Leverage available materials" guid="_-zfOq-B8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    Use the development team's Release Plan as a mechanism to define the scope of the support documentation. Source&#xD;
+    materials that can contribute effectively to support documentation content include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Component Design Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architecture Notebook&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        User Stories&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test Cases&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test Scenarios&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Storyboards and Wireframes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defect Records&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Lessons Learned&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data Dictionary&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Logical and Physical Data Models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Coding Standards&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Acceptance Tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test Harness&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_-zfOqeB8EeC1y_NExchKwQ" name="Write support documentation" guid="_-zfOqeB8EeC1y_NExchKwQ">
+    <sectionDescription>Based on the previous steps, write the support documentation. One way to do this is to assign sections of the document&#xD;
+(determined in the step &quot;Determine Support Documentation Contents&quot; above) to development team members as sprint/iteration&#xD;
+tasks in the release sprint/iteration.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zfOrOB8EeC1y_NExchKwQ" name="Perform quality review" guid="_-zfOrOB8EeC1y_NExchKwQ">
+    <sectionDescription>As the support documentation is integrated, plan and conduct a quality review during the release sprint/iteration to ensure&#xD;
+that the documentation is of sufficient quantity and quality. Update and improve the support documentation based on the&#xD;
+results of the quality review.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zfOqOB8EeC1y_NExchKwQ" name="Deliver support documentation" guid="_-zfOqOB8EeC1y_NExchKwQ">
+    <sectionDescription>At the end of a release, deliver the completed support documentation to the deployment manager. Ensure that the program has&#xD;
+a plan for communicating the support documentation to the IT operations support organization in a timely manner.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to ensure that the personnel who are tasked with supporting the system have enough information&#xD;
+about the product to perform their jobs effectively after the product has been placed into production.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

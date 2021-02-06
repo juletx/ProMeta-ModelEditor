@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__ZiYw7ekEd-D7YZN9NgldQ" guid="__ZiYw7ekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__ZiYxLekEd-D7YZN9NgldQ" id="-bUpJuAJ9G1gNUYahDjpPSw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_Zf71oVmSEeCcpdiAcH0w-w" id="-ES65eVL1z5Jdpq38iB099w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_Zf71olmSEeCcpdiAcH0w-w" id="-4mHTAj_-HqRpSZirDsCVSQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ZgFmoFmSEeCcpdiAcH0w-w" id="-RlDD3QrzC4Q6jEgiidJMmg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ZgFmoVmSEeCcpdiAcH0w-w" id="-MzmademiTOM2WTRZYUndBg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_d9Oe8H9YEd26h9j0X6pKmw" name="deploy_business_rules" guid="_d9Oe8H9YEd26h9j0X6pKmw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fKYOkH9YEd26h9j0X6pKmw" name="deploy_rules" guid="_fKYOkH9YEd26h9j0X6pKmw" presentationName="Deploy Rules" briefDescription="Deploy rule set in the integrated core application" superActivities="_d9Oe8X9YEd26h9j0X6pKmw" mandatoryInput="_fKYOkX9YEd26h9j0X6pKmw" output="_fKYOkX9YEd26h9j0X6pKmw">
+      <presentation xmi:id="-ES65eVL1z5Jdpq38iB099w" href="uma://-bUpJuAJ9G1gNUYahDjpPSw#-ES65eVL1z5Jdpq38iB099w"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_AgQVAD5QEdyA6a_I80swHw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fKYOkX9YEd26h9j0X6pKmw" name="ruleset" guid="_fKYOkX9YEd26h9j0X6pKmw" presentationName="Ruleset" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_d9Oe8X9YEd26h9j0X6pKmw">
+      <presentation xmi:id="-4mHTAj_-HqRpSZirDsCVSQ" href="uma://-bUpJuAJ9G1gNUYahDjpPSw#-4mHTAj_-HqRpSZirDsCVSQ"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_mqnOETmsEdy8N6BRpa8ByQ"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_vjWPcDzEEdyA6a_I80swHw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fcstoH9YEd26h9j0X6pKmw" name="synchronize_with_wrms" guid="_fcstoH9YEd26h9j0X6pKmw" presentationName="Synchronize with Web-Based Rule Management System" superActivities="_d9Oe8X9YEd26h9j0X6pKmw" output="_fc2eoH9YEd26h9j0X6pKmw">
+      <presentation xmi:id="-RlDD3QrzC4Q6jEgiidJMmg" href="uma://-bUpJuAJ9G1gNUYahDjpPSw#-RlDD3QrzC4Q6jEgiidJMmg"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_YkGwYFtsEdykEsBjRsVfZw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fc2eoH9YEd26h9j0X6pKmw" name="rule_repository_in_db" guid="_fc2eoH9YEd26h9j0X6pKmw" presentationName="Rule Repository in DB" isPlanned="false" superActivities="_d9Oe8X9YEd26h9j0X6pKmw">
+      <presentation xmi:id="-MzmademiTOM2WTRZYUndBg" href="uma://-bUpJuAJ9G1gNUYahDjpPSw#-MzmademiTOM2WTRZYUndBg"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_jqxtYFttEdykEsBjRsVfZw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_d9Oe8X9YEd26h9j0X6pKmw" name="deploy_business_rules" guid="_d9Oe8X9YEd26h9j0X6pKmw" presentationName="Deploy Business Rules" breakdownElements="_fKYOkH9YEd26h9j0X6pKmw _fKYOkX9YEd26h9j0X6pKmw _fcstoH9YEd26h9j0X6pKmw _fc2eoH9YEd26h9j0X6pKmw">
+      <presentation xmi:id="-bUpJuAJ9G1gNUYahDjpPSw" href="uma://-bUpJuAJ9G1gNUYahDjpPSw#-bUpJuAJ9G1gNUYahDjpPSw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_NqYIdKeqEdmKDbQuyzCoqQ" name="test_case,_0ZS-0MlgEdmt3adZL5Dmdw" guid="_NqYIdKeqEdmKDbQuyzCoqQ" changeDate="2008-08-15T00:50:34.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+  <purpose>&lt;p>&#xD;
+    Use this artifact for the following purposes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To provide a way to capture test inputs, conditions, and expected results for a system&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To systematically identify aspects of the software to test&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To specify whether an expected result has been reached, based on the verification of a system requirement, set of&#xD;
+        requirements, or scenario&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  <impactOfNotHaving>&lt;p>&#xD;
+    Without this artifact, it is difficult to validate system functionality. Because this artifact specifies the conditions&#xD;
+    of acceptance between the stakeholders and the developers, without the artifact, it is difficult to establish exit&#xD;
+    criteria and to demonstrate that the exit criteria have been met. If the original test cases have not been documented,&#xD;
+    it is impossible to do regression testing.&#xD;
+&lt;/p></impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    It might not be necessary to create this artifact to maintain or make small enhancements to existing systems, which&#xD;
+    likely have existing test assets that you can use. You also might not need this artifact if you use a package&#xD;
+    application that has its own set of test cases.&#xD;
+&lt;/p></reasonsForNotNeeding>
+</org.eclipse.epf.uma:ArtifactDescription>

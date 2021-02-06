@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-xsQ27TDaTcUQ1VKUQG_HIQ" name=",_T9FbYFRFEd2o7OqLaYh8nA" guid="-xsQ27TDaTcUQ1VKUQG_HIQ" changeDate="2008-08-19T07:20:27.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Requirements&amp;nbsp;realizations represent how one or more requirements are fulfilled in the design. This can take&#xD;
+    various forms. It may include, for example, a textual description (a document), class diagrams of participating classes&#xD;
+    and subsystems, and interaction diagrams (communication and sequence diagrams) that illustrate the flow of interactions&#xD;
+    between class and subsystem instances.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In a model, requirements realization is typically represented as a UML collaboration that groups the diagrams and other&#xD;
+    information (such as textual descriptions) that form part of the realization.&amp;nbsp;&amp;nbsp; If using use cases, the&#xD;
+    collaboration may be further stereotyped as a use-case realization.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note that there can be more than one realization of the same set of requirements.&amp;nbsp; This is particularly important&#xD;
+    for larger projects, or families of systems where the same requirements may be designed differently in different&#xD;
+    products within the product family. Consider the case of a family of telephone switches which have many requirements in&#xD;
+    common, but which design and implement them differently according to product positioning, performance and price.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

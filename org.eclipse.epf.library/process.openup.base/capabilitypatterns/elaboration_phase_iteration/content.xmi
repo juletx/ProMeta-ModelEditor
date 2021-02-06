@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-TceMuWXdZ1TV2gERYKpA5g" name="elaboration_phase_iteration,_aUsVEdONEdyqlogshP8l4g" guid="-TceMuWXdZ1TV2gERYKpA5g" version="7.2.0">
+    <mainDescription>&lt;p>
+    Most activities during a typical iteration in Elaboration phase happen in parallel. Essentially, the main objectives
+    for Elaboration are related to better understanding the requirements, creating and establishing a baseline of the
+    architecture for the system, and mitigating top-priority risks.
+&lt;/p>
+&lt;p>
+    The following table summarizes the&amp;nbsp;Elaboration phase objectives and&amp;nbsp;what activities address each objective:
+&lt;/p>
+&lt;p align=&quot;center&quot;>
+    &lt;strong>Elaboration phase objectives and activities&lt;/strong>
+&lt;/p>
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;648&quot; align=&quot;center&quot; border=&quot;1&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;b>Phase objectives&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;b>Activities that address objectives&lt;/b>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                Get a more detailed understanding of the requirements
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                &lt;p>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/identify_and_refine_requirements_7FA6CB14.html&quot; guid=&quot;_xxcpgdOEEdyqlogshP8l4g&quot;>Identify and Refine Requirements&lt;/a>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                Design, implement, validate, and baseline an architecture
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/develop_architecture_C7BBA35B.html&quot; guid=&quot;_KaeNsdOFEdyqlogshP8l4g&quot;>Develop the Architecture&lt;/a>
+                &lt;/p>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/develop_solution_4FBB0E6E.html&quot; guid=&quot;_RXGoodOFEdyqlogshP8l4g&quot;>Develop Solution Increment&lt;/a>
+                &lt;/p>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/test_solution_D16D88FC.html&quot; guid=&quot;_buG4sdOFEdyqlogshP8l4g&quot;>Test Solution&lt;/a>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                Mitigate essential risks, and produce accurate schedule and cost estimates
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/plan_manage_iteration_F9713A62.html&quot; guid=&quot;_oZgCsdOEEdyqlogshP8l4g&quot;>Plan and Manage Iteration&lt;/a>&lt;br />
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table></mainDescription>
+    <alternatives>There will be iterations when projects risks are being addressed by creating software, but they may not be architecturally
+significant. In this case, &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/develop_solution_4FBB0E6E.html&quot; guid=&quot;_RXGoodOFEdyqlogshP8l4g&quot;>Develop Solution Increment&lt;/a> will be performed outside the context of the architecture. For the most part, Develop Solution will
+be performed in the context of &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/develop_architecture_C7BBA35B.html&quot; guid=&quot;_KaeNsdOFEdyqlogshP8l4g&quot;>Develop the Architecture&lt;/a> during the Elaboration phase.</alternatives>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-n6Q-ulwXte8wbHfbdgJuXQ" name="plan_deployment,_oaBE0JigEeGlkdGl1HQlDA" guid="-n6Q-ulwXte8wbHfbdgJuXQ">
+    <refinedDescription>&lt;p>&#xD;
+    Because a Deployment Engineer is responsible for accepting the results of one or more development team members and deploying those&#xD;
+    integrated releases into the production environment, it is important for all parties to agree on the details of a&#xD;
+    particular release. The Deployment Plan documents, in one place, all the information that will be consumed by the&#xD;
+    Deployment Engineer before and during the deployment to production of a particular release package.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-oaP9Gj-2L1Z-5iu6I7YuQA" name="deployment_engineer,_oaBE0ZigEeGlkdGl1HQlDA" guid="-oaP9Gj-2L1Z-5iu6I7YuQA">
+    <refinedDescription>&lt;p>&#xD;
+    A Deployment Engineer&amp;nbsp;assists the&amp;nbsp;Deployment Manager who is responsible to senior management for the&#xD;
+    successful deployment of integrated or stand-alone releases into production. This team member role is critical to the&#xD;
+    safety of the production environment and helps prevent the introduction of bad or untested code into production&amp;nbsp;on&#xD;
+    which the organization's internal and external Customers depend. Deployment Engineers support the Deployment Manager in&#xD;
+    the mission to continually lead, facilitate, and coordinate synchronized releases by using the program to&#xD;
+    maximize value delivered to their program Customers.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2H5-pLUbe_1EU9a_K7G8lg" name="deployment_plan,_oaK10JigEeGlkdGl1HQlDA" guid="-2H5-pLUbe_1EU9a_K7G8lg">
+    <refinedDescription>&lt;p>&#xD;
+    The Deployment Plan should contain the unique instructions for deploying a particular version of a product. By &quot;unique&#xD;
+    instructions&quot; we mean those things that are not part of a Deployment Engineer's normal procedures. Rather, they often&#xD;
+    are specific procedures and timing constraints that a Deployment Engineer should be aware of as they are rolling out a&#xD;
+    particular release.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While&amp;nbsp;a draft version of the&amp;nbsp;Deployment Plan is typically developed by a development team, the Deployment&#xD;
+    Engineer is responsible for its contents and existence.&amp;nbsp;A Deployment Plan&amp;nbsp;normally consists of the following&#xD;
+    sections:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The scope of the release and a general overview of the capabilities to be deployed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The timing and dependencies for deploying components to various nodes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The risks or issues associated with the release based on a risk assessment&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The customer organization, stakeholders, and End User community that will be impacted by the release&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The person or persons who have the authority to approve the release as &quot;ready for production&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The development team members responsible for delivering the release package to the Deployment Manager, along with&#xD;
+        contact information&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The approach for transitioning the release package to the Deployment Engineer, including appropriate communications&#xD;
+        protocols and escalation procedures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The success criteria for this deployment; in other words, how will the Deployment Engineer know that the release is&#xD;
+        successful so it can report success&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-r0AuJYtQwfZHI7WFZFRAVg" name="backout_plan,_oanhw5igEeGlkdGl1HQlDA" guid="-r0AuJYtQwfZHI7WFZFRAVg">
+    <refinedDescription>&lt;p>&#xD;
+    While someone on the development team normally authors a draft version of the Backout Plan, the Deployment Engineer is&#xD;
+    ultimately responsible for its contents and existence. A Backout Plan typically answers the following questions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Under what circumstances will a rollback be required? Or conversely, under what circumstances will the deployment&#xD;
+        be considered a success?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What is the time period within which a rollback can take place?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Which authorizing agent will make the decision to revert?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who will perform the rollback and how soon after the decision has been made will the rollback be performed?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What procedures (manual and automated) will be followed to execute the rollback?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What other contingency measures or available workarounds should be considered?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What is the expected time required to perform a reversion?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What are the communication procedures required in the event of a backout?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Has the Backout Plan been successfully tested?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dklyw-kN1blOVTzIdtlryg" name="release_communications,_oanhxpigEeGlkdGl1HQlDA" guid="-dklyw-kN1blOVTzIdtlryg">
+    <refinedDescription>&lt;p>&#xD;
+    Sometimes, depending on the product user base, separate communiques might need to be prepared for each stakeholder&#xD;
+    group. In that case, this artifact should specify the different groups to which communications are directed, the method&#xD;
+    of communication (e.g., email, text or pager message, bulletin, newsletter, phone message, etc.). All communiques&#xD;
+    should be prepared in advance so that it is a matter of disseminating information when the release to production has&#xD;
+    been determined to be successful.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Also included in this artifact is a listing of the responsible parties who will execute the communications when a&#xD;
+    successful release has been declared (normally the Deployment Engineer), as well as the timing and dependencies of the&#xD;
+    communiques.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While there is no prescribed format for the Release Communications artifact, each communique should indicate the&#xD;
+    preferred delivery mechanisms (e.g., beeper notification, telephone calls, a posting to an internal release website,&#xD;
+    live or pre-recorded presentations by senior management, etc.) and generally answer the following questions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Who are the parties (Stakeholders) that are interested in knowing that a release to production has taken place?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What specifically (features, functions, components) has been placed into production?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Why is this release valuable to stakeholders and what business purpose does it serve?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Where is the product available (on which platforms, geographical locations, business units, etc.)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How can the stakeholders access the system and under what circumstances?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When was the product released (or when will it be released if the release date is in the future)?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-waTDcdCVwbWvHp6f1prjPQ" name="release,_oanhyZigEeGlkdGl1HQlDA" guid="-waTDcdCVwbWvHp6f1prjPQ">
+    <refinedDescription>&lt;p>&#xD;
+    A Release consists of integrated, compiled code that runs cleanly, independently, and in its entirety. This is an&#xD;
+    important rule because in order to be released or even &quot;potentially shippable,&quot; a Release increment must be able to&#xD;
+    stand on its own, otherwise it is not shippable. Releases&amp;nbsp;can be created at either the program or team level.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are three potential uses for a Release:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>It is not used outside of the program:&lt;/strong> It has been produced to minimize risks linked to technology&#xD;
+        and a program's capability to integrate components and to produce a Build. This situation usually happens at the&#xD;
+        beginning of a new product lifecycle.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>It is used by Beta Customers and the Program Manager:&lt;/strong> It allows End Users to test it in a Beta&#xD;
+        test environment, which provides immediate feedback and reduces risks associated with user interface ergonomics.&#xD;
+        Customer feedback will influence the Program Backlog for later consideration.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>It is deployed or shipped and used by End Users:&lt;/strong> This result provides immediate value to the End&#xD;
+        Users.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In many organizations, a program Release typically is timeboxed to 2 to 3 months of development effort and 2 to 4 weeks&#xD;
+    of hardening which results in a scheduled release approximately every 90 days. Releases for individual Development&#xD;
+    Teams usually occur more often than those for programs, but there are no hard and fast rules regarding how often&#xD;
+    releases should be scheduled. The only requirement is that working software should be delivered &quot;frequently&quot; by both&#xD;
+    development teams and programs. Although the example timeframe described above is arbitrary, empirical evidence&#xD;
+    suggests it is about right for most companies and fits nicely into quarterly planning cycles.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each Release has a set of release objectives and a projected delivery date; it also has a planned number of Sprint/Iterations.&#xD;
+    For example, a brief description of a release might be: &quot;The goal of Release 2 is to provide B2B scheduling capability&#xD;
+    for the Ordering and Logistics Department. The Release is targeted for June 31 and will consist of five 2-week Feature&#xD;
+    Development Sprint/Iterations and&amp;nbsp;one 2-week Release Sprint/Iteration.&quot;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

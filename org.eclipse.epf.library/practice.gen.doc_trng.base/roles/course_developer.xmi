@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-C6ZZTqQccgTUpiCA8BWeKg" name="course_developer,_cQjSAPWkEeC0T_-ipt2c0Q" guid="-C6ZZTqQccgTUpiCA8BWeKg" changeDate="2011-10-13T08:09:19.045-0600" version="7.5.1">
+  <mainDescription>Many organizations engage Course Developers to develop product training&amp;nbsp;materials for various audiences. Unlike a&#xD;
+software Developer, most Course Developers have extensive experience in creating training materials that are well suited to&#xD;
+communicating complex concepts to end users. They bring a necessary creativity and talent that complements the&#xD;
+implementation and testing skills of a development team.</mainDescription>
+  <skills>&lt;p>&#xD;
+    A Course Developer should possess the following skills:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A strong understanding of the domain in which features are being developed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create compelling training materials, lab exercises, and workshops&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Understand complex technical concepts and translate them into user-friendly training materials&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Obtain technical details from Developers, Testers, Product Owners, and Technical Writers and translate them into&#xD;
+        concise, well-organized training courses&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Adhere to corporate training standards&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></skills>
+</org.eclipse.epf.uma:RoleDescription>

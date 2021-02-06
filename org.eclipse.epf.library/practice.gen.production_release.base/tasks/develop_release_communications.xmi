@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-FWdvN43s5ux00S-GVpDH-w" name="05_develop_release_communications,_g-LLEDHNEeC7j_IRiP-WPQ" guid="-FWdvN43s5ux00S-GVpDH-w" changeDate="2011-07-28T12:31:26.269-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    When a release is pushed to production, all the stakeholders of that product should be notified that the event has&#xD;
+    happened and what the release means to each of the stakeholders. Often, the output of this task does not need to be&#xD;
+    created from scratch; for products that plan multiple releases, just updating the communique details for each release&#xD;
+    might be enough. However, if any of the stakeholder groups change, or there is a significant difference in the product&#xD;
+    distribution, more significant content might need to be developed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In any case, communicating effectively to the end user community is important. A development team can develop high&#xD;
+    quality software, but if messaging to the stakeholders is conducted poorly or not at all, the end user experience might&#xD;
+    be degraded. By simply answering the questions &quot;who, what, when, where, why, and how&quot; in a format appropriate for each&#xD;
+    stakeholder group, a product release can become a more satisfying experience for all those involved.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_IAJWBuB-EeC1y_NExchKwQ" name="Identify stakeholders for this release" guid="_IAJWBuB-EeC1y_NExchKwQ">
+    <sectionDescription>The development team should know exactly which stakeholder groups will benefit from the upcoming release. First, identify&#xD;
+the stakeholders for this release. Next, determine how each stakeholder group is expected to benefit from the release based&#xD;
+on the components that will be delivered to production.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAJWBeB-EeC1y_NExchKwQ" name="Draft communique for each stakeholder group" guid="_IAJWBeB-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    For each stakeholder group, document the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The features that will be deployed to production that those stakeholders are expected to benefit from&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The business value that stakeholder group will obtain from the feature set being released&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How, when, and where that stakeholder group will be able to access the new functionality and what special&#xD;
+        credentials or permissions are required&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Any additional constraints or information that the stakeholder group should be aware of, such as availability&#xD;
+        restrictions, geographical restrictions, server limitations, regulatory requirements, etc.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_IAJWB-B-EeC1y_NExchKwQ" name="Provide commiques to deployment manager" guid="_IAJWB-B-EeC1y_NExchKwQ">
+    <sectionDescription>After drafting the communiques for each stakeholder group, the development team should provide those drafts to the&#xD;
+deployment manager. Typically, release communications are consolidated and released at the program level. The deployment&#xD;
+manager and deployment engineers normally are responsible for ensuring that all release communications are consistent and&#xD;
+concise. The deployment manager will determine the appropriate time to communicate information about the upcoming release&#xD;
+to the appropriate stakeholders.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to create the content and criteria to identify who is notified and to describe how they are&#xD;
+notified after a release is deployed successfully to the production environment.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

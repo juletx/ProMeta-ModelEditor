@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-pyI2dIKLruhVeNCMc3MUdQ" name="rule_repository,_wDTDQCC-EduGAdKOTiDQdQ" guid="-pyI2dIKLruhVeNCMc3MUdQ" authors="Jerome Boyer" changeDate="2007-12-13T07:42:27.000-0800" version="1.0.0">
+  <mainDescription>&lt;p>
+    &lt;a id=&quot;XE_rule_repository&quot; name=&quot;XE_rule_repository&quot;>&lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Central
+    place where business rules and information about their execution are kept and maintained in an organized way. A
+    repository contains one or more projects. You can save a repository in a file system or in a database.&lt;/span>&lt;/a>
+&lt;/p>&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_fPbdIKe2Edmzde8VFK5bxg" name="plan_the_project,_0lC70MlgEdmt3adZL5Dmdw" guid="_fPbdIKe2Edmzde8VFK5bxg" changeDate="2008-07-14T01:50:23.000-0700" version="1.0.0">
+  <mainDescription>Developing the project plan provides an opportunity for the team to agree on project scope, objectives, initial timeframe,&#xD;
+and deliverables. It allows the team to begin demonstrating self-organization by defining success criteria and work&#xD;
+practices to be used. Collaboration and consensus by all key project participants is the goal, but the role responsible for&#xD;
+this task must ensure that everybody is committed to the plan.</mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Gain agreement with stakeholders and the rest of the project team regarding the order of objectives and the duration of&#xD;
+    the project. Make adjustments as&amp;nbsp;necessary.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_gu-PgIyBEdyhZb-MhCJrlA" name="Identify a cohesive team" guid="_gu-PgIyBEdyhZb-MhCJrlA">
+    <sectionDescription>Revisit the resourcing for the project.&amp;nbsp;Identify gaps and initiate hiring or re-allocation of resources as needed.&#xD;
+Discuss with the team who plays which roles, and have them agree on their responsibilities.</sectionDescription>
+  </sections>
+  <sections xmi:id="_jknm8IyBEdyhZb-MhCJrlA" name="Estimate project size" guid="_jknm8IyBEdyhZb-MhCJrlA">
+    <sectionDescription>&lt;p>&#xD;
+    The&amp;nbsp;team produces rough size estimates for each work item&amp;nbsp;found in the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot; guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[Project&#xD;
+    Work]&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Discuss with stakeholders to&amp;nbsp;determine what is realistic to develop within the constraints of the&#xD;
+    project.&amp;nbsp;Use stakeholder priorities and estimates from the team to guide these discussions.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_4Xg3QOFpEdyhmsbt0Xyl8A" name="Forecast project velocity and duration" guid="_4Xg3QOFpEdyhmsbt0Xyl8A">
+    <sectionDescription>&lt;p>&#xD;
+    Define the iteration length and use it to assess target velocity. The number of items to be delivered in each iteration&#xD;
+    will be set by the velocity of the team and the estimates for each item.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the project is feature-driven, the team uses the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot; guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[Project&#xD;
+    Work]&lt;/a>&amp;nbsp;and target velocity to forecast the number of iterations required to complete the project. If the&#xD;
+    project instead is date-driven, the team assesses (using the known velocity of the&amp;nbsp;team) roughly how much work can&#xD;
+    be done in the given time-frame. Out-of-scope work can be considered&amp;nbsp;for future releases.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The team should not spend too much time&amp;nbsp;doing this planning. The project plan should document only&amp;nbsp;a brief&#xD;
+    summary of&amp;nbsp;project milestones&amp;nbsp;and between one and three objectives for each iteration. Do not commit&#xD;
+    individual work items to the plan, because this will force too much re-planning. The goal is just to create a&#xD;
+    high-level plan outlining how&amp;nbsp;the team&amp;nbsp;can build the resulting application in the given set of iterations.&#xD;
+    Extra levels of detail will be achieved in other planning sessions throughout the project (for example, when planning&#xD;
+    iterations). You may need to revisit&amp;nbsp;this plan&amp;nbsp;later to adapt it based on what you will&#xD;
+    learn&amp;nbsp;by&amp;nbsp;running&amp;nbsp;the iterations.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_lrYj0MBAEdqSgKaj2SZBmg" name="Evaluate risks" guid="_lrYj0MBAEdqSgKaj2SZBmg">
+    <sectionDescription>&lt;p>&#xD;
+    The team identifies project risks, performs a qualitative risk analysis to assess their order of magnitude, and updates&#xD;
+    the&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../core.mgmt.slot.base/workproducts/project_risk_slot_FC0351C4.html&quot;&#xD;
+    guid=&quot;_0TkXgNpUEdyzZqGyZ7hwdw&quot;>[Project Risk]&lt;/a>. The project manager facilitates the team decision about which risks&#xD;
+    they should respond to, and which risks they should watch for.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Responses may include avoiding or mitigating risks, exploring opportunities, or increasing the probability and positive&#xD;
+    impacts of the risk. Depending on the case, work items may have to be added or removed from the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot; guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[Project&#xD;
+    Work]&lt;/a> to make sure that responses will be prioritized and handled by the team along with other project work.&#xD;
+    Because it is not feasible to plan responses for all identified risks, the team&amp;nbsp;may decide to accept some of them.&#xD;
+    Keep the risks to watch in the risks list, and communicate them to stakeholders.&amp;nbsp;Determine actions only if they&#xD;
+    occur.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_xWBhUIyBEdyhZb-MhCJrlA" name="Establish costs and articulate value" guid="_xWBhUIyBEdyhZb-MhCJrlA">
+    <sectionDescription>&lt;p>&#xD;
+    Develop a rough order of magnitude estimate for the costs of resources needed to complete project work items.&amp;nbsp;A&#xD;
+    simplified project costing model&amp;nbsp;can be&amp;nbsp;applied by&amp;nbsp;multiplying the approximate cost per person for the&#xD;
+    entire team by the length of an iteration to derive ongoing financial impact (that is, cost per iteration). This first&#xD;
+    round of planning should keep things very rough and flexible. The goal is just to articulate value against the budget&#xD;
+    constraints of the project, and to help stakeholders decide whether it is worth moving forward with the project or not.&#xD;
+    If necessary, propose options to decrease costs, such as removing low-value and high-cost work items from the scope .&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_zeN84IyBEdyhZb-MhCJrlA" name="Plan deployment" guid="_zeN84IyBEdyhZb-MhCJrlA">
+    <sectionDescription>&lt;p>&#xD;
+    Plan the strategy for deploying the software (and its updates) into the production environment as early as possible,&#xD;
+    because it may impact the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot; guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[Project&#xD;
+    Work]&lt;/a>. The team may need to discuss the release timeframe with the operations and support departments to ensure&#xD;
+    that the project fits into the overall corporate deployment system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Whenever possible, the team should consider deploying small releases (release cycles of three to four months at most).&#xD;
+    Releasing software into production frequently is a good way to&amp;nbsp;get early feedback from the users, in order&#xD;
+    to&amp;nbsp;enhance the overall product quality.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Capture the objectives for deployment and release dates in the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.mgmt.release_planning.base/workproducts/project_plan_1CDBB7E4.html&quot;&#xD;
+    guid=&quot;_0a6vcMlgEdmt3adZL5Dmdw&quot;>Project Plan&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>Get stakeholder buy-in for starting the project and team commitment to move forward with it. This plan can be updated as&#xD;
+the project progresses based on feedback and changes in the environment.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-yNrF2Ac8VgD0WjoUxGOsIQ" name="identify_and_refine_requirements,_xxcpgdOEEdyqlogshP8l4g" guid="-yNrF2Ac8VgD0WjoUxGOsIQ" version="7.2.0">
+    <mainDescription>&lt;p>
+    This activity describes the tasks you perform to gather, specify, analyze, and validate a subset of system's
+    requirements prior to implementation and verification. This does not imply that all requirements are detailed prior to
+    commencing implementation. Rather, you perform this activity throughout the lifecycle with stakeholders and the entire
+    development team collaborating to ensure that a clear, consistent, correct, verifiable, and feasible set of
+    requirements is available, as needed, to drive implementation and verification.
+&lt;/p>
+&lt;p>
+    During &lt;b>Inception&lt;/b>, the focus is on gaining agreement on the problem to be solved, gathering stakeholder needs,
+    and capturing high-level system features.
+&lt;/p>
+&lt;p>
+    During &lt;b>Elaboration&lt;/b>, the focus shifts to defining the solution. This consists of finding those requirements that
+    have the most value to stakeholders, that are particularly challenging or risky, or that are architecturally
+    significant. You then describe requirements (that are prioritized, via the work items list, for implementation in the
+    early iterations) in sufficient detail to validate the development team's understanding of the requirements, to ensure
+    concurrence with stakeholders, and to permit software development to begin. For each of these requirements, define
+    associated test cases to ensure that the requirements are verifiable, and to provide the guidance needed for
+    verification and validation.
+&lt;/p>
+&lt;p>
+    During Construction, the focus shifts to refining the system definition. This consists of detailing the remaining
+    requirements and associated test cases as necessary to drive implementation and verification, and managing requirements
+    change.
+&lt;/p></mainDescription>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-x896fGqISERWysfNwjvB7w" name="system_wide_requirements,_EOwqptOLEdyqlogshP8l4g" guid="-x896fGqISERWysfNwjvB7w">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-T_J_cyYgoF4KWAcGQbdjjA" name="glossary,_EOwqqNOLEdyqlogshP8l4g" guid="-T_J_cyYgoF4KWAcGQbdjjA">
+    <keyConsiderations>&lt;p>&#xD;
+    Although listed as an &lt;i>output from&lt;/i> and an &lt;i>input to&lt;/i> tasks associated with the requirements discipline, this&#xD;
+    artifact can be updated at any time and by any role as new terms are identified. The terms defined should be used&#xD;
+    according to the recorded definitions in all project documentation so that all stakeholders can clearly see that terms&#xD;
+    are being used consistently.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    One of the primary decisions when developing&amp;nbsp;this artifact&amp;nbsp;is whether to have all terms in a single glossary&#xD;
+    or to maintain terms in several glossaries, business terms artifacts, or models.&amp;nbsp;If terms are defined in multiple&#xD;
+    places, you need to communicate all of those sources to the team and decide which take precedence.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It may be important, even in small projects, to reference and use existing broader glossaries, business terms&#xD;
+    artifacts, or data models, where they exist.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Industry- and organization-wide glossaries may be referenced, and compliance with such specific chosen standards may be&#xD;
+    required.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;helps you avoid miscommunication by providing two essential resources:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A central location to look for terms and abbreviations that are new to development team members&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Definitions of terms that are used in specific ways within the domain&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Definitions for the glossary terms come from several sources, such as requirements documents, specifications, and&#xD;
+    discussions with stakeholders and domain experts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7g1n_R9Eg7zeKCdFrem74A" name="detail_use_case_scenarios,_FX7SINOLEdyqlogshP8l4g" guid="-7g1n_R9Eg7zeKCdFrem74A">
+    <keyConsiderations>&lt;p>&#xD;
+    To avoid unnecessary rework, only those use-case scenarios that are scheduled for implementation in the near term (in&#xD;
+    the next iteration or two)&amp;nbsp;must be detailed.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Not all use-case scenarios require detailing.&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-snrpmf_Kt0OZ2R7QKJufUQ" name="detail_system_wide_requirements,_F68foNOLEdyqlogshP8l4g" guid="-snrpmf_Kt0OZ2R7QKJufUQ">
+    <keyConsiderations>To avoid unnecessary rework, only those requirements that are scheduled for implementation in the near term (in the next&#xD;
+iteration or two)&amp;nbsp;must be detailed.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Afh79qcpEs6i404AABE0rA" name="create_test_cases,_HDOWUNOLEdyqlogshP8l4g" guid="-Afh79qcpEs6i404AABE0rA">
+    <keyConsiderations>&lt;p>&#xD;
+    Develop test cases in parallel with requirements so that Analysts and stakeholders can agree with the specific&#xD;
+    conditions of satisfaction for each requirement. The test cases act as acceptance criteria by expanding on the intent&#xD;
+    of the system&amp;nbsp;through actual scenarios of use.&amp;nbsp;This allows team members to measure progress in terms of&#xD;
+    passing test cases.&amp;nbsp;&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bQ7hVBwsq2Dzk11CI9pT_g" name="test_case,_HDOWUtOLEdyqlogshP8l4g" guid="-bQ7hVBwsq2Dzk11CI9pT_g">
+    <refinedDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-IDdeF_boiqzJJnjpXrdLFQ" name="architecture_discipline,_iGSHsFZ-EdyIUdvDLLUdeg" guid="-IDdeF_boiqzJJnjpXrdLFQ" changeDate="2008-02-09T01:24:59.000-0800" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    The purpose of this discipline is to evolve a robust architecture for the system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Architecture discipline is related to these other disciplines:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../core.default.cat_def.base/disciplines/requirements_discipline_9520664.html&quot;&#xD;
+        guid=&quot;_iGSHtVZ-EdyIUdvDLLUdeg&quot;>Requirements&lt;/a>&amp;nbsp;discipline provides the architecturally significant&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../core.default.cat_def.base/disciplines/development_discipline_44C02445.html&quot;&#xD;
+        guid=&quot;_iGSHsVZ-EdyIUdvDLLUdeg&quot;>Development&lt;/a>&amp;nbsp;discipline designs and implements the architecture.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.default.cat_def.base/disciplines/test_discipline_F7EB1A7A.html&quot;&#xD;
+        guid=&quot;_iGSHtlZ-EdyIUdvDLLUdeg&quot;>Test&lt;/a>&amp;nbsp;discipline verifies the stability and correctness of the architecture.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../core.default.cat_def.base/disciplines/project_management_discipline_FEB42654.html&quot;&#xD;
+        guid=&quot;_iGSHtFZ-EdyIUdvDLLUdeg&quot;>Project Management&lt;/a>&amp;nbsp;discipline plans the project and each iteration.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

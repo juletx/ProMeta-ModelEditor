@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:PracticeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-MOoQ_OfD89D0nh4_1aSAuw" name="rapid_testing,_9z1PgJ6NEdyQN-zRFaRrCQ" guid="-MOoQ_OfD89D0nh4_1aSAuw" changeDate="2008-08-07T02:33:18.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    This practice requires a high degree of integration and high-bandwidth communication between developers and testers.&#xD;
+    Given these requirements, the following are the main conditions for applying this practice:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Coverage:&lt;/b> Component, feature, and subsystem (or system) testing&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Team considerations:&lt;/b> Small team with embedded tester or testers&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <problem>This practice adopts testing throughout an iteration, concurrent with development. This prevents teams from compressing&#xD;
+testing into a separate activity at the end of an iteration or release. Concurrent testing reinforces the concept of&#xD;
+feature teams working in parallel.</problem>
+  <application>&lt;p>&#xD;
+    Use a multi-prong approach when you review this practice. You can start by focusing on the work products that will be&#xD;
+    produced or used during testing and then shift to the tasks involved in processing those artifacts. You might play&#xD;
+    different roles within your team. If you are a tester, then you will need to get a very good understanding of the&#xD;
+    artifacts, the tasks, and the guidelines supporting them. For a developer, the main points of interest are the&#xD;
+    artifacts used within this practice.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Start with the Test artifacts, read their description, and understand when they are used (produced or used), by whom,&#xD;
+    and which roles are mainly responsible:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.tech.common.extend_supp/workproducts/test_case_335C5DEA.html&quot;&#xD;
+        guid=&quot;_0ZS-0MlgEdmt3adZL5Dmdw&quot;>Test Case&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html&quot;&#xD;
+        guid=&quot;_0ZfMEMlgEdmt3adZL5Dmdw&quot;>Test Script&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.tech.common.extend_supp/workproducts/test_log_CBA2FDF4.html&quot;&#xD;
+        guid=&quot;_0ZlSsMlgEdmt3adZL5Dmdw&quot;>Test Log&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Switch the focus to tasks and, depending on your main role within the team, review the associated guidelines, concepts&#xD;
+    and, if applicable, the tool-related guidance:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../../practice.tech.concurrent_testing.base/tasks/create_test_cases_D39E98A1.html&quot;&#xD;
+        guid=&quot;_0iwc0clgEdmt3adZL5Dmdw&quot;>Create Test Cases&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../../practice.tech.concurrent_testing.base/tasks/implement_tests_26F00282.html&quot;&#xD;
+        guid=&quot;_0jO98MlgEdmt3adZL5Dmdw&quot;>Implement Tests&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../../practice.tech.concurrent_testing.base/tasks/run_tests_49698054.html&quot;&#xD;
+        guid=&quot;_0jVEkMlgEdmt3adZL5Dmdw&quot;>Run Tests&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></application>
+</org.eclipse.epf.uma:PracticeDescription>

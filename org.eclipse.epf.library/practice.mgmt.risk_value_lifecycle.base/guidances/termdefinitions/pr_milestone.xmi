@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-JegYQHIteCRN0iV2EKMjSA" name=",_QuywUEvFEdunZcj9T5hrMQ" guid="-JegYQHIteCRN0iV2EKMjSA" changeDate="2008-07-08T03:26:32.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Fourth major project milestone that occurs at the end of the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/termdefinitions/transition_6F9C9F4B.html&quot;&#xD;
+    guid=&quot;_-5ms4EvDEdunZcj9T5hrMQ&quot;>Transition&lt;/a>&amp;nbsp;phase. At this point, decide whether the objectives were met and&#xD;
+    whether you should start another development cycle. This milestone&amp;nbsp;is the result of the customer reviewing and&#xD;
+    accepting the project deliverables.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

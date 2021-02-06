@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-3kVaHsAKwWzKBx12XV-xTg" name="new_concept,_jivyULseEdyfAY9BXNFkDg" guid="-3kVaHsAKwWzKBx12XV-xTg" changeDate="2008-01-04T03:42:07.000-0800" version="7.2.0">
+  <mainDescription>&lt;h3>&#xD;
+    &lt;a id=&quot;Use-Case Diagrams&quot; name=&quot;Use-Case Diagrams&quot;>Use-Case Diagrams&lt;/a>&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    You may choose to illustrate how a use case relates to actors and other use cases in a use-case diagram (in unusual&#xD;
+    cases, more than one diagram). This is useful if the use case is involved with many actors, or has relationships to&#xD;
+    many other use cases. A diagram of this kind is of &quot;local&quot; character, since it shows the use-case model from the&#xD;
+    perspective of one use case only and is not intended to explain any general facts about the whole use-case model. Refer&#xD;
+    to&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/use_case_model_4C64E97D.html&quot;&#xD;
+    guid=&quot;_0VAUsMlgEdmt3adZL5Dmdw&quot;>Guideline: Use-Case Model&lt;/a> for more information.&lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

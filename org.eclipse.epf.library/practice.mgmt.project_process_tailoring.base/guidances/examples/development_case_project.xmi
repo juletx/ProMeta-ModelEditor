@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-pR6ni3h0dcW2muuMCoRzgw" name="development_case_project,_uWZwAF3gEd-8pIBWBGuz7w" guid="-pR6ni3h0dcW2muuMCoRzgw" changeDate="2010-05-17T02:26:20.000-0700" version="7.1.0">
+  <mainDescription>&lt;h3 class=&quot;Section1&quot;>
+    The XYZ Project Process
+&lt;/h3>
+&lt;h3 class=&quot;Section1&quot;>
+    1. Introduction
+&lt;/h3>
+&lt;h4 class=&quot;Section1&quot;>
+    1.1 Purpose
+&lt;/h4>
+&lt;p class=&quot;MsoBodyText&quot;>
+    This document describes the process followed by project XYZ.
+&lt;/p>
+&lt;h4 class=&quot;Section1&quot;>
+    1.2 Definitions, Acronyms, and Abbreviations
+&lt;/h4>
+&lt;p class=&quot;MsoBodyText&quot;>
+    See the &lt;u>&lt;font color=&quot;#0000ff&quot;>XYZ Project Glossary&lt;/font>&lt;/u> (XYZ-GLO) for a comprehensive list of terms used on
+    this project.
+&lt;/p>
+&lt;h4 class=&quot;Section1&quot;>
+    1.3 Overview
+&lt;/h4>
+&lt;p class=&quot;MsoBodyText&quot;>
+    Project XYZ generally follows the &lt;u>&lt;font color=&quot;#0000ff&quot;>Disciplined Agile Delivery for ABC V2.0&lt;/font>&lt;/u> (DAD-ABC)
+    process configuration, which is the default software development process for most projects at Company ABC.
+&lt;/p>
+&lt;p class=&quot;MsoBodyText&quot;>
+    The remainder of this development case addresses how this project deviates from the standard process. It explains how
+    the lifecycle model, discipline workflows, work products usage, and associated roles are customized for the needs of
+    XYZ Project.
+&lt;/p>
+&lt;h3 class=&quot;Section1&quot;>
+    2. Lifecycle
+&lt;/h3>
+&lt;p class=&quot;Section1&quot;>
+    The XYZ Project modifies the standard lifecycle described in DAD-ABC as follows:
+&lt;/p>
+&lt;div class=&quot;Section1&quot;>
+    &lt;ul type=&quot;square&quot;>
+        &lt;li>
+            Drop &quot;Elaboration&quot; phase and the &quot;Lifecycle architecture&quot; milestone, in order to follow a more evolutionary
+            architecture approach. However, weekly project status reporting will report progress on architecture risks.
+        &lt;/li>
+    &lt;/ul>
+&lt;/div>
+&lt;p>
+    Thus the phases and milestones will be as follows:
+&lt;/p>
+&lt;ul type=&quot;square&quot;>
+    &lt;li>
+        Inception phase
+    &lt;/li>
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>
+        &lt;ul type=&quot;circle&quot;>
+            &lt;li>
+                stakeholder consensus achieved
+            &lt;/li>
+        &lt;/ul>
+    &lt;/li>
+    &lt;li>
+        Construction phase:
+    &lt;/li>
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>
+        &lt;ul type=&quot;circle&quot;>
+            &lt;li>
+                Sufficient functionality
+            &lt;/li>
+        &lt;/ul>
+    &lt;/li>
+    &lt;li>
+        Transition phase
+    &lt;/li>
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>
+        &lt;ul type=&quot;circle&quot;>
+            &lt;li>
+                Production ready
+            &lt;/li>
+        &lt;/ul>
+    &lt;/li>
+&lt;/ul>
+&lt;h3>
+    3. Practices
+&lt;/h3>
+&lt;p class=&quot;MsoBodyText&quot;>
+    Project XYZ follows all the practices in DAD-ABC, with the exception of &quot;Staged Integration&quot;. The project is small
+    enough that only a single integration stream is required, and no dedicated integrator role is required.
+&lt;/p>
+&lt;h3>
+    4. Work Products
+&lt;/h3>
+&lt;p>
+    With regards to work products, the XYZ project has some deviations from DAD-ABC as listed below:
+&lt;/p>
+&lt;ul type=&quot;square&quot;>
+    &lt;li>
+        Formal-Internal reviews and approvals are made by the Product Manager role, as opposed to the external Project
+        Review Authority established by the &lt;u>&lt;font color=&quot;#0000ff&quot;>ABC Governance Process&lt;/font>&lt;/u> (ABC-GOV).
+    &lt;/li>
+    &lt;li>
+        Globalization Plan is waived: the XYZ product will be initially marketed in North America, and therefore a waiver
+        for translation is requested.
+    &lt;/li>
+    &lt;li>
+        Software Architecture Document is not produced; instead, we generate automated reports from our visual modeling
+        tool.
+    &lt;/li>
+    &lt;li>
+        Added new artifact for Storyboards, which are maintained in Rational Requirements Composer tool
+    &lt;/li>
+    &lt;li>
+        Rational Team Concert tool is used to capture User Stories description and related work. The User Stories in
+        Rational Team Concert are linked to the respective Storyboards in Rational Requirements Composer.
+    &lt;/li>
+&lt;/ul>
+&lt;h3>
+    5. Reports
+&lt;/h3>
+&lt;p class=&quot;MsoBodyText&quot;>
+    In addition to standard metrics required by ABC-GOV, the Team Lead gathers Requirements Traceability Coverage metrics
+    and use Rational Insight tool to generate them, as there is a need to be aware of high level system requirements that
+    were allocated to and refined by the XYZ project team.
+&lt;/p>
+&lt;p class=&quot;MsoBodyText&quot;>
+    The team lead takes snapshots of all metrics every 2 weeks as opposed to once a month, as indicated by ABC-GOV.
+&lt;/p>
+&lt;h3>
+    6. Roles
+&lt;/h3>
+&lt;p class=&quot;MsoBodyText&quot;>
+    Added Course Developer role to the team - as part of the project we need to produce training material.
+&lt;/p>
+&lt;p class=&quot;MsoBodyText&quot;>
+    Team Lead on this project will be referred to as covering both the Project Manager and Architect roles.
+&lt;/p>
+&lt;p class=&quot;MsoBodyText&quot;>
+    Note: The assignment of specific individuals to particular roles or job positions is documented in the &lt;u>&lt;font
+    color=&quot;#0000ff&quot;>XYZ Project Plan&lt;/font>&lt;/u> (XYZ-PPLAN).
+&lt;/p>
+&lt;h3>
+    7. Project-Specific Guidelines and Procedures
+&lt;/h3>
+&lt;ul>
+    &lt;li>
+        &lt;font color=&quot;#0000ff&quot;>&lt;u>Getting started on the XYZ Development Environment&lt;/u>&lt;/font>
+    &lt;/li>
+    &lt;li>
+        &lt;font color=&quot;#0000ff&quot;>&lt;u>ABC Architectural Guidelines&lt;/u>&lt;/font>
+    &lt;/li>
+    &lt;li>
+        &lt;font color=&quot;#0000ff&quot;>&lt;u>Q Language Programming Guidelines&lt;/u>&lt;/font>
+    &lt;/li>
+    &lt;li>
+        &lt;font color=&quot;#0000ff&quot;>&lt;u>Requirements Management Guidelines&lt;/u>&lt;/font>
+    &lt;/li>
+    &lt;li>
+        &lt;font color=&quot;#0000ff&quot;>&lt;u>Configuration and Change Management Guidelines&lt;/u>&lt;/font>
+    &lt;/li>
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

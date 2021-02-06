@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Mm7s8vlK5CaZZ_Msx8reCQ" name="new_concept,_HlRqANpbEdyP58ppo1Ieaw" guid="-Mm7s8vlK5CaZZ_Msx8reCQ" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Architectural goals provide the motivation and rationale&amp;nbsp;for decisions. These goals are&amp;nbsp;often driven&#xD;
+    by&amp;nbsp;the software requirements, particularly system-wide requirements [&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../../core.tech.common.base/guidances/supportingmaterials/references.tech_6CCF393.html&quot;&#xD;
+    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;>ALL02&lt;/a>].&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Architectural goals define how the system needs to respond to change over time. Architectural goals tend to address the&#xD;
+    following questions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        What is the expected lifespan of the system?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Will the system need to respond to technological changes over that time, such as new versions of middleware or&#xD;
+        other products?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How&amp;nbsp;frequently is&amp;nbsp;the system&amp;nbsp;expected to adapt to change?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What changes can we anticipate in the future, and how can we make them easier to accommodate?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    These considerations will have a significant effect on the structure of the system.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

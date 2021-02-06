@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-PGUrY4neqnbUO1lGQgrxPA" name="new_example,_JJPqoCDYEducJvsymsZgEQ" guid="-PGUrY4neqnbUO1lGQgrxPA" authors="Jerome Boyer" changeDate="2008-01-26T03:39:54.000-0800" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_atomicity&quot; name=&quot;XE_rule_atomicity&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>Example to breakdown rule into atomic level:&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&quot;&lt;i>The credit card used to guarantee a rental must belong to one of
+    the authorized drivers; and this driver must sign the rental agreement. Other drivers must sign an additional drivers
+    authorization form&lt;/i>&quot;&lt;/span>&lt;br />
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>The above rule can be broken down to following rules:&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>R1: &lt;i>The credit card used to guarantee a rental must belong to one
+    of the authorized drivers&lt;/i>&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+    &lt;i>&lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>R2: driver must sign the rental agreement&lt;/span>&lt;/i>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+    &lt;i>&lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>R3: Other drivers must sign an additional drivers authorization
+    form&lt;/span>&lt;/i>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+    An other example in the insurance industry for a claim processing application:
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+    &amp;nbsp;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

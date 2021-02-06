@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-3Jpwts4YZlF8GJjQaSINRA" name="plan_the_project.additions,_yKWvEL8HEdyWX5Yd-9QZ1A" guid="-3Jpwts4YZlF8GJjQaSINRA" version="7.2.0">
+  <sections xmi:id="_X63B4OFtEdyhmsbt0Xyl8A" name="Outline project lifecycle" guid="_X63B4OFtEdyhmsbt0Xyl8A">
+    <sectionDescription>&lt;p>&#xD;
+    Organize&amp;nbsp;iterations into a set of phases. Each phase in the project lifecycle will end with a milestone aimed at&#xD;
+    providing stakeholders with&amp;nbsp;oversight and steering mechanisms to control project funding, scope, risk exposure,&#xD;
+    value provided, and other aspects of the process (see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/project_lifecycle_203F87.html&quot;&#xD;
+    guid=&quot;_nSfVwCNYEdyCq8v2ZO4QcA&quot;>Concept: Project Lifecycle&lt;/a>).&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

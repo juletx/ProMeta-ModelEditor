@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-_dNuyh-0q5vpCiIiLfbj6w" name="system_wide_requirements,_BVh9cL-CEdqb7N6KIeDL8Q" guid="-_dNuyh-0q5vpCiIiLfbj6w" changeDate="2008-08-15T00:49:32.000-0700" version="1.0.0">
+  <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  <purpose>&lt;p>&#xD;
+    This artifact is used for the following purposes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To describe the quality attributes of the system, and the constraints that the design options must satisfy to&#xD;
+        deliver the business goals, objectives, or capabilities&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To capture functional requirements that are not expressed as use cases&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To negotiate between, and select from, competing design options&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To assess the sizing, cost, and viability of the proposed system&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To understand the service-level requirements for operational management of the solution&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  <impactOfNotHaving>&lt;p>&#xD;
+    If you do not adequately manage and meet system-wide requirements, you risk delivering a system that might be&#xD;
+    unacceptable to stakeholders.&lt;br />&#xD;
+&lt;/p></impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    You do not need to use this artifact if none of the categories of system-wide requirements apply to the project under&#xD;
+    consideration.&#xD;
+&lt;/p></reasonsForNotNeeding>
+  <briefOutline>&lt;p>&#xD;
+    Organize system-wide requirements by a number of common themes or subcategories: the areas of performance and capacity,&#xD;
+    availability, usability, security and privacy, maintainability, manageability, and flexibility. See the supporting&#xD;
+    guidance for a description of the recommended categorization approach.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For each system-wide requirement, capture attributes such as the source and priority of the requirements, as described&#xD;
+    by the associated requirements management guidance.&#xD;
+&lt;/p></briefOutline>
+  <representationOptions>This artifact represents the influences on the design and delivery of a system, which cover a broad range of themes.&#xD;
+Document the requirements for each theme under separate headings within a document or under appropriate category&#xD;
+identifiers in a requirements gathering tool. Give categories easy-to-recognize identifiers, so individual requirements can&#xD;
+be readily associated with the appropriate category. The format of requirements vary from category to category; some are&#xD;
+heavily textual, and others are more structured and quantitative.</representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

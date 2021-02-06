@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-J2_dBqOPRwbukM0MbrxpRg" name="develop_rules,_Y2CxEDzEEdyA6a_I80swHw" guid="-J2_dBqOPRwbukM0MbrxpRg" authors="Jerome Boyer" changeDate="2011-09-21T11:38:57.719-0700" version="7.5.0">
+  <mainDescription>&lt;a id=&quot;XE_rule__develop&quot; name=&quot;XE_rule__develop&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Programming using rule approach enforces to know how a rule engine is working. This is not a complex skill, rue author&#xD;
+    needs to understand&amp;nbsp; the concepts of asserting, retracting object into working memory and modifying them. It is&#xD;
+    recommended to read what a &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.abrd.base/guidances/termdefinitions/rule_engine_A66B71B3.html&quot;&#xD;
+    guid=&quot;_QQcSoEXXEdy14e5PT9v3HQ&quot;>Rule engine&lt;/a>&amp;nbsp;is to get those concepts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Rule development can follow a test driven development approach: the developer can develop the test cases to trigger the&#xD;
+    rule execution and then write the rules. Once done the new rules are extracted with the other rules in the rule set,&#xD;
+    deployed to the unit test environment and the test executes. When designing with interface the unit test uses the&#xD;
+    facade to access the rule engine for&amp;nbsp;the execution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When rules are complex and include a lot of conditions it may make sense to add condition by steps. It may be easy to&#xD;
+    make error by using a wrong boolean operator. When the rule language support navigating into collection the testing may&#xD;
+    include test around the presence and not presence of element in the collection.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is always interesting once the rule is developed to perform rule analysis if the BRMS product has this capability.&#xD;
+    The analysis helps to see if the current rule is in conflict with existing rules.&lt;br />&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_bsPp8ErtEdyEE-k1R6LmOA" name="Develop Business Rules" guid="_bsPp8ErtEdyEE-k1R6LmOA">
+    <sectionDescription>Using template or not, the rule writer write the rule as described during the rule discovery and analysis.</sectionDescription>
+  </sections>
+  <sections xmi:id="_qfzk4ErtEdyEE-k1R6LmOA" name="Develop Decision Tables" guid="_qfzk4ErtEdyEE-k1R6LmOA">
+    <sectionDescription>See also &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.tech.abrd.base/guidances/termdefinitions/decision_table_57A218C1.html&quot;&#xD;
+guid=&quot;_iDLJcBCaEdyJtJ3PbfdVDw&quot;>Decision table&lt;/a></sectionDescription>
+  </sections>
+  <sections xmi:id="_tdNKIErtEdyEE-k1R6LmOA" name="Develop Decision Tree" guid="_tdNKIErtEdyEE-k1R6LmOA">
+    <sectionDescription>See &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.abrd.base/guidances/termdefinitions/decision_tree_D98E94D4.html&quot;&#xD;
+guid=&quot;_dVXOsEbNEdySHMdInS9eGA&quot;>Decision tree&lt;/a></sectionDescription>
+  </sections>
+  <sections xmi:id="_zAvrMErtEdyEE-k1R6LmOA" name="Develop Technical Rules" guid="_zAvrMErtEdyEE-k1R6LmOA">
+    <sectionDescription>Technical rules are not exposed to the business user, but are needed for rule execution efficiency. Part of this categories&#xD;
+are rules that loop on a collection and assert all the object in the working memory. Technical rules leverage the full&#xD;
+power of the rule language and the programming language</sectionDescription>
+  </sections>
+  <sections xmi:id="_GvK9oEruEdyEE-k1R6LmOA" name="Develop external helper functions" guid="_GvK9oEruEdyEE-k1R6LmOA">
+    <sectionDescription>To improve performance, or accessibility or to simplify rule writing, it may make sense to implement some reusable logic&#xD;
+in&amp;nbsp;helper classes and methods instead of rules. Example of such methods are logger of trace, or sorting policies, or&#xD;
+delegate the call&amp;nbsp;to more complex reusable services.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

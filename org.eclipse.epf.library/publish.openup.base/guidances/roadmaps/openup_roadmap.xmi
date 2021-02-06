@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-APgHPRv2KxEoFdcbHUli5w" name="new_roadmap,_Q2ErcMn-EdyuBO4ZIzcyig" guid="-APgHPRv2KxEoFdcbHUli5w" changeDate="2008-07-18T11:31:30.000-0700" version="7.2.0">
+  <mainDescription>&lt;h3>
+    Overview of OpenUP
+&lt;/h3>
+&lt;p>
+    OpenUP is for small teams who work together in the same location. The team needs to engage in plenty of daily
+    face-to-face interaction. Team members include the stakeholders, developers, architects, project manager, and testers.
+    They make their own decisions about what they need to work on, what the priorities are, and how best to address
+    stakeholder needs. The organization must support the team by allowing them these responsibilities.
+&lt;/p>
+&lt;p>
+    Team members collaborate extensively. The presence of stakeholders as team members is critical to successfully
+    implementing OpenUP.
+&lt;/p>
+&lt;p>
+    Team members participate in daily stand-up meetings to communicate status and issues. Problems are addressed outside of
+    the daily meetings.
+&lt;/p>
+&lt;p>
+    OpenUP focuses on significantly&amp;nbsp;reducing risk early in the lifecycle. This requires regular risk review meetings
+    and rigorous implementation of mitigation strategies.
+&lt;/p>
+&lt;p>
+    All work is listed, tracked, and assigned through the Work Items List. Team members use this single repository for all
+    tasks that need to be recorded and tracked. This includes all change requests, bugs, and stakeholder requests.
+&lt;/p>
+&lt;p>
+    Use cases are used to elicit and describe requirements; therefore, team members need to develop skills in writing good
+    use cases. stakeholders are responsible for reviewing and certifying that the requirements are correct. Use cases are
+    developed collaboratively.
+&lt;/p>
+&lt;p>
+    Architecturally significant requirements must be identified and stabilized in the Elaboration phase so that a robust
+    architecture can be created as the core of the system. An architecturally significant requirement change that must be
+    addressed may arise later in development, but the risk of this happening is significantly reduced in the Elaboration
+    iteration.
+&lt;/p>
+&lt;p>
+    Testing is performed multiple times per iteration, every time the solution is incremented with the development of a
+    requirement, change, or bug fix. These tests happen after developers have developed the solution (which should have
+    been unit-tested) and integrate it into the code base. These tests help guarantee that a stable build is created and
+    always available as development progresses.
+&lt;/p>
+&lt;p>
+    OpenUP does not include content for deployment, configuration management, or the development environment (such as
+    customizing this process or setting up development environments). OpenUP focuses on a single team, and these areas are
+    generally addressed at an organizational or enterprise level. Look for extensions to OpenUP that address these wider
+    areas.
+&lt;/p>
+&lt;p>
+    OpenUP is an iterative software development process that is minimal, complete, and extensible. It is governed by
+    four&amp;nbsp;core principles:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../publish.openup.base/guidances/concepts/core_principle_collaborate_EC5EB51F.html&quot; guid=&quot;_KkTIsMp7EdqC_NfSivunjA&quot;>Collaborate to align interests and share understanding&lt;/a>
+    &lt;/li>
+    &lt;li>
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../publish.openup.base/guidances/concepts/core_principle_balance_793DD27.html&quot; guid=&quot;_ssG6MMvpEdqukPpotm3DYg&quot;>Balance competing priorities to maximize stakeholder value&lt;/a>
+    &lt;/li>
+    &lt;li>
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../publish.openup.base/guidances/concepts/core_principle_focus_346C6FAF.html&quot; guid=&quot;_9gocwMvoEdqukPpotm3DYg&quot;>Focus on the architecture early to minimize risks and organize development&lt;/a>
+    &lt;/li>
+    &lt;li>
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../publish.openup.base/guidances/concepts/core_principle_evolve_BFD9AEB4.html&quot; guid=&quot;_GXiogMvoEdqukPpotm3DYg&quot;>Evolve to continuously obtain feedback and improve&lt;/a>
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    People in&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/role_37A0C602.html&quot; guid=&quot;_yUefQNnmEdmO6L4XMImrsA&quot;>role&lt;/a>s&amp;nbsp;perform&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/task_6C1FF051.html&quot; guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;>task&lt;/a>s that use and produce &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/artifact_F635D25.html&quot; guid=&quot;_x7cUM9nmEdmO6L4XMImrsA&quot;>artifact&lt;/a>s. OpenUP describes the minimal set of&amp;nbsp;roles, tasks (organized by
+    disciplines), and artifacts&amp;nbsp;(organized by work product domains) involved in software development:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.default.nav_view.base/customcategories/role_list_4C636D88.html&quot; guid=&quot;_WCIHZMRdEdyD76CYS6Ta7A&quot;>Roles&lt;/a>
+    &lt;/li>
+    &lt;li>
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.default.nav_view.base/customcategories/tasks_E310E5A5.html&quot; guid=&quot;_CXQicMRhEdyD76CYS6Ta7A&quot;>Tasks&lt;/a>
+    &lt;/li>
+    &lt;li>
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.default.nav_view.base/customcategories/work_products_FB13601A.html&quot; guid=&quot;__O1Y8MRgEdyD76CYS6Ta7A&quot;>Work Products&lt;/a>
+    &lt;/li>
+&lt;/ul>
+&lt;h4>
+    The OpenUP software development&amp;nbsp;lifecycle
+&lt;/h4>
+&lt;p>
+    OpenUP is an iterative process&amp;nbsp;distributed throughout&amp;nbsp;four phases: Inception, Elaboration, Construction, and
+    Transition. Each phase consists of one or more iterations where stable, working versions of the software are developed
+    and released, with the completion of each iteration representing a minor &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/phase_milestones_5678231E.html&quot; guid=&quot;_HNxbwMBJEdqSgKaj2SZBmg&quot;>milestone&lt;/a>&amp;nbsp;for the project and contributing to the successful achievement of the
+    phase's major milestone, where phase objectives are met.
+&lt;/p>
+&lt;p>
+    The following diagram depicts&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../../process.openup.base/deliveryprocesses/openup_lifecycle_EE511F3A.html&quot; guid=&quot;_SuWj4dOPEdyqlogshP8l4g&quot;>OpenUP Lifecycle&lt;/a>.
+&lt;/p>
+&lt;p align=&quot;center&quot;>
+    &lt;img height=&quot;192&quot; alt=&quot;Figure 1: Diagram of the OpenUP Lifecycle&quot; src=&quot;resources/openup_lifecycle.jpg&quot; width=&quot;667&quot;     usemap=&quot;#map&quot; border=&quot;0&quot; />
+&lt;/p>
+&lt;h4>
+    How&amp;nbsp;to get started?
+&lt;/h4>
+&lt;p>
+    The fourth OpenUP core principle, &quot;Evolve to continuously obtain feedback and improve&quot;, suggests an iterative and
+    incremental approach to adopting OpenUP.
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Start with the core principles and understand the intentions behind OpenUP.
+    &lt;/li>
+    &lt;li>
+        Then assess your existing process, and select one or two key areas that you would like to improve.
+    &lt;/li>
+    &lt;li>
+        Begin using OpenUP to improve these areas first.
+    &lt;/li>
+    &lt;li>
+        In later iterations or development cycles, make incremental improvements in other areas.
+    &lt;/li>
+    &lt;li>
+        If you have little or no experience with unified processes or other iterative processes, use OpenUP in a small
+        pilot project, perhaps with only three to four people working for only two to three months.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    While OpenUP is a ready to use as-is, you may choose to extend the process or modify the work product templates to suit
+    your specific needs. For example:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        You may require more or less precision in your work products.
+    &lt;/li>
+    &lt;li>
+        Your organization may have specific configuration management practices or safety protocols to include in your
+        process.
+    &lt;/li>
+    &lt;li>
+        You may simply want to put your own corporate logo on the banner.
+    &lt;/li>
+    &lt;li>
+        You may want to incorporate lessons learned from a retrospective review into OpenUP.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    Use EPF Composer to extend and tailor OpenUP. For more information about EPF composer, visit &lt;a href=&quot;http://www.eclipse.org/epf&quot; target=&quot;_blank&quot;>www.eclipse.org/epf&lt;/a>.
+&lt;/p>&lt;map id=&quot;Map&quot; name=&quot;Map&quot;>
+    &lt;area shape=&quot;rect&quot; alt=&quot;link to inception phase concept&quot; coords=&quot;116,7,175,25&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/inception_phase_C4456871.html&quot; guid=&quot;_0hmKgBOMEduCNqgZdt_OaA&quot;>&lt;/area>
+    &lt;area shape=&quot;rect&quot; alt=&quot;link to elaboration phase concept&quot; coords=&quot;255,11,327,27&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html&quot; guid=&quot;_2plxwBOMEduCNqgZdt_OaA&quot;>&lt;/area>
+    &lt;area shape=&quot;rect&quot; alt=&quot;link to construction phase concept&quot; coords=&quot;395,11,476,27&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/construction_phase_873B6559.html&quot; guid=&quot;_48EKsBOMEduCNqgZdt_OaA&quot;>&lt;/area>
+    &lt;area shape=&quot;rect&quot; alt=&quot;link to transition phase concept&quot; coords=&quot;554,10,619,27&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/transition_phase_DD5986E5.html&quot; guid=&quot;__ca5UBOMEduCNqgZdt_OaA&quot;>&lt;/area>
+    &lt;area shape=&quot;rect&quot; alt=&quot;link to inception phase iteration delivery process&quot; coords=&quot;39,98,100,162&quot; href=&quot;./../../../process.openup.base/capabilitypatterns/inception_phase_iteration_B1800053.html&quot; guid=&quot;_h0Gs8dONEdyqlogshP8l4g&quot;>&lt;/area>
+    &lt;area shape=&quot;rect&quot; alt=&quot;link to elaboration phase iteration delivery process&quot; coords=&quot;188,100,250,169&quot; href=&quot;./../../../process.openup.base/capabilitypatterns/elaboration_phase_iteration_54DFA2A9.html&quot; guid=&quot;_aUsVEdONEdyqlogshP8l4g&quot;>&lt;/area>
+    &lt;area shape=&quot;rect&quot; alt=&quot;link to construction phase iteration delivery process&quot; coords=&quot;332,100,397,165&quot; href=&quot;./../../../process.openup.base/capabilitypatterns/construction_phase_iteration_9AC1727C.html&quot; guid=&quot;_RQi0AdONEdyqlogshP8l4g&quot;>&lt;/area>
+    &lt;area shape=&quot;rect&quot; alt=&quot;link to transition phase iteration delivery process&quot; coords=&quot;480,98,541,167&quot; href=&quot;./../../../process.openup.base/capabilitypatterns/transition_phase_iteration_57B0A6B5.html&quot; guid=&quot;_pzQU0dONEdyqlogshP8l4g&quot;>&lt;/area>
+&lt;/map></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

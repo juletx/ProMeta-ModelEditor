@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-5Eyl-J5cLkiBJKpxgcxBRA" name="new_supporting_material,_atpj0GjLEd2PJ-nlV-86WA" guid="-5Eyl-J5cLkiBJKpxgcxBRA" changeDate="2008-08-14T08:40:06.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The Evolutionary Design practice describes how to create a high quality design by evolving the design in small&#xD;
+    increments and refactoring often. It should be used in conjunction with other practices or process elements to deliver&#xD;
+    high quality software. This example illustrates one possible way of utilizing the ED practice in conjunction with other&#xD;
+    practices.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This diagram describes an evolutionary approach to developing software by incrementally considering a small part of the&#xD;
+    system. A brief amount of time is spent considering the possible design, the code is implemented using a test-first&#xD;
+    approach, and&amp;nbsp;the design is reviewed and refactored until high quality software is achieved. The new part of the&#xD;
+    system is then integrated with the rest of the system, and another small part of the system is selected for&#xD;
+    development.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;587&quot; alt=&quot;&quot; src=&quot;resources/ed_in_context.jpg&quot; width=&quot;598&quot; />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

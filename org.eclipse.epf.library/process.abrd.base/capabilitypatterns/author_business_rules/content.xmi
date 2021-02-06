@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-TUyCFXMljyPPGFQbnWy_Zw" name="authoring,_OQxnAX_CEd2YWI_0AZcMOA" guid="-TUyCFXMljyPPGFQbnWy_Zw" version="7.5.1"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aoZNCrSMHCobCqrNM4Z5JA" name="develop_unit_tests,_VsH-QH_CEd2YWI_0AZcMOA" guid="-aoZNCrSMHCobCqrNM4Z5JA">
+    <refinedDescription>&lt;a id=&quot;XE_unit_tests__develop&quot; name=&quot;XE_unit_tests__develop&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Rule Unit Testing is the process of testing a specific rule in the context of the rule set in which it is deployed.
+    Rule Unit Testing allows rule writers to:
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        Validate each rule in the context of its rule set
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        Control the rule set quality
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        Conduct some impact analysis when rules are in conflict
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        Helps to have non-regression tests
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>There is a major difference between testing a code, and a rule. A rule engine per
+    design may not put a rule in the agenda if the conditions are not matched. This means that when the rule writer write a
+    new rule, even if the data are sent to trigger the execution of this new rule it is possible that a rule fired before
+    the new one, with change the condition of the data so that this new rule will never be eligible. Developing a complete
+    set of unit test is an efficient way to see this problem, and to improve the rule set design. Some powerful BRMS
+    platform has rules consistency checking which helps to do some static analysis of those potential conflict by analyzing
+    the conditions and the actions of the rules. For sure real test cases will complete the picture.&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;span
+style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>Using
+a Test Driven Development approach rule writer can develop the test script preparing the data to trigger each rule,
+depending of the BRMS platform used, the script generation can be done automatically or not. What is important is develop
+reusable test case organized in test suite which include assertion statement to validate the expected results. This is
+efficient tool to put in place automatic non regression tests.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ch1YD3W6ZaDbDWdgfmcFbw" name="develop_rules,_VTsQIH_CEd2YWI_0AZcMOA" guid="-ch1YD3W6ZaDbDWdgfmcFbw">
+    <refinedDescription>&lt;a id=&quot;XE_rule__develop&quot; name=&quot;XE_rule__develop&quot;>&lt;/a> 
+&lt;p>
+    Programming using rule approach enforces to know how a rule engine is working. This is not a complex skill, rue author
+    needs to understand&amp;nbsp; the concepts of asserting, retracting object into working memory and modifying them. It is
+    recommended to read what a &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../practice.tech.abrd.base/guidances/termdefinitions/rule_engine_A66B71B3.html&quot;
+    guid=&quot;_QQcSoEXXEdy14e5PT9v3HQ&quot;>Rule engine&lt;/a>&amp;nbsp;is to get those concepts.
+&lt;/p>
+&lt;p>
+    Rule development can follow a test driven development approach: the developer can develop the test cases to trigger the
+    rule execution and then write the rules. Once done the new rules are extracted with the other rules in the rule set,
+    deployed to the unit test environment and the test executes. When designing with interface the unit test uses the
+    facade to access the rule engine for&amp;nbsp;the execution.
+&lt;/p>
+&lt;p>
+    When rules are complex and include a lot of conditions it may make sense to add condition by steps. It may be easy to
+    make error by using a wrong boolean operator. When the rue language support navigating into collection the testing may
+    include test around the presence and not presence of element in the collection.
+&lt;/p>
+&lt;p>
+    It is always interesting once the rule is developed to perform rule analysis if the BRMS product has this capability.
+    The analysis helps to see if the current rule is in conflict with existing rules.&lt;br />
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bNDT40_Dob9KbffUI6mIJA" name="ruleset,_VTsQIn_CEd2YWI_0AZcMOA" guid="-bNDT40_Dob9KbffUI6mIJA">
+    <refinedDescription>&lt;a id=&quot;XE_rule_set__work_product&quot; name=&quot;XE_rule_set__work_product&quot;>&lt;/a> 
+&lt;p>
+    For more detail see &lt;a class=&quot;elementLink&quot; href=&quot;./../../abrd/guidances/termdefinitions/rule_set_4D4C8DB1.html&quot;
+    guid=&quot;_DdvcwBCQEdyJtJ3PbfdVDw&quot;>Rule Set&lt;/a>&amp;nbsp;and &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../abrd/guidances/termdefinitions/rule_engine_A66B71B3.html&quot; guid=&quot;_QQcSoEXXEdy14e5PT9v3HQ&quot;>rule engine&lt;/a>
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-cNLxGN0Xk1GRudfSGVb8ig" name="enhance_object_models,_WyUKQH_CEd2YWI_0AZcMOA" guid="-cNLxGN0Xk1GRudfSGVb8ig">
+    <refinedDescription>Typically the developer adds helper methods in the data model to facilitate the rule writing. Develop utility classes. The
+data elements should not have persistence logic in it. For example in Java do not put JDBC code in the Customer object. Let
+try to stick to the Java bean specification for all the&amp;nbsp;business objects, and leverage a service layer, with service
+facades objects to help gathering and process data.&amp;nbsp;</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-g7yvSbhyKtzLJkvnHGyvKA" name="execute_rule_set,_XDv4gH_CEd2YWI_0AZcMOA" guid="-g7yvSbhyKtzLJkvnHGyvKA">
+    <refinedDescription>&lt;a id=&quot;XE_rule_set__execute&quot; name=&quot;XE_rule_set__execute&quot;>&lt;/a></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KokWTSqEp1OW6qZiJx7Fnw" name="log_issue,_XR5pQH_CEd2YWI_0AZcMOA" guid="-KokWTSqEp1OW6qZiJx7Fnw">
+    <refinedDescription>&lt;ul>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>Formally log any issues and decisions done during the rule
+            analysis and the rule authoring activities.&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>The issue
+            log is used to manage feedbacks, and to improve the rule set quality.&lt;/span>&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1; tab-stops: list .25in&quot;>
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-font-weight: bold&quot;>As a social process, people will
+            change their mind, it is a good practice to log decision on a timely manner.&lt;/span>
+        &lt;/div>
+    &lt;/li>
+&lt;/ul>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot; />
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-2gh02SiG_rUGf0S6BxyEtg" name="rule_validation,_trBK8BDJEdyJtJ3PbfdVDw" guid="-2gh02SiG_rUGf0S6BxyEtg" changeDate="2009-11-09T02:16:12.000-0800" version="7.5.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_validation&quot; name=&quot;XE_rule_validation&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; TEXT-ALIGN: justify&quot;>
+    &lt;span style=&quot;mso-bidi-font-weight: bold&quot;>Rule Testing allows developers to:&lt;/span>
+&lt;/p>
+&lt;ol>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; tab-stops: list .25in&quot;>
+            &lt;span style=&quot;mso-bidi-font-weight: bold&quot;>Validate each rule in the context of its rule set:&lt;/span>
+        &lt;/div>
+        &lt;ul>
+            &lt;li>
+                &lt;div class=&quot;MsoNormal&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; tab-stops: list .25in&quot;>
+                    Control the rule set quality.
+                &lt;/div>
+            &lt;/li>
+            &lt;li>
+                &lt;div class=&quot;MsoNormal&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; tab-stops: list .25in&quot;>
+                    Impact analysis: to define at the execution if rules are in conflict.
+                &lt;/div>
+            &lt;/li>
+            &lt;li>
+                &lt;div class=&quot;MsoNormal&quot;
+                style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; tab-stops: list .25in&quot;>
+                    Define Data scenarios and test cases to complete the rule approach.
+                &lt;/div>
+            &lt;/li>
+        &lt;/ul>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; tab-stops: list .25in&quot;>
+            &lt;span style=&quot;mso-bidi-font-weight: bold&quot;>Develop a powerful framework to support this goal.&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; tab-stops: list .25in&quot;>
+            &lt;span style=&quot;mso-bidi-font-weight: bold&quot;>Helps to have non-regression tests.&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; tab-stops: list .25in&quot;>
+            &lt;span style=&quot;mso-bidi-font-weight: bold&quot;>Helps to have simulation platform.&lt;/span>&lt;br />
+        &lt;/div>
+    &lt;/li>
+&lt;/ol>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; TEXT-ALIGN: justify&quot;>
+    &lt;span style=&quot;mso-bidi-font-weight: bold&quot;>&lt;span style=&quot;mso-bidi-font-weight: bold&quot;>The objective of testing is
+    to:&lt;/span>&lt;/span>
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; tab-stops: list .25in&quot;>
+            Allow policy managers and business analysts to ensure that the rules are consistent with the intended policy.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot;
+        style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; tab-stops: list .25in&quot;>
+            Provide a sandbox environment for policy experimentation.
+        &lt;/div>
+    &lt;/li>
+&lt;/ul>&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt; TEXT-ALIGN: justify&quot;>
+    We distinguish three types&lt;b>:&lt;/b>
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+            &lt;b>&lt;i>Unit Testing&lt;/i>&lt;/b> : The process of testing a &lt;em>specific rule.&lt;/em>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+            &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+                &lt;b>&lt;i>End-to-End Testing&lt;/i>&lt;/b> : The process of testing a (larger) set of rules, a whole ruleflow or an
+                &lt;em>entire rule service.&lt;/em>
+            &lt;/p>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+            &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+                &lt;strong>&lt;i>Simulation and Impact Analysis&lt;/i> :&lt;/strong>
+            &lt;/p>
+            &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+                The process of testing a &lt;em>policy change&lt;/em> on a sample set of &lt;em>real data&lt;/em>, to predict the
+                &lt;em>impact&lt;/em> this would have &lt;em>on the business.&lt;/em>&lt;br />
+            &lt;/p>
+        &lt;/div>
+    &lt;/li>
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

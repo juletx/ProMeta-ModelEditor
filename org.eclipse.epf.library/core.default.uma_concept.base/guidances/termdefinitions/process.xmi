@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_yQ5m2dnmEdmO6L4XMImrsA" name="process,_yQ5m2NnmEdmO6L4XMImrsA" guid="_yQ5m2dnmEdmO6L4XMImrsA" changeDate="2008-03-11T10:40:20.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Describes the assembly of method content&amp;nbsp;in a sequence or workflow that defines how the work will be executed.&#xD;
+    There are two types of processes:&amp;nbsp; &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/capability_pattern_F5DDC5F.html&quot;&#xD;
+    guid=&quot;_2RUJACO4EdqaNq6Ptg8uyA&quot;>capability pattern&lt;/a>s and &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/delivery_process_BCDF50B7.html&quot;&#xD;
+    guid=&quot;_ZufeMCO3EdqaNq6Ptg8uyA&quot;>delivery process&lt;/a>es.&#xD;
+&lt;/p>&lt;!--EndFragment-->&lt;!--EndFragment--></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

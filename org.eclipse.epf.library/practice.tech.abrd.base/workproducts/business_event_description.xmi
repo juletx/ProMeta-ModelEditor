@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-iclYJ9CwppZV4g4QWF_MEA" name="new_artifact,_HSrrgGhiEd-FVuzXjnvIWA" guid="-iclYJ9CwppZV4g4QWF_MEA" changeDate="2010-05-25T06:01:12.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-font-size: 9.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: HE&quot;>Trigger
+    for the execution of a business process.&lt;/span> The processing of a business event can be done manually or using
+    software products and applications. Some decisions need to be done on the event for example to accept/ reject it or to
+    initiate some business processes. Those decisions can be implemented using a rule engine technology.
+&lt;/p>
+&lt;p>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-font-size: 9.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: HE&quot;>The
+    following list gives some examples of business event:&lt;/span>
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>Claim is received&lt;/span>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+            &lt;span
+            style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Tax
+            form is filled&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+            &lt;span
+            style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Loan
+            application is received&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+            &lt;span
+            style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Car
+            is out of the chain&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+            &lt;span
+            style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Train
+            wheel goes in front of infrared sensor&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+            &lt;span
+            style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>RFID
+            read&lt;/span>
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;>
+            &lt;span
+            style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Wafer
+            is started within the Fab&lt;/span>
+        &lt;/div>
+    &lt;/li>
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

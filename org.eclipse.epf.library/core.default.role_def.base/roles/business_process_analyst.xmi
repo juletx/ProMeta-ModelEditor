@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-RTY4zT0X_3RNb7lElRMu0Q" name="new_role,_5h_uoKcyEd-VK6zqjMaiPQ" guid="-RTY4zT0X_3RNb7lElRMu0Q" changeDate="2010-08-13T04:56:18.000-0700" version="7.5.0">
+  <mainDescription>Business process analyst leads process improvement efforts, from the process discovery, to simulation, monitoring and&#xD;
+enhancement. He is an expert in process decomposition, process/data analysis, scoping, optimization. He can identifies new&#xD;
+business case and key opportunities within the enterprise, and enforce the delivery of KPIs, SLAs, and&#xD;
+scoreboards.&lt;br /></mainDescription>
+  <skills>&lt;p>&#xD;
+    As a base a BPA is an analyst. He needs:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Experience with process design, requirements gathering.&lt;br />&#xD;
+    Process decomposition and facilitation skills.&lt;br />&#xD;
+    Critical analysis and reporting skills.&lt;br />&#xD;
+    Exposure to Six Sigma/Lean methods, Financial Analysis tools and Change Management.&lt;br />&#xD;
+    Experience with software development on commercial or enterprise projects.&lt;br />&#xD;
+    JavaScript, basic SQL, workflow patterns and basic logic flows, user interface development, HTML.&lt;br />&#xD;
+&lt;/p></skills>
+</org.eclipse.epf.uma:RoleDescription>

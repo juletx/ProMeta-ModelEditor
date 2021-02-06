@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9Tui37ekEd-D7YZN9NgldQ" guid="_9Tui37ekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="_-6P0sLekEd-D7YZN9NgldQ" id="-TPAUpjDlUfq2jYIEwi8dZw" uri="guidances/guidelines/categorizing.xmi"/>
+    <resourceDescriptors xmi:id="_-6P0sbekEd-D7YZN9NgldQ" id="-5q95l0ip0Powz0ViHXLxEA" uri="guidances/guidelines/creating_plugins_practices_configurations.xmi"/>
+    <resourceDescriptors xmi:id="_-6Y-oLekEd-D7YZN9NgldQ" id="-htSFQ8Rj8R0VkuxENOZGaA" uri="guidances/guidelines/customizing_method_content_elements.xmi"/>
+    <resourceDescriptors xmi:id="_-6Y-obekEd-D7YZN9NgldQ" id="-K8Q26ltxx-Fu7B0UcQWUkg" uri="guidances/guidelines/defining_customizing_processes.xmi"/>
+    <resourceDescriptors xmi:id="_-6ivoLekEd-D7YZN9NgldQ" id="-isqsIiw9-4dR3ProL-I-vg" uri="guidances/guidelines/defining_method_elements.xmi"/>
+    <resourceDescriptors xmi:id="_-6r5kLekEd-D7YZN9NgldQ" id="-WIvQb25HXQnl098vIqLaOg" uri="guidances/guidelines/formatting_writing_tips_for_method_authors.xmi"/>
+    <resourceDescriptors xmi:id="_-6r5kbekEd-D7YZN9NgldQ" id="-UMwO0Odv_iQVxPV40lG2kA" uri="guidances/guidelines/general_naming_conventions.xmi"/>
+    <resourceDescriptors xmi:id="_-61qkLekEd-D7YZN9NgldQ" id="-gP2w-Jyw1kWV4Rdu3rW75w" uri="guidances/guidelines/implementing_method_asset.xmi"/>
+    <resourceDescriptors xmi:id="_-61qkbekEd-D7YZN9NgldQ" id="-9lCfOj2da5Xm8VvefI9b5g" uri="guidances/guidelines/publishing.xmi"/>
+    <resourceDescriptors xmi:id="_-6_bkLekEd-D7YZN9NgldQ" id="-WuAi2XsisktfzngHrIxJ0g" uri="guidances/guidelines/structuring_practice.xmi"/>
+    <resourceDescriptors xmi:id="_-7IlgLekEd-D7YZN9NgldQ" id="-fGepq7Yt-PmW_jH9cOMsHg" uri="guidances/practices/method_development.xmi"/>
+    <resourceDescriptors xmi:id="_-7IlgbekEd-D7YZN9NgldQ" id="-8HIJRiG1VwF8mwvxuZ0c2Q" uri="guidances/roadmaps/how_to_adopt_mdev.xmi"/>
+    <resourceDescriptors xmi:id="_-7IlgrekEd-D7YZN9NgldQ" id="-pNLG5Sw3YW-HjuCTssLRYA" uri="guidances/concepts/method_authoring.xmi"/>
+    <resourceDescriptors xmi:id="_-7SWgbekEd-D7YZN9NgldQ" id="-EvdZRG7js6dnleNgGOQYfQ" uri="guidances/concepts/practice.xmi"/>
+    <resourceDescriptors xmi:id="_-7SWgrekEd-D7YZN9NgldQ" id="-IMDeKIiADfZMg8gyWT_JYw" uri="guidances/concepts/umf.xmi"/>
+    <resourceDescriptors xmi:id="_-7cHgLekEd-D7YZN9NgldQ" id="-XV4rH8guz_Py0zgFgqXCsw" uri="guidances/guidelines/testing_a_method_asset.xmi"/>
+    <resourceDescriptors xmi:id="_-7cHgbekEd-D7YZN9NgldQ" id="-nTT9dDA_7wXIt7w09kNZjg" uri="guidances/supportingmaterials/release_info.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_HVCXcE7xEd-ttuvo_zEJ_g" name="practice.bus.mdev.base" guid="_HVCXcE7xEd-ttuvo_zEJ_g" presentationName="Method Development" briefDescription="This practice describes a method to develop method content." changeDate="2011-07-13T12:07:26.391-0700">
+    <methodElementProperty xmi:id="_-gnMwbekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Tui0LekEd-D7YZN9NgldQ" name="Content" guid="_9Tui0LekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Tui0bekEd-D7YZN9NgldQ" name="Categories" guid="_9Tui0bekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Tui0rekEd-D7YZN9NgldQ" name="Domains" guid="_9Tui0rekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Tui07ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9Tui07ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Tui1LekEd-D7YZN9NgldQ" name="RoleSets" guid="_9Tui1LekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Tui1bekEd-D7YZN9NgldQ" name="WP Types" guid="_9Tui1bekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Tui1rekEd-D7YZN9NgldQ" name="Tools" guid="_9Tui1rekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Tui17ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9Tui17ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Tui2LekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9Tui2LekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Tui2bekEd-D7YZN9NgldQ" name="Hidden" guid="_9Tui2bekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9Tui2rekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9Tui2rekEd-D7YZN9NgldQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Tui27ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9Tui27ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kkLLIE7xEd-ttuvo_zEJ_g" name="mdev" guid="_kkLLIE7xEd-ttuvo_zEJ_g" presentationName="Method Development">
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_kY8j4EH-Ed-bmYzvomIdMg" name="categorizing" guid="_kY8j4EH-Ed-bmYzvomIdMg" presentationName="Categorizing" briefDescription="This guideline provides recommendations for categorizing method elements using standard categories and custom categories.">
+            <presentation xmi:id="-TPAUpjDlUfq2jYIEwi8dZw" href="uma://-TPAUpjDlUfq2jYIEwi8dZw#-TPAUpjDlUfq2jYIEwi8dZw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_EXvLwD3NEd-realK_We5vA" name="creating_plugins_practices_configurations" guid="_EXvLwD3NEd-realK_We5vA" presentationName="Creating Plug-ins, Practices and Configurations" briefDescription="This guideline explains how to name and briefly describe a method plugin.">
+            <presentation xmi:id="-5q95l0ip0Powz0ViHXLxEA" href="uma://-5q95l0ip0Powz0ViHXLxEA#-5q95l0ip0Powz0ViHXLxEA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_1V5psEH9Ed-bmYzvomIdMg" name="customizing_method_content_elements" guid="_1V5psEH9Ed-bmYzvomIdMg" presentationName="Customizing Method Content Elements" briefDescription="This guideline provides recommendations for customizing method content elements.">
+            <presentation xmi:id="-htSFQ8Rj8R0VkuxENOZGaA" href="uma://-htSFQ8Rj8R0VkuxENOZGaA#-htSFQ8Rj8R0VkuxENOZGaA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_E9J1kD9EEd-Xgadv74rzHA" name="defining_customizing_processes" guid="_E9J1kD9EEd-Xgadv74rzHA" presentationName="Defining and Customizing Processes" briefDescription="This guidelines outlines defining, structuring and scaling method elements">
+            <presentation xmi:id="-K8Q26ltxx-Fu7B0UcQWUkg" href="uma://-K8Q26ltxx-Fu7B0UcQWUkg#-K8Q26ltxx-Fu7B0UcQWUkg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_fx7TMD3REd-realK_We5vA" name="defining_method_elements" guid="_fx7TMD3REd-realK_We5vA" presentationName="Defining Method Elements" briefDescription="This guideline provides recommendations for identifying and structuring method content elements (e.g., roles, tasks, work products and guidance).">
+            <presentation xmi:id="-isqsIiw9-4dR3ProL-I-vg" href="uma://-isqsIiw9-4dR3ProL-I-vg#-isqsIiw9-4dR3ProL-I-vg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_ghjHwDusEd-0GPJdQkFa_A" name="formatting_writing_tips_for_method_authors" guid="_ghjHwDusEd-0GPJdQkFa_A" presentationName="Formatting and Writing Tips for Method Authors" briefDescription="This guideline describes what method authors need to know about writing and formatting text in method elements.">
+            <presentation xmi:id="-WIvQb25HXQnl098vIqLaOg" href="uma://-WIvQb25HXQnl098vIqLaOg#-WIvQb25HXQnl098vIqLaOg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="__I8S0D2kEd-lU6YVR9_PJQ" name="general_naming_conventions" guid="__I8S0D2kEd-lU6YVR9_PJQ" presentationName="General Naming Conventions" briefDescription="This guideline provides recommendations on how to name method elements and writing brief descriptions.  It also includes the UMF naming conventions and IBM licensing styles.">
+            <presentation xmi:id="-UMwO0Odv_iQVxPV40lG2kA" href="uma://-UMwO0Odv_iQVxPV40lG2kA#-UMwO0Odv_iQVxPV40lG2kA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_PTzXQE8REd-xRf1mYeAI9w" name="implementing_method_asset" guid="_PTzXQE8REd-xRf1mYeAI9w" presentationName="Implementing a Method Asset">
+            <presentation xmi:id="-gP2w-Jyw1kWV4Rdu3rW75w" href="uma://-gP2w-Jyw1kWV4Rdu3rW75w#-gP2w-Jyw1kWV4Rdu3rW75w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_Z7gHED08Ed-lU6YVR9_PJQ" name="publishing" guid="_Z7gHED08Ed-lU6YVR9_PJQ" presentationName="Publishing" briefDescription="This guideline provides recommendations for publishing">
+            <presentation xmi:id="-9lCfOj2da5Xm8VvefI9b5g" href="uma://-9lCfOj2da5Xm8VvefI9b5g#-9lCfOj2da5Xm8VvefI9b5g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_dxRsUEH-Ed-bmYzvomIdMg" name="structuring_practice" guid="_dxRsUEH-Ed-bmYzvomIdMg" presentationName="Structuring a Practice" briefDescription="This guideline provides recommendations for structuring a practice.">
+            <presentation xmi:id="-WuAi2XsisktfzngHrIxJ0g" href="uma://-WuAi2XsisktfzngHrIxJ0g#-WuAi2XsisktfzngHrIxJ0g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_lFYasFImEd-S-5uzDh9e9Q" name="method_development" guid="_lFYasFImEd-S-5uzDh9e9Q" presentationName="Method Development" briefDescription="This practice describes a method to develop method content.">
+            <methodElementProperty xmi:id="_A0OlUOxxEeGivto76hXB7Q" name="CategoryElementsSortType" value="MethodType"/>
+            <methodElementProperty xmi:id="_BxrFAOxxEeGivto76hXB7Q" name="me_edited" value="true"/>
+            <presentation xmi:id="-fGepq7Yt-PmW_jH9cOMsHg" href="uma://-fGepq7Yt-PmW_jH9cOMsHg#-fGepq7Yt-PmW_jH9cOMsHg"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_WCUhAO8KEdmKSqa_gSYthg#_FxJEkFUKEd2_rMtRMt_EMg"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_Bb4xMJ8eEd-1Fp7x64HaLA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_WBtggJ8wEd-dppiOhprtkA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_wtFW8J8wEd-dppiOhprtkA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_kY8j4EH-Ed-bmYzvomIdMg"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_EXvLwD3NEd-realK_We5vA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_1V5psEH9Ed-bmYzvomIdMg"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_E9J1kD9EEd-Xgadv74rzHA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_fx7TMD3REd-realK_We5vA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_ghjHwDusEd-0GPJdQkFa_A"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#__I8S0D2kEd-lU6YVR9_PJQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_PTzXQE8REd-xRf1mYeAI9w"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_Z7gHED08Ed-lU6YVR9_PJQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_dxRsUEH-Ed-bmYzvomIdMg"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_ytd9kKDhEd-nMJcdx60YsA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_sh3v4iMmEd-VobohmWswkw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_sh3v4iMmEd-VobohmWswkw" name="how_to_adopt_mdev" guid="_sh3v4iMmEd-VobohmWswkw" presentationName="How to Adopt the Method Development Practice" briefDescription="This roadmap describes how to adopt the Method Development Practice.">
+            <methodElementProperty xmi:id="_hbY8MAwXEeKBHay1bomCtA" name="me_edited" value="true"/>
+            <presentation xmi:id="-8HIJRiG1VwF8mwvxuZ0c2Q" href="uma://-8HIJRiG1VwF8mwvxuZ0c2Q#-8HIJRiG1VwF8mwvxuZ0c2Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_Bb4xMJ8eEd-1Fp7x64HaLA" name="method_authoring" guid="_Bb4xMJ8eEd-1Fp7x64HaLA" presentationName="Method Authoring" briefDescription="Authoring a method is all about taking the time to capture what you do and how you do it so that the same process can be performed in a consistent way by everyone involved. ">
+            <presentation xmi:id="-pNLG5Sw3YW-HjuCTssLRYA" href="uma://-pNLG5Sw3YW-HjuCTssLRYA#-pNLG5Sw3YW-HjuCTssLRYA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_WBtggJ8wEd-dppiOhprtkA" name="practice" guid="_WBtggJ8wEd-dppiOhprtkA" presentationName="Practice" briefDescription="A practice is an approach to solving one or several commonly occurring problems. Practices are intended as &quot;chunks&quot; of process for adoption, enablement, and configuration. ">
+            <presentation xmi:id="-EvdZRG7js6dnleNgGOQYfQ" href="uma://-EvdZRG7js6dnleNgGOQYfQ#-EvdZRG7js6dnleNgGOQYfQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_wtFW8J8wEd-dppiOhprtkA" name="umf" guid="_wtFW8J8wEd-dppiOhprtkA" presentationName="Unified Method Framework" briefDescription="The Unified Method Framework (UMF) is a practice framework in which different practices from many different contexts and developed by many different organizations can co-exist, sharing a common infrastructure.">
+            <presentation xmi:id="-IMDeKIiADfZMg8gyWT_JYw" href="uma://-IMDeKIiADfZMg8gyWT_JYw#-IMDeKIiADfZMg8gyWT_JYw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_ytd9kKDhEd-nMJcdx60YsA" name="testing_a_method_asset" guid="_ytd9kKDhEd-nMJcdx60YsA" presentationName="Testing a Method Asset" briefDescription="This guideline describes how to test method assets created with Method Composer.">
+            <presentation xmi:id="-XV4rH8guz_Py0zgFgqXCsw" href="uma://-XV4rH8guz_Py0zgFgqXCsw#-XV4rH8guz_Py0zgFgqXCsw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_D8WuEK8dEd-ldsIhBOBy8g" name="release_info" guid="_D8WuEK8dEd-ldsIhBOBy8g">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_jrRzcKvnEd-7tZYmrs5WAg" name="release_info" guid="_jrRzcKvnEd-7tZYmrs5WAg" presentationName="Practice: Method Development" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-nTT9dDA_7wXIt7w09kNZjg" href="uma://-nTT9dDA_7wXIt7w09kNZjg#-nTT9dDA_7wXIt7w09kNZjg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9Tui3LekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9Tui3LekEd-D7YZN9NgldQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9Tui3bekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9Tui3bekEd-D7YZN9NgldQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9Tui3rekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9Tui3rekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="uma://_WCUhAO8KEdmKSqa_gSYthg#_WCUhAO8KEdmKSqa_gSYthg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

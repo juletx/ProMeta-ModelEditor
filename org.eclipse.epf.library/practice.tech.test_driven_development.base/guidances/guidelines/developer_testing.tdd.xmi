@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-7ketKzGlDB1TVwsYHvVLfg" name="new_guideline,_T_ylcCnlEd2W590fuUWNqw" guid="-7ketKzGlDB1TVwsYHvVLfg" changeDate="2008-05-24T04:02:36.000-0700" version="7.5.0">
+  <mainDescription>&lt;h3>&#xD;
+    Write the tests first&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Writing the tests after the code is a chore. The urge is to rush through it, to finish up and move on. Writing tests&#xD;
+    before the code makes testing part of a positive feedback loop. As you implement more code, you see more tests passing&#xD;
+    until finally all the tests pass and you're done. People who write tests first seem to be more successful, and it takes&#xD;
+    no more time. For more on putting tests first, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../practice.tech.test_driven_development.base/guidances/guidelines/test_driven_development_F581182D.html&quot;&#xD;
+    guid=&quot;_5s_DUJ03EdyQ3oTO93enUw&quot;>Guideline: Test Driven Development&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

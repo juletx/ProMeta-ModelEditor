@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-7skHLaUfQVh3R2DzJN4YGw" name="decision_service,_M0nWsAsYEdyPCr4G1Tb79A" guid="-7skHLaUfQVh3R2DzJN4YGw" authors="Jerome Boyer" changeDate="2011-09-28T15:55:01.962-0700" version="7.5.1">
+  <mainDescription>&lt;a id=&quot;XE_decision_service&quot; name=&quot;XE_decision_service&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    &lt;span style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-bidi-font-weight: bold&quot;>A software component that encapsulates&#xD;
+    run-time rule processing elements. The component instances provide a &quot;ready to run&quot; business rule application. A&#xD;
+    decision service offers a business interface with methods. The implementation of the interface is calling a business&#xD;
+    rule engine.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-bidi-font-weight: bold&quot;>A decision service component is mostly&#xD;
+    stateless and simplifies the process of integrating business rules with popular application platforms such as JSE, JEE,&#xD;
+    and a Web service.&lt;/span> In the context of a BRMS application it is also named rule service.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

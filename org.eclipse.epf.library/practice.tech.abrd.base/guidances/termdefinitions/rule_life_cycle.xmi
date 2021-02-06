@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Z17eaHqe7KYLNe9wdrQSXw" name="rule_life_cycle,_IorTACC-EduGAdKOTiDQdQ" guid="-Z17eaHqe7KYLNe9wdrQSXw" authors="Jerome Boyer" changeDate="2008-09-03T04:04:56.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_life_cycle&quot; name=&quot;XE_rule_life_cycle&quot;>&lt;/a> 
+&lt;p>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Various
+    states the rule will have during its life cycle, from creation, testing, in production&amp;nbsp;to retirement. A rule life
+    cycle is&amp;nbsp;linked to the development practices of the IT team and also to some business requirements. Rule life
+    cycle is an important&amp;nbsp;element to develop the rule governance processes.&lt;/span>&amp;nbsp;
+&lt;/p>&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

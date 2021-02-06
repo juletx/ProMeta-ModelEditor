@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-wmNktMd6FNHo9XGSzcXqXQ" name="decision_service_architecture,_6BE7QAp_EdyPCr4G1Tb79A" guid="-wmNktMd6FNHo9XGSzcXqXQ" authors="Jerome Boyer" changeDate="2010-08-13T04:17:04.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.abrd.base/guidances/termdefinitions/decision_service_6C51F997.html&quot;
+    guid=&quot;_M0nWsAsYEdyPCr4G1Tb79A&quot;>Decision service&lt;/a> definition should map business decision point and not technical
+    service like a rule set signature. Decision service&amp;nbsp;definition should not take into account the&amp;nbsp;fact that we
+    are using a rule engine&amp;nbsp;for the&amp;nbsp;implementation, and should expose reusable interface and
+    operations&amp;nbsp;that&amp;nbsp;are linked together by a business meaning or semantic.&amp;nbsp;This means a decision service is
+    part of the business services and not the technical services. &amp;nbsp;
+&lt;/p>&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

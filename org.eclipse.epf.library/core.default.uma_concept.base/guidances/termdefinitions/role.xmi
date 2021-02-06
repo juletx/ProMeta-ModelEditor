@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_yUefQdnmEdmO6L4XMImrsA" name="role,_yUefQNnmEdmO6L4XMImrsA" guid="_yUefQdnmEdmO6L4XMImrsA" changeDate="2008-01-08T04:58:05.000-0800" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    Describes a standard set of responsibilities and corresponding skills necessary to perform a task&amp;nbsp;or create a work&#xD;
+    product.&amp;nbsp; A Role is &lt;strong>not&lt;/strong> a job description the same person may execute several roles&#xD;
+    simultaneously or during the course of a project and a role may likewise be defined to represent a group such as a&#xD;
+    review board.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-QyQxGy-JR3YceDG_VUN5aw" name="execute_rule_discovery_roadmap,_sruW3AjqEdyj5bYZ0eCR5g" guid="-QyQxGy-JR3YceDG_VUN5aw" authors="Jerome Boyer" changeDate="2010-08-15T08:53:35.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>
+    Rule elicitation is an ongoing activity you perform throughout the project. Collaboration with your stakeholders is
+    critical. They will change their minds as the project proceeds and that's perfectly fine.
+&lt;/p>
+&lt;p>
+    The documentation of the rule may be done using different language. The natural language is initially used during
+    business conversations to describe the rule, informally, without trying to impose any structure. SMEs express their
+    ideas using a language very close to them, but they usually are not able to formalize their concepts in a clear and
+    unambiguous way. Using this language we may have redundancy and inconstancy in the rule expression, in the business
+    terms, and overall by it may not be relevant and precise enough to be able to implement the decision logic.
+&lt;/p>
+&lt;p>
+    Conceptualization and representation play fundamental roles in thinking, communicating, and modeling.
+&lt;/p>
+&lt;p>
+    A second evolution is still in natural language, and is still consumable by both analysts and developers, but, we have
+    imposed some structure, and we made sure that they are relevant and have the right form, but may not be correct
+    semantically. We use the rule description template to log the rule.
+&lt;/p>
+&lt;p>
+    The last type of expressiveness of the language to document the rule is precise and there are no ambiguities: the rule
+    refers exactly to information system objects. This language is parse-able and non-ambiguous. Semantics of Business
+    Vocabulary and Business Rules or SBVR from Object Management Group can be used at this stage to specify formally
+    representations of concepts, definitions, instances, and rules&amp;nbsp;in natural language.
+&lt;/p></mainDescription>
+  <sections xmi:id="_sruW4QjqEdyj5bYZ0eCR5g" name="Discover rule from Subject Matter Expert" guid="_sruW4QjqEdyj5bYZ0eCR5g">
+    <sectionDescription>Discover rules from Subject Matter Expert using workshop sessions. There are two types of interactions: interviews and&#xD;
+analysis workshop. For interview the typical number of people in the same room is around two or three. Workshop implies a&#xD;
+bigger logistic with six to ten persons involved.&lt;span style=&quot;mso-bidi-language: HE&quot;>The requirements workshop is perhaps&#xD;
+the most powerful technique for eliciting requirements. It gathers all key stakeholders together for a short but intensely&#xD;
+focused period. The use of an outside facilitator experienced in requirements management can ensure the success of the&#xD;
+workshop. Brainstorming is the most efficient techniques used during the sessions.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_sruW4AjqEdyj5bYZ0eCR5g" name="Discover rule from documentation" guid="_sruW4AjqEdyj5bYZ0eCR5g">
+    <sectionDescription>&lt;p>&#xD;
+    Discover rules from legal document or from policies description. When using electronic document annotate it on anything&#xD;
+    that needs some future discussion, copy and paste the business policy to the rule template to clearly isolate it for&#xD;
+    future analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US&quot;>One&#xD;
+    risk with this approach is that the reader is making his own interpretation of the context, the document may not&#xD;
+    include all the cases and rules, it is some time difficult to get some of the business motivation.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    So we recommend a strong discipline to be able to achieve the following goal:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Get an exhaustive list of the business events under scope: log them in a table&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Get the activities, tasks, processes that support the processing of those business events&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Get the business motivation behind the rules&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Get explanation on rule if they are unclear, ambiguous.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Try to extract the object model under scope, domain values&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_sruW3gjqEdyj5bYZ0eCR5g" name="Discover rule from code" guid="_sruW3gjqEdyj5bYZ0eCR5g">
+    <sectionDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>&#xD;
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Discover rules from current application code.&#xD;
+    This elicitation method is time consuming and does not lead to great results. The analyst needs to study a lot of line&#xD;
+    of codes, and procedures (most of the time in old computer language) to find some if statement that are linked to&#xD;
+    business decision. Depending of the design and code structure of the application this work can take time. It is&#xD;
+    important to do not forget the context of execution of the application when the if statement is executed, some&#xD;
+    variables have can be set that may change the implemented &quot;business rules&quot;. The different variable names set for a&#xD;
+    concept may lead to difficulties to understand a rule.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>&#xD;
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Code mining tools exist on the market which help&#xD;
+    to extract if statement and the variables meaning. It is important to keep in mind that rule written in the past may&#xD;
+    not be relevant any more.&lt;/span>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_sruW3QjqEdyj5bYZ0eCR5g" name="Document the business rules with some first level of  meta data" guid="_sruW3QjqEdyj5bYZ0eCR5g">
+    <sectionDescription>&lt;p>&#xD;
+    Use template for writing rule description during the discovery phase.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span&#xD;
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial; mso-bidi-font-weight: bold&quot;>To document the rule try to&#xD;
+    use the language of the business (&quot;problem domain&quot;) rather than the language of the technology (&quot;solution&#xD;
+    domain&quot;)&lt;/span>&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt; tab-stops: 54.0pt&quot;>&#xD;
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>The following rule is as stated by a business&#xD;
+    user in a car rental industry:&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;div&#xD;
+style=&quot;BORDER-RIGHT: medium none; PADDING-RIGHT: 0cm; BORDER-TOP: medium none; PADDING-LEFT: 3pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; MARGIN-LEFT: 36pt; BORDER-LEFT: gray 1.5pt solid; MARGIN-RIGHT: 0cm; PADDING-TOP: 0cm; BORDER-BOTTOM: medium none; mso-element: para-border-div&quot;>&#xD;
+    &lt;p class=&quot;ISISCodeParagraph&quot; style=&quot;BACKGROUND: #f3f3f3; MARGIN: 6pt 0cm; mso-add-space: auto&quot;>&#xD;
+        &lt;font face=&quot;Courier&quot;>&quot;Each driver authorized to drive a car of group K must be over 29&quot;&lt;/font>&#xD;
+    &lt;/p>&#xD;
+&lt;/div>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot; />&#xD;
+&lt;br />&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&#xD;
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>A rule developer may better think to document the&#xD;
+    rule as&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;div&#xD;
+style=&quot;BORDER-RIGHT: medium none; PADDING-RIGHT: 0cm; BORDER-TOP: medium none; PADDING-LEFT: 3pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; MARGIN-LEFT: 36pt; BORDER-LEFT: gray 1.5pt solid; MARGIN-RIGHT: 0cm; PADDING-TOP: 0cm; BORDER-BOTTOM: medium none; mso-element: para-border-div&quot;>&#xD;
+    &lt;p class=&quot;ISISCodeParagraph&quot; style=&quot;BACKGROUND: #f3f3f3; MARGIN: 6pt 0cm; mso-add-space: auto&quot;>&#xD;
+        &lt;font face=&quot;Courier&quot;>If the age of the driver is less than 29 and the requested group of the reservation is K,&#xD;
+        modify the authorized attribute of the driver accordingly&lt;/font>&#xD;
+    &lt;/p>&#xD;
+&lt;/div></sectionDescription>
+  </sections>
+  <purpose>Discover the business rules from the different sources</purpose>
+</org.eclipse.epf.uma:TaskDescription>

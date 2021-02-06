@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__ZrisbekEd-D7YZN9NgldQ" guid="__ZrisbekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__ZrisrekEd-D7YZN9NgldQ" id="-18b5hLyhHSSG8Wk1_T7fVQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_b5a1gVmSEeCcpdiAcH0w-w" id="-6wO1WkYhqlhcM-5FwEvgmA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_b5a1glmSEeCcpdiAcH0w-w" id="-CuJ8KsGj2Ge8INilrucD1w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_b5a1g1mSEeCcpdiAcH0w-w" id="-SUg_Lde8qOSnwbqR7aE35Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_b5j_cFmSEeCcpdiAcH0w-w" id="-9LXp5OR5EN9FZBKkwS1J8w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_b5j_cVmSEeCcpdiAcH0w-w" id="-nwZcYuKm35TyaeUzE1tIug" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_b5j_clmSEeCcpdiAcH0w-w" id="-09Itbxe1JXVwpusKQdRW6A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_b5twcFmSEeCcpdiAcH0w-w" id="-Vv_9K8Dz3DHl2GFZ69FiAQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_b5twcVmSEeCcpdiAcH0w-w" id="-pAIEUuJxXz-6pgjLh_pMzw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_4NT9AH9XEd26h9j0X6pKmw" name="design_bre_integration" guid="_4NT9AH9XEd26h9j0X6pKmw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_59VJIH9XEd26h9j0X6pKmw" name="determine_rule_implementation" guid="_59VJIH9XEd26h9j0X6pKmw" presentationName="Determine Rule Implementation" briefDescription="This task tries to answer the question of where to implement the business rules that have been discovered." superActivities="_4NT9AX9XEd26h9j0X6pKmw">
+      <presentation xmi:id="-6wO1WkYhqlhcM-5FwEvgmA" href="uma://-18b5hLyhHSSG8Wk1_T7fVQ#-6wO1WkYhqlhcM-5FwEvgmA"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_qzveUBk5Edyoe_hnDlTB5A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_BZaDsH9ZEd26h9j0X6pKmw" name="define_ruleset" guid="_BZaDsH9ZEd26h9j0X6pKmw" presentationName="Define Rule Set" superActivities="_4NT9AX9XEd26h9j0X6pKmw" linkToPredecessor="_ENXZEH9ZEd26h9j0X6pKmw" mandatoryInput="_BZaDsX9ZEd26h9j0X6pKmw _BZaDsn9ZEd26h9j0X6pKmw" output="_BZaDs39ZEd26h9j0X6pKmw">
+      <presentation xmi:id="-CuJ8KsGj2Ge8INilrucD1w" href="uma://-18b5hLyhHSSG8Wk1_T7fVQ#-CuJ8KsGj2Ge8INilrucD1w"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_7L2MIDyOEdyA6a_I80swHw"/>
+      <selectedSteps href="uma://-gt8CaPXz6HldH1v7OnThvg#_uGtsEErrEdyEE-k1R6LmOA"/>
+      <selectedSteps href="uma://-gt8CaPXz6HldH1v7OnThvg#_pIE9sEafEdySHMdInS9eGA"/>
+      <selectedSteps href="uma://-gt8CaPXz6HldH1v7OnThvg#__SG24DyOEdyA6a_I80swHw"/>
+      <selectedSteps href="uma://-gt8CaPXz6HldH1v7OnThvg#_vYhSMErrEdyEE-k1R6LmOA"/>
+      <selectedSteps href="uma://-gt8CaPXz6HldH1v7OnThvg#_4V6rAErrEdyEE-k1R6LmOA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ENXZEH9ZEd26h9j0X6pKmw" guid="_ENXZEH9ZEd26h9j0X6pKmw" pred="_59VJIH9XEd26h9j0X6pKmw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6OKacH9XEd26h9j0X6pKmw" name="build_object_models" guid="_6OKacH9XEd26h9j0X6pKmw" presentationName="Build Object Models" superActivities="_4NT9AX9XEd26h9j0X6pKmw" linkToPredecessor="_EWT5sH9ZEd26h9j0X6pKmw">
+      <presentation xmi:id="-SUg_Lde8qOSnwbqR7aE35Q" href="uma://-18b5hLyhHSSG8Wk1_T7fVQ#-SUg_Lde8qOSnwbqR7aE35Q"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_ZffcIDmiEdy8N6BRpa8ByQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_EWT5sH9ZEd26h9j0X6pKmw" guid="_EWT5sH9ZEd26h9j0X6pKmw" pred="_BZaDsH9ZEd26h9j0X6pKmw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6cKaMH9XEd26h9j0X6pKmw" name="build_rule_project_structure" guid="_6cKaMH9XEd26h9j0X6pKmw" presentationName="Build Rule Project Structure" briefDescription="Designing and building how the rule will be managed is an important activity of a BRMS project. This task describes how to build the set of rule and non rules projects that support the business application." superActivities="_4NT9AX9XEd26h9j0X6pKmw" linkToPredecessor="_E6_UEH9ZEd26h9j0X6pKmw">
+      <presentation xmi:id="-9LXp5OR5EN9FZBKkwS1J8w" href="uma://-18b5hLyhHSSG8Wk1_T7fVQ#-9LXp5OR5EN9FZBKkwS1J8w"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_O92DQDV5EdyTBtGu8YeFfg"/>
+      <selectedSteps href="uma://-FSjG7hFXf5jUyW13bEdakQ#_OBfOkDuhEdy8N6BRpa8ByQ"/>
+      <selectedSteps href="uma://-FSjG7hFXf5jUyW13bEdakQ#_RVoYoDyNEdyA6a_I80swHw"/>
+      <selectedSteps href="uma://-FSjG7hFXf5jUyW13bEdakQ#_3jNuADyNEdyA6a_I80swHw"/>
+      <selectedSteps href="uma://-FSjG7hFXf5jUyW13bEdakQ#_O92DQTV5EdyTBtGu8YeFfg"/>
+      <selectedSteps href="uma://-FSjG7hFXf5jUyW13bEdakQ#_94ET8DugEdy8N6BRpa8ByQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_E6_UEH9ZEd26h9j0X6pKmw" guid="_E6_UEH9ZEd26h9j0X6pKmw" pred="_BZaDsH9ZEd26h9j0X6pKmw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6qw24H9XEd26h9j0X6pKmw" name="prototype_rules" guid="_6qw24H9XEd26h9j0X6pKmw" presentationName="Prototype Rules" briefDescription="Prototyping rules is an important step of the rule analysis, as it is when we are really coding that issues arrived. Paper work is fine, but working rules is far better." superActivities="_4NT9AX9XEd26h9j0X6pKmw" linkToPredecessor="_Gg-acH9ZEd26h9j0X6pKmw _Gg-acX9ZEd26h9j0X6pKmw">
+      <presentation xmi:id="-nwZcYuKm35TyaeUzE1tIug" href="uma://-18b5hLyhHSSG8Wk1_T7fVQ#-nwZcYuKm35TyaeUzE1tIug"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_x-GVQIsqEd2gksNyFVJN4g"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_dds-IDmiEdy8N6BRpa8ByQ"/>
+      <selectedSteps href="uma://-bFlEvOsmuJvDiRkZZcf_uA#_tA5YEDyIEdyA6a_I80swHw"/>
+      <selectedSteps href="uma://-bFlEvOsmuJvDiRkZZcf_uA#_usf-QDyIEdyA6a_I80swHw"/>
+      <selectedSteps href="uma://-bFlEvOsmuJvDiRkZZcf_uA#_6OjFIDyIEdyA6a_I80swHw"/>
+      <selectedSteps href="uma://-bFlEvOsmuJvDiRkZZcf_uA#_8RaUwDyIEdyA6a_I80swHw"/>
+      <selectedSteps href="uma://-bFlEvOsmuJvDiRkZZcf_uA#_-ThWcDyIEdyA6a_I80swHw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Gg-acH9ZEd26h9j0X6pKmw" guid="_Gg-acH9ZEd26h9j0X6pKmw" pred="_6OKacH9XEd26h9j0X6pKmw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Gg-acX9ZEd26h9j0X6pKmw" guid="_Gg-acX9ZEd26h9j0X6pKmw" pred="_6cKaMH9XEd26h9j0X6pKmw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BZaDsX9ZEd26h9j0X6pKmw" name="decision_point_table" guid="_BZaDsX9ZEd26h9j0X6pKmw" presentationName="Decision Point Table" isPlanned="false" superActivities="_4NT9AX9XEd26h9j0X6pKmw">
+      <presentation xmi:id="-09Itbxe1JXVwpusKQdRW6A" href="uma://-18b5hLyhHSSG8Wk1_T7fVQ#-09Itbxe1JXVwpusKQdRW6A"/>
+      <examples href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_kRoWgBDFEdyJtJ3PbfdVDw"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_SlELAAsbEdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BZaDsn9ZEd26h9j0X6pKmw" name="rule_description_doc" guid="_BZaDsn9ZEd26h9j0X6pKmw" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_4NT9AX9XEd26h9j0X6pKmw">
+      <presentation xmi:id="-Vv_9K8Dz3DHl2GFZ69FiAQ" href="uma://-18b5hLyhHSSG8Wk1_T7fVQ#-Vv_9K8Dz3DHl2GFZ69FiAQ"/>
+      <examples href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_j4-ukDS3EdyTBtGu8YeFfg"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_srklxAjqEdyj5bYZ0eCR5g"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_srklxQjqEdyj5bYZ0eCR5g"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW2gjqEdyj5bYZ0eCR5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BZaDs39ZEd26h9j0X6pKmw" name="ruleset" guid="_BZaDs39ZEd26h9j0X6pKmw" presentationName="Ruleset" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_4NT9AX9XEd26h9j0X6pKmw">
+      <presentation xmi:id="-pAIEUuJxXz-6pgjLh_pMzw" href="uma://-18b5hLyhHSSG8Wk1_T7fVQ#-pAIEUuJxXz-6pgjLh_pMzw"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_mqnOETmsEdy8N6BRpa8ByQ"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_vjWPcDzEEdyA6a_I80swHw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_4NT9AX9XEd26h9j0X6pKmw" name="design_bre_integration" guid="_4NT9AX9XEd26h9j0X6pKmw" presentationName="Design BRMS Integration" breakdownElements="_59VJIH9XEd26h9j0X6pKmw _BZaDsH9ZEd26h9j0X6pKmw _6OKacH9XEd26h9j0X6pKmw _6cKaMH9XEd26h9j0X6pKmw _6qw24H9XEd26h9j0X6pKmw _BZaDsX9ZEd26h9j0X6pKmw _BZaDsn9ZEd26h9j0X6pKmw _BZaDs39ZEd26h9j0X6pKmw">
+      <presentation xmi:id="-18b5hLyhHSSG8Wk1_T7fVQ" href="uma://-18b5hLyhHSSG8Wk1_T7fVQ#-18b5hLyhHSSG8Wk1_T7fVQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

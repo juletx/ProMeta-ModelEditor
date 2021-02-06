@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-K2GqbCbU-fYoV1Ypz3rbVg" name=",_A2d5sCyQEd-ER8gMc_Ftrw" guid="-K2GqbCbU-fYoV1Ypz3rbVg" authors="Jerome Boyer" changeDate="2011-09-21T11:29:36.193-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    A &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.abrd.base/guidances/termdefinitions/decision_point_B1C5EFE2.html&quot;&#xD;
+    guid=&quot;_XUyFIEb1EdySHMdInS9eGA&quot;>Decision point&lt;/a>&amp;nbsp;represents an activity in a business process where decisions are&#xD;
+    done. When looking at a task description it is important to search for mental thinking verb, most of the time there is&#xD;
+    a set of knowledge to apply to execute this task, which leads to decision. This could be human knowledge or business&#xD;
+    logic implementation in a software component. The type of decision will most likely be a reject or accept of the&#xD;
+    business event or flag it for future processing downstream in the business process. The decision may also include some&#xD;
+    computational expressions to assign value to attribute of the business transaction. Therefore to find decision point in&#xD;
+    a business process or use case description start by searching for mental, action verb like analyze, check, validate,&#xD;
+    evaluate, verify, assess, ...&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In a BPMN process diagram a business process analyst and/ or a rule analyst can annotate the process to highlight&#xD;
+    decision point in the process.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/finddecisionpoint.jpg&quot; width=&quot;1572&quot; height=&quot;363&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The search for decision point, attached to a business process description (done with use case or with BPMN does not&#xD;
+    matter), helps to drive the rule analysis, and helps the business to focus at the business rule&amp;nbsp;enforcement.&#xD;
+    If&amp;nbsp;the business team misses where the rule should be enforced,&amp;nbsp;the team can spend months defining business&#xD;
+    rules which IT does not understand where to deploy them. The decision point can help drive the discovery of the&#xD;
+    business policies and rules, for an implementation point of view, as well as a way to organize the top down approach. A&#xD;
+    decision point support multiple rules, and if implemented with a rule engine, the rules are packaged as rule set.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Also finding the decision points involves studying&lt;br />&#xD;
+    • Which use cases/scenarios represent decisions - At what steps in the use case is a decision made?&lt;br />&#xD;
+    • Which requirements constitute rich set of decisions?&lt;br />&#xD;
+    • Which steps/cases/requirements represent significant complexity?&lt;br />&#xD;
+    • Which steps/cases/requirements are most subject to change?&lt;br />&#xD;
+    • Look for decision diamonds in the flow charts and activity diagrams, the gateway by itself route the data to the next&#xD;
+    activity, but the activity before the gateway should be rich in decisions.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The documentation of the decision point can be done in table format.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

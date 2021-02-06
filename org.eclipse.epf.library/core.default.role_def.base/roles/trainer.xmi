@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-C6ZZTqQccgTUpiCA8BWeKg" name="training_specialist,_JIQgAEVvEeC6_c5S_pc9RA" guid="-C6ZZTqQccgTUpiCA8BWeKg" changeDate="2011-10-13T08:07:04.982-0600" version="7.5.1">
+  <mainDescription>Many organizations engage Trainers to deliver product training to various audiences. Unlike a software Developer, most&#xD;
+Trainers have extensive experience in delivering training materials in a fashion that is well suited to communicating&#xD;
+complex concepts to End Users. They bring a necessary creativity and talent that complements the implementation and testing&#xD;
+skills of a development team.</mainDescription>
+  <skills>&lt;p>&#xD;
+    A Trainer should possess the following skills:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A strong understanding of the domain in which features are being developed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Deliver training, lab, and workshop materials effectively to both end users and application support personnel&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Adhere to corporate training standards&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></skills>
+</org.eclipse.epf.uma:RoleDescription>

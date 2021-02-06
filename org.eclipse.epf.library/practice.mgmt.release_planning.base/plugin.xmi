@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9WjNX7ekEd-D7YZN9NgldQ" guid="_9WjNX7ekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__AzIoLekEd-D7YZN9NgldQ" id="-FMA7pB1MClBDXVA8-A8D2A" uri="guidances/supportingmaterials/release_info_release_planning.xmi"/>
+    <resourceDescriptors xmi:id="__AzIobekEd-D7YZN9NgldQ" id="_XjOXcMM2EdmSIPI87WLu3g" uri="guidances/templates/project_plan.xmi"/>
+    <resourceDescriptors xmi:id="__A85oLekEd-D7YZN9NgldQ" id="-ThmcJuMmkwabvA7gn7hC6g" uri="guidances/examples/project_burndown_report_example.xmi"/>
+    <resourceDescriptors xmi:id="__A85obekEd-D7YZN9NgldQ" id="-hrDndmFd0zexB0HNYX3gww" uri="guidances/reports/project_burndown.xmi"/>
+    <resourceDescriptors xmi:id="__BGDkLekEd-D7YZN9NgldQ" id="-iMEYJ2Jbm9S8GihBKFOaFA" uri="guidances/checklists/project_plan.xmi"/>
+    <resourceDescriptors xmi:id="__BGDkbekEd-D7YZN9NgldQ" id="_fPbdIKe2Edmzde8VFK5bxg" uri="tasks/plan_the_project.xmi"/>
+    <resourceDescriptors xmi:id="__BGDkrekEd-D7YZN9NgldQ" id="-NNByAM5YsjCu39flaOSZtQ" uri="guidances/termdefinitions/project_burndown.xmi"/>
+    <resourceDescriptors xmi:id="__BP0kLekEd-D7YZN9NgldQ" id="-HYO1lwAFOxlT7ncq8EjSng" uri="guidances/guidelines/staffing_project.xmi"/>
+    <resourceDescriptors xmi:id="__BP0kbekEd-D7YZN9NgldQ" id="-4a1QxeLdn2OKx5_Lft8tBA" uri="guidances/roadmaps/how_to_adopt.xmi"/>
+    <resourceDescriptors xmi:id="__BZlkLekEd-D7YZN9NgldQ" id="-txho2faQkfNfyMw-X-Y_aA" uri="guidances/practices/release_planning.xmi"/>
+    <resourceDescriptors xmi:id="__BZlkbekEd-D7YZN9NgldQ" id="_IbVp8KX4EdmvhNXG0Oc2uA" uri="workproducts/project_plan.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_nKS10J6YEdyQN-zRFaRrCQ" name="practice.mgmt.release_planning.base" guid="_nKS10J6YEdyQN-zRFaRrCQ" presentationName="Release Planning" briefDescription="Do release-level planning and define long term coarse schedule." changeDate="2008-02-22T09:29:17.000-0800">
+    <methodElementProperty xmi:id="_-gnMx7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9WjNULekEd-D7YZN9NgldQ" name="Content" guid="_9WjNULekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9WjNUbekEd-D7YZN9NgldQ" name="Categories" guid="_9WjNUbekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9WjNUrekEd-D7YZN9NgldQ" name="Domains" guid="_9WjNUrekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9WjNU7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9WjNU7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9WjNVLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9WjNVLekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9WjNVbekEd-D7YZN9NgldQ" name="WP Types" guid="_9WjNVbekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9WjNVrekEd-D7YZN9NgldQ" name="Tools" guid="_9WjNVrekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9WjNV7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9WjNV7ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9WjNWLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9WjNWLekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9WjNWbekEd-D7YZN9NgldQ" name="Hidden" guid="_9WjNWbekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9WjNWrekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9WjNWrekEd-D7YZN9NgldQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9WjNW7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9WjNW7ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hLcgcJ9WEdy3Nc4rvuj7bA" name="release_planning" guid="_hLcgcJ9WEdy3Nc4rvuj7bA" presentationName="Release Planning">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_q8sJwMOBEdy3nv0ZK8D4GQ" name="release_info" guid="_q8sJwMOBEdy3nv0ZK8D4GQ" presentationName="Release Info">
+            <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_SP6Y4MN_Edy3nv0ZK8D4GQ" name="release_info_release_planning" guid="_SP6Y4MN_Edy3nv0ZK8D4GQ" presentationName="Practice: Release Planning" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+              <presentation xmi:id="-FMA7pB1MClBDXVA8-A8D2A" href="uma://-FMA7pB1MClBDXVA8-A8D2A#-FMA7pB1MClBDXVA8-A8D2A"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A7xlwDNYEd22VN1l0Y4pLw" name="template_report_and_examples" guid="_A7xlwDNYEd22VN1l0Y4pLw" presentationName="Template, Report, and Examples">
+            <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_0c7hoMlgEdmt3adZL5Dmdw" name="project_plan" guid="_0c7hoMlgEdmt3adZL5Dmdw" presentationName="Project Plan" briefDescription="This is the informal template for representing the project plan.">
+              <presentation xmi:id="_XjOXcMM2EdmSIPI87WLu3g" href="uma://_XjOXcMM2EdmSIPI87WLu3g#_XjOXcMM2EdmSIPI87WLu3g"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_Yiq2EDcGEdyTZ9G7ByfQTw" name="project_burndown_report_example" guid="_Yiq2EDcGEdyTZ9G7ByfQTw" presentationName="Project Burndown Report" briefDescription="This is an example of a project burndown report.">
+              <presentation xmi:id="-ThmcJuMmkwabvA7gn7hC6g" href="uma://-ThmcJuMmkwabvA7gn7hC6g#-ThmcJuMmkwabvA7gn7hC6g"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Report" xmi:id="_ePrt8Dj3EduxovfWMDsntw" name="project_burndown" guid="_ePrt8Dj3EduxovfWMDsntw" presentationName="Project Burndown" briefDescription="This report is an effective way of communicating project progress. Trends are measured so better predictions and estimates can be made." examples="_Yiq2EDcGEdyTZ9G7ByfQTw">
+              <presentation xmi:id="-hrDndmFd0zexB0HNYX3gww" href="uma://-hrDndmFd0zexB0HNYX3gww#-hrDndmFd0zexB0HNYX3gww"/>
+            </contentElements>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_-qtjsAasEdy1uLAzgK8btg" name="project_plan" guid="_-qtjsAasEdy1uLAzgK8btg" presentationName="Project Plan" briefDescription="This check list provides questions to verify that project plans are created in a consistent manner.">
+            <presentation xmi:id="-iMEYJ2Jbm9S8GihBKFOaFA" href="uma://-iMEYJ2Jbm9S8GihBKFOaFA#-iMEYJ2Jbm9S8GihBKFOaFA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0lC70MlgEdmt3adZL5Dmdw" name="plan_the_project" guid="_0lC70MlgEdmt3adZL5Dmdw" presentationName="Plan Project" briefDescription="A collaborative task that outlines an initial agreement on how the project will achieve its goals. The resulting project plan provides a summary-level overview of the project." output="_0a6vcMlgEdmt3adZL5Dmdw">
+            <presentation xmi:id="_fPbdIKe2Edmzde8VFK5bxg" href="uma://_fPbdIKe2Edmzde8VFK5bxg#_fPbdIKe2Edmzde8VFK5bxg"/>
+            <guidelines href="#_Jq64EJjsEduad8I_c-ogIA"/>
+            <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_CGHskBEdEdqY7JB6N6CW2w"/>
+            <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_VNxL4ACsEdu8m4dIntu6jA"/>
+            <guidelines href="uma://_vJYucEfUEdyiPI8btkmvmw#_sLQ6AN8-Edyhmsbt0Xyl8A"/>
+            <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_yYlQoC3xEdycYKq0PulnEQ"/>
+            <mandatoryInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+            <mandatoryInput href="uma://_vJYucEfUEdyiPI8btkmvmw#_1QZI8EfUEdyiPI8btkmvmw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_eX0YsEvvEdunZcj9T5hrMQ" name="project_burndown" guid="_eX0YsEvvEdunZcj9T5hrMQ" presentationName="project burndown">
+            <presentation xmi:id="-NNByAM5YsjCu39flaOSZtQ" href="uma://-NNByAM5YsjCu39flaOSZtQ#-NNByAM5YsjCu39flaOSZtQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_Jq64EJjsEduad8I_c-ogIA" name="staffing_project" guid="_Jq64EJjsEduad8I_c-ogIA" presentationName="Staffing a Project" briefDescription="This guideline offers advice for how to staff a software development project and improving the team's productivity by making informed decisions about team members and how they collaborate.">
+            <presentation xmi:id="-HYO1lwAFOxlT7ncq8EjSng" href="uma://-HYO1lwAFOxlT7ncq8EjSng#-HYO1lwAFOxlT7ncq8EjSng"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_ihr3sOMPEdyM47cGD2jiaQ" name="how_to_adopt" guid="_ihr3sOMPEdyM47cGD2jiaQ" presentationName="How to Adopt the Release Planning Practice" briefDescription="This roadmap describes how to adopt the Release Planning practice. It helps an organization get prepared for creating a coarse-grained plan for the project, which in turn is used to guide the fine-grained plans and activities that happen throughout the project.">
+            <presentation xmi:id="-4a1QxeLdn2OKx5_Lft8tBA" href="uma://-4a1QxeLdn2OKx5_Lft8tBA#-4a1QxeLdn2OKx5_Lft8tBA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_ijFkcB4sEd2bS8fFOQ7WWA" name="release_planning" guid="_ijFkcB4sEd2bS8fFOQ7WWA" presentationName="Release Planning" briefDescription="The Release Planning practice embodies the concept of high-level planning for the complete project scope (macro-) and low-level (micro-) planning for the immediate and next increments or iterations.">
+            <presentation xmi:id="-txho2faQkfNfyMw-X-Y_aA" href="uma://-txho2faQkfNfyMw-X-Y_aA#-txho2faQkfNfyMw-X-Y_aA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_ihr3sOMPEdyM47cGD2jiaQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0lC70MlgEdmt3adZL5Dmdw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="#_0a6vcMlgEdmt3adZL5Dmdw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Report" href="#_ePrt8Dj3EduxovfWMDsntw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0mYYkMlgEdmt3adZL5Dmdw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_Jq64EJjsEduad8I_c-ogIA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0a6vcMlgEdmt3adZL5Dmdw" name="project_plan" guid="_0a6vcMlgEdmt3adZL5Dmdw" presentationName="Project Plan" briefDescription="This artifact gathers all of the information required to manage the project on a strategic level. Its main part consists of a coarse-grained plan, identifying project iterations and their goals." checklists="_-qtjsAasEdy1uLAzgK8btg" examples="_Yiq2EDcGEdyTZ9G7ByfQTw" reports="_ePrt8Dj3EduxovfWMDsntw" templates="_0c7hoMlgEdmt3adZL5Dmdw">
+            <presentation xmi:id="_IbVp8KX4EdmvhNXG0Oc2uA" href="uma://_IbVp8KX4EdmvhNXG0Oc2uA#_IbVp8KX4EdmvhNXG0Oc2uA"/>
+            <fulfills href="uma://_vJYucEfUEdyiPI8btkmvmw#_RJMUcNpUEdyzZqGyZ7hwdw"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9WjNXLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9WjNXLekEd-D7YZN9NgldQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9WjNXbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9WjNXbekEd-D7YZN9NgldQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9WjNXrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9WjNXrekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_vJYucEfUEdyiPI8btkmvmw#_vJYucEfUEdyiPI8btkmvmw"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="uma://_-bv0ELXuEduGP_98XMd0fg#_-bv0ELXuEduGP_98XMd0fg"/>
+    <bases href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_qqyzAJ6WEdyQN-zRFaRrCQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

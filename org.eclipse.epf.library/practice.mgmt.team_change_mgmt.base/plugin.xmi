@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9Z1K37ekEd-D7YZN9NgldQ" guid="_9Z1K37ekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__DB9QLekEd-D7YZN9NgldQ" id="_Nr0S4KeqEdmKDbQuyzCoqQ" uri="tasks/request_change.xmi"/>
+    <resourceDescriptors xmi:id="__DB9QbekEd-D7YZN9NgldQ" id="-TuCzhSCW4ZtU_Z5h-cGwFQ" uri="guidances/roadmaps/how_to_adopt.xmi"/>
+    <resourceDescriptors xmi:id="__DLuQLekEd-D7YZN9NgldQ" id="-w7sImtXWkf4HDXdUWjRsUg" uri="guidances/guidelines/submitting_change_requests.xmi"/>
+    <resourceDescriptors xmi:id="__DVfQLekEd-D7YZN9NgldQ" id="-r3bcpa8I8s9Ta-F-krEwBA" uri="guidances/practices/team_change_mgmt.xmi"/>
+    <resourceDescriptors xmi:id="__DVfQbekEd-D7YZN9NgldQ" id="-xPhJw16KmT-h86ekuVaveQ" uri="guidances/supportingmaterials/release_info_team_change_mgmt.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_44o4AOvVEdyp6czxLiQq9g" name="practice.mgmt.team_change_mgmt.base" guid="_44o4AOvVEdyp6czxLiQq9g" presentationName="Team Change Management" briefDescription="This practice manages ad-hoc requests for change to the product being developed, or to the scope of the project, that occur during the development lifecycle." changeDate="2008-09-18T10:13:43.000-0700">
+    <methodElementProperty xmi:id="_-gnMyrekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Z1K0LekEd-D7YZN9NgldQ" name="Content" guid="_9Z1K0LekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Z1K0bekEd-D7YZN9NgldQ" name="Categories" guid="_9Z1K0bekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Z1K0rekEd-D7YZN9NgldQ" name="Domains" guid="_9Z1K0rekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Z1K07ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9Z1K07ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Z1K1LekEd-D7YZN9NgldQ" name="RoleSets" guid="_9Z1K1LekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Z1K1bekEd-D7YZN9NgldQ" name="WP Types" guid="_9Z1K1bekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Z1K1rekEd-D7YZN9NgldQ" name="Tools" guid="_9Z1K1rekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Z1K17ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9Z1K17ekEd-D7YZN9NgldQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Z1K2LekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9Z1K2LekEd-D7YZN9NgldQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Z1K2bekEd-D7YZN9NgldQ" name="Hidden" guid="_9Z1K2bekEd-D7YZN9NgldQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9Z1K2rekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9Z1K2rekEd-D7YZN9NgldQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Z1K27ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9Z1K27ekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1Jhn4OxXEdyCFeiQwJE7Vg" name="team_change_management" guid="_1Jhn4OxXEdyCFeiQwJE7Vg" presentationName="Team change management">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0mwzEclgEdmt3adZL5Dmdw" name="request_change" guid="_0mwzEclgEdmt3adZL5Dmdw" presentationName="Request Change" briefDescription="Capture and record change requests." guidelines="_fnZj0NVXEdqy9sbRhejO5Q">
+            <presentation xmi:id="_Nr0S4KeqEdmKDbQuyzCoqQ" href="uma://_Nr0S4KeqEdmKDbQuyzCoqQ#_Nr0S4KeqEdmKDbQuyzCoqQ"/>
+            <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_PJoMYOxbEdyCFeiQwJE7Vg" name="how_to_adopt" guid="_PJoMYOxbEdyCFeiQwJE7Vg" presentationName="How to Adopt the Team Change Management Practice" briefDescription="This roadmap describes how to adopt the Team Change Management practice.">
+            <presentation xmi:id="-TuCzhSCW4ZtU_Z5h-cGwFQ" href="uma://-TuCzhSCW4ZtU_Z5h-cGwFQ#-TuCzhSCW4ZtU_Z5h-cGwFQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_fnZj0NVXEdqy9sbRhejO5Q" name="submitting_change_requests" guid="_fnZj0NVXEdqy9sbRhejO5Q" presentationName="Submitting Change Requests" briefDescription="This guideline describes the type of information that is typically captured on a change request. This information is used to prioritize and scope the work required to implement the change and to monitor progress.">
+            <presentation xmi:id="-w7sImtXWkf4HDXdUWjRsUg" href="uma://-w7sImtXWkf4HDXdUWjRsUg#-w7sImtXWkf4HDXdUWjRsUg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_tz6tkB4uEd2bS8fFOQ7WWA" name="team_change_mgmt" guid="_tz6tkB4uEd2bS8fFOQ7WWA" presentationName="Team Change Management" briefDescription="This is a practice for capturing change requests that are managed as part of work item management.">
+            <presentation xmi:id="-r3bcpa8I8s9Ta-F-krEwBA" href="uma://-r3bcpa8I8s9Ta-F-krEwBA#-r3bcpa8I8s9Ta-F-krEwBA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_PJoMYOxbEdyCFeiQwJE7Vg"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0mwzEclgEdmt3adZL5Dmdw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_fnZj0NVXEdqy9sbRhejO5Q"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Example" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_nHomIDgzEdu4E8ZdmlYjtA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-Y9L4OxXEdyCFeiQwJE7Vg" name="release_info" guid="_-Y9L4OxXEdyCFeiQwJE7Vg" presentationName="Release info">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_-Y9L4exXEdyCFeiQwJE7Vg" name="release_info_team_change_mgmt" guid="_-Y9L4exXEdyCFeiQwJE7Vg" presentationName="Practice: Team Change Management" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-xPhJw16KmT-h86ekuVaveQ" href="uma://-xPhJw16KmT-h86ekuVaveQ#-xPhJw16KmT-h86ekuVaveQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9Z1K3LekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9Z1K3LekEd-D7YZN9NgldQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9Z1K3bekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9Z1K3bekEd-D7YZN9NgldQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9Z1K3rekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9Z1K3rekEd-D7YZN9NgldQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+    <bases href="uma://_vJYucEfUEdyiPI8btkmvmw#_vJYucEfUEdyiPI8btkmvmw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

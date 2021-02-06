@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-OcMsciNn-UtD9fTHj26LGA" name="new_guideline,_34jWsLcIEduRNaXpzCOLXQ" guid="-OcMsciNn-UtD9fTHj26LGA" changeDate="2008-02-14T05:04:57.000-0800" version="1.0.0">
+  <mainDescription>&lt;h3>&#xD;
+    Model key perspectives&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Modeling helps raise the level of abstraction because you simplify complex ideas and represent them visually, as&#xD;
+    illustrations. Good models can convey information that helps the team visualize, specify, construct, and document&#xD;
+    software.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/guidelines/using_visual_modeling_DA1CA6E4.html&quot;&#xD;
+    guid=&quot;_0SsecNr8EdyXE6np2_hUMA&quot;>Guideline: Using Visual Modeling&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

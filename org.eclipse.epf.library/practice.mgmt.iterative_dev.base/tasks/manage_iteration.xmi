@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-PbfqVxB_j9KN-Jx39_pEUA" name="manage_iteration,_8S2aICbYEdqh1LYUOGRh2A" guid="-PbfqVxB_j9KN-Jx39_pEUA" changeDate="2011-03-25T16:39:44.587-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    Developing the team is part of executing the project. Improve the interactions and trust between team members,&#xD;
+    incorporating team building into project activities, and empowering the team to make decisions. Management is done by&#xD;
+    objectives and not by time reporting.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Help the team meet the iteration objectives by removing constraints, and by monitoring the progress and work remaining&#xD;
+    to completion. When the team is falling behind, help the team assess how it can reduce work and still meet the&#xD;
+    iteration goals. Involve stakeholders in approving changes and actions that affect them, so that their objectives for&#xD;
+    the iteration can be met, and the issues they raise can be solved throughout the iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Select an approach for the collection of basic metrics: ideally, they are automatically generated from the tools at&#xD;
+    hand, but can be manually assembled, or both. &lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Outline&#xD;
+    which metrics the project should use in the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.slot.base/workproducts/project_definition_and_scope_slot_BB8EB6F7.html&quot;&#xD;
+    guid=&quot;_RJMUcNpUEdyzZqGyZ7hwdw&quot;>[Project Definition and Scope]&lt;/a>.&lt;/span>&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_OE65ICuxEdqTIKp3l5PtzQ" name="Track current iteration progress" guid="_OE65ICuxEdqTIKp3l5PtzQ">
+    <sectionDescription>&lt;p>&#xD;
+    Continuously monitor the iteration to ensure that it is progressing appropriately. Track the progress of the current&#xD;
+    iteration by maintaining visibility on the status of the items that are being worked on during the iteration. In&#xD;
+    particular, it is important to be able to understand how quickly the team is moving through the work scheduled for the&#xD;
+    iteration, and how accurate the estimates were &lt;a class=&quot;elementlinkwithusertext&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.base/guidances/supportingmaterials/references.mgmt_D80619F3.html#LEF07&quot;&#xD;
+    guid=&quot;_JlTPUM6aEdyuBO4ZIzcyig&quot;>[LEF07]&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Share information about the progress being made by having quick, frequent meetings with the entire project team. These&#xD;
+    meetings are useful to understand what team members have accomplished since the last meeting, and what they plan to&#xD;
+    accomplish before the next meeting. It also allows the team to identify any blocking issues. See &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.slot.base/guidances/guidelines/collaboration_guidance_slot_D3B8DD40.html&quot;&#xD;
+    guid=&quot;_68JUYN8-Edyhmsbt0Xyl8A&quot;>[Collaboration Guidance]&lt;/a> for more information.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Track the status of each work item by using visual indicators of state information (for example: defined, completed,&#xD;
+    accepted) in a wall or automated tool. Since iterations are typically fixed in duration, another primary way to gauge&#xD;
+    progress is to continuously monitor current status and also estimate how much work remains. Plot an iteration burndown&#xD;
+    chart on a daily basis in order to visualize progress on a given iteration. This chart is plotted with the total&#xD;
+    estimates for all the items that are not yet started and the estimated remaining effort for any item in progress. See&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.mgmt.iterative_dev.base/guidances/reports/iteration_burndown_9C1C96F5.html&quot;&#xD;
+    guid=&quot;_uAzgkDg3Edu4E8ZdmlYjtA&quot;>Report: Iteration Burndown&lt;/a> for more information.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Take corrective actions to adjust the course of the iteration if the burndown chart shows that the work will not be&#xD;
+    finished as planned.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_urvQkGSyEd2DNqLAFatITA" name="Capture and communicate project status" guid="_urvQkGSyEd2DNqLAFatITA">
+    <sectionDescription>&lt;p>&#xD;
+    Because outside stakeholders do not participate in the daily activities of the team, it is important that the status of&#xD;
+    the project should be communicated to them as often as possible. This communication significantly lowers the risk of&#xD;
+    disconnect between the development team and the stakeholders. The status provides the team with data they can use to&#xD;
+    improve their development process.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Besides the iteration status, the overall project status can be captured and communicated in a burndown report for the&#xD;
+    whole project. This report should show the progress toward the release date, and should be updated at the end of every&#xD;
+    iteration (when metrics, such as the team's velocity, can also be provided). This allows the team to predict what it&#xD;
+    can accomplish on the remaining project iterations. Other metrics (such as number of test cases passed) can also be&#xD;
+    used to present iteration and project status.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Keep the status information visible to stakeholders and the project team at all times in a project workspace (walls or&#xD;
+    automated tool), where stakeholders can come and experience first-hand the progress being made by the team.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oIZdkCbZEdqh1LYUOGRh2A" name="Handle exceptions and problems" guid="_oIZdkCbZEdqh1LYUOGRh2A">
+    <sectionDescription>&lt;p>&#xD;
+    Know about the team's problems and issues and&amp;nbsp;focus on problems that are blocking progress. A quick, daily meeting&#xD;
+    is usually a good way to monitor those problems and issues. Keep&amp;nbsp;a record of issues that have to be solved within&#xD;
+    the team in the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.mgmt.iterative_dev.base/workproducts/iteration_plan_B46FED39.html&quot;&#xD;
+    guid=&quot;_0aQBEslgEdmt3adZL5Dmdw&quot;>Iteration Plan&lt;/a>&lt;font color=&quot;#003399&quot;>.&lt;/font> If a critical problem or issue is&#xD;
+    likely to take a lot of time to solve, capture it in the Work Items List so that it can be assigned to an individual.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Identify the cause and impact of problems and exceptions as they arise. Identify possible solutions for problems that&#xD;
+    have an immediate impact on the short-term goals and objectives. Identify who needs to be involved in implementing the&#xD;
+    solution. Define the corrective actions and implement them.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_xiFJwCbZEdqh1LYUOGRh2A" name="Identify and manage risks" guid="_xiFJwCbZEdqh1LYUOGRh2A">
+    <sectionDescription>&lt;p>&#xD;
+    Identify risks as soon as the project starts, and continue identifying and managing risks throughout the project.&#xD;
+    Revisit the &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.mgmt.common.extend_supp/workproducts/risk_list_C4B6F290.html&quot;&#xD;
+    guid=&quot;_Ckay8Cc_EduIsqH1Q6ZuqA&quot;>Risk List&lt;/a> weekly, or at a minimum once per iteration. Involve the entire team in&#xD;
+    identifying and mitigating risks.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Br6VECuxEdqTIKp3l5PtzQ" name="Manage objectives" guid="_Br6VECuxEdqTIKp3l5PtzQ">
+    <sectionDescription>When a team is falling significantly behind, or critical problems occur that prevent the team from meeting the iteration&#xD;
+objectives, it may be necessary to descope work to ensure that the team delivers a useful product increment by the end of&#xD;
+the iteration, while maximizing stakeholder value. Work with the team and stakeholders to revise the Iteration Plan and, as&#xD;
+necessary, reduce the emphasis on less critical tasks by postponing them to a subsequent iteration. In rare cases, if the&#xD;
+iteration objectives still seem impossible to meet, the team might consider terminating the iteration or reformulating the&#xD;
+iteration to a new objective.</sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    Help the team meet the iteration objectives and keep the project on track. Manage stakeholders' expectations as&#xD;
+    technical and practical discoveries are made during the project.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

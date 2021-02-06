@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-01L_eCnHjKmBPsGcdk8XTg" name=",_Dq0GQAIoEdyLh7vsrHZ4YA" guid="-01L_eCnHjKmBPsGcdk8XTg" changeDate="2008-09-08T06:12:53.000-0700" version="7.2.0">
+  <keyConsiderations>&lt;p>&#xD;
+    In order to be effective at applying the practice of &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.continuous_integration.base/guidances/guidelines/continuous_integration_13C1A8CA.html&quot;&#xD;
+    guid=&quot;_i8bUEL6cEdqti4GwqTkbsQ&quot;>Continuous Integration&lt;/a>,&amp;nbsp;the time to integrate, build, and test the increment&#xD;
+    must be short enough that it can be performed several times per day.&amp;nbsp; Changes should be broken down into&#xD;
+    relatively small &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/guidances/concepts/change_set_430BF233.html&quot;&#xD;
+    guid=&quot;_1QU9MAIoEdyLh7vsrHZ4YA&quot;>Change Set&lt;/a>s that can be implemented, integrated and tested quickly.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_kkZBhZOKEdyaRbFYa4AN4A" name="Integrate implemented elements" guid="_kkZBhZOKEdyaRbFYa4AN4A">
+    <sectionDescription>&lt;p>&#xD;
+    In&amp;nbsp;the relevant&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.continuous_integration.base/guidances/concepts/workspace_722BBA90.html&quot;&#xD;
+    guid=&quot;_0cEmAMlgEdmt3adZL5Dmdw&quot;>Workspace&lt;/a>, combine all completed&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/guidances/concepts/change_set_430BF233.html&quot;&#xD;
+    guid=&quot;_1QU9MAIoEdyLh7vsrHZ4YA&quot;>Change Set&lt;/a>s that are not in the latest baseline. Resolve any conflicting versions of&#xD;
+    the artifacts by either removing one of the change sets that created the conflict&amp;nbsp;or by creating a new change set&#xD;
+    that includes merged versions of the conflicting artifacts.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_kkZBgpOKEdyaRbFYa4AN4A" name="Create build" guid="_kkZBgpOKEdyaRbFYa4AN4A">
+    <sectionDescription>&lt;p>&#xD;
+    Create the build.&amp;nbsp;The details of this step depend upon the implementation language and development environment and&#xD;
+    may involve compiling and linking (in the case of compiled languages) and/or other processes that result in an&#xD;
+    executable increment of the system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Examples of these steps&amp;nbsp;include:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Compiling and linking the source artifacts to create an executable&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Loading binary objects on a test bench or simulator&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Running a script to load/update database schemas&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Packaging and deploying web applications&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <sections xmi:id="_kkZBhJOKEdyaRbFYa4AN4A" name="Test integrated elements" guid="_kkZBhJOKEdyaRbFYa4AN4A">
+    <sectionDescription>&lt;p>&#xD;
+    Re-run the developer tests against the integrated elements to verify that they behave the same as they did in&#xD;
+    isolation. Ensure that the scope of these&amp;nbsp;tests is as broad as possible, which ensures that the latest change sets&#xD;
+    did not cause failing developer tests in other areas of the system.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_kkZBg5OKEdyaRbFYa4AN4A" name="Run &quot;Smoke Tests&quot;" guid="_kkZBg5OKEdyaRbFYa4AN4A">
+    <sectionDescription>&lt;p>&#xD;
+    Several builds will be created in each iteration. For each build, this step is performed only when change sets have&#xD;
+    been delivered to satisfy the requirements of that build.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Execute a sub-set of the system tests to ensure that the build is suitable prior to committing resources to the full&#xD;
+    scope of system testing.&amp;nbsp;While the level of testing will vary, focus on gaining confidence that the increment is&#xD;
+    of sufficient quality to establish a baseline for system testing.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_kkZBgZOKEdyaRbFYa4AN4A" name="Make changes available" guid="_kkZBgZOKEdyaRbFYa4AN4A">
+    <sectionDescription>&lt;p>&#xD;
+    When tests are successfully completed and the build is considered &quot;good,&quot; the results&amp;nbsp;are made available to the&#xD;
+    rest of the team by &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.continuous_integration.base/guidances/guidelines/promoting_changes_9087B764.html&quot;&#xD;
+    guid=&quot;_SM4YIL6dEdqti4GwqTkbsQ&quot;>Promoting Changes&lt;/a>.&amp;nbsp;The details of this step depend on the configuration&#xD;
+    management tools in use, but in general this involves committing&amp;nbsp;a tested change set to the CM repository so that&#xD;
+    it&amp;nbsp;serves as the basis of development for the next increment of the system.&amp;nbsp; This is the essence of &lt;a&#xD;
+    class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.continuous_integration.base/guidances/guidelines/continuous_integration_13C1A8CA.html&quot;&#xD;
+    guid=&quot;_i8bUEL6cEdqti4GwqTkbsQ&quot;>Continuous Integration&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to integrate all changes made by all developers into the code base and perform the minimal&#xD;
+testing on the system increment in order to validate the build.&amp;nbsp; The goal is to identify integration issues as soon as&#xD;
+possible, so they can be corrected easily by the right person, at the right time.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

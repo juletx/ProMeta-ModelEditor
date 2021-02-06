@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_qDRSULBKEdm7Eph_l9Cn9w" name="envision_the_arch,_0f-1oMlgEdmt3adZL5Dmdw" guid="_qDRSULBKEdm7Eph_l9Cn9w" changeDate="2010-05-26T09:05:46.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    This task focuses on envisioning the initial architecture and outlining the&amp;nbsp;architectural decisions that will&#xD;
+    guide development and testing. It relies on gathering experience gained in similar systems or problem domains to&#xD;
+    constrain and focus the architecture so that effort is not wasted in re-inventing architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The results are captured for future reference and are communicated across the team. It is important that the team has&#xD;
+    enough information to understand the technical approach being taken.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The architecture evolves organically over time by outlining and refining portions of it. A few people get together in a&#xD;
+    room and sketch out what they think the architecture will be. This envisioning effort sets the foundation for&#xD;
+    prototyping. If the solution is similar to a previously produced solution (or is a well-known solution domain), then it&#xD;
+    will probably be good enough to reference that example as evidence of the feasibility of the approach. In some cases,&#xD;
+    it may be necessary to develop one or more prototypes to validate some of the decisions or clarify some of the&#xD;
+    requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The work done here does not seek to produce a detailed and comprehensive technical specification for the system.&#xD;
+    Rather, the approach should be to decide the overall technical approach at a high level. The conclusion of this work&#xD;
+    should produce just enough information to communicate the architecture to the team, and to demonstrate its viability to&#xD;
+    the customer. This allows the project to move forward, enabling you to refine and baseline the architecture.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    It&amp;nbsp;is important to reduce the complexity of the&amp;nbsp;solution by raising the levels of abstraction.&amp;nbsp;For more&#xD;
+    information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/abstract_away_complexity_DBF13AE6.html&quot;&#xD;
+    guid=&quot;_we3F4ACpEdu8m4dIntu6jA&quot;>Guideline: Abstract Away Complexity&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is critical that this task be performed collaboratively with active involvement of other team members and project&#xD;
+    stakeholders so that consensus and common understanding is reached. It is particularly vital to involve the&#xD;
+    developer(s) throughout this task. The architecture effort&amp;nbsp;is about providing leadership and coordination of the&#xD;
+    technical work rather than putting in a solo performance.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_3nMQQA3rEduibvKwrGxWxA" name="Identify architectural goals" guid="_3nMQQA3rEduibvKwrGxWxA">
+    <sectionDescription>&lt;p>&#xD;
+    Work with the team to describe the remaining goals for the architecture and identify which ones are appropriate to&#xD;
+    address for this iteration.&amp;nbsp;Look at&amp;nbsp;the requirements and speak to the people asking for them to&#xD;
+    make&amp;nbsp;sure that the&amp;nbsp;critical goals for this iteration are well understood. These goals will prioritize and&#xD;
+    guide the approach to important technical decisions.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It's important to regularly review the status of these goals throughout the project to make sure that they are still&#xD;
+    valid and that the system is on track to deliver them.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_goals_CB41D8AE.html&quot;&#xD;
+    guid=&quot;_HlRqANpbEdyP58ppo1Ieaw&quot;>Concept: Architectural Goals&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_f0y2kM25Edym_ZFqrJcXUg" name="Identify architecturally significant requirements" guid="_f0y2kM25Edym_ZFqrJcXUg">
+    <sectionDescription>&lt;p>&#xD;
+    Identify which of the current requirements are architecturally significant.&amp;nbsp;Explore and refine those that must be&#xD;
+    implemented in order to realize the architectural goals for the current iteration. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html&quot;&#xD;
+    guid=&quot;_HrZGIA4MEduibvKwrGxWxA&quot;>Concept: Architecturally Significant Requirements&lt;/a>&amp;nbsp;for more information.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_9o6Z4CSCEdqDjNgZyGMf5w" name="Identify constraints on the architecture" guid="_9o6Z4CSCEdqDjNgZyGMf5w">
+    <sectionDescription>&lt;p>&#xD;
+    List any constraints on the architecture and any trade-offs between competing requirements and resources. Decide how&#xD;
+    the architecture will meet these issues. Justify each of the decisions made and capture this information. Regularly&#xD;
+    review the list of constraints to make sure that they are still valid and that no new ones have appeared.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_constraints_AE56B662.html&quot;&#xD;
+    guid=&quot;_jdKSsNpiEdyP58ppo1Ieaw&quot;>Concept: Architectural Constraints&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_I32E4MP2EdmWKcx6ixEiwg" name="Identify key abstractions" guid="_I32E4MP2EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p>&#xD;
+    Identify the key concepts and abstractions that the system needs to handle. The requirements are good sources for key&#xD;
+    abstractions.&amp;nbsp; Don't spend too much time describing&amp;nbsp;abstractions in detail at this initial stage, because&#xD;
+    there is a risk that spending too much time will result in identifying classes and relationships that the solution does&#xD;
+    not actually need.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When&amp;nbsp;identifying&amp;nbsp;key abstractions, it can be useful to also define any obvious relationships that exist&#xD;
+    between them.&amp;nbsp;These can be captured in a table or&amp;nbsp;in diagrams (in a tool or whiteboard.&amp;nbsp;In general, it&#xD;
+    is not worth agonizing over defining a highly detailed set of relationships at this early stage in design. The&#xD;
+    relationships will become more concrete and detailed later and will&amp;nbsp;probably modify&amp;nbsp;these&#xD;
+    early&amp;nbsp;assumptions.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/key_abstractions_1474DBF2.html&quot;&#xD;
+    guid=&quot;_pLEGUNqGEdy88NBoQgfGyg&quot;>Concept: Key Abstractions&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_B899cMP2EdmWKcx6ixEiwg" name="Identify reuse opportunities" guid="_B899cMP2EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p>&#xD;
+    Survey, assess, and select available assets.&amp;nbsp; Identify assets from other areas that may be reused in the current&#xD;
+    architecture. For more information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html&quot;&#xD;
+    guid=&quot;_vO2uoO0OEduUpsu85bVhiQ&quot;>Guideline: Software Reuse&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_FVrlsMP2EdmWKcx6ixEiwg" name="Define approach for partitioning the system" guid="_FVrlsMP2EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p>&#xD;
+    Decide how to partition the software, both in logical and physical terms. Partitioning your system helps you manage its&#xD;
+    complexity by using the well-known &quot;divide and conquer&quot; strategy. By breaking the process into smaller and more&#xD;
+    manageable pieces, you make development easier.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As a minimum, decide on:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        How to partition the software when managing development (the use of layering as a partitioning strategy, for&#xD;
+        example).&amp;nbsp; For more information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/layering_F169CF07.html&quot;&#xD;
+        guid=&quot;_0gpkAMlgEdmt3adZL5Dmdw&quot;>Guideline: Layering&lt;/a>.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How the software will be composed at run time.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    For each software partition, briefly describe&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Its name and purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Its relationships to other partitions.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    At this point, you do not need to identify the elements that should be placed in each of these partitions.&amp;nbsp;&#xD;
+    Instead, you define how many partitions you will need and how they should be related. Later, during&amp;nbsp;design&#xD;
+    activities, you decide which elements will populate these partitions.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_tmvWwE5cEducxZ_XZXh-vw" name="Define approach for deploying the system" guid="_tmvWwE5cEducxZ_XZXh-vw">
+    <sectionDescription>&lt;p>&#xD;
+    Outline how the software will deploy over the nodes on the network. Work with stakeholders such as network support and&#xD;
+    deployment teams to ensure that the proposed approach is a good fit for the wider technical environment.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_KBAsYMP2EdmWKcx6ixEiwg" name="Identify architectural mechanisms" guid="_KBAsYMP2EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p>&#xD;
+    Make a list of the&amp;nbsp;technical services that the system needs to provide and capture some basic information about&#xD;
+    each item on the list. It's generally a good idea to make an initial&amp;nbsp;list of all the mechanisms required for the&#xD;
+    project and then prioritize the development of those that need to be&amp;nbsp;delivered to achieve the architectural goals.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    At this point, usually only the analysis mechanisms are defined.&amp;nbsp; However, specific &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_constraints_AE56B662.html&quot;&#xD;
+    guid=&quot;_jdKSsNpiEdyP58ppo1Ieaw&quot;>Architectural Constraints&lt;/a>&amp;nbsp;may mean that some of those mechanisms can be&#xD;
+    described as design mechanisms (even at this early stage).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more information on architectural mechanisms, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html&quot;&#xD;
+    guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Concept: Architectural Mechanism&lt;/a>.&amp;nbsp;&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_RKSLsNp3EdyItewP9R0w7Q" name="Identify interfaces to external systems" guid="_RKSLsNp3EdyItewP9R0w7Q">
+    <sectionDescription>&lt;p>&#xD;
+    At this point, identify the external systems with which this system must interact.&amp;nbsp; An external system may be&#xD;
+    anything from software to hardware units that the current system will use, such as printers, terminals, alarm devices,&#xD;
+    and sensors.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Describe those interfaces at a high level, concentrating on the information that must pass between the systems.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Q2PRIFHSEd2zrOgIte8oWg" name="Verify architectural consistency" guid="_Q2PRIFHSEd2zrOgIte8oWg">
+    <sectionDescription>Work with the team&amp;nbsp;to verify that the architecture is consistent with the requirements and that the descriptions of&#xD;
+the architecture are complete, meaningful, and clear.</sectionDescription>
+  </sections>
+  <sections xmi:id="_Xia1QFHSEd2zrOgIte8oWg" name="Capture and communicate architectural decisions" guid="_Xia1QFHSEd2zrOgIte8oWg">
+    <sectionDescription>Capture important decisions about the architecture in the &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.tech.evolutionary_arch.base/workproducts/architecture_notebook_9BB92433.html&quot;&#xD;
+guid=&quot;_0XAf0MlgEdmt3adZL5Dmdw&quot;>Architecture Notebook&lt;/a>&amp;nbsp;for future reference. Make sure that&amp;nbsp;the team&#xD;
+understands the architecture&amp;nbsp;and can deliver it.</sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    To&amp;nbsp;envision a technical approach to the system that supports the project requirements, within the constraints&#xD;
+    placed on the system and the development team.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To provide sufficient guidance and direction for the team to begin development.&#xD;
+&lt;/p></purpose>
+  <alternatives>&lt;p>&#xD;
+    This task&amp;nbsp;is most&amp;nbsp;needed when developing new and unprecedented systems. In systems where there is already a&#xD;
+    well-defined architecture, this task may be omitted and replaced with a&amp;nbsp;review of the existing architecture.&#xD;
+&lt;/p></alternatives>
+</org.eclipse.epf.uma:TaskDescription>

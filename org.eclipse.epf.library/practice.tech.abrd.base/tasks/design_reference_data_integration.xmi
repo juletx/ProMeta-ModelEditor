@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-QqiIwonwt-ErT139DDUqsA" name="design_reference_data_integration,_HMQasGDFEdyKlZvvtnMrMg" guid="-QqiIwonwt-ErT139DDUqsA" authors="Jerome Boyer" changeDate="2011-09-21T11:07:12.171-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Data management need to be considered from the methodology point of view, such as data origination, data management,&#xD;
+    and data consumption. The architect needs to understand how the master data are coming from and how they are updated.&#xD;
+    The life cycle of such data can lead to version and management control, that may add complexity on top of the services&#xD;
+    versioning. The data consumption has to be addressed for the execution environment and also in the case of BRMS&#xD;
+    deployment for the rule authoring environment.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The following diagram highlights a high level architecture&amp;nbsp;architect can leverage to design&amp;nbsp;his own solution.&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./resources/mdm.jpg&quot; width=&quot;557&quot; height=&quot;499&quot; />&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The master data are centralized in a repository, and technology as Master Data Management product can be&amp;nbsp;used for&#xD;
+    that. The different sources of data are synchronized with this repository on a regular basis, using different&#xD;
+    implementation mechanism based on ETL, ESB, web services or custom layer. A mapping mechanism&amp;nbsp;as to be applied to&#xD;
+    persist the data in the repository. The Execution environment can fetch the last version or a given version of the data&#xD;
+    from this repository and cache it.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The same applies for the rule authoring environment: The&amp;nbsp;BRMS server can load the data and cache it in the web&#xD;
+    server. With such simple architecture the rule writer can have access to a unique definition of the enumerated domains&#xD;
+    or other business objects, like a Product definition.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

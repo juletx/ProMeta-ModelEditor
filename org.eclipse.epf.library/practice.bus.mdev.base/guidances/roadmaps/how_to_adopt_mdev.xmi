@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-8HIJRiG1VwF8mwvxuZ0c2Q" name="new_roadmap,_z093UOQVEdyy8NdG6HqqRA" guid="-8HIJRiG1VwF8mwvxuZ0c2Q" changeDate="2010-08-31T08:37:16.000-0700" version="7.5.0">
+  <mainDescription>&lt;h3>
+    &lt;em>Getting Started&lt;/em>
+&lt;/h3>
+&lt;p>
+    Understand&amp;nbsp;the basic building blocks of methods and how to define and customize them.&amp;nbsp; Implement your method
+    assets and publish a method configuration that can be reviewed by your stakeholders.
+&lt;/p>
+&lt;p>
+    As you apply the recommendations described in the practice, capture what you have learned, what worked for your team
+    and what didn't so that you can continually fine-tune how your team applies the practice.
+&lt;/p>
+&lt;h3>
+    &lt;em>Common Pitfalls&lt;/em>
+&lt;/h3>
+&lt;p>
+    Following are some common pitfalls when adopting this practice:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Spending too much time developing method assets to get them &quot;perfect&quot; before trying them out with real project
+        work. Define just enough to get started and then gather feedback for improvement from teams as they use the assets.
+    &lt;/li>
+    &lt;li>
+        Creating too many method assets at too fine-grained a level can overwhelm and confuse teams. Confirm that you
+        understand the requirements for each asset and how it will help project teams before investing a lot of time in
+        development.&lt;br />
+        &lt;br />
+    &lt;/li>
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

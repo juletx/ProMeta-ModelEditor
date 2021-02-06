@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-cTx4XxpRYKBXhRKY3yHlUw" name="decision_tree,_K_ttwCC8EduGAdKOTiDQdQ" guid="-cTx4XxpRYKBXhRKY3yHlUw" authors="Jerome Boyer" changeDate="2011-08-09T20:20:33.326-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_decision_tree&quot; name=&quot;XE_decision_tree&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Tree&#xD;
+    view for a set of business rules, where a rule is represented by a path through the tree.&amp;nbsp;Decision trees&amp;nbsp;are&#xD;
+    composed of branches that have a condition node as their root, and end with actions.&amp;nbsp;Decision trees allow you to&#xD;
+    manage a large set of rules with some conditions in common but not all.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Here is an example of a &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.tech.abrd.base/guidances/examples/decision_tree_C913B680.html&quot;&#xD;
+    guid=&quot;_MZlOgML9EeChb6L1Ye70Lg&quot;>Decision Tree&lt;/a>.&lt;br />&#xD;
+    &lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

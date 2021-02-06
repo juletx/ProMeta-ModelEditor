@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-4Fv0TSuJBCRxarK5ssyLGw" name="deployment_plan,_j0qgcGPoEeCXEsUUiTbOuQ" guid="-4Fv0TSuJBCRxarK5ssyLGw" changeDate="2012-05-30T14:25:00.538-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    The deployment plan should contain the unique instructions for deploying a particular version of a product. By &quot;unique&#xD;
+    instructions&quot; we mean those things that are not part of a deployment engineer's normal procedures. Rather, they often&#xD;
+    are specific procedures and timing constraints that a deployment engineer should be aware of as they are rolling out a&#xD;
+    particular release.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While&amp;nbsp;a draft version of the&amp;nbsp;deployment plan is typically developed by a development team, the deployment&#xD;
+    engineer is responsible for its contents and existence.&amp;nbsp;A deployment plan&amp;nbsp;normally consists of the following&#xD;
+    sections:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The scope of the release and a general overview of the capabilities to be deployed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The timing and dependencies for deploying components to various nodes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The risks or issues associated with the release based on a risk assessment&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The customer organization, stakeholders, and end user community that will be impacted by the release&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The person or persons who have the authority to approve the release as &quot;ready for production&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The development team members responsible for delivering the release package to the Deployment Manager, along with&#xD;
+        contact information&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The approach for transitioning the release package to the Deployment Engineer, including appropriate communications&#xD;
+        protocols and escalation procedures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The success criteria for this deployment; in other words, how will the Deployment Engineer know that the release is&#xD;
+        successful so it can report success&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <purpose>The purpose of this work product is to capture, in one document, the unique information that will be consumed by deployment&#xD;
+engineers before and during the deployment to production of a particular release package.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

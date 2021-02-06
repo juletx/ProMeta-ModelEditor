@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-HIQR9GY0lX3xDuTpeslNtg" name="02_05_execute_release_communications,_FCKYcmzvEeCPgecPbK9bdg" guid="-HIQR9GY0lX3xDuTpeslNtg" changeDate="2012-05-30T14:06:20.399-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    This task represents the distribution of communiques that were prepared beforehand as part of the release&#xD;
+    communications artifact. Although the development team is responsible for preparing the communications, the&#xD;
+    responsibility for sending the communiques normally is assigned to the deployment engineer, if that is the&#xD;
+    organizational protocol.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_IAFEkeB-EeC1y_NExchKwQ" name="Validate the communiques" guid="_IAFEkeB-EeC1y_NExchKwQ">
+    <sectionDescription>Ensure that the communiques designated for this release are correct, complete, and reflect all the stakeholder groups that&#xD;
+must be informed.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAFEkOB-EeC1y_NExchKwQ" name="Send release communications" guid="_IAFEkOB-EeC1y_NExchKwQ">
+    <sectionDescription>Using a pre-planned script, send the communiques in the manner designated in the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+href=&quot;./../../practice.gen.production_release.base/workproducts/release_communications_7698226F.html&quot;&#xD;
+guid=&quot;_IAIH4OB-EeC1y_NExchKwQ&quot;>Artifact: Release Communications&lt;/a>. Most of the time, the preferred communication&#xD;
+mechanism will be by email, but other methods could include beeper notification, telephone calls, a posting to an internal&#xD;
+release website, live or pre-recorded presentations by senior management, etc.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAEdh-B-EeC1y_NExchKwQ" name="Validate communications were received" guid="_IAEdh-B-EeC1y_NExchKwQ">
+    <sectionDescription>If the communiques were sent by email, it may be prudent to request a receipt of delivery to ensure that the notices were&#xD;
+received by the intended audience.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to ensure that the widest possible distribution of accurate information regarding a particular&#xD;
+release takes place.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-UaDGd7K2rQIFMwCrDuqQKQ" name=",_Ht-z8JfJEdyZkIR-s-Y8wQ" guid="-UaDGd7K2rQIFMwCrDuqQKQ" changeDate="2010-09-15T12:46:02.202-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Usually, this task is focused on a specific implementation&amp;nbsp;element, such as a class or component, but it does not&#xD;
+    need to be.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A portion of the design is implemented by performing this task. This task can be performed any number of times during&#xD;
+    an iteration. In fact it is best to do this task in as small a scope as possible to tighten the loop between it and&#xD;
+    related tasks involving developer testing and consideration of the design.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    It is best when developer tests already exist so there is an unambiguous definition of what behavior is considered&#xD;
+    correct. The implementation should be immediately tested.&#xD;
+&lt;/p>The [Project Work]&amp;nbsp; is implicitly used in implementation tasks to manage which requirements or change requests are&#xD;
+being realized in the code.&lt;br /></keyConsiderations>
+  <sections xmi:id="_RiBg4JfJEdyZkIR-s-Y8wQ" name="Determine a strategy" guid="_RiBg4JfJEdyZkIR-s-Y8wQ">
+    <sectionDescription>&lt;p>&#xD;
+    Determine a strategy based on the software design and developer tests&amp;nbsp;for how you are going to implement the&#xD;
+    solution. The fundamental options are:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Apply existing, reusable assets.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Model the design in detail and generate the source code (by model transformation).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Write the source code.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Any combination of the above.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <sections xmi:id="_SW1pAJfJEdyZkIR-s-Y8wQ" name="Identify opportunities for reuse" guid="_SW1pAJfJEdyZkIR-s-Y8wQ">
+    <sectionDescription>&lt;p>&#xD;
+    Identify existing code or other implementation elements that can be reused in the portion of the implementation that&#xD;
+    you are creating or changing. A comprehensive understanding of the overall design is helpful, because it is best to&#xD;
+    leverage reuse opportunities when you have a thorough understanding of the proposed solution.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_IVaTAJ-uEdyHNcWzRYqQMg" name="Transform design into implementation" guid="_IVaTAJ-uEdyHNcWzRYqQMg">
+    <sectionDescription>&lt;p>&#xD;
+    If you are using sophisticated modeling tools, you should be able to generate a portion of the required source code&#xD;
+    from the model. Note that programming is&amp;nbsp;commonly required to complete the implementation after the design model&#xD;
+    has been transformed into code.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Even without tools, there is&amp;nbsp;typically some amount of code that can be created by rote by examining the design and&#xD;
+    developer tests.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_TadCIJfJEdyZkIR-s-Y8wQ" name="Write source code" guid="_TadCIJfJEdyZkIR-s-Y8wQ">
+    <sectionDescription>&lt;p>&#xD;
+    Write the source code to make the implementation conform to the design and expected behavior. You should strive to&#xD;
+    reuse and/or generate code wherever possible, but you will still need to do some programming. To do so, consider the&#xD;
+    following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Examine the technical requirements. Because some requirement information does not translate directly into your&#xD;
+        design you should examine the requirement(s) to ensure that they are fully realized in the implementation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Refactor your code to improve its design. Refactoring is a technique where you improve the quality of your code via&#xD;
+        small, safe changes.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Tune the results of the existing implementation by improving performance, the user interface, security, and other&#xD;
+        nonfunctional areas.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Add missing details, such as completing the logic of operations or adding supporting classes and data structures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Handle boundary conditions.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Deal with unusual circumstances or error states.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Restrict behavior (preventing users or client code from executing illegal flows, scenarios, or combinations of&#xD;
+        options).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Add critical sections for multi-threaded or re-entrant code.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Though many different considerations are listed here, there is one clear way to know when the source code is done. The&#xD;
+    solution has been implemented when it passes the developer tests. Any other considerations can be taken care of in a&#xD;
+    refactoring pass over the code to improve it once it is complete and correct.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_WpB28JfJEdyZkIR-s-Y8wQ" name="Evaluate the implementation" guid="_WpB28JfJEdyZkIR-s-Y8wQ">
+    <sectionDescription>&lt;p>&#xD;
+    Verify that the implementation is fit for its purpose. Examine the code for its suitability to perform its intended&#xD;
+    function. This is a quality assurance step that you perform in addition to testing which is described in other tasks.&#xD;
+    Consider these strategies:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Pair programming. By pairing to implement the code in the first place, you effectively evaluate the code as its&#xD;
+        being written.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Read through the code for common mistakes. Consider keeping a checklist of common mistakes that you make, as a&#xD;
+        reminder reference.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use tools to check for implementation errors and inappropriate code. For example, use a static code rule checker or&#xD;
+        set the compiler to the most detailed warning level.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use tools that can visualize the code. Code visualization, such as the UML visualizations in the Eclipse IDE, help&#xD;
+        developers identify issues such as excessive coupling or circular dependencies.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Perform informal, targeted code inspections. Ask colleagues to review small critical sections of code and code with&#xD;
+        significant churn. Avoid reviewing large sections of code.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use&amp;nbsp;a tester to ensure the implementation is testable and understandable to testing resources.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Improve the implementation based on the results of these evaluations.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_XjAL4JfJEdyZkIR-s-Y8wQ" name="Communicate significant decisions" guid="_XjAL4JfJEdyZkIR-s-Y8wQ">
+    <sectionDescription>&lt;p>&#xD;
+    Communicate the impact of unexpected changes to the design and requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The issues and constraints that you uncover when you implement the system must be communicated to the team. The impact&#xD;
+    of issues discovered during implementation must be incorporated into future decisions. If appropriate, use&amp;nbsp; the&#xD;
+    change management process to reflect ambiguities that you identified and resolved in the implementation so they can be&#xD;
+    tested and you can manage&amp;nbsp;stakeholder expectations appropriately. Similarly,&amp;nbsp;leverage the design process to&#xD;
+    update the design to reflect new constraints and issues uncovered during implementation to be sure that the new&#xD;
+    information is communicated to other developers.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Usually, there is no need for a change request if the required change is small and the same person is designing and&#xD;
+    implementing the code element. That individual can make the design change directly. If the required change has a broad&#xD;
+    impact, it may be necessary to communicate that change to the other team members through a change request.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purpose of this task is to produce an implementation for part of the solution (such as a class or component), or to&#xD;
+    fix one or more defects. The result is typically new or modified source code, which is&amp;nbsp;referred to the&#xD;
+    implementation.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

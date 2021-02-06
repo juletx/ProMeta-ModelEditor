@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-I4IbR1GW6IFBCdq9SiMUsw" name="core_principle_balance,_ssG6MMvpEdqukPpotm3DYg" guid="-I4IbR1GW6IFBCdq9SiMUsw" changeDate="2008-01-23T05:11:19.000-0800" changeDescription="Removed metaphorical photo Removed open_up from page name." version="0.02">
+  <mainDescription>&lt;h3>
+    Introduction
+&lt;/h3>
+&lt;p>
+    Systems are rarely all things to all people. Often, attempts to make them so are wasteful, and result in bloated
+    systems.
+&lt;/p>
+&lt;p>
+    To be successful, stakeholders and the project participants must converge on a clear understanding and agreement of
+    these three factors:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Problem to be solved
+    &lt;/li>
+    &lt;li>
+        Constraints placed on the development team (cost, schedule, resources, regulations, and so on)
+    &lt;/li>
+    &lt;li>
+        Constraints placed on the solution
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    The challenge for all project participants is creating a solution that maximizes the value delivered to the
+    stakeholders, subject to the constraints. Balance is about making the critical, cost-benefit trade-offs between desired
+    features and the subsequent design decisions that define the architecture of the system.
+&lt;/p>
+&lt;p>
+    Discovering the balance point is challenging, elusive, and ongoing, because the balance point is dynamic. As the system
+    evolves, stakeholder needs change, new opportunities appear, risks are resolved, new risks appear, and the development
+    team discovers new realities about the system. Change happens throughout the development cycle. stakeholders and team
+    members must be prepared to re-evaluate commitments, reset expectations, and adjust plans accordingly as the system
+    evolves.
+&lt;/p>
+&lt;h3>
+    Practices
+&lt;/h3>
+&lt;h4>
+    Know your audience
+&lt;/h4>
+&lt;blockquote>
+    &lt;p>
+        You cannot know how to make effective trade-offs if you do not know who the stakeholders are and what they really
+        want.
+    &lt;/p>
+    &lt;p>
+        Get to know your stakeholders. Better yet, work closely with them to ensure that you know their needs. Start by
+        identifying all stakeholders, and then maintain open and frequent communication and collaboration between them and
+        the development team.
+    &lt;/p>
+&lt;/blockquote>
+&lt;h4>
+    Separate the problem from the solution
+&lt;/h4>
+&lt;blockquote>
+    &lt;p>
+        Too often, we run headlong into a solution without understanding the problem. After all, we are taught how to solve
+        problems, not how to define problems, so that's easier. However, this limits your understanding of the problem,
+        imposes artificial constraints, and makes it difficult to balance trade-offs, or to even know what the trade-offs
+        are.
+    &lt;/p>
+    &lt;p>
+        Make sure that you understand the problem before you define the solution. By clearly separating the problem (what
+        the customer needs) from the solution (what the system must do), it is easier to maintain the proper focus, and
+        easier to accommodate alternate ways of solving the problem.
+    &lt;/p>
+&lt;/blockquote>
+&lt;h4>
+    Create a shared understanding of the domain
+&lt;/h4>
+&lt;blockquote>
+    &lt;p>
+        Domain experts often have limited technical expertise; developers, architects, and testers often have limited
+        domain expertise; and reviewers and other stakeholders often have limited time to commit to the project and learn
+        the problem domain. As a result, people often have an inconsistent or poor understanding of the problem domain,
+        which causes communication problems and increases the likelihood of delivering poor value to the stakeholders.
+    &lt;/p>
+    &lt;p>
+        Enhance and share all parties' understandings of the domain. A concise and shared understanding of the problem
+        domain enhances communication and project effectiveness. Start by defining the problem in the Vision document. As
+        your understanding increases, capture key domain concepts and terminology in the Glossary to ensure a consistent,
+        shared use of the language of the domain.
+    &lt;/p>
+&lt;/blockquote>
+&lt;h4>
+    Use scenarios and use cases to capture requirements
+&lt;/h4>
+&lt;blockquote>
+    &lt;p>
+        Many companies still document requirements as a list of declarative statements, which are sometimes called the
+        &quot;shall statements.&quot; These lists are often difficult for stakeholders to understand, because they require the end
+        user to read through and mentally translate the list into a visualization of how the requirements will interact
+        with the system.
+    &lt;/p>
+    &lt;p>
+        Make use of scenarios and use cases to capture functional requirements in a form that is easy for stakeholders to
+        understand. Nonfunctional requirements, such as performance, stability, or usability requirements, are important
+        and can be documented as system-wide requirements, using traditional techniques.
+    &lt;/p>
+&lt;/blockquote>
+&lt;h4>
+    Establish and maintain agreement on priorities
+&lt;/h4>
+&lt;blockquote>
+    &lt;p>
+        Making poor decisions in deciding what to develop next can result in wasted effort, delivering capabilities that
+        are never used, or identifying problems late in the project (resulting in delays and even project failure).
+    &lt;/p>
+    &lt;p>
+        Prioritize requirements for implementation by regularly working with the stakeholders during product evolution.
+        Make choices that deliver value and reduce risks, while building a system that can evolve.
+    &lt;/p>
+&lt;/blockquote>
+&lt;h4>
+    Make trade-offs to maximize value
+&lt;/h4>
+&lt;blockquote>
+    &lt;p>
+        Cost-benefit trade-offs cannot be made independent of the architecture. Requirements establish the benefits of the
+        system to the stakeholder, while architecture establishes the cost. The cost of a benefit may influence the
+        stakeholder's perceived value of the benefit.
+    &lt;/p>
+    &lt;p>
+        Work with the stakeholders and team members to prioritize requirements and develop candidate architectures to
+        implement those solutions. Use the candidate architectures to evaluate the cost of the benefits. Candidate
+        solutions are considered at a high level when determining architectural feasibility. Different architectural
+        perspectives can result in different assessments of cost versus benefit. The candidate architecture that provides
+        the most coverage at the lowest cost is selected for further development.
+    &lt;/p>
+&lt;/blockquote>
+&lt;h4>
+    Manage scope
+&lt;/h4>
+&lt;blockquote>
+    &lt;p>
+        Change is inevitable. Although change presents opportunities to enhance stakeholder value, unconstrained change
+        will result in a bloated, deficient system and unmet stakeholder needs.
+    &lt;/p>
+    &lt;p>
+        Manage change while maintaining agreements with the stakeholders. Modern processes always manage change,
+        continually adapting to changes in the environment and stakeholder needs, assessing the impact of changes, making
+        trade-offs, and re-prioritizing work. stakeholder and developer expectations must be realistic and aligned
+        throughout the development lifecycle.
+    &lt;/p>
+&lt;/blockquote>
+&lt;h4>
+    Know when to stop
+&lt;/h4>
+&lt;blockquote>
+    &lt;p>
+        Over-engineering a system not only wastes resources, but also leads to an overly complex system.
+    &lt;/p>
+    &lt;p>
+        Stop developing the system when the desired quality is achieved. Remember that &quot;Quality is conformance to the
+        requirements&quot; &lt;a href=&quot;./../../../core.mgmt.common.base/guidances/supportingmaterials/references.mgmt_D80619F3.html#CRO79&quot; guid=&quot;_JlTPUM6aEdyuBO4ZIzcyig&quot;>[CRO79]&lt;/a>. This is what gives a sense of closure to the practice. Separate the
+        problem from the solution, ensuring that the solution does, indeed, solve the problem. After the critical
+        requirements are implemented and validated, the system is ready for stakeholder acceptance.
+    &lt;/p>
+&lt;/blockquote></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

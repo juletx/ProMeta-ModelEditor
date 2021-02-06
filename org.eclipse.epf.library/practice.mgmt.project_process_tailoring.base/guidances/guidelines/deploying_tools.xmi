@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-b265-u-xbE-b8A-HB3Pggg" name="new_guideline,_A1qOACu3Ed-UrP371xHUyw" guid="-b265-u-xbE-b8A-HB3Pggg" changeDate="2010-03-10T08:49:56.000-0800" version="7.5.0">
+  <mainDescription>&lt;h3>
+    Install the Tool on the Server
+&lt;/h3>
+&lt;p>
+    Identify what other software is required for the specific tool to work, and install this software. For example, a tool
+    may require a database management system (DBMS) be installed first.&lt;br />
+    &lt;br />
+    When you have installed the support software, you can install the tool on the server.
+&lt;/p>
+&lt;h3>
+    Customize the Tool (on the Server)
+&lt;/h3>
+&lt;p>
+    Decide how to customize the tool so that it supports the Development Process in the best way.&amp;nbsp; The following are
+    some brief examples of how you can customize tools:
+&lt;/p>
+&lt;h4>
+    Modeling tools
+&lt;/h4>
+&lt;p>
+    You can create a template model that defines the structure of models. The template model will be used when creating a
+    new model. You can create a file in which you define what stereotypes to use, and their icons. Then this file can be
+    installed on all users' computers, so that they use the same set of stereotypes.
+&lt;/p>
+&lt;h4>
+    Requirements and Change Management tools
+&lt;/h4>
+&lt;p>
+    You can create a project template, in which you define the attribute types to use. You can start with provided
+    templates and customize according to your needs.
+&lt;/p>
+&lt;h4>
+    Configuration Management tools
+&lt;/h4>
+&lt;p>
+    You can often configure actions in response to 'events' that make the tool behave in a certain way. For example, you
+    can customize the tool so that when a user checks-in an item, a script is automatically executed that does some
+    checking on the item.&amp;nbsp; There may also be customizations that support distributed development, such as &quot;multi-site&quot;
+    support with duplicated repositories.
+&lt;/p>
+&lt;h3>
+    Document the customizations in your process.&lt;br />
+    &lt;br />
+    Integrate with Other Tools
+&lt;/h3>
+&lt;p>
+    Integrate the tool with other tools to make it easier to use. An integration between tools is in most cases in the form
+    of an extension to one or several tools. An 'integration extension' to a tool typically:
+&lt;/p>
+&lt;p>
+    Synchronize data between the different tools. It automates the creation and maintenance of related items in development
+    projects&lt;br />
+    Automatically adds traceability between related items in different tools.&lt;br />
+    Allow the user to add traceability between items in different tools.&lt;br />
+    Allow the user to navigate between tools. For example, access an item in a test tool from a requirements management
+    tool.&lt;br />
+    Allow the user to run certain functionality from one tool. For example, the possibility to create items in another
+    tool.&lt;br />
+    Allow the user to version a tool's items in a configuration management tool. For example, the possibility to version
+    control requirements (from RequisitePro) using ClearCase.&lt;br />
+    Most tools offer ready-to-use extensions to integrate tools with each other.
+&lt;/p>
+&lt;p>
+    Describe how the tools are integrated with each other in the process.
+&lt;/p>
+&lt;h3>
+    Install and Customize Tools on Clients
+&lt;/h3>
+&lt;p>
+    Install the tool on each client. The least that is needed to do when installing a tool on the client side, is to set up
+    the connection to the repository on the server.&lt;br />
+    &lt;br />
+    Customize the tool on the clients, just as you customized the tool on the server:&lt;br />
+    &lt;br />
+    In some cases you do not have to do anything with the client. For example, if the client is a web-interface it is
+    enough that the clients get the address to the application on the server. Some tools allow you to do all customization
+    on the server side. When the users access the repository on the server, they automatically get the correct
+    settings.&lt;br />
+    In other cases you customize the tool on the client by installing software that customizes the tool, or installing
+    files with customization information.&lt;br />
+    It may be necessary to install 'integration software' on the client. Place the 'integration software' on a server and
+    allow the users to download and install it on their computers.&lt;br />
+    &lt;br />
+    If it possible you should automate the tool installation, and the tool customization for the users. The benefit of
+    creating installation programs is that it allows you to set up the tools so that the clients get all the right
+    settings, extensions, and connections to the repository. You create installation (and customization) programs, and
+    place them on a server. Then the users download these programs and run them to install and customize the tool in their
+    computer.
+&lt;/p>
+&lt;h3>
+    Setting up workspaces
+&lt;/h3>
+&lt;p>
+    Most project teams require workspaces for a variety of purposes including:
+&lt;/p>
+&lt;p>
+    - development workspaces for individuals to do their work
+&lt;/p>
+&lt;p>
+    - integration workspaces for individuals to share their work
+&lt;/p>
+&lt;p>
+    - build workspaces for builds that have achieved a certain level of quality
+&lt;/p>
+&lt;p>
+    Part of setting up the tool environment is to set up the needed workspaces and the policies for how they are used.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

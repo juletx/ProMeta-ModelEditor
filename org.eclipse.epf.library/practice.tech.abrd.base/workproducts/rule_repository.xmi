@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-XK2y_joEadUUL0zRfQGr6w" name="new_artifact,_BMI-QDmoEdy8N6BRpa8ByQ" guid="-XK2y_joEadUUL0zRfQGr6w" authors="Jerome Boyer" changeDate="2009-11-09T02:57:45.000-0800" version="7.5.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_repository__work_product&quot; name=&quot;XE_rule_repository__work_product&quot;>&lt;/a>The main highest level the rule writer
+is working on is a rule project. But the design of the business application will lead to have multiple rule projects. All
+those elements are representing the rule repository. Rule repository includes also meta data on the rule elements.</mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-z4NERMW6W4_X_5DuTTXv6A" name="new_checklist,_OHRDMAarEdy1uLAzgK8btg" guid="-z4NERMW6W4_X_5DuTTXv6A" version="7.5.0">
+  <sections xmi:id="_EQJdAAa_Edy1uLAzgK8btg" name="Have you elaborated on the plan with the team?" guid="_EQJdAAa_Edy1uLAzgK8btg">
+    <sectionDescription>&lt;p>&#xD;
+    Iteration planning should not be done in isolation, and every member of the team should be involved.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_lmIhYAarEdy1uLAzgK8btg" name="Are iteration objectives clear?" guid="_lmIhYAarEdy1uLAzgK8btg">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Are the objectives based on stakeholder priorities?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Do they help the team target what should be targeted for the iteration?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_i2r4kAarEdy1uLAzgK8btg" name="Have key milestones for the iteration been identified?" guid="_i2r4kAarEdy1uLAzgK8btg">
+    <sectionDescription>&lt;p>&#xD;
+    This may include dates for iteration reviews, demonstrations (demos), and retrospective reviews.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oKlbIAarEdy1uLAzgK8btg" name="Do the team members feel confident about their Work Item assignments?" guid="_oKlbIAarEdy1uLAzgK8btg">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Looking at results from previous iterations, does the amount of work selected for the current iteration seem feasible?&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    If the team feels that there is too much to do, discuss with stakeholders whether some work items can be scheduled for&#xD;
+    future iterations.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

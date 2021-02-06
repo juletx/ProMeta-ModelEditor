@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-3G3HV0opAmFWGxYgsD5AhA" name=",_8b20EEvvEdunZcj9T5hrMQ" guid="-3G3HV0opAmFWGxYgsD5AhA" version="7.2.0">
+  <mainDescription>A primary report for understanding the status of an iteration. It shows the trend for how much work is left to do within&#xD;
+that iteration.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

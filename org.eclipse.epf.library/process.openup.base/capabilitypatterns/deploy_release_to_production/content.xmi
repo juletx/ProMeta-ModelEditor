@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zxy4hzFT2yBzt2lUjCwnqA" name="02_01_package_the_release,_EMH-APd4EeCFmpfCmMPILg" guid="-zxy4hzFT2yBzt2lUjCwnqA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GOUyA8VW8PfEPZxrkIneXw" name="02_02_execute_deployment_plan,_EMIlEPd4EeCFmpfCmMPILg" guid="-GOUyA8VW8PfEPZxrkIneXw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GK8PhpR-63lrRr5gidiO9w" name="02_03_verify_successful_deployment,_EMIlEfd4EeCFmpfCmMPILg" guid="-GK8PhpR-63lrRr5gidiO9w"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-S5Ezhun39_flEC2ctk_PwA" name="02_04_execute_backout_plan,_EMIlEvd4EeCFmpfCmMPILg" guid="-S5Ezhun39_flEC2ctk_PwA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yQw-_bdY-Wc4UaWalfL27Q" name="02_05_deliver_release_communications,_EMIlE_d4EeCFmpfCmMPILg" guid="-yQw-_bdY-Wc4UaWalfL27Q"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-P6Xuu0t_ZYictwa365hpew" name="developer,_EMIlFPd4EeCFmpfCmMPILg" guid="-P6Xuu0t_ZYictwa365hpew"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-h0BrNqtAaGWRGSBaFO0dmw" name="deployment_engineer,_EMIlFvd4EeCFmpfCmMPILg" guid="-h0BrNqtAaGWRGSBaFO0dmw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-SBLV8BHPJo0h9UDSkaRM2w" name="product_owner,_EMIlGPd4EeCFmpfCmMPILg" guid="-SBLV8BHPJo0h9UDSkaRM2w"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9bmer8fKcJHDLUqJHwL1uA" name="deployment_plan,_EMJMIPd4EeCFmpfCmMPILg" guid="-9bmer8fKcJHDLUqJHwL1uA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-B8EuIu32MYW89t1K2iVG4A" name="release_controls,_EMJMIvd4EeCFmpfCmMPILg" guid="-B8EuIu32MYW89t1K2iVG4A"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Bod-fwbBZ_Afaq0DgbHS9w" name="release,_EMJMJPd4EeCFmpfCmMPILg" guid="-Bod-fwbBZ_Afaq0DgbHS9w"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-tZdTyqe3yduOpR8vCNLwTA" name="infrastructure,_EMJMJvd4EeCFmpfCmMPILg" guid="-tZdTyqe3yduOpR8vCNLwTA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Pf1fGeJqMG34Z-Hr0moRew" name="backout_plan,_EMJMKPd4EeCFmpfCmMPILg" guid="-Pf1fGeJqMG34Z-Hr0moRew"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gqZXQq4TChMY4CEhzQ3Qgw" name="release_communications,_EMJMKvd4EeCFmpfCmMPILg" guid="-gqZXQq4TChMY4CEhzQ3Qgw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-L3_Ob9ALWPSEQt4rQ5Yf_A" name="developer_test,_8RYJofemEeCxbY0vhSOtrA" guid="-L3_Ob9ALWPSEQt4rQ5Yf_A"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EjhEwksRtObB1o0YiBGMyA" name="implementation,_8RYJpPemEeCxbY0vhSOtrA" guid="-EjhEwksRtObB1o0YiBGMyA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zqO3zcmjovIdfDJ-mjuIUw" name="build,_8RYwsfemEeCxbY0vhSOtrA" guid="-zqO3zcmjovIdfDJ-mjuIUw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-3DzuI0m_j_BhxpV8YdYTFA" name="design,_8RYwtPemEeCxbY0vhSOtrA" guid="-3DzuI0m_j_BhxpV8YdYTFA"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-9b9XP-r9g-DV7tK4qdy5Hg" name="xy,_9MkK4fd3EeCFmpfCmMPILg" guid="-9b9XP-r9g-DV7tK4qdy5Hg"/>
+</xmi:XMI>

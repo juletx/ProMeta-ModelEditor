@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-ux7ytJ8wsCQm5rzKYxNA7Q" name="develop_solution,_RXGoodOFEdyqlogshP8l4g" guid="-ux7ytJ8wsCQm5rzKYxNA7Q" version="7.2.0">
+    <mainDescription>&lt;h3>
+    Introduction
+&lt;/h3>
+&lt;p>
+    Run this activity as a way to perform goal-based planning and execution. Work is taken on by developers, and work
+    progress is tracked based on the goals achieved using the designed, developer-tested, and integrated source code.
+&lt;/p>
+&lt;h4>
+    Context of what is being developed
+&lt;/h4>
+&lt;p>
+    A context can be specified when a requirement is assigned to be developed, thus specifying how broadly a requirement is
+    to be developed in an iteration. Development may focus on a layer (such as the user interface, business logic, or
+    database access), on a component, and so on.
+&lt;/p>
+&lt;p>
+    Whether a context is specified or not, the developer's responsibility is to create a design and implementation for that
+    requirement.&amp;nbsp;The developer&amp;nbsp;also writes and runs developer tests against the implementation to make sure that
+    it works as designed, both as a unit and integrated into the code base.
+&lt;/p>
+&lt;h4>
+    Overview of workflow
+&lt;/h4>
+&lt;p>
+    Typical changes require some effort in designing the solution before moving into implementation, even if it is only a
+    mental exercise that results in no long-term work product. The design for trivial changes to the existing
+    implementation (to, for example, support some requirement) might be self-evident in the context of the existing
+    architecture and design.
+&lt;/p>
+&lt;p>
+    Once the organization of the technical solution is clear, define developer tests that will verify the implementation.
+    This test-driven approach ensures that design considerations have in fact taken place before the solution is coded. The
+    tests are run up front and, if they fail, clearly define the criteria to determine if the implementation works as
+    intended.
+&lt;/p>
+&lt;p>
+    Failed tests lead to&amp;nbsp;an implementation of the solution, upon completion of which you run the tests again. This
+    innermost loop of implementation and developer testing is repeated until the tests pass.
+&lt;/p>
+&lt;p>
+    Passing the tests does not necessarily mean that the solution is a high-quality, appropriate solution. It is proper to
+    revisit the design at this point. That path loops back through the process, since any changes to the design could
+    affect the developer tests and implementation.
+&lt;/p>
+&lt;p>
+    Once the tests pass and the design of the solution is appropriate, there is one more possible loopback. It is best to
+    keep the test-driven, evolutionary design inner loops as tight as possible. Come up with some small-scale design
+    solution for a part of the work item, define a test or two for the implementation of that one part of the solution,
+    pass that test, verify the quality, and then continue on in a test-first manner until that part of the design is
+    working. Then, in the outermost loop of the activity, go back to the work item and design another chunk to get closer
+    to completion.
+&lt;/p></mainDescription>
+    <purpose>&lt;ul>
+    &lt;li>
+        For developers: To create a solution for the work item for which they are responsible
+    &lt;/li>
+    &lt;li>
+        For project managers: To have a goal-based way of tracking project status
+    &lt;/li>
+&lt;/ul></purpose>
+    <usageNotes>&lt;p>
+    This activity occurs multiple times during each iteration. Usually, there is one instance for each work item planned
+    for that iteration. When instantiated in a project plan, the pattern becomes a development task to be taken on by one
+    or more developers, and you should rename it to include the actual requirement name. Optionally, the words &lt;b>Solution
+    Increment&lt;/b>&amp;nbsp;may be suppressed, then you can instantiate the pattern this way:
+&lt;/p>
+&lt;blockquote>
+    &lt;p align=&quot;left&quot;>
+        Develop requirement_name (within context_name context)
+    &lt;/p>
+&lt;/blockquote>
+&lt;p>
+    If a context is specified, there will be one instance of this pattern for each requirement for each context.
+&lt;/p>
+&lt;blockquote>
+    &lt;p>
+        &lt;b>Example&lt;/b>
+    &lt;/p>
+    &lt;ol>
+        &lt;li>
+            Develop scenario 1 (within user interface context)
+        &lt;/li>
+        &lt;li>
+            Develop scenario 1 (within business logic and database access context)
+        &lt;/li>
+        &lt;li>
+            Develop scenario 2
+        &lt;/li>
+        &lt;li>
+            Develop supplemental requirement 1
+        &lt;/li>
+    &lt;/ol>
+&lt;/blockquote>
+&lt;p>
+    Note that there are four instances of this pattern in the preceding example:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        The first two are related to the same requirement (scenario 1) but within two different contexts
+    &lt;/li>
+    &lt;li>
+        The last two are related to different requirements, with no context specified.
+    &lt;/li>
+&lt;/ul></usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vRKhx96vINZLGd2eqNzVyg" name="design_solution,_frOcQNOKEdyqlogshP8l4g" guid="-vRKhx96vINZLGd2eqNzVyg">
+    <keyConsiderations>&lt;p>&#xD;
+    Each step in this task can cause all previous steps to be revisited in light of new information and decisions.&amp;nbsp;&#xD;
+    For example, while determining how elements collaborate&amp;nbsp;you might find a gap in the requirements that causes you&#xD;
+    to go back to the beginning after collaborating with the analyst, or when evaluating the design a reviewer&#xD;
+    could&amp;nbsp;note that a reusable element being used doesn't work as expected and that could cause you to identify new&#xD;
+    elements to take its place.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Consider the architecture while performing this task.&amp;nbsp; All design work must be done while regarding the&#xD;
+    architecture within which the design exists.&amp;nbsp; Furthermore, certain design elements will be deemed architecturally&#xD;
+    significant; those elements will require updates to the architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This task will be applied numerous times.&amp;nbsp; Design is best performed in small chunks.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Even when starting the design for a particular project it&amp;nbsp;is expected that there will be existing frameworks and&#xD;
+    reusable elements.&amp;nbsp; Every step of this task must give attention to the existing design and existing&#xD;
+    implementation, utilizing existing elements when possible and emulating or improving existing elements as appropriate&#xD;
+    while designing this portion of the solution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Apply patterns throughout this task.&amp;nbsp; Patterns represent proven designs and their usage promotes quality and&#xD;
+    consistency across the design.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This task is about designing part of the system, not the whole system.&amp;nbsp; It should be applied based upon some small&#xD;
+    subset of requirements.&amp;nbsp; The requirements driving the design could be scenario-based functional requirements,&#xD;
+    non-functional requirements, or a combination.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This task can be applied in some specific context such as the database access elements required for some&#xD;
+    scenario.&amp;nbsp; In this case the task might be applied&amp;nbsp;again later&amp;nbsp;to deal with a different context on the&#xD;
+    same requirements.&amp;nbsp; Keep in mind that to actually build some functionality of value&amp;nbsp;to the users, all&#xD;
+    contexts will typically need to be designed and implemented. For example, to actually utilize some system capability it&#xD;
+    will have to have been designed and implemented all its context such as user interface, business rules, database&#xD;
+    access, etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For cohesion and completeness, this task is described as an end-to-end pass of designing a scenario of system usage. In&#xD;
+    practice, this task will be revisited many times as the design is first considered, portions are implemented, more&#xD;
+    design is performed based on what was learned, etc. The healthiest application of this task is in very close proximity&#xD;
+    to the implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If this task is being performed on an architecturally significant element the results of this design should be&#xD;
+    referenced by the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.slot.base/workproducts/technical_architecture_slot_FF074CDD.html&quot;&#xD;
+    guid=&quot;_8OD-cLPTEduocbW-TPTq7A&quot;>[Technical Architecture]&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UAvglC1beVBhR4tcCsrtIA" name="design,_frh-QtOKEdyqlogshP8l4g" guid="-UAvglC1beVBhR4tcCsrtIA">
+    <refinedDescription>&lt;p>&#xD;
+    This work product describes the elements that will make up the implemented system. It communicates abstractions of&#xD;
+    particular portions of the implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While architecture focuses on interfaces, patterns, and key decisions, the design fleshes out the technical details in&#xD;
+    readiness for implementation, or as part of implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This product can describe multiple static and dynamic views of the system for examination. Although various views may&#xD;
+    focus on divergent, seemingly independent issues of how the system will be put together and work, they should fit&#xD;
+    together without contradiction.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2uPX8tYcrG4NCorQpgu0eA" name="implement_developer_tests,_gXo2UNOKEdyqlogshP8l4g" guid="-2uPX8tYcrG4NCorQpgu0eA">
+    <keyConsiderations>&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Automate tests via a unit regression testing tool (for example, xUnit) so that tests may be run by developers&#xD;
+        whenever they make changes to the code.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test to the risk of the implementation element. For example, the more critical an element is, the more important it&#xD;
+        is to test it thoroughly.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Pair with&amp;nbsp;team members with testing skills&amp;nbsp;in all steps of this task to gain insight on testing and&#xD;
+        quality considerations.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;[Project Work] is implicitly used in implementation tasks to manage which requirements or change requests are&#xD;
+    being realized in the code.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    Developer testing is different from other forms of testing in that it is based on the expected behavior of code units&#xD;
+    rather than being directly based on the system requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is best to do this at a small scale, much smaller than the complete code base to be authored by a developer over the&#xD;
+    course of an iteration. This can be done for one operation, one field added to a user interface, one stored procedure,&#xD;
+    etc. As the code base is incrementally built, new tests will be authored and existing tests might be revisited to test&#xD;
+    additional behavior.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fi-xVZ6lCsQU31y75Ax4OA" name="developer_test,_gX7xQtOKEdyqlogshP8l4g" guid="-fi-xVZ6lCsQU31y75Ax4OA">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact covers all of the steps to validate a specific aspect of an implementation element. For example, a test&#xD;
+    could ensure that the parameters of a method properly accept the uppermost and lowermost required values. A developer&#xD;
+    test specifies test entries, execution conditions, and expected results. These details are identified to evaluate a&#xD;
+    particular aspect of a scenario.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When you collect developer tests for a specific implementation element, you can validate that the element performs as&#xD;
+    specified.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The tests be self-documenting so that it is clear upon completion of the test whether the implementation element has&#xD;
+    run correctly.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-383xzY4iZ_mRmebRFJ71-Q" name="implement_solution,_hVe-oNOKEdyqlogshP8l4g" guid="-383xzY4iZ_mRmebRFJ71-Q">
+    <keyConsiderations>&lt;p>&#xD;
+    It is best when developer tests already exist so there is an unambiguous definition of what behavior is considered&#xD;
+    correct. The implementation should be immediately tested.&#xD;
+&lt;/p>The [Project Work]&amp;nbsp; is implicitly used in implementation tasks to manage which requirements or change requests are&#xD;
+being realized in the code.&lt;br /></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    Usually, this task is focused on a specific implementation&amp;nbsp;element, such as a class or component, but it does not&#xD;
+    need to be.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A portion of the design is implemented by performing this task. This task can be performed any number of times during&#xD;
+    an iteration. In fact it is best to do this task in as small a scope as possible to tighten the loop between it and&#xD;
+    related tasks involving developer testing and consideration of the design.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9Jb-Nex6ZZzYbdiQZ5yH9Q" name="build,_aJ1X4No7EdyzZqGyZ7hwdw" guid="-9Jb-Nex6ZZzYbdiQZ5yH9Q">
+    <refinedDescription>&lt;p>&#xD;
+    This working version of the system or part of the system&amp;nbsp;is the result of putting the implementation through a&#xD;
+    build process (typically an automated build script) that creates an executable version, or one that runs. This&#xD;
+    executable version will typically have a number of supporting files that are also considered part of this artifact.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aPWmfmaOCZsb1a9aCKpRSw" name="run_developer_tests,_iRZNQNOKEdyqlogshP8l4g" guid="-aPWmfmaOCZsb1a9aCKpRSw">
+    <keyConsiderations>&lt;p>&#xD;
+    It is common to require that code pass all developer tests before it can be delivered in an integrated source code&#xD;
+    repository.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Pair with testing experts to gain insight on testing and quality considerations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;[Project Work]&amp;nbsp;is implicitly used in implementation tasks to manage which requirements or change requests&#xD;
+    are being realized in the code.&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-nGFCabBnNthDU5t9ws5fbA" name="integrate_and_create_build,_Dlo8wNo8EdyzZqGyZ7hwdw" guid="-nGFCabBnNthDU5t9ws5fbA">
+    <keyConsiderations>&lt;p>&#xD;
+    In order to be effective at applying the practice of &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.continuous_integration.base/guidances/guidelines/continuous_integration_13C1A8CA.html&quot;&#xD;
+    guid=&quot;_i8bUEL6cEdqti4GwqTkbsQ&quot;>Continuous Integration&lt;/a>,&amp;nbsp;the time to integrate, build, and test the increment&#xD;
+    must be short enough that it can be performed several times per day.&amp;nbsp; Changes should be broken down into&#xD;
+    relatively small &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/guidances/concepts/change_set_430BF233.html&quot;&#xD;
+    guid=&quot;_1QU9MAIoEdyLh7vsrHZ4YA&quot;>Change Set&lt;/a>s that can be implemented, integrated and tested quickly.&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FB2KP2UFI653oVtHVkndvA" name="implementation,_dC4w4JojEd2XAqcHTC2Siw" guid="-FB2KP2UFI653oVtHVkndvA">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9NwuPPfPDuUrGL-0O-B1Uw" name="test_log,_dC4w4ZojEd2XAqcHTC2Siw" guid="-9NwuPPfPDuUrGL-0O-B1Uw">
+    <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
+provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
+trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
+the results of an aspect of the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

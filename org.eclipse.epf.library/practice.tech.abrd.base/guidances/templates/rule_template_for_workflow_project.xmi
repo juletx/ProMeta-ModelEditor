@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-UGL2U1EsVB2XrZfc2fUB-g" name=",_U0CB4EN2EduwkpxsT-Xauw" guid="-UGL2U1EsVB2XrZfc2fUB-g" changeDate="2008-01-25T10:36:33.000-0800" version="1.0.0">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    This document is the analysis and design to support the implementation of a process.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    We present the rules organization, the structure of rule projects, the object model under scope, the structure of the
+    data input send by the BPM engine, the data output it receives from the rule engine, and at the end the exceptions to
+    be defined for the rule services and reported back to the BPM workflow engine.
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;h2 style=&quot;MARGIN: 12pt 0cm 6pt 28.8pt&quot;>
+    &lt;a>&lt;font color=&quot;#005DA0&quot;>&lt;em>&lt;font size=&quot;5&quot;>Physical Process Map&lt;/font>&lt;/em>&lt;/font>&lt;/a>
+&lt;/h2>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>Use&amp;nbsp;diagram representing in BPM Notation the business process under scope. Use
+    color coded activity to represent the call to the rule service&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>The following table may be used to list the process step calling a rule services as
+    detailed in this document&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;div align=&quot;center&quot;>
+    &lt;table class=&quot;ISISTable&quot;
+    style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver&quot;
+     cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;>
+        &lt;tbody>
+            &lt;tr style=&quot;mso-yfti-irow: -1; mso-yfti-firstrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: gray 1pt solid; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0; mso-bidi-language: HE&quot;>&lt;font size=&quot;3&quot;>&lt;font face=&quot;Times New Roman&quot;>Process
+                        Step&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0; mso-bidi-language: HE&quot;>&lt;font size=&quot;3&quot;>&lt;font face=&quot;Times New Roman&quot;>Rule
+                        Service&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0; mso-bidi-language: HE&quot;>&lt;font size=&quot;3&quot;>&lt;font
+                        face=&quot;Times New Roman&quot;>Input&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0; mso-bidi-language: HE&quot;>&lt;font size=&quot;3&quot;>&lt;font
+                        face=&quot;Times New Roman&quot;>Output&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.6pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;TEXT-ALIGN: center; mso-yfti-cnfc: 1&quot; align=&quot;center&quot;>
+                        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;COLOR: #005da0; mso-bidi-language: HE&quot;>&lt;font size=&quot;3&quot;>&lt;font
+                        face=&quot;Times New Roman&quot;>Exceptions&lt;/font>&lt;/font>&lt;/span>&lt;/i>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 0&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.6pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 1&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.6pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 2; mso-yfti-lastrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.6pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;118&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;h1 style=&quot;MARGIN: 0cm 0cm 12pt 21.6pt&quot;>
+    &lt;a>&lt;font color=&quot;#005DA0&quot;>Detailed design of each rule service&lt;/font>&lt;/a>
+&lt;/h1>
+&lt;p class=&quot;ISISGuidance&quot; style=&quot;MARGIN: 3pt 0cm 3pt 36pt&quot;>
+    Use the following table to detail each process step, with some rule description.
+&lt;/p>&lt;br class=&quot;ISISGuidance&quot; style=&quot;MARGIN: 3pt 0cm 3pt 36pt&quot; />
+&lt;br />
+&lt;div align=&quot;center&quot;>
+    &lt;table class=&quot;ISISTable&quot;
+    style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; WIDTH: 495.9pt; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver&quot;
+     cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;661&quot; border=&quot;1&quot;>
+        &lt;tbody>
+            &lt;tr style=&quot;mso-yfti-irow: -1; mso-yfti-firstrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: gray 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;661&quot; colspan=&quot;2&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpFirst&quot; style=&quot;TEXT-ALIGN: left; mso-yfti-cnfc: 1&quot; align=&quot;left&quot;>
+                        &lt;span style=&quot;COLOR: #005da0&quot;>&lt;em>&lt;font size=&quot;3&quot;>&lt;font face=&quot;Times New Roman&quot;>Business workflow&lt;a
+                        id=&quot;XE_rule__template_for_workflow_project&quot; name=&quot;XE_rule__template_for_workflow_project&quot;>&lt;/a>
+                        Process: &amp;lt;name of the process&amp;gt;&lt;/font>&lt;/font>&lt;/em>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 0&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;661&quot; colspan=&quot;2&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+                        style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>Workflow Step:&lt;/span>&lt;/b> &lt;span
+                        style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&amp;lt;name of the process step&amp;gt;&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 1&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;661&quot; colspan=&quot;2&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+                        style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>Rule Service Name:&lt;/span>&lt;/b> &lt;span
+                        style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&amp;lt;rule app rule set name&amp;gt;&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 2&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;661&quot; colspan=&quot;2&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+                        style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>Description :&lt;/span>&lt;/b> &lt;span
+                        style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&amp;lt;simple description of the service
+                        &amp;gt;&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 3&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;661&quot; colspan=&quot;2&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+                        style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>Work Item Input structure
+                        design:&lt;/span>&lt;/b>&lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;span
+                        style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> (define the structure of the work item sent to the rule
+                        engine)&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;HEIGHT: 27.5pt; mso-yfti-irow: 4&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 27.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;661&quot; colspan=&quot;2&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;MARGIN: auto auto auto 18pt; mso-add-space: auto&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 5&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;661&quot; colspan=&quot;2&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+                        style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>JRules rule flow description&lt;/span>&lt;/b>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 6&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;145&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>&lt;span
+                        style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>
+                        Preprocessing:&lt;/font>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;516&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Verify the
+                        Work item field. If there is an error use the rule set parameter to stop the rule
+                        flow.&lt;/font>&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>&lt;span
+                        style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span>Load the business object&lt;span
+                        style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> from the data source using the DAO layer&lt;/font>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 7&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;145&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>&lt;span
+                        style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span> Main / rule
+                        flow:&lt;/font>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;516&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+                        face=&quot;Times New Roman&quot;>Task_1:&lt;/font>&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+                        face=&quot;Times New Roman&quot;>…&lt;/font>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 8&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;145&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>&lt;span
+                        style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span> Post
+                        processing:&lt;/font>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;516&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Commit the
+                        transaction if there is no error or rollback if there is at least on error&lt;/font>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 9&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;661&quot; colspan=&quot;2&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot; style=&quot;tab-stops: 393.7pt&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+                        style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>JRules project structure&lt;/span>&lt;/b>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 10&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;145&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Packages
+                        hierarchy&lt;/font>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;516&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Top level package name&lt;/font>&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>&lt;span
+                        style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>
+                        Pre-Processing&lt;/font>&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font face=&quot;Times New Roman&quot;>&lt;span
+                        style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/font>&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span style=&quot;FONT-SIZE: 8pt&quot;>&lt;font
+                        face=&quot;Times New Roman&quot;>….&lt;/font>&lt;/span>&lt;/i>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;font face=&quot;Times New Roman&quot;>&lt;i style=&quot;mso-bidi-font-style: normal&quot;>&lt;span
+                        style=&quot;FONT-SIZE: 8pt&quot;>&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span> &lt;span
+                        style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span>&lt;/span>&lt;/i>&lt;span
+                        style=&quot;FONT-SIZE: 8pt&quot;>Post-Processing&lt;/span>&lt;/font>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 11&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;145&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Rule set name
+                        reference&lt;/font>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;516&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>&amp;lt;Rule App/
+                        rule set&amp;gt;&lt;/font>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 12&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;145&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;516&quot;>
+                    &lt;br class=&quot;MsoNormalCxSpMiddle&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 13&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;661&quot; colspan=&quot;2&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;>
+                        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+                        style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Work Item Output
+                        structure design:&lt;/font>&lt;/span>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 14&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;661&quot; colspan=&quot;2&quot;>
+                    &lt;p class=&quot;ISISGuidance&quot; style=&quot;MARGIN: 3pt 0cm 3pt 36pt&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>&lt;font color=&quot;#0000ff&quot;>&lt;font
+                        face=&quot;Times&quot;>It is a good practice to set some error code, context and message back to the work
+                        item so that the process engine can handle exception.&lt;/font>&lt;/font>&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpFirst&quot;
+                    style=&quot;MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l0 level1 lfo2&quot;>
+                        &lt;span
+                        style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                         style=&quot;mso-list: Ignore&quot;>·&lt;span
+                        style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Error
+                        code&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> type String&lt;/font>&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                    style=&quot;MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l0 level1 lfo2&quot;>
+                        &lt;span
+                        style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                         style=&quot;mso-list: Ignore&quot;>·&lt;span
+                        style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Error
+                        message&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&amp;nbsp;&lt;/span> type String&lt;/font>&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                    style=&quot;MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l0 level1 lfo2&quot;>
+                        &lt;span
+                        style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                         style=&quot;mso-list: Ignore&quot;>·&lt;span
+                        style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Error context
+                        type String&lt;/font>&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                    style=&quot;MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l0 level1 lfo2&quot;>
+                        &lt;span
+                        style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                         style=&quot;mso-list: Ignore&quot;>·&lt;span
+                        style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+                        face=&quot;Times New Roman&quot;>….&lt;/font>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 15; mso-yfti-lastrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;145&quot;>
+                    &lt;p class=&quot;MsoNormalCxSpLast&quot;>
+                        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+                        style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+                        face=&quot;Times New Roman&quot;>Exceptions:&lt;/font>&lt;/span>&lt;/b>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt&quot;
+                 valign=&quot;top&quot; width=&quot;516&quot;>
+                    &lt;p class=&quot;ISISGuidance&quot; style=&quot;MARGIN: 3pt 0cm 3pt 36pt&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt&quot;>&lt;font color=&quot;#0000ff&quot;>&lt;font
+                        face=&quot;Times&quot;>List here the possible reporting-exception messages, for example:&lt;/font>&lt;/font>&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpFirst&quot;
+                    style=&quot;MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l2 level1 lfo4&quot;>
+                        &lt;span
+                        style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                         style=&quot;mso-list: Ignore&quot;>·&lt;span
+                        style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>object
+                        identifier not valid in the work item (null, &quot;&quot;)&lt;/font>&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                    style=&quot;MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l3 level1 lfo3&quot;>
+                        &lt;span
+                        style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                         style=&quot;mso-list: Ignore&quot;>·&lt;span
+                        style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>object not
+                        found in the data source (DS)&lt;/font>&lt;/span>
+                    &lt;/p>
+                    &lt;p class=&quot;MsoNormalCxSpMiddle&quot;
+                    style=&quot;MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l3 level1 lfo3&quot;>
+                        &lt;span
+                        style=&quot;FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;>&lt;span
+                         style=&quot;mso-list: Ignore&quot;>·&lt;span
+                        style=&quot;FONT: 7pt 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>
+                        &lt;span style=&quot;FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Times New Roman&quot;>Impossible to
+                        create or update object...&lt;/font>&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br /></mainDescription>
+  <attachments>resources/abrd_tmpl_workflowprocessanalysis.dot</attachments>
+</org.eclipse.epf.uma:GuidanceDescription>

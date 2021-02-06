@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-AUjqKQk_naPhdZWAQR-Mmg" name=",_nOQHsAp6EdyPCr4G1Tb79A" guid="-AUjqKQk_naPhdZWAQR-Mmg" authors="Jerome Boyer" changeDate="2008-09-23T02:44:26.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>
+    The architect has to address as soon as possible in the project life cycle:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Integrate the Rule Engine into the business application using a service oriented design to facilitate reuse and
+        scalability. If an embedded solution is the choice for accessing the BRE the design should address the engine
+        integration at the API level.
+    &lt;/li>
+    &lt;li>
+        Deploy Business Rules Management System into the business and IT organizations. This includes the deployment of the
+        Rule Developer IDE and Rule Analyst web based component into the IT architecture. It also addresses the change
+        management processes to design on top of the tools.&lt;br />
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    For a BRMS deployment architect needs to integrate the following components within the IT architecture:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        The Rule Engine as an executable class, callable using proprietary API or the JSR94 API. Rule Engine can be an
+        embedded component or deployed within a pool as reusable components. Java Connector Architecture can be a solution
+        to manage a pool of Rule Engines. JCA implementation offers a set of services which any deployed adapters can
+        leverage: such as security and transaction propagation.&amp;nbsp;&lt;br />
+    &lt;/li>
+    &lt;li>
+        The Rule Set(s): As script file, it needs to be managed and deployed dynamically and can follow a specific life
+        cycle. It can be also packaged as a jar and available after the system startup, or hot deployed using JMX.&lt;br />
+    &lt;/li>
+    &lt;li>
+        The IDE, like a Rule Studio, used by the developers to implement the rules, the rule set structure and the
+        technical elements of the rule sets.&lt;br />
+    &lt;/li>
+    &lt;li>
+        A Web based Rule management platform to let business users and analysts being able to maintain the rules.&lt;br />
+    &lt;/li>
+    &lt;li>
+        A Rule testing framework to support functional testing of the rule set and non-regression tests.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    &lt;img height=&quot;376&quot; alt=&quot;&quot; src=&quot;resources/brmscomponents.jpg&quot; width=&quot;487&quot; />
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 10pt&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>Integrating the BRE into the business application involves Middleware, server
+    implementation and architecture background. Integrating BRMS into the business and IT organization involves process
+    definition, development practices and methodology skills.&lt;/span>
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_RMRccChaEd2bfOOTyXGWkw" name="Analyze business and technical requirements" guid="_RMRccChaEd2bfOOTyXGWkw"/>
+  <sections xmi:id="_yIEJ4Ap6EdyPCr4G1Tb79A" name="Design the decision service interface" guid="_yIEJ4Ap6EdyPCr4G1Tb79A"/>
+  <sections xmi:id="_r5SRoChaEd2bfOOTyXGWkw" name="Implement the interface with POJO / EJB or .Net classes" guid="_r5SRoChaEd2bfOOTyXGWkw"/>
+  <sections xmi:id="_venZkChaEd2bfOOTyXGWkw" name="Add the connection code to the BRE" guid="_venZkChaEd2bfOOTyXGWkw"/>
+  <sections xmi:id="_yFzeQChaEd2bfOOTyXGWkw" name="Design the control parameters to add to the context of the rule execution" guid="_yFzeQChaEd2bfOOTyXGWkw"/>
+  <sections xmi:id="_HDD68Im5Ed2cL6yqw-_-uA" name="Design the transaction propagation" guid="_HDD68Im5Ed2cL6yqw-_-uA"/>
+  <sections xmi:id="_04xVIChaEd2bfOOTyXGWkw" name="Design the exception reporting" guid="_04xVIChaEd2bfOOTyXGWkw"/>
+  <sections xmi:id="_27c-kChaEd2bfOOTyXGWkw" name="Assess Performance" guid="_27c-kChaEd2bfOOTyXGWkw"/>
+  <purpose>Develop the piece of the software architecture related to the execution of the rules, and their management.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-pszgT2UQY1AzlzJLFM1S5g" name="construction_phase_iteration,_RQi0AdONEdyqlogshP8l4g" guid="-pszgT2UQY1AzlzJLFM1S5g" version="7.2.0">
+    <mainDescription>&lt;p>
+    The architecture should be stable when the Construction phase starts, allowing the remaining requirements to be
+    implemented on top of it. Another advantage of validating the architecture and eliminating as many risks as possible
+    during Elaboration is that it provides more predictability in Construction, which allows the project manager to focus
+    on team efficiency and cost reduction.
+&lt;/p>
+&lt;p>
+    Functionality is continuously implemented, tested, and integrated, resulting in builds that are more and more complete
+    and stable. You may deploy a beta or prerelease to a sampling of the intended audience at the end of Construction.
+    Delivery of the actual release is the main focus of the next phase.
+&lt;/p>
+&lt;p>
+    The following table summarizes the&amp;nbsp;Construction phase objectives and&amp;nbsp;what activities address each objective:
+&lt;/p>
+&lt;p align=&quot;center&quot;>
+    &lt;strong>Construction phase objectives and activities&lt;/strong>
+&lt;/p>
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;648&quot; align=&quot;center&quot; border=&quot;1&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;b>Phase objectives&lt;/b>
+                &lt;/p>
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;b>Activities that address objectives&lt;/b>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                Iteratively develop a complete product that is ready to transition to the user community&lt;br />
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/identify_and_refine_requirements_7FA6CB14.html&quot; guid=&quot;_xxcpgdOEEdyqlogshP8l4g&quot;>Identify and Refine Requirements&lt;/a>
+                &lt;/p>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/develop_solution_4FBB0E6E.html&quot; guid=&quot;_RXGoodOFEdyqlogshP8l4g&quot;>Develop Solution Increment&lt;/a>
+                &lt;/p>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/test_solution_D16D88FC.html&quot; guid=&quot;_buG4sdOFEdyqlogshP8l4g&quot;>Test Solution&lt;/a>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                Minimize development costs and achieve some degree of parallelism&lt;br />
+            &lt;/td>
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/plan_manage_iteration_F9713A62.html&quot; guid=&quot;_oZgCsdOEEdyqlogshP8l4g&quot;>Plan and Manage Iteration&lt;/a>&lt;br />
+                &lt;/p>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/develop_solution_4FBB0E6E.html&quot; guid=&quot;_RXGoodOFEdyqlogshP8l4g&quot;>Develop Solution Increment&lt;/a>
+                &lt;/p>
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/test_solution_D16D88FC.html&quot; guid=&quot;_buG4sdOFEdyqlogshP8l4g&quot;>Test Solution&lt;/a>
+                &lt;/p>
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table></mainDescription>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZgdHcIUeC0fczWjxdRhZmQ" name="system_wide_requirements,_AQJYp9OOEdyqlogshP8l4g" guid="-ZgdHcIUeC0fczWjxdRhZmQ">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LXsJtWauw8OXFBPA5LtlUw" name="glossary,_AQJYqdOOEdyqlogshP8l4g" guid="-LXsJtWauw8OXFBPA5LtlUw">
+    <keyConsiderations>&lt;p>&#xD;
+    Although listed as an &lt;i>output from&lt;/i> and an &lt;i>input to&lt;/i> tasks associated with the requirements discipline, this&#xD;
+    artifact can be updated at any time and by any role as new terms are identified. The terms defined should be used&#xD;
+    according to the recorded definitions in all project documentation so that all stakeholders can clearly see that terms&#xD;
+    are being used consistently.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    One of the primary decisions when developing&amp;nbsp;this artifact&amp;nbsp;is whether to have all terms in a single glossary&#xD;
+    or to maintain terms in several glossaries, business terms artifacts, or models.&amp;nbsp;If terms are defined in multiple&#xD;
+    places, you need to communicate all of those sources to the team and decide which take precedence.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It may be important, even in small projects, to reference and use existing broader glossaries, business terms&#xD;
+    artifacts, or data models, where they exist.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Industry- and organization-wide glossaries may be referenced, and compliance with such specific chosen standards may be&#xD;
+    required.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;helps you avoid miscommunication by providing two essential resources:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A central location to look for terms and abbreviations that are new to development team members&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Definitions of terms that are used in specific ways within the domain&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Definitions for the glossary terms come from several sources, such as requirements documents, specifications, and&#xD;
+    discussions with stakeholders and domain experts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-M0XmBkehezZMI-pmbjQ9SA" name="detail_use_case_scenarios,_AVhA0NOOEdyqlogshP8l4g" guid="-M0XmBkehezZMI-pmbjQ9SA">
+    <keyConsiderations>&lt;p>&#xD;
+    To avoid unnecessary rework, only those use-case scenarios that are scheduled for implementation in the near term (in&#xD;
+    the next iteration or two)&amp;nbsp;must be detailed.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Not all use-case scenarios require detailing.&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-p2uRMHIOQI2c6fLh6CUIbw" name="detail_system_wide_requirements,_AVhA0dOOEdyqlogshP8l4g" guid="-p2uRMHIOQI2c6fLh6CUIbw">
+    <keyConsiderations>To avoid unnecessary rework, only those requirements that are scheduled for implementation in the near term (in the next&#xD;
+iteration or two)&amp;nbsp;must be detailed.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-nIF2UE5rqiDXuJIzOZcQuA" name="create_test_cases,_AVhA0tOOEdyqlogshP8l4g" guid="-nIF2UE5rqiDXuJIzOZcQuA">
+    <keyConsiderations>&lt;p>&#xD;
+    Develop test cases in parallel with requirements so that Analysts and stakeholders can agree with the specific&#xD;
+    conditions of satisfaction for each requirement. The test cases act as acceptance criteria by expanding on the intent&#xD;
+    of the system&amp;nbsp;through actual scenarios of use.&amp;nbsp;This allows team members to measure progress in terms of&#xD;
+    passing test cases.&amp;nbsp;&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vyRUbVNrluvyfjsHPKp2fw" name="test_case,_AVhA1NOOEdyqlogshP8l4g" guid="-vyRUbVNrluvyfjsHPKp2fw">
+    <refinedDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fkv_x4ovUGtM8VsssQ3kdg" name="work_items_list,_4DFEYZigEeGlkdGl1HQlDA" guid="-fkv_x4ovUGtM8VsssQ3kdg">
+    <keyConsiderations>&lt;p>&#xD;
+    Work Items should contain estimates. See guidelines on managing work items and agile estimation.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact provides a focal point for the entire team:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        It provides one list containing all requests for additional capabilities or enhancement for that application. Note&#xD;
+        that some of these requests may never be implemented, or be implemented in later projects.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one list of all the work to be prioritized, estimated, and assigned within the project. The risk list&#xD;
+        is prioritized separately.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one place to go to for the development team to understand what&amp;nbsp;micro-increments&amp;nbsp;need to be&#xD;
+        delivered, get references to material required to carry out the work, and report progress made.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    These are the typical work items that go on this list:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Use cases (and references to use-case specifications)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Changes and enhancement requests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defects&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Development tasks&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Work items can be very large in scope, especially when capturing requests for enhancements, such as &quot;Support Financial&#xD;
+    Planning&quot; for a personal finance application. To allow the application to be developed in micro-increments, work items&#xD;
+    are analyzed and broken down into smaller work items so that they can be assigned to an iteration, such as a use-case&#xD;
+    scenario for&amp;nbsp;&quot;Calculate Net Worth&quot;. Further breakdown may be required to identify suitable tasks to be assigned to&#xD;
+    developers, such as &quot;Develop UI for Calculate Net Worth&quot;. This means that work items often have parent/child&#xD;
+    relationships, where the lowest level is a specification and tracking device for micro-increments.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mx51ATVqsnhmw5TcEQIYYw" name="plan_deployment,_DZttwJlXEeGlkdGl1HQlDA" guid="-mx51ATVqsnhmw5TcEQIYYw">
+    <refinedDescription>&lt;p>&#xD;
+    Because a Deployment Engineer is responsible for accepting the results of one or more development team members and deploying those&#xD;
+    integrated releases into the production environment, it is important for all parties to agree on the details of a&#xD;
+    particular release. The Deployment Plan documents, in one place, all the information that will be consumed by the&#xD;
+    Deployment Engineer before and during the deployment to production of a particular release package.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-noiWjBdDPWJmSF3l73Ti7Q" name="deployment_engineer,_DZttwZlXEeGlkdGl1HQlDA" guid="-noiWjBdDPWJmSF3l73Ti7Q">
+    <refinedDescription>&lt;p>&#xD;
+    A Deployment Engineer&amp;nbsp;assists the&amp;nbsp;Deployment Manager who is responsible to senior management for the&#xD;
+    successful deployment of integrated or stand-alone releases into production. This team member role is critical to the&#xD;
+    safety of the production environment and helps prevent the introduction of bad or untested code into production&amp;nbsp;on&#xD;
+    which the organization's internal and external Customers depend. Deployment Engineers support the Deployment Manager in&#xD;
+    the mission to continually lead, facilitate, and coordinate synchronized releases by using the program to&#xD;
+    maximize value delivered to their program Customers.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-f_uaW-2HSuS-3uC5Ni_BYw" name="deployment_plan,_DZttxZlXEeGlkdGl1HQlDA" guid="-f_uaW-2HSuS-3uC5Ni_BYw">
+    <refinedDescription>&lt;p>&#xD;
+    The Deployment Plan should contain the unique instructions for deploying a particular version of a product. By &quot;unique&#xD;
+    instructions&quot; we mean those things that are not part of a Deployment Engineer's normal procedures. Rather, they often&#xD;
+    are specific procedures and timing constraints that a Deployment Engineer should be aware of as they are rolling out a&#xD;
+    particular release.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While&amp;nbsp;a draft version of the&amp;nbsp;Deployment Plan is typically developed by a development team, the Deployment&#xD;
+    Engineer is responsible for its contents and existence.&amp;nbsp;A Deployment Plan&amp;nbsp;normally consists of the following&#xD;
+    sections:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The scope of the release and a general overview of the capabilities to be deployed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The timing and dependencies for deploying components to various nodes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The risks or issues associated with the release based on a risk assessment&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The customer organization, stakeholders, and End User community that will be impacted by the release&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The person or persons who have the authority to approve the release as &quot;ready for production&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The development team members responsible for delivering the release package to the Deployment Manager, along with&#xD;
+        contact information&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The approach for transitioning the release package to the Deployment Engineer, including appropriate communications&#xD;
+        protocols and escalation procedures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The success criteria for this deployment; in other words, how will the Deployment Engineer know that the release is&#xD;
+        successful so it can report success&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FcJEVCc4jEBKZPGYLseZkQ" name="backout_plan,_DaTjoplXEeGlkdGl1HQlDA" guid="-FcJEVCc4jEBKZPGYLseZkQ">
+    <refinedDescription>&lt;p>&#xD;
+    While someone on the development team normally authors a draft version of the Backout Plan, the Deployment Engineer is&#xD;
+    ultimately responsible for its contents and existence. A Backout Plan typically answers the following questions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Under what circumstances will a rollback be required? Or conversely, under what circumstances will the deployment&#xD;
+        be considered a success?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What is the time period within which a rollback can take place?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Which authorizing agent will make the decision to revert?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who will perform the rollback and how soon after the decision has been made will the rollback be performed?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What procedures (manual and automated) will be followed to execute the rollback?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What other contingency measures or available workarounds should be considered?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What is the expected time required to perform a reversion?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What are the communication procedures required in the event of a backout?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Has the Backout Plan been successfully tested?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-M8RcfIWzEdq2ZYUeLZoX4Q" name="release_communications,_DaTjpZlXEeGlkdGl1HQlDA" guid="-M8RcfIWzEdq2ZYUeLZoX4Q">
+    <refinedDescription>&lt;p>&#xD;
+    Sometimes, depending on the product user base, separate communiques might need to be prepared for each stakeholder&#xD;
+    group. In that case, this artifact should specify the different groups to which communications are directed, the method&#xD;
+    of communication (e.g., email, text or pager message, bulletin, newsletter, phone message, etc.). All communiques&#xD;
+    should be prepared in advance so that it is a matter of disseminating information when the release to production has&#xD;
+    been determined to be successful.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Also included in this artifact is a listing of the responsible parties who will execute the communications when a&#xD;
+    successful release has been declared (normally the Deployment Engineer), as well as the timing and dependencies of the&#xD;
+    communiques.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While there is no prescribed format for the Release Communications artifact, each communique should indicate the&#xD;
+    preferred delivery mechanisms (e.g., beeper notification, telephone calls, a posting to an internal release website,&#xD;
+    live or pre-recorded presentations by senior management, etc.) and generally answer the following questions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Who are the parties (Stakeholders) that are interested in knowing that a release to production has taken place?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What specifically (features, functions, components) has been placed into production?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Why is this release valuable to stakeholders and what business purpose does it serve?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Where is the product available (on which platforms, geographical locations, business units, etc.)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How can the stakeholders access the system and under what circumstances?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When was the product released (or when will it be released if the release date is in the future)?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9OywHIlNMFgKcxL-epLd3g" name="release,_DaTjqJlXEeGlkdGl1HQlDA" guid="-9OywHIlNMFgKcxL-epLd3g">
+    <refinedDescription>&lt;p>&#xD;
+    A Release consists of integrated, compiled code that runs cleanly, independently, and in its entirety. This is an&#xD;
+    important rule because in order to be released or even &quot;potentially shippable,&quot; a Release increment must be able to&#xD;
+    stand on its own, otherwise it is not shippable. Releases&amp;nbsp;can be created at either the program or team level.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are three potential uses for a Release:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>It is not used outside of the program:&lt;/strong> It has been produced to minimize risks linked to technology&#xD;
+        and a program's capability to integrate components and to produce a Build. This situation usually happens at the&#xD;
+        beginning of a new product lifecycle.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>It is used by Beta Customers and the Program Manager:&lt;/strong> It allows End Users to test it in a Beta&#xD;
+        test environment, which provides immediate feedback and reduces risks associated with user interface ergonomics.&#xD;
+        Customer feedback will influence the Program Backlog for later consideration.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>It is deployed or shipped and used by End Users:&lt;/strong> This result provides immediate value to the End&#xD;
+        Users.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In many organizations, a program Release typically is timeboxed to 2 to 3 months of development effort and 2 to 4 weeks&#xD;
+    of hardening which results in a scheduled release approximately every 90 days. Releases for individual Development&#xD;
+    Teams usually occur more often than those for programs, but there are no hard and fast rules regarding how often&#xD;
+    releases should be scheduled. The only requirement is that working software should be delivered &quot;frequently&quot; by both&#xD;
+    development teams and programs. Although the example timeframe described above is arbitrary, empirical evidence&#xD;
+    suggests it is about right for most companies and fits nicely into quarterly planning cycles.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each Release has a set of release objectives and a projected delivery date; it also has a planned number of Sprint/Iterations.&#xD;
+    For example, a brief description of a release might be: &quot;The goal of Release 2 is to provide B2B scheduling capability&#xD;
+    for the Ordering and Logistics Department. The Release is targeted for June 31 and will consist of five 2-week Feature&#xD;
+    Development Sprint/Iterations and&amp;nbsp;one 2-week Release Sprint/Iteration.&quot;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

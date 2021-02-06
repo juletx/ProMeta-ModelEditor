@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-chKviPT1F1yq5Y_KL9ET9g" name="02_03_verify_successful_deployment,_FCK_gmzvEeCPgecPbK9bdg" guid="-chKviPT1F1yq5Y_KL9ET9g" changeDate="2012-05-30T14:15:13.081-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Using the success criteria documented either in the deployment plan or in the backout plan, the deployment engineer, in&#xD;
+    collaboration with the development team, will determine whether the rollout can be declared a success or not.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the deployment is successful, the previously prepared release communiques should be delivered. If the deployment is&#xD;
+    unsuccessful, then the backout plan should be invoked.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_IAFEleB-EeC1y_NExchKwQ" name="Test production release" guid="_IAFEleB-EeC1y_NExchKwQ">
+    <sectionDescription>In this step, automated smoke tests should be run to determine whether key components were deployed successfully. These&#xD;
+tests should be brief but revealing enough to quickly determine the validity of the deployment.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAFEk-B-EeC1y_NExchKwQ" name="Run manual tests" guid="_IAFEk-B-EeC1y_NExchKwQ">
+    <sectionDescription>If the automated smoke tests are successful, run several complex manual tests to simulate key end user behavior. These&#xD;
+tests should be executed by development team members or stakeholders recruited specifically for this purpose.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IAFElOB-EeC1y_NExchKwQ" name="Determine if release should be reversed" guid="_IAFElOB-EeC1y_NExchKwQ">
+    <sectionDescription>In some situations, problems with the release might be encountered but are not serious enough to reverse the deployment. If&#xD;
+the problem(s) associated with the release can be fixed easily, and if they are not detrimental to the production&#xD;
+environment, an emergency bug fix (EBF) might be the answer. In that case, the release is not backed out; rather, an EBF is&#xD;
+scheduled to be executed as soon as possible.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to confirm that a release has not caused any unintentional interruptions to service in the&#xD;
+production environment.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

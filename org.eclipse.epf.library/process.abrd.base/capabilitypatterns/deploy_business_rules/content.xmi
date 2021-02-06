@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-bUpJuAJ9G1gNUYahDjpPSw" name="deployment,_d9Oe8X9YEd26h9j0X6pKmw" guid="-bUpJuAJ9G1gNUYahDjpPSw" version="7.5.1"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ES65eVL1z5Jdpq38iB099w" name="deploy_rules,_fKYOkH9YEd26h9j0X6pKmw" guid="-ES65eVL1z5Jdpq38iB099w">
+    <refinedDescription>&lt;a id=&quot;XE_rule__deploy&quot; name=&quot;XE_rule__deploy&quot;>&lt;/a></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4mHTAj_-HqRpSZirDsCVSQ" name="ruleset,_fKYOkX9YEd26h9j0X6pKmw" guid="-4mHTAj_-HqRpSZirDsCVSQ">
+    <refinedDescription>&lt;a id=&quot;XE_rule_set__work_product&quot; name=&quot;XE_rule_set__work_product&quot;>&lt;/a> 
+&lt;p>
+    For more detail see &lt;a class=&quot;elementLink&quot; href=&quot;./../../abrd/guidances/termdefinitions/rule_set_4D4C8DB1.html&quot;
+    guid=&quot;_DdvcwBCQEdyJtJ3PbfdVDw&quot;>Rule Set&lt;/a>&amp;nbsp;and &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../abrd/guidances/termdefinitions/rule_engine_A66B71B3.html&quot; guid=&quot;_QQcSoEXXEdy14e5PT9v3HQ&quot;>rule engine&lt;/a>
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-RlDD3QrzC4Q6jEgiidJMmg" name="synchronize_with_wrms,_fcstoH9YEd26h9j0X6pKmw" guid="-RlDD3QrzC4Q6jEgiidJMmg">
+    <refinedDescription>&lt;a id=&quot;XE_web-based_brms__synchronize&quot; name=&quot;XE_web-based_brms__synchronize&quot;>&lt;/a></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-MzmademiTOM2WTRZYUndBg" name="rule_repository_in_db,_fc2eoH9YEd26h9j0X6pKmw" guid="-MzmademiTOM2WTRZYUndBg">
+    <refinedDescription>&lt;a id=&quot;XE_rule_repository__in_db&quot; name=&quot;XE_rule_repository__in_db&quot;>&lt;/a></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

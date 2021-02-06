@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-ooC2fUyKT4Ex91Bj0BprZg" name="new_term_definition,_Pf_E8HsIEd2l9d4UccBrvQ" guid="-ooC2fUyKT4Ex91Bj0BprZg" changeDate="2008-09-04T10:06:27.000-0700" version="7.5.1">
+  <mainDescription>&lt;p>
+    Business policy controls, influences, or regulates the actions of an enterprise and the persons working in it but
+    without any enforcement. The purpose is more to guide an enterprise
+&lt;/p>
+&lt;p>
+    Business policy tends to be:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        less structured
+    &lt;/li>
+    &lt;li>
+        less discrete or not atomic
+    &lt;/li>
+    &lt;li>
+        less carefully expressed in terms of a standard vocabulary
+    &lt;/li>
+    &lt;li>
+        not directly enforceable.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    Business policy is the base for business rules.
+&lt;/p>
+&lt;p>
+    An example of policy is:&quot; A claim needs to be processed in 60 days&quot;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

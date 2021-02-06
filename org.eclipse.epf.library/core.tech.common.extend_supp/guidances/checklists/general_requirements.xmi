@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-2o1pXjHpSEPN_rohLce5jA" name="good_requirements_1,_jxn9EO0HEdqHTdbLTmC5IQ" guid="-2o1pXjHpSEPN_rohLce5jA" authors="Chris Sibbald" changeDate="2006-04-10T08:07:04.000-0700" changeDescription="Added checklist for good requirements in accordance with Feb. 23, 2006 minutes of RM SIG." version="0.1">
+  <sections xmi:id="_jxuDsu0HEdqHTdbLTmC5IQ" name="The requirement is correct" guid="_jxuDsu0HEdqHTdbLTmC5IQ">
+    <sectionDescription>&lt;p>&#xD;
+    Does the requirement specify a true need, desire, or obligation?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Have you identified the &quot;root cause&quot; for the requirement?&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_jxuDs-0HEdqHTdbLTmC5IQ" name="The requirement is complete" guid="_jxuDs-0HEdqHTdbLTmC5IQ">
+    <sectionDescription>&lt;p>&#xD;
+    Is the requirement stated as a complete sentence?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the requirement stated entirely in one place, in a manner that does not force the reader to look at additional&#xD;
+    information to understand the requirement?&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_jxuDse0HEdqHTdbLTmC5IQ" name="The requirement is clear" guid="_jxuDse0HEdqHTdbLTmC5IQ">
+    <sectionDescription>&lt;p>&#xD;
+    Is the requirement unambiguous and not confusing?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Does everyone agree on the meaning of the requirement?&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_jxuDt-0HEdqHTdbLTmC5IQ" name="The requirement is consistent" guid="_jxuDt-0HEdqHTdbLTmC5IQ">
+    <sectionDescription>&lt;p>&#xD;
+    Is the requirement in conflict with other requirements?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the terminology used consistent with other requirements and glossary terms?&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_jxuDte0HEdqHTdbLTmC5IQ" name="The requirement is verifiable" guid="_jxuDte0HEdqHTdbLTmC5IQ">
+    <sectionDescription>&lt;p>&#xD;
+    Can we determine whether the system satisfies the requirement?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is it possible to define a clear, unambiguous&amp;nbsp;pass/fail criterion?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is it possible to determine if the requirement has been met via inspection, analysis, demonstration or test?&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_jxuDtu0HEdqHTdbLTmC5IQ" name="The requirement is traceable" guid="_jxuDtu0HEdqHTdbLTmC5IQ">
+    <sectionDescription>&lt;p>&#xD;
+    Is the requirement uniquely identified so it can be unambiguously referenced?&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_jxuDtO0HEdqHTdbLTmC5IQ" name="The requirement is feasible" guid="_jxuDtO0HEdqHTdbLTmC5IQ">
+    <sectionDescription>&lt;p>&#xD;
+    Can the requirement be satisfied within cost and on schedule?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the requirement technically feasible with current technology?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the requirement physically achievable?&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_jxuDsO0HEdqHTdbLTmC5IQ" name="The requirement is design independent" guid="_jxuDsO0HEdqHTdbLTmC5IQ">
+    <sectionDescription>&lt;p>&#xD;
+    Are all requirements that impose constraints on the design, limiting design options,&amp;nbsp;justified?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the requirement stated in such that there is more than one way that it can be satisfied?&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_gRb_IJEvEdui_vx06Mo1eg" name="The requirement is atomic" guid="_gRb_IJEvEdui_vx06Mo1eg">
+    <sectionDescription>&lt;p>&#xD;
+    Does the requirement statement define exactly one requirement?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the requirement statement free of conjunctions (and, or, but) that may indicate multiple requirements?&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

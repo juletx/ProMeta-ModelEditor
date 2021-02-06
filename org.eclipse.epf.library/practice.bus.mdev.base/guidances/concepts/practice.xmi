@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-EvdZRG7js6dnleNgGOQYfQ" name="new_concept,_WBtggJ8wEd-dppiOhprtkA" guid="-EvdZRG7js6dnleNgGOQYfQ" changeDate="2010-08-03T11:54:27.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    A&amp;nbsp; practice a documented approach to solving one or several commonly occurring problems. Practices are intended as
+    &quot;chunks&quot; of process for adoption, enablement, and configuration. Practices are built from the basic method
+    elements.&amp;nbsp; Practices can be informally document through one white paper, or formally documented through a
+    combination of training courses, tutorials, process content, redbooks, etc.&amp;nbsp; Practices provide one-stop-shopping
+    for relevant content
+&lt;/p>
+&lt;h3>
+    Why Practices?
+&lt;/h3>
+&lt;p>
+    Practices enable a new approach to building methods - practice composition.
+&lt;/p>
+&lt;p>
+    This approach offers the following benefits:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Focused on business results
+    &lt;/li>
+    &lt;li>
+        Reusability, adaptability and scalability
+    &lt;/li>
+    &lt;li>
+        Incremental adoption
+    &lt;/li>
+    &lt;li>
+        Easy to configure and use
+    &lt;/li>
+    &lt;li>
+        Community development
+    &lt;/li>
+&lt;/ul>
+&lt;h3>
+    Focused on Business Results
+&lt;/h3>
+&lt;p>
+    Practices &lt;em>&lt;strong>focus on results&lt;/strong>&lt;/em> (provided capabilities and resulting work products). They
+    translate ideas into action and deliver high value. Practices are refined based on experiences and lessons learned
+    (&quot;practice makes perfect!&quot;).&amp;nbsp; Practices focus on what matters (e.g., what practices should we use to meet our
+    business objectives vs what process is &quot;best&quot;).
+&lt;/p>
+&lt;p>
+    A practice has a &lt;strong>&lt;em>positive impact on one or several business objectives&lt;/em>&lt;/strong> (e.g., Time-to-Market,
+    Improve Quality, Increase Innovation, etc.).&amp;nbsp; The adoption of a practice, and it's impact on business objectives,
+    can be effectively &lt;em>&lt;strong>measured&lt;/strong>.&lt;/em>&lt;br />
+&lt;/p>
+&lt;h3>
+    Reusability, Adaptability and Scalability
+&lt;/h3>
+&lt;p>
+    A practice is a &lt;strong>&lt;em>reusable&lt;/em>&lt;/strong> and &lt;strong>&lt;em>scalable&lt;/em>&lt;/strong> process package that&amp;nbsp;may
+    be general, domain-specific, technique-specific, organization-specific, etc. Practices can be extended/enhanced by
+    other practices and/or techniques.&amp;nbsp; Practices can be adapted to&amp;nbsp;support a range of solutions.&amp;nbsp;In
+    particular, practices can be adapted to suit your organization and supplemented by your own practices.
+&lt;/p>
+&lt;p>
+    The core practices are the open source EPF Practices.&amp;nbsp;These practices are based on a common framework that allows
+    them to be composed.&amp;nbsp; The core practices&amp;nbsp;are tool-agnostic, low-ceremony practices that can be extended to
+    address a broad variety of development concerns, such as SOA, geographical distribution, model-driven architecture and
+    embedded systems. Tool and technology specific guidance can be added, such as guidance on J2EE, and a variety of
+    development tools. Some of these extensions can be quite modest, adding&amp;nbsp;for example&amp;nbsp;just tool specific
+    guidance to existing tasks, while others can be comprehensive, defining processes that provide a radically expanded
+    scope with new or altered artifacts, new or altered tasks, and new or altered roles.
+&lt;/p>
+&lt;p>
+    Extensions and additions to&amp;nbsp;the practices&amp;nbsp;can be:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        used internally by an organization
+    &lt;/li>
+    &lt;li>
+        open sourced as a part of the EPF project
+    &lt;/li>
+    &lt;li>
+        sold commercially as an extension to the basic framework, such as the IBM(R) Practices.
+    &lt;/li>
+&lt;/ul>
+&lt;h3>
+    Incremental Adoption
+&lt;/h3>
+&lt;p>
+    A practice is a component or aspect of a process that can be &lt;strong>&lt;em>adopted independently&lt;/em>&lt;/strong>
+    &lt;strong>&lt;em>and incrementally&lt;/em>&lt;/strong> by an organization to build an organizational capability. Practices support
+    easier adoption of lighter processes.&amp;nbsp; Organizations only use what they really need. They can adopt one or a few
+    practice at a time and/or adopt a practice at higher levels over time (evolutionary and incremental
+    adoption).&amp;nbsp;&amp;nbsp;
+&lt;/p>
+&lt;p>
+    Incremental adoption is supported by the&amp;nbsp;fact that&amp;nbsp;each practice is described as a standalone
+    capability&amp;nbsp;and&amp;nbsp;provides one-stop-shopping for all collateral related to the practice -- e.g.,&amp;nbsp; courses,
+    tool features, services, articles, process content, enactment, etc.&amp;nbsp;&amp;nbsp;
+&lt;/p>
+&lt;h3>
+    Easy to Configure and Use
+&lt;/h3>
+&lt;p>
+    Practices are designed to be &lt;strong>&lt;em>interchangeable&lt;/em>&lt;/strong>, they may be mixed and matched or swapped out
+    for alternative practices. Practice-based techniques recognize that &quot;one-size fits all&quot; is too limiting for
+    processes.&amp;nbsp; Practices allow alternatives.&amp;nbsp; Creating a method is as simple as selecting the practices that you
+    wish to adopt, and then publishing the results.&amp;nbsp;Each practice adds itself into the framework so that content can
+    be viewed by practice, or across practices by work product, role, task and so on.
+&lt;/p>
+&lt;h3>
+    Community Development
+&lt;/h3>
+&lt;p>
+    Since a practice can be easily authored on its own, practices are ideal for community development.&amp;nbsp;The basic agile
+    practices for the&amp;nbsp;EPF Practices are, in fact, developed by the Eclipse Process Framework community.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    Practices enable a&amp;nbsp;richer eco-system as it is easier to develop an individual&amp;nbsp;practice than to author an
+    entire method.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

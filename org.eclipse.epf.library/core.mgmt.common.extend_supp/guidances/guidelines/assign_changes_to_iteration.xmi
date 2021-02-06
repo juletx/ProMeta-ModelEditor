@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-bUmvEAAtFf6B0aUCux8k9Q" name="changes_at_iter_bound,__yQQ4L6REdqti4GwqTkbsQ" guid="-bUmvEAAtFf6B0aUCux8k9Q" changeDate="2008-07-11T11:49:31.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Most iterative software development processes recommend that changes not be introduced during an iteration. The main&#xD;
+    idea is that the iterations should be short and with clearly defined scope so that they can be time-boxed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To limit scope within an iteration, change requests are reviewed and prioritized as soon as possible, but are not&#xD;
+    assigned for implementation until a future iteration via the work items list.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Since iterations are relatively short this should not cause undue delay in dealing with urgent and important change&#xD;
+    requests.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    One notable exception is a defect discovered during testing that prevents the team from meeting the objectives of the&#xD;
+    iteration. In this case it is reasonable to assign the work item to the current iteration as this does not represent a&#xD;
+    scope change, it represents unfinished work.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Consider the following when choosing the future iteration where the change request will be addressed:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Group similar change requests in the same iteration. For example multiple change requests focused on the same&#xD;
+        functionality or that are dependent on each other.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assign change requests that mitigate high risks to the earliest iteration possible.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

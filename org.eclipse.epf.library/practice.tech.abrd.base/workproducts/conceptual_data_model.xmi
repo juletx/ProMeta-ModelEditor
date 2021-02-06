@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-0CwjwqKABQul6r5sX8T7sg" name="new_artifact,_hYc8UHr9Ed2l9d4UccBrvQ" guid="-0CwjwqKABQul6r5sX8T7sg" authors="Jerome Boyer" changeDate="2008-09-05T10:07:39.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    A conceptual data model describes the things important for an organization as entity classes and characteristics of the
+    things as attributes, and using&amp;nbsp;associations between things. By 'thing'&amp;nbsp;we mean anything perceivable or
+    conceivable and used in a day to day conversation.
+&lt;/p>
+&lt;p>
+    Conceptual data model is used to explore domain concepts&amp;nbsp;as a communication vehicle&amp;nbsp;between the analysts and
+    the business team members.
+&lt;/p>
+&lt;p>
+    With&amp;nbsp;an&amp;nbsp;Agile approach CDMs are used to explore the high-level static business structures and concepts, and
+    are described during the initial requirements iterations. In our approach conceptual data model are the first version
+    of the logical data model. So we use different level of&amp;nbsp;a class diagram to represent the CDM.&amp;nbsp;&amp;nbsp;The rule
+    elicitation phase is most of the time leveraging the diagrams of&amp;nbsp;the CDMs, but once we progress into the
+    iterations the CDMs are replaced by the LDMs.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

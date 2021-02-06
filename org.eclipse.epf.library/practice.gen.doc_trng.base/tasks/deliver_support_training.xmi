@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-xCz7FMvINdv3zLvonMDolQ" name="03_deliver_support_training,_YryeIDHNEeC7j_IRiP-WPQ" guid="-xCz7FMvINdv3zLvonMDolQ" changeDate="2012-05-30T14:00:22.183-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Because a release ultimately will have to be supported by Help Desk or other technical personnel, a set of training&#xD;
+    materials designed to convey key concepts to those individuals must be developed and delivered by the&amp;nbsp;development&#xD;
+    team or by a technically oriented trainer.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Delivery of this training might include presentation slides, job aids, lab exercises, or workshops designed to provide&#xD;
+    real-world scenarios to accelerate learning and retention. In addition, the training materials might be different for&#xD;
+    each level (tier) of support.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_-zenmOB8EeC1y_NExchKwQ" name="Validate support training logistics" guid="_-zenmOB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    Before actually delivering the training to support personnel, ensure that you have all the necessary components of the&#xD;
+    training course, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Presentation slides&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Handouts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Training aids&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Hands-on labs and/or exercises&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Quizzes or tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Feedback and/or instructor assessment forms&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Ensure that the classes have been scheduled correctly and that attendees have been identified. Also, validate that the&#xD;
+    facilities where you will deliver the training have been properly booked and are furnished to accommodate the training&#xD;
+    content and audience. If possible, send a reminder notice to the attendees several days (or a week) before the delivery&#xD;
+    date.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_-zenl-B8EeC1y_NExchKwQ" name="Prepare for support training delivery" guid="_-zenl-B8EeC1y_NExchKwQ">
+    <sectionDescription>Review the training materials so that you are familiar with them. If you encounter any areas where you are unsure or&#xD;
+tentative, engage experts from the development team or program who can help you understand the material. Then, update the&#xD;
+training materials accordingly and create instructor notes to help you remember key points as you deliver the training.&#xD;
+Instructor notes that you write will not only help you but might assist other instructors in the future who have not had&#xD;
+the benefit of working with the development team or program.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zenluB8EeC1y_NExchKwQ" name="deliver support training and gather feedback" guid="_-zenluB8EeC1y_NExchKwQ">
+    <sectionDescription>On the prescribed day(s) and time(s), deliver the training as planned. When each course is completed, solicit feedback from&#xD;
+the attendees about the course material, its organization and flow, the learning objectives, how well the instructor&#xD;
+delivered the content, and whether the course met their expectations.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zenleB8EeC1y_NExchKwQ" name="Provide feedback to the program" guid="_-zenleB8EeC1y_NExchKwQ">
+    <sectionDescription>Consolidate the feedback from the courses delivered and provide it to the program manager or their delegate for review.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to provide personnel at all levels of support (Tiers 1, 2, and 3) with the appropriate amount&#xD;
+of training on the features that are being delivered as part of a specific Release.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-3Poew8AinbZvOYouGiQx6A" name="new_concept,_SrioEE9wEd2FdckE7CIizQ" guid="-3Poew8AinbZvOYouGiQx6A" changeDate="2008-07-11T10:40:03.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Team members work more effectively if they can influence what they do and how they do it, rather than operating in an&#xD;
+    environment where they are told what to do. Giving the team the ability and responsibility to organize their work and&#xD;
+    determine how to best meet their commitments motivates team members to do their best. This also helps them collaborate&#xD;
+    to ensure that the right skills are applied to the appropriate tasks. Self-organization impacts many areas, including&#xD;
+    how planning and commitments are made (by a team, not by individuals), how work is assigned (you sign up rather than&#xD;
+    get assigned), and how team members view their roles in the project (team member first, job function second).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.whole_team.base/guidances/guidelines/self_organize_work_assignments_F47FC314.html&quot;&#xD;
+    guid=&quot;_rmBEkJjsEduad8I_c-ogIA&quot;>Self-organization&lt;/a>&amp;nbsp;requires a few things to work:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Transparency and commitments are crucial to aid in team communication and to bring out the best in the team&#xD;
+        members. Open communication about the team's commitments related to the iteration lifecycle and personal&#xD;
+        commitments made relative to micro increments ensures that execution problems are vetted and the right people are&#xD;
+        focused on solving them.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Coaching is required to help teams self-organize and to remove barriers for success. The assumption is that the&#xD;
+        project manager is the coach. This requires that the project manager avoid a command-and-control style of&#xD;
+        management in favor of a coaching style. This has been a key recommendation in management books for the last two&#xD;
+        decades, but some project managers may still not be able to make that transition.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

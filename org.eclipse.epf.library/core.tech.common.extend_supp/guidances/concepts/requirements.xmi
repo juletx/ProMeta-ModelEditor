@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_eUfzwMMyEdmdo9HxCRR_Gw" name="requirements,_0Wh-sMlgEdmt3adZL5Dmdw" guid="_eUfzwMMyEdmdo9HxCRR_Gw" changeDate="2008-03-18T00:14:57.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    Requirements are the project team's to-do list.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Requirements define what is needed and focus the project team. They are the primary method used to communicate the&#xD;
+    goals of the project to everyone on the team.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Requirements define:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        What the stakeholders need; and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What the system must include to satisfy the stakeholders' needs.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Requirements are the basis for capturing and communicating needs, managing expectations, prioritizing and assigning&#xD;
+    work, verifying and validating the system (acceptance), and managing the scope of the project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Requirements may take different forms, including scenarios, unstructured text, structured text, or a combination, and&#xD;
+    they may be stated at different levels of granularity. At the highest level of granularity, features&amp;nbsp;define the&#xD;
+    services that the system must provide to solve the customer's problem. These are captured as structured or unstructured&#xD;
+    text in the project vision. At the next level of granularity, use cases can be used to define the functionality that&#xD;
+    the system must provide to deliver the required features.&amp;nbsp;Use cases&amp;nbsp;describe the sequence of actions&#xD;
+    performed by the system to yield an observable result of value.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As mentioned, a&amp;nbsp;system must perform according to the behavior that can be specified as use cases. However, there&#xD;
+    are system requirements that do not represent a specific behavior, also&amp;nbsp;known as system-wide requirements,&#xD;
+    including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Legal and regulatory requirements, as well as application standards&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Quality attributes of the system to be built, including usability, reliability, performance, and supportability&#xD;
+        requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interface requirements to be able to communicate with external systems&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Design constraints, such as those for operating systems and environments and for compatibility with other software&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-kbyERT7ThI5QD4X7GME9pQ" name="new_term_definition,_A6we0KNdEdyMFYhoCpD11Q" guid="-kbyERT7ThI5QD4X7GME9pQ" version="7.2.0">
+  <mainDescription>A method architecture defines the concepts, their properties, and relationships for defining methods and processes. It is&#xD;
+typically compromised of a meta-model, modeling language, or schema (synonyms) that is used for organizing large amounts of&#xD;
+descriptions for management development methods and processes, such as software engineering, mechanical engineering,&#xD;
+business transformation, sales cycles etc.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

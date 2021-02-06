@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-h1poMaxtQbmg6hD5772oVw" name=",_t7JOkEvtEdunZcj9T5hrMQ" guid="-h1poMaxtQbmg6hD5772oVw" changeDate="2008-09-12T02:42:22.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    The boundaries for inclusions and exclusions that define the depth and breadth of the project. Example of areas for&#xD;
+    consideration are included functionality, affected organizations, lifecycle phases performed, included and excluded&#xD;
+    deliverables, involved geographic areas, and so on.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

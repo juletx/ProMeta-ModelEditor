@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-0R8BZWlcCQ3Rj84jY2M3Kw" name="new_concept,_O1kAANvfEduv2KOT-Teh6w" guid="-0R8BZWlcCQ3Rj84jY2M3Kw" changeDate="2008-09-03T05:26:10.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    An executable architecture is an implementation that realizes the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html&quot;&#xD;
+    guid=&quot;__O7tAMVvEduLYZUGfgZrkQ&quot;>Software Architecture&lt;/a>. It is used to validate that the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html&quot;&#xD;
+    guid=&quot;_HrZGIA4MEduibvKwrGxWxA&quot;>Architecturally Significant Requirements&lt;/a>&amp;nbsp;are correctly implemented. It&#xD;
+    validates the architecture as an integrated whole through integration tests. The team gains feedback about the&#xD;
+    architecture from the customer or stakeholder by providing the executable architecture for verification. This way the&#xD;
+    executable architecture helps to assure that the core functionality is stable enough to build the remainder of the&#xD;
+    system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An executable architecture is not a work product. It's an identification or attribute of the implementation,&#xD;
+    indicating&amp;nbsp;that the implementation&amp;nbsp;contains stable architecturally significant functionality.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each version of an executable architecture should be more complete and robust than previous versions. The final&#xD;
+    executable architecture contains all the elements that make up the architecture and should validate all architecturally&#xD;
+    significant requirements. There may be rare exceptions where a portion of the architecture can't practically be&#xD;
+    implemented until later due to uncontrollable circumstances such as constraints with third part software or unique&#xD;
+    resources that are unavailable.&amp;nbsp;Delaying any part of the architecture should be avoided as it raises significant&#xD;
+    technical risk later in the project. But if circumstances dictate that some architectural risk can't be mitigated&#xD;
+    until&amp;nbsp;later in development, a&amp;nbsp;conscious decision can be made to carry this risk forward until the&#xD;
+    architecture can be fully implemented.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It's also possible to include non-architectural elements into an executable architecture. This will most likely happen&#xD;
+    when addressing high risk issues early in the development cycle, which is an excellent practice. Two examples of&#xD;
+    non-technical risks are resource risks and competitive risks. It may be desirable to obtain a difficult-to-get resource&#xD;
+    early so they can work on a unique piece of the software now, rather than hoping the resource will be available later.&#xD;
+    Or it may be useful to implement and deploy some early features to maintain market share against a competitor. Think of&#xD;
+    the executable architecture as a way to mitigate architectural risk, which is the most significant technical risk in a&#xD;
+    project. From this perspective, it's appropriate to mitigate other risks in the executable architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The difference between the executable architecture and the implementation later in the development cycle is that the&#xD;
+    executable architecture is the result of a period of development (for example&amp;nbsp;an iteration) that's dedicated to&#xD;
+    elaborating the architecture. Later iterations build onto the executable architecture but are not flagged as an&#xD;
+    executable architecture because they extend the system's functionality beyond the architectural framework.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:PracticeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-CKaoEA0OyFdrxbrlgIDEGg" name="new_practice,_2B5XACOREd2P4qHA1XIcyQ" guid="-CKaoEA0OyFdrxbrlgIDEGg" changeDate="2010-11-29T17:12:27.238-0800" version="7.5.0">
+  <additionalInfo>For more information on practices,&amp;nbsp;see the &lt;a href=&quot;http://www.ibm.com/developerworks/rational/practices/&quot;&#xD;
+target=&quot;_blank&quot;>practices resource page&amp;nbsp;on IBM&amp;reg; DeveloperWorks&amp;reg;&lt;/a>.</additionalInfo>
+  <problem>&lt;p>&#xD;
+    The purpose of this practice is to guide the project team on tailoring and deploying the process to be followed by the&#xD;
+    team. The team also makes decisions such as how to use work products, what the project-specific guidelines are, and so&#xD;
+    on. The tools to support the project are installed, configured, and used by the team.&#xD;
+&lt;/p></problem>
+  <application>&lt;p>&#xD;
+    The best way to read this practice is to first familiarize yourself with its overall structure: what it is in it and&#xD;
+    how it is organized.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The best place to start is with the &lt;strong>Key Concepts&lt;/strong> for the practice: those concepts that are critical to&#xD;
+    understand in order to adopt the practice. Once you understand the key concepts, you can turn your attention to the&#xD;
+    &lt;strong>Work Products&lt;/strong> produced by the practice. Then you can review the practices &lt;strong>Tasks&lt;/strong>. From&#xD;
+    the work products and the tasks, you can access applicable guidance: guidelines and tool mentors associated with each&#xD;
+    task provide details about how to perform the task. Templates and checklists associated with the work products guide&#xD;
+    you in their completion and evaluation. You can also access the guidance provided by the practice directly, via the&#xD;
+    &lt;strong>Guidance&lt;/strong> folder.&#xD;
+&lt;/p></application>
+</org.eclipse.epf.uma:PracticeDescription>

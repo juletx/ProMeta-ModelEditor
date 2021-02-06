@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-ph6qkAb7iv0PHQWVz9I2Rw" name="new_term_definition,_5LXF4CC8EduGAdKOTiDQdQ" guid="-ph6qkAb7iv0PHQWVz9I2Rw" authors="Jerome Boyer" changeDate="2008-09-03T04:14:46.000-0700" version="1.0.0">
+  <mainDescription>&lt;p>
+    &lt;a id=&quot;XE_ruleflow&quot; name=&quot;XE_ruleflow&quot;>&lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold&quot;>Oriented
+    graph composed of&lt;/span>&lt;/a> &lt;a id=&quot;5051&quot; name=&quot;5051&quot;>rule tasks nodes and decision nodes, which is used to control and
+    order the execution of rule artifacts.&amp;nbsp;&lt;/a>&lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold&quot;>It
+    can be created graphically using the Ruleflow Editor.&lt;/span>
+&lt;/p>
+&lt;p>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold&quot;>A
+    ruleflow can be seen as a business process, but it is not a complete one. When designing a business process type of
+    application is quite often that some sub flow of the business process model will be mapped to a ruleflow. But a rule
+    flow is for the execution logic of the rule set not of a process.&lt;/span>
+&lt;/p>&lt;br />
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

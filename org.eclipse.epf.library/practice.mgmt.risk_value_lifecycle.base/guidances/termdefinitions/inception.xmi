@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-dhgOQQ4GsV0-dNJmTmF9GA" name=",_525A8EvDEdunZcj9T5hrMQ" guid="-dhgOQQ4GsV0-dNJmTmF9GA" changeDate="2008-07-08T03:30:15.000-0700" version="7.2.0">
+  <mainDescription>First of the four phases in the project lifecycle.&amp;nbsp;It is about understanding the project scope and objectives and&#xD;
+getting enough information to confirm whether the project should proceed&amp;nbsp;or not.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

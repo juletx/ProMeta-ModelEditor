@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="--GUCGSJomnx0WV9XKvVyXQ" name="test_solution,_buG4sdOFEdyqlogshP8l4g" guid="--GUCGSJomnx0WV9XKvVyXQ" version="7.2.0">
+    <mainDescription>&lt;p>
+    This activity is repeated throughout the project lifecycle. The main goal of this activity is to validate that the
+    current build of the system satisfies the requirements allocated to it.
+&lt;/p>
+&lt;p>
+    Throughout the iterations, your intent is to validate that the implemented requirements reflect a robust architecture,
+    and that the remaining requirements are consistently implemented on top of that architecture. As developers implement
+    the solution for the requirements in a given iteration, unit test the integrated source code. Then, a
+    tester&amp;nbsp;conducts system-level testing in parallel with development to make sure that the solution, which is
+    continuously being integrated, satisfies the intent specified in the test cases. The tester defines what techniques to
+    use, what the data input is, and what test suites to create. As tests run, defects are identified and added to the work
+    items list, so that they can be prioritized as part of the work that you will do during iterations.
+&lt;/p>
+&lt;p>
+    stakeholders and end-users also may also be involved in performing tests to accept the release.
+&lt;/p></mainDescription>
+    <purpose>Develop and run test scripts to validate that the system satisfies the requirements.</purpose>
+    <howtoStaff>&lt;p>
+    The staff performing this activity must be integrated into the team.
+&lt;/p></howtoStaff>
+    <usageNotes>&lt;p>
+    Testing must occur throughout the process and throughout each iteration. Testing is not a final inspection to be
+    performed at the end of the project. As requirements are implemented and integrated into a build, you should test them
+    as soon as possible.
+&lt;/p></usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dGeCbV3mYf6d7tqFxsHq4A" name="test_case,_Vi5r8NOLEdyqlogshP8l4g" guid="-dGeCbV3mYf6d7tqFxsHq4A">
+    <refinedDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-S7RJDT8En1BwhtenbO3p8w" name="run_tests,_WttSMNOLEdyqlogshP8l4g" guid="-S7RJDT8En1BwhtenbO3p8w">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Run all tests as frequently as possible. Ideally, run all test scripts against each build deployed to the test&#xD;
+        environment. If this is impractical, run regression tests for existing functionality, and&amp;nbsp;focus the test cycle&#xD;
+        on work items completed in the new build.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Even test scripts that are expected to fail provide valuable feedback. However, once a test script is passing, it&#xD;
+        should not fail&amp;nbsp;against subsequent builds of the solution.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kjFCWWTMDhXbgfduK1uQCQ" name="test_log,_WttSMdOLEdyqlogshP8l4g" guid="-kjFCWWTMDhXbgfduK1uQCQ">
+    <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
+provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
+trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
+the results of an aspect of the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

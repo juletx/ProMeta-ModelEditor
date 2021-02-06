@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__f8iwbekEd-D7YZN9NgldQ" guid="__f8iwbekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__f8iwrekEd-D7YZN9NgldQ" id="-BZ8afnvoVBJs82vzcOBaCw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_UzK2cVmQEeCcpdiAcH0w-w" id="-5pBUhaIFdJ75MLPerQSnoA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_UzK2clmQEeCcpdiAcH0w-w" id="-raSQ2CIQMJXnNHFqWWi7Kg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_4ouDUNOEEdyqlogshP8l4g" name="agree_technical_approach" guid="_4ouDUNOEEdyqlogshP8l4g">
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BWf5gtOKEdyqlogshP8l4g" name="architecture_notebook" guid="_BWf5gtOKEdyqlogshP8l4g" presentationName="Architecture Notebook" briefDescription="This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture." isPlanned="false" superActivities="_4ouDUdOEEdyqlogshP8l4g">
+      <presentation xmi:id="-5pBUhaIFdJ75MLPerQSnoA" href="uma://-BZ8afnvoVBJs82vzcOBaCw#-5pBUhaIFdJ75MLPerQSnoA"/>
+      <checklists href="uma://_4gaS4LPREduocbW-TPTq7A#_17PYUNd6EdmIm-bsRSNCgw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
+      <templates href="uma://_4gaS4LPREduocbW-TPTq7A#_me8WcAANEdyRS9uciXlZ6g"/>
+      <WorkProduct href="uma://_4gaS4LPREduocbW-TPTq7A#_0XAf0MlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_n75CddfeEdy8T_PKWvNDBA" name="technical_specification_slot" guid="_n75CddfeEdy8T_PKWvNDBA" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_4ouDUdOEEdyqlogshP8l4g">
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sjccUN_1EdyOsumnGvWsEg" name="envision_the_arch" guid="_sjccUN_1EdyOsumnGvWsEg" presentationName="Envision the Architecture" briefDescription="This task is where the &quot;vision&quot; for the architecture is developed through analysis of the architecturally significant requirements and identification of architectural constraints, decisions and objectives." superActivities="_4ouDUdOEEdyqlogshP8l4g" mandatoryInput="_n75CddfeEdy8T_PKWvNDBA" optionalInput="_BWf5gtOKEdyqlogshP8l4g" output="_BWf5gtOKEdyqlogshP8l4g">
+      <presentation xmi:id="-raSQ2CIQMJXnNHFqWWi7Kg" href="uma://-BZ8afnvoVBJs82vzcOBaCw#-raSQ2CIQMJXnNHFqWWi7Kg"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_HrZGIA4MEduibvKwrGxWxA"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_HlRqANpbEdyP58ppo1Ieaw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_jdKSsNpiEdyP58ppo1Ieaw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_pLEGUNqGEdy88NBoQgfGyg"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0gpkAMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_vO2uoO0OEduUpsu85bVhiQ"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_we3F4ACpEdu8m4dIntu6jA"/>
+      <Task href="uma://_4gaS4LPREduocbW-TPTq7A#_0f-1oMlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_3nMQQA3rEduibvKwrGxWxA"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_f0y2kM25Edym_ZFqrJcXUg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_9o6Z4CSCEdqDjNgZyGMf5w"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_I32E4MP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_B899cMP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_FVrlsMP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_tmvWwE5cEducxZ_XZXh-vw"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_KBAsYMP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_RKSLsNp3EdyItewP9R0w7Q"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_Q2PRIFHSEd2zrOgIte8oWg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_Xia1QFHSEd2zrOgIte8oWg"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_4ouDUdOEEdyqlogshP8l4g" name="agree_technical_approach" guid="_4ouDUdOEEdyqlogshP8l4g" presentationName="Agree on Technical Approach" briefDescription="Reach agreement on a viable technical approach to developing the solution." breakdownElements="_BWf5gtOKEdyqlogshP8l4g _n75CddfeEdy8T_PKWvNDBA _sjccUN_1EdyOsumnGvWsEg">
+      <presentation xmi:id="-BZ8afnvoVBJs82vzcOBaCw" href="uma://-BZ8afnvoVBJs82vzcOBaCw#-BZ8afnvoVBJs82vzcOBaCw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

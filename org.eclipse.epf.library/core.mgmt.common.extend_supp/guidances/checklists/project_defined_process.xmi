@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-AALyHEAmllXObYA9d6qzfg" name="new_checklist,_wGK8ULrZEd-0rKmWr1vEGQ" guid="-AALyHEAmllXObYA9d6qzfg">
+  <sections xmi:id="_NOBstyZLEd-QuZFPf_YdqQ" name="The process complies with organization requirements" guid="_NOBstyZLEd-QuZFPf_YdqQ">
+    <sectionDescription>If the process does not comply with organization requirements, the deviations should be captured and approved.</sectionDescription>
+  </sections>
+  <sections xmi:id="_bSMj4CyLEd-CLrauOPzrIw" name="The process is the right balance of discipline and agility" guid="_bSMj4CyLEd-CLrauOPzrIw"/>
+  <sections xmi:id="_IyE2IKCTEd-UGJcsubRpBg" name="The rationale for tailoring decisions or variations from the standard have been captured" guid="_IyE2IKCTEd-UGJcsubRpBg"/>
+  <sections xmi:id="_frh7oCyLEd-CLrauOPzrIw" name="Appropriate tools have been selected and configured to support the process" guid="_frh7oCyLEd-CLrauOPzrIw"/>
+  <sections xmi:id="_jIqJ0CyLEd-CLrauOPzrIw" name="The right metrics are defined and supported by the process" guid="_jIqJ0CyLEd-CLrauOPzrIw"/>
+  <sections xmi:id="_nlkaACyLEd-CLrauOPzrIw" name="It is clear what work products require review, who does those reviews, and what formality of review is required" guid="_nlkaACyLEd-CLrauOPzrIw"/>
+  <sections xmi:id="_q9CsICyLEd-CLrauOPzrIw" name="It is clear what approvals are required for milestones and workproducts, and who is responsible for those approvals" guid="_q9CsICyLEd-CLrauOPzrIw"/>
+</org.eclipse.epf.uma:ContentDescription>

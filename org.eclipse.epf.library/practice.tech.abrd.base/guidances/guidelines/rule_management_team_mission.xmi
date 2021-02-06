@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-5BzRQYWJ5yziQVS25PLu5g" name="new_guideline,_fCRxoGDmEdyKlZvvtnMrMg" guid="-5BzRQYWJ5yziQVS25PLu5g" changeDate="2007-11-20T07:06:14.000-0800" version="7.5.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_management__team_mission&quot; name=&quot;XE_rule_management__team_mission&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The mission and objectives of this group could be:
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>Mission&lt;a id=&quot;XE_rule__management_team_mission_guideline&quot;
+        name=&quot;XE_rule__management_team_mission_guideline&quot;>&lt;/a>&lt;/b>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>:&lt;/b> Support the
+        specification, organization, authoring, quality of the business rules to benefit the company business goals.
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>Objectives:&lt;/b>
+    &lt;/li>
+&lt;/ul>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>
+        &lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;circle&quot;>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l1 level2 lfo1; tab-stops: list 72.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+                To ensure the consistency of business rules across departments, functions, geographies and applications
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l1 level2 lfo1; tab-stops: list 72.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+                To identify application with business rule needs
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l1 level2 lfo1; tab-stops: list 72.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+                To maintain methodology for rule set development including discovery, analysis, authoring, testing,
+                validation and deployment.
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l1 level2 lfo1; tab-stops: list 72.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+                To maintain traceability from business context, business policies to the executable business rules
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l1 level2 lfo1; tab-stops: list 72.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+                To support impact analysis for changing business rules.
+            &lt;/li>
+        &lt;/ul>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l1 level1 lfo1; tab-stops: list 36.0pt&quot;>
+        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>Activities&lt;/b> 
+        &lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;circle&quot;>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l1 level2 lfo1; tab-stops: list 72.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+                Identify business rules: participate in project development to assist policy manager to identify existing
+                rules for reuse, to guide them using the methodology, to extract the business rules...
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l1 level2 lfo1; tab-stops: list 72.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+                Support rule set change and deployment processes
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l1 level2 lfo1; tab-stops: list 72.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+                Classify the business rules (group, categories, rule set, rule services) for a business and technical
+                perspectives.
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l1 level2 lfo1; tab-stops: list 72.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+                Establish traceability of rules from the business motivation to the implemented rules to be able to do
+                impact analysis when a business rules changes.
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l1 level2 lfo1; tab-stops: list 72.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+                Maintain a common business vocabulary
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l1 level2 lfo1; tab-stops: list 72.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+                Document business rules, rule set, rule services
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l1 level2 lfo1; tab-stops: list 72.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+                Verify the validity of the rules to ensure they still meet business needs.
+            &lt;/li>
+            &lt;li class=&quot;MsoNormal&quot;
+            style=&quot;MARGIN: 0cm 0cm 0pt; mso-list: l1 level2 lfo1; tab-stops: list 72.0pt; mso-pagination: none; mso-layout-grid-align: none&quot;>
+                Coordinate the improvement of the business rules and the governance processes.
+            &lt;/li>
+        &lt;/ul>
+    &lt;/li>
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

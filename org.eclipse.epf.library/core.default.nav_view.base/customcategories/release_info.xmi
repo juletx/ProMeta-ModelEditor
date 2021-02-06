@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-hUN4Pfxbnmse1E-ThpHJrQ" name="release_info,_irqswCLOEd2ct852UDqXGQ" guid="-hUN4Pfxbnmse1E-ThpHJrQ" changeDate="2008-05-23T03:27:31.000-0700" version="7.5.0">
+  <mainDescription>&lt;h3>&#xD;
+    Legal statement (Eclipse)&#xD;
+&lt;/h3>&#xD;
+&lt;p class=&quot;node&quot;>&#xD;
+    See &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.default.release_copyright.base/guidances/supportingmaterials/intellectual_property_notices_B077124A.html&quot;&#xD;
+     guid=&quot;_h88OsO7-EdySOuhNm0Os1w&quot;>Eclipse Intellectual Property Notices&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

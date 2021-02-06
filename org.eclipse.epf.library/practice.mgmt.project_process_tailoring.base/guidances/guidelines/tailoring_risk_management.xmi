@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-oedHMQ8L-gzzjY50B2VznA" name="new_guideline,_jUkS8Hf6Ed-uPNA0T8XOnA" guid="-oedHMQ8L-gzzjY50B2VznA" changeDate="2010-07-19T00:46:52.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    For a given process area, you may need to refine or adapt the organizational process to accommodate your project needs.
+    The following are typical activities and key considerations when tailoring the Risk Management process area for your
+    project:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Refine&amp;nbsp;the approach to be used to identify risks, and how risks will be analyzed and prioritized.
+    &lt;/li>
+    &lt;li>
+        Refine&amp;nbsp;the list of&amp;nbsp;potential sources of risk, as well as typical risk categories, and impacted
+        stakeholders, which will help the team identify risks for the project.
+    &lt;/li>
+    &lt;li>
+        &lt;span class=&quot;jazz-ui-SideNavigationLayout-contentArea&quot; dojoattachpoint=&quot;_contentArea&quot;>&lt;span
+        class=&quot;jazz-ui-SideNavigationLayout-contentArea&quot; dojoattachpoint=&quot;_contentArea&quot;>&lt;span
+        class=&quot;jazz-ui-SideNavigationLayout-contentArea&quot; dojoattachpoint=&quot;_contentArea&quot;>Refine or adapt the risk management
+        strategies that will be used in your project, including mitigation, avoidance, and/or prevention strategies for the
+        most significant (&quot;Top 10&quot;) risks.&lt;/span>&lt;/span>&lt;/span>
+    &lt;/li>
+    &lt;li>
+        Refine how the status of each significant risk and its mitigation activities will be monitored. Refine the
+        acceptability thresholds against which risks will be periodically compared in order to determine the need for
+        implementing a risk mitigation plan. Refine how risk review and reporting schedules will happen, and what frequency
+        of reviews your project requires.
+    &lt;/li>
+    &lt;li>
+        List specific groups or individuals involved in the project's risk management activities for your project, and
+        provide a description of the tasks and responsibilities of each.
+    &lt;/li>
+    &lt;li>
+        Specify the budget available in your project for managing project risks (when this information is not already
+        included in the overall project budget).
+    &lt;/li>
+    &lt;li>
+        List&amp;nbsp;tools and techniques that will be used in your project to store risk information, evaluate risks, track
+        the status of risks or generate risk management reports.
+    &lt;/li>
+    &lt;li>
+        List&amp;nbsp;the risk items that have been identified in your project. Decide if this&amp;nbsp;will be&amp;nbsp;a link to a
+        separate Risk List artifact for the project or not. Publish and keep visible a &quot;Top 10&quot; list of risks that are
+        considered significant enough for the project to spend resources on their management.&lt;br />
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    &lt;br />
+    &amp;nbsp;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-ejZeo5A3u76_1K4bqoFH6g" name=",_J-T2kG6ZEdueuJFacHVsEA" guid="-ejZeo5A3u76_1K4bqoFH6g" authors="Pierre Berlandier" changeDate="2008-11-20T09:16:53.000-0800" version="1.0.0">
+  <mainDescription>&lt;h3>
+    Abstract
+&lt;/h3>
+&lt;p>
+    Maintaining an adequate level of quality assurance for applications with a high rate of business rules turnover
+    presents a challenge for many IT departments: the test cases require constant update from business experts to adjust
+    the expected results to the rule changes. Consequently, only a limited number of test cases can usually be maintained.
+    We propose in this paper a simple but efficient approach, called delta testing, which by-passes the need for
+    maintaining expected results, using instead the set of rule currently in production as the reference for testing the
+    new set of rules. This approach allows the development of more test cases with less involvement from the business
+    experts, thus providing a more thorough and less expensive QA strategy.
+&lt;/p>
+&lt;h3>
+    &lt;a>Introduction&lt;/a>
+&lt;/h3>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The process of testing a conventional piece of software is usually implemented by first elaborating a test plan, which
+    leads to the design of various test suites (1), then running these test suites on a regular basis to ensure the
+    correctness and stability of the system through its development and maintenance.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    A test case is generally composed of pair of data sets: the input data and the corresponding (expected) output data.
+    Executing a test case consists in submitting the input data to the system and comparing the &lt;i
+    style=&quot;mso-bidi-font-style: normal&quot;>actual&lt;/i> output to the &lt;i style=&quot;mso-bidi-font-style: normal&quot;>expected&lt;/i>
+    output: if they match, the test case execution is considered successful.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The initial investment required in creating the test cases, especially the part about manually devising the expected
+    output values is usually non-negligible.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    However, this investment gets quickly amortized since the same test suite executions are repeated over time for
+    regression testing purpose. Also and more importantly, the expected values of a test case do not change, unless the
+    system requirements themselves are changing, which should rarely occur in a conventional system.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    This assumption does not hold true for business rule based systems. Indeed, the essence of business rules engines and
+    the reason why they have been brought into the enterprise software picture is to provide a quick turnaround for
+    frequent business requirement changes and adjustments. Still, the ability to quickly implement and deploy incremental
+    changes that comes with the business rules paradigm does not exonerate us from applying a stringent unit-testing and
+    quality assurance process.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    With business rules based systems, the problem that we face is that we need to preserve the rapid implementation and
+    deployment of changes while still running the set of test cases necessary to ensure the system correctness. If we
+    decide to stick with the standard approach of comparing expected versus actual results, we need to review and update
+    the expected values of the test cases whenever the requirements are updated and a new rule set is deployed. As we
+    mentioned before, devising the expected results of test cases is a step which requires a significant time investment
+    from a group of precious business Subject Matter Experts (SME).
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    These experts are often a scarce resource, which can hardly, if at all, be supplemented by external contractors. It is
+    thus essential for the organization IT group to find a way to partly automate the testing of incremental changes in a
+    rule based application. We present here a testing&lt;a id=&quot;XE_changing_the_rule_of_testing__guideline&quot;
+    name=&quot;XE_changing_the_rule_of_testing__guideline&quot;>&lt;/a> approach which does not replace, but complements the use of
+    expected results. It is based on the comparison of the output from the currently tested and deployed rule set (referred
+    to as the &lt;i style=&quot;mso-bidi-font-style: normal&quot;>champion&lt;/i> rule set) with the output from the updated rule set
+    currently being tested (referred to as the &lt;i style=&quot;mso-bidi-font-style: normal&quot;>challenger&lt;/i> rule set).
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The concept of pass/fail is based on an equivalence function which semantics is specific to a test suite and which
+    determines, for a given test case, if the difference between the output from the champion and the challenger rule set
+    is acceptable or not.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    This incremental difference (or &lt;i style=&quot;mso-bidi-font-style: normal&quot;>delta&lt;/i>) testing approach is more declarative
+    and local than the traditional one; the question we have to ask ourselves while designing the test cases is now &lt;i
+    style=&quot;mso-bidi-font-style: normal&quot;>&quot;what changes from the previous version should we expect in the output&quot;&lt;/i> rather
+    than the traditional &lt;i style=&quot;mso-bidi-font-style: normal&quot;>&quot;what output should we expect&quot;&lt;/i>. The main benefit is
+    that testing does not depend on the SME resources to define and update the test cases. Also, the approach allows the
+    quick definition and execution of large sets of tests cases, making quality assurance for rule sets more realistic and
+    thorough.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    In the following sections, we present in more details the concept, the benefits and the implementation of the
+    delta-testing approach for business rules.
+&lt;/p>
+&lt;h3>
+    &lt;a>Application in Mortgage Lending&lt;/a>
+&lt;/h3>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    We selected mortgage underwriting (and pre-qualification) as a supporting application domain example for our
+    presentation. Mortgage underwriting applications are especially relevant to delta-testing because changes to the
+    business rules are frequent and incremental. This is particularly true in the sub-prime lending area, where
+    underwriting guidelines changes often come out weekly, to adjust to ever new and creative lending options and also
+    heavy competition among lenders.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Some example of data involved in mortgage underwriting is the type of property (e.g. Condominium, Single Family
+    Residence, Manufactured Homes), the FICO score of the applicant,
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Extensive information on the domain (data dictionary, XML DTDs) can be found at &lt;a href=&quot;http://www.mismo.org/&quot;>&lt;font
+    color=&quot;#005DA0&quot;>http://www.mismo.org&lt;/font>&lt;/a>, the site for the Mortgage Industry Standards Maintenance Organization,
+    which maintains electronic commerce standards for the mortgage industry.
+&lt;/p>
+&lt;h3>
+    &lt;a>Delta Testing&lt;/a>
+&lt;/h3>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The data flow of a conventional testing framework is presented on &lt;span
+    style=&quot;mso-field-code: ' REF _Ref114287457 h '&quot;>Figure &lt;span style=&quot;mso-no-proof: yes&quot;>1&lt;/span>&lt;/span>. The framework
+    involves a single rule engine which runs the tested rule set and two sets of user data input: the test cases input data
+    and the expected output data.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &amp;nbsp;&lt;img height=&quot;304&quot; alt=&quot;&quot; src=&quot;resources/conventional_testing.gif&quot; width=&quot;592&quot; />
+&lt;/p>
+&lt;p class=&quot;MsoCaption&quot; style=&quot;MARGIN: 6pt 0cm 6pt 11.35pt; TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+    &lt;a>&lt;strong>Figure&lt;/strong>&lt;/a> &lt;strong>&lt;span style=&quot;mso-bookmark: _Ref114287457&quot;>&lt;span
+    style=&quot;mso-no-proof: yes&quot;>1&lt;/span>&lt;/span>: Conventional Testing Framework&lt;/strong>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    By contrast, the delta testing framework involves two rule engines, one for the champion rule set and the other for the
+    challenger rule set, and a single set of user data input, which is the test cases data input.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &amp;nbsp;&lt;img height=&quot;440&quot; alt=&quot;&quot; src=&quot;resources/delta_testing.gif&quot; width=&quot;600&quot; />
+&lt;/p>
+&lt;p class=&quot;MsoCaption&quot; style=&quot;MARGIN: 6pt 0cm 6pt 11.35pt; TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+    &lt;strong>Figure &lt;span style=&quot;mso-no-proof: yes&quot;>2&lt;/span>: Delta Testing Framework&lt;/strong>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    While the response comparison process in a conventional testing framework is always based on strict equality, delta
+    testing needs to use a more flexible notion of equivalence. Using equality leads to &lt;i
+    style=&quot;mso-bidi-font-style: normal&quot;>qualitative&lt;/i> delta testing. Using a custom equivalence function leads to &lt;i
+    style=&quot;mso-bidi-font-style: normal&quot;>quantitative&lt;/i> delta testing. These two approaches and their specific use are
+    detailed in the following sections.
+&lt;/p>
+&lt;h4>
+    &lt;a>Qualitative Delta Testing&lt;/a>
+&lt;/h4>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The simplest way to exploit delta-testing is to test for strict equality between all the output values from the
+    champion and challenger rule set. The qualitative indication is whether or not the changes implemented by the
+    challenger rule set are affecting the outcome of the test case execution. As a result, we get a partition of the test
+    cases in (1) the set which yield an identical output and (2) the set which yield a different output.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Qualitative testing can be used to assess the following:
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l3 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>Correctness of a rules refactoring exercise&lt;/b>: as in regular software
+        lifecycle, rule set lifecycle includes refactoring where the rules are refined, the rule packages restructured and
+        the rule flow redesigned in order to accommodate the application needs for extensions or performances. After the
+        refactoring is complete, we should test that all possible input produces the same output through the champion and
+        challenger rule set. The refactoring exercise is successful if none of the test cases output differ between the
+        champion (original) and the challenger (refactored) rule sets.
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l3 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>Stability of the system and extent of change:&lt;/b> after a business
+        requirement change has been implemented in a rule set, it is easy to come up with a set of test cases that should
+        show some impact from the change and another set that should not shown any impact from the change. By running the
+        latter set through delta-testing, we can decide on the stability of the system through the change. By running the
+        former, we can verify that the region of the solution space that we intended to update was properly targeted.
+    &lt;/li>
+&lt;/ul>
+&lt;h4>
+    &lt;a>Quantitative Delta Testing&lt;/a>
+&lt;/h4>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    By using quantitative delta-testing, i.e. by actually examining the difference in value between the output from the
+    champion and the challenger rule sets, we can achieve more specific testing and increase the usefulness and coverage of
+    our testing.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Here, instead of using a strict equality criterion, we are testing that the difference between the value from the
+    champion output and the value from the challenger output is equal to a certain expectation such as a constant offset
+    value.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    For example, the base rates for mortgage products are often required to change. To test that the change is correctly
+    implemented, we simply need an equivalence function which compares the difference between the base rate of the champion
+    and the challenger and compares it to the base rate difference that should be introduced by the rules change.
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    While requirement changes are frequent in business rules, they are often repetitive in nature and can be categorized in
+    a set of recurrent types of changes, such as change in base rate or, change in the set of underwriting conditions,
+    etc...
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    So, after a few cycles of requirement changes, we end up with a set equivalence functions implemented as a &quot;comparison
+    tool-box&quot; that we can reuse to test most of the future requirement changes.
+&lt;/p>
+&lt;h3>
+    &lt;a>Intensive Test Cases Definition&lt;/a>
+&lt;/h3>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    We have shown in the previous sections that by using delta-testing, we can perform some quality assurance without
+    having to deal with expected values. By using intensive test case definitions from domains, we now show how we can
+    generate large amount of test cases from concise descriptions.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    In most cases, the variable values in a business application either belong to a finite discrete domain (e.g. &lt;span
+    class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>PropertyType&lt;/font>&lt;/span>&lt;/span> in &lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>[SingleFamily, Condominium, Townhouse,
+    …]&lt;/font>&lt;/span>&lt;/span>) or can be discretized in buckets from which a representative value can be selected (e.g. &lt;span
+    class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>CreditScore&lt;/font>&lt;/span>&lt;/span> in &lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>[499, 500, 550, …]&lt;/font>&lt;/span>&lt;/span>
+    &lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-bidi-font-family: 'Courier New'&quot;>or&lt;/span>&lt;/span>&lt;span
+    class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>LTV&lt;/font>&lt;/span>&lt;/span> &lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-bidi-font-family: 'Courier New'&quot;>in&lt;/span>&lt;/span>&lt;span
+    class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>[60.0, 65.0,
+    70.0, …]&lt;/font>&lt;/span>&lt;/span>).
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    This aspect is key in setting up intensive (versus extensive) descriptions of large sets of test case input data. An
+    extensive description of the test cases input values consists in listing all the values for all the variables involved
+    in the input data set. For example, test cases can be defined by the following tuples:
+&lt;/p>
+&lt;p class=&quot;Domain&quot; style=&quot;MARGIN: 6pt 0cm 0pt 36pt&quot;>
+    &lt;font face=&quot;Courier New&quot; size=&quot;3&quot;>TC1 = {{CreditScore, 700}, {PropertyType, Condominium}, …}&lt;/font>
+&lt;/p>
+&lt;p class=&quot;Domain&quot; style=&quot;MARGIN: 6pt 0cm 0pt 36pt&quot;>
+    &lt;font face=&quot;Courier New&quot; size=&quot;3&quot;>TC2 = {{CreditScore, 700}, {PropertyType, SingleFamily}, …}&lt;/font>
+&lt;/p>
+&lt;p class=&quot;Domain&quot; style=&quot;MARGIN: 6pt 0cm 0pt 36pt&quot;>
+    &lt;font face=&quot;Courier New&quot; size=&quot;3&quot;>TC3 = {{CreditScore, 750}, {PropertyType, Condominium}, …}&lt;/font>
+&lt;/p>
+&lt;p class=&quot;Domain&quot; style=&quot;MARGIN: 6pt 0cm 0pt 36pt&quot;>
+    &lt;font face=&quot;Courier New&quot; size=&quot;3&quot;>TC4 = {{CreditScore, 750}, {PropertyType, SingleFamily}, …}&lt;/font>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    An intensive description consists in listing all the desired values for each variable (sub-domains), and adjoining a
+    strategy that traverses the cross-product of these sub-domains to generate the extensive version of the test cases. For
+    example, the above 4 test cases can be represented intensively by the following description.
+&lt;/p>
+&lt;p class=&quot;Domain&quot; style=&quot;MARGIN: 6pt 0cm 0pt 36pt&quot;>
+    &lt;font face=&quot;Courier New&quot; size=&quot;3&quot;>TC&lt;sub>1...4&lt;/sub> = {{CreditScore,{700, 750}},&lt;/font>
+&lt;/p>
+&lt;p class=&quot;Domain&quot; style=&quot;MARGIN: 6pt 0cm 0pt 72pt; TEXT-INDENT: 36pt&quot;>
+    &lt;font size=&quot;3&quot;>&lt;font face=&quot;Courier New&quot;>{PropertyType,{Condominium, SingleFamily}}, …}&lt;/font>&lt;/font>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    This definition is concise and the number of test cases it represents grows exponentially by adding values in the
+    sub-domains. For example, adding 2 values to the &lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>PropertyType&lt;/font>&lt;/span>&lt;/span>
+    sub-domain and 3 values to the &lt;span class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>CreditScore&lt;/font>&lt;/span>&lt;/span> leads to 20 different test cases instead of 4.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Let us suppose that a guideline change for the &lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>Condominium&lt;/font>&lt;/span>&lt;/span> property
+    type has been implemented and we need to test the updated rule set. We know that for all property type other than &lt;span
+    class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>Condominium&lt;/font>&lt;/span>&lt;/span>, no change in the output should occur, and that for the &lt;span
+    class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>Condominium&lt;/font>&lt;/span>&lt;/span> type, two specific conditions should be added to the output. We can
+    thus devise 2 sets of test cases:
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l3 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        The first set has a sub-domain reduced to &lt;span class=&quot;DomainChar&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>[Condominium]&lt;/font>&lt;/span>&lt;/span> for
+        &lt;span class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+        face=&quot;Courier New&quot;>PropertyType&lt;/font>&lt;/span>&lt;/span>, and we'll make sure that, for test cases in this set, there
+        are 2 more conditions in the challenger output than in the champion output.
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l3 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        The second set has a sub-domain for &lt;span class=&quot;DomainChar&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>PropertyType&lt;/font>&lt;/span>&lt;/span>
+        which includes all the possible property types except &lt;span class=&quot;DomainChar&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>Condominium&lt;/font>&lt;/span>&lt;/span>, and
+        we'll make sure that, for test cases in this set, the champion and challenger outputs are identical.
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Using intensive test case definition is completing the delta-testing approach by allowing the creation of large number
+    of test case input data without having to spell out each individual test case. The intensive definition prescribes
+    which possible values can be used in the test case data. The actual construction of the test cases is left to an
+    automated enumeration mechanism.
+&lt;/p>
+&lt;h3>
+    &lt;a>Extensive Test Case Definition&lt;/a>
+&lt;/h3>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    One of the best sources of test cases for systems running in production is obviously the application database which
+    logs the system client transactions. The most significant business data combinations can be obtained in large numbers
+    from this database.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Delta testing makes it possible to profit from this large set of test cases, mainly through quantitative delta testing.
+    Tens of thousand real life test cases can be extracted from the database and executed each time a new rule set is to be
+    released to verify the extent of the rule change, as described in the Qualitative Delta Testing section.
+&lt;/p>
+&lt;h3>
+    &lt;a>Sample Test Harness Implementation&lt;/a>
+&lt;/h3>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    We propose here some highlights of a sample practical implementation of the delta testing harness. It allows the
+    selection of a champion and a challenger rule set file, and the execution of a batch of test suites defined in a batch
+    file.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    For each test suite, two Excel (CSV) files are generated: one which records the test cases input data which produce an
+    equivalent output through the comparison function and the other which records the test case input data which produce a
+    non-equivalent output.
+&lt;/p>
+&lt;h4>
+    &lt;a>Batch File Definition&lt;/a>
+&lt;/h4>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The batch file is composed of a set of test suite definitions. Each line of the batch file can either be blank, or a
+    comment line (line which first non-blank character is #) or a test suite definition of one of the two forms below:
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span class=&quot;DomainChar&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 10.0pt&quot;>&lt;font face=&quot;Courier New&quot;>INT &amp;lt;output&amp;gt; &amp;lt;domains&amp;gt;
+    &amp;lt;order&amp;gt; &amp;lt;count&amp;gt; [&amp;lt;comparator&amp;gt; [&amp;lt;arg&lt;sub>1&lt;/sub>&amp;gt; …
+    &amp;lt;arg&lt;sub>n&lt;/sub>&amp;gt;]]&lt;/font>&lt;/span>&lt;/b>&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span class=&quot;DomainChar&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 10.0pt&quot;>&lt;font face=&quot;Courier New&quot;>EXT &amp;lt;output&amp;gt; &amp;lt;testcases&amp;gt;
+    &amp;lt;count&amp;gt; [&amp;lt;comparator&amp;gt; [&amp;lt;arg&lt;sub>1&lt;/sub>&amp;gt; … &amp;lt;arg&lt;sub>n&lt;/sub>&amp;gt;]]&lt;/font>&lt;/span>&lt;/b>&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+    style=&quot;FONT-FAMILY: 'Courier New'; mso-bidi-font-size: 10.0pt&quot;>INT&lt;/span>&lt;/b> prefix is for test suites using intensive
+    test case definition, while &lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+    style=&quot;FONT-FAMILY: 'Courier New'; mso-bidi-font-size: 10.0pt&quot;>EXT&lt;/span>&lt;/b> is for test suites using extensive test
+    case definition.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The test suite parameters definitions are:
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l3 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        &lt;span class=&quot;DomainChar&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+        face=&quot;Courier New&quot;>&amp;lt;output&amp;gt;&lt;/font>&lt;/span>&lt;/b>&lt;/span>: the prefix used to generate the name of the Excel
+        files. Two files named &lt;span class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+        face=&quot;Courier New&quot;>&amp;lt;output&amp;gt;_EQUIVALENT.csv&lt;/font>&lt;/span>&lt;/span> and &lt;span class=&quot;DomainChar&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+        face=&quot;Courier New&quot;>&amp;lt;output&amp;gt;_DIFFERENT.csv&lt;/font>&lt;/span>&lt;/span> are generated as the result of running the
+        test suite.
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l3 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        &lt;span class=&quot;DomainChar&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+        face=&quot;Courier New&quot;>&amp;lt;domains&amp;gt;&lt;/font>&lt;/span>&lt;/b>&lt;/span>: the name of the file which contains the definition of
+        the sub-domains of values for each necessary variable. Each line of a domain file should either be blank, or a
+        comment line, or a sub-domain definition of the form:
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm 3pt 36pt&quot;>
+    &lt;font face=&quot;Courier New&quot;>&lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&amp;lt;variable&amp;gt; = &amp;lt;value&lt;/span>&lt;/span>&lt;span
+    class=&quot;DomainChar&quot;>&lt;sub>&lt;span style=&quot;FONT-SIZE: 11pt&quot;>1&lt;/span>&lt;/sub>&lt;/span>&lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&amp;gt; … &amp;lt;value&lt;/span>&lt;/span>&lt;span class=&quot;DomainChar&quot;>&lt;sub>&lt;span
+    style=&quot;FONT-SIZE: 11pt&quot;>n&lt;/span>&lt;/sub>&lt;/span>&lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&amp;gt;&lt;/span>&lt;/span>&lt;/font>
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l3 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        &lt;span class=&quot;DomainChar&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span style=&quot;FONT-SIZE: 11pt&quot;>&lt;font
+        face=&quot;Courier New&quot;>&amp;lt;testcases&amp;gt;&lt;/font>&lt;/span>&lt;/b>&lt;/span>&lt;span class=&quot;DomainChar&quot;>&lt;span
+        style=&quot;FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-bidi-font-family: 'Courier New'&quot;>: the name of the CSV
+        file which contains one test case definition (set of attribute values) per row.&lt;/span>&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l3 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        &lt;span class=&quot;DomainChar&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+        face=&quot;Courier New&quot;>&amp;lt;order&amp;gt;&lt;/font>&lt;/span>&lt;/b>&lt;/span>: the order in which the sub-domains should be traversed
+        to generate the test cases. The value is one of &lt;span class=&quot;DomainChar&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>DFS&lt;/font>&lt;/span>&lt;/span> or &lt;span
+        class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+        face=&quot;Courier New&quot;>RANDOM&lt;/font>&lt;/span>&lt;/span>. The &lt;span class=&quot;DomainChar&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>DFS&lt;/font>&lt;/span>&lt;/span> order will
+        traverse the set of domains in depth first order, thus guaranteeing that all tuples are visited once and only once.
+        &lt;span class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+        face=&quot;Courier New&quot;>RANDOM&lt;/font>&lt;/span>&lt;/span> order will repeatedly choose a value at random in each sub-domain.
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l3 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        &lt;span class=&quot;DomainChar&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+        face=&quot;Courier New&quot;>&amp;lt;count&amp;gt;&lt;/font>&lt;/span>&lt;/b>&lt;/span>: the number of test cases to submit for evaluation out of
+        the ones that can be generated from the sub-domains. In the case of &lt;span class=&quot;DomainChar&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>DFS&lt;/font>&lt;/span>&lt;/span> order, if the
+        size of the cross-product of the sub-domains is smaller than the requested count, the execution stops after all
+        test cases from the cross-product have been submitted for evaluation.
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l3 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        &lt;span class=&quot;DomainChar&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+        face=&quot;Courier New&quot;>&amp;lt;comparator&amp;gt;&lt;/font>&lt;/span>&lt;/b>&lt;/span> is an optional parameter which is the name of the
+        comparator class to use to evaluate the equivalence of outputs. The class should implement a common interface
+        defining the equivalence function (see class &lt;span class=&quot;DomainChar&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+        face=&quot;Courier New&quot;>ResponseComparator&lt;/font>&lt;/span>&lt;/span> in the section).
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l3 level1 lfo2; tab-stops: list 36.0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>&lt;span class=&quot;DomainChar&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&amp;lt;arg&lt;/span>&lt;/b>&lt;/span>&lt;span class=&quot;DomainChar&quot;>&lt;b
+        style=&quot;mso-bidi-font-weight: normal&quot;>&lt;sub>&lt;span style=&quot;FONT-SIZE: 11pt&quot;>i&lt;/span>&lt;/sub>&lt;/b>&lt;/span>&lt;span
+        class=&quot;DomainChar&quot;>&lt;b style=&quot;mso-bidi-font-weight: normal&quot;>&lt;span
+        style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&amp;gt;&lt;/span>&lt;/b>&lt;/span>&lt;/font> are optional additional arguments
+        to pass to the constructor of the comparator class. If no comparator parameter is specified, a default &quot;strict
+        equality&quot; comparator class is used.
+    &lt;/li>
+&lt;/ul>
+&lt;h4>
+    &lt;a>Batch File Example&lt;/a>
+&lt;/h4>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm 6pt&quot;>
+    Below is an example of the content of a batch file with 4 test suites, testing 2 main business requirement changes:
+&lt;/p>
+&lt;div
+style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 4pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid; mso-border-alt: solid windowtext .5pt; mso-element: para-border-div&quot;>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;># Test suite for release 2.5.1&lt;/font>
+    &lt;/p>&lt;br class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot; />
+    &lt;br />
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;># Testing requirement &quot;decrease base rate by 15bps&quot;&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>#&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>INT base rel251.domains RANDOM 1000 BaseRateComparator -0.15&lt;/font>
+    &lt;/p>&lt;br class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot; />
+    &lt;br />
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;># Testing requirement &quot;decrease minimum rate for FIXED products by 25bps&quot;&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>#&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>INT min15x15 rel251.domains RANDOM 500 MinimumRateComparator FIXED15x15 -0.25&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>INT min30x30 rel251.domains RANDOM 500 MinimumRateComparator FIXED30x30 -0.25&lt;/font>
+    &lt;/p>&lt;br class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot; />
+    &lt;br />
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;># Running regression tests&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>#&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>EXT regression regression.csv 5000&lt;/font>
+    &lt;/p>
+&lt;/div>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    This example shows the use of 2 comparator classes: &lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>BaseRateComparator&lt;/font>&lt;/span>&lt;/span>
+    and &lt;span class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>MinimumRateComparator&lt;/font>&lt;/span>&lt;/span>. These comparators (equivalence functions) are dedicated
+    to test respectively a change (increase or decrease) of base rates and a change (increase or decrease) of minimum rates
+    for a given mortgage product. Once implemented, these comparators can be reused for all such routine changes.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    While the first 3 test suites are using an intensive test case definition through a domain file, the last test suite
+    uses the &lt;span style=&quot;FONT-FAMILY: 'Courier New'; mso-bidi-font-size: 10.0pt&quot;>regression.csv&lt;/span> file as the set of
+    extensive test case definition. This test suite does not specify any custom comparator and will thus use the default
+    strict equality.
+&lt;/p>
+&lt;h4>
+    &lt;a>Domains File Example&lt;/a>
+&lt;/h4>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm 6pt&quot;>
+    Below is an excerpt of a domains file:
+&lt;/p>
+&lt;div
+style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 4pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: windowtext 1pt solid; PADDING-TOP: 1pt; BORDER-BOTTOM: windowtext 1pt solid; mso-border-alt: solid windowtext .5pt; mso-element: para-border-div&quot;>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>State = CALIFORNIA MARYLAND VIRGINIA DELAWARE HAWAII MICHIGAN FLORIDA LOUISIANA&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>PropertyValue = 60000 100000 110000 120000 150000 160000 200000 300000 400000&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>Ltv = 65 70 75 80 85 90 95 100&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>CreditScore = 500 580 600 639 640 700 720 750 760&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>DocumentationType = FullDocumentation NoDocumentation Reduced&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>PurchaseType = Purchase Refinance Other&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>PropertyType = SingleFamily Condominium Townhouse Modular PUD&lt;/font>
+    &lt;/p>
+    &lt;p class=&quot;code&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+        &lt;font face=&quot;Courier New&quot;>PropertyUsageType = Investor Primary Residence SecondHome&lt;/font>
+    &lt;/p>
+&lt;/div>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Note that when using the &lt;span class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>RANDOM&lt;/font>&lt;/span>&lt;/span> traversal order for domain, the same value can be repeated multiple
+    times for a given variable, so that the probability distribution is different for different values.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    For example, if we want to reflect that most of the time, the &lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>PropertyType&lt;/font>&lt;/span>&lt;/span> value is
+    &lt;span class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>SFR&lt;/font>&lt;/span>&lt;/span>, we can specify the following sub-domain:
+&lt;/p>
+&lt;p class=&quot;Domain&quot; style=&quot;MARGIN: 6pt 0cm 0pt&quot;>
+    &lt;font face=&quot;Courier New&quot; size=&quot;3&quot;>PropertyType = SingleFamily Condominium Modular PUD PUD PUD&lt;/font>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;a>This example gives&lt;/a> &lt;span style=&quot;mso-bookmark: _Ref106618144&quot;>&lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>PUD&lt;/font>&lt;/span>&lt;/span> a 50% chance of
+    being selected in the test cases generation process versus a 16.7% chance for the other property types..&lt;/span>
+&lt;/p>
+&lt;h3>
+    &lt;span style=&quot;mso-bookmark: _Ref106618144&quot;>&lt;a>Test Harness Design&lt;/a>&lt;/span>
+&lt;/h3>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The class structure of the test harness that supports delta-testing is illustrated on &lt;span
+    style=&quot;mso-field-code: ' REF _Ref106678587 h '&quot;>Figure &lt;span style=&quot;mso-no-proof: yes&quot;>3&lt;/span>&lt;/span>. &lt;span
+    class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>TestHarness&lt;/font>&lt;/span>&lt;/span> is the central class from which the rule sets are loaded and the
+    batch test file is run. It uses 2 instances of &lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>RuleHarness&lt;/font>&lt;/span>&lt;/span>, one for
+    the champion, one for the challenger, which are representing the 2 engine instances.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The &lt;span class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>TestCaseIterator&lt;/font>&lt;/span>&lt;/span> class is an abstract class with 2 concrete subclasses: &lt;span
+    style=&quot;FONT-FAMILY: 'Courier New'; mso-bidi-font-size: 10.0pt&quot;>IntensiveTestCaseIterator&lt;/span> is responsible for
+    implementing an iterator which, given a domains file, iterates over the tuples of values which can be produced from the
+    sub-domains. ExtensiveTestCaseIterator is responsible for implementing an iterator through the tuples of values defined
+    by each row of a given CSV file. A tuple is represented by an instance of the &lt;span class=&quot;DomainChar&quot;>&lt;span
+    style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font face=&quot;Courier New&quot;>RequestHolder&lt;/font>&lt;/span>&lt;/span> class,
+    which provides a mapping function to the actual request object from the application BOM.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    The &lt;span class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>ResponseComparator&lt;/font>&lt;/span>&lt;/span> class is an abstract class which declares the equivalence
+    function &lt;span class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>areEquivalent&lt;/font>&lt;/span>&lt;/span> between 2 instances of the response object from the application
+    BOM. The &lt;span class=&quot;DomainChar&quot;>&lt;span style=&quot;FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt&quot;>&lt;font
+    face=&quot;Courier New&quot;>ExactComparator&lt;/font>&lt;/span>&lt;/span> subclass performs the strict equality comparison between 2
+    response objects. Other specific comparator classes are implemented for quantitative testing.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Note that our sample implementation of the test harness is making a heavy use of Java reflection to traverse and
+    compare the content of the responses from the rule engines.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+    &amp;nbsp;&lt;img height=&quot;544&quot; alt=&quot;&quot; src=&quot;resources/harness_class_diagram.gif&quot; width=&quot;600&quot; />
+&lt;/p>
+&lt;p class=&quot;MsoCaption&quot; style=&quot;MARGIN: 6pt 0cm 6pt 11.35pt; TEXT-ALIGN: center&quot; align=&quot;center&quot;>
+    &lt;a>&lt;strong>Figure&lt;/strong>&lt;/a> &lt;strong>&lt;span style=&quot;mso-bookmark: _Ref106678587&quot;>&lt;span
+    style=&quot;mso-no-proof: yes&quot;>3&lt;/span>&lt;/span>: Test Harness Class Diagram&lt;/strong>
+&lt;/p>
+&lt;h3>
+    &lt;a>Conclusion&lt;/a>
+&lt;/h3>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    While business rules based applications usually receive proper testing on their initial release, we often fail to plan
+    for (and even sometime to realize) that:
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l0 level1 lfo3; tab-stops: list 36.0pt&quot;>
+        The initial business requirements will change because it is the essence the business rules based systems, and test
+        cases will have to be revised accordingly.
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l0 level1 lfo3; tab-stops: list 36.0pt&quot;>
+        The rapid pace of changes is essential to the organization and while it can usually be sustained on the
+        implementation side, it should not be slowed-down by the QA process.
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    Add to this the scarcity of SMEs able to maintain the test case base, and we obviously need a testing paradigm that is
+    not solely based on the comparison of &lt;i style=&quot;mso-bidi-font-style: normal&quot;>actual&lt;/i> against &lt;i
+    style=&quot;mso-bidi-font-style: normal&quot;>expected&lt;/i> results.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    We proposed a framework that is based instead on the comparison of &lt;i style=&quot;mso-bidi-font-style: normal&quot;>champion&lt;/i>
+    against &lt;i style=&quot;mso-bidi-font-style: normal&quot;>challenger&lt;/i> results. Among the expected benefits are:
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l2 level1 lfo4; tab-stops: list 36.0pt&quot;>
+        To free the testing team from the burden of maintaining expected results, thus accelerating the testing process and
+        reducing the bottleneck for rapid change deployment.
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l2 level1 lfo4; tab-stops: list 36.0pt&quot;>
+        To makes test writing more technical, thus more manageable by a business-agnostic QA department.
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt; mso-list: l2 level1 lfo4; tab-stops: list 36.0pt&quot;>
+        To support the production and execution of high volume of test cases through intensive test case definitions, thus
+        improving the coverage of the QA process.
+    &lt;/li>
+&lt;/ul>
+&lt;div style=&quot;mso-element: footnote-list&quot;>
+    &lt;br clear=&quot;all&quot; />
+    &lt;hr align=&quot;left&quot; width=&quot;33%&quot; size=&quot;1&quot; />
+    &lt;div id=&quot;ftn1&quot; style=&quot;mso-element: footnote&quot;>
+        &lt;p class=&quot;MsoFootnoteText&quot; style=&quot;MARGIN: 6pt 0cm 0pt&quot;>
+            &lt;font face=&quot;Times New Roman&quot;>&lt;u>&lt;font color=&quot;#800080&quot;>(1)&lt;/font>&lt;/u> We use the term test suite for a
+            collection of test cases dedicated to the test of a specific system feature.&lt;/font>
+        &lt;/p>
+    &lt;/div>
+&lt;/div></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

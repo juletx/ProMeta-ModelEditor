@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-4iL0UEFR2Fg7oWkh1TymIg" name=",_eX8K8ElyEducWJcS4yanqg" guid="-4iL0UEFR2Fg7oWkh1TymIg" changeDate="2006-09-21T06:10:30.000-0700" version="7.2.0">
+  <mainDescription>A variant of some artifact; later versions of an artifact typically expand upon earlier versions.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

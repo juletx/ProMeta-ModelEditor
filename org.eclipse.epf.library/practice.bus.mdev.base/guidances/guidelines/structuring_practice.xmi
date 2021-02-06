@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-WuAi2XsisktfzngHrIxJ0g" name="structuring_practice,_dxRsUEH-Ed-bmYzvomIdMg" guid="-WuAi2XsisktfzngHrIxJ0g" changeDate="2010-08-03T00:24:32.000-0700" version="7.5.0">
+  <mainDescription>&lt;h3>
+    Structuring a&amp;nbsp;Practice
+&lt;/h3>
+&lt;p>
+    Structuring a&amp;nbsp;&lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/concepts/practice_F5C8EAAB.html&quot;
+    guid=&quot;_qhCTAFRREd2CWscN8Mx6rg&quot;>Practice&lt;/a>&amp;nbsp;is where the elements of the practice and their relationships are
+    defined. Specifically, structuring a practice involves:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Defining the practice -- where the practice fits in the overall Practice Framework&amp;nbsp;and what are its external
+        dependencies
+    &lt;/li>
+    &lt;li>
+        Defining the practice elements -- what elements are contained within the practice and what are their relationships
+    &lt;/li>
+    &lt;li>
+        Categorizing the practice elements into standard and custom categories
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    Each of these topics is described in the following sections.
+&lt;/p>
+&lt;h4>
+    General practice structuring guidelines
+&lt;/h4>
+&lt;p>
+    The practice structure must be developed within the guiding principles and constraints of the practice
+    framework&amp;nbsp;in which the practice resides.
+&lt;/p>
+&lt;p>
+    When structuring a practice, resist the temptation to enter detailed descriptions into the defined method
+    elements.&amp;nbsp;Instead, just name and briefly describe the elements and enter a few outline details, if they help to
+    more clearly describe the element's basic definition.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    When structuring a practice, be sure to look for opportunities to leverage existing information in core elements and/or
+    in other practices.&amp;nbsp;If you find existing method elements in another practice that you would like to share, work
+    with the method architects to get the common information moved to&amp;nbsp;the core where it can be shared. Likewise,
+    method elements should be defined to maximize reuse.&amp;nbsp;If while structuring a practice you define an element that
+    can be shared across practices, it should be defined in&amp;nbsp;in the core where it can be shared, instead of in the
+    practice.&amp;nbsp;
+&lt;/p>
+&lt;h4>
+    Defining&amp;nbsp;the practice
+&lt;/h4>
+&lt;p>
+    Defining the practice involves&amp;nbsp;identifying,&amp;nbsp;naming and briefly describing the practice, as well as defining
+    the practice's position in the practice framework (i.e., defining the practice's external dependencies; what are the
+    practice's relationships with other elements in the framework, including core elements as well as other practices).
+&lt;/p>
+&lt;p>
+    When defining a practice, it is important to explicitly define its inputs (Work Product Slots) and outputs (work
+    products that fill slots), as well as any information (e.g., guidance, work product definitions, etc.) that is shared
+    between practices. It is also a good idea to&amp;nbsp;identify a candidate list of method elements the practice should
+    contain. This provides more detail around the practice's definition. The practice contents will be further refined when
+    the practice is designed.
+&lt;/p>
+&lt;p>
+    A practice&amp;nbsp;name should be able to be used as a verb phrase – as in &quot;we practice internal medicine&quot;, &quot;we practice
+    iterative development&quot;, &quot;we practice component-based design&quot;, &quot;we practice use-case driven requirements&quot;. Be sure to
+    following the naming conventions for the practices. For more information, see the topic Method Element&amp;nbsp;Naming
+    Conventions in &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../../practice.bus.mdev.base/guidances/guidelines/general_naming_conventions_5651B0CC.html&quot;
+    guid=&quot;__I8S0D2kEd-lU6YVR9_PJQ&quot;>Guideline: General Naming Conventions&lt;/a>.
+&lt;/p>
+&lt;p>
+    When defining practices, strive to minimize dependencies between practices (unless a practice is intended to
+    enhance/refine an existing practice). To reduce the dependencies between practices, information that is shared between
+    practices should be defined as an Work Product Slots and common guidance. Where necessary, practice elements may depend
+    on elements in Core plug-ins (e.g., work product slots, common work products, common guidance, etc.), but ideally
+    should not depend on elements in other practices (unless the purpose of&amp;nbsp;the practice is to extend another specific
+    practice). Remember, practices are intended to be independently adoptable and interchangeable, so limiting external
+    dependencies is important.
+&lt;/p>
+&lt;p>
+    Any practice that is intended to be an alternative of another practice is not considered an extension/customization of
+    the other practice.&amp;nbsp;It is a practice in its own right.
+&lt;/p>
+&lt;p>
+    Practices are physically packaged in Practice plug-ins. Practice dependencies are represented as plug-in
+    dependencies.&amp;nbsp;For more information, see the topic Defining Plugins in &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../../practice.bus.mdev.base/guidances/guidelines/creating_plugins_practices_configurations_4C84B4C2.html&quot;
+    guid=&quot;_EXvLwD3NEd-realK_We5vA&quot;>Guideline: Creating Plug-ins, Practices and Configurations&lt;/a>.&amp;nbsp;
+&lt;/p>
+&lt;h4>
+    Defining the practice elements
+&lt;/h4>
+&lt;p>
+    Base definitions of practice elements are defined in Practice Base plug-ins.&amp;nbsp;If you are customizing/extending an
+    existing practice, then the definition of the elements that extend/customize the existing elements should be defined in
+    Extend plug-ins.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    Defining the practice elements involves:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Defining the practice &lt;a class=&quot;elementLink&quot;
+        href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/method_content_6972AE81.html&quot;
+        guid=&quot;_Ts2joB_MEdq6CKKKq4D7YA&quot;>method content&lt;/a>&amp;nbsp;elements and their relationships
+    &lt;/li>
+    &lt;li>
+        Defining the practice&amp;nbsp;&lt;a class=&quot;elementLink&quot;
+        href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/process_68E308B4.html&quot;
+        guid=&quot;_yQ5m2NnmEdmO6L4XMImrsA&quot;>process&lt;/a>es and what tasks they are assembled from
+    &lt;/li>
+    &lt;li>
+        Defining the practice &lt;a class=&quot;elementLink&quot;
+        href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/guidance_549AC394.html&quot;
+        guid=&quot;_83ttAB_NEdq6CKKKq4D7YA&quot;>guidance&lt;/a>&amp;nbsp;and associating the guidance with the appropriate method elements
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    Each of these is described in the following sections.
+&lt;/p>
+&lt;h5>
+    Defining the practice method content elements
+&lt;/h5>
+&lt;p>
+    A practice&amp;nbsp;may contain any number of practice-specific method content elements.&amp;nbsp;In most cases, however, the
+    key elements of a practice are the work products it produces and the tasks that are performed to produce the work
+    products.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    The following sections provide practice-specific recommendations for defining the method content elements for
+    practices.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    If the elements to be included in the practice are extensions/customizations of existing elements (or are reusing
+    existing elements in some way), be sure to note the use of variability and the dependence on the element being
+    reused/extended/customized.&amp;nbsp;
+&lt;/p>
+&lt;h5>
+    Defining practice work products
+&lt;/h5>
+&lt;p>
+    &lt;a class=&quot;elementLinkWithUserText&quot;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/work_product_826E4C22.html&quot;
+    guid=&quot;_H4JXwB_SEdq6CKKKq4D7YA&quot;>Work products&lt;/a> in practices may be defined to be used outside the practice, as an
+    input to another practice, for example (externally-available work product), or may be defined to only be used within
+    the practice (&quot;local&quot; work product).&amp;nbsp;
+&lt;/p>
+&lt;p>
+    Local work products are defined within the practice and may be&amp;nbsp;used as both input and output work products of
+    practice tasks.&lt;br />
+    Note: Tasks may produce the local work product, but another task must consume the local work product and produce an
+    externally-available work product.
+&lt;/p>
+&lt;p>
+    Externally-available work products may be defined in either the practice or in a Core plug-in (of their definition is
+    to be shared).&amp;nbsp;No matter where they are defined, externally-available work products must fulfill a Work Product
+    Slot.&amp;nbsp; The fulfillment of the slot is defined within the practice (not in common).&amp;nbsp;Externally-available work
+    products may be used as inputs and/or outputs to tasks in the practice.&lt;br />
+    Note: Even if they are defined in&amp;nbsp;Core, these work products are still considered conceptually part of the
+    practice.&amp;nbsp;The only reason they are physically placed in a Core plug-in&amp;nbsp;is so their definition can be
+    shared.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    If the practice work products have significant states that must be recognized in the method (e.g., outlined, detailed,
+    etc.), be sure to include the definition of those states in the work product description.
+&lt;/p>
+&lt;p>
+    You will also need to define a default &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/role_37A0C602.html&quot;
+    guid=&quot;_yUefQNnmEdmO6L4XMImrsA&quot;>role&lt;/a>&amp;nbsp;assignment for the work product (i.e., what role is responsible for the
+    work product).&amp;nbsp;For more information on roles, see the &quot;Defining Practice Roles&quot; section.&amp;nbsp;
+&lt;/p>
+&lt;h5>
+    Defining practice roles
+&lt;/h5>
+&lt;p>
+    &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.default.uma_concept.base/guidances/concepts/practice_F5C8EAAB.html&quot;
+    guid=&quot;_qhCTAFRREd2CWscN8Mx6rg&quot;>Practice&lt;/a>s generally implement a&amp;nbsp;Delayed Assignment&amp;nbsp;approach for role
+    assignments so that the practices can be reused in different contexts where the roles are different.&amp;nbsp;Thus, in most
+    cases, roles and role assignments (e.g., &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/task_6C1FF051.html&quot;
+    guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;>task&lt;/a>s to performing &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/role_37A0C602.html&quot;
+    guid=&quot;_yUefQNnmEdmO6L4XMImrsA&quot;>role&lt;/a>s, roles responsible for &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/work_product_826E4C22.html&quot;
+    guid=&quot;_H4JXwB_SEdq6CKKKq4D7YA&quot;>work product&lt;/a>s) are not defined in the same &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/method_plugin_190B9F5E.html&quot;
+    guid=&quot;_D4TLgMaGEduMlb2cQZNTYw&quot;>method plug-in&lt;/a> as the plug-in where the base practice elements are defined, unless a
+    role is truly practice-specific. Role assignments for practices are usually&amp;nbsp;defined in Practice Assign plug-ins.
+&lt;/p>
+&lt;h5>
+    Defining practice tasks
+&lt;/h5>
+&lt;p>
+    All &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/task_6C1FF051.html&quot;
+    guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;>task&lt;/a>s are usually defined in practices.&amp;nbsp;Very rarely are tasks themselves
+    reusable enough to be in a Core plug-in.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    A recommended way to identify practice tasks is to identify the key states of the practice work products and then
+    define the tasks so that each task takes a specific work product (e.g., artifact: Practice) to a specific state (e.g.,
+    designed, detailed). Tasks should also be named to reflect their purpose, so you may want to consider including the
+    work product name and the intended state in the task name (e.g.,&amp;nbsp;design the practice, detail the
+    practice).&amp;nbsp;Using such a convention results in tasks with a good separation of concerns and with consistent
+    granularity&amp;nbsp;and scope across practices.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    Practice tasks that need information external to the practice should use Work Product Slots as input work products.
+    They may also use practice work products as input work products. Practice tasks should only output practice tasks, not
+    work product slots.
+&lt;/p>
+&lt;p>
+    Again, practices general implement a delayed assignment approach for roles, so the performing role for a task is
+    generally not defined in the task definition itself.&amp;nbsp;
+&lt;/p>
+&lt;h5>
+    Defining Practice Guidance
+&lt;/h5>
+&lt;p>
+    A practice&amp;nbsp;may contain any number of practice-specific guidance elements.&amp;nbsp;However the following is the type
+    of information that all practices should include:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Goals of the practice
+    &lt;/li>
+    &lt;li>
+        Why anyone would want to adopt it (it's business value).&amp;nbsp; What do you get when you adopt it?&amp;nbsp;What
+        problems does it solve?
+    &lt;/li>
+    &lt;li>
+        What is provided as part of the practice (i.e., the practice's bill-of-materials)
+    &lt;/li>
+    &lt;li>
+        What is the best way to read/navigate the practice (which elements and an what order).
+    &lt;/li>
+    &lt;li>
+        How to apply/adopt/implement the practice, including information on different levels of adoption, if applicable
+    &lt;/li>
+    &lt;li>
+        Additional information/references related to the practice (e.g., white papers, web sites, etc.)
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    Practices tend to describe a specific technique for accomplishing a goal.&amp;nbsp;Thus, &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/guidance_549AC394.html&quot;
+    guid=&quot;_83ttAB_NEdq6CKKKq4D7YA&quot;>guidance&lt;/a>&amp;nbsp;elements are a key part of a practice.&amp;nbsp;However, some guidance can
+    be reused across practices.&amp;nbsp;Reusable guidance is packaged in Core plug-ins where it can be shared.&amp;nbsp; A
+    practice may reference such guidance (i.e., associate common guidance with the practice elements) and use it as if it
+    was defined directly within the practice.&amp;nbsp;In fact, such guidance can be considered conceptually part of the
+    practice.
+&lt;/p>
+&lt;p>
+    Practice-specific guidance should be defined within the practice and associated with the method elements in the
+    practice.&amp;nbsp;&amp;nbsp;
+&lt;/p>
+&lt;h5>
+    Defining practice processes
+&lt;/h5>
+&lt;p>
+    Defining practice process is where you turn your attention to the process side of things.&amp;nbsp;How should the tasks
+    &quot;flow&quot; together? What tasks always appear together and in what order do they appear?&amp;nbsp;Are there specific sets of
+    tasks that can be reused together in more course-grained flows?&amp;nbsp;
+&lt;/p>
+&lt;p>
+    It is a good idea for every practice to provide some &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/capability_pattern_F5DDC5F.html&quot;
+    guid=&quot;_2RUJACO4EdqaNq6Ptg8uyA&quot;>capability pattern&lt;/a>s that describe how the practice elements can be used in a
+    process. Practice-specific capability patterns represent the key things you can do (the capabilities you gain) when you
+    choose the process.&amp;nbsp;Defining practice processes&amp;nbsp;defines an overall flow through the practice's content and
+    validates that you have the right content with the right separation of concerns.
+&lt;/p>
+&lt;p>
+    In order to define a practice-specific process, you will need to define a process construction configuration that will
+    serve as the default configuration for the process (all processes must have a default configuration).&amp;nbsp;Name the
+    process construction configuration to reflect its association with the practice.&amp;nbsp;Practice processes should be
+    role-agnostic, which means that the construction configuration should not include the default role assignments for the
+    practice tasks. Specifically, the default construction configuration for practice processes should not include the
+    Practice Assign plug-in.
+&lt;/p>
+&lt;p>
+    Assemble the practice tasks (and tasks in practices that the practice depends on, if any) into capability patterns. If
+    appropriate, create additional capability patterns that leverage capability patterns defined in the practice and in
+    other practices this practice depends on, if necessary.&amp;nbsp;For example, an architecture practice adds a new work
+    product and a new task to a basic development practice (thus the architecture practice depends on the basic development
+    practice).&amp;nbsp;Within the architecture practice you would define architecture-specific capability patterns using the
+    practice tasks, but you may also define a few additional capability patterns that show how the architecture capability
+    patterns could be combined with the basic development capability patterns.&amp;nbsp;Such informational-like capability
+    patterns have been referred to as &quot;reference workflows&quot; as they are not intended to be reused as-is in other processes;
+    instead, they are to be used as an educational tool and may be mimicked in other processes. It is the practice-specific
+    capability patterns (the practice's &quot;key activities&quot;) that are intended to be reused in other processes.
+&lt;/p>
+&lt;p>
+    These guidelines provide practice-specific recommendations for defining processes.&amp;nbsp;&lt;br />
+    &amp;nbsp;
+&lt;/p>
+&lt;h4>
+    Categorizing practice elements
+&lt;/h4>
+&lt;p>
+    Practice elements can be categorized into standard and/or custom categories. Each of these is described in the
+    following sections.
+&lt;/p>
+&lt;h5>
+    Categorizing the practice method content into standard categories&amp;nbsp;
+&lt;/h5>
+&lt;p>
+    Practice method content elements should be categorized according to the standard categorization scheme defined in the
+    practice library architecture.&amp;nbsp;However, since practices usually implement a Delayed Assignment&amp;nbsp;approach for
+    standard categories, the assignment of the elements to a standard category should be done separately from the base
+    definition of the practice element (i.e., in Practice Assign plug-ins).&amp;nbsp;
+&lt;/p>
+&lt;h5>
+    Categorizing the practice elements into custom categories&amp;nbsp;
+&lt;/h5>
+&lt;p>
+    Practices may define their own custom categories (e.g., a practice-specific way to conceptually organize the practice
+    content, etc.) or add their elements to an existing custom category (e.g., adding content to a custom category of a
+    practice that this practice is extending, etc.)
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

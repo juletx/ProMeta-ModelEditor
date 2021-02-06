@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-SdzKUbb2e3z0HiJfkIG2QA" name="new_guideline,_yNUigIMUEd-68ahhmSUqHw" guid="-SdzKUbb2e3z0HiJfkIG2QA" changeDate="2010-06-28T05:29:16.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    Decision points are point of variability in the business process which makes decision on information data given as
+    input. A decision is a choice or a selection, is made after considerations, and results in action. When implementing
+    decision with software we are looking at operational decisions related to operations like eligibility, validation,
+    calculation, risk assessment, opportunity, etc... Those decisions involve worker's or subject matter experts'
+    knowledge. The logic for making a decision should not be locked and therefore can be externalized to a business rule
+    management system. The analysis of decision points start by the process analyst / business analyst working with Subject
+    Matter Experts to understand how decision are done on a piece of information.&amp;nbsp;This analysis activity is done by
+    doing the process modeling, or the business use case modeling. The search for mental thinking verbs like analyze,
+    check, validate, evaluate, verify in the description of an activity can help identifying decision point, as well as
+    looking and understand how data&amp;nbsp;are built. Looking at a business entity life cycle helps also identifying the
+    decisions applied to change its state.&lt;br />
+&lt;/p>
+&lt;p>
+    The type of decision will most likely be a reject or accept of the business event or flag it for future processing
+    downstream in the business process. The decision may also include some computational expressions to assign value to
+    attribute of the business transaction.
+&lt;/p>
+&lt;p>
+    When there is a human task and conditional node you can expect to find decision point there. A human task can also
+    being sub decomposed in an automatic task which performs the main stream of decisioning and an exception task&amp;nbsp;done
+    by a human expert. In most business process there is the existence of validation step to ensure data quality: those
+    steps are source for business rules.
+&lt;/p>
+&lt;p>
+    &lt;br />
+    It is recommended to define the interface of each decision point and then consider the implementation choice later.
+    Using rule engine technology is the best choice when business users want to change the business logic over time, to
+    enforce auditability, to trace the decisions done on a given business event. During the inception phase the project
+    team is doing business modeling activities which aim at describing the business process and decisions applied to any
+    business events supported by the application. Decision points are extracted at that moment and logged in the decision
+    point table
+&lt;/p>
+&lt;p>
+    When designing by services, a decision service is business service making decisions, so linked to decision points. A
+    decision service can serve multiple decision points in a process, if they are sequentially related. Most likely a
+    decision point will be mapped to one decision service. The implementation can use a BRMS rule engine, to support ease
+    of change and adaptability. Decision service can be implemented in traditional software language, but will most likely
+    be more efficient in rule engine language, because over time new decision criteria will be done.&lt;br />
+    &lt;br />
+    The process of designing, implementing decision service should not be thought as a one shot deal. This is a process
+    which has to be managed over time, and well supported by a BRMS with the governance processes.
+&lt;/p>&lt;br />
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-PSYszO1VnJHhh76PS4GsoQ" name="01_02_install_validate_infrastructure,_qWKsoPd3EeCFmpfCmMPILg" guid="-PSYszO1VnJHhh76PS4GsoQ">
+    <refinedDescription>&lt;p>&#xD;
+    A release package cannot be deployed to production if the environmental infrastructure within which the release will be&#xD;
+    run is not sufficiently built or tested. Whether the release is deployed as a &quot;push&quot; (where the application is deployed&#xD;
+    from a central point and proactively delivered to target locations) or a &quot;pull&quot; (where the application is made&#xD;
+    available at central point and pulled by a user at a time of their choosing), the infrastructure needed to support the&#xD;
+    application must be considered and implemented.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some key aspects of installing and/or validating the desired infrastructure:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identify the requirements and components of the environment configuration&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Determine the lead times required to establish the infrastructure environments&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Procure and install the infrastructure components that are not yet available&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test the newly installed infrastructure components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test the integration of newly installed components with the rest of the environmental configuration&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Validate other aspects of the infrastructure including: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Security components and their integration&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Database connectivity and security&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                License management, as appropriate&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Configuration management, in terms of configuration items (CIs)&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7ZImjs9oa1GUIfRAA-aZ7A" name="01_04_create_update_backout_plan,_qWKsovd3EeCFmpfCmMPILg" guid="-7ZImjs9oa1GUIfRAA-aZ7A">
+    <refinedDescription>A rollback might be needed for a variety of reasons, including corruption of the production code base, inoperable&#xD;
+components, an unplanned undesirable effect of the release on other production systems, an unhappy Customer, etc.&#xD;
+The&amp;nbsp;Development team should provide the production support organization with a specific plan and decision criteria&#xD;
+made available to them to avoid or minimize service interruptions.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LyV_ZO1Np5hR4jCzxdP8lg" name="01_05_develop_release_communications,_qWKso_d3EeCFmpfCmMPILg" guid="-LyV_ZO1Np5hR4jCzxdP8lg">
+    <refinedDescription>&lt;p>&#xD;
+    When a release is pushed to production, all the stakeholders of that product should be notified that the event has&#xD;
+    happened and what the release means to each of the stakeholders. Often, the output of this task does not need to be&#xD;
+    created from scratch; for products that plan multiple releases, just updating the communique details for each release&#xD;
+    might be enough. However, if any of the stakeholder groups change, or there is a significant difference in the product&#xD;
+    distribution, more significant content might need to be developed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In any case, communicating effectively to the End User community is important. A development team can develop high quality&#xD;
+    software, but if messaging to the stakeholders is conducted poorly or not at all, the End User experience might be&#xD;
+    degraded. By simply answering the questions &quot;who, what, when, where, why, and how&quot; in a format appropriate for each&#xD;
+    stakeholder group, a product release can become a more satisfying experience for all those involved.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7MHd2XgrDNoZemDYzKTd4Q" name="deployment_engineer,_qWLTsPd3EeCFmpfCmMPILg" guid="-7MHd2XgrDNoZemDYzKTd4Q">
+    <refinedDescription>&lt;p>&#xD;
+    A Deployment Engineer&amp;nbsp;assists the&amp;nbsp;Deployment Manager who is responsible to senior management for the&#xD;
+    successful deployment of integrated or stand-alone releases into production. This team member role is critical to the&#xD;
+    safety of the production environment and helps prevent the introduction of bad or untested code into production&amp;nbsp;on&#xD;
+    which the organization's internal and external Customers depend. Deployment Engineers support the Deployment Manager in&#xD;
+    the mission to continually lead, facilitate, and coordinate synchronized releases by using the program to&#xD;
+    maximize value delivered to their program Customers.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4IwCugarUHSvovyhSVaC8w" name="developer,_qWLTsvd3EeCFmpfCmMPILg" guid="-4IwCugarUHSvovyhSVaC8w"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-x7jM0IZFOAC4CvMUpzlfKA" name="deployment_plan,_qWLTtPd3EeCFmpfCmMPILg" guid="-x7jM0IZFOAC4CvMUpzlfKA">
+    <refinedDescription>&lt;p>&#xD;
+    The Deployment Plan should contain the unique instructions for deploying a particular version of a product. By &quot;unique&#xD;
+    instructions&quot; we mean those things that are not part of a Deployment Engineer's normal procedures. Rather, they often&#xD;
+    are specific procedures and timing constraints that a Deployment Engineer should be aware of as they are rolling out a&#xD;
+    particular release.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While&amp;nbsp;a draft version of the&amp;nbsp;Deployment Plan is typically developed by a development team, the Deployment&#xD;
+    Engineer is responsible for its contents and existence.&amp;nbsp;A Deployment Plan&amp;nbsp;normally consists of the following&#xD;
+    sections:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The scope of the release and a general overview of the capabilities to be deployed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The timing and dependencies for deploying components to various nodes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The risks or issues associated with the release based on a risk assessment&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The customer organization, stakeholders, and End User community that will be impacted by the release&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The person or persons who have the authority to approve the release as &quot;ready for production&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The development team members responsible for delivering the release package to the Deployment Manager, along with&#xD;
+        contact information&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The approach for transitioning the release package to the Deployment Engineer, including appropriate communications&#xD;
+        protocols and escalation procedures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The success criteria for this deployment; in other words, how will the Deployment Engineer know that the release is&#xD;
+        successful so it can report success&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-SymlacROUb5bShbsw846gw" name="release_controls,_qWLTtvd3EeCFmpfCmMPILg" guid="-SymlacROUb5bShbsw846gw">
+    <refinedDescription>&lt;p>&#xD;
+    Some common release controls are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A release or deployment plan must be documented and reviewed with the Deployment Manager (or the release&#xD;
+        organization). This plan must address how risks, issues, or code deviations are to be handled during the key&#xD;
+        timeframe leading up to the actual release&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The components of each release package must be defined, integrated, and compatible with one another&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The integrity of each release package must be verified and maintained&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        References to the configuration items (CIs) that the release package represents, if applicable&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The customer for which the application is being developed must approve the release, indicating that the user&#xD;
+        community (or a specific subset) is ready to receive and use the requisite capabilities of the release&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Each release package must be capable of being backed out of production without negatively impacting the remaining&#xD;
+        production environment&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The contents of each release package must be transferred to operations and support staff with sufficient&#xD;
+        documentation and knowledge transfer so that those organizations can effectively support the released capabilities&#xD;
+        in production&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-eIsGLOhYKE9d9gScztUFiQ" name="infrastructure,_qWLTuPd3EeCFmpfCmMPILg" guid="-eIsGLOhYKE9d9gScztUFiQ">
+    <refinedDescription>&lt;p>&#xD;
+    Infrastructure normally is defined as anything that supports the flow and processing of information in an organization.&#xD;
+    The infrastructure needed to support a release package normally includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Software, including: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Operating systems and applications for servers and clients&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Desktop applications&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Middleware&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Protocols&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Hardware&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks, including: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Routers&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Aggregators&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Repeaters&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Other transmission media devices that control movement of data and signals&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Facilities&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IhfK-TBRtHklzkKVrccUvw" name="backout_plan,_qWLTuvd3EeCFmpfCmMPILg" guid="-IhfK-TBRtHklzkKVrccUvw">
+    <refinedDescription>&lt;p>&#xD;
+    While someone on the development team normally authors a draft version of the Backout Plan, the Deployment Engineer is&#xD;
+    ultimately responsible for its contents and existence. A Backout Plan typically answers the following questions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Under what circumstances will a rollback be required? Or conversely, under what circumstances will the deployment&#xD;
+        be considered a success?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What is the time period within which a rollback can take place?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Which authorizing agent will make the decision to revert?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who will perform the rollback and how soon after the decision has been made will the rollback be performed?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What procedures (manual and automated) will be followed to execute the rollback?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What other contingency measures or available workarounds should be considered?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What is the expected time required to perform a reversion?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What are the communication procedures required in the event of a backout?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Has the Backout Plan been successfully tested?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-grT7fq-8SP3IEHJFjdrz-A" name="release_communications,_qWLTvPd3EeCFmpfCmMPILg" guid="-grT7fq-8SP3IEHJFjdrz-A">
+    <refinedDescription>&lt;p>&#xD;
+    Sometimes, depending on the product user base, separate communiques might need to be prepared for each stakeholder&#xD;
+    group. In that case, this artifact should specify the different groups to which communications are directed, the method&#xD;
+    of communication (e.g., email, text or pager message, bulletin, newsletter, phone message, etc.). All communiques&#xD;
+    should be prepared in advance so that it is a matter of disseminating information when the release to production has&#xD;
+    been determined to be successful.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Also included in this artifact is a listing of the responsible parties who will execute the communications when a&#xD;
+    successful release has been declared (normally the Deployment Engineer), as well as the timing and dependencies of the&#xD;
+    communiques.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While there is no prescribed format for the Release Communications artifact, each communique should indicate the&#xD;
+    preferred delivery mechanisms (e.g., beeper notification, telephone calls, a posting to an internal release website,&#xD;
+    live or pre-recorded presentations by senior management, etc.) and generally answer the following questions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Who are the parties (Stakeholders) that are interested in knowing that a release to production has taken place?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What specifically (features, functions, components) has been placed into production?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Why is this release valuable to stakeholders and what business purpose does it serve?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Where is the product available (on which platforms, geographical locations, business units, etc.)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How can the stakeholders access the system and under what circumstances?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When was the product released (or when will it be released if the release date is in the future)?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-cvDLlTlRc9rDk8NGoWkvcg" name="release,_qWNv8Pd3EeCFmpfCmMPILg" guid="-cvDLlTlRc9rDk8NGoWkvcg">
+    <refinedDescription>&lt;p>&#xD;
+    A Release consists of integrated, compiled code that runs cleanly, independently, and in its entirety. This is an&#xD;
+    important rule because in order to be released or even &quot;potentially shippable,&quot; a Release increment must be able to&#xD;
+    stand on its own, otherwise it is not shippable. Releases&amp;nbsp;can be created at either the program or team level.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are three potential uses for a Release:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>It is not used outside of the program:&lt;/strong> It has been produced to minimize risks linked to technology&#xD;
+        and a program's capability to integrate components and to produce a Build. This situation usually happens at the&#xD;
+        beginning of a new product lifecycle.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>It is used by Beta Customers and the Program Manager:&lt;/strong> It allows End Users to test it in a Beta&#xD;
+        test environment, which provides immediate feedback and reduces risks associated with user interface ergonomics.&#xD;
+        Customer feedback will influence the Program Backlog for later consideration.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>It is deployed or shipped and used by End Users:&lt;/strong> This result provides immediate value to the End&#xD;
+        Users.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In many organizations, a program Release typically is timeboxed to 2 to 3 months of development effort and 2 to 4 weeks&#xD;
+    of hardening which results in a scheduled release approximately every 90 days. Releases for individual Development&#xD;
+    Teams usually occur more often than those for programs, but there are no hard and fast rules regarding how often&#xD;
+    releases should be scheduled. The only requirement is that working software should be delivered &quot;frequently&quot; by both&#xD;
+    development teams and programs. Although the example timeframe described above is arbitrary, empirical evidence&#xD;
+    suggests it is about right for most companies and fits nicely into quarterly planning cycles.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each Release has a set of release objectives and a projected delivery date; it also has a planned number of Sprint/Iterations.&#xD;
+    For example, a brief description of a release might be: &quot;The goal of Release 2 is to provide B2B scheduling capability&#xD;
+    for the Ordering and Logistics Department. The Release is targeted for June 31 and will consist of five 2-week Feature&#xD;
+    Development Sprint/Iterations and&amp;nbsp;one 2-week Release Sprint/Iteration.&quot;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TIDq6m5AxfWlAJfJCiHN7g" name="01_01_review_conform_to_release_controls,_1TCC0Pd3EeCFmpfCmMPILg" guid="-TIDq6m5AxfWlAJfJCiHN7g">
+    <refinedDescription>&lt;p>&#xD;
+    Release controls describe the minimum number of requirements that a software package must adhere to before being&#xD;
+    released into production. This is especially important if a development team is new or emerging, because they might not be&#xD;
+    aware of the great responsibilities a Deployment Manager has. In fact, a Deployment Manager is responsible to senior&#xD;
+    management for ensuring that nothing is placed into production that does not conform to the rigid controls designed to&#xD;
+    protect the IT organization's ability to successfully deliver IT services to internal and external Customers.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Release controls typically consist of:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Release or deployment plan&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Backout plan&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Release component definitions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Release package integrity verification&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        References to configuration items (CIs)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Customer approval&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ready for transfer to operations and support staff&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-eZJOOlVLjwqJ6USAOlOsJQ" name="prepare_for_release,_muQKwfd3EeCFmpfCmMPILg" guid="-eZJOOlVLjwqJ6USAOlOsJQ"/>
+</xmi:XMI>

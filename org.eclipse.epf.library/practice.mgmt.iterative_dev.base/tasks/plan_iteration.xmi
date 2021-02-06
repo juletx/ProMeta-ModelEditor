@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_Wk7noKe1EdmGSrcKGOYDGg" name="plan_iteration,_0keUEMlgEdmt3adZL5Dmdw" guid="_Wk7noKe1EdmGSrcKGOYDGg" changeDate="2011-03-25T16:37:07.803-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    During project planning, iterations are identified, but the estimates have an acceptable uncertainty due to the lack of&#xD;
+    detail at the project inception. This task is repeated for each iteration within a release. It allows the team to&#xD;
+    increase the accuracy of the estimates for one iteration, as more detail is known along the project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Ensure that the team commits to a reasonable amount of work for the iteration, based on team performance from previous&#xD;
+    iterations.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_7bz7AIyAEdyhZb-MhCJrlA" name="Prioritize Work Items List" guid="_7bz7AIyAEdyhZb-MhCJrlA">
+    <sectionDescription>Prioritize the work items list before you plan the next iteration. Consider what has changed since the last iteration plan&#xD;
+(such as new change requests, shifting priorities of your stakeholders, or new risks that have been encountered).</sectionDescription>
+  </sections>
+  <sections xmi:id="_CtKCMMBHEdqSgKaj2SZBmg" name="Define iteration objectives" guid="_CtKCMMBHEdqSgKaj2SZBmg">
+    <sectionDescription>&lt;p>&#xD;
+    Work with the team to refine the iteration objectives found in the project definition and scope, and document them in&#xD;
+    the iteration plan in order to provide high-level direction to what should be targeted for the iteration. The&#xD;
+    objectives should be driven based on stakeholder priorities, and will be revised as the iteration plan is finalized.&#xD;
+    Those objectives are usually defined as high-level capabilities or scenarios, which need to be implemented and tested&#xD;
+    during the iteration in order to deliver increased value to the customer.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_HzNVgIyBEdyhZb-MhCJrlA" name="Identify and review risks" guid="_HzNVgIyBEdyhZb-MhCJrlA">
+    <sectionDescription>&lt;p>&#xD;
+    Throughout the project, new assumptions and concerns may arise. Help the team identify and prioritize new risks as part&#xD;
+    of iteration planning, updating the risk list. Add risk responses to the work items list, influencing the work that is&#xD;
+    being planned for that iteration.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_307v0MMsEdmdo9HxCRR_Gw" name="Commit work to the iteration" guid="_307v0MMsEdmdo9HxCRR_Gw">
+    <sectionDescription>&lt;p>&#xD;
+    Work with the team, and especially the project stakeholders, to identify the high-priority work items from the work&#xD;
+    items list to be addressed. The high-level objectives provide guidance on what work items should be considered. The&#xD;
+    iteration plan from previous iteration should include an assessment of the results, and can also be used as input to&#xD;
+    the current iteration planning. The team reviews its velocity and determines the amount of work that can be done within&#xD;
+    the iteration. The team breaks down into tasks those work items that are assigned to the iteration, and estimates the&#xD;
+    effort to complete each task. Typical tasks range from half a day to two days in length, and are captured in the work&#xD;
+    items list. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/guidances/guidelines/agile_estimation_A4EF42B3.html&quot;&#xD;
+    guid=&quot;_CGHskBEdEdqY7JB6N6CW2w&quot;>Guideline: Agile Estimation&lt;/a> for more information.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When the team has decided to take on a work item, it will assign the work to one or several team members. Ideally, this&#xD;
+    is done by team members signing up to do the work, since this makes people motivated and committed to doing the job.&#xD;
+    However, based on your culture, you may instead assign the work to team members.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_7Hqr4MMsEdmdo9HxCRR_Gw" name="Define evaluation criteria" guid="_7Hqr4MMsEdmdo9HxCRR_Gw">
+    <sectionDescription>&lt;p>&#xD;
+    Each iteration should include testing as a part of the evaluation, as well as the test objectives and test cases that&#xD;
+    need to be detailed. Other evaluation criteria may include successful demonstrations to key stakeholders, or favorable&#xD;
+    usage by a small group of target users. Document evaluation criteria in the iteration plan.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_-tp18FHjEd2IaYFd32DrjQ" name="Refine project definition and scope" guid="_-tp18FHjEd2IaYFd32DrjQ">
+    <sectionDescription>&lt;p>&#xD;
+    Depending on the results of the previous iteration assessment, update the project definition work products as needed.&#xD;
+    Necessary changes can encompass the need to acquire new resources, to absorb an unplanned effort increase, or to&#xD;
+    implement a specific change request. If a change affects defined project milestones, consult with the stakeholders&#xD;
+    before committing to it.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purpose of this task is to identify the next increment of system capability, and create a fine-grained plan for&#xD;
+    achieving that capability within a single iteration.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

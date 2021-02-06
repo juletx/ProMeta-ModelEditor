@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-IfcWgUklth25pRzdNTE8LA" name="create_update_training_materials,_yJRakDHMEeC7j_IRiP-WPQ" guid="-IfcWgUklth25pRzdNTE8LA" changeDate="2012-05-30T14:02:19.664-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Having the correct amount and type of materials available to adequately train end users and supporters of an&#xD;
+    application is necessary to promote usability and to achieve the desired business value. If a course ceveloper is&#xD;
+    available, they can assume most of the burden of creating the training materials, lab exercises, and workshops&amp;nbsp;for&#xD;
+    delivery of&amp;nbsp;those courses to either end users or support personnel. If a course developer is not&#xD;
+    available,&amp;nbsp;development team members should take the time to properly develop a suite of training materials for the&#xD;
+    feature set developed during a release.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Although different parts of training materials should be created during feature development sprint/iterations, the bulk&#xD;
+    of the work (and the integration of the materials) usually is reserved for the release sprint/iteration that occurs&#xD;
+    immediately before a scheduled release.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_-zennOB8EeC1y_NExchKwQ" name="Determine scope of training materials" guid="_-zennOB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    Consult the program manager and deployment manager to determine the extent of training materials required for this&#xD;
+    release. Depending on the contents of the release, more or fewer training materials might be needed to support both end&#xD;
+    users and IT operations support personnel.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Training materials generally consist of a combination of:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Presentation slides&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Handouts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Training aids&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Hands-on labs and/or exercises&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Quizzes or tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Practical application workshops&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Training materials often are grouped into modules, each with a set of learning objectives and competency assessments.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_-zenm-B8EeC1y_NExchKwQ" name="Develop user training materials" guid="_-zenm-B8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    Leverage all the user documentation that has been prepared previously or is in the process of being prepared. The table&#xD;
+    of contents of the user documentation will provide a starting point for developing a training course framework and a&#xD;
+    lesson plan.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    First identify the learning objectives of each training module, then reuse as much user documentation as is possible.&#xD;
+    If tutorials were documented within either user or support documentation, they are a good source of content for&#xD;
+    training modules.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_-zenmuB8EeC1y_NExchKwQ" name="Develop support training materials" guid="_-zenmuB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    In many cases, IT support personnel are experienced enough to require minimal training on a product release. However,&#xD;
+    where the product is new to the support organization, or the support personnel themselves are inexperienced or&#xD;
+    unfamiliar with a particular technology, support training becomes very important to the success of the product rollout.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Using the support documentation as a guideline, identify the parts of the product on which IT support personnel will&#xD;
+    need to be trained. Identify training modules and document learning objectives for each module, then leverage as much&#xD;
+    of the support documentation content as you can to create your training materials.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_-zenn-B8EeC1y_NExchKwQ" name="Perform quality review" guid="_-zenn-B8EeC1y_NExchKwQ">
+    <sectionDescription>As user and support training materials are developed, plan and conduct a quality review during the release sprint/iteration&#xD;
+to ensure that the materials are of sufficient quantity and quality. Update and improve the training materials based on the&#xD;
+results of the quality review.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zennuB8EeC1y_NExchKwQ" name="Perform dry run" guid="_-zennuB8EeC1y_NExchKwQ">
+    <sectionDescription>Before formally delivering the user or support training, plan a sprint/iteration task in which representatives of both the&#xD;
+user and support communities are invited to participate in a dry run of the training materials. Use the feedback obtained&#xD;
+from these sessions to improve the training materials during the release sprint/iteration.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-zenneB8EeC1y_NExchKwQ" name="Deliver training materials" guid="_-zenneB8EeC1y_NExchKwQ">
+    <sectionDescription>When the final user and support training materials are complete, deliver them to the deployment manager for integration&#xD;
+with the training materials from the other teams participating in the program.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to enable adoption of the product and to encourage its proper use.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-aim_xTKZyZptD_PbMWAtVA" name="develop_process_maps,_deyUkKv8Ed2Pv_z50upsAg" guid="-aim_xTKZyZptD_PbMWAtVA" version="7.5.1">
+  <sections xmi:id="_9jqRIKy-Ed2aLdlF48Bk1g" name="Develop Rule Change Management Process Map" guid="_9jqRIKy-Ed2aLdlF48Bk1g">
+    <sectionDescription>Describes the tasks and actors involved in rule change management.</sectionDescription>
+  </sections>
+  <sections xmi:id="_K4JmAKy_Ed2aLdlF48Bk1g" name="Develop Rule Authoring Process Map" guid="_K4JmAKy_Ed2aLdlF48Bk1g">
+    <sectionDescription>Describes the tasks and actors involved in rule authoring.</sectionDescription>
+  </sections>
+  <sections xmi:id="_aZ6DsKy_Ed2aLdlF48Bk1g" name="Develop Rule Testing Process Map" guid="_aZ6DsKy_Ed2aLdlF48Bk1g">
+    <sectionDescription>Describes the tasks and actors involved in rule testing.</sectionDescription>
+  </sections>
+  <sections xmi:id="_lmDzEKy_Ed2aLdlF48Bk1g" name="Develop Rule Deployment Process Map" guid="_lmDzEKy_Ed2aLdlF48Bk1g">
+    <sectionDescription>Describes the tasks and actors involved in rule deployment.</sectionDescription>
+  </sections>
+  <sections xmi:id="_rMlWsKy_Ed2aLdlF48Bk1g" name="Develop Rule Execution Process Map" guid="_rMlWsKy_Ed2aLdlF48Bk1g">
+    <sectionDescription>Describes the tasks and actors involved in rule execution.</sectionDescription>
+  </sections>
+  <sections xmi:id="__pNL4Ky_Ed2aLdlF48Bk1g" name="Develop Rule Retirement Process Map" guid="__pNL4Ky_Ed2aLdlF48Bk1g">
+    <sectionDescription>Describes the tasks and actors involved in rule retirement.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

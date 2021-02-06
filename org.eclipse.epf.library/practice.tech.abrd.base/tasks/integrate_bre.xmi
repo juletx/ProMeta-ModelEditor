@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-G84eS7wnll4Jn8DpfP2lSw" name="integrate_bre,_6-p2EH_BEd2YWI_0AZcMOA" guid="-G84eS7wnll4Jn8DpfP2lSw" authors="Jerome Boyer" changeDate="2008-09-25T01:42:29.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    The Rule Engine as an executable class, callable using proprietary API or the JSR94 API. Rule Engine can be an embedded
+    component or deployed within a pool as reusable components.
+&lt;/p>
+&lt;p>
+    When designing a SOA and the different decision services, the architect should focus and apply the same design pattern
+    as other business services. The rule engine technology choice is an implementation decision not a service design one.
+    The service design has to address:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        the service definition: one or more operations linked to the same data semantic
+    &lt;/li>
+    &lt;li>
+        the operation call approach: synchronous/ asynchronous, stateless/stateful, header based or carrying payload, use
+        of faults or not
+    &lt;/li>
+    &lt;li>
+        the exception reporting
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    The service implementation using a rule engine has to look at:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        the transaction propagation
+    &lt;/li>
+    &lt;li>
+        the reference data caching
+    &lt;/li>
+    &lt;li>
+        the parsing of input message: the claim data
+    &lt;/li>
+    &lt;li>
+        the loading of the related data: the policy related to the claim, or the insured person profile
+    &lt;/li>
+    &lt;li>
+        the preparation of the output message: the result and may be some other technical data
+    &lt;/li>
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

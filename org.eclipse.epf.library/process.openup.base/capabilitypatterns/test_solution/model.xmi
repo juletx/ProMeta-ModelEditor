@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__gZOs7ekEd-D7YZN9NgldQ" guid="__gZOs7ekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__gZOtLekEd-D7YZN9NgldQ" id="--GUCGSJomnx0WV9XKvVyXQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_de0_AVmQEeCcpdiAcH0w-w" id="-dGeCbV3mYf6d7tqFxsHq4A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_de0_AlmQEeCcpdiAcH0w-w" id="-S7RJDT8En1BwhtenbO3p8w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_de0_A1mQEeCcpdiAcH0w-w" id="-kjFCWWTMDhXbgfduK1uQCQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_buG4sNOFEdyqlogshP8l4g" name="test_solution" guid="_buG4sNOFEdyqlogshP8l4g">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Viv68NOLEdyqlogshP8l4g" name="implement_tests" guid="_Viv68NOLEdyqlogshP8l4g" presentationName="Implement Tests" briefDescription="Implement Test Scripts to validate a Build of the solution. Organize Test Scripts into suites, and collaborate to ensure appropriate depth and breadth of test feedback." superActivities="_buG4sdOFEdyqlogshP8l4g" mandatoryInput="_Vi5r8NOLEdyqlogshP8l4g" optionalInput="_Vi5r8dOLEdyqlogshP8l4g _Vi5r8tOLEdyqlogshP8l4g" output="_Vi5r8dOLEdyqlogshP8l4g">
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_0jnYcMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0kF5kMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0j5sUMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0jzlsMlgEdmt3adZL5Dmdw"/>
+      <Task href="uma://_Hz9OMG5KEdyAHIxjZ9kpqw#_0jO98MlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="uma://_NrbRUKeqEdmKDbQuyzCoqQ#_A56NkKRKEdyLP-jEVj8Kyw"/>
+      <selectedSteps href="uma://_NrbRUKeqEdmKDbQuyzCoqQ#_WucQ4KRKEdyLP-jEVj8Kyw"/>
+      <selectedSteps href="uma://_NrbRUKeqEdmKDbQuyzCoqQ#_VN5M0KuSEdmhFZtkg1nakg"/>
+      <selectedSteps href="uma://_NrbRUKeqEdmKDbQuyzCoqQ#_WvBoYKuSEdmhFZtkg1nakg"/>
+      <selectedSteps href="uma://_NrbRUKeqEdmKDbQuyzCoqQ#_2IA70KRKEdyLP-jEVj8Kyw"/>
+      <selectedSteps href="uma://_NrbRUKeqEdmKDbQuyzCoqQ#_X0dmcKuSEdmhFZtkg1nakg"/>
+      <selectedSteps href="uma://_NrbRUKeqEdmKDbQuyzCoqQ#_ABwoIKRLEdyLP-jEVj8Kyw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Vi5r8NOLEdyqlogshP8l4g" name="test_case" guid="_Vi5r8NOLEdyqlogshP8l4g" presentationName="Test Case" briefDescription="This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario." isPlanned="false" superActivities="_buG4sdOFEdyqlogshP8l4g">
+      <presentation xmi:id="-dGeCbV3mYf6d7tqFxsHq4A" href="uma://--GUCGSJomnx0WV9XKvVyXQ#-dGeCbV3mYf6d7tqFxsHq4A"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_0Zxf8MlgEdmt3adZL5Dmdw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_0aJ6cMlgEdmt3adZL5Dmdw"/>
+      <templates href="uma://_OOB2AAouEdyhlpBPrduOMw#_yWaKEI5fEdyO5aWob1UGDA"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZS-0MlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Vi5r8dOLEdyqlogshP8l4g" name="test_script" guid="_Vi5r8dOLEdyqlogshP8l4g" presentationName="Test Script" briefDescription="This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable&#xD;&#xA;automated testing." isPlanned="false" superActivities="_buG4sdOFEdyqlogshP8l4g">
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_KZQJMBhBEduxCP6DVVLxsA"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_0Z9tMMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0aDz0MlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0j5sUMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0kF5kMlgEdmt3adZL5Dmdw"/>
+      <templates href="uma://_OOB2AAouEdyhlpBPrduOMw#_yZtgQI5gEdyO5aWob1UGDA"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZfMEMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Vi5r8tOLEdyqlogshP8l4g" name="technical_implementation_slot" guid="_Vi5r8tOLEdyqlogshP8l4g" presentationName="[Technical Implementation]" briefDescription="This slot holds the artifacts that represent a technical implementation.  This can include source code, executable code, data, and software/hardware configurations." isPlanned="false" superActivities="_buG4sdOFEdyqlogshP8l4g">
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_WttSMNOLEdyqlogshP8l4g" name="run_tests" guid="_WttSMNOLEdyqlogshP8l4g" presentationName="Run Tests" briefDescription="Run the appropriate tests scripts, analyze results, articulate issues, and communicate test results to the team." superActivities="_buG4sdOFEdyqlogshP8l4g" mandatoryInput="_Vi5r8dOLEdyqlogshP8l4g _Vi5r8tOLEdyqlogshP8l4g" output="_WttSMdOLEdyqlogshP8l4g">
+      <presentation xmi:id="-S7RJDT8En1BwhtenbO3p8w" href="uma://--GUCGSJomnx0WV9XKvVyXQ#-S7RJDT8En1BwhtenbO3p8w"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0kF5kMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0j5sUMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0aDz0MlgEdmt3adZL5Dmdw"/>
+      <Task href="uma://_Hz9OMG5KEdyAHIxjZ9kpqw#_0jVEkMlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="uma://_NrbRUqeqEdmKDbQuyzCoqQ#_xVhnwKRLEdyLP-jEVj8Kyw"/>
+      <selectedSteps href="uma://_NrbRUqeqEdmKDbQuyzCoqQ#_1L1yAKRLEdyLP-jEVj8Kyw"/>
+      <selectedSteps href="uma://_NrbRUqeqEdmKDbQuyzCoqQ#_gV408KuSEdmhFZtkg1nakg"/>
+      <selectedSteps href="uma://_NrbRUqeqEdmKDbQuyzCoqQ#_sQaC4DO2EduqsLmIADMQ9g"/>
+      <selectedSteps href="uma://_NrbRUqeqEdmKDbQuyzCoqQ#_3t6oADO2EduqsLmIADMQ9g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_WttSMdOLEdyqlogshP8l4g" name="test_log" guid="_WttSMdOLEdyqlogshP8l4g" presentationName="Test Log" briefDescription="This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run." isPlanned="false" superActivities="_buG4sdOFEdyqlogshP8l4g">
+      <presentation xmi:id="-kjFCWWTMDhXbgfduK1uQCQ" href="uma://--GUCGSJomnx0WV9XKvVyXQ#-kjFCWWTMDhXbgfduK1uQCQ"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZlSsMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_buG4sdOFEdyqlogshP8l4g" name="test_solution" guid="_buG4sdOFEdyqlogshP8l4g" presentationName="Test Solution" briefDescription="From a system perspective, test and evaluate the developed requirements." breakdownElements="_Viv68NOLEdyqlogshP8l4g _Vi5r8NOLEdyqlogshP8l4g _Vi5r8dOLEdyqlogshP8l4g _Vi5r8tOLEdyqlogshP8l4g _WttSMNOLEdyqlogshP8l4g _WttSMdOLEdyqlogshP8l4g">
+      <presentation xmi:id="--GUCGSJomnx0WV9XKvVyXQ" href="uma://--GUCGSJomnx0WV9XKvVyXQ#--GUCGSJomnx0WV9XKvVyXQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

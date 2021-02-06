@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-iVXniR1KNrwul19oCHSvMQ" name="new_example,_nwykAIHQEd6NhZnUM27HMQ" guid="-iVXniR1KNrwul19oCHSvMQ" changeDate="2009-08-05T08:02:14.000-0700" version="7.5.0">
+  <mainDescription>&lt;h3>&#xD;
+    Step-­by-­step outline&#xD;
+&lt;/h3>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Insert card&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Enter PIN&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Select transfer&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Select amount&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Select from account&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Select to account&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Send transaction&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Receive confirmation&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Print receipt&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Eject card&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;h3>&#xD;
+    List of Alternative flows&#xD;
+&lt;/h3>&#xD;
+&lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>&#xD;
+    A1 Wrong PIN&lt;br />&#xD;
+    A2 No money&lt;br />&#xD;
+    A3 From account does not exists&lt;br />&#xD;
+    A4 To account does not exists&lt;br />&#xD;
+    A5 No confirmation&lt;br />&#xD;
+    A6 Card stuck&lt;br />&#xD;
+    A7 Out of paper&lt;br />&#xD;
+    A8 Card stuck&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

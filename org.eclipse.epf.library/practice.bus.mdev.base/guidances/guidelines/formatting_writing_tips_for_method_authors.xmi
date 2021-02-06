@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-WIvQb25HXQnl098vIqLaOg" name="new_guideline,_ghjHwDusEd-0GPJdQkFa_A" guid="-WIvQb25HXQnl098vIqLaOg" changeDate="2010-11-22T10:54:41.487-0800" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    This information is applicable to developing any content provided in the detailed (HTML) fields of method elements.&#xD;
+    Content developers that follow these guidelines will produce information that is easier and faster for both reviewers&#xD;
+    and readers to understand, as well as faster to process for publication.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are two attached documents to this guideline, one provides the general guidelines and the other provides a list&#xD;
+    of common terms and their recommended spelling and punctuation:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a href=&quot;resources/format_writ_tips.pdf&quot; target=&quot;_blank&quot;>Formatting and Writing Tips&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a href=&quot;resources/capitalization_and_punctuation.pdf&quot; target=&quot;_blank&quot;>Capitalization and Punctuation&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

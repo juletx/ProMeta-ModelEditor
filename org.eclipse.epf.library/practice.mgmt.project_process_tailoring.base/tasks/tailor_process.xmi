@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-QSekP8qxW4BdpikByUiCUg" name="tailor_process,_NOBsuCZLEd-QuZFPf_YdqQ" guid="-QSekP8qxW4BdpikByUiCUg" changeDate="2010-03-10T00:56:14.000-0800" version="7.5.0">
+  <sections xmi:id="_NOBsuSZLEd-QuZFPf_YdqQ" name="Define the scope of the tailoring effort" guid="_NOBsuSZLEd-QuZFPf_YdqQ">
+    <sectionDescription>&lt;p>&#xD;
+    Determine what processes and tools are mandated by the organization. Determine which process areas to document or&#xD;
+    tailor. You may choose to divide this task into separate tasks for each process area. See guidelines for typical&#xD;
+    process areas.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_o6-UwCZLEd-QuZFPf_YdqQ" name="Involve appropriate stakeholders" guid="_o6-UwCZLEd-QuZFPf_YdqQ">
+    <sectionDescription>Depending on the process areas you intend to tailor, you will want to involve the affected team members. For example,&#xD;
+changes to coding guidelines should involve coders, changes to governance guidelines should involve stakeholders that&#xD;
+govern the project, project acceptance procedures should involve the customer, etc.</sectionDescription>
+  </sections>
+  <sections xmi:id="_vXIf4CZLEd-QuZFPf_YdqQ" name="Decide how the process will be documented" guid="_vXIf4CZLEd-QuZFPf_YdqQ">
+    <sectionDescription>You can use Rational Method Composer configurations, process documents such as a Development Case, RACI tables, and so&#xD;
+on.&lt;br />&#xD;
+See guidelines on documenting the project process.</sectionDescription>
+  </sections>
+  <sections xmi:id="_2WBkoCZLEd-QuZFPf_YdqQ" name="Develop project-specific content" guid="_2WBkoCZLEd-QuZFPf_YdqQ">
+    <sectionDescription>Identify reusable processes/process assets including applicable practices, guidelines, and examples.</sectionDescription>
+  </sections>
+  <sections xmi:id="_LMrkQCZpEd-XKYR2S73PfQ" name="Decide which tools will be used to create and maintain work products" guid="_LMrkQCZpEd-XKYR2S73PfQ"/>
+  <sections xmi:id="_VXSXECZpEd-XKYR2S73PfQ" name="Review and approve the process" guid="_VXSXECZpEd-XKYR2S73PfQ"/>
+  <purpose>The purpose of this task is to ensure that the project team has a defined process that meets&amp;nbsp;their needs.</purpose>
+  <alternatives>&lt;p>
+    &amp;nbsp;
+&lt;/p></alternatives>
+</org.eclipse.epf.uma:TaskDescription>

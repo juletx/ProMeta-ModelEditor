@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-0sCBiohjw_wBDKk0WEeDJQ" name="new_term_definition,_feKVQLULEdqI644ssJaKYg" guid="-0sCBiohjw_wBDKk0WEeDJQ" authors="Chris Sibbald" changeDate="2006-12-22T06:19:44.000-0800" changeDescription="Added term definition for &quot;requirement&quot;." version="0.2">
+  <mainDescription>&lt;ol>&#xD;
+    &lt;li>&#xD;
+        A capability needed by the user to solve a problem [in order to] to achieve an objective&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A capability that must be met or possessed by a system or system component to satisfy a contract, standard,&#xD;
+        specification, or other formally imposed documentation &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+        href=&quot;./../../../core.tech.common.base/guidances/supportingmaterials/references.tech_6CCF393.html&quot;&#xD;
+        guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;>[THA00]&lt;/a>&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

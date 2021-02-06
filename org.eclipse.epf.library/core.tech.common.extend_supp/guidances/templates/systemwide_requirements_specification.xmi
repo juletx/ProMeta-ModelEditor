@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-13wK-dfNa9N1G8Ob27m-Og" name="new_template,_m7p-AI5fEdyO5aWob1UGDA" guid="-13wK-dfNa9N1G8Ob27m-Og" changeDate="2008-02-11T03:48:39.000-0800" version="7.2.0">
+  <mainDescription>This template provides a starting point for capturing system-wide requirements in a consistent manner and to provide a&#xD;
+useful checklist when determining the types of requirements that may apply. It is not expected that one would complete&#xD;
+every section of this template in all circumstances. Tailor as you see fit for your particular circumstances.</mainDescription>
+  <attachments>resources/systemwide_req_spec.dot</attachments>
+</org.eclipse.epf.uma:GuidanceDescription>

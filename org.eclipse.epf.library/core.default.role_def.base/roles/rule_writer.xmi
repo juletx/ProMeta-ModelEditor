@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-E4OgmOwmF5GP2780rq8BoQ" name=",_u9BRADMwEdubIsnqJvPspQ" guid="-E4OgmOwmF5GP2780rq8BoQ" authors="Jerome Boyer" changeDate="2008-09-03T03:18:43.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_writer&quot; name=&quot;XE_rule_writer&quot;>&lt;/a>&lt;a id=&quot;1036295&quot; name=&quot;1036295&quot;>In a business environment, business&#xD;
+policies are ultimately implemented as part of critical business applications as executable rules. Rule&#xD;
+Writers are experts in business logic and manage executable business rules within an organization. Rule Writers&#xD;
+are responsible for writing and/or enforcing the business policies of a given enterprise.&lt;/a> &lt;a id=&quot;1036296&quot;&#xD;
+name=&quot;1036296&quot;>&lt;/a> &#xD;
+&lt;p class=&quot;Body&quot;>&#xD;
+    In a BRMS rule writers participate in the initial process of extracting business rules from existing policy (documents,&#xD;
+    databases, code, SME, etc.). This process, referred to as rule harvesting, is carried out with the business analyst&#xD;
+    whose aim is to determine the vocabulary elements that are necessary to be able to write the rules that implement the&#xD;
+    policy.&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;Body&quot;>&#xD;
+    During the rule set development life cycle the Rule Writer will use different authoring environments: he uses&#xD;
+    an Integrated Development Environment like Eclipse IDE to develop the structure of the rules set, the&#xD;
+    executable flow of rules, the technical rules, and he can test the execution of the rules in this environment.&#xD;
+    Once the rule set is mature enough Rule Writer will use a web based BRMS platform. The advantage of the web based for&#xD;
+    rule authoring is the ubiquitous access, and the use of wizards to guide the management of the rules and the rule&#xD;
+    sets.&#xD;
+&lt;/p></mainDescription>
+  <skills>&lt;p>&#xD;
+    Rule Based programming&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Object Oriented Analysis&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Business knowledge&#xD;
+&lt;/p></skills>
+  <synonyms>Policy Manager</synonyms>
+</org.eclipse.epf.uma:RoleDescription>

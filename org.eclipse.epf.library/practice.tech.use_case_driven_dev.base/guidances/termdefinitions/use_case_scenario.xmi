@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-t3jNM5ZWkYtzB8A4Chz2Vw" name=",_oXmYMEvGEdunZcj9T5hrMQ" guid="-t3jNM5ZWkYtzB8A4Chz2Vw" version="7.2.0">
+  <mainDescription>Represents specific instances of the use case that correspond to specific inputs from the Actor or to specific conditions&#xD;
+in the environment. Each scenario describes alternate ways that the system provides a behavior, or it may describe failure&#xD;
+or exception cases</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:PracticeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-fGepq7Yt-PmW_jH9cOMsHg" name="method_development,_lFYasFImEd-S-5uzDh9e9Q" guid="-fGepq7Yt-PmW_jH9cOMsHg" changeDate="2010-08-03T09:35:22.000-0700" version="7.5.0">
+  <additionalInfo>For more information on practices,&amp;nbsp;see the &lt;a href=&quot;http://www.ibm.com/developerworks/rational/practices/&quot;&#xD;
+target=&quot;_blank&quot;>practices resource page&amp;nbsp;on IBM&amp;reg; DeveloperWorks&amp;reg;&lt;/a>.</additionalInfo>
+  <problem>Authoring a method is all about taking the time to capture what you do and how you do it so that the same process can be&#xD;
+performed in a consistent way by everyone involved. This practice provides&amp;nbsp;an architecture-centric, quality-oriented&#xD;
+and practice-based&amp;nbsp;approach to method authoring. It provides guidelines for authoring methods that are intended to&#xD;
+exist within the Rational Method Composer practice library.</problem>
+  <application>&lt;p>&#xD;
+    The best way to read this practice is to first familiarize yourself with its overall structure - what is in it and how&#xD;
+    it is organized.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The best place to start is with the &lt;strong>Key Concepts&lt;/strong> for the practice - those concepts that are critical&#xD;
+    to understand in order to adopt the practice.&amp;nbsp;Once you understand the key concepts, you can turn your attention to&#xD;
+    the &lt;strong>Work&amp;nbsp;Products&lt;/strong>&amp;nbsp;produced by the practice.&amp;nbsp;&amp;nbsp;Then you can&amp;nbsp;review&#xD;
+    the&amp;nbsp;practices &lt;strong>Tasks&lt;/strong>.&amp;nbsp;From the work products and the tasks, you can access applicable&#xD;
+    guidance - guidelines and tool mentors associated with each task provide details of how to perform the&#xD;
+    task.&amp;nbsp;Templates and checklists associated with the work products guide you in their completion and evaluation. You&#xD;
+    can also access the guidance provided by the practice directly by using the &lt;strong>Guidance&lt;/strong>&amp;nbsp;folder.&#xD;
+&lt;/p></application>
+  <levelsOfAdoption>See &lt;a class=&quot;elementLink&quot; href=&quot;./../../../practice.bus.mdev.base/guidances/roadmaps/how_to_adopt_mdev_8538895A.html&quot;&#xD;
+guid=&quot;_sh3v4iMmEd-VobohmWswkw&quot;>How To Adopt This Practice&lt;/a>.</levelsOfAdoption>
+</org.eclipse.epf.uma:PracticeDescription>

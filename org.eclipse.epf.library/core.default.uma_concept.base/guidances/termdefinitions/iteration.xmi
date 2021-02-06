@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-FxDDt6uNV4K2c04hoFKBpQ" name="new_term_definition,_5vWoEKNcEdyMFYhoCpD11Q" guid="-FxDDt6uNV4K2c04hoFKBpQ" changeDate="2008-05-08T00:41:45.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    A grouping of repeatable activities based on a set period of time&amp;nbsp;that produces an expected set of results that&#xD;
+    has value.&amp;nbsp; These results may be further refined in successive iterations.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

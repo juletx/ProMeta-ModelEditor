@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-cGfGHqSFsvSqPwBKeoShxA" name="new_discipline_grouping,_UBqBMMn_EdyuBO4ZIzcyig" guid="-cGfGHqSFsvSqPwBKeoShxA" version="7.2.0">
+  <mainDescription>&lt;p>
+    A &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.default.uma_concept.base/guidances/termdefinitions/discipline_7667F451.html&quot; guid=&quot;_yGUuidnmEdmO6L4XMImrsA&quot;>discipline&lt;/a> is a collection of &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.default.uma_concept.base/guidances/termdefinitions/task_6C1FF051.html&quot; guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;>tasks&lt;/a> that are related to a major &quot;area of concern&quot; within the overall project.
+    Grouping tasks into disciplines is mainly an aid to understanding the project from a traditional waterfall perspective.
+    Although it is more common to perform tasks concurrently across several disciplines (for example, certain requirements
+    tasks are performed in close coordination with analysis and design tasks), separating these tasks into distinct
+    disciplines is simply an effective way to organize content, which makes comprehension easier.
+&lt;/p>
+&lt;p>
+    Another reason that several tasks are all categorized by the same discipline is that they represent a part in achieving
+    a higher goal, or performing work tasks that are all related to each other. Every discipline defines standard ways of
+    doing the work it categorizes. Such standard ways are expressed by so-called &lt;b>reference workflows&lt;/b> described with
+    &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.default.uma_concept.base/guidances/termdefinitions/capability_pattern_F5DDC5F.html&quot; guid=&quot;_2RUJACO4EdqaNq6Ptg8uyA&quot;>capability pattern&lt;/a>s, which define how the tasks categorized by the discipline work
+    together (in the most generic way). These reference workflows are often used for educating and teaching practitioners.
+&lt;/p>
+&lt;p>
+    Like other workflows, a discipline's reference workflow is a semi-ordered sequence of activities, presented as either a
+    breakdown structure or an activity diagram performed to achieve a particular result. The &quot;semi-ordered&quot; nature of
+    discipline workflows emphasizes that the discipline workflows cannot present the real nuances of scheduling real work,
+    for they cannot depict the optionality of activities, or the iterative nature of real projects. Yet they still have
+    value as a way for us to understand the process, by breaking it into smaller areas of concern.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

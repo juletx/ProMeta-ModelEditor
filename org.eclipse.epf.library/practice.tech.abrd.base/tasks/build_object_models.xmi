@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-1HWHN5iFc1KJiC7WdlvipA" name="build_object_models,_ZffcIDmiEdy8N6BRpa8ByQ" guid="-1HWHN5iFc1KJiC7WdlvipA" authors="Jerome Boyer" changeDate="2010-08-15T08:52:34.000-0700" version="1.0.0">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>Depending of the technology used there is different approach to this task. The
+    domain object model at the enterprise level will represent a complex data model a rule architect does not want to
+    expose as-is to the rule engine and the rule authoring environment. Navigating a complex graph of objects will bring
+    unnecessary complexity for the rule writer. So we recommend to always try to use a view of the enterprise domain object
+    model. For example in Financial Industry the business domain&amp;nbsp;data model defined in MISMO (&lt;a
+    href=&quot;http://www.mismo.org/&quot;>&lt;font color=&quot;#005DA0&quot;>www.mismo.org&lt;/font>&lt;/a>), brings a lot of value for an enterprise
+    willing to define a common ontology for their data models. But exposing the MISMO model as it is within a BRMS rule
+    authoring IDE will put too much complexity. As the Architect is responsible to design decision service reusable cross
+    application, it may make sense to consider view of this object model in the context of the service.&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>For the application the view can be defined in two entities:&lt;/span>
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0in&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; mso-list: l0 level1 lfo1; tab-stops: list .5in&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>the Domain Object Model using java or xml schema as the underling
+        technology&lt;/span>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; mso-list: l0 level1 lfo1; tab-stops: list .5in&quot;>
+        &lt;span style=&quot;mso-bidi-language: HE&quot;>or out of the box object view, like ILOG-Business Object Model element. The BOM
+        is mandatory to write rule on, but it&amp;nbsp;can be created from an existing java model or XSD or created
+        top-down.&lt;/span>
+    &lt;/li>
+&lt;/ul>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>If the model does not exist in the application, or at the enterprise level we still
+    recommend to develop the domain model, using an UML designer and code generation tools.&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    &lt;span style=&quot;mso-bidi-font-weight: bold; mso-bidi-font-style: italic&quot;>It is also important to consider designing a java
+    model or XSD schema which is closed to the business concepts used by the rule but built as a view of the domain object
+    model (We called that the Rule Business Object Pattern or RBO): in the example of standard object model like MISMO or
+    ACORD, it makes sense to do not expose all the class definition, attributes and enumerated to avoid exposing a complex
+    rule language to the business user. This view will be instantiated by the application business logic in the context of
+    preparing the data for the rule services&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    When designing a Domain Object model one of the challenges is to determine what should be an entity and what should be
+    an attribute of the entity.&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> This is why knowledge engineers like the
+    Enterprise Ontology as a start point for developing these concepts.&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> The
+    Enterprise Ontology describes the major entities and concepts that apply to all enterprises and it provides a very good
+    starting point for the establishment of static object models and data models.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    The difference between a class and an entity type is that classes have both data and behaviors whereas entity types
+    just have data. A normal entity depicts one concept.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    Use multiple different UML class diagram to represent entities and their relations. Then enhance them to have a
+    complete class diagram from which you should be able to generate java code or XSD.
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    Capture Meta data about each entity: business name, business definition, super type or subtype, number of occurrences,
+    primary key, and alternate keys.
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>It is possible to consider designing a Domain Model using Interface, and then apply
+    different type of implementation according to different execution pattern or platforms. For example we can design
+    a;&lt;/span>
+&lt;/p>
+&lt;ul style=&quot;MARGIN-TOP: 0in&quot; type=&quot;disc&quot;>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; mso-list: l1 level1 lfo2; tab-stops: list .5in&quot;>
+        &lt;a id=&quot;1030902&quot; name=&quot;1030902&quot;>&lt;span style=&quot;mso-bidi-language: HE&quot;>Staged deployment with different execution
+        classes&lt;/span>&lt;/a>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; mso-list: l1 level1 lfo2; tab-stops: list .5in&quot;>
+        &lt;a id=&quot;1030906&quot; name=&quot;1030906&quot;>&lt;span style=&quot;mso-bidi-language: HE&quot;>Dynamic model (XML based or dynamic classes)
+        versus static model&lt;/span>&lt;/a>
+    &lt;/li>
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in; mso-list: l1 level1 lfo2; tab-stops: list .5in&quot;>
+        &lt;a id=&quot;1030907&quot; name=&quot;1030907&quot;>&lt;span style=&quot;mso-bidi-language: HE&quot;>Production/test models (active objects versus
+        mock objects)&lt;/span>&lt;/a>
+    &lt;/li>
+&lt;/ul>&lt;a id=&quot;XE_object_model__build&quot; name=&quot;XE_object_model__build&quot;>&lt;/a></mainDescription>
+  <purpose>This&amp;nbsp;task focuses on the creation of the domain object model used by the rule engine.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-h3v2kueoq4jxIVjo665E5A" name="new_guideline,_1ZyHAHrZEd2l9d4UccBrvQ" guid="-h3v2kueoq4jxIVjo665E5A" authors="Jerome Boyer" changeDate="2010-09-02T00:36:22.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>
+    SBVR is a standard of the Object Management Group intended to formalize complex business rules, and business
+    vocabularies. SBVR is part of the OMG's Model Driven Architecture (MDA). The goal of SBVR&amp;nbsp;is to&amp;nbsp;capture
+    specifications in natural language and represent them in formal logic so they can be machine-processed.
+&lt;/p>
+&lt;p>
+    &lt;a href=&quot;http://www.omg.org/spec/SBVR/1.0/&quot; target=&quot;_blank&quot;>SBVR&lt;/a>&amp;nbsp;includes two specialized vocabularies:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;p>
+            Vocabulary for Describing &lt;em>Business Vocabularies&lt;/em> which deals with all kinds of terms and meanings.
+        &lt;/p>
+    &lt;/li>
+    &lt;li>
+        &lt;p>
+            Vocabulary for Describing &lt;em>Business Rules&lt;/em> which deals with the specification of the meaning of business
+            rules, and builds on top of the previous vocabulary.
+        &lt;/p>
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    The meanings are declined into concept, question&amp;nbsp;and proposition. The meaning is what someone intends to express
+    or understands. A phrase such as &quot;&lt;em>We deny the invoice if the medical treatment was done after one year of the
+    accident&quot;&lt;/em> has a&amp;nbsp;clear meaning for a claim processor within a car insurance company. As analyst we need to
+    transform logically this meaning into concepts which has a unique interpretation so that we can represent the business
+    knowledge within a comprehensive vocabulary.
+&lt;/p>
+&lt;p>
+    Concept includes a unique combination of characteristics or properties.
+&lt;/p>
+&lt;p>
+    Business rules are declined into two possible classes:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        structural &amp;nbsp;(definitional) business rule which are&amp;nbsp;about how the business chooses to organize the things
+        it deals with, they are considered as necessity. In this context the statements describing the rule can describe
+        the necessity, the impossibility or the restricted possibility.
+    &lt;/li>
+    &lt;li>
+        operative (behavior)&amp;nbsp;business rule govern the conduct of business activity. They&amp;nbsp;are considered as
+        obligation and directly enforceable. When considering operative business rule it is important to look at the level
+        of enforcement to specify the severity of action imposed by the rule in order to put or keep it in force.
+        Statements to describe the rule include obligation, prohibition, and restricted permission.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    In SBVR, rules are always constructed by applying necessity or obligation to fact types . Fact type is an association
+    between two or more concepts.
+&lt;/p>
+&lt;p>
+    Using SBVR the team can document the semantic of the business entities, facts and business rules. The persistence
+    mechanism uses XMI to facilitate interchange between group and tools. SBVR allows multi-lingual development, since it
+    is based on separation between symbols and their meaning. SBVR proposes Structured English as one of possibly many
+    notations that can map to the SBVR Meta-model.&lt;br />
+&lt;/p>
+&lt;p>
+    SBVR is a good fit&amp;nbsp;for describing business domains and requirements for business processes and&amp;nbsp;business rule
+    applications.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

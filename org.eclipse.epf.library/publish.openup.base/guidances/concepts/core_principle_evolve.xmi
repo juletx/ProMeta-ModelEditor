@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-aMD1wQVJLzzlMARfHBdOBQ" name="core_principle_evolve,_GXiogMvoEdqukPpotm3DYg" guid="-aMD1wQVJLzzlMARfHBdOBQ" changeDate="2008-03-10T04:20:37.000-0700" changeDescription="removed OpenUP from page name." version="0.02">
+  <mainDescription>&lt;h3>
+    Introduction
+&lt;/h3>
+&lt;p>
+    It is usually not possible to know all stakeholders' needs, be aware of all project risks, comprehend all project
+    technologies, or know how to work with your colleagues. Even if it were possible to know all of these things, they are
+    likely to change over the life of the project. Promote practices that allow the team to demonstrate incremental value,
+    and to get early and continuous feedback from stakeholders.
+&lt;/p>
+&lt;p>
+    The intention behind this principle is to continuously get feedback, and to improve both the product and the process of
+    the project team. When you provide structure and create a mindset for continuous feedback and improvement, changes are
+    accommodated more easily. In addition, feedback is captured early and often, and high-priority risks are confronted
+    early in the project. By constantly identifying and attacking risks, there is more confidence in project progress and
+    quality.
+&lt;/p>
+&lt;p>
+    Not only does the product evolve, but the team also finds better ways to work together and get involved with
+    stakeholders. The process followed by the team can be adjusted accordingly to leverage lessons learned and adjust
+    project pace and needs.
+&lt;/p>
+&lt;h3>
+    Practices
+&lt;/h3>
+&lt;h4>
+    Develop your project in iterations
+&lt;/h4>
+&lt;p>
+    Developing a system in a single, linear pass is difficult, because it makes it expensive to incorporate changes and new
+    knowledge. Worse, it can delay the discovery and mitigation of risks, because development efforts are scheduled later
+    in the lifecycle.
+&lt;/p>
+&lt;p>
+    Divide your project into a series of time-boxed &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/iteration_C20B1904.html&quot; guid=&quot;_lam4ADkBEduxovfWMDsntw&quot;>iterations&lt;/a>, and plan your project iteratively. This iterative strategy enables you
+    to incrementally deliver capabilities (such as an executable, usable subset of implemented and tested requirements)
+    that can be assessed by stakeholders at the end of each iteration. This provides rapid and timely feedback loops, so
+    that issues can be addressed and improvements made at a lower cost. Also, this is accomplished while you still have
+    sufficient budget and time left to do so, and you have not gone so far ahead that major rework is required.
+&lt;/p>
+&lt;p>
+    Iterative development enables teams to continuously improve software throughout the development &lt;a class=&quot;elementLinkwithusertext&quot; href=&quot;./../../../process.openup.base/deliveryprocesses/openup_lifecycle_EE511F3A.html&quot; guid=&quot;_SuWj4dOPEdyqlogshP8l4g&quot;>lifecycle&lt;/a>.
+&lt;/p>
+&lt;h4>
+    Focus iterations on meeting the next management milestone
+&lt;/h4>
+&lt;p>
+    A project can appear to make progress while risks and unresolved issues pile up. Focus on bringing closure to important
+    project issues (such as stakeholder concurrence regarding scope, and proving the proposed architecture).
+&lt;/p>
+&lt;p>
+    Divide the project into phases (such as &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/inception_phase_C4456871.html&quot; guid=&quot;_0hmKgBOMEduCNqgZdt_OaA&quot;>Inception&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html&quot; guid=&quot;_2plxwBOMEduCNqgZdt_OaA&quot;>Elaboration&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/construction_phase_873B6559.html&quot; guid=&quot;_48EKsBOMEduCNqgZdt_OaA&quot;>Construction&lt;/a> and &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/transition_phase_DD5986E5.html&quot; guid=&quot;__ca5UBOMEduCNqgZdt_OaA&quot;>Transition&lt;/a>), with each phase having a clearly visible management &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/phase_milestones_5678231E.html&quot; guid=&quot;_HNxbwMBJEdqSgKaj2SZBmg&quot;>milestone&lt;/a>. The focus of each iteration within a phase is on achieving that
+    milestone.
+&lt;/p>
+&lt;h4>
+    Manage risks
+&lt;/h4>
+&lt;p>
+    Deferring difficult and risky issues until later in a project significantly increases the risk of project failure. Such
+    procrastination may lead to investing in the wrong technologies, a bad design, or a set of requirements that may not
+    address stakeholder needs.
+&lt;/p>
+&lt;p>
+    Attack &lt;a href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot; guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>risks&lt;/a> early, or they will attack you. Continuously identify and prioritize risks,
+    and then devise strategies to mitigate them. Determine the focus of iterations based on risks. For example,
+    architecturally significant risks should be addressed early in the project, no later than the end of the Elaboration
+    phase, when the architecture has been proven and baselined.
+&lt;/p>
+&lt;p>
+    Fore more information, see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.mgmt.common.extend_supp/guidances/guidelines/managing_risks_B1256EB4.html&quot; guid=&quot;_VNxL4ACsEdu8m4dIntu6jA&quot;>Guideline: Managing Risks&lt;/a>.
+&lt;/p>
+&lt;h4>
+    Embrace and manage change
+&lt;/h4>
+&lt;p>
+    Change is inevitable, and while change presents opportunities to enhance stakeholder value, unconstrained change will
+    result in a bloated, deficient system and unmet stakeholder needs. Furthermore, the later in the development cycle a
+    change is made, the more the change is likely to cost.
+&lt;/p>
+&lt;p>
+    Embrace and manage change. Embracing change helps you to build a system that addresses stakeholder needs, and managing
+    change allows you to reduce costs and improve predictability of those changes. Changes made early in the project can
+    usually be made with limited cost. As you progress in your project, changes can become increasingly costly.
+&lt;/p>
+&lt;p>
+    To satisfy customer needs, you typically need to introduce changes to the project, but the customer must be made aware
+    of the impact that those changes have on the project cost and schedule. Understand the impact of a change in the
+    current phase, and isolate team members from disruptive changes during the current iteration. Change requests are
+    reviewed and prioritized during the current iteration, but are not acted upon until assigned to a future iteration.
+&lt;/p>
+&lt;p>
+    If necessary, document the changes. For informal projects, a discussion with stakeholders may be enough.
+&lt;/p>
+&lt;h4>
+    Measure progress objectively
+&lt;/h4>
+&lt;p>
+    If you do not objectively know how your project is progressing, you do not really know if it is failing or succeeding.
+    Uncertainty and change make a software project's progress difficult to measure objectively, and people are prone to
+    making objective assessments from subjective information.
+&lt;/p>
+&lt;p>
+    Get a clear picture of project status by objectively measuring progress. The best measure of progress is the delivery
+    of working software, which is something that you do by taking an evolutionary approach. You can also define a set of
+    objective &lt;a href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/metrics_37698708.html&quot; guid=&quot;_0mYYkMlgEdmt3adZL5Dmdw&quot;>metrics&lt;/a> to collect during an iteration (for example, requirements that were
+    implemented and validated, number of defects issued compared with number fixed) and review them as part of the &lt;a href=&quot;./../../../practice.mgmt.iterative_dev.base/tasks/assess_results_EC34D88D.html&quot; guid=&quot;_0l53cMlgEdmt3adZL5Dmdw&quot;>iteration assessment&lt;/a>.
+&lt;/p>
+&lt;h4>
+    Continuously re-evaluate what you do
+&lt;/h4>
+&lt;p>
+    On a regular basis, ask questions and verify assumptions about the project. Regularly meet with the team to track
+    status and identify risks and issues. This can be done daily when the team gathers to share the status of individual
+    responsibilities and identify and address issues. At the end of iterations, &lt;a href=&quot;./../../../practice.mgmt.iterative_dev.base/tasks/assess_results_EC34D88D.html&quot; guid=&quot;_0l53cMlgEdmt3adZL5Dmdw&quot;>assess the status&lt;/a> of what has been done and look for areas of improvement that can
+    be addressed in the next iteration. Have a retrospective review at the end of the project and capture lessons learned
+    to run future projects in a more efficient way.
+&lt;/p>
+&lt;p>
+    If we always challenge what we do and seek new, innovative ways to develop software, we improve how we work. This leads
+    to improved project results.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

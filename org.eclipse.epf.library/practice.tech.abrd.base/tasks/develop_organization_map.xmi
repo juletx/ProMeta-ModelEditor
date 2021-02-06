@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-AnRIdz0rPYyQVyzGVBxSqA" name=",_IFeJQKveEd2Pv_z50upsAg" guid="-AnRIdz0rPYyQVyzGVBxSqA" version="7.5.1">
+  <sections xmi:id="__8xccKvgEd2Pv_z50upsAg" name="Understand Enterprise's Organizational Model" guid="__8xccKvgEd2Pv_z50upsAg">
+    <sectionDescription>&lt;p>&#xD;
+    Understanding the enterprise's organizational structure is essential to identify the groups involved in the project&#xD;
+    (internal and external), understand their relationships, define the flow of information between these groups and define&#xD;
+    the necessary review steps in the flow with regarding to rule management.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_MJLScKviEd2Pv_z50upsAg" name="Define Rule Governance Actors" guid="_MJLScKviEd2Pv_z50upsAg">
+    <sectionDescription>Identify the actors of the rule governance processes, their role, their responsibility, and department/unit to which they&#xD;
+belong.</sectionDescription>
+  </sections>
+  <sections xmi:id="_U7ZWAKviEd2Pv_z50upsAg" name="Define Rule Management Team" guid="_U7ZWAKviEd2Pv_z50upsAg">
+    <sectionDescription>Set up a dedicated group to manage the rules at the enterprise level and to define and execute the governance processes.&#xD;
+This group can be named &quot;Rule Management Team&quot;.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-lYqLRNLjiEk9cAHTAnf8KQ" name="rule_analysis,_lT6WEBDJEdyJtJ3PbfdVDw" guid="-lYqLRNLjiEk9cAHTAnf8KQ" authors="Jerome Boyer" changeDate="2008-09-05T01:55:29.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_analysis&quot; name=&quot;XE_rule_analysis&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>&lt;span style=&quot;mso-bidi-language: HE&quot;>The goal of the rule analysis activity is to
+    understand the meaning of the rule as stated by the business person and Subject Matter Expert and to remove any
+    ambiguity and semantic issue in this description so that we can prepare for the future rule implementation. The rule
+    analyst and the rule writer analyze the rules discovered in a disjointed way into a complete and coherent
+    set.&lt;/span>&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>From the rule description, the glossary of business terms and may be from a first
+    version of the conceptual data model (CDM), the discovery team needs to transform the rules using terms of the business
+    object to elements that will be implemented by the rule writers.&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>The rule analysis includes at least the following activities:&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+    &lt;img height=&quot;284&quot; alt=&quot;&quot; src=&quot;resources/analysis_bp.jpg&quot; width=&quot;800&quot; />
+&lt;/p>
+&lt;div style=&quot;MARGIN-TOP: 0cm; MARGIN-LEFT: 2em&quot; type=&quot;disc&quot;>
+    &lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+            &lt;span style=&quot;mso-bidi-language: HE&quot;>Analyze the description of the rule to find business concept and things,
+            and facts&lt;/span>
+        &lt;/li>
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+            &lt;span style=&quot;mso-bidi-language: HE&quot;>Transform Rules&amp;nbsp;to remove ambiguity and to
+            make&amp;nbsp;them&amp;nbsp;atomic.The rule should use well-defined terms. Those terms will serve to develop the future
+            data models.&lt;/span>
+        &lt;/li>
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+            Build test scenario
+        &lt;/li>
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+            Design the data model for rules
+        &lt;/li>
+        &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+            &lt;span style=&quot;mso-bidi-language: HE&quot;>Synchronize with the data modeling team&lt;/span>
+        &lt;/li>
+    &lt;/ul>
+&lt;/div>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>A rule is atomic if it cannot be further decomposed without losing meaning.&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>Rule analysis does not deal with rule validation, this will be done later, nor it
+    does not deal with rule optimization. One of the most difficult activity of the rule analysis is to resolve
+    inconsistencies among rules and ensure completeness among rules. This will not be possible to complete a rule set in
+    one iteration, but the analysis activity should address the questions of completeness and prepare for the future
+    iteration.&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot; />
+&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>It is also very important to start using the rule development IDE as soon as
+    possible to understand how complex the rule and the object model are. This is when we implement rules that we are
+    seeing real analysis issues. Implemented rule also help to come back to the business users with concrete cases,
+    questions and issues.&lt;/span>
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

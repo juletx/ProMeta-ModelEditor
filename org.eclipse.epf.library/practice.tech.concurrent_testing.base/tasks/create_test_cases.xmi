@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_NrVKsKeqEdmKDbQuyzCoqQ" name="create_test_cases,_0iwc0clgEdmt3adZL5Dmdw" guid="_NrVKsKeqEdmKDbQuyzCoqQ" changeDate="2007-02-07T03:38:57.000-0800" version="1.0.0">
+  <keyConsiderations>&lt;p>&#xD;
+    Develop test cases in parallel with requirements so that Analysts and stakeholders can agree with the specific&#xD;
+    conditions of satisfaction for each requirement. The test cases act as acceptance criteria by expanding on the intent&#xD;
+    of the system&amp;nbsp;through actual scenarios of use.&amp;nbsp;This allows team members to measure progress in terms of&#xD;
+    passing test cases.&amp;nbsp;&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_IJFSsKuSEdmhFZtkg1nakg" name="Review the requirements to be tested" guid="_IJFSsKuSEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p>&#xD;
+    Work with analysts and developers&amp;nbsp;to identify which scenarios and requirements&amp;nbsp;need new or additional test&#xD;
+    cases. Review the Plans&amp;nbsp;to ensure you understand the scope of development for the current iteration.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_aDe_ILGcEdubqf8m_Zrvvg" name="Identify relevant Test Cases" guid="_aDe_ILGcEdubqf8m_Zrvvg">
+    <sectionDescription>&lt;p>&#xD;
+    Identify paths through the scenario as unique test conditions.&amp;nbsp; Consider alternative or exception paths from both&#xD;
+    a positive and negative perspective.&amp;nbsp;&amp;nbsp;Review the test ideas list for patterns of test cases that apply to the&#xD;
+    scenario.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Discuss the requirement with&amp;nbsp;stakeholders to identify other conditions of satisfaction for the requirement.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    List the test cases with a unique name that identifies the condition they evaluate or their expected result.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_LpbM8KuSEdmhFZtkg1nakg" name="Outline the Test Cases" guid="_LpbM8KuSEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p>&#xD;
+    For each test case, write a brief description with an expected result.&amp;nbsp; Ensure that a casual reader can clearly&#xD;
+    understand the difference between test cases.&amp;nbsp; Note the logical pre-conditions and post-conditions that apply to&#xD;
+    each test case. Optionally, outline steps for the test case.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Verify that test cases meet the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/checklists/test_case_9D3F2E96.html&quot;&#xD;
+    guid=&quot;_0Zxf8MlgEdmt3adZL5Dmdw&quot;>Checklist: Test Case&lt;/a>&amp;nbsp;guidelines.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_NK18YKuSEdmhFZtkg1nakg" name="Identify test data needs" guid="_NK18YKuSEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p>&#xD;
+    Review each test case and note where data input or output might be required. Identify the type, quantity, and&#xD;
+    uniqueness of the required data, and add these observations to the test case. Focus on articulating the data needed and&#xD;
+    not on creating specific data.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more information on test data selection, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/checklists/test_data_48E804D.html&quot;&#xD;
+    guid=&quot;_KZQJMBhBEduxCP6DVVLxsA&quot;>Checklist: Test Data&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Ok_mMKuSEdmhFZtkg1nakg" name="Share and evaluate the Test Cases" guid="_Ok_mMKuSEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p>&#xD;
+    Walk through the test cases with the analysts and developers&amp;nbsp;responsible for the related&#xD;
+    scenario.&amp;nbsp;&amp;nbsp;Ideally, the stakeholders will&amp;nbsp;also participate.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Ask the participants to agree that if &lt;em>these test cases pass&lt;/em>, they will consider these requirements&#xD;
+    implemented.&amp;nbsp; Elicit additional test ideas from Analysts and stakeholders to ensure you understand the expected&#xD;
+    behavior of the scenario.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    During the walkthrough, ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The requirements&amp;nbsp;planned for the current iteration have test cases.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the participants agree with the expected results of the test cases.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        There are no&amp;nbsp;&lt;em>other&lt;/em> conditions of satisfaction for the requirement being tested, which indicates&#xD;
+        either a missing test case or a missing requirement.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Optionally, capture new patterns of test cases&amp;nbsp;in&amp;nbsp;the test ideas list (see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/test_ideas_ED562B58.html&quot;&#xD;
+    guid=&quot;_0jnYcMlgEdmt3adZL5Dmdw&quot;>Concept: Test Ideas&lt;/a>).&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    To achieve a shared understanding of the specific conditions that the solution must meet.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-74H2uzfjpcz4etOw-5ttMg" name=",_caomID4AEdu_BLzNa8hemQ" guid="-74H2uzfjpcz4etOw-5ttMg" authors="Jerome Boyer" changeDate="2007-12-18T02:51:09.000-0800" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_ABRD__phase_5_diagram&quot; name=&quot;XE_ABRD__phase_5_diagram&quot;>&lt;/a> 
+&lt;p>
+    &lt;img height=&quot;188&quot; alt=&quot;&quot; src=&quot;resources/cycle5.jpg&quot; width=&quot;600&quot; />
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

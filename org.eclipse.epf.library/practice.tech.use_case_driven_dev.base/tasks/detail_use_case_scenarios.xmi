@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-oFAa8Uu6tr_GkE_E0iycdQ" name="detail_use_case_scenarios,_SL7N0LPdEduocbW-TPTq7A" guid="-oFAa8Uu6tr_GkE_E0iycdQ" changeDate="2007-12-18T02:40:22.000-0800" changeDescription="Review comments:||1. Step 2 was a copy of step 1.|2. Step 1 - excessive linking - remove 2nd paragraph|" version="7.1.0">
+  <keyConsiderations>&lt;p>&#xD;
+    To avoid unnecessary rework, only those use-case scenarios that are scheduled for implementation in the near term (in&#xD;
+    the next iteration or two)&amp;nbsp;must be detailed.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Not all use-case scenarios require detailing.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_fAWPkJLZEdyk6dG0ehkW5Q" name="Detail use cases and scenarios" guid="_fAWPkJLZEdyk6dG0ehkW5Q">
+    <sectionDescription>&lt;p>&#xD;
+    Some&amp;nbsp;use cases and scenarios&amp;nbsp;might need to be described in more detail to validate the understanding of the&#xD;
+    requirements and to permit software development to begin. This does not imply that all&amp;nbsp;use cases and scenarios&#xD;
+    will be detailed prior to commencing implementation on them. The level of detail captured will vary depending upon the&#xD;
+    needs of the project and the complexity of the use case.&amp;nbsp;Capture the use case and scenarios details in the use&#xD;
+    case specification.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_iEvYMJLaEdyk6dG0ehkW5Q" name="Detail glossary terms" guid="_iEvYMJLaEdyk6dG0ehkW5Q">
+    <sectionDescription>&lt;p>&#xD;
+    Review the flow of the use case or scenario. If information is exchanged, be specific about what is passed back and&#xD;
+    forth. Collaborate with stakeholders to ensure that you define newly discovered domain terms, or ambiguous terms&#xD;
+    properly in the&amp;nbsp;glossary. If your understanding of the domain has improved, refine existing glossary terms.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_kojt4JLcEdyk6dG0ehkW5Q" name="Achieve concurrence" guid="_kojt4JLcEdyk6dG0ehkW5Q">
+    <sectionDescription>&lt;p>&#xD;
+    Review the&amp;nbsp;detailed use case and scenarios with relevant stakeholders and the development team to ensure&#xD;
+    consistency with the agreed vision.&amp;nbsp;Assess quality and identify any required changes.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to describe&amp;nbsp;use-case scenarios in sufficient detail to validate understanding of the&#xD;
+requirements, to ensure concurrence with stakeholder expectations, and to permit software development to begin.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

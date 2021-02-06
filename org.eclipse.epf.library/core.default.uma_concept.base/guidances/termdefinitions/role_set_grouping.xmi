@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-0K7iy91rKIS0h8kZfVgBvg" name="new_term_definition,_D8F28KNfEdyMFYhoCpD11Q" guid="-0K7iy91rKIS0h8kZfVgBvg" version="7.2.0">
+  <mainDescription>A specialized category used to organize role sets.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-ecmNOjIecQbgATy-r7SjMQ" name="rule_discovery_roadmap,_oy7C0BthEdu_BZ3CL1I6hw" guid="-ecmNOjIecQbgATy-r7SjMQ" authors="Jerome Boyer" changeDate="2008-09-04T03:38:27.000-0700" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_discovery__roadmap&quot; name=&quot;XE_rule_discovery__roadmap&quot;>&lt;/a>For each decision point we can complete the
+information about the discovery roadmap and plan. The following table format can be used as template.&lt;br
+class=&quot;ISISGuidance&quot; style=&quot;MARGIN: 3pt 0cm 3pt 36pt&quot; /></mainDescription>
+  <purpose>Describes the roadmap&amp;nbsp;for the&amp;nbsp;discovery activities. A roadmap applies to each decision point to extract rules
+from.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

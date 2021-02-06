@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_MqODAMM1EdmSIPI87WLu3g" name="uc_model,_0U6OEMlgEdmt3adZL5Dmdw" guid="_MqODAMM1EdmSIPI87WLu3g" changeDate="2005-07-07T11:50:06.000-0700" version="1.0.0">
+  <sections xmi:id="_rLdVMAeREduWycDgioo5rg" name="It is easy to understand what the system does by reviewing the model" guid="_rLdVMAeREduWycDgioo5rg">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Does the use-case model provide a clear, concise overview of the purpose and functionality of the system?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are there no long chains of &lt;i>include&lt;/i> relationships, such as when an included use case&amp;nbsp;includes other use&#xD;
+        cases? These can obscure comprehension.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are&amp;nbsp;included use cases independent of the use cases that include them?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        If several use cases contain similar&amp;nbsp;subflows, have you investigated whether factoring this&amp;nbsp;common&#xD;
+        behavior into an included use case will simplify the model?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="__kgR8AeREduWycDgioo5rg" name="All use cases have been identified" guid="__kgR8AeREduWycDgioo5rg">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Do the use cases identified collectively account for all required behavior of the system?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Have all features identified in the vision document been addressed by at least one use case?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Have all nonfunctional requirements that must be satisfied by a specific use case been captured in that use case?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Have you verified that the use-case model contains no superfluous behavior (known as &quot;gold-plating&quot;)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is each concrete use case associated with at least one actor, as it should be?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is every actor associated with at least one use case?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_fknU0Jz1EduBcbjYtLtItQ" name="The model is consistent" guid="_fknU0Jz1EduBcbjYtLtItQ">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Is the system behavior consistent under the same conditions and with the same input?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_KowpkAeSEduWycDgioo5rg" name="All relationships between use cases are required" guid="_KowpkAeSEduWycDgioo5rg">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Does each included use case make the model easier to understand, implement, and maintain?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is each concrete use case (not an included use case) independent of other use cases?&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_jyHeMAeTEduWycDgioo5rg" name="Use-case packages are used appropriately" guid="_jyHeMAeTEduWycDgioo5rg">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Have cross-package dependencies been reduced or eliminated to prevent model ownership conflicts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is packaging intuitive?&amp;nbsp;Does the packaging make the model easier to understand and implement?&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_i-S-ADeKEdu6VLD0YaVLog" name="All model elements have appropriate names" guid="_i-S-ADeKEdu6VLD0YaVLog">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Have you verified that no two use cases have the same name?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does each actor have a name that effectively describes that person's role?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_IYRUkJz2EduBcbjYtLtItQ" name="Individual use cases are properly specified" guid="_IYRUkJz2EduBcbjYtLtItQ">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Have you reviewed the quality of each&amp;nbsp;use-case specification using the&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        href=&quot;./../../../core.tech.common.extend_supp/guidances/checklists/use_case_C5362874.html&quot;&#xD;
+        guid=&quot;_0kNwINk1Edq2Q8qZoWbvGA&quot;>Checklist: Use Case&lt;/a>?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-lviXbsQRcGsTcSjgLy1dvg" name="new_role,_z0iMcEIuEd2GCesTWQms8Q" guid="-lviXbsQRcGsTcSjgLy1dvg" changeDate="2008-06-24T01:49:00.000-0700" version="7.5.0">
+  <assignmentApproaches>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        href=&quot;./../../practice.mgmt.whole_team.base/guidances/guidelines/self_organize_work_assignments_F47FC314.html&quot;&#xD;
+        guid=&quot;_rmBEkJjsEduad8I_c-ogIA&quot;>Guideline: Self-Organize Work Assignments&lt;/a> to see how members of small agile&#xD;
+        teams can share in this role.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

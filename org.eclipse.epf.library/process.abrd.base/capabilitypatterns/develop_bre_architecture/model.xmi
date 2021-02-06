@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__Z1TsLekEd-D7YZN9NgldQ" guid="__Z1TsLekEd-D7YZN9NgldQ">
+    <resourceDescriptors xmi:id="__Z1TsbekEd-D7YZN9NgldQ" id="-LPRqcx3TAg7m-fqsDb-Qdg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_gyMiUVmSEeCcpdiAcH0w-w" id="-rA66uZaVDDOF8xewr623tg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_gyMiUlmSEeCcpdiAcH0w-w" id="-i6qDLS-QtvrGS7XrdQccRw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_gyMiU1mSEeCcpdiAcH0w-w" id="-GVzTM2PClW6NdAGW_5pHQQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_gyMiVFmSEeCcpdiAcH0w-w" id="-0hmrAC1ixwLo8vzDeoMSHw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_gyMiVVmSEeCcpdiAcH0w-w" id="-1NnOz_GLRSSA5tYw0IfOMg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_gyMiVlmSEeCcpdiAcH0w-w" id="-7RFal_ahu_4qnKS-p-tVQQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_gyVsQFmSEeCcpdiAcH0w-w" id="-Ma59gPLPnn5KbrkfjVsCuw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_gyVsQVmSEeCcpdiAcH0w-w" id="-lr_US7ML4CXgAan7X2HI3g" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_2_QBQH_BEd2YWI_0AZcMOA" name="develop_bre_architecture" guid="_2_QBQH_BEd2YWI_0AZcMOA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4s7EAH_BEd2YWI_0AZcMOA" name="develop_architecture" guid="_4s7EAH_BEd2YWI_0AZcMOA" presentationName="Develop Business Rule Application Architecture" briefDescription="The purpose of the architecture activities is to support the following major items:&#xD;&#xA;•&#x9;Integrate the Rule Engine into the business application&#xD;&#xA;•&#x9;Deploy Business Rules Management System into the business and IT organizations." superActivities="_2_QBQX_BEd2YWI_0AZcMOA" mandatoryInput="_fy3MQlmSEeCcpdiAcH0w-w _fy3MRVmSEeCcpdiAcH0w-w" output="_4tXv8H_BEd2YWI_0AZcMOA">
+      <presentation xmi:id="-rA66uZaVDDOF8xewr623tg" href="uma://-LPRqcx3TAg7m-fqsDb-Qdg#-rA66uZaVDDOF8xewr623tg"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_O1kAANvfEduv2KOT-Teh6w"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0gjdYMlgEdmt3adZL5Dmdw"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_nOQHsAp6EdyPCr4G1Tb79A"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_RMRccChaEd2bfOOTyXGWkw"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_yIEJ4Ap6EdyPCr4G1Tb79A"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_r5SRoChaEd2bfOOTyXGWkw"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_venZkChaEd2bfOOTyXGWkw"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_yFzeQChaEd2bfOOTyXGWkw"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_HDD68Im5Ed2cL6yqw-_-uA"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_04xVIChaEd2bfOOTyXGWkw"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_27c-kChaEd2bfOOTyXGWkw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4tXv8H_BEd2YWI_0AZcMOA" name="decision_service_architecture" guid="_4tXv8H_BEd2YWI_0AZcMOA" presentationName="Decision Service Architecture" briefDescription="A decision service is a piece of logic which uses a decision engine like a rule engine in order to infer actions on the input data." isPlanned="false" superActivities="_2_QBQX_BEd2YWI_0AZcMOA">
+      <presentation xmi:id="-i6qDLS-QtvrGS7XrdQccRw" href="uma://-LPRqcx3TAg7m-fqsDb-Qdg#-i6qDLS-QtvrGS7XrdQccRw"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_YRiuIItDEd2gksNyFVJN4g"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_eORS8GhhEd-FVuzXjnvIWA"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_6BE7QAp_EdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_5BMD0H_BEd2YWI_0AZcMOA" name="design_reference_data_integration" guid="_5BMD0H_BEd2YWI_0AZcMOA" presentationName="Design Integration to Reference Data" briefDescription="Reference data are everywhere in business application, from basic enumeration value like the US sates to business codes with business meaning (like medical code). Those references data should be managed in a central Data Base or repository. The Rule engine needs to access them at execution but also during the authoring phase." superActivities="_2_QBQX_BEd2YWI_0AZcMOA">
+      <presentation xmi:id="-GVzTM2PClW6NdAGW_5pHQQ" href="uma://-LPRqcx3TAg7m-fqsDb-Qdg#-GVzTM2PClW6NdAGW_5pHQQ"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_HMQasGDFEdyKlZvvtnMrMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_5QiHYH_BEd2YWI_0AZcMOA" name="design_models_for_bre" guid="_5QiHYH_BEd2YWI_0AZcMOA" presentationName="Design Business Object Models for Rule Engine Processing" briefDescription="Design the object model to be processed by the rule engine. " superActivities="_2_QBQX_BEd2YWI_0AZcMOA" mandatoryInput="_fy3MSFmSEeCcpdiAcH0w-w _fy3MQlmSEeCcpdiAcH0w-w" output="_fy3MS1mSEeCcpdiAcH0w-w">
+      <presentation xmi:id="-0hmrAC1ixwLo8vzDeoMSHw" href="uma://-LPRqcx3TAg7m-fqsDb-Qdg#-0hmrAC1ixwLo8vzDeoMSHw"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_lYC2IGDAEdyKlZvvtnMrMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_EAYVQH_CEd2YWI_0AZcMOA" name="integrate_bre" guid="_EAYVQH_CEd2YWI_0AZcMOA" presentationName="Integrate BRE within Service Layer" briefDescription="The integration of the rule engine can be done in different approaches depending of the type of application, and architecture." superActivities="_2_QBQX_BEd2YWI_0AZcMOA" isSynchronizedWithSource="false">
+      <presentation xmi:id="-1NnOz_GLRSSA5tYw0IfOMg" href="uma://-LPRqcx3TAg7m-fqsDb-Qdg#-1NnOz_GLRSSA5tYw0IfOMg"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_IuFgEIm-Ed2dvb7--2nAHw"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_YRiuIItDEd2gksNyFVJN4g"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_6-p2EH_BEd2YWI_0AZcMOA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fy3MQlmSEeCcpdiAcH0w-w" name="logical_data_model" guid="_fy3MQlmSEeCcpdiAcH0w-w" presentationName="Logical Data Model" briefDescription="Logical Data Model represents the organization business-domain concepts in a set of diagram and logical schema. The choice of representation will depend of the design approach and the target audience. It could be relational (Table - columns, association), object oriented  (class - attribute association) or XML (tags) defined." isPlanned="false" superActivities="_2_QBQX_BEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_fy3MQ1mSEeCcpdiAcH0w-w" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-7RFal_ahu_4qnKS-p-tVQQ" href="uma://-LPRqcx3TAg7m-fqsDb-Qdg#-7RFal_ahu_4qnKS-p-tVQQ"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW2AjqEdyj5bYZ0eCR5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fy3MRVmSEeCcpdiAcH0w-w" name="decision_point_table" guid="_fy3MRVmSEeCcpdiAcH0w-w" presentationName="Decision Point Table" isPlanned="false" superActivities="_2_QBQX_BEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_fy3MRlmSEeCcpdiAcH0w-w" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-Ma59gPLPnn5KbrkfjVsCuw" href="uma://-LPRqcx3TAg7m-fqsDb-Qdg#-Ma59gPLPnn5KbrkfjVsCuw"/>
+      <examples href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_kRoWgBDFEdyJtJ3PbfdVDw"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_SlELAAsbEdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fy3MSFmSEeCcpdiAcH0w-w" name="fact_model" guid="_fy3MSFmSEeCcpdiAcH0w-w" presentationName="Fact Model" isPlanned="false" superActivities="_2_QBQX_BEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_fy3MSVmSEeCcpdiAcH0w-w" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-lr_US7ML4CXgAan7X2HI3g" href="uma://-LPRqcx3TAg7m-fqsDb-Qdg#-lr_US7ML4CXgAan7X2HI3g"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_csL3wHrMEd2o_5d3MWaNxQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fy3MS1mSEeCcpdiAcH0w-w" name="executable_object_model" guid="_fy3MS1mSEeCcpdiAcH0w-w" presentationName="Executable Object Model" briefDescription="A Java, .Net or XML schema implementation of the logical data model" isPlanned="false" superActivities="_2_QBQX_BEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_fy3MTFmSEeCcpdiAcH0w-w" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_U003IIm4Ed2cL6yqw-_-uA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_2_QBQX_BEd2YWI_0AZcMOA" name="develop_bre_architecture" guid="_2_QBQX_BEd2YWI_0AZcMOA" presentationName="Develop BRMS Integration Architecture" breakdownElements="_4s7EAH_BEd2YWI_0AZcMOA _4tXv8H_BEd2YWI_0AZcMOA _5BMD0H_BEd2YWI_0AZcMOA _5QiHYH_BEd2YWI_0AZcMOA _EAYVQH_CEd2YWI_0AZcMOA _fy3MQlmSEeCcpdiAcH0w-w _fy3MRVmSEeCcpdiAcH0w-w _fy3MSFmSEeCcpdiAcH0w-w _fy3MS1mSEeCcpdiAcH0w-w">
+      <presentation xmi:id="-LPRqcx3TAg7m-fqsDb-Qdg" href="uma://-LPRqcx3TAg7m-fqsDb-Qdg#-LPRqcx3TAg7m-fqsDb-Qdg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

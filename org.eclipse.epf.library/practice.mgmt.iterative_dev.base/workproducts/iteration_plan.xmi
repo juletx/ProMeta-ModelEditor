@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_BcBR8KX5EdmvhNXG0Oc2uA" name="iteration_plan,_0aQBEslgEdmt3adZL5Dmdw" guid="_BcBR8KX5EdmvhNXG0Oc2uA" changeDate="2008-08-18T04:06:22.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    This artifact captures the key milestones of an iteration, showing start and end dates, intermediate milestones,&#xD;
+    synchronization points with other teams, demos, and so on. This artifact is also used to capture issues that need to be&#xD;
+    solved during the iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You should list a few objectives for the iteration, which will help guide you throughout the iteration. Also, assess at&#xD;
+    the end if those objectives have been achieved.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The task assignments for an iteration are a subset of all tasks on the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot;&#xD;
+    guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Artifact: Work Items List&lt;/a>. Therefore, the iteration plan ideally references those&#xD;
+    work items.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The evaluation criteria and iteration assessment information are captured in this artifact, so that you can communicate&#xD;
+    results and actions from assessments.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Work items assigned to an iteration do not necessarily have the same priority. When selecting work items from the Work&#xD;
+    Items List, the iteration plan may end up having work items with different priorities (for example, you assign the&#xD;
+    remaining high priority work items, plus a few mid-priority ones from the Work Items List). Once work items have been&#xD;
+    assigned to the iteration, the team ensures that they can complete all work, regardless of original work item&#xD;
+    priorities. Deciding what to develop first on an iteration will vary across projects and iterations.&#xD;
+&lt;/p></keyConsiderations>
+  <purpose>&lt;p>&#xD;
+    The main objectives of the iteration plan are to provide the team with the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        One central place for information regarding iteration objectives&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A detailed plan with task assignments&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Evaluation results&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    This artifact also helps the team to monitor the progress of the iteration, and keeps the results of the iteration&#xD;
+    assessment that may be useful for improving the next one.&#xD;
+&lt;/p></purpose>
+  <impactOfNotHaving>Without this artifact, it will be difficult to assess the results of an iteration to determine whether or not the&#xD;
+objectives have been met.</impactOfNotHaving>
+  <reasonsForNotNeeding>This artifact is not required if no iterations are being performed, or if the scope of the project and each iteration is&#xD;
+sufficiently small as to be handled informally amongst the team.</reasonsForNotNeeding>
+  <representationOptions>&lt;p>&#xD;
+    The level of detail or formality of the plan must be adapted to what you need in order to meet these objectives&#xD;
+    successfully. The plan could, for example, be captured on the following places:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A whiteboard listing the objectives, task assignments, and evaluation criteria&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A one-page document listing the objectives and evaluation criteria of the iteration, as well as referencing the&#xD;
+        Work Items List for assignments for that iteration&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A more complex document, supported by a Gantt or Pert chart in a project planning tool&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

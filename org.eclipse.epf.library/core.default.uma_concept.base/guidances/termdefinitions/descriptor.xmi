@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-TI6lqoTE1op3-SnmGa2S9Q" name="descriptor,_7rS6AB_JEdq6CKKKq4D7YA" guid="-TI6lqoTE1op3-SnmGa2S9Q" changeDate="2006-09-28T01:52:03.000-0700" version="7.2.0">
+  <mainDescription>Defines how method content is represented in a process.&amp;nbsp;&amp;nbsp;Descriptors are the key concept for realizing the&#xD;
+separation of process&amp;nbsp;from method content.&amp;nbsp;A&amp;nbsp;descriptor&amp;nbsp;has its own relationships and properties which&#xD;
+can be modified independent of the default relationships&amp;nbsp;defined in the method content.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

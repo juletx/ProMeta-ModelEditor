@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-PSRjLwuucSbqE2ylFAbF9w" name="practices,_Gc5BIMg9EdyXeo04os5BOw" guid="-PSRjLwuucSbqE2ylFAbF9w" changeDate="2008-05-16T10:48:20.000-0700" version="7.5.0">
+  <mainDescription>&lt;table title=&quot;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;85%&quot; border=&quot;0&quot;>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td>
+                &lt;img height=&quot;165&quot; alt=&quot;image of jigsaw pieces&quot; src=&quot;resources/practices.jpg&quot; width=&quot;198&quot; />
+            &lt;/td>
+            &lt;td>
+                &lt;font size=&quot;5&quot;>&lt;strong>Open Source Practices for Agile Projects&lt;/strong>&lt;/font>
+            &lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>&lt;br />
+&lt;br />
+&lt;br />
+&lt;h3>
+    Why Practices?
+&lt;/h3>
+&lt;p>
+    Practices enable a new approach to building methods - practice composition.
+&lt;/p>
+&lt;p>
+    This approach offers the following benefits:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Adaptability and scalability
+    &lt;/li>
+    &lt;li>
+        Incremental adoption
+    &lt;/li>
+    &lt;li>
+        Easy to configure and use
+    &lt;/li>
+    &lt;li>
+        Community development
+    &lt;/li>
+&lt;/ul>
+&lt;h3>
+    Adaptability and Scalability
+&lt;/h3>
+&lt;p>
+    The set of practices included in the&amp;nbsp;Open Source&amp;nbsp;Practices for Agile Projects supports a range of
+    solutions.&amp;nbsp;In particular, these agile practices can be adapted to suit your organization and supplemented by your
+    own practices.&amp;nbsp;
+&lt;/p>
+&lt;h3>
+    Incremental Adoption
+&lt;/h3>
+&lt;p>
+    Each practice is described as a standalone capability that can be adopted by an organization or project.&amp;nbsp;Each
+    practice may include enablement materials that explain how to get started.&amp;nbsp;&amp;nbsp;
+&lt;/p>
+&lt;h3>
+    Easy to Configure and Use
+&lt;/h3>
+&lt;p>
+    Creating a method is as simple as selecting the practices that you wish to adopt, and then publishing the
+    results.&amp;nbsp;Each practice adds itself into the framework so that content can be viewed by practice, or across
+    practices by work product, role, task and so on.
+&lt;/p>
+&lt;h3>
+    Community Development
+&lt;/h3>
+&lt;p>
+    Since a practice can be easily authored on its own, practices are ideal for community development.&amp;nbsp;The basic agile
+    practices for the&amp;nbsp;Open Source&amp;nbsp;Practice Library are, in fact, developed by the Eclipse Process Framework
+    community.&amp;nbsp;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

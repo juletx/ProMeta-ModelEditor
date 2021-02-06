@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-D3NR4UjCNAA8tz8ik9KxuA" name="analyze,_qx-1wX9WEd26h9j0X6pKmw" guid="-D3NR4UjCNAA8tz8ik9KxuA" version="7.5.1"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-N_CKAaJNHSW61yq8ZoC2jg" name="extract_rule_meaning,_tlXjYH9WEd26h9j0X6pKmw" guid="-N_CKAaJNHSW61yq8ZoC2jg">
+    <refinedDescription>&lt;p>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Times','serif'; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;>&lt;font
+     face=&quot;Arial&quot;>During the elicitation activity the raw description of the rule uses business terms as used in common
+    language used by the people. This presents what the business users think about the way things are done in the company.
+    They are linking words with statements with all the different semantic attached to them. The first activity focuses on
+    analyzing this rule description&amp;nbsp;to extract&amp;nbsp;the business entities and terms used in a formal non ambiguous
+    fashion.&amp;nbsp;&lt;/font>&lt;/span>
+&lt;/p>
+&lt;p>
+    We are discussing about Business Term here, as reference to a business concept used in daily business operations.They
+    are often found in different departments or refer to the same business concept from a different perspective: they are
+    synonyms. A term may describe business concept which will be mapped to a Class, a characteristic of a business entity
+    which will be mapped to attribute of a class, and sometime a term may describe the way a business object behave, in
+    that last case it will be mapped within method of a final state machine.
+&lt;/p>
+&lt;p>
+    The second concept presented in the analysis of rule is the Fact. Fact is a combination of terms that describes what
+    business people know about their business. It connects terms into sensible business relevant observations.&lt;br
+    style=&quot;MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple&quot; />
+    As stated by the SBVR specification meaning is built of concepts, questions and propositions. the concepts will build
+    our underlying data model used by the executable rules, and the proposition will structure the data model and can also
+    be mapped to rules.&lt;br />
+&lt;/p>
+&lt;p
+style=&quot;MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple&quot;>
+    All these informations&amp;nbsp;help to build a&amp;nbsp;first logical data model used to build the underlying object
+    model&amp;nbsp;used by the rules. We can use UML tool to design a class diagram, generates java code and import such code
+    in the rule IDE.&lt;br />
+    &amp;nbsp;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-tcywvwJFy76naDhkV-kE1g" name="rule_description_doc,_tlzoQn9WEd26h9j0X6pKmw" guid="-tcywvwJFy76naDhkV-kE1g">
+    <refinedDescription>&lt;a id=&quot;XE_rule_description__document&quot; name=&quot;XE_rule_description__document&quot;>&lt;/a> 
+&lt;p>
+    The rule description document is used during the discovery phase, and during the first iterations for building a rule
+    set. It is not mandatory to complete it up front with all the rules in it. The complement is done during the Rule
+    Authoring phase.
+&lt;/p>
+&lt;p>
+    It is also interesting to leverage SBVR to document the rule.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WdZgViZU-KFgjnSALDjXiw" name="fact_model,_tlzoQ39WEd26h9j0X6pKmw" guid="-WdZgViZU-KFgjnSALDjXiw">
+    <refinedDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>A Fact Model represents structured business vocabulary with true statement like: A
+    customer places an order. The fact model looks like the Object Role Model described by Halpin (2001). When the model
+    starts to grow the notation become quickly invisible and no more helpful, so we do not encourage to follow this
+    notation.&lt;/span> We prefer using UML class diagram showing just the entities, the associations and may be some
+    characteristic as attributes of class.
+&lt;/p>&lt;br />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>A Fact Model should always include elementary
+    (atomic) fact type:&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -18pt&quot;>
+    &lt;span style=&quot;FONT-FAMILY: 'Times New Roman'; mso-bidi-font-size: 10.0pt&quot;>•&lt;/span>&lt;span
+    style=&quot;FONT-SIZE: 7pt; FONT-FAMILY: 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Noun:&amp;nbsp; Customer, Order, Product&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -18pt&quot;>
+    &lt;span style=&quot;FONT-FAMILY: 'Times New Roman'; mso-bidi-font-size: 10.0pt&quot;>•&lt;/span>&lt;span
+    style=&quot;FONT-SIZE: 7pt; FONT-FAMILY: 'Times New Roman'&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>Verb:&amp;nbsp; places, briefs&lt;/span>
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Uesh6anvRV-n8YiCvPAkIg" name="logical_data_model,_tlzoRH9WEd26h9j0X6pKmw" guid="-Uesh6anvRV-n8YiCvPAkIg">
+    <refinedDescription>&lt;a id=&quot;XE_logical_data_model&quot; name=&quot;XE_logical_data_model&quot;>&lt;/a> 
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>A logical data model or LDM is a graphical
+    representation of some of the business requirements and especially the concepts manipulated by the business member. LDM
+    is independent of the technology of implementation, and is mostly used&amp;nbsp;as a communication vehicle for the business
+    analyst and&amp;nbsp;to prepare the implementation of data models.&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>From the point of view of an object-oriented developer
+    data modeling is conceptually similar to class modeling. With data modeling you identify entity types whereas with
+    class modeling you identify classes.&amp;nbsp; Data attributes are assigned to entity type just as you would assign
+    attributes and operations to classes. Traditional data modeling is different from class modeling because it focuses
+    solely on data – class models allow you to explore both the behavior and data aspects of your domain, with a data model
+    you can only explore data issues.&lt;/span>&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot; />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    &lt;span style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>We use UML simple class diagram to represent
+    a&lt;/span> &lt;span style=&quot;mso-bidi-font-family: Arial&quot;>Logical Data Model&lt;/span> &lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>but&amp;nbsp;by applying&amp;nbsp;Agile's principle of multiple
+    models, it is possible to use other diagrams.&lt;/span>
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot; />
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    &lt;span style=&quot;mso-bidi-font-family: Arial&quot;>Logical Data Models&lt;/span> &lt;span
+    style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Arial&quot;>are used to explore the domain concepts, and their
+    relationships, of&amp;nbsp;the problem domain.&amp;nbsp; This could be done for the scope of a single project or for&amp;nbsp;the
+    entire enterprise.&amp;nbsp; LDMs depict the logical entity types, typically referred to simply as entity types, the data
+    attributes describing those entities, and the relationships between the entities.&lt;/span>
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    &amp;nbsp;
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>
+    Defining a logical data model prepare for future reuse, and help to build common definition of terms. This is one of
+    major building block for enterprise data model.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KQ7Tq2GDC0gGvnqUTC7HpA" name="transform_rules,_t32agH9WEd26h9j0X6pKmw" guid="-KQ7Tq2GDC0gGvnqUTC7HpA">
+    <keyConsiderations>This activity will also be done during the implementation of the rule set, but it is started during the analysis, so we are
+detailing it in this context.</keyConsiderations>
+    <refinedDescription>&lt;p>
+    Rule Analyst has to study the rule discovered and try to transform it so that the implementation and the management of
+    the rule will be more easy. This includes transforming the rule in atomic element using a syntax without ambiguity,
+    remove redundant rules, conflicting rules, and finally try to redefine the scope of the rule by searching by
+    non-handled cases.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    At this stage rule analyst can build some rule template which&amp;nbsp;are built from rules that have the same set of
+    conditions with some little variations: adding new value in test condition, or new condition.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Lwx7QOcZjNCEknbhZVYHpA" name="build_test_scenario,_uMueUH9WEd26h9j0X6pKmw" guid="-Lwx7QOcZjNCEknbhZVYHpA">
+    <refinedDescription>&lt;p>
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Times','serif'; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;>&lt;font
+     face=&quot;Arial&quot;>Developing without testing has no sense today (we hope!). Developing rules deployed in rule engine
+    helps&amp;nbsp;us supporting efficiently a Test Driven Development approach. Rule set can be isolated&amp;nbsp;early in the
+    development process and can be tested in a sandbox environment. Writing tests before the rule makes testing part of a
+    validation feedback loop.&amp;nbsp;&amp;nbsp;So during the harvesting phase the analysis team needs to develop test scenario
+    and data elements to support the rule writing and testing. Working on concrete scenario leads to clarify ambiguities,
+    find holes in the decision processing, and enhance rules decision coverage, and the overall quality.&lt;/font>&lt;/span>
+&lt;/p>
+&lt;p>
+    At this level the scenario description can be built as user story with persona involvement, and data point to
+    illustrate the scenario.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZXqKURahjzSp8B1-MBY6Hw" name="synchronize_data_model,_ueoGoH9WEd26h9j0X6pKmw" guid="-ZXqKURahjzSp8B1-MBY6Hw">
+    <refinedDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    The rule analyst needs to continuously verify that business terms used in rule statements are part of the logical data
+    model (classes/ attributes) and physical data model (PDM). The model exposed to the rule needs to get data from data
+    sources. If a concept is not in the data it has to be quickly handled and managed by the application architect.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    The rule analyst should be in continuous communication with the data model developer, responsible to develop the XML
+    schema or java model (or .Net), and the physical mapping to database.&lt;br />
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    Part of most of the business application are the list of code, enumerated date or domain values. It is important to
+    well design how those data are defined, accessed by the application, and the rule authoring environment.
+&lt;/p>
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot;>
+    It can be helpful for some major business term to define a mapping to a class-attribute, and if the BRMS supports this
+    function it is recommended to detail the &quot;verbalization&quot; of the business term.
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0in&quot; />
+&lt;br />
+&lt;div align=&quot;center&quot;>
+    &lt;table class=&quot;MsoNormalTable&quot; style=&quot;WIDTH: 351pt; BORDER-COLLAPSE: collapse; mso-padding-alt: 0in 0in 0in 0in&quot;
+    cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;468&quot; border=&quot;0&quot;>
+        &lt;tbody>
+            &lt;tr style=&quot;HEIGHT: 15.75pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: gray 1pt solid; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 15.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;i>&lt;span style=&quot;COLOR: #005da0&quot;>Business Term&lt;/span>&lt;/i>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 15.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;i>&lt;span style=&quot;COLOR: #005da0&quot;>OO mapping&lt;/span>&lt;/i>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; HEIGHT: 15.75pt&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;i>&lt;span style=&quot;COLOR: #005da0&quot;>Verbalization&lt;/span>&lt;/i>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 1&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>LTV&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>LoanApplication.ltv&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;p class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot;>
+                        &lt;span style=&quot;FONT-SIZE: 8pt&quot;>The loan to value ratio&lt;/span>
+                    &lt;/p>
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 2&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+            &lt;tr style=&quot;mso-yfti-irow: 3; mso-yfti-lastrow: yes&quot;>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+                &lt;td
+                style=&quot;BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 117pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent&quot;
+                 valign=&quot;top&quot; width=&quot;156&quot;>
+                    &lt;br class=&quot;msonormalcxspmiddle&quot; style=&quot;MARGIN: auto 0in&quot; />
+                    &lt;br />
+                &lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+&lt;/div>&lt;br class=&quot;MsoNormal&quot;
+style=&quot;MARGIN: 0in 0in 0pt 0.25in; TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1; tab-stops: list .25in left 3.0in&quot; />
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

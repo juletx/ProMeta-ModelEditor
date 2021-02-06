@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-kpXvvHptrggypeoQEamfhw" name="initiate_project,_eWxZgdOEEdyqlogshP8l4g" guid="-kpXvvHptrggypeoQEamfhw" version="7.2.0">
+    <mainDescription>&lt;p>
+    This activity takes place at the beginning of the first iteration, when the project starts. The goal of this activity
+    is to establish the vision for both the project and the project plan at a high level of granularity.
+&lt;/p>
+&lt;p>
+    The people in the roles involved at this time collaborate to perform this activity:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        The &lt;a class=&quot;elementlinkwithusertext&quot; href=&quot;./../../core.default.role_def.base/roles/analyst_39D7C49B.html&quot; guid=&quot;_0VxJsMlgEdmt3adZL5Dmdw&quot;>Analyst&lt;/a> and &lt;a class=&quot;elementlinkwithusertext&quot; href=&quot;./../../core.default.role_def.base/roles/stakeholder_9FFD4106.html&quot; guid=&quot;_dTa6gMAYEdqX-s4mWhkyqQ&quot;>Stakeholder&lt;/a> roles work together to define the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp/workproducts/vision_2E71B03C.html&quot; guid=&quot;_0WVxcMlgEdmt3adZL5Dmdw&quot;>vision&lt;/a>
+        for the project, capturing the customer needs and features for the system under development. Needs and features are
+        captured to the extent required to reach agreement about the scope of the project.
+    &lt;/li>
+    &lt;li>
+        The project manager (collaborating and reaching agreement with the development team and stakeholders) proposes a
+        high-level &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.mgmt.two_level_project_planning.base/workproducts/project_plan_1CDBB7E4.html&quot; guid=&quot;_0a6vcMlgEdmt3adZL5Dmdw&quot;>project plan&lt;/a> that includes the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/phase_milestones_5678231E.html&quot; guid=&quot;_HNxbwMBJEdqSgKaj2SZBmg&quot;>milestones&lt;/a> for the four phases, and time-boxed iterations for each phase. This
+        plan, along with the allocation of staff to the project, evolves throughout the phases and defines the pace of the
+        project.
+    &lt;/li>
+&lt;/ul></mainDescription>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Y4gn4laxnFk1PUA3-GebOg" name="develop_technical_vision,_sopKYNOJEdyqlogshP8l4g" guid="-Y4gn4laxnFk1PUA3-GebOg">
+    <keyConsiderations>&lt;p>&#xD;
+    Use-case modeling&amp;nbsp;is one technique that can prove useful in defining the system boundaries and system behavior.&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-z5wrOi6JXS768g53hKiYaA" name="vision,_soyUVNOJEdyqlogshP8l4g" guid="-z5wrOi6JXS768g53hKiYaA">
+    <keyConsiderations>&lt;p>&#xD;
+    It is good practice to keep this artifact brief, so you can release it to stakeholders as soon as possible, and to make&#xD;
+    the artifact easy for stakeholders to read and understand. You can accomplish this by including only the most important&#xD;
+    features and avoiding details of requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Projects that focus on product development might extend the marketing section and include a more detailed product&#xD;
+    position statement that is based on their needs and research.&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9AN0xXBZYxIDPOg2N3IC6Q" name="plan_the_project,_t7pDUNOJEdyqlogshP8l4g" guid="-9AN0xXBZYxIDPOg2N3IC6Q">
+    <keyConsiderations>&lt;p>&#xD;
+    Gain agreement with stakeholders and the rest of the project team regarding the order of objectives and the duration of&#xD;
+    the project. Make adjustments as&amp;nbsp;necessary.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>Developing the project plan provides an opportunity for the team to agree on project scope, objectives, initial timeframe,&#xD;
+and deliverables. It allows the team to begin demonstrating self-organization by defining success criteria and work&#xD;
+practices to be used. Collaboration and consensus by all key project participants is the goal, but the role responsible for&#xD;
+this task must ensure that everybody is committed to the plan.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZCPNs3ExxsjnNFRTVybQyA" name="project_plan,_4ypNIO-YEdyEMtC_IfEALw" guid="-ZCPNs3ExxsjnNFRTVybQyA">
+    <keyConsiderations>Create and update the project plan in planning sessions that involve the whole team and appropriate project stakeholders in&#xD;
+order to make sure that everybody agrees with it.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact describes how the project is organized, and identifies what practices will be followed. Additionally, it&#xD;
+    defines the parameters for tracking project progress, and specifies the high-level objectives of the iterations and&#xD;
+    their milestones.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The project plan allows stakeholders and other team members to understand the big picture and, roughly, when to expect&#xD;
+    a certain level of functionality be available.&amp;nbsp;Update the plan&amp;nbsp;as often as necessary, usually at the end of&#xD;
+    each iteration, in order to reflect changing priorities and needs, as well as record the lessons learned from the&#xD;
+    project.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LpEiAis-mzd1_RcJIRimLA" name="glossary,_OpsH8GpmEd24CboUCnKL3A" guid="-LpEiAis-mzd1_RcJIRimLA">
+    <keyConsiderations>&lt;p>&#xD;
+    Although listed as an &lt;i>output from&lt;/i> and an &lt;i>input to&lt;/i> tasks associated with the requirements discipline, this&#xD;
+    artifact can be updated at any time and by any role as new terms are identified. The terms defined should be used&#xD;
+    according to the recorded definitions in all project documentation so that all stakeholders can clearly see that terms&#xD;
+    are being used consistently.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    One of the primary decisions when developing&amp;nbsp;this artifact&amp;nbsp;is whether to have all terms in a single glossary&#xD;
+    or to maintain terms in several glossaries, business terms artifacts, or models.&amp;nbsp;If terms are defined in multiple&#xD;
+    places, you need to communicate all of those sources to the team and decide which take precedence.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It may be important, even in small projects, to reference and use existing broader glossaries, business terms&#xD;
+    artifacts, or data models, where they exist.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Industry- and organization-wide glossaries may be referenced, and compliance with such specific chosen standards may be&#xD;
+    required.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;helps you avoid miscommunication by providing two essential resources:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A central location to look for terms and abbreviations that are new to development team members&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Definitions of terms that are used in specific ways within the domain&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Definitions for the glossary terms come from several sources, such as requirements documents, specifications, and&#xD;
+    discussions with stakeholders and domain experts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>
