@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="uma" nsURI="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore"
+    nsPrefix="org.eclipse.epf.uma">
+  <eClassifiers xsi:type="ecore:EClass" name="Classifier" abstract="true" eSuperTypes="#//Type">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isAbstract" ordered="false"
+        lowerBound="1" eType="#//Boolean" defaultValueLiteral="false"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Type" abstract="true" eSuperTypes="#//PackageableElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PackageableElement" abstract="true"
+      eSuperTypes="#//NamedElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="NamedElement" abstract="true" eSuperTypes="#//Element">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" eType="#//String"
+        defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Element" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="String" instanceClassName="java.lang.String"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="Boolean" instanceClassName="java.lang.Boolean"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Package" eSuperTypes="#//Namespace #//PackageableElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Namespace" abstract="true" eSuperTypes="#//NamedElement"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="Date" instanceClassName="java.util.Date"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="Uri" instanceClassName="java.net.URI"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="Set" instanceClassName="java.util.Set"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="Sequence" instanceClassName="java.util.List"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="Integer" instanceClassName="int"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="Double" instanceClassName="java.lang.Double"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Constraint" eSuperTypes="#//MethodElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="body" ordered="false" eType="#//String"
+        defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodElement" abstract="true" eSuperTypes="#//PackageableElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="guid" ordered="false" eType="#//String"
+        defaultValueLiteral="" iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="presentationName" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="briefDescription" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedRules" ordered="false"
+        upperBound="-1" eType="#//Constraint" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="methodElementProperty"
+        ordered="false" upperBound="-1" eType="#//MethodElementProperty" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="kind" ordered="false" upperBound="-1"
+        eType="#//Kind"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="suppressed" ordered="false"
+        lowerBound="1" eType="#//Boolean" defaultValueLiteral="false"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="orderingGuide" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodElementProperty" eSuperTypes="#//PackageableElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Kind" eSuperTypes="#//ContentElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="applicableMetaClassInfo"
+        ordered="false" upperBound="-1" eType="#//ApplicableMetaClassInfo" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ContentElement" abstract="true" eSuperTypes="#//DescribableElement #//VariabilityElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="supportingMaterials" ordered="false"
+        upperBound="-1" eType="#//SupportingMaterial"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conceptsAndPapers" ordered="false"
+        upperBound="-1" eType="#//Concept"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="checklists" ordered="false"
+        upperBound="-1" eType="#//Checklist"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="guidelines" ordered="false"
+        upperBound="-1" eType="#//Guideline"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="examples" ordered="false"
+        upperBound="-1" eType="#//Example"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="assets" ordered="false"
+        upperBound="-1" eType="#//ReusableAsset"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="termdefinition" ordered="false"
+        upperBound="-1" eType="#//TermDefinition"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DescribableElement" abstract="true"
+      eSuperTypes="#//MethodElement #//Classifier">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="presentation" ordered="false"
+        eType="#//ContentDescription" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shapeicon" ordered="false"
+        eType="#//Uri"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nodeicon" ordered="false"
+        eType="#//Uri"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ContentDescription" eSuperTypes="#//MethodUnit">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mainDescription" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sections" ordered="false"
+        upperBound="-1" eType="#//Section" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="externalId" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="keyConsiderations" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="longPresentationName" ordered="false"
+        lowerBound="1" eType="#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodUnit" abstract="true" eSuperTypes="#//MethodElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="authors" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="changeDate" ordered="false"
+        eType="#//Date"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="changeDescription" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="version" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="copyrightStatement" ordered="false"
+        eType="#//SupportingMaterial"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SupportingMaterial" eSuperTypes="#//Guidance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Guidance" abstract="true" eSuperTypes="#//ContentElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Section" eSuperTypes="#//VariabilityElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sectionName" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sectionDescription" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subSections" ordered="false"
+        upperBound="-1" eType="#//Section" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="predecessor" ordered="false"
+        eType="#//Section"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VariabilityElement" abstract="true"
+      eSuperTypes="#//MethodElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="variabilityType" ordered="false"
+        lowerBound="1" eType="#//VariabilityType" defaultValueLiteral="na"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="variabilityBasedOnElement"
+        ordered="false" lowerBound="1" eType="#//VariabilityElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="VariabilityType">
+    <eLiterals name="na"/>
+    <eLiterals name="contributes" value="1"/>
+    <eLiterals name="extends" value="2"/>
+    <eLiterals name="replaces" value="3"/>
+    <eLiterals name="localContribution" value="4"/>
+    <eLiterals name="localReplacement" value="5"/>
+    <eLiterals name="extendsReplaces" value="6"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Concept" eSuperTypes="#//Guidance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Checklist" eSuperTypes="#//Guidance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Guideline" eSuperTypes="#//Guidance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Example" eSuperTypes="#//Guidance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ReusableAsset" eSuperTypes="#//Guidance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TermDefinition" eSuperTypes="#//Guidance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ApplicableMetaClassInfo" eSuperTypes="#//Classifier">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isPrimaryExtension" ordered="false"
+        lowerBound="1" eType="#//Boolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Artifact" eSuperTypes="#//WorkProduct">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="containerArtifact" ordered="false"
+        eType="#//Artifact" eOpposite="#//Artifact/containedArtifacts"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="containedArtifacts" ordered="false"
+        upperBound="-1" eType="#//Artifact" containment="true" eOpposite="#//Artifact/containerArtifact"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WorkProduct" eSuperTypes="#//ContentElement #//FulfillableElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="reports" ordered="false"
+        upperBound="-1" eType="#//Report"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="templates" ordered="false"
+        upperBound="-1" eType="#//Template"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="toolMentors" ordered="false"
+        upperBound="-1" eType="#//ToolMentor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="estimationConsiderations"
+        ordered="false" upperBound="-1" eType="#//EstimationConsiderations"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FulfillableElement" eSuperTypes="#//DescribableElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fulfills" ordered="false"
+        upperBound="-1" eType="#//FulfillableElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Report" eSuperTypes="#//Guidance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Template" eSuperTypes="#//Guidance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ToolMentor" eSuperTypes="#//Guidance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EstimationConsiderations" eSuperTypes="#//Guidance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Deliverable" eSuperTypes="#//WorkProduct">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="deliveredWorkProducts"
+        ordered="false" upperBound="-1" eType="#//WorkProduct"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Outcome" eSuperTypes="#//WorkProduct"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Step" eSuperTypes="#//Section #//WorkDefinition"/>
+  <eClassifiers xsi:type="ecore:EClass" name="WorkDefinition" abstract="true" eSuperTypes="#//MethodElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="precondition" ordered="false"
+        eType="#//Constraint" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="postcondition" ordered="false"
+        eType="#//Constraint" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Whitepaper" eSuperTypes="#//Concept"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Task" eSuperTypes="#//ContentElement #//WorkDefinition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="performedBy" ordered="false"
+        upperBound="-1" eType="#//Role"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mandatoryInput" ordered="false"
+        upperBound="-1" eType="#//WorkProduct"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" ordered="false"
+        upperBound="-1" eType="#//WorkProduct"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="additionallyPerformedBy"
+        ordered="false" upperBound="-1" eType="#//Role"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="optionalInput" ordered="false"
+        upperBound="-1" eType="#//WorkProduct"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="steps" ordered="false"
+        upperBound="-1" eType="#//Step" volatile="true" transient="true" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="toolMentors" ordered="false"
+        upperBound="-1" eType="#//ToolMentor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="estimationConsiderations"
+        ordered="false" upperBound="-1" eType="#//EstimationConsiderations"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//ContentElement #//FulfillableElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modifies" ordered="false"
+        upperBound="-1" eType="#//WorkProduct" volatile="true" transient="true" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responsibleFor" ordered="false"
+        upperBound="-1" eType="#//WorkProduct"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ArtifactDescription" eSuperTypes="#//WorkProductDescription">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="briefOutline" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="representationOptions"
+        ordered="false" eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="representation" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="notation" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WorkProductDescription" eSuperTypes="#//ContentDescription">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="purpose" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="impactOfNotHaving" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="reasonsForNotNeeding" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DeliverableDescription" eSuperTypes="#//WorkProductDescription">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="externalDescription" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="packagingGuidance" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleDescription" eSuperTypes="#//ContentDescription">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="skills" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="assignmentApproaches" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="synonyms" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TaskDescription" eSuperTypes="#//ContentDescription">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="purpose" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="alternatives" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GuidanceDescription" eSuperTypes="#//ContentDescription">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attachments" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PracticeDescription" eSuperTypes="#//ContentDescription">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="additionalInfo" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="problem" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="background" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="goals" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="application" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="levelsOfAdoption" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleSet" eSuperTypes="#//ContentCategory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="roles" ordered="false"
+        upperBound="-1" eType="#//Role"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ContentCategory" abstract="true" eSuperTypes="#//ContentElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Domain" eSuperTypes="#//ContentCategory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="workProducts" ordered="false"
+        upperBound="-1" eType="#//WorkProduct"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subdomains" ordered="false"
+        upperBound="-1" eType="#//Domain" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WorkProductType" eSuperTypes="#//ContentCategory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="workProducts" ordered="false"
+        upperBound="-1" eType="#//WorkProduct"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DisciplineGrouping" eSuperTypes="#//ContentCategory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="disciplines" ordered="false"
+        upperBound="-1" eType="#//Discipline"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Discipline" eSuperTypes="#//ContentCategory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tasks" ordered="false"
+        upperBound="-1" eType="#//Task"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subdiscipline" ordered="false"
+        upperBound="-1" eType="#//Discipline" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="referenceWorkflows" ordered="false"
+        upperBound="-1" eType="#//Activity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Activity" eSuperTypes="#//WorkBreakdownElement #//FulfillableElement #//VariabilityElement #//WorkDefinition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="breakdownElements" ordered="false"
+        upperBound="-1" eType="#//BreakdownElement" eOpposite="#//BreakdownElement/superActivities"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="roadmaps" ordered="false"
+        upperBound="-1" eType="#//Roadmap"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WorkBreakdownElement" abstract="true"
+      eSuperTypes="#//BreakdownElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isRepeatable" ordered="false"
+        lowerBound="1" eType="#//Boolean" defaultValueLiteral="false"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isOngoing" ordered="false"
+        lowerBound="1" eType="#//Boolean" defaultValueLiteral="false"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isEventDriven" ordered="false"
+        lowerBound="1" eType="#//Boolean" defaultValueLiteral="false"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="linkToPredecessor" ordered="false"
+        upperBound="-1" eType="#//WorkOrder"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BreakdownElement" abstract="true" eSuperTypes="#//ProcessElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="prefix" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isPlanned" ordered="false"
+        lowerBound="1" eType="#//Boolean" defaultValueLiteral="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasMultipleOccurrences"
+        ordered="false" lowerBound="1" eType="#//Boolean" defaultValueLiteral="false"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isOptional" ordered="false"
+        lowerBound="1" eType="#//Boolean" defaultValueLiteral="false"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="presentedAfter" ordered="false"
+        eType="#//BreakdownElement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="presentedBefore" ordered="false"
+        eType="#//BreakdownElement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="planningData" ordered="false"
+        eType="#//PlanningData" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="superActivities" ordered="false"
+        lowerBound="1" eType="#//Activity" eOpposite="#//Activity/breakdownElements"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="checklists" ordered="false"
+        upperBound="-1" eType="#//Checklist"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="concepts" ordered="false"
+        upperBound="-1" eType="#//Concept"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="examples" ordered="false"
+        upperBound="-1" eType="#//Example"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="guidelines" ordered="false"
+        upperBound="-1" eType="#//Guideline"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="reusableAssets" ordered="false"
+        upperBound="-1" eType="#//ReusableAsset"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="supportingMaterials" ordered="false"
+        upperBound="-1" eType="#//SupportingMaterial"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="templates" ordered="false"
+        upperBound="-1" eType="#//Template"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="reports" ordered="false"
+        upperBound="-1" eType="#//Report"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="estimationconsiderations"
+        ordered="false" upperBound="-1" eType="#//EstimationConsiderations"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="toolmentor" ordered="false"
+        upperBound="-1" eType="#//ToolMentor"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessElement" abstract="true" eSuperTypes="#//DescribableElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PlanningData" eSuperTypes="#//ProcessElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startDate" ordered="false"
+        lowerBound="1" eType="#//Date"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="finishDate" ordered="false"
+        lowerBound="1" eType="#//Date"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rank" ordered="false" lowerBound="1"
+        eType="#//Integer"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WorkOrder" eSuperTypes="#//ProcessElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="linkType" ordered="false"
+        lowerBound="1" eType="#//WorkOrderType" defaultValueLiteral="finishToStart"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pred" ordered="false" lowerBound="1"
+        eType="#//WorkBreakdownElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="WorkOrderType">
+    <eLiterals name="finishToStart"/>
+    <eLiterals name="finishToFinish" value="1"/>
+    <eLiterals name="startToStart" value="2"/>
+    <eLiterals name="startToFinish" value="3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Roadmap" eSuperTypes="#//Guidance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Tool" eSuperTypes="#//ContentCategory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="toolMentors" ordered="false"
+        upperBound="-1" eType="#//ToolMentor"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleSetGrouping" eSuperTypes="#//ContentCategory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="roleSets" ordered="false"
+        upperBound="-1" eType="#//RoleSet"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CustomCategory" eSuperTypes="#//ContentCategory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="categorizedElements" ordered="false"
+        upperBound="-1" eType="#//DescribableElement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subCategories" ordered="false"
+        upperBound="-1" eType="#//ContentCategory"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodPackage" abstract="true" eSuperTypes="#//MethodElement #//Package">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="global" ordered="false"
+        lowerBound="1" eType="#//Boolean" defaultValueLiteral="false"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="reusedPackages" ordered="false"
+        upperBound="-1" eType="#//MethodPackage"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="childPackages" ordered="false"
+        upperBound="-1" eType="#//MethodPackage" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ContentPackage" eSuperTypes="#//MethodPackage">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contentElements" ordered="false"
+        upperBound="-1" eType="#//ContentElement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Milestone" eSuperTypes="#//WorkBreakdownElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="requiredResults" ordered="false"
+        upperBound="-1" eType="#//WorkProductDescriptor"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WorkProductDescriptor" eSuperTypes="#//Descriptor">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="activityEntryState" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="activityExitState" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="WorkProduct" ordered="false"
+        eType="#//WorkProduct"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="impactedBy" ordered="false"
+        upperBound="-1" eType="#//WorkProductDescriptor" eOpposite="#//WorkProductDescriptor/impacts"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="impacts" ordered="false"
+        upperBound="-1" eType="#//WorkProductDescriptor" eOpposite="#//WorkProductDescriptor/impactedBy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="deliverableParts" ordered="false"
+        upperBound="-1" eType="#//WorkProductDescriptor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="deliverablePartsExclude"
+        ordered="false" upperBound="-1" eType="#//WorkProduct"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Descriptor" abstract="true" eSuperTypes="#//BreakdownElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isSynchronizedWithSource"
+        ordered="false" lowerBound="1" eType="#//Boolean" defaultValueLiteral="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="guidanceExclude" ordered="false"
+        upperBound="-1" eType="#//Guidance"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="guidanceAdditional" ordered="false"
+        upperBound="-1" eType="#//Guidance"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Iteration" eSuperTypes="#//Activity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Phase" eSuperTypes="#//Activity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TeamProfile" eSuperTypes="#//BreakdownElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="teamRoles" ordered="false"
+        upperBound="-1" eType="#//RoleDescriptor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="superTeam" ordered="false"
+        lowerBound="1" eType="#//TeamProfile" eOpposite="#//TeamProfile/subTeam"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subTeam" ordered="false"
+        upperBound="-1" eType="#//TeamProfile" eOpposite="#//TeamProfile/superTeam"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleDescriptor" eSuperTypes="#//Descriptor">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Role" ordered="false" eType="#//Role"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modifies" ordered="false"
+        upperBound="-1" eType="#//WorkProductDescriptor" volatile="true" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responsibleFor" ordered="false"
+        upperBound="-1" eType="#//WorkProductDescriptor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responsibleForExclude"
+        ordered="false" upperBound="-1" eType="#//WorkProduct"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TaskDescriptor" eSuperTypes="#//WorkBreakdownElement #//Descriptor">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Task" ordered="false" eType="#//Task"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="additionallyPerformedBy"
+        ordered="false" upperBound="-1" eType="#//RoleDescriptor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="assistedBy" ordered="false"
+        upperBound="-1" eType="#//RoleDescriptor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="externalInput" ordered="false"
+        upperBound="-1" eType="#//WorkProductDescriptor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mandatoryInput" ordered="false"
+        upperBound="-1" eType="#//WorkProductDescriptor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="optionalInput" ordered="false"
+        upperBound="-1" eType="#//WorkProductDescriptor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" ordered="false"
+        upperBound="-1" eType="#//WorkProductDescriptor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="performedPrimarilyBy" ordered="false"
+        upperBound="-1" eType="#//RoleDescriptor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="selectedSteps" ordered="false"
+        upperBound="-1" eType="#//Section"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="performedPrimarilyByExcluded"
+        ordered="false" upperBound="-1" eType="#//Role"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="additionallyPerformedByExclude"
+        ordered="false" upperBound="-1" eType="#//Role"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mandatoryInputExclude"
+        ordered="false" upperBound="-1" eType="#//WorkProduct"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="optionalInputExclude" ordered="false"
+        upperBound="-1" eType="#//WorkProduct"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outputExclude" ordered="false"
+        upperBound="-1" eType="#//WorkProduct"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="selectedStepsExclude" ordered="false"
+        upperBound="-1" eType="#//Section"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CompositeRole" eSuperTypes="#//RoleDescriptor">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="aggregatedRoles" ordered="false"
+        upperBound="-1" eType="#//Role"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DeliveryProcess" eSuperTypes="#//Process">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="educationMaterials" ordered="false"
+        upperBound="-1" eType="#//SupportingMaterial"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="communicationsMaterials"
+        ordered="false" upperBound="-1" eType="#//SupportingMaterial"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Process" abstract="true" eSuperTypes="#//Activity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesPatterns" ordered="false"
+        upperBound="-1" eType="#//CapabilityPattern"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="defaultContext" ordered="false"
+        lowerBound="1" eType="#//MethodConfiguration"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="validContext" ordered="false"
+        upperBound="-1" eType="#//MethodConfiguration"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CapabilityPattern" eSuperTypes="#//Process"/>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodConfiguration" eSuperTypes="#//MethodUnit">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="methodPluginSelection"
+        ordered="false" lowerBound="1" upperBound="-1" eType="#//MethodPlugin"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="methodPackageSelection"
+        ordered="false" lowerBound="1" upperBound="-1" eType="#//MethodPackage"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="processViews" ordered="false"
+        upperBound="-1" eType="#//ContentCategory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="defaultView" ordered="false"
+        lowerBound="1" eType="#//ContentCategory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseConfigurations" ordered="false"
+        upperBound="-1" eType="#//MethodConfiguration"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subtractedCategory" ordered="false"
+        upperBound="-1" eType="#//ContentCategory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="addedCategory" ordered="false"
+        upperBound="-1" eType="#//ContentCategory"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodPlugin" eSuperTypes="#//MethodUnit #//Package">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="userChangeable" ordered="false"
+        lowerBound="1" eType="#//Boolean" defaultValueLiteral="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="methodPackages" ordered="false"
+        lowerBound="1" upperBound="-1" eType="#//MethodPackage" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bases" ordered="false"
+        upperBound="-1" eType="#//MethodPlugin"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="supporting" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessPlanningTemplate" eSuperTypes="#//Process">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="basedOnProcesses" ordered="false"
+        upperBound="-1" eType="#//Process"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Practice" eSuperTypes="#//Guidance">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subPractices" ordered="false"
+        upperBound="-1" eType="#//Practice" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contentReferences" ordered="false"
+        upperBound="-1" eType="#//ContentElement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="activityReferences" ordered="false"
+        upperBound="-1" eType="#//Activity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BreakdownElementDescription" eSuperTypes="#//ContentDescription">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="usageGuidance" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ActivityDescription" eSuperTypes="#//BreakdownElementDescription">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="purpose" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="alternatives" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="howtoStaff" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DeliveryProcessDescription" eSuperTypes="#//ProcessDescription">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="scale" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectCharacteristics"
+        ordered="false" eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="riskLevel" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="estimatingTechnique" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectMemberExpertise"
+        ordered="false" eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="typeOfContract" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessDescription" eSuperTypes="#//ActivityDescription">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="scope" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="usageNotes" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DescriptorDescription" eSuperTypes="#//BreakdownElementDescription">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refinedDescription" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessComponentDescriptor" eSuperTypes="#//Descriptor">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="_processComponent" ordered="false"
+        unique="false" lowerBound="1" eType="#//ProcessComponent"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessComponent" eSuperTypes="#//ProcessPackage #//MethodUnit">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfaces" ordered="false"
+        lowerBound="1" upperBound="-1" eType="#//ProcessComponentInterface"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="process" ordered="false"
+        lowerBound="1" eType="#//Process" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessPackage" eSuperTypes="#//MethodPackage">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="processElements" ordered="false"
+        upperBound="-1" eType="#//ProcessElement" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="diagrams" ordered="false"
+        upperBound="-1" eType="#//Diagram" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Diagram" eSuperTypes="#//GraphNode">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="diagramLink" ordered="false"
+        upperBound="-1" eType="#//DiagramLink" eOpposite="#//DiagramLink/diagram"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="namespace" ordered="false"
+        lowerBound="1" eType="#//SemanticModelBridge" containment="true" eOpposite="#//SemanticModelBridge/diagram"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="zoom" ordered="false" eType="#//Double"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="viewpoint" ordered="false"
+        lowerBound="1" eType="#//Point"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GraphNode" eSuperTypes="#//GraphElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="size" ordered="false" lowerBound="1"
+        eType="#//Dimension"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GraphElement" abstract="true" eSuperTypes="#//DiagramElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contained" ordered="false"
+        upperBound="-1" eType="#//DiagramElement" containment="true" eOpposite="#//DiagramElement/container"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="position" ordered="false"
+        lowerBound="1" eType="#//Point"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="link" ordered="false" upperBound="-1"
+        eType="#//DiagramLink" containment="true" eOpposite="#//DiagramLink/graphElement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="anchorage" ordered="false"
+        upperBound="-1" eType="#//GraphConnector" containment="true" eOpposite="#//GraphConnector/graphElement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="semanticModel" ordered="false"
+        lowerBound="1" eType="#//SemanticModelBridge" containment="true" eOpposite="#//SemanticModelBridge/graphElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DiagramElement" abstract="true" eSuperTypes="#//MethodElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isVisible" ordered="false"
+        lowerBound="1" eType="#//Boolean" defaultValueLiteral="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="container" ordered="false"
+        eType="#//GraphElement" eOpposite="#//GraphElement/contained"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="reference" ordered="false"
+        upperBound="-1" eType="#//Reference" eOpposite="#//Reference/referenced"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="property" ordered="false"
+        upperBound="-1" eType="#//Property" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Reference" eSuperTypes="#//DiagramElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isIndividualRepresentation"
+        ordered="false" lowerBound="1" eType="#//Boolean" defaultValueLiteral="false"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="referenced" ordered="false"
+        lowerBound="1" eType="#//DiagramElement" eOpposite="#//DiagramElement/reference"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property" eSuperTypes="#//DiagramElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key" ordered="false" eType="#//String"
+        defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="x" ordered="false" lowerBound="1"
+        eType="#//Double"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="y" ordered="false" lowerBound="1"
+        eType="#//Double"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DiagramLink" eSuperTypes="#//DiagramElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="zoom" ordered="false" lowerBound="1"
+        eType="#//Double"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="viewport" ordered="false"
+        lowerBound="1" eType="#//Point"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="diagram" ordered="false"
+        lowerBound="1" eType="#//Diagram" eOpposite="#//Diagram/diagramLink"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="graphElement" ordered="false"
+        lowerBound="1" eType="#//GraphElement" eOpposite="#//GraphElement/link"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GraphConnector" eSuperTypes="#//GraphElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="graphEdge" ordered="false"
+        upperBound="-1" eType="#//GraphEdge" eOpposite="#//GraphEdge/anchor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="graphElement" ordered="false"
+        lowerBound="1" eType="#//GraphElement" eOpposite="#//GraphElement/anchorage"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GraphEdge" eSuperTypes="#//GraphElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="waypoints" ordered="false"
+        lowerBound="2" upperBound="-1" eType="#//Point" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="anchor" ordered="false"
+        lowerBound="2" upperBound="2" eType="#//GraphConnector" eOpposite="#//GraphConnector/graphEdge"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SemanticModelBridge" abstract="true"
+      eSuperTypes="#//DiagramElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="presentation" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="diagram" ordered="false"
+        eType="#//Diagram" eOpposite="#//Diagram/namespace"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="graphElement" ordered="false"
+        eType="#//GraphElement" eOpposite="#//GraphElement/semanticModel"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Dimension">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="width" ordered="false"
+        lowerBound="1" eType="#//Double"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="height" ordered="false"
+        lowerBound="1" eType="#//Double"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessComponentInterface" eSuperTypes="#//BreakdownElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfaceSpecifications"
+        ordered="false" upperBound="-1" eType="#//TaskDescriptor" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfaceIO" ordered="false"
+        upperBound="-1" eType="#//WorkProductDescriptor" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SimpleSemanticModelElement" eSuperTypes="#//SemanticModelBridge">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="typeInfo" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UMASemanticModelBridge" eSuperTypes="#//SemanticModelBridge">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="element" ordered="false"
+        lowerBound="1" eType="#//MethodElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CoreSemanticModelBridge" eSuperTypes="#//SemanticModelBridge">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="element" ordered="false"
+        lowerBound="1" eType="#//Element"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LeafElement" abstract="true" eSuperTypes="#//DiagramElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TextElement" eSuperTypes="#//LeafElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" ordered="false" eType="#//String"
+        defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Image" eSuperTypes="#//LeafElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="uri" ordered="false" eType="#//Uri"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mimeType" ordered="false"
+        eType="#//String" defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GraphicPrimitive" abstract="true" eSuperTypes="#//LeafElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Polyline" eSuperTypes="#//GraphicPrimitive">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="closed" ordered="false"
+        lowerBound="1" eType="#//Boolean" defaultValueLiteral="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="waypoints" ordered="false"
+        lowerBound="2" upperBound="-1" eType="#//Point" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Ellipse" eSuperTypes="#//GraphicPrimitive">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="center" ordered="false"
+        lowerBound="1" eType="#//Point"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="radiusX" ordered="false"
+        lowerBound="1" eType="#//Double"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="radiusY" ordered="false"
+        lowerBound="1" eType="#//Double"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rotation" ordered="false"
+        lowerBound="1" eType="#//Double"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startAngle" ordered="false"
+        lowerBound="1" eType="#//Double"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endAngle" ordered="false"
+        lowerBound="1" eType="#//Double"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessFamily" eSuperTypes="#//MethodConfiguration">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="deliveryProcesses" ordered="false"
+        upperBound="-1" eType="#//DeliveryProcess"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodLibrary" eSuperTypes="#//MethodUnit #//Package">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="methodPlugins" ordered="false"
+        upperBound="-1" eType="#//MethodPlugin" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="predefinedConfigurations"
+        ordered="false" upperBound="-1" eType="#//MethodConfiguration" containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>

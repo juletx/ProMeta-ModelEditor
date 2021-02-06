@@ -12,9 +12,9 @@
             id="org.eclipse.emf.ecore.Wizard.category.ID"
             name="%_UI_Wizard_category"/>
       <wizard
-            id="org.eclipse.epf.uma.presentation.UmaModelWizardID"
+            id="uma.presentation.UmaModelWizardID"
             name="%_UI_UmaModelWizard_label"
-            class="org.eclipse.epf.uma.presentation.UmaModelWizard"
+            class="uma.presentation.UmaModelWizard"
             category="org.eclipse.emf.ecore.Wizard.category.ID"
             icon="icons/full/obj16/UmaModelFile.gif">
          <description>%_UI_UmaModelWizard_description</description>
@@ -25,12 +25,12 @@
    <extension point="org.eclipse.ui.editors">
       <!-- @generated uma -->
       <editor
-            id="org.eclipse.epf.uma.presentation.UmaEditorID"
+            id="uma.presentation.UmaEditorID"
             name="%_UI_UmaEditor_label"
             icon="icons/full/obj16/UmaModelFile.gif"
             extensions="uma"
-            class="org.eclipse.epf.uma.presentation.UmaEditor"
-            contributorClass="org.eclipse.epf.uma.presentation.UmaActionBarContributor">
+            class="uma.presentation.UmaEditor"
+            contributorClass="uma.presentation.UmaActionBarContributor">
       </editor>
    </extension>
 

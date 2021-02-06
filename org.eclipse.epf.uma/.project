@@ -22,13 +22,13 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>org.eclipse.pde.PluginNature</nature>
-		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.sirius.nature.modelingproject</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.pde.PluginNature</nature>
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1612552145902</id>
+			<id>0</id>
 			<name></name>
 			<type>30</type>
 			<matcher>

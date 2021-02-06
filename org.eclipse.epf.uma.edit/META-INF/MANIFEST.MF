@@ -3,18 +3,14 @@ Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-SymbolicName: org.eclipse.epf.uma.edit;singleton:=true
 Automatic-Module-Name: org.eclipse.epf.uma.edit
-Bundle-ClassPath: umaedit.jar
-Bundle-Version: 1.5.0.qualifier
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Activator: uma.provider.UmaEditPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: uma.provider
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.epf.uma;visibility:=reexport,
- org.eclipse.emf.edit;visibility:=reexport,
- org.eclipse.epf.uma;visibility:=reexport,
- org.eclipse.epf.uma.ecore,
- org.eclipse.emf.ecore
+ org.eclipse.emf.edit;visibility:=reexport
 Bundle-ActivationPolicy: lazy
-Eclipse-LazyStart: true
-Export-Package: org.eclipse.epf.uma.provider
-Bundle-Activator: org.eclipse.epf.uma.provider.UmaEditPlugin$Implementation
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
