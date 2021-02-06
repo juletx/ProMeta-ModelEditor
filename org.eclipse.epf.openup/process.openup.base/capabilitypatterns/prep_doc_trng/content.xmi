@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fz8LKMHNt9wb0sZo4mO04w" name="01_01_create_update_product_documenation,_VpCWQPd3EeCFmpfCmMPILg" guid="-fz8LKMHNt9wb0sZo4mO04w">
+    <refinedDescription>&lt;p>&#xD;
+    Development team members sometimes take documentation for granted, or do not give it enough consideration. However,&#xD;
+    after a product is delivered, Customers who pay for the system and for support often do not have enough information to&#xD;
+    effectively manage the product.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If a Technical Writer is made available to a development team, that role often takes the burden off the team for&#xD;
+    developing the formal product documentation and for ensuring that it is in the correct format and business language. If&#xD;
+    a Technical Writer is not available, the development team and Product Owner must make every effort to create enough&#xD;
+    documentation to ensure that the features that have been developed for each Release are understood and can be&#xD;
+    communicated effectively by the paying Customer to their stakeholders.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Delivering a professionally developed product requires that a development team provide the Customer with accurate,&#xD;
+    detailed, and comprehensive product documentation.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-h5qFmsSg2p-6LPnB_IUogA" name="01_02_create_update_user_documenation,_VpC9UPd3EeCFmpfCmMPILg" guid="-h5qFmsSg2p-6LPnB_IUogA">
+    <refinedDescription>&lt;p>&#xD;
+    User documentation might include all or parts of user manuals (electronic or paper-based), tutorials, frequently asked&#xD;
+    questions (FAQs), on-line Help Files, installation instructions, operational procedures, etc. User documentation often&#xD;
+    is used as the basis for training materials - if the documentation is of poor quality, the training materials might not&#xD;
+    be any better.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Without good user documentation, a system might be well developed by a development team but might not meet the End User's&#xD;
+    expectations because they will not be able operate the application effectively.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gdsRvq0kijdAY9bJ0FONYg" name="01_03_create_update_support_documenation,_VpC9Ufd3EeCFmpfCmMPILg" guid="-gdsRvq0kijdAY9bJ0FONYg">
+    <refinedDescription>&lt;p>&#xD;
+    Support documentation often is the most overlooked aspect of a documentation effort. Anyone who has had the opportunity&#xD;
+    to provide End User support for a particular application can appreciate how important effective, well-written support&#xD;
+    documentation can be. This documentation very often is technical in nature and differs significantly from user or&#xD;
+    product documentation, which normally is written for the lay person.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The development team should do its best to make sure that personnel who perform an IT support role have the right amount and&#xD;
+    the relevant type of information necessary to support the application, whether they provide Tier 1, Tier 2, or Tier 3&#xD;
+    support. Support documentation often is developed based on these three different support categories. How&#xD;
+    effectively the code base is commented and the ease with which those comments are found and understood contributes to&#xD;
+    the quality and quantity of support documentation.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_kmWRdAS15z9HHQOi2bRUw" name="product_documentation,_VpJD8Pd3EeCFmpfCmMPILg" guid="-_kmWRdAS15z9HHQOi2bRUw">
+    <refinedDescription>&lt;p>&#xD;
+    Product documentation is created for the benefit of the marketing arm of an organization, the Program Manager, and&#xD;
+    those people who must assess the business value of a particular system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an often overlooked aspect of development team implementation. The team should consider that the customers of a&#xD;
+    particular Release usually are not technical themselves, but do require a detailed enough understanding of how their&#xD;
+    product operates and how it meets stated business goals and needs.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pyRevWV0HtFS5y1wBPcCjw" name="user_documentation,_VpJD8vd3EeCFmpfCmMPILg" guid="-pyRevWV0HtFS5y1wBPcCjw">
+    <refinedDescription>&lt;p>&#xD;
+    User documentation might include all or parts of user manuals (electronic or paper-based), tutorials, frequently asked&#xD;
+    questions (FAQs), on-line Help Files, installation instructions, work instructions, operational procedures, etc.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-48XjWeRRpF2qfA3kioGYSA" name="support_documentation,_VpJD9Pd3EeCFmpfCmMPILg" guid="-48XjWeRRpF2qfA3kioGYSA">
+    <refinedDescription>&lt;p>&#xD;
+    Support documentation usually is developed for the three common tiers of a support organization. Tier 1 typically is&#xD;
+    the Help Desk where users call when they have a problem with a particular system. Tier 1 support personnel&#xD;
+    normally answer basic questions and, if necessary, log a ticket and escalate it to the appropriate Level 2 support&#xD;
+    desk.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Tier 2 support personnel may deal with more complex questions or issues regarding an application and might need to&#xD;
+    do some research on the characteristics of the system to provide an answer. If that person cannot resolve the&#xD;
+    issue, the ticket is escalated to Tier 3 support personnel who have a deeper understanding of the application's&#xD;
+    code and the technology support the system's architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To properly convey the necessary information to each support tier, the application's code base should be well commented&#xD;
+    and logically organized. This approach will facilitate the development of the support documentation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Support documentation typically includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        User manuals with work instructions, process descriptions, and procedures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Communications, training, and knowledge transfer deliverables&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Support and operations manuals&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service information, including Help Desk scripts&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LQefSmUJtkoZkQhMtmQpfg" name="develop_training_materials,_ofI9sJlWEeGlkdGl1HQlDA" guid="-LQefSmUJtkoZkQhMtmQpfg">
+    <refinedDescription>&lt;p>&#xD;
+    Having the correct amount and type of materials available to adequately train End Users and supporters of an&#xD;
+    application is necessary to promote usability and to achieve the desired business value. If a Course Developer is&#xD;
+    available, they can assume most of the burden of creating the training materials, lab exercises, and workshops&amp;nbsp;for&#xD;
+    delivery of&amp;nbsp;those courses to either End Users or support personnel. If a Course Developer is not&#xD;
+    available,&amp;nbsp;Development team members should take the time to properly develop a suite of training materials for the&#xD;
+    feature set developed during a Release.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Although different parts of training materials should be created during Feature Development Sprint/Iterations, the bulk of the&#xD;
+    work (and the integration of the materials) usually is reserved for the Release Sprint/Iteration that occurs immediately before a&#xD;
+    scheduled Release.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-81zxeCXkSnPW-ndmULZWlQ" name="training_materials,_ofSHoplWEeGlkdGl1HQlDA" guid="-81zxeCXkSnPW-ndmULZWlQ">
+    <refinedDescription>&lt;p>&#xD;
+    Training materials that can be used to train end users and production support personnel might consist of:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Presentation slides&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Handouts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Job aids&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Tutorials&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        On-line demos&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Video vignettes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Lab exercises&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Quizzes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Workshop materials, etc.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-yeqVyv9laglLKJHLoavEgA" name="prepare_product_documentation,_NTPI8fd3EeCFmpfCmMPILg" guid="-yeqVyv9laglLKJHLoavEgA"/>
+</xmi:XMI>

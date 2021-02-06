@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>ExportLib175766d21f4</name>
+	<name>org.eclipse.epf.uma.openup</name>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
 	</buildSpec>
 	<natures>
-		<nature>org.eclipse.epf.library.project.MethodLibraryProjectNature</nature>
 	</natures>
 </projectDescription>
