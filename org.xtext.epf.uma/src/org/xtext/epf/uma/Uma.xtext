@@ -118,7 +118,10 @@ Element returns Element:
 	Package_Impl | Constraint | MethodElementProperty | Kind | ContentDescription_Impl | SupportingMaterial | Section_Impl | Concept_Impl | Checklist | Guideline | Example | ReusableAsset | TermDefinition | ApplicableMetaClassInfo | Artifact | WorkProduct_Impl | FulfillableElement_Impl | Report | Template | ToolMentor | EstimationConsiderations | Deliverable | Outcome | Step | Whitepaper | Task | Role | ArtifactDescription | WorkProductDescription_Impl | DeliverableDescription | RoleDescription | TaskDescription | GuidanceDescription | PracticeDescription | RoleSet | Domain | WorkProductType | DisciplineGrouping | Discipline | Activity_Impl | PlanningData | WorkOrder | Roadmap | Tool | RoleSetGrouping | CustomCategory | ContentPackage | Milestone | WorkProductDescriptor | Iteration | Phase | TeamProfile | RoleDescriptor_Impl | TaskDescriptor | CompositeRole | DeliveryProcess | CapabilityPattern | MethodConfiguration_Impl | MethodPlugin | ProcessPlanningTemplate | Practice | BreakdownElementDescription_Impl | ActivityDescription_Impl | DeliveryProcessDescription | ProcessDescription_Impl | DescriptorDescription | ProcessComponentDescriptor | ProcessComponent | ProcessPackage_Impl | Diagram | GraphNode_Impl | Reference | Property | DiagramLink | GraphConnector | GraphEdge | ProcessComponentInterface | SimpleSemanticModelElement | UMASemanticModelBridge | CoreSemanticModelBridge | TextElement | Image | Polyline | Ellipse | ProcessFamily | MethodLibrary;
 
 String0 returns String:
-	'String' /* TODO: implement this rule and an appropriate IValueConverter */;
+	STRING | ID;
+	
+EString returns ecore::EString:
+	STRING | ID;
 
 ContentPackage returns ContentPackage:
 	'ContentPackage'
@@ -279,7 +282,7 @@ Kind returns Kind:
 	'}';
 
 Boolean returns Boolean:
-	'Boolean' /* TODO: implement this rule and an appropriate IValueConverter */;
+	'true' | 'false';
 
 ContentDescription_Impl returns ContentDescription:
 	'ContentDescription'
@@ -306,7 +309,7 @@ ContentDescription_Impl returns ContentDescription:
 	'}';
 
 Uri returns Uri:
-	'Uri' /* TODO: implement this rule and an appropriate IValueConverter */;
+	STRING;
 
 enum VariabilityType returns VariabilityType:
 				na = 'na' | contributes = 'contributes' | extends = 'extends' | replaces = 'replaces' | localContribution = 'localContribution' | localReplacement = 'localReplacement' | extendsReplaces = 'extendsReplaces';
@@ -509,7 +512,14 @@ ApplicableMetaClassInfo returns ApplicableMetaClassInfo:
 	'}';
 
 Date returns Date:
-	'Date' /* TODO: implement this rule and an appropriate IValueConverter */;
+	DAY '-' MONTH '-' YEAR;
+
+terminal DAY:
+    '0' '1'..'9' | '1'..'2' '0'..'9' | '3' '0'..'1';
+terminal MONTH:
+    '0' '1'..'9' | '1' '0'..'2';
+terminal YEAR:
+    '1'..'2' '0'..'9' '0'..'9' '0'..'9';
 
 Section_Impl returns Section:
 	'Section'
@@ -2210,7 +2220,7 @@ ProcessComponentInterface returns ProcessComponentInterface:
 	'}';
 
 Integer returns Integer:
-	'Integer' /* TODO: implement this rule and an appropriate IValueConverter */;
+	INT;
 
 enum WorkOrderType returns WorkOrderType:
 				finishToStart = 'finishToStart' | finishToFinish = 'finishToFinish' | startToStart = 'startToStart' | startToFinish = 'startToFinish';
@@ -2394,7 +2404,7 @@ Dimension returns Dimension:
 	'}';
 
 Double returns Double:
-	'Double' /* TODO: implement this rule and an appropriate IValueConverter */;
+	INT '.' INT;
 
 GraphNode_Impl returns GraphNode:
 	'GraphNode'
