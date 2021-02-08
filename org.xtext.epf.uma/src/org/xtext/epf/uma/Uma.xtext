@@ -548,6 +548,9 @@ ApplicableMetaClassInfo returns ApplicableMetaClassInfo:
 	'}';
 
 Date returns Date:
+	DAYMONTHYEAR;
+	
+terminal DAYMONTHYEAR:
 	DAY '-' MONTH '-' YEAR;
 
 terminal DAY:
