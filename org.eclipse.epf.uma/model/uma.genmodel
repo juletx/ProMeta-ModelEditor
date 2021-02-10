@@ -159,7 +159,7 @@
     <genClasses ecoreClass="uma.ecore#//WorkProductDescription">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uma.ecore#//WorkProductDescription/purpose"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uma.ecore#//WorkProductDescription/impactOfNotHaving"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uma.ecore#//WorkProductDescription/reasonsForNotNeeding"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uma.ecore#//WorkProductDescription/"/>
     </genClasses>
     <genClasses ecoreClass="uma.ecore#//DeliverableDescription">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uma.ecore#//DeliverableDescription/externalDescription"/>
