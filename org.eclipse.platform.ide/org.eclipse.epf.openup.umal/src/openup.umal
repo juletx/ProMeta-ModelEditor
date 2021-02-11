@@ -1,0 +1,3 @@
+MethodLibrary String {
+	suppressed Boolean
+}

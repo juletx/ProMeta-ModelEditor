@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.eclipse.xtext.uma.ui
+Bundle-ManifestVersion: 2
+Bundle-Name: org.eclipse.xtext.uma.ui
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.eclipse.xtext.uma.ui; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext.uma,
+ org.eclipse.xtext.uma.ide,
+ org.eclipse.epf.uma,
+ org.eclipse.xtext.ui,
+ org.eclipse.xtext.ui.shared,
+ org.eclipse.xtext.ui.codetemplates.ui,
+ org.eclipse.ui.editors;bundle-version="3.5.0",
+ org.eclipse.ui.ide;bundle-version="3.5.0",
+ org.eclipse.ui,
+ org.eclipse.compare,
+ org.eclipse.xtext.builder
+Import-Package: org.apache.log4j
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: org.eclipse.xtext.uma.ui.internal,
+ org.eclipse.xtext.uma.ui.quickfix,
+ org.eclipse.xtext.uma.ui.contentassist
+Bundle-Activator: org.eclipse.xtext.uma.ui.internal.UmaActivator
