@@ -5,8 +5,8 @@
     importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
     operationReflection="true" importOrganizing="true">
   <foreignModel>uma.ecore</foreignModel>
-  <genPackages prefix="Uma" disposableProviderFactory="true" loadInitialization="true"
-      literalsInterface="false" ecorePackage="uma.ecore#/">
+  <genPackages prefix="Uma" basePackage="org.eclipse.epf" disposableProviderFactory="true"
+      loadInitialization="true" literalsInterface="false" ecorePackage="uma.ecore#/">
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="uma.ecore#//VariabilityType">
       <genEnumLiterals ecoreEnumLiteral="uma.ecore#//VariabilityType/na"/>
       <genEnumLiterals ecoreEnumLiteral="uma.ecore#//VariabilityType/contributes"/>
@@ -159,7 +159,7 @@
     <genClasses ecoreClass="uma.ecore#//WorkProductDescription">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uma.ecore#//WorkProductDescription/purpose"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uma.ecore#//WorkProductDescription/impactOfNotHaving"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uma.ecore#//WorkProductDescription/"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uma.ecore#//WorkProductDescription/reasonsForNotNeeding"/>
     </genClasses>
     <genClasses ecoreClass="uma.ecore#//DeliverableDescription">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uma.ecore#//DeliverableDescription/externalDescription"/>

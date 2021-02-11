@@ -10,7 +10,7 @@
       <!-- @generated uma -->
       <factory
             uri="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore"
-            class="uma.provider.UmaItemProviderAdapterFactory"
+            class="org.eclipse.epf.uma.provider.UmaItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
                org.eclipse.emf.edit.provider.IStructuredItemContentProvider

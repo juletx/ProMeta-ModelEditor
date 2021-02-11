@@ -8,9 +8,9 @@ Bundle-ClassPath: .
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Export-Package: uma,
- uma.impl,
- uma.util
+Export-Package: org.eclipse.epf.uma,
+ org.eclipse.epf.uma.impl,
+ org.eclipse.epf.uma.util
 Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,
  org.eclipse.emf.ecore.xmi;visibility:=reexport,
  org.eclipse.core.runtime

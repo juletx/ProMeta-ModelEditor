@@ -5,11 +5,11 @@ Bundle-SymbolicName: org.eclipse.epf.uma.editor;singleton:=true
 Automatic-Module-Name: org.eclipse.epf.uma.editor
 Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: .
-Bundle-Activator: uma.presentation.UmaEditorPlugin$Implementation
+Bundle-Activator: org.eclipse.epf.uma.presentation.UmaEditorPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-11
-Export-Package: uma.presentation
+Export-Package: org.eclipse.epf.uma.presentation
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.core.resources;visibility:=reexport,
  org.eclipse.epf.uma.edit;visibility:=reexport,

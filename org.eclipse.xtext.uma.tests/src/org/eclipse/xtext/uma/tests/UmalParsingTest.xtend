@@ -10,7 +10,7 @@ import org.eclipse.xtext.testing.util.ParseHelper
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.^extension.ExtendWith
-import uma.MethodLibrary
+import org.eclipse.epf.uma.MethodLibrary
 
 @ExtendWith(InjectionExtension)
 @InjectWith(UmalInjectorProvider)

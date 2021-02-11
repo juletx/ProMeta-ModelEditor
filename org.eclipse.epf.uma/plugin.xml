@@ -10,7 +10,7 @@
       <!-- @generated uma -->
       <package
             uri="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore"
-            class="uma.UmaPackage"
+            class="org.eclipse.epf.uma.UmaPackage"
             genModel="model/uma.genmodel"/>
    </extension>
 
