@@ -1,3 +1,4 @@
 MethodLibrary String {
 	suppressed Boolean
+	version String
 }
