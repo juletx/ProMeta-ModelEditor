@@ -26,9 +26,9 @@ public class UmalTranslator {
 		ResourceSet resourceSet = injector.getInstance(ResourceSet.class);
 		
 		String directory = "C:\\Users\\julet\\GitHub\\ProMeta-ModelEditor\\org.eclipse.platform.ide\\org.eclipse.epf.openup.umal\\src";
-		String inputURI = "file:///" + directory + "/openup.umal";
-		String outputURI = "file:///" + directory + "/openup.uma";
-		    
+		String inputURI = "file:///" + directory + "/openup.uma";
+		String outputURI = "file:///" + directory + "/openup.umal";
+		
 		Resource resource = resourceSet.getResource(URI.createURI(inputURI), true);
 		resource.load(null);
 		EcoreUtil.resolveAll(resourceSet);

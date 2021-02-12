@@ -1,4 +1,10 @@
-MethodLibrary String {
+MethodLibrary String { 
 	suppressed Boolean
 	version String
+	methodElementProperty {
+		MethodElementProperty {
+			name String
+			value String
+		}
+	}
 }
