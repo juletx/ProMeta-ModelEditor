@@ -17,8 +17,8 @@ MethodLibrary returns MethodLibrary:
 		('changeDate' changeDate=Date)?
 		('changeDescription' changeDescription=String0)?
 		('version' version=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('methodPlugins' '{' methodPlugins+=MethodPlugin ( "," methodPlugins+=MethodPlugin)* '}' )?
@@ -144,7 +144,7 @@ Constraint returns Constraint:
 		'suppressed' suppressed=Boolean
 		('orderingGuide' orderingGuide=String0)?
 		('body' body=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 	'}';
@@ -170,15 +170,15 @@ Kind returns Kind:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -213,15 +213,15 @@ SupportingMaterial returns SupportingMaterial:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -242,9 +242,9 @@ MethodPlugin returns MethodPlugin:
 		('changeDescription' changeDescription=String0)?
 		('version' version=String0)?
 		'userChangeable' userChangeable=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
-		('bases' '(' bases+=[MethodPlugin|EString] ( "," bases+=[MethodPlugin|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
+		('bases' '(' bases+=[MethodPlugin] ( "," bases+=[MethodPlugin])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		'methodPackages' '{' methodPackages+=MethodPackage ( "," methodPackages+=MethodPackage)* '}' 
@@ -263,15 +263,15 @@ MethodConfiguration_Impl returns MethodConfiguration:
 		('changeDate' changeDate=Date)?
 		('changeDescription' changeDescription=String0)?
 		('version' version=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
-		'methodPluginSelection' '(' methodPluginSelection+=[MethodPlugin|EString] ( "," methodPluginSelection+=[MethodPlugin|EString])* ')' 
-		'methodPackageSelection' '(' methodPackageSelection+=[MethodPackage|EString] ( "," methodPackageSelection+=[MethodPackage|EString])* ')' 
-		('processViews' '(' processViews+=[ContentCategory|EString] ( "," processViews+=[ContentCategory|EString])* ')' )?
-		'defaultView' defaultView=[ContentCategory|EString]
-		('baseConfigurations' '(' baseConfigurations+=[MethodConfiguration|EString] ( "," baseConfigurations+=[MethodConfiguration|EString])* ')' )?
-		('subtractedCategory' '(' subtractedCategory+=[ContentCategory|EString] ( "," subtractedCategory+=[ContentCategory|EString])* ')' )?
-		('addedCategory' '(' addedCategory+=[ContentCategory|EString] ( "," addedCategory+=[ContentCategory|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
+		'methodPluginSelection' '(' methodPluginSelection+=[MethodPlugin] ( "," methodPluginSelection+=[MethodPlugin])* ')' 
+		'methodPackageSelection' '(' methodPackageSelection+=[MethodPackage] ( "," methodPackageSelection+=[MethodPackage])* ')' 
+		('processViews' '(' processViews+=[ContentCategory] ( "," processViews+=[ContentCategory])* ')' )?
+		'defaultView' defaultView=[ContentCategory]
+		('baseConfigurations' '(' baseConfigurations+=[MethodConfiguration] ( "," baseConfigurations+=[MethodConfiguration])* ')' )?
+		('subtractedCategory' '(' subtractedCategory+=[ContentCategory] ( "," subtractedCategory+=[ContentCategory])* ')' )?
+		('addedCategory' '(' addedCategory+=[ContentCategory] ( "," addedCategory+=[ContentCategory])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 	'}';
@@ -293,8 +293,8 @@ ContentDescription_Impl returns ContentDescription:
 		('externalId' externalId=String0)?
 		('keyConsiderations' keyConsiderations=String0)?
 		'longPresentationName' longPresentationName=String0
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('sections' '{' sections+=Section ( "," sections+=Section)* '}' )?
@@ -319,15 +319,15 @@ Concept_Impl returns Concept:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -346,15 +346,15 @@ Checklist returns Checklist:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -373,15 +373,15 @@ Guideline returns Guideline:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -400,15 +400,15 @@ Example returns Example:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -427,15 +427,15 @@ ReusableAsset returns ReusableAsset:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -454,15 +454,15 @@ TermDefinition returns TermDefinition:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -488,9 +488,9 @@ Section_Impl returns Section:
 		'variabilityType' variabilityType=VariabilityType
 		('sectionName' sectionName=String0)?
 		('sectionDescription' sectionDescription=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('predecessor' predecessor=[Section|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('predecessor' predecessor=[Section])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('subSections' '{' subSections+=Section ( "," subSections+=Section)* '}' )?
@@ -520,8 +520,8 @@ ArtifactDescription returns ArtifactDescription:
 		('representationOptions' representationOptions=String0)?
 		('representation' representation=String0)?
 		('notation' notation=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('sections' '{' sections+=Section ( "," sections+=Section)* '}' )?
@@ -547,8 +547,8 @@ WorkProductDescription_Impl returns WorkProductDescription:
 		('purpose' purpose=String0)?
 		('impactOfNotHaving' impactOfNotHaving=String0)?
 		('reasonsForNotNeeding' reasonsForNotNeeding=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('sections' '{' sections+=Section ( "," sections+=Section)* '}' )?
@@ -576,8 +576,8 @@ DeliverableDescription returns DeliverableDescription:
 		('reasonsForNotNeeding' reasonsForNotNeeding=String0)?
 		('externalDescription' externalDescription=String0)?
 		('packagingGuidance' packagingGuidance=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('sections' '{' sections+=Section ( "," sections+=Section)* '}' )?
@@ -603,8 +603,8 @@ RoleDescription returns RoleDescription:
 		('skills' skills=String0)?
 		('assignmentApproaches' assignmentApproaches=String0)?
 		('synonyms' synonyms=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('sections' '{' sections+=Section ( "," sections+=Section)* '}' )?
@@ -629,8 +629,8 @@ TaskDescription returns TaskDescription:
 		'longPresentationName' longPresentationName=String0
 		('purpose' purpose=String0)?
 		('alternatives' alternatives=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('sections' '{' sections+=Section ( "," sections+=Section)* '}' )?
@@ -654,8 +654,8 @@ GuidanceDescription returns GuidanceDescription:
 		('keyConsiderations' keyConsiderations=String0)?
 		'longPresentationName' longPresentationName=String0
 		('attachments' attachments=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('sections' '{' sections+=Section ( "," sections+=Section)* '}' )?
@@ -684,8 +684,8 @@ PracticeDescription returns PracticeDescription:
 		('goals' goals=String0)?
 		('application' application=String0)?
 		('levelsOfAdoption' levelsOfAdoption=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('sections' '{' sections+=Section ( "," sections+=Section)* '}' )?
@@ -709,8 +709,8 @@ BreakdownElementDescription_Impl returns BreakdownElementDescription:
 		('keyConsiderations' keyConsiderations=String0)?
 		'longPresentationName' longPresentationName=String0
 		('usageGuidance' usageGuidance=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('sections' '{' sections+=Section ( "," sections+=Section)* '}' )?
@@ -737,8 +737,8 @@ ActivityDescription_Impl returns ActivityDescription:
 		('purpose' purpose=String0)?
 		('alternatives' alternatives=String0)?
 		('howtoStaff' howtoStaff=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('sections' '{' sections+=Section ( "," sections+=Section)* '}' )?
@@ -773,8 +773,8 @@ DeliveryProcessDescription returns DeliveryProcessDescription:
 		('estimatingTechnique' estimatingTechnique=String0)?
 		('projectMemberExpertise' projectMemberExpertise=String0)?
 		('typeOfContract' typeOfContract=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('sections' '{' sections+=Section ( "," sections+=Section)* '}' )?
@@ -803,8 +803,8 @@ ProcessDescription_Impl returns ProcessDescription:
 		('howtoStaff' howtoStaff=String0)?
 		('scope' scope=String0)?
 		('usageNotes' usageNotes=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('sections' '{' sections+=Section ( "," sections+=Section)* '}' )?
@@ -829,8 +829,8 @@ DescriptorDescription returns DescriptorDescription:
 		'longPresentationName' longPresentationName=String0
 		('usageGuidance' usageGuidance=String0)?
 		('refinedDescription' refinedDescription=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('sections' '{' sections+=Section ( "," sections+=Section)* '}' )?
@@ -848,9 +848,9 @@ Step returns Step:
 		'variabilityType' variabilityType=VariabilityType
 		('sectionName' sectionName=String0)?
 		('sectionDescription' sectionDescription=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('predecessor' predecessor=[Section|EString])?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('predecessor' predecessor=[Section])?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('subSections' '{' subSections+=Section ( "," subSections+=Section)* '}' )?
@@ -871,20 +871,20 @@ Artifact returns Artifact:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('fulfills' '(' fulfills+=[FulfillableElement|EString] ( "," fulfills+=[FulfillableElement|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('toolMentors' '(' toolMentors+=[ToolMentor|EString] ( "," toolMentors+=[ToolMentor|EString])* ')' )?
-		('estimationConsiderations' '(' estimationConsiderations+=[EstimationConsiderations|EString] ( "," estimationConsiderations+=[EstimationConsiderations|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('fulfills' '(' fulfills+=[FulfillableElement] ( "," fulfills+=[FulfillableElement])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('toolMentors' '(' toolMentors+=[ToolMentor] ( "," toolMentors+=[ToolMentor])* ')' )?
+		('estimationConsiderations' '(' estimationConsiderations+=[EstimationConsiderations] ( "," estimationConsiderations+=[EstimationConsiderations])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -904,20 +904,20 @@ WorkProduct_Impl returns WorkProduct:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('fulfills' '(' fulfills+=[FulfillableElement|EString] ( "," fulfills+=[FulfillableElement|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('toolMentors' '(' toolMentors+=[ToolMentor|EString] ( "," toolMentors+=[ToolMentor|EString])* ')' )?
-		('estimationConsiderations' '(' estimationConsiderations+=[EstimationConsiderations|EString] ( "," estimationConsiderations+=[EstimationConsiderations|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('fulfills' '(' fulfills+=[FulfillableElement] ( "," fulfills+=[FulfillableElement])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('toolMentors' '(' toolMentors+=[ToolMentor] ( "," toolMentors+=[ToolMentor])* ')' )?
+		('estimationConsiderations' '(' estimationConsiderations+=[EstimationConsiderations] ( "," estimationConsiderations+=[EstimationConsiderations])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -936,15 +936,15 @@ Report returns Report:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -963,15 +963,15 @@ Template returns Template:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -990,15 +990,15 @@ ToolMentor returns ToolMentor:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1017,15 +1017,15 @@ EstimationConsiderations returns EstimationConsiderations:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1044,21 +1044,21 @@ Deliverable returns Deliverable:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('fulfills' '(' fulfills+=[FulfillableElement|EString] ( "," fulfills+=[FulfillableElement|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('toolMentors' '(' toolMentors+=[ToolMentor|EString] ( "," toolMentors+=[ToolMentor|EString])* ')' )?
-		('estimationConsiderations' '(' estimationConsiderations+=[EstimationConsiderations|EString] ( "," estimationConsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('deliveredWorkProducts' '(' deliveredWorkProducts+=[WorkProduct|EString] ( "," deliveredWorkProducts+=[WorkProduct|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('fulfills' '(' fulfills+=[FulfillableElement] ( "," fulfills+=[FulfillableElement])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('toolMentors' '(' toolMentors+=[ToolMentor] ( "," toolMentors+=[ToolMentor])* ')' )?
+		('estimationConsiderations' '(' estimationConsiderations+=[EstimationConsiderations] ( "," estimationConsiderations+=[EstimationConsiderations])* ')' )?
+		('deliveredWorkProducts' '(' deliveredWorkProducts+=[WorkProduct] ( "," deliveredWorkProducts+=[WorkProduct])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1077,20 +1077,20 @@ Outcome returns Outcome:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('fulfills' '(' fulfills+=[FulfillableElement|EString] ( "," fulfills+=[FulfillableElement|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('toolMentors' '(' toolMentors+=[ToolMentor|EString] ( "," toolMentors+=[ToolMentor|EString])* ')' )?
-		('estimationConsiderations' '(' estimationConsiderations+=[EstimationConsiderations|EString] ( "," estimationConsiderations+=[EstimationConsiderations|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('fulfills' '(' fulfills+=[FulfillableElement] ( "," fulfills+=[FulfillableElement])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('toolMentors' '(' toolMentors+=[ToolMentor] ( "," toolMentors+=[ToolMentor])* ')' )?
+		('estimationConsiderations' '(' estimationConsiderations+=[EstimationConsiderations] ( "," estimationConsiderations+=[EstimationConsiderations])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1109,15 +1109,15 @@ Whitepaper returns Whitepaper:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1136,22 +1136,22 @@ Task returns Task:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('performedBy' '(' performedBy+=[Role|EString] ( "," performedBy+=[Role|EString])* ')' )?
-		('mandatoryInput' '(' mandatoryInput+=[WorkProduct|EString] ( "," mandatoryInput+=[WorkProduct|EString])* ')' )?
-		('output' '(' output+=[WorkProduct|EString] ( "," output+=[WorkProduct|EString])* ')' )?
-		('additionallyPerformedBy' '(' additionallyPerformedBy+=[Role|EString] ( "," additionallyPerformedBy+=[Role|EString])* ')' )?
-		('optionalInput' '(' optionalInput+=[WorkProduct|EString] ( "," optionalInput+=[WorkProduct|EString])* ')' )?
-		('toolMentors' '(' toolMentors+=[ToolMentor|EString] ( "," toolMentors+=[ToolMentor|EString])* ')' )?
-		('estimationConsiderations' '(' estimationConsiderations+=[EstimationConsiderations|EString] ( "," estimationConsiderations+=[EstimationConsiderations|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('performedBy' '(' performedBy+=[Role] ( "," performedBy+=[Role])* ')' )?
+		('mandatoryInput' '(' mandatoryInput+=[WorkProduct] ( "," mandatoryInput+=[WorkProduct])* ')' )?
+		('output' '(' output+=[WorkProduct] ( "," output+=[WorkProduct])* ')' )?
+		('additionallyPerformedBy' '(' additionallyPerformedBy+=[Role] ( "," additionallyPerformedBy+=[Role])* ')' )?
+		('optionalInput' '(' optionalInput+=[WorkProduct] ( "," optionalInput+=[WorkProduct])* ')' )?
+		('toolMentors' '(' toolMentors+=[ToolMentor] ( "," toolMentors+=[ToolMentor])* ')' )?
+		('estimationConsiderations' '(' estimationConsiderations+=[EstimationConsiderations] ( "," estimationConsiderations+=[EstimationConsiderations])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1172,17 +1172,17 @@ Role returns Role:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('fulfills' '(' fulfills+=[FulfillableElement|EString] ( "," fulfills+=[FulfillableElement|EString])* ')' )?
-		('responsibleFor' '(' responsibleFor+=[WorkProduct|EString] ( "," responsibleFor+=[WorkProduct|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('fulfills' '(' fulfills+=[FulfillableElement] ( "," fulfills+=[FulfillableElement])* ')' )?
+		('responsibleFor' '(' responsibleFor+=[WorkProduct] ( "," responsibleFor+=[WorkProduct])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1201,16 +1201,16 @@ RoleSet returns RoleSet:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('roles' '(' roles+=[Role|EString] ( "," roles+=[Role|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('roles' '(' roles+=[Role] ( "," roles+=[Role])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1229,16 +1229,16 @@ Domain returns Domain:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('workProducts' '(' workProducts+=[WorkProduct|EString] ( "," workProducts+=[WorkProduct|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('workProducts' '(' workProducts+=[WorkProduct] ( "," workProducts+=[WorkProduct])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1258,16 +1258,16 @@ WorkProductType returns WorkProductType:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('workProducts' '(' workProducts+=[WorkProduct|EString] ( "," workProducts+=[WorkProduct|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('workProducts' '(' workProducts+=[WorkProduct] ( "," workProducts+=[WorkProduct])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1286,16 +1286,16 @@ DisciplineGrouping returns DisciplineGrouping:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('disciplines' '(' disciplines+=[Discipline|EString] ( "," disciplines+=[Discipline|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('disciplines' '(' disciplines+=[Discipline] ( "," disciplines+=[Discipline])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1314,17 +1314,17 @@ Discipline returns Discipline:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('tasks' '(' tasks+=[Task|EString] ( "," tasks+=[Task|EString])* ')' )?
-		('referenceWorkflows' '(' referenceWorkflows+=[Activity|EString] ( "," referenceWorkflows+=[Activity|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('tasks' '(' tasks+=[Task] ( "," tasks+=[Task])* ')' )?
+		('referenceWorkflows' '(' referenceWorkflows+=[Activity] ( "," referenceWorkflows+=[Activity])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1351,25 +1351,25 @@ Activity_Impl returns Activity:
 		'isOngoing' isOngoing=Boolean
 		'isEventDriven' isEventDriven=Boolean
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
-		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder|EString] ( "," linkToPredecessor+=[WorkOrder|EString])* ')' )?
-		('fulfills' '(' fulfills+=[FulfillableElement|EString] ( "," fulfills+=[FulfillableElement|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('breakdownElements' '(' breakdownElements+=[BreakdownElement|EString] ( "," breakdownElements+=[BreakdownElement|EString])* ')' )?
-		('roadmaps' '(' roadmaps+=[Roadmap|EString] ( "," roadmaps+=[Roadmap|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
+		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder] ( "," linkToPredecessor+=[WorkOrder])* ')' )?
+		('fulfills' '(' fulfills+=[FulfillableElement] ( "," fulfills+=[FulfillableElement])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('breakdownElements' '(' breakdownElements+=[BreakdownElement] ( "," breakdownElements+=[BreakdownElement])* ')' )?
+		('roadmaps' '(' roadmaps+=[Roadmap] ( "," roadmaps+=[Roadmap])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1391,15 +1391,15 @@ Roadmap returns Roadmap:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1418,16 +1418,16 @@ Tool returns Tool:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('toolMentors' '(' toolMentors+=[ToolMentor|EString] ( "," toolMentors+=[ToolMentor|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('toolMentors' '(' toolMentors+=[ToolMentor] ( "," toolMentors+=[ToolMentor])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1446,16 +1446,16 @@ RoleSetGrouping returns RoleSetGrouping:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('roleSets' '(' roleSets+=[RoleSet|EString] ( "," roleSets+=[RoleSet|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('roleSets' '(' roleSets+=[RoleSet] ( "," roleSets+=[RoleSet])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1474,17 +1474,17 @@ CustomCategory returns CustomCategory:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('categorizedElements' '(' categorizedElements+=[DescribableElement|EString] ( "," categorizedElements+=[DescribableElement|EString])* ')' )?
-		('subCategories' '(' subCategories+=[ContentCategory|EString] ( "," subCategories+=[ContentCategory|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('categorizedElements' '(' categorizedElements+=[DescribableElement] ( "," categorizedElements+=[DescribableElement])* ')' )?
+		('subCategories' '(' subCategories+=[ContentCategory] ( "," subCategories+=[ContentCategory])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1510,25 +1510,25 @@ Iteration returns Iteration:
 		'isOngoing' isOngoing=Boolean
 		'isEventDriven' isEventDriven=Boolean
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
-		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder|EString] ( "," linkToPredecessor+=[WorkOrder|EString])* ')' )?
-		('fulfills' '(' fulfills+=[FulfillableElement|EString] ( "," fulfills+=[FulfillableElement|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('breakdownElements' '(' breakdownElements+=[BreakdownElement|EString] ( "," breakdownElements+=[BreakdownElement|EString])* ')' )?
-		('roadmaps' '(' roadmaps+=[Roadmap|EString] ( "," roadmaps+=[Roadmap|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
+		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder] ( "," linkToPredecessor+=[WorkOrder])* ')' )?
+		('fulfills' '(' fulfills+=[FulfillableElement] ( "," fulfills+=[FulfillableElement])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('breakdownElements' '(' breakdownElements+=[BreakdownElement] ( "," breakdownElements+=[BreakdownElement])* ')' )?
+		('roadmaps' '(' roadmaps+=[Roadmap] ( "," roadmaps+=[Roadmap])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1557,25 +1557,25 @@ Phase returns Phase:
 		'isOngoing' isOngoing=Boolean
 		'isEventDriven' isEventDriven=Boolean
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
-		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder|EString] ( "," linkToPredecessor+=[WorkOrder|EString])* ')' )?
-		('fulfills' '(' fulfills+=[FulfillableElement|EString] ( "," fulfills+=[FulfillableElement|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('breakdownElements' '(' breakdownElements+=[BreakdownElement|EString] ( "," breakdownElements+=[BreakdownElement|EString])* ')' )?
-		('roadmaps' '(' roadmaps+=[Roadmap|EString] ( "," roadmaps+=[Roadmap|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
+		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder] ( "," linkToPredecessor+=[WorkOrder])* ')' )?
+		('fulfills' '(' fulfills+=[FulfillableElement] ( "," fulfills+=[FulfillableElement])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('breakdownElements' '(' breakdownElements+=[BreakdownElement] ( "," breakdownElements+=[BreakdownElement])* ')' )?
+		('roadmaps' '(' roadmaps+=[Roadmap] ( "," roadmaps+=[Roadmap])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1604,30 +1604,30 @@ DeliveryProcess returns DeliveryProcess:
 		'isOngoing' isOngoing=Boolean
 		'isEventDriven' isEventDriven=Boolean
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
-		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder|EString] ( "," linkToPredecessor+=[WorkOrder|EString])* ')' )?
-		('fulfills' '(' fulfills+=[FulfillableElement|EString] ( "," fulfills+=[FulfillableElement|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('breakdownElements' '(' breakdownElements+=[BreakdownElement|EString] ( "," breakdownElements+=[BreakdownElement|EString])* ')' )?
-		('roadmaps' '(' roadmaps+=[Roadmap|EString] ( "," roadmaps+=[Roadmap|EString])* ')' )?
-		('includesPatterns' '(' includesPatterns+=[CapabilityPattern|EString] ( "," includesPatterns+=[CapabilityPattern|EString])* ')' )?
-		'defaultContext' defaultContext=[MethodConfiguration|EString]
-		('validContext' '(' validContext+=[MethodConfiguration|EString] ( "," validContext+=[MethodConfiguration|EString])* ')' )?
-		('educationMaterials' '(' educationMaterials+=[SupportingMaterial|EString] ( "," educationMaterials+=[SupportingMaterial|EString])* ')' )?
-		('communicationsMaterials' '(' communicationsMaterials+=[SupportingMaterial|EString] ( "," communicationsMaterials+=[SupportingMaterial|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
+		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder] ( "," linkToPredecessor+=[WorkOrder])* ')' )?
+		('fulfills' '(' fulfills+=[FulfillableElement] ( "," fulfills+=[FulfillableElement])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('breakdownElements' '(' breakdownElements+=[BreakdownElement] ( "," breakdownElements+=[BreakdownElement])* ')' )?
+		('roadmaps' '(' roadmaps+=[Roadmap] ( "," roadmaps+=[Roadmap])* ')' )?
+		('includesPatterns' '(' includesPatterns+=[CapabilityPattern] ( "," includesPatterns+=[CapabilityPattern])* ')' )?
+		'defaultContext' defaultContext=[MethodConfiguration]
+		('validContext' '(' validContext+=[MethodConfiguration] ( "," validContext+=[MethodConfiguration])* ')' )?
+		('educationMaterials' '(' educationMaterials+=[SupportingMaterial] ( "," educationMaterials+=[SupportingMaterial])* ')' )?
+		('communicationsMaterials' '(' communicationsMaterials+=[SupportingMaterial] ( "," communicationsMaterials+=[SupportingMaterial])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1656,28 +1656,28 @@ CapabilityPattern returns CapabilityPattern:
 		'isOngoing' isOngoing=Boolean
 		'isEventDriven' isEventDriven=Boolean
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
-		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder|EString] ( "," linkToPredecessor+=[WorkOrder|EString])* ')' )?
-		('fulfills' '(' fulfills+=[FulfillableElement|EString] ( "," fulfills+=[FulfillableElement|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('breakdownElements' '(' breakdownElements+=[BreakdownElement|EString] ( "," breakdownElements+=[BreakdownElement|EString])* ')' )?
-		('roadmaps' '(' roadmaps+=[Roadmap|EString] ( "," roadmaps+=[Roadmap|EString])* ')' )?
-		('includesPatterns' '(' includesPatterns+=[CapabilityPattern|EString] ( "," includesPatterns+=[CapabilityPattern|EString])* ')' )?
-		'defaultContext' defaultContext=[MethodConfiguration|EString]
-		('validContext' '(' validContext+=[MethodConfiguration|EString] ( "," validContext+=[MethodConfiguration|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
+		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder] ( "," linkToPredecessor+=[WorkOrder])* ')' )?
+		('fulfills' '(' fulfills+=[FulfillableElement] ( "," fulfills+=[FulfillableElement])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('breakdownElements' '(' breakdownElements+=[BreakdownElement] ( "," breakdownElements+=[BreakdownElement])* ')' )?
+		('roadmaps' '(' roadmaps+=[Roadmap] ( "," roadmaps+=[Roadmap])* ')' )?
+		('includesPatterns' '(' includesPatterns+=[CapabilityPattern] ( "," includesPatterns+=[CapabilityPattern])* ')' )?
+		'defaultContext' defaultContext=[MethodConfiguration]
+		('validContext' '(' validContext+=[MethodConfiguration] ( "," validContext+=[MethodConfiguration])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1706,29 +1706,29 @@ ProcessPlanningTemplate returns ProcessPlanningTemplate:
 		'isOngoing' isOngoing=Boolean
 		'isEventDriven' isEventDriven=Boolean
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
-		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder|EString] ( "," linkToPredecessor+=[WorkOrder|EString])* ')' )?
-		('fulfills' '(' fulfills+=[FulfillableElement|EString] ( "," fulfills+=[FulfillableElement|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('breakdownElements' '(' breakdownElements+=[BreakdownElement|EString] ( "," breakdownElements+=[BreakdownElement|EString])* ')' )?
-		('roadmaps' '(' roadmaps+=[Roadmap|EString] ( "," roadmaps+=[Roadmap|EString])* ')' )?
-		('includesPatterns' '(' includesPatterns+=[CapabilityPattern|EString] ( "," includesPatterns+=[CapabilityPattern|EString])* ')' )?
-		'defaultContext' defaultContext=[MethodConfiguration|EString]
-		('validContext' '(' validContext+=[MethodConfiguration|EString] ( "," validContext+=[MethodConfiguration|EString])* ')' )?
-		('basedOnProcesses' '(' basedOnProcesses+=[Process|EString] ( "," basedOnProcesses+=[Process|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
+		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder] ( "," linkToPredecessor+=[WorkOrder])* ')' )?
+		('fulfills' '(' fulfills+=[FulfillableElement] ( "," fulfills+=[FulfillableElement])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('breakdownElements' '(' breakdownElements+=[BreakdownElement] ( "," breakdownElements+=[BreakdownElement])* ')' )?
+		('roadmaps' '(' roadmaps+=[Roadmap] ( "," roadmaps+=[Roadmap])* ')' )?
+		('includesPatterns' '(' includesPatterns+=[CapabilityPattern] ( "," includesPatterns+=[CapabilityPattern])* ')' )?
+		'defaultContext' defaultContext=[MethodConfiguration]
+		('validContext' '(' validContext+=[MethodConfiguration] ( "," validContext+=[MethodConfiguration])* ')' )?
+		('basedOnProcesses' '(' basedOnProcesses+=[Process] ( "," basedOnProcesses+=[Process])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1750,17 +1750,17 @@ Practice returns Practice:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'variabilityType' variabilityType=VariabilityType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement|EString]
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept|EString] ( "," conceptsAndPapers+=[Concept|EString])* ')' )?
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('assets' '(' assets+=[ReusableAsset|EString] ( "," assets+=[ReusableAsset|EString])* ')' )?
-		('termdefinition' '(' termdefinition+=[TermDefinition|EString] ( "," termdefinition+=[TermDefinition|EString])* ')' )?
-		('contentReferences' '(' contentReferences+=[ContentElement|EString] ( "," contentReferences+=[ContentElement|EString])* ')' )?
-		('activityReferences' '(' activityReferences+=[Activity|EString] ( "," activityReferences+=[Activity|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'variabilityBasedOnElement' variabilityBasedOnElement=[VariabilityElement]
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('conceptsAndPapers' '(' conceptsAndPapers+=[Concept] ( "," conceptsAndPapers+=[Concept])* ')' )?
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('assets' '(' assets+=[ReusableAsset] ( "," assets+=[ReusableAsset])* ')' )?
+		('termdefinition' '(' termdefinition+=[TermDefinition] ( "," termdefinition+=[TermDefinition])* ')' )?
+		('contentReferences' '(' contentReferences+=[ContentElement] ( "," contentReferences+=[ContentElement])* ')' )?
+		('activityReferences' '(' activityReferences+=[Activity] ( "," activityReferences+=[Activity])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1779,8 +1779,8 @@ FulfillableElement_Impl returns FulfillableElement:
 		'isAbstract' isAbstract=Boolean
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('fulfills' '(' fulfills+=[FulfillableElement|EString] ( "," fulfills+=[FulfillableElement|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('fulfills' '(' fulfills+=[FulfillableElement] ( "," fulfills+=[FulfillableElement])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1801,7 +1801,7 @@ PlanningData returns PlanningData:
 		'startDate' startDate=Date
 		'finishDate' finishDate=Date
 		'rank' rank=Integer
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1820,8 +1820,8 @@ WorkOrder returns WorkOrder:
 		('shapeicon' shapeicon=Uri)?
 		('nodeicon' nodeicon=Uri)?
 		'linkType' linkType=WorkOrderType
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		'pred' pred=[WorkBreakdownElement|EString]
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		'pred' pred=[WorkBreakdownElement]
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1846,22 +1846,22 @@ Milestone returns Milestone:
 		'isRepeatable' isRepeatable=Boolean
 		'isOngoing' isOngoing=Boolean
 		'isEventDriven' isEventDriven=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
-		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder|EString] ( "," linkToPredecessor+=[WorkOrder|EString])* ')' )?
-		('requiredResults' '(' requiredResults+=[WorkProductDescriptor|EString] ( "," requiredResults+=[WorkProductDescriptor|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
+		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder] ( "," linkToPredecessor+=[WorkOrder])* ')' )?
+		('requiredResults' '(' requiredResults+=[WorkProductDescriptor] ( "," requiredResults+=[WorkProductDescriptor])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1887,27 +1887,27 @@ WorkProductDescriptor returns WorkProductDescriptor:
 		'isSynchronizedWithSource' isSynchronizedWithSource=Boolean
 		('activityEntryState' activityEntryState=String0)?
 		('activityExitState' activityExitState=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
-		('guidanceExclude' '(' guidanceExclude+=[Guidance|EString] ( "," guidanceExclude+=[Guidance|EString])* ')' )?
-		('guidanceAdditional' '(' guidanceAdditional+=[Guidance|EString] ( "," guidanceAdditional+=[Guidance|EString])* ')' )?
-		('WorkProduct' WorkProduct=[WorkProduct|EString])?
-		('impactedBy' '(' impactedBy+=[WorkProductDescriptor|EString] ( "," impactedBy+=[WorkProductDescriptor|EString])* ')' )?
-		('impacts' '(' impacts+=[WorkProductDescriptor|EString] ( "," impacts+=[WorkProductDescriptor|EString])* ')' )?
-		('deliverableParts' '(' deliverableParts+=[WorkProductDescriptor|EString] ( "," deliverableParts+=[WorkProductDescriptor|EString])* ')' )?
-		('deliverablePartsExclude' '(' deliverablePartsExclude+=[WorkProduct|EString] ( "," deliverablePartsExclude+=[WorkProduct|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
+		('guidanceExclude' '(' guidanceExclude+=[Guidance] ( "," guidanceExclude+=[Guidance])* ')' )?
+		('guidanceAdditional' '(' guidanceAdditional+=[Guidance] ( "," guidanceAdditional+=[Guidance])* ')' )?
+		('WorkProduct' WorkProduct=[WorkProduct])?
+		('impactedBy' '(' impactedBy+=[WorkProductDescriptor] ( "," impactedBy+=[WorkProductDescriptor])* ')' )?
+		('impacts' '(' impacts+=[WorkProductDescriptor] ( "," impacts+=[WorkProductDescriptor])* ')' )?
+		('deliverableParts' '(' deliverableParts+=[WorkProductDescriptor] ( "," deliverableParts+=[WorkProductDescriptor])* ')' )?
+		('deliverablePartsExclude' '(' deliverablePartsExclude+=[WorkProduct] ( "," deliverablePartsExclude+=[WorkProduct])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1930,23 +1930,23 @@ TeamProfile returns TeamProfile:
 		'isPlanned' isPlanned=Boolean
 		'hasMultipleOccurrences' hasMultipleOccurrences=Boolean
 		'isOptional' isOptional=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
-		('teamRoles' '(' teamRoles+=[RoleDescriptor|EString] ( "," teamRoles+=[RoleDescriptor|EString])* ')' )?
-		'superTeam' superTeam=[TeamProfile|EString]
-		('subTeam' '(' subTeam+=[TeamProfile|EString] ( "," subTeam+=[TeamProfile|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
+		('teamRoles' '(' teamRoles+=[RoleDescriptor] ( "," teamRoles+=[RoleDescriptor])* ')' )?
+		'superTeam' superTeam=[TeamProfile]
+		('subTeam' '(' subTeam+=[TeamProfile] ( "," subTeam+=[TeamProfile])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -1970,25 +1970,25 @@ RoleDescriptor_Impl returns RoleDescriptor:
 		'hasMultipleOccurrences' hasMultipleOccurrences=Boolean
 		'isOptional' isOptional=Boolean
 		'isSynchronizedWithSource' isSynchronizedWithSource=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
-		('guidanceExclude' '(' guidanceExclude+=[Guidance|EString] ( "," guidanceExclude+=[Guidance|EString])* ')' )?
-		('guidanceAdditional' '(' guidanceAdditional+=[Guidance|EString] ( "," guidanceAdditional+=[Guidance|EString])* ')' )?
-		('Role' Role=[Role|EString])?
-		('responsibleFor' '(' responsibleFor+=[WorkProductDescriptor|EString] ( "," responsibleFor+=[WorkProductDescriptor|EString])* ')' )?
-		('responsibleForExclude' '(' responsibleForExclude+=[WorkProduct|EString] ( "," responsibleForExclude+=[WorkProduct|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
+		('guidanceExclude' '(' guidanceExclude+=[Guidance] ( "," guidanceExclude+=[Guidance])* ')' )?
+		('guidanceAdditional' '(' guidanceAdditional+=[Guidance] ( "," guidanceAdditional+=[Guidance])* ')' )?
+		('Role' Role=[Role])?
+		('responsibleFor' '(' responsibleFor+=[WorkProductDescriptor] ( "," responsibleFor+=[WorkProductDescriptor])* ')' )?
+		('responsibleForExclude' '(' responsibleForExclude+=[WorkProduct] ( "," responsibleForExclude+=[WorkProduct])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -2015,38 +2015,38 @@ TaskDescriptor returns TaskDescriptor:
 		'isOngoing' isOngoing=Boolean
 		'isEventDriven' isEventDriven=Boolean
 		'isSynchronizedWithSource' isSynchronizedWithSource=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
-		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder|EString] ( "," linkToPredecessor+=[WorkOrder|EString])* ')' )?
-		('guidanceExclude' '(' guidanceExclude+=[Guidance|EString] ( "," guidanceExclude+=[Guidance|EString])* ')' )?
-		('guidanceAdditional' '(' guidanceAdditional+=[Guidance|EString] ( "," guidanceAdditional+=[Guidance|EString])* ')' )?
-		('Task' Task=[Task|EString])?
-		('additionallyPerformedBy' '(' additionallyPerformedBy+=[RoleDescriptor|EString] ( "," additionallyPerformedBy+=[RoleDescriptor|EString])* ')' )?
-		('assistedBy' '(' assistedBy+=[RoleDescriptor|EString] ( "," assistedBy+=[RoleDescriptor|EString])* ')' )?
-		('externalInput' '(' externalInput+=[WorkProductDescriptor|EString] ( "," externalInput+=[WorkProductDescriptor|EString])* ')' )?
-		('mandatoryInput' '(' mandatoryInput+=[WorkProductDescriptor|EString] ( "," mandatoryInput+=[WorkProductDescriptor|EString])* ')' )?
-		('optionalInput' '(' optionalInput+=[WorkProductDescriptor|EString] ( "," optionalInput+=[WorkProductDescriptor|EString])* ')' )?
-		('output' '(' output+=[WorkProductDescriptor|EString] ( "," output+=[WorkProductDescriptor|EString])* ')' )?
-		('performedPrimarilyBy' '(' performedPrimarilyBy+=[RoleDescriptor|EString] ( "," performedPrimarilyBy+=[RoleDescriptor|EString])* ')' )?
-		('selectedSteps' '(' selectedSteps+=[Section|EString] ( "," selectedSteps+=[Section|EString])* ')' )?
-		('performedPrimarilyByExcluded' '(' performedPrimarilyByExcluded+=[Role|EString] ( "," performedPrimarilyByExcluded+=[Role|EString])* ')' )?
-		('additionallyPerformedByExclude' '(' additionallyPerformedByExclude+=[Role|EString] ( "," additionallyPerformedByExclude+=[Role|EString])* ')' )?
-		('mandatoryInputExclude' '(' mandatoryInputExclude+=[WorkProduct|EString] ( "," mandatoryInputExclude+=[WorkProduct|EString])* ')' )?
-		('optionalInputExclude' '(' optionalInputExclude+=[WorkProduct|EString] ( "," optionalInputExclude+=[WorkProduct|EString])* ')' )?
-		('outputExclude' '(' outputExclude+=[WorkProduct|EString] ( "," outputExclude+=[WorkProduct|EString])* ')' )?
-		('selectedStepsExclude' '(' selectedStepsExclude+=[Section|EString] ( "," selectedStepsExclude+=[Section|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
+		('linkToPredecessor' '(' linkToPredecessor+=[WorkOrder] ( "," linkToPredecessor+=[WorkOrder])* ')' )?
+		('guidanceExclude' '(' guidanceExclude+=[Guidance] ( "," guidanceExclude+=[Guidance])* ')' )?
+		('guidanceAdditional' '(' guidanceAdditional+=[Guidance] ( "," guidanceAdditional+=[Guidance])* ')' )?
+		('Task' Task=[Task])?
+		('additionallyPerformedBy' '(' additionallyPerformedBy+=[RoleDescriptor] ( "," additionallyPerformedBy+=[RoleDescriptor])* ')' )?
+		('assistedBy' '(' assistedBy+=[RoleDescriptor] ( "," assistedBy+=[RoleDescriptor])* ')' )?
+		('externalInput' '(' externalInput+=[WorkProductDescriptor] ( "," externalInput+=[WorkProductDescriptor])* ')' )?
+		('mandatoryInput' '(' mandatoryInput+=[WorkProductDescriptor] ( "," mandatoryInput+=[WorkProductDescriptor])* ')' )?
+		('optionalInput' '(' optionalInput+=[WorkProductDescriptor] ( "," optionalInput+=[WorkProductDescriptor])* ')' )?
+		('output' '(' output+=[WorkProductDescriptor] ( "," output+=[WorkProductDescriptor])* ')' )?
+		('performedPrimarilyBy' '(' performedPrimarilyBy+=[RoleDescriptor] ( "," performedPrimarilyBy+=[RoleDescriptor])* ')' )?
+		('selectedSteps' '(' selectedSteps+=[Section] ( "," selectedSteps+=[Section])* ')' )?
+		('performedPrimarilyByExcluded' '(' performedPrimarilyByExcluded+=[Role] ( "," performedPrimarilyByExcluded+=[Role])* ')' )?
+		('additionallyPerformedByExclude' '(' additionallyPerformedByExclude+=[Role] ( "," additionallyPerformedByExclude+=[Role])* ')' )?
+		('mandatoryInputExclude' '(' mandatoryInputExclude+=[WorkProduct] ( "," mandatoryInputExclude+=[WorkProduct])* ')' )?
+		('optionalInputExclude' '(' optionalInputExclude+=[WorkProduct] ( "," optionalInputExclude+=[WorkProduct])* ')' )?
+		('outputExclude' '(' outputExclude+=[WorkProduct] ( "," outputExclude+=[WorkProduct])* ')' )?
+		('selectedStepsExclude' '(' selectedStepsExclude+=[Section] ( "," selectedStepsExclude+=[Section])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -2070,26 +2070,26 @@ CompositeRole returns CompositeRole:
 		'hasMultipleOccurrences' hasMultipleOccurrences=Boolean
 		'isOptional' isOptional=Boolean
 		'isSynchronizedWithSource' isSynchronizedWithSource=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
-		('guidanceExclude' '(' guidanceExclude+=[Guidance|EString] ( "," guidanceExclude+=[Guidance|EString])* ')' )?
-		('guidanceAdditional' '(' guidanceAdditional+=[Guidance|EString] ( "," guidanceAdditional+=[Guidance|EString])* ')' )?
-		('Role' Role=[Role|EString])?
-		('responsibleFor' '(' responsibleFor+=[WorkProductDescriptor|EString] ( "," responsibleFor+=[WorkProductDescriptor|EString])* ')' )?
-		('responsibleForExclude' '(' responsibleForExclude+=[WorkProduct|EString] ( "," responsibleForExclude+=[WorkProduct|EString])* ')' )?
-		('aggregatedRoles' '(' aggregatedRoles+=[Role|EString] ( "," aggregatedRoles+=[Role|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
+		('guidanceExclude' '(' guidanceExclude+=[Guidance] ( "," guidanceExclude+=[Guidance])* ')' )?
+		('guidanceAdditional' '(' guidanceAdditional+=[Guidance] ( "," guidanceAdditional+=[Guidance])* ')' )?
+		('Role' Role=[Role])?
+		('responsibleFor' '(' responsibleFor+=[WorkProductDescriptor] ( "," responsibleFor+=[WorkProductDescriptor])* ')' )?
+		('responsibleForExclude' '(' responsibleForExclude+=[WorkProduct] ( "," responsibleForExclude+=[WorkProduct])* ')' )?
+		('aggregatedRoles' '(' aggregatedRoles+=[Role] ( "," aggregatedRoles+=[Role])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -2113,23 +2113,23 @@ ProcessComponentDescriptor returns ProcessComponentDescriptor:
 		'hasMultipleOccurrences' hasMultipleOccurrences=Boolean
 		'isOptional' isOptional=Boolean
 		'isSynchronizedWithSource' isSynchronizedWithSource=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
-		('guidanceExclude' '(' guidanceExclude+=[Guidance|EString] ( "," guidanceExclude+=[Guidance|EString])* ')' )?
-		('guidanceAdditional' '(' guidanceAdditional+=[Guidance|EString] ( "," guidanceAdditional+=[Guidance|EString])* ')' )?
-		'_processComponent' _processComponent=[ProcessComponent|EString]
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
+		('guidanceExclude' '(' guidanceExclude+=[Guidance] ( "," guidanceExclude+=[Guidance])* ')' )?
+		('guidanceAdditional' '(' guidanceAdditional+=[Guidance] ( "," guidanceAdditional+=[Guidance])* ')' )?
+		'_processComponent' _processComponent=[ProcessComponent]
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -2152,20 +2152,20 @@ ProcessComponentInterface returns ProcessComponentInterface:
 		'isPlanned' isPlanned=Boolean
 		'hasMultipleOccurrences' hasMultipleOccurrences=Boolean
 		'isOptional' isOptional=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('presentedAfter' presentedAfter=[BreakdownElement|EString])?
-		('presentedBefore' presentedBefore=[BreakdownElement|EString])?
-		'superActivities' superActivities=[Activity|EString]
-		('checklists' '(' checklists+=[Checklist|EString] ( "," checklists+=[Checklist|EString])* ')' )?
-		('concepts' '(' concepts+=[Concept|EString] ( "," concepts+=[Concept|EString])* ')' )?
-		('examples' '(' examples+=[Example|EString] ( "," examples+=[Example|EString])* ')' )?
-		('guidelines' '(' guidelines+=[Guideline|EString] ( "," guidelines+=[Guideline|EString])* ')' )?
-		('reusableAssets' '(' reusableAssets+=[ReusableAsset|EString] ( "," reusableAssets+=[ReusableAsset|EString])* ')' )?
-		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial|EString] ( "," supportingMaterials+=[SupportingMaterial|EString])* ')' )?
-		('templates' '(' templates+=[Template|EString] ( "," templates+=[Template|EString])* ')' )?
-		('reports' '(' reports+=[Report|EString] ( "," reports+=[Report|EString])* ')' )?
-		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations|EString] ( "," estimationconsiderations+=[EstimationConsiderations|EString])* ')' )?
-		('toolmentor' '(' toolmentor+=[ToolMentor|EString] ( "," toolmentor+=[ToolMentor|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('presentedAfter' presentedAfter=[BreakdownElement])?
+		('presentedBefore' presentedBefore=[BreakdownElement])?
+		'superActivities' superActivities=[Activity]
+		('checklists' '(' checklists+=[Checklist] ( "," checklists+=[Checklist])* ')' )?
+		('concepts' '(' concepts+=[Concept] ( "," concepts+=[Concept])* ')' )?
+		('examples' '(' examples+=[Example] ( "," examples+=[Example])* ')' )?
+		('guidelines' '(' guidelines+=[Guideline] ( "," guidelines+=[Guideline])* ')' )?
+		('reusableAssets' '(' reusableAssets+=[ReusableAsset] ( "," reusableAssets+=[ReusableAsset])* ')' )?
+		('supportingMaterials' '(' supportingMaterials+=[SupportingMaterial] ( "," supportingMaterials+=[SupportingMaterial])* ')' )?
+		('templates' '(' templates+=[Template] ( "," templates+=[Template])* ')' )?
+		('reports' '(' reports+=[Report] ( "," reports+=[Report])* ')' )?
+		('estimationconsiderations' '(' estimationconsiderations+=[EstimationConsiderations] ( "," estimationconsiderations+=[EstimationConsiderations])* ')' )?
+		('toolmentor' '(' toolmentor+=[ToolMentor] ( "," toolmentor+=[ToolMentor])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('presentation' presentation=ContentDescription)?
@@ -2188,10 +2188,10 @@ ProcessComponent returns ProcessComponent:
 		('changeDate' changeDate=Date)?
 		('changeDescription' changeDescription=String0)?
 		('version' version=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reusedPackages' '(' reusedPackages+=[MethodPackage|EString] ( "," reusedPackages+=[MethodPackage|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
-		'interfaces' '(' interfaces+=[ProcessComponentInterface|EString] ( "," interfaces+=[ProcessComponentInterface|EString])* ')' 
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reusedPackages' '(' reusedPackages+=[MethodPackage] ( "," reusedPackages+=[MethodPackage])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
+		'interfaces' '(' interfaces+=[ProcessComponentInterface] ( "," interfaces+=[ProcessComponentInterface])* ')' 
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('childPackages' '{' childPackages+=MethodPackage ( "," childPackages+=MethodPackage)* '}' )?
@@ -2211,12 +2211,12 @@ Diagram returns Diagram:
 		('orderingGuide' orderingGuide=String0)?
 		'isVisible' isVisible=Boolean
 		('zoom' zoom=Double)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
-		'position' position=[Point|EString]
-		'size' size=[Dimension|EString]
-		('diagramLink' '(' diagramLink+=[DiagramLink|EString] ( "," diagramLink+=[DiagramLink|EString])* ')' )?
-		'viewpoint' viewpoint=[Point|EString]
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
+		'position' position=[Point]
+		'size' size=[Dimension]
+		('diagramLink' '(' diagramLink+=[DiagramLink] ( "," diagramLink+=[DiagramLink])* ')' )?
+		'viewpoint' viewpoint=[Point]
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2237,8 +2237,8 @@ ContentPackage returns ContentPackage:
 		'suppressed' suppressed=Boolean
 		('orderingGuide' orderingGuide=String0)?
 		'global' global=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reusedPackages' '(' reusedPackages+=[MethodPackage|EString] ( "," reusedPackages+=[MethodPackage|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reusedPackages' '(' reusedPackages+=[MethodPackage] ( "," reusedPackages+=[MethodPackage])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('childPackages' '{' childPackages+=MethodPackage ( "," childPackages+=MethodPackage)* '}' )?
@@ -2255,8 +2255,8 @@ ProcessPackage_Impl returns ProcessPackage:
 		'suppressed' suppressed=Boolean
 		('orderingGuide' orderingGuide=String0)?
 		'global' global=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reusedPackages' '(' reusedPackages+=[MethodPackage|EString] ( "," reusedPackages+=[MethodPackage|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reusedPackages' '(' reusedPackages+=[MethodPackage] ( "," reusedPackages+=[MethodPackage])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('childPackages' '{' childPackages+=MethodPackage ( "," childPackages+=MethodPackage)* '}' )?
@@ -2275,9 +2275,9 @@ Reference returns Reference:
 		('orderingGuide' orderingGuide=String0)?
 		'isVisible' isVisible=Boolean
 		'isIndividualRepresentation' isIndividualRepresentation=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
-		'referenced' referenced=[DiagramElement|EString]
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
+		'referenced' referenced=[DiagramElement]
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2295,8 +2295,8 @@ Property returns Property:
 		'isVisible' isVisible=Boolean
 		('key' key=String0)?
 		('value' value=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2320,10 +2320,10 @@ DiagramLink returns DiagramLink:
 		('orderingGuide' orderingGuide=String0)?
 		'isVisible' isVisible=Boolean
 		'zoom' zoom=Double
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
-		'viewport' viewport=[Point|EString]
-		'diagram' diagram=[Diagram|EString]
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
+		'viewport' viewport=[Point]
+		'diagram' diagram=[Diagram]
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2339,10 +2339,10 @@ GraphConnector returns GraphConnector:
 		'suppressed' suppressed=Boolean
 		('orderingGuide' orderingGuide=String0)?
 		'isVisible' isVisible=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
-		'position' position=[Point|EString]
-		('graphEdge' '(' graphEdge+=[GraphEdge|EString] ( "," graphEdge+=[GraphEdge|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
+		'position' position=[Point]
+		('graphEdge' '(' graphEdge+=[GraphEdge] ( "," graphEdge+=[GraphEdge])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2372,10 +2372,10 @@ GraphNode_Impl returns GraphNode:
 		'suppressed' suppressed=Boolean
 		('orderingGuide' orderingGuide=String0)?
 		'isVisible' isVisible=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
-		'position' position=[Point|EString]
-		'size' size=[Dimension|EString]
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
+		'position' position=[Point]
+		'size' size=[Dimension]
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2395,10 +2395,10 @@ GraphEdge returns GraphEdge:
 		'suppressed' suppressed=Boolean
 		('orderingGuide' orderingGuide=String0)?
 		'isVisible' isVisible=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
-		'position' position=[Point|EString]
-		'anchor' '(' anchor+=[GraphConnector|EString] ( "," anchor+=[GraphConnector|EString])* ')' 
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
+		'position' position=[Point]
+		'anchor' '(' anchor+=[GraphConnector] ( "," anchor+=[GraphConnector])* ')' 
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2421,8 +2421,8 @@ SimpleSemanticModelElement returns SimpleSemanticModelElement:
 		'isVisible' isVisible=Boolean
 		('presentation' presentation=String0)?
 		('typeInfo' typeInfo=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2439,9 +2439,9 @@ UMASemanticModelBridge returns UMASemanticModelBridge:
 		('orderingGuide' orderingGuide=String0)?
 		'isVisible' isVisible=Boolean
 		('presentation' presentation=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
-		'element' element=[MethodElement|EString]
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
+		'element' element=[MethodElement]
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2458,9 +2458,9 @@ CoreSemanticModelBridge returns CoreSemanticModelBridge:
 		('orderingGuide' orderingGuide=String0)?
 		'isVisible' isVisible=Boolean
 		('presentation' presentation=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
-		'element' element=[Element|EString]
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
+		'element' element=[Element]
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2477,8 +2477,8 @@ TextElement returns TextElement:
 		('orderingGuide' orderingGuide=String0)?
 		'isVisible' isVisible=Boolean
 		('text' text=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2496,8 +2496,8 @@ Image returns Image:
 		'isVisible' isVisible=Boolean
 		('uri' uri=Uri)?
 		('mimeType' mimeType=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2514,8 +2514,8 @@ Polyline returns Polyline:
 		('orderingGuide' orderingGuide=String0)?
 		'isVisible' isVisible=Boolean
 		'closed' closed=Boolean
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2537,9 +2537,9 @@ Ellipse returns Ellipse:
 		'rotation' rotation=Double
 		'startAngle' startAngle=Double
 		'endAngle' endAngle=Double
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('reference' '(' reference+=[Reference|EString] ( "," reference+=[Reference|EString])* ')' )?
-		'center' center=[Point|EString]
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('reference' '(' reference+=[Reference] ( "," reference+=[Reference])* ')' )?
+		'center' center=[Point]
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 		('property' '{' property+=Property ( "," property+=Property)* '}' )?
@@ -2558,16 +2558,16 @@ ProcessFamily returns ProcessFamily:
 		('changeDate' changeDate=Date)?
 		('changeDescription' changeDescription=String0)?
 		('version' version=String0)?
-		('kind' '(' kind+=[Kind|EString] ( "," kind+=[Kind|EString])* ')' )?
-		('copyrightStatement' copyrightStatement=[SupportingMaterial|EString])?
-		'methodPluginSelection' '(' methodPluginSelection+=[MethodPlugin|EString] ( "," methodPluginSelection+=[MethodPlugin|EString])* ')' 
-		'methodPackageSelection' '(' methodPackageSelection+=[MethodPackage|EString] ( "," methodPackageSelection+=[MethodPackage|EString])* ')' 
-		('processViews' '(' processViews+=[ContentCategory|EString] ( "," processViews+=[ContentCategory|EString])* ')' )?
-		'defaultView' defaultView=[ContentCategory|EString]
-		('baseConfigurations' '(' baseConfigurations+=[MethodConfiguration|EString] ( "," baseConfigurations+=[MethodConfiguration|EString])* ')' )?
-		('subtractedCategory' '(' subtractedCategory+=[ContentCategory|EString] ( "," subtractedCategory+=[ContentCategory|EString])* ')' )?
-		('addedCategory' '(' addedCategory+=[ContentCategory|EString] ( "," addedCategory+=[ContentCategory|EString])* ')' )?
-		('deliveryProcesses' '(' deliveryProcesses+=[DeliveryProcess|EString] ( "," deliveryProcesses+=[DeliveryProcess|EString])* ')' )?
+		('kind' '(' kind+=[Kind] ( "," kind+=[Kind])* ')' )?
+		('copyrightStatement' copyrightStatement=[SupportingMaterial])?
+		'methodPluginSelection' '(' methodPluginSelection+=[MethodPlugin] ( "," methodPluginSelection+=[MethodPlugin])* ')' 
+		'methodPackageSelection' '(' methodPackageSelection+=[MethodPackage] ( "," methodPackageSelection+=[MethodPackage])* ')' 
+		('processViews' '(' processViews+=[ContentCategory] ( "," processViews+=[ContentCategory])* ')' )?
+		'defaultView' defaultView=[ContentCategory]
+		('baseConfigurations' '(' baseConfigurations+=[MethodConfiguration] ( "," baseConfigurations+=[MethodConfiguration])* ')' )?
+		('subtractedCategory' '(' subtractedCategory+=[ContentCategory] ( "," subtractedCategory+=[ContentCategory])* ')' )?
+		('addedCategory' '(' addedCategory+=[ContentCategory] ( "," addedCategory+=[ContentCategory])* ')' )?
+		('deliveryProcesses' '(' deliveryProcesses+=[DeliveryProcess] ( "," deliveryProcesses+=[DeliveryProcess])* ')' )?
 		('ownedRules' '{' ownedRules+=Constraint ( "," ownedRules+=Constraint)* '}' )?
 		('methodElementProperty' '{' methodElementProperty+=MethodElementProperty ( "," methodElementProperty+=MethodElementProperty)* '}' )?
 	'}';
@@ -2584,9 +2584,3 @@ Integer returns Integer:
 
 enum WorkOrderType returns WorkOrderType:
 				finishToStart = 'finishToStart' | finishToFinish = 'finishToFinish' | startToStart = 'startToStart' | startToFinish = 'startToFinish';
-
-EBoolean returns ecore::EBoolean:
-	'true' | 'false';
-	
-EString returns ecore::EString:
-	STRING | ID;

@@ -4,11 +4,11 @@
 package org.eclipse.xtext.uma.formatting2
 
 import com.google.inject.Inject
+import org.eclipse.epf.uma.Constraint
+import org.eclipse.epf.uma.MethodLibrary
 import org.eclipse.xtext.formatting2.AbstractFormatter2
 import org.eclipse.xtext.formatting2.IFormattableDocument
 import org.eclipse.xtext.uma.services.UmalGrammarAccess
-import org.eclipse.epf.uma.Constraint
-import org.eclipse.epf.uma.MethodLibrary
 
 class UmalFormatter extends AbstractFormatter2 {
 	

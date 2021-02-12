@@ -4,13 +4,13 @@
 package org.eclipse.xtext.uma.tests
 
 import com.google.inject.Inject
+import org.eclipse.epf.uma.MethodLibrary
 import org.eclipse.xtext.testing.InjectWith
 import org.eclipse.xtext.testing.extensions.InjectionExtension
 import org.eclipse.xtext.testing.util.ParseHelper
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.^extension.ExtendWith
-import org.eclipse.epf.uma.MethodLibrary
 
 @ExtendWith(InjectionExtension)
 @InjectWith(UmalInjectorProvider)
