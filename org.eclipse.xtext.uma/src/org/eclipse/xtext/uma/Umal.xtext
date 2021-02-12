@@ -132,7 +132,7 @@ Element returns Element:
 
 
 String0 returns String:
-	'String' /* TODO: implement this rule and an appropriate IValueConverter */;
+	STRING | ID /* TODO: implement this rule and an appropriate IValueConverter */;
 
 Constraint returns Constraint:
 	'Constraint'
@@ -186,10 +186,19 @@ Kind returns Kind:
 	'}';
 
 Boolean returns Boolean:
-	'Boolean' /* TODO: implement this rule and an appropriate IValueConverter */;
+	'true' | 'false' /* TODO: implement this rule and an appropriate IValueConverter */;
 
 Date returns Date:
-	'Date' /* TODO: implement this rule and an appropriate IValueConverter */;
+	DAYMONTHYEAR /* TODO: implement this rule and an appropriate IValueConverter */;
+	
+terminal DAYMONTHYEAR:
+	DAY '-' MONTH '-' YEAR;
+terminal DAY:
+	'0' '1'..'9' | '1'..'2' '0'..'9' | '3' '0'..'1';
+terminal MONTH:
+	'0' '1'..'9' | '1' '0'..'2';
+terminal YEAR:
+	'1'..'2' '0'..'9' '0'..'9' '0'..'9';
 
 SupportingMaterial returns SupportingMaterial:
 	'SupportingMaterial'
@@ -292,7 +301,7 @@ ContentDescription_Impl returns ContentDescription:
 	'}';
 
 Uri returns Uri:
-	'Uri' /* TODO: implement this rule and an appropriate IValueConverter */;
+	STRING /* TODO: implement this rule and an appropriate IValueConverter */;
 
 enum VariabilityType returns VariabilityType:
 				na = 'na' | contributes = 'contributes' | extends = 'extends' | replaces = 'replaces' | localContribution = 'localContribution' | localReplacement = 'localReplacement' | extendsReplaces = 'extendsReplaces';
@@ -2351,7 +2360,7 @@ Dimension returns Dimension:
 	'}';
 
 Double returns Double:
-	'Double' /* TODO: implement this rule and an appropriate IValueConverter */;
+	INT '.' INT /* TODO: implement this rule and an appropriate IValueConverter */;
 
 GraphNode_Impl returns GraphNode:
 	'GraphNode'
@@ -2571,7 +2580,7 @@ Package_Impl returns Package:
 	'}';
 
 Integer returns Integer:
-	'Integer' /* TODO: implement this rule and an appropriate IValueConverter */;
+	INT /* TODO: implement this rule and an appropriate IValueConverter */;
 
 enum WorkOrderType returns WorkOrderType:
 				finishToStart = 'finishToStart' | finishToFinish = 'finishToFinish' | startToStart = 'startToStart' | startToFinish = 'startToFinish';
