@@ -104,7 +104,7 @@ public class DisciplineImpl extends ContentCategoryImpl implements Discipline {
 	 */
 	public EList<Discipline> getSubdiscipline() {
 		if (subdiscipline == null) {
-			subdiscipline = new EObjectContainmentEList<Discipline>(Discipline.class, this, UmaPackage.DISCIPLINE__SUBDISCIPLINE);
+			subdiscipline = new EObjectContainmentEList.Resolving<Discipline>(Discipline.class, this, UmaPackage.DISCIPLINE__SUBDISCIPLINE);
 		}
 		return subdiscipline;
 	}

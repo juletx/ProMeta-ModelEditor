@@ -312,6 +312,29 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements ProcessC
 	 * @generated
 	 */
 	public org.eclipse.epf.uma.Process getProcess() {
+		if (process != null && process.eIsProxy()) {
+			InternalEObject oldProcess = (InternalEObject)process;
+			process = (org.eclipse.epf.uma.Process)eResolveProxy(oldProcess);
+			if (process != oldProcess) {
+				InternalEObject newProcess = (InternalEObject)process;
+				NotificationChain msgs = oldProcess.eInverseRemove(this, EOPPOSITE_FEATURE_BASE - UmaPackage.PROCESS_COMPONENT__PROCESS, null, null);
+				if (newProcess.eInternalContainer() == null) {
+					msgs = newProcess.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - UmaPackage.PROCESS_COMPONENT__PROCESS, null, msgs);
+				}
+				if (msgs != null) msgs.dispatch();
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.PROCESS_COMPONENT__PROCESS, oldProcess, process));
+			}
+		}
+		return process;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public org.eclipse.epf.uma.Process basicGetProcess() {
 		return process;
 	}
 
@@ -385,7 +408,8 @@ public class ProcessComponentImpl extends ProcessPackageImpl implements ProcessC
 			case UmaPackage.PROCESS_COMPONENT__INTERFACES:
 				return getInterfaces();
 			case UmaPackage.PROCESS_COMPONENT__PROCESS:
-				return getProcess();
+				if (resolve) return getProcess();
+				return basicGetProcess();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}

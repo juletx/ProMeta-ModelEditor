@@ -47,7 +47,7 @@ public interface ProcessComponent extends ProcessPackage, MethodUnit {
 	 * @return the value of the '<em>Process</em>' containment reference.
 	 * @see #setProcess(org.eclipse.epf.uma.Process)
 	 * @see org.eclipse.epf.uma.UmaPackage#getProcessComponent_Process()
-	 * @model containment="true" required="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" required="true" ordered="false"
 	 * @generated
 	 */
 	org.eclipse.epf.uma.Process getProcess();

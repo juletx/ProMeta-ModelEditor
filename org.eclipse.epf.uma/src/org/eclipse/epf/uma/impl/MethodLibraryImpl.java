@@ -80,7 +80,7 @@ public class MethodLibraryImpl extends MethodUnitImpl implements MethodLibrary {
 	 */
 	public EList<MethodPlugin> getMethodPlugins() {
 		if (methodPlugins == null) {
-			methodPlugins = new EObjectContainmentEList<MethodPlugin>(MethodPlugin.class, this, UmaPackage.METHOD_LIBRARY__METHOD_PLUGINS);
+			methodPlugins = new EObjectContainmentEList.Resolving<MethodPlugin>(MethodPlugin.class, this, UmaPackage.METHOD_LIBRARY__METHOD_PLUGINS);
 		}
 		return methodPlugins;
 	}
@@ -92,7 +92,7 @@ public class MethodLibraryImpl extends MethodUnitImpl implements MethodLibrary {
 	 */
 	public EList<MethodConfiguration> getPredefinedConfigurations() {
 		if (predefinedConfigurations == null) {
-			predefinedConfigurations = new EObjectContainmentEList<MethodConfiguration>(MethodConfiguration.class, this, UmaPackage.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS);
+			predefinedConfigurations = new EObjectContainmentEList.Resolving<MethodConfiguration>(MethodConfiguration.class, this, UmaPackage.METHOD_LIBRARY__PREDEFINED_CONFIGURATIONS);
 		}
 		return predefinedConfigurations;
 	}

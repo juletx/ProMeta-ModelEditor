@@ -72,7 +72,7 @@ public interface MethodPackage extends MethodElement, org.eclipse.epf.uma.Packag
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Child Packages</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getMethodPackage_ChildPackages()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<MethodPackage> getChildPackages();

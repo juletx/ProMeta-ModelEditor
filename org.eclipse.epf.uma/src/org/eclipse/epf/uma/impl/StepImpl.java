@@ -75,6 +75,29 @@ public class StepImpl extends SectionImpl implements Step {
 	 * @generated
 	 */
 	public Constraint getPrecondition() {
+		if (precondition != null && precondition.eIsProxy()) {
+			InternalEObject oldPrecondition = (InternalEObject)precondition;
+			precondition = (Constraint)eResolveProxy(oldPrecondition);
+			if (precondition != oldPrecondition) {
+				InternalEObject newPrecondition = (InternalEObject)precondition;
+				NotificationChain msgs = oldPrecondition.eInverseRemove(this, EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__PRECONDITION, null, null);
+				if (newPrecondition.eInternalContainer() == null) {
+					msgs = newPrecondition.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__PRECONDITION, null, msgs);
+				}
+				if (msgs != null) msgs.dispatch();
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.STEP__PRECONDITION, oldPrecondition, precondition));
+			}
+		}
+		return precondition;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Constraint basicGetPrecondition() {
 		return precondition;
 	}
 
@@ -118,6 +141,29 @@ public class StepImpl extends SectionImpl implements Step {
 	 * @generated
 	 */
 	public Constraint getPostcondition() {
+		if (postcondition != null && postcondition.eIsProxy()) {
+			InternalEObject oldPostcondition = (InternalEObject)postcondition;
+			postcondition = (Constraint)eResolveProxy(oldPostcondition);
+			if (postcondition != oldPostcondition) {
+				InternalEObject newPostcondition = (InternalEObject)postcondition;
+				NotificationChain msgs = oldPostcondition.eInverseRemove(this, EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__POSTCONDITION, null, null);
+				if (newPostcondition.eInternalContainer() == null) {
+					msgs = newPostcondition.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - UmaPackage.STEP__POSTCONDITION, null, msgs);
+				}
+				if (msgs != null) msgs.dispatch();
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.STEP__POSTCONDITION, oldPostcondition, postcondition));
+			}
+		}
+		return postcondition;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Constraint basicGetPostcondition() {
 		return postcondition;
 	}
 
@@ -180,9 +226,11 @@ public class StepImpl extends SectionImpl implements Step {
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case UmaPackage.STEP__PRECONDITION:
-				return getPrecondition();
+				if (resolve) return getPrecondition();
+				return basicGetPrecondition();
 			case UmaPackage.STEP__POSTCONDITION:
-				return getPostcondition();
+				if (resolve) return getPostcondition();
+				return basicGetPostcondition();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}

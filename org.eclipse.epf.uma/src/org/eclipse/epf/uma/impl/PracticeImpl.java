@@ -92,7 +92,7 @@ public class PracticeImpl extends GuidanceImpl implements Practice {
 	 */
 	public EList<Practice> getSubPractices() {
 		if (subPractices == null) {
-			subPractices = new EObjectContainmentEList<Practice>(Practice.class, this, UmaPackage.PRACTICE__SUB_PRACTICES);
+			subPractices = new EObjectContainmentEList.Resolving<Practice>(Practice.class, this, UmaPackage.PRACTICE__SUB_PRACTICES);
 		}
 		return subPractices;
 	}

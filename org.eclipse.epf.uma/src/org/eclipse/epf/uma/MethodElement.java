@@ -119,7 +119,7 @@ public interface MethodElement extends PackageableElement {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Owned Rules</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getMethodElement_OwnedRules()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<Constraint> getOwnedRules();
@@ -131,7 +131,7 @@ public interface MethodElement extends PackageableElement {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Method Element Property</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getMethodElement_MethodElementProperty()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<MethodElementProperty> getMethodElementProperty();

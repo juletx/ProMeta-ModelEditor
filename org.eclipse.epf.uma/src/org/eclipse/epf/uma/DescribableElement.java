@@ -37,7 +37,7 @@ public interface DescribableElement extends MethodElement, Classifier {
 	 * @return the value of the '<em>Presentation</em>' containment reference.
 	 * @see #setPresentation(ContentDescription)
 	 * @see org.eclipse.epf.uma.UmaPackage#getDescribableElement_Presentation()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	ContentDescription getPresentation();

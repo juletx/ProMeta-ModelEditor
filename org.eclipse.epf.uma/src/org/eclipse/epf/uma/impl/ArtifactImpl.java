@@ -72,6 +72,16 @@ public class ArtifactImpl extends WorkProductImpl implements Artifact {
 	 */
 	public Artifact getContainerArtifact() {
 		if (eContainerFeatureID() != UmaPackage.ARTIFACT__CONTAINER_ARTIFACT) return null;
+		return (Artifact)eContainer();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Artifact basicGetContainerArtifact() {
+		if (eContainerFeatureID() != UmaPackage.ARTIFACT__CONTAINER_ARTIFACT) return null;
 		return (Artifact)eInternalContainer();
 	}
 
@@ -113,7 +123,7 @@ public class ArtifactImpl extends WorkProductImpl implements Artifact {
 	 */
 	public EList<Artifact> getContainedArtifacts() {
 		if (containedArtifacts == null) {
-			containedArtifacts = new EObjectContainmentWithInverseEList<Artifact>(Artifact.class, this, UmaPackage.ARTIFACT__CONTAINED_ARTIFACTS, UmaPackage.ARTIFACT__CONTAINER_ARTIFACT);
+			containedArtifacts = new EObjectContainmentWithInverseEList.Resolving<Artifact>(Artifact.class, this, UmaPackage.ARTIFACT__CONTAINED_ARTIFACTS, UmaPackage.ARTIFACT__CONTAINER_ARTIFACT);
 		}
 		return containedArtifacts;
 	}
@@ -176,7 +186,8 @@ public class ArtifactImpl extends WorkProductImpl implements Artifact {
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case UmaPackage.ARTIFACT__CONTAINER_ARTIFACT:
-				return getContainerArtifact();
+				if (resolve) return getContainerArtifact();
+				return basicGetContainerArtifact();
 			case UmaPackage.ARTIFACT__CONTAINED_ARTIFACTS:
 				return getContainedArtifacts();
 		}
@@ -230,7 +241,7 @@ public class ArtifactImpl extends WorkProductImpl implements Artifact {
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case UmaPackage.ARTIFACT__CONTAINER_ARTIFACT:
-				return getContainerArtifact() != null;
+				return basicGetContainerArtifact() != null;
 			case UmaPackage.ARTIFACT__CONTAINED_ARTIFACTS:
 				return containedArtifacts != null && !containedArtifacts.isEmpty();
 		}

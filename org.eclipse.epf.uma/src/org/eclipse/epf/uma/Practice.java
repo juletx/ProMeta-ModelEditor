@@ -35,7 +35,7 @@ public interface Practice extends Guidance {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Sub Practices</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getPractice_SubPractices()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<Practice> getSubPractices();

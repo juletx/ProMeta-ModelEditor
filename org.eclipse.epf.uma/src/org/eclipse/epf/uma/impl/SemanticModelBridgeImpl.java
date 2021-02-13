@@ -100,6 +100,16 @@ public abstract class SemanticModelBridgeImpl extends DiagramElementImpl impleme
 	 */
 	public Diagram getDiagram() {
 		if (eContainerFeatureID() != UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM) return null;
+		return (Diagram)eContainer();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Diagram basicGetDiagram() {
+		if (eContainerFeatureID() != UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM) return null;
 		return (Diagram)eInternalContainer();
 	}
 
@@ -140,6 +150,16 @@ public abstract class SemanticModelBridgeImpl extends DiagramElementImpl impleme
 	 * @generated
 	 */
 	public GraphElement getGraphElement() {
+		if (eContainerFeatureID() != UmaPackage.SEMANTIC_MODEL_BRIDGE__GRAPH_ELEMENT) return null;
+		return (GraphElement)eContainer();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public GraphElement basicGetGraphElement() {
 		if (eContainerFeatureID() != UmaPackage.SEMANTIC_MODEL_BRIDGE__GRAPH_ELEMENT) return null;
 		return (GraphElement)eInternalContainer();
 	}
@@ -238,9 +258,11 @@ public abstract class SemanticModelBridgeImpl extends DiagramElementImpl impleme
 			case UmaPackage.SEMANTIC_MODEL_BRIDGE__PRESENTATION:
 				return getPresentation();
 			case UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM:
-				return getDiagram();
+				if (resolve) return getDiagram();
+				return basicGetDiagram();
 			case UmaPackage.SEMANTIC_MODEL_BRIDGE__GRAPH_ELEMENT:
-				return getGraphElement();
+				if (resolve) return getGraphElement();
+				return basicGetGraphElement();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -298,9 +320,9 @@ public abstract class SemanticModelBridgeImpl extends DiagramElementImpl impleme
 			case UmaPackage.SEMANTIC_MODEL_BRIDGE__PRESENTATION:
 				return PRESENTATION_EDEFAULT == null ? presentation != null : !PRESENTATION_EDEFAULT.equals(presentation);
 			case UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM:
-				return getDiagram() != null;
+				return basicGetDiagram() != null;
 			case UmaPackage.SEMANTIC_MODEL_BRIDGE__GRAPH_ELEMENT:
-				return getGraphElement() != null;
+				return basicGetGraphElement() != null;
 		}
 		return super.eIsSet(featureID);
 	}

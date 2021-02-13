@@ -28,7 +28,7 @@ public interface Kind extends ContentElement {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Applicable Meta Class Info</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getKind_ApplicableMetaClassInfo()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<ApplicableMetaClassInfo> getApplicableMetaClassInfo();

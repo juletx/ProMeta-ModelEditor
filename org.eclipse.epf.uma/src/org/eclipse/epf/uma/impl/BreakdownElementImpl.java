@@ -467,6 +467,29 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 	 * @generated
 	 */
 	public PlanningData getPlanningData() {
+		if (planningData != null && planningData.eIsProxy()) {
+			InternalEObject oldPlanningData = (InternalEObject)planningData;
+			planningData = (PlanningData)eResolveProxy(oldPlanningData);
+			if (planningData != oldPlanningData) {
+				InternalEObject newPlanningData = (InternalEObject)planningData;
+				NotificationChain msgs = oldPlanningData.eInverseRemove(this, EOPPOSITE_FEATURE_BASE - UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA, null, null);
+				if (newPlanningData.eInternalContainer() == null) {
+					msgs = newPlanningData.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA, null, msgs);
+				}
+				if (msgs != null) msgs.dispatch();
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA, oldPlanningData, planningData));
+			}
+		}
+		return planningData;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public PlanningData basicGetPlanningData() {
 		return planningData;
 	}
 
@@ -739,7 +762,8 @@ public abstract class BreakdownElementImpl extends ProcessElementImpl implements
 				if (resolve) return getPresentedBefore();
 				return basicGetPresentedBefore();
 			case UmaPackage.BREAKDOWN_ELEMENT__PLANNING_DATA:
-				return getPlanningData();
+				if (resolve) return getPlanningData();
+				return basicGetPlanningData();
 			case UmaPackage.BREAKDOWN_ELEMENT__SUPER_ACTIVITIES:
 				if (resolve) return getSuperActivities();
 				return basicGetSuperActivities();

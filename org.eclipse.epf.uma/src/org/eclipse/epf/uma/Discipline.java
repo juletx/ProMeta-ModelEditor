@@ -51,7 +51,7 @@ public interface Discipline extends ContentCategory {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Subdiscipline</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getDiscipline_Subdiscipline()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<Discipline> getSubdiscipline();

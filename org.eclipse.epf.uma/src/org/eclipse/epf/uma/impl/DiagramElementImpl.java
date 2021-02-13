@@ -129,6 +129,16 @@ public abstract class DiagramElementImpl extends MethodElementImpl implements Di
 	 */
 	public GraphElement getContainer() {
 		if (eContainerFeatureID() != UmaPackage.DIAGRAM_ELEMENT__CONTAINER) return null;
+		return (GraphElement)eContainer();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public GraphElement basicGetContainer() {
+		if (eContainerFeatureID() != UmaPackage.DIAGRAM_ELEMENT__CONTAINER) return null;
 		return (GraphElement)eInternalContainer();
 	}
 
@@ -182,7 +192,7 @@ public abstract class DiagramElementImpl extends MethodElementImpl implements Di
 	 */
 	public EList<Property> getProperty() {
 		if (property == null) {
-			property = new EObjectContainmentEList<Property>(Property.class, this, UmaPackage.DIAGRAM_ELEMENT__PROPERTY);
+			property = new EObjectContainmentEList.Resolving<Property>(Property.class, this, UmaPackage.DIAGRAM_ELEMENT__PROPERTY);
 		}
 		return property;
 	}
@@ -249,7 +259,8 @@ public abstract class DiagramElementImpl extends MethodElementImpl implements Di
 			case UmaPackage.DIAGRAM_ELEMENT__IS_VISIBLE:
 				return getIsVisible();
 			case UmaPackage.DIAGRAM_ELEMENT__CONTAINER:
-				return getContainer();
+				if (resolve) return getContainer();
+				return basicGetContainer();
 			case UmaPackage.DIAGRAM_ELEMENT__REFERENCE:
 				return getReference();
 			case UmaPackage.DIAGRAM_ELEMENT__PROPERTY:
@@ -320,7 +331,7 @@ public abstract class DiagramElementImpl extends MethodElementImpl implements Di
 			case UmaPackage.DIAGRAM_ELEMENT__IS_VISIBLE:
 				return IS_VISIBLE_EDEFAULT == null ? isVisible != null : !IS_VISIBLE_EDEFAULT.equals(isVisible);
 			case UmaPackage.DIAGRAM_ELEMENT__CONTAINER:
-				return getContainer() != null;
+				return basicGetContainer() != null;
 			case UmaPackage.DIAGRAM_ELEMENT__REFERENCE:
 				return reference != null && !reference.isEmpty();
 			case UmaPackage.DIAGRAM_ELEMENT__PROPERTY:

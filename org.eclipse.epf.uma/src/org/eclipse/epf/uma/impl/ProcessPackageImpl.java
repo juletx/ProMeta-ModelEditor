@@ -80,7 +80,7 @@ public class ProcessPackageImpl extends MethodPackageImpl implements ProcessPack
 	 */
 	public EList<ProcessElement> getProcessElements() {
 		if (processElements == null) {
-			processElements = new EObjectContainmentEList<ProcessElement>(ProcessElement.class, this, UmaPackage.PROCESS_PACKAGE__PROCESS_ELEMENTS);
+			processElements = new EObjectContainmentEList.Resolving<ProcessElement>(ProcessElement.class, this, UmaPackage.PROCESS_PACKAGE__PROCESS_ELEMENTS);
 		}
 		return processElements;
 	}
@@ -92,7 +92,7 @@ public class ProcessPackageImpl extends MethodPackageImpl implements ProcessPack
 	 */
 	public EList<Diagram> getDiagrams() {
 		if (diagrams == null) {
-			diagrams = new EObjectContainmentEList<Diagram>(Diagram.class, this, UmaPackage.PROCESS_PACKAGE__DIAGRAMS);
+			diagrams = new EObjectContainmentEList.Resolving<Diagram>(Diagram.class, this, UmaPackage.PROCESS_PACKAGE__DIAGRAMS);
 		}
 		return diagrams;
 	}

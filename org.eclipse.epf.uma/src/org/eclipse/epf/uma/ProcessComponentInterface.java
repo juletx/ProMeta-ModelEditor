@@ -33,7 +33,7 @@ public interface ProcessComponentInterface extends BreakdownElement {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Interface Specifications</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getProcessComponentInterface_InterfaceSpecifications()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<TaskDescriptor> getInterfaceSpecifications();
@@ -45,7 +45,7 @@ public interface ProcessComponentInterface extends BreakdownElement {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Interface IO</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getProcessComponentInterface_InterfaceIO()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<WorkProductDescriptor> getInterfaceIO();

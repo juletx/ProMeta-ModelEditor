@@ -35,7 +35,7 @@ public interface ProcessPackage extends MethodPackage {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Process Elements</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getProcessPackage_ProcessElements()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<ProcessElement> getProcessElements();
@@ -47,7 +47,7 @@ public interface ProcessPackage extends MethodPackage {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Diagrams</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getProcessPackage_Diagrams()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<Diagram> getDiagrams();

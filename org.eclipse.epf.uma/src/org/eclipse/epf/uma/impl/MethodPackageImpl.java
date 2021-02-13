@@ -136,7 +136,7 @@ public abstract class MethodPackageImpl extends MethodElementImpl implements Met
 	 */
 	public EList<MethodPackage> getChildPackages() {
 		if (childPackages == null) {
-			childPackages = new EObjectContainmentEList<MethodPackage>(MethodPackage.class, this, UmaPackage.METHOD_PACKAGE__CHILD_PACKAGES);
+			childPackages = new EObjectContainmentEList.Resolving<MethodPackage>(MethodPackage.class, this, UmaPackage.METHOD_PACKAGE__CHILD_PACKAGES);
 		}
 		return childPackages;
 	}

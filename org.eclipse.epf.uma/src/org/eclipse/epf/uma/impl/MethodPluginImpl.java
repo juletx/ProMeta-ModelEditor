@@ -146,7 +146,7 @@ public class MethodPluginImpl extends MethodUnitImpl implements MethodPlugin {
 	 */
 	public EList<MethodPackage> getMethodPackages() {
 		if (methodPackages == null) {
-			methodPackages = new EObjectContainmentEList<MethodPackage>(MethodPackage.class, this, UmaPackage.METHOD_PLUGIN__METHOD_PACKAGES);
+			methodPackages = new EObjectContainmentEList.Resolving<MethodPackage>(MethodPackage.class, this, UmaPackage.METHOD_PLUGIN__METHOD_PACKAGES);
 		}
 		return methodPackages;
 	}

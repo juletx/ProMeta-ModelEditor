@@ -127,6 +127,29 @@ public class DiagramImpl extends GraphNodeImpl implements Diagram {
 	 * @generated
 	 */
 	public SemanticModelBridge getNamespace() {
+		if (namespace != null && namespace.eIsProxy()) {
+			InternalEObject oldNamespace = (InternalEObject)namespace;
+			namespace = (SemanticModelBridge)eResolveProxy(oldNamespace);
+			if (namespace != oldNamespace) {
+				InternalEObject newNamespace = (InternalEObject)namespace;
+				NotificationChain msgs =  oldNamespace.eInverseRemove(this, UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM, SemanticModelBridge.class, null);
+				if (newNamespace.eInternalContainer() == null) {
+					msgs =  newNamespace.eInverseAdd(this, UmaPackage.SEMANTIC_MODEL_BRIDGE__DIAGRAM, SemanticModelBridge.class, msgs);
+				}
+				if (msgs != null) msgs.dispatch();
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.DIAGRAM__NAMESPACE, oldNamespace, namespace));
+			}
+		}
+		return namespace;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public SemanticModelBridge basicGetNamespace() {
 		return namespace;
 	}
 
@@ -269,7 +292,8 @@ public class DiagramImpl extends GraphNodeImpl implements Diagram {
 			case UmaPackage.DIAGRAM__DIAGRAM_LINK:
 				return getDiagramLink();
 			case UmaPackage.DIAGRAM__NAMESPACE:
-				return getNamespace();
+				if (resolve) return getNamespace();
+				return basicGetNamespace();
 			case UmaPackage.DIAGRAM__ZOOM:
 				return getZoom();
 			case UmaPackage.DIAGRAM__VIEWPOINT:

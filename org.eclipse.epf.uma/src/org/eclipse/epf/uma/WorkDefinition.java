@@ -34,7 +34,7 @@ public interface WorkDefinition extends MethodElement {
 	 * @return the value of the '<em>Precondition</em>' containment reference.
 	 * @see #setPrecondition(Constraint)
 	 * @see org.eclipse.epf.uma.UmaPackage#getWorkDefinition_Precondition()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	Constraint getPrecondition();
@@ -56,7 +56,7 @@ public interface WorkDefinition extends MethodElement {
 	 * @return the value of the '<em>Postcondition</em>' containment reference.
 	 * @see #setPostcondition(Constraint)
 	 * @see org.eclipse.epf.uma.UmaPackage#getWorkDefinition_Postcondition()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	Constraint getPostcondition();

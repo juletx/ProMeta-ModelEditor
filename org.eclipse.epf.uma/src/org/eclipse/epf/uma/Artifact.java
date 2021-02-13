@@ -61,7 +61,7 @@ public interface Artifact extends WorkProduct {
 	 * @return the value of the '<em>Contained Artifacts</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getArtifact_ContainedArtifacts()
 	 * @see org.eclipse.epf.uma.Artifact#getContainerArtifact
-	 * @model opposite="containerArtifact" containment="true" ordered="false"
+	 * @model opposite="containerArtifact" containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<Artifact> getContainedArtifacts();

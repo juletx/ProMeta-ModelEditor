@@ -47,7 +47,7 @@ public interface Diagram extends GraphNode {
 	 * @see #setNamespace(SemanticModelBridge)
 	 * @see org.eclipse.epf.uma.UmaPackage#getDiagram_Namespace()
 	 * @see org.eclipse.epf.uma.SemanticModelBridge#getDiagram
-	 * @model opposite="diagram" containment="true" required="true" ordered="false"
+	 * @model opposite="diagram" containment="true" resolveProxies="true" required="true" ordered="false"
 	 * @generated
 	 */
 	SemanticModelBridge getNamespace();

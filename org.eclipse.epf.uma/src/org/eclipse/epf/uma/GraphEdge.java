@@ -29,7 +29,7 @@ public interface GraphEdge extends GraphElement {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Waypoints</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getGraphEdge_Waypoints()
-	 * @model containment="true" lower="2" ordered="false"
+	 * @model containment="true" resolveProxies="true" lower="2" ordered="false"
 	 * @generated
 	 */
 	EList<Point> getWaypoints();

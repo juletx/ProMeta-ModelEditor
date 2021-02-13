@@ -68,7 +68,7 @@ public class ContentPackageImpl extends MethodPackageImpl implements ContentPack
 	 */
 	public EList<ContentElement> getContentElements() {
 		if (contentElements == null) {
-			contentElements = new EObjectContainmentEList<ContentElement>(ContentElement.class, this, UmaPackage.CONTENT_PACKAGE__CONTENT_ELEMENTS);
+			contentElements = new EObjectContainmentEList.Resolving<ContentElement>(ContentElement.class, this, UmaPackage.CONTENT_PACKAGE__CONTENT_ELEMENTS);
 		}
 		return contentElements;
 	}

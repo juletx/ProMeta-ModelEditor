@@ -165,7 +165,7 @@ public class SectionImpl extends VariabilityElementImpl implements Section {
 	 */
 	public EList<Section> getSubSections() {
 		if (subSections == null) {
-			subSections = new EObjectContainmentEList<Section>(Section.class, this, UmaPackage.SECTION__SUB_SECTIONS);
+			subSections = new EObjectContainmentEList.Resolving<Section>(Section.class, this, UmaPackage.SECTION__SUB_SECTIONS);
 		}
 		return subSections;
 	}

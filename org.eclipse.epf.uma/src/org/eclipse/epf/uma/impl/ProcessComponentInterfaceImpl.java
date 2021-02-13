@@ -80,7 +80,7 @@ public class ProcessComponentInterfaceImpl extends BreakdownElementImpl implemen
 	 */
 	public EList<TaskDescriptor> getInterfaceSpecifications() {
 		if (interfaceSpecifications == null) {
-			interfaceSpecifications = new EObjectContainmentEList<TaskDescriptor>(TaskDescriptor.class, this, UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_SPECIFICATIONS);
+			interfaceSpecifications = new EObjectContainmentEList.Resolving<TaskDescriptor>(TaskDescriptor.class, this, UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_SPECIFICATIONS);
 		}
 		return interfaceSpecifications;
 	}
@@ -92,7 +92,7 @@ public class ProcessComponentInterfaceImpl extends BreakdownElementImpl implemen
 	 */
 	public EList<WorkProductDescriptor> getInterfaceIO() {
 		if (interfaceIO == null) {
-			interfaceIO = new EObjectContainmentEList<WorkProductDescriptor>(WorkProductDescriptor.class, this, UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_IO);
+			interfaceIO = new EObjectContainmentEList.Resolving<WorkProductDescriptor>(WorkProductDescriptor.class, this, UmaPackage.PROCESS_COMPONENT_INTERFACE__INTERFACE_IO);
 		}
 		return interfaceIO;
 	}

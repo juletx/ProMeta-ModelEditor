@@ -151,6 +151,29 @@ public abstract class DescribableElementImpl extends MethodElementImpl implement
 	 * @generated
 	 */
 	public ContentDescription getPresentation() {
+		if (presentation != null && presentation.eIsProxy()) {
+			InternalEObject oldPresentation = (InternalEObject)presentation;
+			presentation = (ContentDescription)eResolveProxy(oldPresentation);
+			if (presentation != oldPresentation) {
+				InternalEObject newPresentation = (InternalEObject)presentation;
+				NotificationChain msgs = oldPresentation.eInverseRemove(this, EOPPOSITE_FEATURE_BASE - UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION, null, null);
+				if (newPresentation.eInternalContainer() == null) {
+					msgs = newPresentation.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION, null, msgs);
+				}
+				if (msgs != null) msgs.dispatch();
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION, oldPresentation, presentation));
+			}
+		}
+		return presentation;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public ContentDescription basicGetPresentation() {
 		return presentation;
 	}
 
@@ -255,7 +278,8 @@ public abstract class DescribableElementImpl extends MethodElementImpl implement
 			case UmaPackage.DESCRIBABLE_ELEMENT__IS_ABSTRACT:
 				return getIsAbstract();
 			case UmaPackage.DESCRIBABLE_ELEMENT__PRESENTATION:
-				return getPresentation();
+				if (resolve) return getPresentation();
+				return basicGetPresentation();
 			case UmaPackage.DESCRIBABLE_ELEMENT__SHAPEICON:
 				return getShapeicon();
 			case UmaPackage.DESCRIBABLE_ELEMENT__NODEICON:

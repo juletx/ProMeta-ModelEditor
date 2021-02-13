@@ -62,7 +62,7 @@ public interface ContentDescription extends MethodUnit {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Sections</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getContentDescription_Sections()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<Section> getSections();

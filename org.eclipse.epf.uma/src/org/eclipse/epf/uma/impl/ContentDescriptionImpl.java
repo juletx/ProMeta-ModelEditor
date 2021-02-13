@@ -176,7 +176,7 @@ public class ContentDescriptionImpl extends MethodUnitImpl implements ContentDes
 	 */
 	public EList<Section> getSections() {
 		if (sections == null) {
-			sections = new EObjectContainmentEList<Section>(Section.class, this, UmaPackage.CONTENT_DESCRIPTION__SECTIONS);
+			sections = new EObjectContainmentEList.Resolving<Section>(Section.class, this, UmaPackage.CONTENT_DESCRIPTION__SECTIONS);
 		}
 		return sections;
 	}

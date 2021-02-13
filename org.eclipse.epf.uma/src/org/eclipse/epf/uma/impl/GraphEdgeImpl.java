@@ -81,7 +81,7 @@ public class GraphEdgeImpl extends GraphElementImpl implements GraphEdge {
 	 */
 	public EList<Point> getWaypoints() {
 		if (waypoints == null) {
-			waypoints = new EObjectContainmentEList<Point>(Point.class, this, UmaPackage.GRAPH_EDGE__WAYPOINTS);
+			waypoints = new EObjectContainmentEList.Resolving<Point>(Point.class, this, UmaPackage.GRAPH_EDGE__WAYPOINTS);
 		}
 		return waypoints;
 	}

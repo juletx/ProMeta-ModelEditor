@@ -113,7 +113,7 @@ public class PolylineImpl extends GraphicPrimitiveImpl implements Polyline {
 	 */
 	public EList<Point> getWaypoints() {
 		if (waypoints == null) {
-			waypoints = new EObjectContainmentEList<Point>(Point.class, this, UmaPackage.POLYLINE__WAYPOINTS);
+			waypoints = new EObjectContainmentEList.Resolving<Point>(Point.class, this, UmaPackage.POLYLINE__WAYPOINTS);
 		}
 		return waypoints;
 	}

@@ -86,6 +86,16 @@ public class GraphConnectorImpl extends GraphElementImpl implements GraphConnect
 	 */
 	public GraphElement getGraphElement() {
 		if (eContainerFeatureID() != UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT) return null;
+		return (GraphElement)eContainer();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public GraphElement basicGetGraphElement() {
+		if (eContainerFeatureID() != UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT) return null;
 		return (GraphElement)eInternalContainer();
 	}
 
@@ -180,7 +190,8 @@ public class GraphConnectorImpl extends GraphElementImpl implements GraphConnect
 			case UmaPackage.GRAPH_CONNECTOR__GRAPH_EDGE:
 				return getGraphEdge();
 			case UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT:
-				return getGraphElement();
+				if (resolve) return getGraphElement();
+				return basicGetGraphElement();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -234,7 +245,7 @@ public class GraphConnectorImpl extends GraphElementImpl implements GraphConnect
 			case UmaPackage.GRAPH_CONNECTOR__GRAPH_EDGE:
 				return graphEdge != null && !graphEdge.isEmpty();
 			case UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT:
-				return getGraphElement() != null;
+				return basicGetGraphElement() != null;
 		}
 		return super.eIsSet(featureID);
 	}

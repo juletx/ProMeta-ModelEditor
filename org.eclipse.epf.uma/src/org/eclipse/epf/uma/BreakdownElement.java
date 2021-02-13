@@ -202,7 +202,7 @@ public interface BreakdownElement extends ProcessElement {
 	 * @return the value of the '<em>Planning Data</em>' containment reference.
 	 * @see #setPlanningData(PlanningData)
 	 * @see org.eclipse.epf.uma.UmaPackage#getBreakdownElement_PlanningData()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	PlanningData getPlanningData();

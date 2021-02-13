@@ -91,7 +91,7 @@ public interface Section extends VariabilityElement {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Sub Sections</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getSection_SubSections()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<Section> getSubSections();

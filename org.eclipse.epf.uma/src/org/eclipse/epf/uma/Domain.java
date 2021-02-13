@@ -47,7 +47,7 @@ public interface Domain extends ContentCategory {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Subdomains</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getDomain_Subdomains()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<Domain> getSubdomains();

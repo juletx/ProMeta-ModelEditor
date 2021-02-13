@@ -92,7 +92,7 @@ public class DomainImpl extends ContentCategoryImpl implements Domain {
 	 */
 	public EList<Domain> getSubdomains() {
 		if (subdomains == null) {
-			subdomains = new EObjectContainmentEList<Domain>(Domain.class, this, UmaPackage.DOMAIN__SUBDOMAINS);
+			subdomains = new EObjectContainmentEList.Resolving<Domain>(Domain.class, this, UmaPackage.DOMAIN__SUBDOMAINS);
 		}
 		return subdomains;
 	}

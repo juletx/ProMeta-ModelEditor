@@ -119,7 +119,7 @@ public abstract class GraphElementImpl extends DiagramElementImpl implements Gra
 	 */
 	public EList<DiagramElement> getContained() {
 		if (contained == null) {
-			contained = new EObjectContainmentWithInverseEList<DiagramElement>(DiagramElement.class, this, UmaPackage.GRAPH_ELEMENT__CONTAINED, UmaPackage.DIAGRAM_ELEMENT__CONTAINER);
+			contained = new EObjectContainmentWithInverseEList.Resolving<DiagramElement>(DiagramElement.class, this, UmaPackage.GRAPH_ELEMENT__CONTAINED, UmaPackage.DIAGRAM_ELEMENT__CONTAINER);
 		}
 		return contained;
 	}
@@ -169,7 +169,7 @@ public abstract class GraphElementImpl extends DiagramElementImpl implements Gra
 	 */
 	public EList<DiagramLink> getLink() {
 		if (link == null) {
-			link = new EObjectContainmentWithInverseEList<DiagramLink>(DiagramLink.class, this, UmaPackage.GRAPH_ELEMENT__LINK, UmaPackage.DIAGRAM_LINK__GRAPH_ELEMENT);
+			link = new EObjectContainmentWithInverseEList.Resolving<DiagramLink>(DiagramLink.class, this, UmaPackage.GRAPH_ELEMENT__LINK, UmaPackage.DIAGRAM_LINK__GRAPH_ELEMENT);
 		}
 		return link;
 	}
@@ -181,7 +181,7 @@ public abstract class GraphElementImpl extends DiagramElementImpl implements Gra
 	 */
 	public EList<GraphConnector> getAnchorage() {
 		if (anchorage == null) {
-			anchorage = new EObjectContainmentWithInverseEList<GraphConnector>(GraphConnector.class, this, UmaPackage.GRAPH_ELEMENT__ANCHORAGE, UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT);
+			anchorage = new EObjectContainmentWithInverseEList.Resolving<GraphConnector>(GraphConnector.class, this, UmaPackage.GRAPH_ELEMENT__ANCHORAGE, UmaPackage.GRAPH_CONNECTOR__GRAPH_ELEMENT);
 		}
 		return anchorage;
 	}
@@ -192,6 +192,29 @@ public abstract class GraphElementImpl extends DiagramElementImpl implements Gra
 	 * @generated
 	 */
 	public SemanticModelBridge getSemanticModel() {
+		if (semanticModel != null && semanticModel.eIsProxy()) {
+			InternalEObject oldSemanticModel = (InternalEObject)semanticModel;
+			semanticModel = (SemanticModelBridge)eResolveProxy(oldSemanticModel);
+			if (semanticModel != oldSemanticModel) {
+				InternalEObject newSemanticModel = (InternalEObject)semanticModel;
+				NotificationChain msgs =  oldSemanticModel.eInverseRemove(this, UmaPackage.SEMANTIC_MODEL_BRIDGE__GRAPH_ELEMENT, SemanticModelBridge.class, null);
+				if (newSemanticModel.eInternalContainer() == null) {
+					msgs =  newSemanticModel.eInverseAdd(this, UmaPackage.SEMANTIC_MODEL_BRIDGE__GRAPH_ELEMENT, SemanticModelBridge.class, msgs);
+				}
+				if (msgs != null) msgs.dispatch();
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.GRAPH_ELEMENT__SEMANTIC_MODEL, oldSemanticModel, semanticModel));
+			}
+		}
+		return semanticModel;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public SemanticModelBridge basicGetSemanticModel() {
 		return semanticModel;
 	}
 
@@ -290,7 +313,8 @@ public abstract class GraphElementImpl extends DiagramElementImpl implements Gra
 			case UmaPackage.GRAPH_ELEMENT__ANCHORAGE:
 				return getAnchorage();
 			case UmaPackage.GRAPH_ELEMENT__SEMANTIC_MODEL:
-				return getSemanticModel();
+				if (resolve) return getSemanticModel();
+				return basicGetSemanticModel();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}

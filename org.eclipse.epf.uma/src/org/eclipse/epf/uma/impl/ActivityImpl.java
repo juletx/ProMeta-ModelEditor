@@ -224,6 +224,29 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 	 * @generated
 	 */
 	public Constraint getPrecondition() {
+		if (precondition != null && precondition.eIsProxy()) {
+			InternalEObject oldPrecondition = (InternalEObject)precondition;
+			precondition = (Constraint)eResolveProxy(oldPrecondition);
+			if (precondition != oldPrecondition) {
+				InternalEObject newPrecondition = (InternalEObject)precondition;
+				NotificationChain msgs = oldPrecondition.eInverseRemove(this, EOPPOSITE_FEATURE_BASE - UmaPackage.ACTIVITY__PRECONDITION, null, null);
+				if (newPrecondition.eInternalContainer() == null) {
+					msgs = newPrecondition.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - UmaPackage.ACTIVITY__PRECONDITION, null, msgs);
+				}
+				if (msgs != null) msgs.dispatch();
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.ACTIVITY__PRECONDITION, oldPrecondition, precondition));
+			}
+		}
+		return precondition;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Constraint basicGetPrecondition() {
 		return precondition;
 	}
 
@@ -267,6 +290,29 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 	 * @generated
 	 */
 	public Constraint getPostcondition() {
+		if (postcondition != null && postcondition.eIsProxy()) {
+			InternalEObject oldPostcondition = (InternalEObject)postcondition;
+			postcondition = (Constraint)eResolveProxy(oldPostcondition);
+			if (postcondition != oldPostcondition) {
+				InternalEObject newPostcondition = (InternalEObject)postcondition;
+				NotificationChain msgs = oldPostcondition.eInverseRemove(this, EOPPOSITE_FEATURE_BASE - UmaPackage.ACTIVITY__POSTCONDITION, null, null);
+				if (newPostcondition.eInternalContainer() == null) {
+					msgs = newPostcondition.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - UmaPackage.ACTIVITY__POSTCONDITION, null, msgs);
+				}
+				if (msgs != null) msgs.dispatch();
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, UmaPackage.ACTIVITY__POSTCONDITION, oldPostcondition, postcondition));
+			}
+		}
+		return postcondition;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Constraint basicGetPostcondition() {
 		return postcondition;
 	}
 
@@ -377,9 +423,11 @@ public class ActivityImpl extends WorkBreakdownElementImpl implements Activity {
 				if (resolve) return getVariabilityBasedOnElement();
 				return basicGetVariabilityBasedOnElement();
 			case UmaPackage.ACTIVITY__PRECONDITION:
-				return getPrecondition();
+				if (resolve) return getPrecondition();
+				return basicGetPrecondition();
 			case UmaPackage.ACTIVITY__POSTCONDITION:
-				return getPostcondition();
+				if (resolve) return getPostcondition();
+				return basicGetPostcondition();
 			case UmaPackage.ACTIVITY__BREAKDOWN_ELEMENTS:
 				return getBreakdownElements();
 			case UmaPackage.ACTIVITY__ROADMAPS:

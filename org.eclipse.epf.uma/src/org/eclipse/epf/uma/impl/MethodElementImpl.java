@@ -264,7 +264,7 @@ public abstract class MethodElementImpl extends PackageableElementImpl implement
 	 */
 	public EList<Constraint> getOwnedRules() {
 		if (ownedRules == null) {
-			ownedRules = new EObjectContainmentEList<Constraint>(Constraint.class, this, UmaPackage.METHOD_ELEMENT__OWNED_RULES);
+			ownedRules = new EObjectContainmentEList.Resolving<Constraint>(Constraint.class, this, UmaPackage.METHOD_ELEMENT__OWNED_RULES);
 		}
 		return ownedRules;
 	}
@@ -276,7 +276,7 @@ public abstract class MethodElementImpl extends PackageableElementImpl implement
 	 */
 	public EList<MethodElementProperty> getMethodElementProperty() {
 		if (methodElementProperty == null) {
-			methodElementProperty = new EObjectContainmentEList<MethodElementProperty>(MethodElementProperty.class, this, UmaPackage.METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY);
+			methodElementProperty = new EObjectContainmentEList.Resolving<MethodElementProperty>(MethodElementProperty.class, this, UmaPackage.METHOD_ELEMENT__METHOD_ELEMENT_PROPERTY);
 		}
 		return methodElementProperty;
 	}

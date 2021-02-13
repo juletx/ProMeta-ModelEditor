@@ -68,7 +68,7 @@ public class KindImpl extends ContentElementImpl implements Kind {
 	 */
 	public EList<ApplicableMetaClassInfo> getApplicableMetaClassInfo() {
 		if (applicableMetaClassInfo == null) {
-			applicableMetaClassInfo = new EObjectContainmentEList<ApplicableMetaClassInfo>(ApplicableMetaClassInfo.class, this, UmaPackage.KIND__APPLICABLE_META_CLASS_INFO);
+			applicableMetaClassInfo = new EObjectContainmentEList.Resolving<ApplicableMetaClassInfo>(ApplicableMetaClassInfo.class, this, UmaPackage.KIND__APPLICABLE_META_CLASS_INFO);
 		}
 		return applicableMetaClassInfo;
 	}

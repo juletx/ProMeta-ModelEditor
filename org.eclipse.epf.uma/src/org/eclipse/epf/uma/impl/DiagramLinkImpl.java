@@ -220,6 +220,16 @@ public class DiagramLinkImpl extends DiagramElementImpl implements DiagramLink {
 	 */
 	public GraphElement getGraphElement() {
 		if (eContainerFeatureID() != UmaPackage.DIAGRAM_LINK__GRAPH_ELEMENT) return null;
+		return (GraphElement)eContainer();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public GraphElement basicGetGraphElement() {
+		if (eContainerFeatureID() != UmaPackage.DIAGRAM_LINK__GRAPH_ELEMENT) return null;
 		return (GraphElement)eInternalContainer();
 	}
 
@@ -321,7 +331,8 @@ public class DiagramLinkImpl extends DiagramElementImpl implements DiagramLink {
 				if (resolve) return getDiagram();
 				return basicGetDiagram();
 			case UmaPackage.DIAGRAM_LINK__GRAPH_ELEMENT:
-				return getGraphElement();
+				if (resolve) return getGraphElement();
+				return basicGetGraphElement();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -389,7 +400,7 @@ public class DiagramLinkImpl extends DiagramElementImpl implements DiagramLink {
 			case UmaPackage.DIAGRAM_LINK__DIAGRAM:
 				return diagram != null;
 			case UmaPackage.DIAGRAM_LINK__GRAPH_ELEMENT:
-				return getGraphElement() != null;
+				return basicGetGraphElement() != null;
 		}
 		return super.eIsSet(featureID);
 	}

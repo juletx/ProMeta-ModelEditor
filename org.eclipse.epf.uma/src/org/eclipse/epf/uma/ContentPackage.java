@@ -32,7 +32,7 @@ public interface ContentPackage extends MethodPackage {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Content Elements</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getContentPackage_ContentElements()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<ContentElement> getContentElements();

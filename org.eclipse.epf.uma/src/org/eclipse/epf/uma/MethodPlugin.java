@@ -61,7 +61,7 @@ public interface MethodPlugin extends MethodUnit, org.eclipse.epf.uma.Package {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Method Packages</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getMethodPlugin_MethodPackages()
-	 * @model containment="true" required="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" required="true" ordered="false"
 	 * @generated
 	 */
 	EList<MethodPackage> getMethodPackages();

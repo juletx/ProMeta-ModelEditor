@@ -92,7 +92,7 @@ public interface DiagramElement extends MethodElement {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Property</em>' containment reference list.
 	 * @see org.eclipse.epf.uma.UmaPackage#getDiagramElement_Property()
-	 * @model containment="true" ordered="false"
+	 * @model containment="true" resolveProxies="true" ordered="false"
 	 * @generated
 	 */
 	EList<Property> getProperty();
