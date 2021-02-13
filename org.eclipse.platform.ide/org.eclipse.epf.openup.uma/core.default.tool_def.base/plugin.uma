@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_GqkzUBo0EeuXnIT9fOh1Fg" guid="_GqkzUBo0EeuXnIT9fOh1Fg">
-    <resourceDescriptors xmi:id="_GqmBcBo0EeuXnIT9fOh1Fg" id="-8L-j0rJzgDkBNd0igOyN0A" uri="tools/method_composer_tool.xmi"/>
-    <resourceDescriptors xmi:id="_GqpEwBo0EeuXnIT9fOh1Fg" id="-SqArASoV4hTpxAprrWhS1g" uri="guidances/supportingmaterials/resources_for_customizing_methods.xmi"/>
-    <resourceDescriptors xmi:id="_GqsvIBo0EeuXnIT9fOh1Fg" id="-SQ05xBXUt6AVSHaSltVFuw" uri="guidances/supportingmaterials/rational_method_composer_resources.xmi"/>
-    <resourceDescriptors xmi:id="_GqukUBo0EeuXnIT9fOh1Fg" id="-_R0yxogmlMQUIc_dSzfpUA" uri="guidances/supportingmaterials/epf_resources.xmi"/>
-  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
+  
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_fRdVEMYbEdyXeo04os5BOw" name="core.default.tool_def.base" guid="_fRdVEMYbEdyXeo04os5BOw" presentationName="Default Tool Definitions" briefDescription="This plug-in defines a basic set of tools that support the practices." changeDate="2008-02-22T16:01:26.000+0100">
     <methodElementProperty xmi:id="_GoZCPRo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
@@ -21,7 +15,7 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_mHQIMMYbEdyXeo04os5BOw" name="method_composer_tool" guid="_mHQIMMYbEdyXeo04os5BOw" presentationName="Method Composer" briefDescription="Method Composer is a tool for authoring, tailoring, and deploying processes." supportingMaterials="_C2FS4F_lEd2zpKtX6B7lBg _dlGBQF_nEd2zpKtX6B7lBg">
             <methodElementProperty xmi:id="_GoZCPxo0EeuXnIT9fOh1Fg" name="CategoryElementsSortType" value="Alphabetic"/>
-            <presentation xmi:id="-8L-j0rJzgDkBNd0igOyN0A" href="uma://-8L-j0rJzgDkBNd0igOyN0A#-8L-j0rJzgDkBNd0igOyN0A"/>
+            <presentation xmi:id="-8L-j0rJzgDkBNd0igOyN0A" href="tools/method_composer_tool.uma#-8L-j0rJzgDkBNd0igOyN0A"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHR7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9KfHR7ekEd-D7YZN9NgldQ"/>
@@ -34,14 +28,14 @@
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHS7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9KfHS7ekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w_1EkOFUEdyhmsbt0Xyl8A" name="method_composer_tool_mentors" guid="_w_1EkOFUEdyhmsbt0Xyl8A" presentationName="Method Composer Tool Mentors">
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_omneEMX4EduywMSzPTUUwA" name="resources_for_customizing_methods" guid="_omneEMX4EduywMSzPTUUwA" presentationName="Resources for Customizing Methods" briefDescription="This supporting material provides guidance on how to customize an existing method element by using Method Composer and provides links to additional information on method customization." supportingMaterials="_C2FS4F_lEd2zpKtX6B7lBg _dlGBQF_nEd2zpKtX6B7lBg">
-            <presentation xmi:id="-SqArASoV4hTpxAprrWhS1g" href="uma://-SqArASoV4hTpxAprrWhS1g#-SqArASoV4hTpxAprrWhS1g"/>
+            <presentation xmi:id="-SqArASoV4hTpxAprrWhS1g" href="guidances/supportingmaterials/resources_for_customizing_methods.uma#-SqArASoV4hTpxAprrWhS1g"/>
             <conceptsAndPapers href="uma://_WCUhAO8KEdmKSqa_gSYthg#_FxJEkFUKEd2_rMtRMt_EMg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_dlGBQF_nEd2zpKtX6B7lBg" name="rational_method_composer_resources" guid="_dlGBQF_nEd2zpKtX6B7lBg" presentationName="Rational Method Composer Resources" briefDescription="This support material provides a list of references for the IBM&amp;reg; Rational&amp;reg; &#xD;&#xA;Method Composer product.">
-            <presentation xmi:id="-SQ05xBXUt6AVSHaSltVFuw" href="uma://-SQ05xBXUt6AVSHaSltVFuw#-SQ05xBXUt6AVSHaSltVFuw"/>
+            <presentation xmi:id="-SQ05xBXUt6AVSHaSltVFuw" href="guidances/supportingmaterials/rational_method_composer_resources.uma#-SQ05xBXUt6AVSHaSltVFuw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_C2FS4F_lEd2zpKtX6B7lBg" name="epf_resources" guid="_C2FS4F_lEd2zpKtX6B7lBg" presentationName="EPF Resources" briefDescription="This support material provides a list of references for the Eclipse Process Framework (EPF) project.">
-            <presentation xmi:id="-_R0yxogmlMQUIc_dSzfpUA" href="uma://-_R0yxogmlMQUIc_dSzfpUA#-_R0yxogmlMQUIc_dSzfpUA"/>
+            <presentation xmi:id="-_R0yxogmlMQUIc_dSzfpUA" href="guidances/supportingmaterials/epf_resources.uma#-_R0yxogmlMQUIc_dSzfpUA"/>
           </contentElements>
         </childPackages>
       </childPackages>

@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_G9iLkBo0EeuXnIT9fOh1Fg" guid="_G9iLkBo0EeuXnIT9fOh1Fg">
-    <resourceDescriptors xmi:id="_G9iLkRo0EeuXnIT9fOh1Fg" id="-ybGHhzGQT4fXY7TTaBPxug" uri="content.xmi"/>
-  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
+  
   <org.eclipse.epf.uma:ProcessComponent xmi:id="_pzQU0NONEdyqlogshP8l4g" name="transition_phase_iteration" guid="_pzQU0NONEdyqlogshP8l4g">
     <methodElementProperty xmi:id="_G9lO4Bo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9AwbekEd-D7YZN9NgldQ" name="plan_manage_iteration" guid="_9t9AwbekEd-D7YZN9NgldQ">
@@ -64,7 +61,7 @@
     </childPackages>
     <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_pzQU0dONEdyqlogshP8l4g" name="transition_phase_iteration" guid="_pzQU0dONEdyqlogshP8l4g" presentationName="Transition Phase Iteration" briefDescription="This iteration template defines the activities (and associated roles and work products) performed in a typical iteration in the Transition phase." breakdownElements="_5v_o4dOOEdyqlogshP8l4g _-iix4dOOEdyqlogshP8l4g _AZ58IdOPEdyqlogshP8l4g _ybaHoZlYEeGlkdGl1HQlDA _qRAugZlXEeGlkdGl1HQlDA _tcRJkZlXEeGlkdGl1HQlDA _CoJVUdOPEdyqlogshP8l4g _sL8xMZlXEeGlkdGl1HQlDA">
       <methodElementProperty xmi:id="_G9lO5ho0EeuXnIT9fOh1Fg" name="publish_ad" value="true"/>
-      <presentation xmi:id="-ybGHhzGQT4fXY7TTaBPxug" href="uma://-ybGHhzGQT4fXY7TTaBPxug#-ybGHhzGQT4fXY7TTaBPxug"/>
+      <presentation xmi:id="-ybGHhzGQT4fXY7TTaBPxug" href="content.uma#-ybGHhzGQT4fXY7TTaBPxug"/>
     </process>
   </org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>

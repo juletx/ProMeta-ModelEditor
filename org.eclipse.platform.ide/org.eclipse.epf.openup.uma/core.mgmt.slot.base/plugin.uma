@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_GuwIsBo0EeuXnIT9fOh1Fg" guid="_GuwIsBo0EeuXnIT9fOh1Fg">
-    <resourceDescriptors xmi:id="_GuxW0Bo0EeuXnIT9fOh1Fg" id="-WHNPkIsytVNbT2cosOFSCA" uri="guidances/guidelines/project_planning_guidance_slot.xmi"/>
-    <resourceDescriptors xmi:id="_Gu1oQBo0EeuXnIT9fOh1Fg" id="-_gTtsZg2sOCefRSeAo-bJg" uri="guidances/guidelines/collaboration_guidance_slot.xmi"/>
-    <resourceDescriptors xmi:id="_Gu3dcBo0EeuXnIT9fOh1Fg" id="-J3F-VWcgroOkoPGMGKyl8A" uri="guidances/guidelines/work_assignment_guidance_slot.xmi"/>
-  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
+  
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_vJYucEfUEdyiPI8btkmvmw" name="core.mgmt.slot.base" guid="_vJYucEfUEdyiPI8btkmvmw" presentationName="Management Slot" briefDescription="This plug-in defines the management slots." changeDate="2008-02-14T11:05:35.000+0100" supporting="true">
     <methodElementProperty xmi:id="_GoZpFho0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
@@ -31,13 +26,13 @@
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gxGj0N8-Edyhmsbt0Xyl8A" name="management_guidance_slots" guid="_gxGj0N8-Edyhmsbt0Xyl8A" presentationName="Management Guidance Slots">
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_sLQ6AN8-Edyhmsbt0Xyl8A" name="project_planning_guidance_slot" guid="_sLQ6AN8-Edyhmsbt0Xyl8A" presentationName="[Project Planning Guidance]" briefDescription="This guideline is a collection of additional guidance on project planning, provided by supporting practices.">
-            <presentation xmi:id="-WHNPkIsytVNbT2cosOFSCA" href="uma://-WHNPkIsytVNbT2cosOFSCA#-WHNPkIsytVNbT2cosOFSCA"/>
+            <presentation xmi:id="-WHNPkIsytVNbT2cosOFSCA" href="guidances/guidelines/project_planning_guidance_slot.uma#-WHNPkIsytVNbT2cosOFSCA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_68JUYN8-Edyhmsbt0Xyl8A" name="collaboration_guidance_slot" guid="_68JUYN8-Edyhmsbt0Xyl8A" presentationName="[Collaboration Guidance]" briefDescription="This guideline is a collection of additional guidance on collaboration, provided by supporting practices.">
-            <presentation xmi:id="-_gTtsZg2sOCefRSeAo-bJg" href="uma://-_gTtsZg2sOCefRSeAo-bJg#-_gTtsZg2sOCefRSeAo-bJg"/>
+            <presentation xmi:id="-_gTtsZg2sOCefRSeAo-bJg" href="guidances/guidelines/collaboration_guidance_slot.uma#-_gTtsZg2sOCefRSeAo-bJg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_BslGYN8_Edyhmsbt0Xyl8A" name="work_assignment_guidance_slot" guid="_BslGYN8_Edyhmsbt0Xyl8A" presentationName="[Work Assignment Guidance]" briefDescription="This guideline is a collection of additional guidance on making work assignments, provided by supporting practices.">
-            <presentation xmi:id="-J3F-VWcgroOkoPGMGKyl8A" href="uma://-J3F-VWcgroOkoPGMGKyl8A#-J3F-VWcgroOkoPGMGKyl8A"/>
+            <presentation xmi:id="-J3F-VWcgroOkoPGMGKyl8A" href="guidances/guidelines/work_assignment_guidance_slot.uma#-J3F-VWcgroOkoPGMGKyl8A"/>
           </contentElements>
         </childPackages>
       </childPackages>

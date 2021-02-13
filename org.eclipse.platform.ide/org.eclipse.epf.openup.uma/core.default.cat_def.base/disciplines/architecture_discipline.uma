@@ -1,31 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-IDdeF_boiqzJJnjpXrdLFQ" name="architecture_discipline,_iGSHsFZ-EdyIUdvDLLUdeg" guid="-IDdeF_boiqzJJnjpXrdLFQ" changeDate="2008-02-09T10:24:59.000+0100" version="7.2.0">
-  <mainDescription>&lt;p>&#xD;
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-IDdeF_boiqzJJnjpXrdLFQ" name="architecture_discipline,_iGSHsFZ-EdyIUdvDLLUdeg" guid="-IDdeF_boiqzJJnjpXrdLFQ" changeDate="2008-02-09T10:24:59.000+0100" version="7.2.0">
+  <mainDescription>&lt;p&gt;&#xD;
     The purpose of this discipline is to evolve a robust architecture for the system.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
     The Architecture discipline is related to these other disciplines:&#xD;
-&lt;/p>&#xD;
-&lt;ul>&#xD;
-    &lt;li>&#xD;
-        The &lt;a class=&quot;elementLink&quot;&#xD;
-        href=&quot;./../../core.default.cat_def.base/disciplines/requirements_discipline_9520664.html&quot;&#xD;
-        guid=&quot;_iGSHtVZ-EdyIUdvDLLUdeg&quot;>Requirements&lt;/a>&amp;nbsp;discipline provides the architecturally significant&#xD;
+&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+    &lt;li&gt;&#xD;
+        The &lt;a class="elementLink"&#xD;
+        href="./../../core.default.cat_def.base/disciplines/requirements_discipline_9520664.html"&#xD;
+        guid="_iGSHtVZ-EdyIUdvDLLUdeg"&gt;Requirements&lt;/a&gt;&amp;nbsp;discipline provides the architecturally significant&#xD;
         requirements.&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        The &lt;a class=&quot;elementLink&quot;&#xD;
-        href=&quot;./../../core.default.cat_def.base/disciplines/development_discipline_44C02445.html&quot;&#xD;
-        guid=&quot;_iGSHsVZ-EdyIUdvDLLUdeg&quot;>Development&lt;/a>&amp;nbsp;discipline designs and implements the architecture.&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        The &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.default.cat_def.base/disciplines/test_discipline_F7EB1A7A.html&quot;&#xD;
-        guid=&quot;_iGSHtlZ-EdyIUdvDLLUdeg&quot;>Test&lt;/a>&amp;nbsp;discipline verifies the stability and correctness of the architecture.&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        The &lt;a class=&quot;elementLink&quot;&#xD;
-        href=&quot;./../../core.default.cat_def.base/disciplines/project_management_discipline_FEB42654.html&quot;&#xD;
-        guid=&quot;_iGSHtFZ-EdyIUdvDLLUdeg&quot;>Project Management&lt;/a>&amp;nbsp;discipline plans the project and each iteration.&#xD;
-    &lt;/li>&#xD;
-&lt;/ul></mainDescription>
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
+        The &lt;a class="elementLink"&#xD;
+        href="./../../core.default.cat_def.base/disciplines/development_discipline_44C02445.html"&#xD;
+        guid="_iGSHsVZ-EdyIUdvDLLUdeg"&gt;Development&lt;/a&gt;&amp;nbsp;discipline designs and implements the architecture.&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
+        The &lt;a class="elementLink" href="./../../core.default.cat_def.base/disciplines/test_discipline_F7EB1A7A.html"&#xD;
+        guid="_iGSHtlZ-EdyIUdvDLLUdeg"&gt;Test&lt;/a&gt;&amp;nbsp;discipline verifies the stability and correctness of the architecture.&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
+        The &lt;a class="elementLink"&#xD;
+        href="./../../core.default.cat_def.base/disciplines/project_management_discipline_FEB42654.html"&#xD;
+        guid="_iGSHtFZ-EdyIUdvDLLUdeg"&gt;Project Management&lt;/a&gt;&amp;nbsp;discipline plans the project and each iteration.&#xD;
+    &lt;/li&gt;&#xD;
+&lt;/ul&gt;</mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

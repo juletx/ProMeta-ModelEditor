@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_G1TcoBo0EeuXnIT9fOh1Fg" guid="_G1TcoBo0EeuXnIT9fOh1Fg">
-    <resourceDescriptors xmi:id="_G1UqwBo0EeuXnIT9fOh1Fg" id="-rZqO0o7t94PG0CUh3wZe3w" uri="roles/analyst.assign_guidance.xmi"/>
-    <resourceDescriptors xmi:id="_G1ZjQBo0EeuXnIT9fOh1Fg" id="-UH4bpYyCuhaEFAe4De1mzA" uri="roles/developer.assign_guidance.xmi"/>
-  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
+  
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_NBRHwMh3EdygFZkm1d5NtQ" name="practice.mgmt.release_planning.assign" guid="_NBRHwMh3EdygFZkm1d5NtQ" presentationName="Release Planning Assignments" changeDate="2008-01-21T12:19:18.000+0100">
     <methodElementProperty xmi:id="_Goa3OBo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
@@ -47,11 +43,11 @@
             <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0ZM4MclgEdmt3adZL5Dmdw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_T-dywEIuEd2GCesTWQms8Q" name="analyst.assign_guidance" guid="_T-dywEIuEd2GCesTWQms8Q" variabilityType="contributes">
-            <presentation xmi:id="-rZqO0o7t94PG0CUh3wZe3w" href="uma://-rZqO0o7t94PG0CUh3wZe3w#-rZqO0o7t94PG0CUh3wZe3w"/>
+            <presentation xmi:id="-rZqO0o7t94PG0CUh3wZe3w" href="roles/analyst.assign_guidance.uma#-rZqO0o7t94PG0CUh3wZe3w"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_42BPkEigEd2O0_STOCj1Ow" name="developer.assign_guidance" guid="_42BPkEigEd2O0_STOCj1Ow" variabilityType="contributes">
-            <presentation xmi:id="-UH4bpYyCuhaEFAe4De1mzA" href="uma://-UH4bpYyCuhaEFAe4De1mzA#-UH4bpYyCuhaEFAe4De1mzA"/>
+            <presentation xmi:id="-UH4bpYyCuhaEFAe4De1mzA" href="roles/developer.assign_guidance.uma#-UH4bpYyCuhaEFAe4De1mzA"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_0YDosMlgEdmt3adZL5Dmdw"/>
             <guidelines href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_Jq64EJjsEduad8I_c-ogIA"/>
           </contentElements>

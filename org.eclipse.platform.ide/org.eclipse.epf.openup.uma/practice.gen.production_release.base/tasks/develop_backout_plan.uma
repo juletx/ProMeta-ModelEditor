@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Z_sfrl6NWP_8GKlFeHrrgg" name="04_create_update_backout_plan,_2F7n8DHNEeC7j_IRiP-WPQ" guid="-Z_sfrl6NWP_8GKlFeHrrgg" changeDate="2011-07-28T21:18:22.207+0200" version="7.5.1">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-Z_sfrl6NWP_8GKlFeHrrgg" name="04_create_update_backout_plan,_2F7n8DHNEeC7j_IRiP-WPQ" guid="-Z_sfrl6NWP_8GKlFeHrrgg" changeDate="2011-07-28T21:18:22.207+0200" version="7.5.1">
   <mainDescription>A rollback might be needed for a variety of reasons, including corruption of the production code base, inoperable&#xD;
 components, an unplanned undesirable effect of the release on other production systems, an unhappy customer, etc.&#xD;
 The&amp;nbsp;Development team should provide the production support organization with a specific plan and decision criteria&#xD;
@@ -11,9 +10,9 @@ might have a plan that can be used as a starting point.</sectionDescription>
   </sections>
   <sections xmi:id="_IAIu8-B-EeC1y_NExchKwQ" name="Develop the backout plan (if applicable)" guid="_IAIu8-B-EeC1y_NExchKwQ">
     <sectionDescription>If a backout plan does not exist, or one cannot be found to be used as a starting point, answer the questions documented in&#xD;
-the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
-href=&quot;./../../practice.gen.production_release.base/workproducts/backout_plan_DC0D7247.html&quot;&#xD;
-guid=&quot;_IAHg2eB-EeC1y_NExchKwQ&quot;>Artifact: Backout Plan&lt;/a> to start and develop a backout plan.</sectionDescription>
+the &lt;a class="elementLinkWithType"&#xD;
+href="./../../practice.gen.production_release.base/workproducts/backout_plan_DC0D7247.html"&#xD;
+guid="_IAHg2eB-EeC1y_NExchKwQ"&gt;Artifact: Backout Plan&lt;/a&gt; to start and develop a backout plan.</sectionDescription>
   </sections>
   <sections xmi:id="_IAIu9OB-EeC1y_NExchKwQ" name="Update the backout plan (if applicable)" guid="_IAIu9OB-EeC1y_NExchKwQ">
     <sectionDescription>If a backout plan does exist that can be used as a baseline, review that plan and update, add, or delete information as&#xD;

@@ -1,19 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_G5G-kBo0EeuXnIT9fOh1Fg" guid="_G5G-kBo0EeuXnIT9fOh1Fg">
-    <resourceDescriptors xmi:id="_G5HloBo0EeuXnIT9fOh1Fg" id="-mEJbo_5lG227hXMdftmX_A" uri="guidances/guidelines/modeling_the_arch.xmi"/>
-    <resourceDescriptors xmi:id="_G5O6YBo0EeuXnIT9fOh1Fg" id="-5_3zlnRYAOz-wT6GBaWoNg" uri="workproducts/architecture_notebook.vm.xmi"/>
-    <resourceDescriptors xmi:id="_G5R9sBo0EeuXnIT9fOh1Fg" id="-tmKVpMZoAoS-Wkvbe_iHpQ" uri="tasks/envision_the_arch.vm.xmi"/>
-    <resourceDescriptors xmi:id="_G5YrYBo0EeuXnIT9fOh1Fg" id="-E459X-McFVuJGngiFPWf6w" uri="tasks/refine_the_arch.vm.xmi"/>
-    <resourceDescriptors xmi:id="_G5agkBo0EeuXnIT9fOh1Fg" id="_qDRSULBKEdm7Eph_l9Cn9w" uri="tasks/envision_the_arch.xmi"/>
-    <resourceDescriptors xmi:id="_G5cVwBo0EeuXnIT9fOh1Fg" id="_rUis8LBKEdm7Eph_l9Cn9w" uri="tasks/refine_the_arch.xmi"/>
-    <resourceDescriptors xmi:id="_G5eyABo0EeuXnIT9fOh1Fg" id="_17Ve8Nd6EdmIm-bsRSNCgw" uri="guidances/checklists/architecture_notebook.xmi"/>
-    <resourceDescriptors xmi:id="_G5gnMBo0EeuXnIT9fOh1Fg" id="-KXvzdy6aJTFPQRS-UK5dvA" uri="guidances/roadmaps/how_to_adopt_evolutionary_arch_practice.xmi"/>
-    <resourceDescriptors xmi:id="_G5jDcBo0EeuXnIT9fOh1Fg" id="_H4gOYKYTEdmvhNXG0Oc2uA" uri="workproducts/architecture_notebook.xmi"/>
-    <resourceDescriptors xmi:id="_G5k4oBo0EeuXnIT9fOh1Fg" id="-TleqHW_wvIYc0qLQgZUchA" uri="guidances/practices/evolutionary_arch.xmi"/>
-    <resourceDescriptors xmi:id="_G5nU4Bo0EeuXnIT9fOh1Fg" id="-h09djKXIOUJlez8h6UXrWw" uri="guidances/templates/architecture_notebook.xmi"/>
-    <resourceDescriptors xmi:id="_G5pxIBo0EeuXnIT9fOh1Fg" id="-Iyj1LA3WbTQP_iQmRp7ibw" uri="guidances/supportingmaterials/release_info_evolutionary_arch.xmi"/>
-  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
+  
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_4gaS4LPREduocbW-TPTq7A" name="practice.tech.evolutionary_arch.base" guid="_4gaS4LPREduocbW-TPTq7A" presentationName="Evolutionary Architecture" briefDescription="Analyze the major technical concerns that affect the solution and capture those architectural decisions." changeDate="2008-01-28T10:24:45.000+0100">
     <methodElementProperty xmi:id="_GocsZRo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
@@ -35,21 +21,21 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xhaxgKtYEdytrdP46hWyHg" name="evolutionary_architecture_practice" guid="_xhaxgKtYEdytrdP46hWyHg" presentationName="Evolutionary Architecture Practice">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__EXZIKtYEdytrdP46hWyHg" name="Architecture Modeling" guid="__EXZIKtYEdytrdP46hWyHg">
             <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_HrgUQNcuEdy1nJEYZGzN4A" name="modeling_the_arch" guid="_HrgUQNcuEdy1nJEYZGzN4A" presentationName="Modeling the Architecture" briefDescription="This guidelines provides some recommendations on the types of visual architecture models you may want to develop.">
-              <presentation xmi:id="-mEJbo_5lG227hXMdftmX_A" href="uma://-mEJbo_5lG227hXMdftmX_A#-mEJbo_5lG227hXMdftmX_A"/>
+              <presentation xmi:id="-mEJbo_5lG227hXMdftmX_A" href="guidances/guidelines/modeling_the_arch.uma#-mEJbo_5lG227hXMdftmX_A"/>
               <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0SsecNr8EdyXE6np2_hUMA"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_G0xGANfdEdy8T_PKWvNDBA" name="architecture_notebook.vm" guid="_G0xGANfdEdy8T_PKWvNDBA" variabilityType="contributes" variabilityBasedOnElement="_0XAf0MlgEdmt3adZL5Dmdw" guidelines="_HrgUQNcuEdy1nJEYZGzN4A">
-              <presentation xmi:id="-5_3zlnRYAOz-wT6GBaWoNg" href="uma://-5_3zlnRYAOz-wT6GBaWoNg#-5_3zlnRYAOz-wT6GBaWoNg"/>
+              <presentation xmi:id="-5_3zlnRYAOz-wT6GBaWoNg" href="workproducts/architecture_notebook.vm.uma#-5_3zlnRYAOz-wT6GBaWoNg"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_s4ojQNqREdy88NBoQgfGyg" name="envision_the_arch.vm" guid="_s4ojQNqREdy88NBoQgfGyg" variabilityType="contributes" variabilityBasedOnElement="_0f-1oMlgEdmt3adZL5Dmdw" guidelines="_HrgUQNcuEdy1nJEYZGzN4A">
-              <presentation xmi:id="-tmKVpMZoAoS-Wkvbe_iHpQ" href="uma://-tmKVpMZoAoS-Wkvbe_iHpQ#-tmKVpMZoAoS-Wkvbe_iHpQ"/>
+              <presentation xmi:id="-tmKVpMZoAoS-Wkvbe_iHpQ" href="tasks/envision_the_arch.vm.uma#-tmKVpMZoAoS-Wkvbe_iHpQ"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_1kmN0NqREdy88NBoQgfGyg" name="refine_the_arch.vm" guid="_1kmN0NqREdy88NBoQgfGyg" variabilityType="contributes" variabilityBasedOnElement="_0gRJgMlgEdmt3adZL5Dmdw" guidelines="_HrgUQNcuEdy1nJEYZGzN4A">
-              <presentation xmi:id="-E459X-McFVuJGngiFPWf6w" href="uma://-E459X-McFVuJGngiFPWf6w#-E459X-McFVuJGngiFPWf6w"/>
+              <presentation xmi:id="-E459X-McFVuJGngiFPWf6w" href="tasks/refine_the_arch.vm.uma#-E459X-McFVuJGngiFPWf6w"/>
             </contentElements>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0f-1oMlgEdmt3adZL5Dmdw" name="envision_the_arch" guid="_0f-1oMlgEdmt3adZL5Dmdw" presentationName="Envision the Architecture" briefDescription="This task is where the &quot;vision&quot; for the architecture is developed through analysis of the architecturally significant requirements and identification of architectural constraints, decisions and objectives." output="_0XAf0MlgEdmt3adZL5Dmdw" optionalInput="_0XAf0MlgEdmt3adZL5Dmdw">
-            <presentation xmi:id="_qDRSULBKEdm7Eph_l9Cn9w" href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_qDRSULBKEdm7Eph_l9Cn9w"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0f-1oMlgEdmt3adZL5Dmdw" name="envision_the_arch" guid="_0f-1oMlgEdmt3adZL5Dmdw" presentationName="Envision the Architecture" briefDescription="This task is where the &#34;vision&#34; for the architecture is developed through analysis of the architecturally significant requirements and identification of architectural constraints, decisions and objectives." output="_0XAf0MlgEdmt3adZL5Dmdw" optionalInput="_0XAf0MlgEdmt3adZL5Dmdw">
+            <presentation xmi:id="_qDRSULBKEdm7Eph_l9Cn9w" href="tasks/envision_the_arch.uma#_qDRSULBKEdm7Eph_l9Cn9w"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_HrZGIA4MEduibvKwrGxWxA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_HlRqANpbEdyP58ppo1Ieaw"/>
@@ -61,7 +47,7 @@
             <mandatoryInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0gRJgMlgEdmt3adZL5Dmdw" name="refine_the_arch" guid="_0gRJgMlgEdmt3adZL5Dmdw" presentationName="Refine the Architecture" briefDescription="Refine the architecture to an appropriate level of detail to support development." output="_0XAf0MlgEdmt3adZL5Dmdw">
-            <presentation xmi:id="_rUis8LBKEdm7Eph_l9Cn9w" href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_rUis8LBKEdm7Eph_l9Cn9w"/>
+            <presentation xmi:id="_rUis8LBKEdm7Eph_l9Cn9w" href="tasks/refine_the_arch.uma#_rUis8LBKEdm7Eph_l9Cn9w"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_HrZGIA4MEduibvKwrGxWxA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_O1kAANvfEduv2KOT-Teh6w"/>
@@ -78,7 +64,7 @@
             <optionalInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_17PYUNd6EdmIm-bsRSNCgw" name="architecture_notebook" guid="_17PYUNd6EdmIm-bsRSNCgw" presentationName="Architecture Notebook">
-            <presentation xmi:id="_17Ve8Nd6EdmIm-bsRSNCgw" href="uma://_17Ve8Nd6EdmIm-bsRSNCgw#_17Ve8Nd6EdmIm-bsRSNCgw"/>
+            <presentation xmi:id="_17Ve8Nd6EdmIm-bsRSNCgw" href="guidances/checklists/architecture_notebook.uma#_17Ve8Nd6EdmIm-bsRSNCgw"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_jdKSsNpiEdyP58ppo1Ieaw"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_HlRqANpbEdyP58ppo1Ieaw"/>
@@ -89,16 +75,16 @@
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0gjdYMlgEdmt3adZL5Dmdw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_Odpz8NciEdy1nJEYZGzN4A" name="how_to_adopt_evolutionary_arch_practice" guid="_Odpz8NciEdy1nJEYZGzN4A" presentationName="How to adopt the Evolutionary Architecture practice" briefDescription="This roadmap describes how to adopt the Evolutionary Architecture practice.">
-            <presentation xmi:id="-KXvzdy6aJTFPQRS-UK5dvA" href="uma://-KXvzdy6aJTFPQRS-UK5dvA#-KXvzdy6aJTFPQRS-UK5dvA"/>
+            <presentation xmi:id="-KXvzdy6aJTFPQRS-UK5dvA" href="guidances/roadmaps/how_to_adopt_evolutionary_arch_practice.uma#-KXvzdy6aJTFPQRS-UK5dvA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0XAf0MlgEdmt3adZL5Dmdw" name="architecture_notebook" guid="_0XAf0MlgEdmt3adZL5Dmdw" presentationName="Architecture Notebook" briefDescription="This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture." checklists="_17PYUNd6EdmIm-bsRSNCgw" templates="_me8WcAANEdyRS9uciXlZ6g">
-            <presentation xmi:id="_H4gOYKYTEdmvhNXG0Oc2uA" href="uma://_H4gOYKYTEdmvhNXG0Oc2uA#_H4gOYKYTEdmvhNXG0Oc2uA"/>
+            <presentation xmi:id="_H4gOYKYTEdmvhNXG0Oc2uA" href="workproducts/architecture_notebook.uma#_H4gOYKYTEdmvhNXG0Oc2uA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
             <fulfills href="uma://_-bv0ELXuEduGP_98XMd0fg#_8OD-cLPTEduocbW-TPTq7A"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_uVnpQB4qEd2bS8fFOQ7WWA" name="evolutionary_arch" guid="_uVnpQB4qEd2bS8fFOQ7WWA" presentationName="Evolutionary Architecture" briefDescription="Analyze the major technical concerns that affect the solution, and capture those architectural decisions to ensure that those decisions are assessed and communicated.">
-            <presentation xmi:id="-TleqHW_wvIYc0qLQgZUchA" href="uma://-TleqHW_wvIYc0qLQgZUchA#-TleqHW_wvIYc0qLQgZUchA"/>
+            <presentation xmi:id="-TleqHW_wvIYc0qLQgZUchA" href="guidances/practices/evolutionary_arch.uma#-TleqHW_wvIYc0qLQgZUchA"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_kgtcoNc8Edyd7OybSySFxg"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
@@ -111,12 +97,12 @@
             <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_Odpz8NciEdy1nJEYZGzN4A"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_me8WcAANEdyRS9uciXlZ6g" name="architecture_notebook" guid="_me8WcAANEdyRS9uciXlZ6g" presentationName="Architecture Notebook" briefDescription="Template for describing the architecture.">
-            <presentation xmi:id="-h09djKXIOUJlez8h6UXrWw" href="uma://-h09djKXIOUJlez8h6UXrWw#-h09djKXIOUJlez8h6UXrWw"/>
+            <presentation xmi:id="-h09djKXIOUJlez8h6UXrWw" href="guidances/templates/architecture_notebook.uma#-h09djKXIOUJlez8h6UXrWw"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rA1NMM3lEdyjXslGsagg_w" name="release_info" guid="_rA1NMM3lEdyjXslGsagg_w" presentationName="Release Info">
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_rA1NMc3lEdyjXslGsagg_w" name="release_info_evolutionary_arch" guid="_rA1NMc3lEdyjXslGsagg_w" presentationName="Practice: Evolutionary Architecture" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
-            <presentation xmi:id="-Iyj1LA3WbTQP_iQmRp7ibw" href="uma://-Iyj1LA3WbTQP_iQmRp7ibw#-Iyj1LA3WbTQP_iQmRp7ibw"/>
+            <presentation xmi:id="-Iyj1LA3WbTQP_iQmRp7ibw" href="guidances/supportingmaterials/release_info_evolutionary_arch.uma#-Iyj1LA3WbTQP_iQmRp7ibw"/>
           </contentElements>
         </childPackages>
       </childPackages>

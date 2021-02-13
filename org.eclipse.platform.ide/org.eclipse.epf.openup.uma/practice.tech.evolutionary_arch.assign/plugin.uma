@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_G5BfABo0EeuXnIT9fOh1Fg" guid="_G5BfABo0EeuXnIT9fOh1Fg"/>
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
+  
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_GxBjAM2sEdym_ZFqrJcXUg" name="practice.tech.evolutionary_arch.assign" guid="_GxBjAM2sEdym_ZFqrJcXUg" presentationName="Evolutionary Architecture Assignments" briefDescription="This plug-in contains the standard category and role assignment for the Evolutionary &#xD;&#xA;Architecture practice. It is dependent on the practice plug-in, as well as on &#xD;&#xA;the plug-ins that contain the standard categories and roles being assigned." changeDate="2008-02-07T20:41:35.000+0100">
     <methodElementProperty xmi:id="_GocsZBo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>

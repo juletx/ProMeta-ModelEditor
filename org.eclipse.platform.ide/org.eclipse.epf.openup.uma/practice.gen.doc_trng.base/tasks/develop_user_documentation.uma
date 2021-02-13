@@ -1,43 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-bkoNpaQhWX6FBG-iOZkRPg" name="create_update_user_documenation,_gMmZoDHMEeC7j_IRiP-WPQ" guid="-bkoNpaQhWX6FBG-iOZkRPg" changeDate="2011-09-12T17:48:05.139+0200" version="7.5.1">
-  <mainDescription>&lt;p>&#xD;
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-bkoNpaQhWX6FBG-iOZkRPg" name="create_update_user_documenation,_gMmZoDHMEeC7j_IRiP-WPQ" guid="-bkoNpaQhWX6FBG-iOZkRPg" changeDate="2011-09-12T17:48:05.139+0200" version="7.5.1">
+  <mainDescription>&lt;p&gt;&#xD;
     User documentation might include all or parts of user manuals (electronic or paper-based), tutorials, frequently asked&#xD;
     questions (FAQs), on-line Help Files, installation instructions, operational procedures, etc. User documentation often&#xD;
     is used as the basis for training materials - if the documentation is of poor quality, the training materials might not&#xD;
     be any better.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
     Without good user documentation, a system might be well developed by a development team but might not meet the End&#xD;
     User's expectations because they will not be able operate the application effectively.&#xD;
-&lt;/p></mainDescription>
+&lt;/p&gt;</mainDescription>
   <sections xmi:id="_-zfOo-B8EeC1y_NExchKwQ" name="Determine user documentation contents" guid="_-zfOo-B8EeC1y_NExchKwQ">
-    <sectionDescription>&lt;p>&#xD;
+    <sectionDescription>&lt;p&gt;&#xD;
     User documentation often consists of a wide variety of content such as:&#xD;
-&lt;/p>&#xD;
-&lt;ul>&#xD;
-    &lt;li>&#xD;
+&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+    &lt;li&gt;&#xD;
         User manuals (electronic or paper-based)&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Tutorials&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Frequently asked questions (FAQs)&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         On-line Help Files&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Installation and configuration instructions&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Operational procedures (or job aids)&#xD;
-    &lt;/li>&#xD;
-&lt;/ul>&#xD;
-&lt;p>&#xD;
+    &lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&#xD;
     For your product and for this release, determine which of these types of user documentation your team will develop and&#xD;
     deliver.&#xD;
-&lt;/p></sectionDescription>
+&lt;/p&gt;</sectionDescription>
   </sections>
   <sections xmi:id="_-zfOpeB8EeC1y_NExchKwQ" name="Leverage product documentation" guid="_-zfOpeB8EeC1y_NExchKwQ">
     <sectionDescription>Re-use whatever material you can from the product documentation that your team has created. If adequate time and attention&#xD;
@@ -46,38 +45,38 @@ documentation. Because only features (and possibly some nonfunctional requiremen
 that amount can be leveraged. However, it often provides a nice framework for the user documentation.</sectionDescription>
   </sections>
   <sections xmi:id="_-zfOpOB8EeC1y_NExchKwQ" name="Leverage other materials" guid="_-zfOpOB8EeC1y_NExchKwQ">
-    <sectionDescription>&lt;p>&#xD;
+    <sectionDescription>&lt;p&gt;&#xD;
     Other materials developed in the course of the Release might provide excellent input into the user documentation such&#xD;
     as:&#xD;
-&lt;/p>&#xD;
-&lt;ul>&#xD;
-    &lt;li>&#xD;
+&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+    &lt;li&gt;&#xD;
         User Stories&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Test Cases&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Storyboards&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Test Scenarios&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Architecture Notebook&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Previously developed training materials&#xD;
-    &lt;/li>&#xD;
-&lt;/ul>&#xD;
-&lt;p>&#xD;
+    &lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&#xD;
     Each of these may contain content that you do not need to re-create. Use your imagination to find other source&#xD;
     materials that can help your team document the system for end users.&#xD;
-&lt;/p></sectionDescription>
+&lt;/p&gt;</sectionDescription>
   </sections>
   <sections xmi:id="_-zfOouB8EeC1y_NExchKwQ" name="Write user documentation content" guid="_-zfOouB8EeC1y_NExchKwQ">
     <sectionDescription>Based on the previous steps, write the user documentation. One way to do this is to assign sections of the document&#xD;
-(described in the step &quot;Determine User Documentation Contents&quot; above) to Development team members as Sprint/Iteration Tasks&#xD;
+(described in the step "Determine User Documentation Contents" above) to Development team members as Sprint/Iteration Tasks&#xD;
 in the Release Sprint/Iteration.</sectionDescription>
   </sections>
   <sections xmi:id="_-zfOoeB8EeC1y_NExchKwQ" name="Perform quality review" guid="_-zfOoeB8EeC1y_NExchKwQ">

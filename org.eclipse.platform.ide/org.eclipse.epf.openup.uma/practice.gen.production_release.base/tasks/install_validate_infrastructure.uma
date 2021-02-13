@@ -1,49 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-SLY9_MQQ_ykBIaLojfgzBQ" name="02_install_validate_infrastructure,_FVOHgDHMEeC7j_IRiP-WPQ" guid="-SLY9_MQQ_ykBIaLojfgzBQ" changeDate="2011-09-14T07:12:43.813+0200" version="7.5.1">
-  <mainDescription>&lt;p>&#xD;
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-SLY9_MQQ_ykBIaLojfgzBQ" name="02_install_validate_infrastructure,_FVOHgDHMEeC7j_IRiP-WPQ" guid="-SLY9_MQQ_ykBIaLojfgzBQ" changeDate="2011-09-14T07:12:43.813+0200" version="7.5.1">
+  <mainDescription>&lt;p&gt;&#xD;
     A release package cannot be deployed to production if the environmental infrastructure within which the release will be&#xD;
-    run is not sufficiently built or tested. Whether the release is deployed as a &quot;push&quot; (where the application is deployed&#xD;
-    from a central point and proactively delivered to target locations) or a &quot;pull&quot; (where the application is made&#xD;
+    run is not sufficiently built or tested. Whether the release is deployed as a "push" (where the application is deployed&#xD;
+    from a central point and proactively delivered to target locations) or a "pull" (where the application is made&#xD;
     available at central point and pulled by a user at a time of their choosing), the infrastructure needed to support the&#xD;
     application must be considered and implemented.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
     Some key aspects of installing and/or validating the desired infrastructure:&#xD;
-&lt;/p>&#xD;
-&lt;ul>&#xD;
-    &lt;li>&#xD;
+&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+    &lt;li&gt;&#xD;
         Identify the requirements and components of the environment configuration&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Determine the lead times required to establish the infrastructure environments&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Procure and install the infrastructure components that are not yet available&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Test the newly installed infrastructure components&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Test the integration of newly installed components with the rest of the environmental configuration&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Validate other aspects of the infrastructure including: &#xD;
-        &lt;ul>&#xD;
-            &lt;li>&#xD;
+        &lt;ul&gt;&#xD;
+            &lt;li&gt;&#xD;
                 Security components and their integration&#xD;
-            &lt;/li>&#xD;
-            &lt;li>&#xD;
+            &lt;/li&gt;&#xD;
+            &lt;li&gt;&#xD;
                 Database connectivity and security&#xD;
-            &lt;/li>&#xD;
-            &lt;li>&#xD;
+            &lt;/li&gt;&#xD;
+            &lt;li&gt;&#xD;
                 License management, as appropriate&#xD;
-            &lt;/li>&#xD;
-            &lt;li>&#xD;
+            &lt;/li&gt;&#xD;
+            &lt;li&gt;&#xD;
                 Configuration management, in terms of configuration items (CIs)&#xD;
-            &lt;/li>&#xD;
-        &lt;/ul>&#xD;
-    &lt;/li>&#xD;
-&lt;/ul></mainDescription>
+            &lt;/li&gt;&#xD;
+        &lt;/ul&gt;&#xD;
+    &lt;/li&gt;&#xD;
+&lt;/ul&gt;</mainDescription>
   <sections xmi:id="_IAIH4-B-EeC1y_NExchKwQ" name="Identify infrastructure needs" guid="_IAIH4-B-EeC1y_NExchKwQ">
     <sectionDescription>Identify and describe all the components of the infrastructure that are needed to support the upcoming release. These&#xD;
 requirements should be based completely on the feature set that is about to be deployed, not on intended future needs.</sectionDescription>
@@ -64,15 +63,15 @@ tests should not only verify the individual components' readiness, but also shou
 other and with legacy components.</sectionDescription>
   </sections>
   <sections xmi:id="_IAIu8OB-EeC1y_NExchKwQ" name="Validate other component aspects" guid="_IAIu8OB-EeC1y_NExchKwQ">
-    <sectionDescription>&lt;p>&#xD;
+    <sectionDescription>&lt;p&gt;&#xD;
     As the validation testing is underway, the development team also should consider how the newly installed components&#xD;
     impact overall system security, whether or not database connectivity and security have been compromised, and what&#xD;
     impact they have on the configuration management database that contains an inventory of CIs.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
     Also reconcile any licensing issues for the new components with the division that is responsible for documenting and&#xD;
     tracking enterprise licenses.&#xD;
-&lt;/p></sectionDescription>
+&lt;/p&gt;</sectionDescription>
   </sections>
   <purpose>The purpose of this task is to ensure that all the necessary infrastructure components needed to support a successful&#xD;
 release are in place.</purpose>

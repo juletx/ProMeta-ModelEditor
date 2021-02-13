@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-chKviPT1F1yq5Y_KL9ET9g" name="02_03_verify_successful_deployment,_FCK_gmzvEeCPgecPbK9bdg" guid="-chKviPT1F1yq5Y_KL9ET9g" changeDate="2012-05-30T23:15:13.081+0200" version="7.5.1">
-  <mainDescription>&lt;p>&#xD;
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-chKviPT1F1yq5Y_KL9ET9g" name="02_03_verify_successful_deployment,_FCK_gmzvEeCPgecPbK9bdg" guid="-chKviPT1F1yq5Y_KL9ET9g" changeDate="2012-05-30T23:15:13.081+0200" version="7.5.1">
+  <mainDescription>&lt;p&gt;&#xD;
     Using the success criteria documented either in the deployment plan or in the backout plan, the deployment engineer, in&#xD;
     collaboration with the development team, will determine whether the rollout can be declared a success or not.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
     If the deployment is successful, the previously prepared release communiques should be delivered. If the deployment is&#xD;
     unsuccessful, then the backout plan should be invoked.&#xD;
-&lt;/p></mainDescription>
+&lt;/p&gt;</mainDescription>
   <sections xmi:id="_IAFEleB-EeC1y_NExchKwQ" name="Test production release" guid="_IAFEleB-EeC1y_NExchKwQ">
     <sectionDescription>In this step, automated smoke tests should be run to determine whether key components were deployed successfully. These&#xD;
 tests should be brief but revealing enough to quickly determine the validity of the deployment.</sectionDescription>

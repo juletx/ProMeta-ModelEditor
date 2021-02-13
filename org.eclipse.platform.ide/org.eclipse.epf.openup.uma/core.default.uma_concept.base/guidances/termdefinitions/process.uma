@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_yQ5m2dnmEdmO6L4XMImrsA" name="process,_yQ5m2NnmEdmO6L4XMImrsA" guid="_yQ5m2dnmEdmO6L4XMImrsA" changeDate="2008-03-11T18:40:20.000+0100" version="7.2.0">
-  <mainDescription>&lt;p>&#xD;
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_yQ5m2dnmEdmO6L4XMImrsA" name="process,_yQ5m2NnmEdmO6L4XMImrsA" guid="_yQ5m2dnmEdmO6L4XMImrsA" changeDate="2008-03-11T18:40:20.000+0100" version="7.2.0">
+  <mainDescription>&lt;p&gt;&#xD;
     Describes the assembly of method content&amp;nbsp;in a sequence or workflow that defines how the work will be executed.&#xD;
-    There are two types of processes:&amp;nbsp; &lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/capability_pattern_F5DDC5F.html&quot;&#xD;
-    guid=&quot;_2RUJACO4EdqaNq6Ptg8uyA&quot;>capability pattern&lt;/a>s and &lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/delivery_process_BCDF50B7.html&quot;&#xD;
-    guid=&quot;_ZufeMCO3EdqaNq6Ptg8uyA&quot;>delivery process&lt;/a>es.&#xD;
-&lt;/p>&lt;!--EndFragment-->&lt;!--EndFragment--></mainDescription>
+    There are two types of processes:&amp;nbsp; &lt;a class="elementLink"&#xD;
+    href="./../../../core.default.uma_concept.base/guidances/termdefinitions/capability_pattern_F5DDC5F.html"&#xD;
+    guid="_2RUJACO4EdqaNq6Ptg8uyA"&gt;capability pattern&lt;/a&gt;s and &lt;a class="elementLink"&#xD;
+    href="./../../../core.default.uma_concept.base/guidances/termdefinitions/delivery_process_BCDF50B7.html"&#xD;
+    guid="_ZufeMCO3EdqaNq6Ptg8uyA"&gt;delivery process&lt;/a&gt;es.&#xD;
+&lt;/p&gt;&lt;!--EndFragment--&gt;&lt;!--EndFragment--&gt;</mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

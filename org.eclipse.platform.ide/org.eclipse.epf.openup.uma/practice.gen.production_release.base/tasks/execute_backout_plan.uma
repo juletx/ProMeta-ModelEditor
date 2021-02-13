@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-mHGd7nm4EywKy0UPe9dZhg" name="02_04_execute_backout_plan,_FCK_gGzvEeCPgecPbK9bdg" guid="-mHGd7nm4EywKy0UPe9dZhg" changeDate="2012-05-30T23:08:13.096+0200" version="7.5.1">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-mHGd7nm4EywKy0UPe9dZhg" name="02_04_execute_backout_plan,_FCK_gGzvEeCPgecPbK9bdg" guid="-mHGd7nm4EywKy0UPe9dZhg" changeDate="2012-05-30T23:08:13.096+0200" version="7.5.1">
   <mainDescription>Assuming a backout plan is available for this release, the deployment engineer (or development team) will follow the&#xD;
 instructions for reversing the installation of the product into production, if there is a problem. While the plan might&#xD;
 have been written with good intentions, sometimes key procedures are missing or have not been thought out. The team backing&#xD;
@@ -7,16 +6,16 @@ out the release should be aware that blindly following the backout plan might no
 consider the unique circumstances within which the deployment has failed and rely on common sense and experience when&#xD;
 executing the backout plan.</mainDescription>
   <sections xmi:id="_IAD2c-B-EeC1y_NExchKwQ" name="Identify release problem(s)" guid="_IAD2c-B-EeC1y_NExchKwQ">
-    <sectionDescription>&lt;p>&#xD;
+    <sectionDescription>&lt;p&gt;&#xD;
     In the event that the release to production experiences problems, either during or after deployment, the backout plan&#xD;
     should be invoked. However, the deployment engineer (or development team) must understand where the release went wrong&#xD;
     so that the code can be fixed before the next release attempt. This is a critical step, but it should be done quickly&#xD;
     so that the problematic release can be reversed before significant damage is done to the production environment.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
     Log the issues as critical defects as soon as possible and assign those defects to the appropriate team members for&#xD;
     resolution.&#xD;
-&lt;/p></sectionDescription>
+&lt;/p&gt;</sectionDescription>
   </sections>
   <sections xmi:id="_IAD2cOB-EeC1y_NExchKwQ" name="Backout the release" guid="_IAD2cOB-EeC1y_NExchKwQ">
     <sectionDescription>Following the instructions in the backout plan, reverse the deployment. However, be aware that the backout plan&#xD;

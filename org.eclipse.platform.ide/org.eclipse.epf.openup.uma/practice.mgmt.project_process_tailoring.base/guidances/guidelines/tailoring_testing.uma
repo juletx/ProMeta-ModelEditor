@@ -1,39 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-wDLe1SkoZ7BGW0tvvvQihA" name="new_guideline,_L8DLoJUKEd-PZJVxpTSp1g" guid="-wDLe1SkoZ7BGW0tvvvQihA" changeDate="2010-07-21T10:59:39.000+0200" version="7.5.0">
-  <mainDescription>&lt;p>
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-wDLe1SkoZ7BGW0tvvvQihA" name="new_guideline,_L8DLoJUKEd-PZJVxpTSp1g" guid="-wDLe1SkoZ7BGW0tvvvQihA" changeDate="2010-07-21T10:59:39.000+0200" version="7.5.0">
+  <mainDescription>&lt;p&gt;
     The choice of testing tools is often affected by the architecture, including the technology choices made by the
     project, and the software that the system needs to interface with.&amp;nbsp; In some cases you may build custom tools.
-&lt;/p>
-&lt;p>
+&lt;/p&gt;
+&lt;p&gt;
     You will want tool support&amp;nbsp;for the following:
-&lt;/p>
-&lt;ul>
-    &lt;li>
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
         test management
-    &lt;/li>
-    &lt;li>
+    &lt;/li&gt;
+    &lt;li&gt;
         test automation
-    &lt;/li>
-    &lt;li>
+    &lt;/li&gt;
+    &lt;li&gt;
         simulation of external interfaces
-    &lt;/li>
-    &lt;li>
+    &lt;/li&gt;
+    &lt;li&gt;
         simulation of different test environments
-    &lt;/li>
-    &lt;li>
+    &lt;/li&gt;
+    &lt;li&gt;
         performance testing
-    &lt;/li>
-    &lt;li>
+    &lt;/li&gt;
+    &lt;li&gt;
         load testing
-    &lt;/li>
-    &lt;li>
+    &lt;/li&gt;
+    &lt;li&gt;
         vulnerability testing
-    &lt;/li>
-    &lt;li>
+    &lt;/li&gt;
+    &lt;li&gt;
         static and dynamic analysis
-    &lt;/li>
-    &lt;li>
+    &lt;/li&gt;
+    &lt;li&gt;
         manual testing
-    &lt;/li>
-&lt;/ul>&lt;br /></mainDescription>
+    &lt;/li&gt;
+&lt;/ul&gt;&lt;br /&gt;</mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

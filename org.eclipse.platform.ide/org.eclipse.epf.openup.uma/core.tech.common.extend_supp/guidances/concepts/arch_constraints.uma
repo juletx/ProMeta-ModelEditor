@@ -1,37 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-je0zRqgX0Tg_761Z77cIkg" name="arch_constraints,_jdKSsNpiEdyP58ppo1Ieaw" guid="-je0zRqgX0Tg_761Z77cIkg" changeDate="2008-02-13T19:37:37.000+0100" version="7.2.0">
-  <mainDescription>&lt;p>&#xD;
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-je0zRqgX0Tg_761Z77cIkg" name="arch_constraints,_jdKSsNpiEdyP58ppo1Ieaw" guid="-je0zRqgX0Tg_761Z77cIkg" changeDate="2008-02-13T19:37:37.000+0100" version="7.2.0">
+  <mainDescription>&lt;p&gt;&#xD;
     A variety of factors may place constraints on the architecture being developed:&#xD;
-&lt;/p>&#xD;
-&lt;div style=&quot;MARGIN-LEFT: 2em&quot;>&#xD;
-    &lt;ul>&#xD;
-        &lt;li>&#xD;
+&lt;/p&gt;&#xD;
+&lt;div style="MARGIN-LEFT: 2em"&gt;&#xD;
+    &lt;ul&gt;&#xD;
+        &lt;li&gt;&#xD;
             Network topology&#xD;
-        &lt;/li>&#xD;
-        &lt;li>&#xD;
+        &lt;/li&gt;&#xD;
+        &lt;li&gt;&#xD;
             Use of a given database vendor or an existing database&#xD;
-        &lt;/li>&#xD;
-        &lt;li>&#xD;
+        &lt;/li&gt;&#xD;
+        &lt;li&gt;&#xD;
             Web environment (server configurations, firewall, DMZs, and so forth)&#xD;
-        &lt;/li>&#xD;
-        &lt;li>&#xD;
+        &lt;/li&gt;&#xD;
+        &lt;li&gt;&#xD;
             Servers (hardware model, operating system)&#xD;
-        &lt;/li>&#xD;
-        &lt;li>&#xD;
+        &lt;/li&gt;&#xD;
+        &lt;li&gt;&#xD;
             Use of third-party software or a particular technology&#xD;
-        &lt;/li>&#xD;
-        &lt;li>&#xD;
+        &lt;/li&gt;&#xD;
+        &lt;li&gt;&#xD;
             Compliance with existing standards&#xD;
-        &lt;/li>&#xD;
-    &lt;/ul>&#xD;
-&lt;/div>&#xD;
-&lt;p>&#xD;
+        &lt;/li&gt;&#xD;
+    &lt;/ul&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;p&gt;&#xD;
     For example, if the company uses only one type of database, you will probably try to use it as much as possible to&#xD;
     leverage&amp;nbsp;the existing database administration skills, rather than introducing a new one.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
     These architectural constraints, combined with the requirements, help you define&amp;nbsp;an appropriate&amp;nbsp;candidate for&#xD;
     the system architecture. Capturing these constraints will ease integration with the environment; and may reduce risk,&#xD;
     cost and duplication of solution elements.&#xD;
-&lt;/p></mainDescription>
+&lt;/p&gt;</mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

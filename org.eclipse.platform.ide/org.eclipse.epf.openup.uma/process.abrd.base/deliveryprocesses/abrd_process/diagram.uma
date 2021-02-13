@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:org.eclipse.epf.diagram.model="http://www.eclipse.org/epf/diagram/1.0.0/diagram.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore">
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:org.eclipse.epf.diagram.model="http://www.eclipse.org/epf/diagram/1.0.0/diagram.ecore" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0">
   <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_Ahvu4MVVEd2pfdXgw7I2qQ">
     <linkedElement xmi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_2EcLMHqlEd2o_5d3MWaNxQ#_2EcLMXqlEd2o_5d3MWaNxQ"/>
   </org.eclipse.epf.diagram.model:ActivityDetailDiagram>

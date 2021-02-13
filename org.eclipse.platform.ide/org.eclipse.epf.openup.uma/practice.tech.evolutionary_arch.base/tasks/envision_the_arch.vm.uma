@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-tmKVpMZoAoS-Wkvbe_iHpQ" name=",_s4ojQNqREdy88NBoQgfGyg" guid="-tmKVpMZoAoS-Wkvbe_iHpQ" version="7.2.0">
-  <keyConsiderations>&lt;p>&#xD;
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-tmKVpMZoAoS-Wkvbe_iHpQ" name=",_s4ojQNqREdy88NBoQgfGyg" guid="-tmKVpMZoAoS-Wkvbe_iHpQ" version="7.2.0">
+  <keyConsiderations>&lt;p&gt;&#xD;
     At this stage, you may find it useful to develop a draft version of your architectural models.&amp;nbsp; For more&#xD;
-    information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
-    href=&quot;./../../practice.tech.evolutionary_arch.base/guidances/guidelines/modeling_the_arch_8BE6E55B.html&quot;&#xD;
-    guid=&quot;_HrgUQNcuEdy1nJEYZGzN4A&quot;>Guideline: Modeling the Architecture&lt;/a>.&#xD;
-&lt;/p></keyConsiderations>
+    information, see &lt;a class="elementLinkWithType"&#xD;
+    href="./../../practice.tech.evolutionary_arch.base/guidances/guidelines/modeling_the_arch_8BE6E55B.html"&#xD;
+    guid="_HrgUQNcuEdy1nJEYZGzN4A"&gt;Guideline: Modeling the Architecture&lt;/a&gt;.&#xD;
+&lt;/p&gt;</keyConsiderations>
 </org.eclipse.epf.uma:TaskDescription>

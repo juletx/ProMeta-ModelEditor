@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_G5s0cBo0EeuXnIT9fOh1Fg" guid="_G5s0cBo0EeuXnIT9fOh1Fg">
-    <resourceDescriptors xmi:id="_G5tbgBo0EeuXnIT9fOh1Fg" id="-xbAirPdH1IOKcnklk8hdqw" uri="roles/developer_vm.xmi"/>
-  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
+  
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_XPLD8MudEdyRPtFYRAKVDg" name="practice.tech.evolutionary_design.assign" guid="_XPLD8MudEdyRPtFYRAKVDg" presentationName="Evolutionary Design Assignments" briefDescription="Assignments for the Evolutionary Design practice." changeDate="2008-01-25T12:30:25.000+0100">
     <methodElementProperty xmi:id="_GocsZho0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
@@ -34,7 +31,7 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_elKkoMueEdyRPtFYRAKVDg" name="role_assignments" guid="_elKkoMueEdyRPtFYRAKVDg" presentationName="Role Assignments">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ks_WoOCiEdynptYdmll41Q" name="visual_modeling" guid="_Ks_WoOCiEdynptYdmll41Q" presentationName="Visual Modeling" briefDescription="Role assignments for visual modeling.">
             <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_sypCEPvjEdqf0-top1XJIg" name="developer_vm" guid="_sypCEPvjEdqf0-top1XJIg" variabilityType="contributes" variabilityBasedOnElement="_iQSykMueEdyRPtFYRAKVDg">
-              <presentation xmi:id="-xbAirPdH1IOKcnklk8hdqw" href="uma://-xbAirPdH1IOKcnklk8hdqw#-xbAirPdH1IOKcnklk8hdqw"/>
+              <presentation xmi:id="-xbAirPdH1IOKcnklk8hdqw" href="roles/developer_vm.uma#-xbAirPdH1IOKcnklk8hdqw"/>
             </contentElements>
           </childPackages>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_iQSykMueEdyRPtFYRAKVDg" name="developer.assign_wp" guid="_iQSykMueEdyRPtFYRAKVDg" variabilityType="contributes">

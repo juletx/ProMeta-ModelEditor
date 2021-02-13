@@ -1,17 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_G4fTgBo0EeuXnIT9fOh1Fg" guid="_G4fTgBo0EeuXnIT9fOh1Fg">
-    <resourceDescriptors xmi:id="_G4hIsBo0EeuXnIT9fOh1Fg" id="-DlaqJu4sEqMPk84qhJ6IEA" uri="guidances/guidelines/continuous_integration.xmi"/>
-    <resourceDescriptors xmi:id="_G4odcBo0EeuXnIT9fOh1Fg" id="-01L_eCnHjKmBPsGcdk8XTg" uri="tasks/integrate_and_create_build.xmi"/>
-    <resourceDescriptors xmi:id="_G4q5sBo0EeuXnIT9fOh1Fg" id="-BsXK3ZGMm-mUT0KnkdoYBg" uri="guidances/concepts/change_requests.xmi"/>
-    <resourceDescriptors xmi:id="_G4tV8Bo0EeuXnIT9fOh1Fg" id="_Dfmk8MPiEdmbOvqy4O0adg" uri="guidances/concepts/workspace.xmi"/>
-    <resourceDescriptors xmi:id="_G4vLIBo0EeuXnIT9fOh1Fg" id="-zCM2ucJJxc_bQr_LoHlSaQ" uri="guidances/guidelines/promoting_changes.xmi"/>
-    <resourceDescriptors xmi:id="_G4xnYBo0EeuXnIT9fOh1Fg" id="-VPoMu7qzVX9grE4-nB3kMw" uri="guidances/termdefinitions/configuration.xmi"/>
-    <resourceDescriptors xmi:id="_G40qsBo0EeuXnIT9fOh1Fg" id="-4iL0UEFR2Fg7oWkh1TymIg" uri="guidances/termdefinitions/version.xmi"/>
-    <resourceDescriptors xmi:id="_G43G8Bo0EeuXnIT9fOh1Fg" id="-b9r9AqTZkhRIh8JdHv5pDQ" uri="guidances/roadmaps/how_to_adopt_continuous_integration.xmi"/>
-    <resourceDescriptors xmi:id="_G46xUBo0EeuXnIT9fOh1Fg" id="-CtyoBMfPzn2SCjU-fK3ehg" uri="guidances/practices/continous_integration.xmi"/>
-    <resourceDescriptors xmi:id="_G49NkBo0EeuXnIT9fOh1Fg" id="-_P9JU4M-5_0FI_g7_EGi6g" uri="guidances/supportingmaterials/release_info_continuous_integration.xmi"/>
-  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
+  
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_D-ExQMktEdygFZkm1d5NtQ" name="practice.tech.continuous_integration.base" guid="_D-ExQMktEdygFZkm1d5NtQ" presentationName="Continuous Integration" briefDescription="Continuously maintain an integrated build and evolve it through frequent delivery of changes." changeDate="2008-09-22T18:43:27.000+0200">
     <methodElementProperty xmi:id="_GocsYxo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
@@ -32,10 +20,10 @@
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9hbnq7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9hbnq7ekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_J6WicMktEdygFZkm1d5NtQ" name="continuous_integration" guid="_J6WicMktEdygFZkm1d5NtQ" presentationName="Continuous Integration">
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_i8bUEL6cEdqti4GwqTkbsQ" name="continuous_integration" guid="_i8bUEL6cEdqti4GwqTkbsQ" presentationName="Continuous Integration" briefDescription="This guideline describes how to apply continuous integration to reduce the risk and effort associated with late integration.">
-            <presentation xmi:id="-DlaqJu4sEqMPk84qhJ6IEA" href="uma://-DlaqJu4sEqMPk84qhJ6IEA#-DlaqJu4sEqMPk84qhJ6IEA"/>
+            <presentation xmi:id="-DlaqJu4sEqMPk84qhJ6IEA" href="guidances/guidelines/continuous_integration.uma#-DlaqJu4sEqMPk84qhJ6IEA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_kkZBgJOKEdyaRbFYa4AN4A" name="integrate_and_create_build" guid="_kkZBgJOKEdyaRbFYa4AN4A" presentationName="Integrate and Create Build" briefDescription="This task describes how to integrate all changes made by developers into the code base and perform the minimal testing to validate the build." guidelines="_i8bUEL6cEdqti4GwqTkbsQ _SM4YIL6dEdqti4GwqTkbsQ">
-            <presentation xmi:id="-01L_eCnHjKmBPsGcdk8XTg" href="uma://-01L_eCnHjKmBPsGcdk8XTg#-01L_eCnHjKmBPsGcdk8XTg"/>
+            <presentation xmi:id="-01L_eCnHjKmBPsGcdk8XTg" href="tasks/integrate_and_create_build.uma#-01L_eCnHjKmBPsGcdk8XTg"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_1QU9MAIoEdyLh7vsrHZ4YA"/>
             <conceptsAndPapers href="#_0cEmAMlgEdmt3adZL5Dmdw"/>
             <mandatoryInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZfMEMlgEdmt3adZL5Dmdw"/>
@@ -43,26 +31,26 @@
             <output href="uma://_OOB2AAouEdyhlpBPrduOMw#_0YuXEMlgEdmt3adZL5Dmdw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_6jdvECb3Edqh1LYUOGRh2A" name="change_requests" guid="_6jdvECb3Edqh1LYUOGRh2A" presentationName="Change Requests" briefDescription="A change request is a general term for any request to change a work product.">
-            <presentation xmi:id="-BsXK3ZGMm-mUT0KnkdoYBg" href="uma://-BsXK3ZGMm-mUT0KnkdoYBg#-BsXK3ZGMm-mUT0KnkdoYBg"/>
+            <presentation xmi:id="-BsXK3ZGMm-mUT0KnkdoYBg" href="guidances/concepts/change_requests.uma#-BsXK3ZGMm-mUT0KnkdoYBg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0cEmAMlgEdmt3adZL5Dmdw" name="workspace" guid="_0cEmAMlgEdmt3adZL5Dmdw" presentationName="Workspace" briefDescription="Workspace refers to storage areas where developers can implement and test code  in accordance with the project's adopted standards in relative isolation from  other developers.">
-            <presentation xmi:id="_Dfmk8MPiEdmbOvqy4O0adg" href="uma://_Dfmk8MPiEdmbOvqy4O0adg#_Dfmk8MPiEdmbOvqy4O0adg"/>
+            <presentation xmi:id="_Dfmk8MPiEdmbOvqy4O0adg" href="guidances/concepts/workspace.uma#_Dfmk8MPiEdmbOvqy4O0adg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_SM4YIL6dEdqti4GwqTkbsQ" name="promoting_changes" guid="_SM4YIL6dEdqti4GwqTkbsQ" presentationName="Promoting Changes" briefDescription="This guideline describes how to promote a set of related changes up through a set of tiers from a private development area to a release area.">
-            <presentation xmi:id="-zCM2ucJJxc_bQr_LoHlSaQ" href="uma://-zCM2ucJJxc_bQr_LoHlSaQ#-zCM2ucJJxc_bQr_LoHlSaQ"/>
+            <presentation xmi:id="-zCM2ucJJxc_bQr_LoHlSaQ" href="guidances/guidelines/promoting_changes.uma#-zCM2ucJJxc_bQr_LoHlSaQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="__Cw30ElxEducWJcS4yanqg" name="configuration" guid="__Cw30ElxEducWJcS4yanqg" presentationName="configuration">
-            <presentation xmi:id="-VPoMu7qzVX9grE4-nB3kMw" href="uma://-VPoMu7qzVX9grE4-nB3kMw#-VPoMu7qzVX9grE4-nB3kMw"/>
+            <presentation xmi:id="-VPoMu7qzVX9grE4-nB3kMw" href="guidances/termdefinitions/configuration.uma#-VPoMu7qzVX9grE4-nB3kMw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_eX8K8ElyEducWJcS4yanqg" name="version" guid="_eX8K8ElyEducWJcS4yanqg" presentationName="version">
-            <presentation xmi:id="-4iL0UEFR2Fg7oWkh1TymIg" href="uma://-4iL0UEFR2Fg7oWkh1TymIg#-4iL0UEFR2Fg7oWkh1TymIg"/>
+            <presentation xmi:id="-4iL0UEFR2Fg7oWkh1TymIg" href="guidances/termdefinitions/version.uma#-4iL0UEFR2Fg7oWkh1TymIg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_4qbzQPnTEdyLA5PXdgVJXw" name="how_to_adopt_continuous_integration" guid="_4qbzQPnTEdyLA5PXdgVJXw" presentationName="How to adopt the Continuous Integration practice" briefDescription="This roadmap describes how to adopt the Continuous Integration practice.">
-            <presentation xmi:id="-b9r9AqTZkhRIh8JdHv5pDQ" href="uma://-b9r9AqTZkhRIh8JdHv5pDQ#-b9r9AqTZkhRIh8JdHv5pDQ"/>
+            <presentation xmi:id="-b9r9AqTZkhRIh8JdHv5pDQ" href="guidances/roadmaps/how_to_adopt_continuous_integration.uma#-b9r9AqTZkhRIh8JdHv5pDQ"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_1QU9MAIoEdyLh7vsrHZ4YA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_rJNiMB4rEd2bS8fFOQ7WWA" name="continous_integration" guid="_rJNiMB4rEd2bS8fFOQ7WWA" presentationName="Continuous Integration" briefDescription="In a Continuous Integration practice, team members integrate their work frequently (at least daily).">
-            <presentation xmi:id="-CtyoBMfPzn2SCjU-fK3ehg" href="uma://-CtyoBMfPzn2SCjU-fK3ehg#-CtyoBMfPzn2SCjU-fK3ehg"/>
+            <presentation xmi:id="-CtyoBMfPzn2SCjU-fK3ehg" href="guidances/practices/continous_integration.uma#-CtyoBMfPzn2SCjU-fK3ehg"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_4qbzQPnTEdyLA5PXdgVJXw"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_6jdvECb3Edqh1LYUOGRh2A"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_1QU9MAIoEdyLh7vsrHZ4YA"/>
@@ -79,7 +67,7 @@
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QSg9cGmWEd2wW88Ut0zE5w" name="release_info" guid="_QSg9cGmWEd2wW88Ut0zE5w" presentationName="Release Info">
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_NWZp0M3TEdyKkus0T68H3Q" name="release_info_continuous_integration" guid="_NWZp0M3TEdyKkus0T68H3Q" presentationName="Practice: Continuous Integration" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
-            <presentation xmi:id="-_P9JU4M-5_0FI_g7_EGi6g" href="uma://-_P9JU4M-5_0FI_g7_EGi6g#-_P9JU4M-5_0FI_g7_EGi6g"/>
+            <presentation xmi:id="-_P9JU4M-5_0FI_g7_EGi6g" href="guidances/supportingmaterials/release_info_continuous_integration.uma#-_P9JU4M-5_0FI_g7_EGi6g"/>
           </contentElements>
         </childPackages>
       </childPackages>

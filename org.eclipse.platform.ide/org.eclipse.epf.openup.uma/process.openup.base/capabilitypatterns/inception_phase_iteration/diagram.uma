@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0">
   <uml:Activity xmi:id="_gUavgNQUEdyk9oc_L5Vk0g" name="inception_phase_iteration">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gUavgdQUEdyk9oc_L5Vk0g" source="uma_element">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gUavgtQUEdyk9oc_L5Vk0g" key="uri" value="uma://_h0Gs8NONEdyqlogshP8l4g#_h0Gs8dONEdyqlogshP8l4g"/>

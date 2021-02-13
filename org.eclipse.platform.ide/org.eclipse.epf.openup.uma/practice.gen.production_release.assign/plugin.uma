@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_HByZcBo0EeuXnIT9fOh1Fg" guid="_HByZcBo0EeuXnIT9fOh1Fg">
-    <resourceDescriptors xmi:id="_HBznkBo0EeuXnIT9fOh1Fg" id="-hP1-fthjrgm3qV_3QMg9nA" uri="domains/deployment_domain.assign.xmi"/>
-  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
+  
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_XOu58JljEeGlkdGl1HQlDA" name="practice.gen.production_release.assign" guid="_XOu58JljEeGlkdGl1HQlDA" presentationName="Production Release Assignments">
     <methodElementProperty xmi:id="_Gog92Bo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_Gog92Ro0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
@@ -13,7 +10,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="__IQh0JllEeGlkdGl1HQlDA" name="deployment_domain.assign" guid="__IQh0JllEeGlkdGl1HQlDA" variabilityType="contributes">
             <methodElementProperty xmi:id="_Gog92ho0EeuXnIT9fOh1Fg" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_Gog92xo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
-            <presentation xmi:id="-hP1-fthjrgm3qV_3QMg9nA" href="uma://-hP1-fthjrgm3qV_3QMg9nA#-hP1-fthjrgm3qV_3QMg9nA"/>
+            <presentation xmi:id="-hP1-fthjrgm3qV_3QMg9nA" href="domains/deployment_domain.assign.uma#-hP1-fthjrgm3qV_3QMg9nA"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_MRPloEFXEdy9ENCpSugIjA#_fEIy4JoGEeGnJt_Qpwdfdg"/>
             <workProducts href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAHg2eB-EeC1y_NExchKwQ"/>
             <workProducts href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAJ9FeB-EeC1y_NExchKwQ"/>

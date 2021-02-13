@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-BWZsh3vKrqSOzfkBJmDTLA" name=",_d82_AEvDEdunZcj9T5hrMQ" guid="-BWZsh3vKrqSOzfkBJmDTLA" version="7.2.0">
-  <mainDescription>&lt;p>&#xD;
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-BWZsh3vKrqSOzfkBJmDTLA" name=",_d82_AEvDEdunZcj9T5hrMQ" guid="-BWZsh3vKrqSOzfkBJmDTLA" version="7.2.0">
+  <mainDescription>&lt;p&gt;&#xD;
     An encapsulated part of the system that is nontrivial, nearly independent, and replaceable and that fulfills a clear&#xD;
     function in the context of well-defined architecture. A component conforms to and provides the realization of a set of&#xD;
     interfaces.&#xD;
-&lt;/p></mainDescription>
+&lt;/p&gt;</mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

@@ -1,23 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_G5y7EBo0EeuXnIT9fOh1Fg" guid="_G5y7EBo0EeuXnIT9fOh1Fg">
-    <resourceDescriptors xmi:id="_G50JMBo0EeuXnIT9fOh1Fg" id="-c5Uh71vXTPN-VmrGYVRV7w" uri="guidances/concepts/design.xmi"/>
-    <resourceDescriptors xmi:id="_G55owBo0EeuXnIT9fOh1Fg" id="-g0jWGmg-E0rCQEmnibTDIA" uri="guidances/guidelines/refactoring.ed.xmi"/>
-    <resourceDescriptors xmi:id="_G57d8Bo0EeuXnIT9fOh1Fg" id="-1vS_ELnQxGQKwfCrRYrc7w" uri="guidances/guidelines/analyze_the_design.xmi"/>
-    <resourceDescriptors xmi:id="_G59TIBo0EeuXnIT9fOh1Fg" id="-8V5osHpRNG6Z7KPy8RGW1w" uri="guidances/guidelines/evolve_the_design.xmi"/>
-    <resourceDescriptors xmi:id="_G5_IUBo0EeuXnIT9fOh1Fg" id="_NrC20qeqEdmKDbQuyzCoqQ" uri="tasks/design_solution.xmi"/>
-    <resourceDescriptors xmi:id="_G6BkkBo0EeuXnIT9fOh1Fg" id="-giTBOvJczHXweRzBQEo-7A" uri="guidances/templates/design.xmi"/>
-    <resourceDescriptors xmi:id="_G6EA0Bo0EeuXnIT9fOh1Fg" id="_YIYIYMM1EdmSIPI87WLu3g" uri="guidances/checklists/design.xmi"/>
-    <resourceDescriptors xmi:id="_G6GdEBo0EeuXnIT9fOh1Fg" id="-QmIvs-rs3Fiyg7PVRx2IvQ" uri="guidances/roadmaps/how_to_adopt_evolutionary_design.xmi"/>
-    <resourceDescriptors xmi:id="_G6I5UBo0EeuXnIT9fOh1Fg" id="_zxB-QKYcEdmvhNXG0Oc2uA" uri="workproducts/design.xmi"/>
-    <resourceDescriptors xmi:id="_G6LVkBo0EeuXnIT9fOh1Fg" id="-6c0bIr5yRMTjbRKw9kIHrA" uri="guidances/practices/evolutionary_design.xmi"/>
-    <resourceDescriptors xmi:id="_G6OY4Bo0EeuXnIT9fOh1Fg" id="-xsQ27TDaTcUQ1VKUQG_HIQ" uri="guidances/concepts/requirements_realization.xmi"/>
-    <resourceDescriptors xmi:id="_G6PnABo0EeuXnIT9fOh1Fg" id="-5Eyl-J5cLkiBJKpxgcxBRA" uri="guidances/supportingmaterials/using_ed_in_context.xmi"/>
-    <resourceDescriptors xmi:id="_G6T4cBo0EeuXnIT9fOh1Fg" id="-_BAmniONtHWbpHQH7znR3g" uri="tasks/design_solution.vm.xmi"/>
-    <resourceDescriptors xmi:id="_G6VtoBo0EeuXnIT9fOh1Fg" id="-1xE2ZW3MjNAJ7jkaZNbkww" uri="guidances/guidelines/designing_visually.xmi"/>
-    <resourceDescriptors xmi:id="_G6Xi0Bo0EeuXnIT9fOh1Fg" id="-HQSI39vBrjpmQL1qHYOJtA" uri="guidances/checklists/design.vm.xmi"/>
-    <resourceDescriptors xmi:id="_G6ZYABo0EeuXnIT9fOh1Fg" id="-xn-M2VApZPqzI5KflPNIVw" uri="guidances/supportingmaterials/release_info_evolutionary_design.xmi"/>
-  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
+  
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_Z2cK0LPPEduocbW-TPTq7A" name="practice.tech.evolutionary_design.base" guid="_Z2cK0LPPEduocbW-TPTq7A" presentationName="Evolutionary Design" briefDescription="Apply evolutionary design techniques to ensure that the implementation will meet requirements." changeDate="2008-01-25T11:59:23.000+0100">
     <methodElementProperty xmi:id="_GodTcBo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
@@ -38,22 +20,22 @@
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9jqcS7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9jqcS7ekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8A8e8NPREduegN_z1rVgJA" name="basic_software_design" guid="_8A8e8NPREduegN_z1rVgJA" presentationName="Basic Software Design">
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_bFjlAPTYEduDKIuqTXQ8SA" name="design" guid="_bFjlAPTYEduDKIuqTXQ8SA" presentationName="Design" briefDescription="This concept outlines important principles that should be taken into account when considering the design of a system." checklists="_0XSzsMlgEdmt3adZL5Dmdw">
-            <presentation xmi:id="-c5Uh71vXTPN-VmrGYVRV7w" href="uma://-c5Uh71vXTPN-VmrGYVRV7w#-c5Uh71vXTPN-VmrGYVRV7w"/>
+            <presentation xmi:id="-c5Uh71vXTPN-VmrGYVRV7w" href="guidances/concepts/design.uma#-c5Uh71vXTPN-VmrGYVRV7w"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_Poc7IPDzEdqYgerqi84oCA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_OlyWoOX7Edu8VZPtlaU33g" name="refactoring.ed" guid="_OlyWoOX7Edu8VZPtlaU33g" variabilityType="contributes" checklists="_0XSzsMlgEdmt3adZL5Dmdw">
-            <presentation xmi:id="-g0jWGmg-E0rCQEmnibTDIA" href="uma://-g0jWGmg-E0rCQEmnibTDIA#-g0jWGmg-E0rCQEmnibTDIA"/>
+            <presentation xmi:id="-g0jWGmg-E0rCQEmnibTDIA" href="guidances/guidelines/refactoring.ed.uma#-g0jWGmg-E0rCQEmnibTDIA"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_OOB2AAouEdyhlpBPrduOMw#_YNx2sJ05EdyQ3oTO93enUw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="__MnggPTdEduDKIuqTXQ8SA" name="analyze_the_design" guid="__MnggPTdEduDKIuqTXQ8SA" presentationName="Analyze the Design" briefDescription="This guideline describes how to approach creating a solution from requirements or change requests. A better solution will usually emerge when even a brief amount of time is spent analyzing the problem and considering approaches." conceptsAndPapers="_bFjlAPTYEduDKIuqTXQ8SA _T9FbYFRFEd2o7OqLaYh8nA" checklists="_0XSzsMlgEdmt3adZL5Dmdw">
-            <presentation xmi:id="-1vS_ELnQxGQKwfCrRYrc7w" href="uma://-1vS_ELnQxGQKwfCrRYrc7w#-1vS_ELnQxGQKwfCrRYrc7w"/>
+            <presentation xmi:id="-1vS_ELnQxGQKwfCrRYrc7w" href="guidances/guidelines/analyze_the_design.uma#-1vS_ELnQxGQKwfCrRYrc7w"/>
             <guidelines href="#_C4U9QPTeEduDKIuqTXQ8SA"/>
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_uF-QYEAhEdq_UJTvM1DM2Q"/>
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_vO2uoO0OEduUpsu85bVhiQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_C4U9QPTeEduDKIuqTXQ8SA" name="evolve_the_design" guid="_C4U9QPTeEduDKIuqTXQ8SA" presentationName="Evolve the Design" briefDescription="This guideline describes techniques to refine and evolve the design of the software. Good object-oriented techniques are applied within the context of the architecture &#xD;&#xA;to create a system design that's understandable, extensible, and maintainable." checklists="_0XSzsMlgEdmt3adZL5Dmdw">
-            <presentation xmi:id="-8V5osHpRNG6Z7KPy8RGW1w" href="uma://-8V5osHpRNG6Z7KPy8RGW1w#-8V5osHpRNG6Z7KPy8RGW1w"/>
+            <presentation xmi:id="-8V5osHpRNG6Z7KPy8RGW1w" href="guidances/guidelines/evolve_the_design.uma#-8V5osHpRNG6Z7KPy8RGW1w"/>
             <conceptsAndPapers href="#_bFjlAPTYEduDKIuqTXQ8SA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_Poc7IPDzEdqYgerqi84oCA"/>
             <conceptsAndPapers href="#_T9FbYFRFEd2o7OqLaYh8nA"/>
@@ -62,7 +44,7 @@
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_vO2uoO0OEduUpsu85bVhiQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0fshwMlgEdmt3adZL5Dmdw" name="design_solution" guid="_0fshwMlgEdmt3adZL5Dmdw" presentationName="Design the Solution" briefDescription="Identify the elements and devise the interactions, behavior, relations, and data necessary to realize some functionality." output="_0WuL8slgEdmt3adZL5Dmdw" optionalInput="_0WuL8slgEdmt3adZL5Dmdw">
-            <presentation xmi:id="_NrC20qeqEdmKDbQuyzCoqQ" href="uma://_NrC20qeqEdmKDbQuyzCoqQ#_NrC20qeqEdmKDbQuyzCoqQ"/>
+            <presentation xmi:id="_NrC20qeqEdmKDbQuyzCoqQ" href="tasks/design_solution.uma#_NrC20qeqEdmKDbQuyzCoqQ"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
             <conceptsAndPapers href="#_bFjlAPTYEduDKIuqTXQ8SA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_w2ACwA4LEduibvKwrGxWxA"/>
@@ -77,13 +59,13 @@
             <mandatoryInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_EOPcMAMUEdylNddAObilIA" name="design" guid="_EOPcMAMUEdylNddAObilIA" presentationName="Design" briefDescription="This is the informal template suggested for representing design.A requirements realization is a part of the design that shows how one or more&#xD;&#xA;requirements is implemented.">
-            <presentation xmi:id="-giTBOvJczHXweRzBQEo-7A" href="uma://-giTBOvJczHXweRzBQEo-7A#-giTBOvJczHXweRzBQEo-7A"/>
+            <presentation xmi:id="-giTBOvJczHXweRzBQEo-7A" href="guidances/templates/design.uma#-giTBOvJczHXweRzBQEo-7A"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0XSzsMlgEdmt3adZL5Dmdw" name="design" guid="_0XSzsMlgEdmt3adZL5Dmdw" presentationName="Design">
-            <presentation xmi:id="_YIYIYMM1EdmSIPI87WLu3g" href="uma://_YIYIYMM1EdmSIPI87WLu3g#_YIYIYMM1EdmSIPI87WLu3g"/>
+            <presentation xmi:id="_YIYIYMM1EdmSIPI87WLu3g" href="guidances/checklists/design.uma#_YIYIYMM1EdmSIPI87WLu3g"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_irQiEOCsEdynptYdmll41Q" name="how_to_adopt_evolutionary_design" guid="_irQiEOCsEdynptYdmll41Q" presentationName="How to Adopt the Evolutionary Design Practice" briefDescription="This roadmap describes how to adopt the Evolutionary Development practice." supportingMaterials="_atpj0GjLEd2PJ-nlV-86WA">
-            <presentation xmi:id="-QmIvs-rs3Fiyg7PVRx2IvQ" href="uma://-QmIvs-rs3Fiyg7PVRx2IvQ#-QmIvs-rs3Fiyg7PVRx2IvQ"/>
+            <presentation xmi:id="-QmIvs-rs3Fiyg7PVRx2IvQ" href="guidances/roadmaps/how_to_adopt_evolutionary_design.uma#-QmIvs-rs3Fiyg7PVRx2IvQ"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_Poc7IPDzEdqYgerqi84oCA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_0YJvUMlgEdmt3adZL5Dmdw"/>
@@ -91,11 +73,11 @@
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_ByOd4O6pEduvoopEslG-4g"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0WuL8slgEdmt3adZL5Dmdw" name="design" guid="_0WuL8slgEdmt3adZL5Dmdw" presentationName="Design" briefDescription="This artifact describes the realization of required system functionality and serves as an abstraction of the source code." conceptsAndPapers="_bFjlAPTYEduDKIuqTXQ8SA" checklists="_0XSzsMlgEdmt3adZL5Dmdw" templates="_EOPcMAMUEdylNddAObilIA">
-            <presentation xmi:id="_zxB-QKYcEdmvhNXG0Oc2uA" href="uma://_zxB-QKYcEdmvhNXG0Oc2uA#_zxB-QKYcEdmvhNXG0Oc2uA"/>
+            <presentation xmi:id="_zxB-QKYcEdmvhNXG0Oc2uA" href="workproducts/design.uma#_zxB-QKYcEdmvhNXG0Oc2uA"/>
             <fulfills href="uma://_-bv0ELXuEduGP_98XMd0fg#_IcQOUEqdEdyi3_jfs__bIQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_aSVhIB4qEd2bS8fFOQ7WWA" name="evolutionary_design" guid="_aSVhIB4qEd2bS8fFOQ7WWA" presentationName="Evolutionary Design" briefDescription="This practice describes an approach to design that assumes that the design will evolve over time, minimizing documentation while still providing guidance for making design decisions and communicating those decisions.">
-            <presentation xmi:id="-6c0bIr5yRMTjbRKw9kIHrA" href="uma://-6c0bIr5yRMTjbRKw9kIHrA#-6c0bIr5yRMTjbRKw9kIHrA"/>
+            <presentation xmi:id="-6c0bIr5yRMTjbRKw9kIHrA" href="guidances/practices/evolutionary_design.uma#-6c0bIr5yRMTjbRKw9kIHrA"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_irQiEOCsEdynptYdmll41Q"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0fshwMlgEdmt3adZL5Dmdw"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="#_0WuL8slgEdmt3adZL5Dmdw"/>
@@ -109,31 +91,31 @@
             <contentReferences xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="#_atpj0GjLEd2PJ-nlV-86WA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_T9FbYFRFEd2o7OqLaYh8nA" name="requirements_realization" guid="_T9FbYFRFEd2o7OqLaYh8nA" presentationName="Requirements Realization" briefDescription="Realizations illustrate how requirements are addressed in the design to help assure that all requirements are being addressed.">
-            <presentation xmi:id="-xsQ27TDaTcUQ1VKUQG_HIQ" href="uma://-xsQ27TDaTcUQ1VKUQG_HIQ#-xsQ27TDaTcUQ1VKUQG_HIQ"/>
+            <presentation xmi:id="-xsQ27TDaTcUQ1VKUQG_HIQ" href="guidances/concepts/requirements_realization.uma#-xsQ27TDaTcUQ1VKUQG_HIQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_atpj0GjLEd2PJ-nlV-86WA" name="using_ed_in_context" guid="_atpj0GjLEd2PJ-nlV-86WA" presentationName="Using Evolutionary Design in Context" briefDescription="This is one example of how the Evolutionary Design practice can be used in conjunction with other practices in a development process.">
-            <presentation xmi:id="-5Eyl-J5cLkiBJKpxgcxBRA" href="uma://-5Eyl-J5cLkiBJKpxgcxBRA#-5Eyl-J5cLkiBJKpxgcxBRA"/>
+            <presentation xmi:id="-5Eyl-J5cLkiBJKpxgcxBRA" href="guidances/supportingmaterials/using_ed_in_context.uma#-5Eyl-J5cLkiBJKpxgcxBRA"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_PGDx8PisEdmjyaJMRcPDWA" name="visual_modeling" guid="_PGDx8PisEdmjyaJMRcPDWA" presentationName="Visual Modeling">
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ZTGAYL3uEdqLRJZPGVbHDA" name="design.vm" guid="_ZTGAYL3uEdqLRJZPGVbHDA" presentationName="(was design_vm)" variabilityType="contributes" variabilityBasedOnElement="_0WuL8slgEdmt3adZL5Dmdw" guidelines="_1fM3AC9_EduW5uTjiIcspQ"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_T8WvwL3vEdqLRJZPGVbHDA" name="design_solution.vm" guid="_T8WvwL3vEdqLRJZPGVbHDA" presentationName="(was design_solution_vm)" briefDescription="Render the design visually to aid in solving the problem and communicating the  solution." orderingGuide="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?> &lt;com.ibm.uma.edit.tng.util.model:OrderInfoCollection xmi:version=&quot;2.0&quot; xmlns:xmi=&quot;http://www.omg.org/XMI&quot; xmlns:com.ibm.uma.edit.tng.util.model=&quot;http:///com/ibm/uma/edit/tng/util/model.ecore&quot;>   &lt;orderInfos name=&quot;sections&quot; timestamp=&quot;1146255243164&quot;>     &lt;gUIDs>_4Z7WYKuKEdmhFZtkg1nakg&lt;/gUIDs>     &lt;gUIDs>_YiTAIL3vEdqLRJZPGVbHDA&lt;/gUIDs>     &lt;gUIDs>_--6tYKuKEdmhFZtkg1nakg&lt;/gUIDs>     &lt;gUIDs>_RBAyANbzEdqu5o2S60g5LA&lt;/gUIDs>     &lt;gUIDs>_A_LU8KuLEdmhFZtkg1nakg&lt;/gUIDs>     &lt;gUIDs>_ObN0cNbzEdqu5o2S60g5LA&lt;/gUIDs>     &lt;gUIDs>_ENwJwKuLEdmhFZtkg1nakg&lt;/gUIDs>     &lt;gUIDs>_Gyf-cKuLEdmhFZtkg1nakg&lt;/gUIDs>     &lt;gUIDs>_JrHKUKuLEdmhFZtkg1nakg&lt;/gUIDs>     &lt;gUIDs>_KNZYAKuLEdmhFZtkg1nakg&lt;/gUIDs>     &lt;gUIDs>_OGYbwKuLEdmhFZtkg1nakg&lt;/gUIDs>   &lt;/orderInfos> &lt;/com.ibm.uma.edit.tng.util.model:OrderInfoCollection> " variabilityType="contributes" variabilityBasedOnElement="_0fshwMlgEdmt3adZL5Dmdw">
-            <presentation xmi:id="-_BAmniONtHWbpHQH7znR3g" href="uma://-_BAmniONtHWbpHQH7znR3g#-_BAmniONtHWbpHQH7znR3g"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_T8WvwL3vEdqLRJZPGVbHDA" name="design_solution.vm" guid="_T8WvwL3vEdqLRJZPGVbHDA" presentationName="(was design_solution_vm)" briefDescription="Render the design visually to aid in solving the problem and communicating the  solution." orderingGuide="&lt;?xml version=&#34;1.0&#34; encoding=&#34;ASCII&#34;?&gt; &lt;com.ibm.uma.edit.tng.util.model:OrderInfoCollection xmi:version=&#34;2.0&#34; xmlns:xmi=&#34;http://www.omg.org/XMI&#34; xmlns:com.ibm.uma.edit.tng.util.model=&#34;http:///com/ibm/uma/edit/tng/util/model.ecore&#34;&gt;   &lt;orderInfos name=&#34;sections&#34; timestamp=&#34;1146255243164&#34;&gt;     &lt;gUIDs&gt;_4Z7WYKuKEdmhFZtkg1nakg&lt;/gUIDs&gt;     &lt;gUIDs&gt;_YiTAIL3vEdqLRJZPGVbHDA&lt;/gUIDs&gt;     &lt;gUIDs&gt;_--6tYKuKEdmhFZtkg1nakg&lt;/gUIDs&gt;     &lt;gUIDs&gt;_RBAyANbzEdqu5o2S60g5LA&lt;/gUIDs&gt;     &lt;gUIDs&gt;_A_LU8KuLEdmhFZtkg1nakg&lt;/gUIDs&gt;     &lt;gUIDs&gt;_ObN0cNbzEdqu5o2S60g5LA&lt;/gUIDs&gt;     &lt;gUIDs&gt;_ENwJwKuLEdmhFZtkg1nakg&lt;/gUIDs&gt;     &lt;gUIDs&gt;_Gyf-cKuLEdmhFZtkg1nakg&lt;/gUIDs&gt;     &lt;gUIDs&gt;_JrHKUKuLEdmhFZtkg1nakg&lt;/gUIDs&gt;     &lt;gUIDs&gt;_KNZYAKuLEdmhFZtkg1nakg&lt;/gUIDs&gt;     &lt;gUIDs&gt;_OGYbwKuLEdmhFZtkg1nakg&lt;/gUIDs&gt;   &lt;/orderInfos&gt; &lt;/com.ibm.uma.edit.tng.util.model:OrderInfoCollection&gt; " variabilityType="contributes" variabilityBasedOnElement="_0fshwMlgEdmt3adZL5Dmdw">
+            <presentation xmi:id="-_BAmniONtHWbpHQH7znR3g" href="tasks/design_solution.vm.uma#-_BAmniONtHWbpHQH7znR3g"/>
             <guidelines href="#_1fM3AC9_EduW5uTjiIcspQ"/>
             <guidelines href="uma://_-bv0ELXuEduGP_98XMd0fg#_z_wMgJI7Edyk6dG0ehkW5Q"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_1fM3AC9_EduW5uTjiIcspQ" name="designing_visually" guid="_1fM3AC9_EduW5uTjiIcspQ" presentationName="Designing Visually" briefDescription="This guideline provides information on how to apply visual modeling to designing a system.">
-            <presentation xmi:id="-1xE2ZW3MjNAJ7jkaZNbkww" href="uma://-1xE2ZW3MjNAJ7jkaZNbkww#-1xE2ZW3MjNAJ7jkaZNbkww"/>
+            <presentation xmi:id="-1xE2ZW3MjNAJ7jkaZNbkww" href="guidances/guidelines/designing_visually.uma#-1xE2ZW3MjNAJ7jkaZNbkww"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_nnSXcD6SEduAL-bCqar_dg" name="design.vm" guid="_nnSXcD6SEduAL-bCqar_dg" presentationName="Visual Modeling Design" variabilityType="contributes" variabilityBasedOnElement="_0XSzsMlgEdmt3adZL5Dmdw">
-            <presentation xmi:id="-HQSI39vBrjpmQL1qHYOJtA" href="uma://-HQSI39vBrjpmQL1qHYOJtA#-HQSI39vBrjpmQL1qHYOJtA"/>
+            <presentation xmi:id="-HQSI39vBrjpmQL1qHYOJtA" href="guidances/checklists/design.vm.uma#-HQSI39vBrjpmQL1qHYOJtA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_m42lMPTeEduDKIuqTXQ8SA" name="analyze_the_design.vm" guid="_m42lMPTeEduDKIuqTXQ8SA" variabilityType="contributes" variabilityBasedOnElement="__MnggPTdEduDKIuqTXQ8SA" guidelines="_1fM3AC9_EduW5uTjiIcspQ"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_jkvJEPTeEduDKIuqTXQ8SA" name="evolve_the_design.vm" guid="_jkvJEPTeEduDKIuqTXQ8SA" variabilityType="contributes" variabilityBasedOnElement="_C4U9QPTeEduDKIuqTXQ8SA" guidelines="_1fM3AC9_EduW5uTjiIcspQ"/>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rozZIGmWEd2wW88Ut0zE5w" name="release_info" guid="_rozZIGmWEd2wW88Ut0zE5w" presentationName="Release Information">
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_skRykMuYEdyRPtFYRAKVDg" name="release_info_evolutionary_design" guid="_skRykMuYEdyRPtFYRAKVDg" presentationName="Practice: Evolutionary Design" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
-            <presentation xmi:id="-xn-M2VApZPqzI5KflPNIVw" href="uma://-xn-M2VApZPqzI5KflPNIVw#-xn-M2VApZPqzI5KflPNIVw"/>
+            <presentation xmi:id="-xn-M2VApZPqzI5KflPNIVw" href="guidances/supportingmaterials/release_info_evolutionary_design.uma#-xn-M2VApZPqzI5KflPNIVw"/>
           </contentElements>
         </childPackages>
       </childPackages>

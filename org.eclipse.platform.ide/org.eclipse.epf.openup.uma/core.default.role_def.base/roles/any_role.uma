@@ -1,20 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NqqcUqeqEdmKDbQuyzCoqQ" name="any_role,_0dsWoMlgEdmt3adZL5Dmdw" guid="_NqqcUqeqEdmKDbQuyzCoqQ" changeDate="2006-09-11T20:34:17.000+0200" version="7.2.0">
-  <mainDescription>&lt;p>&#xD;
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:RoleDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_NqqcUqeqEdmKDbQuyzCoqQ" name="any_role,_0dsWoMlgEdmt3adZL5Dmdw" guid="_NqqcUqeqEdmKDbQuyzCoqQ" changeDate="2006-09-11T20:34:17.000+0200" version="7.2.0">
+  <mainDescription>&lt;p&gt;&#xD;
     This role allows anyone on a team to perform general tasks:&#xD;
-&lt;/p>&#xD;
-&lt;ul>&#xD;
-    &lt;li>&#xD;
+&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+    &lt;li&gt;&#xD;
         Access artifacts in the configuration control system for development and maintenance&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Submit change requests for the project&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Participate in assessments and reviews&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
+    &lt;/li&gt;&#xD;
+    &lt;li&gt;&#xD;
         Volunteer to work on a particular iteration&#xD;
-    &lt;/li>&#xD;
-&lt;/ul></mainDescription>
+    &lt;/li&gt;&#xD;
+&lt;/ul&gt;</mainDescription>
 </org.eclipse.epf.uma:RoleDescription>

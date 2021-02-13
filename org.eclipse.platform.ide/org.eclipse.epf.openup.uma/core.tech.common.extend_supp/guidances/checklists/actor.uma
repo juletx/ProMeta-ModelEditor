@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_KEldgMM1EdmSIPI87WLu3g" name="actor,_0VrDEMlgEdmt3adZL5Dmdw" guid="_KEldgMM1EdmSIPI87WLu3g" changeDate="2005-07-07T10:18:05.000+0200" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_KEldgMM1EdmSIPI87WLu3g" name="actor,_0VrDEMlgEdmt3adZL5Dmdw" guid="_KEldgMM1EdmSIPI87WLu3g" changeDate="2005-07-07T10:18:05.000+0200" version="7.2.0">
   <sections xmi:id="_ytiigAYQEdubLa3RRn5f4A" name="All actors have been found" guid="_ytiigAYQEdubLa3RRn5f4A">
     <sectionDescription>Have you accounted for all roles in the systems environment?&amp;nbsp;</sectionDescription>
   </sections>
@@ -12,9 +11,9 @@ missing a use case.</sectionDescription>
 merge the actors.</sectionDescription>
   </sections>
   <sections xmi:id="_b640oAYREdubLa3RRn5f4A" name="No single actor will use the system in completely different ways" guid="_b640oAYREdubLa3RRn5f4A">
-    <sectionDescription>&lt;p>&#xD;
+    <sectionDescription>&lt;p&gt;&#xD;
     If a single actor will use the system in completely different ways, you should probably have more than one actor.&#xD;
-&lt;/p></sectionDescription>
+&lt;/p&gt;</sectionDescription>
   </sections>
   <sections xmi:id="_iOHtQAYREdubLa3RRn5f4A" name="No single actor has multiple purposes for using the system" guid="_iOHtQAYREdubLa3RRn5f4A">
     <sectionDescription>If a single actor has multiple purposes for using the system, there may be more than one actor.</sectionDescription>

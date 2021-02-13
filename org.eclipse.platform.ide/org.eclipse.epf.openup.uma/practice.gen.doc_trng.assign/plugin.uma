@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_HBnaUBo0EeuXnIT9fOh1Fg" guid="_HBnaUBo0EeuXnIT9fOh1Fg">
-    <resourceDescriptors xmi:id="_HBoocBo0EeuXnIT9fOh1Fg" id="-LO7pSlyujIzk-snyVUg48A" uri="domains/deployment_domain.assign.xmi"/>
-    <resourceDescriptors xmi:id="_HBuvEBo0EeuXnIT9fOh1Fg" id="-gzWORmCEYOe7ZhiVKDRrnA" uri="disciplines/deployment_disciplne.assign.xmi"/>
-  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
+  
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_p0w9wJlfEeGlkdGl1HQlDA" name="practice.gen.doc_trng.assign" guid="_p0w9wJlfEeGlkdGl1HQlDA" presentationName="Documentation and Training Assignments" changeDate="2012-05-09T00:47:42.994+0200">
     <methodElementProperty xmi:id="_GogXABo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_GogXARo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
@@ -14,7 +10,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_2GvlYJliEeGlkdGl1HQlDA" name="deployment_domain.assign" guid="_2GvlYJliEeGlkdGl1HQlDA" briefDescription="This is the list of work products related to the Documentation and Training domain." variabilityType="contributes">
             <methodElementProperty xmi:id="_GogXAho0EeuXnIT9fOh1Fg" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_GogXAxo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
-            <presentation xmi:id="-LO7pSlyujIzk-snyVUg48A" href="uma://-LO7pSlyujIzk-snyVUg48A#-LO7pSlyujIzk-snyVUg48A"/>
+            <presentation xmi:id="-LO7pSlyujIzk-snyVUg48A" href="domains/deployment_domain.assign.uma#-LO7pSlyujIzk-snyVUg48A"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_MRPloEFXEdy9ENCpSugIjA#_fEIy4JoGEeGnJt_Qpwdfdg"/>
             <workProducts href="uma://_wDZIUOCFEeC1y_NExchKwQ#_-zf1tuB8EeC1y_NExchKwQ"/>
             <workProducts href="uma://_wDZIUOCFEeC1y_NExchKwQ#_-zfOreB8EeC1y_NExchKwQ"/>
@@ -26,7 +22,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_yvumQJliEeGlkdGl1HQlDA" name="deployment_disciplne.assign" guid="_yvumQJliEeGlkdGl1HQlDA" variabilityType="contributes">
             <methodElementProperty xmi:id="_GogXBBo0EeuXnIT9fOh1Fg" name="CategoryElementsSortType" value="Manual"/>
             <methodElementProperty xmi:id="_GogXBRo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
-            <presentation xmi:id="-gzWORmCEYOe7ZhiVKDRrnA" href="uma://-gzWORmCEYOe7ZhiVKDRrnA#-gzWORmCEYOe7ZhiVKDRrnA"/>
+            <presentation xmi:id="-gzWORmCEYOe7ZhiVKDRrnA" href="disciplines/deployment_disciplne.assign.uma#-gzWORmCEYOe7ZhiVKDRrnA"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_OjzNEJoGEeGnJt_Qpwdfdg"/>
             <tasks href="uma://_wDZIUOCFEeC1y_NExchKwQ#_-zfOruB8EeC1y_NExchKwQ"/>
             <tasks href="uma://_wDZIUOCFEeC1y_NExchKwQ#_-zfOoOB8EeC1y_NExchKwQ"/>

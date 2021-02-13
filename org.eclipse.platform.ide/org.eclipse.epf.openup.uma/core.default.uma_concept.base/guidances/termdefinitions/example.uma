@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-WGi50KpVG9oQbP82Xvk1UA" name="new_term_definition,_nE6fsMaFEduMlb2cQZNTYw" guid="-WGi50KpVG9oQbP82Xvk1UA" changeDate="2007-02-27T18:12:23.000+0100" version="7.2.0">
-  <mainDescription>&lt;p>&#xD;
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-WGi50KpVG9oQbP82Xvk1UA" name="new_term_definition,_nE6fsMaFEduMlb2cQZNTYw" guid="-WGi50KpVG9oQbP82Xvk1UA" changeDate="2007-02-27T18:12:23.000+0100" version="7.2.0">
+  <mainDescription>&lt;p&gt;&#xD;
     A specialized type&amp;nbsp;of&amp;nbsp; guidance&amp;nbsp;used to include typical samples of the items to be produced, may often&#xD;
     only be a partial sample that is intended as further guidance rather than something to be reused.&#xD;
-&lt;/p></mainDescription>
+&lt;/p&gt;</mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

@@ -1,29 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_G2BOUBo0EeuXnIT9fOh1Fg" guid="_G2BOUBo0EeuXnIT9fOh1Fg">
-    <subManagers xmi:id="_G28bYBo0EeuXnIT9fOh1Fg" href="uma://_SKnAwOL9EdyM47cGD2jiaQ#_G28bYBo0EeuXnIT9fOh1Fg"/>
-    <resourceDescriptors xmi:id="_G2CccBo0EeuXnIT9fOh1Fg" id="-sqx8arvFbAtMVoqGeHA_kA" uri="guidances/supportingmaterials/release_info_risk_value_lifecycle.xmi"/>
-    <resourceDescriptors xmi:id="_G2H8ABo0EeuXnIT9fOh1Fg" id="-IdlCQXdDNYGrGJU4TBwvCA" uri="guidances/examples/project_plan.xmi"/>
-    <resourceDescriptors xmi:id="_G2KYQBo0EeuXnIT9fOh1Fg" id="-bbpT_BdDRrv6waNI365Qhg" uri="guidances/concepts/construction_phase.xmi"/>
-    <resourceDescriptors xmi:id="_G2NbkBo0EeuXnIT9fOh1Fg" id="-F-eWIBzxEXE1jygbN3nrrQ" uri="guidances/concepts/elaboration_phase.xmi"/>
-    <resourceDescriptors xmi:id="_G2PQwBo0EeuXnIT9fOh1Fg" id="-GRJW_KNOJoEQF3r6lmBrEw" uri="guidances/concepts/inception_phase.xmi"/>
-    <resourceDescriptors xmi:id="_G2RF8Bo0EeuXnIT9fOh1Fg" id="-DG8mYMnTGosWIxjPQFUoTA" uri="guidances/concepts/phase_milestones.xmi"/>
-    <resourceDescriptors xmi:id="_G2S7IBo0EeuXnIT9fOh1Fg" id="-FrUmsKsGW4bnNmb9uaNOkg" uri="guidances/concepts/transition_phase.xmi"/>
-    <resourceDescriptors xmi:id="_G2VXYBo0EeuXnIT9fOh1Fg" id="-ebKPqn9bWfbh1K2spgOwWQ" uri="guidances/concepts/project_lifecycle.xmi"/>
-    <resourceDescriptors xmi:id="_G2XMkBo0EeuXnIT9fOh1Fg" id="-5wJmUR0WqX7lCIxsyqFsdA" uri="guidances/termdefinitions/construction.xmi"/>
-    <resourceDescriptors xmi:id="_G2aP4Bo0EeuXnIT9fOh1Fg" id="-0g2jTHQla8lbP6xGB3iGlg" uri="guidances/termdefinitions/elaboration.xmi"/>
-    <resourceDescriptors xmi:id="_G2fIYBo0EeuXnIT9fOh1Fg" id="-dhgOQQ4GsV0-dNJmTmF9GA" uri="guidances/termdefinitions/inception.xmi"/>
-    <resourceDescriptors xmi:id="_G2hkoBo0EeuXnIT9fOh1Fg" id="-gEgZg2UkFLjGeXkJLpAP6A" uri="guidances/termdefinitions/ioc_milestone.xmi"/>
-    <resourceDescriptors xmi:id="_G2jZ0Bo0EeuXnIT9fOh1Fg" id="-MllWL01NL93RTB7VsY69fw" uri="guidances/termdefinitions/lca_milestone.xmi"/>
-    <resourceDescriptors xmi:id="_G2l2EBo0EeuXnIT9fOh1Fg" id="-Rl8kaRW9Bxqdvq32kVCi7w" uri="guidances/termdefinitions/lco_milestone.xmi"/>
-    <resourceDescriptors xmi:id="_G2qHgBo0EeuXnIT9fOh1Fg" id="-JegYQHIteCRN0iV2EKMjSA" uri="guidances/termdefinitions/pr_milestone.xmi"/>
-    <resourceDescriptors xmi:id="_G2sjwBo0EeuXnIT9fOh1Fg" id="-yoFF90pq-_UV3fm-5oDenw" uri="guidances/termdefinitions/transition.xmi"/>
-    <resourceDescriptors xmi:id="_G2vAABo0EeuXnIT9fOh1Fg" id="-R1d0qAJDnmI5Fm9ChHCYQw" uri="guidances/roadmaps/how_to_adopt.xmi"/>
-    <resourceDescriptors xmi:id="_G2yDUBo0EeuXnIT9fOh1Fg" id="-O5h7zCsZNfBqp61tzgV95Q" uri="guidances/practices/risk_value_lifecycle.xmi"/>
-    <resourceDescriptors xmi:id="_G21GoBo0EeuXnIT9fOh1Fg" id="-EYuybNBtVpvW4i5T_j805w" uri="tasks/assess_results.additions.xmi"/>
-    <resourceDescriptors xmi:id="_G23i4Bo0EeuXnIT9fOh1Fg" id="-3Jpwts4YZlF8GJjQaSINRA" uri="tasks/plan_the_project.additions.xmi"/>
-    <resourceDescriptors xmi:id="_G25YEBo0EeuXnIT9fOh1Fg" id="_SKnAwOL9EdyM47cGD2jiaQ" uri="capabilitypatterns/risk_value_lifecycle_phases/model.xmi"/>
-  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
+  
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_4gXdoL8BEdyWX5Yd-9QZ1A" name="practice.mgmt.risk_value_lifecycle.base" guid="_4gXdoL8BEdyWX5Yd-9QZ1A" presentationName="Risk Value Lifecycle" briefDescription="Align the project around the Unified Process phases of Inception, Elaboration, Construction, and Transition.  Each phase has specific goals that drive the project towards a successful completion." changeDate="2008-02-21T19:48:11.000+0100">
     <methodElementProperty xmi:id="_GobeQRo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
@@ -45,40 +21,40 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fiq3sL8GEdyWX5Yd-9QZ1A" name="risk-value_lifecycle" guid="_fiq3sL8GEdyWX5Yd-9QZ1A" presentationName="Risk-Value Lifecycle">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f4YZsMN_Edy3nv0ZK8D4GQ" name="release_info" guid="_f4YZsMN_Edy3nv0ZK8D4GQ" presentationName="Release Info">
             <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_Oc6L4MOAEdy3nv0ZK8D4GQ" name="release_info_risk_value_lifecycle" guid="_Oc6L4MOAEdy3nv0ZK8D4GQ" presentationName="Practice: Risk-Value Lifecycle" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
-              <presentation xmi:id="-sqx8arvFbAtMVoqGeHA_kA" href="uma://-sqx8arvFbAtMVoqGeHA_kA#-sqx8arvFbAtMVoqGeHA_kA"/>
+              <presentation xmi:id="-sqx8arvFbAtMVoqGeHA_kA" href="guidances/supportingmaterials/release_info_risk_value_lifecycle.uma#-sqx8arvFbAtMVoqGeHA_kA"/>
             </contentElements>
           </childPackages>
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_B3azkMh5EdygFZkm1d5NtQ" name="template_report_and_examples" guid="_B3azkMh5EdygFZkm1d5NtQ" presentationName="Template, Report, and Examples">
             <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_Nzv5kDoAEdusGsHODb-STA" name="project_plan" guid="_Nzv5kDoAEdusGsHODb-STA" presentationName="Project Plan" briefDescription="This is an example of a project plan taken from the Eclipse Process Framework project.">
-              <presentation xmi:id="-IdlCQXdDNYGrGJU4TBwvCA" href="uma://-IdlCQXdDNYGrGJU4TBwvCA#-IdlCQXdDNYGrGJU4TBwvCA"/>
+              <presentation xmi:id="-IdlCQXdDNYGrGJU4TBwvCA" href="guidances/examples/project_plan.uma#-IdlCQXdDNYGrGJU4TBwvCA"/>
             </contentElements>
           </childPackages>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_48EKsBOMEduCNqgZdt_OaA" name="construction_phase" guid="_48EKsBOMEduCNqgZdt_OaA" presentationName="Construction Phase" briefDescription="As the third of the four phases in the project lifecycle, Construction focuses on design, implementation, and testing of functions to develop a complete system.">
-            <presentation xmi:id="-bbpT_BdDRrv6waNI365Qhg" href="uma://-bbpT_BdDRrv6waNI365Qhg#-bbpT_BdDRrv6waNI365Qhg"/>
+            <presentation xmi:id="-bbpT_BdDRrv6waNI365Qhg" href="guidances/concepts/construction_phase.uma#-bbpT_BdDRrv6waNI365Qhg"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>
             <conceptsAndPapers href="#_nSfVwCNYEdyCq8v2ZO4QcA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_2plxwBOMEduCNqgZdt_OaA" name="elaboration_phase" guid="_2plxwBOMEduCNqgZdt_OaA" presentationName="Elaboration Phase" briefDescription="This is the second of four phases in the project lifecycle, when architecturally significant risks are addressed.">
-            <presentation xmi:id="-F-eWIBzxEXE1jygbN3nrrQ" href="uma://-F-eWIBzxEXE1jygbN3nrrQ#-F-eWIBzxEXE1jygbN3nrrQ"/>
+            <presentation xmi:id="-F-eWIBzxEXE1jygbN3nrrQ" href="guidances/concepts/elaboration_phase.uma#-F-eWIBzxEXE1jygbN3nrrQ"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0bsLgMlgEdmt3adZL5Dmdw"/>
             <conceptsAndPapers href="#_nSfVwCNYEdyCq8v2ZO4QcA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0hmKgBOMEduCNqgZdt_OaA" name="inception_phase" guid="_0hmKgBOMEduCNqgZdt_OaA" presentationName="Inception Phase" briefDescription="As the first of the four phases in the project lifecycle, Inception is about understanding the project scope and objectives and getting enough information to confirm that the project should proceed - or to convince you that it should not.">
-            <presentation xmi:id="-GRJW_KNOJoEQF3r6lmBrEw" href="uma://-GRJW_KNOJoEQF3r6lmBrEw#-GRJW_KNOJoEQF3r6lmBrEw"/>
+            <presentation xmi:id="-GRJW_KNOJoEQF3r6lmBrEw" href="guidances/concepts/inception_phase.uma#-GRJW_KNOJoEQF3r6lmBrEw"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>
             <conceptsAndPapers href="#_nSfVwCNYEdyCq8v2ZO4QcA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_HNxbwMBJEdqSgKaj2SZBmg" name="phase_milestones" guid="_HNxbwMBJEdqSgKaj2SZBmg" presentationName="Phase Milestones" briefDescription="These are the point at which a phase formally ends, thus providing a checkpoint for whether the project is ready to move to the next phase." conceptsAndPapers="_48EKsBOMEduCNqgZdt_OaA _2plxwBOMEduCNqgZdt_OaA _0hmKgBOMEduCNqgZdt_OaA __ca5UBOMEduCNqgZdt_OaA">
-            <presentation xmi:id="-DG8mYMnTGosWIxjPQFUoTA" href="uma://-DG8mYMnTGosWIxjPQFUoTA#-DG8mYMnTGosWIxjPQFUoTA"/>
+            <presentation xmi:id="-DG8mYMnTGosWIxjPQFUoTA" href="guidances/concepts/phase_milestones.uma#-DG8mYMnTGosWIxjPQFUoTA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="__ca5UBOMEduCNqgZdt_OaA" name="transition_phase" guid="__ca5UBOMEduCNqgZdt_OaA" presentationName="Transition Phase" briefDescription="Fourth and final phase in the project lifecycle, Transition focuses on deploying software to users and ensuring that theirs expectations about the software were met.">
-            <presentation xmi:id="-FrUmsKsGW4bnNmb9uaNOkg" href="uma://-FrUmsKsGW4bnNmb9uaNOkg#-FrUmsKsGW4bnNmb9uaNOkg"/>
+            <presentation xmi:id="-FrUmsKsGW4bnNmb9uaNOkg" href="guidances/concepts/transition_phase.uma#-FrUmsKsGW4bnNmb9uaNOkg"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>
             <conceptsAndPapers href="#_nSfVwCNYEdyCq8v2ZO4QcA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_nSfVwCNYEdyCq8v2ZO4QcA" name="project_lifecycle" guid="_nSfVwCNYEdyCq8v2ZO4QcA" presentationName="Project Lifecycle" briefDescription="The project lifecycle provides stakeholders and team members with visibility, synchronization points, and decision points throughout the project, thereby enabling oversight and go or no-go decisions at appropriate times." shapeicon="guidances/concepts/resources/concept_dgm32.gif" nodeicon="guidances/concepts/resources/concept_obj.gif">
-            <presentation xmi:id="-ebKPqn9bWfbh1K2spgOwWQ" href="uma://-ebKPqn9bWfbh1K2spgOwWQ#-ebKPqn9bWfbh1K2spgOwWQ"/>
+            <presentation xmi:id="-ebKPqn9bWfbh1K2spgOwWQ" href="guidances/concepts/project_lifecycle.uma#-ebKPqn9bWfbh1K2spgOwWQ"/>
             <conceptsAndPapers href="#_48EKsBOMEduCNqgZdt_OaA"/>
             <conceptsAndPapers href="#_2plxwBOMEduCNqgZdt_OaA"/>
             <conceptsAndPapers href="#_0hmKgBOMEduCNqgZdt_OaA"/>
@@ -86,42 +62,42 @@
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0bsLgMlgEdmt3adZL5Dmdw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_0sD60EvDEdunZcj9T5hrMQ" name="construction" guid="_0sD60EvDEdunZcj9T5hrMQ" presentationName="Construction">
-            <presentation xmi:id="-5wJmUR0WqX7lCIxsyqFsdA" href="uma://-5wJmUR0WqX7lCIxsyqFsdA#-5wJmUR0WqX7lCIxsyqFsdA"/>
+            <presentation xmi:id="-5wJmUR0WqX7lCIxsyqFsdA" href="guidances/termdefinitions/construction.uma#-5wJmUR0WqX7lCIxsyqFsdA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_8DkT4EvDEdunZcj9T5hrMQ" name="elaboration" guid="_8DkT4EvDEdunZcj9T5hrMQ" presentationName="Elaboration">
-            <presentation xmi:id="-0g2jTHQla8lbP6xGB3iGlg" href="uma://-0g2jTHQla8lbP6xGB3iGlg#-0g2jTHQla8lbP6xGB3iGlg"/>
+            <presentation xmi:id="-0g2jTHQla8lbP6xGB3iGlg" href="guidances/termdefinitions/elaboration.uma#-0g2jTHQla8lbP6xGB3iGlg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_525A8EvDEdunZcj9T5hrMQ" name="inception" guid="_525A8EvDEdunZcj9T5hrMQ" presentationName="Inception">
-            <presentation xmi:id="-dhgOQQ4GsV0-dNJmTmF9GA" href="uma://-dhgOQQ4GsV0-dNJmTmF9GA#-dhgOQQ4GsV0-dNJmTmF9GA"/>
+            <presentation xmi:id="-dhgOQQ4GsV0-dNJmTmF9GA" href="guidances/termdefinitions/inception.uma#-dhgOQQ4GsV0-dNJmTmF9GA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_O7JBYEvFEdunZcj9T5hrMQ" name="ioc_milestone" guid="_O7JBYEvFEdunZcj9T5hrMQ" presentationName="Initial Operational Capability Milestone">
-            <presentation xmi:id="-gEgZg2UkFLjGeXkJLpAP6A" href="uma://-gEgZg2UkFLjGeXkJLpAP6A#-gEgZg2UkFLjGeXkJLpAP6A"/>
+            <presentation xmi:id="-gEgZg2UkFLjGeXkJLpAP6A" href="guidances/termdefinitions/ioc_milestone.uma#-gEgZg2UkFLjGeXkJLpAP6A"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_NL4DMEvFEdunZcj9T5hrMQ" name="lca_milestone" guid="_NL4DMEvFEdunZcj9T5hrMQ" presentationName="Lifecycle Architecture Milestone">
-            <presentation xmi:id="-MllWL01NL93RTB7VsY69fw" href="uma://-MllWL01NL93RTB7VsY69fw#-MllWL01NL93RTB7VsY69fw"/>
+            <presentation xmi:id="-MllWL01NL93RTB7VsY69fw" href="guidances/termdefinitions/lca_milestone.uma#-MllWL01NL93RTB7VsY69fw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_LGRBkEvFEdunZcj9T5hrMQ" name="lco_milestone" guid="_LGRBkEvFEdunZcj9T5hrMQ" presentationName="Lifecycle Objectives Milestone">
-            <presentation xmi:id="-Rl8kaRW9Bxqdvq32kVCi7w" href="uma://-Rl8kaRW9Bxqdvq32kVCi7w#-Rl8kaRW9Bxqdvq32kVCi7w"/>
+            <presentation xmi:id="-Rl8kaRW9Bxqdvq32kVCi7w" href="guidances/termdefinitions/lco_milestone.uma#-Rl8kaRW9Bxqdvq32kVCi7w"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_QuywUEvFEdunZcj9T5hrMQ" name="pr_milestone" guid="_QuywUEvFEdunZcj9T5hrMQ" presentationName="Product Release Milestone">
-            <presentation xmi:id="-JegYQHIteCRN0iV2EKMjSA" href="uma://-JegYQHIteCRN0iV2EKMjSA#-JegYQHIteCRN0iV2EKMjSA"/>
+            <presentation xmi:id="-JegYQHIteCRN0iV2EKMjSA" href="guidances/termdefinitions/pr_milestone.uma#-JegYQHIteCRN0iV2EKMjSA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_-5ms4EvDEdunZcj9T5hrMQ" name="transition" guid="_-5ms4EvDEdunZcj9T5hrMQ" presentationName="Transition">
-            <presentation xmi:id="-yoFF90pq-_UV3fm-5oDenw" href="uma://-yoFF90pq-_UV3fm-5oDenw#-yoFF90pq-_UV3fm-5oDenw"/>
+            <presentation xmi:id="-yoFF90pq-_UV3fm-5oDenw" href="guidances/termdefinitions/transition.uma#-yoFF90pq-_UV3fm-5oDenw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_ERIDQOMPEdyM47cGD2jiaQ" name="how_to_adopt" guid="_ERIDQOMPEdyM47cGD2jiaQ" presentationName="How to Adopt the Risk-Value Lifecycle Practice" briefDescription="This roadmap describes how to adopt the risk-value lifecycle practice. It helps prepare an organization to develop software guided by critical phases milestones, with the objective of mitigating project risks while increasing stakeholder value.">
-            <presentation xmi:id="-R1d0qAJDnmI5Fm9ChHCYQw" href="uma://-R1d0qAJDnmI5Fm9ChHCYQw#-R1d0qAJDnmI5Fm9ChHCYQw"/>
+            <presentation xmi:id="-R1d0qAJDnmI5Fm9ChHCYQw" href="guidances/roadmaps/how_to_adopt.uma#-R1d0qAJDnmI5Fm9ChHCYQw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_9FqrQB4sEd2bS8fFOQ7WWA" name="risk_value_lifecycle" guid="_9FqrQB4sEd2bS8fFOQ7WWA" presentationName="Risk-Value Lifecycle" briefDescription="The risk-value lifecycle practice supplements the iterative development and release planning practices with the unified process lifecycle. This lifecycle identifies four phases, each of which attempts to balance value provided against risk mitigation appropriate to the phase." contentReferences="_ERIDQOMPEdyM47cGD2jiaQ _nSfVwCNYEdyCq8v2ZO4QcA _HNxbwMBJEdqSgKaj2SZBmg _0hmKgBOMEduCNqgZdt_OaA _2plxwBOMEduCNqgZdt_OaA _48EKsBOMEduCNqgZdt_OaA __ca5UBOMEduCNqgZdt_OaA">
-            <presentation xmi:id="-O5h7zCsZNfBqp61tzgV95Q" href="uma://-O5h7zCsZNfBqp61tzgV95Q#-O5h7zCsZNfBqp61tzgV95Q"/>
+            <presentation xmi:id="-O5h7zCsZNfBqp61tzgV95Q" href="guidances/practices/risk_value_lifecycle.uma#-O5h7zCsZNfBqp61tzgV95Q"/>
             <activityReferences href="uma://_SKnAwOL9EdyM47cGD2jiaQ#_SKnA1uL9EdyM47cGD2jiaQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_g4iB8L8HEdyWX5Yd-9QZ1A" name="assess_results.additions" guid="_g4iB8L8HEdyWX5Yd-9QZ1A" orderingGuide="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?>&#xD;&#xA;&lt;org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection xmi:version=&quot;2.0&quot; xmlns:xmi=&quot;http://www.omg.org/XMI&quot; xmlns:org.eclipse.epf.uma.edit.tng.util.model=&quot;http:///com/ibm/uma/edit/tng/util/model.ecore&quot;>&#xD;&#xA;  &lt;orderInfos name=&quot;sections&quot; timestamp=&quot;1203693285796&quot;>&#xD;&#xA;    &lt;gUIDs>_o28GgMMsEdmdo9HxCRR_Gw&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_iSiDEIx4Edyzd4h-mxj9YA&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_iL7cQEpqEdup0IY9DKDPkg&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_uYLJAOFYEdyhmsbt0Xyl8A&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_1YHH8DLqEdueZPye-FaNgA&lt;/gUIDs>&#xD;&#xA;  &lt;/orderInfos>&#xD;&#xA;&lt;/org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection>&#xD;&#xA;" variabilityType="contributes" conceptsAndPapers="_HNxbwMBJEdqSgKaj2SZBmg">
-            <presentation xmi:id="-EYuybNBtVpvW4i5T_j805w" href="uma://-EYuybNBtVpvW4i5T_j805w#-EYuybNBtVpvW4i5T_j805w"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_g4iB8L8HEdyWX5Yd-9QZ1A" name="assess_results.additions" guid="_g4iB8L8HEdyWX5Yd-9QZ1A" orderingGuide="&lt;?xml version=&#34;1.0&#34; encoding=&#34;ASCII&#34;?&gt;&#xD;&#xA;&lt;org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection xmi:version=&#34;2.0&#34; xmlns:xmi=&#34;http://www.omg.org/XMI&#34; xmlns:org.eclipse.epf.uma.edit.tng.util.model=&#34;http:///com/ibm/uma/edit/tng/util/model.ecore&#34;&gt;&#xD;&#xA;  &lt;orderInfos name=&#34;sections&#34; timestamp=&#34;1203693285796&#34;&gt;&#xD;&#xA;    &lt;gUIDs&gt;_o28GgMMsEdmdo9HxCRR_Gw&lt;/gUIDs&gt;&#xD;&#xA;    &lt;gUIDs&gt;_iSiDEIx4Edyzd4h-mxj9YA&lt;/gUIDs&gt;&#xD;&#xA;    &lt;gUIDs&gt;_iL7cQEpqEdup0IY9DKDPkg&lt;/gUIDs&gt;&#xD;&#xA;    &lt;gUIDs&gt;_uYLJAOFYEdyhmsbt0Xyl8A&lt;/gUIDs&gt;&#xD;&#xA;    &lt;gUIDs&gt;_1YHH8DLqEdueZPye-FaNgA&lt;/gUIDs&gt;&#xD;&#xA;  &lt;/orderInfos&gt;&#xD;&#xA;&lt;/org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection&gt;&#xD;&#xA;" variabilityType="contributes" conceptsAndPapers="_HNxbwMBJEdqSgKaj2SZBmg">
+            <presentation xmi:id="-EYuybNBtVpvW4i5T_j805w" href="tasks/assess_results.additions.uma#-EYuybNBtVpvW4i5T_j805w"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_0l53cMlgEdmt3adZL5Dmdw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_yKWvEL8HEdyWX5Yd-9QZ1A" name="plan_the_project.additions" guid="_yKWvEL8HEdyWX5Yd-9QZ1A" orderingGuide="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?>&#xD;&#xA;&lt;org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection xmi:version=&quot;2.0&quot; xmlns:xmi=&quot;http://www.omg.org/XMI&quot; xmlns:org.eclipse.epf.uma.edit.tng.util.model=&quot;http:///com/ibm/uma/edit/tng/util/model.ecore&quot;>&#xD;&#xA;  &lt;orderInfos name=&quot;sections&quot; timestamp=&quot;1203702124984&quot;>&#xD;&#xA;    &lt;gUIDs>_gu-PgIyBEdyhZb-MhCJrlA&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_jknm8IyBEdyhZb-MhCJrlA&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_lrYj0MBAEdqSgKaj2SZBmg&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_4Xg3QOFpEdyhmsbt0Xyl8A&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_uu1coIyBEdyhZb-MhCJrlA&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_X63B4OFtEdyhmsbt0Xyl8A&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_xWBhUIyBEdyhZb-MhCJrlA&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_zeN84IyBEdyhZb-MhCJrlA&lt;/gUIDs>&#xD;&#xA;  &lt;/orderInfos>&#xD;&#xA;&lt;/org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection>&#xD;&#xA;" variabilityType="contributes" conceptsAndPapers="_HNxbwMBJEdqSgKaj2SZBmg">
-            <presentation xmi:id="-3Jpwts4YZlF8GJjQaSINRA" href="uma://-3Jpwts4YZlF8GJjQaSINRA#-3Jpwts4YZlF8GJjQaSINRA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_yKWvEL8HEdyWX5Yd-9QZ1A" name="plan_the_project.additions" guid="_yKWvEL8HEdyWX5Yd-9QZ1A" orderingGuide="&lt;?xml version=&#34;1.0&#34; encoding=&#34;ASCII&#34;?&gt;&#xD;&#xA;&lt;org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection xmi:version=&#34;2.0&#34; xmlns:xmi=&#34;http://www.omg.org/XMI&#34; xmlns:org.eclipse.epf.uma.edit.tng.util.model=&#34;http:///com/ibm/uma/edit/tng/util/model.ecore&#34;&gt;&#xD;&#xA;  &lt;orderInfos name=&#34;sections&#34; timestamp=&#34;1203702124984&#34;&gt;&#xD;&#xA;    &lt;gUIDs&gt;_gu-PgIyBEdyhZb-MhCJrlA&lt;/gUIDs&gt;&#xD;&#xA;    &lt;gUIDs&gt;_jknm8IyBEdyhZb-MhCJrlA&lt;/gUIDs&gt;&#xD;&#xA;    &lt;gUIDs&gt;_lrYj0MBAEdqSgKaj2SZBmg&lt;/gUIDs&gt;&#xD;&#xA;    &lt;gUIDs&gt;_4Xg3QOFpEdyhmsbt0Xyl8A&lt;/gUIDs&gt;&#xD;&#xA;    &lt;gUIDs&gt;_uu1coIyBEdyhZb-MhCJrlA&lt;/gUIDs&gt;&#xD;&#xA;    &lt;gUIDs&gt;_X63B4OFtEdyhmsbt0Xyl8A&lt;/gUIDs&gt;&#xD;&#xA;    &lt;gUIDs&gt;_xWBhUIyBEdyhZb-MhCJrlA&lt;/gUIDs&gt;&#xD;&#xA;    &lt;gUIDs&gt;_zeN84IyBEdyhZb-MhCJrlA&lt;/gUIDs&gt;&#xD;&#xA;  &lt;/orderInfos&gt;&#xD;&#xA;&lt;/org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection&gt;&#xD;&#xA;" variabilityType="contributes" conceptsAndPapers="_HNxbwMBJEdqSgKaj2SZBmg">
+            <presentation xmi:id="-3Jpwts4YZlF8GJjQaSINRA" href="tasks/plan_the_project.additions.uma#-3Jpwts4YZlF8GJjQaSINRA"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0lC70MlgEdmt3adZL5Dmdw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_NIW3MMLlEdysDsQChI42QQ" name="project_plan.guidance" guid="_NIW3MMLlEdysDsQChI42QQ" variabilityType="contributes" examples="_Nzv5kDoAEdusGsHODb-STA">
@@ -131,7 +107,7 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9XTbTLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9XTbTLekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_LYTG0OL6EdyM47cGD2jiaQ" name="Risk-Value Lifecycle Phases" guid="_LYTG0OL6EdyM47cGD2jiaQ">
-          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_SKnAwOL9EdyM47cGD2jiaQ" href="uma://_SKnAwOL9EdyM47cGD2jiaQ#_SKnAwOL9EdyM47cGD2jiaQ"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_SKnAwOL9EdyM47cGD2jiaQ" href="capabilitypatterns/risk_value_lifecycle_phases/model.uma#_SKnAwOL9EdyM47cGD2jiaQ"/>
         </childPackages>
       </childPackages>
     </methodPackages>

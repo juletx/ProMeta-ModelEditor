@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xsi:schemaLocation="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore /org.eclipse.epf.uma/model/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_G_U7UBo0EeuXnIT9fOh1Fg" guid="_G_U7UBo0EeuXnIT9fOh1Fg">
-    <resourceDescriptors xmi:id="_G_U7URo0EeuXnIT9fOh1Fg" id="-dV7s6ZJXratblG37Lbu0mw" uri="content.xmi"/>
-  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
+  
   <org.eclipse.epf.uma:ProcessComponent xmi:id="_SuWj4NOPEdyqlogshP8l4g" name="openup_lifecycle" guid="_SuWj4NOPEdyqlogshP8l4g">
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9uGKoLekEd-D7YZN9NgldQ" name="Inception Phase" guid="_9uGKoLekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9uGKobekEd-D7YZN9NgldQ" name="inception_phase_iteration" guid="_9uGKobekEd-D7YZN9NgldQ">
@@ -51,7 +48,7 @@
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_VPPPgFQ0Ed2i9JHp7xurvw" guid="_VPPPgFQ0Ed2i9JHp7xurvw" pred="_7bg6EdOPEdyqlogshP8l4g"/>
     </childPackages>
     <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_SuWj4dOPEdyqlogshP8l4g" name="openup_lifecycle" guid="_SuWj4dOPEdyqlogshP8l4g" presentationName="OpenUP Lifecycle" briefDescription="This delivery process defines an end-to-end software development lifecycle that supports the core principles of OpenUP. It is designed to support small, co-located teams in their daily activities." breakdownElements="_8tQrUVQvEd2i9JHp7xurvw _ieYHIVQwEd2i9JHp7xurvw _nfpBkVQwEd2i9JHp7xurvw _pOgXIVQwEd2i9JHp7xurvw">
-      <presentation xmi:id="-dV7s6ZJXratblG37Lbu0mw" href="uma://-dV7s6ZJXratblG37Lbu0mw#-dV7s6ZJXratblG37Lbu0mw"/>
+      <presentation xmi:id="-dV7s6ZJXratblG37Lbu0mw" href="content.uma#-dV7s6ZJXratblG37Lbu0mw"/>
       <includesPatterns href="uma://_h0Gs8NONEdyqlogshP8l4g#_h0Gs8dONEdyqlogshP8l4g"/>
       <includesPatterns href="uma://_aUsVENONEdyqlogshP8l4g#_aUsVEdONEdyqlogshP8l4g"/>
       <includesPatterns href="uma://_RQi0ANONEdyqlogshP8l4g#_RQi0AdONEdyqlogshP8l4g"/>
