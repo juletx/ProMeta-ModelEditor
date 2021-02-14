@@ -2,18 +2,18 @@
   
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_CX-9AM3qEdyuBO4ZIzcyig" name="core.mgmt.common.assign" guid="_CX-9AM3qEdyuBO4ZIzcyig" presentationName="Management Common Assignments" briefDescription="This plug-in assigns common work products to domains." changeDate="2010-09-08T01:08:58.608+0200" supporting="true">
     <methodElementProperty xmi:id="_GoZpEho0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
-    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <copyrightStatement href="/org.eclipse.epf.openup.uma/src/core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NA20LekEd-D7YZN9NgldQ" name="Content" guid="_9NA20LekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NA20bekEd-D7YZN9NgldQ" name="Categories" guid="_9NA20bekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NA20rekEd-D7YZN9NgldQ" name="Domains" guid="_9NA20rekEd-D7YZN9NgldQ">
-          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_SI-xkOFnEdyhmsbt0Xyl8A" name="project_management_domain.assign" guid="_SI-xkOFnEdyhmsbt0Xyl8A" variabilityType="contributes">
-            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_MRPloEFXEdy9ENCpSugIjA#_8M6J4K80Edy9cPK11VzBuQ"/>
-            <workProducts href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
-            <workProducts href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+          <contentElements variabilityBasedOnElement="_SI-xkOFnEdyhmsbt0Xyl8A" xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_SI-xkOFnEdyhmsbt0Xyl8A" name="project_management_domain.assign" guid="_SI-xkOFnEdyhmsbt0Xyl8A" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="/org.eclipse.epf.openup.uma/src/core.default.cat_def.base/plugin.uma#_8M6J4K80Edy9cPK11VzBuQ"/>
+            <workProducts href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+            <workProducts href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_rGNWsCbSEdqh1LYUOGRh2A"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_zxSx8LrTEd-0rKmWr1vEGQ" name="environment_domain.assign" guid="_zxSx8LrTEd-0rKmWr1vEGQ" variabilityType="contributes">
-            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_MRPloEFXEdy9ENCpSugIjA#_Fpj0ALrUEd-0rKmWr1vEGQ"/>
-            <workProducts href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_2CEzsLrREd-0rKmWr1vEGQ"/>
+          <contentElements variabilityBasedOnElement="_zxSx8LrTEd-0rKmWr1vEGQ" xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_zxSx8LrTEd-0rKmWr1vEGQ" name="environment_domain.assign" guid="_zxSx8LrTEd-0rKmWr1vEGQ" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="/org.eclipse.epf.openup.uma/src/core.default.cat_def.base/plugin.uma#_Fpj0ALrUEd-0rKmWr1vEGQ"/>
+            <workProducts href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_2CEzsLrREd-0rKmWr1vEGQ"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NA207ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9NA207ekEd-D7YZN9NgldQ"/>
@@ -23,7 +23,7 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NA217ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9NA217ekEd-D7YZN9NgldQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NA22LekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9NA22LekEd-D7YZN9NgldQ">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NA22bekEd-D7YZN9NgldQ" name="Hidden" guid="_9NA22bekEd-D7YZN9NgldQ">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9NA22rekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9NA22rekEd-D7YZN9NgldQ"/>
+            <contentElements variabilityBasedOnElement="_9NA22rekEd-D7YZN9NgldQ" xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9NA22rekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9NA22rekEd-D7YZN9NgldQ"/>
           </childPackages>
         </childPackages>
       </childPackages>
@@ -31,10 +31,10 @@
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9NA23LekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9NA23LekEd-D7YZN9NgldQ"/>
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9NA23bekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9NA23bekEd-D7YZN9NgldQ"/>
-    <bases href="uma://_MRPloEFXEdy9ENCpSugIjA#_MRPloEFXEdy9ENCpSugIjA"/>
-    <bases href="uma://_A118oMYaEdyXeo04os5BOw#_A118oMYaEdyXeo04os5BOw"/>
-    <bases href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0TmecJ-VEdy3Nc4rvuj7bA"/>
-    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
-    <bases href="uma://_Q_mBoGphEd24CboUCnKL3A#_Q_mBoGphEd24CboUCnKL3A"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.default.cat_def.base/plugin.uma#_MRPloEFXEdy9ENCpSugIjA"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.default.role_def.base/plugin.uma#_A118oMYaEdyXeo04os5BOw"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.base/plugin.uma#_Q_mBoGphEd24CboUCnKL3A"/>
   </org.eclipse.epf.uma:MethodPlugin>
 </xmi:XMI>

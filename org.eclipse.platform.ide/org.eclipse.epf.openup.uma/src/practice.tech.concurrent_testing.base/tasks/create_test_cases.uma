@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_NrVKsKeqEdmKDbQuyzCoqQ" name="create_test_cases,_0iwc0clgEdmt3adZL5Dmdw" guid="_NrVKsKeqEdmKDbQuyzCoqQ" changeDate="2007-02-07T12:38:57.000+0100" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="create_test_cases,_0iwc0clgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_NrVKsKeqEdmKDbQuyzCoqQ" name="create_test_cases,_0iwc0clgEdmt3adZL5Dmdw" guid="_NrVKsKeqEdmKDbQuyzCoqQ" changeDate="2007-02-07T12:38:57.000+0100" version="1.0.0">
   <keyConsiderations>&lt;p&gt;&#xD;
     Develop test cases in parallel with requirements so that Analysts and stakeholders can agree with the specific&#xD;
     conditions of satisfaction for each requirement. The test cases act as acceptance criteria by expanding on the intent&#xD;
     of the system&amp;nbsp;through actual scenarios of use.&amp;nbsp;This allows team members to measure progress in terms of&#xD;
     passing test cases.&amp;nbsp;&#xD;
 &lt;/p&gt;</keyConsiderations>
-  <sections xmi:id="_IJFSsKuSEdmhFZtkg1nakg" name="Review the requirements to be tested" guid="_IJFSsKuSEdmhFZtkg1nakg">
+  <sections variabilityBasedOnElement="_IJFSsKuSEdmhFZtkg1nakg" xmi:id="_IJFSsKuSEdmhFZtkg1nakg" name="Review the requirements to be tested" guid="_IJFSsKuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p&gt;&#xD;
     Work with analysts and developers&amp;nbsp;to identify which scenarios and requirements&amp;nbsp;need new or additional test&#xD;
     cases. Review the Plans&amp;nbsp;to ensure you understand the scope of development for the current iteration.&lt;br /&gt;&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_aDe_ILGcEdubqf8m_Zrvvg" name="Identify relevant Test Cases" guid="_aDe_ILGcEdubqf8m_Zrvvg">
+  <sections variabilityBasedOnElement="_aDe_ILGcEdubqf8m_Zrvvg" xmi:id="_aDe_ILGcEdubqf8m_Zrvvg" name="Identify relevant Test Cases" guid="_aDe_ILGcEdubqf8m_Zrvvg">
     <sectionDescription>&lt;p&gt;&#xD;
     Identify paths through the scenario as unique test conditions.&amp;nbsp; Consider alternative or exception paths from both&#xD;
     a positive and negative perspective.&amp;nbsp;&amp;nbsp;Review the test ideas list for patterns of test cases that apply to the&#xD;
@@ -24,7 +24,7 @@
     List the test cases with a unique name that identifies the condition they evaluate or their expected result.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_LpbM8KuSEdmhFZtkg1nakg" name="Outline the Test Cases" guid="_LpbM8KuSEdmhFZtkg1nakg">
+  <sections variabilityBasedOnElement="_LpbM8KuSEdmhFZtkg1nakg" xmi:id="_LpbM8KuSEdmhFZtkg1nakg" name="Outline the Test Cases" guid="_LpbM8KuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p&gt;&#xD;
     For each test case, write a brief description with an expected result.&amp;nbsp; Ensure that a casual reader can clearly&#xD;
     understand the difference between test cases.&amp;nbsp; Note the logical pre-conditions and post-conditions that apply to&#xD;
@@ -36,7 +36,7 @@
     guid="_0Zxf8MlgEdmt3adZL5Dmdw"&gt;Checklist: Test Case&lt;/a&gt;&amp;nbsp;guidelines.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_NK18YKuSEdmhFZtkg1nakg" name="Identify test data needs" guid="_NK18YKuSEdmhFZtkg1nakg">
+  <sections variabilityBasedOnElement="_NK18YKuSEdmhFZtkg1nakg" xmi:id="_NK18YKuSEdmhFZtkg1nakg" name="Identify test data needs" guid="_NK18YKuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p&gt;&#xD;
     Review each test case and note where data input or output might be required. Identify the type, quantity, and&#xD;
     uniqueness of the required data, and add these observations to the test case. Focus on articulating the data needed and&#xD;
@@ -48,7 +48,7 @@
     guid="_KZQJMBhBEduxCP6DVVLxsA"&gt;Checklist: Test Data&lt;/a&gt;.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_Ok_mMKuSEdmhFZtkg1nakg" name="Share and evaluate the Test Cases" guid="_Ok_mMKuSEdmhFZtkg1nakg">
+  <sections variabilityBasedOnElement="_Ok_mMKuSEdmhFZtkg1nakg" xmi:id="_Ok_mMKuSEdmhFZtkg1nakg" name="Share and evaluate the Test Cases" guid="_Ok_mMKuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p&gt;&#xD;
     Walk through the test cases with the analysts and developers&amp;nbsp;responsible for the related&#xD;
     scenario.&amp;nbsp;&amp;nbsp;Ideally, the stakeholders will&amp;nbsp;also participate.&#xD;

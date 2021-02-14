@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ProcessDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-ybGHhzGQT4fXY7TTaBPxug" name="transition_phase_iteration,_pzQU0dONEdyqlogshP8l4g" guid="-ybGHhzGQT4fXY7TTaBPxug" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ProcessDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="transition_phase_iteration,_pzQU0dONEdyqlogshP8l4g" xmi:version="2.0" epf:version="1.5.1" xmi:id="-ybGHhzGQT4fXY7TTaBPxug" name="transition_phase_iteration,_pzQU0dONEdyqlogshP8l4g" guid="-ybGHhzGQT4fXY7TTaBPxug" version="7.2.0">
   <mainDescription>&lt;p&gt;
     In the Transition phase, the main objectives are to fine-tune the functionality, performance, and overall quality of
     the beta product from the end of the Construction phase.

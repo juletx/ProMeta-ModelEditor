@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-F-eWIBzxEXE1jygbN3nrrQ" name=",_2plxwBOMEduCNqgZdt_OaA" guid="-F-eWIBzxEXE1jygbN3nrrQ" changeDate="2008-02-24T17:14:58.000+0100" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_2plxwBOMEduCNqgZdt_OaA" xmi:version="2.0" epf:version="1.5.1" xmi:id="-F-eWIBzxEXE1jygbN3nrrQ" name=",_2plxwBOMEduCNqgZdt_OaA" guid="-F-eWIBzxEXE1jygbN3nrrQ" changeDate="2008-02-24T17:14:58.000+0100" version="1.0.0">
   <mainDescription>&lt;p&gt;&#xD;
     The purpose of this phase is to establish the baseline of the architecture of the system and provide a stable basis for&#xD;
     the bulk of the&amp;nbsp;development effort in the next phase.&#xD;

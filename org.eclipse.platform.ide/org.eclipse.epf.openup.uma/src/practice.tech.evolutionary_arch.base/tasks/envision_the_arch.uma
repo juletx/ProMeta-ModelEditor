@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_qDRSULBKEdm7Eph_l9Cn9w" name="envision_the_arch,_0f-1oMlgEdmt3adZL5Dmdw" guid="_qDRSULBKEdm7Eph_l9Cn9w" changeDate="2010-05-26T18:05:46.000+0200" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="envision_the_arch,_0f-1oMlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_qDRSULBKEdm7Eph_l9Cn9w" name="envision_the_arch,_0f-1oMlgEdmt3adZL5Dmdw" guid="_qDRSULBKEdm7Eph_l9Cn9w" changeDate="2010-05-26T18:05:46.000+0200" version="1.0.0">
   <mainDescription>&lt;p&gt;&#xD;
     This task focuses on envisioning the initial architecture and outlining the&amp;nbsp;architectural decisions that will&#xD;
     guide development and testing. It relies on gathering experience gained in similar systems or problem domains to&#xD;
@@ -34,7 +34,7 @@
     developer(s) throughout this task. The architecture effort&amp;nbsp;is about providing leadership and coordination of the&#xD;
     technical work rather than putting in a solo performance.&#xD;
 &lt;/p&gt;</keyConsiderations>
-  <sections xmi:id="_3nMQQA3rEduibvKwrGxWxA" name="Identify architectural goals" guid="_3nMQQA3rEduibvKwrGxWxA">
+  <sections variabilityBasedOnElement="_3nMQQA3rEduibvKwrGxWxA" xmi:id="_3nMQQA3rEduibvKwrGxWxA" name="Identify architectural goals" guid="_3nMQQA3rEduibvKwrGxWxA">
     <sectionDescription>&lt;p&gt;&#xD;
     Work with the team to describe the remaining goals for the architecture and identify which ones are appropriate to&#xD;
     address for this iteration.&amp;nbsp;Look at&amp;nbsp;the requirements and speak to the people asking for them to&#xD;
@@ -51,7 +51,7 @@
     guid="_HlRqANpbEdyP58ppo1Ieaw"&gt;Concept: Architectural Goals&lt;/a&gt;.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_f0y2kM25Edym_ZFqrJcXUg" name="Identify architecturally significant requirements" guid="_f0y2kM25Edym_ZFqrJcXUg">
+  <sections variabilityBasedOnElement="_f0y2kM25Edym_ZFqrJcXUg" xmi:id="_f0y2kM25Edym_ZFqrJcXUg" name="Identify architecturally significant requirements" guid="_f0y2kM25Edym_ZFqrJcXUg">
     <sectionDescription>&lt;p&gt;&#xD;
     Identify which of the current requirements are architecturally significant.&amp;nbsp;Explore and refine those that must be&#xD;
     implemented in order to realize the architectural goals for the current iteration. See &lt;a class="elementLinkWithType"&#xD;
@@ -59,7 +59,7 @@
     guid="_HrZGIA4MEduibvKwrGxWxA"&gt;Concept: Architecturally Significant Requirements&lt;/a&gt;&amp;nbsp;for more information.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_9o6Z4CSCEdqDjNgZyGMf5w" name="Identify constraints on the architecture" guid="_9o6Z4CSCEdqDjNgZyGMf5w">
+  <sections variabilityBasedOnElement="_9o6Z4CSCEdqDjNgZyGMf5w" xmi:id="_9o6Z4CSCEdqDjNgZyGMf5w" name="Identify constraints on the architecture" guid="_9o6Z4CSCEdqDjNgZyGMf5w">
     <sectionDescription>&lt;p&gt;&#xD;
     List any constraints on the architecture and any trade-offs between competing requirements and resources. Decide how&#xD;
     the architecture will meet these issues. Justify each of the decisions made and capture this information. Regularly&#xD;
@@ -71,7 +71,7 @@
     guid="_jdKSsNpiEdyP58ppo1Ieaw"&gt;Concept: Architectural Constraints&lt;/a&gt;.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_I32E4MP2EdmWKcx6ixEiwg" name="Identify key abstractions" guid="_I32E4MP2EdmWKcx6ixEiwg">
+  <sections variabilityBasedOnElement="_I32E4MP2EdmWKcx6ixEiwg" xmi:id="_I32E4MP2EdmWKcx6ixEiwg" name="Identify key abstractions" guid="_I32E4MP2EdmWKcx6ixEiwg">
     <sectionDescription>&lt;p&gt;&#xD;
     Identify the key concepts and abstractions that the system needs to handle. The requirements are good sources for key&#xD;
     abstractions.&amp;nbsp; Don't spend too much time describing&amp;nbsp;abstractions in detail at this initial stage, because&#xD;
@@ -91,7 +91,7 @@
     guid="_pLEGUNqGEdy88NBoQgfGyg"&gt;Concept: Key Abstractions&lt;/a&gt;.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_B899cMP2EdmWKcx6ixEiwg" name="Identify reuse opportunities" guid="_B899cMP2EdmWKcx6ixEiwg">
+  <sections variabilityBasedOnElement="_B899cMP2EdmWKcx6ixEiwg" xmi:id="_B899cMP2EdmWKcx6ixEiwg" name="Identify reuse opportunities" guid="_B899cMP2EdmWKcx6ixEiwg">
     <sectionDescription>&lt;p&gt;&#xD;
     Survey, assess, and select available assets.&amp;nbsp; Identify assets from other areas that may be reused in the current&#xD;
     architecture. For more information, see &lt;a class="elementLinkWithType"&#xD;
@@ -99,7 +99,7 @@
     guid="_vO2uoO0OEduUpsu85bVhiQ"&gt;Guideline: Software Reuse&lt;/a&gt;.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_FVrlsMP2EdmWKcx6ixEiwg" name="Define approach for partitioning the system" guid="_FVrlsMP2EdmWKcx6ixEiwg">
+  <sections variabilityBasedOnElement="_FVrlsMP2EdmWKcx6ixEiwg" xmi:id="_FVrlsMP2EdmWKcx6ixEiwg" name="Define approach for partitioning the system" guid="_FVrlsMP2EdmWKcx6ixEiwg">
     <sectionDescription>&lt;p&gt;&#xD;
     Decide how to partition the software, both in logical and physical terms. Partitioning your system helps you manage its&#xD;
     complexity by using the well-known "divide and conquer" strategy. By breaking the process into smaller and more&#xD;
@@ -136,13 +136,13 @@
     activities, you decide which elements will populate these partitions.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_tmvWwE5cEducxZ_XZXh-vw" name="Define approach for deploying the system" guid="_tmvWwE5cEducxZ_XZXh-vw">
+  <sections variabilityBasedOnElement="_tmvWwE5cEducxZ_XZXh-vw" xmi:id="_tmvWwE5cEducxZ_XZXh-vw" name="Define approach for deploying the system" guid="_tmvWwE5cEducxZ_XZXh-vw">
     <sectionDescription>&lt;p&gt;&#xD;
     Outline how the software will deploy over the nodes on the network. Work with stakeholders such as network support and&#xD;
     deployment teams to ensure that the proposed approach is a good fit for the wider technical environment.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_KBAsYMP2EdmWKcx6ixEiwg" name="Identify architectural mechanisms" guid="_KBAsYMP2EdmWKcx6ixEiwg">
+  <sections variabilityBasedOnElement="_KBAsYMP2EdmWKcx6ixEiwg" xmi:id="_KBAsYMP2EdmWKcx6ixEiwg" name="Identify architectural mechanisms" guid="_KBAsYMP2EdmWKcx6ixEiwg">
     <sectionDescription>&lt;p&gt;&#xD;
     Make a list of the&amp;nbsp;technical services that the system needs to provide and capture some basic information about&#xD;
     each item on the list. It's generally a good idea to make an initial&amp;nbsp;list of all the mechanisms required for the&#xD;
@@ -160,7 +160,7 @@
     guid="_mzxI0A4LEduibvKwrGxWxA"&gt;Concept: Architectural Mechanism&lt;/a&gt;.&amp;nbsp;&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_RKSLsNp3EdyItewP9R0w7Q" name="Identify interfaces to external systems" guid="_RKSLsNp3EdyItewP9R0w7Q">
+  <sections variabilityBasedOnElement="_RKSLsNp3EdyItewP9R0w7Q" xmi:id="_RKSLsNp3EdyItewP9R0w7Q" name="Identify interfaces to external systems" guid="_RKSLsNp3EdyItewP9R0w7Q">
     <sectionDescription>&lt;p&gt;&#xD;
     At this point, identify the external systems with which this system must interact.&amp;nbsp; An external system may be&#xD;
     anything from software to hardware units that the current system will use, such as printers, terminals, alarm devices,&#xD;
@@ -170,11 +170,11 @@
     Describe those interfaces at a high level, concentrating on the information that must pass between the systems.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_Q2PRIFHSEd2zrOgIte8oWg" name="Verify architectural consistency" guid="_Q2PRIFHSEd2zrOgIte8oWg">
+  <sections variabilityBasedOnElement="_Q2PRIFHSEd2zrOgIte8oWg" xmi:id="_Q2PRIFHSEd2zrOgIte8oWg" name="Verify architectural consistency" guid="_Q2PRIFHSEd2zrOgIte8oWg">
     <sectionDescription>Work with the team&amp;nbsp;to verify that the architecture is consistent with the requirements and that the descriptions of&#xD;
 the architecture are complete, meaningful, and clear.</sectionDescription>
   </sections>
-  <sections xmi:id="_Xia1QFHSEd2zrOgIte8oWg" name="Capture and communicate architectural decisions" guid="_Xia1QFHSEd2zrOgIte8oWg">
+  <sections variabilityBasedOnElement="_Xia1QFHSEd2zrOgIte8oWg" xmi:id="_Xia1QFHSEd2zrOgIte8oWg" name="Capture and communicate architectural decisions" guid="_Xia1QFHSEd2zrOgIte8oWg">
     <sectionDescription>Capture important decisions about the architecture in the &lt;a class="elementLink"&#xD;
 href="./../../practice.tech.evolutionary_arch.base/workproducts/architecture_notebook_9BB92433.html"&#xD;
 guid="_0XAf0MlgEdmt3adZL5Dmdw"&gt;Architecture Notebook&lt;/a&gt;&amp;nbsp;for future reference. Make sure that&amp;nbsp;the team&#xD;

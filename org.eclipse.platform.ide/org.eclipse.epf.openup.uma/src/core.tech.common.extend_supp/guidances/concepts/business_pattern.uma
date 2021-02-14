@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-Of51hmgdsO_U2-pnbJ67Cg" name="new_concept,_RoSdMBWYEduCK502eDgjUQ" guid="-Of51hmgdsO_U2-pnbJ67Cg" changeDate="2008-02-10T16:39:04.000+0100" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="new_concept,_RoSdMBWYEduCK502eDgjUQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-Of51hmgdsO_U2-pnbJ67Cg" name="new_concept,_RoSdMBWYEduCK502eDgjUQ" guid="-Of51hmgdsO_U2-pnbJ67Cg" changeDate="2008-02-10T16:39:04.000+0100" version="7.2.0">
   <mainDescription>&lt;p&gt;&#xD;
     Business Patterns are a form of Design Pattern&amp;nbsp;(see &lt;a class="elementLinkWithType"&#xD;
     href="./../../../core.tech.common.extend_supp/guidances/concepts/pattern_10BE6D96.html"&#xD;

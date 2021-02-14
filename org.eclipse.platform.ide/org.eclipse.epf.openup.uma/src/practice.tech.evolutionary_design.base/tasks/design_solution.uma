@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_NrC20qeqEdmKDbQuyzCoqQ" name="design_solution,_0fshwMlgEdmt3adZL5Dmdw" guid="_NrC20qeqEdmKDbQuyzCoqQ" changeDate="2008-01-25T18:58:59.000+0100" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="design_solution,_0fshwMlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_NrC20qeqEdmKDbQuyzCoqQ" name="design_solution,_0fshwMlgEdmt3adZL5Dmdw" guid="_NrC20qeqEdmKDbQuyzCoqQ" changeDate="2008-01-25T18:58:59.000+0100" version="1.0.0">
   <mainDescription>&lt;p&gt;&#xD;
     This task is about designing part of the system, not the whole system.&amp;nbsp; It should be applied based upon some small&#xD;
     subset of requirements.&amp;nbsp; The requirements driving the design could be scenario-based functional requirements,&#xD;
@@ -49,7 +49,7 @@
     Apply patterns throughout this task.&amp;nbsp; Patterns represent proven designs and their usage promotes quality and&#xD;
     consistency across the design.&#xD;
 &lt;/p&gt;</keyConsiderations>
-  <sections xmi:id="_4Z7WYKuKEdmhFZtkg1nakg" name="Understand requirement details" guid="_4Z7WYKuKEdmhFZtkg1nakg">
+  <sections variabilityBasedOnElement="_4Z7WYKuKEdmhFZtkg1nakg" xmi:id="_4Z7WYKuKEdmhFZtkg1nakg" name="Understand requirement details" guid="_4Z7WYKuKEdmhFZtkg1nakg">
     <sectionDescription>&lt;p&gt;&#xD;
     Examine the relevant&amp;nbsp;&lt;a class="elementLink"&#xD;
     href="./../../core.tech.slot.base/workproducts/technical_specification_slot_2812F7EF.html"&#xD;
@@ -69,7 +69,7 @@
     requirements improved and possibly submit a change request against the requirements.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_Ci7aYFixEdusJoWkvSRO9Q" name="Understand the architecture" guid="_Ci7aYFixEdusJoWkvSRO9Q">
+  <sections variabilityBasedOnElement="_Ci7aYFixEdusJoWkvSRO9Q" xmi:id="_Ci7aYFixEdusJoWkvSRO9Q" name="Understand the architecture" guid="_Ci7aYFixEdusJoWkvSRO9Q">
     <sectionDescription>&lt;p&gt;&#xD;
     Review the Architecture Notebook to identify changes and additions to the architecture. See&amp;nbsp;&lt;a&#xD;
     class="elementLinkWithType"&#xD;
@@ -82,7 +82,7 @@
     This step can be skipped if there were no changes to the&amp;nbsp;architecture in the previous iteration&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_--6tYKuKEdmhFZtkg1nakg" name="Identify design elements" guid="_--6tYKuKEdmhFZtkg1nakg">
+  <sections variabilityBasedOnElement="_--6tYKuKEdmhFZtkg1nakg" xmi:id="_--6tYKuKEdmhFZtkg1nakg" name="Identify design elements" guid="_--6tYKuKEdmhFZtkg1nakg">
     <sectionDescription>&lt;p&gt;&#xD;
     Identify the elements that collaborate together to provide the required behavior. This can start with the key&#xD;
     abstractions identified in the Architecture Notebook, design, domain analysis, and classical analysis of the&#xD;
@@ -98,7 +98,7 @@
     mistake to create all new elements in each execution of this task.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_A_LU8KuLEdmhFZtkg1nakg" name="Determine how elements collaborate to realize the scenario" guid="_A_LU8KuLEdmhFZtkg1nakg">
+  <sections variabilityBasedOnElement="_A_LU8KuLEdmhFZtkg1nakg" xmi:id="_A_LU8KuLEdmhFZtkg1nakg" name="Determine how elements collaborate to realize the scenario" guid="_A_LU8KuLEdmhFZtkg1nakg">
     <sectionDescription>&lt;p&gt;&#xD;
     Walk through the scenario distributing responsibilities to the participating elements and ensuring that the elements&#xD;
     have the relationships required to collaborate.&#xD;
@@ -120,7 +120,7 @@
     guid="_vO2uoO0OEduUpsu85bVhiQ"&gt;Guideline: Software Reuse&lt;/a&gt;.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_ENwJwKuLEdmhFZtkg1nakg" name="Refine design decisions" guid="_ENwJwKuLEdmhFZtkg1nakg">
+  <sections variabilityBasedOnElement="_ENwJwKuLEdmhFZtkg1nakg" xmi:id="_ENwJwKuLEdmhFZtkg1nakg" name="Refine design decisions" guid="_ENwJwKuLEdmhFZtkg1nakg">
     <sectionDescription>&lt;p&gt;&#xD;
     Refine the design to an appropriate level of detail to drive implementation and to ensure that it fits into the&#xD;
     architecture. In this step the design can take into consideration the actual implementation language and other&#xD;
@@ -145,7 +145,7 @@
     architecture.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_KNZYAKuLEdmhFZtkg1nakg" name="Design internals (for large or complex elements)" guid="_KNZYAKuLEdmhFZtkg1nakg">
+  <sections variabilityBasedOnElement="_KNZYAKuLEdmhFZtkg1nakg" xmi:id="_KNZYAKuLEdmhFZtkg1nakg" name="Design internals (for large or complex elements)" guid="_KNZYAKuLEdmhFZtkg1nakg">
     <sectionDescription>&lt;p&gt;&#xD;
     Design large or complex elements or some complex internal behavior in more detail.&#xD;
 &lt;/p&gt;&#xD;
@@ -158,7 +158,7 @@
     It may be useful to describe a state machine for elements with complex states.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_OGYbwKuLEdmhFZtkg1nakg" name="Communicate the design" guid="_OGYbwKuLEdmhFZtkg1nakg">
+  <sections variabilityBasedOnElement="_OGYbwKuLEdmhFZtkg1nakg" xmi:id="_OGYbwKuLEdmhFZtkg1nakg" name="Communicate the design" guid="_OGYbwKuLEdmhFZtkg1nakg">
     <sectionDescription>&lt;p&gt;&#xD;
     Communicate&amp;nbsp;the system's design to&amp;nbsp;those who need to understand it. Though this is described here toward the&#xD;
     end of the task, communication should be going on throughout the steps. Working collaboratively is always better than&#xD;
@@ -205,7 +205,7 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_mUVt8BfnEduD353bkQ4frw" name="Evaluate the design" guid="_mUVt8BfnEduD353bkQ4frw">
+  <sections variabilityBasedOnElement="_mUVt8BfnEduD353bkQ4frw" xmi:id="_mUVt8BfnEduD353bkQ4frw" name="Evaluate the design" guid="_mUVt8BfnEduD353bkQ4frw">
     <sectionDescription>&lt;p&gt;&#xD;
     Evaluate the object design for coupling, cohesion, and other quality design measurements.&#xD;
 &lt;/p&gt;&#xD;

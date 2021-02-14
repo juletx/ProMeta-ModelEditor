@@ -12,24 +12,24 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JlvZ7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9JlvZ7ekEd-D7YZN9NgldQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JlvaLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9JlvaLekEd-D7YZN9NgldQ">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JlvabekEd-D7YZN9NgldQ" name="Hidden" guid="_9JlvabekEd-D7YZN9NgldQ">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9JlvarekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9JlvarekEd-D7YZN9NgldQ"/>
+            <contentElements variabilityBasedOnElement="_9JlvarekEd-D7YZN9NgldQ" xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9JlvarekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9JlvarekEd-D7YZN9NgldQ"/>
           </childPackages>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Jlva7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9Jlva7ekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_buz3kENfEdy245g62lfWcA" name="open_source_copyright" guid="_buz3kENfEdy245g62lfWcA" presentationName="Open Source Copyright">
-          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_UaGfECcTEduSX6N2jUafGA" name="epf_copyright" guid="_UaGfECcTEduSX6N2jUafGA" presentationName="EPF Copyright" briefDescription="EPF Copyright information" shapeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif" nodeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif">
+          <contentElements variabilityBasedOnElement="_UaGfECcTEduSX6N2jUafGA" xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_UaGfECcTEduSX6N2jUafGA" name="epf_copyright" guid="_UaGfECcTEduSX6N2jUafGA" presentationName="EPF Copyright" briefDescription="EPF Copyright information" shapeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif" nodeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif">
             <presentation xmi:id="-RNyaB6jxqoopm9fJU8k9vg" href="guidances/supportingmaterials/epf_copyright.uma#-RNyaB6jxqoopm9fJU8k9vg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_uuunoPsDEdmyhNQr5STrZQ" name="copyright" guid="_uuunoPsDEdmyhNQr5STrZQ" presentationName="Copyright" shapeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif" nodeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif">
+          <contentElements variabilityBasedOnElement="_uuunoPsDEdmyhNQr5STrZQ" xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_uuunoPsDEdmyhNQr5STrZQ" name="copyright" guid="_uuunoPsDEdmyhNQr5STrZQ" presentationName="Copyright" shapeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif" nodeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif">
             <presentation xmi:id="_u_Zg4PsDEdmyhNQr5STrZQ" href="guidances/supportingmaterials/copyright.uma#_u_Zg4PsDEdmyhNQr5STrZQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_h88OsO7-EdySOuhNm0Os1w" name="intellectual_property_notices" guid="_h88OsO7-EdySOuhNm0Os1w" presentationName="Eclipse Intellectual Property Notices">
+          <contentElements variabilityBasedOnElement="_h88OsO7-EdySOuhNm0Os1w" xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_h88OsO7-EdySOuhNm0Os1w" name="intellectual_property_notices" guid="_h88OsO7-EdySOuhNm0Os1w" presentationName="Eclipse Intellectual Property Notices">
             <presentation xmi:id="-uAmJkciaDVaJ5g3byOMdtg" href="guidances/supportingmaterials/intellectual_property_notices.uma#-uAmJkciaDVaJ5g3byOMdtg"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QFSssGmJEd2wW88Ut0zE5w" name="release_info" guid="_QFSssGmJEd2wW88Ut0zE5w" presentationName="Release Information">
-          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_YOPJwGmJEd2wW88Ut0zE5w" name="release_info" guid="_YOPJwGmJEd2wW88Ut0zE5w" presentationName="Overall Practices Library" briefDescription="This page describes general release information for the practices library as a whole. Individual plug-ins and practices may have their own release information." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+          <contentElements variabilityBasedOnElement="_YOPJwGmJEd2wW88Ut0zE5w" xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_YOPJwGmJEd2wW88Ut0zE5w" name="release_info" guid="_YOPJwGmJEd2wW88Ut0zE5w" presentationName="Overall Practices Library" briefDescription="This page describes general release information for the practices library as a whole. Individual plug-ins and practices may have their own release information." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
             <methodElementProperty xmi:id="_GoZCMBo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
             <presentation xmi:id="-z3T-2PNgPoac2T9BEVXDNQ" href="guidances/supportingmaterials/release_info.uma#-z3T-2PNgPoac2T9BEVXDNQ"/>
           </contentElements>

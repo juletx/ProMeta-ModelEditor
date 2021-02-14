@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_qktWQMM0EdmSIPI87WLu3g" name="vision,_0WoFUMlgEdmt3adZL5Dmdw" guid="_qktWQMM0EdmSIPI87WLu3g" changeDate="2005-07-07T10:30:32.000+0200" version="1.0.0">
-  <sections xmi:id="_VwoioAeiEduWycDgioo5rg" name="The problem behind the problem has been fully explored" guid="_VwoioAeiEduWycDgioo5rg">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="vision,_0WoFUMlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_qktWQMM0EdmSIPI87WLu3g" name="vision,_0WoFUMlgEdmt3adZL5Dmdw" guid="_qktWQMM0EdmSIPI87WLu3g" changeDate="2005-07-07T10:30:32.000+0200" version="1.0.0">
+  <sections variabilityBasedOnElement="_VwoioAeiEduWycDgioo5rg" xmi:id="_VwoioAeiEduWycDgioo5rg" name="The problem behind the problem has been fully explored" guid="_VwoioAeiEduWycDgioo5rg">
     <sectionDescription>&lt;p&gt;&#xD;
     Make sure that you have found the root cause of the stakeholder's problem or need. Often, stakeholders define solutions&#xD;
     rather than stating the problem that they are experiencing or the pain they are experiencing. Subsequently, they may&#xD;
@@ -9,38 +9,38 @@
     For example, "We can't support customers who want to buy online" is better than "We need an on-line purchasing system".&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_dBs8gAeiEduWycDgioo5rg" name="The problem statement is correctly formulated" guid="_dBs8gAeiEduWycDgioo5rg">
+  <sections variabilityBasedOnElement="_dBs8gAeiEduWycDgioo5rg" xmi:id="_dBs8gAeiEduWycDgioo5rg" name="The problem statement is correctly formulated" guid="_dBs8gAeiEduWycDgioo5rg">
     <sectionDescription>Make sure that you have agreement on the problem to be solved.</sectionDescription>
   </sections>
-  <sections xmi:id="_jGUxYAeiEduWycDgioo5rg" name="The list of stakeholders is complete and correct" guid="_jGUxYAeiEduWycDgioo5rg">
+  <sections variabilityBasedOnElement="_jGUxYAeiEduWycDgioo5rg" xmi:id="_jGUxYAeiEduWycDgioo5rg" name="The list of stakeholders is complete and correct" guid="_jGUxYAeiEduWycDgioo5rg">
     <sectionDescription>Make sure you didn't miss any stakeholders. If you did, you probably do not yet have all of the perspectives that you need&#xD;
 to consider.</sectionDescription>
   </sections>
-  <sections xmi:id="_s-be8AeiEduWycDgioo5rg" name="Everyone agrees on the definition of the system boundaries" guid="_s-be8AeiEduWycDgioo5rg">
+  <sections variabilityBasedOnElement="_s-be8AeiEduWycDgioo5rg" xmi:id="_s-be8AeiEduWycDgioo5rg" name="Everyone agrees on the definition of the system boundaries" guid="_s-be8AeiEduWycDgioo5rg">
     <sectionDescription>Define what is &lt;strong&gt;in&lt;/strong&gt; and what is &lt;strong&gt;out&lt;/strong&gt; of system boundaries. This is a critical step in&#xD;
 defining the scope of work.</sectionDescription>
   </sections>
-  <sections xmi:id="_z1uG4AeiEduWycDgioo5rg" name="Constraints on the system have been sufficiently explored" guid="_z1uG4AeiEduWycDgioo5rg">
+  <sections variabilityBasedOnElement="_z1uG4AeiEduWycDgioo5rg" xmi:id="_z1uG4AeiEduWycDgioo5rg" name="Constraints on the system have been sufficiently explored" guid="_z1uG4AeiEduWycDgioo5rg">
     <sectionDescription>Don't forget about the non-functional requirements and constraints. These are often the largest cost of development.</sectionDescription>
   </sections>
-  <sections xmi:id="_7KzeEAeiEduWycDgioo5rg" name="All kinds of constraints, including political, economic, and environmental, have been covered." guid="_7KzeEAeiEduWycDgioo5rg">
+  <sections variabilityBasedOnElement="_7KzeEAeiEduWycDgioo5rg" xmi:id="_7KzeEAeiEduWycDgioo5rg" name="All kinds of constraints, including political, economic, and environmental, have been covered." guid="_7KzeEAeiEduWycDgioo5rg">
     <sectionDescription>&lt;p&gt;&#xD;
     These non-technical constraints often lead to problems later.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_DymaUAejEduWycDgioo5rg" name="All key features of the system been identified and defined" guid="_DymaUAejEduWycDgioo5rg">
+  <sections variabilityBasedOnElement="_DymaUAejEduWycDgioo5rg" xmi:id="_DymaUAejEduWycDgioo5rg" name="All key features of the system been identified and defined" guid="_DymaUAejEduWycDgioo5rg">
     <sectionDescription>Do a completeness check, comparing the features with the problem statement, to make sure that you didn't miss a critical&#xD;
 feature.</sectionDescription>
   </sections>
-  <sections xmi:id="_LRX5AAejEduWycDgioo5rg" name="The features solve the identified problems" guid="_LRX5AAejEduWycDgioo5rg">
+  <sections variabilityBasedOnElement="_LRX5AAejEduWycDgioo5rg" xmi:id="_LRX5AAejEduWycDgioo5rg" name="The features solve the identified problems" guid="_LRX5AAejEduWycDgioo5rg">
     <sectionDescription>Are all the features really necessary?&amp;nbsp; Perhaps you can reduce the scope.</sectionDescription>
   </sections>
-  <sections xmi:id="_UGRdIAejEduWycDgioo5rg" name="The features are consistent with the identified constraints" guid="_UGRdIAejEduWycDgioo5rg">
+  <sections variabilityBasedOnElement="_UGRdIAejEduWycDgioo5rg" xmi:id="_UGRdIAejEduWycDgioo5rg" name="The features are consistent with the identified constraints" guid="_UGRdIAejEduWycDgioo5rg">
     <sectionDescription>&lt;p&gt;&#xD;
     Check that conflicting requirements do not exist. If you find conflicts, resolve them now.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_5y4uAAhUEduRe8TeoBmuGg" name="Someone unfamiliar with the project can understand the project objectives" guid="_5y4uAAhUEduRe8TeoBmuGg">
+  <sections variabilityBasedOnElement="_5y4uAAhUEduRe8TeoBmuGg" xmi:id="_5y4uAAhUEduRe8TeoBmuGg" name="Someone unfamiliar with the project can understand the project objectives" guid="_5y4uAAhUEduRe8TeoBmuGg">
     <sectionDescription>The purpose of the Vision document is to describe the objectives of the project in terms that non-technical people, who are&#xD;
 not closely involved with the project, can understand.</sectionDescription>
   </sections>

@@ -1,3 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-VJBtRm2brEKpRlnLWNF8_g" name=",_ctrEgEvCEdunZcj9T5hrMQ" guid="-VJBtRm2brEKpRlnLWNF8_g" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_ctrEgEvCEdunZcj9T5hrMQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-VJBtRm2brEKpRlnLWNF8_g" name=",_ctrEgEvCEdunZcj9T5hrMQ" guid="-VJBtRm2brEKpRlnLWNF8_g" version="7.2.0">
   <mainDescription>Generalized solution that can be implemented and applied in a problem situation (a context)</mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

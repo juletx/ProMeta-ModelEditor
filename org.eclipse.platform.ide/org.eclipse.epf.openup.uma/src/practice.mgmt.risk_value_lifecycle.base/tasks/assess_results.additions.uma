@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-EYuybNBtVpvW4i5T_j805w" name="assess_results.additions,_g4iB8L8HEdyWX5Yd-9QZ1A" guid="-EYuybNBtVpvW4i5T_j805w" version="7.2.0">
-  <sections xmi:id="_uYLJAOFYEdyhmsbt0Xyl8A" name="Perform a retrospective (end of phase)" guid="_uYLJAOFYEdyhmsbt0Xyl8A">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="assess_results.additions,_g4iB8L8HEdyWX5Yd-9QZ1A" xmi:version="2.0" epf:version="1.5.1" xmi:id="-EYuybNBtVpvW4i5T_j805w" name="assess_results.additions,_g4iB8L8HEdyWX5Yd-9QZ1A" guid="-EYuybNBtVpvW4i5T_j805w" version="7.2.0">
+  <sections variabilityBasedOnElement="_uYLJAOFYEdyhmsbt0Xyl8A" xmi:id="_uYLJAOFYEdyhmsbt0Xyl8A" name="Perform a retrospective (end of phase)" guid="_uYLJAOFYEdyhmsbt0Xyl8A">
     <sectionDescription>&lt;p&gt;&#xD;
     When the assessment period coincides with the end of a phase, the corresponding milestone review takes place. These are&#xD;
     informal reviews of the work accomplished where the team and stakeholders agree on moving the project on to the next&#xD;

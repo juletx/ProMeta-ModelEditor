@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-gqNN4DnROmJpgKtrdguhpg" name="new_checklist,_7BZa0DIdEduDTv4Y1akVTA" guid="-gqNN4DnROmJpgKtrdguhpg" changeDate="2006-08-22T10:38:14.000+0200" version="7.2.0">
-  <sections xmi:id="_qO41ADIfEduDTv4Y1akVTA" name="Have all potential risks to the project been identified?" guid="_qO41ADIfEduDTv4Y1akVTA">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="new_checklist,_7BZa0DIdEduDTv4Y1akVTA" xmi:version="2.0" epf:version="1.5.1" xmi:id="-gqNN4DnROmJpgKtrdguhpg" name="new_checklist,_7BZa0DIdEduDTv4Y1akVTA" guid="-gqNN4DnROmJpgKtrdguhpg" changeDate="2006-08-22T10:38:14.000+0200" version="7.2.0">
+  <sections variabilityBasedOnElement="_qO41ADIfEduDTv4Y1akVTA" xmi:id="_qO41ADIfEduDTv4Y1akVTA" name="Have all potential risks to the project been identified?" guid="_qO41ADIfEduDTv4Y1akVTA">
     <sectionDescription>&lt;ul&gt;&#xD;
     &lt;li&gt;&#xD;
         Have you involved the team and stakeholders in risk identification?&#xD;
@@ -15,10 +15,10 @@
     guid="_0bsLgMlgEdmt3adZL5Dmdw"&gt;Concept: Risk&lt;/a&gt;&amp;nbsp;for more information.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_5RiSkDe2EduD7J48kKN20g" name="Have all risks been described without ambiguity?" guid="_5RiSkDe2EduD7J48kKN20g">
+  <sections variabilityBasedOnElement="_5RiSkDe2EduD7J48kKN20g" xmi:id="_5RiSkDe2EduD7J48kKN20g" name="Have all risks been described without ambiguity?" guid="_5RiSkDe2EduD7J48kKN20g">
     <sectionDescription>Is each risk described in a clear and concise way?</sectionDescription>
   </sections>
-  <sections xmi:id="_2rpQoDIfEduDTv4Y1akVTA" name="Have all major risks been evaluated?" guid="_2rpQoDIfEduDTv4Y1akVTA">
+  <sections variabilityBasedOnElement="_2rpQoDIfEduDTv4Y1akVTA" xmi:id="_2rpQoDIfEduDTv4Y1akVTA" name="Have all major risks been evaluated?" guid="_2rpQoDIfEduDTv4Y1akVTA">
     <sectionDescription>&lt;ul&gt;&#xD;
     &lt;li&gt;&#xD;
         Has the team assessed the order of magnitude of&amp;nbsp; each risk (probability x impact)?&#xD;
@@ -38,7 +38,7 @@
     guid="_VNxL4ACsEdu8m4dIntu6jA"&gt;Guideline: Managing Risks&lt;/a&gt; for more information.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_hSFaYDe3EduD7J48kKN20g" name="Are there interdependencies between risks?" guid="_hSFaYDe3EduD7J48kKN20g">
+  <sections variabilityBasedOnElement="_hSFaYDe3EduD7J48kKN20g" xmi:id="_hSFaYDe3EduD7J48kKN20g" name="Are there interdependencies between risks?" guid="_hSFaYDe3EduD7J48kKN20g">
     <sectionDescription>&lt;span style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Make sure that you establish interdependencies between risks as&#xD;
 appropriate. For example, the consequence of a risk happening may raise the probability of another risk happening or raise&#xD;
 the impact that another risk could have on the project. If risks depend on each other, you may need a response strategy to&#xD;

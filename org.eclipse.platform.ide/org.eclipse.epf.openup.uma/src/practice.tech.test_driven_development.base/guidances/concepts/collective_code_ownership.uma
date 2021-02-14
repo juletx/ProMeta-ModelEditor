@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-ykYi7xrRdC5O9qFXhU3doA" name=",_xYMPoCZnEdyUaK463Ozu5g" guid="-ykYi7xrRdC5O9qFXhU3doA" changeDate="2008-08-06T12:25:38.000+0200" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_xYMPoCZnEdyUaK463Ozu5g" xmi:version="2.0" epf:version="1.5.1" xmi:id="-ykYi7xrRdC5O9qFXhU3doA" name=",_xYMPoCZnEdyUaK463Ozu5g" guid="-ykYi7xrRdC5O9qFXhU3doA" changeDate="2008-08-06T12:25:38.000+0200" version="7.2.0">
   <mainDescription>&lt;p&gt;&#xD;
     With collective code ownership, any member of the team can change any piece of code in the system at any time. There&#xD;
     should not be a policy or norm that one person is responsible for one part of the code base so that others are not&#xD;

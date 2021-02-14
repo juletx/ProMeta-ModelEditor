@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-z4NERMW6W4_X_5DuTTXv6A" name="new_checklist,_OHRDMAarEdy1uLAzgK8btg" guid="-z4NERMW6W4_X_5DuTTXv6A" version="7.5.0">
-  <sections xmi:id="_EQJdAAa_Edy1uLAzgK8btg" name="Have you elaborated on the plan with the team?" guid="_EQJdAAa_Edy1uLAzgK8btg">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="new_checklist,_OHRDMAarEdy1uLAzgK8btg" xmi:version="2.0" epf:version="1.5.1" xmi:id="-z4NERMW6W4_X_5DuTTXv6A" name="new_checklist,_OHRDMAarEdy1uLAzgK8btg" guid="-z4NERMW6W4_X_5DuTTXv6A" version="7.5.0">
+  <sections variabilityBasedOnElement="_EQJdAAa_Edy1uLAzgK8btg" xmi:id="_EQJdAAa_Edy1uLAzgK8btg" name="Have you elaborated on the plan with the team?" guid="_EQJdAAa_Edy1uLAzgK8btg">
     <sectionDescription>&lt;p&gt;&#xD;
     Iteration planning should not be done in isolation, and every member of the team should be involved.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_lmIhYAarEdy1uLAzgK8btg" name="Are iteration objectives clear?" guid="_lmIhYAarEdy1uLAzgK8btg">
+  <sections variabilityBasedOnElement="_lmIhYAarEdy1uLAzgK8btg" xmi:id="_lmIhYAarEdy1uLAzgK8btg" name="Are iteration objectives clear?" guid="_lmIhYAarEdy1uLAzgK8btg">
     <sectionDescription>&lt;ul&gt;&#xD;
     &lt;li&gt;&#xD;
         Are the objectives based on stakeholder priorities?&#xD;
@@ -14,12 +14,12 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_i2r4kAarEdy1uLAzgK8btg" name="Have key milestones for the iteration been identified?" guid="_i2r4kAarEdy1uLAzgK8btg">
+  <sections variabilityBasedOnElement="_i2r4kAarEdy1uLAzgK8btg" xmi:id="_i2r4kAarEdy1uLAzgK8btg" name="Have key milestones for the iteration been identified?" guid="_i2r4kAarEdy1uLAzgK8btg">
     <sectionDescription>&lt;p&gt;&#xD;
     This may include dates for iteration reviews, demonstrations (demos), and retrospective reviews.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_oKlbIAarEdy1uLAzgK8btg" name="Do the team members feel confident about their Work Item assignments?" guid="_oKlbIAarEdy1uLAzgK8btg">
+  <sections variabilityBasedOnElement="_oKlbIAarEdy1uLAzgK8btg" xmi:id="_oKlbIAarEdy1uLAzgK8btg" name="Do the team members feel confident about their Work Item assignments?" guid="_oKlbIAarEdy1uLAzgK8btg">
     <sectionDescription>&lt;p align="left"&gt;&#xD;
     Looking at results from previous iterations, does the amount of work selected for the current iteration seem feasible?&#xD;
 &lt;/p&gt;&#xD;

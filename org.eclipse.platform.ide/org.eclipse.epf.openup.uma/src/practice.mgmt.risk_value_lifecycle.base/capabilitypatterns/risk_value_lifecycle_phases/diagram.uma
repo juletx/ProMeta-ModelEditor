@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:org.eclipse.epf.diagram.model="http://www.eclipse.org/epf/diagram/1.0.0/diagram.ecore" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0">
   <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_X9tZsDM_Ed2FLqBzSmhoFg">
-    <linkedElement xmi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_SKnAwOL9EdyM47cGD2jiaQ#_SKnA1uL9EdyM47cGD2jiaQ"/>
+    <linkedElement xmi:type="org.eclipse.epf.uma:CapabilityPattern" href="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#_SKnA1uL9EdyM47cGD2jiaQ"/>
   </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
   <notation:Diagram xmi:id="_X92joDM_Ed2FLqBzSmhoFg" type="ADD" element="_X9tZsDM_Ed2FLqBzSmhoFg" name="risk_value_lifecycle_phases" measurementUnit="Pixel">
     <styles xmi:type="notation:PageStyle" xmi:id="_X92joTM_Ed2FLqBzSmhoFg"/>
@@ -8,7 +8,7 @@
     <styles xmi:type="notation:DescriptionStyle" xmi:id="_X92jozM_Ed2FLqBzSmhoFg"/>
   </notation:Diagram>
   <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_X_8OUDM_Ed2FLqBzSmhoFg">
-    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="uma://_SKnAwOL9EdyM47cGD2jiaQ#_SKnAzuL9EdyM47cGD2jiaQ"/>
+    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#_SKnAzuL9EdyM47cGD2jiaQ"/>
     <nodes xmi:type="org.eclipse.epf.diagram.model:RoleTaskComposite" xmi:id="_CA1WgEcoEd-zQ_PQsKYlrw">
       <linkedElement xmi:type="org.eclipse.epf.uma:RoleDescriptor" href="uma://_Hv7tgDX0Ed-MPsf1MWUhgQ#_Hv7t9TX0Ed-MPsf1MWUhgQ"/>
     </nodes>
@@ -22,7 +22,7 @@
     <styles xmi:type="notation:DescriptionStyle" xmi:id="_X_8OVDM_Ed2FLqBzSmhoFg"/>
   </notation:Diagram>
   <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_X_8OVTM_Ed2FLqBzSmhoFg">
-    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="uma://_SKnAwOL9EdyM47cGD2jiaQ#_SKnA0uL9EdyM47cGD2jiaQ"/>
+    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#_SKnA0uL9EdyM47cGD2jiaQ"/>
   </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
   <notation:Diagram xmi:id="_X_8OVjM_Ed2FLqBzSmhoFg" type="ADD" element="_X_8OVTM_Ed2FLqBzSmhoFg" name="Elaboration Iteration [1..n]" measurementUnit="Pixel">
     <styles xmi:type="notation:PageStyle" xmi:id="_X_8OVzM_Ed2FLqBzSmhoFg"/>
@@ -30,7 +30,7 @@
     <styles xmi:type="notation:DescriptionStyle" xmi:id="_X_8OWTM_Ed2FLqBzSmhoFg"/>
   </notation:Diagram>
   <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_X_8OWjM_Ed2FLqBzSmhoFg">
-    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="uma://_SKnAwOL9EdyM47cGD2jiaQ#_SKnAyOL9EdyM47cGD2jiaQ"/>
+    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#_SKnAyOL9EdyM47cGD2jiaQ"/>
   </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
   <notation:Diagram xmi:id="_X_8OWzM_Ed2FLqBzSmhoFg" type="ADD" element="_X_8OWjM_Ed2FLqBzSmhoFg" name="Construction Iteration [1..n]" measurementUnit="Pixel">
     <styles xmi:type="notation:PageStyle" xmi:id="_X_8OXDM_Ed2FLqBzSmhoFg"/>
@@ -38,7 +38,7 @@
     <styles xmi:type="notation:DescriptionStyle" xmi:id="_X_8OXjM_Ed2FLqBzSmhoFg"/>
   </notation:Diagram>
   <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_YAF_UDM_Ed2FLqBzSmhoFg">
-    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="uma://_SKnAwOL9EdyM47cGD2jiaQ#_SKnAxOL9EdyM47cGD2jiaQ"/>
+    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#_SKnAxOL9EdyM47cGD2jiaQ"/>
     <nodes xmi:type="org.eclipse.epf.diagram.model:RoleTaskComposite" xmi:id="_d_gA0EcoEd-zQ_PQsKYlrw">
       <linkedElement xmi:type="org.eclipse.epf.uma:RoleDescriptor" href="uma://_Hv7tgDX0Ed-MPsf1MWUhgQ#_Hv7tijX0Ed-MPsf1MWUhgQ"/>
     </nodes>

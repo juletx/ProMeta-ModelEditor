@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-UaDGd7K2rQIFMwCrDuqQKQ" name=",_Ht-z8JfJEdyZkIR-s-Y8wQ" guid="-UaDGd7K2rQIFMwCrDuqQKQ" changeDate="2010-09-15T21:46:02.202+0200" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_Ht-z8JfJEdyZkIR-s-Y8wQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-UaDGd7K2rQIFMwCrDuqQKQ" name=",_Ht-z8JfJEdyZkIR-s-Y8wQ" guid="-UaDGd7K2rQIFMwCrDuqQKQ" changeDate="2010-09-15T21:46:02.202+0200" version="7.2.0">
   <mainDescription>&lt;p&gt;&#xD;
     Usually, this task is focused on a specific implementation&amp;nbsp;element, such as a class or component, but it does not&#xD;
     need to be.&#xD;
@@ -13,7 +13,7 @@
     correct. The implementation should be immediately tested.&#xD;
 &lt;/p&gt;The [Project Work]&amp;nbsp; is implicitly used in implementation tasks to manage which requirements or change requests are&#xD;
 being realized in the code.&lt;br /&gt;</keyConsiderations>
-  <sections xmi:id="_RiBg4JfJEdyZkIR-s-Y8wQ" name="Determine a strategy" guid="_RiBg4JfJEdyZkIR-s-Y8wQ">
+  <sections variabilityBasedOnElement="_RiBg4JfJEdyZkIR-s-Y8wQ" xmi:id="_RiBg4JfJEdyZkIR-s-Y8wQ" name="Determine a strategy" guid="_RiBg4JfJEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Determine a strategy based on the software design and developer tests&amp;nbsp;for how you are going to implement the&#xD;
     solution. The fundamental options are:&#xD;
@@ -33,14 +33,14 @@ being realized in the code.&lt;br /&gt;</keyConsiderations>
     &lt;/li&gt;&#xD;
 &lt;/ol&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_SW1pAJfJEdyZkIR-s-Y8wQ" name="Identify opportunities for reuse" guid="_SW1pAJfJEdyZkIR-s-Y8wQ">
+  <sections variabilityBasedOnElement="_SW1pAJfJEdyZkIR-s-Y8wQ" xmi:id="_SW1pAJfJEdyZkIR-s-Y8wQ" name="Identify opportunities for reuse" guid="_SW1pAJfJEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Identify existing code or other implementation elements that can be reused in the portion of the implementation that&#xD;
     you are creating or changing. A comprehensive understanding of the overall design is helpful, because it is best to&#xD;
     leverage reuse opportunities when you have a thorough understanding of the proposed solution.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_IVaTAJ-uEdyHNcWzRYqQMg" name="Transform design into implementation" guid="_IVaTAJ-uEdyHNcWzRYqQMg">
+  <sections variabilityBasedOnElement="_IVaTAJ-uEdyHNcWzRYqQMg" xmi:id="_IVaTAJ-uEdyHNcWzRYqQMg" name="Transform design into implementation" guid="_IVaTAJ-uEdyHNcWzRYqQMg">
     <sectionDescription>&lt;p&gt;&#xD;
     If you are using sophisticated modeling tools, you should be able to generate a portion of the required source code&#xD;
     from the model. Note that programming is&amp;nbsp;commonly required to complete the implementation after the design model&#xD;
@@ -51,7 +51,7 @@ being realized in the code.&lt;br /&gt;</keyConsiderations>
     developer tests.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_TadCIJfJEdyZkIR-s-Y8wQ" name="Write source code" guid="_TadCIJfJEdyZkIR-s-Y8wQ">
+  <sections variabilityBasedOnElement="_TadCIJfJEdyZkIR-s-Y8wQ" xmi:id="_TadCIJfJEdyZkIR-s-Y8wQ" name="Write source code" guid="_TadCIJfJEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Write the source code to make the implementation conform to the design and expected behavior. You should strive to&#xD;
     reuse and/or generate code wherever possible, but you will still need to do some programming. To do so, consider the&#xD;
@@ -93,7 +93,7 @@ being realized in the code.&lt;br /&gt;</keyConsiderations>
     refactoring pass over the code to improve it once it is complete and correct.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_WpB28JfJEdyZkIR-s-Y8wQ" name="Evaluate the implementation" guid="_WpB28JfJEdyZkIR-s-Y8wQ">
+  <sections variabilityBasedOnElement="_WpB28JfJEdyZkIR-s-Y8wQ" xmi:id="_WpB28JfJEdyZkIR-s-Y8wQ" name="Evaluate the implementation" guid="_WpB28JfJEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Verify that the implementation is fit for its purpose. Examine the code for its suitability to perform its intended&#xD;
     function. This is a quality assurance step that you perform in addition to testing which is described in other tasks.&#xD;
@@ -128,7 +128,7 @@ being realized in the code.&lt;br /&gt;</keyConsiderations>
     Improve the implementation based on the results of these evaluations.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_XjAL4JfJEdyZkIR-s-Y8wQ" name="Communicate significant decisions" guid="_XjAL4JfJEdyZkIR-s-Y8wQ">
+  <sections variabilityBasedOnElement="_XjAL4JfJEdyZkIR-s-Y8wQ" xmi:id="_XjAL4JfJEdyZkIR-s-Y8wQ" name="Communicate significant decisions" guid="_XjAL4JfJEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Communicate the impact of unexpected changes to the design and requirements.&#xD;
 &lt;/p&gt;&#xD;

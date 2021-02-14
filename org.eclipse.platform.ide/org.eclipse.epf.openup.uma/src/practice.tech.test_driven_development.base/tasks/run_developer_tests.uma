@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-H6ob8eA7gz_mOsk8ulSFMQ" name=",_R7atwJfIEdyZkIR-s-Y8wQ" guid="-H6ob8eA7gz_mOsk8ulSFMQ" changeDate="2010-09-15T21:46:34.530+0200" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_R7atwJfIEdyZkIR-s-Y8wQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-H6ob8eA7gz_mOsk8ulSFMQ" name=",_R7atwJfIEdyZkIR-s-Y8wQ" guid="-H6ob8eA7gz_mOsk8ulSFMQ" changeDate="2010-09-15T21:46:34.530+0200" version="7.2.0">
   <keyConsiderations>&lt;p&gt;&#xD;
     It is common to require that code pass all developer tests before it can be delivered in an integrated source code&#xD;
     repository.&#xD;
@@ -10,7 +10,7 @@
     The&amp;nbsp;[Project Work]&amp;nbsp;is implicitly used in implementation tasks to manage which requirements or change requests&#xD;
     are being realized in the code.&#xD;
 &lt;/p&gt;</keyConsiderations>
-  <sections xmi:id="_gjLBUJfIEdyZkIR-s-Y8wQ" name="Run developer tests" guid="_gjLBUJfIEdyZkIR-s-Y8wQ">
+  <sections variabilityBasedOnElement="_gjLBUJfIEdyZkIR-s-Y8wQ" xmi:id="_gjLBUJfIEdyZkIR-s-Y8wQ" name="Run developer tests" guid="_gjLBUJfIEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Run the developer tests.&amp;nbsp;The procedure will vary, depending on whether the test is manual or automated and whether&#xD;
     additional test components are necessary,&amp;nbsp;such as&amp;nbsp;drivers or stubs.&#xD;
@@ -23,7 +23,7 @@
     Automated tests will often update a test results&amp;nbsp;which you can evaluate to determine where your tests went wrong.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_haRocJfIEdyZkIR-s-Y8wQ" name="Evaluate test execution" guid="_haRocJfIEdyZkIR-s-Y8wQ">
+  <sections variabilityBasedOnElement="_haRocJfIEdyZkIR-s-Y8wQ" xmi:id="_haRocJfIEdyZkIR-s-Y8wQ" name="Evaluate test execution" guid="_haRocJfIEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Evaluate the test execution by analyzing the test run.&amp;nbsp;&#xD;
 &lt;/p&gt;&#xD;
@@ -39,7 +39,7 @@
     with the environment.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_itj1QJfIEdyZkIR-s-Y8wQ" name="Respond to test results" guid="_itj1QJfIEdyZkIR-s-Y8wQ">
+  <sections variabilityBasedOnElement="_itj1QJfIEdyZkIR-s-Y8wQ" xmi:id="_itj1QJfIEdyZkIR-s-Y8wQ" name="Respond to test results" guid="_itj1QJfIEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Determine the appropriate corrective action to recover from a "failed" developer test run. If the implementation&#xD;
     element under test is faulty, fix the problem if possible and rerun the tests. If the problem is serious and cannot be&#xD;
@@ -47,7 +47,7 @@
     was a problem with the environment, resolve it and then rerun&amp;nbsp;the tests.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_C0_fYFQAEd2ECfw27om6fw" name="Promote changes for integration test" guid="_C0_fYFQAEd2ECfw27om6fw">
+  <sections variabilityBasedOnElement="_C0_fYFQAEd2ECfw27om6fw" xmi:id="_C0_fYFQAEd2ECfw27om6fw" name="Promote changes for integration test" guid="_C0_fYFQAEd2ECfw27om6fw">
     <sectionDescription>&lt;p&gt;&#xD;
     When the developer tests pass and no further work is need to complete the change set, promote the changes for&#xD;
     integration test. If the passing of these tests represent completion of a requirement update the status of the work&#xD;

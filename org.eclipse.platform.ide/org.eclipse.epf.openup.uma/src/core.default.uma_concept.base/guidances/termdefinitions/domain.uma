@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_yHEVYtnmEdmO6L4XMImrsA" name="domain,_yHEVYdnmEdmO6L4XMImrsA" guid="_yHEVYtnmEdmO6L4XMImrsA" changeDate="2007-02-27T20:45:19.000+0100" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="domain,_yHEVYdnmEdmO6L4XMImrsA" xmi:version="2.0" epf:version="1.5.1" xmi:id="_yHEVYtnmEdmO6L4XMImrsA" name="domain,_yHEVYdnmEdmO6L4XMImrsA" guid="_yHEVYtnmEdmO6L4XMImrsA" changeDate="2007-02-27T20:45:19.000+0100" version="7.2.0">
   <mainDescription>&lt;p&gt;&#xD;
     Primary categorization mechanism for organizing work products that have an affinity to each other based on resources,&#xD;
     timing, relationships or general subject area.&#xD;

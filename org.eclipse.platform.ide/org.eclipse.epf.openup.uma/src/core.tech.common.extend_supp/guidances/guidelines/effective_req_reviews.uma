@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-pNA0DbSdSoUqnjQIiOeHcQ" name="achieving_concurrence,_E-dPIL-GEdqb7N6KIeDL8Q" guid="-pNA0DbSdSoUqnjQIiOeHcQ" changeDate="2010-05-26T18:25:24.000+0200" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="achieving_concurrence,_E-dPIL-GEdqb7N6KIeDL8Q" xmi:version="2.0" epf:version="1.5.1" xmi:id="-pNA0DbSdSoUqnjQIiOeHcQ" name="achieving_concurrence,_E-dPIL-GEdqb7N6KIeDL8Q" guid="-pNA0DbSdSoUqnjQIiOeHcQ" changeDate="2010-05-26T18:25:24.000+0200" version="1.0.0">
   <mainDescription>&lt;p&gt;&#xD;
     The cost of correcting errors increases exponentially throughout the development lifecycle &lt;a&#xD;
     class="elementLinkWithUserText"&#xD;

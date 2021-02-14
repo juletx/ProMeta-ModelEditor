@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-9sNgONA1WJCxf12B40uDgw" name="detail_system_wide_requirements,_4z8Z0EbEEdyx8quJU3Grxg" guid="-9sNgONA1WJCxf12B40uDgw" changeDate="2007-11-14T19:42:54.000+0100" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="detail_system_wide_requirements,_4z8Z0EbEEdyx8quJU3Grxg" xmi:version="2.0" epf:version="1.5.1" xmi:id="-9sNgONA1WJCxf12B40uDgw" name="detail_system_wide_requirements,_4z8Z0EbEEdyx8quJU3Grxg" guid="-9sNgONA1WJCxf12B40uDgw" changeDate="2007-11-14T19:42:54.000+0100" version="1.0.0">
   <keyConsiderations>To avoid unnecessary rework, only those requirements that are scheduled for implementation in the near term (in the next&#xD;
 iteration or two)&amp;nbsp;must be detailed.</keyConsiderations>
-  <sections xmi:id="_4z8Z1EbEEdyx8quJU3Grxg" name="Detail system-wide requirements" guid="_4z8Z1EbEEdyx8quJU3Grxg">
+  <sections variabilityBasedOnElement="_4z8Z1EbEEdyx8quJU3Grxg" xmi:id="_4z8Z1EbEEdyx8quJU3Grxg" name="Detail system-wide requirements" guid="_4z8Z1EbEEdyx8quJU3Grxg">
     <sectionDescription>&lt;p&gt;&#xD;
     Some&amp;nbsp;system-wide requirements&amp;nbsp;might need to be clarified or described in more detail.&amp;nbsp;New&#xD;
     requirements&amp;nbsp;may&amp;nbsp;be discovered&amp;nbsp;while the use cases and scenarios are detailed, and new requirements may&#xD;
@@ -9,12 +9,12 @@ iteration or two)&amp;nbsp;must be detailed.</keyConsiderations>
     requirements that will have an impact on near term, planned&amp;nbsp;work or are deemed architecturally significant.&amp;nbsp;&#xD;
 &lt;/p&gt;&lt;br /&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_4z8Z0UbEEdyx8quJU3Grxg" name="Detail glossary terms" guid="_4z8Z0UbEEdyx8quJU3Grxg">
+  <sections variabilityBasedOnElement="_4z8Z0UbEEdyx8quJU3Grxg" xmi:id="_4z8Z0UbEEdyx8quJU3Grxg" name="Detail glossary terms" guid="_4z8Z0UbEEdyx8quJU3Grxg">
     <sectionDescription>Review the system-wide requirements and collaborate with stakeholders to ensure that you define newly discovered domain&#xD;
 terms, or ambiguous terms properly in the glossary. If your understanding of the domain has improved, refine existing&#xD;
 glossary terms.</sectionDescription>
   </sections>
-  <sections xmi:id="_4z8Z0kbEEdyx8quJU3Grxg" name="Achieve concurrence" guid="_4z8Z0kbEEdyx8quJU3Grxg">
+  <sections variabilityBasedOnElement="_4z8Z0kbEEdyx8quJU3Grxg" xmi:id="_4z8Z0kbEEdyx8quJU3Grxg" name="Achieve concurrence" guid="_4z8Z0kbEEdyx8quJU3Grxg">
     <sectionDescription>&lt;p&gt;&#xD;
     Review the&amp;nbsp;detailed system-wide requirements with relevant stakeholders and the development team to ensure&#xD;
     consistency with the&amp;nbsp;agreed vision.&amp;nbsp;Assess quality and identify any required changes.&#xD;

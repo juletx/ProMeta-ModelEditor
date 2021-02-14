@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_CYRMgBEdEdqY7JB6N6CW2w" name="agile_estimation,_CGHskBEdEdqY7JB6N6CW2w" guid="_CYRMgBEdEdqY7JB6N6CW2w" changeDate="2008-07-11T18:20:35.000+0200" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="agile_estimation,_CGHskBEdEdqY7JB6N6CW2w" xmi:version="2.0" epf:version="1.5.1" xmi:id="_CYRMgBEdEdqY7JB6N6CW2w" name="agile_estimation,_CGHskBEdEdqY7JB6N6CW2w" guid="_CYRMgBEdEdqY7JB6N6CW2w" changeDate="2008-07-11T18:20:35.000+0200" version="7.2.0">
   <mainDescription>&lt;h3&gt;&#xD;
     Agile Estimation&#xD;
 &lt;/h3&gt;&#xD;

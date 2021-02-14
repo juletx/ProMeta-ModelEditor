@@ -49,5 +49,5 @@
     <methodPlugins xmi:id="_mYfo8OCIEeC1y_NExchKwQ" href="practice.gen.production_release.base/plugin.uma#_mYfo8OCIEeC1y_NExchKwQ"/>
     <methodPlugins xmi:id="_p0w9wJlfEeGlkdGl1HQlDA" href="practice.gen.doc_trng.assign/plugin.uma#_p0w9wJlfEeGlkdGl1HQlDA"/>
     <methodPlugins xmi:id="_XOu58JljEeGlkdGl1HQlDA" href="practice.gen.production_release.assign/plugin.uma#_XOu58JljEeGlkdGl1HQlDA"/>
-  </org.eclipse.epf.uma:MethodLibrary>
+  <predefinedConfigurations xmi:id="_QN3nQBEHEdyM7Iu0sxfrPA" href="configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/></org.eclipse.epf.uma:MethodLibrary>
 </xmi:XMI>

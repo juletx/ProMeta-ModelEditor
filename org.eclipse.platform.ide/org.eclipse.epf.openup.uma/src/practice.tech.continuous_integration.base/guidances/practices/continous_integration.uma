@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:PracticeDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-CtyoBMfPzn2SCjU-fK3ehg" name="continous_integration,_rJNiMB4rEd2bS8fFOQ7WWA" guid="-CtyoBMfPzn2SCjU-fK3ehg" changeDate="2010-08-27T12:48:17.000+0200" version="7.5.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:PracticeDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="continous_integration,_rJNiMB4rEd2bS8fFOQ7WWA" xmi:version="2.0" epf:version="1.5.1" xmi:id="-CtyoBMfPzn2SCjU-fK3ehg" name="continous_integration,_rJNiMB4rEd2bS8fFOQ7WWA" guid="-CtyoBMfPzn2SCjU-fK3ehg" changeDate="2010-08-27T12:48:17.000+0200" version="7.5.0">
   <mainDescription>&lt;h3&gt;&#xD;
     The essence of continuous integration&#xD;
 &lt;/h3&gt;&#xD;

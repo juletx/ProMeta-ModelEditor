@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_5rJ78Lj3Edmy88CC3LfB_w" name="develop_vision,_0fOAoMlgEdmt3adZL5Dmdw" guid="_5rJ78Lj3Edmy88CC3LfB_w" changeDate="2007-12-18T10:14:14.000+0100" changeDescription="Review comments:|1. Conflicts with other GBS practices and work products|-. Removed &#34;Define the system boundaries&#34; - need to figure out how to get it |back in.|Removed from step 1:|Develop profiles of potential (or actual) users of the system that map to the |roles of human actors of the system that you are developing.|-. Removed &#34;Identify constraints on the system&#34;||Need to determine how to make this work with GS method's practices for these removed steps.|Some options:|- OpenUP could be doing something simpler than the GS Method approach that is ok to do as well (need to convince GBS)|- OpenUP could have a practice for doing these additional things that isn't part of the &#34;basic vision&#34;, but can be added in by contributing steps|- OpenUP could go with a more basic practice for defining a vision, and not do these aspects|- The steps could be written as &#34;optional things to do if you don't have a separate practice&#34;.||I like the first option best.||2. Removed &#34;Update the vision&#34; which occurs throughout the task.||3. Removed all the links to work items - we shoudn't assume it is there.||4. Removed hyperlinks to attached guidance. We need to make sure this convention is followed elsewhere.||5. Removed links to OpenUP-only guidance, such as &#34;principles for collaborative development&#34;. Makes sense, but we need to make sure this convention is followed elsewhere." version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="develop_vision,_0fOAoMlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_5rJ78Lj3Edmy88CC3LfB_w" name="develop_vision,_0fOAoMlgEdmt3adZL5Dmdw" guid="_5rJ78Lj3Edmy88CC3LfB_w" changeDate="2007-12-18T10:14:14.000+0100" changeDescription="Review comments:|1. Conflicts with other GBS practices and work products|-. Removed &#34;Define the system boundaries&#34; - need to figure out how to get it |back in.|Removed from step 1:|Develop profiles of potential (or actual) users of the system that map to the |roles of human actors of the system that you are developing.|-. Removed &#34;Identify constraints on the system&#34;||Need to determine how to make this work with GS method's practices for these removed steps.|Some options:|- OpenUP could be doing something simpler than the GS Method approach that is ok to do as well (need to convince GBS)|- OpenUP could have a practice for doing these additional things that isn't part of the &#34;basic vision&#34;, but can be added in by contributing steps|- OpenUP could go with a more basic practice for defining a vision, and not do these aspects|- The steps could be written as &#34;optional things to do if you don't have a separate practice&#34;.||I like the first option best.||2. Removed &#34;Update the vision&#34; which occurs throughout the task.||3. Removed all the links to work items - we shoudn't assume it is there.||4. Removed hyperlinks to attached guidance. We need to make sure this convention is followed elsewhere.||5. Removed links to OpenUP-only guidance, such as &#34;principles for collaborative development&#34;. Makes sense, but we need to make sure this convention is followed elsewhere." version="1.0.0">
   <keyConsiderations>&lt;p&gt;&#xD;
     Use-case modeling&amp;nbsp;is one technique that can prove useful in defining the system boundaries and system behavior.&#xD;
 &lt;/p&gt;</keyConsiderations>
-  <sections xmi:id="_ceK-UED2EdyoefaQkqWN_Q" name="Identify stakeholders" guid="_ceK-UED2EdyoefaQkqWN_Q">
+  <sections variabilityBasedOnElement="_ceK-UED2EdyoefaQkqWN_Q" xmi:id="_ceK-UED2EdyoefaQkqWN_Q" name="Identify stakeholders" guid="_ceK-UED2EdyoefaQkqWN_Q">
     <sectionDescription>Identify the stakeholders: decision-makers, customers, potential users, partners, domain experts, industry analysts and&#xD;
 other interested parties. Briefly describe what stakeholders do and what their responsibilities are with regard to the&#xD;
 system being developed.</sectionDescription>
   </sections>
-  <sections xmi:id="_h7AacED2EdyoefaQkqWN_Q" name="Gain agreement on the problem to be solved" guid="_h7AacED2EdyoefaQkqWN_Q">
+  <sections variabilityBasedOnElement="_h7AacED2EdyoefaQkqWN_Q" xmi:id="_h7AacED2EdyoefaQkqWN_Q" name="Gain agreement on the problem to be solved" guid="_h7AacED2EdyoefaQkqWN_Q">
     <sectionDescription>&lt;p&gt;&#xD;
     Avoid rushing into defining the solution. First, gain agreement on the definition of the problem by asking the&#xD;
     stakeholders what they see as the problem. Then search for root causes, or the "problem behind the problem".&#xD;
@@ -15,7 +15,7 @@ system being developed.</sectionDescription>
     you distinguish solutions and answers from problems and questions.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_vbkccED2EdyoefaQkqWN_Q" name="Gather stakeholder requests" guid="_vbkccED2EdyoefaQkqWN_Q">
+  <sections variabilityBasedOnElement="_vbkccED2EdyoefaQkqWN_Q" xmi:id="_vbkccED2EdyoefaQkqWN_Q" name="Gather stakeholder requests" guid="_vbkccED2EdyoefaQkqWN_Q">
     <sectionDescription>&lt;p&gt;&#xD;
     Use the most appropriate technique to help you on requirements gathering.&amp;nbsp;Each technique is applicable in a&#xD;
     particular situation or to a certain type of stakeholder.&#xD;
@@ -30,12 +30,12 @@ system being developed.</sectionDescription>
     items).&amp;nbsp; This can often be used as a solid starting position from which a full set of requirements can be created.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_yeVC0ED2EdyoefaQkqWN_Q" name="Define the scope of the solution" guid="_yeVC0ED2EdyoefaQkqWN_Q">
+  <sections variabilityBasedOnElement="_yeVC0ED2EdyoefaQkqWN_Q" xmi:id="_yeVC0ED2EdyoefaQkqWN_Q" name="Define the scope of the solution" guid="_yeVC0ED2EdyoefaQkqWN_Q">
     <sectionDescription>&lt;p&gt;&#xD;
     Analyze the scope in terms of processes, organizations, and systems.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_6uIV0ED2EdyoefaQkqWN_Q" name="Define features of the system" guid="_6uIV0ED2EdyoefaQkqWN_Q">
+  <sections variabilityBasedOnElement="_6uIV0ED2EdyoefaQkqWN_Q" xmi:id="_6uIV0ED2EdyoefaQkqWN_Q" name="Define features of the system" guid="_6uIV0ED2EdyoefaQkqWN_Q">
     <sectionDescription>&lt;p&gt;&#xD;
     Work with stakeholders to capture&amp;nbsp;a list&amp;nbsp;of&amp;nbsp;&lt;a class="elementlinkwithusertext"&#xD;
     href="./../../practice.tech.shared_vision.base/guidances/termdefinitions/feature_4ED64AEE.html"&#xD;
@@ -45,11 +45,11 @@ system being developed.</sectionDescription>
     guid="_VQ268O0KEdqHTdbLTmC5IQ"&gt;attributes&lt;/a&gt; to help define their general status and priority in the project.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="__nDMkED2EdyoefaQkqWN_Q" name="Achieve concurrence" guid="__nDMkED2EdyoefaQkqWN_Q">
+  <sections variabilityBasedOnElement="__nDMkED2EdyoefaQkqWN_Q" xmi:id="__nDMkED2EdyoefaQkqWN_Q" name="Achieve concurrence" guid="__nDMkED2EdyoefaQkqWN_Q">
     <sectionDescription>Conduct an effective requirements&amp;nbsp;review&amp;nbsp;with stakeholders and the development team&amp;nbsp;to ensure agreement on&#xD;
 the project vision, assess quality, and identify required changes.</sectionDescription>
   </sections>
-  <sections xmi:id="_Af_gUEIMEd2omsDpG-BNng" name="Capture a common vocabulary" guid="_Af_gUEIMEd2omsDpG-BNng">
+  <sections variabilityBasedOnElement="_Af_gUEIMEd2omsDpG-BNng" xmi:id="_Af_gUEIMEd2omsDpG-BNng" name="Capture a common vocabulary" guid="_Af_gUEIMEd2omsDpG-BNng">
     <sectionDescription>Every project has its own specialized terminology that everyone on the team must understand well to communicate effectively&#xD;
 with stakeholders.&amp;nbsp; Work with stakeholders to create a glossary that defines acronyms, abbreviations, and relevant&#xD;
 business and technical terms.&amp;nbsp; Work with stakeholders to continually expand and refine the glossary throughout the&#xD;

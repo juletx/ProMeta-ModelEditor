@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-tmKVpMZoAoS-Wkvbe_iHpQ" name=",_s4ojQNqREdy88NBoQgfGyg" guid="-tmKVpMZoAoS-Wkvbe_iHpQ" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_s4ojQNqREdy88NBoQgfGyg" xmi:version="2.0" epf:version="1.5.1" xmi:id="-tmKVpMZoAoS-Wkvbe_iHpQ" name=",_s4ojQNqREdy88NBoQgfGyg" guid="-tmKVpMZoAoS-Wkvbe_iHpQ" version="7.2.0">
   <keyConsiderations>&lt;p&gt;&#xD;
     At this stage, you may find it useful to develop a draft version of your architectural models.&amp;nbsp; For more&#xD;
     information, see &lt;a class="elementLinkWithType"&#xD;

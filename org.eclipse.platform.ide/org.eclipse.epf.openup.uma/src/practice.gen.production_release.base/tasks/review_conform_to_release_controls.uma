@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-zT8t7LcbcrgIhYd_XUi6DA" name="01_review_conform_to_release_controls,_PwLDcDHMEeC7j_IRiP-WPQ" guid="-zT8t7LcbcrgIhYd_XUi6DA" changeDate="2012-05-30T23:22:34.002+0200" version="7.5.1">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="01_review_conform_to_release_controls,_PwLDcDHMEeC7j_IRiP-WPQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-zT8t7LcbcrgIhYd_XUi6DA" name="01_review_conform_to_release_controls,_PwLDcDHMEeC7j_IRiP-WPQ" guid="-zT8t7LcbcrgIhYd_XUi6DA" changeDate="2012-05-30T23:22:34.002+0200" version="7.5.1">
   <mainDescription>&lt;p&gt;&#xD;
     Release controls describe the minimum number of requirements that a software package must adhere to before being&#xD;
     released into production. This is especially important if a development team is new or emerging, because they might not&#xD;
@@ -32,16 +32,16 @@
         Ready for transfer to operations and support staff&#xD;
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</mainDescription>
-  <sections xmi:id="_IAJWAuB-EeC1y_NExchKwQ" name="Locate release controls" guid="_IAJWAuB-EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_IAJWAuB-EeC1y_NExchKwQ" xmi:id="_IAJWAuB-EeC1y_NExchKwQ" name="Locate release controls" guid="_IAJWAuB-EeC1y_NExchKwQ">
     <sectionDescription>If the program's release controls are not readily available, the development team must engage the deployment manager and/or&#xD;
 their deployment engineers to know where to find the release controls and be able to comply with them.</sectionDescription>
   </sections>
-  <sections xmi:id="_IAJWAeB-EeC1y_NExchKwQ" name="Review release controls" guid="_IAJWAeB-EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_IAJWAeB-EeC1y_NExchKwQ" xmi:id="_IAJWAeB-EeC1y_NExchKwQ" name="Review release controls" guid="_IAJWAeB-EeC1y_NExchKwQ">
     <sectionDescription>The development team should thoroughly review the release controls so that it understands what is expected before a release&#xD;
 is accepted into the production environment. If the team has any questions or issues with the controls, team members should&#xD;
 communicate directly with the deployment manager or the deployment engineer to understand the issues.</sectionDescription>
   </sections>
-  <sections xmi:id="_IAJWAOB-EeC1y_NExchKwQ" name="Ensure the team release conforms to the controls" guid="_IAJWAOB-EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_IAJWAOB-EeC1y_NExchKwQ" xmi:id="_IAJWAOB-EeC1y_NExchKwQ" name="Ensure the team release conforms to the controls" guid="_IAJWAOB-EeC1y_NExchKwQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Coordinated releases at the program level are very formal processes. They are formal for a very good reason - namely,&#xD;
     the company's production environment could be corrupted and serious business ramifications could result, including:&#xD;

@@ -11,9 +11,9 @@
         <methodElementProperty xmi:id="_G9a20ho0EeuXnIT9fOh1Fg" name="descriptor_customization" value="2"/>
         <methodElementProperty xmi:id="_G9a20xo0EeuXnIT9fOh1Fg" name="wbe_GlobalPresentedAfter" value="_zjF0ANOJEdyqlogshP8l4g"/>
         <presentation xmi:id="-n6Q-ulwXte8wbHfbdgJuXQ" href="content.uma#-n6Q-ulwXte8wbHfbdgJuXQ"/>
-        <checklists href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAG5weB-EeC1y_NExchKwQ"/>
-        <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_yYlQoC3xEdycYKq0PulnEQ"/>
-        <Task href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAJ9EeB-EeC1y_NExchKwQ"/>
+        <checklists href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAG5weB-EeC1y_NExchKwQ"/>
+        <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_yYlQoC3xEdycYKq0PulnEQ"/>
+        <Task href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAJ9EeB-EeC1y_NExchKwQ"/>
         <selectedSteps href="uma://-QqCVewwu8buOCXKRukpf5g#_IAJ9E-B-EeC1y_NExchKwQ"/>
         <selectedSteps href="uma://-QqCVewwu8buOCXKRukpf5g#_IAJ9EuB-EeC1y_NExchKwQ"/>
         <selectedSteps href="uma://-QqCVewwu8buOCXKRukpf5g#_IAJ9FOB-EeC1y_NExchKwQ"/>
@@ -22,8 +22,8 @@
         <methodElementProperty xmi:id="_G9a21Bo0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
         <methodElementProperty xmi:id="_G9a21Ro0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
         <presentation xmi:id="-2H5-pLUbe_1EU9a_K7G8lg" href="content.uma#-2H5-pLUbe_1EU9a_K7G8lg"/>
-        <checklists href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAG5weB-EeC1y_NExchKwQ"/>
-        <WorkProduct href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAJ9FeB-EeC1y_NExchKwQ"/>
+        <checklists href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAG5weB-EeC1y_NExchKwQ"/>
+        <WorkProduct href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAJ9FeB-EeC1y_NExchKwQ"/>
       </processElements>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9AtrekEd-D7YZN9NgldQ" name="identify_and_refine_requirements" guid="_9t9AtrekEd-D7YZN9NgldQ">
@@ -38,7 +38,7 @@
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9AuLekEd-D7YZN9NgldQ" name="develop_solution" guid="_9t9AuLekEd-D7YZN9NgldQ">
       <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_eyv_UdOOEdyqlogshP8l4g" name="develop_solution" guid="_eyv_UdOOEdyqlogshP8l4g" superActivities="_aUsVEdONEdyqlogshP8l4g" variabilityType="extends">
-        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_RXGooNOFEdyqlogshP8l4g#_RXGoodOFEdyqlogshP8l4g"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\develop_solution\model.uma#_RXGoodOFEdyqlogshP8l4g"/>
       </processElements>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9AubekEd-D7YZN9NgldQ" name="test_solution" guid="_9t9AubekEd-D7YZN9NgldQ">

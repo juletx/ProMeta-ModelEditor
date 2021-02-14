@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-aN0zy068ovKHgmkkoYqoYQ" name=",_zGqO0MDpEduTGJ8i4u8TMw" guid="-aN0zy068ovKHgmkkoYqoYQ" changeDate="2009-08-07T10:39:22.000+0200" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_zGqO0MDpEduTGJ8i4u8TMw" xmi:version="2.0" epf:version="1.5.1" xmi:id="-aN0zy068ovKHgmkkoYqoYQ" name=",_zGqO0MDpEduTGJ8i4u8TMw" guid="-aN0zy068ovKHgmkkoYqoYQ" changeDate="2009-08-07T10:39:22.000+0200" version="7.2.0">
   <mainDescription>&lt;p&gt;&#xD;
     To fully understand the system's purpose, you must know who the system is for, that is: Who will use the system? The&#xD;
     answer to this question is: the Actors.&#xD;

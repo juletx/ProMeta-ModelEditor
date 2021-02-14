@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:RoleDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_NqYIcKeqEdmKDbQuyzCoqQ" name="tester,_0ZM4MclgEdmt3adZL5Dmdw" guid="_NqYIcKeqEdmKDbQuyzCoqQ" changeDate="2009-07-29T20:36:50.000+0200" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:RoleDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="tester,_0ZM4MclgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_NqYIcKeqEdmKDbQuyzCoqQ" name="tester,_0ZM4MclgEdmt3adZL5Dmdw" guid="_NqYIcKeqEdmKDbQuyzCoqQ" changeDate="2009-07-29T20:36:50.000+0200" version="1.0.0">
   <mainDescription>&lt;p&gt;&#xD;
     The person in this role is primarily responsible for the following tasks:&#xD;
 &lt;/p&gt;&#xD;

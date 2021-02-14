@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_NrbRUKeqEdmKDbQuyzCoqQ" name="implement_tests,_0jO98MlgEdmt3adZL5Dmdw" guid="_NrbRUKeqEdmKDbQuyzCoqQ" changeDate="2007-12-06T11:24:11.000+0100" version="1.0.0">
-  <sections xmi:id="_A56NkKRKEdyLP-jEVj8Kyw" name="Select Test Cases to implement" guid="_A56NkKRKEdyLP-jEVj8Kyw">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="implement_tests,_0jO98MlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_NrbRUKeqEdmKDbQuyzCoqQ" name="implement_tests,_0jO98MlgEdmt3adZL5Dmdw" guid="_NrbRUKeqEdmKDbQuyzCoqQ" changeDate="2007-12-06T11:24:11.000+0100" version="1.0.0">
+  <sections variabilityBasedOnElement="_A56NkKRKEdyLP-jEVj8Kyw" xmi:id="_A56NkKRKEdyLP-jEVj8Kyw" name="Select Test Cases to implement" guid="_A56NkKRKEdyLP-jEVj8Kyw">
     <sectionDescription>&lt;p&gt;&#xD;
     Select a set of Test Cases to develop into detailed, executable Test Scripts.&amp;nbsp;&#xD;
 &lt;/p&gt;&#xD;
@@ -11,7 +11,7 @@
     Perform each subsequent step in this task for each Test Script.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_WucQ4KRKEdyLP-jEVj8Kyw" name="Design the Test Script" guid="_WucQ4KRKEdyLP-jEVj8Kyw">
+  <sections variabilityBasedOnElement="_WucQ4KRKEdyLP-jEVj8Kyw" xmi:id="_WucQ4KRKEdyLP-jEVj8Kyw" name="Design the Test Script" guid="_WucQ4KRKEdyLP-jEVj8Kyw">
     <sectionDescription>&lt;p&gt;&#xD;
     Sketch an outline of the Test Script as a logical sequence of steps. Review the data requirements of the Test Case, and&#xD;
     determine if existing data sets are sufficient, or if you need to develop new test data for this Test Script. Examine&#xD;
@@ -26,7 +26,7 @@ the test and aid collaboration with other team members. See &lt;a class="element
 href="./../../core.tech.common.extend_supp/guidances/guidelines/programming_automated_tests_7DA10019.html"&#xD;
 guid="_0j5sUMlgEdmt3adZL5Dmdw"&gt;Guideline: Programming Automated Tests&lt;/a&gt; for more details about this decision.</sectionDescription>
   </sections>
-  <sections xmi:id="_VN5M0KuSEdmhFZtkg1nakg" name="Implement the executable Test Script" guid="_VN5M0KuSEdmhFZtkg1nakg">
+  <sections variabilityBasedOnElement="_VN5M0KuSEdmhFZtkg1nakg" xmi:id="_VN5M0KuSEdmhFZtkg1nakg" name="Implement the executable Test Script" guid="_VN5M0KuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p&gt;&#xD;
     Develop a detailed, procedural Test Script based on your design. Use a request-response style that declares an exact&#xD;
     input, and expects an exact output.&#xD;
@@ -37,7 +37,7 @@ guid="_0j5sUMlgEdmt3adZL5Dmdw"&gt;Guideline: Programming Automated Tests&lt;/a&g
     Script.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_WvBoYKuSEdmhFZtkg1nakg" name="Define specific test data" guid="_WvBoYKuSEdmhFZtkg1nakg">
+  <sections variabilityBasedOnElement="_WvBoYKuSEdmhFZtkg1nakg" xmi:id="_WvBoYKuSEdmhFZtkg1nakg" name="Define specific test data" guid="_WvBoYKuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p&gt;&#xD;
     Specify data values that are specific to the Test Script or reference existing test data. For example, instead of&#xD;
     specifying "a prime number", indicate an actual value such as "3."&#xD;
@@ -55,7 +55,7 @@ guid="_0j5sUMlgEdmt3adZL5Dmdw"&gt;Guideline: Programming Automated Tests&lt;/a&g
     If necessary, create containers for your test data sets, and separate the production data from generated data.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_2IA70KRKEdyLP-jEVj8Kyw" name="Organize Test Scripts into suites" guid="_2IA70KRKEdyLP-jEVj8Kyw">
+  <sections variabilityBasedOnElement="_2IA70KRKEdyLP-jEVj8Kyw" xmi:id="_2IA70KRKEdyLP-jEVj8Kyw" name="Organize Test Scripts into suites" guid="_2IA70KRKEdyLP-jEVj8Kyw">
     <sectionDescription>&lt;p&gt;&#xD;
     Collect tests into related groups. The grouping you use depends on your test environment. Since the system under test&#xD;
     is undergoing its own evolution, create your test suites to facilitate regression testing, as well as system&#xD;
@@ -67,7 +67,7 @@ guid="_0j5sUMlgEdmt3adZL5Dmdw"&gt;Guideline: Programming Automated Tests&lt;/a&g
     guid="_0aDz0MlgEdmt3adZL5Dmdw"&gt;Guideline: Test Suite&lt;/a&gt;.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_X0dmcKuSEdmhFZtkg1nakg" name="Verify Test implementation" guid="_X0dmcKuSEdmhFZtkg1nakg">
+  <sections variabilityBasedOnElement="_X0dmcKuSEdmhFZtkg1nakg" xmi:id="_X0dmcKuSEdmhFZtkg1nakg" name="Verify Test implementation" guid="_X0dmcKuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p&gt;&#xD;
     Run the Test Script to verify that it implements the Test Case correctly. For manual testing, conduct a walkthrough of&#xD;
     the Test Script. For automated tests, verify that the Test Script executes correctly and produces the expected result.&#xD;
@@ -81,7 +81,7 @@ guid="_0j5sUMlgEdmt3adZL5Dmdw"&gt;Guideline: Programming Automated Tests&lt;/a&g
     Add or update the Test Script(s) in configuration management.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_ABwoIKRLEdyLP-jEVj8Kyw" name="Share and evaluate Test Scripts" guid="_ABwoIKRLEdyLP-jEVj8Kyw">
+  <sections variabilityBasedOnElement="_ABwoIKRLEdyLP-jEVj8Kyw" xmi:id="_ABwoIKRLEdyLP-jEVj8Kyw" name="Share and evaluate Test Scripts" guid="_ABwoIKRLEdyLP-jEVj8Kyw">
     <sectionDescription>&lt;p&gt;&#xD;
     Walk through the new or refined Test Scripts with the developers responsible for the related&#xD;
     scenarios.&amp;nbsp;Optionally, the&amp;nbsp;analysts and the stakeholders&amp;nbsp;also participate.&#xD;

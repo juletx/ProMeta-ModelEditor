@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-SLY9_MQQ_ykBIaLojfgzBQ" name="02_install_validate_infrastructure,_FVOHgDHMEeC7j_IRiP-WPQ" guid="-SLY9_MQQ_ykBIaLojfgzBQ" changeDate="2011-09-14T07:12:43.813+0200" version="7.5.1">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="02_install_validate_infrastructure,_FVOHgDHMEeC7j_IRiP-WPQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-SLY9_MQQ_ykBIaLojfgzBQ" name="02_install_validate_infrastructure,_FVOHgDHMEeC7j_IRiP-WPQ" guid="-SLY9_MQQ_ykBIaLojfgzBQ" changeDate="2011-09-14T07:12:43.813+0200" version="7.5.1">
   <mainDescription>&lt;p&gt;&#xD;
     A release package cannot be deployed to production if the environmental infrastructure within which the release will be&#xD;
     run is not sufficiently built or tested. Whether the release is deployed as a "push" (where the application is deployed&#xD;
@@ -43,26 +43,26 @@
         &lt;/ul&gt;&#xD;
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</mainDescription>
-  <sections xmi:id="_IAIH4-B-EeC1y_NExchKwQ" name="Identify infrastructure needs" guid="_IAIH4-B-EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_IAIH4-B-EeC1y_NExchKwQ" xmi:id="_IAIH4-B-EeC1y_NExchKwQ" name="Identify infrastructure needs" guid="_IAIH4-B-EeC1y_NExchKwQ">
     <sectionDescription>Identify and describe all the components of the infrastructure that are needed to support the upcoming release. These&#xD;
 requirements should be based completely on the feature set that is about to be deployed, not on intended future needs.</sectionDescription>
   </sections>
-  <sections xmi:id="_IAIu8eB-EeC1y_NExchKwQ" name="Procure components" guid="_IAIu8eB-EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_IAIu8eB-EeC1y_NExchKwQ" xmi:id="_IAIu8eB-EeC1y_NExchKwQ" name="Procure components" guid="_IAIu8eB-EeC1y_NExchKwQ">
     <sectionDescription>Determine how long it will reasonably take to procure the needed components and to engage the appropriate division in the&#xD;
 organization to place the order. Be sure to work with the procurement agency to track the order and to identify any issues&#xD;
 with that order. Ultimately, the development team, not the procurement agency, is responsible for ensuring that the correct&#xD;
 infrastructure components are in place.</sectionDescription>
   </sections>
-  <sections xmi:id="_IAIH5OB-EeC1y_NExchKwQ" name="Schedule components for installation" guid="_IAIH5OB-EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_IAIH5OB-EeC1y_NExchKwQ" xmi:id="_IAIH5OB-EeC1y_NExchKwQ" name="Schedule components for installation" guid="_IAIH5OB-EeC1y_NExchKwQ">
     <sectionDescription>After the procured components arrive, schedule to have them installed by the IT operations group(s) that control the&#xD;
 production environment. The development team should be developing tests to confirm the correct installation at this time.</sectionDescription>
   </sections>
-  <sections xmi:id="_IAIH4uB-EeC1y_NExchKwQ" name="Install and test components" guid="_IAIH4uB-EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_IAIH4uB-EeC1y_NExchKwQ" xmi:id="_IAIH4uB-EeC1y_NExchKwQ" name="Install and test components" guid="_IAIH4uB-EeC1y_NExchKwQ">
     <sectionDescription>When the components have been installed, be prepared to run the validation tests developed in the previous step. These&#xD;
 tests should not only verify the individual components' readiness, but also should validate their integration with each&#xD;
 other and with legacy components.</sectionDescription>
   </sections>
-  <sections xmi:id="_IAIu8OB-EeC1y_NExchKwQ" name="Validate other component aspects" guid="_IAIu8OB-EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_IAIu8OB-EeC1y_NExchKwQ" xmi:id="_IAIu8OB-EeC1y_NExchKwQ" name="Validate other component aspects" guid="_IAIu8OB-EeC1y_NExchKwQ">
     <sectionDescription>&lt;p&gt;&#xD;
     As the validation testing is underway, the development team also should consider how the newly installed components&#xD;
     impact overall system security, whether or not database connectivity and security have been compromised, and what&#xD;

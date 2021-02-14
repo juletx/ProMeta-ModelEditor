@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:RoleDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_Fdq-8KX4EdmvhNXG0Oc2uA" name="project_manager,_0a0o0MlgEdmt3adZL5Dmdw" guid="_Fdq-8KX4EdmvhNXG0Oc2uA" changeDate="2008-10-14T11:20:12.000+0200" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:RoleDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="project_manager,_0a0o0MlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_Fdq-8KX4EdmvhNXG0Oc2uA" name="project_manager,_0a0o0MlgEdmt3adZL5Dmdw" guid="_Fdq-8KX4EdmvhNXG0Oc2uA" changeDate="2008-10-14T11:20:12.000+0200" version="1.0.0">
   <mainDescription>&lt;p&gt;&#xD;
     The person in this role:&#xD;
 &lt;/p&gt;&#xD;

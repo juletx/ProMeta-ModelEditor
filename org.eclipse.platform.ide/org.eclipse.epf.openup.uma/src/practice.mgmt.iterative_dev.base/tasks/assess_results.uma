@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_a3uz4LBYEdm7Eph_l9Cn9w" name="assess_results,_0l53cMlgEdmt3adZL5Dmdw" guid="_a3uz4LBYEdm7Eph_l9Cn9w" changeDate="2008-07-14T18:22:56.000+0200" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="assess_results,_0l53cMlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_a3uz4LBYEdm7Eph_l9Cn9w" name="assess_results,_0l53cMlgEdmt3adZL5Dmdw" guid="_a3uz4LBYEdm7Eph_l9Cn9w" changeDate="2008-07-14T18:22:56.000+0200" version="1.0.0">
   <mainDescription>Coordinate the assessment and discuss with the team how the iteration results will be best presented to stakeholders, so&#xD;
 that they can learn as much about the solution as possible. Listen to what the team has to say about what went wrong (and&#xD;
 what went right) during the iteration. This knowledge will help everybody make informed decisions about the next iteration&#xD;
 planning, and determine the best course of action for the project. This task is performed at the end of every iteration&#xD;
 until the end of the project.</mainDescription>
-  <sections xmi:id="_o28GgMMsEdmdo9HxCRR_Gw" name="Prepare for iteration assessment" guid="_o28GgMMsEdmdo9HxCRR_Gw">
+  <sections variabilityBasedOnElement="_o28GgMMsEdmdo9HxCRR_Gw" xmi:id="_o28GgMMsEdmdo9HxCRR_Gw" name="Prepare for iteration assessment" guid="_o28GgMMsEdmdo9HxCRR_Gw">
     <sectionDescription>&lt;p&gt;&#xD;
     Towards the end of the iteration, the team jointly assesses whether the objectives and evaluation criteria established&#xD;
     in the Iteration Plan were met, and whether the team adhered to the plan and completed all of the work items committed&#xD;
@@ -26,7 +26,7 @@ until the end of the project.</mainDescription>
     day of the iteration.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_iSiDEIx4Edyzd4h-mxj9YA" name="Demonstrate value and gather feedback" guid="_iSiDEIx4Edyzd4h-mxj9YA">
+  <sections variabilityBasedOnElement="_iSiDEIx4Edyzd4h-mxj9YA" xmi:id="_iSiDEIx4Edyzd4h-mxj9YA" name="Demonstrate value and gather feedback" guid="_iSiDEIx4Edyzd4h-mxj9YA">
     <sectionDescription>&lt;p&gt;&#xD;
     The team demonstrates the product to customers, end-users, and other stakeholders to collect their feedback or, better&#xD;
     yet, have end users use the product themselves. This can be done throughout the iteration, but at least during the&#xD;
@@ -42,7 +42,7 @@ until the end of the project.</mainDescription>
     the next iteration planning.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_iL7cQEpqEdup0IY9DKDPkg" name="Perform a retrospective" guid="_iL7cQEpqEdup0IY9DKDPkg">
+  <sections variabilityBasedOnElement="_iL7cQEpqEdup0IY9DKDPkg" xmi:id="_iL7cQEpqEdup0IY9DKDPkg" name="Perform a retrospective" guid="_iL7cQEpqEdup0IY9DKDPkg">
     <sectionDescription>&lt;p&gt;&#xD;
     Review with the team the approach taken to development and collaboration, the effectiveness of the development&#xD;
     environment, the suitability of the working environment, and other factors. Discuss what things went well, what could&#xD;
@@ -51,7 +51,7 @@ until the end of the project.</mainDescription>
     iteration. Record lessons learned in this iteration with a collection of lessons learned for the entire project.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_1YHH8DLqEdueZPye-FaNgA" name="Close-out project" guid="_1YHH8DLqEdueZPye-FaNgA">
+  <sections variabilityBasedOnElement="_1YHH8DLqEdueZPye-FaNgA" xmi:id="_1YHH8DLqEdueZPye-FaNgA" name="Close-out project" guid="_1YHH8DLqEdueZPye-FaNgA">
     <sectionDescription>&lt;p&gt;&#xD;
     Perform this step when the iteration review coincides with the end of the project. Involve the team and stakeholders in&#xD;
     a final assessment for project acceptance which, if successful, marks the point when the customer accepts ownership of&#xD;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-yVQcZlwHTZIT9-i97PVUYQ" name="test_discipline,_iGSHtlZ-EdyIUdvDLLUdeg" guid="-yVQcZlwHTZIT9-i97PVUYQ" changeDate="2009-07-29T09:10:07.000+0200" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="test_discipline,_iGSHtlZ-EdyIUdvDLLUdeg" xmi:version="2.0" epf:version="1.5.1" xmi:id="-yVQcZlwHTZIT9-i97PVUYQ" name="test_discipline,_iGSHtlZ-EdyIUdvDLLUdeg" guid="-yVQcZlwHTZIT9-i97PVUYQ" changeDate="2009-07-29T09:10:07.000+0200" version="7.2.0">
   <mainDescription>&lt;p&gt;&#xD;
     The purpose of this discipline is to:&#xD;
 &lt;/p&gt;&#xD;

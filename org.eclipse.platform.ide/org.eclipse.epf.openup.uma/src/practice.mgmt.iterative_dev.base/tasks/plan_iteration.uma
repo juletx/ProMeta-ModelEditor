@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_Wk7noKe1EdmGSrcKGOYDGg" name="plan_iteration,_0keUEMlgEdmt3adZL5Dmdw" guid="_Wk7noKe1EdmGSrcKGOYDGg" changeDate="2011-03-26T00:37:07.803+0100" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="plan_iteration,_0keUEMlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_Wk7noKe1EdmGSrcKGOYDGg" name="plan_iteration,_0keUEMlgEdmt3adZL5Dmdw" guid="_Wk7noKe1EdmGSrcKGOYDGg" changeDate="2011-03-26T00:37:07.803+0100" version="7.2.0">
   <mainDescription>&lt;p&gt;&#xD;
     During project planning, iterations are identified, but the estimates have an acceptable uncertainty due to the lack of&#xD;
     detail at the project inception. This task is repeated for each iteration within a release. It allows the team to&#xD;
@@ -8,11 +8,11 @@
     Ensure that the team commits to a reasonable amount of work for the iteration, based on team performance from previous&#xD;
     iterations.&#xD;
 &lt;/p&gt;</mainDescription>
-  <sections xmi:id="_7bz7AIyAEdyhZb-MhCJrlA" name="Prioritize Work Items List" guid="_7bz7AIyAEdyhZb-MhCJrlA">
+  <sections variabilityBasedOnElement="_7bz7AIyAEdyhZb-MhCJrlA" xmi:id="_7bz7AIyAEdyhZb-MhCJrlA" name="Prioritize Work Items List" guid="_7bz7AIyAEdyhZb-MhCJrlA">
     <sectionDescription>Prioritize the work items list before you plan the next iteration. Consider what has changed since the last iteration plan&#xD;
 (such as new change requests, shifting priorities of your stakeholders, or new risks that have been encountered).</sectionDescription>
   </sections>
-  <sections xmi:id="_CtKCMMBHEdqSgKaj2SZBmg" name="Define iteration objectives" guid="_CtKCMMBHEdqSgKaj2SZBmg">
+  <sections variabilityBasedOnElement="_CtKCMMBHEdqSgKaj2SZBmg" xmi:id="_CtKCMMBHEdqSgKaj2SZBmg" name="Define iteration objectives" guid="_CtKCMMBHEdqSgKaj2SZBmg">
     <sectionDescription>&lt;p&gt;&#xD;
     Work with the team to refine the iteration objectives found in the project definition and scope, and document them in&#xD;
     the iteration plan in order to provide high-level direction to what should be targeted for the iteration. The&#xD;
@@ -21,14 +21,14 @@
     during the iteration in order to deliver increased value to the customer.&lt;br /&gt;&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_HzNVgIyBEdyhZb-MhCJrlA" name="Identify and review risks" guid="_HzNVgIyBEdyhZb-MhCJrlA">
+  <sections variabilityBasedOnElement="_HzNVgIyBEdyhZb-MhCJrlA" xmi:id="_HzNVgIyBEdyhZb-MhCJrlA" name="Identify and review risks" guid="_HzNVgIyBEdyhZb-MhCJrlA">
     <sectionDescription>&lt;p&gt;&#xD;
     Throughout the project, new assumptions and concerns may arise. Help the team identify and prioritize new risks as part&#xD;
     of iteration planning, updating the risk list. Add risk responses to the work items list, influencing the work that is&#xD;
     being planned for that iteration.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_307v0MMsEdmdo9HxCRR_Gw" name="Commit work to the iteration" guid="_307v0MMsEdmdo9HxCRR_Gw">
+  <sections variabilityBasedOnElement="_307v0MMsEdmdo9HxCRR_Gw" xmi:id="_307v0MMsEdmdo9HxCRR_Gw" name="Commit work to the iteration" guid="_307v0MMsEdmdo9HxCRR_Gw">
     <sectionDescription>&lt;p&gt;&#xD;
     Work with the team, and especially the project stakeholders, to identify the high-priority work items from the work&#xD;
     items list to be addressed. The high-level objectives provide guidance on what work items should be considered. The&#xD;
@@ -46,14 +46,14 @@
     However, based on your culture, you may instead assign the work to team members.&lt;br /&gt;&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_7Hqr4MMsEdmdo9HxCRR_Gw" name="Define evaluation criteria" guid="_7Hqr4MMsEdmdo9HxCRR_Gw">
+  <sections variabilityBasedOnElement="_7Hqr4MMsEdmdo9HxCRR_Gw" xmi:id="_7Hqr4MMsEdmdo9HxCRR_Gw" name="Define evaluation criteria" guid="_7Hqr4MMsEdmdo9HxCRR_Gw">
     <sectionDescription>&lt;p&gt;&#xD;
     Each iteration should include testing as a part of the evaluation, as well as the test objectives and test cases that&#xD;
     need to be detailed. Other evaluation criteria may include successful demonstrations to key stakeholders, or favorable&#xD;
     usage by a small group of target users. Document evaluation criteria in the iteration plan.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_-tp18FHjEd2IaYFd32DrjQ" name="Refine project definition and scope" guid="_-tp18FHjEd2IaYFd32DrjQ">
+  <sections variabilityBasedOnElement="_-tp18FHjEd2IaYFd32DrjQ" xmi:id="_-tp18FHjEd2IaYFd32DrjQ" name="Refine project definition and scope" guid="_-tp18FHjEd2IaYFd32DrjQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Depending on the results of the previous iteration assessment, update the project definition work products as needed.&#xD;
     Necessary changes can encompass the need to acquire new resources, to absorb an unplanned effort increase, or to&#xD;

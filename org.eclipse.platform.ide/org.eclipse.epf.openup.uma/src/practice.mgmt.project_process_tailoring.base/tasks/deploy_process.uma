@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-dWzB4mHRr5uSP98BqAOy1g" name=",_XlJ80CZpEd-XKYR2S73PfQ" guid="-dWzB4mHRr5uSP98BqAOy1g" changeDate="2010-03-10T10:44:03.000+0100" version="7.5.0">
-  <sections xmi:id="_kPN0oCZpEd-XKYR2S73PfQ" name="Make the changes public" guid="_kPN0oCZpEd-XKYR2S73PfQ">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_XlJ80CZpEd-XKYR2S73PfQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-dWzB4mHRr5uSP98BqAOy1g" name=",_XlJ80CZpEd-XKYR2S73PfQ" guid="-dWzB4mHRr5uSP98BqAOy1g" changeDate="2010-03-10T10:44:03.000+0100" version="7.5.0">
+  <sections variabilityBasedOnElement="_kPN0oCZpEd-XKYR2S73PfQ" xmi:id="_kPN0oCZpEd-XKYR2S73PfQ" name="Make the changes public" guid="_kPN0oCZpEd-XKYR2S73PfQ">
     <sectionDescription>Inform all project members about any significant updates.</sectionDescription>
   </sections>
-  <sections xmi:id="_nGNP4CZpEd-XKYR2S73PfQ" name="Educate project members" guid="_nGNP4CZpEd-XKYR2S73PfQ">
+  <sections variabilityBasedOnElement="_nGNP4CZpEd-XKYR2S73PfQ" xmi:id="_nGNP4CZpEd-XKYR2S73PfQ" name="Educate project members" guid="_nGNP4CZpEd-XKYR2S73PfQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Unless the change is trivial, you need to educate the project members about the new Development Process, including any&#xD;
     guidelines, templates and/or tools. This can vary from an informal 2 hour presentation to more formal training,&#xD;
@@ -41,7 +41,7 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_8rmD8CZpEd-XKYR2S73PfQ" name="Collect feedback" guid="_8rmD8CZpEd-XKYR2S73PfQ"/>
+  <sections variabilityBasedOnElement="_8rmD8CZpEd-XKYR2S73PfQ" xmi:id="_8rmD8CZpEd-XKYR2S73PfQ" name="Collect feedback" guid="_8rmD8CZpEd-XKYR2S73PfQ"/>
   <purpose>&lt;p&gt;
     The purpose of this task is to:
 &lt;/p&gt;

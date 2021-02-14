@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-jWMpCvzhJPOglJcxCiAYjA" name="03_create_update_support_documenation,_nGAhcDHMEeC7j_IRiP-WPQ" guid="-jWMpCvzhJPOglJcxCiAYjA" changeDate="2012-05-30T22:11:48.626+0200" version="7.5.1">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="03_create_update_support_documenation,_nGAhcDHMEeC7j_IRiP-WPQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-jWMpCvzhJPOglJcxCiAYjA" name="03_create_update_support_documenation,_nGAhcDHMEeC7j_IRiP-WPQ" guid="-jWMpCvzhJPOglJcxCiAYjA" changeDate="2012-05-30T22:11:48.626+0200" version="7.5.1">
   <mainDescription>&lt;p&gt;&#xD;
     Support documentation often is the most overlooked aspect of a documentation effort. Anyone who has had the opportunity&#xD;
     to provide end user support for a particular application can appreciate how important effective, well-written support&#xD;
@@ -12,7 +12,7 @@
     effectively the code base is commented and the ease with which those comments are found and understood contributes to&#xD;
     the quality and quantity of support documentation.&#xD;
 &lt;/p&gt;</mainDescription>
-  <sections xmi:id="_-zfOquB8EeC1y_NExchKwQ" name="Determine support documentation contents" guid="_-zfOquB8EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_-zfOquB8EeC1y_NExchKwQ" xmi:id="_-zfOquB8EeC1y_NExchKwQ" name="Determine support documentation contents" guid="_-zfOquB8EeC1y_NExchKwQ">
     <sectionDescription>&lt;p&gt;&#xD;
     This step is often challenging for development teams because they must put themselves in the position of IT support&#xD;
     personnel to develop the right kind and right amount of useful content. It is advantageous to visit the support&#xD;
@@ -26,7 +26,7 @@
     documentation standards for the development teams that support its program.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_-zfOq-B8EeC1y_NExchKwQ" name="Leverage available materials" guid="_-zfOq-B8EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_-zfOq-B8EeC1y_NExchKwQ" xmi:id="_-zfOq-B8EeC1y_NExchKwQ" name="Leverage available materials" guid="_-zfOq-B8EeC1y_NExchKwQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Use the development team's Release Plan as a mechanism to define the scope of the support documentation. Source&#xD;
     materials that can contribute effectively to support documentation content include:&#xD;
@@ -73,17 +73,17 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_-zfOqeB8EeC1y_NExchKwQ" name="Write support documentation" guid="_-zfOqeB8EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_-zfOqeB8EeC1y_NExchKwQ" xmi:id="_-zfOqeB8EeC1y_NExchKwQ" name="Write support documentation" guid="_-zfOqeB8EeC1y_NExchKwQ">
     <sectionDescription>Based on the previous steps, write the support documentation. One way to do this is to assign sections of the document&#xD;
 (determined in the step "Determine Support Documentation Contents" above) to development team members as sprint/iteration&#xD;
 tasks in the release sprint/iteration.</sectionDescription>
   </sections>
-  <sections xmi:id="_-zfOrOB8EeC1y_NExchKwQ" name="Perform quality review" guid="_-zfOrOB8EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_-zfOrOB8EeC1y_NExchKwQ" xmi:id="_-zfOrOB8EeC1y_NExchKwQ" name="Perform quality review" guid="_-zfOrOB8EeC1y_NExchKwQ">
     <sectionDescription>As the support documentation is integrated, plan and conduct a quality review during the release sprint/iteration to ensure&#xD;
 that the documentation is of sufficient quantity and quality. Update and improve the support documentation based on the&#xD;
 results of the quality review.</sectionDescription>
   </sections>
-  <sections xmi:id="_-zfOqOB8EeC1y_NExchKwQ" name="Deliver support documentation" guid="_-zfOqOB8EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_-zfOqOB8EeC1y_NExchKwQ" xmi:id="_-zfOqOB8EeC1y_NExchKwQ" name="Deliver support documentation" guid="_-zfOqOB8EeC1y_NExchKwQ">
     <sectionDescription>At the end of a release, deliver the completed support documentation to the deployment manager. Ensure that the program has&#xD;
 a plan for communicating the support documentation to the IT operations support organization in a timely manner.</sectionDescription>
   </sections>

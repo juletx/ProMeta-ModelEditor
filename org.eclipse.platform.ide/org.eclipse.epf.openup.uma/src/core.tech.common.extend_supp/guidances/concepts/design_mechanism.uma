@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-EG22TRyJ5TDKW6U88AXfhw" name="design_mechanism,_hNXugOUuEdqGCpzGJ4tJOw" guid="-EG22TRyJ5TDKW6U88AXfhw" changeDate="2008-10-13T10:54:58.000+0200" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="design_mechanism,_hNXugOUuEdqGCpzGJ4tJOw" xmi:version="2.0" epf:version="1.5.1" xmi:id="-EG22TRyJ5TDKW6U88AXfhw" name="design_mechanism,_hNXugOUuEdqGCpzGJ4tJOw" guid="-EG22TRyJ5TDKW6U88AXfhw" changeDate="2008-10-13T10:54:58.000+0200" version="1.0.0">
   <mainDescription>&lt;p align="left"&gt;&#xD;
     A Design Mechanism is a concrete representation of an &lt;a class="elementLink"&#xD;
     href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html"&#xD;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ArtifactDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_NqYIcqeqEdmKDbQuyzCoqQ" name="test_script,_0ZfMEMlgEdmt3adZL5Dmdw" guid="_NqYIcqeqEdmKDbQuyzCoqQ" changeDate="2008-08-15T09:55:57.000+0200" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ArtifactDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="test_script,_0ZfMEMlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_NqYIcqeqEdmKDbQuyzCoqQ" name="test_script,_0ZfMEMlgEdmt3adZL5Dmdw" guid="_NqYIcqeqEdmKDbQuyzCoqQ" changeDate="2008-08-15T09:55:57.000+0200" version="7.2.0">
   <purpose>&lt;p&gt;&#xD;
     Test scripts implement a subset of required tests in an efficient and effective manner.&#xD;
 &lt;/p&gt;</purpose>

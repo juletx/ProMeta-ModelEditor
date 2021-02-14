@@ -2,7 +2,7 @@
   
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_Q_mBoGphEd24CboUCnKL3A" name="core.mgmt.common.base" guid="_Q_mBoGphEd24CboUCnKL3A" presentationName="Management Common" briefDescription="This plug-in defines common management guidance that is always published when management content is included in a configuration.  This includes references and glossary terms." changeDate="2008-08-14T14:30:09.000+0200">
     <methodElementProperty xmi:id="_GoZpExo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
-    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <copyrightStatement href="/org.eclipse.epf.openup.uma/src/core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NnTwLekEd-D7YZN9NgldQ" name="Content" guid="_9NnTwLekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NnTwbekEd-D7YZN9NgldQ" name="Categories" guid="_9NnTwbekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NnTwrekEd-D7YZN9NgldQ" name="Domains" guid="_9NnTwrekEd-D7YZN9NgldQ"/>
@@ -13,32 +13,32 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NnTx7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9NnTx7ekEd-D7YZN9NgldQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NnTyLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9NnTyLekEd-D7YZN9NgldQ">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NnTybekEd-D7YZN9NgldQ" name="Hidden" guid="_9NnTybekEd-D7YZN9NgldQ">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9NnTyrekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9NnTyrekEd-D7YZN9NgldQ"/>
+            <contentElements variabilityBasedOnElement="_9NnTyrekEd-D7YZN9NgldQ" xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9NnTyrekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9NnTyrekEd-D7YZN9NgldQ"/>
           </childPackages>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NnTy7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9NnTy7ekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_vcN8IGphEd24CboUCnKL3A" name="management_guidance" guid="_vcN8IGphEd24CboUCnKL3A" presentationName="Management Guidance">
-          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_JlTPUM6aEdyuBO4ZIzcyig" name="references.mgmt" guid="_JlTPUM6aEdyuBO4ZIzcyig" variabilityType="contributes">
+          <contentElements variabilityBasedOnElement="_JlTPUM6aEdyuBO4ZIzcyig" xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_JlTPUM6aEdyuBO4ZIzcyig" name="references.mgmt" guid="_JlTPUM6aEdyuBO4ZIzcyig" variabilityType="contributes">
             <presentation xmi:id="-BUHtqig5wrabMIpZgZChMg" href="guidances/supportingmaterials/references.mgmt.uma#-BUHtqig5wrabMIpZgZChMg"/>
-            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_vsno4EKmEdyrauqpmnA8jQ#__nHToFndEd2EdJKkAyeBng"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="/org.eclipse.epf.openup.uma/src/core.default.nav_view.base/plugin.uma#__nHToFndEd2EdJKkAyeBng"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_3PJ38EvqEdunZcj9T5hrMQ" name="agile" guid="_3PJ38EvqEdunZcj9T5hrMQ" presentationName="agile">
+          <contentElements variabilityBasedOnElement="_3PJ38EvqEdunZcj9T5hrMQ" xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_3PJ38EvqEdunZcj9T5hrMQ" name="agile" guid="_3PJ38EvqEdunZcj9T5hrMQ" presentationName="agile">
             <presentation xmi:id="-qZE4XgeMK93LmJMKuQWGFg" href="guidances/termdefinitions/agile.uma#-qZE4XgeMK93LmJMKuQWGFg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_nJSDwEvuEdunZcj9T5hrMQ" name="effort" guid="_nJSDwEvuEdunZcj9T5hrMQ" presentationName="effort">
+          <contentElements variabilityBasedOnElement="_nJSDwEvuEdunZcj9T5hrMQ" xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_nJSDwEvuEdunZcj9T5hrMQ" name="effort" guid="_nJSDwEvuEdunZcj9T5hrMQ" presentationName="effort">
             <presentation xmi:id="-WIgtkwJN71D51FdcQs-TzQ" href="guidances/termdefinitions/effort.uma#-WIgtkwJN71D51FdcQs-TzQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_ByXNcEvqEdunZcj9T5hrMQ" name="milestone" guid="_ByXNcEvqEdunZcj9T5hrMQ" presentationName="milestone">
+          <contentElements variabilityBasedOnElement="_ByXNcEvqEdunZcj9T5hrMQ" xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_ByXNcEvqEdunZcj9T5hrMQ" name="milestone" guid="_ByXNcEvqEdunZcj9T5hrMQ" presentationName="milestone">
             <presentation xmi:id="-9fXEOvMc4t7y6s5GscBD1Q" href="guidances/termdefinitions/milestone.uma#-9fXEOvMc4t7y6s5GscBD1Q"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_ii2LUEvGEdunZcj9T5hrMQ" name="risk" guid="_ii2LUEvGEdunZcj9T5hrMQ" presentationName="risk">
+          <contentElements variabilityBasedOnElement="_ii2LUEvGEdunZcj9T5hrMQ" xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_ii2LUEvGEdunZcj9T5hrMQ" name="risk" guid="_ii2LUEvGEdunZcj9T5hrMQ" presentationName="risk">
             <presentation xmi:id="-hOtatvr8wIjqW8UD0MSGhQ" href="guidances/termdefinitions/risk.uma#-hOtatvr8wIjqW8UD0MSGhQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_t7JOkEvtEdunZcj9T5hrMQ" name="scope" guid="_t7JOkEvtEdunZcj9T5hrMQ" presentationName="scope">
+          <contentElements variabilityBasedOnElement="_t7JOkEvtEdunZcj9T5hrMQ" xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_t7JOkEvtEdunZcj9T5hrMQ" name="scope" guid="_t7JOkEvtEdunZcj9T5hrMQ" presentationName="scope">
             <presentation xmi:id="-h1poMaxtQbmg6hD5772oVw" href="guidances/termdefinitions/scope.uma#-h1poMaxtQbmg6hD5772oVw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_RK9nwEvtEdunZcj9T5hrMQ" name="work_breakdown_structure" guid="_RK9nwEvtEdunZcj9T5hrMQ" presentationName="work breakdown structure (WBS)">
+          <contentElements variabilityBasedOnElement="_RK9nwEvtEdunZcj9T5hrMQ" xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_RK9nwEvtEdunZcj9T5hrMQ" name="work_breakdown_structure" guid="_RK9nwEvtEdunZcj9T5hrMQ" presentationName="work breakdown structure (WBS)">
             <presentation xmi:id="-KQTbqDSJXR8KLBxIgGVquA" href="guidances/termdefinitions/work_breakdown_structure.uma#-KQTbqDSJXR8KLBxIgGVquA"/>
           </contentElements>
         </childPackages>
@@ -46,7 +46,7 @@
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9NnTzLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9NnTzLekEd-D7YZN9NgldQ"/>
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9NnTzbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9NnTzbekEd-D7YZN9NgldQ"/>
-    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
-    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.default.nav_view.base/plugin.uma#_vsno4EKmEdyrauqpmnA8jQ"/>
   </org.eclipse.epf.uma:MethodPlugin>
 </xmi:XMI>

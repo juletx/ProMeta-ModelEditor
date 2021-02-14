@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ArtifactDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-_dNuyh-0q5vpCiIiLfbj6w" name="system_wide_requirements,_BVh9cL-CEdqb7N6KIeDL8Q" guid="-_dNuyh-0q5vpCiIiLfbj6w" changeDate="2008-08-15T09:49:32.000+0200" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ArtifactDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="system_wide_requirements,_BVh9cL-CEdqb7N6KIeDL8Q" xmi:version="2.0" epf:version="1.5.1" xmi:id="-_dNuyh-0q5vpCiIiLfbj6w" name="system_wide_requirements,_BVh9cL-CEdqb7N6KIeDL8Q" guid="-_dNuyh-0q5vpCiIiLfbj6w" changeDate="2008-08-15T09:49:32.000+0200" version="1.0.0">
   <keyConsiderations>&lt;ul&gt;&#xD;
     &lt;li&gt;&#xD;
         When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;

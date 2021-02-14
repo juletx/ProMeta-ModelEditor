@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-locCQOxOUM8zej2tBD6M6Q" name="detail_use_case_scenarios.ucm,_-pOLIEbEEdyx8quJU3Grxg" guid="-locCQOxOUM8zej2tBD6M6Q" version="1.0.0">
-  <sections xmi:id="_-pOLIUbEEdyx8quJU3Grxg" name="Update Use-Case Model" guid="_-pOLIUbEEdyx8quJU3Grxg">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="detail_use_case_scenarios.ucm,_-pOLIEbEEdyx8quJU3Grxg" xmi:version="2.0" epf:version="1.5.1" xmi:id="-locCQOxOUM8zej2tBD6M6Q" name="detail_use_case_scenarios.ucm,_-pOLIEbEEdyx8quJU3Grxg" guid="-locCQOxOUM8zej2tBD6M6Q" version="1.0.0">
+  <sections variabilityBasedOnElement="_-pOLIUbEEdyx8quJU3Grxg" xmi:id="_-pOLIUbEEdyx8quJU3Grxg" name="Update Use-Case Model" guid="_-pOLIUbEEdyx8quJU3Grxg">
     <sectionDescription>&lt;p&gt;&#xD;
     Based on your work detailing use cases and scenarios, update the &lt;a class="elementLink"&#xD;
     href="./../../core.tech.common.extend_supp/workproducts/use_case_model_85965D1B.html"&#xD;

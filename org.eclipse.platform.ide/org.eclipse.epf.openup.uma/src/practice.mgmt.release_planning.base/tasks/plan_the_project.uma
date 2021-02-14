@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_fPbdIKe2Edmzde8VFK5bxg" name="plan_the_project,_0lC70MlgEdmt3adZL5Dmdw" guid="_fPbdIKe2Edmzde8VFK5bxg" changeDate="2008-07-14T10:50:23.000+0200" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="plan_the_project,_0lC70MlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_fPbdIKe2Edmzde8VFK5bxg" name="plan_the_project,_0lC70MlgEdmt3adZL5Dmdw" guid="_fPbdIKe2Edmzde8VFK5bxg" changeDate="2008-07-14T10:50:23.000+0200" version="1.0.0">
   <mainDescription>Developing the project plan provides an opportunity for the team to agree on project scope, objectives, initial timeframe,&#xD;
 and deliverables. It allows the team to begin demonstrating self-organization by defining success criteria and work&#xD;
 practices to be used. Collaboration and consensus by all key project participants is the goal, but the role responsible for&#xD;
@@ -7,11 +7,11 @@ this task must ensure that everybody is committed to the plan.</mainDescription>
     Gain agreement with stakeholders and the rest of the project team regarding the order of objectives and the duration of&#xD;
     the project. Make adjustments as&amp;nbsp;necessary.&#xD;
 &lt;/p&gt;</keyConsiderations>
-  <sections xmi:id="_gu-PgIyBEdyhZb-MhCJrlA" name="Identify a cohesive team" guid="_gu-PgIyBEdyhZb-MhCJrlA">
+  <sections variabilityBasedOnElement="_gu-PgIyBEdyhZb-MhCJrlA" xmi:id="_gu-PgIyBEdyhZb-MhCJrlA" name="Identify a cohesive team" guid="_gu-PgIyBEdyhZb-MhCJrlA">
     <sectionDescription>Revisit the resourcing for the project.&amp;nbsp;Identify gaps and initiate hiring or re-allocation of resources as needed.&#xD;
 Discuss with the team who plays which roles, and have them agree on their responsibilities.</sectionDescription>
   </sections>
-  <sections xmi:id="_jknm8IyBEdyhZb-MhCJrlA" name="Estimate project size" guid="_jknm8IyBEdyhZb-MhCJrlA">
+  <sections variabilityBasedOnElement="_jknm8IyBEdyhZb-MhCJrlA" xmi:id="_jknm8IyBEdyhZb-MhCJrlA" name="Estimate project size" guid="_jknm8IyBEdyhZb-MhCJrlA">
     <sectionDescription>&lt;p&gt;&#xD;
     The&amp;nbsp;team produces rough size estimates for each work item&amp;nbsp;found in the &lt;a class="elementLink"&#xD;
     href="./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html" guid="_1QZI8EfUEdyiPI8btkmvmw"&gt;[Project&#xD;
@@ -22,7 +22,7 @@ Discuss with the team who plays which roles, and have them agree on their respon
     project.&amp;nbsp;Use stakeholder priorities and estimates from the team to guide these discussions.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_4Xg3QOFpEdyhmsbt0Xyl8A" name="Forecast project velocity and duration" guid="_4Xg3QOFpEdyhmsbt0Xyl8A">
+  <sections variabilityBasedOnElement="_4Xg3QOFpEdyhmsbt0Xyl8A" xmi:id="_4Xg3QOFpEdyhmsbt0Xyl8A" name="Forecast project velocity and duration" guid="_4Xg3QOFpEdyhmsbt0Xyl8A">
     <sectionDescription>&lt;p&gt;&#xD;
     Define the iteration length and use it to assess target velocity. The number of items to be delivered in each iteration&#xD;
     will be set by the velocity of the team and the estimates for each item.&#xD;
@@ -44,7 +44,7 @@ Discuss with the team who plays which roles, and have them agree on their respon
     learn&amp;nbsp;by&amp;nbsp;running&amp;nbsp;the iterations.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_lrYj0MBAEdqSgKaj2SZBmg" name="Evaluate risks" guid="_lrYj0MBAEdqSgKaj2SZBmg">
+  <sections variabilityBasedOnElement="_lrYj0MBAEdqSgKaj2SZBmg" xmi:id="_lrYj0MBAEdqSgKaj2SZBmg" name="Evaluate risks" guid="_lrYj0MBAEdqSgKaj2SZBmg">
     <sectionDescription>&lt;p&gt;&#xD;
     The team identifies project risks, performs a qualitative risk analysis to assess their order of magnitude, and updates&#xD;
     the&amp;nbsp;&lt;a class="elementLink" href="./../../core.mgmt.slot.base/workproducts/project_risk_slot_FC0351C4.html"&#xD;
@@ -61,7 +61,7 @@ Discuss with the team who plays which roles, and have them agree on their respon
     occur.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_xWBhUIyBEdyhZb-MhCJrlA" name="Establish costs and articulate value" guid="_xWBhUIyBEdyhZb-MhCJrlA">
+  <sections variabilityBasedOnElement="_xWBhUIyBEdyhZb-MhCJrlA" xmi:id="_xWBhUIyBEdyhZb-MhCJrlA" name="Establish costs and articulate value" guid="_xWBhUIyBEdyhZb-MhCJrlA">
     <sectionDescription>&lt;p&gt;&#xD;
     Develop a rough order of magnitude estimate for the costs of resources needed to complete project work items.&amp;nbsp;A&#xD;
     simplified project costing model&amp;nbsp;can be&amp;nbsp;applied by&amp;nbsp;multiplying the approximate cost per person for the&#xD;
@@ -71,7 +71,7 @@ Discuss with the team who plays which roles, and have them agree on their respon
     If necessary, propose options to decrease costs, such as removing low-value and high-cost work items from the scope .&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_zeN84IyBEdyhZb-MhCJrlA" name="Plan deployment" guid="_zeN84IyBEdyhZb-MhCJrlA">
+  <sections variabilityBasedOnElement="_zeN84IyBEdyhZb-MhCJrlA" xmi:id="_zeN84IyBEdyhZb-MhCJrlA" name="Plan deployment" guid="_zeN84IyBEdyhZb-MhCJrlA">
     <sectionDescription>&lt;p&gt;&#xD;
     Plan the strategy for deploying the software (and its updates) into the production environment as early as possible,&#xD;
     because it may impact the &lt;a class="elementLink"&#xD;

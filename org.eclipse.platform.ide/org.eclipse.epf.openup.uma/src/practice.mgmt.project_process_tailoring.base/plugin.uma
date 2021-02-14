@@ -2,7 +2,7 @@
   
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_NOBspSZLEd-QuZFPf_YdqQ" name="practice.mgmt.project_process_tailoring.base" guid="_NOBspSZLEd-QuZFPf_YdqQ" presentationName="Project Process Tailoring" briefDescription="This practice describes how to select tools and an appropriate process and perform the typical tailoring required for use on a specific project." changeDate="2010-11-24T01:05:20.342+0100">
     <methodElementProperty xmi:id="_Goa3Nxo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
-    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <copyrightStatement href="/org.eclipse.epf.openup.uma/src/core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9VqcgLekEd-D7YZN9NgldQ" name="Content" guid="_9VqcgLekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9VqcgbekEd-D7YZN9NgldQ" name="Categories" guid="_9VqcgbekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9VqcgrekEd-D7YZN9NgldQ" name="Domains" guid="_9VqcgrekEd-D7YZN9NgldQ"/>
@@ -13,80 +13,80 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Vqch7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9Vqch7ekEd-D7YZN9NgldQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9VqciLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9VqciLekEd-D7YZN9NgldQ">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9VqcibekEd-D7YZN9NgldQ" name="Hidden" guid="_9VqcibekEd-D7YZN9NgldQ">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9VqcirekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9VqcirekEd-D7YZN9NgldQ"/>
+            <contentElements variabilityBasedOnElement="_9VqcirekEd-D7YZN9NgldQ" xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9VqcirekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9VqcirekEd-D7YZN9NgldQ"/>
           </childPackages>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Vqci7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9Vqci7ekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NOBstCZLEd-QuZFPf_YdqQ" name="project_process_tailoring" guid="_NOBstCZLEd-QuZFPf_YdqQ" presentationName="Project Process Tailoring" briefDescription="This package contains the method elements for Project Process Tailoring practice.">
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_NOBsuCZLEd-QuZFPf_YdqQ" name="tailor_process" guid="_NOBsuCZLEd-QuZFPf_YdqQ" presentationName="Tailor the Process" briefDescription="This task describes how to tailor a process for a project." conceptsAndPapers="_NOBsuyZLEd-QuZFPf_YdqQ" guidelines="_NOBsvSZLEd-QuZFPf_YdqQ _YxYU8E5hEd-TbrfwCHSPcA _9UrSwE5hEd-TbrfwCHSPcA _jUkS8Hf6Ed-uPNA0T8XOnA">
+          <contentElements variabilityBasedOnElement="_NOBsuCZLEd-QuZFPf_YdqQ" xsi:type="org.eclipse.epf.uma:Task" xmi:id="_NOBsuCZLEd-QuZFPf_YdqQ" name="tailor_process" guid="_NOBsuCZLEd-QuZFPf_YdqQ" presentationName="Tailor the Process" briefDescription="This task describes how to tailor a process for a project." conceptsAndPapers="_NOBsuyZLEd-QuZFPf_YdqQ" guidelines="_NOBsvSZLEd-QuZFPf_YdqQ _YxYU8E5hEd-TbrfwCHSPcA _9UrSwE5hEd-TbrfwCHSPcA _jUkS8Hf6Ed-uPNA0T8XOnA">
             <presentation xmi:id="-QSekP8qxW4BdpikByUiCUg" href="tasks/tailor_process.uma#-QSekP8qxW4BdpikByUiCUg"/>
-            <supportingMaterials href="uma://_fRdVEMYbEdyXeo04os5BOw#_C2FS4F_lEd2zpKtX6B7lBg"/>
-            <supportingMaterials href="uma://_fRdVEMYbEdyXeo04os5BOw#_dlGBQF_nEd2zpKtX6B7lBg"/>
-            <supportingMaterials href="uma://_fRdVEMYbEdyXeo04os5BOw#_omneEMX4EduywMSzPTUUwA"/>
-            <mandatoryInput href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_2CEzsLrREd-0rKmWr1vEGQ"/>
-            <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_2CEzsLrREd-0rKmWr1vEGQ"/>
+            <supportingMaterials href="/org.eclipse.epf.openup.uma/src/core.default.tool_def.base/plugin.uma#_C2FS4F_lEd2zpKtX6B7lBg"/>
+            <supportingMaterials href="/org.eclipse.epf.openup.uma/src/core.default.tool_def.base/plugin.uma#_dlGBQF_nEd2zpKtX6B7lBg"/>
+            <supportingMaterials href="/org.eclipse.epf.openup.uma/src/core.default.tool_def.base/plugin.uma#_omneEMX4EduywMSzPTUUwA"/>
+            <mandatoryInput href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_2CEzsLrREd-0rKmWr1vEGQ"/>
+            <output href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_2CEzsLrREd-0rKmWr1vEGQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_NOBsvSZLEd-QuZFPf_YdqQ" name="tailor_process_project" guid="_NOBsvSZLEd-QuZFPf_YdqQ" presentationName="Tailoring a Process for a Project">
+          <contentElements variabilityBasedOnElement="_NOBsvSZLEd-QuZFPf_YdqQ" xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_NOBsvSZLEd-QuZFPf_YdqQ" name="tailor_process_project" guid="_NOBsvSZLEd-QuZFPf_YdqQ" presentationName="Tailoring a Process for a Project">
             <presentation xmi:id="-nvLaImb1prGvwbEmRDb5yw" href="guidances/guidelines/tailor_process_project.uma#-nvLaImb1prGvwbEmRDb5yw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_NOBsuyZLEd-QuZFPf_YdqQ" name="development_case" guid="_NOBsuyZLEd-QuZFPf_YdqQ" presentationName="Development Case" briefDescription="A Development Case describes the results of tailoring the development process." guidelines="7.27749388241665E-306">
+          <contentElements variabilityBasedOnElement="_NOBsuyZLEd-QuZFPf_YdqQ" xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_NOBsuyZLEd-QuZFPf_YdqQ" name="development_case" guid="_NOBsuyZLEd-QuZFPf_YdqQ" presentationName="Development Case" briefDescription="A Development Case describes the results of tailoring the development process." guidelines="7.27749388241665E-306">
             <presentation xmi:id="-iXHnRtLXvdWQRZpysFms8w" href="guidances/concepts/development_case.uma#-iXHnRtLXvdWQRZpysFms8w"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_NOBsuiZLEd-QuZFPf_YdqQ" name="project_process_tailoring" guid="_NOBsuiZLEd-QuZFPf_YdqQ" presentationName="Project Process Tailoring" briefDescription="This practice describes how to select tools and an appropriate process and perform the typical tailoring required for use on a specific project." contentReferences="_NOBsxCZLEd-QuZFPf_YdqQ _NOBsuyZLEd-QuZFPf_YdqQ 7.27749388241665E-306 _A1qOACu3Ed-UrP371xHUyw _NOBsvSZLEd-QuZFPf_YdqQ _YxYU8E5hEd-TbrfwCHSPcA _9UrSwE5hEd-TbrfwCHSPcA _uWZwAF3gEd-8pIBWBGuz7w _AeUr0EmiEd-UYMQAaXd4fQ _vb78EF3dEd-8pIBWBGuz7w _XlJ80CZpEd-XKYR2S73PfQ _okIOcEmfEd-UYMQAaXd4fQ _NOBsuCZLEd-QuZFPf_YdqQ _jcjbMEmgEd-UYMQAaXd4fQ _jUkS8Hf6Ed-uPNA0T8XOnA _TtPscJqvEd-nwak7fOAUXg">
+          <contentElements variabilityBasedOnElement="_NOBsuiZLEd-QuZFPf_YdqQ" xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_NOBsuiZLEd-QuZFPf_YdqQ" name="project_process_tailoring" guid="_NOBsuiZLEd-QuZFPf_YdqQ" presentationName="Project Process Tailoring" briefDescription="This practice describes how to select tools and an appropriate process and perform the typical tailoring required for use on a specific project." contentReferences="_NOBsxCZLEd-QuZFPf_YdqQ _NOBsuyZLEd-QuZFPf_YdqQ 7.27749388241665E-306 _A1qOACu3Ed-UrP371xHUyw _NOBsvSZLEd-QuZFPf_YdqQ _YxYU8E5hEd-TbrfwCHSPcA _9UrSwE5hEd-TbrfwCHSPcA _uWZwAF3gEd-8pIBWBGuz7w _AeUr0EmiEd-UYMQAaXd4fQ _vb78EF3dEd-8pIBWBGuz7w _XlJ80CZpEd-XKYR2S73PfQ _okIOcEmfEd-UYMQAaXd4fQ _NOBsuCZLEd-QuZFPf_YdqQ _jcjbMEmgEd-UYMQAaXd4fQ _jUkS8Hf6Ed-uPNA0T8XOnA _TtPscJqvEd-nwak7fOAUXg">
             <presentation xmi:id="-CKaoEA0OyFdrxbrlgIDEGg" href="guidances/practices/project_process_tailoring.uma#-CKaoEA0OyFdrxbrlgIDEGg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XlJ80CZpEd-XKYR2S73PfQ" name="deploy_process" guid="_XlJ80CZpEd-XKYR2S73PfQ" presentationName="Deploy the Process" briefDescription="This task describes how to rollout a development process to the project team." guidelines="_A1qOACu3Ed-UrP371xHUyw">
+          <contentElements variabilityBasedOnElement="_XlJ80CZpEd-XKYR2S73PfQ" xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XlJ80CZpEd-XKYR2S73PfQ" name="deploy_process" guid="_XlJ80CZpEd-XKYR2S73PfQ" presentationName="Deploy the Process" briefDescription="This task describes how to rollout a development process to the project team." guidelines="_A1qOACu3Ed-UrP371xHUyw">
             <presentation xmi:id="-dWzB4mHRr5uSP98BqAOy1g" href="tasks/deploy_process.uma#-dWzB4mHRr5uSP98BqAOy1g"/>
-            <mandatoryInput href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_2CEzsLrREd-0rKmWr1vEGQ"/>
-            <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_2CEzsLrREd-0rKmWr1vEGQ"/>
+            <mandatoryInput href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_2CEzsLrREd-0rKmWr1vEGQ"/>
+            <output href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_2CEzsLrREd-0rKmWr1vEGQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="7.27749388241665E-306" name="classifying_work_products" guid="7.27749388241665E-306" presentationName="Classifying Work Products" briefDescription="This guideline offers a classification scheme for documenting the importance of individual work products and whether or not they will be used.">
+          <contentElements variabilityBasedOnElement="7.27749388241665E-306" xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="7.27749388241665E-306" name="classifying_work_products" guid="7.27749388241665E-306" presentationName="Classifying Work Products" briefDescription="This guideline offers a classification scheme for documenting the importance of individual work products and whether or not they will be used.">
             <presentation xmi:id="_3dzJhNnmEdmO6L4XMImrsA" href="guidances/guidelines/classifying_work_products.uma#_3dzJhNnmEdmO6L4XMImrsA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_TtPscJqvEd-nwak7fOAUXg" name="project_defined_process.tailoring" guid="_TtPscJqvEd-nwak7fOAUXg" variabilityType="contributes" conceptsAndPapers="_NOBsuyZLEd-QuZFPf_YdqQ" guidelines="_NOBsvSZLEd-QuZFPf_YdqQ" examples="_uWZwAF3gEd-8pIBWBGuz7w" templates="_vb78EF3dEd-8pIBWBGuz7w">
-            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_2CEzsLrREd-0rKmWr1vEGQ"/>
+          <contentElements variabilityBasedOnElement="_TtPscJqvEd-nwak7fOAUXg" xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_TtPscJqvEd-nwak7fOAUXg" name="project_defined_process.tailoring" guid="_TtPscJqvEd-nwak7fOAUXg" variabilityType="contributes" conceptsAndPapers="_NOBsuyZLEd-QuZFPf_YdqQ" guidelines="_NOBsvSZLEd-QuZFPf_YdqQ" examples="_uWZwAF3gEd-8pIBWBGuz7w" templates="_vb78EF3dEd-8pIBWBGuz7w">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_2CEzsLrREd-0rKmWr1vEGQ"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NOBswyZLEd-QuZFPf_YdqQ" name="release_info" guid="_NOBswyZLEd-QuZFPf_YdqQ" presentationName="Release Info" briefDescription="This content package contains the release information for this plug-in.  For example, the version number, release notes, etc.">
-          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_NOBsxCZLEd-QuZFPf_YdqQ" name="rel_info_project_process_tailoring" guid="_NOBsxCZLEd-QuZFPf_YdqQ" presentationName="Practice: Project Process Tailoring" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+          <contentElements variabilityBasedOnElement="_NOBsxCZLEd-QuZFPf_YdqQ" xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_NOBsxCZLEd-QuZFPf_YdqQ" name="rel_info_project_process_tailoring" guid="_NOBsxCZLEd-QuZFPf_YdqQ" presentationName="Practice: Project Process Tailoring" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
             <presentation xmi:id="-MUQoq5PJJIkXoeieZsZP0g" href="guidances/supportingmaterials/rel_info_project_process_tailoring.uma#-MUQoq5PJJIkXoeieZsZP0g"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NOBsviZLEd-QuZFPf_YdqQ" name="method_composer" guid="_NOBsviZLEd-QuZFPf_YdqQ" presentationName="Method Composer"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NOBswCZLEd-QuZFPf_YdqQ" name="resources" guid="_NOBswCZLEd-QuZFPf_YdqQ" presentationName="Resources">
-          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_vb78EF3dEd-8pIBWBGuz7w" name="development_case" guid="_vb78EF3dEd-8pIBWBGuz7w" presentationName="Development Case" briefDescription="This is a template for the tailored process that a project is to follow in order to produce the project's desired results." examples="_uWZwAF3gEd-8pIBWBGuz7w">
+          <contentElements variabilityBasedOnElement="_vb78EF3dEd-8pIBWBGuz7w" xsi:type="org.eclipse.epf.uma:Template" xmi:id="_vb78EF3dEd-8pIBWBGuz7w" name="development_case" guid="_vb78EF3dEd-8pIBWBGuz7w" presentationName="Development Case" briefDescription="This is a template for the tailored process that a project is to follow in order to produce the project's desired results." examples="_uWZwAF3gEd-8pIBWBGuz7w">
             <presentation xmi:id="-JZkT6zDhNVbrcXx8vHOvBQ" href="guidances/templates/development_case.uma#-JZkT6zDhNVbrcXx8vHOvBQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_uWZwAF3gEd-8pIBWBGuz7w" name="development_case_project" guid="_uWZwAF3gEd-8pIBWBGuz7w" presentationName="Development Case for a Project" briefDescription="This is an example of a development case for a project.">
+          <contentElements variabilityBasedOnElement="_uWZwAF3gEd-8pIBWBGuz7w" xsi:type="org.eclipse.epf.uma:Example" xmi:id="_uWZwAF3gEd-8pIBWBGuz7w" name="development_case_project" guid="_uWZwAF3gEd-8pIBWBGuz7w" presentationName="Development Case for a Project" briefDescription="This is an example of a development case for a project.">
             <presentation xmi:id="-pR6ni3h0dcW2muuMCoRzgw" href="guidances/examples/development_case_project.uma#-pR6ni3h0dcW2muuMCoRzgw"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OHgdIEmIEd-W_dGm6lzR1Q" name="project_tools" guid="_OHgdIEmIEd-W_dGm6lzR1Q" presentationName="Project Tools">
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_okIOcEmfEd-UYMQAaXd4fQ" name="setup_tools" guid="_okIOcEmfEd-UYMQAaXd4fQ" presentationName="Set Up Tools" mandatoryInput="_AeUr0EmiEd-UYMQAaXd4fQ" output="_AeUr0EmiEd-UYMQAaXd4fQ">
+          <contentElements variabilityBasedOnElement="_okIOcEmfEd-UYMQAaXd4fQ" xsi:type="org.eclipse.epf.uma:Task" xmi:id="_okIOcEmfEd-UYMQAaXd4fQ" name="setup_tools" guid="_okIOcEmfEd-UYMQAaXd4fQ" presentationName="Set Up Tools" mandatoryInput="_AeUr0EmiEd-UYMQAaXd4fQ" output="_AeUr0EmiEd-UYMQAaXd4fQ">
             <presentation xmi:id="-5i4nbMLokgXzl8E2LT94uQ" href="tasks/setup_tools.uma#-5i4nbMLokgXzl8E2LT94uQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jcjbMEmgEd-UYMQAaXd4fQ" name="verify_tool_config_installation" guid="_jcjbMEmgEd-UYMQAaXd4fQ" presentationName="Verify Tool Configuration and Installation" briefDescription="This task describes how to verify that the Development Configuration is ready to be used by the project." mandatoryInput="_AeUr0EmiEd-UYMQAaXd4fQ" output="_AeUr0EmiEd-UYMQAaXd4fQ">
+          <contentElements variabilityBasedOnElement="_jcjbMEmgEd-UYMQAaXd4fQ" xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jcjbMEmgEd-UYMQAaXd4fQ" name="verify_tool_config_installation" guid="_jcjbMEmgEd-UYMQAaXd4fQ" presentationName="Verify Tool Configuration and Installation" briefDescription="This task describes how to verify that the Development Configuration is ready to be used by the project." mandatoryInput="_AeUr0EmiEd-UYMQAaXd4fQ" output="_AeUr0EmiEd-UYMQAaXd4fQ">
             <presentation xmi:id="-YTA7QOxZpdM-is9Zx_tJXQ" href="tasks/verify_tool_config_installation.uma#-YTA7QOxZpdM-is9Zx_tJXQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_AeUr0EmiEd-UYMQAaXd4fQ" name="tools" guid="_AeUr0EmiEd-UYMQAaXd4fQ" presentationName="Tools" briefDescription="These work products are the tools needed to support the software development effort. ">
+          <contentElements variabilityBasedOnElement="_AeUr0EmiEd-UYMQAaXd4fQ" xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_AeUr0EmiEd-UYMQAaXd4fQ" name="tools" guid="_AeUr0EmiEd-UYMQAaXd4fQ" presentationName="Tools" briefDescription="These work products are the tools needed to support the software development effort. ">
             <presentation xmi:id="-7TKJK1WF21Hi03R3UAjexQ" href="workproducts/tools.uma#-7TKJK1WF21Hi03R3UAjexQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_A1qOACu3Ed-UrP371xHUyw" name="deploying_tools" guid="_A1qOACu3Ed-UrP371xHUyw" presentationName="Deploying Tools">
+          <contentElements variabilityBasedOnElement="_A1qOACu3Ed-UrP371xHUyw" xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_A1qOACu3Ed-UrP371xHUyw" name="deploying_tools" guid="_A1qOACu3Ed-UrP371xHUyw" presentationName="Deploying Tools">
             <presentation xmi:id="-b265-u-xbE-b8A-HB3Pggg" href="guidances/guidelines/deploying_tools.uma#-b265-u-xbE-b8A-HB3Pggg"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RevpQE5rEd-TbrfwCHSPcA" name="tailoring_guidelines" guid="_RevpQE5rEd-TbrfwCHSPcA" presentationName="Tailoring Guidelines">
-          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_YxYU8E5hEd-TbrfwCHSPcA" name="tailoring_configuration_management" guid="_YxYU8E5hEd-TbrfwCHSPcA" presentationName="Tailoring - Configuration Management" briefDescription="This guideline describes key considerations when tailoring the Configuration Management process area.">
+          <contentElements variabilityBasedOnElement="_YxYU8E5hEd-TbrfwCHSPcA" xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_YxYU8E5hEd-TbrfwCHSPcA" name="tailoring_configuration_management" guid="_YxYU8E5hEd-TbrfwCHSPcA" presentationName="Tailoring - Configuration Management" briefDescription="This guideline describes key considerations when tailoring the Configuration Management process area.">
             <presentation xmi:id="-l2TCH0BGHg2Mroglzi6ctg" href="guidances/guidelines/tailoring_configuration_management.uma#-l2TCH0BGHg2Mroglzi6ctg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_9UrSwE5hEd-TbrfwCHSPcA" name="tailoring_specific_process_area" guid="_9UrSwE5hEd-TbrfwCHSPcA" presentationName="Tailoring a Specific Process Area" briefDescription="This guideline describes key considerations when tailoring any given process area.">
+          <contentElements variabilityBasedOnElement="_9UrSwE5hEd-TbrfwCHSPcA" xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_9UrSwE5hEd-TbrfwCHSPcA" name="tailoring_specific_process_area" guid="_9UrSwE5hEd-TbrfwCHSPcA" presentationName="Tailoring a Specific Process Area" briefDescription="This guideline describes key considerations when tailoring any given process area.">
             <presentation xmi:id="-ay95zSfJCMZRdTLWavrFVA" href="guidances/guidelines/tailoring_specific_process_area.uma#-ay95zSfJCMZRdTLWavrFVA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_jUkS8Hf6Ed-uPNA0T8XOnA" name="tailoring_risk_management" guid="_jUkS8Hf6Ed-uPNA0T8XOnA" presentationName="Tailoring - Risk Management" briefDescription="This guideline describes key considerations when tailoring the Risk Management process area.">
+          <contentElements variabilityBasedOnElement="_jUkS8Hf6Ed-uPNA0T8XOnA" xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_jUkS8Hf6Ed-uPNA0T8XOnA" name="tailoring_risk_management" guid="_jUkS8Hf6Ed-uPNA0T8XOnA" presentationName="Tailoring - Risk Management" briefDescription="This guideline describes key considerations when tailoring the Risk Management process area.">
             <presentation xmi:id="-oedHMQ8L-gzzjY50B2VznA" href="guidances/guidelines/tailoring_risk_management.uma#-oedHMQ8L-gzzjY50B2VznA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_L8DLoJUKEd-PZJVxpTSp1g" name="tailoring_testing" guid="_L8DLoJUKEd-PZJVxpTSp1g" presentationName="Tailoring - Testing" briefDescription="This guideline describes key considerations when tailoring the Testing process area.">
+          <contentElements variabilityBasedOnElement="_L8DLoJUKEd-PZJVxpTSp1g" xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_L8DLoJUKEd-PZJVxpTSp1g" name="tailoring_testing" guid="_L8DLoJUKEd-PZJVxpTSp1g" presentationName="Tailoring - Testing" briefDescription="This guideline describes key considerations when tailoring the Testing process area.">
             <presentation xmi:id="-wDLe1SkoZ7BGW0tvvvQihA" href="guidances/guidelines/tailoring_testing.uma#-wDLe1SkoZ7BGW0tvvvQihA"/>
           </contentElements>
         </childPackages>
@@ -94,8 +94,8 @@
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9VqcjLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9VqcjLekEd-D7YZN9NgldQ"/>
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9VqcjbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9VqcjbekEd-D7YZN9NgldQ"/>
-    <bases href="uma://_fRdVEMYbEdyXeo04os5BOw#_fRdVEMYbEdyXeo04os5BOw"/>
-    <bases href="uma://_Q_mBoGphEd24CboUCnKL3A#_Q_mBoGphEd24CboUCnKL3A"/>
-    <bases href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.default.tool_def.base/plugin.uma#_fRdVEMYbEdyXeo04os5BOw"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.base/plugin.uma#_Q_mBoGphEd24CboUCnKL3A"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_0TmecJ-VEdy3Nc4rvuj7bA"/>
   </org.eclipse.epf.uma:MethodPlugin>
 </xmi:XMI>

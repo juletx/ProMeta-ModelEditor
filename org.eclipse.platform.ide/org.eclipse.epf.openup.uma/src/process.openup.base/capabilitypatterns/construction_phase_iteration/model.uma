@@ -10,9 +10,9 @@
         <methodElementProperty xmi:id="_G9UwMRo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
         <methodElementProperty xmi:id="_G9UwMho0EeuXnIT9fOh1Fg" name="wbe_GlobalPresentedAfter" value="_zjF0ANOJEdyqlogshP8l4g"/>
         <presentation xmi:id="-mx51ATVqsnhmw5TcEQIYYw" href="content.uma#-mx51ATVqsnhmw5TcEQIYYw"/>
-        <checklists href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAG5weB-EeC1y_NExchKwQ"/>
-        <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_yYlQoC3xEdycYKq0PulnEQ"/>
-        <Task href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAJ9EeB-EeC1y_NExchKwQ"/>
+        <checklists href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAG5weB-EeC1y_NExchKwQ"/>
+        <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_yYlQoC3xEdycYKq0PulnEQ"/>
+        <Task href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAJ9EeB-EeC1y_NExchKwQ"/>
         <selectedSteps href="uma://-QqCVewwu8buOCXKRukpf5g#_IAJ9E-B-EeC1y_NExchKwQ"/>
         <selectedSteps href="uma://-QqCVewwu8buOCXKRukpf5g#_IAJ9EuB-EeC1y_NExchKwQ"/>
         <selectedSteps href="uma://-QqCVewwu8buOCXKRukpf5g#_IAJ9FOB-EeC1y_NExchKwQ"/>
@@ -21,43 +21,43 @@
         <methodElementProperty xmi:id="_G9UwMxo0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
         <methodElementProperty xmi:id="_G9UwNBo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
         <presentation xmi:id="-noiWjBdDPWJmSF3l73Ti7Q" href="content.uma#-noiWjBdDPWJmSF3l73Ti7Q"/>
-        <Role href="uma://_A118oMYaEdyXeo04os5BOw#_L-BcoOCFEeC1y_NExchKwQ"/>
+        <Role href="/org.eclipse.epf.openup.uma/src/core.default.role_def.base/plugin.uma#_L-BcoOCFEeC1y_NExchKwQ"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_DZttw5lXEeGlkdGl1HQlDA" name="developer" guid="_DZttw5lXEeGlkdGl1HQlDA" presentationName="Developer" briefDescription="The Developer is responsible for developing a part of the system, including designing it to fit into the architecture, possibly prototyping the user interface, and then implementing, unit-testing, and integrating the components that are part of the solution." isPlanned="false" superActivities="_3s7aYdONEdyqlogshP8l4g">
         <methodElementProperty xmi:id="_G9UwNRo0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
         <methodElementProperty xmi:id="_G9UwNho0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
-        <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0YDosMlgEdmt3adZL5Dmdw"/>
+        <Role href="/org.eclipse.epf.openup.uma/src/core.default.role_def.base/plugin.uma#_0YDosMlgEdmt3adZL5Dmdw"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_DZttxZlXEeGlkdGl1HQlDA" name="deployment_plan" guid="_DZttxZlXEeGlkdGl1HQlDA" presentationName="Deployment Plan" briefDescription="A Deployment Plan is used to document all the information needed by Deployment Engineers to deploy a release successfully." isPlanned="false" superActivities="_3s7aYdONEdyqlogshP8l4g">
         <methodElementProperty xmi:id="_G9UwNxo0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
         <methodElementProperty xmi:id="_G9UwOBo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
         <presentation xmi:id="-f_uaW-2HSuS-3uC5Ni_BYw" href="content.uma#-f_uaW-2HSuS-3uC5Ni_BYw"/>
-        <checklists href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAG5weB-EeC1y_NExchKwQ"/>
-        <WorkProduct href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAJ9FeB-EeC1y_NExchKwQ"/>
+        <checklists href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAG5weB-EeC1y_NExchKwQ"/>
+        <WorkProduct href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAJ9FeB-EeC1y_NExchKwQ"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_DaTjoplXEeGlkdGl1HQlDA" name="backout_plan" guid="_DaTjoplXEeGlkdGl1HQlDA" presentationName="Backout Plan" briefDescription="A Backout Plan defines the criteria and procedures to be followed if a release into production needs to be rolled back." isPlanned="false" superActivities="_3s7aYdONEdyqlogshP8l4g">
         <methodElementProperty xmi:id="_G9UwORo0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
         <methodElementProperty xmi:id="_G9UwOho0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
         <presentation xmi:id="-FcJEVCc4jEBKZPGYLseZkQ" href="content.uma#-FcJEVCc4jEBKZPGYLseZkQ"/>
-        <WorkProduct href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAHg2eB-EeC1y_NExchKwQ"/>
+        <WorkProduct href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAHg2eB-EeC1y_NExchKwQ"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_DaTjpZlXEeGlkdGl1HQlDA" name="release_communications" guid="_DaTjpZlXEeGlkdGl1HQlDA" presentationName="Release Communications" briefDescription="This artifact provides information to concerned parties that a product (or subset) has been placed into production." isPlanned="false" superActivities="_3s7aYdONEdyqlogshP8l4g">
         <methodElementProperty xmi:id="_G9UwOxo0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
         <methodElementProperty xmi:id="_G9UwPBo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
         <presentation xmi:id="-M8RcfIWzEdq2ZYUeLZoX4Q" href="content.uma#-M8RcfIWzEdq2ZYUeLZoX4Q"/>
-        <WorkProduct href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAIH4OB-EeC1y_NExchKwQ"/>
+        <WorkProduct href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAIH4OB-EeC1y_NExchKwQ"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_DaTjqJlXEeGlkdGl1HQlDA" name="release" guid="_DaTjqJlXEeGlkdGl1HQlDA" presentationName="Release" briefDescription="&#x9;&#xD;&#xA;A Release is the transition of an increment of potentially shippable product from the development group into routine use by Customers based on a successful placement of a Release Sprint's output into the production environment." isPlanned="false" superActivities="_3s7aYdONEdyqlogshP8l4g">
         <methodElementProperty xmi:id="_G9UwPRo0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
         <methodElementProperty xmi:id="_G9UwPho0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
         <presentation xmi:id="-9OywHIlNMFgKcxL-epLd3g" href="content.uma#-9OywHIlNMFgKcxL-epLd3g"/>
-        <WorkProduct href="uma://_mYfo8OCIEeC1y_NExchKwQ#_EopWMPddEeCG79QDqBlPXg"/>
+        <WorkProduct href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_EopWMPddEeCG79QDqBlPXg"/>
       </processElements>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9AsrekEd-D7YZN9NgldQ" name="develop_solution" guid="_9t9AsrekEd-D7YZN9NgldQ">
       <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_CqFrgdOOEdyqlogshP8l4g" name="develop_solution" guid="_CqFrgdOOEdyqlogshP8l4g" superActivities="_RQi0AdONEdyqlogshP8l4g" variabilityType="extends">
         <methodElementProperty xmi:id="_G9UwPxo0EeuXnIT9fOh1Fg" name="wbe_GlobalPresentedAfter" value="_AP_nodOOEdyqlogshP8l4g"/>
-        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_RXGooNOFEdyqlogshP8l4g#_RXGoodOFEdyqlogshP8l4g"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\develop_solution\model.uma#_RXGoodOFEdyqlogshP8l4g"/>
       </processElements>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9As7ekEd-D7YZN9NgldQ" name="test_solution" guid="_9t9As7ekEd-D7YZN9NgldQ">

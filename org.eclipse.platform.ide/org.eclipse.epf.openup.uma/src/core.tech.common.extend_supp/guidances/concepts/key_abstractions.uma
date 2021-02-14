@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-HJbvivaRmrZ6rdQcdFd78Q" name="new_concept,_pLEGUNqGEdy88NBoQgfGyg" guid="-HJbvivaRmrZ6rdQcdFd78Q" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="new_concept,_pLEGUNqGEdy88NBoQgfGyg" xmi:version="2.0" epf:version="1.5.1" xmi:id="-HJbvivaRmrZ6rdQcdFd78Q" name="new_concept,_pLEGUNqGEdy88NBoQgfGyg" guid="-HJbvivaRmrZ6rdQcdFd78Q" version="7.2.0">
   <mainDescription>&lt;p&gt;&#xD;
     Key abstractions are the key concepts and abstractions that the system needs to handle. They are those things that,&#xD;
     without which, you could not describe the system.&#xD;

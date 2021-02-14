@@ -2,7 +2,7 @@
   
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_Z7teANQ1EdyQ89W1tgswSQ" name="process.openup.base" guid="_Z7teANQ1EdyQ89W1tgswSQ" presentationName="Processes for OpenUP" briefDescription="This plug-in defines an example process for the OpenUP configuration." changeDate="2008-12-15T10:25:35.000+0100">
     <methodElementProperty xmi:id="_GofIoBo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
-    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <copyrightStatement href="/org.eclipse.epf.openup.uma/src/core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgUzrekEd-D7YZN9NgldQ" name="Content" guid="_9tgUzrekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgUz7ekEd-D7YZN9NgldQ" name="Categories" guid="_9tgUz7ekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU0LekEd-D7YZN9NgldQ" name="Domains" guid="_9tgU0LekEd-D7YZN9NgldQ"/>
@@ -13,13 +13,13 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU1bekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9tgU1bekEd-D7YZN9NgldQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU1rekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9tgU1rekEd-D7YZN9NgldQ">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU17ekEd-D7YZN9NgldQ" name="Hidden" guid="_9tgU17ekEd-D7YZN9NgldQ">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9tgU2LekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9tgU2LekEd-D7YZN9NgldQ"/>
+            <contentElements variabilityBasedOnElement="_9tgU2LekEd-D7YZN9NgldQ" xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9tgU2LekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9tgU2LekEd-D7YZN9NgldQ"/>
           </childPackages>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU2bekEd-D7YZN9NgldQ" name="CoreContent" guid="_9tgU2bekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o5lO8Gr4Ed24CboUCnKL3A" name="release_info" guid="_o5lO8Gr4Ed24CboUCnKL3A" presentationName="Release Information">
-          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_o5lO8Wr4Ed24CboUCnKL3A" name="release_info_openup_process" guid="_o5lO8Wr4Ed24CboUCnKL3A" presentationName="Process: OpenUP" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+          <contentElements variabilityBasedOnElement="_o5lO8Wr4Ed24CboUCnKL3A" xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_o5lO8Wr4Ed24CboUCnKL3A" name="release_info_openup_process" guid="_o5lO8Wr4Ed24CboUCnKL3A" presentationName="Process: OpenUP" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
             <methodElementProperty xmi:id="_GofIoRo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
             <presentation xmi:id="-8kqk1tE8R96b88T_NC7SoQ" href="guidances/supportingmaterials/release_info_openup_process.uma#-8kqk1tE8R96b88T_NC7SoQ"/>
           </contentElements>
@@ -55,38 +55,38 @@
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tgU27ekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9tgU27ekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_SuWj4NOPEdyqlogshP8l4g" href="deliveryprocesses/openup_lifecycle/model.uma#_SuWj4NOPEdyqlogshP8l4g"/>
     </methodPackages>
-    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
-    <bases href="uma://_A118oMYaEdyXeo04os5BOw#_A118oMYaEdyXeo04os5BOw"/>
-    <bases href="uma://_14Ft0M3pEdyuBO4ZIzcyig#_14Ft0M3pEdyuBO4ZIzcyig"/>
-    <bases href="uma://_ji3-gEMXEdyP_Jn83ylwUQ#_ji3-gEMXEdyP_Jn83ylwUQ"/>
-    <bases href="uma://_CX-9AM3qEdyuBO4ZIzcyig#_CX-9AM3qEdyuBO4ZIzcyig"/>
-    <bases href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0TmecJ-VEdy3Nc4rvuj7bA"/>
-    <bases href="uma://_LdRtkM3qEdyuBO4ZIzcyig#_LdRtkM3qEdyuBO4ZIzcyig"/>
-    <bases href="uma://_OOB2AAouEdyhlpBPrduOMw#_OOB2AAouEdyhlpBPrduOMw"/>
-    <bases href="uma://_iNwFsMhNEdygFZkm1d5NtQ#_iNwFsMhNEdygFZkm1d5NtQ"/>
-    <bases href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_qqyzAJ6WEdyQN-zRFaRrCQ"/>
-    <bases href="uma://_4gXdoL8BEdyWX5Yd-9QZ1A#_4gXdoL8BEdyWX5Yd-9QZ1A"/>
-    <bases href="uma://_NBRHwMh3EdygFZkm1d5NtQ#_NBRHwMh3EdygFZkm1d5NtQ"/>
-    <bases href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_nKS10J6YEdyQN-zRFaRrCQ"/>
-    <bases href="uma://_40sbAJ6YEdyQN-zRFaRrCQ#_40sbAJ6YEdyQN-zRFaRrCQ"/>
-    <bases href="uma://_IItp4MuXEdyLOriywSJkoQ#_IItp4MuXEdyLOriywSJkoQ"/>
-    <bases href="uma://_Hz9OMG5KEdyAHIxjZ9kpqw#_Hz9OMG5KEdyAHIxjZ9kpqw"/>
-    <bases href="uma://_h_9roM3PEdyKkus0T68H3Q#_h_9roM3PEdyKkus0T68H3Q"/>
-    <bases href="uma://_D-ExQMktEdygFZkm1d5NtQ#_D-ExQMktEdygFZkm1d5NtQ"/>
-    <bases href="uma://_GxBjAM2sEdym_ZFqrJcXUg#_GxBjAM2sEdym_ZFqrJcXUg"/>
-    <bases href="uma://_4gaS4LPREduocbW-TPTq7A#_4gaS4LPREduocbW-TPTq7A"/>
-    <bases href="uma://_XPLD8MudEdyRPtFYRAKVDg#_XPLD8MudEdyRPtFYRAKVDg"/>
-    <bases href="uma://_Z2cK0LPPEduocbW-TPTq7A#_Z2cK0LPPEduocbW-TPTq7A"/>
-    <bases href="uma://_NjNCEMrmEdyd6uFrFHNXhA#_NjNCEMrmEdyd6uFrFHNXhA"/>
-    <bases href="uma://_Y9TKMLS9EduDY8LNbMCDBA#_Y9TKMLS9EduDY8LNbMCDBA"/>
-    <bases href="uma://_00zMMMt1EdyRPtFYRAKVDg#_00zMMMt1EdyRPtFYRAKVDg"/>
-    <bases href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_DZ1rEI7-Edy7q8CKc_B8eg"/>
-    <bases href="uma://_HYAA4MriEdyd6uFrFHNXhA#_HYAA4MriEdyd6uFrFHNXhA"/>
-    <bases href="uma://_GbYfULPaEduocbW-TPTq7A#_GbYfULPaEduocbW-TPTq7A"/>
-    <bases href="uma://_44o4AOvVEdyp6czxLiQq9g#_44o4AOvVEdyp6czxLiQq9g"/>
-    <bases href="uma://_ugihsOxXEdyCFeiQwJE7Vg#_ugihsOxXEdyCFeiQwJE7Vg"/>
-    <bases href="uma://_wDZIUOCFEeC1y_NExchKwQ#_wDZIUOCFEeC1y_NExchKwQ"/>
-    <bases href="uma://_mYfo8OCIEeC1y_NExchKwQ#_mYfo8OCIEeC1y_NExchKwQ"/>
-    <bases href="uma://_NOBspSZLEd-QuZFPf_YdqQ#_NOBspSZLEd-QuZFPf_YdqQ"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.default.role_def.base/plugin.uma#_A118oMYaEdyXeo04os5BOw"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.gen.common.assign/plugin.uma#_14Ft0M3pEdyuBO4ZIzcyig"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.gen.common.base/plugin.uma#_ji3-gEMXEdyP_Jn83ylwUQ"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.assign/plugin.uma#_CX-9AM3qEdyuBO4ZIzcyig"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.tech.common.assign/plugin.uma#_LdRtkM3qEdyuBO4ZIzcyig"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_OOB2AAouEdyhlpBPrduOMw"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.assign/plugin.uma#_iNwFsMhNEdygFZkm1d5NtQ"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base/plugin.uma#_qqyzAJ6WEdyQN-zRFaRrCQ"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base/plugin.uma#_4gXdoL8BEdyWX5Yd-9QZ1A"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.assign/plugin.uma#_NBRHwMh3EdygFZkm1d5NtQ"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base/plugin.uma#_nKS10J6YEdyQN-zRFaRrCQ"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.mgmt.whole_team.base/plugin.uma#_40sbAJ6YEdyQN-zRFaRrCQ"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.concurrent_testing.assign/plugin.uma#_IItp4MuXEdyLOriywSJkoQ"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.concurrent_testing.base/plugin.uma#_Hz9OMG5KEdyAHIxjZ9kpqw"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.continuous_integration.assign/plugin.uma#_h_9roM3PEdyKkus0T68H3Q"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.continuous_integration.base/plugin.uma#_D-ExQMktEdygFZkm1d5NtQ"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.assign/plugin.uma#_GxBjAM2sEdym_ZFqrJcXUg"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base/plugin.uma#_4gaS4LPREduocbW-TPTq7A"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_design.assign/plugin.uma#_XPLD8MudEdyRPtFYRAKVDg"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_design.base/plugin.uma#_Z2cK0LPPEduocbW-TPTq7A"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.shared_vision.assign/plugin.uma#_NjNCEMrmEdyd6uFrFHNXhA"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.shared_vision.base/plugin.uma#_Y9TKMLS9EduDY8LNbMCDBA"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.test_driven_development.assign/plugin.uma#_00zMMMt1EdyRPtFYRAKVDg"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.test_driven_development.base/plugin.uma#_DZ1rEI7-Edy7q8CKc_B8eg"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.use_case_driven_dev.assign/plugin.uma#_HYAA4MriEdyd6uFrFHNXhA"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.tech.use_case_driven_dev.base/plugin.uma#_GbYfULPaEduocbW-TPTq7A"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.mgmt.team_change_mgmt.base/plugin.uma#_44o4AOvVEdyp6czxLiQq9g"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.mgmt.team_change_mgmt.assign/plugin.uma#_ugihsOxXEdyCFeiQwJE7Vg"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.gen.doc_trng.base/plugin.uma#_wDZIUOCFEeC1y_NExchKwQ"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_mYfo8OCIEeC1y_NExchKwQ"/>
+    <bases href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base/plugin.uma#_NOBspSZLEd-QuZFPf_YdqQ"/>
   </org.eclipse.epf.uma:MethodPlugin>
 </xmi:XMI>

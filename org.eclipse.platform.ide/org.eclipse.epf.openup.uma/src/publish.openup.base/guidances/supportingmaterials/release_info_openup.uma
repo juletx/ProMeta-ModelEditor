@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-id3gpeJmU5zSUE12SUm8Ag" name="release_info_openup,_txM2cWr-Ed29vdqsRXf4ag" guid="-id3gpeJmU5zSUE12SUm8Ag" changeDate="2008-08-15T20:29:52.000+0200" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="release_info_openup,_txM2cWr-Ed29vdqsRXf4ag" xmi:version="2.0" epf:version="1.5.1" xmi:id="-id3gpeJmU5zSUE12SUm8Ag" name="release_info_openup,_txM2cWr-Ed29vdqsRXf4ag" guid="-id3gpeJmU5zSUE12SUm8Ag" changeDate="2008-08-15T20:29:52.000+0200" version="7.2.0">
   <mainDescription>&lt;h3&gt;
     EPF Base
 &lt;/h3&gt;

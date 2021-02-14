@@ -9,7 +9,7 @@
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9AwrekEd-D7YZN9NgldQ" name="develop_solution" guid="_9t9AwrekEd-D7YZN9NgldQ">
       <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_-iix4dOOEdyqlogshP8l4g" name="develop_solution" guid="_-iix4dOOEdyqlogshP8l4g" superActivities="_pzQU0dONEdyqlogshP8l4g" variabilityType="extends">
-        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_RXGooNOFEdyqlogshP8l4g#_RXGoodOFEdyqlogshP8l4g"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\develop_solution\model.uma#_RXGoodOFEdyqlogshP8l4g"/>
       </processElements>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9Aw7ekEd-D7YZN9NgldQ" name="test_solution" guid="_9t9Aw7ekEd-D7YZN9NgldQ">

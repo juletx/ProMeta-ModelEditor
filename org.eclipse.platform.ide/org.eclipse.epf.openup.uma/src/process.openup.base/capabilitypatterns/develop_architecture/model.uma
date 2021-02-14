@@ -4,51 +4,51 @@
     <methodElementProperty xmi:id="_G-Ch4Bo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9AxbekEd-D7YZN9NgldQ" name="develop_solution" guid="_9t9AxbekEd-D7YZN9NgldQ">
       <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_TV_k8dOKEdyqlogshP8l4g" name="develop_solution" guid="_TV_k8dOKEdyqlogshP8l4g" superActivities="_KaeNsdOFEdyqlogshP8l4g" variabilityType="extends">
-        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_RXGooNOFEdyqlogshP8l4g#_RXGoodOFEdyqlogshP8l4g"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\develop_solution\model.uma#_RXGoodOFEdyqlogshP8l4g"/>
       </processElements>
     </childPackages>
     <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_EjG_cNOKEdyqlogshP8l4g" name="architecture_notebook" guid="_EjG_cNOKEdyqlogshP8l4g" presentationName="Architecture Notebook" briefDescription="This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_G-Ch4Ro0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
       <presentation xmi:id="-V51fxSq2AzJuVZF90kMOmA" href="content.uma#-V51fxSq2AzJuVZF90kMOmA"/>
-      <checklists href="uma://_4gaS4LPREduocbW-TPTq7A#_17PYUNd6EdmIm-bsRSNCgw"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
-      <templates href="uma://_4gaS4LPREduocbW-TPTq7A#_me8WcAANEdyRS9uciXlZ6g"/>
-      <WorkProduct href="uma://_4gaS4LPREduocbW-TPTq7A#_0XAf0MlgEdmt3adZL5Dmdw"/>
+      <checklists href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base/plugin.uma#_17PYUNd6EdmIm-bsRSNCgw"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#__O7tAMVvEduLYZUGfgZrkQ"/>
+      <templates href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base/plugin.uma#_me8WcAANEdyRS9uciXlZ6g"/>
+      <WorkProduct href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base/plugin.uma#_0XAf0MlgEdmt3adZL5Dmdw"/>
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6RuKMN_1EdyOsumnGvWsEg" name="refine_the_arch" guid="_6RuKMN_1EdyOsumnGvWsEg" presentationName="Refine the Architecture" briefDescription="Refine the architecture to an appropriate level of detail to support development." isPlanned="true" superActivities="_KaeNsdOFEdyqlogshP8l4g" mandatoryInput="_6R37MN_1EdyOsumnGvWsEg _EjG_cNOKEdyqlogshP8l4g" optionalInput="_6R37Md_1EdyOsumnGvWsEg _6R37Mt_1EdyOsumnGvWsEg" output="_EjG_cNOKEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_G-Ch4ho0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
       <presentation xmi:id="-j18JWuRaOWhpi32MRwfW7A" href="content.uma#-j18JWuRaOWhpi32MRwfW7A"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_HrZGIA4MEduibvKwrGxWxA"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_O1kAANvfEduv2KOT-Teh6w"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_HlRqANpbEdyP58ppo1Ieaw"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_pLEGUNqGEdy88NBoQgfGyg"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_0YP18MlgEdmt3adZL5Dmdw"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_jdKSsNpiEdyP58ppo1Ieaw"/>
-      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_vO2uoO0OEduUpsu85bVhiQ"/>
-      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0gjdYMlgEdmt3adZL5Dmdw"/>
-      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_we3F4ACpEdu8m4dIntu6jA"/>
-      <Task href="uma://_4gaS4LPREduocbW-TPTq7A#_0gRJgMlgEdmt3adZL5Dmdw"/>
-      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_l92AYNpaEdyP58ppo1Ieaw"/>
-      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_G_k1kBaqEduSTJywppIxVQ"/>
-      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_0qoQ8CikEduQBKSg5n118w"/>
-      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_82iI0FHOEd2zrOgIte8oWg"/>
-      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_Vdln8MP3EdmWKcx6ixEiwg"/>
-      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_GFLpsFHPEd2zrOgIte8oWg"/>
-      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_xIIVkMUbEdu5GrwIlTJV7g"/>
-      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_pyyVoFHPEd2zrOgIte8oWg"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_mzxI0A4LEduibvKwrGxWxA"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_HrZGIA4MEduibvKwrGxWxA"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_O1kAANvfEduv2KOT-Teh6w"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_HlRqANpbEdyP58ppo1Ieaw"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_pLEGUNqGEdy88NBoQgfGyg"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0YP18MlgEdmt3adZL5Dmdw"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_jdKSsNpiEdyP58ppo1Ieaw"/>
+      <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_vO2uoO0OEduUpsu85bVhiQ"/>
+      <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0gjdYMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_we3F4ACpEdu8m4dIntu6jA"/>
+      <Task href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base/plugin.uma#_0gRJgMlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\refine_the_arch.uma#_l92AYNpaEdyP58ppo1Ieaw"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\refine_the_arch.uma#_G_k1kBaqEduSTJywppIxVQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\refine_the_arch.uma#_0qoQ8CikEduQBKSg5n118w"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\refine_the_arch.uma#_82iI0FHOEd2zrOgIte8oWg"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\refine_the_arch.uma#_Vdln8MP3EdmWKcx6ixEiwg"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\refine_the_arch.uma#_GFLpsFHPEd2zrOgIte8oWg"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\refine_the_arch.uma#_xIIVkMUbEdu5GrwIlTJV7g"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\refine_the_arch.uma#_pyyVoFHPEd2zrOgIte8oWg"/>
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6R37MN_1EdyOsumnGvWsEg" name="technical_specification_slot" guid="_6R37MN_1EdyOsumnGvWsEg" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_G-Ch4xo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
-      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+      <WorkProduct href="/org.eclipse.epf.openup.uma/src/core.tech.slot.base/plugin.uma#_i3vkoLS-EduDY8LNbMCDBA"/>
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6R37Md_1EdyOsumnGvWsEg" name="technical_design_slot" guid="_6R37Md_1EdyOsumnGvWsEg" presentationName="[Technical Design]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe the realization of required system functionality, and serves as an abstraction of the solution." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_G-Ch5Bo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
-      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_IcQOUEqdEdyi3_jfs__bIQ"/>
+      <WorkProduct href="/org.eclipse.epf.openup.uma/src/core.tech.slot.base/plugin.uma#_IcQOUEqdEdyi3_jfs__bIQ"/>
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6R37Mt_1EdyOsumnGvWsEg" name="technical_implementation_slot" guid="_6R37Mt_1EdyOsumnGvWsEg" presentationName="[Technical Implementation]" briefDescription="This slot holds the artifacts that represent a technical implementation.  This can include source code, executable code, data, and software/hardware configurations." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_G-Ch5Ro0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
-      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
+      <WorkProduct href="/org.eclipse.epf.openup.uma/src/core.tech.slot.base/plugin.uma#_Vux8UEfUEdyiPI8btkmvmw"/>
     </processElements>
     <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_KaeNsdOFEdyqlogshP8l4g" name="develop_architecture" guid="_KaeNsdOFEdyqlogshP8l4g" presentationName="Develop the Architecture" briefDescription="Develop the architecturally significant requirements prioritized for this iteration." breakdownElements="_EjG_cNOKEdyqlogshP8l4g _TV_k8dOKEdyqlogshP8l4g _6RuKMN_1EdyOsumnGvWsEg _6R37MN_1EdyOsumnGvWsEg _6R37Md_1EdyOsumnGvWsEg _6R37Mt_1EdyOsumnGvWsEg">
       <presentation xmi:id="-VFp5B68iro5ga1pz4nbQFw" href="content.uma#-VFp5B68iro5ga1pz4nbQFw"/>

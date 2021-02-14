@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_kwHAgMPbEdmbOvqy4O0adg" name="test_case,_0Zxf8MlgEdmt3adZL5Dmdw" guid="_kwHAgMPbEdmbOvqy4O0adg" changeDate="2005-07-07T10:45:15.000+0200" version="1.0.0">
-  <sections xmi:id="_yXujsLcOEduFFo_97woSMw" name="General" guid="_yXujsLcOEduFFo_97woSMw">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="test_case,_0Zxf8MlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_kwHAgMPbEdmbOvqy4O0adg" name="test_case,_0Zxf8MlgEdmt3adZL5Dmdw" guid="_kwHAgMPbEdmbOvqy4O0adg" changeDate="2005-07-07T10:45:15.000+0200" version="1.0.0">
+  <sections variabilityBasedOnElement="_yXujsLcOEduFFo_97woSMw" xmi:id="_yXujsLcOEduFFo_97woSMw" name="General" guid="_yXujsLcOEduFFo_97woSMw">
     <sectionDescription>&lt;ul&gt;&#xD;
     &lt;li&gt;&#xD;
         Does the Test Case identify the requirement it evaluates?&amp;nbsp; This linking might be informal through a naming&#xD;
@@ -10,7 +10,7 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_Hv2n0BBbEduXULqRagzBHA" name="Name" guid="_Hv2n0BBbEduXULqRagzBHA">
+  <sections variabilityBasedOnElement="_Hv2n0BBbEduXULqRagzBHA" xmi:id="_Hv2n0BBbEduXULqRagzBHA" name="Name" guid="_Hv2n0BBbEduXULqRagzBHA">
     <sectionDescription>&lt;ul&gt;&#xD;
     &lt;li&gt;&#xD;
         Is the&amp;nbsp;Test Case name unique?&#xD;
@@ -23,7 +23,7 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_3i-gkLcOEduFFo_97woSMw" name="Brief Description" guid="_3i-gkLcOEduFFo_97woSMw">
+  <sections variabilityBasedOnElement="_3i-gkLcOEduFFo_97woSMw" xmi:id="_3i-gkLcOEduFFo_97woSMw" name="Brief Description" guid="_3i-gkLcOEduFFo_97woSMw">
     <sectionDescription>&lt;ul class="noindent"&gt;&#xD;
     &lt;li&gt;&#xD;
         Is the logical test condition clearly identified in the description?&#xD;
@@ -39,7 +39,7 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_4uresLcOEduFFo_97woSMw" name="Test Data Needs" guid="_4uresLcOEduFFo_97woSMw">
+  <sections variabilityBasedOnElement="_4uresLcOEduFFo_97woSMw" xmi:id="_4uresLcOEduFFo_97woSMw" name="Test Data Needs" guid="_4uresLcOEduFFo_97woSMw">
     <sectionDescription>&lt;ul&gt;&#xD;
     &lt;li&gt;&#xD;
         Does the Test Case note the kinds of test data required to implement a detailed Test Script?&#xD;

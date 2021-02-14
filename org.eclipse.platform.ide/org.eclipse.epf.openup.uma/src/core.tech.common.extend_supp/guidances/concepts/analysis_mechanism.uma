@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_S8KCcMP2EdmWKcx6ixEiwg" name="analysis_mechanism,_0gvqoMlgEdmt3adZL5Dmdw" guid="_S8KCcMP2EdmWKcx6ixEiwg" changeDate="2008-02-09T10:19:23.000+0100" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="analysis_mechanism,_0gvqoMlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_S8KCcMP2EdmWKcx6ixEiwg" name="analysis_mechanism,_0gvqoMlgEdmt3adZL5Dmdw" guid="_S8KCcMP2EdmWKcx6ixEiwg" changeDate="2008-02-09T10:19:23.000+0100" version="1.0.0">
   <mainDescription>&lt;p&gt;&#xD;
     An Analysis Mechanism is a conceptual representation of an &lt;a class="elementLink"&#xD;
     href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html"&#xD;

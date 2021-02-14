@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-wv4JAmTQ0R_KjP76LgDITg" name="new_concept,_ryuL0LsbEdyfAY9BXNFkDg" guid="-wv4JAmTQ0R_KjP76LgDITg" changeDate="2008-10-13T18:31:33.000+0200" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="new_concept,_ryuL0LsbEdyfAY9BXNFkDg" xmi:version="2.0" epf:version="1.5.1" xmi:id="-wv4JAmTQ0R_KjP76LgDITg" name="new_concept,_ryuL0LsbEdyfAY9BXNFkDg" guid="-wv4JAmTQ0R_KjP76LgDITg" changeDate="2008-10-13T18:31:33.000+0200" version="7.2.0">
   <mainDescription>&lt;h3&gt;&#xD;
     Specifying Use Cases&#xD;
 &lt;/h3&gt;&#xD;

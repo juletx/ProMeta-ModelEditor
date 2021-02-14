@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-PbfqVxB_j9KN-Jx39_pEUA" name="manage_iteration,_8S2aICbYEdqh1LYUOGRh2A" guid="-PbfqVxB_j9KN-Jx39_pEUA" changeDate="2011-03-26T00:39:44.587+0100" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="manage_iteration,_8S2aICbYEdqh1LYUOGRh2A" xmi:version="2.0" epf:version="1.5.1" xmi:id="-PbfqVxB_j9KN-Jx39_pEUA" name="manage_iteration,_8S2aICbYEdqh1LYUOGRh2A" guid="-PbfqVxB_j9KN-Jx39_pEUA" changeDate="2011-03-26T00:39:44.587+0100" version="1.0.0">
   <mainDescription>&lt;p&gt;&#xD;
     Developing the team is part of executing the project. Improve the interactions and trust between team members,&#xD;
     incorporating team building into project activities, and empowering the team to make decisions. Management is done by&#xD;
@@ -18,7 +18,7 @@
     href="./../../core.mgmt.slot.base/workproducts/project_definition_and_scope_slot_BB8EB6F7.html"&#xD;
     guid="_RJMUcNpUEdyzZqGyZ7hwdw"&gt;[Project Definition and Scope]&lt;/a&gt;.&lt;/span&gt;&#xD;
 &lt;/p&gt;</mainDescription>
-  <sections xmi:id="_OE65ICuxEdqTIKp3l5PtzQ" name="Track current iteration progress" guid="_OE65ICuxEdqTIKp3l5PtzQ">
+  <sections variabilityBasedOnElement="_OE65ICuxEdqTIKp3l5PtzQ" xmi:id="_OE65ICuxEdqTIKp3l5PtzQ" name="Track current iteration progress" guid="_OE65ICuxEdqTIKp3l5PtzQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Continuously monitor the iteration to ensure that it is progressing appropriately. Track the progress of the current&#xD;
     iteration by maintaining visibility on the status of the items that are being worked on during the iteration. In&#xD;
@@ -49,7 +49,7 @@
     finished as planned.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_urvQkGSyEd2DNqLAFatITA" name="Capture and communicate project status" guid="_urvQkGSyEd2DNqLAFatITA">
+  <sections variabilityBasedOnElement="_urvQkGSyEd2DNqLAFatITA" xmi:id="_urvQkGSyEd2DNqLAFatITA" name="Capture and communicate project status" guid="_urvQkGSyEd2DNqLAFatITA">
     <sectionDescription>&lt;p&gt;&#xD;
     Because outside stakeholders do not participate in the daily activities of the team, it is important that the status of&#xD;
     the project should be communicated to them as often as possible. This communication significantly lowers the risk of&#xD;
@@ -68,7 +68,7 @@
     automated tool), where stakeholders can come and experience first-hand the progress being made by the team.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_oIZdkCbZEdqh1LYUOGRh2A" name="Handle exceptions and problems" guid="_oIZdkCbZEdqh1LYUOGRh2A">
+  <sections variabilityBasedOnElement="_oIZdkCbZEdqh1LYUOGRh2A" xmi:id="_oIZdkCbZEdqh1LYUOGRh2A" name="Handle exceptions and problems" guid="_oIZdkCbZEdqh1LYUOGRh2A">
     <sectionDescription>&lt;p&gt;&#xD;
     Know about the team's problems and issues and&amp;nbsp;focus on problems that are blocking progress. A quick, daily meeting&#xD;
     is usually a good way to monitor those problems and issues. Keep&amp;nbsp;a record of issues that have to be solved within&#xD;
@@ -83,7 +83,7 @@
     solution. Define the corrective actions and implement them.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_xiFJwCbZEdqh1LYUOGRh2A" name="Identify and manage risks" guid="_xiFJwCbZEdqh1LYUOGRh2A">
+  <sections variabilityBasedOnElement="_xiFJwCbZEdqh1LYUOGRh2A" xmi:id="_xiFJwCbZEdqh1LYUOGRh2A" name="Identify and manage risks" guid="_xiFJwCbZEdqh1LYUOGRh2A">
     <sectionDescription>&lt;p&gt;&#xD;
     Identify risks as soon as the project starts, and continue identifying and managing risks throughout the project.&#xD;
     Revisit the &lt;a class="elementLink" href="./../../core.mgmt.common.extend_supp/workproducts/risk_list_C4B6F290.html"&#xD;
@@ -91,7 +91,7 @@
     identifying and mitigating risks.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_Br6VECuxEdqTIKp3l5PtzQ" name="Manage objectives" guid="_Br6VECuxEdqTIKp3l5PtzQ">
+  <sections variabilityBasedOnElement="_Br6VECuxEdqTIKp3l5PtzQ" xmi:id="_Br6VECuxEdqTIKp3l5PtzQ" name="Manage objectives" guid="_Br6VECuxEdqTIKp3l5PtzQ">
     <sectionDescription>When a team is falling significantly behind, or critical problems occur that prevent the team from meeting the iteration&#xD;
 objectives, it may be necessary to descope work to ensure that the team delivers a useful product increment by the end of&#xD;
 the iteration, while maximizing stakeholder value. Work with the team and stakeholders to revise the Iteration Plan and, as&#xD;

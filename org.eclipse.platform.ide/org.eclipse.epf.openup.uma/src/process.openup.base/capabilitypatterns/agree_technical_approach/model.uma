@@ -3,36 +3,36 @@
   <org.eclipse.epf.uma:ProcessComponent xmi:id="_4ouDUNOEEdyqlogshP8l4g" name="agree_technical_approach" guid="_4ouDUNOEEdyqlogshP8l4g">
     <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BWf5gtOKEdyqlogshP8l4g" name="architecture_notebook" guid="_BWf5gtOKEdyqlogshP8l4g" presentationName="Architecture Notebook" briefDescription="This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture." isPlanned="false" superActivities="_4ouDUdOEEdyqlogshP8l4g">
       <presentation xmi:id="-5pBUhaIFdJ75MLPerQSnoA" href="content.uma#-5pBUhaIFdJ75MLPerQSnoA"/>
-      <checklists href="uma://_4gaS4LPREduocbW-TPTq7A#_17PYUNd6EdmIm-bsRSNCgw"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
-      <templates href="uma://_4gaS4LPREduocbW-TPTq7A#_me8WcAANEdyRS9uciXlZ6g"/>
-      <WorkProduct href="uma://_4gaS4LPREduocbW-TPTq7A#_0XAf0MlgEdmt3adZL5Dmdw"/>
+      <checklists href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base/plugin.uma#_17PYUNd6EdmIm-bsRSNCgw"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#__O7tAMVvEduLYZUGfgZrkQ"/>
+      <templates href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base/plugin.uma#_me8WcAANEdyRS9uciXlZ6g"/>
+      <WorkProduct href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base/plugin.uma#_0XAf0MlgEdmt3adZL5Dmdw"/>
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_n75CddfeEdy8T_PKWvNDBA" name="technical_specification_slot" guid="_n75CddfeEdy8T_PKWvNDBA" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_4ouDUdOEEdyqlogshP8l4g">
-      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+      <WorkProduct href="/org.eclipse.epf.openup.uma/src/core.tech.slot.base/plugin.uma#_i3vkoLS-EduDY8LNbMCDBA"/>
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sjccUN_1EdyOsumnGvWsEg" name="envision_the_arch" guid="_sjccUN_1EdyOsumnGvWsEg" presentationName="Envision the Architecture" briefDescription="This task is where the &#34;vision&#34; for the architecture is developed through analysis of the architecturally significant requirements and identification of architectural constraints, decisions and objectives." superActivities="_4ouDUdOEEdyqlogshP8l4g" mandatoryInput="_n75CddfeEdy8T_PKWvNDBA" optionalInput="_BWf5gtOKEdyqlogshP8l4g" output="_BWf5gtOKEdyqlogshP8l4g">
       <presentation xmi:id="-raSQ2CIQMJXnNHFqWWi7Kg" href="content.uma#-raSQ2CIQMJXnNHFqWWi7Kg"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_HrZGIA4MEduibvKwrGxWxA"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_HlRqANpbEdyP58ppo1Ieaw"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_jdKSsNpiEdyP58ppo1Ieaw"/>
-      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_pLEGUNqGEdy88NBoQgfGyg"/>
-      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0gpkAMlgEdmt3adZL5Dmdw"/>
-      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_vO2uoO0OEduUpsu85bVhiQ"/>
-      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_we3F4ACpEdu8m4dIntu6jA"/>
-      <Task href="uma://_4gaS4LPREduocbW-TPTq7A#_0f-1oMlgEdmt3adZL5Dmdw"/>
-      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_3nMQQA3rEduibvKwrGxWxA"/>
-      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_f0y2kM25Edym_ZFqrJcXUg"/>
-      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_9o6Z4CSCEdqDjNgZyGMf5w"/>
-      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_I32E4MP2EdmWKcx6ixEiwg"/>
-      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_B899cMP2EdmWKcx6ixEiwg"/>
-      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_FVrlsMP2EdmWKcx6ixEiwg"/>
-      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_tmvWwE5cEducxZ_XZXh-vw"/>
-      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_KBAsYMP2EdmWKcx6ixEiwg"/>
-      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_RKSLsNp3EdyItewP9R0w7Q"/>
-      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_Q2PRIFHSEd2zrOgIte8oWg"/>
-      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_Xia1QFHSEd2zrOgIte8oWg"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_HrZGIA4MEduibvKwrGxWxA"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_mzxI0A4LEduibvKwrGxWxA"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_HlRqANpbEdyP58ppo1Ieaw"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_jdKSsNpiEdyP58ppo1Ieaw"/>
+      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_pLEGUNqGEdy88NBoQgfGyg"/>
+      <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0gpkAMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_vO2uoO0OEduUpsu85bVhiQ"/>
+      <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_we3F4ACpEdu8m4dIntu6jA"/>
+      <Task href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base/plugin.uma#_0f-1oMlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\envision_the_arch.uma#_3nMQQA3rEduibvKwrGxWxA"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\envision_the_arch.uma#_f0y2kM25Edym_ZFqrJcXUg"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\envision_the_arch.uma#_9o6Z4CSCEdqDjNgZyGMf5w"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\envision_the_arch.uma#_I32E4MP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\envision_the_arch.uma#_B899cMP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\envision_the_arch.uma#_FVrlsMP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\envision_the_arch.uma#_tmvWwE5cEducxZ_XZXh-vw"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\envision_the_arch.uma#_KBAsYMP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\envision_the_arch.uma#_RKSLsNp3EdyItewP9R0w7Q"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\envision_the_arch.uma#_Q2PRIFHSEd2zrOgIte8oWg"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_arch.base\tasks\envision_the_arch.uma#_Xia1QFHSEd2zrOgIte8oWg"/>
     </processElements>
     <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_4ouDUdOEEdyqlogshP8l4g" name="agree_technical_approach" guid="_4ouDUdOEEdyqlogshP8l4g" presentationName="Agree on Technical Approach" briefDescription="Reach agreement on a viable technical approach to developing the solution." breakdownElements="_BWf5gtOKEdyqlogshP8l4g _n75CddfeEdy8T_PKWvNDBA _sjccUN_1EdyOsumnGvWsEg">
       <presentation xmi:id="-BZ8afnvoVBJs82vzcOBaCw" href="content.uma#-BZ8afnvoVBJs82vzcOBaCw"/>

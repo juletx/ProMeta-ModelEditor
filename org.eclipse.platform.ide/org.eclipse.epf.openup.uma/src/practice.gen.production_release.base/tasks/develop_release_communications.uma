@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-FWdvN43s5ux00S-GVpDH-w" name="05_develop_release_communications,_g-LLEDHNEeC7j_IRiP-WPQ" guid="-FWdvN43s5ux00S-GVpDH-w" changeDate="2011-07-28T21:31:26.269+0200" version="7.5.1">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="05_develop_release_communications,_g-LLEDHNEeC7j_IRiP-WPQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-FWdvN43s5ux00S-GVpDH-w" name="05_develop_release_communications,_g-LLEDHNEeC7j_IRiP-WPQ" guid="-FWdvN43s5ux00S-GVpDH-w" changeDate="2011-07-28T21:31:26.269+0200" version="7.5.1">
   <mainDescription>&lt;p&gt;&#xD;
     When a release is pushed to production, all the stakeholders of that product should be notified that the event has&#xD;
     happened and what the release means to each of the stakeholders. Often, the output of this task does not need to be&#xD;
@@ -12,12 +12,12 @@
     be degraded. By simply answering the questions "who, what, when, where, why, and how" in a format appropriate for each&#xD;
     stakeholder group, a product release can become a more satisfying experience for all those involved.&#xD;
 &lt;/p&gt;</mainDescription>
-  <sections xmi:id="_IAJWBuB-EeC1y_NExchKwQ" name="Identify stakeholders for this release" guid="_IAJWBuB-EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_IAJWBuB-EeC1y_NExchKwQ" xmi:id="_IAJWBuB-EeC1y_NExchKwQ" name="Identify stakeholders for this release" guid="_IAJWBuB-EeC1y_NExchKwQ">
     <sectionDescription>The development team should know exactly which stakeholder groups will benefit from the upcoming release. First, identify&#xD;
 the stakeholders for this release. Next, determine how each stakeholder group is expected to benefit from the release based&#xD;
 on the components that will be delivered to production.</sectionDescription>
   </sections>
-  <sections xmi:id="_IAJWBeB-EeC1y_NExchKwQ" name="Draft communique for each stakeholder group" guid="_IAJWBeB-EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_IAJWBeB-EeC1y_NExchKwQ" xmi:id="_IAJWBeB-EeC1y_NExchKwQ" name="Draft communique for each stakeholder group" guid="_IAJWBeB-EeC1y_NExchKwQ">
     <sectionDescription>&lt;p&gt;&#xD;
     For each stakeholder group, document the following:&#xD;
 &lt;/p&gt;&#xD;
@@ -38,7 +38,7 @@ on the components that will be delivered to production.</sectionDescription>
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_IAJWB-B-EeC1y_NExchKwQ" name="Provide commiques to deployment manager" guid="_IAJWB-B-EeC1y_NExchKwQ">
+  <sections variabilityBasedOnElement="_IAJWB-B-EeC1y_NExchKwQ" xmi:id="_IAJWB-B-EeC1y_NExchKwQ" name="Provide commiques to deployment manager" guid="_IAJWB-B-EeC1y_NExchKwQ">
     <sectionDescription>After drafting the communiques for each stakeholder group, the development team should provide those drafts to the&#xD;
 deployment manager. Typically, release communications are consolidated and released at the program level. The deployment&#xD;
 manager and deployment engineers normally are responsible for ensuring that all release communications are consistent and&#xD;

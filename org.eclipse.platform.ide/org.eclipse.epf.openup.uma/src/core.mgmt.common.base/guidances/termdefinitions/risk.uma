@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-hOtatvr8wIjqW8UD0MSGhQ" name="risk,_ii2LUEvGEdunZcj9T5hrMQ" guid="-hOtatvr8wIjqW8UD0MSGhQ" changeDate="2008-09-12T11:39:02.000+0200" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="risk,_ii2LUEvGEdunZcj9T5hrMQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-hOtatvr8wIjqW8UD0MSGhQ" name="risk,_ii2LUEvGEdunZcj9T5hrMQ" guid="-hOtatvr8wIjqW8UD0MSGhQ" changeDate="2008-09-12T11:39:02.000+0200" version="1.0.0">
   <mainDescription>&lt;p&gt;&#xD;
     A potential event or future situation that can potentially affect, prevent, or limit a project's success. Project risks&#xD;
     may be seen as threats or opportunities.&#xD;

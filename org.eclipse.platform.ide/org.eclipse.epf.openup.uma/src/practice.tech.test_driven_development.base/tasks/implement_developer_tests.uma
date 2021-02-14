@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-UW-yTFk3AppqcGGU-Px63A" name=",_znlIcJR9EdyVKbgqUOtqQA" guid="-UW-yTFk3AppqcGGU-Px63A" changeDate="2010-09-15T21:44:18.858+0200" version="7.2.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_znlIcJR9EdyVKbgqUOtqQA" xmi:version="2.0" epf:version="1.5.1" xmi:id="-UW-yTFk3AppqcGGU-Px63A" name=",_znlIcJR9EdyVKbgqUOtqQA" guid="-UW-yTFk3AppqcGGU-Px63A" changeDate="2010-09-15T21:44:18.858+0200" version="7.2.0">
   <mainDescription>&lt;p&gt;&#xD;
     Developer testing is different from other forms of testing in that it is based on the expected behavior of code units&#xD;
     rather than being directly based on the system requirements.&#xD;
@@ -27,7 +27,7 @@
     The&amp;nbsp;[Project Work] is implicitly used in implementation tasks to manage which requirements or change requests are&#xD;
     being realized in the code.&#xD;
 &lt;/p&gt;</keyConsiderations>
-  <sections xmi:id="_C_j_EJR-EdyVKbgqUOtqQA" name="Refine scope and identify the test(s)" guid="_C_j_EJR-EdyVKbgqUOtqQA">
+  <sections variabilityBasedOnElement="_C_j_EJR-EdyVKbgqUOtqQA" xmi:id="_C_j_EJR-EdyVKbgqUOtqQA" name="Refine scope and identify the test(s)" guid="_C_j_EJR-EdyVKbgqUOtqQA">
     <sectionDescription>&lt;p&gt;&#xD;
     Select the increment of work to be tested and identify developer test(s)&amp;nbsp;to verify that the software&#xD;
     implementation&amp;nbsp;being developed behaves correctly. One source for the expected behavior for an implementation&#xD;
@@ -38,11 +38,11 @@
     well-versed in the issues of testing.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_Es64wJR-EdyVKbgqUOtqQA" name="Write the test setup" guid="_Es64wJR-EdyVKbgqUOtqQA">
+  <sections variabilityBasedOnElement="_Es64wJR-EdyVKbgqUOtqQA" xmi:id="_Es64wJR-EdyVKbgqUOtqQA" name="Write the test setup" guid="_Es64wJR-EdyVKbgqUOtqQA">
     <sectionDescription>To successfully run a test the system must be in a known state so that the correct behavior can be defined. Implement the&#xD;
 setup logic that must be performed as part of the developer test.</sectionDescription>
   </sections>
-  <sections xmi:id="_Fm4moJR-EdyVKbgqUOtqQA" name="Define the expected results" guid="_Fm4moJR-EdyVKbgqUOtqQA">
+  <sections variabilityBasedOnElement="_Fm4moJR-EdyVKbgqUOtqQA" xmi:id="_Fm4moJR-EdyVKbgqUOtqQA" name="Define the expected results" guid="_Fm4moJR-EdyVKbgqUOtqQA">
     <sectionDescription>&lt;p&gt;&#xD;
     Define the expected results of each test so that it can be verified.&#xD;
 &lt;/p&gt;&#xD;
@@ -51,18 +51,18 @@ setup logic that must be performed as part of the developer test.</sectionDescri
     The test is successful when the actual results match the expected results.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_GZaPwJR-EdyVKbgqUOtqQA" name="Write the test logic" guid="_GZaPwJR-EdyVKbgqUOtqQA">
+  <sections variabilityBasedOnElement="_GZaPwJR-EdyVKbgqUOtqQA" xmi:id="_GZaPwJR-EdyVKbgqUOtqQA" name="Write the test logic" guid="_GZaPwJR-EdyVKbgqUOtqQA">
     <sectionDescription>Write the steps that perform the actual test(s).</sectionDescription>
   </sections>
-  <sections xmi:id="_IMxq0JR-EdyVKbgqUOtqQA" name="Define the test response" guid="_IMxq0JR-EdyVKbgqUOtqQA">
+  <sections variabilityBasedOnElement="_IMxq0JR-EdyVKbgqUOtqQA" xmi:id="_IMxq0JR-EdyVKbgqUOtqQA" name="Define the test response" guid="_IMxq0JR-EdyVKbgqUOtqQA">
     <sectionDescription>Define the information the test(s) must produce to successfully indicate success or failure. Consider if a response of True&#xD;
 or False is sufficient, or if a detailed message should be logged as well.</sectionDescription>
   </sections>
-  <sections xmi:id="_JAiqEJR-EdyVKbgqUOtqQA" name="Write clean-up code" guid="_JAiqEJR-EdyVKbgqUOtqQA">
+  <sections variabilityBasedOnElement="_JAiqEJR-EdyVKbgqUOtqQA" xmi:id="_JAiqEJR-EdyVKbgqUOtqQA" name="Write clean-up code" guid="_JAiqEJR-EdyVKbgqUOtqQA">
     <sectionDescription>Identify, and then implement, the steps to be followed in order to restore the environment to the original state for each&#xD;
 test. The goal is to ensure that there are no side effects from running the tests.</sectionDescription>
   </sections>
-  <sections xmi:id="_KkDrQJR-EdyVKbgqUOtqQA" name="Test the test" guid="_KkDrQJR-EdyVKbgqUOtqQA">
+  <sections variabilityBasedOnElement="_KkDrQJR-EdyVKbgqUOtqQA" xmi:id="_KkDrQJR-EdyVKbgqUOtqQA" name="Test the test" guid="_KkDrQJR-EdyVKbgqUOtqQA">
     <sectionDescription>&lt;p&gt;&#xD;
     Verify that each developer test works correctly. To do this:&#xD;
 &lt;/p&gt;&#xD;

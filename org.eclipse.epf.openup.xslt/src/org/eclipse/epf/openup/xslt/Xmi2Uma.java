@@ -49,7 +49,7 @@ public class Xmi2Uma {
 
 	public static void main(String[] args) {
 		String inputDir = "C:\\Users\\julet\\GitHub\\ProMeta-ModelEditor\\org.eclipse.epf.openup\\";
-		String outputDir = "C:\\Users\\julet\\GitHub\\ProMeta-ModelEditor\\org.eclipse.platform.ide\\org.eclipse.epf.openup.uma\\";
+		String outputDir = "C:\\Users\\julet\\GitHub\\ProMeta-ModelEditor\\org.eclipse.platform.ide\\org.eclipse.epf.openup.uma\\src\\";
 		try {
 			TransformerFactory factory = new TransformerFactoryImpl();
 			Source xslt = new StreamSource(new File("xslt/Xmi2Uma.xslt"));
@@ -59,8 +59,8 @@ public class Xmi2Uma {
 			
 			for (File inputFile : files) {
 				String relativePath = getRelativePath(inputFile, inputDir);
+				relativePath = relativePath.replace(".xmi", ".uma");
 				String outputPath = outputDir + relativePath;
-				outputPath = outputPath.replace(".xmi", ".uma");
 				File outputFile = new File(outputPath);
 				Source text = new StreamSource(inputFile);
 				transformer.transform(text, new StreamResult(outputFile));

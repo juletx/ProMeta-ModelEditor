@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-2o1pXjHpSEPN_rohLce5jA" name="good_requirements_1,_jxn9EO0HEdqHTdbLTmC5IQ" guid="-2o1pXjHpSEPN_rohLce5jA" authors="Chris Sibbald" changeDate="2006-04-10T17:07:04.000+0200" changeDescription="Added checklist for good requirements in accordance with Feb. 23, 2006 minutes of RM SIG." version="0.1">
-  <sections xmi:id="_jxuDsu0HEdqHTdbLTmC5IQ" name="The requirement is correct" guid="_jxuDsu0HEdqHTdbLTmC5IQ">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="good_requirements_1,_jxn9EO0HEdqHTdbLTmC5IQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-2o1pXjHpSEPN_rohLce5jA" name="good_requirements_1,_jxn9EO0HEdqHTdbLTmC5IQ" guid="-2o1pXjHpSEPN_rohLce5jA" authors="Chris Sibbald" changeDate="2006-04-10T17:07:04.000+0200" changeDescription="Added checklist for good requirements in accordance with Feb. 23, 2006 minutes of RM SIG." version="0.1">
+  <sections variabilityBasedOnElement="_jxuDsu0HEdqHTdbLTmC5IQ" xmi:id="_jxuDsu0HEdqHTdbLTmC5IQ" name="The requirement is correct" guid="_jxuDsu0HEdqHTdbLTmC5IQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Does the requirement specify a true need, desire, or obligation?&#xD;
 &lt;/p&gt;&#xD;
@@ -7,7 +7,7 @@
     Have you identified the "root cause" for the requirement?&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_jxuDs-0HEdqHTdbLTmC5IQ" name="The requirement is complete" guid="_jxuDs-0HEdqHTdbLTmC5IQ">
+  <sections variabilityBasedOnElement="_jxuDs-0HEdqHTdbLTmC5IQ" xmi:id="_jxuDs-0HEdqHTdbLTmC5IQ" name="The requirement is complete" guid="_jxuDs-0HEdqHTdbLTmC5IQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Is the requirement stated as a complete sentence?&#xD;
 &lt;/p&gt;&#xD;
@@ -16,7 +16,7 @@
     information to understand the requirement?&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_jxuDse0HEdqHTdbLTmC5IQ" name="The requirement is clear" guid="_jxuDse0HEdqHTdbLTmC5IQ">
+  <sections variabilityBasedOnElement="_jxuDse0HEdqHTdbLTmC5IQ" xmi:id="_jxuDse0HEdqHTdbLTmC5IQ" name="The requirement is clear" guid="_jxuDse0HEdqHTdbLTmC5IQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Is the requirement unambiguous and not confusing?&#xD;
 &lt;/p&gt;&#xD;
@@ -24,7 +24,7 @@
     Does everyone agree on the meaning of the requirement?&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_jxuDt-0HEdqHTdbLTmC5IQ" name="The requirement is consistent" guid="_jxuDt-0HEdqHTdbLTmC5IQ">
+  <sections variabilityBasedOnElement="_jxuDt-0HEdqHTdbLTmC5IQ" xmi:id="_jxuDt-0HEdqHTdbLTmC5IQ" name="The requirement is consistent" guid="_jxuDt-0HEdqHTdbLTmC5IQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Is the requirement in conflict with other requirements?&#xD;
 &lt;/p&gt;&#xD;
@@ -32,7 +32,7 @@
     Is the terminology used consistent with other requirements and glossary terms?&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_jxuDte0HEdqHTdbLTmC5IQ" name="The requirement is verifiable" guid="_jxuDte0HEdqHTdbLTmC5IQ">
+  <sections variabilityBasedOnElement="_jxuDte0HEdqHTdbLTmC5IQ" xmi:id="_jxuDte0HEdqHTdbLTmC5IQ" name="The requirement is verifiable" guid="_jxuDte0HEdqHTdbLTmC5IQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Can we determine whether the system satisfies the requirement?&#xD;
 &lt;/p&gt;&#xD;
@@ -43,12 +43,12 @@
     Is it possible to determine if the requirement has been met via inspection, analysis, demonstration or test?&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_jxuDtu0HEdqHTdbLTmC5IQ" name="The requirement is traceable" guid="_jxuDtu0HEdqHTdbLTmC5IQ">
+  <sections variabilityBasedOnElement="_jxuDtu0HEdqHTdbLTmC5IQ" xmi:id="_jxuDtu0HEdqHTdbLTmC5IQ" name="The requirement is traceable" guid="_jxuDtu0HEdqHTdbLTmC5IQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Is the requirement uniquely identified so it can be unambiguously referenced?&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_jxuDtO0HEdqHTdbLTmC5IQ" name="The requirement is feasible" guid="_jxuDtO0HEdqHTdbLTmC5IQ">
+  <sections variabilityBasedOnElement="_jxuDtO0HEdqHTdbLTmC5IQ" xmi:id="_jxuDtO0HEdqHTdbLTmC5IQ" name="The requirement is feasible" guid="_jxuDtO0HEdqHTdbLTmC5IQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Can the requirement be satisfied within cost and on schedule?&#xD;
 &lt;/p&gt;&#xD;
@@ -59,7 +59,7 @@
     Is the requirement physically achievable?&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_jxuDsO0HEdqHTdbLTmC5IQ" name="The requirement is design independent" guid="_jxuDsO0HEdqHTdbLTmC5IQ">
+  <sections variabilityBasedOnElement="_jxuDsO0HEdqHTdbLTmC5IQ" xmi:id="_jxuDsO0HEdqHTdbLTmC5IQ" name="The requirement is design independent" guid="_jxuDsO0HEdqHTdbLTmC5IQ">
     <sectionDescription>&lt;p&gt;&#xD;
     Are all requirements that impose constraints on the design, limiting design options,&amp;nbsp;justified?&#xD;
 &lt;/p&gt;&#xD;
@@ -67,7 +67,7 @@
     Is the requirement stated in such that there is more than one way that it can be satisfied?&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_gRb_IJEvEdui_vx06Mo1eg" name="The requirement is atomic" guid="_gRb_IJEvEdui_vx06Mo1eg">
+  <sections variabilityBasedOnElement="_gRb_IJEvEdui_vx06Mo1eg" xmi:id="_gRb_IJEvEdui_vx06Mo1eg" name="The requirement is atomic" guid="_gRb_IJEvEdui_vx06Mo1eg">
     <sectionDescription>&lt;p&gt;&#xD;
     Does the requirement statement define exactly one requirement?&#xD;
 &lt;/p&gt;&#xD;

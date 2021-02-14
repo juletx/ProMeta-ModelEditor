@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="-5i4nbMLokgXzl8E2LT94uQ" name=",_okIOcEmfEd-UYMQAaXd4fQ" guid="-5i4nbMLokgXzl8E2LT94uQ" changeDate="2010-04-16T11:33:16.000+0200" version="7.5.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_okIOcEmfEd-UYMQAaXd4fQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-5i4nbMLokgXzl8E2LT94uQ" name=",_okIOcEmfEd-UYMQAaXd4fQ" guid="-5i4nbMLokgXzl8E2LT94uQ" changeDate="2010-04-16T11:33:16.000+0200" version="7.5.0">
   <mainDescription>&lt;p&gt;
     Many software-development tools support teams of people, with several users working with information stored in a shared
     repository. Each user uses the tool on their personal computer (client) and the shared repository is stored on a
@@ -13,7 +13,7 @@
 &lt;p&gt;
     The approach should be to automate as much as possible of the installation and customization procedures.
 &lt;/p&gt;</mainDescription>
-  <sections xmi:id="_ZUv10NnnEdmO6L4XMImrsA" name=" Install the Tool on the Server " guid="_ZUv10NnnEdmO6L4XMImrsA">
+  <sections variabilityBasedOnElement="_ZUv10NnnEdmO6L4XMImrsA" xmi:id="_ZUv10NnnEdmO6L4XMImrsA" name=" Install the Tool on the Server " guid="_ZUv10NnnEdmO6L4XMImrsA">
     <sectionDescription>&lt;a id="Install the Tool on the Server" name="Install the Tool on the Server"&gt;&lt;/a&gt; &#xD;
 &lt;p&gt;&#xD;
     Identify what other software is required for the specific tool to work, and install this software.&amp;nbsp;For example, a&#xD;
@@ -23,7 +23,7 @@
     When you have installed the support software, you can install the tool on the server.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_ZUv10dnnEdmO6L4XMImrsA" name=" Customize the Tool" guid="_ZUv10dnnEdmO6L4XMImrsA">
+  <sections variabilityBasedOnElement="_ZUv10dnnEdmO6L4XMImrsA" xmi:id="_ZUv10dnnEdmO6L4XMImrsA" name=" Customize the Tool" guid="_ZUv10dnnEdmO6L4XMImrsA">
     <sectionDescription>&lt;a id="Customize the Tool (on the Server)" name="Customize the Tool (on the Server)"&gt;&lt;/a&gt; &#xD;
 &lt;p&gt;&#xD;
     Decide how to customize the tool so that it supports the&amp;nbsp;&lt;a class="elementLink"&#xD;
@@ -40,7 +40,7 @@
     Document the customizations in project-specific guidelines.&amp;nbsp;&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_ZUv109nnEdmO6L4XMImrsA" name=" Integrate with Other Tools " guid="_ZUv109nnEdmO6L4XMImrsA">
+  <sections variabilityBasedOnElement="_ZUv109nnEdmO6L4XMImrsA" xmi:id="_ZUv109nnEdmO6L4XMImrsA" name=" Integrate with Other Tools " guid="_ZUv109nnEdmO6L4XMImrsA">
     <sectionDescription>&lt;a id="Integrate With Other Tools" name="Integrate With Other Tools"&gt;&lt;/a&gt; &#xD;
 &lt;p&gt;&#xD;
     Integrate the tool with other tools to make it easier to use. An integration between tools is in most cases in the form&#xD;
@@ -76,7 +76,7 @@
     Describe how the tools are integrated with each other in the project-specific guidelines.&amp;nbsp;&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_ZUv11NnnEdmO6L4XMImrsA" name=" Install and Customize Tools on Clients " guid="_ZUv11NnnEdmO6L4XMImrsA">
+  <sections variabilityBasedOnElement="_ZUv11NnnEdmO6L4XMImrsA" xmi:id="_ZUv11NnnEdmO6L4XMImrsA" name=" Install and Customize Tools on Clients " guid="_ZUv11NnnEdmO6L4XMImrsA">
     <sectionDescription>&lt;a id="Install Tools on Clients" name="Install Tools on Clients"&gt;&lt;/a&gt; &#xD;
 &lt;p&gt;&#xD;
     Install the tool on each client. The least that is needed to do when installing a tool on the client side, is to set up&#xD;

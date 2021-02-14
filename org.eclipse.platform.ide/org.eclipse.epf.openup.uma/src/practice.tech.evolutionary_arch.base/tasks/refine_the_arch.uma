@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1" xmi:id="_rUis8LBKEdm7Eph_l9Cn9w" name="refine_the_arch,_0gRJgMlgEdmt3adZL5Dmdw" guid="_rUis8LBKEdm7Eph_l9Cn9w" changeDate="2008-08-08T20:29:21.000+0200" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="refine_the_arch,_0gRJgMlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_rUis8LBKEdm7Eph_l9Cn9w" name="refine_the_arch,_0gRJgMlgEdmt3adZL5Dmdw" guid="_rUis8LBKEdm7Eph_l9Cn9w" changeDate="2008-08-08T20:29:21.000+0200" version="1.0.0">
   <mainDescription>&lt;p&gt;&#xD;
     This task&amp;nbsp;builds upon the outlined architecture and makes concrete and unambiguous architectural decisions to&#xD;
     support development.&amp;nbsp; It takes into&amp;nbsp;account any design and implementation work products that have been&#xD;
@@ -52,7 +52,7 @@
         Informal walkthroughs of the architecture&#xD;
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</keyConsiderations>
-  <sections xmi:id="_l92AYNpaEdyP58ppo1Ieaw" name="Refine the architectural goals and architecturally-significant requirements" guid="_l92AYNpaEdyP58ppo1Ieaw">
+  <sections variabilityBasedOnElement="_l92AYNpaEdyP58ppo1Ieaw" xmi:id="_l92AYNpaEdyP58ppo1Ieaw" name="Refine the architectural goals and architecturally-significant requirements" guid="_l92AYNpaEdyP58ppo1Ieaw">
     <sectionDescription>&lt;p&gt;&#xD;
     Work with the team, especially the stakeholders and the requirements team, to review the status of the &lt;a&#xD;
     class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/arch_goals_CB41D8AE.html"&#xD;
@@ -67,7 +67,7 @@
     designing and implementing the system so far to adjust and refined those decisions and goals.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_G_k1kBaqEduSTJywppIxVQ" name="Identify architecturally significant design elements" guid="_G_k1kBaqEduSTJywppIxVQ">
+  <sections variabilityBasedOnElement="_G_k1kBaqEduSTJywppIxVQ" xmi:id="_G_k1kBaqEduSTJywppIxVQ" name="Identify architecturally significant design elements" guid="_G_k1kBaqEduSTJywppIxVQ">
     <sectionDescription>&lt;p align="left"&gt;&#xD;
     Identify concrete&amp;nbsp;design elements (such as &lt;a class="elementLink"&#xD;
     href="./../../core.tech.common.extend_supp/guidances/concepts/component_CB167D48.html"&#xD;
@@ -153,7 +153,7 @@
     When you identify a component be sure to briefly describe the functionality that should be allocated to the components.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_0qoQ8CikEduQBKSg5n118w" name="Refine architectural mechanisms" guid="_0qoQ8CikEduQBKSg5n118w">
+  <sections variabilityBasedOnElement="_0qoQ8CikEduQBKSg5n118w" xmi:id="_0qoQ8CikEduQBKSg5n118w" name="Refine architectural mechanisms" guid="_0qoQ8CikEduQBKSg5n118w">
     <sectionDescription>&lt;p&gt;&#xD;
     Refine&amp;nbsp;the applicable &lt;a class="elementLink"&#xD;
     href="./../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html"&#xD;
@@ -162,11 +162,11 @@
     mechanism.&amp;nbsp;&lt;br /&gt;&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_82iI0FHOEd2zrOgIte8oWg" name="Define development architecture and test architecture" guid="_82iI0FHOEd2zrOgIte8oWg">
+  <sections variabilityBasedOnElement="_82iI0FHOEd2zrOgIte8oWg" xmi:id="_82iI0FHOEd2zrOgIte8oWg" name="Define development architecture and test architecture" guid="_82iI0FHOEd2zrOgIte8oWg">
     <sectionDescription>Ensure that the development and test architectures are defined. Note any architecturally significant differences between&#xD;
 these environments and work with the team to devise strategies to mitigate any risks these may introduce.</sectionDescription>
   </sections>
-  <sections xmi:id="_Vdln8MP3EdmWKcx6ixEiwg" name="Identify additional reuse opportunities" guid="_Vdln8MP3EdmWKcx6ixEiwg">
+  <sections variabilityBasedOnElement="_Vdln8MP3EdmWKcx6ixEiwg" xmi:id="_Vdln8MP3EdmWKcx6ixEiwg" name="Identify additional reuse opportunities" guid="_Vdln8MP3EdmWKcx6ixEiwg">
     <sectionDescription>&lt;p dir="ltr" style="MARGIN-RIGHT: 0px"&gt;&#xD;
     Continue to look for more opportunities to reuse existing assets.&amp;nbsp; Where applicable, identify existing components&#xD;
     that could be built to be reused.&#xD;
@@ -177,7 +177,7 @@ these environments and work with the team to devise strategies to mitigate any r
     guid="_vO2uoO0OEduUpsu85bVhiQ"&gt;Guideline: Software Reuse&lt;/a&gt;.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_GFLpsFHPEd2zrOgIte8oWg" name="Validate the architecture" guid="_GFLpsFHPEd2zrOgIte8oWg">
+  <sections variabilityBasedOnElement="_GFLpsFHPEd2zrOgIte8oWg" xmi:id="_GFLpsFHPEd2zrOgIte8oWg" name="Validate the architecture" guid="_GFLpsFHPEd2zrOgIte8oWg">
     <sectionDescription>Make sure that the architecture supports the requirements and the needs of the team. &lt;br /&gt;&#xD;
 &lt;br /&gt;&#xD;
 Development work should be performed to produce just enough working software to show that the architecture is viable. This&#xD;
@@ -186,14 +186,14 @@ iteratively, more than one increment of the build may be required to prove the a
 project it may be acceptable for the software to have a incomplete or prototypical feel, as it will be primarily concerned&#xD;
 with baselining the architecture to provide a stable foundation for the remaining development work.</sectionDescription>
   </sections>
-  <sections xmi:id="_xIIVkMUbEdu5GrwIlTJV7g" name="Map the software to the hardware" guid="_xIIVkMUbEdu5GrwIlTJV7g">
+  <sections variabilityBasedOnElement="_xIIVkMUbEdu5GrwIlTJV7g" xmi:id="_xIIVkMUbEdu5GrwIlTJV7g" name="Map the software to the hardware" guid="_xIIVkMUbEdu5GrwIlTJV7g">
     <sectionDescription>&lt;p align="left"&gt;&#xD;
     Map the architecturally significant design elements to the target deployment environment. Work with hardware and&#xD;
     network specialists to ensure that the hardware is sufficient to meet the needs of the system; and that any new&#xD;
     hardware is available in time.&#xD;
 &lt;/p&gt;</sectionDescription>
   </sections>
-  <sections xmi:id="_pyyVoFHPEd2zrOgIte8oWg" name="Communicate decisions" guid="_pyyVoFHPEd2zrOgIte8oWg">
+  <sections variabilityBasedOnElement="_pyyVoFHPEd2zrOgIte8oWg" xmi:id="_pyyVoFHPEd2zrOgIte8oWg" name="Communicate decisions" guid="_pyyVoFHPEd2zrOgIte8oWg">
     <sectionDescription>Ensure that those who need to act upon the architectural work understand it and are able to work with it. Make sure that&#xD;
 the description of the architecture clearly conveys not only the solution but also the motivation and objectives related to&#xD;
 the decisions that have been made in shaping the architecture. This will make it easier for others to understand the&#xD;
