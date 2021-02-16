@@ -243,7 +243,7 @@
     </edges>
   </notation:Diagram>
   <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_7Z35ANUIEdylRpA9TBY1SQ">
-    <linkedElement xmi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_SuWj4NOPEdyqlogshP8l4g#_SuWj4dOPEdyqlogshP8l4g"/>
+    <linkedElement xmi:type="org.eclipse.epf.uma:DeliveryProcess" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_SuWj4dOPEdyqlogshP8l4g"/>
   </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
   <notation:Diagram xmi:id="_7Z35AdUIEdylRpA9TBY1SQ" type="ADD" element="_7Z35ANUIEdylRpA9TBY1SQ" name="openup_lifecycle" measurementUnit="Pixel">
     <styles xmi:type="notation:PageStyle" xmi:id="_7Z35AtUIEdylRpA9TBY1SQ"/>
@@ -251,7 +251,7 @@
     <styles xmi:type="notation:DescriptionStyle" xmi:id="_7Z35BNUIEdylRpA9TBY1SQ"/>
   </notation:Diagram>
   <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_adP-QDM_Ed2FLqBzSmhoFg">
-    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="uma://_SuWj4NOPEdyqlogshP8l4g#_kYVSUdOPEdyqlogshP8l4g"/>
+    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_kYVSUdOPEdyqlogshP8l4g"/>
   </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
   <notation:Diagram xmi:id="_adP-QTM_Ed2FLqBzSmhoFg" type="ADD" element="_adP-QDM_Ed2FLqBzSmhoFg" name="inception_phase_iteration" measurementUnit="Pixel">
     <styles xmi:type="notation:PageStyle" xmi:id="_adP-QjM_Ed2FLqBzSmhoFg"/>
@@ -259,7 +259,7 @@
     <styles xmi:type="notation:DescriptionStyle" xmi:id="_adP-RDM_Ed2FLqBzSmhoFg"/>
   </notation:Diagram>
   <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_apBwcDM_Ed2FLqBzSmhoFg">
-    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="uma://_SuWj4NOPEdyqlogshP8l4g#_51ewYdOPEdyqlogshP8l4g"/>
+    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_51ewYdOPEdyqlogshP8l4g"/>
   </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
   <notation:Diagram xmi:id="_apBwcTM_Ed2FLqBzSmhoFg" type="ADD" element="_apBwcDM_Ed2FLqBzSmhoFg" name="elaboration_phase_iteration" measurementUnit="Pixel">
     <styles xmi:type="notation:PageStyle" xmi:id="_apBwcjM_Ed2FLqBzSmhoFg"/>
@@ -267,7 +267,7 @@
     <styles xmi:type="notation:DescriptionStyle" xmi:id="_apBwdDM_Ed2FLqBzSmhoFg"/>
   </notation:Diagram>
   <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_avSwgDM_Ed2FLqBzSmhoFg">
-    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="uma://_SuWj4NOPEdyqlogshP8l4g#_6togYdOPEdyqlogshP8l4g"/>
+    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_6togYdOPEdyqlogshP8l4g"/>
   </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
   <notation:Diagram xmi:id="_avSwgTM_Ed2FLqBzSmhoFg" type="ADD" element="_avSwgDM_Ed2FLqBzSmhoFg" name="construction_phase_iteration" measurementUnit="Pixel">
     <styles xmi:type="notation:PageStyle" xmi:id="_avSwgjM_Ed2FLqBzSmhoFg"/>
@@ -275,7 +275,7 @@
     <styles xmi:type="notation:DescriptionStyle" xmi:id="_avSwhDM_Ed2FLqBzSmhoFg"/>
   </notation:Diagram>
   <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_a1jJgDM_Ed2FLqBzSmhoFg">
-    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="uma://_SuWj4NOPEdyqlogshP8l4g#_7bg6EdOPEdyqlogshP8l4g"/>
+    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_7bg6EdOPEdyqlogshP8l4g"/>
   </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
   <notation:Diagram xmi:id="_a1jJgTM_Ed2FLqBzSmhoFg" type="ADD" element="_a1jJgDM_Ed2FLqBzSmhoFg" name="transition_phase_iteration" measurementUnit="Pixel">
     <styles xmi:type="notation:PageStyle" xmi:id="_a1jJgjM_Ed2FLqBzSmhoFg"/>

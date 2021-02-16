@@ -4,7 +4,7 @@
     <methodElementProperty xmi:id="_G9UwMBo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9AsLekEd-D7YZN9NgldQ" name="plan_manage_iteration" guid="_9t9AsLekEd-D7YZN9NgldQ">
       <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_3s7aYdONEdyqlogshP8l4g" name="plan_manage_iteration" guid="_3s7aYdONEdyqlogshP8l4g" superActivities="_RQi0AdONEdyqlogshP8l4g" variabilityType="extends" breakdownElements="_DZttwJlXEeGlkdGl1HQlDA _DZttwZlXEeGlkdGl1HQlDA _DZttw5lXEeGlkdGl1HQlDA _DZttxZlXEeGlkdGl1HQlDA _DaTjoplXEeGlkdGl1HQlDA _DaTjpZlXEeGlkdGl1HQlDA _DaTjqJlXEeGlkdGl1HQlDA">
-        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_oZgCsNOEEdyqlogshP8l4g#_oZgCsdOEEdyqlogshP8l4g"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma#_oZgCsdOEEdyqlogshP8l4g"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_DZttwJlXEeGlkdGl1HQlDA" name="plan_deployment" guid="_DZttwJlXEeGlkdGl1HQlDA" presentationName="Plan Deployment" briefDescription="If a Deployment Plan for the project already exists, update it to reflect the nature of this release. If this document does not exist, develop a Deployment Plan to indicate how this release will be rolled out to the production environment." superActivities="_3s7aYdONEdyqlogshP8l4g" additionallyPerformedBy="_DZttw5lXEeGlkdGl1HQlDA" output="_DZttxZlXEeGlkdGl1HQlDA" performedPrimarilyBy="_DZttwZlXEeGlkdGl1HQlDA">
         <methodElementProperty xmi:id="_G9UwMRo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
@@ -13,11 +13,11 @@
         <checklists href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAG5weB-EeC1y_NExchKwQ"/>
         <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_yYlQoC3xEdycYKq0PulnEQ"/>
         <Task href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAJ9EeB-EeC1y_NExchKwQ"/>
-        <selectedSteps href="uma://-QqCVewwu8buOCXKRukpf5g#_IAJ9E-B-EeC1y_NExchKwQ"/>
-        <selectedSteps href="uma://-QqCVewwu8buOCXKRukpf5g#_IAJ9EuB-EeC1y_NExchKwQ"/>
-        <selectedSteps href="uma://-QqCVewwu8buOCXKRukpf5g#_IAJ9FOB-EeC1y_NExchKwQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\plan_deployment.uma#_IAJ9E-B-EeC1y_NExchKwQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\plan_deployment.uma#_IAJ9EuB-EeC1y_NExchKwQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\plan_deployment.uma#_IAJ9FOB-EeC1y_NExchKwQ"/>
       </processElements>
-      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_DZttwZlXEeGlkdGl1HQlDA" name="deployment_engineer" guid="_DZttwZlXEeGlkdGl1HQlDA" presentationName="Deployment Engineer" briefDescription="A Deployment Engineer is responsible to the Deployment Manager for the safe deployment of one or more releases into the production environment." isPlanned="false" superActivities="_3s7aYdONEdyqlogshP8l4g" modifies="_DZttxZlXEeGlkdGl1HQlDA" responsibleFor="_DZttxZlXEeGlkdGl1HQlDA _DaTjoplXEeGlkdGl1HQlDA _DaTjpZlXEeGlkdGl1HQlDA _DaTjqJlXEeGlkdGl1HQlDA">
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_DZttwZlXEeGlkdGl1HQlDA" name="deployment_engineer" guid="_DZttwZlXEeGlkdGl1HQlDA" presentationName="Deployment Engineer" briefDescription="A Deployment Engineer is responsible to the Deployment Manager for the safe deployment of one or more releases into the production environment." isPlanned="false" superActivities="_3s7aYdONEdyqlogshP8l4g" responsibleFor="_DZttxZlXEeGlkdGl1HQlDA _DaTjoplXEeGlkdGl1HQlDA _DaTjpZlXEeGlkdGl1HQlDA _DaTjqJlXEeGlkdGl1HQlDA">
         <methodElementProperty xmi:id="_G9UwMxo0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
         <methodElementProperty xmi:id="_G9UwNBo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
         <presentation xmi:id="-noiWjBdDPWJmSF3l73Ti7Q" href="content.uma#-noiWjBdDPWJmSF3l73Ti7Q"/>
@@ -63,25 +63,25 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9As7ekEd-D7YZN9NgldQ" name="test_solution" guid="_9t9As7ekEd-D7YZN9NgldQ">
       <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_HhjJsdOOEdyqlogshP8l4g" name="test_solution" guid="_HhjJsdOOEdyqlogshP8l4g" superActivities="_RQi0AdONEdyqlogshP8l4g" variabilityType="extends">
         <methodElementProperty xmi:id="_G9UwQBo0EeuXnIT9fOh1Fg" name="wbe_GlobalPresentedAfter" value="_CqFrgdOOEdyqlogshP8l4g"/>
-        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_buG4sNOFEdyqlogshP8l4g#_buG4sdOFEdyqlogshP8l4g"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\test_solution\model.uma#_buG4sdOFEdyqlogshP8l4g"/>
       </processElements>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9AtLekEd-D7YZN9NgldQ" name="ongoing_tasks" guid="_9t9AtLekEd-D7YZN9NgldQ">
       <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_GQejYdOOEdyqlogshP8l4g" name="ongoing_tasks" guid="_GQejYdOOEdyqlogshP8l4g" isPlanned="false" superActivities="_RQi0AdONEdyqlogshP8l4g" isOngoing="true" variabilityType="extends">
         <methodElementProperty xmi:id="_G9UwQRo0EeuXnIT9fOh1Fg" name="wbe_GlobalPresentedAfter" value="_HhjJsdOOEdyqlogshP8l4g"/>
-        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://__ZInMNOEEdyqlogshP8l4g#__ZInMdOEEdyqlogshP8l4g"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\ongoing_tasks\model.uma#__ZInMdOEEdyqlogshP8l4g"/>
       </processElements>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_8--9sJigEeGlkdGl1HQlDA" name="prepare_product_documentation" guid="_8--9sJigEeGlkdGl1HQlDA">
       <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_8--9sZigEeGlkdGl1HQlDA" name="prepare_product_documentation" guid="_8--9sZigEeGlkdGl1HQlDA" superActivities="_RQi0AdONEdyqlogshP8l4g" variabilityType="extends">
         <methodElementProperty xmi:id="_G9UwQho0EeuXnIT9fOh1Fg" name="wbe_GlobalPresentedAfter" value="_GQejYdOOEdyqlogshP8l4g"/>
-        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_y7a0KpiLEeGOvpP1fVrVNA#_y7a0LJiLEeGOvpP1fVrVNA"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\prep_doc_trng\model.uma#_y7a0LJiLEeGOvpP1fVrVNA"/>
       </processElements>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_yw_dcJlVEeGlkdGl1HQlDA" name="identify_and_refine_requirements" guid="_yw_dcJlVEeGlkdGl1HQlDA">
       <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_yw_dcZlVEeGlkdGl1HQlDA" name="identify_and_refine_requirements" guid="_yw_dcZlVEeGlkdGl1HQlDA" superActivities="_RQi0AdONEdyqlogshP8l4g" variabilityType="extends">
         <methodElementProperty xmi:id="_G9UwQxo0EeuXnIT9fOh1Fg" name="wbe_GlobalPresentedAfter" value="_3s7aYdONEdyqlogshP8l4g"/>
-        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_xxcpgNOEEdyqlogshP8l4g#_xxcpgdOEEdyqlogshP8l4g"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\identify_and_refine_requirements\model.uma#_xxcpgdOEEdyqlogshP8l4g"/>
       </processElements>
     </childPackages>
     <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_RQi0AdONEdyqlogshP8l4g" name="construction_phase_iteration" guid="_RQi0AdONEdyqlogshP8l4g" presentationName="Construction Phase Iteration" briefDescription="This iteration template defines the activities (and associated roles and work products) performed in a typical iteration in the Construction phase." breakdownElements="_3s7aYdONEdyqlogshP8l4g _yw_dcZlVEeGlkdGl1HQlDA _CqFrgdOOEdyqlogshP8l4g _HhjJsdOOEdyqlogshP8l4g _GQejYdOOEdyqlogshP8l4g _8--9sZigEeGlkdGl1HQlDA">

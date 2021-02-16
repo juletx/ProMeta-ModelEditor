@@ -11,9 +11,9 @@
         <methodElementProperty xmi:id="_G9K_MRo0EeuXnIT9fOh1Fg" name="wbe_GlobalPresentedAfter" value="_3MJwM5oQEeGnJt_Qpwdfdg"/>
         <guidelines href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base/plugin.uma#_A1qOACu3Ed-UrP371xHUyw"/>
         <Task href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base/plugin.uma#_XlJ80CZpEd-XKYR2S73PfQ"/>
-        <selectedSteps href="uma://-dWzB4mHRr5uSP98BqAOy1g#_kPN0oCZpEd-XKYR2S73PfQ"/>
-        <selectedSteps href="uma://-dWzB4mHRr5uSP98BqAOy1g#_nGNP4CZpEd-XKYR2S73PfQ"/>
-        <selectedSteps href="uma://-dWzB4mHRr5uSP98BqAOy1g#_8rmD8CZpEd-XKYR2S73PfQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\deploy_process.uma#_kPN0oCZpEd-XKYR2S73PfQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\deploy_process.uma#_nGNP4CZpEd-XKYR2S73PfQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\deploy_process.uma#_8rmD8CZpEd-XKYR2S73PfQ"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_3MJwMZoQEeGnJt_Qpwdfdg" name="tailor_process" guid="_3MJwMZoQEeGnJt_Qpwdfdg" presentationName="Tailor the Process" briefDescription="This task describes how to tailor a process for a project." superActivities="_o1WpwZoQEeGnJt_Qpwdfdg" mandatoryInput="_3MJwNJoQEeGnJt_Qpwdfdg" output="_3MJwNJoQEeGnJt_Qpwdfdg">
         <methodElementProperty xmi:id="_G9K_Mho0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
@@ -27,32 +27,32 @@
         <supportingMaterials href="/org.eclipse.epf.openup.uma/src/core.default.tool_def.base/plugin.uma#_dlGBQF_nEd2zpKtX6B7lBg"/>
         <supportingMaterials href="/org.eclipse.epf.openup.uma/src/core.default.tool_def.base/plugin.uma#_omneEMX4EduywMSzPTUUwA"/>
         <Task href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base/plugin.uma#_NOBsuCZLEd-QuZFPf_YdqQ"/>
-        <selectedSteps href="uma://-QSekP8qxW4BdpikByUiCUg#_NOBsuSZLEd-QuZFPf_YdqQ"/>
-        <selectedSteps href="uma://-QSekP8qxW4BdpikByUiCUg#_o6-UwCZLEd-QuZFPf_YdqQ"/>
-        <selectedSteps href="uma://-QSekP8qxW4BdpikByUiCUg#_vXIf4CZLEd-QuZFPf_YdqQ"/>
-        <selectedSteps href="uma://-QSekP8qxW4BdpikByUiCUg#_2WBkoCZLEd-QuZFPf_YdqQ"/>
-        <selectedSteps href="uma://-QSekP8qxW4BdpikByUiCUg#_LMrkQCZpEd-XKYR2S73PfQ"/>
-        <selectedSteps href="uma://-QSekP8qxW4BdpikByUiCUg#_VXSXECZpEd-XKYR2S73PfQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\tailor_process.uma#_NOBsuSZLEd-QuZFPf_YdqQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\tailor_process.uma#_o6-UwCZLEd-QuZFPf_YdqQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\tailor_process.uma#_vXIf4CZLEd-QuZFPf_YdqQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\tailor_process.uma#_2WBkoCZLEd-QuZFPf_YdqQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\tailor_process.uma#_LMrkQCZpEd-XKYR2S73PfQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\tailor_process.uma#_VXSXECZpEd-XKYR2S73PfQ"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_3MJwMpoQEeGnJt_Qpwdfdg" name="setup_tools" guid="_3MJwMpoQEeGnJt_Qpwdfdg" presentationName="Set Up Tools" superActivities="_o1WpwZoQEeGnJt_Qpwdfdg" mandatoryInput="_3MJwNpoQEeGnJt_Qpwdfdg" output="_3MJwNpoQEeGnJt_Qpwdfdg">
         <methodElementProperty xmi:id="_G9K_NBo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
         <methodElementProperty xmi:id="_G9K_NRo0EeuXnIT9fOh1Fg" name="wbe_GlobalPresentedAfter" value="_3MJwMZoQEeGnJt_Qpwdfdg"/>
         <presentation xmi:id="-kf93WiVNlTyNTwYo2aW6lA" href="content.uma#-kf93WiVNlTyNTwYo2aW6lA"/>
         <Task href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base/plugin.uma#_okIOcEmfEd-UYMQAaXd4fQ"/>
-        <selectedSteps href="uma://-5i4nbMLokgXzl8E2LT94uQ#_ZUv10NnnEdmO6L4XMImrsA"/>
-        <selectedSteps href="uma://-5i4nbMLokgXzl8E2LT94uQ#_ZUv10dnnEdmO6L4XMImrsA"/>
-        <selectedSteps href="uma://-5i4nbMLokgXzl8E2LT94uQ#_ZUv109nnEdmO6L4XMImrsA"/>
-        <selectedSteps href="uma://-5i4nbMLokgXzl8E2LT94uQ#_ZUv11NnnEdmO6L4XMImrsA"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\setup_tools.uma#_ZUv10NnnEdmO6L4XMImrsA"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\setup_tools.uma#_ZUv10dnnEdmO6L4XMImrsA"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\setup_tools.uma#_ZUv109nnEdmO6L4XMImrsA"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\setup_tools.uma#_ZUv11NnnEdmO6L4XMImrsA"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_3MJwM5oQEeGnJt_Qpwdfdg" name="verify_tool_config_installation" guid="_3MJwM5oQEeGnJt_Qpwdfdg" presentationName="Verify Tool Configuration and Installation" briefDescription="This task describes how to verify that the Development Configuration is ready to be used by the project." superActivities="_o1WpwZoQEeGnJt_Qpwdfdg" mandatoryInput="_3MJwNpoQEeGnJt_Qpwdfdg" output="_3MJwNpoQEeGnJt_Qpwdfdg">
         <methodElementProperty xmi:id="_G9K_Nho0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
         <methodElementProperty xmi:id="_G9K_Nxo0EeuXnIT9fOh1Fg" name="wbe_GlobalPresentedAfter" value="_3MJwMpoQEeGnJt_Qpwdfdg"/>
         <presentation xmi:id="-aqrOibs8yam4NLnHTUTdUg" href="content.uma#-aqrOibs8yam4NLnHTUTdUg"/>
         <Task href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base/plugin.uma#_jcjbMEmgEd-UYMQAaXd4fQ"/>
-        <selectedSteps href="uma://-YTA7QOxZpdM-is9Zx_tJXQ#_tJ7fcEmgEd-UYMQAaXd4fQ"/>
-        <selectedSteps href="uma://-YTA7QOxZpdM-is9Zx_tJXQ#_tcICsEmgEd-UYMQAaXd4fQ"/>
-        <selectedSteps href="uma://-YTA7QOxZpdM-is9Zx_tJXQ#_u7Q6MEmgEd-UYMQAaXd4fQ"/>
-        <selectedSteps href="uma://-YTA7QOxZpdM-is9Zx_tJXQ#_xHb20EmgEd-UYMQAaXd4fQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\verify_tool_config_installation.uma#_tJ7fcEmgEd-UYMQAaXd4fQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\verify_tool_config_installation.uma#_tcICsEmgEd-UYMQAaXd4fQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\verify_tool_config_installation.uma#_u7Q6MEmgEd-UYMQAaXd4fQ"/>
+        <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base\tasks\verify_tool_config_installation.uma#_xHb20EmgEd-UYMQAaXd4fQ"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_3MJwNJoQEeGnJt_Qpwdfdg" name="project_defined_process" guid="_3MJwNJoQEeGnJt_Qpwdfdg" presentationName="Project Defined Process" briefDescription="This work product describes the process that a project is to follow in order to produce the project's desired results." isPlanned="false" superActivities="_o1WpwZoQEeGnJt_Qpwdfdg">
         <methodElementProperty xmi:id="_G9K_OBo0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
@@ -77,12 +77,12 @@
       <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#__yQQ4L6REdqti4GwqTkbsQ"/>
       <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_yYlQoC3xEdycYKq0PulnEQ"/>
       <Task href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base/plugin.uma#_0keUEMlgEdmt3adZL5Dmdw"/>
-      <selectedSteps href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_7bz7AIyAEdyhZb-MhCJrlA"/>
-      <selectedSteps href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_CtKCMMBHEdqSgKaj2SZBmg"/>
-      <selectedSteps href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_HzNVgIyBEdyhZb-MhCJrlA"/>
-      <selectedSteps href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_307v0MMsEdmdo9HxCRR_Gw"/>
-      <selectedSteps href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_7Hqr4MMsEdmdo9HxCRR_Gw"/>
-      <selectedSteps href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_-tp18FHjEd2IaYFd32DrjQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\plan_iteration.uma#_7bz7AIyAEdyhZb-MhCJrlA"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\plan_iteration.uma#_CtKCMMBHEdqSgKaj2SZBmg"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\plan_iteration.uma#_HzNVgIyBEdyhZb-MhCJrlA"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\plan_iteration.uma#_307v0MMsEdmdo9HxCRR_Gw"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\plan_iteration.uma#_7Hqr4MMsEdmdo9HxCRR_Gw"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\plan_iteration.uma#_-tp18FHjEd2IaYFd32DrjQ"/>
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_y1MMMNOJEdyqlogshP8l4g" name="iteration_plan" guid="_y1MMMNOJEdyqlogshP8l4g" presentationName="Iteration Plan" briefDescription="A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration." isPlanned="false" superActivities="_oZgCsdOEEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_G9K_PRo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
@@ -125,11 +125,11 @@
       <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#__yQQ4L6REdqti4GwqTkbsQ"/>
       <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.slot.base/plugin.uma#_68JUYN8-Edyhmsbt0Xyl8A"/>
       <Task href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base/plugin.uma#_8S2aICbYEdqh1LYUOGRh2A"/>
-      <selectedSteps href="uma://-PbfqVxB_j9KN-Jx39_pEUA#_OE65ICuxEdqTIKp3l5PtzQ"/>
-      <selectedSteps href="uma://-PbfqVxB_j9KN-Jx39_pEUA#_urvQkGSyEd2DNqLAFatITA"/>
-      <selectedSteps href="uma://-PbfqVxB_j9KN-Jx39_pEUA#_oIZdkCbZEdqh1LYUOGRh2A"/>
-      <selectedSteps href="uma://-PbfqVxB_j9KN-Jx39_pEUA#_xiFJwCbZEdqh1LYUOGRh2A"/>
-      <selectedSteps href="uma://-PbfqVxB_j9KN-Jx39_pEUA#_Br6VECuxEdqTIKp3l5PtzQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma#_OE65ICuxEdqTIKp3l5PtzQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma#_urvQkGSyEd2DNqLAFatITA"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma#_oIZdkCbZEdqh1LYUOGRh2A"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma#_xiFJwCbZEdqh1LYUOGRh2A"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma#_Br6VECuxEdqTIKp3l5PtzQ"/>
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_0Qiv4NOJEdyqlogshP8l4g" name="assess_results" guid="_0Qiv4NOJEdyqlogshP8l4g" presentationName="Assess Results" briefDescription="Determine success or failure of the iteration. Apply the lessons learned to modify the project or improve the process." isPlanned="true" superActivities="_oZgCsdOEEdyqlogshP8l4g" mandatoryInput="_y1MMMNOJEdyqlogshP8l4g _y1MMMtOJEdyqlogshP8l4g" optionalInput="_LxTaQNnGEdyNWvE4rz3mXQ _LxTaQdnGEdyNWvE4rz3mXQ _-AGJcO-YEdyEMtC_IfEALw" output="_y1MMMNOJEdyqlogshP8l4g _y1MMMtOJEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_G9K_Qxo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
@@ -141,10 +141,10 @@
       <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_yYlQoC3xEdycYKq0PulnEQ"/>
       <toolmentor href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base/plugin.uma#_pJJuIOFSEdyhmsbt0Xyl8A"/>
       <Task href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base/plugin.uma#_0l53cMlgEdmt3adZL5Dmdw"/>
-      <selectedSteps href="uma://_a3uz4LBYEdm7Eph_l9Cn9w#_o28GgMMsEdmdo9HxCRR_Gw"/>
-      <selectedSteps href="uma://_a3uz4LBYEdm7Eph_l9Cn9w#_iSiDEIx4Edyzd4h-mxj9YA"/>
-      <selectedSteps href="uma://_a3uz4LBYEdm7Eph_l9Cn9w#_iL7cQEpqEdup0IY9DKDPkg"/>
-      <selectedSteps href="uma://_a3uz4LBYEdm7Eph_l9Cn9w#_1YHH8DLqEdueZPye-FaNgA"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\assess_results.uma#_o28GgMMsEdmdo9HxCRR_Gw"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\assess_results.uma#_iSiDEIx4Edyzd4h-mxj9YA"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\assess_results.uma#_iL7cQEpqEdup0IY9DKDPkg"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\assess_results.uma#_1YHH8DLqEdueZPye-FaNgA"/>
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_LxTaQNnGEdyNWvE4rz3mXQ" name="technical_specification_slot" guid="_LxTaQNnGEdyNWvE4rz3mXQ" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_oZgCsdOEEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_G9K_RRo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>

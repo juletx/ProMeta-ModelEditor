@@ -274,6 +274,102 @@
                 <xsl:when test="$proxy='uma://-01L_eCnHjKmBPsGcdk8XTg'">
                     <xsl:value-of select="concat($root, concat('practice.tech.continuous_integration.base\tasks\integrate_and_create_build.uma', $hid))"/>
                 </xsl:when>
+                <xsl:when test="$proxy='uma://_oZgCsNOEEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-QqCVewwu8buOCXKRukpf5g'">
+                    <xsl:value-of select="concat($root, concat('practice.gen.production_release.base\tasks\plan_deployment.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_buG4sNOFEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\test_solution\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://__ZInMNOEEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\ongoing_tasks\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_y7a0KpiLEeGOvpP1fVrVNA'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\prep_doc_trng\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_xxcpgNOEEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\identify_and_refine_requirements\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_KaeNsNOFEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\develop_architecture\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_eWxZgNOEEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\initiate_project\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_4ouDUNOEEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\agree_technical_approach\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-dWzB4mHRr5uSP98BqAOy1g'">
+                    <xsl:value-of select="concat($root, concat('practice.mgmt.project_process_tailoring.base\tasks\deploy_process.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-QSekP8qxW4BdpikByUiCUg'">
+                    <xsl:value-of select="concat($root, concat('practice.mgmt.project_process_tailoring.base\tasks\tailor_process.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-5i4nbMLokgXzl8E2LT94uQ'">
+                    <xsl:value-of select="concat($root, concat('practice.mgmt.project_process_tailoring.base\tasks\setup_tools.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-YTA7QOxZpdM-is9Zx_tJXQ'">
+                    <xsl:value-of select="concat($root, concat('practice.mgmt.project_process_tailoring.base\tasks\verify_tool_config_installation.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_Wk7noKe1EdmGSrcKGOYDGg'">
+                    <xsl:value-of select="concat($root, concat('practice.mgmt.iterative_dev.base\tasks\plan_iteration.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-PbfqVxB_j9KN-Jx39_pEUA'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_a3uz4LBYEdm7Eph_l9Cn9w'">
+                    <xsl:value-of select="concat($root, concat('practice.mgmt.iterative_dev.base\tasks\assess_results.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-Msu85VH5rLUfl0OEAnZdIQ'">
+                    <xsl:value-of select="concat($root, concat('practice.gen.doc_trng.base\tasks\develop_product_documentation.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-bkoNpaQhWX6FBG-iOZkRPg'">
+                    <xsl:value-of select="concat($root, concat('practice.gen.doc_trng.base\tasks\develop_user_documentation.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-jWMpCvzhJPOglJcxCiAYjA'">
+                    <xsl:value-of select="concat($root, concat('practice.gen.doc_trng.base\tasks\develop_support_documentation.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-IfcWgUklth25pRzdNTE8LA'">
+                    <xsl:value-of select="concat($root, concat('practice.gen.doc_trng.base\tasks\develop_training_materials.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-SLY9_MQQ_ykBIaLojfgzBQ'">
+                    <xsl:value-of select="concat($root, concat('practice.gen.production_release.base\tasks\install_validate_infrastructure.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-Z_sfrl6NWP_8GKlFeHrrgg'">
+                    <xsl:value-of select="concat($root, concat('practice.gen.production_release.base\tasks\develop_backout_plan.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-FWdvN43s5ux00S-GVpDH-w'">
+                    <xsl:value-of select="concat($root, concat('practice.gen.production_release.base\tasks\develop_release_communications.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-zT8t7LcbcrgIhYd_XUi6DA'">
+                    <xsl:value-of select="concat($root, concat('practice.gen.production_release.base\tasks\review_conform_to_release_controls.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_y7az-ZiLEeGOvpP1fVrVNA'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\prepare_for_release\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_y7a0FpiLEeGOvpP1fVrVNA'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\deploy_release_to_production\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_y7az6piLEeGOvpP1fVrVNA'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\provide_product_training\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_h0Gs8NONEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\inception_phase_iteration\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_aUsVENONEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_RQi0ANONEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\construction_phase_iteration\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_pzQU0NONEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_SuWj4NOPEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\deliveryprocesses\openup_lifecycle\model.uma', $hid))"/>
+                </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="."/>
                 </xsl:otherwise>

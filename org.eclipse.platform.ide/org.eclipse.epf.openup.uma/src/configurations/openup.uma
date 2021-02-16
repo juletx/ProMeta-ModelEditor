@@ -97,21 +97,21 @@
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="/org.eclipse.epf.openup.uma/src/practice.tech.use_case_driven_dev.base/plugin.uma#_X-RNUMuXEdyTA_Xoy-01eg"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="/org.eclipse.epf.openup.uma/src/practice.tech.use_case_driven_dev.base/plugin.uma#_jAZJYNPCEduegN_z1rVgJA"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base/plugin.uma#_a0pWkNOEEdyqlogshP8l4g"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_eWxZgNOEEdyqlogshP8l4g#_eWxZgNOEEdyqlogshP8l4g"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_oZgCsNOEEdyqlogshP8l4g#_oZgCsNOEEdyqlogshP8l4g"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\initiate_project\model.uma#_eWxZgNOEEdyqlogshP8l4g"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma#_oZgCsNOEEdyqlogshP8l4g"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base/plugin.uma#_OKykANONEdyqlogshP8l4g"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_RQi0ANONEdyqlogshP8l4g#_RQi0ANONEdyqlogshP8l4g"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_aUsVENONEdyqlogshP8l4g#_aUsVENONEdyqlogshP8l4g"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_h0Gs8NONEdyqlogshP8l4g#_h0Gs8NONEdyqlogshP8l4g"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_pzQU0NONEdyqlogshP8l4g#_pzQU0NONEdyqlogshP8l4g"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\construction_phase_iteration\model.uma#_RQi0ANONEdyqlogshP8l4g"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_aUsVENONEdyqlogshP8l4g"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\inception_phase_iteration\model.uma#_h0Gs8NONEdyqlogshP8l4g"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_pzQU0NONEdyqlogshP8l4g"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base/plugin.uma#_b_xs8NOEEdyqlogshP8l4g"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_4ouDUNOEEdyqlogshP8l4g#_4ouDUNOEEdyqlogshP8l4g"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_KaeNsNOFEdyqlogshP8l4g#_KaeNsNOFEdyqlogshP8l4g"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\agree_technical_approach\model.uma#_4ouDUNOEEdyqlogshP8l4g"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\develop_architecture\model.uma#_KaeNsNOFEdyqlogshP8l4g"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\develop_solution\model.uma#_RXGooNOFEdyqlogshP8l4g"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_xxcpgNOEEdyqlogshP8l4g#_xxcpgNOEEdyqlogshP8l4g"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://__ZInMNOEEdyqlogshP8l4g#__ZInMNOEEdyqlogshP8l4g"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_buG4sNOFEdyqlogshP8l4g#_buG4sNOFEdyqlogshP8l4g"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_SuWj4NOPEdyqlogshP8l4g#_SuWj4NOPEdyqlogshP8l4g"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\identify_and_refine_requirements\model.uma#_xxcpgNOEEdyqlogshP8l4g"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\ongoing_tasks\model.uma#__ZInMNOEEdyqlogshP8l4g"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\test_solution\model.uma#_buG4sNOFEdyqlogshP8l4g"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_SuWj4NOPEdyqlogshP8l4g"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="/org.eclipse.epf.openup.uma/src/publish.openup.base/plugin.uma#__ZzOUMg7EdyXeo04os5BOw"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="/org.eclipse.epf.openup.uma/src/publish.openup.base/plugin.uma#_3aT48N4YEdyhmsbt0Xyl8A"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="/org.eclipse.epf.openup.uma/src/publish.openup.base/plugin.uma#_bGjA8OFQEdyhmsbt0Xyl8A"/>
@@ -259,11 +259,11 @@
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="/org.eclipse.epf.openup.uma/src/practice.mgmt.project_process_tailoring.base/plugin.uma#_NOBswyZLEd-QuZFPf_YdqQ"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="/org.eclipse.epf.openup.uma/src/core.default.role_def.base/plugin.uma#_jmG4EG6qEeGjkJv4E9IX_Q"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="/org.eclipse.epf.openup.uma/src/core.default.role_def.base/plugin.uma#_AOJ6EG-9EeGhTfU24wxTMQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_y7a0FpiLEeGOvpP1fVrVNA#_y7a0FpiLEeGOvpP1fVrVNA"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\deploy_release_to_production\model.uma#_y7a0FpiLEeGOvpP1fVrVNA"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base/plugin.uma#_DmPF4JieEeGlkdGl1HQlDA"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_y7az-ZiLEeGOvpP1fVrVNA#_y7az-ZiLEeGOvpP1fVrVNA"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_y7az6piLEeGOvpP1fVrVNA#_y7az6piLEeGOvpP1fVrVNA"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_y7a0KpiLEeGOvpP1fVrVNA#_y7a0KpiLEeGOvpP1fVrVNA"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\prepare_for_release\model.uma#_y7az-ZiLEeGOvpP1fVrVNA"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\provide_product_training\model.uma#_y7az6piLEeGOvpP1fVrVNA"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\prep_doc_trng\model.uma#_y7a0KpiLEeGOvpP1fVrVNA"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/practice.gen.doc_trng.assign/plugin.uma#_p0w9zplfEeGlkdGl1HQlDA"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="/org.eclipse.epf.openup.uma/src/practice.gen.doc_trng.assign/plugin.uma#_p19QkJlfEeGlkdGl1HQlDA"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/practice.gen.doc_trng.assign/plugin.uma#_p0w9zZlfEeGlkdGl1HQlDA"/>
@@ -796,40 +796,40 @@
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#_9ZFj9bekEd-D7YZN9NgldQ"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#_9ZFj-rekEd-D7YZN9NgldQ"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#_9ZFj_7ekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_oZgCsNOEEdyqlogshP8l4g#_o1WpwJoQEeGnJt_Qpwdfdg"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_RQi0ANONEdyqlogshP8l4g#_9t9AsLekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_RQi0ANONEdyqlogshP8l4g#_9t9AsrekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_RQi0ANONEdyqlogshP8l4g#_9t9As7ekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_RQi0ANONEdyqlogshP8l4g#_9t9AtLekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_RQi0ANONEdyqlogshP8l4g#_8--9sJigEeGlkdGl1HQlDA"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_RQi0ANONEdyqlogshP8l4g#_yw_dcJlVEeGlkdGl1HQlDA"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_aUsVENONEdyqlogshP8l4g#_9t9AtbekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_aUsVENONEdyqlogshP8l4g#_9t9AtrekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_aUsVENONEdyqlogshP8l4g#_9t9At7ekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_aUsVENONEdyqlogshP8l4g#_9t9AuLekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_aUsVENONEdyqlogshP8l4g#_9t9AubekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_aUsVENONEdyqlogshP8l4g#_9t9AurekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_h0Gs8NONEdyqlogshP8l4g#_9t9Au7ekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_h0Gs8NONEdyqlogshP8l4g#_9t9AvLekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_h0Gs8NONEdyqlogshP8l4g#_9t9AvbekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_h0Gs8NONEdyqlogshP8l4g#_9t9Av7ekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_pzQU0NONEdyqlogshP8l4g#_9t9AwbekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_pzQU0NONEdyqlogshP8l4g#_9t9AwrekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_pzQU0NONEdyqlogshP8l4g#_9t9Aw7ekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_pzQU0NONEdyqlogshP8l4g#_9t9AxLekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_pzQU0NONEdyqlogshP8l4g#_qRAugJlXEeGlkdGl1HQlDA"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_pzQU0NONEdyqlogshP8l4g#_sL8xMJlXEeGlkdGl1HQlDA"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_pzQU0NONEdyqlogshP8l4g#_tcRJkJlXEeGlkdGl1HQlDA"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_pzQU0NONEdyqlogshP8l4g#_ybaHoJlYEeGlkdGl1HQlDA"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_KaeNsNOFEdyqlogshP8l4g#_9t9AxbekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_SuWj4NOPEdyqlogshP8l4g#_9uGKoLekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_SuWj4NOPEdyqlogshP8l4g#_9uGKo7ekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_SuWj4NOPEdyqlogshP8l4g#_9uGKqLekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_SuWj4NOPEdyqlogshP8l4g#_9uGKrbekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_SuWj4NOPEdyqlogshP8l4g#_9uGKobekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_SuWj4NOPEdyqlogshP8l4g#_9uGKprekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_SuWj4NOPEdyqlogshP8l4g#_9uGKq7ekEd-D7YZN9NgldQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_SuWj4NOPEdyqlogshP8l4g#_9uGKsLekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma#_o1WpwJoQEeGnJt_Qpwdfdg"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\construction_phase_iteration\model.uma#_9t9AsLekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\construction_phase_iteration\model.uma#_9t9AsrekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\construction_phase_iteration\model.uma#_9t9As7ekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\construction_phase_iteration\model.uma#_9t9AtLekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\construction_phase_iteration\model.uma#_8--9sJigEeGlkdGl1HQlDA"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\construction_phase_iteration\model.uma#_yw_dcJlVEeGlkdGl1HQlDA"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_9t9AtbekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_9t9AtrekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_9t9At7ekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_9t9AuLekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_9t9AubekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_9t9AurekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\inception_phase_iteration\model.uma#_9t9Au7ekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\inception_phase_iteration\model.uma#_9t9AvLekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\inception_phase_iteration\model.uma#_9t9AvbekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\inception_phase_iteration\model.uma#_9t9Av7ekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_9t9AwbekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_9t9AwrekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_9t9Aw7ekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_9t9AxLekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_qRAugJlXEeGlkdGl1HQlDA"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_sL8xMJlXEeGlkdGl1HQlDA"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_tcRJkJlXEeGlkdGl1HQlDA"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_ybaHoJlYEeGlkdGl1HQlDA"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\develop_architecture\model.uma#_9t9AxbekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_9uGKoLekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_9uGKo7ekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_9uGKqLekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_9uGKrbekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_9uGKobekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_9uGKprekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_9uGKq7ekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="/org.eclipse.epf.openup.uma/src/process.openup.base\deliveryprocesses\openup_lifecycle\model.uma#_9uGKsLekEd-D7YZN9NgldQ"/>
   <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="/org.eclipse.epf.openup.uma/src/core.default.nav_view.base/plugin.uma#_1-9JoEKmEdyrauqpmnA8jQ"/>
   <defaultView xsi:type="org.eclipse.epf.uma:CustomCategory" href="/org.eclipse.epf.openup.uma/src/core.default.nav_view.base/plugin.uma#_1-9JoEKmEdyrauqpmnA8jQ"/>
 </org.eclipse.epf.uma:MethodConfiguration>

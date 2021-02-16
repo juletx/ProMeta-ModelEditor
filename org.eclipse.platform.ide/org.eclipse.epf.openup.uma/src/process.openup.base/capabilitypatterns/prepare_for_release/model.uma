@@ -6,27 +6,27 @@
       <methodElementProperty xmi:id="_G-6EkRo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
       <presentation xmi:id="-PSYszO1VnJHhh76PS4GsoQ" href="content.uma#-PSYszO1VnJHhh76PS4GsoQ"/>
       <Task href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAIH4eB-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-SLY9_MQQ_ykBIaLojfgzBQ#_IAIH4-B-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-SLY9_MQQ_ykBIaLojfgzBQ#_IAIu8eB-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-SLY9_MQQ_ykBIaLojfgzBQ#_IAIH5OB-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-SLY9_MQQ_ykBIaLojfgzBQ#_IAIH4uB-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-SLY9_MQQ_ykBIaLojfgzBQ#_IAIu8OB-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\install_validate_infrastructure.uma#_IAIH4-B-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\install_validate_infrastructure.uma#_IAIu8eB-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\install_validate_infrastructure.uma#_IAIH5OB-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\install_validate_infrastructure.uma#_IAIH4uB-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\install_validate_infrastructure.uma#_IAIu8OB-EeC1y_NExchKwQ"/>
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_y7az-5iLEeGOvpP1fVrVNA" name="develop_backout_plan" guid="_y7az-5iLEeGOvpP1fVrVNA" presentationName="Develop Backout Plan" briefDescription="This task results in a plan to be used by the production support organization to roll back the release if there is a problem during or after deployment." isPlanned="true" superActivities="_y7a0B5iLEeGOvpP1fVrVNA" optionalInput="_y7a0BpiLEeGOvpP1fVrVNA" output="_y7a0BJiLEeGOvpP1fVrVNA">
       <methodElementProperty xmi:id="_G-6Ekho0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
       <presentation xmi:id="-7ZImjs9oa1GUIfRAA-aZ7A" href="content.uma#-7ZImjs9oa1GUIfRAA-aZ7A"/>
       <Task href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAIu8uB-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-Z_sfrl6NWP_8GKlFeHrrgg#_IAIu9eB-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-Z_sfrl6NWP_8GKlFeHrrgg#_IAIu8-B-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-Z_sfrl6NWP_8GKlFeHrrgg#_IAIu9OB-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\develop_backout_plan.uma#_IAIu9eB-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\develop_backout_plan.uma#_IAIu8-B-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\develop_backout_plan.uma#_IAIu9OB-EeC1y_NExchKwQ"/>
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_y7a0AJiLEeGOvpP1fVrVNA" name="develop_release_communications" guid="_y7a0AJiLEeGOvpP1fVrVNA" presentationName="Develop Release Communications" briefDescription="Stakeholders should be notified when a product (or feature set) is placed into production." isPlanned="true" superActivities="_y7a0B5iLEeGOvpP1fVrVNA" mandatoryInput="_y7a0BpiLEeGOvpP1fVrVNA" optionalInput="_y7a0AZiLEeGOvpP1fVrVNA" output="_y7az_ZiLEeGOvpP1fVrVNA">
       <methodElementProperty xmi:id="_G-6Ekxo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
       <presentation xmi:id="-LyV_ZO1Np5hR4jCzxdP8lg" href="content.uma#-LyV_ZO1Np5hR4jCzxdP8lg"/>
       <Task href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAJWBOB-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-FWdvN43s5ux00S-GVpDH-w#_IAJWBuB-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-FWdvN43s5ux00S-GVpDH-w#_IAJWBeB-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-FWdvN43s5ux00S-GVpDH-w#_IAJWB-B-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\develop_release_communications.uma#_IAJWBuB-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\develop_release_communications.uma#_IAJWBeB-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\develop_release_communications.uma#_IAJWB-B-EeC1y_NExchKwQ"/>
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_y7a0BpiLEeGOvpP1fVrVNA" name="deployment_plan" guid="_y7a0BpiLEeGOvpP1fVrVNA" presentationName="Deployment Plan" briefDescription="A Deployment Plan is used to document all the information needed by Deployment Engineers to deploy a release successfully." isPlanned="false" superActivities="_y7a0B5iLEeGOvpP1fVrVNA">
       <methodElementProperty xmi:id="_G-6ElBo0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
@@ -63,9 +63,9 @@
       <methodElementProperty xmi:id="_G-6Enho0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
       <presentation xmi:id="-TIDq6m5AxfWlAJfJCiHN7g" href="content.uma#-TIDq6m5AxfWlAJfJCiHN7g"/>
       <Task href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAIu9uB-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-zT8t7LcbcrgIhYd_XUi6DA#_IAJWAuB-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-zT8t7LcbcrgIhYd_XUi6DA#_IAJWAeB-EeC1y_NExchKwQ"/>
-      <selectedSteps href="uma://-zT8t7LcbcrgIhYd_XUi6DA#_IAJWAOB-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\review_conform_to_release_controls.uma#_IAJWAuB-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\review_conform_to_release_controls.uma#_IAJWAeB-EeC1y_NExchKwQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\review_conform_to_release_controls.uma#_IAJWAOB-EeC1y_NExchKwQ"/>
     </processElements>
     <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0B5iLEeGOvpP1fVrVNA" name="prepare_for_release" guid="_y7a0B5iLEeGOvpP1fVrVNA" presentationName="Prepare for Release" briefDescription="This activity prepares a product for release." breakdownElements="_y7az_piLEeGOvpP1fVrVNA _y7a0ApiLEeGOvpP1fVrVNA _y7az-5iLEeGOvpP1fVrVNA _y7a0AJiLEeGOvpP1fVrVNA _y7a0BpiLEeGOvpP1fVrVNA _y7a0AZiLEeGOvpP1fVrVNA _y7a0A5iLEeGOvpP1fVrVNA _y7a0BJiLEeGOvpP1fVrVNA _y7az_ZiLEeGOvpP1fVrVNA">
       <presentation xmi:id="-eZJOOlVLjwqJ6USAOlOsJQ" href="content.uma#-eZJOOlVLjwqJ6USAOlOsJQ"/>
