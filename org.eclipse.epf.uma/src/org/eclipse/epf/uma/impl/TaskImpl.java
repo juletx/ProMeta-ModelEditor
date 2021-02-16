@@ -110,6 +110,16 @@ public class TaskImpl extends ContentElementImpl implements Task {
 	protected EList<Role> additionallyPerformedBy;
 
 	/**
+	 * The cached value of the '{@link #getSteps() <em>Steps</em>}' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getSteps()
+	 * @generated NOT
+	 * @ordered
+	 */
+	protected EList<Step> steps;
+	
+	/**
 	 * The cached value of the '{@link #getOptionalInput() <em>Optional Input</em>}' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -353,14 +363,17 @@ public class TaskImpl extends ContentElementImpl implements Task {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	public EList<Step> getSteps() {
 		// TODO: implement this method to return the 'Steps' reference list
 		// Ensure that you remove @generated or mark it @generated NOT
 		// The list is expected to implement org.eclipse.emf.ecore.util.InternalEList and org.eclipse.emf.ecore.EStructuralFeature.Setting
 		// so it's likely that an appropriate subclass of org.eclipse.emf.ecore.util.EcoreEList should be used.
-		throw new UnsupportedOperationException();
+		if (steps == null) {
+			steps = new EObjectResolvingEList<Step>(Step.class, this, UmaPackage.TASK__STEPS);
+		}
+		return steps;
 	}
 
 	/**

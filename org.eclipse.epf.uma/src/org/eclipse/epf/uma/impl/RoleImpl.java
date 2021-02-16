@@ -40,6 +40,16 @@ public class RoleImpl extends ContentElementImpl implements Role {
 	 * @ordered
 	 */
 	protected EList<FulfillableElement> fulfills;
+	
+	/**
+	 * The cached value of the '{@link #getModifies() <em>Modifies</em>}' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getModifies()
+	 * @generated NOT
+	 * @ordered
+	 */
+	protected EList<WorkProduct> modifies;
 
 	/**
 	 * The cached value of the '{@link #getResponsibleFor() <em>Responsible For</em>}' reference list.
@@ -85,14 +95,17 @@ public class RoleImpl extends ContentElementImpl implements Role {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	public EList<WorkProduct> getModifies() {
 		// TODO: implement this method to return the 'Modifies' reference list
 		// Ensure that you remove @generated or mark it @generated NOT
 		// The list is expected to implement org.eclipse.emf.ecore.util.InternalEList and org.eclipse.emf.ecore.EStructuralFeature.Setting
 		// so it's likely that an appropriate subclass of org.eclipse.emf.ecore.util.EcoreEList should be used.
-		throw new UnsupportedOperationException();
+		if (modifies == null) {
+			modifies = new EObjectResolvingEList<WorkProduct>(WorkProduct.class, this, UmaPackage.ROLE__MODIFIES);
+		}
+		return modifies;
 	}
 
 	/**
