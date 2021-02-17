@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1">
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fz8LKMHNt9wb0sZo4mO04w" name="01_01_create_update_product_documenation,_VpCWQPd3EeCFmpfCmMPILg" guid="-fz8LKMHNt9wb0sZo4mO04w">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="01_01_create_update_product_documenation,_VpCWQPd3EeCFmpfCmMPILg" xmi:id="-fz8LKMHNt9wb0sZo4mO04w" name="01_01_create_update_product_documenation,_VpCWQPd3EeCFmpfCmMPILg" guid="-fz8LKMHNt9wb0sZo4mO04w">
     <refinedDescription>&lt;p&gt;&#xD;
     Development team members sometimes take documentation for granted, or do not give it enough consideration. However,&#xD;
     after a product is delivered, Customers who pay for the system and for support often do not have enough information to&#xD;
@@ -17,7 +17,7 @@
     detailed, and comprehensive product documentation.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-h5qFmsSg2p-6LPnB_IUogA" name="01_02_create_update_user_documenation,_VpC9UPd3EeCFmpfCmMPILg" guid="-h5qFmsSg2p-6LPnB_IUogA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="01_02_create_update_user_documenation,_VpC9UPd3EeCFmpfCmMPILg" xmi:id="-h5qFmsSg2p-6LPnB_IUogA" name="01_02_create_update_user_documenation,_VpC9UPd3EeCFmpfCmMPILg" guid="-h5qFmsSg2p-6LPnB_IUogA">
     <refinedDescription>&lt;p&gt;&#xD;
     User documentation might include all or parts of user manuals (electronic or paper-based), tutorials, frequently asked&#xD;
     questions (FAQs), on-line Help Files, installation instructions, operational procedures, etc. User documentation often&#xD;
@@ -29,7 +29,7 @@
     expectations because they will not be able operate the application effectively.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gdsRvq0kijdAY9bJ0FONYg" name="01_03_create_update_support_documenation,_VpC9Ufd3EeCFmpfCmMPILg" guid="-gdsRvq0kijdAY9bJ0FONYg">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="01_03_create_update_support_documenation,_VpC9Ufd3EeCFmpfCmMPILg" xmi:id="-gdsRvq0kijdAY9bJ0FONYg" name="01_03_create_update_support_documenation,_VpC9Ufd3EeCFmpfCmMPILg" guid="-gdsRvq0kijdAY9bJ0FONYg">
     <refinedDescription>&lt;p&gt;&#xD;
     Support documentation often is the most overlooked aspect of a documentation effort. Anyone who has had the opportunity&#xD;
     to provide End User support for a particular application can appreciate how important effective, well-written support&#xD;
@@ -44,7 +44,7 @@
     the quality and quantity of support documentation.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_kmWRdAS15z9HHQOi2bRUw" name="product_documentation,_VpJD8Pd3EeCFmpfCmMPILg" guid="-_kmWRdAS15z9HHQOi2bRUw">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="product_documentation,_VpJD8Pd3EeCFmpfCmMPILg" xmi:id="-_kmWRdAS15z9HHQOi2bRUw" name="product_documentation,_VpJD8Pd3EeCFmpfCmMPILg" guid="-_kmWRdAS15z9HHQOi2bRUw">
     <refinedDescription>&lt;p&gt;&#xD;
     Product documentation is created for the benefit of the marketing arm of an organization, the Program Manager, and&#xD;
     those people who must assess the business value of a particular system.&#xD;
@@ -55,13 +55,13 @@
     product operates and how it meets stated business goals and needs.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pyRevWV0HtFS5y1wBPcCjw" name="user_documentation,_VpJD8vd3EeCFmpfCmMPILg" guid="-pyRevWV0HtFS5y1wBPcCjw">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="user_documentation,_VpJD8vd3EeCFmpfCmMPILg" xmi:id="-pyRevWV0HtFS5y1wBPcCjw" name="user_documentation,_VpJD8vd3EeCFmpfCmMPILg" guid="-pyRevWV0HtFS5y1wBPcCjw">
     <refinedDescription>&lt;p&gt;&#xD;
     User documentation might include all or parts of user manuals (electronic or paper-based), tutorials, frequently asked&#xD;
     questions (FAQs), on-line Help Files, installation instructions, work instructions, operational procedures, etc.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-48XjWeRRpF2qfA3kioGYSA" name="support_documentation,_VpJD9Pd3EeCFmpfCmMPILg" guid="-48XjWeRRpF2qfA3kioGYSA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="support_documentation,_VpJD9Pd3EeCFmpfCmMPILg" xmi:id="-48XjWeRRpF2qfA3kioGYSA" name="support_documentation,_VpJD9Pd3EeCFmpfCmMPILg" guid="-48XjWeRRpF2qfA3kioGYSA">
     <refinedDescription>&lt;p&gt;&#xD;
     Support documentation usually is developed for the three common tiers of a support organization. Tier 1 typically is&#xD;
     the Help Desk where users call when they have a problem with a particular system. Tier 1 support personnel&#xD;
@@ -96,7 +96,7 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LQefSmUJtkoZkQhMtmQpfg" name="develop_training_materials,_ofI9sJlWEeGlkdGl1HQlDA" guid="-LQefSmUJtkoZkQhMtmQpfg">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="develop_training_materials,_ofI9sJlWEeGlkdGl1HQlDA" xmi:id="-LQefSmUJtkoZkQhMtmQpfg" name="develop_training_materials,_ofI9sJlWEeGlkdGl1HQlDA" guid="-LQefSmUJtkoZkQhMtmQpfg">
     <refinedDescription>&lt;p&gt;&#xD;
     Having the correct amount and type of materials available to adequately train End Users and supporters of an&#xD;
     application is necessary to promote usability and to achieve the desired business value. If a Course Developer is&#xD;
@@ -111,7 +111,7 @@
     scheduled Release.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-81zxeCXkSnPW-ndmULZWlQ" name="training_materials,_ofSHoplWEeGlkdGl1HQlDA" guid="-81zxeCXkSnPW-ndmULZWlQ">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="training_materials,_ofSHoplWEeGlkdGl1HQlDA" xmi:id="-81zxeCXkSnPW-ndmULZWlQ" name="training_materials,_ofSHoplWEeGlkdGl1HQlDA" guid="-81zxeCXkSnPW-ndmULZWlQ">
     <refinedDescription>&lt;p&gt;&#xD;
     Training materials that can be used to train end users and production support personnel might consist of:&#xD;
 &lt;/p&gt;&#xD;
@@ -145,5 +145,5 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-yeqVyv9laglLKJHLoavEgA" name="prepare_product_documentation,_NTPI8fd3EeCFmpfCmMPILg" guid="-yeqVyv9laglLKJHLoavEgA"/>
+  <org.eclipse.epf.uma:ProcessDescription longPresentationName="prepare_product_documentation,_NTPI8fd3EeCFmpfCmMPILg" xmi:id="-yeqVyv9laglLKJHLoavEgA" name="prepare_product_documentation,_NTPI8fd3EeCFmpfCmMPILg" guid="-yeqVyv9laglLKJHLoavEgA"/>
 </xmi:XMI>

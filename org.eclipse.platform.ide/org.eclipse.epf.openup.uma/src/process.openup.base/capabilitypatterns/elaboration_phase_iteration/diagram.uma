@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0">
   <uml:Activity xmi:id="_jgBTYNQVEdyk9oc_L5Vk0g" name="elaboration_phase_iteration">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jgBTYdQVEdyk9oc_L5Vk0g" source="uma_element">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jgBTYtQVEdyk9oc_L5Vk0g" key="uri" value="uma://_aUsVENONEdyqlogshP8l4g#_aUsVEdONEdyqlogshP8l4g"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jgBTYtQVEdyk9oc_L5Vk0g" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_aUsVEdONEdyqlogshP8l4g"/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jgBTY9QVEdyk9oc_L5Vk0g" key="type" value="Activity"/>
     </eAnnotations>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_jhhIMNQVEdyk9oc_L5Vk0g" name="Plan and Manage Iteration" outgoing="__cMDUNQVEdyk9oc_L5Vk0g" incoming="_-4L-YNQVEdyk9oc_L5Vk0g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jhhIMdQVEdyk9oc_L5Vk0g" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIMtQVEdyk9oc_L5Vk0g" key="uri" value="uma://_aUsVENONEdyqlogshP8l4g#_XayTQdOOEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIMtQVEdyk9oc_L5Vk0g" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_XayTQdOOEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIM9QVEdyk9oc_L5Vk0g" key="type" value="Activity"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_jhhINNQVEdyk9oc_L5Vk0g" name="Identify and Refine Requirements" outgoing="_79wNkNQVEdyk9oc_L5Vk0g" incoming="_7l_04NQVEdyk9oc_L5Vk0g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jhhINdQVEdyk9oc_L5Vk0g" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhINtQVEdyk9oc_L5Vk0g" key="uri" value="uma://_aUsVENONEdyqlogshP8l4g#_YwLY4dOOEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhINtQVEdyk9oc_L5Vk0g" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_YwLY4dOOEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIN9QVEdyk9oc_L5Vk0g" key="type" value="Activity"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_jhhIONQVEdyk9oc_L5Vk0g" name="Develop the Architecture" outgoing="_9aEakNQVEdyk9oc_L5Vk0g" incoming="_8bU6YNQVEdyk9oc_L5Vk0g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jhhIOdQVEdyk9oc_L5Vk0g" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIOtQVEdyk9oc_L5Vk0g" key="uri" value="uma://_aUsVENONEdyqlogshP8l4g#_aSrtcdOOEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIOtQVEdyk9oc_L5Vk0g" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_aSrtcdOOEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIO9QVEdyk9oc_L5Vk0g" key="type" value="Activity"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_jhhIPNQVEdyk9oc_L5Vk0g" name="Develop Solution Increment" outgoing="_-UL5cNQVEdyk9oc_L5Vk0g" incoming="_97r54NQVEdyk9oc_L5Vk0g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jhhIPdQVEdyk9oc_L5Vk0g" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIPtQVEdyk9oc_L5Vk0g" key="uri" value="uma://_aUsVENONEdyqlogshP8l4g#_eyv_UdOOEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIPtQVEdyk9oc_L5Vk0g" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_eyv_UdOOEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIP9QVEdyk9oc_L5Vk0g" key="type" value="Activity"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_jhhIQNQVEdyk9oc_L5Vk0g" name="Test Solution" outgoing="_AqwvQNQWEdyk9oc_L5Vk0g" incoming="_AUNQcNQWEdyk9oc_L5Vk0g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jhhIQdQVEdyk9oc_L5Vk0g" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIQtQVEdyk9oc_L5Vk0g" key="uri" value="uma://_aUsVENONEdyqlogshP8l4g#_f4VuYdOOEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIQtQVEdyk9oc_L5Vk0g" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_f4VuYdOOEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIQ9QVEdyk9oc_L5Vk0g" key="type" value="Activity"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_jhhIRNQVEdyk9oc_L5Vk0g" name="Ongoing Tasks" outgoing="_BcXLUNQWEdyk9oc_L5Vk0g" incoming="_BFgKgNQWEdyk9oc_L5Vk0g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jhhIRdQVEdyk9oc_L5Vk0g" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIRtQVEdyk9oc_L5Vk0g" key="uri" value="uma://_aUsVENONEdyqlogshP8l4g#_g8cPsdOOEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIRtQVEdyk9oc_L5Vk0g" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma#_g8cPsdOOEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jhhIR9QVEdyk9oc_L5Vk0g" key="type" value="Activity"/>
       </eAnnotations>
     </node>

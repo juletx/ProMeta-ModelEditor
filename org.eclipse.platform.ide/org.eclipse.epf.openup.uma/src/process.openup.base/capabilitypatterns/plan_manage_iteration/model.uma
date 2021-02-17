@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
   
-  <org.eclipse.epf.uma:ProcessComponent xmi:id="_oZgCsNOEEdyqlogshP8l4g" name="plan_manage_iteration" guid="_oZgCsNOEEdyqlogshP8l4g">
+  <org.eclipse.epf.uma:ProcessComponent interfaces="d500e36" xmi:id="_oZgCsNOEEdyqlogshP8l4g" name="plan_manage_iteration" guid="_oZgCsNOEEdyqlogshP8l4g">
     <methodElementProperty xmi:id="_G9KYIBo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_o1WpwJoQEeGnJt_Qpwdfdg" name="Prepare Environment" guid="_o1WpwJoQEeGnJt_Qpwdfdg">
-      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_o1WpwZoQEeGnJt_Qpwdfdg" name="Prepare Environment" guid="_o1WpwZoQEeGnJt_Qpwdfdg" presentationName="Prepare Environment" superActivities="_oZgCsdOEEdyqlogshP8l4g" breakdownElements="_3MJwMZoQEeGnJt_Qpwdfdg _3MJwMpoQEeGnJt_Qpwdfdg _3MJwM5oQEeGnJt_Qpwdfdg _3MJwMJoQEeGnJt_Qpwdfdg _3MJwNJoQEeGnJt_Qpwdfdg _3MJwNpoQEeGnJt_Qpwdfdg">
+      <processElements variabilityBasedOnElement="_o1WpwZoQEeGnJt_Qpwdfdg" xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_o1WpwZoQEeGnJt_Qpwdfdg" name="Prepare Environment" guid="_o1WpwZoQEeGnJt_Qpwdfdg" presentationName="Prepare Environment" superActivities="_oZgCsdOEEdyqlogshP8l4g" breakdownElements="_3MJwMZoQEeGnJt_Qpwdfdg _3MJwMpoQEeGnJt_Qpwdfdg _3MJwM5oQEeGnJt_Qpwdfdg _3MJwMJoQEeGnJt_Qpwdfdg _3MJwNJoQEeGnJt_Qpwdfdg _3MJwNpoQEeGnJt_Qpwdfdg">
         <methodElementProperty xmi:id="_G9KYIRo0EeuXnIT9fOh1Fg" name="wbe_GlobalPresentedAfter" value="_y05RQNOJEdyqlogshP8l4g"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_3MJwMJoQEeGnJt_Qpwdfdg" name="deploy_process" guid="_3MJwMJoQEeGnJt_Qpwdfdg" presentationName="Deploy the Process" briefDescription="This task describes how to rollout a development process to the project team." superActivities="_o1WpwZoQEeGnJt_Qpwdfdg" mandatoryInput="_3MJwNJoQEeGnJt_Qpwdfdg" output="_3MJwNJoQEeGnJt_Qpwdfdg">
@@ -125,11 +125,11 @@
       <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#__yQQ4L6REdqti4GwqTkbsQ"/>
       <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.slot.base/plugin.uma#_68JUYN8-Edyhmsbt0Xyl8A"/>
       <Task href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base/plugin.uma#_8S2aICbYEdqh1LYUOGRh2A"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma#_OE65ICuxEdqTIKp3l5PtzQ"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma#_urvQkGSyEd2DNqLAFatITA"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma#_oIZdkCbZEdqh1LYUOGRh2A"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma#_xiFJwCbZEdqh1LYUOGRh2A"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma#_Br6VECuxEdqTIKp3l5PtzQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\manage_iteration.uma#_OE65ICuxEdqTIKp3l5PtzQ"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\manage_iteration.uma#_urvQkGSyEd2DNqLAFatITA"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\manage_iteration.uma#_oIZdkCbZEdqh1LYUOGRh2A"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\manage_iteration.uma#_xiFJwCbZEdqh1LYUOGRh2A"/>
+      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.iterative_dev.base\tasks\manage_iteration.uma#_Br6VECuxEdqTIKp3l5PtzQ"/>
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_0Qiv4NOJEdyqlogshP8l4g" name="assess_results" guid="_0Qiv4NOJEdyqlogshP8l4g" presentationName="Assess Results" briefDescription="Determine success or failure of the iteration. Apply the lessons learned to modify the project or improve the process." isPlanned="true" superActivities="_oZgCsdOEEdyqlogshP8l4g" mandatoryInput="_y1MMMNOJEdyqlogshP8l4g _y1MMMtOJEdyqlogshP8l4g" optionalInput="_LxTaQNnGEdyNWvE4rz3mXQ _LxTaQdnGEdyNWvE4rz3mXQ _-AGJcO-YEdyEMtC_IfEALw" output="_y1MMMNOJEdyqlogshP8l4g _y1MMMtOJEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_G9K_Qxo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
@@ -186,8 +186,8 @@
       <templates href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_design.base/plugin.uma#_EOPcMAMUEdylNddAObilIA"/>
       <WorkProduct href="/org.eclipse.epf.openup.uma/src/practice.tech.evolutionary_design.base/plugin.uma#_0WuL8slgEdmt3adZL5Dmdw"/>
     </processElements>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_oZgCsdOEEdyqlogshP8l4g" name="plan_manage_iteration" guid="_oZgCsdOEEdyqlogshP8l4g" presentationName="Plan and Manage Iteration" briefDescription="Initiate the iteration and allow team members to sign up for development tasks. Monitor and communicate project status to external stakeholders. Identify and handle exceptions and problems." isPlanned="false" breakdownElements="_y05RQNOJEdyqlogshP8l4g _y1MMMNOJEdyqlogshP8l4g _y1MMMdOJEdyqlogshP8l4g _y1MMMtOJEdyqlogshP8l4g _y1MMM9OJEdyqlogshP8l4g _o1WpwZoQEeGnJt_Qpwdfdg _zjF0ANOJEdyqlogshP8l4g _0Qiv4NOJEdyqlogshP8l4g _LxTaQNnGEdyNWvE4rz3mXQ _LxTaQdnGEdyNWvE4rz3mXQ _-AGJcO-YEdyEMtC_IfEALw _FJm0e5oPEeGnJt_Qpwdfdg _FJm0fpoPEeGnJt_Qpwdfdg _FJm0gZoPEeGnJt_Qpwdfdg _FJm0hJoPEeGnJt_Qpwdfdg">
+    <process variabilityBasedOnElement="_oZgCsdOEEdyqlogshP8l4g" superActivities="_oZgCsdOEEdyqlogshP8l4g" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_oZgCsdOEEdyqlogshP8l4g" name="plan_manage_iteration" guid="_oZgCsdOEEdyqlogshP8l4g" presentationName="Plan and Manage Iteration" briefDescription="Initiate the iteration and allow team members to sign up for development tasks. Monitor and communicate project status to external stakeholders. Identify and handle exceptions and problems." isPlanned="false" breakdownElements="_y05RQNOJEdyqlogshP8l4g _y1MMMNOJEdyqlogshP8l4g _y1MMMdOJEdyqlogshP8l4g _y1MMMtOJEdyqlogshP8l4g _y1MMM9OJEdyqlogshP8l4g _o1WpwZoQEeGnJt_Qpwdfdg _zjF0ANOJEdyqlogshP8l4g _0Qiv4NOJEdyqlogshP8l4g _LxTaQNnGEdyNWvE4rz3mXQ _LxTaQdnGEdyNWvE4rz3mXQ _-AGJcO-YEdyEMtC_IfEALw _FJm0e5oPEeGnJt_Qpwdfdg _FJm0fpoPEeGnJt_Qpwdfdg _FJm0gZoPEeGnJt_Qpwdfdg _FJm0hJoPEeGnJt_Qpwdfdg">
       <presentation xmi:id="-b6sTuOuA7eFhaR_H3EfgBw" href="content.uma#-b6sTuOuA7eFhaR_H3EfgBw"/>
     </process>
-  </org.eclipse.epf.uma:ProcessComponent>
+  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d500e36"/></org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1">
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-giG0nmV9ZE9q-25Wm3nzBQ" name="work_items_list,_HGqkMdnTEdyNj6EOmqy5Rg" guid="-giG0nmV9ZE9q-25Wm3nzBQ">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="work_items_list,_HGqkMdnTEdyNj6EOmqy5Rg" xmi:id="-giG0nmV9ZE9q-25Wm3nzBQ" name="work_items_list,_HGqkMdnTEdyNj6EOmqy5Rg" guid="-giG0nmV9ZE9q-25Wm3nzBQ">
     <keyConsiderations>&lt;p&gt;&#xD;
     Work Items should contain estimates. See guidelines on managing work items and agile estimation.&#xD;
 &lt;/p&gt;</keyConsiderations>
@@ -49,7 +49,7 @@
     relationships, where the lowest level is a specification and tracking device for micro-increments.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-aXudKqi6rjimd3UsF0smZA" name="ongoing_tasks,__ZInMdOEEdyqlogshP8l4g" guid="-aXudKqi6rjimd3UsF0smZA" version="7.2.0">
+  <org.eclipse.epf.uma:ProcessDescription longPresentationName="ongoing_tasks,__ZInMdOEEdyqlogshP8l4g" xmi:id="-aXudKqi6rjimd3UsF0smZA" name="ongoing_tasks,__ZInMdOEEdyqlogshP8l4g" guid="-aXudKqi6rjimd3UsF0smZA" version="7.2.0">
     <mainDescription>&lt;p&gt;
     This activity includes a task for requesting changes. This task may occur any time during the lifecycle in response to
     an observed defect, a desired enhancement, or a change request. It is not planned, which means that it does not appear

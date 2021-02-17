@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1">
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dGeCbV3mYf6d7tqFxsHq4A" name="test_case,_Vi5r8NOLEdyqlogshP8l4g" guid="-dGeCbV3mYf6d7tqFxsHq4A">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="test_case,_Vi5r8NOLEdyqlogshP8l4g" xmi:id="-dGeCbV3mYf6d7tqFxsHq4A" name="test_case,_Vi5r8NOLEdyqlogshP8l4g" guid="-dGeCbV3mYf6d7tqFxsHq4A">
     <refinedDescription>&lt;p&gt;&#xD;
     A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
     test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
@@ -14,7 +14,7 @@
     guid="_0aJ6cMlgEdmt3adZL5Dmdw"&gt;Concept: Testing Qualitative Requirements&lt;/a&gt;.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-S7RJDT8En1BwhtenbO3p8w" name="run_tests,_WttSMNOLEdyqlogshP8l4g" guid="-S7RJDT8En1BwhtenbO3p8w">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="run_tests,_WttSMNOLEdyqlogshP8l4g" xmi:id="-S7RJDT8En1BwhtenbO3p8w" name="run_tests,_WttSMNOLEdyqlogshP8l4g" guid="-S7RJDT8En1BwhtenbO3p8w">
     <keyConsiderations>&lt;ul&gt;&#xD;
     &lt;li&gt;&#xD;
         Run all tests as frequently as possible. Ideally, run all test scripts against each build deployed to the test&#xD;
@@ -27,13 +27,13 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kjFCWWTMDhXbgfduK1uQCQ" name="test_log,_WttSMdOLEdyqlogshP8l4g" guid="-kjFCWWTMDhXbgfduK1uQCQ">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="test_log,_WttSMdOLEdyqlogshP8l4g" xmi:id="-kjFCWWTMDhXbgfduK1uQCQ" name="test_log,_WttSMdOLEdyqlogshP8l4g" guid="-kjFCWWTMDhXbgfduK1uQCQ">
     <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
 provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
 trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
 the results of an aspect of the test effort.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="--GUCGSJomnx0WV9XKvVyXQ" name="test_solution,_buG4sdOFEdyqlogshP8l4g" guid="--GUCGSJomnx0WV9XKvVyXQ" version="7.2.0">
+  <org.eclipse.epf.uma:ProcessDescription longPresentationName="test_solution,_buG4sdOFEdyqlogshP8l4g" xmi:id="--GUCGSJomnx0WV9XKvVyXQ" name="test_solution,_buG4sdOFEdyqlogshP8l4g" guid="--GUCGSJomnx0WV9XKvVyXQ" version="7.2.0">
     <mainDescription>&lt;p&gt;
     This activity is repeated throughout the project lifecycle. The main goal of this activity is to validate that the
     current build of the system satisfies the requirements allocated to it.

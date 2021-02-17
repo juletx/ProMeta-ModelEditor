@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1">
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vRKhx96vINZLGd2eqNzVyg" name="design_solution,_frOcQNOKEdyqlogshP8l4g" guid="-vRKhx96vINZLGd2eqNzVyg">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="design_solution,_frOcQNOKEdyqlogshP8l4g" xmi:id="-vRKhx96vINZLGd2eqNzVyg" name="design_solution,_frOcQNOKEdyqlogshP8l4g" guid="-vRKhx96vINZLGd2eqNzVyg">
     <keyConsiderations>&lt;p&gt;&#xD;
     Each step in this task can cause all previous steps to be revisited in light of new information and decisions.&amp;nbsp;&#xD;
     For example, while determining how elements collaborate&amp;nbsp;you might find a gap in the requirements that causes you&#xD;
@@ -51,7 +51,7 @@
     guid="_8OD-cLPTEduocbW-TPTq7A"&gt;[Technical Architecture]&lt;/a&gt;.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UAvglC1beVBhR4tcCsrtIA" name="design,_frh-QtOKEdyqlogshP8l4g" guid="-UAvglC1beVBhR4tcCsrtIA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="design,_frh-QtOKEdyqlogshP8l4g" xmi:id="-UAvglC1beVBhR4tcCsrtIA" name="design,_frh-QtOKEdyqlogshP8l4g" guid="-UAvglC1beVBhR4tcCsrtIA">
     <refinedDescription>&lt;p&gt;&#xD;
     This work product describes the elements that will make up the implemented system. It communicates abstractions of&#xD;
     particular portions of the implementation.&#xD;
@@ -66,7 +66,7 @@
     together without contradiction.&lt;br /&gt;&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2uPX8tYcrG4NCorQpgu0eA" name="implement_developer_tests,_gXo2UNOKEdyqlogshP8l4g" guid="-2uPX8tYcrG4NCorQpgu0eA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="implement_developer_tests,_gXo2UNOKEdyqlogshP8l4g" xmi:id="-2uPX8tYcrG4NCorQpgu0eA" name="implement_developer_tests,_gXo2UNOKEdyqlogshP8l4g" guid="-2uPX8tYcrG4NCorQpgu0eA">
     <keyConsiderations>&lt;ol&gt;&#xD;
     &lt;li&gt;&#xD;
         Automate tests via a unit regression testing tool (for example, xUnit) so that tests may be run by developers&#xD;
@@ -96,7 +96,7 @@
     additional behavior.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fi-xVZ6lCsQU31y75Ax4OA" name="developer_test,_gX7xQtOKEdyqlogshP8l4g" guid="-fi-xVZ6lCsQU31y75Ax4OA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="developer_test,_gX7xQtOKEdyqlogshP8l4g" xmi:id="-fi-xVZ6lCsQU31y75Ax4OA" name="developer_test,_gX7xQtOKEdyqlogshP8l4g" guid="-fi-xVZ6lCsQU31y75Ax4OA">
     <refinedDescription>&lt;p&gt;&#xD;
     This artifact covers all of the steps to validate a specific aspect of an implementation element. For example, a test&#xD;
     could ensure that the parameters of a method properly accept the uppermost and lowermost required values. A developer&#xD;
@@ -112,7 +112,7 @@
     run correctly.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-383xzY4iZ_mRmebRFJ71-Q" name="implement_solution,_hVe-oNOKEdyqlogshP8l4g" guid="-383xzY4iZ_mRmebRFJ71-Q">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="implement_solution,_hVe-oNOKEdyqlogshP8l4g" xmi:id="-383xzY4iZ_mRmebRFJ71-Q" name="implement_solution,_hVe-oNOKEdyqlogshP8l4g" guid="-383xzY4iZ_mRmebRFJ71-Q">
     <keyConsiderations>&lt;p&gt;&#xD;
     It is best when developer tests already exist so there is an unambiguous definition of what behavior is considered&#xD;
     correct. The implementation should be immediately tested.&#xD;
@@ -128,14 +128,14 @@ being realized in the code.&lt;br /&gt;</keyConsiderations>
     related tasks involving developer testing and consideration of the design.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9Jb-Nex6ZZzYbdiQZ5yH9Q" name="build,_aJ1X4No7EdyzZqGyZ7hwdw" guid="-9Jb-Nex6ZZzYbdiQZ5yH9Q">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="build,_aJ1X4No7EdyzZqGyZ7hwdw" xmi:id="-9Jb-Nex6ZZzYbdiQZ5yH9Q" name="build,_aJ1X4No7EdyzZqGyZ7hwdw" guid="-9Jb-Nex6ZZzYbdiQZ5yH9Q">
     <refinedDescription>&lt;p&gt;&#xD;
     This working version of the system or part of the system&amp;nbsp;is the result of putting the implementation through a&#xD;
     build process (typically an automated build script) that creates an executable version, or one that runs. This&#xD;
     executable version will typically have a number of supporting files that are also considered part of this artifact.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aPWmfmaOCZsb1a9aCKpRSw" name="run_developer_tests,_iRZNQNOKEdyqlogshP8l4g" guid="-aPWmfmaOCZsb1a9aCKpRSw">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="run_developer_tests,_iRZNQNOKEdyqlogshP8l4g" xmi:id="-aPWmfmaOCZsb1a9aCKpRSw" name="run_developer_tests,_iRZNQNOKEdyqlogshP8l4g" guid="-aPWmfmaOCZsb1a9aCKpRSw">
     <keyConsiderations>&lt;p&gt;&#xD;
     It is common to require that code pass all developer tests before it can be delivered in an integrated source code&#xD;
     repository.&#xD;
@@ -148,7 +148,7 @@ being realized in the code.&lt;br /&gt;</keyConsiderations>
     are being realized in the code.&#xD;
 &lt;/p&gt;</keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-nGFCabBnNthDU5t9ws5fbA" name="integrate_and_create_build,_Dlo8wNo8EdyzZqGyZ7hwdw" guid="-nGFCabBnNthDU5t9ws5fbA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="integrate_and_create_build,_Dlo8wNo8EdyzZqGyZ7hwdw" xmi:id="-nGFCabBnNthDU5t9ws5fbA" name="integrate_and_create_build,_Dlo8wNo8EdyzZqGyZ7hwdw" guid="-nGFCabBnNthDU5t9ws5fbA">
     <keyConsiderations>&lt;p&gt;&#xD;
     In order to be effective at applying the practice of &lt;a class="elementLink"&#xD;
     href="./../../practice.tech.continuous_integration.base/guidances/guidelines/continuous_integration_13C1A8CA.html"&#xD;
@@ -159,7 +159,7 @@ being realized in the code.&lt;br /&gt;</keyConsiderations>
     guid="_1QU9MAIoEdyLh7vsrHZ4YA"&gt;Change Set&lt;/a&gt;s that can be implemented, integrated and tested quickly.&#xD;
 &lt;/p&gt;</keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FB2KP2UFI653oVtHVkndvA" name="implementation,_dC4w4JojEd2XAqcHTC2Siw" guid="-FB2KP2UFI653oVtHVkndvA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="implementation,_dC4w4JojEd2XAqcHTC2Siw" xmi:id="-FB2KP2UFI653oVtHVkndvA" name="implementation,_dC4w4JojEd2XAqcHTC2Siw" guid="-FB2KP2UFI653oVtHVkndvA">
     <refinedDescription>&lt;p&gt;&#xD;
     This artifact is the collection of one or more of these elements:&#xD;
 &lt;/p&gt;&#xD;
@@ -178,13 +178,13 @@ being realized in the code.&lt;br /&gt;</keyConsiderations>
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9NwuPPfPDuUrGL-0O-B1Uw" name="test_log,_dC4w4ZojEd2XAqcHTC2Siw" guid="-9NwuPPfPDuUrGL-0O-B1Uw">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="test_log,_dC4w4ZojEd2XAqcHTC2Siw" xmi:id="-9NwuPPfPDuUrGL-0O-B1Uw" name="test_log,_dC4w4ZojEd2XAqcHTC2Siw" guid="-9NwuPPfPDuUrGL-0O-B1Uw">
     <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
 provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
 trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
 the results of an aspect of the test effort.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-ux7ytJ8wsCQm5rzKYxNA7Q" name="develop_solution,_RXGoodOFEdyqlogshP8l4g" guid="-ux7ytJ8wsCQm5rzKYxNA7Q" version="7.2.0">
+  <org.eclipse.epf.uma:ProcessDescription longPresentationName="develop_solution,_RXGoodOFEdyqlogshP8l4g" xmi:id="-ux7ytJ8wsCQm5rzKYxNA7Q" name="develop_solution,_RXGoodOFEdyqlogshP8l4g" guid="-ux7ytJ8wsCQm5rzKYxNA7Q" version="7.2.0">
     <mainDescription>&lt;h3&gt;
     Introduction
 &lt;/h3&gt;

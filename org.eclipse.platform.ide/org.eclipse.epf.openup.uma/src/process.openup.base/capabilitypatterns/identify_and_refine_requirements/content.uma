@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1">
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-x896fGqISERWysfNwjvB7w" name="system_wide_requirements,_EOwqptOLEdyqlogshP8l4g" guid="-x896fGqISERWysfNwjvB7w">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="system_wide_requirements,_EOwqptOLEdyqlogshP8l4g" xmi:id="-x896fGqISERWysfNwjvB7w" name="system_wide_requirements,_EOwqptOLEdyqlogshP8l4g" guid="-x896fGqISERWysfNwjvB7w">
     <keyConsiderations>&lt;ul&gt;&#xD;
     &lt;li&gt;&#xD;
         When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
@@ -30,7 +30,7 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-T_J_cyYgoF4KWAcGQbdjjA" name="glossary,_EOwqqNOLEdyqlogshP8l4g" guid="-T_J_cyYgoF4KWAcGQbdjjA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="glossary,_EOwqqNOLEdyqlogshP8l4g" xmi:id="-T_J_cyYgoF4KWAcGQbdjjA" name="glossary,_EOwqqNOLEdyqlogshP8l4g" guid="-T_J_cyYgoF4KWAcGQbdjjA">
     <keyConsiderations>&lt;p&gt;&#xD;
     Although listed as an &lt;i&gt;output from&lt;/i&gt; and an &lt;i&gt;input to&lt;/i&gt; tasks associated with the requirements discipline, this&#xD;
     artifact can be updated at any time and by any role as new terms are identified. The terms defined should be used&#xD;
@@ -66,7 +66,7 @@
     discussions with stakeholders and domain experts.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7g1n_R9Eg7zeKCdFrem74A" name="detail_use_case_scenarios,_FX7SINOLEdyqlogshP8l4g" guid="-7g1n_R9Eg7zeKCdFrem74A">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="detail_use_case_scenarios,_FX7SINOLEdyqlogshP8l4g" xmi:id="-7g1n_R9Eg7zeKCdFrem74A" name="detail_use_case_scenarios,_FX7SINOLEdyqlogshP8l4g" guid="-7g1n_R9Eg7zeKCdFrem74A">
     <keyConsiderations>&lt;p&gt;&#xD;
     To avoid unnecessary rework, only those use-case scenarios that are scheduled for implementation in the near term (in&#xD;
     the next iteration or two)&amp;nbsp;must be detailed.&amp;nbsp;&#xD;
@@ -75,11 +75,11 @@
     Not all use-case scenarios require detailing.&#xD;
 &lt;/p&gt;</keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-snrpmf_Kt0OZ2R7QKJufUQ" name="detail_system_wide_requirements,_F68foNOLEdyqlogshP8l4g" guid="-snrpmf_Kt0OZ2R7QKJufUQ">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="detail_system_wide_requirements,_F68foNOLEdyqlogshP8l4g" xmi:id="-snrpmf_Kt0OZ2R7QKJufUQ" name="detail_system_wide_requirements,_F68foNOLEdyqlogshP8l4g" guid="-snrpmf_Kt0OZ2R7QKJufUQ">
     <keyConsiderations>To avoid unnecessary rework, only those requirements that are scheduled for implementation in the near term (in the next&#xD;
 iteration or two)&amp;nbsp;must be detailed.</keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Afh79qcpEs6i404AABE0rA" name="create_test_cases,_HDOWUNOLEdyqlogshP8l4g" guid="-Afh79qcpEs6i404AABE0rA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="create_test_cases,_HDOWUNOLEdyqlogshP8l4g" xmi:id="-Afh79qcpEs6i404AABE0rA" name="create_test_cases,_HDOWUNOLEdyqlogshP8l4g" guid="-Afh79qcpEs6i404AABE0rA">
     <keyConsiderations>&lt;p&gt;&#xD;
     Develop test cases in parallel with requirements so that Analysts and stakeholders can agree with the specific&#xD;
     conditions of satisfaction for each requirement. The test cases act as acceptance criteria by expanding on the intent&#xD;
@@ -87,7 +87,7 @@ iteration or two)&amp;nbsp;must be detailed.</keyConsiderations>
     passing test cases.&amp;nbsp;&#xD;
 &lt;/p&gt;</keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bQ7hVBwsq2Dzk11CI9pT_g" name="test_case,_HDOWUtOLEdyqlogshP8l4g" guid="-bQ7hVBwsq2Dzk11CI9pT_g">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="test_case,_HDOWUtOLEdyqlogshP8l4g" xmi:id="-bQ7hVBwsq2Dzk11CI9pT_g" name="test_case,_HDOWUtOLEdyqlogshP8l4g" guid="-bQ7hVBwsq2Dzk11CI9pT_g">
     <refinedDescription>&lt;p&gt;&#xD;
     A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
     test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
@@ -102,7 +102,7 @@ iteration or two)&amp;nbsp;must be detailed.</keyConsiderations>
     guid="_0aJ6cMlgEdmt3adZL5Dmdw"&gt;Concept: Testing Qualitative Requirements&lt;/a&gt;.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-yNrF2Ac8VgD0WjoUxGOsIQ" name="identify_and_refine_requirements,_xxcpgdOEEdyqlogshP8l4g" guid="-yNrF2Ac8VgD0WjoUxGOsIQ" version="7.2.0">
+  <org.eclipse.epf.uma:ProcessDescription longPresentationName="identify_and_refine_requirements,_xxcpgdOEEdyqlogshP8l4g" xmi:id="-yNrF2Ac8VgD0WjoUxGOsIQ" name="identify_and_refine_requirements,_xxcpgdOEEdyqlogshP8l4g" guid="-yNrF2Ac8VgD0WjoUxGOsIQ" version="7.2.0">
     <mainDescription>&lt;p&gt;
     This activity describes the tasks you perform to gather, specify, analyze, and validate a subset of system's
     requirements prior to implementation and verification. This does not imply that all requirements are detailed prior to

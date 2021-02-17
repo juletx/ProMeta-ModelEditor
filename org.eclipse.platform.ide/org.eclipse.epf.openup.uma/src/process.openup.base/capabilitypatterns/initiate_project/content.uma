@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1">
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Y4gn4laxnFk1PUA3-GebOg" name="develop_technical_vision,_sopKYNOJEdyqlogshP8l4g" guid="-Y4gn4laxnFk1PUA3-GebOg">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="develop_technical_vision,_sopKYNOJEdyqlogshP8l4g" xmi:id="-Y4gn4laxnFk1PUA3-GebOg" name="develop_technical_vision,_sopKYNOJEdyqlogshP8l4g" guid="-Y4gn4laxnFk1PUA3-GebOg">
     <keyConsiderations>&lt;p&gt;&#xD;
     Use-case modeling&amp;nbsp;is one technique that can prove useful in defining the system boundaries and system behavior.&#xD;
 &lt;/p&gt;</keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-z5wrOi6JXS768g53hKiYaA" name="vision,_soyUVNOJEdyqlogshP8l4g" guid="-z5wrOi6JXS768g53hKiYaA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="vision,_soyUVNOJEdyqlogshP8l4g" xmi:id="-z5wrOi6JXS768g53hKiYaA" name="vision,_soyUVNOJEdyqlogshP8l4g" guid="-z5wrOi6JXS768g53hKiYaA">
     <keyConsiderations>&lt;p&gt;&#xD;
     It is good practice to keep this artifact brief, so you can release it to stakeholders as soon as possible, and to make&#xD;
     the artifact easy for stakeholders to read and understand. You can accomplish this by including only the most important&#xD;
@@ -15,7 +15,7 @@
     position statement that is based on their needs and research.&#xD;
 &lt;/p&gt;</keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9AN0xXBZYxIDPOg2N3IC6Q" name="plan_the_project,_t7pDUNOJEdyqlogshP8l4g" guid="-9AN0xXBZYxIDPOg2N3IC6Q">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="plan_the_project,_t7pDUNOJEdyqlogshP8l4g" xmi:id="-9AN0xXBZYxIDPOg2N3IC6Q" name="plan_the_project,_t7pDUNOJEdyqlogshP8l4g" guid="-9AN0xXBZYxIDPOg2N3IC6Q">
     <keyConsiderations>&lt;p&gt;&#xD;
     Gain agreement with stakeholders and the rest of the project team regarding the order of objectives and the duration of&#xD;
     the project. Make adjustments as&amp;nbsp;necessary.&#xD;
@@ -25,7 +25,7 @@ and deliverables. It allows the team to begin demonstrating self-organization by
 practices to be used. Collaboration and consensus by all key project participants is the goal, but the role responsible for&#xD;
 this task must ensure that everybody is committed to the plan.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZCPNs3ExxsjnNFRTVybQyA" name="project_plan,_4ypNIO-YEdyEMtC_IfEALw" guid="-ZCPNs3ExxsjnNFRTVybQyA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="project_plan,_4ypNIO-YEdyEMtC_IfEALw" xmi:id="-ZCPNs3ExxsjnNFRTVybQyA" name="project_plan,_4ypNIO-YEdyEMtC_IfEALw" guid="-ZCPNs3ExxsjnNFRTVybQyA">
     <keyConsiderations>Create and update the project plan in planning sessions that involve the whole team and appropriate project stakeholders in&#xD;
 order to make sure that everybody agrees with it.</keyConsiderations>
     <refinedDescription>&lt;p&gt;&#xD;
@@ -40,7 +40,7 @@ order to make sure that everybody agrees with it.</keyConsiderations>
     project.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LpEiAis-mzd1_RcJIRimLA" name="glossary,_OpsH8GpmEd24CboUCnKL3A" guid="-LpEiAis-mzd1_RcJIRimLA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="glossary,_OpsH8GpmEd24CboUCnKL3A" xmi:id="-LpEiAis-mzd1_RcJIRimLA" name="glossary,_OpsH8GpmEd24CboUCnKL3A" guid="-LpEiAis-mzd1_RcJIRimLA">
     <keyConsiderations>&lt;p&gt;&#xD;
     Although listed as an &lt;i&gt;output from&lt;/i&gt; and an &lt;i&gt;input to&lt;/i&gt; tasks associated with the requirements discipline, this&#xD;
     artifact can be updated at any time and by any role as new terms are identified. The terms defined should be used&#xD;
@@ -76,7 +76,7 @@ order to make sure that everybody agrees with it.</keyConsiderations>
     discussions with stakeholders and domain experts.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-kpXvvHptrggypeoQEamfhw" name="initiate_project,_eWxZgdOEEdyqlogshP8l4g" guid="-kpXvvHptrggypeoQEamfhw" version="7.2.0">
+  <org.eclipse.epf.uma:ProcessDescription longPresentationName="initiate_project,_eWxZgdOEEdyqlogshP8l4g" xmi:id="-kpXvvHptrggypeoQEamfhw" name="initiate_project,_eWxZgdOEEdyqlogshP8l4g" guid="-kpXvvHptrggypeoQEamfhw" version="7.2.0">
     <mainDescription>&lt;p&gt;
     This activity takes place at the beginning of the first iteration, when the project starts. The goal of this activity
     is to establish the vision for both the project and the project plan at a high level of granularity.

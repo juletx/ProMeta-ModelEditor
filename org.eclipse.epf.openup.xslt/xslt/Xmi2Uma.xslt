@@ -6,6 +6,8 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
+    <!--Root-->
+    <xsl:variable name="root" select="'/org.eclipse.epf.openup.uma/src/'"/>
     <!--ResourceManager-->
     <xsl:template match="org.eclipse.epf.uma.resourcemanager:ResourceManager"/>
     <!--MethodLibrary-->
@@ -23,7 +25,7 @@
         </xsl:copy>
     </xsl:template>
     <!--@variabilityBasedOnElement-->
-    <xsl:template match="contentElements|sections">
+    <xsl:template match="contentElements|sections|processElements[@xsi:type='org.eclipse.epf.uma:Phase' or @xsi:type='org.eclipse.epf.uma:Iteration' or @xsi:type='org.eclipse.epf.uma:Activity']">
         <xsl:copy>
         	<xsl:attribute name="variabilityBasedOnElement">
                 <xsl:value-of select="@guid"/>
@@ -32,7 +34,7 @@
         </xsl:copy>
     </xsl:template>
     <!--@longPresentationName-->
-    <xsl:variable name="descriptions" select="org.eclipse.epf.uma:ContentDescription|org.eclipse.epf.uma:WorkProductDescription|org.eclipse.epf.uma:RoleDescription|org.eclipse.epf.uma:TaskDescription|org.eclipse.epf.uma:GuidanceDescription|org.eclipse.epf.uma:PracticeDescription|org.eclipse.epf.uma:BreakdownElementDescription|org.eclipse.epf.uma:ActivityDescription|org.eclipse.epf.uma:ProcessDescription|org.eclipse.epf.uma:DescriptorDescription|org.eclipse.epf.uma:ArtifactDescription"/>
+    <xsl:variable name="descriptions" select="*[matches(name(), 'org\.eclipse\.epf\.uma:.*Description$')]"/>
     <xsl:template match="$descriptions">
         <xsl:copy>
         	<xsl:attribute name="longPresentationName">
@@ -41,8 +43,82 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
+    <xsl:template match="org.eclipse.epf.uma:ActivityDescription|org.eclipse.epf.uma:DescriptorDescription|org.eclipse.epf.uma:ProcessDescription">
+        <xsl:copy>
+        	<xsl:attribute name="longPresentationName">
+                <xsl:value-of select="@name"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+    </xsl:template>
+    <!--CapabilityPattern|DeliveryProcess-->
+    <xsl:template match="process[@xsi:type='org.eclipse.epf.uma:CapabilityPattern' or @xsi:type='org.eclipse.epf.uma:DeliveryProcess' or @xsi:type='org.eclipse.epf.uma:ProcessComponentInterface']">
+        <xsl:copy>
+            <xsl:attribute name="variabilityBasedOnElement">
+                <xsl:value-of select="@guid"/>
+            </xsl:attribute>
+        	<xsl:attribute name="superActivities">
+                <xsl:value-of select="@guid"/>
+            </xsl:attribute>
+            <xsl:attribute name="defaultContext">
+                <xsl:value-of select="concat($root, 'configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA')"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+    </xsl:template>
+    <!--ProcessComponent-->
+    <xsl:template match="org.eclipse.epf.uma:ProcessComponent">
+        <xsl:param name="guid" select="generate-id()"/>
+        <xsl:copy>
+            <xsl:attribute name="interfaces">
+                <xsl:value-of select="$guid"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="@*|node()"/>
+            <xsl:element name="processElements">
+                <xsl:attribute name="xsi:type">
+                    <xsl:value-of select="'org.eclipse.epf.uma:ProcessComponentInterface'"/>
+                </xsl:attribute>
+                <xsl:attribute name="guid">
+                    <xsl:value-of select="$guid"/>
+                </xsl:attribute>
+            </xsl:element>
+        </xsl:copy>
+    </xsl:template>
+    <!--@value-->
+    <xsl:template match="details/@value">
+        <xsl:param name="proxy" select="substring-before(., '#')"/>
+        <xsl:param name="id" select="substring-after(., '#')"/>
+        <xsl:param name="hid" select="concat('#', $id)"/>
+        <xsl:attribute name="value">
+            <xsl:choose>
+                <xsl:when test="$proxy='uma://_SKnAwOL9EdyM47cGD2jiaQ'">
+                    <xsl:value-of select="concat($root, concat('practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_RQi0ANONEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\construction_phase_iteration\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_RXGooNOFEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\develop_solution\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_aUsVENONEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\elaboration_phase_iteration\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_h0Gs8NONEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\inception_phase_iteration\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_pzQU0NONEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_SuWj4NOPEdyqlogshP8l4g'">
+                    <xsl:value-of select="concat($root, concat('process.openup.base\deliveryprocesses\openup_lifecycle\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="."/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:attribute>
+    </xsl:template>
     <!--@href-->
-    <xsl:variable name="root" select="'/org.eclipse.epf.openup.uma/src/'"/>
     <xsl:template match="@href">
         <xsl:param name="resourceDescriptors" select="/*/org.eclipse.epf.uma.resourcemanager:ResourceManager/resourceDescriptors"/>
         <xsl:param name="proxy" select="substring-before(., '#')"/>
@@ -317,7 +393,7 @@
                     <xsl:value-of select="concat($root, concat('practice.mgmt.iterative_dev.base\tasks\plan_iteration.uma', $hid))"/>
                 </xsl:when>
                 <xsl:when test="$proxy='uma://-PbfqVxB_j9KN-Jx39_pEUA'">
-                    <xsl:value-of select="concat($root, concat('process.openup.base\capabilitypatterns\plan_manage_iteration\model.uma', $hid))"/>
+                    <xsl:value-of select="concat($root, concat('practice.mgmt.iterative_dev.base\tasks\manage_iteration.uma', $hid))"/>
                 </xsl:when>
                 <xsl:when test="$proxy='uma://_a3uz4LBYEdm7Eph_l9Cn9w'">
                     <xsl:value-of select="concat($root, concat('practice.mgmt.iterative_dev.base\tasks\assess_results.uma', $hid))"/>

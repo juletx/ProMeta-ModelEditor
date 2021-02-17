@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1">
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-n6Q-ulwXte8wbHfbdgJuXQ" name="plan_deployment,_oaBE0JigEeGlkdGl1HQlDA" guid="-n6Q-ulwXte8wbHfbdgJuXQ">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="plan_deployment,_oaBE0JigEeGlkdGl1HQlDA" xmi:id="-n6Q-ulwXte8wbHfbdgJuXQ" name="plan_deployment,_oaBE0JigEeGlkdGl1HQlDA" guid="-n6Q-ulwXte8wbHfbdgJuXQ">
     <refinedDescription>&lt;p&gt;&#xD;
     Because a Deployment Engineer is responsible for accepting the results of one or more development team members and deploying those&#xD;
     integrated releases into the production environment, it is important for all parties to agree on the details of a&#xD;
@@ -7,7 +7,7 @@
     Deployment Engineer before and during the deployment to production of a particular release package.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2H5-pLUbe_1EU9a_K7G8lg" name="deployment_plan,_oaK10JigEeGlkdGl1HQlDA" guid="-2H5-pLUbe_1EU9a_K7G8lg">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="deployment_plan,_oaK10JigEeGlkdGl1HQlDA" xmi:id="-2H5-pLUbe_1EU9a_K7G8lg" name="deployment_plan,_oaK10JigEeGlkdGl1HQlDA" guid="-2H5-pLUbe_1EU9a_K7G8lg">
     <refinedDescription>&lt;p&gt;&#xD;
     The Deployment Plan should contain the unique instructions for deploying a particular version of a product. By "unique&#xD;
     instructions" we mean those things that are not part of a Deployment Engineer's normal procedures. Rather, they often&#xD;
@@ -49,7 +49,7 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-TceMuWXdZ1TV2gERYKpA5g" name="elaboration_phase_iteration,_aUsVEdONEdyqlogshP8l4g" guid="-TceMuWXdZ1TV2gERYKpA5g" version="7.2.0">
+  <org.eclipse.epf.uma:ProcessDescription longPresentationName="elaboration_phase_iteration,_aUsVEdONEdyqlogshP8l4g" xmi:id="-TceMuWXdZ1TV2gERYKpA5g" name="elaboration_phase_iteration,_aUsVEdONEdyqlogshP8l4g" guid="-TceMuWXdZ1TV2gERYKpA5g" version="7.2.0">
     <mainDescription>&lt;p&gt;
     Most activities during a typical iteration in Elaboration phase happen in parallel. Essentially, the main objectives
     for Elaboration are related to better understanding the requirements, creating and establishing a baseline of the

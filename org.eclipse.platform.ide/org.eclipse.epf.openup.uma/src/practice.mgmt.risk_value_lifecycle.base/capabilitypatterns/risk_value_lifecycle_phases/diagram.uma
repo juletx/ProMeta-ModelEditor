@@ -56,30 +56,30 @@
   </notation:Diagram>
   <uml:Activity xmi:id="_ySVOUJ7-Ed2wVotZ5rfngA" name="risk_value_lifecycle_phases">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ySVOUZ7-Ed2wVotZ5rfngA" source="uma_element">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ySVOUp7-Ed2wVotZ5rfngA" key="uri" value="uma://_SKnAwOL9EdyM47cGD2jiaQ#_SKnA1uL9EdyM47cGD2jiaQ"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ySVOUp7-Ed2wVotZ5rfngA" key="uri" value="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#_SKnA1uL9EdyM47cGD2jiaQ"/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ySVOU57-Ed2wVotZ5rfngA" key="type" value="Activity"/>
     </eAnnotations>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_yT0cEJ7-Ed2wVotZ5rfngA" name="Inception Phase" outgoing="_yT0cIJ7-Ed2wVotZ5rfngA" incoming="_5Fvb0J7-Ed2wVotZ5rfngA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yT0cEZ7-Ed2wVotZ5rfngA" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yT0cEp7-Ed2wVotZ5rfngA" key="uri" value="uma://_SKnAwOL9EdyM47cGD2jiaQ#_-UFkUVThEd2ZeY-22kx0mw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yT0cEp7-Ed2wVotZ5rfngA" key="uri" value="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#_-UFkUVThEd2ZeY-22kx0mw"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yT0cE57-Ed2wVotZ5rfngA" key="type" value="Phase"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_yT0cFJ7-Ed2wVotZ5rfngA" name="Elaboration Phase" outgoing="_yT0cIZ7-Ed2wVotZ5rfngA" incoming="_yT0cIJ7-Ed2wVotZ5rfngA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yT0cFZ7-Ed2wVotZ5rfngA" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yT0cFp7-Ed2wVotZ5rfngA" key="uri" value="uma://_SKnAwOL9EdyM47cGD2jiaQ#_2_nRIVThEd2ZeY-22kx0mw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yT0cFp7-Ed2wVotZ5rfngA" key="uri" value="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#_2_nRIVThEd2ZeY-22kx0mw"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yT0cF57-Ed2wVotZ5rfngA" key="type" value="Phase"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_yT0cGJ7-Ed2wVotZ5rfngA" name="Construction Phase" outgoing="_yT0cIp7-Ed2wVotZ5rfngA" incoming="_yT0cIZ7-Ed2wVotZ5rfngA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yT0cGZ7-Ed2wVotZ5rfngA" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yT0cGp7-Ed2wVotZ5rfngA" key="uri" value="uma://_SKnAwOL9EdyM47cGD2jiaQ#__r658VThEd2ZeY-22kx0mw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yT0cGp7-Ed2wVotZ5rfngA" key="uri" value="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#__r658VThEd2ZeY-22kx0mw"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yT0cG57-Ed2wVotZ5rfngA" key="type" value="Phase"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_yT0cHJ7-Ed2wVotZ5rfngA" name="Transition Phase" outgoing="_6QGWIJ7-Ed2wVotZ5rfngA" incoming="_yT0cIp7-Ed2wVotZ5rfngA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yT0cHZ7-Ed2wVotZ5rfngA" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yT0cHp7-Ed2wVotZ5rfngA" key="uri" value="uma://_SKnAwOL9EdyM47cGD2jiaQ#_BBN48VTiEd2ZeY-22kx0mw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yT0cHp7-Ed2wVotZ5rfngA" key="uri" value="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#_BBN48VTiEd2ZeY-22kx0mw"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yT0cH57-Ed2wVotZ5rfngA" key="type" value="Phase"/>
       </eAnnotations>
     </node>
@@ -197,7 +197,7 @@
   </notation:Diagram>
   <uml:Activity xmi:id="_qDWlcLqxEd-b6ps9TOwKEQ" name="Construction Iteration 1..n">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qDWlcbqxEd-b6ps9TOwKEQ" source="uma_element">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qDWlcrqxEd-b6ps9TOwKEQ" key="uri" value="uma://_SKnAwOL9EdyM47cGD2jiaQ#_SKnAyOL9EdyM47cGD2jiaQ"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qDWlcrqxEd-b6ps9TOwKEQ" key="uri" value="/org.eclipse.epf.openup.uma/src/practice.mgmt.risk_value_lifecycle.base\capabilitypatterns\risk_value_lifecycle_phases\model.uma#_SKnAyOL9EdyM47cGD2jiaQ"/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qDWlc7qxEd-b6ps9TOwKEQ" key="type" value="Iteration"/>
     </eAnnotations>
   </uml:Activity>

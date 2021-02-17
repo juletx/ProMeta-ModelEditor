@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<org.eclipse.epf.uma:MethodLibrary xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" guid="String" version="String">
+<org.eclipse.epf.uma:MethodLibrary xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" guid="String" version="String">
   <methodElementProperty name="String" value="String"/>
   <methodElementProperty name="String" value="String"/>
   <methodElementProperty name="String" value="String"/>

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0">
   <uml:Activity xmi:id="_CCbpoNQSEdyk9oc_L5Vk0g" name="develop_solution">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCbpodQSEdyk9oc_L5Vk0g" source="uma_element">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCbpotQSEdyk9oc_L5Vk0g" key="uri" value="uma://_RXGooNOFEdyqlogshP8l4g#_RXGoodOFEdyqlogshP8l4g"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCbpotQSEdyk9oc_L5Vk0g" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\develop_solution\model.uma#_RXGoodOFEdyqlogshP8l4g"/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCbpo9QSEdyk9oc_L5Vk0g" key="type" value="Activity"/>
     </eAnnotations>
     <node xmi:type="uml:ActivityParameterNode" xmi:id="_CWt3kNQSEdyk9oc_L5Vk0g" name="Design the Solution" outgoing="_6NZKkNQSEdyk9oc_L5Vk0g" incoming="_2b7EENQSEdyk9oc_L5Vk0g _7Rg6ANQSEdyk9oc_L5Vk0g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CWt3kdQSEdyk9oc_L5Vk0g" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CWt3ktQSEdyk9oc_L5Vk0g" key="uri" value="uma://_RXGooNOFEdyqlogshP8l4g#_frOcQNOKEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CWt3ktQSEdyk9oc_L5Vk0g" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\develop_solution\model.uma#_frOcQNOKEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CWt3k9QSEdyk9oc_L5Vk0g" key="type" value="Task"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:ActivityParameterNode" xmi:id="_CWt3lNQSEdyk9oc_L5Vk0g" name="Implement Developer Tests" outgoing="_0ZYkkNQSEdyk9oc_L5Vk0g" incoming="_5-H_gNQSEdyk9oc_L5Vk0g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CWt3ldQSEdyk9oc_L5Vk0g" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CWt3ltQSEdyk9oc_L5Vk0g" key="uri" value="uma://_RXGooNOFEdyqlogshP8l4g#_gXo2UNOKEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CWt3ltQSEdyk9oc_L5Vk0g" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\develop_solution\model.uma#_gXo2UNOKEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CWt3l9QSEdyk9oc_L5Vk0g" key="type" value="Task"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:ActivityParameterNode" xmi:id="_CWt3mNQSEdyk9oc_L5Vk0g" name="Implement Solution" outgoing="_1O0-0NQSEdyk9oc_L5Vk0g" incoming="_uqnD4NQSEdyk9oc_L5Vk0g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CWt3mdQSEdyk9oc_L5Vk0g" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CWt3mtQSEdyk9oc_L5Vk0g" key="uri" value="uma://_RXGooNOFEdyqlogshP8l4g#_hVe-oNOKEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CWt3mtQSEdyk9oc_L5Vk0g" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\develop_solution\model.uma#_hVe-oNOKEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CWt3m9QSEdyk9oc_L5Vk0g" key="type" value="Task"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:ActivityParameterNode" xmi:id="_CWt3nNQSEdyk9oc_L5Vk0g" name="Run Developer Tests" outgoing="_uMN3sNQSEdyk9oc_L5Vk0g" incoming="_0yFYcNQSEdyk9oc_L5Vk0g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CWt3ndQSEdyk9oc_L5Vk0g" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CWt3ntQSEdyk9oc_L5Vk0g" key="uri" value="uma://_RXGooNOFEdyqlogshP8l4g#_iRZNQNOKEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CWt3ntQSEdyk9oc_L5Vk0g" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\develop_solution\model.uma#_iRZNQNOKEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CWt3n9QSEdyk9oc_L5Vk0g" key="type" value="Task"/>
       </eAnnotations>
     </node>
@@ -38,7 +38,7 @@
     <node xmi:type="uml:MergeNode" xmi:id="_BI91kNQTEdyk9oc_L5Vk0g" outgoing="_C0TWANQTEdyk9oc_L5Vk0g" incoming="_CbJ2MNQTEdyk9oc_L5Vk0g _R8y_INQTEdyk9oc_L5Vk0g"/>
     <node xmi:type="uml:ActivityParameterNode" xmi:id="_GEVz0No8EdyzZqGyZ7hwdw" name="Integrate and Create Build" outgoing="_b_MvgN9IEdyXPePcD0t0WQ" incoming="_Q1-KYNo8EdyzZqGyZ7hwdw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GEVz0do8EdyzZqGyZ7hwdw" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GEVz0to8EdyzZqGyZ7hwdw" key="uri" value="uma://_RXGooNOFEdyqlogshP8l4g#_Dlo8wNo8EdyzZqGyZ7hwdw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GEVz0to8EdyzZqGyZ7hwdw" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\develop_solution\model.uma#_Dlo8wNo8EdyzZqGyZ7hwdw"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GEVz09o8EdyzZqGyZ7hwdw" key="type" value="Task"/>
       </eAnnotations>
     </node>

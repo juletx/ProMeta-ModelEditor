@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1">
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-S5JIDccPmUswHn8Fuoihmg" name="02_02_deliver_end_user_training,_iEP5wfd3EeCFmpfCmMPILg" guid="-S5JIDccPmUswHn8Fuoihmg">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="02_02_deliver_end_user_training,_iEP5wfd3EeCFmpfCmMPILg" xmi:id="-S5JIDccPmUswHn8Fuoihmg" name="02_02_deliver_end_user_training,_iEP5wfd3EeCFmpfCmMPILg" guid="-S5JIDccPmUswHn8Fuoihmg">
     <refinedDescription>&lt;p&gt;&#xD;
     Often, a Trainer will deliver training to End Users; rarely will the development team deliver training because&#xD;
     they are busy developing additional features for this or other systems. If a Trainer is not available, the&#xD;
@@ -10,7 +10,7 @@
     integrate these methods into an environment that the End Users can understand and relate to.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zWQaePGlqyQtrhSJIcFT5g" name="02_03_deliver_support_training,_iEP5wvd3EeCFmpfCmMPILg" guid="-zWQaePGlqyQtrhSJIcFT5g">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="02_03_deliver_support_training,_iEP5wvd3EeCFmpfCmMPILg" xmi:id="-zWQaePGlqyQtrhSJIcFT5g" name="02_03_deliver_support_training,_iEP5wvd3EeCFmpfCmMPILg" guid="-zWQaePGlqyQtrhSJIcFT5g">
     <refinedDescription>&lt;p&gt;&#xD;
     Because a Release ultimately will have to be supported by Help Desk or other technical personnel, a set of training&#xD;
     materials designed to convey key concepts to those individuals must be developed and delivered by the&amp;nbsp;Development&#xD;
@@ -22,7 +22,7 @@
     each level (tier) of support.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EeEevuLnY3VYk0iyk-4PNA" name="product_documentation,_iEQg1Pd3EeCFmpfCmMPILg" guid="-EeEevuLnY3VYk0iyk-4PNA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="product_documentation,_iEQg1Pd3EeCFmpfCmMPILg" xmi:id="-EeEevuLnY3VYk0iyk-4PNA" name="product_documentation,_iEQg1Pd3EeCFmpfCmMPILg" guid="-EeEevuLnY3VYk0iyk-4PNA">
     <refinedDescription>&lt;p&gt;&#xD;
     Product documentation is created for the benefit of the marketing arm of an organization, the Program Manager, and&#xD;
     those people who must assess the business value of a particular system.&#xD;
@@ -33,7 +33,7 @@
     product operates and how it meets stated business goals and needs.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KHIo0rQQtM2BlPh4JWpGjg" name="support_documentation,_iEQg1vd3EeCFmpfCmMPILg" guid="-KHIo0rQQtM2BlPh4JWpGjg">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="support_documentation,_iEQg1vd3EeCFmpfCmMPILg" xmi:id="-KHIo0rQQtM2BlPh4JWpGjg" name="support_documentation,_iEQg1vd3EeCFmpfCmMPILg" guid="-KHIo0rQQtM2BlPh4JWpGjg">
     <refinedDescription>&lt;p&gt;&#xD;
     Support documentation usually is developed for the three common tiers of a support organization. Tier 1 typically is&#xD;
     the Help Desk where users call when they have a problem with a particular system. Tier 1 support personnel&#xD;
@@ -68,13 +68,13 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EXc3pddBCA6wj8qQ0Dqamw" name="user_documentation,_iEQg2Pd3EeCFmpfCmMPILg" guid="-EXc3pddBCA6wj8qQ0Dqamw">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="user_documentation,_iEQg2Pd3EeCFmpfCmMPILg" xmi:id="-EXc3pddBCA6wj8qQ0Dqamw" name="user_documentation,_iEQg2Pd3EeCFmpfCmMPILg" guid="-EXc3pddBCA6wj8qQ0Dqamw">
     <refinedDescription>&lt;p&gt;&#xD;
     User documentation might include all or parts of user manuals (electronic or paper-based), tutorials, frequently asked&#xD;
     questions (FAQs), on-line Help Files, installation instructions, work instructions, operational procedures, etc.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EIp0kjHvkMcdiHUnbnCsHQ" name="training_materials,_iEQg2vd3EeCFmpfCmMPILg" guid="-EIp0kjHvkMcdiHUnbnCsHQ">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="training_materials,_iEQg2vd3EeCFmpfCmMPILg" xmi:id="-EIp0kjHvkMcdiHUnbnCsHQ" name="training_materials,_iEQg2vd3EeCFmpfCmMPILg" guid="-EIp0kjHvkMcdiHUnbnCsHQ">
     <refinedDescription>&lt;p&gt;&#xD;
     Training materials that can be used to train end users and production support personnel might consist of:&#xD;
 &lt;/p&gt;&#xD;
@@ -108,5 +108,5 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-XsPT6hPwaXWxv6Z9inqp2w" name="x,_ZikMkfd3EeCFmpfCmMPILg" guid="-XsPT6hPwaXWxv6Z9inqp2w"/>
+  <org.eclipse.epf.uma:ProcessDescription longPresentationName="x,_ZikMkfd3EeCFmpfCmMPILg" xmi:id="-XsPT6hPwaXWxv6Z9inqp2w" name="x,_ZikMkfd3EeCFmpfCmMPILg" guid="-XsPT6hPwaXWxv6Z9inqp2w"/>
 </xmi:XMI>

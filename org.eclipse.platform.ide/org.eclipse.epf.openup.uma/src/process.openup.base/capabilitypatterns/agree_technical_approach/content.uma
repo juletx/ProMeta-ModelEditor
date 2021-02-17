@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1">
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5pBUhaIFdJ75MLPerQSnoA" name="architecture_notebook,_BWf5gtOKEdyqlogshP8l4g" guid="-5pBUhaIFdJ75MLPerQSnoA">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="architecture_notebook,_BWf5gtOKEdyqlogshP8l4g" xmi:id="-5pBUhaIFdJ75MLPerQSnoA" name="architecture_notebook,_BWf5gtOKEdyqlogshP8l4g" guid="-5pBUhaIFdJ75MLPerQSnoA">
     <refinedDescription>&lt;p&gt;&#xD;
     This artifact&amp;nbsp;describes the &lt;a class="elementLink"&#xD;
     href="./../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html"&#xD;
@@ -24,7 +24,7 @@
     maintain and change the architecture later.&lt;br /&gt;&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-raSQ2CIQMJXnNHFqWWi7Kg" name="envision_the_arch,_sjccUN_1EdyOsumnGvWsEg" guid="-raSQ2CIQMJXnNHFqWWi7Kg">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="envision_the_arch,_sjccUN_1EdyOsumnGvWsEg" xmi:id="-raSQ2CIQMJXnNHFqWWi7Kg" name="envision_the_arch,_sjccUN_1EdyOsumnGvWsEg" guid="-raSQ2CIQMJXnNHFqWWi7Kg">
     <keyConsiderations>&lt;p&gt;&#xD;
     It&amp;nbsp;is important to reduce the complexity of the&amp;nbsp;solution by raising the levels of abstraction.&amp;nbsp;For more&#xD;
     information, see &lt;a class="elementLinkWithType"&#xD;
@@ -61,7 +61,7 @@
     the customer. This allows the project to move forward, enabling you to refine and baseline the architecture.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-BZ8afnvoVBJs82vzcOBaCw" name="agree_technical_approach,_4ouDUdOEEdyqlogshP8l4g" guid="-BZ8afnvoVBJs82vzcOBaCw" version="7.2.0">
+  <org.eclipse.epf.uma:ProcessDescription longPresentationName="agree_technical_approach,_4ouDUdOEEdyqlogshP8l4g" xmi:id="-BZ8afnvoVBJs82vzcOBaCw" name="agree_technical_approach,_4ouDUdOEEdyqlogshP8l4g" guid="-BZ8afnvoVBJs82vzcOBaCw" version="7.2.0">
     <mainDescription>&lt;p&gt;
     The goal of this activity is to define a technical approach to the system that supports the project requirements,
     within the constraints placed on the system and the development team. The architect should do the following:

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
   
-  <org.eclipse.epf.uma:ProcessComponent xmi:id="_eWxZgNOEEdyqlogshP8l4g" name="initiate_project" guid="_eWxZgNOEEdyqlogshP8l4g">
+  <org.eclipse.epf.uma:ProcessComponent interfaces="d496e19" xmi:id="_eWxZgNOEEdyqlogshP8l4g" name="initiate_project" guid="_eWxZgNOEEdyqlogshP8l4g">
     <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sopKYNOJEdyqlogshP8l4g" name="develop_technical_vision" guid="_sopKYNOJEdyqlogshP8l4g" presentationName="Develop Technical Vision" briefDescription="Define the vision for the future system. Describe the problem and features based on stakeholder requests." superActivities="_eWxZgdOEEdyqlogshP8l4g" optionalInput="_soyUVNOJEdyqlogshP8l4g" output="_soyUVNOJEdyqlogshP8l4g _OpsH8GpmEd24CboUCnKL3A">
       <presentation xmi:id="-Y4gn4laxnFk1PUA3-GebOg" href="content.uma#-Y4gn4laxnFk1PUA3-GebOg"/>
       <checklists href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0WoFUMlgEdmt3adZL5Dmdw"/>
@@ -55,8 +55,8 @@
     <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_wU5YkG7rEd2yFK8n6tDvyw" name="project_work_slot" guid="_wU5YkG7rEd2yFK8n6tDvyw" presentationName="[Project Work]" briefDescription="This slot serves as an abstraction for any type of work being done on the project. It could be represented as a work items list, an operational schedule, a work breakdown structure, and so on." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
       <WorkProduct href="/org.eclipse.epf.openup.uma/src/core.mgmt.slot.base/plugin.uma#_1QZI8EfUEdyiPI8btkmvmw"/>
     </processElements>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_eWxZgdOEEdyqlogshP8l4g" name="initiate_project" guid="_eWxZgdOEEdyqlogshP8l4g" presentationName="Initiate Project" briefDescription="Kick off the project and gain agreement with the stakeholders on the scope of the project, and an initial plan for achieving it. This activity bundles tasks required to define the vision and create a project plan." breakdownElements="_sopKYNOJEdyqlogshP8l4g _soyUVNOJEdyqlogshP8l4g _t7pDUNOJEdyqlogshP8l4g _tzWYwNnFEdyNWvE4rz3mXQ _4ypNIO-YEdyEMtC_IfEALw _OpsH8GpmEd24CboUCnKL3A _wU5YkG7rEd2yFK8n6tDvyw">
+    <process variabilityBasedOnElement="_eWxZgdOEEdyqlogshP8l4g" superActivities="_eWxZgdOEEdyqlogshP8l4g" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_eWxZgdOEEdyqlogshP8l4g" name="initiate_project" guid="_eWxZgdOEEdyqlogshP8l4g" presentationName="Initiate Project" briefDescription="Kick off the project and gain agreement with the stakeholders on the scope of the project, and an initial plan for achieving it. This activity bundles tasks required to define the vision and create a project plan." breakdownElements="_sopKYNOJEdyqlogshP8l4g _soyUVNOJEdyqlogshP8l4g _t7pDUNOJEdyqlogshP8l4g _tzWYwNnFEdyNWvE4rz3mXQ _4ypNIO-YEdyEMtC_IfEALw _OpsH8GpmEd24CboUCnKL3A _wU5YkG7rEd2yFK8n6tDvyw">
       <presentation xmi:id="-kpXvvHptrggypeoQEamfhw" href="content.uma#-kpXvvHptrggypeoQEamfhw"/>
     </process>
-  </org.eclipse.epf.uma:ProcessComponent>
+  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d496e19"/></org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1">
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mx51ATVqsnhmw5TcEQIYYw" name="plan_deployment,_DZttwJlXEeGlkdGl1HQlDA" guid="-mx51ATVqsnhmw5TcEQIYYw">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="plan_deployment,_DZttwJlXEeGlkdGl1HQlDA" xmi:id="-mx51ATVqsnhmw5TcEQIYYw" name="plan_deployment,_DZttwJlXEeGlkdGl1HQlDA" guid="-mx51ATVqsnhmw5TcEQIYYw">
     <refinedDescription>&lt;p&gt;&#xD;
     Because a Deployment Engineer is responsible for accepting the results of one or more development team members and deploying those&#xD;
     integrated releases into the production environment, it is important for all parties to agree on the details of a&#xD;
@@ -7,7 +7,7 @@
     Deployment Engineer before and during the deployment to production of a particular release package.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-noiWjBdDPWJmSF3l73Ti7Q" name="deployment_engineer,_DZttwZlXEeGlkdGl1HQlDA" guid="-noiWjBdDPWJmSF3l73Ti7Q">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="deployment_engineer,_DZttwZlXEeGlkdGl1HQlDA" xmi:id="-noiWjBdDPWJmSF3l73Ti7Q" name="deployment_engineer,_DZttwZlXEeGlkdGl1HQlDA" guid="-noiWjBdDPWJmSF3l73Ti7Q">
     <refinedDescription>&lt;p&gt;&#xD;
     A Deployment Engineer&amp;nbsp;assists the&amp;nbsp;Deployment Manager who is responsible to senior management for the&#xD;
     successful deployment of integrated or stand-alone releases into production. This team member role is critical to the&#xD;
@@ -17,7 +17,7 @@
     maximize value delivered to their program Customers.&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-f_uaW-2HSuS-3uC5Ni_BYw" name="deployment_plan,_DZttxZlXEeGlkdGl1HQlDA" guid="-f_uaW-2HSuS-3uC5Ni_BYw">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="deployment_plan,_DZttxZlXEeGlkdGl1HQlDA" xmi:id="-f_uaW-2HSuS-3uC5Ni_BYw" name="deployment_plan,_DZttxZlXEeGlkdGl1HQlDA" guid="-f_uaW-2HSuS-3uC5Ni_BYw">
     <refinedDescription>&lt;p&gt;&#xD;
     The Deployment Plan should contain the unique instructions for deploying a particular version of a product. By "unique&#xD;
     instructions" we mean those things that are not part of a Deployment Engineer's normal procedures. Rather, they often&#xD;
@@ -59,7 +59,7 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FcJEVCc4jEBKZPGYLseZkQ" name="backout_plan,_DaTjoplXEeGlkdGl1HQlDA" guid="-FcJEVCc4jEBKZPGYLseZkQ">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="backout_plan,_DaTjoplXEeGlkdGl1HQlDA" xmi:id="-FcJEVCc4jEBKZPGYLseZkQ" name="backout_plan,_DaTjoplXEeGlkdGl1HQlDA" guid="-FcJEVCc4jEBKZPGYLseZkQ">
     <refinedDescription>&lt;p&gt;&#xD;
     While someone on the development team normally authors a draft version of the Backout Plan, the Deployment Engineer is&#xD;
     ultimately responsible for its contents and existence. A Backout Plan typically answers the following questions:&#xD;
@@ -95,7 +95,7 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-M8RcfIWzEdq2ZYUeLZoX4Q" name="release_communications,_DaTjpZlXEeGlkdGl1HQlDA" guid="-M8RcfIWzEdq2ZYUeLZoX4Q">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="release_communications,_DaTjpZlXEeGlkdGl1HQlDA" xmi:id="-M8RcfIWzEdq2ZYUeLZoX4Q" name="release_communications,_DaTjpZlXEeGlkdGl1HQlDA" guid="-M8RcfIWzEdq2ZYUeLZoX4Q">
     <refinedDescription>&lt;p&gt;&#xD;
     Sometimes, depending on the product user base, separate communiques might need to be prepared for each stakeholder&#xD;
     group. In that case, this artifact should specify the different groups to which communications are directed, the method&#xD;
@@ -134,7 +134,7 @@
     &lt;/li&gt;&#xD;
 &lt;/ul&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9OywHIlNMFgKcxL-epLd3g" name="release,_DaTjqJlXEeGlkdGl1HQlDA" guid="-9OywHIlNMFgKcxL-epLd3g">
+  <org.eclipse.epf.uma:DescriptorDescription longPresentationName="release,_DaTjqJlXEeGlkdGl1HQlDA" xmi:id="-9OywHIlNMFgKcxL-epLd3g" name="release,_DaTjqJlXEeGlkdGl1HQlDA" guid="-9OywHIlNMFgKcxL-epLd3g">
     <refinedDescription>&lt;p&gt;&#xD;
     A Release consists of integrated, compiled code that runs cleanly, independently, and in its entirety. This is an&#xD;
     important rule because in order to be released or even "potentially shippable," a Release increment must be able to&#xD;
@@ -174,7 +174,7 @@
     Development Sprint/Iterations and&amp;nbsp;one 2-week Release Sprint/Iteration."&#xD;
 &lt;/p&gt;</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:ProcessDescription xmi:id="-pszgT2UQY1AzlzJLFM1S5g" name="construction_phase_iteration,_RQi0AdONEdyqlogshP8l4g" guid="-pszgT2UQY1AzlzJLFM1S5g" version="7.2.0">
+  <org.eclipse.epf.uma:ProcessDescription longPresentationName="construction_phase_iteration,_RQi0AdONEdyqlogshP8l4g" xmi:id="-pszgT2UQY1AzlzJLFM1S5g" name="construction_phase_iteration,_RQi0AdONEdyqlogshP8l4g" guid="-pszgT2UQY1AzlzJLFM1S5g" version="7.2.0">
     <mainDescription>&lt;p&gt;
     The architecture should be stable when the Construction phase starts, allowing the remaining requirements to be
     implemented on top of it. Another advantage of validating the architecture and eliminating as many risks as possible

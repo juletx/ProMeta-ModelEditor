@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0">
   <uml:Activity xmi:id="_6nb-MNUCEdylRpA9TBY1SQ" name="transition_phase_iteration">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6nb-MdUCEdylRpA9TBY1SQ" source="uma_element">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6nb-MtUCEdylRpA9TBY1SQ" key="uri" value="uma://_pzQU0NONEdyqlogshP8l4g#_pzQU0dONEdyqlogshP8l4g"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6nb-MtUCEdylRpA9TBY1SQ" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_pzQU0dONEdyqlogshP8l4g"/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6nb-M9UCEdylRpA9TBY1SQ" key="type" value="Activity"/>
     </eAnnotations>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_6ofHENUCEdylRpA9TBY1SQ" name="Plan and Manage Iteration" outgoing="_RsnxENUDEdylRpA9TBY1SQ" incoming="_RPHVsNUDEdylRpA9TBY1SQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6ofHEdUCEdylRpA9TBY1SQ" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ofHEtUCEdylRpA9TBY1SQ" key="uri" value="uma://_pzQU0NONEdyqlogshP8l4g#_5v_o4dOOEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ofHEtUCEdylRpA9TBY1SQ" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_5v_o4dOOEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ofHE9UCEdylRpA9TBY1SQ" key="type" value="Activity"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_6ofHFNUCEdylRpA9TBY1SQ" name="Develop Solution Increment" outgoing="_QGsVENUDEdylRpA9TBY1SQ" incoming="_PzxZENUDEdylRpA9TBY1SQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6ofHFdUCEdylRpA9TBY1SQ" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ofHFtUCEdylRpA9TBY1SQ" key="uri" value="uma://_pzQU0NONEdyqlogshP8l4g#_-iix4dOOEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ofHFtUCEdylRpA9TBY1SQ" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_-iix4dOOEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ofHF9UCEdylRpA9TBY1SQ" key="type" value="Activity"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_6ofHGNUCEdylRpA9TBY1SQ" name="Test Solution" outgoing="_Q5NXINUDEdylRpA9TBY1SQ" incoming="_Qf4RINUDEdylRpA9TBY1SQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6ofHGdUCEdylRpA9TBY1SQ" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ofHGtUCEdylRpA9TBY1SQ" key="uri" value="uma://_pzQU0NONEdyqlogshP8l4g#_AZ58IdOPEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ofHGtUCEdylRpA9TBY1SQ" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_AZ58IdOPEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ofHG9UCEdylRpA9TBY1SQ" key="type" value="Activity"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_6ofHHNUCEdylRpA9TBY1SQ" name="Ongoing Tasks" outgoing="_STN3ANUDEdylRpA9TBY1SQ" incoming="_SDHlgNUDEdylRpA9TBY1SQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6ofHHdUCEdylRpA9TBY1SQ" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ofHHtUCEdylRpA9TBY1SQ" key="uri" value="uma://_pzQU0NONEdyqlogshP8l4g#_CoJVUdOPEdyqlogshP8l4g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ofHHtUCEdylRpA9TBY1SQ" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_CoJVUdOPEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ofHH9UCEdylRpA9TBY1SQ" key="type" value="Activity"/>
       </eAnnotations>
     </node>
@@ -34,25 +34,25 @@
     <node xmi:type="uml:ActivityFinalNode" xmi:id="_NdHDsNUDEdylRpA9TBY1SQ" incoming="_RR4QEJlaEeGlkdGl1HQlDA"/>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_2Qk30JlXEeGlkdGl1HQlDA" name="Prepare for Release" outgoing="_V_CNoJlYEeGlkdGl1HQlDA" incoming="_VIfnMJlYEeGlkdGl1HQlDA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2Qk30ZlXEeGlkdGl1HQlDA" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Qk30plXEeGlkdGl1HQlDA" key="uri" value="uma://_pzQU0NONEdyqlogshP8l4g#_qRAugZlXEeGlkdGl1HQlDA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Qk30plXEeGlkdGl1HQlDA" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_qRAugZlXEeGlkdGl1HQlDA"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Qk305lXEeGlkdGl1HQlDA" key="type" value="Activity"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_2Qk31JlXEeGlkdGl1HQlDA" name="Deploy Release to Production" outgoing="_PMIKQNUDEdylRpA9TBY1SQ" incoming="_bKSxkJlYEeGlkdGl1HQlDA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2Qk31ZlXEeGlkdGl1HQlDA" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Qk31plXEeGlkdGl1HQlDA" key="uri" value="uma://_pzQU0NONEdyqlogshP8l4g#_sL8xMZlXEeGlkdGl1HQlDA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Qk31plXEeGlkdGl1HQlDA" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_sL8xMZlXEeGlkdGl1HQlDA"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Qk315lXEeGlkdGl1HQlDA" key="type" value="Activity"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_2Qk32JlXEeGlkdGl1HQlDA" name="Provide Product Training" outgoing="_QnQlwJlaEeGlkdGl1HQlDA" incoming="_WkcAwJlYEeGlkdGl1HQlDA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2Qk32ZlXEeGlkdGl1HQlDA" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Qk32plXEeGlkdGl1HQlDA" key="uri" value="uma://_pzQU0NONEdyqlogshP8l4g#_tcRJkZlXEeGlkdGl1HQlDA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Qk32plXEeGlkdGl1HQlDA" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_tcRJkZlXEeGlkdGl1HQlDA"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Qk325lXEeGlkdGl1HQlDA" key="type" value="Activity"/>
       </eAnnotations>
     </node>
     <node xmi:type="uml:StructuredActivityNode" xmi:id="_KlaNgJlZEeGlkdGl1HQlDA" name="Finalize Product Documentation and Training" outgoing="_7YapcJlZEeGlkdGl1HQlDA" incoming="_6hIcIJlZEeGlkdGl1HQlDA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KlaNgZlZEeGlkdGl1HQlDA" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KlaNgplZEeGlkdGl1HQlDA" key="uri" value="uma://_pzQU0NONEdyqlogshP8l4g#_ybaHoZlYEeGlkdGl1HQlDA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KlaNgplZEeGlkdGl1HQlDA" key="uri" value="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\transition_phase_iteration\model.uma#_ybaHoZlYEeGlkdGl1HQlDA"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KlaNg5lZEeGlkdGl1HQlDA" key="type" value="Activity"/>
       </eAnnotations>
     </node>

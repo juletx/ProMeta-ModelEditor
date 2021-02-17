@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
   
-  <org.eclipse.epf.uma:ProcessComponent xmi:id="_y7az6piLEeGOvpP1fVrVNA" name="provide_product_training" guid="_y7az6piLEeGOvpP1fVrVNA">
+  <org.eclipse.epf.uma:ProcessComponent interfaces="d506e21" xmi:id="_y7az6piLEeGOvpP1fVrVNA" name="provide_product_training" guid="_y7az6piLEeGOvpP1fVrVNA">
     <methodElementProperty xmi:id="_G_R4ABo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
     <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_y7az8ZiLEeGOvpP1fVrVNA" name="deliver_end_user_training" guid="_y7az8ZiLEeGOvpP1fVrVNA" presentationName="Deliver End User Training" briefDescription="In most cases, End Users of a system require training to use the application effectively." isPlanned="true" superActivities="_y7az8piLEeGOvpP1fVrVNA" mandatoryInput="_y7az75iLEeGOvpP1fVrVNA _y7az7ZiLEeGOvpP1fVrVNA" optionalInput="_y7az8JiLEeGOvpP1fVrVNA">
       <methodElementProperty xmi:id="_G_R4ARo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
@@ -44,8 +44,8 @@
       <presentation xmi:id="-EIp0kjHvkMcdiHUnbnCsHQ" href="content.uma#-EIp0kjHvkMcdiHUnbnCsHQ"/>
       <WorkProduct href="/org.eclipse.epf.openup.uma/src/practice.gen.doc_trng.base/plugin.uma#_-zeAguB8EeC1y_NExchKwQ"/>
     </processElements>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7az8piLEeGOvpP1fVrVNA" name="provide_product_training" guid="_y7az8piLEeGOvpP1fVrVNA" presentationName="Provide Product Training" briefDescription="This activity provides product training." breakdownElements="_y7az8ZiLEeGOvpP1fVrVNA _y7az7piLEeGOvpP1fVrVNA _y7az8JiLEeGOvpP1fVrVNA _y7az65iLEeGOvpP1fVrVNA _y7az75iLEeGOvpP1fVrVNA _y7az7ZiLEeGOvpP1fVrVNA">
+    <process variabilityBasedOnElement="_y7az8piLEeGOvpP1fVrVNA" superActivities="_y7az8piLEeGOvpP1fVrVNA" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7az8piLEeGOvpP1fVrVNA" name="provide_product_training" guid="_y7az8piLEeGOvpP1fVrVNA" presentationName="Provide Product Training" briefDescription="This activity provides product training." breakdownElements="_y7az8ZiLEeGOvpP1fVrVNA _y7az7piLEeGOvpP1fVrVNA _y7az8JiLEeGOvpP1fVrVNA _y7az65iLEeGOvpP1fVrVNA _y7az75iLEeGOvpP1fVrVNA _y7az7ZiLEeGOvpP1fVrVNA">
       <presentation xmi:id="-XsPT6hPwaXWxv6Z9inqp2w" href="content.uma#-XsPT6hPwaXWxv6Z9inqp2w"/>
     </process>
-  </org.eclipse.epf.uma:ProcessComponent>
+  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d506e21"/></org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>
