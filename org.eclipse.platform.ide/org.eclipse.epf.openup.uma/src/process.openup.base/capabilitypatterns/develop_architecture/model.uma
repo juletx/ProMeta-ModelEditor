@@ -50,8 +50,8 @@
       <methodElementProperty xmi:id="_G-Ch5Ro0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;me_references udtList=&#34;&#34;/&gt;"/>
       <WorkProduct href="/org.eclipse.epf.openup.uma/src/core.tech.slot.base/plugin.uma#_Vux8UEfUEdyiPI8btkmvmw"/>
     </processElements>
-    <process variabilityBasedOnElement="_KaeNsdOFEdyqlogshP8l4g" superActivities="_KaeNsdOFEdyqlogshP8l4g" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_KaeNsdOFEdyqlogshP8l4g" name="develop_architecture" guid="_KaeNsdOFEdyqlogshP8l4g" presentationName="Develop the Architecture" briefDescription="Develop the architecturally significant requirements prioritized for this iteration." breakdownElements="_EjG_cNOKEdyqlogshP8l4g _TV_k8dOKEdyqlogshP8l4g _6RuKMN_1EdyOsumnGvWsEg _6R37MN_1EdyOsumnGvWsEg _6R37Md_1EdyOsumnGvWsEg _6R37Mt_1EdyOsumnGvWsEg">
+    
+  <process variabilityBasedOnElement="_KaeNsdOFEdyqlogshP8l4g" superActivities="_KaeNsdOFEdyqlogshP8l4g" breakdownElements="_EjG_cNOKEdyqlogshP8l4g _TV_k8dOKEdyqlogshP8l4g _6RuKMN_1EdyOsumnGvWsEg _6R37MN_1EdyOsumnGvWsEg _6R37Md_1EdyOsumnGvWsEg _6R37Mt_1EdyOsumnGvWsEg _KaeNsdOFEdyqlogshP8l4g d483e12" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_KaeNsdOFEdyqlogshP8l4g" name="develop_architecture" guid="_KaeNsdOFEdyqlogshP8l4g" presentationName="Develop the Architecture" briefDescription="Develop the architecturally significant requirements prioritized for this iteration.">
       <presentation xmi:id="-VFp5B68iro5ga1pz4nbQFw" href="content.uma#-VFp5B68iro5ga1pz4nbQFw"/>
-    </process>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d483e12"/></org.eclipse.epf.uma:ProcessComponent>
+    </process><processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" superActivities="_KaeNsdOFEdyqlogshP8l4g" guid="d483e12"/></org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>

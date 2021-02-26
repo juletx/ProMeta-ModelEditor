@@ -15,8 +15,8 @@
       <templates href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_QwUJYDg0Edu4E8ZdmlYjtA"/>
       <WorkProduct href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_rGNWsCbSEdqh1LYUOGRh2A"/>
     </processElements>
-    <process variabilityBasedOnElement="__ZInMdOEEdyqlogshP8l4g" superActivities="__ZInMdOEEdyqlogshP8l4g" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="__ZInMdOEEdyqlogshP8l4g" name="ongoing_tasks" guid="__ZInMdOEEdyqlogshP8l4g" presentationName="Ongoing Tasks" briefDescription="Perform ongoing tasks that are not necessarily part of the project schedule." isPlanned="false" breakdownElements="_HGqkMNnTEdyNj6EOmqy5Rg _HGqkMdnTEdyNj6EOmqy5Rg">
+    
+  <process variabilityBasedOnElement="__ZInMdOEEdyqlogshP8l4g" superActivities="__ZInMdOEEdyqlogshP8l4g" breakdownElements="_HGqkMNnTEdyNj6EOmqy5Rg _HGqkMdnTEdyNj6EOmqy5Rg __ZInMdOEEdyqlogshP8l4g d498e10" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="__ZInMdOEEdyqlogshP8l4g" name="ongoing_tasks" guid="__ZInMdOEEdyqlogshP8l4g" presentationName="Ongoing Tasks" briefDescription="Perform ongoing tasks that are not necessarily part of the project schedule." isPlanned="false">
       <presentation xmi:id="-aXudKqi6rjimd3UsF0smZA" href="content.uma#-aXudKqi6rjimd3UsF0smZA"/>
-    </process>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d498e10"/></org.eclipse.epf.uma:ProcessComponent>
+    </process><processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" superActivities="__ZInMdOEEdyqlogshP8l4g" guid="d498e10"/></org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>

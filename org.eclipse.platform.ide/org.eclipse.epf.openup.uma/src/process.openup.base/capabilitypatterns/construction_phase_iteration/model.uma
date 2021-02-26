@@ -84,9 +84,9 @@
         <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="/org.eclipse.epf.openup.uma/src/process.openup.base\capabilitypatterns\identify_and_refine_requirements\model.uma#_xxcpgdOEEdyqlogshP8l4g"/>
       </processElements>
     </childPackages>
-    <process variabilityBasedOnElement="_RQi0AdONEdyqlogshP8l4g" superActivities="_RQi0AdONEdyqlogshP8l4g" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_RQi0AdONEdyqlogshP8l4g" name="construction_phase_iteration" guid="_RQi0AdONEdyqlogshP8l4g" presentationName="Construction Phase Iteration" briefDescription="This iteration template defines the activities (and associated roles and work products) performed in a typical iteration in the Construction phase." breakdownElements="_3s7aYdONEdyqlogshP8l4g _yw_dcZlVEeGlkdGl1HQlDA _CqFrgdOOEdyqlogshP8l4g _HhjJsdOOEdyqlogshP8l4g _GQejYdOOEdyqlogshP8l4g _8--9sZigEeGlkdGl1HQlDA">
+    
+  <process variabilityBasedOnElement="_RQi0AdONEdyqlogshP8l4g" superActivities="_RQi0AdONEdyqlogshP8l4g" breakdownElements="_3s7aYdONEdyqlogshP8l4g _yw_dcZlVEeGlkdGl1HQlDA _CqFrgdOOEdyqlogshP8l4g _HhjJsdOOEdyqlogshP8l4g _GQejYdOOEdyqlogshP8l4g _8--9sZigEeGlkdGl1HQlDA _RQi0AdONEdyqlogshP8l4g d479e21" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_RQi0AdONEdyqlogshP8l4g" name="construction_phase_iteration" guid="_RQi0AdONEdyqlogshP8l4g" presentationName="Construction Phase Iteration" briefDescription="This iteration template defines the activities (and associated roles and work products) performed in a typical iteration in the Construction phase.">
       <methodElementProperty xmi:id="_G9UwRBo0EeuXnIT9fOh1Fg" name="publish_ad" value="true"/>
       <presentation xmi:id="-pszgT2UQY1AzlzJLFM1S5g" href="content.uma#-pszgT2UQY1AzlzJLFM1S5g"/>
-    </process>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d479e21"/></org.eclipse.epf.uma:ProcessComponent>
+    </process><processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" superActivities="_RQi0AdONEdyqlogshP8l4g" guid="d479e21"/></org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>

@@ -69,8 +69,8 @@
       <presentation xmi:id="-81zxeCXkSnPW-ndmULZWlQ" href="content.uma#-81zxeCXkSnPW-ndmULZWlQ"/>
       <WorkProduct href="/org.eclipse.epf.openup.uma/src/practice.gen.doc_trng.base/plugin.uma#_-zeAguB8EeC1y_NExchKwQ"/>
     </processElements>
-    <process variabilityBasedOnElement="_y7a0LJiLEeGOvpP1fVrVNA" superActivities="_y7a0LJiLEeGOvpP1fVrVNA" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0LJiLEeGOvpP1fVrVNA" name="prep_doc_trng" guid="_y7a0LJiLEeGOvpP1fVrVNA" presentationName="Develop Product Documentation and Training" briefDescription="This activity prepares product documentation and training materials." breakdownElements="_y7kklJiLEeGOvpP1fVrVNA _y7kkkpiLEeGOvpP1fVrVNA _y7kkkJiLEeGOvpP1fVrVNA _y7kkk5iLEeGOvpP1fVrVNA _y7a0K5iLEeGOvpP1fVrVNA _y7kkkZiLEeGOvpP1fVrVNA _ofI9sJlWEeGlkdGl1HQlDA _ofSHoplWEeGlkdGl1HQlDA">
+    
+  <process variabilityBasedOnElement="_y7a0LJiLEeGOvpP1fVrVNA" superActivities="_y7a0LJiLEeGOvpP1fVrVNA" breakdownElements="_y7kklJiLEeGOvpP1fVrVNA _y7kkkpiLEeGOvpP1fVrVNA _y7kkkJiLEeGOvpP1fVrVNA _y7kkk5iLEeGOvpP1fVrVNA _y7a0K5iLEeGOvpP1fVrVNA _y7kkkZiLEeGOvpP1fVrVNA _ofI9sJlWEeGlkdGl1HQlDA _ofSHoplWEeGlkdGl1HQlDA _y7a0LJiLEeGOvpP1fVrVNA d504e25" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0LJiLEeGOvpP1fVrVNA" name="prep_doc_trng" guid="_y7a0LJiLEeGOvpP1fVrVNA" presentationName="Develop Product Documentation and Training" briefDescription="This activity prepares product documentation and training materials.">
       <presentation xmi:id="-yeqVyv9laglLKJHLoavEgA" href="content.uma#-yeqVyv9laglLKJHLoavEgA"/>
-    </process>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d504e25"/></org.eclipse.epf.uma:ProcessComponent>
+    </process><processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" superActivities="_y7a0LJiLEeGOvpP1fVrVNA" guid="d504e25"/></org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>

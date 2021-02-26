@@ -23,9 +23,9 @@
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_BbnZ4NQVEdyk9oc_L5Vk0g" guid="_BbnZ4NQVEdyk9oc_L5Vk0g" pred="_nfpeAdOOEdyqlogshP8l4g"/>
     </childPackages>
-    <process variabilityBasedOnElement="_h0Gs8dONEdyqlogshP8l4g" superActivities="_h0Gs8dONEdyqlogshP8l4g" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_h0Gs8dONEdyqlogshP8l4g" name="inception_phase_iteration" guid="_h0Gs8dONEdyqlogshP8l4g" presentationName="Inception Phase Iteration" briefDescription="This iteration template defines the activities (and associated roles and work products) performed in a typical iteration in the Inception phase." breakdownElements="_nfpeAdOOEdyqlogshP8l4g _uxDPEdOOEdyqlogshP8l4g _vyeP0dOOEdyqlogshP8l4g _w-Bc8dOOEdyqlogshP8l4g">
+    
+  <process variabilityBasedOnElement="_h0Gs8dONEdyqlogshP8l4g" superActivities="_h0Gs8dONEdyqlogshP8l4g" breakdownElements="_nfpeAdOOEdyqlogshP8l4g _uxDPEdOOEdyqlogshP8l4g _vyeP0dOOEdyqlogshP8l4g _w-Bc8dOOEdyqlogshP8l4g _h0Gs8dONEdyqlogshP8l4g d494e8" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_h0Gs8dONEdyqlogshP8l4g" name="inception_phase_iteration" guid="_h0Gs8dONEdyqlogshP8l4g" presentationName="Inception Phase Iteration" briefDescription="This iteration template defines the activities (and associated roles and work products) performed in a typical iteration in the Inception phase.">
       <methodElementProperty xmi:id="_G9fvUBo0EeuXnIT9fOh1Fg" name="publish_ad" value="true"/>
       <presentation xmi:id="-SMF3QeQbQRdkgCVMy0OpuQ" href="content.uma#-SMF3QeQbQRdkgCVMy0OpuQ"/>
-    </process>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d494e8"/></org.eclipse.epf.uma:ProcessComponent>
+    </process><processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" superActivities="_h0Gs8dONEdyqlogshP8l4g" guid="d494e8"/></org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>

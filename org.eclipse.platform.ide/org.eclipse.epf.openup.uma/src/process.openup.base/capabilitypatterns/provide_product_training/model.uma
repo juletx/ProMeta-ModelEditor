@@ -44,8 +44,8 @@
       <presentation xmi:id="-EIp0kjHvkMcdiHUnbnCsHQ" href="content.uma#-EIp0kjHvkMcdiHUnbnCsHQ"/>
       <WorkProduct href="/org.eclipse.epf.openup.uma/src/practice.gen.doc_trng.base/plugin.uma#_-zeAguB8EeC1y_NExchKwQ"/>
     </processElements>
-    <process variabilityBasedOnElement="_y7az8piLEeGOvpP1fVrVNA" superActivities="_y7az8piLEeGOvpP1fVrVNA" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7az8piLEeGOvpP1fVrVNA" name="provide_product_training" guid="_y7az8piLEeGOvpP1fVrVNA" presentationName="Provide Product Training" briefDescription="This activity provides product training." breakdownElements="_y7az8ZiLEeGOvpP1fVrVNA _y7az7piLEeGOvpP1fVrVNA _y7az8JiLEeGOvpP1fVrVNA _y7az65iLEeGOvpP1fVrVNA _y7az75iLEeGOvpP1fVrVNA _y7az7ZiLEeGOvpP1fVrVNA">
+    
+  <process variabilityBasedOnElement="_y7az8piLEeGOvpP1fVrVNA" superActivities="_y7az8piLEeGOvpP1fVrVNA" breakdownElements="_y7az8ZiLEeGOvpP1fVrVNA _y7az7piLEeGOvpP1fVrVNA _y7az8JiLEeGOvpP1fVrVNA _y7az65iLEeGOvpP1fVrVNA _y7az75iLEeGOvpP1fVrVNA _y7az7ZiLEeGOvpP1fVrVNA _y7az8piLEeGOvpP1fVrVNA d506e21" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7az8piLEeGOvpP1fVrVNA" name="provide_product_training" guid="_y7az8piLEeGOvpP1fVrVNA" presentationName="Provide Product Training" briefDescription="This activity provides product training.">
       <presentation xmi:id="-XsPT6hPwaXWxv6Z9inqp2w" href="content.uma#-XsPT6hPwaXWxv6Z9inqp2w"/>
-    </process>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d506e21"/></org.eclipse.epf.uma:ProcessComponent>
+    </process><processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" superActivities="_y7az8piLEeGOvpP1fVrVNA" guid="d506e21"/></org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>

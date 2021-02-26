@@ -83,8 +83,8 @@
       <presentation xmi:id="-gqZXQq4TChMY4CEhzQ3Qgw" href="content.uma#-gqZXQq4TChMY4CEhzQ3Qgw"/>
       <WorkProduct href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base/plugin.uma#_IAIH4OB-EeC1y_NExchKwQ"/>
     </processElements>
-    <process variabilityBasedOnElement="_y7a0GZiLEeGOvpP1fVrVNA" superActivities="_y7a0GZiLEeGOvpP1fVrVNA" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0GZiLEeGOvpP1fVrVNA" name="deploy_release_to_production" guid="_y7a0GZiLEeGOvpP1fVrVNA" presentationName="Deploy Release to Production" briefDescription="This activity results in the release of a set of integrated components into the production environment." breakdownElements="_y7a0GJiLEeGOvpP1fVrVNA _y7a0IJiLEeGOvpP1fVrVNA _y7a0KZiLEeGOvpP1fVrVNA _y7a0HZiLEeGOvpP1fVrVNA _y7a0JZiLEeGOvpP1fVrVNA _y7a0J5iLEeGOvpP1fVrVNA _y7a0JpiLEeGOvpP1fVrVNA _y7a0I5iLEeGOvpP1fVrVNA _y7a0IpiLEeGOvpP1fVrVNA _y7a0JJiLEeGOvpP1fVrVNA _y7a0H5iLEeGOvpP1fVrVNA">
+    
+  <process variabilityBasedOnElement="_y7a0GZiLEeGOvpP1fVrVNA" superActivities="_y7a0GZiLEeGOvpP1fVrVNA" breakdownElements="_y7a0GJiLEeGOvpP1fVrVNA _y7a0IJiLEeGOvpP1fVrVNA _y7a0KZiLEeGOvpP1fVrVNA _y7a0HZiLEeGOvpP1fVrVNA _y7a0JZiLEeGOvpP1fVrVNA _y7a0J5iLEeGOvpP1fVrVNA _y7a0JpiLEeGOvpP1fVrVNA _y7a0I5iLEeGOvpP1fVrVNA _y7a0IpiLEeGOvpP1fVrVNA _y7a0JJiLEeGOvpP1fVrVNA _y7a0H5iLEeGOvpP1fVrVNA _y7a0GZiLEeGOvpP1fVrVNA d481e32" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0GZiLEeGOvpP1fVrVNA" name="deploy_release_to_production" guid="_y7a0GZiLEeGOvpP1fVrVNA" presentationName="Deploy Release to Production" briefDescription="This activity results in the release of a set of integrated components into the production environment.">
       <presentation xmi:id="-9b9XP-r9g-DV7tK4qdy5Hg" href="content.uma#-9b9XP-r9g-DV7tK4qdy5Hg"/>
-    </process>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d481e32"/></org.eclipse.epf.uma:ProcessComponent>
+    </process><processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" superActivities="_y7a0GZiLEeGOvpP1fVrVNA" guid="d481e32"/></org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>

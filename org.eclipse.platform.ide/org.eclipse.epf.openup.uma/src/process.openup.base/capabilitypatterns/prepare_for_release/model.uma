@@ -67,8 +67,8 @@
       <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\review_conform_to_release_controls.uma#_IAJWAeB-EeC1y_NExchKwQ"/>
       <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.gen.production_release.base\tasks\review_conform_to_release_controls.uma#_IAJWAOB-EeC1y_NExchKwQ"/>
     </processElements>
-    <process variabilityBasedOnElement="_y7a0B5iLEeGOvpP1fVrVNA" superActivities="_y7a0B5iLEeGOvpP1fVrVNA" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0B5iLEeGOvpP1fVrVNA" name="prepare_for_release" guid="_y7a0B5iLEeGOvpP1fVrVNA" presentationName="Prepare for Release" briefDescription="This activity prepares a product for release." breakdownElements="_y7az_piLEeGOvpP1fVrVNA _y7a0ApiLEeGOvpP1fVrVNA _y7az-5iLEeGOvpP1fVrVNA _y7a0AJiLEeGOvpP1fVrVNA _y7a0BpiLEeGOvpP1fVrVNA _y7a0AZiLEeGOvpP1fVrVNA _y7a0A5iLEeGOvpP1fVrVNA _y7a0BJiLEeGOvpP1fVrVNA _y7az_ZiLEeGOvpP1fVrVNA">
+    
+  <process variabilityBasedOnElement="_y7a0B5iLEeGOvpP1fVrVNA" superActivities="_y7a0B5iLEeGOvpP1fVrVNA" breakdownElements="_y7az_piLEeGOvpP1fVrVNA _y7a0ApiLEeGOvpP1fVrVNA _y7az-5iLEeGOvpP1fVrVNA _y7a0AJiLEeGOvpP1fVrVNA _y7a0BpiLEeGOvpP1fVrVNA _y7a0AZiLEeGOvpP1fVrVNA _y7a0A5iLEeGOvpP1fVrVNA _y7a0BJiLEeGOvpP1fVrVNA _y7az_ZiLEeGOvpP1fVrVNA _y7a0B5iLEeGOvpP1fVrVNA d502e27" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0B5iLEeGOvpP1fVrVNA" name="prepare_for_release" guid="_y7a0B5iLEeGOvpP1fVrVNA" presentationName="Prepare for Release" briefDescription="This activity prepares a product for release.">
       <presentation xmi:id="-eZJOOlVLjwqJ6USAOlOsJQ" href="content.uma#-eZJOOlVLjwqJ6USAOlOsJQ"/>
-    </process>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d502e27"/></org.eclipse.epf.uma:ProcessComponent>
+    </process><processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" superActivities="_y7a0B5iLEeGOvpP1fVrVNA" guid="d502e27"/></org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>

@@ -50,8 +50,8 @@
       <presentation xmi:id="-kjFCWWTMDhXbgfduK1uQCQ" href="content.uma#-kjFCWWTMDhXbgfduK1uQCQ"/>
       <WorkProduct href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0ZlSsMlgEdmt3adZL5Dmdw"/>
     </processElements>
-    <process variabilityBasedOnElement="_buG4sdOFEdyqlogshP8l4g" superActivities="_buG4sdOFEdyqlogshP8l4g" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_buG4sdOFEdyqlogshP8l4g" name="test_solution" guid="_buG4sdOFEdyqlogshP8l4g" presentationName="Test Solution" briefDescription="From a system perspective, test and evaluate the developed requirements." breakdownElements="_Viv68NOLEdyqlogshP8l4g _Vi5r8NOLEdyqlogshP8l4g _Vi5r8dOLEdyqlogshP8l4g _Vi5r8tOLEdyqlogshP8l4g _WttSMNOLEdyqlogshP8l4g _WttSMdOLEdyqlogshP8l4g">
+    
+  <process variabilityBasedOnElement="_buG4sdOFEdyqlogshP8l4g" superActivities="_buG4sdOFEdyqlogshP8l4g" breakdownElements="_Viv68NOLEdyqlogshP8l4g _Vi5r8NOLEdyqlogshP8l4g _Vi5r8dOLEdyqlogshP8l4g _Vi5r8tOLEdyqlogshP8l4g _WttSMNOLEdyqlogshP8l4g _WttSMdOLEdyqlogshP8l4g _buG4sdOFEdyqlogshP8l4g d508e14" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_buG4sdOFEdyqlogshP8l4g" name="test_solution" guid="_buG4sdOFEdyqlogshP8l4g" presentationName="Test Solution" briefDescription="From a system perspective, test and evaluate the developed requirements.">
       <presentation xmi:id="--GUCGSJomnx0WV9XKvVyXQ" href="content.uma#--GUCGSJomnx0WV9XKvVyXQ"/>
-    </process>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d508e14"/></org.eclipse.epf.uma:ProcessComponent>
+    </process><processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" superActivities="_buG4sdOFEdyqlogshP8l4g" guid="d508e14"/></org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>

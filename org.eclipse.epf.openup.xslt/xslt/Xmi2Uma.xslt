@@ -15,9 +15,6 @@
         <xsl:copy>
             <xsl:apply-templates select="@*|node()"/>
         	<xsl:element name="predefinedConfigurations">
-                <xsl:attribute name="xmi:id">
-                    <xsl:value-of select="'_QN3nQBEHEdyM7Iu0sxfrPA'"/>
-                </xsl:attribute>
                 <xsl:attribute name="href">
                     <xsl:value-of select="'configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA'"/>
                 </xsl:attribute>
@@ -51,37 +48,50 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-    <!--CapabilityPattern|DeliveryProcess-->
-    <xsl:template match="process[@xsi:type='org.eclipse.epf.uma:CapabilityPattern' or @xsi:type='org.eclipse.epf.uma:DeliveryProcess' or @xsi:type='org.eclipse.epf.uma:ProcessComponentInterface']">
-        <xsl:copy>
-            <xsl:attribute name="variabilityBasedOnElement">
-                <xsl:value-of select="@guid"/>
-            </xsl:attribute>
-        	<xsl:attribute name="superActivities">
-                <xsl:value-of select="@guid"/>
-            </xsl:attribute>
-            <xsl:attribute name="defaultContext">
-                <xsl:value-of select="concat($root, 'configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA')"/>
-            </xsl:attribute>
-            <xsl:apply-templates select="@*|node()"/>
-        </xsl:copy>
-    </xsl:template>
     <!--ProcessComponent-->
     <xsl:template match="org.eclipse.epf.uma:ProcessComponent">
         <xsl:param name="guid" select="generate-id()"/>
+        <xsl:param name="breakdownElements" select="concat(process/@breakdownElements, concat(' ', process/@guid))"/>
         <xsl:copy>
             <xsl:attribute name="interfaces">
                 <xsl:value-of select="$guid"/>
             </xsl:attribute>
-            <xsl:apply-templates select="@*|node()"/>
+            <xsl:apply-templates select="@*|node()[not(name()='process')]"/>
+            <xsl:element name="process">
+                <xsl:attribute name="variabilityBasedOnElement">
+                    <xsl:value-of select="process/@guid"/>
+                </xsl:attribute>
+                <xsl:attribute name="superActivities">
+                    <xsl:value-of select="process/@guid"/>
+                </xsl:attribute>
+                <xsl:attribute name="breakdownElements">
+                    <xsl:value-of select="concat($breakdownElements, concat(' ', $guid))"/>
+                </xsl:attribute>
+                <xsl:attribute name="defaultContext">
+                    <xsl:value-of select="concat($root, 'configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA')"/>
+                </xsl:attribute>
+                <xsl:apply-templates select="process/@*[not(name()='breakdownElements')]|process/node()"/>
+            </xsl:element>
             <xsl:element name="processElements">
                 <xsl:attribute name="xsi:type">
                     <xsl:value-of select="'org.eclipse.epf.uma:ProcessComponentInterface'"/>
+                </xsl:attribute>
+                <xsl:attribute name="superActivities">
+                    <xsl:value-of select="process/@guid"/>
                 </xsl:attribute>
                 <xsl:attribute name="guid">
                     <xsl:value-of select="$guid"/>
                 </xsl:attribute>
             </xsl:element>
+        </xsl:copy>
+    </xsl:template>
+    <!--processElements-->
+    <xsl:template match="processElements[@xsi:type='org.eclipse.epf.uma:Milestone']">
+        <xsl:copy>
+            <xsl:attribute name="superActivities">
+                <xsl:value-of select="@guid"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
     <!--@value-->

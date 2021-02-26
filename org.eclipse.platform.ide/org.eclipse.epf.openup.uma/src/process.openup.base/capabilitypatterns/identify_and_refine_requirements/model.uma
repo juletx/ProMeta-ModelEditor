@@ -79,8 +79,8 @@
       <templates href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_yWaKEI5fEdyO5aWob1UGDA"/>
       <WorkProduct href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0ZS-0MlgEdmt3adZL5Dmdw"/>
     </processElements>
-    <process variabilityBasedOnElement="_xxcpgdOEEdyqlogshP8l4g" superActivities="_xxcpgdOEEdyqlogshP8l4g" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_xxcpgdOEEdyqlogshP8l4g" name="identify_and_refine_requirements" guid="_xxcpgdOEEdyqlogshP8l4g" presentationName="Identify and Refine Requirements" briefDescription="Detail a set of requirements (one or more use cases, scenarios or system-wide requirements)." breakdownElements="_EOm5oNOLEdyqlogshP8l4g _EOwqptOLEdyqlogshP8l4g _EOwqp9OLEdyqlogshP8l4g _EOwqqNOLEdyqlogshP8l4g _EOwqqdOLEdyqlogshP8l4g _FX7SINOLEdyqlogshP8l4g _F68foNOLEdyqlogshP8l4g _HDOWUNOLEdyqlogshP8l4g _HDOWUdOLEdyqlogshP8l4g _HDOWUtOLEdyqlogshP8l4g">
+    
+  <process variabilityBasedOnElement="_xxcpgdOEEdyqlogshP8l4g" superActivities="_xxcpgdOEEdyqlogshP8l4g" breakdownElements="_EOm5oNOLEdyqlogshP8l4g _EOwqptOLEdyqlogshP8l4g _EOwqp9OLEdyqlogshP8l4g _EOwqqNOLEdyqlogshP8l4g _EOwqqdOLEdyqlogshP8l4g _FX7SINOLEdyqlogshP8l4g _F68foNOLEdyqlogshP8l4g _HDOWUNOLEdyqlogshP8l4g _HDOWUdOLEdyqlogshP8l4g _HDOWUtOLEdyqlogshP8l4g _xxcpgdOEEdyqlogshP8l4g d491e21" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_xxcpgdOEEdyqlogshP8l4g" name="identify_and_refine_requirements" guid="_xxcpgdOEEdyqlogshP8l4g" presentationName="Identify and Refine Requirements" briefDescription="Detail a set of requirements (one or more use cases, scenarios or system-wide requirements).">
       <presentation xmi:id="-yNrF2Ac8VgD0WjoUxGOsIQ" href="content.uma#-yNrF2Ac8VgD0WjoUxGOsIQ"/>
-    </process>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d491e21"/></org.eclipse.epf.uma:ProcessComponent>
+    </process><processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" superActivities="_xxcpgdOEEdyqlogshP8l4g" guid="d491e21"/></org.eclipse.epf.uma:ProcessComponent>
 </xmi:XMI>
