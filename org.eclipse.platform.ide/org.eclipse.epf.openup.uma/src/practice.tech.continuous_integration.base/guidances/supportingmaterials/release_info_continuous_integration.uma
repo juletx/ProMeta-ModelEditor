@@ -1,18 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_NWZp0M3TEdyKkus0T68H3Q" xmi:version="2.0" epf:version="1.5.1" xmi:id="-_P9JU4M-5_0FI_g7_EGi6g" name=",_NWZp0M3TEdyKkus0T68H3Q" guid="-_P9JU4M-5_0FI_g7_EGi6g" changeDate="2010-09-20T18:17:08.516+0200" version="7.2.0">
-  <mainDescription>&lt;h3&gt;&#xD;
-    EPF base&#xD;
-&lt;/h3&gt;&#xD;
-&lt;h4&gt;&#xD;
-    1.5.1&#xD;
-&lt;/h4&gt;&#xD;
-&lt;p&gt;&#xD;
-    Minor fixes only.&#xD;
-&lt;/p&gt;&#xD;
-&lt;h4&gt;&#xD;
-    1.5&amp;nbsp;&#xD;
-&lt;/h4&gt;&#xD;
-&lt;p&gt;&#xD;
-    This is the first version of this practice, included as part of the EPF 1.5 practices library. It is derived primarily&#xD;
-    from OpenUP 1.0 content.&#xD;
-&lt;/p&gt;</mainDescription>
-</org.eclipse.epf.uma:ContentDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-_P9JU4M-5_0FI_g7_EGi6g" name=",_NWZp0M3TEdyKkus0T68H3Q" guid="-_P9JU4M-5_0FI_g7_EGi6g" changeDate="2010-09-20T18:17:08.516+0200" version="7.2.0" mainDescription="&lt;h3>&#xD;&#xA;    EPF base&#xD;&#xA;&lt;/h3>&#xD;&#xA;&lt;h4>&#xD;&#xA;    1.5.1&#xD;&#xA;&lt;/h4>&#xD;&#xA;&lt;p>&#xD;&#xA;    Minor fixes only.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;h4>&#xD;&#xA;    1.5&amp;nbsp;&#xD;&#xA;&lt;/h4>&#xD;&#xA;&lt;p>&#xD;&#xA;    This is the first version of this practice, included as part of the EPF 1.5 practices library. It is derived primarily&#xD;&#xA;    from OpenUP 1.0 content.&#xD;&#xA;&lt;/p>" longPresentationName=",_NWZp0M3TEdyKkus0T68H3Q"/>

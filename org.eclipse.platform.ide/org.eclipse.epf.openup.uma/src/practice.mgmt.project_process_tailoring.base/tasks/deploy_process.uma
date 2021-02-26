@@ -1,56 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_XlJ80CZpEd-XKYR2S73PfQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-dWzB4mHRr5uSP98BqAOy1g" name=",_XlJ80CZpEd-XKYR2S73PfQ" guid="-dWzB4mHRr5uSP98BqAOy1g" changeDate="2010-03-10T10:44:03.000+0100" version="7.5.0">
-  <sections variabilityBasedOnElement="_kPN0oCZpEd-XKYR2S73PfQ" xmi:id="_kPN0oCZpEd-XKYR2S73PfQ" name="Make the changes public" guid="_kPN0oCZpEd-XKYR2S73PfQ">
-    <sectionDescription>Inform all project members about any significant updates.</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_nGNP4CZpEd-XKYR2S73PfQ" xmi:id="_nGNP4CZpEd-XKYR2S73PfQ" name="Educate project members" guid="_nGNP4CZpEd-XKYR2S73PfQ">
-    <sectionDescription>&lt;p&gt;&#xD;
-    Unless the change is trivial, you need to educate the project members about the new Development Process, including any&#xD;
-    guidelines, templates and/or tools. This can vary from an informal 2 hour presentation to more formal training,&#xD;
-    depending on the size of the project and the project members' familiarity with similar development processes.&lt;br /&gt;&#xD;
-    The following are commonly used ways to educate the project members:&#xD;
-&lt;/p&gt;&#xD;
-&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Briefing&lt;br /&gt;&#xD;
-        If the change is small or easy to understand a briefing to the team may be sufficient.&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Mentors&lt;br /&gt;&#xD;
-        Having experienced mentors or consultants on the project or available to the project is an effective way to provide&#xD;
-        guidance on an as-needed basis.&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Workshop&lt;br /&gt;&#xD;
-        A one day process adoption workshop (PAW) for all project members can help "kick-start" a new or significantly&#xD;
-        changed process. See Guidelines: Process Adoption Workshop&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Customized training courses.&lt;br /&gt;&#xD;
-        If the project member have not attended the standard training courses in process and tools, an alternative is to&#xD;
-        customize the standard training courses, to cover the project's development process, including guidelines,&#xD;
-        templates and tools. However, it can be expensive to customize training courses. Generic process training, like an&#xD;
-        introductory course to the Process or one or more practices, should be conducted prior to project startup, or in&#xD;
-        the early days of the project. More specialized training in techniques, methods or technologies, is often conducted&#xD;
-        "just-in-time". This means that the training is given shortly before the method or technique is to be applied in&#xD;
-        the project, to ensure that new knowledge is fresh in mind. "Boot-camps".&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        1-5 weeks of concentrated hands-on training. Not many organizations can afford to arrange these kinds of&#xD;
-        boot-camps, but they have proven to be efficient if there are many new factors for the people in the project. A&#xD;
-        boot-camp is typically a mixture of seminars, training courses and hands-on work with the process and tools.&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_8rmD8CZpEd-XKYR2S73PfQ" xmi:id="_8rmD8CZpEd-XKYR2S73PfQ" name="Collect feedback" guid="_8rmD8CZpEd-XKYR2S73PfQ"/>
-  <purpose>&lt;p&gt;
-    The purpose of this task is to:
-&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;
-        Ensure that the project members are properly introduced to the process.
-    &lt;/li&gt;
-    &lt;li&gt;
-        Harvest any feedback on the process and refine the process, as necessary.
-    &lt;/li&gt;
-&lt;/ul&gt;</purpose>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-dWzB4mHRr5uSP98BqAOy1g" name=",_XlJ80CZpEd-XKYR2S73PfQ" guid="-dWzB4mHRr5uSP98BqAOy1g" changeDate="2010-03-10T10:44:03.000+0100" version="7.5.0" longPresentationName=",_XlJ80CZpEd-XKYR2S73PfQ" purpose="&lt;p>&#xA;    The purpose of this task is to:&#xA;&lt;/p>&#xA;&lt;ul>&#xA;    &lt;li>&#xA;        Ensure that the project members are properly introduced to the process.&#xA;    &lt;/li>&#xA;    &lt;li>&#xA;        Harvest any feedback on the process and refine the process, as necessary.&#xA;    &lt;/li>&#xA;&lt;/ul>">
+  <sections xmi:id="_kPN0oCZpEd-XKYR2S73PfQ" name="Make the changes public" guid="_kPN0oCZpEd-XKYR2S73PfQ" variabilityBasedOnElement="_kPN0oCZpEd-XKYR2S73PfQ" sectionDescription="Inform all project members about any significant updates."/>
+  <sections xmi:id="_nGNP4CZpEd-XKYR2S73PfQ" name="Educate project members" guid="_nGNP4CZpEd-XKYR2S73PfQ" variabilityBasedOnElement="_nGNP4CZpEd-XKYR2S73PfQ" sectionDescription="&lt;p>&#xD;&#xA;    Unless the change is trivial, you need to educate the project members about the new Development Process, including any&#xD;&#xA;    guidelines, templates and/or tools. This can vary from an informal 2 hour presentation to more formal training,&#xD;&#xA;    depending on the size of the project and the project members' familiarity with similar development processes.&lt;br />&#xD;&#xA;    The following are commonly used ways to educate the project members:&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Briefing&lt;br />&#xD;&#xA;        If the change is small or easy to understand a briefing to the team may be sufficient.&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Mentors&lt;br />&#xD;&#xA;        Having experienced mentors or consultants on the project or available to the project is an effective way to provide&#xD;&#xA;        guidance on an as-needed basis.&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Workshop&lt;br />&#xD;&#xA;        A one day process adoption workshop (PAW) for all project members can help &quot;kick-start&quot; a new or significantly&#xD;&#xA;        changed process. See Guidelines: Process Adoption Workshop&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Customized training courses.&lt;br />&#xD;&#xA;        If the project member have not attended the standard training courses in process and tools, an alternative is to&#xD;&#xA;        customize the standard training courses, to cover the project's development process, including guidelines,&#xD;&#xA;        templates and tools. However, it can be expensive to customize training courses. Generic process training, like an&#xD;&#xA;        introductory course to the Process or one or more practices, should be conducted prior to project startup, or in&#xD;&#xA;        the early days of the project. More specialized training in techniques, methods or technologies, is often conducted&#xD;&#xA;        &quot;just-in-time&quot;. This means that the training is given shortly before the method or technique is to be applied in&#xD;&#xA;        the project, to ensure that new knowledge is fresh in mind. &quot;Boot-camps&quot;.&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        1-5 weeks of concentrated hands-on training. Not many organizations can afford to arrange these kinds of&#xD;&#xA;        boot-camps, but they have proven to be efficient if there are many new factors for the people in the project. A&#xD;&#xA;        boot-camp is typically a mixture of seminars, training courses and hands-on work with the process and tools.&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
+  <sections xmi:id="_8rmD8CZpEd-XKYR2S73PfQ" name="Collect feedback" guid="_8rmD8CZpEd-XKYR2S73PfQ" variabilityBasedOnElement="_8rmD8CZpEd-XKYR2S73PfQ"/>
 </org.eclipse.epf.uma:TaskDescription>

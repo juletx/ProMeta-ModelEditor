@@ -1,10 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="breakdown_structure,_95LCoB_QEdq6CKKKq4D7YA" xmi:version="2.0" epf:version="1.5.1" xmi:id="-dpUlq7kJXlJBUjvh7lHW7Q" name="breakdown_structure,_95LCoB_QEdq6CKKKq4D7YA" guid="-dpUlq7kJXlJBUjvh7lHW7Q" changeDate="2006-09-28T10:44:00.000+0200" version="7.2.0">
-  <mainDescription>&lt;p&gt;&#xD;
-    A &lt;a class="elementLink" href="./../../../core.default.uma_concept.base/guidances/termdefinitions/uma_73BA0C0C.html"&#xD;
-    guid="_cj6jkB_PEdq6CKKKq4D7YA"&gt;UMA&lt;/a&gt;&amp;nbsp;construct that specifies a &lt;a class="elementLink"&#xD;
-    href="./../../../core.default.uma_concept.base/guidances/termdefinitions/process_68E308B4.html"&#xD;
-    guid="_yQ5m2NnmEdmO6L4XMImrsA"&gt;process&lt;/a&gt;&amp;nbsp;as the hierarchical composition of &lt;a class="elementLink"&#xD;
-    href="./../../../core.default.uma_concept.base/guidances/termdefinitions/breakdown_element_E6E32412.html"&#xD;
-    guid="_cvdpEB_LEdq6CKKKq4D7YA"&gt;breakdown element&lt;/a&gt;s.&#xD;
-&lt;/p&gt;</mainDescription>
-</org.eclipse.epf.uma:ContentDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-dpUlq7kJXlJBUjvh7lHW7Q" name="breakdown_structure,_95LCoB_QEdq6CKKKq4D7YA" guid="-dpUlq7kJXlJBUjvh7lHW7Q" changeDate="2006-09-28T10:44:00.000+0200" version="7.2.0" mainDescription="&lt;p>&#xD;&#xA;    A &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/uma_73BA0C0C.html&quot;&#xD;&#xA;    guid=&quot;_cj6jkB_PEdq6CKKKq4D7YA&quot;>UMA&lt;/a>&amp;nbsp;construct that specifies a &lt;a class=&quot;elementLink&quot;&#xD;&#xA;    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/process_68E308B4.html&quot;&#xD;&#xA;    guid=&quot;_yQ5m2NnmEdmO6L4XMImrsA&quot;>process&lt;/a>&amp;nbsp;as the hierarchical composition of &lt;a class=&quot;elementLink&quot;&#xD;&#xA;    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/breakdown_element_E6E32412.html&quot;&#xD;&#xA;    guid=&quot;_cvdpEB_LEdq6CKKKq4D7YA&quot;>breakdown element&lt;/a>s.&#xD;&#xA;&lt;/p>" longPresentationName="breakdown_structure,_95LCoB_QEdq6CKKKq4D7YA"/>

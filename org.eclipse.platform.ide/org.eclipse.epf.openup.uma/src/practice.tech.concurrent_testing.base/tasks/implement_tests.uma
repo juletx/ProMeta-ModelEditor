@@ -1,98 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="implement_tests,_0jO98MlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_NrbRUKeqEdmKDbQuyzCoqQ" name="implement_tests,_0jO98MlgEdmt3adZL5Dmdw" guid="_NrbRUKeqEdmKDbQuyzCoqQ" changeDate="2007-12-06T11:24:11.000+0100" version="1.0.0">
-  <sections variabilityBasedOnElement="_A56NkKRKEdyLP-jEVj8Kyw" xmi:id="_A56NkKRKEdyLP-jEVj8Kyw" name="Select Test Cases to implement" guid="_A56NkKRKEdyLP-jEVj8Kyw">
-    <sectionDescription>&lt;p&gt;&#xD;
-    Select a set of Test Cases to develop into detailed, executable Test Scripts.&amp;nbsp;&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    Work with project managers and developers to determine which Test Cases need detailed Test Scripts during the current&#xD;
-    iteration. At a minimum, select Test Cases for requirements that are planned in the current or next iteration.&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    Perform each subsequent step in this task for each Test Script.&#xD;
-&lt;/p&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_WucQ4KRKEdyLP-jEVj8Kyw" xmi:id="_WucQ4KRKEdyLP-jEVj8Kyw" name="Design the Test Script" guid="_WucQ4KRKEdyLP-jEVj8Kyw">
-    <sectionDescription>&lt;p&gt;&#xD;
-    Sketch an outline of the Test Script as a logical sequence of steps. Review the data requirements of the Test Case, and&#xD;
-    determine if existing data sets are sufficient, or if you need to develop new test data for this Test Script. Examine&#xD;
-    system-wide requirements that apply to this Test Script, and note where they affect the expected results of a step.&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    If available, review a build that implements the scenario, or demonstrates similar functionality.&#xD;
-&lt;/p&gt;Select an implementation technique for this design. At a minimum, determine if the Test Script will be manual or&#xD;
-automated. If the Test Case is well understood, it's best to implement an automated Test Script without first writing a&#xD;
-manual procedure. However, if the Test Case is new or novel, writing a manual Test Script can help validate the design of&#xD;
-the test and aid collaboration with other team members. See &lt;a class="elementLinkWithType"&#xD;
-href="./../../core.tech.common.extend_supp/guidances/guidelines/programming_automated_tests_7DA10019.html"&#xD;
-guid="_0j5sUMlgEdmt3adZL5Dmdw"&gt;Guideline: Programming Automated Tests&lt;/a&gt; for more details about this decision.</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_VN5M0KuSEdmhFZtkg1nakg" xmi:id="_VN5M0KuSEdmhFZtkg1nakg" name="Implement the executable Test Script" guid="_VN5M0KuSEdmhFZtkg1nakg">
-    <sectionDescription>&lt;p&gt;&#xD;
-    Develop a detailed, procedural Test Script based on your design. Use a request-response style that declares an exact&#xD;
-    input, and expects an exact output.&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    Explain the pre-conditions that must be met before running this Test Script. Use temporary test data or put parameters&#xD;
-    in your script for data values. Ensure that each post-condition in the Test Case is evaluated by steps in the Test&#xD;
-    Script.&#xD;
-&lt;/p&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_WvBoYKuSEdmhFZtkg1nakg" xmi:id="_WvBoYKuSEdmhFZtkg1nakg" name="Define specific test data" guid="_WvBoYKuSEdmhFZtkg1nakg">
-    <sectionDescription>&lt;p&gt;&#xD;
-    Specify data values that are specific to the Test Script or reference existing test data. For example, instead of&#xD;
-    specifying "a prime number", indicate an actual value such as "3."&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    If the Test Script uses a dataset (such as a file or database), add the new test data to it and parameterize the Test&#xD;
-    Script to retrieve values from the dataset. Otherwise, add executable test data values to the steps of the Test Script.&#xD;
-    This applies to both manual and automated scripts.&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    Identify and minimize dependencies between test data used or modified by other Test Scripts. Note dependencies in the&#xD;
-    Test Script.&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    If necessary, create containers for your test data sets, and separate the production data from generated data.&#xD;
-&lt;/p&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_2IA70KRKEdyLP-jEVj8Kyw" xmi:id="_2IA70KRKEdyLP-jEVj8Kyw" name="Organize Test Scripts into suites" guid="_2IA70KRKEdyLP-jEVj8Kyw">
-    <sectionDescription>&lt;p&gt;&#xD;
-    Collect tests into related groups. The grouping you use depends on your test environment. Since the system under test&#xD;
-    is undergoing its own evolution, create your test suites to facilitate regression testing, as well as system&#xD;
-    configuration identification.&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    For help with test suite organization, see &lt;a class="elementLinkWithType"&#xD;
-    href="./../../core.tech.common.extend_supp/guidances/guidelines/test_suite_D54EEBED.html"&#xD;
-    guid="_0aDz0MlgEdmt3adZL5Dmdw"&gt;Guideline: Test Suite&lt;/a&gt;.&#xD;
-&lt;/p&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_X0dmcKuSEdmhFZtkg1nakg" xmi:id="_X0dmcKuSEdmhFZtkg1nakg" name="Verify Test implementation" guid="_X0dmcKuSEdmhFZtkg1nakg">
-    <sectionDescription>&lt;p&gt;&#xD;
-    Run the Test Script to verify that it implements the Test Case correctly. For manual testing, conduct a walkthrough of&#xD;
-    the Test Script. For automated tests, verify that the Test Script executes correctly and produces the expected result.&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    Verify that the Test Script meets the criteria in &lt;a class="elementLinkWithType"&#xD;
-    href="./../../core.tech.common.extend_supp/guidances/checklists/test_script_FBB4524E.html"&#xD;
-    guid="_0Z9tMMlgEdmt3adZL5Dmdw"&gt;Checklist: Test Script&lt;/a&gt;.&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    Add or update the Test Script(s) in configuration management.&#xD;
-&lt;/p&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_ABwoIKRLEdyLP-jEVj8Kyw" xmi:id="_ABwoIKRLEdyLP-jEVj8Kyw" name="Share and evaluate Test Scripts" guid="_ABwoIKRLEdyLP-jEVj8Kyw">
-    <sectionDescription>&lt;p&gt;&#xD;
-    Walk through the new or refined Test Scripts with the developers responsible for the related&#xD;
-    scenarios.&amp;nbsp;Optionally, the&amp;nbsp;analysts and the stakeholders&amp;nbsp;also participate.&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    Seek agreement that the Test Scripts correctly evaluate the expected results of the test, and that you understand the&#xD;
-    implementation of the requirements. If the scenario is already implemented (such as in a developer workspace), walk&#xD;
-    through a representative set of the Test Scripts using an implementation of the system.&#xD;
-&lt;/p&gt;</sectionDescription>
-  </sections>
-  <purpose>&lt;p&gt;&#xD;
-    To implement step-by-step Test Scripts that demonstrate the solution satisfies the requirements.&#xD;
-&lt;/p&gt;</purpose>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_NrbRUKeqEdmKDbQuyzCoqQ" name="implement_tests,_0jO98MlgEdmt3adZL5Dmdw" guid="_NrbRUKeqEdmKDbQuyzCoqQ" changeDate="2007-12-06T11:24:11.000+0100" version="1.0.0" longPresentationName="implement_tests,_0jO98MlgEdmt3adZL5Dmdw" purpose="&lt;p>&#xD;&#xA;    To implement step-by-step Test Scripts that demonstrate the solution satisfies the requirements.&#xD;&#xA;&lt;/p>">
+  <sections xmi:id="_A56NkKRKEdyLP-jEVj8Kyw" name="Select Test Cases to implement" guid="_A56NkKRKEdyLP-jEVj8Kyw" variabilityBasedOnElement="_A56NkKRKEdyLP-jEVj8Kyw" sectionDescription="&lt;p>&#xD;&#xA;    Select a set of Test Cases to develop into detailed, executable Test Scripts.&amp;nbsp;&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    Work with project managers and developers to determine which Test Cases need detailed Test Scripts during the current&#xD;&#xA;    iteration. At a minimum, select Test Cases for requirements that are planned in the current or next iteration.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    Perform each subsequent step in this task for each Test Script.&#xD;&#xA;&lt;/p>"/>
+  <sections xmi:id="_WucQ4KRKEdyLP-jEVj8Kyw" name="Design the Test Script" guid="_WucQ4KRKEdyLP-jEVj8Kyw" variabilityBasedOnElement="_WucQ4KRKEdyLP-jEVj8Kyw" sectionDescription="&lt;p>&#xD;&#xA;    Sketch an outline of the Test Script as a logical sequence of steps. Review the data requirements of the Test Case, and&#xD;&#xA;    determine if existing data sets are sufficient, or if you need to develop new test data for this Test Script. Examine&#xD;&#xA;    system-wide requirements that apply to this Test Script, and note where they affect the expected results of a step.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    If available, review a build that implements the scenario, or demonstrates similar functionality.&#xD;&#xA;&lt;/p>Select an implementation technique for this design. At a minimum, determine if the Test Script will be manual or&#xD;&#xA;automated. If the Test Case is well understood, it's best to implement an automated Test Script without first writing a&#xD;&#xA;manual procedure. However, if the Test Case is new or novel, writing a manual Test Script can help validate the design of&#xD;&#xA;the test and aid collaboration with other team members. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;&#xA;href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/programming_automated_tests_7DA10019.html&quot;&#xD;&#xA;guid=&quot;_0j5sUMlgEdmt3adZL5Dmdw&quot;>Guideline: Programming Automated Tests&lt;/a> for more details about this decision."/>
+  <sections xmi:id="_VN5M0KuSEdmhFZtkg1nakg" name="Implement the executable Test Script" guid="_VN5M0KuSEdmhFZtkg1nakg" variabilityBasedOnElement="_VN5M0KuSEdmhFZtkg1nakg" sectionDescription="&lt;p>&#xD;&#xA;    Develop a detailed, procedural Test Script based on your design. Use a request-response style that declares an exact&#xD;&#xA;    input, and expects an exact output.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    Explain the pre-conditions that must be met before running this Test Script. Use temporary test data or put parameters&#xD;&#xA;    in your script for data values. Ensure that each post-condition in the Test Case is evaluated by steps in the Test&#xD;&#xA;    Script.&#xD;&#xA;&lt;/p>"/>
+  <sections xmi:id="_WvBoYKuSEdmhFZtkg1nakg" name="Define specific test data" guid="_WvBoYKuSEdmhFZtkg1nakg" variabilityBasedOnElement="_WvBoYKuSEdmhFZtkg1nakg" sectionDescription="&lt;p>&#xD;&#xA;    Specify data values that are specific to the Test Script or reference existing test data. For example, instead of&#xD;&#xA;    specifying &quot;a prime number&quot;, indicate an actual value such as &quot;3.&quot;&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    If the Test Script uses a dataset (such as a file or database), add the new test data to it and parameterize the Test&#xD;&#xA;    Script to retrieve values from the dataset. Otherwise, add executable test data values to the steps of the Test Script.&#xD;&#xA;    This applies to both manual and automated scripts.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    Identify and minimize dependencies between test data used or modified by other Test Scripts. Note dependencies in the&#xD;&#xA;    Test Script.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    If necessary, create containers for your test data sets, and separate the production data from generated data.&#xD;&#xA;&lt;/p>"/>
+  <sections xmi:id="_2IA70KRKEdyLP-jEVj8Kyw" name="Organize Test Scripts into suites" guid="_2IA70KRKEdyLP-jEVj8Kyw" variabilityBasedOnElement="_2IA70KRKEdyLP-jEVj8Kyw" sectionDescription="&lt;p>&#xD;&#xA;    Collect tests into related groups. The grouping you use depends on your test environment. Since the system under test&#xD;&#xA;    is undergoing its own evolution, create your test suites to facilitate regression testing, as well as system&#xD;&#xA;    configuration identification.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    For help with test suite organization, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;&#xA;    href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/test_suite_D54EEBED.html&quot;&#xD;&#xA;    guid=&quot;_0aDz0MlgEdmt3adZL5Dmdw&quot;>Guideline: Test Suite&lt;/a>.&#xD;&#xA;&lt;/p>"/>
+  <sections xmi:id="_X0dmcKuSEdmhFZtkg1nakg" name="Verify Test implementation" guid="_X0dmcKuSEdmhFZtkg1nakg" variabilityBasedOnElement="_X0dmcKuSEdmhFZtkg1nakg" sectionDescription="&lt;p>&#xD;&#xA;    Run the Test Script to verify that it implements the Test Case correctly. For manual testing, conduct a walkthrough of&#xD;&#xA;    the Test Script. For automated tests, verify that the Test Script executes correctly and produces the expected result.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    Verify that the Test Script meets the criteria in &lt;a class=&quot;elementLinkWithType&quot;&#xD;&#xA;    href=&quot;./../../core.tech.common.extend_supp/guidances/checklists/test_script_FBB4524E.html&quot;&#xD;&#xA;    guid=&quot;_0Z9tMMlgEdmt3adZL5Dmdw&quot;>Checklist: Test Script&lt;/a>.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    Add or update the Test Script(s) in configuration management.&#xD;&#xA;&lt;/p>"/>
+  <sections xmi:id="_ABwoIKRLEdyLP-jEVj8Kyw" name="Share and evaluate Test Scripts" guid="_ABwoIKRLEdyLP-jEVj8Kyw" variabilityBasedOnElement="_ABwoIKRLEdyLP-jEVj8Kyw" sectionDescription="&lt;p>&#xD;&#xA;    Walk through the new or refined Test Scripts with the developers responsible for the related&#xD;&#xA;    scenarios.&amp;nbsp;Optionally, the&amp;nbsp;analysts and the stakeholders&amp;nbsp;also participate.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    Seek agreement that the Test Scripts correctly evaluate the expected results of the test, and that you understand the&#xD;&#xA;    implementation of the requirements. If the scenario is already implemented (such as in a developer workspace), walk&#xD;&#xA;    through a representative set of the Test Scripts using an implementation of the system.&#xD;&#xA;&lt;/p>"/>
 </org.eclipse.epf.uma:TaskDescription>

@@ -1,97 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="new_checklist,_Vael8CGMEdu3VKXZx45D3A" xmi:version="2.0" epf:version="1.5.1" xmi:id="-kw2vYHKDkWv2tZrDMrBPNA" name="new_checklist,_Vael8CGMEdu3VKXZx45D3A" guid="-kw2vYHKDkWv2tZrDMrBPNA" version="1.0.0">
-  <sections variabilityBasedOnElement="_kTZiACGMEdu3VKXZx45D3A" xmi:id="_kTZiACGMEdu3VKXZx45D3A" name="Global functional requirements have been captured and validated" guid="_kTZiACGMEdu3VKXZx45D3A">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Are functional requirements that affect multiple use cases identified? For example, all use cases may be subject to&#xD;
-        access control, audit trails, general responses to abnormal situations (overflow, communication facilities, error&#xD;
-        handling and recovery and so on).&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        For each of these requirements, are they behavioral and could be better captured in a common use case?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        For each of these functions, is it clear how input and shared data generate output and shared data?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_-eJXoCGMEdu5QMD9IAHRNg" xmi:id="_-eJXoCGMEdu5QMD9IAHRNg" name="Usability requirements have been captured and validated" guid="_-eJXoCGMEdu5QMD9IAHRNg">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Have the efficiency and usability factors of user tasks been considered?&amp;nbsp;&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Are the requirements specified in a way that is verifiable, including metrics and target values?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Have&amp;nbsp;novice as well as expert users been considered?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_QCbtwCGNEdubdKsr57an1g" xmi:id="_QCbtwCGNEdubdKsr57an1g" name="Reliability requirements have been captured and validated" guid="_QCbtwCGNEdubdKsr57an1g">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Have reliability requirements been specified as measurable requirements or prioritized design goals?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Is error checking and recovery required?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Are undesired events considered and their required responses specified?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Are initial or special states considered (such as cold starts or abnormal termination)?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_e3pOgCGNEdubdKsr57an1g" xmi:id="_e3pOgCGNEdubdKsr57an1g" name="Performance requirements have been captured and validated" guid="_e3pOgCGNEdubdKsr57an1g">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Have the resource and performance margin requirements been stated (for example speed, response time, recovery time&#xD;
-        of various software functions)?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_l8CeUCGNEdubdKsr57an1g" xmi:id="_l8CeUCGNEdubdKsr57an1g" name="Supportability requirements have been captured and validated" guid="_l8CeUCGNEdubdKsr57an1g">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Are there any requirements that will enhance the supportability or maintainability of the system being built?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_wIttsCGNEdubdKsr57an1g" xmi:id="_wIttsCGNEdubdKsr57an1g" name="Constraints have been captured and validated" guid="_wIttsCGNEdubdKsr57an1g">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Are there any required standards in effect, implementation language, policies for database integrity, resource&#xD;
-        limits, operating environments, and so forth?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Has the use of inherited design or code or pre-selected tools been specified?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_5j6c0CGNEdubdKsr57an1g" xmi:id="_5j6c0CGNEdubdKsr57an1g" name="External interfaces have been identified" guid="_5j6c0CGNEdubdKsr57an1g">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Is it clear how the software interacts with people, the system's hardware, other hardware, and other software?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Have all critical data elements that cross system boundaries been identified for those scenarios that will be&#xD;
-        implemented&amp;nbsp;next?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_H052MCGOEdubdKsr57an1g" xmi:id="_H052MCGOEdubdKsr57an1g" name="Business rules have been captured and validated" guid="_H052MCGOEdubdKsr57an1g">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Are the rules relevant to the use cases identified (data validation rules, formulas, flow decisions)?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_NBM78CGOEdubdKsr57an1g" xmi:id="_NBM78CGOEdubdKsr57an1g" name="Applicable standards and regulatory compliance requirements have been identified" guid="_NBM78CGOEdubdKsr57an1g">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Have all requirements derived from existing standard and regulations been specified?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-kw2vYHKDkWv2tZrDMrBPNA" name="new_checklist,_Vael8CGMEdu3VKXZx45D3A" guid="-kw2vYHKDkWv2tZrDMrBPNA" version="1.0.0" longPresentationName="new_checklist,_Vael8CGMEdu3VKXZx45D3A">
+  <sections xmi:id="_kTZiACGMEdu3VKXZx45D3A" name="Global functional requirements have been captured and validated" guid="_kTZiACGMEdu3VKXZx45D3A" variabilityBasedOnElement="_kTZiACGMEdu3VKXZx45D3A" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Are functional requirements that affect multiple use cases identified? For example, all use cases may be subject to&#xD;&#xA;        access control, audit trails, general responses to abnormal situations (overflow, communication facilities, error&#xD;&#xA;        handling and recovery and so on).&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        For each of these requirements, are they behavioral and could be better captured in a common use case?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        For each of these functions, is it clear how input and shared data generate output and shared data?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
+  <sections xmi:id="_-eJXoCGMEdu5QMD9IAHRNg" name="Usability requirements have been captured and validated" guid="_-eJXoCGMEdu5QMD9IAHRNg" variabilityBasedOnElement="_-eJXoCGMEdu5QMD9IAHRNg" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Have the efficiency and usability factors of user tasks been considered?&amp;nbsp;&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Are the requirements specified in a way that is verifiable, including metrics and target values?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Have&amp;nbsp;novice as well as expert users been considered?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
+  <sections xmi:id="_QCbtwCGNEdubdKsr57an1g" name="Reliability requirements have been captured and validated" guid="_QCbtwCGNEdubdKsr57an1g" variabilityBasedOnElement="_QCbtwCGNEdubdKsr57an1g" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Have reliability requirements been specified as measurable requirements or prioritized design goals?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Is error checking and recovery required?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Are undesired events considered and their required responses specified?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Are initial or special states considered (such as cold starts or abnormal termination)?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
+  <sections xmi:id="_e3pOgCGNEdubdKsr57an1g" name="Performance requirements have been captured and validated" guid="_e3pOgCGNEdubdKsr57an1g" variabilityBasedOnElement="_e3pOgCGNEdubdKsr57an1g" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Have the resource and performance margin requirements been stated (for example speed, response time, recovery time&#xD;&#xA;        of various software functions)?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
+  <sections xmi:id="_l8CeUCGNEdubdKsr57an1g" name="Supportability requirements have been captured and validated" guid="_l8CeUCGNEdubdKsr57an1g" variabilityBasedOnElement="_l8CeUCGNEdubdKsr57an1g" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Are there any requirements that will enhance the supportability or maintainability of the system being built?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
+  <sections xmi:id="_wIttsCGNEdubdKsr57an1g" name="Constraints have been captured and validated" guid="_wIttsCGNEdubdKsr57an1g" variabilityBasedOnElement="_wIttsCGNEdubdKsr57an1g" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Are there any required standards in effect, implementation language, policies for database integrity, resource&#xD;&#xA;        limits, operating environments, and so forth?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Has the use of inherited design or code or pre-selected tools been specified?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
+  <sections xmi:id="_5j6c0CGNEdubdKsr57an1g" name="External interfaces have been identified" guid="_5j6c0CGNEdubdKsr57an1g" variabilityBasedOnElement="_5j6c0CGNEdubdKsr57an1g" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Is it clear how the software interacts with people, the system's hardware, other hardware, and other software?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Have all critical data elements that cross system boundaries been identified for those scenarios that will be&#xD;&#xA;        implemented&amp;nbsp;next?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
+  <sections xmi:id="_H052MCGOEdubdKsr57an1g" name="Business rules have been captured and validated" guid="_H052MCGOEdubdKsr57an1g" variabilityBasedOnElement="_H052MCGOEdubdKsr57an1g" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Are the rules relevant to the use cases identified (data validation rules, formulas, flow decisions)?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
+  <sections xmi:id="_NBM78CGOEdubdKsr57an1g" name="Applicable standards and regulatory compliance requirements have been identified" guid="_NBM78CGOEdubdKsr57an1g" variabilityBasedOnElement="_NBM78CGOEdubdKsr57an1g" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Have all requirements derived from existing standard and regulations been specified?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
 </org.eclipse.epf.uma:ContentDescription>

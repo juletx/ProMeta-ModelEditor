@@ -1,49 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
-  
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_fRdVEMYbEdyXeo04os5BOw" name="core.default.tool_def.base" guid="_fRdVEMYbEdyXeo04os5BOw" presentationName="Default Tool Definitions" briefDescription="This plug-in defines a basic set of tools that support the practices." changeDate="2008-02-22T16:01:26.000+0100">
-    <methodElementProperty xmi:id="_GoZCPRo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
-    <copyrightStatement href="/org.eclipse.epf.openup.uma/src/core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
-    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHQLekEd-D7YZN9NgldQ" name="Content" guid="_9KfHQLekEd-D7YZN9NgldQ">
-      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHQbekEd-D7YZN9NgldQ" name="Categories" guid="_9KfHQbekEd-D7YZN9NgldQ">
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHQrekEd-D7YZN9NgldQ" name="Domains" guid="_9KfHQrekEd-D7YZN9NgldQ"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHQ7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9KfHQ7ekEd-D7YZN9NgldQ"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHRLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9KfHRLekEd-D7YZN9NgldQ"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHRbekEd-D7YZN9NgldQ" name="WP Types" guid="_9KfHRbekEd-D7YZN9NgldQ"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHRrekEd-D7YZN9NgldQ" name="Tools" guid="_9KfHRrekEd-D7YZN9NgldQ">
-          <contentElements variabilityBasedOnElement="_hFih0MYbEdyXeo04os5BOw" xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_hFih0MYbEdyXeo04os5BOw" name="cvs_tool" guid="_hFih0MYbEdyXeo04os5BOw" presentationName="CVS">
-            <methodElementProperty xmi:id="_GoZCPho0EeuXnIT9fOh1Fg" name="CategoryElementsSortType" value="Alphabetic"/>
-          </contentElements>
-          <contentElements variabilityBasedOnElement="_mHQIMMYbEdyXeo04os5BOw" xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_mHQIMMYbEdyXeo04os5BOw" name="method_composer_tool" guid="_mHQIMMYbEdyXeo04os5BOw" presentationName="Method Composer" briefDescription="Method Composer is a tool for authoring, tailoring, and deploying processes." supportingMaterials="_C2FS4F_lEd2zpKtX6B7lBg _dlGBQF_nEd2zpKtX6B7lBg">
-            <methodElementProperty xmi:id="_GoZCPxo0EeuXnIT9fOh1Fg" name="CategoryElementsSortType" value="Alphabetic"/>
-            <presentation xmi:id="-8L-j0rJzgDkBNd0igOyN0A" href="tools/method_composer_tool.uma#-8L-j0rJzgDkBNd0igOyN0A"/>
-          </contentElements>
-        </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHR7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9KfHR7ekEd-D7YZN9NgldQ"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHSLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9KfHSLekEd-D7YZN9NgldQ">
-          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHSbekEd-D7YZN9NgldQ" name="Hidden" guid="_9KfHSbekEd-D7YZN9NgldQ">
-            <contentElements variabilityBasedOnElement="_9KfHSrekEd-D7YZN9NgldQ" xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9KfHSrekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9KfHSrekEd-D7YZN9NgldQ"/>
-          </childPackages>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_fRdVEMYbEdyXeo04os5BOw" name="core.default.tool_def.base" guid="_fRdVEMYbEdyXeo04os5BOw" presentationName="Default Tool Definitions" briefDescription="This plug-in defines a basic set of tools that support the practices." changeDate="2008-02-22T16:01:26.000+0100">
+  <methodElementProperty xmi:id="_GoZCPRo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHQLekEd-D7YZN9NgldQ" name="Content" guid="_9KfHQLekEd-D7YZN9NgldQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHQbekEd-D7YZN9NgldQ" name="Categories" guid="_9KfHQbekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHQrekEd-D7YZN9NgldQ" name="Domains" guid="_9KfHQrekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHQ7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9KfHQ7ekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHRLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9KfHRLekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHRbekEd-D7YZN9NgldQ" name="WP Types" guid="_9KfHRbekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHRrekEd-D7YZN9NgldQ" name="Tools" guid="_9KfHRrekEd-D7YZN9NgldQ">
+        <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_hFih0MYbEdyXeo04os5BOw" name="cvs_tool" guid="_hFih0MYbEdyXeo04os5BOw" presentationName="CVS" variabilityBasedOnElement="_hFih0MYbEdyXeo04os5BOw">
+          <methodElementProperty xmi:id="_GoZCPho0EeuXnIT9fOh1Fg" name="CategoryElementsSortType" value="Alphabetic"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_mHQIMMYbEdyXeo04os5BOw" name="method_composer_tool" guid="_mHQIMMYbEdyXeo04os5BOw" presentationName="Method Composer" briefDescription="Method Composer is a tool for authoring, tailoring, and deploying processes." variabilityBasedOnElement="_mHQIMMYbEdyXeo04os5BOw" supportingMaterials="_C2FS4F_lEd2zpKtX6B7lBg _dlGBQF_nEd2zpKtX6B7lBg">
+          <methodElementProperty xmi:id="_GoZCPxo0EeuXnIT9fOh1Fg" name="CategoryElementsSortType" value="Alphabetic"/>
+          <presentation href="tools/method_composer_tool.uma#-8L-j0rJzgDkBNd0igOyN0A"/>
+        </contentElements>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHR7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9KfHR7ekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHSLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9KfHSLekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHSbekEd-D7YZN9NgldQ" name="Hidden" guid="_9KfHSbekEd-D7YZN9NgldQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9KfHSrekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9KfHSrekEd-D7YZN9NgldQ" variabilityBasedOnElement="_9KfHSrekEd-D7YZN9NgldQ"/>
         </childPackages>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHS7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9KfHS7ekEd-D7YZN9NgldQ">
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w_1EkOFUEdyhmsbt0Xyl8A" name="method_composer_tool_mentors" guid="_w_1EkOFUEdyhmsbt0Xyl8A" presentationName="Method Composer Tool Mentors">
-          <contentElements variabilityBasedOnElement="_omneEMX4EduywMSzPTUUwA" xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_omneEMX4EduywMSzPTUUwA" name="resources_for_customizing_methods" guid="_omneEMX4EduywMSzPTUUwA" presentationName="Resources for Customizing Methods" briefDescription="This supporting material provides guidance on how to customize an existing method element by using Method Composer and provides links to additional information on method customization." supportingMaterials="_C2FS4F_lEd2zpKtX6B7lBg _dlGBQF_nEd2zpKtX6B7lBg">
-            <presentation xmi:id="-SqArASoV4hTpxAprrWhS1g" href="guidances/supportingmaterials/resources_for_customizing_methods.uma#-SqArASoV4hTpxAprrWhS1g"/>
-            <conceptsAndPapers href="/org.eclipse.epf.openup.uma/src/core.default.uma_concept.base/plugin.uma#_FxJEkFUKEd2_rMtRMt_EMg"/>
-          </contentElements>
-          <contentElements variabilityBasedOnElement="_dlGBQF_nEd2zpKtX6B7lBg" xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_dlGBQF_nEd2zpKtX6B7lBg" name="rational_method_composer_resources" guid="_dlGBQF_nEd2zpKtX6B7lBg" presentationName="Rational Method Composer Resources" briefDescription="This support material provides a list of references for the IBM&amp;reg; Rational&amp;reg; &#xD;&#xA;Method Composer product.">
-            <presentation xmi:id="-SQ05xBXUt6AVSHaSltVFuw" href="guidances/supportingmaterials/rational_method_composer_resources.uma#-SQ05xBXUt6AVSHaSltVFuw"/>
-          </contentElements>
-          <contentElements variabilityBasedOnElement="_C2FS4F_lEd2zpKtX6B7lBg" xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_C2FS4F_lEd2zpKtX6B7lBg" name="epf_resources" guid="_C2FS4F_lEd2zpKtX6B7lBg" presentationName="EPF Resources" briefDescription="This support material provides a list of references for the Eclipse Process Framework (EPF) project.">
-            <presentation xmi:id="-_R0yxogmlMQUIc_dSzfpUA" href="guidances/supportingmaterials/epf_resources.uma#-_R0yxogmlMQUIc_dSzfpUA"/>
-          </contentElements>
-        </childPackages>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9KfHS7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9KfHS7ekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w_1EkOFUEdyhmsbt0Xyl8A" name="method_composer_tool_mentors" guid="_w_1EkOFUEdyhmsbt0Xyl8A" presentationName="Method Composer Tool Mentors">
+        <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_omneEMX4EduywMSzPTUUwA" name="resources_for_customizing_methods" guid="_omneEMX4EduywMSzPTUUwA" presentationName="Resources for Customizing Methods" briefDescription="This supporting material provides guidance on how to customize an existing method element by using Method Composer and provides links to additional information on method customization." variabilityBasedOnElement="_omneEMX4EduywMSzPTUUwA" supportingMaterials="_C2FS4F_lEd2zpKtX6B7lBg _dlGBQF_nEd2zpKtX6B7lBg">
+          <presentation href="guidances/supportingmaterials/resources_for_customizing_methods.uma#-SqArASoV4hTpxAprrWhS1g"/>
+          <conceptsAndPapers href="../core.default.uma_concept.base/plugin.uma#_FxJEkFUKEd2_rMtRMt_EMg"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_dlGBQF_nEd2zpKtX6B7lBg" name="rational_method_composer_resources" guid="_dlGBQF_nEd2zpKtX6B7lBg" presentationName="Rational Method Composer Resources" briefDescription="This support material provides a list of references for the IBM&amp;reg; Rational&amp;reg; &#xD;&#xA;Method Composer product." variabilityBasedOnElement="_dlGBQF_nEd2zpKtX6B7lBg">
+          <presentation href="guidances/supportingmaterials/rational_method_composer_resources.uma#-SQ05xBXUt6AVSHaSltVFuw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_C2FS4F_lEd2zpKtX6B7lBg" name="epf_resources" guid="_C2FS4F_lEd2zpKtX6B7lBg" presentationName="EPF Resources" briefDescription="This support material provides a list of references for the Eclipse Process Framework (EPF) project." variabilityBasedOnElement="_C2FS4F_lEd2zpKtX6B7lBg">
+          <presentation href="guidances/supportingmaterials/epf_resources.uma#-_R0yxogmlMQUIc_dSzfpUA"/>
+        </contentElements>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9KfHTLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9KfHTLekEd-D7YZN9NgldQ"/>
-    </methodPackages>
-    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9KfHTbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9KfHTbekEd-D7YZN9NgldQ"/>
-    <bases href="/org.eclipse.epf.openup.uma/src/core.default.nav_view.base/plugin.uma#_vsno4EKmEdyrauqpmnA8jQ"/>
-    <bases href="/org.eclipse.epf.openup.uma/src/core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
-    <bases href="/org.eclipse.epf.openup.uma/src/core.default.uma_concept.base/plugin.uma#_WCUhAO8KEdmKSqa_gSYthg"/>
-  </org.eclipse.epf.uma:MethodPlugin>
-</xmi:XMI>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9KfHTLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9KfHTLekEd-D7YZN9NgldQ"/>
+  </methodPackages>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9KfHTbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9KfHTbekEd-D7YZN9NgldQ"/>
+  <bases href="../core.default.nav_view.base/plugin.uma#_vsno4EKmEdyrauqpmnA8jQ"/>
+  <bases href="../core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
+  <bases href="../core.default.uma_concept.base/plugin.uma#_WCUhAO8KEdmKSqa_gSYthg"/>
+</org.eclipse.epf.uma:MethodPlugin>

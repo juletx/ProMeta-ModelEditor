@@ -1,13 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ArtifactDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="test_script,_0ZfMEMlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_NqYIcqeqEdmKDbQuyzCoqQ" name="test_script,_0ZfMEMlgEdmt3adZL5Dmdw" guid="_NqYIcqeqEdmKDbQuyzCoqQ" changeDate="2008-08-15T09:55:57.000+0200" version="7.2.0">
-  <purpose>&lt;p&gt;&#xD;
-    Test scripts implement a subset of required tests in an efficient and effective manner.&#xD;
-&lt;/p&gt;</purpose>
-  <impactOfNotHaving>Without this artifact, it is difficult to ensure that tests are run consistently so that results are repeatable and errors&#xD;
-can be recreated. If you do not use a test script, it is more difficult to verify that errors were not caused because of&#xD;
-the way tests were run.</impactOfNotHaving>
-  <reasonsForNotNeeding>&lt;p&gt;&#xD;
-    This artifact might not be required if the tests are simple or if testing is done on an informal basis. However, for&#xD;
-    this approach to be successful, testers must track their processes, as they might need to recreate a problem scenario.&#xD;
-    Alternatively, you can use automatic capture and playback tools to provide a record of testing.&#xD;
-&lt;/p&gt;</reasonsForNotNeeding>
-</org.eclipse.epf.uma:ArtifactDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_NqYIcqeqEdmKDbQuyzCoqQ" name="test_script,_0ZfMEMlgEdmt3adZL5Dmdw" guid="_NqYIcqeqEdmKDbQuyzCoqQ" changeDate="2008-08-15T09:55:57.000+0200" version="7.2.0" longPresentationName="test_script,_0ZfMEMlgEdmt3adZL5Dmdw" purpose="&lt;p>&#xD;&#xA;    Test scripts implement a subset of required tests in an efficient and effective manner.&#xD;&#xA;&lt;/p>" impactOfNotHaving="Without this artifact, it is difficult to ensure that tests are run consistently so that results are repeatable and errors&#xD;&#xA;can be recreated. If you do not use a test script, it is more difficult to verify that errors were not caused because of&#xD;&#xA;the way tests were run." reasonsForNotNeeding="&lt;p>&#xD;&#xA;    This artifact might not be required if the tests are simple or if testing is done on an informal basis. However, for&#xD;&#xA;    this approach to be successful, testers must track their processes, as they might need to recreate a problem scenario.&#xD;&#xA;    Alternatively, you can use automatic capture and playback tools to provide a record of testing.&#xD;&#xA;&lt;/p>"/>

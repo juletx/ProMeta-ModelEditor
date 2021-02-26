@@ -1,12 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="copyright,_uuunoPsDEdmyhNQr5STrZQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="_u_Zg4PsDEdmyhNQr5STrZQ" name="copyright,_uuunoPsDEdmyhNQr5STrZQ" guid="_u_Zg4PsDEdmyhNQr5STrZQ" changeDate="2010-08-31T11:02:53.000+0200" version="1.0.0">
-  <mainDescription>&lt;p&gt;&#xD;
-    This program and the accompanying materials are made available under the&lt;br /&gt;&#xD;
-    &lt;a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank"&gt;Eclipse Public License V1.0&lt;/a&gt;, which&#xD;
-    accompanies this distribution.&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    &lt;a class="elementLink"&#xD;
-    href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html"&#xD;
-    guid="_UaGfECcTEduSX6N2jUafGA"&gt;EPF Copyright&lt;/a&gt;.&#xD;
-&lt;/p&gt;</mainDescription>
-</org.eclipse.epf.uma:ContentDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_u_Zg4PsDEdmyhNQr5STrZQ" name="copyright,_uuunoPsDEdmyhNQr5STrZQ" guid="_u_Zg4PsDEdmyhNQr5STrZQ" changeDate="2010-08-31T11:02:53.000+0200" version="1.0.0" mainDescription="&lt;p>&#xD;&#xA;    This program and the accompanying materials are made available under the&lt;br />&#xD;&#xA;    &lt;a href=&quot;http://www.eclipse.org/org/documents/epl-v10.php&quot; target=&quot;_blank&quot;>Eclipse Public License V1.0&lt;/a>, which&#xD;&#xA;    accompanies this distribution.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    &lt;a class=&quot;elementLink&quot;&#xD;&#xA;    href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html&quot;&#xD;&#xA;    guid=&quot;_UaGfECcTEduSX6N2jUafGA&quot;>EPF Copyright&lt;/a>.&#xD;&#xA;&lt;/p>" longPresentationName="copyright,_uuunoPsDEdmyhNQr5STrZQ"/>

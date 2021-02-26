@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="new_concept,_RoSdMBWYEduCK502eDgjUQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-Of51hmgdsO_U2-pnbJ67Cg" name="new_concept,_RoSdMBWYEduCK502eDgjUQ" guid="-Of51hmgdsO_U2-pnbJ67Cg" changeDate="2008-02-10T16:39:04.000+0100" version="7.2.0">
-  <mainDescription>&lt;p&gt;&#xD;
-    Business Patterns are a form of Design Pattern&amp;nbsp;(see &lt;a class="elementLinkWithType"&#xD;
-    href="./../../../core.tech.common.extend_supp/guidances/concepts/pattern_10BE6D96.html"&#xD;
-    guid="_0YJvUMlgEdmt3adZL5Dmdw"&gt;Concept: Pattern&lt;/a&gt;) and are the business-domain counterpart of &lt;a&#xD;
-    class="elementLinkWithType"&#xD;
-    href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html"&#xD;
-    guid="_mzxI0A4LEduibvKwrGxWxA"&gt;Concept: Architectural Mechanism&lt;/a&gt;. Just as similar problems in the technical domain&#xD;
-    may be solved by using Architecture Mechanisms, similar problems in the business domain can be solved by using Business&#xD;
-    Patterns.&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    Business Patterns are often found in COTS products. For example, packaged applications that support Enterprise Resource&#xD;
-    Planning or Customer Relationship Management ship with functionality to support a variety of generic business&#xD;
-    processes. Similarly, it is frequently possible to identify related or similar behavior in the Use&#xD;
-    Case&amp;nbsp;Scenarios&amp;nbsp;and thereby derive generic designs that you can use in the design of the system. These&#xD;
-    elements of generic behavior can be&amp;nbsp;expressed as Design&amp;nbsp;Patterns and applied to the system design.&#xD;
-&lt;/p&gt;&lt;br /&gt;</mainDescription>
-</org.eclipse.epf.uma:ContentDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-Of51hmgdsO_U2-pnbJ67Cg" name="new_concept,_RoSdMBWYEduCK502eDgjUQ" guid="-Of51hmgdsO_U2-pnbJ67Cg" changeDate="2008-02-10T16:39:04.000+0100" version="7.2.0" mainDescription="&lt;p>&#xD;&#xA;    Business Patterns are a form of Design Pattern&amp;nbsp;(see &lt;a class=&quot;elementLinkWithType&quot;&#xD;&#xA;    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/pattern_10BE6D96.html&quot;&#xD;&#xA;    guid=&quot;_0YJvUMlgEdmt3adZL5Dmdw&quot;>Concept: Pattern&lt;/a>) and are the business-domain counterpart of &lt;a&#xD;&#xA;    class=&quot;elementLinkWithType&quot;&#xD;&#xA;    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html&quot;&#xD;&#xA;    guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Concept: Architectural Mechanism&lt;/a>. Just as similar problems in the technical domain&#xD;&#xA;    may be solved by using Architecture Mechanisms, similar problems in the business domain can be solved by using Business&#xD;&#xA;    Patterns.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    Business Patterns are often found in COTS products. For example, packaged applications that support Enterprise Resource&#xD;&#xA;    Planning or Customer Relationship Management ship with functionality to support a variety of generic business&#xD;&#xA;    processes. Similarly, it is frequently possible to identify related or similar behavior in the Use&#xD;&#xA;    Case&amp;nbsp;Scenarios&amp;nbsp;and thereby derive generic designs that you can use in the design of the system. These&#xD;&#xA;    elements of generic behavior can be&amp;nbsp;expressed as Design&amp;nbsp;Patterns and applied to the system design.&#xD;&#xA;&lt;/p>&lt;br />" longPresentationName="new_concept,_RoSdMBWYEduCK502eDgjUQ"/>

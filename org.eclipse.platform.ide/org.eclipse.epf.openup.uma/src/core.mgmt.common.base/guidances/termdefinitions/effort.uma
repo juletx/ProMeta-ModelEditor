@@ -1,6 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_nJSDwEvuEdunZcj9T5hrMQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-WIgtkwJN71D51FdcQs-TzQ" name=",_nJSDwEvuEdunZcj9T5hrMQ" guid="-WIgtkwJN71D51FdcQs-TzQ" changeDate="2008-09-12T11:38:29.000+0200" version="7.2.0">
-  <mainDescription>&lt;p&gt;&#xD;
-    The number of labor units required to complete an activity or other project element. Usually expressed as staff hours,&#xD;
-    staff days, or staff weeks. Should not be confused with duration.&#xD;
-&lt;/p&gt;</mainDescription>
-</org.eclipse.epf.uma:ContentDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-WIgtkwJN71D51FdcQs-TzQ" name=",_nJSDwEvuEdunZcj9T5hrMQ" guid="-WIgtkwJN71D51FdcQs-TzQ" changeDate="2008-09-12T11:38:29.000+0200" version="7.2.0" mainDescription="&lt;p>&#xD;&#xA;    The number of labor units required to complete an activity or other project element. Usually expressed as staff hours,&#xD;&#xA;    staff days, or staff weeks. Should not be confused with duration.&#xD;&#xA;&lt;/p>" longPresentationName=",_nJSDwEvuEdunZcj9T5hrMQ"/>

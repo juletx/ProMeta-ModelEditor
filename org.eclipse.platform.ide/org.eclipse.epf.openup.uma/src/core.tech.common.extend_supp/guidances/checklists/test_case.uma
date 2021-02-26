@@ -1,52 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="test_case,_0Zxf8MlgEdmt3adZL5Dmdw" xmi:version="2.0" epf:version="1.5.1" xmi:id="_kwHAgMPbEdmbOvqy4O0adg" name="test_case,_0Zxf8MlgEdmt3adZL5Dmdw" guid="_kwHAgMPbEdmbOvqy4O0adg" changeDate="2005-07-07T10:45:15.000+0200" version="1.0.0">
-  <sections variabilityBasedOnElement="_yXujsLcOEduFFo_97woSMw" xmi:id="_yXujsLcOEduFFo_97woSMw" name="General" guid="_yXujsLcOEduFFo_97woSMw">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Does the Test Case identify the requirement it evaluates?&amp;nbsp; This linking might be informal through a naming&#xD;
-        convention or formalized through a requirements traceability matrix.&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Does the Test Case reference the preconditions and postconditions that apply to it?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_Hv2n0BBbEduXULqRagzBHA" xmi:id="_Hv2n0BBbEduXULqRagzBHA" name="Name" guid="_Hv2n0BBbEduXULqRagzBHA">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Is the&amp;nbsp;Test Case name unique?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Does&amp;nbsp;the name express a test condition or&amp;nbsp;an expected result?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Is&amp;nbsp;it unambiguous to a stakeholder?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_3i-gkLcOEduFFo_97woSMw" xmi:id="_3i-gkLcOEduFFo_97woSMw" name="Brief Description" guid="_3i-gkLcOEduFFo_97woSMw">
-    <sectionDescription>&lt;ul class="noindent"&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Is the logical test condition clearly identified in the description?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Does the description clearly&amp;nbsp;state the expected result?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Is the expected result stated as a concrete&amp;nbsp;outcome?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Can a casual reader distinguish this Test Case from a similar one?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_4uresLcOEduFFo_97woSMw" xmi:id="_4uresLcOEduFFo_97woSMw" name="Test Data Needs" guid="_4uresLcOEduFFo_97woSMw">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Does the Test Case note the kinds of test data required to implement a detailed Test Script?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Are&amp;nbsp;the test data type, uniqueness, and quality sufficiently explained?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_kwHAgMPbEdmbOvqy4O0adg" name="test_case,_0Zxf8MlgEdmt3adZL5Dmdw" guid="_kwHAgMPbEdmbOvqy4O0adg" changeDate="2005-07-07T10:45:15.000+0200" version="1.0.0" longPresentationName="test_case,_0Zxf8MlgEdmt3adZL5Dmdw">
+  <sections xmi:id="_yXujsLcOEduFFo_97woSMw" name="General" guid="_yXujsLcOEduFFo_97woSMw" variabilityBasedOnElement="_yXujsLcOEduFFo_97woSMw" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Does the Test Case identify the requirement it evaluates?&amp;nbsp; This linking might be informal through a naming&#xD;&#xA;        convention or formalized through a requirements traceability matrix.&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Does the Test Case reference the preconditions and postconditions that apply to it?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
+  <sections xmi:id="_Hv2n0BBbEduXULqRagzBHA" name="Name" guid="_Hv2n0BBbEduXULqRagzBHA" variabilityBasedOnElement="_Hv2n0BBbEduXULqRagzBHA" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Is the&amp;nbsp;Test Case name unique?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Does&amp;nbsp;the name express a test condition or&amp;nbsp;an expected result?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Is&amp;nbsp;it unambiguous to a stakeholder?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
+  <sections xmi:id="_3i-gkLcOEduFFo_97woSMw" name="Brief Description" guid="_3i-gkLcOEduFFo_97woSMw" variabilityBasedOnElement="_3i-gkLcOEduFFo_97woSMw" sectionDescription="&lt;ul class=&quot;noindent&quot;>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Is the logical test condition clearly identified in the description?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Does the description clearly&amp;nbsp;state the expected result?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Is the expected result stated as a concrete&amp;nbsp;outcome?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Can a casual reader distinguish this Test Case from a similar one?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
+  <sections xmi:id="_4uresLcOEduFFo_97woSMw" name="Test Data Needs" guid="_4uresLcOEduFFo_97woSMw" variabilityBasedOnElement="_4uresLcOEduFFo_97woSMw" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Does the Test Case note the kinds of test data required to implement a detailed Test Script?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Are&amp;nbsp;the test data type, uniqueness, and quality sufficiently explained?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
 </org.eclipse.epf.uma:ContentDescription>

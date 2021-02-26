@@ -1,62 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
-  
-  <org.eclipse.epf.uma:ProcessComponent interfaces="d496e19" xmi:id="_eWxZgNOEEdyqlogshP8l4g" name="initiate_project" guid="_eWxZgNOEEdyqlogshP8l4g">
-    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sopKYNOJEdyqlogshP8l4g" name="develop_technical_vision" guid="_sopKYNOJEdyqlogshP8l4g" presentationName="Develop Technical Vision" briefDescription="Define the vision for the future system. Describe the problem and features based on stakeholder requests." superActivities="_eWxZgdOEEdyqlogshP8l4g" optionalInput="_soyUVNOJEdyqlogshP8l4g" output="_soyUVNOJEdyqlogshP8l4g _OpsH8GpmEd24CboUCnKL3A">
-      <presentation xmi:id="-Y4gn4laxnFk1PUA3-GebOg" href="content.uma#-Y4gn4laxnFk1PUA3-GebOg"/>
-      <checklists href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0WoFUMlgEdmt3adZL5Dmdw"/>
-      <concepts href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_VQ268O0KEdqHTdbLTmC5IQ"/>
-      <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_E-dPIL-GEdqb7N6KIeDL8Q"/>
-      <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_OnoNQNSAEdmLhZ9H5Plxyw"/>
-      <Task href="/org.eclipse.epf.openup.uma/src/practice.tech.shared_vision.base/plugin.uma#_0fOAoMlgEdmt3adZL5Dmdw"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.shared_vision.base\tasks\develop_technical_vision.uma#_ceK-UED2EdyoefaQkqWN_Q"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.shared_vision.base\tasks\develop_technical_vision.uma#_h7AacED2EdyoefaQkqWN_Q"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.shared_vision.base\tasks\develop_technical_vision.uma#_vbkccED2EdyoefaQkqWN_Q"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.shared_vision.base\tasks\develop_technical_vision.uma#_yeVC0ED2EdyoefaQkqWN_Q"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.shared_vision.base\tasks\develop_technical_vision.uma#_6uIV0ED2EdyoefaQkqWN_Q"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.shared_vision.base\tasks\develop_technical_vision.uma#__nDMkED2EdyoefaQkqWN_Q"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.tech.shared_vision.base\tasks\develop_technical_vision.uma#_Af_gUEIMEd2omsDpG-BNng"/>
-    </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_soyUVNOJEdyqlogshP8l4g" name="vision" guid="_soyUVNOJEdyqlogshP8l4g" presentationName="Vision" briefDescription="This artifact defines the view of the stakeholders of the technical solution to be developed. This definition is specified in terms of the key needs and features of the stakeholders. The vision contains an outline of the envisioned core requirements for the system." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
-      <presentation xmi:id="-z5wrOi6JXS768g53hKiYaA" href="content.uma#-z5wrOi6JXS768g53hKiYaA"/>
-      <checklists href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0WoFUMlgEdmt3adZL5Dmdw"/>
-      <templates href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_DtlRQI5gEdyO5aWob1UGDA"/>
-      <WorkProduct href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0WVxcMlgEdmt3adZL5Dmdw"/>
-    </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_t7pDUNOJEdyqlogshP8l4g" name="plan_the_project" guid="_t7pDUNOJEdyqlogshP8l4g" presentationName="Plan Project" briefDescription="A collaborative task that outlines an initial agreement on how the project will achieve its goals. The resulting project plan provides a summary-level overview of the project." superActivities="_eWxZgdOEEdyqlogshP8l4g" mandatoryInput="_tzWYwNnFEdyNWvE4rz3mXQ _wU5YkG7rEd2yFK8n6tDvyw" output="_4ypNIO-YEdyEMtC_IfEALw">
-      <presentation xmi:id="-9AN0xXBZYxIDPOg2N3IC6Q" href="content.uma#-9AN0xXBZYxIDPOg2N3IC6Q"/>
-      <guidelines href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base/plugin.uma#_Jq64EJjsEduad8I_c-ogIA"/>
-      <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_CGHskBEdEdqY7JB6N6CW2w"/>
-      <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_VNxL4ACsEdu8m4dIntu6jA"/>
-      <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.slot.base/plugin.uma#_sLQ6AN8-Edyhmsbt0Xyl8A"/>
-      <guidelines href="/org.eclipse.epf.openup.uma/src/core.mgmt.common.extend_supp/plugin.uma#_yYlQoC3xEdycYKq0PulnEQ"/>
-      <Task href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base/plugin.uma#_0lC70MlgEdmt3adZL5Dmdw"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base\tasks\plan_the_project.uma#_gu-PgIyBEdyhZb-MhCJrlA"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base\tasks\plan_the_project.uma#_jknm8IyBEdyhZb-MhCJrlA"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base\tasks\plan_the_project.uma#_4Xg3QOFpEdyhmsbt0Xyl8A"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base\tasks\plan_the_project.uma#_lrYj0MBAEdqSgKaj2SZBmg"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base\tasks\plan_the_project.uma#_xWBhUIyBEdyhZb-MhCJrlA"/>
-      <selectedSteps href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base\tasks\plan_the_project.uma#_zeN84IyBEdyhZb-MhCJrlA"/>
-    </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_tzWYwNnFEdyNWvE4rz3mXQ" name="technical_specification_slot" guid="_tzWYwNnFEdyNWvE4rz3mXQ" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
-      <WorkProduct href="/org.eclipse.epf.openup.uma/src/core.tech.slot.base/plugin.uma#_i3vkoLS-EduDY8LNbMCDBA"/>
-    </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4ypNIO-YEdyEMtC_IfEALw" name="project_plan" guid="_4ypNIO-YEdyEMtC_IfEALw" presentationName="Project Plan" briefDescription="This artifact gathers all of the information required to manage the project on a strategic level. Its main part consists of a coarse-grained plan, identifying project iterations and their goals." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
-      <presentation xmi:id="-ZCPNs3ExxsjnNFRTVybQyA" href="content.uma#-ZCPNs3ExxsjnNFRTVybQyA"/>
-      <checklists href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base/plugin.uma#_-qtjsAasEdy1uLAzgK8btg"/>
-      <examples href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base/plugin.uma#_Yiq2EDcGEdyTZ9G7ByfQTw"/>
-      <templates href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base/plugin.uma#_0c7hoMlgEdmt3adZL5Dmdw"/>
-      <reports href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base/plugin.uma#_ePrt8Dj3EduxovfWMDsntw"/>
-      <WorkProduct href="/org.eclipse.epf.openup.uma/src/practice.mgmt.release_planning.base/plugin.uma#_0a6vcMlgEdmt3adZL5Dmdw"/>
-    </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_OpsH8GpmEd24CboUCnKL3A" name="glossary" guid="_OpsH8GpmEd24CboUCnKL3A" presentationName="Glossary" briefDescription="This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
-      <presentation xmi:id="-LpEiAis-mzd1_RcJIRimLA" href="content.uma#-LpEiAis-mzd1_RcJIRimLA"/>
-      <WorkProduct href="/org.eclipse.epf.openup.uma/src/core.gen.common.base/plugin.uma#_Wn7HcNcEEdqz_d2XWoVt6Q"/>
-    </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_wU5YkG7rEd2yFK8n6tDvyw" name="project_work_slot" guid="_wU5YkG7rEd2yFK8n6tDvyw" presentationName="[Project Work]" briefDescription="This slot serves as an abstraction for any type of work being done on the project. It could be represented as a work items list, an operational schedule, a work breakdown structure, and so on." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
-      <WorkProduct href="/org.eclipse.epf.openup.uma/src/core.mgmt.slot.base/plugin.uma#_1QZI8EfUEdyiPI8btkmvmw"/>
-    </processElements>
-    
-  <process variabilityBasedOnElement="_eWxZgdOEEdyqlogshP8l4g" superActivities="_eWxZgdOEEdyqlogshP8l4g" breakdownElements="_sopKYNOJEdyqlogshP8l4g _soyUVNOJEdyqlogshP8l4g _t7pDUNOJEdyqlogshP8l4g _tzWYwNnFEdyNWvE4rz3mXQ _4ypNIO-YEdyEMtC_IfEALw _OpsH8GpmEd24CboUCnKL3A _wU5YkG7rEd2yFK8n6tDvyw _eWxZgdOEEdyqlogshP8l4g d496e19" defaultContext="/org.eclipse.epf.openup.uma/src/configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA" xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_eWxZgdOEEdyqlogshP8l4g" name="initiate_project" guid="_eWxZgdOEEdyqlogshP8l4g" presentationName="Initiate Project" briefDescription="Kick off the project and gain agreement with the stakeholders on the scope of the project, and an initial plan for achieving it. This activity bundles tasks required to define the vision and create a project plan.">
-      <presentation xmi:id="-kpXvvHptrggypeoQEamfhw" href="content.uma#-kpXvvHptrggypeoQEamfhw"/>
-    </process><processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" superActivities="_eWxZgdOEEdyqlogshP8l4g" guid="d496e19"/></org.eclipse.epf.uma:ProcessComponent>
-</xmi:XMI>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_eWxZgNOEEdyqlogshP8l4g" name="initiate_project" guid="_eWxZgNOEEdyqlogshP8l4g" interfaces="d496e19">
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sopKYNOJEdyqlogshP8l4g" name="develop_technical_vision" guid="_sopKYNOJEdyqlogshP8l4g" presentationName="Develop Technical Vision" briefDescription="Define the vision for the future system. Describe the problem and features based on stakeholder requests." superActivities="_eWxZgdOEEdyqlogshP8l4g" optionalInput="_soyUVNOJEdyqlogshP8l4g" output="_soyUVNOJEdyqlogshP8l4g _OpsH8GpmEd24CboUCnKL3A">
+    <presentation href="content.uma#-Y4gn4laxnFk1PUA3-GebOg"/>
+    <checklists href="../../../core.tech.common.extend_supp/plugin.uma#_0WoFUMlgEdmt3adZL5Dmdw"/>
+    <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_VQ268O0KEdqHTdbLTmC5IQ"/>
+    <guidelines href="../../../core.tech.common.extend_supp/plugin.uma#_E-dPIL-GEdqb7N6KIeDL8Q"/>
+    <guidelines href="../../../core.tech.common.extend_supp/plugin.uma#_OnoNQNSAEdmLhZ9H5Plxyw"/>
+    <Task href="../../../practice.tech.shared_vision.base/plugin.uma#_0fOAoMlgEdmt3adZL5Dmdw"/>
+    <selectedSteps href="../../../practice.tech.shared_vision.base/tasks/develop_technical_vision.uma#_ceK-UED2EdyoefaQkqWN_Q"/>
+    <selectedSteps href="../../../practice.tech.shared_vision.base/tasks/develop_technical_vision.uma#_h7AacED2EdyoefaQkqWN_Q"/>
+    <selectedSteps href="../../../practice.tech.shared_vision.base/tasks/develop_technical_vision.uma#_vbkccED2EdyoefaQkqWN_Q"/>
+    <selectedSteps href="../../../practice.tech.shared_vision.base/tasks/develop_technical_vision.uma#_yeVC0ED2EdyoefaQkqWN_Q"/>
+    <selectedSteps href="../../../practice.tech.shared_vision.base/tasks/develop_technical_vision.uma#_6uIV0ED2EdyoefaQkqWN_Q"/>
+    <selectedSteps href="../../../practice.tech.shared_vision.base/tasks/develop_technical_vision.uma#__nDMkED2EdyoefaQkqWN_Q"/>
+    <selectedSteps href="../../../practice.tech.shared_vision.base/tasks/develop_technical_vision.uma#_Af_gUEIMEd2omsDpG-BNng"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_soyUVNOJEdyqlogshP8l4g" name="vision" guid="_soyUVNOJEdyqlogshP8l4g" presentationName="Vision" briefDescription="This artifact defines the view of the stakeholders of the technical solution to be developed. This definition is specified in terms of the key needs and features of the stakeholders. The vision contains an outline of the envisioned core requirements for the system." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
+    <presentation href="content.uma#-z5wrOi6JXS768g53hKiYaA"/>
+    <checklists href="../../../core.tech.common.extend_supp/plugin.uma#_0WoFUMlgEdmt3adZL5Dmdw"/>
+    <templates href="../../../core.tech.common.extend_supp/plugin.uma#_DtlRQI5gEdyO5aWob1UGDA"/>
+    <WorkProduct href="../../../core.tech.common.extend_supp/plugin.uma#_0WVxcMlgEdmt3adZL5Dmdw"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_t7pDUNOJEdyqlogshP8l4g" name="plan_the_project" guid="_t7pDUNOJEdyqlogshP8l4g" presentationName="Plan Project" briefDescription="A collaborative task that outlines an initial agreement on how the project will achieve its goals. The resulting project plan provides a summary-level overview of the project." superActivities="_eWxZgdOEEdyqlogshP8l4g" mandatoryInput="_tzWYwNnFEdyNWvE4rz3mXQ _wU5YkG7rEd2yFK8n6tDvyw" output="_4ypNIO-YEdyEMtC_IfEALw">
+    <presentation href="content.uma#-9AN0xXBZYxIDPOg2N3IC6Q"/>
+    <guidelines href="../../../practice.mgmt.release_planning.base/plugin.uma#_Jq64EJjsEduad8I_c-ogIA"/>
+    <guidelines href="../../../core.mgmt.common.extend_supp/plugin.uma#_CGHskBEdEdqY7JB6N6CW2w"/>
+    <guidelines href="../../../core.mgmt.common.extend_supp/plugin.uma#_VNxL4ACsEdu8m4dIntu6jA"/>
+    <guidelines href="../../../core.mgmt.slot.base/plugin.uma#_sLQ6AN8-Edyhmsbt0Xyl8A"/>
+    <guidelines href="../../../core.mgmt.common.extend_supp/plugin.uma#_yYlQoC3xEdycYKq0PulnEQ"/>
+    <Task href="../../../practice.mgmt.release_planning.base/plugin.uma#_0lC70MlgEdmt3adZL5Dmdw"/>
+    <selectedSteps href="../../../practice.mgmt.release_planning.base/tasks/plan_the_project.uma#_gu-PgIyBEdyhZb-MhCJrlA"/>
+    <selectedSteps href="../../../practice.mgmt.release_planning.base/tasks/plan_the_project.uma#_jknm8IyBEdyhZb-MhCJrlA"/>
+    <selectedSteps href="../../../practice.mgmt.release_planning.base/tasks/plan_the_project.uma#_4Xg3QOFpEdyhmsbt0Xyl8A"/>
+    <selectedSteps href="../../../practice.mgmt.release_planning.base/tasks/plan_the_project.uma#_lrYj0MBAEdqSgKaj2SZBmg"/>
+    <selectedSteps href="../../../practice.mgmt.release_planning.base/tasks/plan_the_project.uma#_xWBhUIyBEdyhZb-MhCJrlA"/>
+    <selectedSteps href="../../../practice.mgmt.release_planning.base/tasks/plan_the_project.uma#_zeN84IyBEdyhZb-MhCJrlA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_tzWYwNnFEdyNWvE4rz3mXQ" name="technical_specification_slot" guid="_tzWYwNnFEdyNWvE4rz3mXQ" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
+    <WorkProduct href="../../../core.tech.slot.base/plugin.uma#_i3vkoLS-EduDY8LNbMCDBA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4ypNIO-YEdyEMtC_IfEALw" name="project_plan" guid="_4ypNIO-YEdyEMtC_IfEALw" presentationName="Project Plan" briefDescription="This artifact gathers all of the information required to manage the project on a strategic level. Its main part consists of a coarse-grained plan, identifying project iterations and their goals." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
+    <presentation href="content.uma#-ZCPNs3ExxsjnNFRTVybQyA"/>
+    <checklists href="../../../practice.mgmt.release_planning.base/plugin.uma#_-qtjsAasEdy1uLAzgK8btg"/>
+    <examples href="../../../practice.mgmt.release_planning.base/plugin.uma#_Yiq2EDcGEdyTZ9G7ByfQTw"/>
+    <templates href="../../../practice.mgmt.release_planning.base/plugin.uma#_0c7hoMlgEdmt3adZL5Dmdw"/>
+    <reports href="../../../practice.mgmt.release_planning.base/plugin.uma#_ePrt8Dj3EduxovfWMDsntw"/>
+    <WorkProduct href="../../../practice.mgmt.release_planning.base/plugin.uma#_0a6vcMlgEdmt3adZL5Dmdw"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_OpsH8GpmEd24CboUCnKL3A" name="glossary" guid="_OpsH8GpmEd24CboUCnKL3A" presentationName="Glossary" briefDescription="This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
+    <presentation href="content.uma#-LpEiAis-mzd1_RcJIRimLA"/>
+    <WorkProduct href="../../../core.gen.common.base/plugin.uma#_Wn7HcNcEEdqz_d2XWoVt6Q"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_wU5YkG7rEd2yFK8n6tDvyw" name="project_work_slot" guid="_wU5YkG7rEd2yFK8n6tDvyw" presentationName="[Project Work]" briefDescription="This slot serves as an abstraction for any type of work being done on the project. It could be represented as a work items list, an operational schedule, a work breakdown structure, and so on." isPlanned="false" superActivities="_eWxZgdOEEdyqlogshP8l4g">
+    <WorkProduct href="../../../core.mgmt.slot.base/plugin.uma#_1QZI8EfUEdyiPI8btkmvmw"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d496e19" superActivities="_eWxZgdOEEdyqlogshP8l4g"/>
+  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_eWxZgdOEEdyqlogshP8l4g" name="initiate_project" guid="_eWxZgdOEEdyqlogshP8l4g" presentationName="Initiate Project" briefDescription="Kick off the project and gain agreement with the stakeholders on the scope of the project, and an initial plan for achieving it. This activity bundles tasks required to define the vision and create a project plan." superActivities="_eWxZgdOEEdyqlogshP8l4g" variabilityBasedOnElement="_eWxZgdOEEdyqlogshP8l4g" breakdownElements="_sopKYNOJEdyqlogshP8l4g _soyUVNOJEdyqlogshP8l4g _t7pDUNOJEdyqlogshP8l4g _tzWYwNnFEdyNWvE4rz3mXQ _4ypNIO-YEdyEMtC_IfEALw _OpsH8GpmEd24CboUCnKL3A _wU5YkG7rEd2yFK8n6tDvyw _eWxZgdOEEdyqlogshP8l4g d496e19">
+    <presentation href="content.uma#-kpXvvHptrggypeoQEamfhw"/>
+    <defaultContext href="../../../configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/>
+  </process>
+</org.eclipse.epf.uma:ProcessComponent>

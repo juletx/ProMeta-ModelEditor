@@ -1,10 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:RoleDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="new_role,_z0iMcEIuEd2GCesTWQms8Q" xmi:version="2.0" epf:version="1.5.1" xmi:id="-lviXbsQRcGsTcSjgLy1dvg" name="new_role,_z0iMcEIuEd2GCesTWQms8Q" guid="-lviXbsQRcGsTcSjgLy1dvg" changeDate="2008-06-24T10:49:00.000+0200" version="7.5.0">
-  <assignmentApproaches>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        See &lt;a class="elementLinkWithType"&#xD;
-        href="./../../practice.mgmt.whole_team.base/guidances/guidelines/self_organize_work_assignments_F47FC314.html"&#xD;
-        guid="_rmBEkJjsEduad8I_c-ogIA"&gt;Guideline: Self-Organize Work Assignments&lt;/a&gt; to see how members of small agile&#xD;
-        teams can share in this role.&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</assignmentApproaches>
-</org.eclipse.epf.uma:RoleDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-lviXbsQRcGsTcSjgLy1dvg" name="new_role,_z0iMcEIuEd2GCesTWQms8Q" guid="-lviXbsQRcGsTcSjgLy1dvg" changeDate="2008-06-24T10:49:00.000+0200" version="7.5.0" longPresentationName="new_role,_z0iMcEIuEd2GCesTWQms8Q" assignmentApproaches="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        See &lt;a class=&quot;elementLinkWithType&quot;&#xD;&#xA;        href=&quot;./../../practice.mgmt.whole_team.base/guidances/guidelines/self_organize_work_assignments_F47FC314.html&quot;&#xD;&#xA;        guid=&quot;_rmBEkJjsEduad8I_c-ogIA&quot;>Guideline: Self-Organize Work Assignments&lt;/a> to see how members of small agile&#xD;&#xA;        teams can share in this role.&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>

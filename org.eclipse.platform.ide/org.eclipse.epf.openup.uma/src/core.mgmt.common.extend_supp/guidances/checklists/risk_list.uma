@@ -1,48 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="new_checklist,_7BZa0DIdEduDTv4Y1akVTA" xmi:version="2.0" epf:version="1.5.1" xmi:id="-gqNN4DnROmJpgKtrdguhpg" name="new_checklist,_7BZa0DIdEduDTv4Y1akVTA" guid="-gqNN4DnROmJpgKtrdguhpg" changeDate="2006-08-22T10:38:14.000+0200" version="7.2.0">
-  <sections variabilityBasedOnElement="_qO41ADIfEduDTv4Y1akVTA" xmi:id="_qO41ADIfEduDTv4Y1akVTA" name="Have all potential risks to the project been identified?" guid="_qO41ADIfEduDTv4Y1akVTA">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Have you involved the team and stakeholders in risk identification?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Have you made sure that several categories were considered (technical, project management, organizational, and&#xD;
-        external)?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-&lt;p&gt;&#xD;
-    List all potential risks, giving a description and type (direct or indirect). See &lt;a class="elementLinkWithType"&#xD;
-    href="./../../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html"&#xD;
-    guid="_0bsLgMlgEdmt3adZL5Dmdw"&gt;Concept: Risk&lt;/a&gt;&amp;nbsp;for more information.&#xD;
-&lt;/p&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_5RiSkDe2EduD7J48kKN20g" xmi:id="_5RiSkDe2EduD7J48kKN20g" name="Have all risks been described without ambiguity?" guid="_5RiSkDe2EduD7J48kKN20g">
-    <sectionDescription>Is each risk described in a clear and concise way?</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_2rpQoDIfEduDTv4Y1akVTA" xmi:id="_2rpQoDIfEduDTv4Y1akVTA" name="Have all major risks been evaluated?" guid="_2rpQoDIfEduDTv4Y1akVTA">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Has the team assessed the order of magnitude of&amp;nbsp; each risk (probability x impact)?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Have the risks been sorted according to their magnitude? This&amp;nbsp;allows you to address the higher-magnitude risks&#xD;
-        early in the project.&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Has a response strategy been chosen for higher-magnitude risks?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-&lt;p&gt;&#xD;
-    See &lt;a class="elementLinkWithType" href="./../../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html"&#xD;
-    guid="_0bsLgMlgEdmt3adZL5Dmdw"&gt;Concept: Risk&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a class="elementLinkWithType"&#xD;
-    href="./../../../core.mgmt.common.extend_supp/guidances/guidelines/managing_risks_B1256EB4.html"&#xD;
-    guid="_VNxL4ACsEdu8m4dIntu6jA"&gt;Guideline: Managing Risks&lt;/a&gt; for more information.&#xD;
-&lt;/p&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_hSFaYDe3EduD7J48kKN20g" xmi:id="_hSFaYDe3EduD7J48kKN20g" name="Are there interdependencies between risks?" guid="_hSFaYDe3EduD7J48kKN20g">
-    <sectionDescription>&lt;span style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Make sure that you establish interdependencies between risks as&#xD;
-appropriate. For example, the consequence of a risk happening may raise the probability of another risk happening or raise&#xD;
-the impact that another risk could have on the project. If risks depend on each other, you may need a response strategy to&#xD;
-mitigate&amp;nbsp;all interdependent risks&amp;nbsp;at the same time, or you may need revisit the risk list to update the magnitude&#xD;
-of dependent risks.&lt;/span&gt;</sectionDescription>
-  </sections>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-gqNN4DnROmJpgKtrdguhpg" name="new_checklist,_7BZa0DIdEduDTv4Y1akVTA" guid="-gqNN4DnROmJpgKtrdguhpg" changeDate="2006-08-22T10:38:14.000+0200" version="7.2.0" longPresentationName="new_checklist,_7BZa0DIdEduDTv4Y1akVTA">
+  <sections xmi:id="_qO41ADIfEduDTv4Y1akVTA" name="Have all potential risks to the project been identified?" guid="_qO41ADIfEduDTv4Y1akVTA" variabilityBasedOnElement="_qO41ADIfEduDTv4Y1akVTA" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Have you involved the team and stakeholders in risk identification?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Have you made sure that several categories were considered (technical, project management, organizational, and&#xD;&#xA;        external)?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>&#xD;&#xA;&lt;p>&#xD;&#xA;    List all potential risks, giving a description and type (direct or indirect). See &lt;a class=&quot;elementLinkWithType&quot;&#xD;&#xA;    href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot;&#xD;&#xA;    guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>Concept: Risk&lt;/a>&amp;nbsp;for more information.&#xD;&#xA;&lt;/p>"/>
+  <sections xmi:id="_5RiSkDe2EduD7J48kKN20g" name="Have all risks been described without ambiguity?" guid="_5RiSkDe2EduD7J48kKN20g" variabilityBasedOnElement="_5RiSkDe2EduD7J48kKN20g" sectionDescription="Is each risk described in a clear and concise way?"/>
+  <sections xmi:id="_2rpQoDIfEduDTv4Y1akVTA" name="Have all major risks been evaluated?" guid="_2rpQoDIfEduDTv4Y1akVTA" variabilityBasedOnElement="_2rpQoDIfEduDTv4Y1akVTA" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Has the team assessed the order of magnitude of&amp;nbsp; each risk (probability x impact)?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Have the risks been sorted according to their magnitude? This&amp;nbsp;allows you to address the higher-magnitude risks&#xD;&#xA;        early in the project.&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Has a response strategy been chosen for higher-magnitude risks?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>&#xD;&#xA;&lt;p>&#xD;&#xA;    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot;&#xD;&#xA;    guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>Concept: Risk&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot;&#xD;&#xA;    href=&quot;./../../../core.mgmt.common.extend_supp/guidances/guidelines/managing_risks_B1256EB4.html&quot;&#xD;&#xA;    guid=&quot;_VNxL4ACsEdu8m4dIntu6jA&quot;>Guideline: Managing Risks&lt;/a> for more information.&#xD;&#xA;&lt;/p>"/>
+  <sections xmi:id="_hSFaYDe3EduD7J48kKN20g" name="Are there interdependencies between risks?" guid="_hSFaYDe3EduD7J48kKN20g" variabilityBasedOnElement="_hSFaYDe3EduD7J48kKN20g" sectionDescription="&lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>Make sure that you establish interdependencies between risks as&#xD;&#xA;appropriate. For example, the consequence of a risk happening may raise the probability of another risk happening or raise&#xD;&#xA;the impact that another risk could have on the project. If risks depend on each other, you may need a response strategy to&#xD;&#xA;mitigate&amp;nbsp;all interdependent risks&amp;nbsp;at the same time, or you may need revisit the risk list to update the magnitude&#xD;&#xA;of dependent risks.&lt;/span>"/>
 </org.eclipse.epf.uma:ContentDescription>

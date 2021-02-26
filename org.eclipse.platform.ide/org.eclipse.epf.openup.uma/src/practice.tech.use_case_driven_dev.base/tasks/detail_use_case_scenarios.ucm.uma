@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="detail_use_case_scenarios.ucm,_-pOLIEbEEdyx8quJU3Grxg" xmi:version="2.0" epf:version="1.5.1" xmi:id="-locCQOxOUM8zej2tBD6M6Q" name="detail_use_case_scenarios.ucm,_-pOLIEbEEdyx8quJU3Grxg" guid="-locCQOxOUM8zej2tBD6M6Q" version="1.0.0">
-  <sections variabilityBasedOnElement="_-pOLIUbEEdyx8quJU3Grxg" xmi:id="_-pOLIUbEEdyx8quJU3Grxg" name="Update Use-Case Model" guid="_-pOLIUbEEdyx8quJU3Grxg">
-    <sectionDescription>&lt;p&gt;&#xD;
-    Based on your work detailing use cases and scenarios, update the &lt;a class="elementLink"&#xD;
-    href="./../../core.tech.common.extend_supp/workproducts/use_case_model_85965D1B.html"&#xD;
-    guid="_W2SgEDR5EdutE_HNDTJk5Q"&gt;Use-Case Model&lt;/a&gt;.&amp;nbsp;Add, remove or update&amp;nbsp;&lt;a class="elementLinkWithUserText"&#xD;
-    href="./../../core.tech.common.extend_supp/guidances/concepts/actor_411726C.html"&#xD;
-    guid="_zGqO0MDpEduTGJ8i4u8TMw"&gt;Actors&lt;/a&gt; and &lt;a class="elementLink"&#xD;
-    href="./../../core.tech.common.extend_supp/workproducts/use_case_22BE66E2.html" guid="_0VGbUMlgEdmt3adZL5Dmdw"&gt;Use&#xD;
-    Case&lt;/a&gt;s as required.&amp;nbsp;&lt;br /&gt;&#xD;
-    For more information on creating and structuring your use case model see &lt;a class="elementLinkWithType"&#xD;
-    href="./../../practice.tech.use_case_driven_dev.base/guidances/guidelines/use_case_model_4C64E97D.html"&#xD;
-    guid="_0VAUsMlgEdmt3adZL5Dmdw"&gt;Guideline: Use-Case Model&lt;/a&gt;.&amp;nbsp;For assistance in assessing the quality of your&#xD;
-    use-case model see &lt;a class="elementLinkWithType"&#xD;
-    href="./../../core.tech.common.extend_supp/guidances/checklists/use_case_model_27A2D1CF.html"&#xD;
-    guid="_0U6OEMlgEdmt3adZL5Dmdw"&gt;Checklist: Use-Case Model&lt;/a&gt;.&#xD;
-&lt;/p&gt;</sectionDescription>
-  </sections>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-locCQOxOUM8zej2tBD6M6Q" name="detail_use_case_scenarios.ucm,_-pOLIEbEEdyx8quJU3Grxg" guid="-locCQOxOUM8zej2tBD6M6Q" version="1.0.0" longPresentationName="detail_use_case_scenarios.ucm,_-pOLIEbEEdyx8quJU3Grxg">
+  <sections xmi:id="_-pOLIUbEEdyx8quJU3Grxg" name="Update Use-Case Model" guid="_-pOLIUbEEdyx8quJU3Grxg" variabilityBasedOnElement="_-pOLIUbEEdyx8quJU3Grxg" sectionDescription="&lt;p>&#xD;&#xA;    Based on your work detailing use cases and scenarios, update the &lt;a class=&quot;elementLink&quot;&#xD;&#xA;    href=&quot;./../../core.tech.common.extend_supp/workproducts/use_case_model_85965D1B.html&quot;&#xD;&#xA;    guid=&quot;_W2SgEDR5EdutE_HNDTJk5Q&quot;>Use-Case Model&lt;/a>.&amp;nbsp;Add, remove or update&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;&#xA;    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/actor_411726C.html&quot;&#xD;&#xA;    guid=&quot;_zGqO0MDpEduTGJ8i4u8TMw&quot;>Actors&lt;/a> and &lt;a class=&quot;elementLink&quot;&#xD;&#xA;    href=&quot;./../../core.tech.common.extend_supp/workproducts/use_case_22BE66E2.html&quot; guid=&quot;_0VGbUMlgEdmt3adZL5Dmdw&quot;>Use&#xD;&#xA;    Case&lt;/a>s as required.&amp;nbsp;&lt;br />&#xD;&#xA;    For more information on creating and structuring your use case model see &lt;a class=&quot;elementLinkWithType&quot;&#xD;&#xA;    href=&quot;./../../practice.tech.use_case_driven_dev.base/guidances/guidelines/use_case_model_4C64E97D.html&quot;&#xD;&#xA;    guid=&quot;_0VAUsMlgEdmt3adZL5Dmdw&quot;>Guideline: Use-Case Model&lt;/a>.&amp;nbsp;For assistance in assessing the quality of your&#xD;&#xA;    use-case model see &lt;a class=&quot;elementLinkWithType&quot;&#xD;&#xA;    href=&quot;./../../core.tech.common.extend_supp/guidances/checklists/use_case_model_27A2D1CF.html&quot;&#xD;&#xA;    guid=&quot;_0U6OEMlgEdmt3adZL5Dmdw&quot;>Checklist: Use-Case Model&lt;/a>.&#xD;&#xA;&lt;/p>"/>
 </org.eclipse.epf.uma:TaskDescription>

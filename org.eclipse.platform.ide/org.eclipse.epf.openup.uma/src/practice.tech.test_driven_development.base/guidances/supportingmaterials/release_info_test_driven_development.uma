@@ -1,17 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="new_supporting_material,__dz3oMuIEdyRPtFYRAKVDg" xmi:version="2.0" epf:version="1.5.1" xmi:id="-E53fUEmqkW0sT-FCrmpFDw" name="new_supporting_material,__dz3oMuIEdyRPtFYRAKVDg" guid="-E53fUEmqkW0sT-FCrmpFDw" changeDate="2010-09-20T18:16:18.171+0200" version="7.2.0">
-  <mainDescription>&lt;h3&gt;&#xD;
-    EPF Base&#xD;
-&lt;/h3&gt;&#xD;
-&lt;h4&gt;&#xD;
-    1.5.1&#xD;
-&lt;/h4&gt;&#xD;
-&lt;p&gt;&#xD;
-    Minor fixes only.&#xD;
-&lt;/p&gt;&#xD;
-&lt;h4&gt;&#xD;
-    1.5&#xD;
-&lt;/h4&gt;&#xD;
-&lt;p&gt;&#xD;
-    This is the first version of this practice.&#xD;
-&lt;/p&gt;</mainDescription>
-</org.eclipse.epf.uma:ContentDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-E53fUEmqkW0sT-FCrmpFDw" name="new_supporting_material,__dz3oMuIEdyRPtFYRAKVDg" guid="-E53fUEmqkW0sT-FCrmpFDw" changeDate="2010-09-20T18:16:18.171+0200" version="7.2.0" mainDescription="&lt;h3>&#xD;&#xA;    EPF Base&#xD;&#xA;&lt;/h3>&#xD;&#xA;&lt;h4>&#xD;&#xA;    1.5.1&#xD;&#xA;&lt;/h4>&#xD;&#xA;&lt;p>&#xD;&#xA;    Minor fixes only.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;h4>&#xD;&#xA;    1.5&#xD;&#xA;&lt;/h4>&#xD;&#xA;&lt;p>&#xD;&#xA;    This is the first version of this practice.&#xD;&#xA;&lt;/p>" longPresentationName="new_supporting_material,__dz3oMuIEdyRPtFYRAKVDg"/>

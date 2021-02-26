@@ -1,13 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="work_product,_H4JXwB_SEdq6CKKKq4D7YA" xmi:version="2.0" epf:version="1.5.1" xmi:id="-dcYwPivhczonAxeyXweyIQ" name="work_product,_H4JXwB_SEdq6CKKKq4D7YA" guid="-dcYwPivhczonAxeyXweyIQ" changeDate="2007-12-05T19:29:03.000+0100" version="7.2.0">
-  <mainDescription>&lt;p&gt;&#xD;
-    Used to define and describe the items needed as input or created as output of one or more&amp;nbsp;&lt;a class="elementLink"&#xD;
-    href="./../../../core.default.uma_concept.base/guidances/termdefinitions/task_6C1FF051.html"&#xD;
-    guid="_x459ktnmEdmO6L4XMImrsA"&gt;task&lt;/a&gt;s that are the responsibility of a single role.&amp;nbsp; See: &lt;a&#xD;
-    class="elementLink" href="./../../../core.default.uma_concept.base/guidances/termdefinitions/artifact_F635D25.html"&#xD;
-    guid="_x7cUM9nmEdmO6L4XMImrsA"&gt;artifact&lt;/a&gt;, &lt;a class="elementLink"&#xD;
-    href="./../../../core.default.uma_concept.base/guidances/termdefinitions/deliverable_BFE1A5A9.html"&#xD;
-    guid="_yFbWoNnmEdmO6L4XMImrsA"&gt;deliverable&lt;/a&gt;, &lt;a class="elementLink"&#xD;
-    href="./../../../core.default.uma_concept.base/guidances/termdefinitions/outcome_797E7695.html"&#xD;
-    guid="_LNAAcB_iEdqAHrsQ7-jSbw"&gt;outcome&lt;/a&gt;.&#xD;
-&lt;/p&gt;</mainDescription>
-</org.eclipse.epf.uma:ContentDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-dcYwPivhczonAxeyXweyIQ" name="work_product,_H4JXwB_SEdq6CKKKq4D7YA" guid="-dcYwPivhczonAxeyXweyIQ" changeDate="2007-12-05T19:29:03.000+0100" version="7.2.0" mainDescription="&lt;p>&#xD;&#xA;    Used to define and describe the items needed as input or created as output of one or more&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;&#xA;    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/task_6C1FF051.html&quot;&#xD;&#xA;    guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;>task&lt;/a>s that are the responsibility of a single role.&amp;nbsp; See: &lt;a&#xD;&#xA;    class=&quot;elementLink&quot; href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/artifact_F635D25.html&quot;&#xD;&#xA;    guid=&quot;_x7cUM9nmEdmO6L4XMImrsA&quot;>artifact&lt;/a>, &lt;a class=&quot;elementLink&quot;&#xD;&#xA;    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/deliverable_BFE1A5A9.html&quot;&#xD;&#xA;    guid=&quot;_yFbWoNnmEdmO6L4XMImrsA&quot;>deliverable&lt;/a>, &lt;a class=&quot;elementLink&quot;&#xD;&#xA;    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/outcome_797E7695.html&quot;&#xD;&#xA;    guid=&quot;_LNAAcB_iEdqAHrsQ7-jSbw&quot;>outcome&lt;/a>.&#xD;&#xA;&lt;/p>" longPresentationName="work_product,_H4JXwB_SEdq6CKKKq4D7YA"/>

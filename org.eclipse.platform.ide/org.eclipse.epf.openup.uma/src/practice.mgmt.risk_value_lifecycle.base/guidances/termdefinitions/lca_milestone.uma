@@ -1,9 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_NL4DMEvFEdunZcj9T5hrMQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-MllWL01NL93RTB7VsY69fw" name=",_NL4DMEvFEdunZcj9T5hrMQ" guid="-MllWL01NL93RTB7VsY69fw" changeDate="2008-07-08T12:22:55.000+0200" version="7.2.0">
-  <mainDescription>&lt;p&gt;&#xD;
-    Second major project milestone that occurs at the end of &lt;a class="elementLink"&#xD;
-    href="./../../../practice.mgmt.risk_value_lifecycle.base/guidances/termdefinitions/elaboration_3D6C8392.html"&#xD;
-    guid="_8DkT4EvDEdunZcj9T5hrMQ"&gt;Elaboration&lt;/a&gt; phase. At this point, a baseline of requirements is agreed&#xD;
-    to.&amp;nbsp;Examine the detailed system objectives and scope, the choice of architecture, and the resolution of the major&#xD;
-    risks. The milestone is achieved when the architecture has been validated.&#xD;
-&lt;/p&gt;</mainDescription>
-</org.eclipse.epf.uma:ContentDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-MllWL01NL93RTB7VsY69fw" name=",_NL4DMEvFEdunZcj9T5hrMQ" guid="-MllWL01NL93RTB7VsY69fw" changeDate="2008-07-08T12:22:55.000+0200" version="7.2.0" mainDescription="&lt;p>&#xD;&#xA;    Second major project milestone that occurs at the end of &lt;a class=&quot;elementLink&quot;&#xD;&#xA;    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/termdefinitions/elaboration_3D6C8392.html&quot;&#xD;&#xA;    guid=&quot;_8DkT4EvDEdunZcj9T5hrMQ&quot;>Elaboration&lt;/a> phase. At this point, a baseline of requirements is agreed&#xD;&#xA;    to.&amp;nbsp;Examine the detailed system objectives and scope, the choice of architecture, and the resolution of the major&#xD;&#xA;    risks. The milestone is achieved when the architecture has been validated.&#xD;&#xA;&lt;/p>" longPresentationName=",_NL4DMEvFEdunZcj9T5hrMQ"/>

@@ -1,15 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="new_supporting_material,_dlGBQF_nEd2zpKtX6B7lBg" xmi:version="2.0" epf:version="1.5.1" xmi:id="-SQ05xBXUt6AVSHaSltVFuw" name="new_supporting_material,_dlGBQF_nEd2zpKtX6B7lBg" guid="-SQ05xBXUt6AVSHaSltVFuw" changeDate="2008-08-06T12:30:09.000+0200" version="7.5.0">
-  <mainDescription>&lt;p&gt;&#xD;
-    For more information on Rational Method Composer, see these sources:&#xD;
-&lt;/p&gt;&#xD;
-&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        The &lt;a href="http://www.ibm.com/software/awdtools/rmc"&gt;Rational Method Composer&lt;/a&gt; product page on IBM&#xD;
-        developerWorks&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        &lt;a href="http://www.ibm.com/developerworks/rational/library/dec05/haumer/index.html%20"&gt;IBM Rational Method&#xD;
-        Composer: Part 1. Key concepts&lt;/a&gt;, a developerWorks article by Peter Haumer (December 2005)&lt;br /&gt;&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</mainDescription>
-</org.eclipse.epf.uma:ContentDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-SQ05xBXUt6AVSHaSltVFuw" name="new_supporting_material,_dlGBQF_nEd2zpKtX6B7lBg" guid="-SQ05xBXUt6AVSHaSltVFuw" changeDate="2008-08-06T12:30:09.000+0200" version="7.5.0" mainDescription="&lt;p>&#xD;&#xA;    For more information on Rational Method Composer, see these sources:&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        The &lt;a href=&quot;http://www.ibm.com/software/awdtools/rmc&quot;>Rational Method Composer&lt;/a> product page on IBM&#xD;&#xA;        developerWorks&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        &lt;a href=&quot;http://www.ibm.com/developerworks/rational/library/dec05/haumer/index.html%20&quot;>IBM Rational Method&#xD;&#xA;        Composer: Part 1. Key concepts&lt;/a>, a developerWorks article by Peter Haumer (December 2005)&lt;br />&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>" longPresentationName="new_supporting_material,_dlGBQF_nEd2zpKtX6B7lBg"/>

@@ -1,78 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:TaskDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="02_install_validate_infrastructure,_FVOHgDHMEeC7j_IRiP-WPQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-SLY9_MQQ_ykBIaLojfgzBQ" name="02_install_validate_infrastructure,_FVOHgDHMEeC7j_IRiP-WPQ" guid="-SLY9_MQQ_ykBIaLojfgzBQ" changeDate="2011-09-14T07:12:43.813+0200" version="7.5.1">
-  <mainDescription>&lt;p&gt;&#xD;
-    A release package cannot be deployed to production if the environmental infrastructure within which the release will be&#xD;
-    run is not sufficiently built or tested. Whether the release is deployed as a "push" (where the application is deployed&#xD;
-    from a central point and proactively delivered to target locations) or a "pull" (where the application is made&#xD;
-    available at central point and pulled by a user at a time of their choosing), the infrastructure needed to support the&#xD;
-    application must be considered and implemented.&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    Some key aspects of installing and/or validating the desired infrastructure:&#xD;
-&lt;/p&gt;&#xD;
-&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Identify the requirements and components of the environment configuration&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Determine the lead times required to establish the infrastructure environments&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Procure and install the infrastructure components that are not yet available&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Test the newly installed infrastructure components&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Test the integration of newly installed components with the rest of the environmental configuration&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Validate other aspects of the infrastructure including: &#xD;
-        &lt;ul&gt;&#xD;
-            &lt;li&gt;&#xD;
-                Security components and their integration&#xD;
-            &lt;/li&gt;&#xD;
-            &lt;li&gt;&#xD;
-                Database connectivity and security&#xD;
-            &lt;/li&gt;&#xD;
-            &lt;li&gt;&#xD;
-                License management, as appropriate&#xD;
-            &lt;/li&gt;&#xD;
-            &lt;li&gt;&#xD;
-                Configuration management, in terms of configuration items (CIs)&#xD;
-            &lt;/li&gt;&#xD;
-        &lt;/ul&gt;&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</mainDescription>
-  <sections variabilityBasedOnElement="_IAIH4-B-EeC1y_NExchKwQ" xmi:id="_IAIH4-B-EeC1y_NExchKwQ" name="Identify infrastructure needs" guid="_IAIH4-B-EeC1y_NExchKwQ">
-    <sectionDescription>Identify and describe all the components of the infrastructure that are needed to support the upcoming release. These&#xD;
-requirements should be based completely on the feature set that is about to be deployed, not on intended future needs.</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_IAIu8eB-EeC1y_NExchKwQ" xmi:id="_IAIu8eB-EeC1y_NExchKwQ" name="Procure components" guid="_IAIu8eB-EeC1y_NExchKwQ">
-    <sectionDescription>Determine how long it will reasonably take to procure the needed components and to engage the appropriate division in the&#xD;
-organization to place the order. Be sure to work with the procurement agency to track the order and to identify any issues&#xD;
-with that order. Ultimately, the development team, not the procurement agency, is responsible for ensuring that the correct&#xD;
-infrastructure components are in place.</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_IAIH5OB-EeC1y_NExchKwQ" xmi:id="_IAIH5OB-EeC1y_NExchKwQ" name="Schedule components for installation" guid="_IAIH5OB-EeC1y_NExchKwQ">
-    <sectionDescription>After the procured components arrive, schedule to have them installed by the IT operations group(s) that control the&#xD;
-production environment. The development team should be developing tests to confirm the correct installation at this time.</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_IAIH4uB-EeC1y_NExchKwQ" xmi:id="_IAIH4uB-EeC1y_NExchKwQ" name="Install and test components" guid="_IAIH4uB-EeC1y_NExchKwQ">
-    <sectionDescription>When the components have been installed, be prepared to run the validation tests developed in the previous step. These&#xD;
-tests should not only verify the individual components' readiness, but also should validate their integration with each&#xD;
-other and with legacy components.</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_IAIu8OB-EeC1y_NExchKwQ" xmi:id="_IAIu8OB-EeC1y_NExchKwQ" name="Validate other component aspects" guid="_IAIu8OB-EeC1y_NExchKwQ">
-    <sectionDescription>&lt;p&gt;&#xD;
-    As the validation testing is underway, the development team also should consider how the newly installed components&#xD;
-    impact overall system security, whether or not database connectivity and security have been compromised, and what&#xD;
-    impact they have on the configuration management database that contains an inventory of CIs.&#xD;
-&lt;/p&gt;&#xD;
-&lt;p&gt;&#xD;
-    Also reconcile any licensing issues for the new components with the division that is responsible for documenting and&#xD;
-    tracking enterprise licenses.&#xD;
-&lt;/p&gt;</sectionDescription>
-  </sections>
-  <purpose>The purpose of this task is to ensure that all the necessary infrastructure components needed to support a successful&#xD;
-release are in place.</purpose>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-SLY9_MQQ_ykBIaLojfgzBQ" name="02_install_validate_infrastructure,_FVOHgDHMEeC7j_IRiP-WPQ" guid="-SLY9_MQQ_ykBIaLojfgzBQ" changeDate="2011-09-14T07:12:43.813+0200" version="7.5.1" mainDescription="&lt;p>&#xD;&#xA;    A release package cannot be deployed to production if the environmental infrastructure within which the release will be&#xD;&#xA;    run is not sufficiently built or tested. Whether the release is deployed as a &quot;push&quot; (where the application is deployed&#xD;&#xA;    from a central point and proactively delivered to target locations) or a &quot;pull&quot; (where the application is made&#xD;&#xA;    available at central point and pulled by a user at a time of their choosing), the infrastructure needed to support the&#xD;&#xA;    application must be considered and implemented.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    Some key aspects of installing and/or validating the desired infrastructure:&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Identify the requirements and components of the environment configuration&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Determine the lead times required to establish the infrastructure environments&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Procure and install the infrastructure components that are not yet available&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Test the newly installed infrastructure components&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Test the integration of newly installed components with the rest of the environmental configuration&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Validate other aspects of the infrastructure including: &#xD;&#xA;        &lt;ul>&#xD;&#xA;            &lt;li>&#xD;&#xA;                Security components and their integration&#xD;&#xA;            &lt;/li>&#xD;&#xA;            &lt;li>&#xD;&#xA;                Database connectivity and security&#xD;&#xA;            &lt;/li>&#xD;&#xA;            &lt;li>&#xD;&#xA;                License management, as appropriate&#xD;&#xA;            &lt;/li>&#xD;&#xA;            &lt;li>&#xD;&#xA;                Configuration management, in terms of configuration items (CIs)&#xD;&#xA;            &lt;/li>&#xD;&#xA;        &lt;/ul>&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>" longPresentationName="02_install_validate_infrastructure,_FVOHgDHMEeC7j_IRiP-WPQ" purpose="The purpose of this task is to ensure that all the necessary infrastructure components needed to support a successful&#xD;&#xA;release are in place.">
+  <sections xmi:id="_IAIH4-B-EeC1y_NExchKwQ" name="Identify infrastructure needs" guid="_IAIH4-B-EeC1y_NExchKwQ" variabilityBasedOnElement="_IAIH4-B-EeC1y_NExchKwQ" sectionDescription="Identify and describe all the components of the infrastructure that are needed to support the upcoming release. These&#xD;&#xA;requirements should be based completely on the feature set that is about to be deployed, not on intended future needs."/>
+  <sections xmi:id="_IAIu8eB-EeC1y_NExchKwQ" name="Procure components" guid="_IAIu8eB-EeC1y_NExchKwQ" variabilityBasedOnElement="_IAIu8eB-EeC1y_NExchKwQ" sectionDescription="Determine how long it will reasonably take to procure the needed components and to engage the appropriate division in the&#xD;&#xA;organization to place the order. Be sure to work with the procurement agency to track the order and to identify any issues&#xD;&#xA;with that order. Ultimately, the development team, not the procurement agency, is responsible for ensuring that the correct&#xD;&#xA;infrastructure components are in place."/>
+  <sections xmi:id="_IAIH5OB-EeC1y_NExchKwQ" name="Schedule components for installation" guid="_IAIH5OB-EeC1y_NExchKwQ" variabilityBasedOnElement="_IAIH5OB-EeC1y_NExchKwQ" sectionDescription="After the procured components arrive, schedule to have them installed by the IT operations group(s) that control the&#xD;&#xA;production environment. The development team should be developing tests to confirm the correct installation at this time."/>
+  <sections xmi:id="_IAIH4uB-EeC1y_NExchKwQ" name="Install and test components" guid="_IAIH4uB-EeC1y_NExchKwQ" variabilityBasedOnElement="_IAIH4uB-EeC1y_NExchKwQ" sectionDescription="When the components have been installed, be prepared to run the validation tests developed in the previous step. These&#xD;&#xA;tests should not only verify the individual components' readiness, but also should validate their integration with each&#xD;&#xA;other and with legacy components."/>
+  <sections xmi:id="_IAIu8OB-EeC1y_NExchKwQ" name="Validate other component aspects" guid="_IAIu8OB-EeC1y_NExchKwQ" variabilityBasedOnElement="_IAIu8OB-EeC1y_NExchKwQ" sectionDescription="&lt;p>&#xD;&#xA;    As the validation testing is underway, the development team also should consider how the newly installed components&#xD;&#xA;    impact overall system security, whether or not database connectivity and security have been compromised, and what&#xD;&#xA;    impact they have on the configuration management database that contains an inventory of CIs.&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p>&#xD;&#xA;    Also reconcile any licensing issues for the new components with the division that is responsible for documenting and&#xD;&#xA;    tracking enterprise licenses.&#xD;&#xA;&lt;/p>"/>
 </org.eclipse.epf.uma:TaskDescription>

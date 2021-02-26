@@ -1,20 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:RoleDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="training_specialist,_JIQgAEVvEeC6_c5S_pc9RA" xmi:version="2.0" epf:version="1.5.1" xmi:id="-C6ZZTqQccgTUpiCA8BWeKg" name="training_specialist,_JIQgAEVvEeC6_c5S_pc9RA" guid="-C6ZZTqQccgTUpiCA8BWeKg" changeDate="2011-10-13T16:07:04.982+0200" version="7.5.1">
-  <mainDescription>Many organizations engage Trainers to deliver product training to various audiences. Unlike a software Developer, most&#xD;
-Trainers have extensive experience in delivering training materials in a fashion that is well suited to communicating&#xD;
-complex concepts to End Users. They bring a necessary creativity and talent that complements the implementation and testing&#xD;
-skills of a development team.</mainDescription>
-  <skills>&lt;p&gt;&#xD;
-    A Trainer should possess the following skills:&#xD;
-&lt;/p&gt;&#xD;
-&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        A strong understanding of the domain in which features are being developed&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Deliver training, lab, and workshop materials effectively to both end users and application support personnel&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Adhere to corporate training standards&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</skills>
-</org.eclipse.epf.uma:RoleDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-C6ZZTqQccgTUpiCA8BWeKg" name="training_specialist,_JIQgAEVvEeC6_c5S_pc9RA" guid="-C6ZZTqQccgTUpiCA8BWeKg" changeDate="2011-10-13T16:07:04.982+0200" version="7.5.1" mainDescription="Many organizations engage Trainers to deliver product training to various audiences. Unlike a software Developer, most&#xD;&#xA;Trainers have extensive experience in delivering training materials in a fashion that is well suited to communicating&#xD;&#xA;complex concepts to End Users. They bring a necessary creativity and talent that complements the implementation and testing&#xD;&#xA;skills of a development team." longPresentationName="training_specialist,_JIQgAEVvEeC6_c5S_pc9RA" skills="&lt;p>&#xD;&#xA;    A Trainer should possess the following skills:&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        A strong understanding of the domain in which features are being developed&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Deliver training, lab, and workshop materials effectively to both end users and application support personnel&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Adhere to corporate training standards&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>

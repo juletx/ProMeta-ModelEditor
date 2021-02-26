@@ -1,53 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" epf:version="1.5.1">
-  
-  <org.eclipse.epf.uma:MethodLibrary xmi:id="_T6l317ekEd-D7YZN9NgldQ" guid="_T6l317ekEd-D7YZN9NgldQ">
-    <methodElementProperty xmi:id="_GoYa8Bo0EeuXnIT9fOh1Fg" name="library_synFree" value="true"/>
-    <methodPlugins xmi:id="_MRPloEFXEdy9ENCpSugIjA" href="core.default.cat_def.base/plugin.uma#_MRPloEFXEdy9ENCpSugIjA"/>
-    <methodPlugins xmi:id="_vsno4EKmEdyrauqpmnA8jQ" href="core.default.nav_view.base/plugin.uma#_vsno4EKmEdyrauqpmnA8jQ"/>
-    <methodPlugins xmi:id="_iVydgENdEdy245g62lfWcA" href="core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
-    <methodPlugins xmi:id="_A118oMYaEdyXeo04os5BOw" href="core.default.role_def.base/plugin.uma#_A118oMYaEdyXeo04os5BOw"/>
-    <methodPlugins xmi:id="_fRdVEMYbEdyXeo04os5BOw" href="core.default.tool_def.base/plugin.uma#_fRdVEMYbEdyXeo04os5BOw"/>
-    <methodPlugins xmi:id="_WCUhAO8KEdmKSqa_gSYthg" href="core.default.uma_concept.base/plugin.uma#_WCUhAO8KEdmKSqa_gSYthg"/>
-    <methodPlugins xmi:id="_14Ft0M3pEdyuBO4ZIzcyig" href="core.gen.common.assign/plugin.uma#_14Ft0M3pEdyuBO4ZIzcyig"/>
-    <methodPlugins xmi:id="_ji3-gEMXEdyP_Jn83ylwUQ" href="core.gen.common.base/plugin.uma#_ji3-gEMXEdyP_Jn83ylwUQ"/>
-    <methodPlugins xmi:id="_CX-9AM3qEdyuBO4ZIzcyig" href="core.mgmt.common.assign/plugin.uma#_CX-9AM3qEdyuBO4ZIzcyig"/>
-    <methodPlugins xmi:id="_Q_mBoGphEd24CboUCnKL3A" href="core.mgmt.common.base/plugin.uma#_Q_mBoGphEd24CboUCnKL3A"/>
-    <methodPlugins xmi:id="_0TmecJ-VEdy3Nc4rvuj7bA" href="core.mgmt.common.extend_supp/plugin.uma#_0TmecJ-VEdy3Nc4rvuj7bA"/>
-    <methodPlugins xmi:id="_vJYucEfUEdyiPI8btkmvmw" href="core.mgmt.slot.base/plugin.uma#_vJYucEfUEdyiPI8btkmvmw"/>
-    <methodPlugins xmi:id="_LdRtkM3qEdyuBO4ZIzcyig" href="core.tech.common.assign/plugin.uma#_LdRtkM3qEdyuBO4ZIzcyig"/>
-    <methodPlugins xmi:id="_Qyp8YGpiEd24CboUCnKL3A" href="core.tech.common.base/plugin.uma#_Qyp8YGpiEd24CboUCnKL3A"/>
-    <methodPlugins xmi:id="_OOB2AAouEdyhlpBPrduOMw" href="core.tech.common.extend_supp/plugin.uma#_OOB2AAouEdyhlpBPrduOMw"/>
-    <methodPlugins xmi:id="_-bv0ELXuEduGP_98XMd0fg" href="core.tech.slot.base/plugin.uma#_-bv0ELXuEduGP_98XMd0fg"/>
-    <methodPlugins xmi:id="_iNwFsMhNEdygFZkm1d5NtQ" href="practice.mgmt.iterative_dev.assign/plugin.uma#_iNwFsMhNEdygFZkm1d5NtQ"/>
-    <methodPlugins xmi:id="_qqyzAJ6WEdyQN-zRFaRrCQ" href="practice.mgmt.iterative_dev.base/plugin.uma#_qqyzAJ6WEdyQN-zRFaRrCQ"/>
-    <methodPlugins xmi:id="_7uMwYDIWEd-YE6CeBfCofg" href="practice.mgmt.project_process_tailoring.assign/plugin.uma#_7uMwYDIWEd-YE6CeBfCofg"/>
-    <methodPlugins xmi:id="_NOBspSZLEd-QuZFPf_YdqQ" href="practice.mgmt.project_process_tailoring.base/plugin.uma#_NOBspSZLEd-QuZFPf_YdqQ"/>
-    <methodPlugins xmi:id="_NBRHwMh3EdygFZkm1d5NtQ" href="practice.mgmt.release_planning.assign/plugin.uma#_NBRHwMh3EdygFZkm1d5NtQ"/>
-    <methodPlugins xmi:id="_nKS10J6YEdyQN-zRFaRrCQ" href="practice.mgmt.release_planning.base/plugin.uma#_nKS10J6YEdyQN-zRFaRrCQ"/>
-    <methodPlugins xmi:id="_4gXdoL8BEdyWX5Yd-9QZ1A" href="practice.mgmt.risk_value_lifecycle.base/plugin.uma#_4gXdoL8BEdyWX5Yd-9QZ1A"/>
-    <methodPlugins xmi:id="_ugihsOxXEdyCFeiQwJE7Vg" href="practice.mgmt.team_change_mgmt.assign/plugin.uma#_ugihsOxXEdyCFeiQwJE7Vg"/>
-    <methodPlugins xmi:id="_44o4AOvVEdyp6czxLiQq9g" href="practice.mgmt.team_change_mgmt.base/plugin.uma#_44o4AOvVEdyp6czxLiQq9g"/>
-    <methodPlugins xmi:id="_vtUfcEIuEd2GCesTWQms8Q" href="practice.mgmt.whole_team.assign/plugin.uma#_vtUfcEIuEd2GCesTWQms8Q"/>
-    <methodPlugins xmi:id="_40sbAJ6YEdyQN-zRFaRrCQ" href="practice.mgmt.whole_team.base/plugin.uma#_40sbAJ6YEdyQN-zRFaRrCQ"/>
-    <methodPlugins xmi:id="_IItp4MuXEdyLOriywSJkoQ" href="practice.tech.concurrent_testing.assign/plugin.uma#_IItp4MuXEdyLOriywSJkoQ"/>
-    <methodPlugins xmi:id="_Hz9OMG5KEdyAHIxjZ9kpqw" href="practice.tech.concurrent_testing.base/plugin.uma#_Hz9OMG5KEdyAHIxjZ9kpqw"/>
-    <methodPlugins xmi:id="_h_9roM3PEdyKkus0T68H3Q" href="practice.tech.continuous_integration.assign/plugin.uma#_h_9roM3PEdyKkus0T68H3Q"/>
-    <methodPlugins xmi:id="_D-ExQMktEdygFZkm1d5NtQ" href="practice.tech.continuous_integration.base/plugin.uma#_D-ExQMktEdygFZkm1d5NtQ"/>
-    <methodPlugins xmi:id="_GxBjAM2sEdym_ZFqrJcXUg" href="practice.tech.evolutionary_arch.assign/plugin.uma#_GxBjAM2sEdym_ZFqrJcXUg"/>
-    <methodPlugins xmi:id="_4gaS4LPREduocbW-TPTq7A" href="practice.tech.evolutionary_arch.base/plugin.uma#_4gaS4LPREduocbW-TPTq7A"/>
-    <methodPlugins xmi:id="_XPLD8MudEdyRPtFYRAKVDg" href="practice.tech.evolutionary_design.assign/plugin.uma#_XPLD8MudEdyRPtFYRAKVDg"/>
-    <methodPlugins xmi:id="_Z2cK0LPPEduocbW-TPTq7A" href="practice.tech.evolutionary_design.base/plugin.uma#_Z2cK0LPPEduocbW-TPTq7A"/>
-    <methodPlugins xmi:id="_NjNCEMrmEdyd6uFrFHNXhA" href="practice.tech.shared_vision.assign/plugin.uma#_NjNCEMrmEdyd6uFrFHNXhA"/>
-    <methodPlugins xmi:id="_Y9TKMLS9EduDY8LNbMCDBA" href="practice.tech.shared_vision.base/plugin.uma#_Y9TKMLS9EduDY8LNbMCDBA"/>
-    <methodPlugins xmi:id="_00zMMMt1EdyRPtFYRAKVDg" href="practice.tech.test_driven_development.assign/plugin.uma#_00zMMMt1EdyRPtFYRAKVDg"/>
-    <methodPlugins xmi:id="_DZ1rEI7-Edy7q8CKc_B8eg" href="practice.tech.test_driven_development.base/plugin.uma#_DZ1rEI7-Edy7q8CKc_B8eg"/>
-    <methodPlugins xmi:id="_HYAA4MriEdyd6uFrFHNXhA" href="practice.tech.use_case_driven_dev.assign/plugin.uma#_HYAA4MriEdyd6uFrFHNXhA"/>
-    <methodPlugins xmi:id="_GbYfULPaEduocbW-TPTq7A" href="practice.tech.use_case_driven_dev.base/plugin.uma#_GbYfULPaEduocbW-TPTq7A"/>
-    <methodPlugins xmi:id="_Z7teANQ1EdyQ89W1tgswSQ" href="process.openup.base/plugin.uma#_Z7teANQ1EdyQ89W1tgswSQ"/>
-    <methodPlugins xmi:id="_4ulTgMg7EdyXeo04os5BOw" href="publish.openup.base/plugin.uma#_4ulTgMg7EdyXeo04os5BOw"/>
-    <methodPlugins xmi:id="_wDZIUOCFEeC1y_NExchKwQ" href="practice.gen.doc_trng.base/plugin.uma#_wDZIUOCFEeC1y_NExchKwQ"/>
-    <methodPlugins xmi:id="_mYfo8OCIEeC1y_NExchKwQ" href="practice.gen.production_release.base/plugin.uma#_mYfo8OCIEeC1y_NExchKwQ"/>
-    <methodPlugins xmi:id="_p0w9wJlfEeGlkdGl1HQlDA" href="practice.gen.doc_trng.assign/plugin.uma#_p0w9wJlfEeGlkdGl1HQlDA"/>
-    <methodPlugins xmi:id="_XOu58JljEeGlkdGl1HQlDA" href="practice.gen.production_release.assign/plugin.uma#_XOu58JljEeGlkdGl1HQlDA"/>
-  <predefinedConfigurations href="configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/></org.eclipse.epf.uma:MethodLibrary>
-</xmi:XMI>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:MethodLibrary xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_T6l317ekEd-D7YZN9NgldQ" guid="_T6l317ekEd-D7YZN9NgldQ">
+  <methodElementProperty xmi:id="_GoYa8Bo0EeuXnIT9fOh1Fg" name="library_synFree" value="true"/>
+  <methodPlugins href="core.default.cat_def.base/plugin.uma#_MRPloEFXEdy9ENCpSugIjA"/>
+  <methodPlugins href="core.default.nav_view.base/plugin.uma#_vsno4EKmEdyrauqpmnA8jQ"/>
+  <methodPlugins href="core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
+  <methodPlugins href="core.default.role_def.base/plugin.uma#_A118oMYaEdyXeo04os5BOw"/>
+  <methodPlugins href="core.default.tool_def.base/plugin.uma#_fRdVEMYbEdyXeo04os5BOw"/>
+  <methodPlugins href="core.default.uma_concept.base/plugin.uma#_WCUhAO8KEdmKSqa_gSYthg"/>
+  <methodPlugins href="core.gen.common.assign/plugin.uma#_14Ft0M3pEdyuBO4ZIzcyig"/>
+  <methodPlugins href="core.gen.common.base/plugin.uma#_ji3-gEMXEdyP_Jn83ylwUQ"/>
+  <methodPlugins href="core.mgmt.common.assign/plugin.uma#_CX-9AM3qEdyuBO4ZIzcyig"/>
+  <methodPlugins href="core.mgmt.common.base/plugin.uma#_Q_mBoGphEd24CboUCnKL3A"/>
+  <methodPlugins href="core.mgmt.common.extend_supp/plugin.uma#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+  <methodPlugins href="core.mgmt.slot.base/plugin.uma#_vJYucEfUEdyiPI8btkmvmw"/>
+  <methodPlugins href="core.tech.common.assign/plugin.uma#_LdRtkM3qEdyuBO4ZIzcyig"/>
+  <methodPlugins href="core.tech.common.base/plugin.uma#_Qyp8YGpiEd24CboUCnKL3A"/>
+  <methodPlugins href="core.tech.common.extend_supp/plugin.uma#_OOB2AAouEdyhlpBPrduOMw"/>
+  <methodPlugins href="core.tech.slot.base/plugin.uma#_-bv0ELXuEduGP_98XMd0fg"/>
+  <methodPlugins href="practice.mgmt.iterative_dev.assign/plugin.uma#_iNwFsMhNEdygFZkm1d5NtQ"/>
+  <methodPlugins href="practice.mgmt.iterative_dev.base/plugin.uma#_qqyzAJ6WEdyQN-zRFaRrCQ"/>
+  <methodPlugins href="practice.mgmt.project_process_tailoring.assign/plugin.uma#_7uMwYDIWEd-YE6CeBfCofg"/>
+  <methodPlugins href="practice.mgmt.project_process_tailoring.base/plugin.uma#_NOBspSZLEd-QuZFPf_YdqQ"/>
+  <methodPlugins href="practice.mgmt.release_planning.assign/plugin.uma#_NBRHwMh3EdygFZkm1d5NtQ"/>
+  <methodPlugins href="practice.mgmt.release_planning.base/plugin.uma#_nKS10J6YEdyQN-zRFaRrCQ"/>
+  <methodPlugins href="practice.mgmt.risk_value_lifecycle.base/plugin.uma#_4gXdoL8BEdyWX5Yd-9QZ1A"/>
+  <methodPlugins href="practice.mgmt.team_change_mgmt.assign/plugin.uma#_ugihsOxXEdyCFeiQwJE7Vg"/>
+  <methodPlugins href="practice.mgmt.team_change_mgmt.base/plugin.uma#_44o4AOvVEdyp6czxLiQq9g"/>
+  <methodPlugins href="practice.mgmt.whole_team.assign/plugin.uma#_vtUfcEIuEd2GCesTWQms8Q"/>
+  <methodPlugins href="practice.mgmt.whole_team.base/plugin.uma#_40sbAJ6YEdyQN-zRFaRrCQ"/>
+  <methodPlugins href="practice.tech.concurrent_testing.assign/plugin.uma#_IItp4MuXEdyLOriywSJkoQ"/>
+  <methodPlugins href="practice.tech.concurrent_testing.base/plugin.uma#_Hz9OMG5KEdyAHIxjZ9kpqw"/>
+  <methodPlugins href="practice.tech.continuous_integration.assign/plugin.uma#_h_9roM3PEdyKkus0T68H3Q"/>
+  <methodPlugins href="practice.tech.continuous_integration.base/plugin.uma#_D-ExQMktEdygFZkm1d5NtQ"/>
+  <methodPlugins href="practice.tech.evolutionary_arch.assign/plugin.uma#_GxBjAM2sEdym_ZFqrJcXUg"/>
+  <methodPlugins href="practice.tech.evolutionary_arch.base/plugin.uma#_4gaS4LPREduocbW-TPTq7A"/>
+  <methodPlugins href="practice.tech.evolutionary_design.assign/plugin.uma#_XPLD8MudEdyRPtFYRAKVDg"/>
+  <methodPlugins href="practice.tech.evolutionary_design.base/plugin.uma#_Z2cK0LPPEduocbW-TPTq7A"/>
+  <methodPlugins href="practice.tech.shared_vision.assign/plugin.uma#_NjNCEMrmEdyd6uFrFHNXhA"/>
+  <methodPlugins href="practice.tech.shared_vision.base/plugin.uma#_Y9TKMLS9EduDY8LNbMCDBA"/>
+  <methodPlugins href="practice.tech.test_driven_development.assign/plugin.uma#_00zMMMt1EdyRPtFYRAKVDg"/>
+  <methodPlugins href="practice.tech.test_driven_development.base/plugin.uma#_DZ1rEI7-Edy7q8CKc_B8eg"/>
+  <methodPlugins href="practice.tech.use_case_driven_dev.assign/plugin.uma#_HYAA4MriEdyd6uFrFHNXhA"/>
+  <methodPlugins href="practice.tech.use_case_driven_dev.base/plugin.uma#_GbYfULPaEduocbW-TPTq7A"/>
+  <methodPlugins href="process.openup.base/plugin.uma#_Z7teANQ1EdyQ89W1tgswSQ"/>
+  <methodPlugins href="publish.openup.base/plugin.uma#_4ulTgMg7EdyXeo04os5BOw"/>
+  <methodPlugins href="practice.gen.doc_trng.base/plugin.uma#_wDZIUOCFEeC1y_NExchKwQ"/>
+  <methodPlugins href="practice.gen.production_release.base/plugin.uma#_mYfo8OCIEeC1y_NExchKwQ"/>
+  <methodPlugins href="practice.gen.doc_trng.assign/plugin.uma#_p0w9wJlfEeGlkdGl1HQlDA"/>
+  <methodPlugins href="practice.gen.production_release.assign/plugin.uma#_XOu58JljEeGlkdGl1HQlDA"/>
+  <predefinedConfigurations href="configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/>
+</org.eclipse.epf.uma:MethodLibrary>

@@ -1,6 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="new_term_definition,_rZOGIMaIEduMlb2cQZNTYw" xmi:version="2.0" epf:version="1.5.1" xmi:id="-0cxbeJahkc1eqGKztRpcPw" name="new_term_definition,_rZOGIMaIEduMlb2cQZNTYw" guid="-0cxbeJahkc1eqGKztRpcPw" changeDate="2007-02-27T18:34:15.000+0100" version="7.2.0">
-  <mainDescription>A&amp;nbsp;&lt;a class="elementLinkWithUserText"&#xD;
-href="./../../../core.default.uma_concept.base/guidances/termdefinitions/breakdown_element_E6E32412.html"&#xD;
-guid="_cvdpEB_LEdq6CKKKq4D7YA"&gt;breakdown element&lt;/a&gt; that groups role descriptors or composite roles, thus defining a&#xD;
-nested hierarchy of teams and team members.</mainDescription>
-</org.eclipse.epf.uma:ContentDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-0cxbeJahkc1eqGKztRpcPw" name="new_term_definition,_rZOGIMaIEduMlb2cQZNTYw" guid="-0cxbeJahkc1eqGKztRpcPw" changeDate="2007-02-27T18:34:15.000+0100" version="7.2.0" mainDescription="A&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;&#xA;href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/breakdown_element_E6E32412.html&quot;&#xD;&#xA;guid=&quot;_cvdpEB_LEdq6CKKKq4D7YA&quot;>breakdown element&lt;/a> that groups role descriptors or composite roles, thus defining a&#xD;&#xA;nested hierarchy of teams and team members." longPresentationName="new_term_definition,_rZOGIMaIEduMlb2cQZNTYw"/>

@@ -1,6 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="change_requests,_6jdvECb3Edqh1LYUOGRh2A" xmi:version="2.0" epf:version="1.5.1" xmi:id="-BsXK3ZGMm-mUT0KnkdoYBg" name="change_requests,_6jdvECb3Edqh1LYUOGRh2A" guid="-BsXK3ZGMm-mUT0KnkdoYBg" changeDate="2009-08-07T11:45:49.000+0200" version="7.2.0">
-  <mainDescription>&lt;p&gt;&#xD;
-    A change request represents any request to change a work product. This includes items commonly called defect reports,&#xD;
-    enhancement requests, requirements change request, implementation requests, and stakeholder requests.&#xD;
-&lt;/p&gt;</mainDescription>
-</org.eclipse.epf.uma:ContentDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-BsXK3ZGMm-mUT0KnkdoYBg" name="change_requests,_6jdvECb3Edqh1LYUOGRh2A" guid="-BsXK3ZGMm-mUT0KnkdoYBg" changeDate="2009-08-07T11:45:49.000+0200" version="7.2.0" mainDescription="&lt;p>&#xD;&#xA;    A change request represents any request to change a work product. This includes items commonly called defect reports,&#xD;&#xA;    enhancement requests, requirements change request, implementation requests, and stakeholder requests.&#xD;&#xA;&lt;/p>" longPresentationName="change_requests,_6jdvECb3Edqh1LYUOGRh2A"/>

@@ -1,31 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="new_checklist,_OHRDMAarEdy1uLAzgK8btg" xmi:version="2.0" epf:version="1.5.1" xmi:id="-z4NERMW6W4_X_5DuTTXv6A" name="new_checklist,_OHRDMAarEdy1uLAzgK8btg" guid="-z4NERMW6W4_X_5DuTTXv6A" version="7.5.0">
-  <sections variabilityBasedOnElement="_EQJdAAa_Edy1uLAzgK8btg" xmi:id="_EQJdAAa_Edy1uLAzgK8btg" name="Have you elaborated on the plan with the team?" guid="_EQJdAAa_Edy1uLAzgK8btg">
-    <sectionDescription>&lt;p&gt;&#xD;
-    Iteration planning should not be done in isolation, and every member of the team should be involved.&#xD;
-&lt;/p&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_lmIhYAarEdy1uLAzgK8btg" xmi:id="_lmIhYAarEdy1uLAzgK8btg" name="Are iteration objectives clear?" guid="_lmIhYAarEdy1uLAzgK8btg">
-    <sectionDescription>&lt;ul&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Are the objectives based on stakeholder priorities?&#xD;
-    &lt;/li&gt;&#xD;
-    &lt;li&gt;&#xD;
-        Do they help the team target what should be targeted for the iteration?&#xD;
-    &lt;/li&gt;&#xD;
-&lt;/ul&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_i2r4kAarEdy1uLAzgK8btg" xmi:id="_i2r4kAarEdy1uLAzgK8btg" name="Have key milestones for the iteration been identified?" guid="_i2r4kAarEdy1uLAzgK8btg">
-    <sectionDescription>&lt;p&gt;&#xD;
-    This may include dates for iteration reviews, demonstrations (demos), and retrospective reviews.&#xD;
-&lt;/p&gt;</sectionDescription>
-  </sections>
-  <sections variabilityBasedOnElement="_oKlbIAarEdy1uLAzgK8btg" xmi:id="_oKlbIAarEdy1uLAzgK8btg" name="Do the team members feel confident about their Work Item assignments?" guid="_oKlbIAarEdy1uLAzgK8btg">
-    <sectionDescription>&lt;p align="left"&gt;&#xD;
-    Looking at results from previous iterations, does the amount of work selected for the current iteration seem feasible?&#xD;
-&lt;/p&gt;&#xD;
-&lt;p align="left"&gt;&#xD;
-    If the team feels that there is too much to do, discuss with stakeholders whether some work items can be scheduled for&#xD;
-    future iterations.&#xD;
-&lt;/p&gt;</sectionDescription>
-  </sections>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-z4NERMW6W4_X_5DuTTXv6A" name="new_checklist,_OHRDMAarEdy1uLAzgK8btg" guid="-z4NERMW6W4_X_5DuTTXv6A" version="7.5.0" longPresentationName="new_checklist,_OHRDMAarEdy1uLAzgK8btg">
+  <sections xmi:id="_EQJdAAa_Edy1uLAzgK8btg" name="Have you elaborated on the plan with the team?" guid="_EQJdAAa_Edy1uLAzgK8btg" variabilityBasedOnElement="_EQJdAAa_Edy1uLAzgK8btg" sectionDescription="&lt;p>&#xD;&#xA;    Iteration planning should not be done in isolation, and every member of the team should be involved.&#xD;&#xA;&lt;/p>"/>
+  <sections xmi:id="_lmIhYAarEdy1uLAzgK8btg" name="Are iteration objectives clear?" guid="_lmIhYAarEdy1uLAzgK8btg" variabilityBasedOnElement="_lmIhYAarEdy1uLAzgK8btg" sectionDescription="&lt;ul>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Are the objectives based on stakeholder priorities?&#xD;&#xA;    &lt;/li>&#xD;&#xA;    &lt;li>&#xD;&#xA;        Do they help the team target what should be targeted for the iteration?&#xD;&#xA;    &lt;/li>&#xD;&#xA;&lt;/ul>"/>
+  <sections xmi:id="_i2r4kAarEdy1uLAzgK8btg" name="Have key milestones for the iteration been identified?" guid="_i2r4kAarEdy1uLAzgK8btg" variabilityBasedOnElement="_i2r4kAarEdy1uLAzgK8btg" sectionDescription="&lt;p>&#xD;&#xA;    This may include dates for iteration reviews, demonstrations (demos), and retrospective reviews.&#xD;&#xA;&lt;/p>"/>
+  <sections xmi:id="_oKlbIAarEdy1uLAzgK8btg" name="Do the team members feel confident about their Work Item assignments?" guid="_oKlbIAarEdy1uLAzgK8btg" variabilityBasedOnElement="_oKlbIAarEdy1uLAzgK8btg" sectionDescription="&lt;p align=&quot;left&quot;>&#xD;&#xA;    Looking at results from previous iterations, does the amount of work selected for the current iteration seem feasible?&#xD;&#xA;&lt;/p>&#xD;&#xA;&lt;p align=&quot;left&quot;>&#xD;&#xA;    If the team feels that there is too much to do, discuss with stakeholders whether some work items can be scheduled for&#xD;&#xA;    future iterations.&#xD;&#xA;&lt;/p>"/>
 </org.eclipse.epf.uma:ContentDescription>

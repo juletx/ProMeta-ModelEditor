@@ -1,7 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName=",_RK9nwEvtEdunZcj9T5hrMQ" xmi:version="2.0" epf:version="1.5.1" xmi:id="-KQTbqDSJXR8KLBxIgGVquA" name=",_RK9nwEvtEdunZcj9T5hrMQ" guid="-KQTbqDSJXR8KLBxIgGVquA" changeDate="2009-02-24T20:43:31.000+0100" version="7.2.0">
-  <mainDescription>&lt;p&gt;&#xD;
-    A hierarchical structured list of all the project activities, in which the work of the project is broken down into&#xD;
-    smaller work units to achieve an appropriate level of granularity that ensures that the full scope of work to be&#xD;
-    performed is understood.&#xD;
-&lt;/p&gt;</mainDescription>
-</org.eclipse.epf.uma:ContentDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-KQTbqDSJXR8KLBxIgGVquA" name=",_RK9nwEvtEdunZcj9T5hrMQ" guid="-KQTbqDSJXR8KLBxIgGVquA" changeDate="2009-02-24T20:43:31.000+0100" version="7.2.0" mainDescription="&lt;p>&#xD;&#xA;    A hierarchical structured list of all the project activities, in which the work of the project is broken down into&#xD;&#xA;    smaller work units to achieve an appropriate level of granularity that ensures that the full scope of work to be&#xD;&#xA;    performed is understood.&#xD;&#xA;&lt;/p>" longPresentationName=",_RK9nwEvtEdunZcj9T5hrMQ"/>

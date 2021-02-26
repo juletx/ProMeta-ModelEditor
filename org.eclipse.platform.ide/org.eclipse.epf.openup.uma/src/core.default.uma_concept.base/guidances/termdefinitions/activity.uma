@@ -1,14 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?><org.eclipse.epf.uma:ContentDescription xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:xmi="http://www.omg.org/XMI" longPresentationName="activity,_yoVhMB_IEdq6CKKKq4D7YA" xmi:version="2.0" epf:version="1.5.1" xmi:id="-67u6-WRUmTOB9IdLgQg6aw" name="activity,_yoVhMB_IEdq6CKKKq4D7YA" guid="-67u6-WRUmTOB9IdLgQg6aw" changeDate="2007-12-05T18:58:30.000+0100" version="1.0.0">
-  <mainDescription>&lt;p&gt;&#xD;
-    In the &lt;a class="elementLink"&#xD;
-    href="./../../../core.default.uma_concept.base/guidances/termdefinitions/uma_73BA0C0C.html"&#xD;
-    guid="_cj6jkB_PEdq6CKKKq4D7YA"&gt;UMA&lt;/a&gt;&amp;nbsp;, an activity is a &lt;a class="elementLink"&#xD;
-    href="./../../../core.default.uma_concept.base/guidances/termdefinitions/breakdown_element_E6E32412.html"&#xD;
-    guid="_cvdpEB_LEdq6CKKKq4D7YA"&gt;breakdown element&lt;/a&gt;&amp;nbsp;which supports the nesting and logical grouping of related&#xD;
-    process elements such as &lt;a class="elementLink"&#xD;
-    href="./../../../core.default.uma_concept.base/guidances/termdefinitions/descriptor_D52B7BB3.html"&#xD;
-    guid="_7rS6AB_JEdq6CKKKq4D7YA"&gt;descriptor&lt;/a&gt;&amp;nbsp;and sub-activities, thus forming &lt;a class="elementLink"&#xD;
-    href="./../../../core.default.uma_concept.base/guidances/termdefinitions/breakdown_structure_C53514C1.html"&#xD;
-    guid="_95LCoB_QEdq6CKKKq4D7YA"&gt;breakdown structure&lt;/a&gt;s.&#xD;
-&lt;/p&gt;</mainDescription>
-</org.eclipse.epf.uma:ContentDescription>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="-67u6-WRUmTOB9IdLgQg6aw" name="activity,_yoVhMB_IEdq6CKKKq4D7YA" guid="-67u6-WRUmTOB9IdLgQg6aw" changeDate="2007-12-05T18:58:30.000+0100" version="1.0.0" mainDescription="&lt;p>&#xD;&#xA;    In the &lt;a class=&quot;elementLink&quot;&#xD;&#xA;    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/uma_73BA0C0C.html&quot;&#xD;&#xA;    guid=&quot;_cj6jkB_PEdq6CKKKq4D7YA&quot;>UMA&lt;/a>&amp;nbsp;, an activity is a &lt;a class=&quot;elementLink&quot;&#xD;&#xA;    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/breakdown_element_E6E32412.html&quot;&#xD;&#xA;    guid=&quot;_cvdpEB_LEdq6CKKKq4D7YA&quot;>breakdown element&lt;/a>&amp;nbsp;which supports the nesting and logical grouping of related&#xD;&#xA;    process elements such as &lt;a class=&quot;elementLink&quot;&#xD;&#xA;    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/descriptor_D52B7BB3.html&quot;&#xD;&#xA;    guid=&quot;_7rS6AB_JEdq6CKKKq4D7YA&quot;>descriptor&lt;/a>&amp;nbsp;and sub-activities, thus forming &lt;a class=&quot;elementLink&quot;&#xD;&#xA;    href=&quot;./../../../core.default.uma_concept.base/guidances/termdefinitions/breakdown_structure_C53514C1.html&quot;&#xD;&#xA;    guid=&quot;_95LCoB_QEdq6CKKKq4D7YA&quot;>breakdown structure&lt;/a>s.&#xD;&#xA;&lt;/p>" longPresentationName="activity,_yoVhMB_IEdq6CKKKq4D7YA"/>

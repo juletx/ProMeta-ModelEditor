@@ -1,88 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" epf:version="1.5.1">
-  
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Hz9OMG5KEdyAHIxjZ9kpqw" name="practice.tech.concurrent_testing.base" guid="_Hz9OMG5KEdyAHIxjZ9kpqw" presentationName="Concurrent Testing" briefDescription="Focus the testing effort where it will provide the greatest value, by applying agile testing principles." changeDate="2008-07-21T10:21:52.000+0200">
-    <methodElementProperty xmi:id="_GocsYRo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
-    <copyrightStatement href="/org.eclipse.epf.openup.uma/src/core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
-    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU0LekEd-D7YZN9NgldQ" name="Content" guid="_9gPU0LekEd-D7YZN9NgldQ">
-      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU0bekEd-D7YZN9NgldQ" name="Categories" guid="_9gPU0bekEd-D7YZN9NgldQ">
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU0rekEd-D7YZN9NgldQ" name="Domains" guid="_9gPU0rekEd-D7YZN9NgldQ"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU07ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9gPU07ekEd-D7YZN9NgldQ"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU1LekEd-D7YZN9NgldQ" name="RoleSets" guid="_9gPU1LekEd-D7YZN9NgldQ"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU1bekEd-D7YZN9NgldQ" name="WP Types" guid="_9gPU1bekEd-D7YZN9NgldQ"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU1rekEd-D7YZN9NgldQ" name="Tools" guid="_9gPU1rekEd-D7YZN9NgldQ"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU17ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9gPU17ekEd-D7YZN9NgldQ"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU2LekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9gPU2LekEd-D7YZN9NgldQ">
-          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU2bekEd-D7YZN9NgldQ" name="Hidden" guid="_9gPU2bekEd-D7YZN9NgldQ">
-            <contentElements variabilityBasedOnElement="_9gPU2rekEd-D7YZN9NgldQ" xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9gPU2rekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9gPU2rekEd-D7YZN9NgldQ"/>
-          </childPackages>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_Hz9OMG5KEdyAHIxjZ9kpqw" name="practice.tech.concurrent_testing.base" guid="_Hz9OMG5KEdyAHIxjZ9kpqw" presentationName="Concurrent Testing" briefDescription="Focus the testing effort where it will provide the greatest value, by applying agile testing principles." changeDate="2008-07-21T10:21:52.000+0200">
+  <methodElementProperty xmi:id="_GocsYRo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU0LekEd-D7YZN9NgldQ" name="Content" guid="_9gPU0LekEd-D7YZN9NgldQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU0bekEd-D7YZN9NgldQ" name="Categories" guid="_9gPU0bekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU0rekEd-D7YZN9NgldQ" name="Domains" guid="_9gPU0rekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU07ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9gPU07ekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU1LekEd-D7YZN9NgldQ" name="RoleSets" guid="_9gPU1LekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU1bekEd-D7YZN9NgldQ" name="WP Types" guid="_9gPU1bekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU1rekEd-D7YZN9NgldQ" name="Tools" guid="_9gPU1rekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU17ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9gPU17ekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU2LekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9gPU2LekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU2bekEd-D7YZN9NgldQ" name="Hidden" guid="_9gPU2bekEd-D7YZN9NgldQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9gPU2rekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9gPU2rekEd-D7YZN9NgldQ" variabilityBasedOnElement="_9gPU2rekEd-D7YZN9NgldQ"/>
         </childPackages>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU27ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9gPU27ekEd-D7YZN9NgldQ">
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4GsDkIfxEdy1GthOId7fdw" name="concurrent_testing" guid="_4GsDkIfxEdy1GthOId7fdw" presentationName="Concurrent Testing">
-          <contentElements variabilityBasedOnElement="_0iwc0clgEdmt3adZL5Dmdw" xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0iwc0clgEdmt3adZL5Dmdw" name="create_test_cases" guid="_0iwc0clgEdmt3adZL5Dmdw" presentationName="Create Test Cases" briefDescription="Develop the test cases and test data for the requirements to be tested.">
-            <presentation xmi:id="_NrVKsKeqEdmKDbQuyzCoqQ" href="tasks/create_test_cases.uma#_NrVKsKeqEdmKDbQuyzCoqQ"/>
-            <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0jzlsMlgEdmt3adZL5Dmdw"/>
-            <mandatoryInput href="/org.eclipse.epf.openup.uma/src/core.tech.slot.base/plugin.uma#_i3vkoLS-EduDY8LNbMCDBA"/>
-            <output href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0ZS-0MlgEdmt3adZL5Dmdw"/>
-            <optionalInput href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0ZS-0MlgEdmt3adZL5Dmdw"/>
-          </contentElements>
-          <contentElements variabilityBasedOnElement="_0jO98MlgEdmt3adZL5Dmdw" xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0jO98MlgEdmt3adZL5Dmdw" name="implement_tests" guid="_0jO98MlgEdmt3adZL5Dmdw" presentationName="Implement Tests" briefDescription="Implement Test Scripts to validate a Build of the solution. Organize Test Scripts into suites, and collaborate to ensure appropriate depth and breadth of test feedback.">
-            <presentation xmi:id="_NrbRUKeqEdmKDbQuyzCoqQ" href="tasks/implement_tests.uma#_NrbRUKeqEdmKDbQuyzCoqQ"/>
-            <conceptsAndPapers href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0jnYcMlgEdmt3adZL5Dmdw"/>
-            <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0kF5kMlgEdmt3adZL5Dmdw"/>
-            <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0j5sUMlgEdmt3adZL5Dmdw"/>
-            <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0jzlsMlgEdmt3adZL5Dmdw"/>
-            <mandatoryInput href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0ZS-0MlgEdmt3adZL5Dmdw"/>
-            <output href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0ZfMEMlgEdmt3adZL5Dmdw"/>
-            <optionalInput href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0ZfMEMlgEdmt3adZL5Dmdw"/>
-            <optionalInput href="/org.eclipse.epf.openup.uma/src/core.tech.slot.base/plugin.uma#_Vux8UEfUEdyiPI8btkmvmw"/>
-          </contentElements>
-          <contentElements variabilityBasedOnElement="_0jVEkMlgEdmt3adZL5Dmdw" xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0jVEkMlgEdmt3adZL5Dmdw" name="run_tests" guid="_0jVEkMlgEdmt3adZL5Dmdw" presentationName="Run Tests" briefDescription="Run the appropriate tests scripts, analyze results, articulate issues, and communicate test results to the team.">
-            <presentation xmi:id="_NrbRUqeqEdmKDbQuyzCoqQ" href="tasks/run_tests.uma#_NrbRUqeqEdmKDbQuyzCoqQ"/>
-            <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0kF5kMlgEdmt3adZL5Dmdw"/>
-            <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0j5sUMlgEdmt3adZL5Dmdw"/>
-            <guidelines href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0aDz0MlgEdmt3adZL5Dmdw"/>
-            <mandatoryInput href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0ZfMEMlgEdmt3adZL5Dmdw"/>
-            <mandatoryInput href="/org.eclipse.epf.openup.uma/src/core.tech.slot.base/plugin.uma#_Vux8UEfUEdyiPI8btkmvmw"/>
-            <output href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0ZlSsMlgEdmt3adZL5Dmdw"/>
-          </contentElements>
-          <contentElements variabilityBasedOnElement="_9z1PgJ6NEdyQN-zRFaRrCQ" xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_9z1PgJ6NEdyQN-zRFaRrCQ" name="concurrent_testing" guid="_9z1PgJ6NEdyQN-zRFaRrCQ" presentationName="Concurrent Testing" briefDescription="This practice describes how to fold testing into agile development.">
-            <presentation xmi:id="-MOoQ_OfD89D0nh4_1aSAuw" href="guidances/practices/concurrent_testing.uma#-MOoQ_OfD89D0nh4_1aSAuw"/>
-            <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_rV_9MPndEdyLA5PXdgVJXw"/>
-            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0jnYcMlgEdmt3adZL5Dmdw"/>
-            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0aJ6cMlgEdmt3adZL5Dmdw"/>
-            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0iwc0clgEdmt3adZL5Dmdw"/>
-            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0jO98MlgEdmt3adZL5Dmdw"/>
-            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0jVEkMlgEdmt3adZL5Dmdw"/>
-            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0ZS-0MlgEdmt3adZL5Dmdw"/>
-            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0ZlSsMlgEdmt3adZL5Dmdw"/>
-            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0ZfMEMlgEdmt3adZL5Dmdw"/>
-            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0kF5kMlgEdmt3adZL5Dmdw"/>
-            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0j5sUMlgEdmt3adZL5Dmdw"/>
-            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0jzlsMlgEdmt3adZL5Dmdw"/>
-            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0aDz0MlgEdmt3adZL5Dmdw"/>
-          </contentElements>
-          <contentElements variabilityBasedOnElement="_rV_9MPndEdyLA5PXdgVJXw" xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_rV_9MPndEdyLA5PXdgVJXw" name="how_to_adopt_concurrent_testing" guid="_rV_9MPndEdyLA5PXdgVJXw" presentationName="How to Adopt the Concurrent Testing practice" briefDescription="This roadmap describes how to adopt the Concurrent Testing practice.">
-            <presentation xmi:id="-gNCvPJgehxo6Gnb98n0AhA" href="guidances/roadmaps/how_to_adopt_concurrent_testing.uma#-gNCvPJgehxo6Gnb98n0AhA"/>
-          </contentElements>
-          <contentElements variabilityBasedOnElement="_kC9OUNEVEdyxxIQodUOrwA" xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kC9OUNEVEdyxxIQodUOrwA" name="test_log.ct" guid="_kC9OUNEVEdyxxIQodUOrwA" variabilityType="contributes">
-            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_0ZlSsMlgEdmt3adZL5Dmdw"/>
-            <fulfills href="/org.eclipse.epf.openup.uma/src/core.tech.slot.base/plugin.uma#_fahB0EfUEdyiPI8btkmvmw"/>
-          </contentElements>
-        </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9dA3EGmVEd2wW88Ut0zE5w" name="release_info" guid="_9dA3EGmVEd2wW88Ut0zE5w" presentationName="Release Info">
-          <contentElements variabilityBasedOnElement="_9dA3EWmVEd2wW88Ut0zE5w" xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_9dA3EWmVEd2wW88Ut0zE5w" name="release_info_concurrent_testing" guid="_9dA3EWmVEd2wW88Ut0zE5w" presentationName="Practice: Concurrent Testing" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
-            <presentation xmi:id="-e5RSq4yShzCr1qkW4B-jJQ" href="guidances/supportingmaterials/release_info_concurrent_testing.uma#-e5RSq4yShzCr1qkW4B-jJQ"/>
-          </contentElements>
-        </childPackages>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU27ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9gPU27ekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4GsDkIfxEdy1GthOId7fdw" name="concurrent_testing" guid="_4GsDkIfxEdy1GthOId7fdw" presentationName="Concurrent Testing">
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0iwc0clgEdmt3adZL5Dmdw" name="create_test_cases" guid="_0iwc0clgEdmt3adZL5Dmdw" presentationName="Create Test Cases" briefDescription="Develop the test cases and test data for the requirements to be tested." variabilityBasedOnElement="_0iwc0clgEdmt3adZL5Dmdw">
+          <presentation href="tasks/create_test_cases.uma#_NrVKsKeqEdmKDbQuyzCoqQ"/>
+          <guidelines href="../core.tech.common.extend_supp/plugin.uma#_0jzlsMlgEdmt3adZL5Dmdw"/>
+          <mandatoryInput href="../core.tech.slot.base/plugin.uma#_i3vkoLS-EduDY8LNbMCDBA"/>
+          <output href="../core.tech.common.extend_supp/plugin.uma#_0ZS-0MlgEdmt3adZL5Dmdw"/>
+          <optionalInput href="../core.tech.common.extend_supp/plugin.uma#_0ZS-0MlgEdmt3adZL5Dmdw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0jO98MlgEdmt3adZL5Dmdw" name="implement_tests" guid="_0jO98MlgEdmt3adZL5Dmdw" presentationName="Implement Tests" briefDescription="Implement Test Scripts to validate a Build of the solution. Organize Test Scripts into suites, and collaborate to ensure appropriate depth and breadth of test feedback." variabilityBasedOnElement="_0jO98MlgEdmt3adZL5Dmdw">
+          <presentation href="tasks/implement_tests.uma#_NrbRUKeqEdmKDbQuyzCoqQ"/>
+          <conceptsAndPapers href="../core.tech.common.extend_supp/plugin.uma#_0jnYcMlgEdmt3adZL5Dmdw"/>
+          <guidelines href="../core.tech.common.extend_supp/plugin.uma#_0kF5kMlgEdmt3adZL5Dmdw"/>
+          <guidelines href="../core.tech.common.extend_supp/plugin.uma#_0j5sUMlgEdmt3adZL5Dmdw"/>
+          <guidelines href="../core.tech.common.extend_supp/plugin.uma#_0jzlsMlgEdmt3adZL5Dmdw"/>
+          <mandatoryInput href="../core.tech.common.extend_supp/plugin.uma#_0ZS-0MlgEdmt3adZL5Dmdw"/>
+          <output href="../core.tech.common.extend_supp/plugin.uma#_0ZfMEMlgEdmt3adZL5Dmdw"/>
+          <optionalInput href="../core.tech.common.extend_supp/plugin.uma#_0ZfMEMlgEdmt3adZL5Dmdw"/>
+          <optionalInput href="../core.tech.slot.base/plugin.uma#_Vux8UEfUEdyiPI8btkmvmw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0jVEkMlgEdmt3adZL5Dmdw" name="run_tests" guid="_0jVEkMlgEdmt3adZL5Dmdw" presentationName="Run Tests" briefDescription="Run the appropriate tests scripts, analyze results, articulate issues, and communicate test results to the team." variabilityBasedOnElement="_0jVEkMlgEdmt3adZL5Dmdw">
+          <presentation href="tasks/run_tests.uma#_NrbRUqeqEdmKDbQuyzCoqQ"/>
+          <guidelines href="../core.tech.common.extend_supp/plugin.uma#_0kF5kMlgEdmt3adZL5Dmdw"/>
+          <guidelines href="../core.tech.common.extend_supp/plugin.uma#_0j5sUMlgEdmt3adZL5Dmdw"/>
+          <guidelines href="../core.tech.common.extend_supp/plugin.uma#_0aDz0MlgEdmt3adZL5Dmdw"/>
+          <mandatoryInput href="../core.tech.common.extend_supp/plugin.uma#_0ZfMEMlgEdmt3adZL5Dmdw"/>
+          <mandatoryInput href="../core.tech.slot.base/plugin.uma#_Vux8UEfUEdyiPI8btkmvmw"/>
+          <output href="../core.tech.common.extend_supp/plugin.uma#_0ZlSsMlgEdmt3adZL5Dmdw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_9z1PgJ6NEdyQN-zRFaRrCQ" name="concurrent_testing" guid="_9z1PgJ6NEdyQN-zRFaRrCQ" presentationName="Concurrent Testing" briefDescription="This practice describes how to fold testing into agile development." variabilityBasedOnElement="_9z1PgJ6NEdyQN-zRFaRrCQ">
+          <presentation href="guidances/practices/concurrent_testing.uma#-MOoQ_OfD89D0nh4_1aSAuw"/>
+          <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_rV_9MPndEdyLA5PXdgVJXw"/>
+          <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="../core.tech.common.extend_supp/plugin.uma#_0jnYcMlgEdmt3adZL5Dmdw"/>
+          <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="../core.tech.common.extend_supp/plugin.uma#_0aJ6cMlgEdmt3adZL5Dmdw"/>
+          <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0iwc0clgEdmt3adZL5Dmdw"/>
+          <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0jO98MlgEdmt3adZL5Dmdw"/>
+          <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0jVEkMlgEdmt3adZL5Dmdw"/>
+          <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="../core.tech.common.extend_supp/plugin.uma#_0ZS-0MlgEdmt3adZL5Dmdw"/>
+          <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="../core.tech.common.extend_supp/plugin.uma#_0ZlSsMlgEdmt3adZL5Dmdw"/>
+          <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="../core.tech.common.extend_supp/plugin.uma#_0ZfMEMlgEdmt3adZL5Dmdw"/>
+          <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="../core.tech.common.extend_supp/plugin.uma#_0kF5kMlgEdmt3adZL5Dmdw"/>
+          <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="../core.tech.common.extend_supp/plugin.uma#_0j5sUMlgEdmt3adZL5Dmdw"/>
+          <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="../core.tech.common.extend_supp/plugin.uma#_0jzlsMlgEdmt3adZL5Dmdw"/>
+          <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="../core.tech.common.extend_supp/plugin.uma#_0aDz0MlgEdmt3adZL5Dmdw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_rV_9MPndEdyLA5PXdgVJXw" name="how_to_adopt_concurrent_testing" guid="_rV_9MPndEdyLA5PXdgVJXw" presentationName="How to Adopt the Concurrent Testing practice" briefDescription="This roadmap describes how to adopt the Concurrent Testing practice." variabilityBasedOnElement="_rV_9MPndEdyLA5PXdgVJXw">
+          <presentation href="guidances/roadmaps/how_to_adopt_concurrent_testing.uma#-gNCvPJgehxo6Gnb98n0AhA"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kC9OUNEVEdyxxIQodUOrwA" name="test_log.ct" guid="_kC9OUNEVEdyxxIQodUOrwA" variabilityType="contributes" variabilityBasedOnElement="_kC9OUNEVEdyxxIQodUOrwA">
+          <fulfills href="../core.tech.slot.base/plugin.uma#_fahB0EfUEdyiPI8btkmvmw"/>
+        </contentElements>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9gPU3LekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9gPU3LekEd-D7YZN9NgldQ"/>
-    </methodPackages>
-    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9gPU3bekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9gPU3bekEd-D7YZN9NgldQ"/>
-    <bases href="/org.eclipse.epf.openup.uma/src/core.gen.common.base/plugin.uma#_ji3-gEMXEdyP_Jn83ylwUQ"/>
-    <bases href="/org.eclipse.epf.openup.uma/src/core.tech.common.extend_supp/plugin.uma#_OOB2AAouEdyhlpBPrduOMw"/>
-    <bases href="/org.eclipse.epf.openup.uma/src/core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
-    <bases href="/org.eclipse.epf.openup.uma/src/core.tech.slot.base/plugin.uma#_-bv0ELXuEduGP_98XMd0fg"/>
-    <bases href="/org.eclipse.epf.openup.uma/src/core.default.nav_view.base/plugin.uma#_vsno4EKmEdyrauqpmnA8jQ"/>
-  </org.eclipse.epf.uma:MethodPlugin>
-</xmi:XMI>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9dA3EGmVEd2wW88Ut0zE5w" name="release_info" guid="_9dA3EGmVEd2wW88Ut0zE5w" presentationName="Release Info">
+        <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_9dA3EWmVEd2wW88Ut0zE5w" name="release_info_concurrent_testing" guid="_9dA3EWmVEd2wW88Ut0zE5w" presentationName="Practice: Concurrent Testing" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif" variabilityBasedOnElement="_9dA3EWmVEd2wW88Ut0zE5w">
+          <presentation href="guidances/supportingmaterials/release_info_concurrent_testing.uma#-e5RSq4yShzCr1qkW4B-jJQ"/>
+        </contentElements>
+      </childPackages>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9gPU3LekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9gPU3LekEd-D7YZN9NgldQ"/>
+  </methodPackages>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9gPU3bekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9gPU3bekEd-D7YZN9NgldQ"/>
+  <bases href="../core.gen.common.base/plugin.uma#_ji3-gEMXEdyP_Jn83ylwUQ"/>
+  <bases href="../core.tech.common.extend_supp/plugin.uma#_OOB2AAouEdyhlpBPrduOMw"/>
+  <bases href="../core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
+  <bases href="../core.tech.slot.base/plugin.uma#_-bv0ELXuEduGP_98XMd0fg"/>
+  <bases href="../core.default.nav_view.base/plugin.uma#_vsno4EKmEdyrauqpmnA8jQ"/>
+</org.eclipse.epf.uma:MethodPlugin>
