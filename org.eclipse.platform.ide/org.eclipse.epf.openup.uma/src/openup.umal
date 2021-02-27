@@ -1,18 +1,1 @@
-MethodLibrary String { 
-	suppressed false
-	version String
-	methodElementProperty {
-		MethodElementProperty {
-			name String
-			value String
-		},
-		MethodElementProperty {
-			name String
-			value String
-		},
-		MethodElementProperty {
-			name String
-			value String
-		}
-	}
-}
+MethodLibrary 'String' { name 'String' presentationName 'String' briefDescription 'String' suppressed false version 'String' methodElementProperty { MethodElementProperty { name 'test' value 'String' } , MethodElementProperty { name 'String' value 'String' } , MethodElementProperty { name 'String' value 'String' } , MethodElementProperty { name 'test' } , MethodElementProperty { name 'name' } } }

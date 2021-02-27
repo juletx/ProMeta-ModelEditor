@@ -6,8 +6,9 @@ import java.util.Map;
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.emf.ecore.resource.ResourceSet;
-import org.eclipse.emf.ecore.util.EcoreUtil;
+
 import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
+import org.eclipse.xtext.EcoreUtil2;
 import org.eclipse.xtext.uma.UmalStandaloneSetup;
 
 import com.google.inject.Injector;
@@ -25,13 +26,13 @@ public class UmalTranslator {
 		Injector injector = new UmalStandaloneSetup().createInjectorAndDoEMFRegistration();
 		ResourceSet resourceSet = injector.getInstance(ResourceSet.class);
 		
-		String directory = "C:\\Users\\julet\\GitHub\\ProMeta-ModelEditor\\org.eclipse.platform.ide\\org.eclipse.epf.openup.umal\\src";
-		String inputURI = "file:///" + directory + "/openup.uma";
-		String outputURI = "file:///" + directory + "/openup.umal";
+		String directory = "C:\\Users\\julet\\GitHub\\ProMeta-ModelEditor\\org.eclipse.platform.ide\\org.eclipse.epf.openup.uma\\src";
+		String inputURI = "file:///" + directory + "/library.uma";
+		String outputURI = "file:///" + directory + "/library.umal";
 		
 		Resource resource = resourceSet.getResource(URI.createURI(inputURI), true);
 		resource.load(null);
-		EcoreUtil.resolveAll(resourceSet);
+		EcoreUtil2.resolveAll(resourceSet);
 		
 		Resource xmiResource = resourceSet.createResource(URI.createURI(outputURI));
 		xmiResource.getContents().add(resource.getContents().get(0));
