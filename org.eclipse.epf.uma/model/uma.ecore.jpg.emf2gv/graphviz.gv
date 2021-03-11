@@ -1,0 +1,2330 @@
+digraph {
+	rankdir = TD;
+	compound=true;
+	subgraph cluster_ecore_EPackage_1237687685 { label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD>			<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+				<TR>
+					<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EPackage.png"/></TD>
+					<TD ALIGN="LEFT">uma&nbsp;&nbsp;&nbsp;</TD>
+				</TR>
+			</TABLE>
+			</TD></TR>
+		</TABLE>>; bgcolor="#F4F4F4"; labeljust="l";
+	ecore_EClass_2070311576 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>Classifier</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">isAbstract&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_636008698 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>Type</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_470716048 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>PackageableElement</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1061501387 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>NamedElement</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">name&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_2004163089 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>Element</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_423091796 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Package</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1180321470 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>Namespace</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1907206595 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Constraint</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">body&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1690040510 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>MethodElement</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">guid&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">presentationName&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">briefDescription&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">suppressed&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">orderingGuide&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1724976327 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">MethodElementProperty</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">value&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1519125093 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Kind</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_454146796 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>ContentElement</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1976052349 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>DescribableElement</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">shapeicon&nbsp;:&nbsp;Uri</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">nodeicon&nbsp;:&nbsp;Uri</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_299884392 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ContentDescription</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">mainDescription&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">externalId&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">keyConsiderations&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">longPresentationName&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1160973404 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>MethodUnit</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">authors&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">changeDate&nbsp;:&nbsp;Date</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">changeDescription&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">version&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_38923375 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">SupportingMaterial</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1374028152 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>Guidance</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1316677027 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Section</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">sectionName&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">sectionDescription&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_806313919 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>VariabilityElement</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">variabilityType&nbsp;:&nbsp;VariabilityType</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1645584081 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Concept</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_189261707 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Checklist</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_55193580 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Guideline</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1730515176 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Example</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_696809931 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ReusableAsset</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_491235534 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">TermDefinition</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1335939525 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ApplicableMetaClassInfo</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">isPrimaryExtension&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_561136864 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Artifact</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_736670281 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">WorkProduct</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_525288873 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">FulfillableElement</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_425740462 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Report</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1382889443 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Template</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1131545101 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ToolMentor</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_25242124 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">EstimationConsiderations</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_448735146 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Deliverable</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1927791980 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Outcome</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_2059292790 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Step</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_425704188 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>WorkDefinition</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_458338747 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Whitepaper</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1030520984 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Task</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_590566221 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Role</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_210208486 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ArtifactDescription</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">briefOutline&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">representationOptions&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">representation&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">notation&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_899089664 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">WorkProductDescription</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">purpose&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">impactOfNotHaving&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">reasonsForNotNeeding&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1553621633 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">DeliverableDescription</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">externalDescription&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">packagingGuidance&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_968840399 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">RoleDescription</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">skills&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">assignmentApproaches&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">synonyms&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1454842041 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">TaskDescription</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">purpose&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">alternatives&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_493610379 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">GuidanceDescription</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">attachments&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1935659385 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">PracticeDescription</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">additionalInfo&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">problem&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">background&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">goals&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">application&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">levelsOfAdoption&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_369325908 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">RoleSet</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_293235416 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>ContentCategory</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_844757984 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Domain</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_923594561 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">WorkProductType</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_30791583 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">DisciplineGrouping</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_105057238 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Discipline</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1001976871 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Activity</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_2000484084 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>WorkBreakdownElement</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">isRepeatable&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">isOngoing&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">isEventDriven&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_640079395 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>BreakdownElement</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">prefix&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">isPlanned&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">hasMultipleOccurrences&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">isOptional&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1498767412 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>ProcessElement</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_158748161 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">PlanningData</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">startDate&nbsp;:&nbsp;Date</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">finishDate&nbsp;:&nbsp;Date</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">rank&nbsp;:&nbsp;Integer</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_144071426 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">WorkOrder</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">linkType&nbsp;:&nbsp;WorkOrderType</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1574732672 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Roadmap</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1389325073 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Tool</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_558295706 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">RoleSetGrouping</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1111793803 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">CustomCategory</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1933748614 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>MethodPackage</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">global&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_187599816 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ContentPackage</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_535437242 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Milestone</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_375963107 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">WorkProductDescriptor</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">activityEntryState&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">activityExitState&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1527091099 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>Descriptor</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">isSynchronizedWithSource&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_781738189 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Iteration</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_195205934 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Phase</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1451577512 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">TeamProfile</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1150979570 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">RoleDescriptor</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_286024569 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">TaskDescriptor</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1963169341 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">CompositeRole</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1524144565 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">DeliveryProcess</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_855854765 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>Process</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_244048081 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">CapabilityPattern</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_230504121 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">MethodConfiguration</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1309317841 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">MethodPlugin</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">userChangeable&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">supporting&nbsp;:&nbsp;EBoolean</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1864439661 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ProcessPlanningTemplate</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_322021508 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Practice</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1423529368 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">BreakdownElementDescription</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">usageGuidance&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1552793453 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ActivityDescription</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">purpose&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">alternatives&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">howtoStaff&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_270820129 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">DeliveryProcessDescription</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">scale&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">projectCharacteristics&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">riskLevel&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">estimatingTechnique&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">projectMemberExpertise&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">typeOfContract&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_660446955 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ProcessDescription</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">scope&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">usageNotes&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1216865340 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">DescriptorDescription</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">refinedDescription&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1939388770 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ProcessComponentDescriptor</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1082641995 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ProcessComponent</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1986426364 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ProcessPackage</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1248896500 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Diagram</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">zoom&nbsp;:&nbsp;Double</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_111545373 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">GraphNode</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1828905565 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>GraphElement</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1551812977 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>DiagramElement</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">isVisible&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_522686333 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Reference</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">isIndividualRepresentation&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_2114430350 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Property</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">key&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">value&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1415332352 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Point</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">x&nbsp;:&nbsp;Double</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">y&nbsp;:&nbsp;Double</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_646918165 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">DiagramLink</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">zoom&nbsp;:&nbsp;Double</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_899233249 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">GraphConnector</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1616242785 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">GraphEdge</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_923776756 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>SemanticModelBridge</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">presentation&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1579860322 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Dimension</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">width&nbsp;:&nbsp;Double</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">height&nbsp;:&nbsp;Double</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1744168859 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ProcessComponentInterface</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1253728976 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">SimpleSemanticModelElement</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">typeInfo&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_813816661 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">UMASemanticModelBridge</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_2008568295 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">CoreSemanticModelBridge</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1903395873 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>LeafElement</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_2085686851 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">TextElement</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">text&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1588537946 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Image</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">uri&nbsp;:&nbsp;Uri</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">mimeType&nbsp;:&nbsp;String</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1303547594 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT"><I>GraphicPrimitive</I></TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1785233628 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Polyline</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">closed&nbsp;:&nbsp;Boolean</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_471138381 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">Ellipse</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">radiusX&nbsp;:&nbsp;Double</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">radiusY&nbsp;:&nbsp;Double</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">rotation&nbsp;:&nbsp;Double</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">startAngle&nbsp;:&nbsp;Double</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAttribute.png"/>
+</TD><TD ALIGN="LEFT">endAngle&nbsp;:&nbsp;Double</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1169391561 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">ProcessFamily</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EClass_1842079804 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#FCEFBC">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EClass.png"/></TD>
+						<TD ALIGN="LEFT">MethodLibrary</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#FEF8DE">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0"><TR><TD> </TD></TR></TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EEnum_1852169594 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#DDFCC7">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EEnum.png"/></TD>
+						<TD ALIGN="LEFT">VariabilityType</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#F2FEE9">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EEnumLiteral.png"/>
+</TD><TD ALIGN="LEFT">na</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EEnumLiteral.png"/>
+</TD><TD ALIGN="LEFT">contributes</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EEnumLiteral.png"/>
+</TD><TD ALIGN="LEFT">extends</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EEnumLiteral.png"/>
+</TD><TD ALIGN="LEFT">replaces</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EEnumLiteral.png"/>
+</TD><TD ALIGN="LEFT">localContribution</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EEnumLiteral.png"/>
+</TD><TD ALIGN="LEFT">localReplacement</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EEnumLiteral.png"/>
+</TD><TD ALIGN="LEFT">extendsReplaces</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EEnum_1739103602 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#DDFCC7">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EEnum.png"/></TD>
+						<TD ALIGN="LEFT">WorkOrderType</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#F2FEE9">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EEnumLiteral.png"/>
+</TD><TD ALIGN="LEFT">finishToStart</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EEnumLiteral.png"/>
+</TD><TD ALIGN="LEFT">finishToFinish</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EEnumLiteral.png"/>
+</TD><TD ALIGN="LEFT">startToStart</TD><TD> </TD></TR>
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EEnumLiteral.png"/>
+</TD><TD ALIGN="LEFT">startToFinish</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+	ecore_EAnnotation_1357849121 [label=<
+		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD BGCOLOR="#EAD7E8">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1">
+					<TR>
+						<TD ALIGN="RIGHT"><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EAnnotation.png"/></TD>
+						<TD ALIGN="LEFT">http://www.eclipse.org/emf/2002/GenModel</TD>
+					</TR>
+				</TABLE>
+			</TD></TR>
+			<TR><TD ALIGN="LEFT" BGCOLOR="#F7EEF5">
+				<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0">
+					<TR><TD><IMG SCALE="FALSE" SRC="C:\Users\julet\GitHub\ProMeta-ModelEditor\org.eclipse.epf.uma\model\uma.ecore.jpg.emf2gv/EStringToStringMapEntry.png"/>
+</TD><TD ALIGN="LEFT">documentation</TD><TD> </TD></TR>
+				</TABLE>
+			</TD></TR>
+		</TABLE>>, margin=0, shape=plaintext]
+		ecore_EPackage_1237687685 [label="", shape="none", width=0, height=0];
+		}
+	ecore_EClass_1061501387->ecore_EClass_2004163089 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_470716048->ecore_EClass_1061501387 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_636008698->ecore_EClass_470716048 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_2070311576->ecore_EClass_636008698 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1180321470->ecore_EClass_1061501387 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_423091796->ecore_EClass_1180321470 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_423091796->ecore_EClass_470716048 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1690040510->ecore_EClass_470716048 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1690040510->ecore_EClass_1907206595 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>ownedRules</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1724976327->ecore_EClass_470716048 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1690040510->ecore_EClass_1724976327 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>methodElementProperty</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1976052349->ecore_EClass_1690040510 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1976052349->ecore_EClass_2070311576 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1160973404->ecore_EClass_1690040510 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1374028152->ecore_EClass_454146796 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_38923375->ecore_EClass_1374028152 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1160973404->ecore_EClass_38923375 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>copyrightStatement</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_299884392->ecore_EClass_1160973404 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_806313919->ecore_EClass_1690040510 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_806313919->ecore_EClass_806313919 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>variabilityBasedOnElement</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1316677027->ecore_EClass_806313919 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1316677027->ecore_EClass_1316677027 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>subSections</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1316677027->ecore_EClass_1316677027 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>predecessor</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_299884392->ecore_EClass_1316677027 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>sections</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1976052349->ecore_EClass_299884392 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>presentation</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_454146796->ecore_EClass_1976052349 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_454146796->ecore_EClass_806313919 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_454146796->ecore_EClass_38923375 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>supportingMaterials</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1645584081->ecore_EClass_1374028152 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_454146796->ecore_EClass_1645584081 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>conceptsAndPapers</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_189261707->ecore_EClass_1374028152 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_454146796->ecore_EClass_189261707 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>checklists</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_55193580->ecore_EClass_1374028152 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_454146796->ecore_EClass_55193580 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>guidelines</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1730515176->ecore_EClass_1374028152 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_454146796->ecore_EClass_1730515176 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>examples</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_696809931->ecore_EClass_1374028152 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_454146796->ecore_EClass_696809931 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>assets</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_491235534->ecore_EClass_1374028152 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_454146796->ecore_EClass_491235534 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>termdefinition</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1519125093->ecore_EClass_454146796 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1335939525->ecore_EClass_2070311576 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1519125093->ecore_EClass_1335939525 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>applicableMetaClassInfo</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1690040510->ecore_EClass_1519125093 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>kind</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1907206595->ecore_EClass_1690040510 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_736670281->ecore_EClass_454146796 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_525288873->ecore_EClass_1976052349 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_525288873->ecore_EClass_525288873 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>fulfills</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_736670281->ecore_EClass_525288873 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_425740462->ecore_EClass_1374028152 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_736670281->ecore_EClass_425740462 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>reports</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1382889443->ecore_EClass_1374028152 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_736670281->ecore_EClass_1382889443 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>templates</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1131545101->ecore_EClass_1374028152 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_736670281->ecore_EClass_1131545101 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>toolMentors</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_25242124->ecore_EClass_1374028152 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_736670281->ecore_EClass_25242124 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>estimationConsiderations</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_561136864->ecore_EClass_736670281 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_561136864->ecore_EClass_561136864 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>containerArtifact</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_561136864->ecore_EClass_561136864 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>containedArtifacts</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_448735146->ecore_EClass_736670281 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_448735146->ecore_EClass_736670281 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>deliveredWorkProducts</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1927791980->ecore_EClass_736670281 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_2059292790->ecore_EClass_1316677027 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_425704188->ecore_EClass_1690040510 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_425704188->ecore_EClass_1907206595 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>precondition</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_425704188->ecore_EClass_1907206595 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>postcondition</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_2059292790->ecore_EClass_425704188 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_458338747->ecore_EClass_1645584081 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1030520984->ecore_EClass_454146796 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1030520984->ecore_EClass_425704188 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_590566221->ecore_EClass_454146796 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_590566221->ecore_EClass_525288873 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_590566221->ecore_EClass_736670281 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>responsibleFor</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1030520984->ecore_EClass_590566221 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>performedBy</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1030520984->ecore_EClass_736670281 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>mandatoryInput</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1030520984->ecore_EClass_736670281 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>output</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1030520984->ecore_EClass_590566221 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>additionallyPerformedBy</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1030520984->ecore_EClass_736670281 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>optionalInput</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1030520984->ecore_EClass_1131545101 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>toolMentors</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1030520984->ecore_EClass_25242124 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>estimationConsiderations</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_899089664->ecore_EClass_299884392 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_210208486->ecore_EClass_899089664 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1553621633->ecore_EClass_899089664 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_968840399->ecore_EClass_299884392 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1454842041->ecore_EClass_299884392 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_493610379->ecore_EClass_299884392 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1935659385->ecore_EClass_299884392 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_293235416->ecore_EClass_454146796 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_369325908->ecore_EClass_293235416 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_369325908->ecore_EClass_590566221 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>roles</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_844757984->ecore_EClass_293235416 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_844757984->ecore_EClass_736670281 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>workProducts</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_844757984->ecore_EClass_844757984 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>subdomains</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_923594561->ecore_EClass_293235416 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_923594561->ecore_EClass_736670281 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>workProducts</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_30791583->ecore_EClass_293235416 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_105057238->ecore_EClass_293235416 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_105057238->ecore_EClass_1030520984 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>tasks</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_105057238->ecore_EClass_105057238 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>subdiscipline</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1498767412->ecore_EClass_1976052349 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_1498767412 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_640079395 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>presentedAfter</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_640079395 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>presentedBefore</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_158748161->ecore_EClass_1498767412 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_158748161 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>planningData</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_1001976871 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>superActivities</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_189261707 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>checklists</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_1645584081 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>concepts</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_1730515176 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>examples</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_55193580 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>guidelines</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_696809931 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>reusableAssets</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_38923375 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>supportingMaterials</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_1382889443 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>templates</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_425740462 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>reports</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_25242124 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>estimationconsiderations</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_640079395->ecore_EClass_1131545101 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>toolmentor</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_2000484084->ecore_EClass_640079395 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_144071426->ecore_EClass_1498767412 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_144071426->ecore_EClass_2000484084 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>pred</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_2000484084->ecore_EClass_144071426 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>linkToPredecessor</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1001976871->ecore_EClass_2000484084 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1001976871->ecore_EClass_525288873 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1001976871->ecore_EClass_806313919 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1001976871->ecore_EClass_425704188 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1001976871->ecore_EClass_640079395 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>breakdownElements</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1574732672->ecore_EClass_1374028152 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1001976871->ecore_EClass_1574732672 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>roadmaps</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_105057238->ecore_EClass_1001976871 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>referenceWorkflows</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_30791583->ecore_EClass_105057238 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>disciplines</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1389325073->ecore_EClass_293235416 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1389325073->ecore_EClass_1131545101 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>toolMentors</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_558295706->ecore_EClass_293235416 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_558295706->ecore_EClass_369325908 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>roleSets</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1111793803->ecore_EClass_293235416 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1111793803->ecore_EClass_1976052349 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>categorizedElements</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1111793803->ecore_EClass_293235416 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>subCategories</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1933748614->ecore_EClass_1690040510 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1933748614->ecore_EClass_423091796 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1933748614->ecore_EClass_1933748614 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>reusedPackages</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1933748614->ecore_EClass_1933748614 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>childPackages</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_187599816->ecore_EClass_1933748614 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_187599816->ecore_EClass_454146796 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>contentElements</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_535437242->ecore_EClass_2000484084 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1527091099->ecore_EClass_640079395 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1527091099->ecore_EClass_1374028152 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>guidanceExclude</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1527091099->ecore_EClass_1374028152 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>guidanceAdditional</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_375963107->ecore_EClass_1527091099 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_375963107->ecore_EClass_736670281 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>WorkProduct</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_375963107->ecore_EClass_375963107 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>impactedBy</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_375963107->ecore_EClass_375963107 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>impacts</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_375963107->ecore_EClass_375963107 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>deliverableParts</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_375963107->ecore_EClass_736670281 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>deliverablePartsExclude</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_535437242->ecore_EClass_375963107 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>requiredResults</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_781738189->ecore_EClass_1001976871 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_195205934->ecore_EClass_1001976871 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1451577512->ecore_EClass_640079395 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1150979570->ecore_EClass_1527091099 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1150979570->ecore_EClass_590566221 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>Role</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1150979570->ecore_EClass_375963107 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>responsibleFor</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1150979570->ecore_EClass_736670281 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>responsibleForExclude</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1451577512->ecore_EClass_1150979570 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>teamRoles</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1451577512->ecore_EClass_1451577512 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>superTeam</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1451577512->ecore_EClass_1451577512 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>subTeam</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_2000484084 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_1527091099 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_1030520984 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>Task</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_1150979570 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>additionallyPerformedBy</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_1150979570 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>assistedBy</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_375963107 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>externalInput</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_375963107 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>mandatoryInput</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_375963107 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>optionalInput</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_375963107 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>output</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_1150979570 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>performedPrimarilyBy</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_1316677027 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>selectedSteps</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_590566221 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>performedPrimarilyByExcluded</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_590566221 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>additionallyPerformedByExclude</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_736670281 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>mandatoryInputExclude</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_736670281 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>optionalInputExclude</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_736670281 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>outputExclude</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_286024569->ecore_EClass_1316677027 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>selectedStepsExclude</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1963169341->ecore_EClass_1150979570 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1963169341->ecore_EClass_590566221 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>aggregatedRoles</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_855854765->ecore_EClass_1001976871 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_244048081->ecore_EClass_855854765 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_855854765->ecore_EClass_244048081 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>includesPatterns</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_230504121->ecore_EClass_1160973404 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1309317841->ecore_EClass_1160973404 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1309317841->ecore_EClass_423091796 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1309317841->ecore_EClass_1933748614 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>methodPackages</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1309317841->ecore_EClass_1309317841 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>bases</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_230504121->ecore_EClass_1309317841 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>methodPluginSelection</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_230504121->ecore_EClass_1933748614 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>methodPackageSelection</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_230504121->ecore_EClass_293235416 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>processViews</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_230504121->ecore_EClass_293235416 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>defaultView</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_230504121->ecore_EClass_230504121 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>baseConfigurations</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_230504121->ecore_EClass_293235416 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>subtractedCategory</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_230504121->ecore_EClass_293235416 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>addedCategory</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_855854765->ecore_EClass_230504121 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>defaultContext</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_855854765->ecore_EClass_230504121 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>validContext</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1524144565->ecore_EClass_855854765 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1524144565->ecore_EClass_38923375 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>educationMaterials</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1524144565->ecore_EClass_38923375 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>communicationsMaterials</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1864439661->ecore_EClass_855854765 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1864439661->ecore_EClass_855854765 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>basedOnProcesses</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_322021508->ecore_EClass_1374028152 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_322021508->ecore_EClass_322021508 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>subPractices</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_322021508->ecore_EClass_454146796 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>contentReferences</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_322021508->ecore_EClass_1001976871 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>activityReferences</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1423529368->ecore_EClass_299884392 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1552793453->ecore_EClass_1423529368 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_660446955->ecore_EClass_1552793453 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_270820129->ecore_EClass_660446955 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1216865340->ecore_EClass_1423529368 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1939388770->ecore_EClass_1527091099 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1986426364->ecore_EClass_1933748614 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1986426364->ecore_EClass_1498767412 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>processElements</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1551812977->ecore_EClass_1690040510 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1551812977->ecore_EClass_1828905565 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>container</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_522686333->ecore_EClass_1551812977 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_522686333->ecore_EClass_1551812977 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>referenced</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1551812977->ecore_EClass_522686333 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>reference</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_2114430350->ecore_EClass_1551812977 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1551812977->ecore_EClass_2114430350 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>property</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1828905565->ecore_EClass_1551812977 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1828905565->ecore_EClass_1551812977 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>contained</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1828905565->ecore_EClass_1415332352 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>position</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_646918165->ecore_EClass_1551812977 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_646918165->ecore_EClass_1415332352 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>viewport</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_646918165->ecore_EClass_1248896500 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>diagram</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_646918165->ecore_EClass_1828905565 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>graphElement</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1828905565->ecore_EClass_646918165 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>link</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_899233249->ecore_EClass_1828905565 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1616242785->ecore_EClass_1828905565 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1616242785->ecore_EClass_1415332352 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>waypoints</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>2...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1616242785->ecore_EClass_899233249 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>anchor</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>2</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_899233249->ecore_EClass_1616242785 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>graphEdge</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_899233249->ecore_EClass_1828905565 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>graphElement</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1828905565->ecore_EClass_899233249 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>anchorage</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_923776756->ecore_EClass_1551812977 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_923776756->ecore_EClass_1248896500 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>diagram</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_923776756->ecore_EClass_1828905565 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>graphElement</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1828905565->ecore_EClass_923776756 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>semanticModel</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_111545373->ecore_EClass_1828905565 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_111545373->ecore_EClass_1579860322 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>size</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1248896500->ecore_EClass_111545373 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1248896500->ecore_EClass_646918165 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>diagramLink</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1248896500->ecore_EClass_923776756 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>namespace</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1248896500->ecore_EClass_1415332352 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>viewpoint</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1986426364->ecore_EClass_1248896500 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>diagrams</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1082641995->ecore_EClass_1986426364 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1082641995->ecore_EClass_1160973404 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1744168859->ecore_EClass_640079395 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1744168859->ecore_EClass_286024569 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>interfaceSpecifications</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1744168859->ecore_EClass_375963107 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>interfaceIO</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1082641995->ecore_EClass_1744168859 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>interfaces</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1082641995->ecore_EClass_855854765 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>process</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1939388770->ecore_EClass_1082641995 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>_processComponent</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1253728976->ecore_EClass_923776756 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_813816661->ecore_EClass_923776756 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_813816661->ecore_EClass_1690040510 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>element</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_2008568295->ecore_EClass_923776756 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_2008568295->ecore_EClass_2004163089 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>element</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1903395873->ecore_EClass_1551812977 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_2085686851->ecore_EClass_1903395873 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1588537946->ecore_EClass_1903395873 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1303547594->ecore_EClass_1903395873 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1785233628->ecore_EClass_1303547594 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1785233628->ecore_EClass_1415332352 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>waypoints</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>2...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_471138381->ecore_EClass_1303547594 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_471138381->ecore_EClass_1415332352 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>center</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>1</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1169391561->ecore_EClass_230504121 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1169391561->ecore_EClass_1524144565 [arrowhead = normal, arrowtail = none, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>deliveryProcesses</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1842079804->ecore_EClass_1160973404 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1842079804->ecore_EClass_423091796 [arrowhead = onormal, arrowtail = none, dir = both, minlen=1, color="#000000"]
+	ecore_EClass_1842079804->ecore_EClass_1309317841 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>methodPlugins</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+	ecore_EClass_1842079804->ecore_EClass_230504121 [arrowhead = normal, arrowtail = diamond, dir = both, taillabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD></TD></TR></TABLE>>, label=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+<TD>predefinedConfigurations</TD></TR></TABLE>>, headlabel=<		<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD>0...*</TD></TR></TABLE>>, minlen=3, labeldistance=3.0, labelangle=0.0, color="#000000"]
+}
