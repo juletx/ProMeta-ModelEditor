@@ -58,7 +58,8 @@
           <presentation href="guidances/concepts/collective_code_ownership.uma#-ykYi7xrRdC5O9qFXhU3doA"/>
           <conceptsAndPapers href="../core.tech.common.extend_supp/plugin.uma#_aGqAsJ01EdyQ3oTO93enUw"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2ZPqEKhNEdymmoKrEVbjiw" name="implementation.tdd" guid="_2ZPqEKhNEdymmoKrEVbjiw" variabilityType="contributes" variabilityBasedOnElement="_2ZPqEKhNEdymmoKrEVbjiw">
+        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2ZPqEKhNEdymmoKrEVbjiw" name="implementation.tdd" guid="_2ZPqEKhNEdymmoKrEVbjiw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="../core.tech.common.extend_supp/plugin.uma#_JqYbgJ01EdyQ3oTO93enUw"/>
           <fulfills href="../core.tech.slot.base/plugin.uma#_Vux8UEfUEdyiPI8btkmvmw"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_FUDtMB4mEd2bS8fFOQ7WWA" name="test_driven_dev" guid="_FUDtMB4mEd2bS8fFOQ7WWA" presentationName="Test Driven Development" briefDescription="This practice describes an approach to development in which test cases are defined first, then code is developed to pass the tests." variabilityBasedOnElement="_FUDtMB4mEd2bS8fFOQ7WWA">
@@ -79,10 +80,15 @@
           <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_8yG48JRqEdyrdaw_xGakyw"/>
           <contentReferences xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="#_vLvAUGjFEd2PJ-nlV-86WA"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_PnYQMCnkEd2W590fuUWNqw" name="implementation_refactoring.tdd" guid="_PnYQMCnkEd2W590fuUWNqw" variabilityType="contributes" variabilityBasedOnElement="_PnYQMCnkEd2W590fuUWNqw" guidelines="_5s_DUJ03EdyQ3oTO93enUw"/>
-        <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_zDI-MCnkEd2W590fuUWNqw" name="developer_testing.tdd" guid="_zDI-MCnkEd2W590fuUWNqw" variabilityType="contributes" variabilityBasedOnElement="_zDI-MCnkEd2W590fuUWNqw" guidelines="_5s_DUJ03EdyQ3oTO93enUw"/>
-        <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_T_ylcCnlEd2W590fuUWNqw" name="developer_testing.tdd" guid="_T_ylcCnlEd2W590fuUWNqw" variabilityType="contributes" variabilityBasedOnElement="_T_ylcCnlEd2W590fuUWNqw" guidelines="_5s_DUJ03EdyQ3oTO93enUw">
+        <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_PnYQMCnkEd2W590fuUWNqw" name="implementation_refactoring.tdd" guid="_PnYQMCnkEd2W590fuUWNqw" variabilityType="contributes" guidelines="_5s_DUJ03EdyQ3oTO93enUw">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Guideline" href="../core.tech.common.extend_supp/plugin.uma#_YNx2sJ05EdyQ3oTO93enUw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_zDI-MCnkEd2W590fuUWNqw" name="developer_testing.tdd" guid="_zDI-MCnkEd2W590fuUWNqw" variabilityType="contributes" guidelines="_5s_DUJ03EdyQ3oTO93enUw">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="../core.tech.common.extend_supp/plugin.uma#_ADwlAJRtEdyrdaw_xGakyw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_T_ylcCnlEd2W590fuUWNqw" name="developer_testing.tdd" guid="_T_ylcCnlEd2W590fuUWNqw" variabilityType="contributes" guidelines="_5s_DUJ03EdyQ3oTO93enUw">
           <presentation href="guidances/guidelines/developer_testing.tdd.uma#-7ketKzGlDB1TVwsYHvVLfg"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Guideline" href="../core.tech.common.extend_supp/plugin.uma#_ByOd4O6pEduvoopEslG-4g"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_vLvAUGjFEd2PJ-nlV-86WA" name="using_tdd_in_context" guid="_vLvAUGjFEd2PJ-nlV-86WA" presentationName="Using TDD in context" briefDescription="This is one example of how the TDD practice can be used in conjunction with other practices in a development process." variabilityBasedOnElement="_vLvAUGjFEd2PJ-nlV-86WA">
           <presentation href="guidances/supportingmaterials/using_tdd_in_context.uma#-DAk3ahn7Yqi4DY4VKX5b7A"/>

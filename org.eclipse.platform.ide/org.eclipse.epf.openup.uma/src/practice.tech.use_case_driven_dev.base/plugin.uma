@@ -23,8 +23,9 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_0VAUsMlgEdmt3adZL5Dmdw" name="use_case_model" guid="_0VAUsMlgEdmt3adZL5Dmdw" presentationName="Use-Case Model" briefDescription="This guideline describes how to develop and evolve the use-case model to capture the functional requirements for the system under development." variabilityBasedOnElement="_0VAUsMlgEdmt3adZL5Dmdw">
             <presentation href="guidances/guidelines/use_case_model.uma#_AGvpcMM3EdmSIPI87WLu3g"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_jivyULseEdyfAY9BXNFkDg" name="use_case.ucm" guid="_jivyULseEdyfAY9BXNFkDg" variabilityType="contributes" variabilityBasedOnElement="_jivyULseEdyfAY9BXNFkDg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_jivyULseEdyfAY9BXNFkDg" name="use_case.ucm" guid="_jivyULseEdyfAY9BXNFkDg" variabilityType="contributes">
             <presentation href="guidances/concepts/use_case.ucm.uma#-3kVaHsAKwWzKBx12XV-xTg"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="../core.tech.common.extend_supp/plugin.uma#_KudM0NcJEdqz_d2XWoVt6Q"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-pOLIEbEEdyx8quJU3Grxg" name="detail_use_case_scenarios.ucm" guid="_-pOLIEbEEdyx8quJU3Grxg" orderingGuide="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?>&#xD;&#xA;&lt;org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection xmi:version=&quot;2.0&quot; xmlns:xmi=&quot;http://www.omg.org/XMI&quot; xmlns:org.eclipse.epf.uma.edit.tng.util.model=&quot;http:///com/ibm/uma/edit/tng/util/model.ecore&quot;>&#xD;&#xA;  &lt;orderInfos name=&quot;sections&quot; timestamp=&quot;1195069025696&quot;>&#xD;&#xA;    &lt;gUIDs>_fAWPkJLZEdyk6dG0ehkW5Q&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_-pOLIUbEEdyx8quJU3Grxg&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_iEvYMJLaEdyk6dG0ehkW5Q&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_kojt4JLcEdyk6dG0ehkW5Q&lt;/gUIDs>&#xD;&#xA;  &lt;/orderInfos>&#xD;&#xA;&lt;/org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection>&#xD;&#xA;" variabilityType="contributes" variabilityBasedOnElement="_SL7N0LPdEduocbW-TPTq7A">
             <presentation href="tasks/detail_use_case_scenarios.ucm.uma#-locCQOxOUM8zej2tBD6M6Q"/>
@@ -34,7 +35,8 @@
             <presentation href="tasks/identify_and_outline_requirements.ucm.uma#-Yt8TXGkE1rwydXR34apsrg"/>
             <output href="../core.tech.common.extend_supp/plugin.uma#_W2SgEDR5EdutE_HNDTJk5Q"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BFFaEAo_EdyT57ElgMr6TA" name="use_case_model.ucm" guid="_BFFaEAo_EdyT57ElgMr6TA" variabilityType="contributes" variabilityBasedOnElement="_BFFaEAo_EdyT57ElgMr6TA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BFFaEAo_EdyT57ElgMr6TA" name="use_case_model.ucm" guid="_BFFaEAo_EdyT57ElgMr6TA" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="../core.tech.common.extend_supp/plugin.uma#_W2SgEDR5EdutE_HNDTJk5Q"/>
             <fulfills href="../core.tech.slot.base/plugin.uma#_i3vkoLS-EduDY8LNbMCDBA"/>
             <containedArtifacts xmi:id="_nDKmwMO-EdyM6MDjpGyC5g" name="use_case.ucm" guid="_nDKmwMO-EdyM6MDjpGyC5g" variabilityType="contributes" variabilityBasedOnElement="_MuaqIAo-EdyT57ElgMr6TA"/>
           </contentElements>
@@ -87,8 +89,9 @@
         <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_oXmYMEvGEdunZcj9T5hrMQ" name="use_case_scenario" guid="_oXmYMEvGEdunZcj9T5hrMQ" presentationName="use-case scenario" variabilityBasedOnElement="_oXmYMEvGEdunZcj9T5hrMQ">
           <presentation href="guidances/termdefinitions/use_case_scenario.uma#-t3jNM5ZWkYtzB8A4Chz2Vw"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_ryuL0LsbEdyfAY9BXNFkDg" name="use_case.ucdd" guid="_ryuL0LsbEdyfAY9BXNFkDg" variabilityType="contributes" variabilityBasedOnElement="_ryuL0LsbEdyfAY9BXNFkDg">
+        <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_ryuL0LsbEdyfAY9BXNFkDg" name="use_case.ucdd" guid="_ryuL0LsbEdyfAY9BXNFkDg" variabilityType="contributes">
           <presentation href="guidances/concepts/use_case.ucdd.uma#-wv4JAmTQ0R_KjP76LgDITg"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="../core.tech.common.extend_supp/plugin.uma#_KudM0NcJEdqz_d2XWoVt6Q"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_PJKZkMRfEdyBt8f9agIerg" name="how_to_adopt" guid="_PJKZkMRfEdyBt8f9agIerg" presentationName="How to Adopt the Use-Case Driven Development Practice" briefDescription="This roadmap describes how to adopt the Use-Case Driven Development Practice." variabilityBasedOnElement="_PJKZkMRfEdyBt8f9agIerg">
           <presentation href="guidances/roadmaps/how_to_adopt.uma#-3WNAtOgFvwsJtFvhDugsVA"/>
@@ -97,14 +100,19 @@
           <presentation href="guidances/guidelines/uc_realizations.uma#-CFYVionNDLkMw6SG6runQA"/>
           <guidelines href="../core.tech.common.extend_supp/plugin.uma#_uF-QYEAhEdq_UJTvM1DM2Q"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_sVnoIMtvEdyTA_Xoy-01eg" name="design_guidance_slot.ucdd" guid="_sVnoIMtvEdyTA_Xoy-01eg" variabilityType="contributes" variabilityBasedOnElement="_sVnoIMtvEdyTA_Xoy-01eg" guidelines="_2uan8NbyEdqu5o2S60g5LA"/>
-        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Nk7zwNaUEdyjTeYRQ0TIqg" name="glossary.ucdd" guid="_Nk7zwNaUEdyjTeYRQ0TIqg" variabilityType="contributes" variabilityBasedOnElement="_Nk7zwNaUEdyjTeYRQ0TIqg">
+        <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_sVnoIMtvEdyTA_Xoy-01eg" name="design_guidance_slot.ucdd" guid="_sVnoIMtvEdyTA_Xoy-01eg" variabilityType="contributes" guidelines="_2uan8NbyEdqu5o2S60g5LA">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Guideline" href="../core.tech.slot.base/plugin.uma#_z_wMgJI7Edyk6dG0ehkW5Q"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Nk7zwNaUEdyjTeYRQ0TIqg" name="glossary.ucdd" guid="_Nk7zwNaUEdyjTeYRQ0TIqg" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="../core.gen.common.base/plugin.uma#_Wn7HcNcEEdqz_d2XWoVt6Q"/>
           <fulfills href="../core.tech.slot.base/plugin.uma#_i3vkoLS-EduDY8LNbMCDBA"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_MuaqIAo-EdyT57ElgMr6TA" name="use_case.ucdd" guid="_MuaqIAo-EdyT57ElgMr6TA" variabilityType="contributes" variabilityBasedOnElement="_MuaqIAo-EdyT57ElgMr6TA">
+        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_MuaqIAo-EdyT57ElgMr6TA" name="use_case.ucdd" guid="_MuaqIAo-EdyT57ElgMr6TA" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="../core.tech.common.extend_supp/plugin.uma#_0VGbUMlgEdmt3adZL5Dmdw"/>
           <fulfills href="../core.tech.slot.base/plugin.uma#_i3vkoLS-EduDY8LNbMCDBA"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_9ZeScEL-EdyP_Jn83ylwUQ" name="system_wide_requirements.ucdd" guid="_9ZeScEL-EdyP_Jn83ylwUQ" variabilityType="contributes" variabilityBasedOnElement="_9ZeScEL-EdyP_Jn83ylwUQ">
+        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_9ZeScEL-EdyP_Jn83ylwUQ" name="system_wide_requirements.ucdd" guid="_9ZeScEL-EdyP_Jn83ylwUQ" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="../core.tech.common.extend_supp/plugin.uma#_BVh9cL-CEdqb7N6KIeDL8Q"/>
           <fulfills href="../core.tech.slot.base/plugin.uma#_i3vkoLS-EduDY8LNbMCDBA"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_w1JD4B4jEd2bS8fFOQ7WWA" name="use_case_driven_dev_practice" guid="_w1JD4B4jEd2bS8fFOQ7WWA" presentationName="Use Case Driven Development" briefDescription="This practice describes how to capture requirements with a combination of use cases and system-wide requirements, and then drive development and testing from those use cases." variabilityBasedOnElement="_w1JD4B4jEd2bS8fFOQ7WWA">

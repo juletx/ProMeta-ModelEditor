@@ -14,8 +14,12 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K-bekEd-D7YZN9NgldQ" name="Hidden" guid="_9S1K-bekEd-D7YZN9NgldQ">
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9S1K-rekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9S1K-rekEd-D7YZN9NgldQ" variabilityBasedOnElement="_9S1K-rekEd-D7YZN9NgldQ" categorizedElements="_J6IHANjmEdyAi9EWyDeJBg _Q1R7QNjmEdyAi9EWyDeJBg"/>
         </childPackages>
-        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_J6IHANjmEdyAi9EWyDeJBg" name="template_list.assign" guid="_J6IHANjmEdyAi9EWyDeJBg" variabilityType="contributes" variabilityBasedOnElement="_J6IHANjmEdyAi9EWyDeJBg" categorizedElements="_m7p-AI5fEdyO5aWob1UGDA _3Y3XUI5fEdyO5aWob1UGDA _DtlRQI5gEdyO5aWob1UGDA"/>
-        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Q1R7QNjmEdyAi9EWyDeJBg" name="artifact_list.assign" guid="_Q1R7QNjmEdyAi9EWyDeJBg" variabilityType="contributes" variabilityBasedOnElement="_Q1R7QNjmEdyAi9EWyDeJBg" categorizedElements="_JqYbgJ01EdyQ3oTO93enUw _BVh9cL-CEdqb7N6KIeDL8Q _0ZS-0MlgEdmt3adZL5Dmdw _0ZlSsMlgEdmt3adZL5Dmdw _0ZfMEMlgEdmt3adZL5Dmdw _0VGbUMlgEdmt3adZL5Dmdw _W2SgEDR5EdutE_HNDTJk5Q _0WVxcMlgEdmt3adZL5Dmdw"/>
+        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_J6IHANjmEdyAi9EWyDeJBg" name="template_list.assign" guid="_J6IHANjmEdyAi9EWyDeJBg" variabilityType="contributes" categorizedElements="_m7p-AI5fEdyO5aWob1UGDA _3Y3XUI5fEdyO5aWob1UGDA _DtlRQI5gEdyO5aWob1UGDA">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="../core.default.nav_view.base/plugin.uma#_WCR4Z8RdEdyD76CYS6Ta7A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Q1R7QNjmEdyAi9EWyDeJBg" name="artifact_list.assign" guid="_Q1R7QNjmEdyAi9EWyDeJBg" variabilityType="contributes" categorizedElements="_JqYbgJ01EdyQ3oTO93enUw _BVh9cL-CEdqb7N6KIeDL8Q _0ZS-0MlgEdmt3adZL5Dmdw _0ZlSsMlgEdmt3adZL5Dmdw _0ZfMEMlgEdmt3adZL5Dmdw _0VGbUMlgEdmt3adZL5Dmdw _W2SgEDR5EdutE_HNDTJk5Q _0WVxcMlgEdmt3adZL5Dmdw">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="../core.default.nav_view.base/plugin.uma#_WCR4YMRdEdyD76CYS6Ta7A"/>
+        </contentElements>
       </childPackages>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K-7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9S1K-7ekEd-D7YZN9NgldQ">

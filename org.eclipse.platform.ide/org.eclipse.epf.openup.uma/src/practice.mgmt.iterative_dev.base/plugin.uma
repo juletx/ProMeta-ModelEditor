@@ -9,7 +9,9 @@
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTpLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9UnTpLekEd-D7YZN9NgldQ"/>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTpbekEd-D7YZN9NgldQ" name="WP Types" guid="_9UnTpbekEd-D7YZN9NgldQ"/>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTprekEd-D7YZN9NgldQ" name="Tools" guid="_9UnTprekEd-D7YZN9NgldQ">
-        <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_tYzlcOFSEdyhmsbt0Xyl8A" name="method_composer_tool.assign" guid="_tYzlcOFSEdyhmsbt0Xyl8A" variabilityType="contributes" variabilityBasedOnElement="_tYzlcOFSEdyhmsbt0Xyl8A" toolMentors="_pJJuIOFSEdyhmsbt0Xyl8A"/>
+        <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_tYzlcOFSEdyhmsbt0Xyl8A" name="method_composer_tool.assign" guid="_tYzlcOFSEdyhmsbt0Xyl8A" variabilityType="contributes" toolMentors="_pJJuIOFSEdyhmsbt0Xyl8A">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="../core.default.tool_def.base/plugin.uma#_mHQIMMYbEdyXeo04os5BOw"/>
+        </contentElements>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTp7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9UnTp7ekEd-D7YZN9NgldQ"/>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTqLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9UnTqLekEd-D7YZN9NgldQ">
@@ -158,10 +160,12 @@
         <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_bpWt8OMPEdyM47cGD2jiaQ" name="how_to_adopt" guid="_bpWt8OMPEdyM47cGD2jiaQ" presentationName="How to Adopt the Iterative Development Practice" briefDescription="This roadmap describes how to adopt the iterative development practice. It helps an organization get prepared for developing and delivering software incrementally." variabilityBasedOnElement="_bpWt8OMPEdyM47cGD2jiaQ">
           <presentation href="guidances/roadmaps/how_to_adopt.uma#-hWKKNia-vOmQZTZWO24u5w"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_9BtSUOFlEdyhmsbt0Xyl8A" name="risk_list.pr_slot" guid="_9BtSUOFlEdyhmsbt0Xyl8A" variabilityType="contributes" variabilityBasedOnElement="_9BtSUOFlEdyhmsbt0Xyl8A">
+        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_9BtSUOFlEdyhmsbt0Xyl8A" name="risk_list.pr_slot" guid="_9BtSUOFlEdyhmsbt0Xyl8A" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="../core.mgmt.common.extend_supp/plugin.uma#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
           <fulfills href="../core.mgmt.slot.base/plugin.uma#_0TkXgNpUEdyzZqGyZ7hwdw"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ytVaoOKFEdyM47cGD2jiaQ" name="work_items_list.ps_slot" guid="_ytVaoOKFEdyM47cGD2jiaQ" variabilityType="contributes" variabilityBasedOnElement="_ytVaoOKFEdyM47cGD2jiaQ">
+        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ytVaoOKFEdyM47cGD2jiaQ" name="work_items_list.ps_slot" guid="_ytVaoOKFEdyM47cGD2jiaQ" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="../core.mgmt.common.extend_supp/plugin.uma#_rGNWsCbSEdqh1LYUOGRh2A"/>
           <fulfills href="../core.mgmt.slot.base/plugin.uma#_kf7foNpUEdyzZqGyZ7hwdw"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0aQBEslgEdmt3adZL5Dmdw" name="iteration_plan" guid="_0aQBEslgEdmt3adZL5Dmdw" presentationName="Iteration Plan" briefDescription="A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration." variabilityBasedOnElement="_0aQBEslgEdmt3adZL5Dmdw" checklists="_OHRDMAarEdy1uLAzgK8btg" examples="_GtGisDcGEdyTZ9G7ByfQTw _TuNhIEE4EdulKujnGUuxbg" reports="_uAzgkDg3Edu4E8ZdmlYjtA" templates="_0dBoQMlgEdmt3adZL5Dmdw">
@@ -170,11 +174,13 @@
           <fulfills href="../core.mgmt.slot.base/plugin.uma#_1QZI8EfUEdyiPI8btkmvmw"/>
           <fulfills href="../core.mgmt.slot.base/plugin.uma#_kf7foNpUEdyzZqGyZ7hwdw"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_yE3HkOxYEdyCFeiQwJE7Vg" name="work_items_list.pw_slot" guid="_yE3HkOxYEdyCFeiQwJE7Vg" variabilityType="contributes" variabilityBasedOnElement="_yE3HkOxYEdyCFeiQwJE7Vg">
+        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_yE3HkOxYEdyCFeiQwJE7Vg" name="work_items_list.pw_slot" guid="_yE3HkOxYEdyCFeiQwJE7Vg" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="../core.mgmt.common.extend_supp/plugin.uma#_rGNWsCbSEdqh1LYUOGRh2A"/>
           <fulfills href="../core.mgmt.slot.base/plugin.uma#_1QZI8EfUEdyiPI8btkmvmw"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_35jJkFpiEd2nNZq0B7jtNw" name="work_items_list.contributes" guid="_35jJkFpiEd2nNZq0B7jtNw" variabilityType="contributes" variabilityBasedOnElement="_35jJkFpiEd2nNZq0B7jtNw" conceptsAndPapers="_S80VwCNbEdyCq8v2ZO4QcA" guidelines="_7vEXEMA4EdqSgKaj2SZBmg">
+        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_35jJkFpiEd2nNZq0B7jtNw" name="work_items_list.contributes" guid="_35jJkFpiEd2nNZq0B7jtNw" variabilityType="contributes" conceptsAndPapers="_S80VwCNbEdyCq8v2ZO4QcA" guidelines="_7vEXEMA4EdqSgKaj2SZBmg">
           <presentation href="workproducts/work_items_list.contributes.uma#-i0ekME-sXjZ7YmeJwZzW_A"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="../core.mgmt.common.extend_supp/plugin.uma#_rGNWsCbSEdqh1LYUOGRh2A"/>
         </contentElements>
       </childPackages>
     </childPackages>

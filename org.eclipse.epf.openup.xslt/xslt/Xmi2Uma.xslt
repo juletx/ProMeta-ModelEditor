@@ -24,9 +24,11 @@
     <!--@variabilityBasedOnElement-->
     <xsl:template match="contentElements|sections|processElements[@xsi:type='org.eclipse.epf.uma:Phase' or @xsi:type='org.eclipse.epf.uma:Iteration' or @xsi:type='org.eclipse.epf.uma:Activity']">
         <xsl:copy>
-        	<xsl:attribute name="variabilityBasedOnElement">
-                <xsl:value-of select="@guid"/>
-            </xsl:attribute>
+            <xsl:if test="not(variabilityBasedOnElement)">
+                <xsl:attribute name="variabilityBasedOnElement">
+                    <xsl:value-of select="@guid"/>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
@@ -58,9 +60,11 @@
             </xsl:attribute>
             <xsl:apply-templates select="@*|node()[not(name()='process')]"/>
             <xsl:element name="process">
-                <xsl:attribute name="variabilityBasedOnElement">
-                    <xsl:value-of select="process/@guid"/>
-                </xsl:attribute>
+                <xsl:if test="not(variabilityBasedOnElement)">
+                    <xsl:attribute name="variabilityBasedOnElement">
+                        <xsl:value-of select="process/@guid"/>
+                    </xsl:attribute>
+                </xsl:if>
                 <xsl:attribute name="superActivities">
                     <xsl:value-of select="process/@guid"/>
                 </xsl:attribute>

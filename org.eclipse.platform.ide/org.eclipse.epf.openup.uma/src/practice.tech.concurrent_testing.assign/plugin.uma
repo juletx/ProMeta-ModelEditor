@@ -6,7 +6,8 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9fyo4bekEd-D7YZN9NgldQ" name="Categories" guid="_9fyo4bekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9fyo4rekEd-D7YZN9NgldQ" name="Domains" guid="_9fyo4rekEd-D7YZN9NgldQ"/>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9fyo47ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9fyo47ekEd-D7YZN9NgldQ">
-        <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_iBsdQMubEdy1o5Xnqdh1Tg" name="test_discipline.assign" guid="_iBsdQMubEdy1o5Xnqdh1Tg" variabilityType="contributes" variabilityBasedOnElement="_iBsdQMubEdy1o5Xnqdh1Tg">
+        <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_iBsdQMubEdy1o5Xnqdh1Tg" name="test_discipline.assign" guid="_iBsdQMubEdy1o5Xnqdh1Tg" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="../core.default.cat_def.base/plugin.uma#_iGSHtlZ-EdyIUdvDLLUdeg"/>
           <tasks href="../practice.tech.concurrent_testing.base/plugin.uma#_0iwc0clgEdmt3adZL5Dmdw"/>
           <tasks href="../practice.tech.concurrent_testing.base/plugin.uma#_0jO98MlgEdmt3adZL5Dmdw"/>
           <tasks href="../practice.tech.concurrent_testing.base/plugin.uma#_0jVEkMlgEdmt3adZL5Dmdw"/>
@@ -24,22 +25,26 @@
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9fyo67ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9fyo67ekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Z30okMuaEdy1o5Xnqdh1Tg" name="role_assignments" guid="_Z30okMuaEdy1o5Xnqdh1Tg" presentationName="Role Assignments">
-        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0M2bkMuaEdy1o5Xnqdh1Tg" name="create_test_cases.assign_role" guid="_0M2bkMuaEdy1o5Xnqdh1Tg" variabilityType="contributes" variabilityBasedOnElement="_0M2bkMuaEdy1o5Xnqdh1Tg">
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0M2bkMuaEdy1o5Xnqdh1Tg" name="create_test_cases.assign_role" guid="_0M2bkMuaEdy1o5Xnqdh1Tg" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.concurrent_testing.base/plugin.uma#_0iwc0clgEdmt3adZL5Dmdw"/>
           <performedBy href="../core.default.role_def.base/plugin.uma#_0ZM4MclgEdmt3adZL5Dmdw"/>
           <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_0VxJsMlgEdmt3adZL5Dmdw"/>
           <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_0YDosMlgEdmt3adZL5Dmdw"/>
           <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_dTa6gMAYEdqX-s4mWhkyqQ"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_47yP4MuaEdy1o5Xnqdh1Tg" name="implement_tests.assign_role" guid="_47yP4MuaEdy1o5Xnqdh1Tg" variabilityType="contributes" variabilityBasedOnElement="_47yP4MuaEdy1o5Xnqdh1Tg">
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_47yP4MuaEdy1o5Xnqdh1Tg" name="implement_tests.assign_role" guid="_47yP4MuaEdy1o5Xnqdh1Tg" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.concurrent_testing.base/plugin.uma#_0jO98MlgEdmt3adZL5Dmdw"/>
           <performedBy href="../core.default.role_def.base/plugin.uma#_0ZM4MclgEdmt3adZL5Dmdw"/>
           <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_0VxJsMlgEdmt3adZL5Dmdw"/>
           <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_0YDosMlgEdmt3adZL5Dmdw"/>
           <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_dTa6gMAYEdqX-s4mWhkyqQ"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9wPdYMuaEdy1o5Xnqdh1Tg" name="run_tests.assign_role" guid="_9wPdYMuaEdy1o5Xnqdh1Tg" variabilityType="contributes" variabilityBasedOnElement="_9wPdYMuaEdy1o5Xnqdh1Tg">
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9wPdYMuaEdy1o5Xnqdh1Tg" name="run_tests.assign_role" guid="_9wPdYMuaEdy1o5Xnqdh1Tg" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.concurrent_testing.base/plugin.uma#_0jVEkMlgEdmt3adZL5Dmdw"/>
           <performedBy href="../core.default.role_def.base/plugin.uma#_0ZM4MclgEdmt3adZL5Dmdw"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_cDTBoMuaEdy1o5Xnqdh1Tg" name="tester.assign_wp" guid="_cDTBoMuaEdy1o5Xnqdh1Tg" variabilityType="contributes" variabilityBasedOnElement="_cDTBoMuaEdy1o5Xnqdh1Tg">
+        <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_cDTBoMuaEdy1o5Xnqdh1Tg" name="tester.assign_wp" guid="_cDTBoMuaEdy1o5Xnqdh1Tg" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="../core.default.role_def.base/plugin.uma#_0ZM4MclgEdmt3adZL5Dmdw"/>
           <responsibleFor href="../core.tech.common.extend_supp/plugin.uma#_0ZS-0MlgEdmt3adZL5Dmdw"/>
           <responsibleFor href="../core.tech.common.extend_supp/plugin.uma#_0ZlSsMlgEdmt3adZL5Dmdw"/>
           <responsibleFor href="../core.tech.common.extend_supp/plugin.uma#_0ZfMEMlgEdmt3adZL5Dmdw"/>

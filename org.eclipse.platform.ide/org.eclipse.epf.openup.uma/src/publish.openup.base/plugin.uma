@@ -19,10 +19,11 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9u1xibekEd-D7YZN9NgldQ" name="Hidden" guid="_9u1xibekEd-D7YZN9NgldQ">
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9u1xirekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9u1xirekEd-D7YZN9NgldQ" variabilityBasedOnElement="_9u1xirekEd-D7YZN9NgldQ" categorizedElements="_s-pk0Mg_EdygFZkm1d5NtQ"/>
         </childPackages>
-        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Gc5BIMg9EdyXeo04os5BOw" name="practices" guid="_Gc5BIMg9EdyXeo04os5BOw" presentationName="Practices" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif" variabilityType="replaces" variabilityBasedOnElement="_Gc5BIMg9EdyXeo04os5BOw" categorizedElements="_-VOD4CB3Ed2BC837SW9yQQ _L0maICB4Ed2BC837SW9yQQ _TgP0wJoNEeGnJt_Qpwdfdg">
+        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Gc5BIMg9EdyXeo04os5BOw" name="practices" guid="_Gc5BIMg9EdyXeo04os5BOw" presentationName="Practices" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif" variabilityType="replaces" categorizedElements="_-VOD4CB3Ed2BC837SW9yQQ _L0maICB4Ed2BC837SW9yQQ _TgP0wJoNEeGnJt_Qpwdfdg">
           <methodElementProperty xmi:id="_GogWzBo0EeuXnIT9fOh1Fg" name="PUBLISH_CATEGORY" value="false"/>
           <methodElementProperty xmi:id="_GogWzRo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
           <presentation href="customcategories/practices.uma#-PSRjLwuucSbqE2ylFAbF9w"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="../core.default.nav_view.base/plugin.uma#_RJ__ECLJEd2ct852UDqXGQ"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_s-pk0Mg_EdygFZkm1d5NtQ" name="view_tabs_for_openup" guid="_s-pk0Mg_EdygFZkm1d5NtQ" presentationName="View Tabs for OpenUP" shapeicon="customcategories/resources/lib_32.gif" nodeicon="customcategories/resources/lib_16.gif" variabilityBasedOnElement="_s-pk0Mg_EdygFZkm1d5NtQ" categorizedElements="_Sq2EYMhAEdygFZkm1d5NtQ _pA1jIMn6EdyuBO4ZIzcyig"/>
         <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Sq2EYMhAEdygFZkm1d5NtQ" name="epf_practices_library" guid="_Sq2EYMhAEdygFZkm1d5NtQ" presentationName="EPF Practices" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif" variabilityBasedOnElement="_Sq2EYMhAEdygFZkm1d5NtQ" categorizedElements="_Gc5BIMg9EdyXeo04os5BOw"/>
@@ -30,8 +31,9 @@
         <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_qktUMMn7EdyuBO4ZIzcyig" name="core_principles_category" guid="_qktUMMn7EdyuBO4ZIzcyig" presentationName="Core Principles" briefDescription="Four core principles capture the general intentions behind OpenUP. They create the foundation for interpreting roles and work products, and for performing tasks." shapeicon="customcategories/resources/concept_dgm32.gif" nodeicon="customcategories/resources/concept_obj.gif" variabilityBasedOnElement="_qktUMMn7EdyuBO4ZIzcyig" categorizedElements="_ssG6MMvpEdqukPpotm3DYg _KkTIsMp7EdqC_NfSivunjA _9gocwMvoEdqukPpotm3DYg _GXiogMvoEdqukPpotm3DYg">
           <presentation href="customcategories/core_principles_category.uma#-2Exr8xUknR1c7fbnPMMrTw"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_CjSiUMn-EdyuBO4ZIzcyig" name="getting_started" guid="_CjSiUMn-EdyuBO4ZIzcyig" presentationName="Getting Started" briefDescription="This area provides information useful for understanding how to deploy and adopt OpenUP." shapeicon="customcategories/resources/micl.gif" nodeicon="customcategories/resources/mic.gif" variabilityType="contributes" variabilityBasedOnElement="_CjSiUMn-EdyuBO4ZIzcyig">
+        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_CjSiUMn-EdyuBO4ZIzcyig" name="getting_started" guid="_CjSiUMn-EdyuBO4ZIzcyig" presentationName="Getting Started" briefDescription="This area provides information useful for understanding how to deploy and adopt OpenUP." shapeicon="customcategories/resources/micl.gif" nodeicon="customcategories/resources/mic.gif" variabilityType="contributes">
           <presentation href="customcategories/getting_started.uma#-BZL7M9SUWacUmnxTIShrmA"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="../core.default.nav_view.base/plugin.uma#_WCIHYMRdEdyD76CYS6Ta7A"/>
           <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_k0MJEFUOEd2_rMtRMt_EMg"/>
           <categorizedElements xsi:type="org.eclipse.epf.uma:Concept" href="../core.default.uma_concept.base/plugin.uma#_FxJEkFUKEd2_rMtRMt_EMg"/>
           <categorizedElements xsi:type="org.eclipse.epf.uma:Concept" href="../core.default.uma_concept.base/plugin.uma#_qhCTAFRREd2CWscN8Mx6rg"/>
@@ -57,9 +59,10 @@
           <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.tech.test_driven_development.base/plugin.uma#_FUDtMB4mEd2bS8fFOQ7WWA"/>
           <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.tech.use_case_driven_dev.base/plugin.uma#_w1JD4B4jEd2bS8fFOQ7WWA"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_lOKqcCB4Ed2BC837SW9yQQ" name="release_info" guid="_lOKqcCB4Ed2BC837SW9yQQ" presentationName="Release Information" shapeicon="customcategories/resources/whats_new_set.gif" nodeicon="customcategories/resources/whats_new_set_obj.gif" variabilityType="contributes" variabilityBasedOnElement="_lOKqcCB4Ed2BC837SW9yQQ">
+        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_lOKqcCB4Ed2BC837SW9yQQ" name="release_info" guid="_lOKqcCB4Ed2BC837SW9yQQ" presentationName="Release Information" shapeicon="customcategories/resources/whats_new_set.gif" nodeicon="customcategories/resources/whats_new_set_obj.gif" variabilityType="contributes">
           <methodElementProperty xmi:id="_GogW0Bo0EeuXnIT9fOh1Fg" name="CategoryElementsSortType" value="Alphabetic"/>
           <methodElementProperty xmi:id="_GogW0Ro0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="../core.default.nav_view.base/plugin.uma#_irqswCLOEd2ct852UDqXGQ"/>
           <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.tech.evolutionary_arch.base/plugin.uma#_rA1NMc3lEdyjXslGsagg_w"/>
           <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.tech.evolutionary_design.base/plugin.uma#_skRykMuYEdyRPtFYRAKVDg"/>
           <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.tech.shared_vision.base/plugin.uma#_GBAK8MuhEdyTA_Xoy-01eg"/>
@@ -85,24 +88,34 @@
           <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.gen.doc_trng.base/plugin.uma#_-zdZceB8EeC1y_NExchKwQ"/>
           <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.gen.production_release.base/plugin.uma#_IAG5wOB-EeC1y_NExchKwQ"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_1LVMUJouEeGnJt_Qpwdfdg" name="role_set_list" guid="_1LVMUJouEeGnJt_Qpwdfdg" presentationName="Roles" briefDescription="This category lists roles organized by role set." shapeicon="customcategories/resources/roles_dgm32.gif" nodeicon="customcategories/resources/roles_obj.gif" variabilityType="replaces" variabilityBasedOnElement="_1LVMUJouEeGnJt_Qpwdfdg">
+        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_1LVMUJouEeGnJt_Qpwdfdg" name="role_set_list" guid="_1LVMUJouEeGnJt_Qpwdfdg" presentationName="Roles" briefDescription="This category lists roles organized by role set." shapeicon="customcategories/resources/roles_dgm32.gif" nodeicon="customcategories/resources/roles_obj.gif" variabilityType="replaces">
           <methodElementProperty xmi:id="_GogW0xo0EeuXnIT9fOh1Fg" name="include" value="RoleSet"/>
           <methodElementProperty xmi:id="_GogW1Bo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="../core.default.nav_view.base/plugin.uma#_WCIHZMRdEdyD76CYS6Ta7A"/>
         </contentElements>
       </childPackages>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9u1xi7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9u1xi7ekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__ZzOUMg7EdyXeo04os5BOw" name="openup_practice_lib" guid="__ZzOUMg7EdyXeo04os5BOw" presentationName="OpenUP Practice Library">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_3aT48N4YEdyhmsbt0Xyl8A" name="contribute_core_principles_to_practices" guid="_3aT48N4YEdyhmsbt0Xyl8A" presentationName="Contribute Core Principles to Practices">
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_8pcQQN4YEdyhmsbt0Xyl8A" name="inception_phase.principle" guid="_8pcQQN4YEdyhmsbt0Xyl8A" variabilityType="contributes" variabilityBasedOnElement="_8pcQQN4YEdyhmsbt0Xyl8A" conceptsAndPapers="_ssG6MMvpEdqukPpotm3DYg _KkTIsMp7EdqC_NfSivunjA"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_IXkEQN4ZEdyhmsbt0Xyl8A" name="elaboration_phase.principle" guid="_IXkEQN4ZEdyhmsbt0Xyl8A" variabilityType="contributes" variabilityBasedOnElement="_IXkEQN4ZEdyhmsbt0Xyl8A" conceptsAndPapers="_ssG6MMvpEdqukPpotm3DYg _KkTIsMp7EdqC_NfSivunjA _9gocwMvoEdqukPpotm3DYg"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_PglVYN4ZEdyhmsbt0Xyl8A" name="construction_phase.principle" guid="_PglVYN4ZEdyhmsbt0Xyl8A" variabilityType="contributes" variabilityBasedOnElement="_PglVYN4ZEdyhmsbt0Xyl8A" conceptsAndPapers="_GXiogMvoEdqukPpotm3DYg"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_Ug9fAN4ZEdyhmsbt0Xyl8A" name="transition_phase.principle" guid="_Ug9fAN4ZEdyhmsbt0Xyl8A" variabilityType="contributes" variabilityBasedOnElement="_Ug9fAN4ZEdyhmsbt0Xyl8A" conceptsAndPapers="_KkTIsMp7EdqC_NfSivunjA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_8pcQQN4YEdyhmsbt0Xyl8A" name="inception_phase.principle" guid="_8pcQQN4YEdyhmsbt0Xyl8A" variabilityType="contributes" conceptsAndPapers="_ssG6MMvpEdqukPpotm3DYg _KkTIsMp7EdqC_NfSivunjA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="../practice.mgmt.risk_value_lifecycle.base/plugin.uma#_0hmKgBOMEduCNqgZdt_OaA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_IXkEQN4ZEdyhmsbt0Xyl8A" name="elaboration_phase.principle" guid="_IXkEQN4ZEdyhmsbt0Xyl8A" variabilityType="contributes" conceptsAndPapers="_ssG6MMvpEdqukPpotm3DYg _KkTIsMp7EdqC_NfSivunjA _9gocwMvoEdqukPpotm3DYg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="../practice.mgmt.risk_value_lifecycle.base/plugin.uma#_2plxwBOMEduCNqgZdt_OaA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_PglVYN4ZEdyhmsbt0Xyl8A" name="construction_phase.principle" guid="_PglVYN4ZEdyhmsbt0Xyl8A" variabilityType="contributes" conceptsAndPapers="_GXiogMvoEdqukPpotm3DYg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="../practice.mgmt.risk_value_lifecycle.base/plugin.uma#_48EKsBOMEduCNqgZdt_OaA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_Ug9fAN4ZEdyhmsbt0Xyl8A" name="transition_phase.principle" guid="_Ug9fAN4ZEdyhmsbt0Xyl8A" variabilityType="contributes" conceptsAndPapers="_KkTIsMp7EdqC_NfSivunjA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="../practice.mgmt.risk_value_lifecycle.base/plugin.uma#__ca5UBOMEduCNqgZdt_OaA"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bGjA8OFQEdyhmsbt0Xyl8A" name="contributions_to_open_source_practices" guid="_bGjA8OFQEdyhmsbt0Xyl8A" presentationName="Contributions to Open Source Practices">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cxOwQOL0EdyM47cGD2jiaQ" name="risk-value_lifecycle" guid="_cxOwQOL0EdyM47cGD2jiaQ" presentationName="Risk-Value Lifecycle">
-            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_j0leQOL0EdyM47cGD2jiaQ" name="project_lifecycle.additon" guid="_j0leQOL0EdyM47cGD2jiaQ" variabilityType="contributes" variabilityBasedOnElement="_j0leQOL0EdyM47cGD2jiaQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_j0leQOL0EdyM47cGD2jiaQ" name="project_lifecycle.additon" guid="_j0leQOL0EdyM47cGD2jiaQ" variabilityType="contributes">
               <presentation href="guidances/concepts/project_lifecycle.additon.uma#-zuqK2tneGKchXpqLVRtwlg"/>
+              <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="../practice.mgmt.risk_value_lifecycle.base/plugin.uma#_nSfVwCNYEdyCq8v2ZO4QcA"/>
             </contentElements>
           </childPackages>
         </childPackages>
@@ -127,8 +140,9 @@
         <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_9gocwMvoEdqukPpotm3DYg" name="core_principle_focus" guid="_9gocwMvoEdqukPpotm3DYg" presentationName="Focus on the architecture early to minimize risks and organize development" briefDescription="An evolving architecture helps the team to address complexity, drive risk mitigation, and organize development." variabilityBasedOnElement="_9gocwMvoEdqukPpotm3DYg">
           <presentation href="guidances/concepts/core_principle_focus.uma#-HTMJFV29MTZkKWqnIo01Gg"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_sOaNACatEd21TMX858E1gw" name="introduction_to_openup" guid="_sOaNACatEd21TMX858E1gw" presentationName="Introduction to OpenUP" shapeicon="guidances/supportingmaterials/resources/micl.gif" nodeicon="guidances/supportingmaterials/resources/mic.gif" variabilityType="replaces" variabilityBasedOnElement="_sOaNACatEd21TMX858E1gw">
+        <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_sOaNACatEd21TMX858E1gw" name="introduction_to_openup" guid="_sOaNACatEd21TMX858E1gw" presentationName="Introduction to OpenUP" shapeicon="guidances/supportingmaterials/resources/micl.gif" nodeicon="guidances/supportingmaterials/resources/mic.gif" variabilityType="replaces">
           <presentation href="guidances/supportingmaterials/introduction_to_openup.uma#-5KKBPZ4Oza-UdqN4OlQiqg"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../core.default.nav_view.base/plugin.uma#_g910gCapEd21TMX858E1gw"/>
           <conceptsAndPapers href="../practice.mgmt.iterative_dev.base/plugin.uma#_DI_tICNaEdyCq8v2ZO4QcA"/>
           <conceptsAndPapers href="../practice.mgmt.iterative_dev.base/plugin.uma#_S80VwCNbEdyCq8v2ZO4QcA"/>
           <conceptsAndPapers href="../practice.mgmt.risk_value_lifecycle.base/plugin.uma#_nSfVwCNYEdyCq8v2ZO4QcA"/>

@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_h0Gs8NONEdyqlogshP8l4g" name="inception_phase_iteration" guid="_h0Gs8NONEdyqlogshP8l4g" interfaces="d494e8">
   <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9Au7ekEd-D7YZN9NgldQ" guid="_9t9Au7ekEd-D7YZN9NgldQ">
-    <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_nfpeAdOOEdyqlogshP8l4g" name="initiate_project" guid="_nfpeAdOOEdyqlogshP8l4g" superActivities="_h0Gs8dONEdyqlogshP8l4g" variabilityType="extends" variabilityBasedOnElement="_nfpeAdOOEdyqlogshP8l4g"/>
+    <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_nfpeAdOOEdyqlogshP8l4g" name="initiate_project" guid="_nfpeAdOOEdyqlogshP8l4g" superActivities="_h0Gs8dONEdyqlogshP8l4g" variabilityType="extends">
+      <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="../initiate_project/model.uma#_eWxZgdOEEdyqlogshP8l4g"/>
+    </processElements>
   </childPackages>
   <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9AvLekEd-D7YZN9NgldQ" guid="_9t9AvLekEd-D7YZN9NgldQ">
-    <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_uxDPEdOOEdyqlogshP8l4g" name="plan_manage_iteration" guid="_uxDPEdOOEdyqlogshP8l4g" superActivities="_h0Gs8dONEdyqlogshP8l4g" variabilityType="extends" variabilityBasedOnElement="_uxDPEdOOEdyqlogshP8l4g"/>
+    <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_uxDPEdOOEdyqlogshP8l4g" name="plan_manage_iteration" guid="_uxDPEdOOEdyqlogshP8l4g" superActivities="_h0Gs8dONEdyqlogshP8l4g" variabilityType="extends">
+      <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="../plan_manage_iteration/model.uma#_oZgCsdOEEdyqlogshP8l4g"/>
+    </processElements>
   </childPackages>
   <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9AvbekEd-D7YZN9NgldQ" guid="_9t9AvbekEd-D7YZN9NgldQ">
-    <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_vyeP0dOOEdyqlogshP8l4g" name="identify_and_refine_requirements" guid="_vyeP0dOOEdyqlogshP8l4g" superActivities="_h0Gs8dONEdyqlogshP8l4g" linkToPredecessor="_Ba3L8NQVEdyk9oc_L5Vk0g" variabilityType="extends" variabilityBasedOnElement="_vyeP0dOOEdyqlogshP8l4g"/>
+    <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_vyeP0dOOEdyqlogshP8l4g" name="identify_and_refine_requirements" guid="_vyeP0dOOEdyqlogshP8l4g" superActivities="_h0Gs8dONEdyqlogshP8l4g" linkToPredecessor="_Ba3L8NQVEdyk9oc_L5Vk0g" variabilityType="extends">
+      <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="../identify_and_refine_requirements/model.uma#_xxcpgdOEEdyqlogshP8l4g"/>
+    </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Ba3L8NQVEdyk9oc_L5Vk0g" guid="_Ba3L8NQVEdyk9oc_L5Vk0g" pred="_nfpeAdOOEdyqlogshP8l4g"/>
   </childPackages>
   <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9Av7ekEd-D7YZN9NgldQ" guid="_9t9Av7ekEd-D7YZN9NgldQ">
-    <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_w-Bc8dOOEdyqlogshP8l4g" name="agree_technical_approach" guid="_w-Bc8dOOEdyqlogshP8l4g" superActivities="_h0Gs8dONEdyqlogshP8l4g" linkToPredecessor="_BbnZ4NQVEdyk9oc_L5Vk0g" variabilityType="extends" variabilityBasedOnElement="_w-Bc8dOOEdyqlogshP8l4g"/>
+    <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_w-Bc8dOOEdyqlogshP8l4g" name="agree_technical_approach" guid="_w-Bc8dOOEdyqlogshP8l4g" superActivities="_h0Gs8dONEdyqlogshP8l4g" linkToPredecessor="_BbnZ4NQVEdyk9oc_L5Vk0g" variabilityType="extends">
+      <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="../agree_technical_approach/model.uma#_4ouDUdOEEdyqlogshP8l4g"/>
+    </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_BbnZ4NQVEdyk9oc_L5Vk0g" guid="_BbnZ4NQVEdyk9oc_L5Vk0g" pred="_nfpeAdOOEdyqlogshP8l4g"/>
   </childPackages>
   <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d494e8" superActivities="_h0Gs8dONEdyqlogshP8l4g"/>

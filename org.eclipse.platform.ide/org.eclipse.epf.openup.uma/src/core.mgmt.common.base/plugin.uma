@@ -18,8 +18,9 @@
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NnTy7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9NnTy7ekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_vcN8IGphEd24CboUCnKL3A" name="management_guidance" guid="_vcN8IGphEd24CboUCnKL3A" presentationName="Management Guidance">
-        <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_JlTPUM6aEdyuBO4ZIzcyig" name="references.mgmt" guid="_JlTPUM6aEdyuBO4ZIzcyig" variabilityType="contributes" variabilityBasedOnElement="_JlTPUM6aEdyuBO4ZIzcyig">
+        <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_JlTPUM6aEdyuBO4ZIzcyig" name="references.mgmt" guid="_JlTPUM6aEdyuBO4ZIzcyig" variabilityType="contributes">
           <presentation href="guidances/supportingmaterials/references.mgmt.uma#-BUHtqig5wrabMIpZgZChMg"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../core.default.nav_view.base/plugin.uma#__nHToFndEd2EdJKkAyeBng"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_3PJ38EvqEdunZcj9T5hrMQ" name="agile" guid="_3PJ38EvqEdunZcj9T5hrMQ" presentationName="agile" variabilityBasedOnElement="_3PJ38EvqEdunZcj9T5hrMQ">
           <presentation href="guidances/termdefinitions/agile.uma#-qZE4XgeMK93LmJMKuQWGFg"/>

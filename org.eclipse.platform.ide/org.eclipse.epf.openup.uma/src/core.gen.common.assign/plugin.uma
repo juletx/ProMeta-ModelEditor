@@ -5,7 +5,8 @@
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9LYfILekEd-D7YZN9NgldQ" name="Content" guid="_9LYfILekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9LYfIbekEd-D7YZN9NgldQ" name="Categories" guid="_9LYfIbekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9LYfIrekEd-D7YZN9NgldQ" name="Domains" guid="_9LYfIrekEd-D7YZN9NgldQ">
-        <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_0Uvy4M6FEdyndOCfdhe9bw" name="requirements_domain.assign" guid="_0Uvy4M6FEdyndOCfdhe9bw" variabilityType="contributes" variabilityBasedOnElement="_0Uvy4M6FEdyndOCfdhe9bw">
+        <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_0Uvy4M6FEdyndOCfdhe9bw" name="requirements_domain.assign" guid="_0Uvy4M6FEdyndOCfdhe9bw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="../core.default.cat_def.base/plugin.uma#_AIcLUK81Edy9cPK11VzBuQ"/>
           <workProducts href="../core.gen.common.base/plugin.uma#_Wn7HcNcEEdqz_d2XWoVt6Q"/>
         </contentElements>
       </childPackages>

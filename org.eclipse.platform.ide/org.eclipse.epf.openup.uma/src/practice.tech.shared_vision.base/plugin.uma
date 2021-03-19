@@ -34,7 +34,8 @@
         <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_WUiFcAeYEduWycDgioo5rg" name="stakeholder_need" guid="_WUiFcAeYEduWycDgioo5rg" presentationName="stakeholder need" variabilityBasedOnElement="_WUiFcAeYEduWycDgioo5rg">
           <presentation href="guidances/termdefinitions/stakeholder_need.uma#-1pmL5bC27rtWB84PXAgq9Q"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_gx-GgEL-EdyP_Jn83ylwUQ" name="vision.sv" guid="_gx-GgEL-EdyP_Jn83ylwUQ" variabilityType="contributes" variabilityBasedOnElement="_gx-GgEL-EdyP_Jn83ylwUQ">
+        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_gx-GgEL-EdyP_Jn83ylwUQ" name="vision.sv" guid="_gx-GgEL-EdyP_Jn83ylwUQ" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="../core.tech.common.extend_supp/plugin.uma#_0WVxcMlgEdmt3adZL5Dmdw"/>
           <fulfills href="../core.tech.slot.base/plugin.uma#_i3vkoLS-EduDY8LNbMCDBA"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_a7qSUB4nEd2bS8fFOQ7WWA" name="shared_vision" guid="_a7qSUB4nEd2bS8fFOQ7WWA" presentationName="Shared Vision" briefDescription="This practice supports defining and communicating an overall vision for the project." variabilityBasedOnElement="_a7qSUB4nEd2bS8fFOQ7WWA">

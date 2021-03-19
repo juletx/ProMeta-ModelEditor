@@ -6,7 +6,8 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ZFkA7ekEd-D7YZN9NgldQ" name="Categories" guid="_9ZFkA7ekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ZFkBLekEd-D7YZN9NgldQ" name="Domains" guid="_9ZFkBLekEd-D7YZN9NgldQ"/>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ZFkBbekEd-D7YZN9NgldQ" name="Disciplines" guid="_9ZFkBbekEd-D7YZN9NgldQ">
-        <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="__QJnsOxZEdyCFeiQwJE7Vg" name="project_management_discipline.assign" guid="__QJnsOxZEdyCFeiQwJE7Vg" variabilityType="contributes" variabilityBasedOnElement="__QJnsOxZEdyCFeiQwJE7Vg">
+        <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="__QJnsOxZEdyCFeiQwJE7Vg" name="project_management_discipline.assign" guid="__QJnsOxZEdyCFeiQwJE7Vg" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="../core.default.cat_def.base/plugin.uma#_iGSHtFZ-EdyIUdvDLLUdeg"/>
           <tasks href="../practice.mgmt.team_change_mgmt.base/plugin.uma#_0mwzEclgEdmt3adZL5Dmdw"/>
         </contentElements>
       </childPackages>
@@ -22,7 +23,8 @@
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ZFkDbekEd-D7YZN9NgldQ" name="CoreContent" guid="_9ZFkDbekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XQODkOxcEdyCFeiQwJE7Vg" name="role_ssignments" guid="_XQODkOxcEdyCFeiQwJE7Vg" presentationName="Role Assignments">
-        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qAqDwOxcEdyCFeiQwJE7Vg" name="request_change.assign_role" guid="_qAqDwOxcEdyCFeiQwJE7Vg" variabilityType="contributes" variabilityBasedOnElement="_qAqDwOxcEdyCFeiQwJE7Vg">
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qAqDwOxcEdyCFeiQwJE7Vg" name="request_change.assign_role" guid="_qAqDwOxcEdyCFeiQwJE7Vg" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.mgmt.team_change_mgmt.base/plugin.uma#_0mwzEclgEdmt3adZL5Dmdw"/>
           <performedBy href="../core.default.role_def.base/plugin.uma#_0dsWoMlgEdmt3adZL5Dmdw"/>
         </contentElements>
       </childPackages>

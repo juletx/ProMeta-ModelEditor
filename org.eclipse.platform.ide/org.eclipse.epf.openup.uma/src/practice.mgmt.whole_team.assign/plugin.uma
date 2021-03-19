@@ -18,11 +18,13 @@
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9cNwe7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9cNwe7ekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xqbsYEIuEd2GCesTWQms8Q" name="role_assignments" guid="_xqbsYEIuEd2GCesTWQms8Q" presentationName="role_assignments">
-        <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_z0iMcEIuEd2GCesTWQms8Q" name="analyst.assign_guidance" guid="_z0iMcEIuEd2GCesTWQms8Q" variabilityType="contributes" variabilityBasedOnElement="_z0iMcEIuEd2GCesTWQms8Q">
+        <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_z0iMcEIuEd2GCesTWQms8Q" name="analyst.assign_guidance" guid="_z0iMcEIuEd2GCesTWQms8Q" variabilityType="contributes">
           <presentation href="roles/analyst.assign_guidance.uma#-lviXbsQRcGsTcSjgLy1dvg"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="../core.default.role_def.base/plugin.uma#_0VxJsMlgEdmt3adZL5Dmdw"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_flg_MEihEd2O0_STOCj1Ow" name="developer.assign_guidance" guid="_flg_MEihEd2O0_STOCj1Ow" variabilityType="contributes" variabilityBasedOnElement="_flg_MEihEd2O0_STOCj1Ow">
+        <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_flg_MEihEd2O0_STOCj1Ow" name="developer.assign_guidance" guid="_flg_MEihEd2O0_STOCj1Ow" variabilityType="contributes">
           <presentation href="roles/developer.assign_guidance.uma#-oM6mYVImOYC0xt47Ekbwmg"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="../core.default.role_def.base/plugin.uma#_0YDosMlgEdmt3adZL5Dmdw"/>
           <guidelines href="../practice.mgmt.whole_team.base/plugin.uma#_rmBEkJjsEduad8I_c-ogIA"/>
         </contentElements>
       </childPackages>

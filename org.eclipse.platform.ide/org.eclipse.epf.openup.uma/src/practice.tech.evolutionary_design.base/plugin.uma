@@ -23,8 +23,9 @@
           <conceptsAndPapers href="../core.tech.common.extend_supp/plugin.uma#_Poc7IPDzEdqYgerqi84oCA"/>
           <conceptsAndPapers href="../core.tech.common.extend_supp/plugin.uma#__O7tAMVvEduLYZUGfgZrkQ"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_OlyWoOX7Edu8VZPtlaU33g" name="refactoring.ed" guid="_OlyWoOX7Edu8VZPtlaU33g" variabilityType="contributes" variabilityBasedOnElement="_OlyWoOX7Edu8VZPtlaU33g" checklists="_0XSzsMlgEdmt3adZL5Dmdw">
+        <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_OlyWoOX7Edu8VZPtlaU33g" name="refactoring.ed" guid="_OlyWoOX7Edu8VZPtlaU33g" variabilityType="contributes" checklists="_0XSzsMlgEdmt3adZL5Dmdw">
           <presentation href="guidances/guidelines/refactoring.ed.uma#-g0jWGmg-E0rCQEmnibTDIA"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Guideline" href="../core.tech.common.extend_supp/plugin.uma#_YNx2sJ05EdyQ3oTO93enUw"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="__MnggPTdEduDKIuqTXQ8SA" name="analyze_the_design" guid="__MnggPTdEduDKIuqTXQ8SA" presentationName="Analyze the Design" briefDescription="This guideline describes how to approach creating a solution from requirements or change requests. A better solution will usually emerge when even a brief amount of time is spent analyzing the problem and considering approaches." variabilityBasedOnElement="__MnggPTdEduDKIuqTXQ8SA" conceptsAndPapers="_bFjlAPTYEduDKIuqTXQ8SA _T9FbYFRFEd2o7OqLaYh8nA" checklists="_0XSzsMlgEdmt3adZL5Dmdw">
           <presentation href="guidances/guidelines/analyze_the_design.uma#-1vS_ELnQxGQKwfCrRYrc7w"/>

@@ -5,18 +5,21 @@
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9QS0ULekEd-D7YZN9NgldQ" name="Content" guid="_9QS0ULekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9QS0UbekEd-D7YZN9NgldQ" name="Categories" guid="_9QS0UbekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9QS0UrekEd-D7YZN9NgldQ" name="Domains" guid="_9QS0UrekEd-D7YZN9NgldQ">
-        <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_DBUoYM3_EdylYe2DrHGiXg" name="test_domain.assign" guid="_DBUoYM3_EdylYe2DrHGiXg" variabilityType="contributes" variabilityBasedOnElement="_DBUoYM3_EdylYe2DrHGiXg">
+        <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_DBUoYM3_EdylYe2DrHGiXg" name="test_domain.assign" guid="_DBUoYM3_EdylYe2DrHGiXg" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="../core.default.cat_def.base/plugin.uma#_CsgDgK81Edy9cPK11VzBuQ"/>
           <workProducts href="../core.tech.common.extend_supp/plugin.uma#_0ZS-0MlgEdmt3adZL5Dmdw"/>
           <workProducts href="../core.tech.common.extend_supp/plugin.uma#_0ZfMEMlgEdmt3adZL5Dmdw"/>
           <workProducts href="../core.tech.common.extend_supp/plugin.uma#_0ZlSsMlgEdmt3adZL5Dmdw"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_OYp2IM6FEdyndOCfdhe9bw" name="requirements_domain.assign" guid="_OYp2IM6FEdyndOCfdhe9bw" variabilityType="contributes" variabilityBasedOnElement="_OYp2IM6FEdyndOCfdhe9bw">
+        <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_OYp2IM6FEdyndOCfdhe9bw" name="requirements_domain.assign" guid="_OYp2IM6FEdyndOCfdhe9bw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="../core.default.cat_def.base/plugin.uma#_AIcLUK81Edy9cPK11VzBuQ"/>
           <workProducts href="../core.tech.common.extend_supp/plugin.uma#_0WVxcMlgEdmt3adZL5Dmdw"/>
           <workProducts href="../core.tech.common.extend_supp/plugin.uma#_BVh9cL-CEdqb7N6KIeDL8Q"/>
           <workProducts href="../core.tech.common.extend_supp/plugin.uma#_W2SgEDR5EdutE_HNDTJk5Q"/>
           <workProducts href="../core.tech.common.extend_supp/plugin.uma#_0VGbUMlgEdmt3adZL5Dmdw"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_w9y1MNj5EdyzZqGyZ7hwdw" name="development_domain.assign" guid="_w9y1MNj5EdyzZqGyZ7hwdw" variabilityType="contributes" variabilityBasedOnElement="_w9y1MNj5EdyzZqGyZ7hwdw">
+        <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_w9y1MNj5EdyzZqGyZ7hwdw" name="development_domain.assign" guid="_w9y1MNj5EdyzZqGyZ7hwdw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="../core.default.cat_def.base/plugin.uma#_5JQLoK80Edy9cPK11VzBuQ"/>
           <workProducts href="../core.tech.common.extend_supp/plugin.uma#_JqYbgJ01EdyQ3oTO93enUw"/>
           <workProducts href="../core.tech.common.extend_supp/plugin.uma#_0YuXEMlgEdmt3adZL5Dmdw"/>
         </contentElements>

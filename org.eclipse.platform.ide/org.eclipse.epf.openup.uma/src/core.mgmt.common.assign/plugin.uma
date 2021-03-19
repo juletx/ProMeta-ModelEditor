@@ -5,11 +5,13 @@
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NA20LekEd-D7YZN9NgldQ" name="Content" guid="_9NA20LekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NA20bekEd-D7YZN9NgldQ" name="Categories" guid="_9NA20bekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9NA20rekEd-D7YZN9NgldQ" name="Domains" guid="_9NA20rekEd-D7YZN9NgldQ">
-        <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_SI-xkOFnEdyhmsbt0Xyl8A" name="project_management_domain.assign" guid="_SI-xkOFnEdyhmsbt0Xyl8A" variabilityType="contributes" variabilityBasedOnElement="_SI-xkOFnEdyhmsbt0Xyl8A">
+        <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_SI-xkOFnEdyhmsbt0Xyl8A" name="project_management_domain.assign" guid="_SI-xkOFnEdyhmsbt0Xyl8A" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="../core.default.cat_def.base/plugin.uma#_8M6J4K80Edy9cPK11VzBuQ"/>
           <workProducts href="../core.mgmt.common.extend_supp/plugin.uma#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
           <workProducts href="../core.mgmt.common.extend_supp/plugin.uma#_rGNWsCbSEdqh1LYUOGRh2A"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_zxSx8LrTEd-0rKmWr1vEGQ" name="environment_domain.assign" guid="_zxSx8LrTEd-0rKmWr1vEGQ" variabilityType="contributes" variabilityBasedOnElement="_zxSx8LrTEd-0rKmWr1vEGQ">
+        <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_zxSx8LrTEd-0rKmWr1vEGQ" name="environment_domain.assign" guid="_zxSx8LrTEd-0rKmWr1vEGQ" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="../core.default.cat_def.base/plugin.uma#_Fpj0ALrUEd-0rKmWr1vEGQ"/>
           <workProducts href="../core.mgmt.common.extend_supp/plugin.uma#_2CEzsLrREd-0rKmWr1vEGQ"/>
         </contentElements>
       </childPackages>

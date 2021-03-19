@@ -64,7 +64,8 @@
         <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_rV_9MPndEdyLA5PXdgVJXw" name="how_to_adopt_concurrent_testing" guid="_rV_9MPndEdyLA5PXdgVJXw" presentationName="How to Adopt the Concurrent Testing practice" briefDescription="This roadmap describes how to adopt the Concurrent Testing practice." variabilityBasedOnElement="_rV_9MPndEdyLA5PXdgVJXw">
           <presentation href="guidances/roadmaps/how_to_adopt_concurrent_testing.uma#-gNCvPJgehxo6Gnb98n0AhA"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kC9OUNEVEdyxxIQodUOrwA" name="test_log.ct" guid="_kC9OUNEVEdyxxIQodUOrwA" variabilityType="contributes" variabilityBasedOnElement="_kC9OUNEVEdyxxIQodUOrwA">
+        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kC9OUNEVEdyxxIQodUOrwA" name="test_log.ct" guid="_kC9OUNEVEdyxxIQodUOrwA" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="../core.tech.common.extend_supp/plugin.uma#_0ZlSsMlgEdmt3adZL5Dmdw"/>
           <fulfills href="../core.tech.slot.base/plugin.uma#_fahB0EfUEdyiPI8btkmvmw"/>
         </contentElements>
       </childPackages>

@@ -19,8 +19,9 @@
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Q5RS7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9Q5RS7ekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZfXN0GpiEd24CboUCnKL3A" name="technical_guidance" guid="_ZfXN0GpiEd24CboUCnKL3A" presentationName="Technical Guidance">
-        <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_9ToeIB83Edqsvps02rpOOg" name="references.tech" guid="_9ToeIB83Edqsvps02rpOOg" variabilityType="contributes" variabilityBasedOnElement="_9ToeIB83Edqsvps02rpOOg">
+        <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_9ToeIB83Edqsvps02rpOOg" name="references.tech" guid="_9ToeIB83Edqsvps02rpOOg" variabilityType="contributes">
           <presentation href="guidances/supportingmaterials/references.tech.uma#-aCI9T-9TIe8D35yXBU6qvg"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../core.default.nav_view.base/plugin.uma#__nHToFndEd2EdJKkAyeBng"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_ctrEgEvCEdunZcj9T5hrMQ" name="pattern" guid="_ctrEgEvCEdunZcj9T5hrMQ" presentationName="pattern" variabilityBasedOnElement="_ctrEgEvCEdunZcj9T5hrMQ">
           <presentation href="guidances/termdefinitions/pattern.uma#-VJBtRm2brEKpRlnLWNF8_g"/>

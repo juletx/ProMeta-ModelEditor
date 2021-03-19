@@ -59,7 +59,8 @@
           <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_i8bUEL6cEdqti4GwqTkbsQ"/>
           <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_SM4YIL6dEdqti4GwqTkbsQ"/>
         </contentElements>
-        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_GQ1ucFSiEd-eHpalTL_lyA" name="build.ci" guid="_GQ1ucFSiEd-eHpalTL_lyA" variabilityType="contributes" variabilityBasedOnElement="_GQ1ucFSiEd-eHpalTL_lyA">
+        <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_GQ1ucFSiEd-eHpalTL_lyA" name="build.ci" guid="_GQ1ucFSiEd-eHpalTL_lyA" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="../core.tech.common.extend_supp/plugin.uma#_0YuXEMlgEdmt3adZL5Dmdw"/>
           <fulfills href="../core.tech.slot.base/plugin.uma#_Vux8UEfUEdyiPI8btkmvmw"/>
         </contentElements>
       </childPackages>
