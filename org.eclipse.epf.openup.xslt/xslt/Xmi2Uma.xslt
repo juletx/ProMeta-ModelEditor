@@ -36,17 +36,21 @@
     <xsl:variable name="descriptions" select="*[matches(name(), 'org\.eclipse\.epf\.uma:.*Description$')]"/>
     <xsl:template match="$descriptions">
         <xsl:copy>
-        	<xsl:attribute name="longPresentationName">
-                <xsl:value-of select="@name"/>
-            </xsl:attribute>
+            <xsl:if test="not(@longPresentationName)">
+                <xsl:attribute name="longPresentationName">
+                    <xsl:value-of select="@name"/>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
     <xsl:template match="org.eclipse.epf.uma:ActivityDescription|org.eclipse.epf.uma:DescriptorDescription|org.eclipse.epf.uma:ProcessDescription">
         <xsl:copy>
-        	<xsl:attribute name="longPresentationName">
-                <xsl:value-of select="@name"/>
-            </xsl:attribute>
+            <xsl:if test="not(@longPresentationName)">
+                <xsl:attribute name="longPresentationName">
+                    <xsl:value-of select="@name"/>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
@@ -60,14 +64,16 @@
             </xsl:attribute>
             <xsl:apply-templates select="@*|node()[not(name()='process')]"/>
             <xsl:element name="process">
-                <xsl:if test="not(variabilityBasedOnElement)">
+                <xsl:if test="not(process/variabilityBasedOnElement)">
                     <xsl:attribute name="variabilityBasedOnElement">
                         <xsl:value-of select="process/@guid"/>
                     </xsl:attribute>
                 </xsl:if>
-                <xsl:attribute name="superActivities">
-                    <xsl:value-of select="process/@guid"/>
-                </xsl:attribute>
+                <xsl:if test="not(process/@superActivities)">
+                    <xsl:attribute name="superActivities">
+                        <xsl:value-of select="process/@guid"/>
+                    </xsl:attribute>
+                </xsl:if>
                 <xsl:attribute name="breakdownElements">
                     <xsl:value-of select="concat($breakdownElements, concat(' ', $guid))"/>
                 </xsl:attribute>
@@ -92,9 +98,11 @@
     <!--processElements-->
     <xsl:template match="processElements[@xsi:type='org.eclipse.epf.uma:Milestone']">
         <xsl:copy>
-            <xsl:attribute name="superActivities">
-                <xsl:value-of select="@guid"/>
-            </xsl:attribute>
+            <xsl:if test="not(@superActivities)">
+                <xsl:attribute name="superActivities">
+                    <xsl:value-of select="@guid"/>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
