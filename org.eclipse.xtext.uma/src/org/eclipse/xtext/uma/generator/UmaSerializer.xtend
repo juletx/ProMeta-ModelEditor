@@ -18,6 +18,7 @@ import org.eclipse.epf.uma.Iteration
 import org.eclipse.epf.uma.CapabilityPattern
 import org.eclipse.epf.uma.Activity
 import org.eclipse.epf.uma.TaskDescriptor
+import org.eclipse.epf.uma.WorkProductDescriptor
 
 class UmaSerializer extends AbstractGenerator {
 
@@ -39,34 +40,48 @@ class UmaSerializer extends AbstractGenerator {
 		outputPath.createPlatformResourceURI(true)
 	}
 	
-	def Iterable<MethodConfiguration> getMethodConfigurations(Resource r) {
-		return r.allContents.toIterable.filter(MethodConfiguration)
+	def Iterable<MethodConfiguration> getMethodConfigurations(Resource input) {
+		return input.allContents.toIterable.filter(MethodConfiguration)
 	}
 	
-	def Iterable<RoleSet> getRoleSets(Resource r) {
-		return r.allContents.toIterable.filter(RoleSet).reject[roles.isEmpty]
+	def Iterable<RoleSet> getRoleSets(Resource input) {
+		return input.allContents.toIterable.filter(RoleSet).reject[roles.isEmpty]
 	}
 	
-	def Iterable<Role> getRoles(RoleSet r) {
-		return r.roles.reject[presentationName.isEmpty]
+	def Iterable<Role> getRoles(RoleSet input) {
+		return input.roles.reject[presentationName.isEmpty]
 	}
 	
-	def Iterable<DeliveryProcess> getDeliveryProcesses(Resource r) {
-		return r.allContents.toIterable.filter(DeliveryProcess)
+	def Iterable<DeliveryProcess> getDeliveryProcesses(Resource input) {
+		return input.allContents.toIterable.filter(DeliveryProcess).reject[name=="abrd_governance" || name=="abrd_process" || name=="openUp_abrd"]
 	}
 	
-	def Iterable<Phase> getPhases(Resource r) {
-		return r.allContents.toIterable.filter(Phase).reject[briefDescription.isEmpty]
+	def Iterable<Phase> getPhases(Resource input) {
+		return input.allContents.toIterable.filter(Phase).reject[briefDescription.isEmpty]
 	}
 	
-	def Iterable<Activity> getActivities(Iteration i) {
-		val capabilityPattern = i.variabilityBasedOnElement as CapabilityPattern
-		return capabilityPattern.breakdownElements.filter(Activity)
+	def Iterable<Activity> getActivities(Iteration iteration) {
+		if (iteration.variabilityBasedOnElement instanceof CapabilityPattern) {
+			val capabilityPattern = iteration.variabilityBasedOnElement as CapabilityPattern
+			return capabilityPattern.breakdownElements.filter(Activity).
+		}
+		else {
+			return iteration.breakdownElements.filter(Activity)
+		}
 	}
 	
-	def Iterable<TaskDescriptor> getTaskDescriptors(Activity i) {
-		val capabilityPattern = i.variabilityBasedOnElement as CapabilityPattern
-		return capabilityPattern.breakdownElements.filter(TaskDescriptor)
+	def Iterable<TaskDescriptor> getTaskDescriptors(Activity activity) {
+		if (activity.variabilityBasedOnElement instanceof CapabilityPattern) {
+			val capabilityPattern = activity.variabilityBasedOnElement as CapabilityPattern
+			return capabilityPattern.breakdownElements.filter(TaskDescriptor)
+		}
+		else {
+			return activity.breakdownElements.filter(TaskDescriptor)
+		}
+	}
+	
+	def Iterable<WorkProductDescriptor> getWorkProductDescriptors(TaskDescriptor taskDescriptor) {
+		return taskDescriptor.output
 	}
 	
 	def compile(Resource input) '''
@@ -111,21 +126,15 @@ class UmaSerializer extends AbstractGenerator {
 			"«deliveryProcess.defaultContext.guid»"
 		);
 		
-		«FOR phase: input.getPhases»
+		«FOR phase: deliveryProcess.breakdownElements.filter(Phase)»
 		INSERT INTO phases VALUES (
-			«FOR phase2: deliveryProcess.breakdownElements.filter(Phase)»
-			«IF phase.presentationName == phase2.presentationName»
-			"«phase2.guid»",
-			«ENDIF»
-			«ENDFOR»
+			"«phase.guid»",
 			"«phase.name»",
 			"«phase.presentationName»",
 			"«phase.briefDescription»",
 			"«deliveryProcess.guid»"
 		);
-		«ENDFOR»
 		
-		«FOR phase: deliveryProcess.breakdownElements.filter(Phase)»
 		«FOR iteration: phase.breakdownElements.filter(Iteration)»
 		INSERT INTO iterations VALUES (
 			"«iteration.guid»",
@@ -153,9 +162,34 @@ class UmaSerializer extends AbstractGenerator {
 			"«taskDescriptor.guid»",
 			"«taskDescriptor.name»",
 			"«taskDescriptor.presentationName»",
-			"«taskDescriptor.briefDescription»",
-			"«activity.guid»"
+			"«taskDescriptor.briefDescription.replaceAll("\"","\\\\\"")»",
+			"«activity.guid»",
+			NULL
 		);
+		
+		«FOR section: taskDescriptor.selectedSteps»
+		INSERT INTO sections VALUES (
+			"«section.guid»",
+			"«section.name»",
+			"«section.name»",
+			"«section.sectionDescription.replaceAll("\"","\\\\\"")»",
+			"«taskDescriptor.guid»"
+		);
+		
+		«FOR workProductDescriptor: taskDescriptor.output»
+		INSERT INTO artifacts VALUES (
+			"«workProductDescriptor.guid»",
+			"«workProductDescriptor.name»",
+			"«workProductDescriptor.presentationName»",
+			"«workProductDescriptor.briefDescription»"
+		);
+		
+		INSERT INTO task_artifacts VALUES (
+			"«taskDescriptor.guid»",
+			"«workProductDescriptor.guid»"
+		);
+		«ENDFOR»
+		«ENDFOR»
 		«ENDFOR»
 		«ENDFOR»
 		«ENDFOR»
