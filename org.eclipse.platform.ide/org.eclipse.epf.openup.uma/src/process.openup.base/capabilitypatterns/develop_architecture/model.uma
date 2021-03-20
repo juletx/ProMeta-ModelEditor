@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_KaeNsNOFEdyqlogshP8l4g" name="develop_architecture" guid="_KaeNsNOFEdyqlogshP8l4g" interfaces="d483e12">
-  <methodElementProperty xmi:id="_G-Ch4Bo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_KaeNsNOFEdyqlogshP8l4g" name="develop_architecture" guid="_KaeNsNOFEdyqlogshP8l4g" interfaces="d666e12">
+  <methodElementProperty xmi:id="_U8NfoJoREeGnJt_Qpwdfdg" name="me_edited" value="true"/>
   <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9AxbekEd-D7YZN9NgldQ" name="develop_solution" guid="_9t9AxbekEd-D7YZN9NgldQ">
     <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_TV_k8dOKEdyqlogshP8l4g" name="develop_solution" guid="_TV_k8dOKEdyqlogshP8l4g" superActivities="_KaeNsdOFEdyqlogshP8l4g" variabilityType="extends">
       <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="../develop_solution/model.uma#_RXGoodOFEdyqlogshP8l4g"/>
     </processElements>
   </childPackages>
   <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_EjG_cNOKEdyqlogshP8l4g" name="architecture_notebook" guid="_EjG_cNOKEdyqlogshP8l4g" presentationName="Architecture Notebook" briefDescription="This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
-    <methodElementProperty xmi:id="_G-Ch4Ro0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <methodElementProperty xmi:id="_FS2QApoPEeGnJt_Qpwdfdg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
     <presentation href="content.uma#-V51fxSq2AzJuVZF90kMOmA"/>
     <checklists href="../../../practice.tech.evolutionary_arch.base/plugin.uma#_17PYUNd6EdmIm-bsRSNCgw"/>
     <concepts href="../../../core.tech.common.extend_supp/plugin.uma#__O7tAMVvEduLYZUGfgZrkQ"/>
@@ -15,7 +15,7 @@
     <WorkProduct href="../../../practice.tech.evolutionary_arch.base/plugin.uma#_0XAf0MlgEdmt3adZL5Dmdw"/>
   </processElements>
   <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6RuKMN_1EdyOsumnGvWsEg" name="refine_the_arch" guid="_6RuKMN_1EdyOsumnGvWsEg" presentationName="Refine the Architecture" briefDescription="Refine the architecture to an appropriate level of detail to support development." superActivities="_KaeNsdOFEdyqlogshP8l4g" mandatoryInput="_6R37MN_1EdyOsumnGvWsEg _EjG_cNOKEdyqlogshP8l4g" optionalInput="_6R37Md_1EdyOsumnGvWsEg _6R37Mt_1EdyOsumnGvWsEg" output="_EjG_cNOKEdyqlogshP8l4g">
-    <methodElementProperty xmi:id="_G-Ch4ho0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <methodElementProperty xmi:id="_FSsfCZoPEeGnJt_Qpwdfdg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
     <presentation href="content.uma#-j18JWuRaOWhpi32MRwfW7A"/>
     <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_mzxI0A4LEduibvKwrGxWxA"/>
     <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_HrZGIA4MEduibvKwrGxWxA"/>
@@ -38,19 +38,19 @@
     <selectedSteps href="../../../practice.tech.evolutionary_arch.base/tasks/refine_the_arch.uma#_pyyVoFHPEd2zrOgIte8oWg"/>
   </processElements>
   <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6R37MN_1EdyOsumnGvWsEg" name="technical_specification_slot" guid="_6R37MN_1EdyOsumnGvWsEg" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
-    <methodElementProperty xmi:id="_G-Ch4xo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <methodElementProperty xmi:id="_FS2QBJoPEeGnJt_Qpwdfdg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
     <WorkProduct href="../../../core.tech.slot.base/plugin.uma#_i3vkoLS-EduDY8LNbMCDBA"/>
   </processElements>
   <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6R37Md_1EdyOsumnGvWsEg" name="technical_design_slot" guid="_6R37Md_1EdyOsumnGvWsEg" presentationName="[Technical Design]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe the realization of required system functionality, and serves as an abstraction of the solution." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
-    <methodElementProperty xmi:id="_G-Ch5Bo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <methodElementProperty xmi:id="_FS2QAJoPEeGnJt_Qpwdfdg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
     <WorkProduct href="../../../core.tech.slot.base/plugin.uma#_IcQOUEqdEdyi3_jfs__bIQ"/>
   </processElements>
   <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6R37Mt_1EdyOsumnGvWsEg" name="technical_implementation_slot" guid="_6R37Mt_1EdyOsumnGvWsEg" presentationName="[Technical Implementation]" briefDescription="This slot holds the artifacts that represent a technical implementation.  This can include source code, executable code, data, and software/hardware configurations." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
-    <methodElementProperty xmi:id="_G-Ch5Ro0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <methodElementProperty xmi:id="_FS2QA5oPEeGnJt_Qpwdfdg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
     <WorkProduct href="../../../core.tech.slot.base/plugin.uma#_Vux8UEfUEdyiPI8btkmvmw"/>
   </processElements>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d483e12" superActivities="_KaeNsdOFEdyqlogshP8l4g"/>
-  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_KaeNsdOFEdyqlogshP8l4g" name="develop_architecture" guid="_KaeNsdOFEdyqlogshP8l4g" presentationName="Develop the Architecture" briefDescription="Develop the architecturally significant requirements prioritized for this iteration." superActivities="_KaeNsdOFEdyqlogshP8l4g" variabilityBasedOnElement="_KaeNsdOFEdyqlogshP8l4g" breakdownElements="_EjG_cNOKEdyqlogshP8l4g _TV_k8dOKEdyqlogshP8l4g _6RuKMN_1EdyOsumnGvWsEg _6R37MN_1EdyOsumnGvWsEg _6R37Md_1EdyOsumnGvWsEg _6R37Mt_1EdyOsumnGvWsEg _KaeNsdOFEdyqlogshP8l4g d483e12">
+  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d666e12" superActivities="_KaeNsdOFEdyqlogshP8l4g"/>
+  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_KaeNsdOFEdyqlogshP8l4g" name="develop_architecture" guid="_KaeNsdOFEdyqlogshP8l4g" presentationName="Develop the Architecture" briefDescription="Develop the architecturally significant requirements prioritized for this iteration." superActivities="_KaeNsdOFEdyqlogshP8l4g" variabilityBasedOnElement="_KaeNsdOFEdyqlogshP8l4g" breakdownElements="_EjG_cNOKEdyqlogshP8l4g _TV_k8dOKEdyqlogshP8l4g _6RuKMN_1EdyOsumnGvWsEg _6R37MN_1EdyOsumnGvWsEg _6R37Md_1EdyOsumnGvWsEg _6R37Mt_1EdyOsumnGvWsEg _KaeNsdOFEdyqlogshP8l4g d666e12">
     <presentation href="content.uma#-VFp5B68iro5ga1pz4nbQFw"/>
     <defaultContext href="../../../configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/>
   </process>

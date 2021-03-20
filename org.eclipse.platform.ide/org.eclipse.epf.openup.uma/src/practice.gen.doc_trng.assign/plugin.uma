@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_p0w9wJlfEeGlkdGl1HQlDA" name="practice.gen.doc_trng.assign" guid="_p0w9wJlfEeGlkdGl1HQlDA" presentationName="Documentation and Training Assignments" changeDate="2012-05-09T00:47:42.994+0200">
-  <methodElementProperty xmi:id="_GogXABo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
-  <methodElementProperty xmi:id="_GogXARo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+  <methodElementProperty xmi:id="_p1NpsplfEeGlkdGl1HQlDA" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_0nlnIJlfEeGlkdGl1HQlDA" name="me_edited" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_p0w9wZlfEeGlkdGl1HQlDA" name="Content" guid="_p0w9wZlfEeGlkdGl1HQlDA">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_p0w9wplfEeGlkdGl1HQlDA" name="Categories" guid="_p0w9wplfEeGlkdGl1HQlDA">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_p0w9w5lfEeGlkdGl1HQlDA" name="Domains" guid="_p0w9w5lfEeGlkdGl1HQlDA">
         <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_2GvlYJliEeGlkdGl1HQlDA" name="deployment_domain.assign" guid="_2GvlYJliEeGlkdGl1HQlDA" briefDescription="This is the list of work products related to the Documentation and Training domain." variabilityType="contributes">
-          <methodElementProperty xmi:id="_GogXAho0EeuXnIT9fOh1Fg" name="CategoryElementsSortType" value="Alphabetic"/>
-          <methodElementProperty xmi:id="_GogXAxo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_2HWCUJliEeGlkdGl1HQlDA" name="CategoryElementsSortType" value="Alphabetic"/>
+          <methodElementProperty xmi:id="_q6UPUJoJEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
           <presentation href="domains/deployment_domain.assign.uma#-LO7pSlyujIzk-snyVUg48A"/>
           <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="../core.default.cat_def.base/plugin.uma#_fEIy4JoGEeGnJt_Qpwdfdg"/>
           <workProducts href="../practice.gen.doc_trng.base/plugin.uma#_-zf1tuB8EeC1y_NExchKwQ"/>
@@ -19,8 +19,8 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_p0w9xJlfEeGlkdGl1HQlDA" name="Disciplines" guid="_p0w9xJlfEeGlkdGl1HQlDA">
         <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_yvumQJliEeGlkdGl1HQlDA" name="deployment_disciplne.assign" guid="_yvumQJliEeGlkdGl1HQlDA" variabilityType="contributes">
-          <methodElementProperty xmi:id="_GogXBBo0EeuXnIT9fOh1Fg" name="CategoryElementsSortType" value="Manual"/>
-          <methodElementProperty xmi:id="_GogXBRo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_yw65EJliEeGlkdGl1HQlDA" name="CategoryElementsSortType" value="Manual"/>
+          <methodElementProperty xmi:id="_mtXGsJoJEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
           <presentation href="disciplines/deployment_disciplne.assign.uma#-gzWORmCEYOe7ZhiVKDRrnA"/>
           <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="../core.default.cat_def.base/plugin.uma#_OjzNEJoGEeGnJt_Qpwdfdg"/>
           <tasks href="../practice.gen.doc_trng.base/plugin.uma#_-zfOruB8EeC1y_NExchKwQ"/>
@@ -44,44 +44,44 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_p0w9zJlfEeGlkdGl1HQlDA" name="CoreContent" guid="_p0w9zJlfEeGlkdGl1HQlDA">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_p19QkJlfEeGlkdGl1HQlDA" name="role_assignments" guid="_p19QkJlfEeGlkdGl1HQlDA">
         <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_p2HBkJlfEeGlkdGl1HQlDA" name="develop_product_documentation.assign_role" guid="_p2HBkJlfEeGlkdGl1HQlDA" variabilityType="contributes">
-          <methodElementProperty xmi:id="_Gog90Bo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_OOJVIJlhEeGlkdGl1HQlDA" name="me_edited" value="true"/>
           <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.gen.doc_trng.base/plugin.uma#_-zfOruB8EeC1y_NExchKwQ"/>
           <performedBy href="../core.default.role_def.base/plugin.uma#_-zf1teB8EeC1y_NExchKwQ"/>
           <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_0YDosMlgEdmt3adZL5Dmdw"/>
           <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_-a85MeCEEeC1y_NExchKwQ"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_p2HBkZlfEeGlkdGl1HQlDA" name="develop_support_documentation.assign_role" guid="_p2HBkZlfEeGlkdGl1HQlDA" variabilityType="contributes">
-          <methodElementProperty xmi:id="_Gog90Ro0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_1oeKcJlhEeGlkdGl1HQlDA" name="me_edited" value="true"/>
           <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.gen.doc_trng.base/plugin.uma#_-zfOp-B8EeC1y_NExchKwQ"/>
           <performedBy href="../core.default.role_def.base/plugin.uma#_-zf1teB8EeC1y_NExchKwQ"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_p2HBkplfEeGlkdGl1HQlDA" name="develop_user_documentation.assign_role" guid="_p2HBkplfEeGlkdGl1HQlDA" variabilityType="contributes">
-          <methodElementProperty xmi:id="_Gog90ho0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_L2VTwJliEeGlkdGl1HQlDA" name="me_edited" value="true"/>
           <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.gen.doc_trng.base/plugin.uma#_-zfOoOB8EeC1y_NExchKwQ"/>
           <performedBy href="../core.default.role_def.base/plugin.uma#_-zf1teB8EeC1y_NExchKwQ"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_p2HBk5lfEeGlkdGl1HQlDA" name="develop_training_materials.assign_role" guid="_p2HBk5lfEeGlkdGl1HQlDA" variabilityType="contributes">
-          <methodElementProperty xmi:id="_Gog90xo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_Ht_lYJliEeGlkdGl1HQlDA" name="me_edited" value="true"/>
           <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.gen.doc_trng.base/plugin.uma#_-zenmeB8EeC1y_NExchKwQ"/>
           <performedBy href="../core.default.role_def.base/plugin.uma#_cQjSAPWkEeC0T_-ipt2c0Q"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_p2HBlJlfEeGlkdGl1HQlDA" name="deliver_support_training.assign_role" guid="_p2HBlJlfEeGlkdGl1HQlDA" variabilityType="contributes">
-          <methodElementProperty xmi:id="_Gog91Bo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="__FmzQJlhEeGlkdGl1HQlDA" name="me_edited" value="true"/>
           <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.gen.doc_trng.base/plugin.uma#_-zenlOB8EeC1y_NExchKwQ"/>
           <performedBy href="../core.default.role_def.base/plugin.uma#_-zenk-B8EeC1y_NExchKwQ"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_p2HBlZlfEeGlkdGl1HQlDA" name="deliver_end_user_training.assign_role" guid="_p2HBlZlfEeGlkdGl1HQlDA" variabilityType="contributes">
-          <methodElementProperty xmi:id="_Gog91Ro0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_8kXlkJlhEeGlkdGl1HQlDA" name="me_edited" value="true"/>
           <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.gen.doc_trng.base/plugin.uma#_-zeAg-B8EeC1y_NExchKwQ"/>
           <performedBy href="../core.default.role_def.base/plugin.uma#_-zenk-B8EeC1y_NExchKwQ"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_u5GscpldEeGlkdGl1HQlDA" name="course_developer" guid="_u5GscpldEeGlkdGl1HQlDA" variabilityType="contributes">
-          <methodElementProperty xmi:id="_Gog91ho0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_YR_1IJlgEeGlkdGl1HQlDA" name="me_edited" value="true"/>
           <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="../core.default.role_def.base/plugin.uma#_cQjSAPWkEeC0T_-ipt2c0Q"/>
           <responsibleFor href="../practice.gen.doc_trng.base/plugin.uma#_-zeAguB8EeC1y_NExchKwQ"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_u5Gsc5ldEeGlkdGl1HQlDA" name="technical_writer" guid="_u5Gsc5ldEeGlkdGl1HQlDA" variabilityType="contributes">
-          <methodElementProperty xmi:id="_Gog91xo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_1xOTQJlgEeGlkdGl1HQlDA" name="me_edited" value="true"/>
           <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="../core.default.role_def.base/plugin.uma#_-zf1teB8EeC1y_NExchKwQ"/>
           <responsibleFor href="../practice.gen.doc_trng.base/plugin.uma#_-zf1tuB8EeC1y_NExchKwQ"/>
           <responsibleFor href="../practice.gen.doc_trng.base/plugin.uma#_-zfOreB8EeC1y_NExchKwQ"/>
@@ -95,6 +95,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_p0w9zZlfEeGlkdGl1HQlDA" name="CapabilityPatterns" guid="_p0w9zZlfEeGlkdGl1HQlDA"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_p0w9zplfEeGlkdGl1HQlDA" name="DeliveryProcesses" guid="_p0w9zplfEeGlkdGl1HQlDA"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_p0w9z5lfEeGlkdGl1HQlDA" name="ProcessContributions" guid="_p0w9z5lfEeGlkdGl1HQlDA"/>
   <bases href="../practice.gen.doc_trng.base/plugin.uma#_wDZIUOCFEeC1y_NExchKwQ"/>
   <bases href="../core.default.cat_def.base/plugin.uma#_MRPloEFXEdy9ENCpSugIjA"/>
   <bases href="../core.default.role_def.base/plugin.uma#_A118oMYaEdyXeo04os5BOw"/>

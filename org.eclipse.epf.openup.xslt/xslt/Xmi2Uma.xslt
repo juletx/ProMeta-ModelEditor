@@ -14,19 +14,67 @@
     <xsl:template match="org.eclipse.epf.uma:MethodLibrary">
         <xsl:copy>
             <xsl:apply-templates select="@*|node()"/>
-        	<xsl:element name="predefinedConfigurations">
+            <xsl:element name="predefinedConfigurations">
+                <xsl:attribute name="href">
+                    <xsl:value-of select="'configurations/all_epf_practices.uma#_QD87wFRHEd2CWscN8Mx6rg'"/>
+                </xsl:attribute>
+            </xsl:element>
+            <xsl:element name="predefinedConfigurations">
                 <xsl:attribute name="href">
                     <xsl:value-of select="'configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA'"/>
                 </xsl:attribute>
             </xsl:element>
+            <xsl:element name="predefinedConfigurations">
+                <xsl:attribute name="href">
+                    <xsl:value-of select="'configurations/tech.abrd.uma#_PFU-AMVeEd2n6fDcl3UsZg'"/>
+                </xsl:attribute>
+            </xsl:element>
+        </xsl:copy>
+    </xsl:template>
+    <!--MethodConfiguration-->
+    <xsl:template match="org.eclipse.epf.uma:MethodConfiguration">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+            <xsl:if test="not(defaultView)">
+                <xsl:element name="defaultView">
+                    <xsl:attribute name="xsi:type">
+                        <xsl:value-of select="'org.eclipse.epf.uma:CustomCategory'"/>
+                    </xsl:attribute>
+                    <xsl:if test="@name='all_epf_practices'">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat($root, 'publish.all_epf_practices.base\plugin.uma#_AIeEkFRJEd2CWscN8Mx6rg')"/>
+                        </xsl:attribute>
+                    </xsl:if>
+                    <xsl:if test="@name='tech.abrd'">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat($root, 'publish.abrd.base\plugin.uma#_MltUMMVOEd2pfdXgw7I2qQ')"/>
+                        </xsl:attribute>
+                    </xsl:if>
+                </xsl:element>
+            </xsl:if>
         </xsl:copy>
     </xsl:template>
     <!--@variabilityBasedOnElement-->
-    <xsl:template match="contentElements|sections|processElements[@xsi:type='org.eclipse.epf.uma:Phase' or @xsi:type='org.eclipse.epf.uma:Iteration' or @xsi:type='org.eclipse.epf.uma:Activity']">
+    <xsl:template match="contentElements|sections|subdomains|subdiscipline|processElements[@xsi:type='org.eclipse.epf.uma:Phase' or @xsi:type='org.eclipse.epf.uma:Iteration' or @xsi:type='org.eclipse.epf.uma:Activity']">
         <xsl:copy>
             <xsl:if test="not(variabilityBasedOnElement)">
                 <xsl:attribute name="variabilityBasedOnElement">
                     <xsl:value-of select="@guid"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+    </xsl:template>
+    <xsl:template match="processElements[@xsi:type='org.eclipse.epf.uma:CapabilityPattern']">
+        <xsl:copy>
+            <xsl:if test="not(variabilityBasedOnElement)">
+                <xsl:attribute name="variabilityBasedOnElement">
+                    <xsl:value-of select="@guid"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:if test="not(defaultContext)">
+                <xsl:attribute name="defaultContext">
+                    <xsl:value-of select="concat($root, 'configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA')"/>
                 </xsl:attribute>
             </xsl:if>
             <xsl:apply-templates select="@*|node()"/>
@@ -44,11 +92,22 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-    <xsl:template match="org.eclipse.epf.uma:ActivityDescription|org.eclipse.epf.uma:DescriptorDescription|org.eclipse.epf.uma:ProcessDescription">
+    <xsl:template match="org.eclipse.epf.uma:ActivityDescription|org.eclipse.epf.uma:DescriptorDescription|org.eclipse.epf.uma:ProcessDescription|org.eclipse.epf.uma:DeliveryProcessDescription">
         <xsl:copy>
             <xsl:if test="not(@longPresentationName)">
                 <xsl:attribute name="longPresentationName">
                     <xsl:value-of select="@name"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+    </xsl:template>
+    <!--WorkOrder-->
+    <xsl:template match="processElements[@xsi:type='org.eclipse.epf.uma:WorkOrder']">
+        <xsl:copy>
+            <xsl:if test="not(@pred)">
+                <xsl:attribute name="pred">
+                    <xsl:value-of select="'_s37aO8VVEd2pfdXgw7I2qQ'"/>
                 </xsl:attribute>
             </xsl:if>
             <xsl:apply-templates select="@*|node()"/>
@@ -467,6 +526,102 @@
                 </xsl:when>
                 <xsl:when test="$proxy='uma://_SuWj4NOPEdyqlogshP8l4g'">
                     <xsl:value-of select="concat($root, concat('process.openup.base\deliveryprocesses\openup_lifecycle\model.uma', $hid))"/>
+                </xsl:when>
+                <!--all_epf_practices-->
+                <xsl:when test="$proxy='uma://_bIIs0FRFEd2CWscN8Mx6rg'">
+                    <xsl:value-of select="concat($root, concat('publish.all_epf_practices.base\plugin.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_XLuWYHn8Ed2ozs6whO3m5w'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\plugin.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_VVRjYHoCEd2ozs6whO3m5w'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.assign\plugin.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_HVCXcE7xEd-ttuvo_zEJ_g'">
+                    <xsl:value-of select="concat($root, concat('practice.bus.mdev.base\plugin.uma', $hid))"/>
+                </xsl:when>
+                <!--tech.abrd-->
+                <xsl:when test="$proxy='uma://_xco1IMVNEd2pfdXgw7I2qQ'">
+                    <xsl:value-of select="concat($root, concat('publish.abrd.base\plugin.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_Pnn0sMruEd2sX5aq6os4oQ'">
+                    <xsl:value-of select="concat($root, concat('process.abrd.base\plugin.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_92FEQH_DEd2YWI_0AZcMOA'">
+                    <xsl:value-of select="concat($root, concat('process.abrd.base\deliveryprocesses\abrd_governance\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_d9Oe8H9YEd26h9j0X6pKmw'">
+                    <xsl:value-of select="concat($root, concat('process.abrd.base\capabilitypatterns\deploy_business_rules\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_2_QBQH_BEd2YWI_0AZcMOA'">
+                    <xsl:value-of select="concat($root, concat('process.abrd.base\capabilitypatterns\develop_bre_architecture\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_2EcLMHqlEd2o_5d3MWaNxQ'">
+                    <xsl:value-of select="concat($root, concat('process.abrd.base\deliveryprocesses\abrd_process\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_OQxnAH_CEd2YWI_0AZcMOA'">
+                    <xsl:value-of select="concat($root, concat('process.abrd.base\capabilitypatterns\author_business_rules\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_40DokHqkEd2o_5d3MWaNxQ'">
+                    <xsl:value-of select="concat($root, concat('process.abrd.base\capabilitypatterns\discover_business_rules\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_2o6S8H_DEd2YWI_0AZcMOA'">
+                    <xsl:value-of select="concat($root, concat('process.abrd.base\capabilitypatterns\define_rule_governance\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_4NT9AH9XEd26h9j0X6pKmw'">
+                    <xsl:value-of select="concat($root, concat('process.abrd.base\capabilitypatterns\design_bre_integration\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_qx-1wH9WEd26h9j0X6pKmw'">
+                    <xsl:value-of select="concat($root, concat('process.abrd.base\capabilitypatterns\analyze_business_rules\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_oh_7EI5HEd21UNSm_M0-kg'">
+                    <xsl:value-of select="concat($root, concat('process.abrd.base\capabilitypatterns\validate_business_rules\model.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_iVgFYD3gEd-rQL4FfV6WbQ'">
+                    <xsl:value-of select="concat($root, concat('process.abrd.base\deliveryprocesses\openUp_abrd\model.uma', $hid))"/>
+                </xsl:when>
+                <!--other-->
+                <xsl:when test="$proxy='uma://-kaG_G7QLbZmoHMO8_47GiQ'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\tasks\transform_rules.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-J2_dBqOPRwbukM0MbrxpRg'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\tasks\develop_rules.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-AnRIdz0rPYyQVyzGVBxSqA'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\tasks\develop_organization_map.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-aim_xTKZyZptD_PbMWAtVA'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\tasks\develop_process_maps.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-gt8CaPXz6HldH1v7OnThvg'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\tasks\define_ruleset.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-FSjG7hFXf5jUyW13bEdakQ'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\tasks\build_rule_project_structure.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-bFlEvOsmuJvDiRkZZcf_uA'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\tasks\prototype_rules.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-AUjqKQk_naPhdZWAQR-Mmg'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\tasks\develop_architecture.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-GPF0smZFlAxXRJQwghRiZA'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\tasks\review_decision_point_table.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-Ak_E6i3qbz4NMG7ynyf4DA'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\tasks\define_discovery_roadmap.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-ffYBUOhR5mZssG9eZxktmg'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\tasks\organise_workshop.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-QyQxGy-JR3YceDG_VUN5aw'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\tasks\execute_rule_discovery_roadmap.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://-Ad6YqvwEevWhaZQqLrL8Tw'">
+                    <xsl:value-of select="concat($root, concat('practice.tech.abrd.base\tasks\test_analysis.uma', $hid))"/>
+                </xsl:when>
+                <xsl:when test="$proxy='uma://_SQUC7uSVEeClsZhiRW74DQ'">
+                    <xsl:value-of select="concat($root, concat('configurations/tech.abrd.uma', $hid))"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="."/>

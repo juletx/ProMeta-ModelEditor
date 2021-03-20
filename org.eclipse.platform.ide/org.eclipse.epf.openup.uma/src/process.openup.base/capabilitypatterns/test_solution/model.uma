@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_buG4sNOFEdyqlogshP8l4g" name="test_solution" guid="_buG4sNOFEdyqlogshP8l4g" interfaces="d508e14">
+<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_buG4sNOFEdyqlogshP8l4g" name="test_solution" guid="_buG4sNOFEdyqlogshP8l4g" interfaces="d691e14">
   <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Viv68NOLEdyqlogshP8l4g" name="implement_tests" guid="_Viv68NOLEdyqlogshP8l4g" presentationName="Implement Tests" briefDescription="Implement Test Scripts to validate a Build of the solution. Organize Test Scripts into suites, and collaborate to ensure appropriate depth and breadth of test feedback." superActivities="_buG4sdOFEdyqlogshP8l4g" mandatoryInput="_Vi5r8NOLEdyqlogshP8l4g" optionalInput="_Vi5r8dOLEdyqlogshP8l4g _Vi5r8tOLEdyqlogshP8l4g" output="_Vi5r8dOLEdyqlogshP8l4g">
     <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_0jnYcMlgEdmt3adZL5Dmdw"/>
     <guidelines href="../../../core.tech.common.extend_supp/plugin.uma#_0kF5kMlgEdmt3adZL5Dmdw"/>
@@ -49,8 +49,8 @@
     <presentation href="content.uma#-kjFCWWTMDhXbgfduK1uQCQ"/>
     <WorkProduct href="../../../core.tech.common.extend_supp/plugin.uma#_0ZlSsMlgEdmt3adZL5Dmdw"/>
   </processElements>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d508e14" superActivities="_buG4sdOFEdyqlogshP8l4g"/>
-  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_buG4sdOFEdyqlogshP8l4g" name="test_solution" guid="_buG4sdOFEdyqlogshP8l4g" presentationName="Test Solution" briefDescription="From a system perspective, test and evaluate the developed requirements." superActivities="_buG4sdOFEdyqlogshP8l4g" variabilityBasedOnElement="_buG4sdOFEdyqlogshP8l4g" breakdownElements="_Viv68NOLEdyqlogshP8l4g _Vi5r8NOLEdyqlogshP8l4g _Vi5r8dOLEdyqlogshP8l4g _Vi5r8tOLEdyqlogshP8l4g _WttSMNOLEdyqlogshP8l4g _WttSMdOLEdyqlogshP8l4g _buG4sdOFEdyqlogshP8l4g d508e14">
+  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d691e14" superActivities="_buG4sdOFEdyqlogshP8l4g"/>
+  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_buG4sdOFEdyqlogshP8l4g" name="test_solution" guid="_buG4sdOFEdyqlogshP8l4g" presentationName="Test Solution" briefDescription="From a system perspective, test and evaluate the developed requirements." superActivities="_buG4sdOFEdyqlogshP8l4g" variabilityBasedOnElement="_buG4sdOFEdyqlogshP8l4g" breakdownElements="_Viv68NOLEdyqlogshP8l4g _Vi5r8NOLEdyqlogshP8l4g _Vi5r8dOLEdyqlogshP8l4g _Vi5r8tOLEdyqlogshP8l4g _WttSMNOLEdyqlogshP8l4g _WttSMdOLEdyqlogshP8l4g _buG4sdOFEdyqlogshP8l4g d691e14">
     <presentation href="content.uma#--GUCGSJomnx0WV9XKvVyXQ"/>
     <defaultContext href="../../../configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/>
   </process>

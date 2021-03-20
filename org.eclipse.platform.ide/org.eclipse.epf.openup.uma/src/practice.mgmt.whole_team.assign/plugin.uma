@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_vtUfcEIuEd2GCesTWQms8Q" name="practice.mgmt.whole_team.assign" guid="_vtUfcEIuEd2GCesTWQms8Q" presentationName="Whole Team Assignments" changeDate="2008-06-24T10:49:33.000+0200">
-  <methodElementProperty xmi:id="_GobeRBo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnMy7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9cNwcLekEd-D7YZN9NgldQ" name="Content" guid="_9cNwcLekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9cNwcbekEd-D7YZN9NgldQ" name="Categories" guid="_9cNwcbekEd-D7YZN9NgldQ">
@@ -32,6 +32,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9cNwfLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9cNwfLekEd-D7YZN9NgldQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9cNwfbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9cNwfbekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9cNwfrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9cNwfrekEd-D7YZN9NgldQ"/>
   <bases href="../practice.mgmt.whole_team.base/plugin.uma#_40sbAJ6YEdyQN-zRFaRrCQ"/>
   <bases href="../core.default.role_def.base/plugin.uma#_A118oMYaEdyXeo04os5BOw"/>
 </org.eclipse.epf.uma:MethodPlugin>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="__ZInMNOEEdyqlogshP8l4g" name="ongoing_tasks" guid="__ZInMNOEEdyqlogshP8l4g" interfaces="d498e10">
+<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="__ZInMNOEEdyqlogshP8l4g" name="ongoing_tasks" guid="__ZInMNOEEdyqlogshP8l4g" interfaces="d681e10">
   <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_HGqkMNnTEdyNj6EOmqy5Rg" name="request_change" guid="_HGqkMNnTEdyNj6EOmqy5Rg" presentationName="Request Change" briefDescription="Capture and record change requests." superActivities="__ZInMdOEEdyqlogshP8l4g" output="_HGqkMdnTEdyNj6EOmqy5Rg">
     <guidelines href="../../../practice.mgmt.team_change_mgmt.base/plugin.uma#_fnZj0NVXEdqy9sbRhejO5Q"/>
     <Task href="../../../practice.mgmt.team_change_mgmt.base/plugin.uma#_0mwzEclgEdmt3adZL5Dmdw"/>
@@ -14,8 +14,8 @@
     <templates href="../../../core.mgmt.common.extend_supp/plugin.uma#_QwUJYDg0Edu4E8ZdmlYjtA"/>
     <WorkProduct href="../../../core.mgmt.common.extend_supp/plugin.uma#_rGNWsCbSEdqh1LYUOGRh2A"/>
   </processElements>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d498e10" superActivities="__ZInMdOEEdyqlogshP8l4g"/>
-  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="__ZInMdOEEdyqlogshP8l4g" name="ongoing_tasks" guid="__ZInMdOEEdyqlogshP8l4g" presentationName="Ongoing Tasks" briefDescription="Perform ongoing tasks that are not necessarily part of the project schedule." isPlanned="false" superActivities="__ZInMdOEEdyqlogshP8l4g" variabilityBasedOnElement="__ZInMdOEEdyqlogshP8l4g" breakdownElements="_HGqkMNnTEdyNj6EOmqy5Rg _HGqkMdnTEdyNj6EOmqy5Rg __ZInMdOEEdyqlogshP8l4g d498e10">
+  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d681e10" superActivities="__ZInMdOEEdyqlogshP8l4g"/>
+  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="__ZInMdOEEdyqlogshP8l4g" name="ongoing_tasks" guid="__ZInMdOEEdyqlogshP8l4g" presentationName="Ongoing Tasks" briefDescription="Perform ongoing tasks that are not necessarily part of the project schedule." isPlanned="false" superActivities="__ZInMdOEEdyqlogshP8l4g" variabilityBasedOnElement="__ZInMdOEEdyqlogshP8l4g" breakdownElements="_HGqkMNnTEdyNj6EOmqy5Rg _HGqkMdnTEdyNj6EOmqy5Rg __ZInMdOEEdyqlogshP8l4g d681e10">
     <presentation href="content.uma#-aXudKqi6rjimd3UsF0smZA"/>
     <defaultContext href="../../../configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/>
   </process>

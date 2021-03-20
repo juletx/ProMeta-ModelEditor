@@ -48,7 +48,7 @@ public class Xmi2Uma {
 	}
 
 	public static void main(String[] args) {
-		String inputDir = "C:\\Users\\julet\\GitHub\\ProMeta-ModelEditor\\org.eclipse.epf.openup\\";
+		String inputDir = "C:\\Users\\julet\\GitHub\\ProMeta-ModelEditor\\org.eclipse.epf.library\\";
 		String outputDir = "C:\\Users\\julet\\GitHub\\ProMeta-ModelEditor\\org.eclipse.platform.ide\\org.eclipse.epf.openup.uma\\src\\";
 		try {
 			TransformerFactory factory = new TransformerFactoryImpl();

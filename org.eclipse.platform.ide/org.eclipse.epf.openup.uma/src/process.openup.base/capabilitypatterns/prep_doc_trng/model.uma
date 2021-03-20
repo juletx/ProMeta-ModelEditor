@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_y7a0KpiLEeGOvpP1fVrVNA" name="prep_doc_trng" guid="_y7a0KpiLEeGOvpP1fVrVNA" interfaces="d504e25">
-  <methodElementProperty xmi:id="_G_Hf8Bo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_y7a0KpiLEeGOvpP1fVrVNA" name="prep_doc_trng" guid="_y7a0KpiLEeGOvpP1fVrVNA" interfaces="d687e32">
+  <methodElementProperty xmi:id="_abJBEJieEeGlkdGl1HQlDA" name="me_edited" value="true"/>
   <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_y7kklJiLEeGOvpP1fVrVNA" name="develop_product_documentation" guid="_y7kklJiLEeGOvpP1fVrVNA" presentationName="Develop Product Documentation" briefDescription="Because product documentation continues to be used after a development effort ends, it is important to ensure that the features developed within a particular release are clearly documented while the functionality is still fresh in the minds of team members." superActivities="_y7a0LJiLEeGOvpP1fVrVNA" output="_y7kkk5iLEeGOvpP1fVrVNA">
-    <methodElementProperty xmi:id="_G_Hf8Ro0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <methodElementProperty xmi:id="_WNIvkJieEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
     <presentation href="content.uma#-fz8LKMHNt9wb0sZo4mO04w"/>
     <Task href="../../../practice.gen.doc_trng.base/plugin.uma#_-zfOruB8EeC1y_NExchKwQ"/>
     <selectedSteps href="../../../practice.gen.doc_trng.base/tasks/develop_product_documentation.uma#_-zf1suB8EeC1y_NExchKwQ"/>
@@ -12,8 +12,8 @@
     <selectedSteps href="../../../practice.gen.doc_trng.base/tasks/develop_product_documentation.uma#_-zf1sOB8EeC1y_NExchKwQ"/>
   </processElements>
   <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_y7kkkpiLEeGOvpP1fVrVNA" name="develop_user_documentation" guid="_y7kkkpiLEeGOvpP1fVrVNA" presentationName="Develop User Documentation" briefDescription="User documentation must be developed and maintained for each Release so that the product's End Users will know how to operate the system effectively." superActivities="_y7a0LJiLEeGOvpP1fVrVNA" isSynchronizedWithSource="false" optionalInput="_y7kkk5iLEeGOvpP1fVrVNA" output="_y7a0K5iLEeGOvpP1fVrVNA">
-    <methodElementProperty xmi:id="_G_Hf8ho0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-    <methodElementProperty xmi:id="_G_Hf8xo0EeuXnIT9fOh1Fg" name="descriptor_customization" value="0"/>
+    <methodElementProperty xmi:id="_WNbqgZieEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <methodElementProperty xmi:id="_riyU4JlWEeGlkdGl1HQlDA" name="descriptor_customization" value="0"/>
     <presentation href="content.uma#-h5qFmsSg2p-6LPnB_IUogA"/>
     <Task href="../../../practice.gen.doc_trng.base/plugin.uma#_-zfOoOB8EeC1y_NExchKwQ"/>
     <selectedSteps href="../../../practice.gen.doc_trng.base/tasks/develop_user_documentation.uma#_-zfOo-B8EeC1y_NExchKwQ"/>
@@ -24,7 +24,7 @@
     <selectedSteps href="../../../practice.gen.doc_trng.base/tasks/develop_user_documentation.uma#_-zfOpuB8EeC1y_NExchKwQ"/>
   </processElements>
   <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_y7kkkJiLEeGOvpP1fVrVNA" name="develop_support_documentation" guid="_y7kkkJiLEeGOvpP1fVrVNA" presentationName="Develop Support Documentation" briefDescription="This type of documentation is used by production support and IT operations personnel on a regular basis to answer End Users' questions about a particular product, to troubleshoot issues, or to determine if an incident is a result of a defect or missed requirements." superActivities="_y7a0LJiLEeGOvpP1fVrVNA" optionalInput="_y7kkk5iLEeGOvpP1fVrVNA _y7a0K5iLEeGOvpP1fVrVNA" output="_y7kkkZiLEeGOvpP1fVrVNA">
-    <methodElementProperty xmi:id="_G_Hf9Bo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <methodElementProperty xmi:id="_WNbqgpieEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
     <presentation href="content.uma#-gdsRvq0kijdAY9bJ0FONYg"/>
     <Task href="../../../practice.gen.doc_trng.base/plugin.uma#_-zfOp-B8EeC1y_NExchKwQ"/>
     <selectedSteps href="../../../practice.gen.doc_trng.base/tasks/develop_support_documentation.uma#_-zfOquB8EeC1y_NExchKwQ"/>
@@ -34,25 +34,25 @@
     <selectedSteps href="../../../practice.gen.doc_trng.base/tasks/develop_support_documentation.uma#_-zfOqOB8EeC1y_NExchKwQ"/>
   </processElements>
   <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_y7kkk5iLEeGOvpP1fVrVNA" name="product_documentation" guid="_y7kkk5iLEeGOvpP1fVrVNA" presentationName="Product Documentation" briefDescription="Information about a specific product that has been captured in an organized format." isPlanned="false" superActivities="_y7a0LJiLEeGOvpP1fVrVNA">
-    <methodElementProperty xmi:id="_G_Hf9Ro0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
-    <methodElementProperty xmi:id="_G_Hf9ho0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <methodElementProperty xmi:id="_z1iSd5iLEeGOvpP1fVrVNA" name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty xmi:id="_WNR5gJieEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
     <presentation href="content.uma#-_kmWRdAS15z9HHQOi2bRUw"/>
     <WorkProduct href="../../../practice.gen.doc_trng.base/plugin.uma#_-zf1tuB8EeC1y_NExchKwQ"/>
   </processElements>
   <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_y7a0K5iLEeGOvpP1fVrVNA" name="user_documentation" guid="_y7a0K5iLEeGOvpP1fVrVNA" presentationName="User Documentation" briefDescription="Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product." isPlanned="false" superActivities="_y7a0LJiLEeGOvpP1fVrVNA">
-    <methodElementProperty xmi:id="_G_Hf9xo0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
-    <methodElementProperty xmi:id="_G_Hf-Bo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <methodElementProperty xmi:id="_z1iSeJiLEeGOvpP1fVrVNA" name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty xmi:id="_WNR5gpieEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
     <presentation href="content.uma#-pyRevWV0HtFS5y1wBPcCjw"/>
     <WorkProduct href="../../../practice.gen.doc_trng.base/plugin.uma#_-zf1tOB8EeC1y_NExchKwQ"/>
   </processElements>
   <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_y7kkkZiLEeGOvpP1fVrVNA" name="support_documentation" guid="_y7kkkZiLEeGOvpP1fVrVNA" presentationName="Support Documentation" briefDescription="Documents used by members of a production support team that provide information about how to service and support a specific product." isPlanned="false" superActivities="_y7a0LJiLEeGOvpP1fVrVNA">
-    <methodElementProperty xmi:id="_G_Hf-Ro0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
-    <methodElementProperty xmi:id="_G_Hf-ho0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <methodElementProperty xmi:id="_z1iSeZiLEeGOvpP1fVrVNA" name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty xmi:id="_WNbqgJieEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
     <presentation href="content.uma#-48XjWeRRpF2qfA3kioGYSA"/>
     <WorkProduct href="../../../practice.gen.doc_trng.base/plugin.uma#_-zfOreB8EeC1y_NExchKwQ"/>
   </processElements>
   <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ofI9sJlWEeGlkdGl1HQlDA" name="develop_training_materials" guid="_ofI9sJlWEeGlkdGl1HQlDA" presentationName="Develop Training Materials" briefDescription="This task is used to develop quality audio/visual materials that can be used to train End Users and IT production support personnel." superActivities="_y7a0LJiLEeGOvpP1fVrVNA" optionalInput="_y7kkk5iLEeGOvpP1fVrVNA _y7kkkZiLEeGOvpP1fVrVNA _y7a0K5iLEeGOvpP1fVrVNA" output="_ofSHoplWEeGlkdGl1HQlDA">
-    <methodElementProperty xmi:id="_G_Hf-xo0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <methodElementProperty xmi:id="_oflpoJlWEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
     <presentation href="content.uma#-LQefSmUJtkoZkQhMtmQpfg"/>
     <Task href="../../../practice.gen.doc_trng.base/plugin.uma#_-zenmeB8EeC1y_NExchKwQ"/>
     <selectedSteps href="../../../practice.gen.doc_trng.base/tasks/develop_training_materials.uma#_-zennOB8EeC1y_NExchKwQ"/>
@@ -63,13 +63,13 @@
     <selectedSteps href="../../../practice.gen.doc_trng.base/tasks/develop_training_materials.uma#_-zenneB8EeC1y_NExchKwQ"/>
   </processElements>
   <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ofSHoplWEeGlkdGl1HQlDA" name="training_materials" guid="_ofSHoplWEeGlkdGl1HQlDA" presentationName="Training Materials" briefDescription="This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release." isPlanned="false" superActivities="_y7a0LJiLEeGOvpP1fVrVNA">
-    <methodElementProperty xmi:id="_G_Hf_Bo0EeuXnIT9fOh1Fg" name="descriptor_createdByReference" value="true"/>
-    <methodElementProperty xmi:id="_G_Hf_Ro0EeuXnIT9fOh1Fg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+    <methodElementProperty xmi:id="_ofSHo5lWEeGlkdGl1HQlDA" name="descriptor_createdByReference" value="true"/>
+    <methodElementProperty xmi:id="_oflpoZlWEeGlkdGl1HQlDA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
     <presentation href="content.uma#-81zxeCXkSnPW-ndmULZWlQ"/>
     <WorkProduct href="../../../practice.gen.doc_trng.base/plugin.uma#_-zeAguB8EeC1y_NExchKwQ"/>
   </processElements>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d504e25" superActivities="_y7a0LJiLEeGOvpP1fVrVNA"/>
-  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0LJiLEeGOvpP1fVrVNA" name="prep_doc_trng" guid="_y7a0LJiLEeGOvpP1fVrVNA" presentationName="Develop Product Documentation and Training" briefDescription="This activity prepares product documentation and training materials." superActivities="_y7a0LJiLEeGOvpP1fVrVNA" variabilityBasedOnElement="_y7a0LJiLEeGOvpP1fVrVNA" breakdownElements="_y7kklJiLEeGOvpP1fVrVNA _y7kkkpiLEeGOvpP1fVrVNA _y7kkkJiLEeGOvpP1fVrVNA _y7kkk5iLEeGOvpP1fVrVNA _y7a0K5iLEeGOvpP1fVrVNA _y7kkkZiLEeGOvpP1fVrVNA _ofI9sJlWEeGlkdGl1HQlDA _ofSHoplWEeGlkdGl1HQlDA _y7a0LJiLEeGOvpP1fVrVNA d504e25">
+  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d687e32" superActivities="_y7a0LJiLEeGOvpP1fVrVNA"/>
+  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0LJiLEeGOvpP1fVrVNA" name="prep_doc_trng" guid="_y7a0LJiLEeGOvpP1fVrVNA" presentationName="Develop Product Documentation and Training" briefDescription="This activity prepares product documentation and training materials." superActivities="_y7a0LJiLEeGOvpP1fVrVNA" variabilityBasedOnElement="_y7a0LJiLEeGOvpP1fVrVNA" breakdownElements="_y7kklJiLEeGOvpP1fVrVNA _y7kkkpiLEeGOvpP1fVrVNA _y7kkkJiLEeGOvpP1fVrVNA _y7kkk5iLEeGOvpP1fVrVNA _y7a0K5iLEeGOvpP1fVrVNA _y7kkkZiLEeGOvpP1fVrVNA _ofI9sJlWEeGlkdGl1HQlDA _ofSHoplWEeGlkdGl1HQlDA _y7a0LJiLEeGOvpP1fVrVNA d687e32">
     <presentation href="content.uma#-yeqVyv9laglLKJHLoavEgA"/>
     <defaultContext href="../../../configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/>
   </process>

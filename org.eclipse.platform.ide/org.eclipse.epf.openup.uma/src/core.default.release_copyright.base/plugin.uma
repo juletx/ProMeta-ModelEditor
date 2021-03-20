@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_iVydgENdEdy245g62lfWcA" name="core.default.release_copyright.base" guid="_iVydgENdEdy245g62lfWcA" presentationName="Default Release Copyright" briefDescription="This plug-in defines the default copyright for open source plug-ins." changeDate="2008-03-03T17:14:03.000+0100" copyrightStatement="_uuunoPsDEdmyhNQr5STrZQ">
-  <methodElementProperty xmi:id="_GoZCLxo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnMs7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JlvYLekEd-D7YZN9NgldQ" name="Content" guid="_9JlvYLekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JlvYbekEd-D7YZN9NgldQ" name="Categories" guid="_9JlvYbekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JlvYrekEd-D7YZN9NgldQ" name="Domains" guid="_9JlvYrekEd-D7YZN9NgldQ"/>
@@ -29,7 +29,7 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QFSssGmJEd2wW88Ut0zE5w" name="release_info" guid="_QFSssGmJEd2wW88Ut0zE5w" presentationName="Release Information">
         <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_YOPJwGmJEd2wW88Ut0zE5w" name="release_info" guid="_YOPJwGmJEd2wW88Ut0zE5w" presentationName="Overall Practices Library" briefDescription="This page describes general release information for the practices library as a whole. Individual plug-ins and practices may have their own release information." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif" variabilityBasedOnElement="_YOPJwGmJEd2wW88Ut0zE5w">
-          <methodElementProperty xmi:id="_GoZCMBo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_J4AxIJq7EeGkJeeBCxGuog" name="me_edited" value="true"/>
           <presentation href="guidances/supportingmaterials/release_info.uma#-z3T-2PNgPoac2T9BEVXDNQ"/>
         </contentElements>
       </childPackages>
@@ -37,4 +37,5 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9JlvbLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9JlvbLekEd-D7YZN9NgldQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9JlvbbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9JlvbbekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9JlvbrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9JlvbrekEd-D7YZN9NgldQ"/>
 </org.eclipse.epf.uma:MethodPlugin>

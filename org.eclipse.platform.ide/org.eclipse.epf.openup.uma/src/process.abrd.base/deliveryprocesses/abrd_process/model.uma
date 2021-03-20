@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_2EcLMHqlEd2o_5d3MWaNxQ" name="abrd_process" guid="_2EcLMHqlEd2o_5d3MWaNxQ" interfaces="d654e326">
+  <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWjybekEd-D7YZN9NgldQ" name="Harvesting" guid="_9tWjybekEd-D7YZN9NgldQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWjyrekEd-D7YZN9NgldQ" name="discover_business_rules" guid="_9tWjyrekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_nIvp5cVVEd2pfdXgw7I2qQ" name="discover_business_rules" guid="_nIvp5cVVEd2pfdXgw7I2qQ" presentationName="Discover Business Rules" superActivities="_CryGMHqmEd2o_5d3MWaNxQ" variabilityBasedOnElement="_nIvp5cVVEd2pfdXgw7I2qQ" breakdownElements="_nIvp6cVVEd2pfdXgw7I2qQ _QYBzMD3gEd-rQL4FfV6WbQ _nIvp2MVVEd2pfdXgw7I2qQ _nIvp2cVVEd2pfdXgw7I2qQ _nIvp1sVVEd2pfdXgw7I2qQ _nIvp3MVVEd2pfdXgw7I2qQ _nIvp1MVVEd2pfdXgw7I2qQ _nIvp4MVVEd2pfdXgw7I2qQ _nIvp48VVEd2pfdXgw7I2qQ _nIvp1cVVEd2pfdXgw7I2qQ _nIvp18VVEd2pfdXgw7I2qQ _nIvp58VVEd2pfdXgw7I2qQ _nIvp08VVEd2pfdXgw7I2qQ _uJON1FmSEeCcpdiAcH0w-w _uJXXwVmSEeCcpdiAcH0w-w">
+        <presentation href="content.uma#-Nbe8Rdqjq4lgoQ95Y0ot9g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nIvp6cVVEd2pfdXgw7I2qQ" name="use_case_model" guid="_nIvp6cVVEd2pfdXgw7I2qQ" presentationName="Use-Case Model" briefDescription="This artifact captures a model of the intended functions and environment of the system and serves as a contract between the customer and the team." isPlanned="false" superActivities="_nIvp5cVVEd2pfdXgw7I2qQ">
+        <checklists href="../../../core.tech.common.extend_supp/plugin.uma#_0U6OEMlgEdmt3adZL5Dmdw"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_KudM0NcJEdqz_d2XWoVt6Q"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_2jyfUAhVEduRe8TeoBmuGg"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_zGqO0MDpEduTGJ8i4u8TMw"/>
+        <examples href="../../../core.tech.common.extend_supp/plugin.uma#_t4QdAMNqEdu2IdAIaWZyAw"/>
+        <WorkProduct href="../../../core.tech.common.extend_supp/plugin.uma#_W2SgEDR5EdutE_HNDTJk5Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_QYBzMD3gEd-rQL4FfV6WbQ" name="identify_decision_point" guid="_QYBzMD3gEd-rQL4FfV6WbQ" presentationName="Identify Decision Points" briefDescription="Decision points are points of variability and decision in a business process. The goal of this task is to list the potential decision points in scope for the project." superActivities="_nIvp5cVVEd2pfdXgw7I2qQ" isSynchronizedWithSource="false" output="_nIvp2cVVEd2pfdXgw7I2qQ _uJON1FmSEeCcpdiAcH0w-w">
+        <presentation href="content.uma#-hSvA_8i1JXnAg_ktO4yhVw"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_yNUigIMUEd-68ahhmSUqHw"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_eORS8GhhEd-FVuzXjnvIWA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_A2d5sCyQEd-ER8gMc_Ftrw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nIvp2MVVEd2pfdXgw7I2qQ" name="review_decision_point_table" guid="_nIvp2MVVEd2pfdXgw7I2qQ" presentationName="Review Decision Point Table, Business Process Map, Use Case Model" briefDescription="After the business modeling activity of the Inception Phase the project team should have a decision point table document as a source for the rule discovery phase. A review of each decision point is needed. If this table is not present the team can start by the current business process description and then layouts this DP table." superActivities="_nIvp5cVVEd2pfdXgw7I2qQ" linkToPredecessor="_ZJ870D3gEd-rQL4FfV6WbQ" isSynchronizedWithSource="false" mandatoryInput="_nIvp1sVVEd2pfdXgw7I2qQ" optionalInput="_nIvp6cVVEd2pfdXgw7I2qQ _nIvp2cVVEd2pfdXgw7I2qQ" output="_nIvp2cVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-EyvRETbaInP9YwVRsjUmpg"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_Fpgz4HqsEd2o_5d3MWaNxQ"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_eORS8GhhEd-FVuzXjnvIWA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_sruWzAjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/review_decision_point_table.uma#_sruWzQjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/review_decision_point_table.uma#_XA_IIHrPEd2o_5d3MWaNxQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/review_decision_point_table.uma#_sruWzwjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/review_decision_point_table.uma#_sruW0AjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/review_decision_point_table.uma#_1KxREHrNEd2o_5d3MWaNxQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/review_decision_point_table.uma#_sruWzgjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ZJ870D3gEd-rQL4FfV6WbQ" guid="_ZJ870D3gEd-rQL4FfV6WbQ" pred="_QYBzMD3gEd-rQL4FfV6WbQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nIvp2cVVEd2pfdXgw7I2qQ" name="decision_point_table" guid="_nIvp2cVVEd2pfdXgw7I2qQ" presentationName="Decision Point Table" isPlanned="false" superActivities="_nIvp5cVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-7Qhv3MVOtdt02aO-ujeUXQ"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_kRoWgBDFEdyJtJ3PbfdVDw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_SlELAAsbEdyPCr4G1Tb79A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nIvp1sVVEd2pfdXgw7I2qQ" name="business_process_map" guid="_nIvp1sVVEd2pfdXgw7I2qQ" presentationName="Business Process Map" briefDescription="A Process map describes graphically using Business Process Management Notation (BPMN) the business process under scope." isPlanned="false" superActivities="_nIvp5cVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-wn8vCP9iknXfxQNa_Gt3Zg"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_Uw8aYBDGEdyJtJ3PbfdVDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nIvp3MVVEd2pfdXgw7I2qQ" name="define_discovery_roadmap" guid="_nIvp3MVVEd2pfdXgw7I2qQ" presentationName="Define Discovery Roadmap" briefDescription="The definition of the discovery roadmap is an important step to understand how the development team will extract the rules from the different kind of sources. There are multiple types of roadmaps according to the different starting points and rule sources." superActivities="_nIvp5cVVEd2pfdXgw7I2qQ" linkToPredecessor="_nIvp3cVVEd2pfdXgw7I2qQ" mandatoryInput="_nIvp2cVVEd2pfdXgw7I2qQ" optionalInput="_nIvp6cVVEd2pfdXgw7I2qQ _nIvp1sVVEd2pfdXgw7I2qQ _uJXXwVmSEeCcpdiAcH0w-w" output="_nIvp1MVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-SZIhc8oXvpac5M1fKbXgTA"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_sruWygjqEdyj5bYZ0eCR5g"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_srklxgjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/define_discovery_roadmap.uma#_srklyQjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/define_discovery_roadmap.uma#_srklxwjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_nIvp3cVVEd2pfdXgw7I2qQ" guid="_nIvp3cVVEd2pfdXgw7I2qQ" pred="_nIvp2MVVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nIvp1MVVEd2pfdXgw7I2qQ" name="rule_discovery_roadmap" guid="_nIvp1MVVEd2pfdXgw7I2qQ" presentationName="Rule Discovery Roadmap" isPlanned="false" superActivities="_nIvp5cVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-z6-Qx7OJfj-Yq25AioSjCg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_sruWygjqEdyj5bYZ0eCR5g"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_sruW2QjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW1QjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nIvp4MVVEd2pfdXgw7I2qQ" name="organise_workshop" guid="_nIvp4MVVEd2pfdXgw7I2qQ" presentationName="Organize Workshop" briefDescription="In case of human source for the rule the team needs to organize elicitation workshops" superActivities="_nIvp5cVVEd2pfdXgw7I2qQ" linkToPredecessor="_nIvp38VVEd2pfdXgw7I2qQ" isSynchronizedWithSource="false" mandatoryInput="_nIvp1MVVEd2pfdXgw7I2qQ" output="_nIvp48VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-FbRsIZayJhCaFmbyRB96Cg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_sruW0QjqEdyj5bYZ0eCR5g"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_sruWxAjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/organise_workshop.uma#_sruWyQjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/organise_workshop.uma#_sruWxwjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/organise_workshop.uma#_sruWxgjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/organise_workshop.uma#_sruWyAjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/organise_workshop.uma#_sruWxQjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_nIvp38VVEd2pfdXgw7I2qQ" guid="_nIvp38VVEd2pfdXgw7I2qQ" pred="_nIvp3MVVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nIvp48VVEd2pfdXgw7I2qQ" name="discovery_workshop_itinerary" guid="_nIvp48VVEd2pfdXgw7I2qQ" presentationName="Rule Discovery Workshop Itinerary" isPlanned="false" superActivities="_nIvp5cVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-G5nrokl8FZiZW26GR8U4Fg"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_sruW0wjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_srklwQjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nIvp1cVVEd2pfdXgw7I2qQ" name="execute_rule_discovery_roadmap" guid="_nIvp1cVVEd2pfdXgw7I2qQ" presentationName="Execute Rule Discovery Roadmap" briefDescription="This activity or task includes the three types of rule discovery: business users and experts workshop session, document study, legacy code mining. Even if the main source of rules are documents or code, it is still important to come back to a SME to get feedbacks on the team findings." hasMultipleOccurrences="true" superActivities="_nIvp5cVVEd2pfdXgw7I2qQ" isRepeatable="true" linkToPredecessor="_nIvp5sVVEd2pfdXgw7I2qQ" mandatoryInput="_nIvp1sVVEd2pfdXgw7I2qQ _nIvp2cVVEd2pfdXgw7I2qQ" optionalInput="_nIvp48VVEd2pfdXgw7I2qQ" output="_nIvp18VVEd2pfdXgw7I2qQ _nIvp58VVEd2pfdXgw7I2qQ _nIvp08VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-rQeo3KBsjTpEofLhWWoCHg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_sruW1gjqEdyj5bYZ0eCR5g"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_sruW3AjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW4QjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW4AjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW3gjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW3QjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_nIvp5sVVEd2pfdXgw7I2qQ" guid="_nIvp5sVVEd2pfdXgw7I2qQ" pred="_nIvp4MVVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nIvp18VVEd2pfdXgw7I2qQ" name="business_terms_glossary" guid="_nIvp18VVEd2pfdXgw7I2qQ" presentationName="Business Terms Glossary" briefDescription="Log in one document the terms and their definition as used by the business user" isPlanned="false" superActivities="_nIvp5cVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-SVG8fBamP9jI0gLGSNQYPg"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_sruW1wjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_srklygjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nIvp58VVEd2pfdXgw7I2qQ" name="rule_description_doc" guid="_nIvp58VVEd2pfdXgw7I2qQ" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_nIvp5cVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-Ol-Ismqi_vwu93DuUULISw"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_j4-ukDS3EdyTBtGu8YeFfg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxAjqEdyj5bYZ0eCR5g"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxQjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2gjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nIvp08VVEd2pfdXgw7I2qQ" name="conceptual_data_model" guid="_nIvp08VVEd2pfdXgw7I2qQ" presentationName="Conceptual Data Model" isPlanned="false" superActivities="_nIvp5cVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-xywJ9rs6yDU3S-RR7R6DHw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_hYc8UHr9Ed2l9d4UccBrvQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_uJON1FmSEeCcpdiAcH0w-w" name="business_event_description" guid="_uJON1FmSEeCcpdiAcH0w-w" presentationName="Business Event Description" briefDescription="Logging the business events source of business process execution helps to drive rule discovery." isPlanned="false" superActivities="_nIvp5cVVEd2pfdXgw7I2qQ">
+        <methodElementProperty xmi:id="_uJON1VmSEeCcpdiAcH0w-w" name="descriptor_createdByReference" value="true"/>
+        <presentation href="content.uma#-nWwIrDx_rgbWN_dCjIPeGg"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_HSrrgGhiEd-FVuzXjnvIWA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_uJXXwVmSEeCcpdiAcH0w-w" name="use_case" guid="_uJXXwVmSEeCcpdiAcH0w-w" presentationName="Use Case" briefDescription="This artifact captures the system behavior to yield an observable result of value to those who interact with the system." isPlanned="false" superActivities="_nIvp5cVVEd2pfdXgw7I2qQ">
+        <methodElementProperty xmi:id="_uJXXwlmSEeCcpdiAcH0w-w" name="descriptor_createdByReference" value="true"/>
+        <checklists href="../../../core.tech.common.extend_supp/plugin.uma#_0kNwINk1Edq2Q8qZoWbvGA"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_KudM0NcJEdqz_d2XWoVt6Q"/>
+        <examples href="../../../core.tech.common.extend_supp/plugin.uma#_JLOiIMNvEdu2IdAIaWZyAw"/>
+        <templates href="../../../core.tech.common.extend_supp/plugin.uma#_3Y3XUI5fEdyO5aWob1UGDA"/>
+        <WorkProduct href="../../../core.tech.common.extend_supp/plugin.uma#_0VGbUMlgEdmt3adZL5Dmdw"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWjz7ekEd-D7YZN9NgldQ" name="analyze_business_rules" guid="_9tWjz7ekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s37aM8VVEd2pfdXgw7I2qQ" name="analyze_business_rules" guid="_s37aM8VVEd2pfdXgw7I2qQ" presentationName="Analyze Business Rules" superActivities="_CryGMHqmEd2o_5d3MWaNxQ" variabilityBasedOnElement="_s37aM8VVEd2pfdXgw7I2qQ" breakdownElements="_s37aOcVVEd2pfdXgw7I2qQ _s37aOMVVEd2pfdXgw7I2qQ _s3yQQcVVEd2pfdXgw7I2qQ _s37aMcVVEd2pfdXgw7I2qQ _s37aOsVVEd2pfdXgw7I2qQ _s37aO8VVEd2pfdXgw7I2qQ _s37aNcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-4RpjINOc4rCESRAYiXaR1w"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s37aOcVVEd2pfdXgw7I2qQ" name="extract_rule_meaning" guid="_s37aOcVVEd2pfdXgw7I2qQ" presentationName="Extract Rule Meaning" briefDescription="Extract the semantic of the rule to prepare for a data model and to remove any ambiguity and redundancy." superActivities="_s37aM8VVEd2pfdXgw7I2qQ" linkToPredecessor="_v9YIMMVVEd2pfdXgw7I2qQ" isSynchronizedWithSource="false" mandatoryInput="_s37aOMVVEd2pfdXgw7I2qQ" output="_s3yQQcVVEd2pfdXgw7I2qQ _s37aMcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-Zgt8ljNbGXKcbU4gzUCQrg"/>
+        <concepts href="../../../practice.tech.abrd.base/plugin.uma#_gPfSoIpzEd2gksNyFVJN4g"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_8_mWgH3GEd2sJcA0evSBQw"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_o19QgF2BEd2T6cNSe41mOg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_v9YIMMVVEd2pfdXgw7I2qQ" guid="_v9YIMMVVEd2pfdXgw7I2qQ" pred="_nIvp1cVVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s37aOMVVEd2pfdXgw7I2qQ" name="rule_description_doc" guid="_s37aOMVVEd2pfdXgw7I2qQ" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_s37aM8VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-NjDm5kyrlZVxH1HwaGoVFA"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_j4-ukDS3EdyTBtGu8YeFfg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxAjqEdyj5bYZ0eCR5g"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxQjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2gjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s3yQQcVVEd2pfdXgw7I2qQ" name="fact_model" guid="_s3yQQcVVEd2pfdXgw7I2qQ" presentationName="Fact Model" isPlanned="false" superActivities="_s37aM8VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-LZfO28SzpOMkRDb62aUppg"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_csL3wHrMEd2o_5d3MWaNxQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s37aMcVVEd2pfdXgw7I2qQ" name="logical_data_model" guid="_s37aMcVVEd2pfdXgw7I2qQ" presentationName="Logical Data Model" briefDescription="Logical Data Model represents the organization business-domain concepts in a set of diagram and logical schema. The choice of representation will depend of the design approach and the target audience. It could be relational (Table - columns, association), object oriented  (class - attribute association) or XML (tags) defined." isPlanned="false" superActivities="_s37aM8VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-cAqcd_rDIyDggEFNkpOafA"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2AjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s37aOsVVEd2pfdXgw7I2qQ" name="transform_rules" guid="_s37aOsVVEd2pfdXgw7I2qQ" presentationName="Transform Rules" briefDescription="Transform the rule to avoid ambiguity and make them more atomic" superActivities="_s37aM8VVEd2pfdXgw7I2qQ" linkToPredecessor="_s37aMMVVEd2pfdXgw7I2qQ" isSynchronizedWithSource="false" mandatoryInput="_s3yQQcVVEd2pfdXgw7I2qQ _s37aMcVVEd2pfdXgw7I2qQ _s37aOMVVEd2pfdXgw7I2qQ" output="_s3yQQcVVEd2pfdXgw7I2qQ _s37aMcVVEd2pfdXgw7I2qQ _s37aOMVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-TMElbWb1oCm06CVVbtGziA"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_K6-3kDmnEdy8N6BRpa8ByQ"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_x_5XgH9iEd26h9j0X6pKmw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_8mZw8DmhEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_7HEPsDmiEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_tFwpYDmoEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_vMBLQDmoEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_LmcIADmqEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_w3cyUDmoEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_0-T6ADmoEdy8N6BRpa8ByQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_s37aMMVVEd2pfdXgw7I2qQ" guid="_s37aMMVVEd2pfdXgw7I2qQ" pred="_s37aOcVVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s37aO8VVEd2pfdXgw7I2qQ" name="build_test_scenario" guid="_s37aO8VVEd2pfdXgw7I2qQ" presentationName="Build Test Scenarios" briefDescription="Work with analysis team to define concrete scenario with real data so that we can later on test the process and the rules." superActivities="_s37aM8VVEd2pfdXgw7I2qQ" linkToPredecessor="_s37aMsVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-cldFzj8jYSiyDtkZGFpjQQ"/>
+        <guidelines href="../../../practice.tech.test_driven_development.base/plugin.uma#_5s_DUJ03EdyQ3oTO93enUw"/>
+        <supportingMaterials href="../../../practice.tech.test_driven_development.base/plugin.uma#_vLvAUGjFEd2PJ-nlV-86WA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_1dlWkH3GEd2sJcA0evSBQw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_s37aMsVVEd2pfdXgw7I2qQ" guid="_s37aMsVVEd2pfdXgw7I2qQ" pred="_s37aOsVVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s37aNcVVEd2pfdXgw7I2qQ" name="synchronize_data_model" guid="_s37aNcVVEd2pfdXgw7I2qQ" presentationName="Synchronize Data Models" briefDescription="Ensure the terms and entities used in the rule march element in the different date models used by the IT components" superActivities="_s37aM8VVEd2pfdXgw7I2qQ" linkToPredecessor="_s37aPMVVEd2pfdXgw7I2qQ" isSynchronizedWithSource="false" mandatoryInput="_s3yQQcVVEd2pfdXgw7I2qQ _s37aMcVVEd2pfdXgw7I2qQ _s37aOMVVEd2pfdXgw7I2qQ" output="_s37aMcVVEd2pfdXgw7I2qQ _s37aOMVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-JMP5iTEzmgde5KqHrptXyA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_prtzIDmiEdy8N6BRpa8ByQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_s37aPMVVEd2pfdXgw7I2qQ" guid="_s37aPMVVEd2pfdXgw7I2qQ" pred="_s37aO8VVEd2pfdXgw7I2qQ"/>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_CryGMHqmEd2o_5d3MWaNxQ" name="Harvesting" guid="_CryGMHqmEd2o_5d3MWaNxQ" presentationName="Cycle 1- Harvesting" hasMultipleOccurrences="true" superActivities="_2EcLMXqlEd2o_5d3MWaNxQ" isRepeatable="true" isOngoing="true" variabilityBasedOnElement="_CryGMHqmEd2o_5d3MWaNxQ" breakdownElements="_nIvp5cVVEd2pfdXgw7I2qQ _s37aM8VVEd2pfdXgw7I2qQ"/>
+  </childPackages>
+  <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj1LekEd-D7YZN9NgldQ" name="prototyping" guid="_9tWj1LekEd-D7YZN9NgldQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj1bekEd-D7YZN9NgldQ" name="discover_business_rules" guid="_9tWj1bekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_z0dHhcVVEd2pfdXgw7I2qQ" name="discover_business_rules" guid="_z0dHhcVVEd2pfdXgw7I2qQ" presentationName="Discover Business Rules" superActivities="_zPFMAXrDEd2o_5d3MWaNxQ" variabilityBasedOnElement="_z0dHhcVVEd2pfdXgw7I2qQ" breakdownElements="_z0dHicVVEd2pfdXgw7I2qQ _z0dHecVVEd2pfdXgw7I2qQ _z0dHdsVVEd2pfdXgw7I2qQ _z0dHg8VVEd2pfdXgw7I2qQ _z0dHdcVVEd2pfdXgw7I2qQ _z0dHd8VVEd2pfdXgw7I2qQ _z0dHh8VVEd2pfdXgw7I2qQ _z0dHc8VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-GhJfLtRP5ADWO_NtIImqUw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_z0dHicVVEd2pfdXgw7I2qQ" name="use_case_model" guid="_z0dHicVVEd2pfdXgw7I2qQ" presentationName="Use-Case Model" briefDescription="This artifact captures a model of the intended functions and environment of the system and serves as a contract between the customer and the team." isPlanned="false" superActivities="_z0dHhcVVEd2pfdXgw7I2qQ">
+        <checklists href="../../../core.tech.common.extend_supp/plugin.uma#_0U6OEMlgEdmt3adZL5Dmdw"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_KudM0NcJEdqz_d2XWoVt6Q"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_2jyfUAhVEduRe8TeoBmuGg"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_zGqO0MDpEduTGJ8i4u8TMw"/>
+        <examples href="../../../core.tech.common.extend_supp/plugin.uma#_t4QdAMNqEdu2IdAIaWZyAw"/>
+        <WorkProduct href="../../../core.tech.common.extend_supp/plugin.uma#_W2SgEDR5EdutE_HNDTJk5Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_z0dHecVVEd2pfdXgw7I2qQ" name="decision_point_table" guid="_z0dHecVVEd2pfdXgw7I2qQ" presentationName="Decision Point Table" isPlanned="false" superActivities="_z0dHhcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-f3XkJ0vY-f93Cugh2hUPag"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_kRoWgBDFEdyJtJ3PbfdVDw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_SlELAAsbEdyPCr4G1Tb79A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_z0dHdsVVEd2pfdXgw7I2qQ" name="business_process_map" guid="_z0dHdsVVEd2pfdXgw7I2qQ" presentationName="Business Process Map" briefDescription="A Process map describes graphically using Business Process Management Notation (BPMN) the business process under scope." isPlanned="false" superActivities="_z0dHhcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-XJgsI3tf1RyfJOE8nXKyfA"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_Uw8aYBDGEdyJtJ3PbfdVDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_z0dHg8VVEd2pfdXgw7I2qQ" name="discovery_workshop_itinerary" guid="_z0dHg8VVEd2pfdXgw7I2qQ" presentationName="Rule Discovery Workshop Itinerary" isPlanned="false" superActivities="_z0dHhcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-FYiTjOVLhDDFiks9REzbWw"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_sruW0wjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_srklwQjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_z0dHdcVVEd2pfdXgw7I2qQ" name="execute_rule_discovery_roadmap" guid="_z0dHdcVVEd2pfdXgw7I2qQ" presentationName="Execute Rule Discovery Roadmap" briefDescription="This activity or task includes the three types of rule discovery: business users and experts workshop session, document study, legacy code mining. Even if the main source of rules are documents or code, it is still important to come back to a SME to get feedbacks on the team findings." hasMultipleOccurrences="true" superActivities="_z0dHhcVVEd2pfdXgw7I2qQ" isRepeatable="true" linkToPredecessor="_z0dHhsVVEd2pfdXgw7I2qQ" mandatoryInput="_z0dHdsVVEd2pfdXgw7I2qQ _z0dHecVVEd2pfdXgw7I2qQ" optionalInput="_z0dHg8VVEd2pfdXgw7I2qQ" output="_z0dHd8VVEd2pfdXgw7I2qQ _z0dHh8VVEd2pfdXgw7I2qQ _z0dHc8VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-I69B91Gv39Hsf4q9QC8gdw"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_sruW1gjqEdyj5bYZ0eCR5g"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_sruW3AjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW4QjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW4AjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW3gjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW3QjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_z0dHhsVVEd2pfdXgw7I2qQ" guid="_z0dHhsVVEd2pfdXgw7I2qQ" pred="_s37aO8VVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_z0dHd8VVEd2pfdXgw7I2qQ" name="business_terms_glossary" guid="_z0dHd8VVEd2pfdXgw7I2qQ" presentationName="Business Terms Glossary" briefDescription="Log in one document the terms and their definition as used by the business user" isPlanned="false" superActivities="_z0dHhcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#--xaKhVngfn0TG7AUCYDE2Q"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_sruW1wjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_srklygjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_z0dHh8VVEd2pfdXgw7I2qQ" name="rule_description_doc" guid="_z0dHh8VVEd2pfdXgw7I2qQ" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_z0dHhcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-ZxuH1YXgB-PGC8KKf8SqMA"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_j4-ukDS3EdyTBtGu8YeFfg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxAjqEdyj5bYZ0eCR5g"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxQjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2gjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_z0dHc8VVEd2pfdXgw7I2qQ" name="conceptual_data_model" guid="_z0dHc8VVEd2pfdXgw7I2qQ" presentationName="Conceptual Data Model" isPlanned="false" superActivities="_z0dHhcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-cQYuDYNpIetEa-A0wc2rMA"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_hYc8UHr9Ed2l9d4UccBrvQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj17ekEd-D7YZN9NgldQ" name="analyze_business_rules" guid="_9tWj17ekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_9s4lJcVVEd2pfdXgw7I2qQ" name="analyze_business_rules" guid="_9s4lJcVVEd2pfdXgw7I2qQ" presentationName="Analyze Business Rules" superActivities="_zPFMAXrDEd2o_5d3MWaNxQ" variabilityBasedOnElement="_9s4lJcVVEd2pfdXgw7I2qQ" breakdownElements="_9s4lK8VVEd2pfdXgw7I2qQ _9s4lKsVVEd2pfdXgw7I2qQ _9s4lIcVVEd2pfdXgw7I2qQ _9s4lI8VVEd2pfdXgw7I2qQ _9s4lLMVVEd2pfdXgw7I2qQ _9s4lLcVVEd2pfdXgw7I2qQ _9s4lJ8VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-wWls41lEy2zA_NkxhOnoDg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lK8VVEd2pfdXgw7I2qQ" name="extract_rule_meaning" guid="_9s4lK8VVEd2pfdXgw7I2qQ" presentationName="Extract Rule Meaning" briefDescription="Extract the semantic of the rule to prepare for a data model and to remove any ambiguity and redundancy." superActivities="_9s4lJcVVEd2pfdXgw7I2qQ" mandatoryInput="_9s4lKsVVEd2pfdXgw7I2qQ" output="_9s4lIcVVEd2pfdXgw7I2qQ _9s4lI8VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-NBqg7ns9nlUev0xlKSBKVg"/>
+        <concepts href="../../../practice.tech.abrd.base/plugin.uma#_gPfSoIpzEd2gksNyFVJN4g"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_8_mWgH3GEd2sJcA0evSBQw"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_o19QgF2BEd2T6cNSe41mOg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_9s4lKsVVEd2pfdXgw7I2qQ" name="rule_description_doc" guid="_9s4lKsVVEd2pfdXgw7I2qQ" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_9s4lJcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-1EFb1j163vesKIPD-WKc_A"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_j4-ukDS3EdyTBtGu8YeFfg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxAjqEdyj5bYZ0eCR5g"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxQjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2gjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_9s4lIcVVEd2pfdXgw7I2qQ" name="fact_model" guid="_9s4lIcVVEd2pfdXgw7I2qQ" presentationName="Fact Model" isPlanned="false" superActivities="_9s4lJcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-30jW7XM9GTETWwegnerK-g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_csL3wHrMEd2o_5d3MWaNxQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_9s4lI8VVEd2pfdXgw7I2qQ" name="logical_data_model" guid="_9s4lI8VVEd2pfdXgw7I2qQ" presentationName="Logical Data Model" briefDescription="Logical Data Model represents the organization business-domain concepts in a set of diagram and logical schema. The choice of representation will depend of the design approach and the target audience. It could be relational (Table - columns, association), object oriented  (class - attribute association) or XML (tags) defined." isPlanned="false" superActivities="_9s4lJcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-QosjoU1KKqxnanfXEHADUQ"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2AjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lLMVVEd2pfdXgw7I2qQ" name="transform_rules" guid="_9s4lLMVVEd2pfdXgw7I2qQ" presentationName="Transform Rules" briefDescription="Transform the rule to avoid ambiguity and make them more atomic" superActivities="_9s4lJcVVEd2pfdXgw7I2qQ" linkToPredecessor="_9s4lIsVVEd2pfdXgw7I2qQ" mandatoryInput="_9s4lIcVVEd2pfdXgw7I2qQ _9s4lI8VVEd2pfdXgw7I2qQ _9s4lKsVVEd2pfdXgw7I2qQ" output="_9s4lIcVVEd2pfdXgw7I2qQ _9s4lI8VVEd2pfdXgw7I2qQ _9s4lKsVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-Jkw-vxUJt3NMdOu_yUsNgw"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_K6-3kDmnEdy8N6BRpa8ByQ"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_x_5XgH9iEd26h9j0X6pKmw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_8mZw8DmhEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_7HEPsDmiEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_tFwpYDmoEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_vMBLQDmoEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_LmcIADmqEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_w3cyUDmoEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_0-T6ADmoEdy8N6BRpa8ByQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_9s4lIsVVEd2pfdXgw7I2qQ" guid="_9s4lIsVVEd2pfdXgw7I2qQ" pred="_9s4lK8VVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lLcVVEd2pfdXgw7I2qQ" name="build_test_scenario" guid="_9s4lLcVVEd2pfdXgw7I2qQ" presentationName="Build Test Scenarios" briefDescription="Work with analysis team to define concrete scenario with real data so that we can later on test the process and the rules." superActivities="_9s4lJcVVEd2pfdXgw7I2qQ" linkToPredecessor="_9s4lJMVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-jD0SjTGEVGjAXwk-96CnBw"/>
+        <guidelines href="../../../practice.tech.test_driven_development.base/plugin.uma#_5s_DUJ03EdyQ3oTO93enUw"/>
+        <supportingMaterials href="../../../practice.tech.test_driven_development.base/plugin.uma#_vLvAUGjFEd2PJ-nlV-86WA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_1dlWkH3GEd2sJcA0evSBQw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_9s4lJMVVEd2pfdXgw7I2qQ" guid="_9s4lJMVVEd2pfdXgw7I2qQ" pred="_9s4lLMVVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lJ8VVEd2pfdXgw7I2qQ" name="synchronize_data_model" guid="_9s4lJ8VVEd2pfdXgw7I2qQ" presentationName="Synchronize Data Models" briefDescription="Ensure the terms and entities used in the rule march element in the different date models used by the IT components" superActivities="_9s4lJcVVEd2pfdXgw7I2qQ" linkToPredecessor="_9s4lLsVVEd2pfdXgw7I2qQ" mandatoryInput="_9s4lIcVVEd2pfdXgw7I2qQ _9s4lI8VVEd2pfdXgw7I2qQ _9s4lKsVVEd2pfdXgw7I2qQ" output="_9s4lI8VVEd2pfdXgw7I2qQ _9s4lKsVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-pxSSUK3yjMwpuFplEiArVA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_prtzIDmiEdy8N6BRpa8ByQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_9s4lLsVVEd2pfdXgw7I2qQ" guid="_9s4lLsVVEd2pfdXgw7I2qQ" pred="_9s4lLcVVEd2pfdXgw7I2qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj27ekEd-D7YZN9NgldQ" name="design_bre_integration" guid="_9tWj27ekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_9s4lPcVVEd2pfdXgw7I2qQ" name="design_bre_integration" guid="_9s4lPcVVEd2pfdXgw7I2qQ" presentationName="Design BRMS Integration" superActivities="_zPFMAXrDEd2o_5d3MWaNxQ" variabilityBasedOnElement="_9s4lPcVVEd2pfdXgw7I2qQ" breakdownElements="_9s4lQMVVEd2pfdXgw7I2qQ _9s4lO8VVEd2pfdXgw7I2qQ _9s4lSsVVEd2pfdXgw7I2qQ _9s4lPsVVEd2pfdXgw7I2qQ _9s4lQcVVEd2pfdXgw7I2qQ _9s4lPMVVEd2pfdXgw7I2qQ _9s4lRsVVEd2pfdXgw7I2qQ _9s4lP8VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-Vy5EjgkTkzCMhrts0Aczlg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lQMVVEd2pfdXgw7I2qQ" name="determine_rule_implementation" guid="_9s4lQMVVEd2pfdXgw7I2qQ" presentationName="Determine Rule Implementation" briefDescription="This task tries to answer the question of where to implement the business rules that have been discovered." superActivities="_9s4lPcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-1hKEhTu7zfbuOyxxSBfTVA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_qzveUBk5Edyoe_hnDlTB5A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lO8VVEd2pfdXgw7I2qQ" name="define_ruleset" guid="_9s4lO8VVEd2pfdXgw7I2qQ" presentationName="Define Rule Set" superActivities="_9s4lPcVVEd2pfdXgw7I2qQ" linkToPredecessor="_9s4lRcVVEd2pfdXgw7I2qQ" mandatoryInput="_9s4lPMVVEd2pfdXgw7I2qQ _9s4lRsVVEd2pfdXgw7I2qQ" output="_9s4lP8VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-ujEcUPK8pFeN7wqLRcSB9A"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_7L2MIDyOEdyA6a_I80swHw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/define_ruleset.uma#_uGtsEErrEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/define_ruleset.uma#_pIE9sEafEdySHMdInS9eGA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/define_ruleset.uma#__SG24DyOEdyA6a_I80swHw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/define_ruleset.uma#_vYhSMErrEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/define_ruleset.uma#_4V6rAErrEdyEE-k1R6LmOA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_9s4lRcVVEd2pfdXgw7I2qQ" guid="_9s4lRcVVEd2pfdXgw7I2qQ" pred="_9s4lQMVVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lSsVVEd2pfdXgw7I2qQ" name="build_object_models" guid="_9s4lSsVVEd2pfdXgw7I2qQ" presentationName="Build Object Models" superActivities="_9s4lPcVVEd2pfdXgw7I2qQ" linkToPredecessor="_9s4lR8VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-GSA2k4CiOuK856zbdHf6bw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_ZffcIDmiEdy8N6BRpa8ByQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_9s4lR8VVEd2pfdXgw7I2qQ" guid="_9s4lR8VVEd2pfdXgw7I2qQ" pred="_9s4lO8VVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lPsVVEd2pfdXgw7I2qQ" name="build_rule_project_structure" guid="_9s4lPsVVEd2pfdXgw7I2qQ" presentationName="Build Rule Project Structure" briefDescription="Designing and building how the rule will be managed is an important activity of a BRMS project. This task describes how to build the set of rule and non rules projects that support the business application." superActivities="_9s4lPcVVEd2pfdXgw7I2qQ" linkToPredecessor="_9s4lOsVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-A69eNZMgOD-TmrIh98RJsg"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_O92DQDV5EdyTBtGu8YeFfg"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/build_rule_project_structure.uma#_OBfOkDuhEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/build_rule_project_structure.uma#_RVoYoDyNEdyA6a_I80swHw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/build_rule_project_structure.uma#_3jNuADyNEdyA6a_I80swHw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/build_rule_project_structure.uma#_O92DQTV5EdyTBtGu8YeFfg"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/build_rule_project_structure.uma#_94ET8DugEdy8N6BRpa8ByQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_9s4lOsVVEd2pfdXgw7I2qQ" guid="_9s4lOsVVEd2pfdXgw7I2qQ" pred="_9s4lO8VVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lQcVVEd2pfdXgw7I2qQ" name="prototype_rules" guid="_9s4lQcVVEd2pfdXgw7I2qQ" presentationName="Prototype Rules" briefDescription="Prototyping rules is an important step of the rule analysis, as it is when we are really coding that issues arrived. Paper work is fine, but working rules is far better." superActivities="_9s4lPcVVEd2pfdXgw7I2qQ" linkToPredecessor="_9s4lRMVVEd2pfdXgw7I2qQ _9s4lQ8VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-7KXY0dEtZ02k-zR2uSgrLw"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_x-GVQIsqEd2gksNyFVJN4g"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_dds-IDmiEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/prototype_rules.uma#_tA5YEDyIEdyA6a_I80swHw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/prototype_rules.uma#_usf-QDyIEdyA6a_I80swHw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/prototype_rules.uma#_6OjFIDyIEdyA6a_I80swHw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/prototype_rules.uma#_8RaUwDyIEdyA6a_I80swHw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/prototype_rules.uma#_-ThWcDyIEdyA6a_I80swHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_9s4lRMVVEd2pfdXgw7I2qQ" guid="_9s4lRMVVEd2pfdXgw7I2qQ" pred="_9s4lSsVVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_9s4lQ8VVEd2pfdXgw7I2qQ" guid="_9s4lQ8VVEd2pfdXgw7I2qQ" pred="_9s4lPsVVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_9s4lPMVVEd2pfdXgw7I2qQ" name="decision_point_table" guid="_9s4lPMVVEd2pfdXgw7I2qQ" presentationName="Decision Point Table" isPlanned="false" superActivities="_9s4lPcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-DLOZ9q9zKzqSH02qulirKQ"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_kRoWgBDFEdyJtJ3PbfdVDw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_SlELAAsbEdyPCr4G1Tb79A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_9s4lRsVVEd2pfdXgw7I2qQ" name="rule_description_doc" guid="_9s4lRsVVEd2pfdXgw7I2qQ" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_9s4lPcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-WpMajOrHlIGWS4oIiTfIgQ"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_j4-ukDS3EdyTBtGu8YeFfg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxAjqEdyj5bYZ0eCR5g"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxQjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2gjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_9s4lP8VVEd2pfdXgw7I2qQ" name="ruleset" guid="_9s4lP8VVEd2pfdXgw7I2qQ" presentationName="Ruleset" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_9s4lPcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-mw3UMRnpZKKJ1HXl4Tx2GA"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_mqnOETmsEdy8N6BRpa8ByQ"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_vjWPcDzEEdyA6a_I80swHw"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj4bekEd-D7YZN9NgldQ" name="author_business_rules" guid="_9tWj4bekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_9s4lMcVVEd2pfdXgw7I2qQ" name="author_business_rules" guid="_9s4lMcVVEd2pfdXgw7I2qQ" presentationName="Author Business Rules" superActivities="_zPFMAXrDEd2o_5d3MWaNxQ" variabilityBasedOnElement="_9s4lMcVVEd2pfdXgw7I2qQ" breakdownElements="_HSAXQGh8Ed-FVuzXjnvIWA _9s4lNcVVEd2pfdXgw7I2qQ _9s4lN8VVEd2pfdXgw7I2qQ _9s4lNMVVEd2pfdXgw7I2qQ _9s4lMMVVEd2pfdXgw7I2qQ _9s4lM8VVEd2pfdXgw7I2qQ _9s4lMsVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-hpPbI7yoU4KI3IBgzkYMOw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_HSAXQGh8Ed-FVuzXjnvIWA" name="define_ruleset_testing" guid="_HSAXQGh8Ed-FVuzXjnvIWA" presentationName="Define Rule Testing Approach" briefDescription="Rule testing has been a crucial and intensive task within rule development, due to the nature of a lot of business rules working together." superActivities="_9s4lMcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-TzodlLaSF7x8Ox7OmJmUyg"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_mDL5YGhkEd-FVuzXjnvIWA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lNcVVEd2pfdXgw7I2qQ" name="develop_unit_tests" guid="_9s4lNcVVEd2pfdXgw7I2qQ" presentationName="Develop Rule Unit Tests" briefDescription="The goal of this task is to track down anomalies in the rules such as conflicts, redundancies or overlaps.&#xD;&#xA;" superActivities="_9s4lMcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-3TEm3EjK2B_3xvMAHjQHWw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_ioCPkDzEEdyA6a_I80swHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lN8VVEd2pfdXgw7I2qQ" name="develop_rules" guid="_9s4lN8VVEd2pfdXgw7I2qQ" presentationName="Develop Rules" briefDescription="This task is about developing each rule in the rule project." superActivities="_9s4lMcVVEd2pfdXgw7I2qQ" output="_9s4lNMVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-wUfIZbnlisjRJ7z3OjFsUQ"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_Y2CxEDzEEdyA6a_I80swHw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_bsPp8ErtEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_qfzk4ErtEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_tdNKIErtEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_zAvrMErtEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_GvK9oEruEdyEE-k1R6LmOA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_9s4lNMVVEd2pfdXgw7I2qQ" name="ruleset" guid="_9s4lNMVVEd2pfdXgw7I2qQ" presentationName="Ruleset" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_9s4lMcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-bLL0Fi0p_lu2XVXfO4Bmng"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_mqnOETmsEdy8N6BRpa8ByQ"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_vjWPcDzEEdyA6a_I80swHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lMMVVEd2pfdXgw7I2qQ" name="enhance_object_models" guid="_9s4lMMVVEd2pfdXgw7I2qQ" presentationName="Enhance Object Models" briefDescription="The data model is started during the analysis and design tasks. But it will involve over time. So this activity supports the enhancement of the object models." superActivities="_9s4lMcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-pk5as0BVClbnn3B7FhmN3A"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_UXrv8Eb3EdySHMdInS9eGA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lM8VVEd2pfdXgw7I2qQ" name="execute_rule_set" guid="_9s4lM8VVEd2pfdXgw7I2qQ" presentationName="Execute Rule Set" briefDescription="Execute the tests to trigger the rule execution. Analyze the output logs. Report issues." superActivities="_9s4lMcVVEd2pfdXgw7I2qQ" output="_9s4lNMVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-9bcuy4Hs_gwTKjG8NyKAPw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_JCHfMEXhEdy14e5PT9v3HQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lMsVVEd2pfdXgw7I2qQ" name="log_issue" guid="_9s4lMsVVEd2pfdXgw7I2qQ" presentationName="Log Issue" superActivities="_9s4lMcVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-oYF8elqKsD5hfhKlCij3xQ"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_yGbYIEb0EdySHMdInS9eGA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj4rekEd-D7YZN9NgldQ" name="develop__bre_architecture" guid="_9tWj4rekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_9s4lTMVVEd2pfdXgw7I2qQ" name="develop__bre_architecture" guid="_9s4lTMVVEd2pfdXgw7I2qQ" presentationName="Develop BRMS Integration Architecture" superActivities="_zPFMAXrDEd2o_5d3MWaNxQ" variabilityBasedOnElement="_9s4lTMVVEd2pfdXgw7I2qQ" breakdownElements="_9s4lTsVVEd2pfdXgw7I2qQ _9s4lT8VVEd2pfdXgw7I2qQ _9s4lTcVVEd2pfdXgw7I2qQ _9s4lUMVVEd2pfdXgw7I2qQ _9s4lUcVVEd2pfdXgw7I2qQ _vxYecVmSEeCcpdiAcH0w-w _vxYedFmSEeCcpdiAcH0w-w _vxYed1mSEeCcpdiAcH0w-w _vxYeelmSEeCcpdiAcH0w-w">
+        <presentation href="content.uma#-qptRZHxVnbhlR7Ycjbxb9A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lTsVVEd2pfdXgw7I2qQ" name="develop_architecture" guid="_9s4lTsVVEd2pfdXgw7I2qQ" presentationName="Develop Business Rule Application Architecture" briefDescription="The purpose of the architecture activities is to support the following major items:&#xD;&#xA;•&#x9;Integrate the Rule Engine into the business application&#xD;&#xA;•&#x9;Deploy Business Rules Management System into the business and IT organizations." superActivities="_9s4lTMVVEd2pfdXgw7I2qQ" mandatoryInput="_vxYecVmSEeCcpdiAcH0w-w _vxYedFmSEeCcpdiAcH0w-w" output="_9s4lT8VVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-OJ8H_2tSlsUq645zMbm48Q"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_O1kAANvfEduv2KOT-Teh6w"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#__O7tAMVvEduLYZUGfgZrkQ"/>
+        <guidelines href="../../../core.tech.common.extend_supp/plugin.uma#_0gjdYMlgEdmt3adZL5Dmdw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_nOQHsAp6EdyPCr4G1Tb79A"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_architecture.uma#_RMRccChaEd2bfOOTyXGWkw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_architecture.uma#_yIEJ4Ap6EdyPCr4G1Tb79A"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_architecture.uma#_r5SRoChaEd2bfOOTyXGWkw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_architecture.uma#_venZkChaEd2bfOOTyXGWkw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_architecture.uma#_yFzeQChaEd2bfOOTyXGWkw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_architecture.uma#_HDD68Im5Ed2cL6yqw-_-uA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_architecture.uma#_04xVIChaEd2bfOOTyXGWkw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_architecture.uma#_27c-kChaEd2bfOOTyXGWkw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_9s4lT8VVEd2pfdXgw7I2qQ" name="decision_service_architecture" guid="_9s4lT8VVEd2pfdXgw7I2qQ" presentationName="Decision Service Architecture" briefDescription="A decision service is a piece of logic which uses a decision engine like a rule engine in order to infer actions on the input data." isPlanned="false" superActivities="_9s4lTMVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-AG5WgBy68mLoQW6HqHTusQ"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_YRiuIItDEd2gksNyFVJN4g"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_eORS8GhhEd-FVuzXjnvIWA"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_6BE7QAp_EdyPCr4G1Tb79A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lTcVVEd2pfdXgw7I2qQ" name="design_reference_data_integration" guid="_9s4lTcVVEd2pfdXgw7I2qQ" presentationName="Design Integration to Reference Data" briefDescription="Reference data are everywhere in business application, from basic enumeration value like the US sates to business codes with business meaning (like medical code). Those references data should be managed in a central Data Base or repository. The Rule engine needs to access them at execution but also during the authoring phase." superActivities="_9s4lTMVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-VLRdP6iYek0zEo_rHnIppw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_HMQasGDFEdyKlZvvtnMrMg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lUMVVEd2pfdXgw7I2qQ" name="design_models_for_bre" guid="_9s4lUMVVEd2pfdXgw7I2qQ" presentationName="Design Business Object Models for Rule Engine Processing" briefDescription="Design the object model to be processed by the rule engine. " superActivities="_9s4lTMVVEd2pfdXgw7I2qQ" mandatoryInput="_vxYeelmSEeCcpdiAcH0w-w _vxYecVmSEeCcpdiAcH0w-w" output="_vxYed1mSEeCcpdiAcH0w-w">
+        <presentation href="content.uma#-BBnqXNX3L83SEuYSuaMdxw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_lYC2IGDAEdyKlZvvtnMrMg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9s4lUcVVEd2pfdXgw7I2qQ" name="integrate_bre" guid="_9s4lUcVVEd2pfdXgw7I2qQ" presentationName="Integrate BRE within Service Layer" briefDescription="The integration of the rule engine can be done in different approaches depending of the type of application, and architecture." superActivities="_9s4lTMVVEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-ZBEhisTrkRvWYQ7SWQP4eg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_IuFgEIm-Ed2dvb7--2nAHw"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_YRiuIItDEd2gksNyFVJN4g"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_6-p2EH_BEd2YWI_0AZcMOA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vxYecVmSEeCcpdiAcH0w-w" name="logical_data_model" guid="_vxYecVmSEeCcpdiAcH0w-w" presentationName="Logical Data Model" briefDescription="Logical Data Model represents the organization business-domain concepts in a set of diagram and logical schema. The choice of representation will depend of the design approach and the target audience. It could be relational (Table - columns, association), object oriented  (class - attribute association) or XML (tags) defined." isPlanned="false" superActivities="_9s4lTMVVEd2pfdXgw7I2qQ">
+        <methodElementProperty xmi:id="_vxYeclmSEeCcpdiAcH0w-w" name="descriptor_createdByReference" value="true"/>
+        <presentation href="content.uma#-rH1vUc8rldU1_AKYYx9dBA"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2AjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vxYedFmSEeCcpdiAcH0w-w" name="decision_point_table" guid="_vxYedFmSEeCcpdiAcH0w-w" presentationName="Decision Point Table" isPlanned="false" superActivities="_9s4lTMVVEd2pfdXgw7I2qQ">
+        <methodElementProperty xmi:id="_vxYedVmSEeCcpdiAcH0w-w" name="descriptor_createdByReference" value="true"/>
+        <presentation href="content.uma#-bvUOgHIu3fluB7VANjXFJg"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_kRoWgBDFEdyJtJ3PbfdVDw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_SlELAAsbEdyPCr4G1Tb79A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vxYed1mSEeCcpdiAcH0w-w" name="executable_object_model" guid="_vxYed1mSEeCcpdiAcH0w-w" presentationName="Executable Object Model" briefDescription="A Java, .Net or XML schema implementation of the logical data model" isPlanned="false" superActivities="_9s4lTMVVEd2pfdXgw7I2qQ">
+        <methodElementProperty xmi:id="_vxYeeFmSEeCcpdiAcH0w-w" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_U003IIm4Ed2cL6yqw-_-uA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vxYeelmSEeCcpdiAcH0w-w" name="fact_model" guid="_vxYeelmSEeCcpdiAcH0w-w" presentationName="Fact Model" isPlanned="false" superActivities="_9s4lTMVVEd2pfdXgw7I2qQ">
+        <methodElementProperty xmi:id="_vxYee1mSEeCcpdiAcH0w-w" name="descriptor_createdByReference" value="true"/>
+        <presentation href="content.uma#-ewbo32yGFGXgBOLZ6El0qQ"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_csL3wHrMEd2o_5d3MWaNxQ"/>
+      </processElements>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_zPFMAXrDEd2o_5d3MWaNxQ" name="prototyping" guid="_zPFMAXrDEd2o_5d3MWaNxQ" presentationName="Cycle 2- Prototyping" superActivities="_2EcLMXqlEd2o_5d3MWaNxQ" variabilityBasedOnElement="_zPFMAXrDEd2o_5d3MWaNxQ" breakdownElements="_z0dHhcVVEd2pfdXgw7I2qQ _9s4lJcVVEd2pfdXgw7I2qQ _9s4lPcVVEd2pfdXgw7I2qQ _9s4lMcVVEd2pfdXgw7I2qQ _9s4lTMVVEd2pfdXgw7I2qQ"/>
+  </childPackages>
+  <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj47ekEd-D7YZN9NgldQ" name="Cycle3- Building" guid="_9tWj47ekEd-D7YZN9NgldQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj5LekEd-D7YZN9NgldQ" name="discover_business_rules" guid="_9tWj5LekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_RkSNoMVWEd2pfdXgw7I2qQ" name="discover_business_rules" guid="_RkSNoMVWEd2pfdXgw7I2qQ" presentationName="Discover Business Rules" superActivities="_o2AhUXtxEd2tkbw8c1Rm7g" variabilityBasedOnElement="_RkSNoMVWEd2pfdXgw7I2qQ" breakdownElements="_RkSNpMVWEd2pfdXgw7I2qQ _RkSNlMVWEd2pfdXgw7I2qQ _RkSNkcVWEd2pfdXgw7I2qQ _RkSNnsVWEd2pfdXgw7I2qQ _RkSNkMVWEd2pfdXgw7I2qQ _RkSNksVWEd2pfdXgw7I2qQ _RkSNosVWEd2pfdXgw7I2qQ _RkSNjsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-zxa-baDc1KSYzHLYLZLONQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNpMVWEd2pfdXgw7I2qQ" name="use_case_model" guid="_RkSNpMVWEd2pfdXgw7I2qQ" presentationName="Use-Case Model" briefDescription="This artifact captures a model of the intended functions and environment of the system and serves as a contract between the customer and the team." isPlanned="false" superActivities="_RkSNoMVWEd2pfdXgw7I2qQ">
+        <checklists href="../../../core.tech.common.extend_supp/plugin.uma#_0U6OEMlgEdmt3adZL5Dmdw"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_KudM0NcJEdqz_d2XWoVt6Q"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_2jyfUAhVEduRe8TeoBmuGg"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_zGqO0MDpEduTGJ8i4u8TMw"/>
+        <examples href="../../../core.tech.common.extend_supp/plugin.uma#_t4QdAMNqEdu2IdAIaWZyAw"/>
+        <WorkProduct href="../../../core.tech.common.extend_supp/plugin.uma#_W2SgEDR5EdutE_HNDTJk5Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNlMVWEd2pfdXgw7I2qQ" name="decision_point_table" guid="_RkSNlMVWEd2pfdXgw7I2qQ" presentationName="Decision Point Table" isPlanned="false" superActivities="_RkSNoMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-c8q_v1s1n7aK-0miFaupPw"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_kRoWgBDFEdyJtJ3PbfdVDw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_SlELAAsbEdyPCr4G1Tb79A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNkcVWEd2pfdXgw7I2qQ" name="business_process_map" guid="_RkSNkcVWEd2pfdXgw7I2qQ" presentationName="Business Process Map" briefDescription="A Process map describes graphically using Business Process Management Notation (BPMN) the business process under scope." isPlanned="false" superActivities="_RkSNoMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-yaB5VmxyoNnFc5KAKx87uw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_Uw8aYBDGEdyJtJ3PbfdVDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNnsVWEd2pfdXgw7I2qQ" name="discovery_workshop_itinerary" guid="_RkSNnsVWEd2pfdXgw7I2qQ" presentationName="Rule Discovery Workshop Itinerary" isPlanned="false" superActivities="_RkSNoMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-jiPE4qjhy0-GvsHSu8k4hw"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_sruW0wjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_srklwQjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNkMVWEd2pfdXgw7I2qQ" name="execute_rule_discovery_roadmap" guid="_RkSNkMVWEd2pfdXgw7I2qQ" presentationName="Execute Rule Discovery Roadmap" briefDescription="This activity or task includes the three types of rule discovery: business users and experts workshop session, document study, legacy code mining. Even if the main source of rules are documents or code, it is still important to come back to a SME to get feedbacks on the team findings." hasMultipleOccurrences="true" superActivities="_RkSNoMVWEd2pfdXgw7I2qQ" isRepeatable="true" linkToPredecessor="_RkSNocVWEd2pfdXgw7I2qQ" mandatoryInput="_RkSNkcVWEd2pfdXgw7I2qQ _RkSNlMVWEd2pfdXgw7I2qQ" optionalInput="_RkSNnsVWEd2pfdXgw7I2qQ" output="_RkSNksVWEd2pfdXgw7I2qQ _RkSNosVWEd2pfdXgw7I2qQ _RkSNjsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-N9JRT0YykF7mF_nPmGpEig"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_sruW1gjqEdyj5bYZ0eCR5g"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_sruW3AjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW4QjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW4AjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW3gjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW3QjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_RkSNocVWEd2pfdXgw7I2qQ" guid="_RkSNocVWEd2pfdXgw7I2qQ" pred="_s37aO8VVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNksVWEd2pfdXgw7I2qQ" name="business_terms_glossary" guid="_RkSNksVWEd2pfdXgw7I2qQ" presentationName="Business Terms Glossary" briefDescription="Log in one document the terms and their definition as used by the business user" isPlanned="false" superActivities="_RkSNoMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-wKyQQHGWKPhxgDMava9lMA"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_sruW1wjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_srklygjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNosVWEd2pfdXgw7I2qQ" name="rule_description_doc" guid="_RkSNosVWEd2pfdXgw7I2qQ" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_RkSNoMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-bN3NfZ3WOIrkhDKHWDPKkA"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_j4-ukDS3EdyTBtGu8YeFfg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxAjqEdyj5bYZ0eCR5g"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxQjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2gjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNjsVWEd2pfdXgw7I2qQ" name="conceptual_data_model" guid="_RkSNjsVWEd2pfdXgw7I2qQ" presentationName="Conceptual Data Model" isPlanned="false" superActivities="_RkSNoMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-l1seeyWf2ab1M7_-vwsRiQ"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_hYc8UHr9Ed2l9d4UccBrvQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj5rekEd-D7YZN9NgldQ" name="analyze_business_rules" guid="_9tWj5rekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_RkSNZcVWEd2pfdXgw7I2qQ" name="analyze_business_rules" guid="_RkSNZcVWEd2pfdXgw7I2qQ" presentationName="Analyze Business Rules" superActivities="_o2AhUXtxEd2tkbw8c1Rm7g" variabilityBasedOnElement="_RkSNZcVWEd2pfdXgw7I2qQ" breakdownElements="_RkSNasVWEd2pfdXgw7I2qQ _RkSNYcVWEd2pfdXgw7I2qQ _RkSNY8VWEd2pfdXgw7I2qQ _RkSNbMVWEd2pfdXgw7I2qQ _RkSNbcVWEd2pfdXgw7I2qQ _RkSNZ8VWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-I6NaNeD6vtJcfSCfyJ2e1Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNasVWEd2pfdXgw7I2qQ" name="rule_description_doc" guid="_RkSNasVWEd2pfdXgw7I2qQ" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_RkSNZcVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-teqRVFQdfi3M0E_2hPt2OA"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_j4-ukDS3EdyTBtGu8YeFfg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxAjqEdyj5bYZ0eCR5g"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxQjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2gjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNYcVWEd2pfdXgw7I2qQ" name="fact_model" guid="_RkSNYcVWEd2pfdXgw7I2qQ" presentationName="Fact Model" isPlanned="false" superActivities="_RkSNZcVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-7obhtj52BKnAGY2bh-MvLw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_csL3wHrMEd2o_5d3MWaNxQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNY8VWEd2pfdXgw7I2qQ" name="logical_data_model" guid="_RkSNY8VWEd2pfdXgw7I2qQ" presentationName="Logical Data Model" briefDescription="Logical Data Model represents the organization business-domain concepts in a set of diagram and logical schema. The choice of representation will depend of the design approach and the target audience. It could be relational (Table - columns, association), object oriented  (class - attribute association) or XML (tags) defined." isPlanned="false" superActivities="_RkSNZcVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-KnXTyJRJlBDBK68DXO57Uw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2AjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNbMVWEd2pfdXgw7I2qQ" name="transform_rules" guid="_RkSNbMVWEd2pfdXgw7I2qQ" presentationName="Transform Rules" briefDescription="Transform the rule to avoid ambiguity and make them more atomic" superActivities="_RkSNZcVWEd2pfdXgw7I2qQ" linkToPredecessor="_RkSNYsVWEd2pfdXgw7I2qQ" mandatoryInput="_RkSNYcVWEd2pfdXgw7I2qQ _RkSNY8VWEd2pfdXgw7I2qQ _RkSNasVWEd2pfdXgw7I2qQ" output="_RkSNYcVWEd2pfdXgw7I2qQ _RkSNY8VWEd2pfdXgw7I2qQ _RkSNasVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-sMysBcAYtIvVDmB57oo8sA"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_K6-3kDmnEdy8N6BRpa8ByQ"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_x_5XgH9iEd26h9j0X6pKmw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_8mZw8DmhEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_7HEPsDmiEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_tFwpYDmoEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_vMBLQDmoEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_LmcIADmqEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_w3cyUDmoEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_0-T6ADmoEdy8N6BRpa8ByQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_RkSNYsVWEd2pfdXgw7I2qQ" guid="_RkSNYsVWEd2pfdXgw7I2qQ" pred="_s37aO8VVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNbcVWEd2pfdXgw7I2qQ" name="build_test_scenario" guid="_RkSNbcVWEd2pfdXgw7I2qQ" presentationName="Build Test Scenarios" briefDescription="Work with analysis team to define concrete scenario with real data so that we can later on test the process and the rules." superActivities="_RkSNZcVWEd2pfdXgw7I2qQ" linkToPredecessor="_RkSNZMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-bcOPKdssk4qvaJmaJ82Wdg"/>
+        <guidelines href="../../../practice.tech.test_driven_development.base/plugin.uma#_5s_DUJ03EdyQ3oTO93enUw"/>
+        <supportingMaterials href="../../../practice.tech.test_driven_development.base/plugin.uma#_vLvAUGjFEd2PJ-nlV-86WA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_1dlWkH3GEd2sJcA0evSBQw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_RkSNZMVWEd2pfdXgw7I2qQ" guid="_RkSNZMVWEd2pfdXgw7I2qQ" pred="_RkSNbMVWEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNZ8VWEd2pfdXgw7I2qQ" name="synchronize_data_model" guid="_RkSNZ8VWEd2pfdXgw7I2qQ" presentationName="Synchronize Data Models" briefDescription="Ensure the terms and entities used in the rule march element in the different date models used by the IT components" superActivities="_RkSNZcVWEd2pfdXgw7I2qQ" linkToPredecessor="_RkSNbsVWEd2pfdXgw7I2qQ" mandatoryInput="_RkSNYcVWEd2pfdXgw7I2qQ _RkSNY8VWEd2pfdXgw7I2qQ _RkSNasVWEd2pfdXgw7I2qQ" output="_RkSNY8VWEd2pfdXgw7I2qQ _RkSNasVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-D86vI3p-CJqtaGHovLIH3A"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_prtzIDmiEdy8N6BRpa8ByQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_RkSNbsVWEd2pfdXgw7I2qQ" guid="_RkSNbsVWEd2pfdXgw7I2qQ" pred="_RkSNbcVWEd2pfdXgw7I2qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj6rekEd-D7YZN9NgldQ" name="design_bre_integration" guid="_9tWj6rekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_DbIE48VXEd2pfdXgw7I2qQ" name="design_bre_integration" guid="_DbIE48VXEd2pfdXgw7I2qQ" presentationName="Design BRMS Integration" superActivities="_o2AhUXtxEd2tkbw8c1Rm7g" variabilityBasedOnElement="_DbIE48VXEd2pfdXgw7I2qQ" breakdownElements="_DbIE5MVXEd2pfdXgw7I2qQ _DbIE58VXEd2pfdXgw7I2qQ _DbIE4sVXEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-iDrjgGg0EofrciITbayiaA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_DbIE5MVXEd2pfdXgw7I2qQ" name="determine_rule_implementation" guid="_DbIE5MVXEd2pfdXgw7I2qQ" presentationName="Determine Rule Implementation" briefDescription="This task tries to answer the question of where to implement the business rules that have been discovered." superActivities="_DbIE48VXEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-Qy_wVwt9Qh9iVf4FyNvOag"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_qzveUBk5Edyoe_hnDlTB5A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_DbIE58VXEd2pfdXgw7I2qQ" name="decision_point_table" guid="_DbIE58VXEd2pfdXgw7I2qQ" presentationName="Decision Point Table" isPlanned="false" superActivities="_DbIE48VXEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-7BTHzZPiw1v_S2Ts1aJNBA"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_kRoWgBDFEdyJtJ3PbfdVDw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_SlELAAsbEdyPCr4G1Tb79A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_DbIE4sVXEd2pfdXgw7I2qQ" name="rule_description_doc" guid="_DbIE4sVXEd2pfdXgw7I2qQ" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_DbIE48VXEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#--tH7_LHDMrDWKm6h9JBFsA"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_j4-ukDS3EdyTBtGu8YeFfg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxAjqEdyj5bYZ0eCR5g"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxQjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2gjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj67ekEd-D7YZN9NgldQ" name="author_business_rules" guid="_9tWj67ekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_RkSNccVWEd2pfdXgw7I2qQ" name="author_business_rules" guid="_RkSNccVWEd2pfdXgw7I2qQ" presentationName="Author Business Rules" superActivities="_o2AhUXtxEd2tkbw8c1Rm7g" variabilityBasedOnElement="_RkSNccVWEd2pfdXgw7I2qQ" breakdownElements="_RkSNdcVWEd2pfdXgw7I2qQ _RkSNd8VWEd2pfdXgw7I2qQ _RkSNdMVWEd2pfdXgw7I2qQ _RkSNcMVWEd2pfdXgw7I2qQ _RkSNc8VWEd2pfdXgw7I2qQ _RkSNcsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-8tHTcrgK1fmquEli5euXbQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNdcVWEd2pfdXgw7I2qQ" name="develop_unit_tests" guid="_RkSNdcVWEd2pfdXgw7I2qQ" presentationName="Develop Rule Unit Tests" briefDescription="The goal of this task is to track down anomalies in the rules such as conflicts, redundancies or overlaps.&#xD;&#xA;" superActivities="_RkSNccVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-yPcK13A7M5bOTTJG-OiLTQ"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_ioCPkDzEEdyA6a_I80swHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNd8VWEd2pfdXgw7I2qQ" name="develop_rules" guid="_RkSNd8VWEd2pfdXgw7I2qQ" presentationName="Develop Rules" briefDescription="This task is about developing each rule in the rule project." superActivities="_RkSNccVWEd2pfdXgw7I2qQ" output="_RkSNdMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-z_nnzuHQecgXrHgcz9F0qw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_Y2CxEDzEEdyA6a_I80swHw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_bsPp8ErtEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_qfzk4ErtEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_tdNKIErtEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_zAvrMErtEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_GvK9oEruEdyEE-k1R6LmOA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNdMVWEd2pfdXgw7I2qQ" name="ruleset" guid="_RkSNdMVWEd2pfdXgw7I2qQ" presentationName="Ruleset" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_RkSNccVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#--__8DYtnVs9eZArH2GikBg"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_mqnOETmsEdy8N6BRpa8ByQ"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_vjWPcDzEEdyA6a_I80swHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNcMVWEd2pfdXgw7I2qQ" name="enhance_object_models" guid="_RkSNcMVWEd2pfdXgw7I2qQ" presentationName="Enhance Object Models" briefDescription="The data model is started during the analysis and design tasks. But it will involve over time. So this activity supports the enhancement of the object models." superActivities="_RkSNccVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-xrmI1p-ME165PzMiVzJ8Sw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_UXrv8Eb3EdySHMdInS9eGA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNc8VWEd2pfdXgw7I2qQ" name="execute_rule_set" guid="_RkSNc8VWEd2pfdXgw7I2qQ" presentationName="Execute Rule Set" briefDescription="Execute the tests to trigger the rule execution. Analyze the output logs. Report issues." superActivities="_RkSNccVWEd2pfdXgw7I2qQ" output="_RkSNdMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-uuWfS5EV0FimZ5_4aRVtjA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_JCHfMEXhEdy14e5PT9v3HQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNcsVWEd2pfdXgw7I2qQ" name="log_issue" guid="_RkSNcsVWEd2pfdXgw7I2qQ" presentationName="Log Issue" superActivities="_RkSNccVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-zUb0cau__Hfq13SvkX5QLw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_yGbYIEb0EdySHMdInS9eGA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj7LekEd-D7YZN9NgldQ" name="validate_business_rules" guid="_9tWj7LekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_RkSNpsVWEd2pfdXgw7I2qQ" name="validate_business_rules" guid="_RkSNpsVWEd2pfdXgw7I2qQ" presentationName="Validate Business Rules" superActivities="_o2AhUXtxEd2tkbw8c1Rm7g" variabilityBasedOnElement="_RkSNpsVWEd2pfdXgw7I2qQ" breakdownElements="_xxBFkGh8Ed-9y9wL8auvhA _RkSNq8VWEd2pfdXgw7I2qQ _RkSNrsVWEd2pfdXgw7I2qQ _RkSNqcVWEd2pfdXgw7I2qQ _RkSNr8VWEd2pfdXgw7I2qQ _RkSNrcVWEd2pfdXgw7I2qQ _RkSNp8VWEd2pfdXgw7I2qQ _RkSNqMVWEd2pfdXgw7I2qQ _RkSNqsVWEd2pfdXgw7I2qQ _RkSNrMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-4WeilgakCQbS1xQ7a54XEg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_xxBFkGh8Ed-9y9wL8auvhA" name="define_ruleset_testing" guid="_xxBFkGh8Ed-9y9wL8auvhA" presentationName="Define Rule Testing Approach" briefDescription="Rule testing has been a crucial and intensive task within rule development, due to the nature of a lot of business rules working together." superActivities="_RkSNpsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-xZmMlKJ2ELDM5ehTI5-ouA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_mDL5YGhkEd-FVuzXjnvIWA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNq8VWEd2pfdXgw7I2qQ" name="define_data_scenario" guid="_RkSNq8VWEd2pfdXgw7I2qQ" presentationName="Define Data Scenarios to Test Rule" briefDescription="This task supports the definition of the data used to trigger the rule execution in scope for validating the rule set quality." superActivities="_RkSNpsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-QGPmaN2xy-Wgo3ltSi79iA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_eAWtgFv3EdykEsBjRsVfZw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNrsVWEd2pfdXgw7I2qQ" name="execute_ruleset_functional_test" guid="_RkSNrsVWEd2pfdXgw7I2qQ" presentationName="Execute Rule Set Functional Tests" briefDescription="Validate the function supported by the rule set with end to end scenarios. This involve client code calling the rule service." superActivities="_RkSNpsVWEd2pfdXgw7I2qQ" mandatoryInput="_RkSNp8VWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-I90uzl3ItrvAQBeMg-l9pw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_euAb8FtuEdykEsBjRsVfZw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNqcVWEd2pfdXgw7I2qQ" name="get_rule_set_reports" guid="_RkSNqcVWEd2pfdXgw7I2qQ" presentationName="Get Rule Set Reports" superActivities="_RkSNpsVWEd2pfdXgw7I2qQ" output="_RkSNqMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-h_Q4rpmMhckmEL3epy5j4Q"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_LGd_MFtvEdykEsBjRsVfZw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNr8VWEd2pfdXgw7I2qQ" name="get_sme_feedback" guid="_RkSNr8VWEd2pfdXgw7I2qQ" presentationName="Get SME Feedback" superActivities="_RkSNpsVWEd2pfdXgw7I2qQ" mandatoryInput="_RkSNqMVWEd2pfdXgw7I2qQ" output="_RkSNqsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-JkOVgFn0THaQU3V_LciXbg"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_CmBe4EtaEdyEE-k1R6LmOA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_RkSNrcVWEd2pfdXgw7I2qQ" name="test_analysis" guid="_RkSNrcVWEd2pfdXgw7I2qQ" presentationName="Test Analysis" superActivities="_RkSNpsVWEd2pfdXgw7I2qQ" mandatoryInput="_RkSNrMVWEd2pfdXgw7I2qQ _RkSNqMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-LGCZRD2iL1EzFH3_LqlAJg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_OmI3QEtZEdyEE-k1R6LmOA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_cik88EtZEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/test_analysis.uma#_cik88UtZEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/test_analysis.uma#_cik880tZEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/test_analysis.uma#_cik88ktZEdyEE-k1R6LmOA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNp8VWEd2pfdXgw7I2qQ" name="ruleset" guid="_RkSNp8VWEd2pfdXgw7I2qQ" presentationName="Ruleset" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_RkSNpsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-UbMVWUVbdTcZeO_raP_Zmg"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_mqnOETmsEdy8N6BRpa8ByQ"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_vjWPcDzEEdyA6a_I80swHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNqMVWEd2pfdXgw7I2qQ" name="rule_report" guid="_RkSNqMVWEd2pfdXgw7I2qQ" presentationName="Rule Report" isPlanned="false" superActivities="_RkSNpsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-fwowC3JkpIga2H7YGyHA4Q"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_arqeoUtZEdyEE-k1R6LmOA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNqsVWEd2pfdXgw7I2qQ" name="sme_recommendations" guid="_RkSNqsVWEd2pfdXgw7I2qQ" presentationName="SME Recommendations" isPlanned="false" superActivities="_RkSNpsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-G84F_WKYJbQh1mymVCWgxw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_BnlgsEtaEdyEE-k1R6LmOA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_RkSNrMVWEd2pfdXgw7I2qQ" name="rsm_report" guid="_RkSNrMVWEd2pfdXgw7I2qQ" presentationName="RSM Report" isPlanned="false" superActivities="_RkSNpsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-1PQWVqDq_1c_uYCcAzXPjQ"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_arqeoEtZEdyEE-k1R6LmOA"/>
+      </processElements>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_o2AhUXtxEd2tkbw8c1Rm7g" name="Cycle3- Building" guid="_o2AhUXtxEd2tkbw8c1Rm7g" presentationName="Cycle 3- Building" superActivities="_2EcLMXqlEd2o_5d3MWaNxQ" variabilityBasedOnElement="_o2AhUXtxEd2tkbw8c1Rm7g" breakdownElements="_RkSNoMVWEd2pfdXgw7I2qQ _RkSNZcVWEd2pfdXgw7I2qQ _DbIE48VXEd2pfdXgw7I2qQ _RkSNccVWEd2pfdXgw7I2qQ _RkSNpsVWEd2pfdXgw7I2qQ"/>
+  </childPackages>
+  <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj7bekEd-D7YZN9NgldQ" name="Cycle 4- Integrating" guid="_9tWj7bekEd-D7YZN9NgldQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj7rekEd-D7YZN9NgldQ" name="deploy_business_rules" guid="_9tWj7rekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_0xrvR8VWEd2pfdXgw7I2qQ" name="deploy_business_rules" guid="_0xrvR8VWEd2pfdXgw7I2qQ" presentationName="Deploy Business Rules" superActivities="_3pe8sXtxEd2tkbw8c1Rm7g" variabilityBasedOnElement="_0xrvR8VWEd2pfdXgw7I2qQ" breakdownElements="_0xrvQsVWEd2pfdXgw7I2qQ _0xrvQ8VWEd2pfdXgw7I2qQ _0xrvQcVWEd2pfdXgw7I2qQ _0xrvRcVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-CDhw1ZKfzw57sjOszDxNXQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_0xrvQsVWEd2pfdXgw7I2qQ" name="deploy_rules" guid="_0xrvQsVWEd2pfdXgw7I2qQ" presentationName="Deploy Rules" briefDescription="Deploy rule set in the integrated core application" superActivities="_0xrvR8VWEd2pfdXgw7I2qQ" mandatoryInput="_0xrvQ8VWEd2pfdXgw7I2qQ" output="_0xrvQ8VWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-tlugq7LmqmrzFCxoFyR-AQ"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_AgQVAD5QEdyA6a_I80swHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0xrvQ8VWEd2pfdXgw7I2qQ" name="ruleset" guid="_0xrvQ8VWEd2pfdXgw7I2qQ" presentationName="Ruleset" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_0xrvR8VWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-TpaFFyf36HQMpZFFFgj0Cg"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_mqnOETmsEdy8N6BRpa8ByQ"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_vjWPcDzEEdyA6a_I80swHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_0xrvQcVWEd2pfdXgw7I2qQ" name="synchronize_with_wrms" guid="_0xrvQcVWEd2pfdXgw7I2qQ" presentationName="Synchronize with Web-Based Rule Management System" superActivities="_0xrvR8VWEd2pfdXgw7I2qQ" output="_0xrvRcVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-f6gTOIuqcTE7Bo6RKZ0TqQ"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_YkGwYFtsEdykEsBjRsVfZw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0xrvRcVWEd2pfdXgw7I2qQ" name="rule_repository_in_db" guid="_0xrvRcVWEd2pfdXgw7I2qQ" presentationName="Rule Repository in DB" isPlanned="false" superActivities="_0xrvR8VWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-2plISeUo4TFYeepdm0sd9g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_jqxtYFttEdykEsBjRsVfZw"/>
+      </processElements>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_3pe8sXtxEd2tkbw8c1Rm7g" name="Cycle 4- Integrating" guid="_3pe8sXtxEd2tkbw8c1Rm7g" presentationName="Cycle 4- Integrating" superActivities="_2EcLMXqlEd2o_5d3MWaNxQ" variabilityBasedOnElement="_3pe8sXtxEd2tkbw8c1Rm7g" breakdownElements="_0xrvR8VWEd2pfdXgw7I2qQ"/>
+  </childPackages>
+  <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj77ekEd-D7YZN9NgldQ" name="Cycle 5- Enhancing" guid="_9tWj77ekEd-D7YZN9NgldQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj8LekEd-D7YZN9NgldQ" name="discover_business_rules" guid="_9tWj8LekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_6r4dGMVWEd2pfdXgw7I2qQ" name="discover_business_rules" guid="_6r4dGMVWEd2pfdXgw7I2qQ" presentationName="Discover Business Rules" superActivities="_53V7YXtxEd2tkbw8c1Rm7g" variabilityBasedOnElement="_6r4dGMVWEd2pfdXgw7I2qQ" breakdownElements="_6r4dHMVWEd2pfdXgw7I2qQ _6r4dDMVWEd2pfdXgw7I2qQ _6r4dCcVWEd2pfdXgw7I2qQ _6r4dFsVWEd2pfdXgw7I2qQ _6r4dCMVWEd2pfdXgw7I2qQ _6r4dCsVWEd2pfdXgw7I2qQ _6r4dGsVWEd2pfdXgw7I2qQ _6r4dBsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-TxDZIG3zJyyBuiVvCyxaNQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4dHMVWEd2pfdXgw7I2qQ" name="use_case_model" guid="_6r4dHMVWEd2pfdXgw7I2qQ" presentationName="Use-Case Model" briefDescription="This artifact captures a model of the intended functions and environment of the system and serves as a contract between the customer and the team." isPlanned="false" superActivities="_6r4dGMVWEd2pfdXgw7I2qQ">
+        <checklists href="../../../core.tech.common.extend_supp/plugin.uma#_0U6OEMlgEdmt3adZL5Dmdw"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_KudM0NcJEdqz_d2XWoVt6Q"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_2jyfUAhVEduRe8TeoBmuGg"/>
+        <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_zGqO0MDpEduTGJ8i4u8TMw"/>
+        <examples href="../../../core.tech.common.extend_supp/plugin.uma#_t4QdAMNqEdu2IdAIaWZyAw"/>
+        <WorkProduct href="../../../core.tech.common.extend_supp/plugin.uma#_W2SgEDR5EdutE_HNDTJk5Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4dDMVWEd2pfdXgw7I2qQ" name="decision_point_table" guid="_6r4dDMVWEd2pfdXgw7I2qQ" presentationName="Decision Point Table" isPlanned="false" superActivities="_6r4dGMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-MfK3a42-JVFgfXFrlgKVCg"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_kRoWgBDFEdyJtJ3PbfdVDw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_SlELAAsbEdyPCr4G1Tb79A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4dCcVWEd2pfdXgw7I2qQ" name="business_process_map" guid="_6r4dCcVWEd2pfdXgw7I2qQ" presentationName="Business Process Map" briefDescription="A Process map describes graphically using Business Process Management Notation (BPMN) the business process under scope." isPlanned="false" superActivities="_6r4dGMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-eUCZh9-TGhKseTixKaMrHg"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_Uw8aYBDGEdyJtJ3PbfdVDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4dFsVWEd2pfdXgw7I2qQ" name="discovery_workshop_itinerary" guid="_6r4dFsVWEd2pfdXgw7I2qQ" presentationName="Rule Discovery Workshop Itinerary" isPlanned="false" superActivities="_6r4dGMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-iQtEn6D9iqYBMMYBWuVKBw"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_sruW0wjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_srklwQjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4dCMVWEd2pfdXgw7I2qQ" name="execute_rule_discovery_roadmap" guid="_6r4dCMVWEd2pfdXgw7I2qQ" presentationName="Execute Rule Discovery Roadmap" briefDescription="This activity or task includes the three types of rule discovery: business users and experts workshop session, document study, legacy code mining. Even if the main source of rules are documents or code, it is still important to come back to a SME to get feedbacks on the team findings." hasMultipleOccurrences="true" superActivities="_6r4dGMVWEd2pfdXgw7I2qQ" isRepeatable="true" linkToPredecessor="_6r4dGcVWEd2pfdXgw7I2qQ" mandatoryInput="_6r4dCcVWEd2pfdXgw7I2qQ _6r4dDMVWEd2pfdXgw7I2qQ" optionalInput="_6r4dFsVWEd2pfdXgw7I2qQ" output="_6r4dCsVWEd2pfdXgw7I2qQ _6r4dGsVWEd2pfdXgw7I2qQ _6r4dBsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-lgSFuLT3lWbTwunMCMdGzA"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_sruW1gjqEdyj5bYZ0eCR5g"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_sruW3AjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW4QjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW4AjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW3gjqEdyj5bYZ0eCR5g"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/execute_rule_discovery_roadmap.uma#_sruW3QjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_6r4dGcVWEd2pfdXgw7I2qQ" guid="_6r4dGcVWEd2pfdXgw7I2qQ" pred="_s37aO8VVEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4dCsVWEd2pfdXgw7I2qQ" name="business_terms_glossary" guid="_6r4dCsVWEd2pfdXgw7I2qQ" presentationName="Business Terms Glossary" briefDescription="Log in one document the terms and their definition as used by the business user" isPlanned="false" superActivities="_6r4dGMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-jDcrhnRAGpNy9F3lmDQh9A"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_sruW1wjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_srklygjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4dGsVWEd2pfdXgw7I2qQ" name="rule_description_doc" guid="_6r4dGsVWEd2pfdXgw7I2qQ" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_6r4dGMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-Ya6ew2cXy0t86scG8NYWbA"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_j4-ukDS3EdyTBtGu8YeFfg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxAjqEdyj5bYZ0eCR5g"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxQjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2gjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4dBsVWEd2pfdXgw7I2qQ" name="conceptual_data_model" guid="_6r4dBsVWEd2pfdXgw7I2qQ" presentationName="Conceptual Data Model" isPlanned="false" superActivities="_6r4dGMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-_HXi3XetHAIsFYblsTtTcg"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_hYc8UHr9Ed2l9d4UccBrvQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj8rekEd-D7YZN9NgldQ" name="analyze_business_rules" guid="_9tWj8rekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_6r4c1cVWEd2pfdXgw7I2qQ" name="analyze_business_rules" guid="_6r4c1cVWEd2pfdXgw7I2qQ" presentationName="Analyze Business Rules" superActivities="_53V7YXtxEd2tkbw8c1Rm7g" variabilityBasedOnElement="_6r4c1cVWEd2pfdXgw7I2qQ" breakdownElements="_6r4c28VWEd2pfdXgw7I2qQ _6r4c2sVWEd2pfdXgw7I2qQ _6r4c0cVWEd2pfdXgw7I2qQ _6r4c08VWEd2pfdXgw7I2qQ _6r4c3MVWEd2pfdXgw7I2qQ _6r4c3cVWEd2pfdXgw7I2qQ _6r4c18VWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-z_SeD1bFowOQJTPCHYGiHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4c28VWEd2pfdXgw7I2qQ" name="extract_rule_meaning" guid="_6r4c28VWEd2pfdXgw7I2qQ" presentationName="Extract Rule Meaning" briefDescription="Extract the semantic of the rule to prepare for a data model and to remove any ambiguity and redundancy." superActivities="_6r4c1cVWEd2pfdXgw7I2qQ" mandatoryInput="_6r4c2sVWEd2pfdXgw7I2qQ" output="_6r4c0cVWEd2pfdXgw7I2qQ _6r4c08VWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-HRHCQT3_ksQap5yLiPUDqg"/>
+        <concepts href="../../../practice.tech.abrd.base/plugin.uma#_gPfSoIpzEd2gksNyFVJN4g"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_8_mWgH3GEd2sJcA0evSBQw"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_o19QgF2BEd2T6cNSe41mOg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4c2sVWEd2pfdXgw7I2qQ" name="rule_description_doc" guid="_6r4c2sVWEd2pfdXgw7I2qQ" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_6r4c1cVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-Mp1iTCY_ZxvmhCU0pK1B4A"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_j4-ukDS3EdyTBtGu8YeFfg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxAjqEdyj5bYZ0eCR5g"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxQjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2gjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4c0cVWEd2pfdXgw7I2qQ" name="fact_model" guid="_6r4c0cVWEd2pfdXgw7I2qQ" presentationName="Fact Model" isPlanned="false" superActivities="_6r4c1cVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-Oycd-mszF0ZsLk-8ZeJWHg"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_csL3wHrMEd2o_5d3MWaNxQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4c08VWEd2pfdXgw7I2qQ" name="logical_data_model" guid="_6r4c08VWEd2pfdXgw7I2qQ" presentationName="Logical Data Model" briefDescription="Logical Data Model represents the organization business-domain concepts in a set of diagram and logical schema. The choice of representation will depend of the design approach and the target audience. It could be relational (Table - columns, association), object oriented  (class - attribute association) or XML (tags) defined." isPlanned="false" superActivities="_6r4c1cVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-CqnB4S0O3gkfIdcDYQrDPQ"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2AjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4c3MVWEd2pfdXgw7I2qQ" name="transform_rules" guid="_6r4c3MVWEd2pfdXgw7I2qQ" presentationName="Transform Rules" briefDescription="Transform the rule to avoid ambiguity and make them more atomic" superActivities="_6r4c1cVWEd2pfdXgw7I2qQ" linkToPredecessor="_6r4c0sVWEd2pfdXgw7I2qQ" mandatoryInput="_6r4c0cVWEd2pfdXgw7I2qQ _6r4c08VWEd2pfdXgw7I2qQ _6r4c2sVWEd2pfdXgw7I2qQ" output="_6r4c0cVWEd2pfdXgw7I2qQ _6r4c08VWEd2pfdXgw7I2qQ _6r4c2sVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-i-o-ix2w6ehxgG6NXqzYnQ"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_K6-3kDmnEdy8N6BRpa8ByQ"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_x_5XgH9iEd26h9j0X6pKmw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_8mZw8DmhEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_7HEPsDmiEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_tFwpYDmoEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_vMBLQDmoEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_LmcIADmqEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_w3cyUDmoEdy8N6BRpa8ByQ"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/transform_rules.uma#_0-T6ADmoEdy8N6BRpa8ByQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_6r4c0sVWEd2pfdXgw7I2qQ" guid="_6r4c0sVWEd2pfdXgw7I2qQ" pred="_6r4c28VWEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4c3cVWEd2pfdXgw7I2qQ" name="build_test_scenario" guid="_6r4c3cVWEd2pfdXgw7I2qQ" presentationName="Build Test Scenarios" briefDescription="Work with analysis team to define concrete scenario with real data so that we can later on test the process and the rules." superActivities="_6r4c1cVWEd2pfdXgw7I2qQ" linkToPredecessor="_6r4c1MVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-Vw7w7CdsiPTvpIJJdjf1NA"/>
+        <guidelines href="../../../practice.tech.test_driven_development.base/plugin.uma#_5s_DUJ03EdyQ3oTO93enUw"/>
+        <supportingMaterials href="../../../practice.tech.test_driven_development.base/plugin.uma#_vLvAUGjFEd2PJ-nlV-86WA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_1dlWkH3GEd2sJcA0evSBQw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_6r4c1MVWEd2pfdXgw7I2qQ" guid="_6r4c1MVWEd2pfdXgw7I2qQ" pred="_6r4c3MVWEd2pfdXgw7I2qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4c18VWEd2pfdXgw7I2qQ" name="synchronize_data_model" guid="_6r4c18VWEd2pfdXgw7I2qQ" presentationName="Synchronize Data Models" briefDescription="Ensure the terms and entities used in the rule march element in the different date models used by the IT components" superActivities="_6r4c1cVWEd2pfdXgw7I2qQ" linkToPredecessor="_6r4c3sVWEd2pfdXgw7I2qQ" mandatoryInput="_6r4c0cVWEd2pfdXgw7I2qQ _6r4c08VWEd2pfdXgw7I2qQ _6r4c2sVWEd2pfdXgw7I2qQ" output="_6r4c08VWEd2pfdXgw7I2qQ _6r4c2sVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-lohL0MczQsZKJLN8EUe8IQ"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_prtzIDmiEdy8N6BRpa8ByQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_6r4c3sVWEd2pfdXgw7I2qQ" guid="_6r4c3sVWEd2pfdXgw7I2qQ" pred="_6r4c3cVWEd2pfdXgw7I2qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tWj9rekEd-D7YZN9NgldQ" name="design_bre_integration" guid="_9tWj9rekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_6r4c9cVWEd2pfdXgw7I2qQ" name="design_bre_integration" guid="_6r4c9cVWEd2pfdXgw7I2qQ" presentationName="Design BRMS Integration" superActivities="_53V7YXtxEd2tkbw8c1Rm7g" variabilityBasedOnElement="_6r4c9cVWEd2pfdXgw7I2qQ" breakdownElements="_6r4c-MVWEd2pfdXgw7I2qQ _6r4c9MVWEd2pfdXgw7I2qQ _6r4c_sVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-MdbP5cTReRekciw_VZz3vQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4c-MVWEd2pfdXgw7I2qQ" name="determine_rule_implementation" guid="_6r4c-MVWEd2pfdXgw7I2qQ" presentationName="Determine Rule Implementation" briefDescription="This task tries to answer the question of where to implement the business rules that have been discovered." superActivities="_6r4c9cVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-NmUNzIfRKfaj1Arf585V3A"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_qzveUBk5Edyoe_hnDlTB5A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4c9MVWEd2pfdXgw7I2qQ" name="decision_point_table" guid="_6r4c9MVWEd2pfdXgw7I2qQ" presentationName="Decision Point Table" isPlanned="false" superActivities="_6r4c9cVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-XeTJfes8s01sk2ZVcZ8ORQ"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_ZDdmQDSmEdyTBtGu8YeFfg"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_kRoWgBDFEdyJtJ3PbfdVDw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_SlELAAsbEdyPCr4G1Tb79A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4c_sVWEd2pfdXgw7I2qQ" name="rule_description_doc" guid="_6r4c_sVWEd2pfdXgw7I2qQ" presentationName="Rule Description Document" briefDescription="This document formalize the rule discovery by logging the major rules of a decision point in one document. " isPlanned="false" superActivities="_6r4c9cVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-vseCuvO6sao9pngM_Ax32Q"/>
+        <examples href="../../../practice.tech.abrd.base/plugin.uma#_j4-ukDS3EdyTBtGu8YeFfg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_1ZyHAHrZEd2l9d4UccBrvQ"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxAjqEdyj5bYZ0eCR5g"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_srklxQjqEdyj5bYZ0eCR5g"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_sruW2gjqEdyj5bYZ0eCR5g"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tgUwLekEd-D7YZN9NgldQ" name="author_business_rules" guid="_9tgUwLekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_6r4c4cVWEd2pfdXgw7I2qQ" name="author_business_rules" guid="_6r4c4cVWEd2pfdXgw7I2qQ" presentationName="Author Business Rules" superActivities="_53V7YXtxEd2tkbw8c1Rm7g" variabilityBasedOnElement="_6r4c4cVWEd2pfdXgw7I2qQ" breakdownElements="_6r4c5cVWEd2pfdXgw7I2qQ _6r4c58VWEd2pfdXgw7I2qQ _6r4c5MVWEd2pfdXgw7I2qQ _6r4c4MVWEd2pfdXgw7I2qQ _6r4c48VWEd2pfdXgw7I2qQ _6r4c4sVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-XW78i_C7h9zp23v7_4FynQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4c5cVWEd2pfdXgw7I2qQ" name="develop_unit_tests" guid="_6r4c5cVWEd2pfdXgw7I2qQ" presentationName="Develop Rule Unit Tests" briefDescription="The goal of this task is to track down anomalies in the rules such as conflicts, redundancies or overlaps.&#xD;&#xA;" superActivities="_6r4c4cVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-ppaJma4emmmK-5NP1JKfEA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_ioCPkDzEEdyA6a_I80swHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4c58VWEd2pfdXgw7I2qQ" name="develop_rules" guid="_6r4c58VWEd2pfdXgw7I2qQ" presentationName="Develop Rules" briefDescription="This task is about developing each rule in the rule project." superActivities="_6r4c4cVWEd2pfdXgw7I2qQ" output="_6r4c5MVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-VRP7bY43MhKouOQxpD791Q"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_Y2CxEDzEEdyA6a_I80swHw"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_bsPp8ErtEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_qfzk4ErtEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_tdNKIErtEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_zAvrMErtEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_GvK9oEruEdyEE-k1R6LmOA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4c5MVWEd2pfdXgw7I2qQ" name="ruleset" guid="_6r4c5MVWEd2pfdXgw7I2qQ" presentationName="Ruleset" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_6r4c4cVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-mU2cfiy9SzQO2aBAKn6lEQ"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_mqnOETmsEdy8N6BRpa8ByQ"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_vjWPcDzEEdyA6a_I80swHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4c4MVWEd2pfdXgw7I2qQ" name="enhance_object_models" guid="_6r4c4MVWEd2pfdXgw7I2qQ" presentationName="Enhance Object Models" briefDescription="The data model is started during the analysis and design tasks. But it will involve over time. So this activity supports the enhancement of the object models." superActivities="_6r4c4cVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-Q0OitIPVg9I1Oq_g9_XCiw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_UXrv8Eb3EdySHMdInS9eGA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4c48VWEd2pfdXgw7I2qQ" name="execute_rule_set" guid="_6r4c48VWEd2pfdXgw7I2qQ" presentationName="Execute Rule Set" briefDescription="Execute the tests to trigger the rule execution. Analyze the output logs. Report issues." superActivities="_6r4c4cVWEd2pfdXgw7I2qQ" output="_6r4c5MVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-gmJa6dJF634bZnYGdnthtw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_JCHfMEXhEdy14e5PT9v3HQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4c4sVWEd2pfdXgw7I2qQ" name="log_issue" guid="_6r4c4sVWEd2pfdXgw7I2qQ" presentationName="Log Issue" superActivities="_6r4c4cVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-TunYKZqNMaMlNqp73EpPgA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_yGbYIEb0EdySHMdInS9eGA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tgUwbekEd-D7YZN9NgldQ" name="validate_business_rules" guid="_9tgUwbekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_6r4dHsVWEd2pfdXgw7I2qQ" name="validate_business_rules" guid="_6r4dHsVWEd2pfdXgw7I2qQ" presentationName="Validate Business Rules" superActivities="_53V7YXtxEd2tkbw8c1Rm7g" variabilityBasedOnElement="_6r4dHsVWEd2pfdXgw7I2qQ" breakdownElements="_6r4dJsVWEd2pfdXgw7I2qQ _6r4dIcVWEd2pfdXgw7I2qQ _6r4dJ8VWEd2pfdXgw7I2qQ _6r4dJcVWEd2pfdXgw7I2qQ _6r4dH8VWEd2pfdXgw7I2qQ _6r4dIMVWEd2pfdXgw7I2qQ _6r4dIsVWEd2pfdXgw7I2qQ _6r4dJMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-fxBunH2zP8bxL0NEj54ptA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4dJsVWEd2pfdXgw7I2qQ" name="execute_ruleset_functional_test" guid="_6r4dJsVWEd2pfdXgw7I2qQ" presentationName="Execute Rule Set Functional Tests" briefDescription="Validate the function supported by the rule set with end to end scenarios. This involve client code calling the rule service." superActivities="_6r4dHsVWEd2pfdXgw7I2qQ" mandatoryInput="_6r4dH8VWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-y4Aw5AGHiDwN62DoU72gvw"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_euAb8FtuEdykEsBjRsVfZw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4dIcVWEd2pfdXgw7I2qQ" name="get_rule_set_reports" guid="_6r4dIcVWEd2pfdXgw7I2qQ" presentationName="Get Rule Set Reports" superActivities="_6r4dHsVWEd2pfdXgw7I2qQ" output="_6r4dIMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-5G8CfPgnZh36ji0ZlYzYXQ"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_LGd_MFtvEdykEsBjRsVfZw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4dJ8VWEd2pfdXgw7I2qQ" name="get_sme_feedback" guid="_6r4dJ8VWEd2pfdXgw7I2qQ" presentationName="Get SME Feedback" superActivities="_6r4dHsVWEd2pfdXgw7I2qQ" mandatoryInput="_6r4dIMVWEd2pfdXgw7I2qQ" output="_6r4dIsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-aGsq4sRPoN9Rg2zOy4BOaQ"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_CmBe4EtaEdyEE-k1R6LmOA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4dJcVWEd2pfdXgw7I2qQ" name="test_analysis" guid="_6r4dJcVWEd2pfdXgw7I2qQ" presentationName="Test Analysis" superActivities="_6r4dHsVWEd2pfdXgw7I2qQ" mandatoryInput="_6r4dJMVWEd2pfdXgw7I2qQ _6r4dIMVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-ndrhF3xLLIGB3LyVVM1-Lg"/>
+        <guidelines href="../../../practice.tech.abrd.base/plugin.uma#_OmI3QEtZEdyEE-k1R6LmOA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_cik88EtZEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/test_analysis.uma#_cik88UtZEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/test_analysis.uma#_cik880tZEdyEE-k1R6LmOA"/>
+        <selectedSteps href="../../../practice.tech.abrd.base/tasks/test_analysis.uma#_cik88ktZEdyEE-k1R6LmOA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4dH8VWEd2pfdXgw7I2qQ" name="ruleset" guid="_6r4dH8VWEd2pfdXgw7I2qQ" presentationName="Ruleset" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_6r4dHsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-1bBmUUB5_pPRA1-9EE-g7A"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_mqnOETmsEdy8N6BRpa8ByQ"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_vjWPcDzEEdyA6a_I80swHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4dIMVWEd2pfdXgw7I2qQ" name="rule_report" guid="_6r4dIMVWEd2pfdXgw7I2qQ" presentationName="Rule Report" isPlanned="false" superActivities="_6r4dHsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-z7C-L5MyFxgpQP2wmgkaCg"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_arqeoUtZEdyEE-k1R6LmOA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4dIsVWEd2pfdXgw7I2qQ" name="sme_recommendations" guid="_6r4dIsVWEd2pfdXgw7I2qQ" presentationName="SME Recommendations" isPlanned="false" superActivities="_6r4dHsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-IM6GVp0gm8GpDQQHu1JTzA"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_BnlgsEtaEdyEE-k1R6LmOA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4dJMVWEd2pfdXgw7I2qQ" name="rsm_report" guid="_6r4dJMVWEd2pfdXgw7I2qQ" presentationName="RSM Report" isPlanned="false" superActivities="_6r4dHsVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-EuY3fQmZi-sssGgLCoGwqw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_arqeoEtZEdyEE-k1R6LmOA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tgUwrekEd-D7YZN9NgldQ" name="deploy_business_rules" guid="_9tgUwrekEd-D7YZN9NgldQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_6r4c8MVWEd2pfdXgw7I2qQ" name="deploy_business_rules" guid="_6r4c8MVWEd2pfdXgw7I2qQ" presentationName="Deploy Business Rules" superActivities="_53V7YXtxEd2tkbw8c1Rm7g" variabilityBasedOnElement="_6r4c8MVWEd2pfdXgw7I2qQ" breakdownElements="_6r4c68VWEd2pfdXgw7I2qQ _6r4c7MVWEd2pfdXgw7I2qQ _6r4c6sVWEd2pfdXgw7I2qQ _6r4c7sVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-UobSWGrKBmEhg8A39R5yLg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4c68VWEd2pfdXgw7I2qQ" name="deploy_rules" guid="_6r4c68VWEd2pfdXgw7I2qQ" presentationName="Deploy Rules" briefDescription="Deploy rule set in the integrated core application" superActivities="_6r4c8MVWEd2pfdXgw7I2qQ" mandatoryInput="_6r4c7MVWEd2pfdXgw7I2qQ" output="_6r4c7MVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-x18L5UZxvP6LBzZCJekP0g"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_AgQVAD5QEdyA6a_I80swHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4c7MVWEd2pfdXgw7I2qQ" name="ruleset" guid="_6r4c7MVWEd2pfdXgw7I2qQ" presentationName="Ruleset" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_6r4c8MVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-VIexLG3fR5IHNPWD53_k-w"/>
+        <templates href="../../../practice.tech.abrd.base/plugin.uma#_mqnOETmsEdy8N6BRpa8ByQ"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_vjWPcDzEEdyA6a_I80swHw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6r4c6sVWEd2pfdXgw7I2qQ" name="synchronize_with_wrms" guid="_6r4c6sVWEd2pfdXgw7I2qQ" presentationName="Synchronize with Web-Based Rule Management System" superActivities="_6r4c8MVWEd2pfdXgw7I2qQ" output="_6r4c7sVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-yhAuH0Pn0YnmJPGHNdA4nA"/>
+        <Task href="../../../practice.tech.abrd.base/plugin.uma#_YkGwYFtsEdykEsBjRsVfZw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6r4c7sVWEd2pfdXgw7I2qQ" name="rule_repository_in_db" guid="_6r4c7sVWEd2pfdXgw7I2qQ" presentationName="Rule Repository in DB" isPlanned="false" superActivities="_6r4c8MVWEd2pfdXgw7I2qQ">
+        <presentation href="content.uma#-92jwAW4UkB6tPCOwNbvKuw"/>
+        <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_jqxtYFttEdykEsBjRsVfZw"/>
+      </processElements>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_53V7YXtxEd2tkbw8c1Rm7g" name="Cycle 5- Enhancing" guid="_53V7YXtxEd2tkbw8c1Rm7g" presentationName="Cycle 5- Enhancing" superActivities="_2EcLMXqlEd2o_5d3MWaNxQ" variabilityBasedOnElement="_53V7YXtxEd2tkbw8c1Rm7g" breakdownElements="_6r4dGMVWEd2pfdXgw7I2qQ _6r4c1cVWEd2pfdXgw7I2qQ _6r4c9cVWEd2pfdXgw7I2qQ _6r4c4cVWEd2pfdXgw7I2qQ _6r4dHsVWEd2pfdXgw7I2qQ _6r4c8MVWEd2pfdXgw7I2qQ"/>
+  </childPackages>
+  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d654e326" superActivities="_2EcLMXqlEd2o_5d3MWaNxQ"/>
+  <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_2EcLMXqlEd2o_5d3MWaNxQ" name="abrd_process" guid="_2EcLMXqlEd2o_5d3MWaNxQ" presentationName="Agile Business Rule Development" superActivities="_2EcLMXqlEd2o_5d3MWaNxQ" variabilityBasedOnElement="_2EcLMXqlEd2o_5d3MWaNxQ" breakdownElements="_CryGMHqmEd2o_5d3MWaNxQ _zPFMAXrDEd2o_5d3MWaNxQ _o2AhUXtxEd2tkbw8c1Rm7g _3pe8sXtxEd2tkbw8c1Rm7g _53V7YXtxEd2tkbw8c1Rm7g _2EcLMXqlEd2o_5d3MWaNxQ d654e326">
+    <presentation href="content.uma#-Ui61NyVqm4OfNM8QodL5rQ"/>
+    <defaultContext href="../../../configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/>
+  </process>
+</org.eclipse.epf.uma:ProcessComponent>

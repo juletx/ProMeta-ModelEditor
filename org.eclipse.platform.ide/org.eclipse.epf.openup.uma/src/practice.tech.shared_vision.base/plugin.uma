@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_Y9TKMLS9EduDY8LNbMCDBA" name="practice.tech.shared_vision.base" guid="_Y9TKMLS9EduDY8LNbMCDBA" presentationName="Shared Vision" briefDescription="Gain concurrence on scope, features, and stakeholder needs through a vision." changeDate="2008-06-18T16:36:01.000+0200">
-  <methodElementProperty xmi:id="_GodTcho0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnM2LekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9k2vELekEd-D7YZN9NgldQ" name="Content" guid="_9k2vELekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9k2vEbekEd-D7YZN9NgldQ" name="Categories" guid="_9k2vEbekEd-D7YZN9NgldQ">
@@ -60,6 +60,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9k2vHLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9k2vHLekEd-D7YZN9NgldQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9k2vHbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9k2vHbekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9k2vHrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9k2vHrekEd-D7YZN9NgldQ"/>
   <bases href="../core.tech.slot.base/plugin.uma#_-bv0ELXuEduGP_98XMd0fg"/>
   <bases href="../core.tech.common.extend_supp/plugin.uma#_OOB2AAouEdyhlpBPrduOMw"/>
   <bases href="../core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>

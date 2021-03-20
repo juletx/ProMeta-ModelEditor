@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_OQxnAH_CEd2YWI_0AZcMOA" name="author_business_rules" guid="_OQxnAH_CEd2YWI_0AZcMOA" interfaces="d637e21">
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_VsH-QH_CEd2YWI_0AZcMOA" name="develop_unit_tests" guid="_VsH-QH_CEd2YWI_0AZcMOA" presentationName="Develop Rule Unit Tests" briefDescription="The goal of this task is to track down anomalies in the rules such as conflicts, redundancies or overlaps.&#xD;&#xA;" superActivities="_OQxnAX_CEd2YWI_0AZcMOA" isSynchronizedWithSource="false">
+    <presentation href="content.uma#-aoZNCrSMHCobCqrNM4Z5JA"/>
+    <Task href="../../../practice.tech.abrd.base/plugin.uma#_ioCPkDzEEdyA6a_I80swHw"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_VTsQIH_CEd2YWI_0AZcMOA" name="develop_rules" guid="_VTsQIH_CEd2YWI_0AZcMOA" presentationName="Develop Rules" briefDescription="This task is about developing each rule in the rule project." superActivities="_OQxnAX_CEd2YWI_0AZcMOA" output="_VTsQIn_CEd2YWI_0AZcMOA">
+    <presentation href="content.uma#-ch1YD3W6ZaDbDWdgfmcFbw"/>
+    <Task href="../../../practice.tech.abrd.base/plugin.uma#_Y2CxEDzEEdyA6a_I80swHw"/>
+    <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_bsPp8ErtEdyEE-k1R6LmOA"/>
+    <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_qfzk4ErtEdyEE-k1R6LmOA"/>
+    <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_tdNKIErtEdyEE-k1R6LmOA"/>
+    <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_zAvrMErtEdyEE-k1R6LmOA"/>
+    <selectedSteps href="../../../practice.tech.abrd.base/tasks/develop_rules.uma#_GvK9oEruEdyEE-k1R6LmOA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_VTsQIn_CEd2YWI_0AZcMOA" name="ruleset" guid="_VTsQIn_CEd2YWI_0AZcMOA" presentationName="Ruleset" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_OQxnAX_CEd2YWI_0AZcMOA">
+    <presentation href="content.uma#-bNDT40_Dob9KbffUI6mIJA"/>
+    <templates href="../../../practice.tech.abrd.base/plugin.uma#_mqnOETmsEdy8N6BRpa8ByQ"/>
+    <WorkProduct href="../../../practice.tech.abrd.base/plugin.uma#_vjWPcDzEEdyA6a_I80swHw"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_WyUKQH_CEd2YWI_0AZcMOA" name="enhance_object_models" guid="_WyUKQH_CEd2YWI_0AZcMOA" presentationName="Enhance Object Models" briefDescription="The data model is started during the analysis and design tasks. But it will involve over time. So this activity supports the enhancement of the object models." superActivities="_OQxnAX_CEd2YWI_0AZcMOA">
+    <presentation href="content.uma#-cNLxGN0Xk1GRudfSGVb8ig"/>
+    <Task href="../../../practice.tech.abrd.base/plugin.uma#_UXrv8Eb3EdySHMdInS9eGA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_XDv4gH_CEd2YWI_0AZcMOA" name="execute_rule_set" guid="_XDv4gH_CEd2YWI_0AZcMOA" presentationName="Execute Rule Set" briefDescription="Execute the tests to trigger the rule execution. Analyze the output logs. Report issues." superActivities="_OQxnAX_CEd2YWI_0AZcMOA" output="_VTsQIn_CEd2YWI_0AZcMOA">
+    <presentation href="content.uma#-g7yvSbhyKtzLJkvnHGyvKA"/>
+    <Task href="../../../practice.tech.abrd.base/plugin.uma#_JCHfMEXhEdy14e5PT9v3HQ"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_XR5pQH_CEd2YWI_0AZcMOA" name="log_issue" guid="_XR5pQH_CEd2YWI_0AZcMOA" presentationName="Log Issue" superActivities="_OQxnAX_CEd2YWI_0AZcMOA" isSynchronizedWithSource="false">
+    <presentation href="content.uma#-KokWTSqEp1OW6qZiJx7Fnw"/>
+    <Task href="../../../practice.tech.abrd.base/plugin.uma#_yGbYIEb0EdySHMdInS9eGA"/>
+  </processElements>
+  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d637e21" superActivities="_OQxnAX_CEd2YWI_0AZcMOA"/>
+  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_OQxnAX_CEd2YWI_0AZcMOA" name="author_business_rules" guid="_OQxnAX_CEd2YWI_0AZcMOA" presentationName="Author Business Rules" superActivities="_OQxnAX_CEd2YWI_0AZcMOA" variabilityBasedOnElement="_OQxnAX_CEd2YWI_0AZcMOA" breakdownElements="_VsH-QH_CEd2YWI_0AZcMOA _VTsQIH_CEd2YWI_0AZcMOA _VTsQIn_CEd2YWI_0AZcMOA _WyUKQH_CEd2YWI_0AZcMOA _XDv4gH_CEd2YWI_0AZcMOA _XR5pQH_CEd2YWI_0AZcMOA _OQxnAX_CEd2YWI_0AZcMOA d637e21">
+    <presentation href="content.uma#-TUyCFXMljyPPGFQbnWy_Zw"/>
+    <defaultContext href="../../../configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/>
+  </process>
+</org.eclipse.epf.uma:ProcessComponent>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_iNwFsMhNEdygFZkm1d5NtQ" name="practice.mgmt.iterative_dev.assign" guid="_iNwFsMhNEdygFZkm1d5NtQ" presentationName="Iterative Development Assignments">
-  <methodElementProperty xmi:id="_Goa3NBo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnMwrekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UKnsLekEd-D7YZN9NgldQ" name="Content" guid="_9UKnsLekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UKnsbekEd-D7YZN9NgldQ" name="Categories" guid="_9UKnsbekEd-D7YZN9NgldQ">
@@ -69,6 +69,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9UKnvLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9UKnvLekEd-D7YZN9NgldQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9UKnvbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9UKnvbekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9UKnvrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9UKnvrekEd-D7YZN9NgldQ"/>
   <bases href="../core.default.cat_def.base/plugin.uma#_MRPloEFXEdy9ENCpSugIjA"/>
   <bases href="../core.default.role_def.base/plugin.uma#_A118oMYaEdyXeo04os5BOw"/>
   <bases href="../practice.mgmt.iterative_dev.base/plugin.uma#_qqyzAJ6WEdyQN-zRFaRrCQ"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_vJYucEfUEdyiPI8btkmvmw" name="core.mgmt.slot.base" guid="_vJYucEfUEdyiPI8btkmvmw" presentationName="Management Slot" briefDescription="This plug-in defines the management slots." changeDate="2008-02-14T11:05:35.000+0100" supporting="true">
-  <methodElementProperty xmi:id="_GoZpFho0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnMvLekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9PQSgLekEd-D7YZN9NgldQ" name="Content" guid="_9PQSgLekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9PQSgbekEd-D7YZN9NgldQ" name="Categories" guid="_9PQSgbekEd-D7YZN9NgldQ">
@@ -38,5 +38,6 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9PQSjLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9PQSjLekEd-D7YZN9NgldQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9PQSjbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9PQSjbekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9PQSjrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9PQSjrekEd-D7YZN9NgldQ"/>
   <bases href="../core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
 </org.eclipse.epf.uma:MethodPlugin>

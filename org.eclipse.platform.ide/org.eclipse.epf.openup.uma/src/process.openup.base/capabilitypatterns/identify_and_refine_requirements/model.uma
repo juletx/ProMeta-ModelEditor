@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_xxcpgNOEEdyqlogshP8l4g" name="identify_and_refine_requirements" guid="_xxcpgNOEEdyqlogshP8l4g" interfaces="d491e21">
+<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_xxcpgNOEEdyqlogshP8l4g" name="identify_and_refine_requirements" guid="_xxcpgNOEEdyqlogshP8l4g" interfaces="d674e21">
   <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_EOm5oNOLEdyqlogshP8l4g" name="identify_and_outline_requirements" guid="_EOm5oNOLEdyqlogshP8l4g" presentationName="Identify and Outline Requirements" briefDescription="This task describes how to identify and outline the requirements for the system so that the scope of work can be determined." superActivities="_xxcpgdOEEdyqlogshP8l4g" optionalInput="_HDOWUdOLEdyqlogshP8l4g" output="_EOwqptOLEdyqlogshP8l4g _EOwqp9OLEdyqlogshP8l4g _EOwqqNOLEdyqlogshP8l4g">
     <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_0Wh-sMlgEdmt3adZL5Dmdw"/>
     <concepts href="../../../core.tech.common.extend_supp/plugin.uma#_VXZ5wO0IEdqHTdbLTmC5IQ"/>
@@ -78,8 +78,8 @@
     <templates href="../../../core.tech.common.extend_supp/plugin.uma#_yWaKEI5fEdyO5aWob1UGDA"/>
     <WorkProduct href="../../../core.tech.common.extend_supp/plugin.uma#_0ZS-0MlgEdmt3adZL5Dmdw"/>
   </processElements>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d491e21" superActivities="_xxcpgdOEEdyqlogshP8l4g"/>
-  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_xxcpgdOEEdyqlogshP8l4g" name="identify_and_refine_requirements" guid="_xxcpgdOEEdyqlogshP8l4g" presentationName="Identify and Refine Requirements" briefDescription="Detail a set of requirements (one or more use cases, scenarios or system-wide requirements)." superActivities="_xxcpgdOEEdyqlogshP8l4g" variabilityBasedOnElement="_xxcpgdOEEdyqlogshP8l4g" breakdownElements="_EOm5oNOLEdyqlogshP8l4g _EOwqptOLEdyqlogshP8l4g _EOwqp9OLEdyqlogshP8l4g _EOwqqNOLEdyqlogshP8l4g _EOwqqdOLEdyqlogshP8l4g _FX7SINOLEdyqlogshP8l4g _F68foNOLEdyqlogshP8l4g _HDOWUNOLEdyqlogshP8l4g _HDOWUdOLEdyqlogshP8l4g _HDOWUtOLEdyqlogshP8l4g _xxcpgdOEEdyqlogshP8l4g d491e21">
+  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d674e21" superActivities="_xxcpgdOEEdyqlogshP8l4g"/>
+  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_xxcpgdOEEdyqlogshP8l4g" name="identify_and_refine_requirements" guid="_xxcpgdOEEdyqlogshP8l4g" presentationName="Identify and Refine Requirements" briefDescription="Detail a set of requirements (one or more use cases, scenarios or system-wide requirements)." superActivities="_xxcpgdOEEdyqlogshP8l4g" variabilityBasedOnElement="_xxcpgdOEEdyqlogshP8l4g" breakdownElements="_EOm5oNOLEdyqlogshP8l4g _EOwqptOLEdyqlogshP8l4g _EOwqp9OLEdyqlogshP8l4g _EOwqqNOLEdyqlogshP8l4g _EOwqqdOLEdyqlogshP8l4g _FX7SINOLEdyqlogshP8l4g _F68foNOLEdyqlogshP8l4g _HDOWUNOLEdyqlogshP8l4g _HDOWUdOLEdyqlogshP8l4g _HDOWUtOLEdyqlogshP8l4g _xxcpgdOEEdyqlogshP8l4g d674e21">
     <presentation href="content.uma#-yNrF2Ac8VgD0WjoUxGOsIQ"/>
     <defaultContext href="../../../configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/>
   </process>

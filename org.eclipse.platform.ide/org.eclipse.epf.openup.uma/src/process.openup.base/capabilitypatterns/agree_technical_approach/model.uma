@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_4ouDUNOEEdyqlogshP8l4g" name="agree_technical_approach" guid="_4ouDUNOEEdyqlogshP8l4g" interfaces="d476e12">
+<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_4ouDUNOEEdyqlogshP8l4g" name="agree_technical_approach" guid="_4ouDUNOEEdyqlogshP8l4g" interfaces="d659e12">
   <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BWf5gtOKEdyqlogshP8l4g" name="architecture_notebook" guid="_BWf5gtOKEdyqlogshP8l4g" presentationName="Architecture Notebook" briefDescription="This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture." isPlanned="false" superActivities="_4ouDUdOEEdyqlogshP8l4g">
     <presentation href="content.uma#-5pBUhaIFdJ75MLPerQSnoA"/>
     <checklists href="../../../practice.tech.evolutionary_arch.base/plugin.uma#_17PYUNd6EdmIm-bsRSNCgw"/>
@@ -33,8 +33,8 @@
     <selectedSteps href="../../../practice.tech.evolutionary_arch.base/tasks/envision_the_arch.uma#_Q2PRIFHSEd2zrOgIte8oWg"/>
     <selectedSteps href="../../../practice.tech.evolutionary_arch.base/tasks/envision_the_arch.uma#_Xia1QFHSEd2zrOgIte8oWg"/>
   </processElements>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d476e12" superActivities="_4ouDUdOEEdyqlogshP8l4g"/>
-  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_4ouDUdOEEdyqlogshP8l4g" name="agree_technical_approach" guid="_4ouDUdOEEdyqlogshP8l4g" presentationName="Agree on Technical Approach" briefDescription="Reach agreement on a viable technical approach to developing the solution." superActivities="_4ouDUdOEEdyqlogshP8l4g" variabilityBasedOnElement="_4ouDUdOEEdyqlogshP8l4g" breakdownElements="_BWf5gtOKEdyqlogshP8l4g _n75CddfeEdy8T_PKWvNDBA _sjccUN_1EdyOsumnGvWsEg _4ouDUdOEEdyqlogshP8l4g d476e12">
+  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d659e12" superActivities="_4ouDUdOEEdyqlogshP8l4g"/>
+  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_4ouDUdOEEdyqlogshP8l4g" name="agree_technical_approach" guid="_4ouDUdOEEdyqlogshP8l4g" presentationName="Agree on Technical Approach" briefDescription="Reach agreement on a viable technical approach to developing the solution." superActivities="_4ouDUdOEEdyqlogshP8l4g" variabilityBasedOnElement="_4ouDUdOEEdyqlogshP8l4g" breakdownElements="_BWf5gtOKEdyqlogshP8l4g _n75CddfeEdy8T_PKWvNDBA _sjccUN_1EdyOsumnGvWsEg _4ouDUdOEEdyqlogshP8l4g d659e12">
     <presentation href="content.uma#-BZ8afnvoVBJs82vzcOBaCw"/>
     <defaultContext href="../../../configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/>
   </process>

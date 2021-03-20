@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_MRPloEFXEdy9ENCpSugIjA" name="core.default.cat_def.base" guid="_MRPloEFXEdy9ENCpSugIjA" presentationName="Default Category Definitions" briefDescription="This plug-in contains the default definitions for Domains and Disciplines." changeDate="2008-01-18T12:14:38.000+0100">
-  <methodElementProperty xmi:id="_GoZCABo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnMsbekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9IsXgLekEd-D7YZN9NgldQ" name="Content" guid="_9IsXgLekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9IsXgbekEd-D7YZN9NgldQ" name="Categories" guid="_9IsXgbekEd-D7YZN9NgldQ">
@@ -13,7 +13,7 @@
         <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_UtGCIKsREd-4oa5dU5v0Eg" name="brd_domains" guid="_UtGCIKsREd-4oa5dU5v0Eg" presentationName="Business Rules Development" briefDescription="This is the list of work products in business rules development organized by domains." variabilityBasedOnElement="_UtGCIKsREd-4oa5dU5v0Eg"/>
         <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_Fpj0ALrUEd-0rKmWr1vEGQ" name="environment_domain" guid="_Fpj0ALrUEd-0rKmWr1vEGQ" presentationName="Environment" briefDescription="This is the list of work products related to the Environment domain." variabilityBasedOnElement="_Fpj0ALrUEd-0rKmWr1vEGQ"/>
         <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_fEIy4JoGEeGnJt_Qpwdfdg" name="deployment_domain" guid="_fEIy4JoGEeGnJt_Qpwdfdg" presentationName="Deployment" briefDescription="This is the list of work products related to the deployment domain." variabilityBasedOnElement="_fEIy4JoGEeGnJt_Qpwdfdg">
-          <methodElementProperty xmi:id="_GoZCARo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_kbnN4JoGEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
         </contentElements>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9IsXg7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9IsXg7ekEd-D7YZN9NgldQ">
@@ -35,7 +35,7 @@
         <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_g-STsKshEd-4oa5dU5v0Eg" name="brd_disciplines" guid="_g-STsKshEd-4oa5dU5v0Eg" presentationName="Business Rules Development" briefDescription="This is a group of disciplines under business rules development." variabilityBasedOnElement="_g-STsKshEd-4oa5dU5v0Eg"/>
         <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_qtv_gLtwEd-0rKmWr1vEGQ" name="environment_discipline" guid="_qtv_gLtwEd-0rKmWr1vEGQ" presentationName="Environment" briefDescription="This discipline explains how to customize process and tools for a project or organization." variabilityBasedOnElement="_qtv_gLtwEd-0rKmWr1vEGQ"/>
         <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_OjzNEJoGEeGnJt_Qpwdfdg" name="deployment_discipline" guid="_OjzNEJoGEeGnJt_Qpwdfdg" presentationName="Deployment" briefDescription="This discipline explains how to plan for and deploy a solution." variabilityBasedOnElement="_OjzNEJoGEeGnJt_Qpwdfdg">
-          <methodElementProperty xmi:id="_GoZCAho0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_V-jHYJoGEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
         </contentElements>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9IsXhLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9IsXhLekEd-D7YZN9NgldQ"/>
@@ -52,6 +52,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9IsXjLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9IsXjLekEd-D7YZN9NgldQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9IsXjbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9IsXjbekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9IsXjrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9IsXjrekEd-D7YZN9NgldQ"/>
   <bases href="../core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
   <bases href="../core.default.nav_view.base/plugin.uma#_vsno4EKmEdyrauqpmnA8jQ"/>
 </org.eclipse.epf.uma:MethodPlugin>

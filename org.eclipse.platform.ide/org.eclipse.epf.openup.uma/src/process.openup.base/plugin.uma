@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_Z7teANQ1EdyQ89W1tgswSQ" name="process.openup.base" guid="_Z7teANQ1EdyQ89W1tgswSQ" presentationName="Processes for OpenUP" briefDescription="This plug-in defines an example process for the OpenUP configuration." changeDate="2008-12-15T10:25:35.000+0100">
-  <methodElementProperty xmi:id="_GofIoBo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnM3rekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgUzrekEd-D7YZN9NgldQ" name="Content" guid="_9tgUzrekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgUz7ekEd-D7YZN9NgldQ" name="Categories" guid="_9tgUz7ekEd-D7YZN9NgldQ">
@@ -19,7 +19,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9tgU2bekEd-D7YZN9NgldQ" name="CoreContent" guid="_9tgU2bekEd-D7YZN9NgldQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o5lO8Gr4Ed24CboUCnKL3A" name="release_info" guid="_o5lO8Gr4Ed24CboUCnKL3A" presentationName="Release Information">
         <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_o5lO8Wr4Ed24CboUCnKL3A" name="release_info_openup_process" guid="_o5lO8Wr4Ed24CboUCnKL3A" presentationName="Process: OpenUP" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif" variabilityBasedOnElement="_o5lO8Wr4Ed24CboUCnKL3A">
-          <methodElementProperty xmi:id="_GofIoRo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_zi6uAKqKEeGEBp97uxfqnQ" name="me_edited" value="true"/>
           <presentation href="guidances/supportingmaterials/release_info_openup_process.uma#-8kqk1tE8R96b88T_NC7SoQ"/>
         </contentElements>
       </childPackages>
@@ -54,6 +54,7 @@
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tgU27ekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9tgU27ekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" href="deliveryprocesses/openup_lifecycle/model.uma#_SuWj4NOPEdyqlogshP8l4g"/>
   </methodPackages>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tgU3LekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9tgU3LekEd-D7YZN9NgldQ"/>
   <bases href="../core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
   <bases href="../core.default.role_def.base/plugin.uma#_A118oMYaEdyXeo04os5BOw"/>
   <bases href="../core.gen.common.assign/plugin.uma#_14Ft0M3pEdyuBO4ZIzcyig"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_qqyzAJ6WEdyQN-zRFaRrCQ" name="practice.mgmt.iterative_dev.base" guid="_qqyzAJ6WEdyQN-zRFaRrCQ" presentationName="Iterative Development" briefDescription="Create a solution in increments.  Each increment is completed in a fixed period of time, an &quot;iteration&quot;." changeDate="2008-02-22T15:31:42.000+0100">
-  <methodElementProperty xmi:id="_Goa3NRo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnMw7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnToLekEd-D7YZN9NgldQ" name="Content" guid="_9UnToLekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnTobekEd-D7YZN9NgldQ" name="Categories" guid="_9UnTobekEd-D7YZN9NgldQ">
@@ -187,6 +187,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9UnTrLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9UnTrLekEd-D7YZN9NgldQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9UnTrbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9UnTrbekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9UnTrrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9UnTrrekEd-D7YZN9NgldQ"/>
   <bases href="../core.mgmt.slot.base/plugin.uma#_vJYucEfUEdyiPI8btkmvmw"/>
   <bases href="../core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
   <bases href="../core.mgmt.common.extend_supp/plugin.uma#_0TmecJ-VEdy3Nc4rvuj7bA"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_0TmecJ-VEdy3Nc4rvuj7bA" name="core.mgmt.common.extend_supp" guid="_0TmecJ-VEdy3Nc4rvuj7bA" presentationName="Management Common (Extend-SUPP)" briefDescription="This plug-in defines management work products and guidance that is shared across practices." changeDate="2008-08-14T14:24:52.000+0200" supporting="true">
-  <methodElementProperty xmi:id="_GoZpFBo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnMu7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6OsLekEd-D7YZN9NgldQ" name="Content" guid="_9N6OsLekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6OsbekEd-D7YZN9NgldQ" name="Categories" guid="_9N6OsbekEd-D7YZN9NgldQ">
@@ -57,7 +57,7 @@
           <presentation href="guidances/checklists/work_items_list.uma#-BTXdT-1bO6nbAPf25q0_yA"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2CEzsLrREd-0rKmWr1vEGQ" name="project_defined_process" guid="_2CEzsLrREd-0rKmWr1vEGQ" presentationName="Project Defined Process" briefDescription="This work product describes the process that a project is to follow in order to produce the project's desired results." variabilityBasedOnElement="_2CEzsLrREd-0rKmWr1vEGQ">
-          <methodElementProperty xmi:id="_GoZpFRo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_j67EAKFLEeGoh9FipVFw0g" name="me_edited" value="true"/>
           <presentation href="workproducts/project_defined_process.uma#-wBOoiWwZUP1LDeCTqoNMBQ"/>
         </contentElements>
         <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_wGK8ULrZEd-0rKmWr1vEGQ" name="project_defined_process" guid="_wGK8ULrZEd-0rKmWr1vEGQ" presentationName="Project Defined Process" variabilityBasedOnElement="_wGK8ULrZEd-0rKmWr1vEGQ">
@@ -79,6 +79,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9N6OvLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9N6OvLekEd-D7YZN9NgldQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9N6OvbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9N6OvbekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9N6OvrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9N6OvrekEd-D7YZN9NgldQ"/>
   <bases href="../core.default.nav_view.base/plugin.uma#_vsno4EKmEdyrauqpmnA8jQ"/>
   <bases href="../core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
 </org.eclipse.epf.uma:MethodPlugin>

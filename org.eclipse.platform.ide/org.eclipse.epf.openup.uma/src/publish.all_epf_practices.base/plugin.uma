@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_bIIs0FRFEd2CWscN8Mx6rg" name="publish.all_epf_practices.base" guid="_bIIs0FRFEd2CWscN8Mx6rg" presentationName="All EPF Practices" briefDescription="This plug-in defines content unique to the configuration with the same name." changeDate="2012-05-10T18:23:16.337+0200">
+  <methodElementProperty xmi:id="_-gnM4LekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_c7soAJq8EeGkJeeBCxGuog" name="me_edited" value="true"/>
+  <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ui2kLekEd-D7YZN9NgldQ" name="Content" guid="_9ui2kLekEd-D7YZN9NgldQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ui2kbekEd-D7YZN9NgldQ" name="Categories" guid="_9ui2kbekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ui2krekEd-D7YZN9NgldQ" name="Domains" guid="_9ui2krekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ui2k7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9ui2k7ekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ui2lLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9ui2lLekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ui2lbekEd-D7YZN9NgldQ" name="WP Types" guid="_9ui2lbekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ui2lrekEd-D7YZN9NgldQ" name="Tools" guid="_9ui2lrekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ui2l7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9ui2l7ekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ui2mLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9ui2mLekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ui2mbekEd-D7YZN9NgldQ" name="Hidden" guid="_9ui2mbekEd-D7YZN9NgldQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9ui2mrekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9ui2mrekEd-D7YZN9NgldQ" variabilityBasedOnElement="_9ui2mrekEd-D7YZN9NgldQ" categorizedElements="_AIeEkFRJEd2CWscN8Mx6rg"/>
+        </childPackages>
+        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_LLWYoFRIEd2CWscN8Mx6rg" name="practices" guid="_LLWYoFRIEd2CWscN8Mx6rg" presentationName="Practices" briefDescription="These are the practices that make up the EPF Practices Library." shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif" variabilityBasedOnElement="_LLWYoFRIEd2CWscN8Mx6rg" categorizedElements="_zlco4FRIEd2CWscN8Mx6rg _zlco4VRIEd2CWscN8Mx6rg _NW9v4LtpEd-0rKmWr1vEGQ">
+          <methodElementProperty xmi:id="_-a8pkLekEd-D7YZN9NgldQ" name="PUBLISH_CATEGORY" value="false"/>
+          <presentation href="customcategories/practices.uma#-t9lCPjbYdTq3w4FJ1r8XEg"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_zlco4FRIEd2CWscN8Mx6rg" name="agile_kernel" guid="_zlco4FRIEd2CWscN8Mx6rg" presentationName="Agile Kernel Practices" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif" variabilityBasedOnElement="_zlco4FRIEd2CWscN8Mx6rg">
+          <methodElementProperty xmi:id="_-a8pkbekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.mgmt.iterative_dev.base/plugin.uma#_LR_g4J9WEdy3Nc4rvuj7bA"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.mgmt.whole_team.base/plugin.uma#_6C4sMB4rEd2bS8fFOQ7WWA"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.tech.continuous_integration.base/plugin.uma#_rJNiMB4rEd2bS8fFOQ7WWA"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.tech.concurrent_testing.base/plugin.uma#_9z1PgJ6NEdyQN-zRFaRrCQ"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.mgmt.release_planning.base/plugin.uma#_ijFkcB4sEd2bS8fFOQ7WWA"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_zlco4VRIEd2CWscN8Mx6rg" name="epf_practices_for_scaling_agility" guid="_zlco4VRIEd2CWscN8Mx6rg" presentationName="EPF Practices for Scaling Agility" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif" variabilityBasedOnElement="_zlco4VRIEd2CWscN8Mx6rg">
+          <methodElementProperty xmi:id="_-bGakLekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Manual"/>
+          <methodElementProperty xmi:id="_oOsmQJq8EeGkJeeBCxGuog" name="me_edited" value="true"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.tech.evolutionary_arch.base/plugin.uma#_uVnpQB4qEd2bS8fFOQ7WWA"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.tech.evolutionary_design.base/plugin.uma#_aSVhIB4qEd2bS8fFOQ7WWA"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.mgmt.risk_value_lifecycle.base/plugin.uma#_9FqrQB4sEd2bS8fFOQ7WWA"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.tech.shared_vision.base/plugin.uma#_a7qSUB4nEd2bS8fFOQ7WWA"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.mgmt.team_change_mgmt.base/plugin.uma#_tz6tkB4uEd2bS8fFOQ7WWA"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.tech.test_driven_development.base/plugin.uma#_FUDtMB4mEd2bS8fFOQ7WWA"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.tech.use_case_driven_dev.base/plugin.uma#_w1JD4B4jEd2bS8fFOQ7WWA"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.gen.production_release.base/plugin.uma#_IAG5wOB-EeC1y_NExchKwQ"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_AIeEkFRJEd2CWscN8Mx6rg" name="view_for_all_epf_practices" guid="_AIeEkFRJEd2CWscN8Mx6rg" presentationName="All EPF Practices" shapeicon="customcategories/resources/lib_32.gif" nodeicon="customcategories/resources/lib_16.gif" variabilityBasedOnElement="_AIeEkFRJEd2CWscN8Mx6rg" categorizedElements="_skPXVFRFEd2CWscN8Mx6rg _tZEd0FRWEd2CWscN8Mx6rg _LLWYoFRIEd2CWscN8Mx6rg _Xkma8GsKEd29vdqsRXf4ag"/>
+        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_tZEd0FRWEd2CWscN8Mx6rg" name="getting_started_list" guid="_tZEd0FRWEd2CWscN8Mx6rg" presentationName="Getting Started" shapeicon="customcategories/resources/micl.gif" nodeicon="customcategories/resources/mic.gif" variabilityBasedOnElement="_tZEd0FRWEd2CWscN8Mx6rg">
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Concept" href="../core.default.uma_concept.base/plugin.uma#_FxJEkFUKEd2_rMtRMt_EMg"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Concept" href="../core.default.uma_concept.base/plugin.uma#_qhCTAFRREd2CWscN8Mx6rg"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../core.default.uma_concept.base/plugin.uma#_skPXU1RFEd2CWscN8Mx6rg"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Xkma8GsKEd29vdqsRXf4ag" name="release_info" guid="_Xkma8GsKEd29vdqsRXf4ag" presentationName="Release Information" variabilityType="contributes">
+          <methodElementProperty xmi:id="_-bQLkLekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+          <methodElementProperty xmi:id="_7lSAcJq8EeGkJeeBCxGuog" name="me_edited" value="true"/>
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="../core.default.nav_view.base/plugin.uma#_irqswCLOEd2ct852UDqXGQ"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.tech.evolutionary_arch.base/plugin.uma#_rA1NMc3lEdyjXslGsagg_w"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.tech.evolutionary_design.base/plugin.uma#_skRykMuYEdyRPtFYRAKVDg"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.tech.shared_vision.base/plugin.uma#_GBAK8MuhEdyTA_Xoy-01eg"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.tech.test_driven_development.base/plugin.uma#__dz3oMuIEdyRPtFYRAKVDg"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.tech.use_case_driven_dev.base/plugin.uma#_Z87SYMuXEdyTA_Xoy-01eg"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.mgmt.team_change_mgmt.base/plugin.uma#_-Y9L4exXEdyCFeiQwJE7Vg"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.mgmt.iterative_dev.base/plugin.uma#_TFhnsMN-Edy3nv0ZK8D4GQ"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.mgmt.risk_value_lifecycle.base/plugin.uma#_Oc6L4MOAEdy3nv0ZK8D4GQ"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.mgmt.release_planning.base/plugin.uma#_SP6Y4MN_Edy3nv0ZK8D4GQ"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.mgmt.whole_team.base/plugin.uma#_kAKR8MOAEdy3nv0ZK8D4GQ"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.tech.continuous_integration.base/plugin.uma#_NWZp0M3TEdyKkus0T68H3Q"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../core.default.release_copyright.base/plugin.uma#_YOPJwGmJEd2wW88Ut0zE5w"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.tech.concurrent_testing.base/plugin.uma#_9dA3EWmVEd2wW88Ut0zE5w"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="#_vaQe8Wr-Ed29vdqsRXf4ag"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.tech.abrd.base/plugin.uma#_5B4dUMVPEd2pfdXgw7I2qQ"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.bus.mdev.base/plugin.uma#_jrRzcKvnEd-7tZYmrs5WAg"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.mgmt.project_process_tailoring.base/plugin.uma#_NOBsxCZLEd-QuZFPf_YdqQ"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.gen.doc_trng.base/plugin.uma#_nJAmkPUmEeC8PqSK-VPp4w"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="../practice.gen.production_release.base/plugin.uma#__-Y2MPWeEeC-OfQYYSW77w"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_NW9v4LtpEd-0rKmWr1vEGQ" name="additional_practices" guid="_NW9v4LtpEd-0rKmWr1vEGQ" presentationName="Additional Practices" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif" variabilityBasedOnElement="_NW9v4LtpEd-0rKmWr1vEGQ">
+          <methodElementProperty xmi:id="_kMKk8Jq8EeGkJeeBCxGuog" name="me_edited" value="true"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.tech.abrd.base/plugin.uma#_MuX6YKcnEd-VK6zqjMaiPQ"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.bus.mdev.base/plugin.uma#_lFYasFImEd-S-5uzDh9e9Q"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.mgmt.project_process_tailoring.base/plugin.uma#_NOBsuiZLEd-QuZFPf_YdqQ"/>
+          <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="../practice.gen.doc_trng.base/plugin.uma#_-zdZceB8EeC1y_NExchKwQ"/>
+        </contentElements>
+      </childPackages>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ui2m7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9ui2m7ekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gF-f0FRFEd2CWscN8Mx6rg" name="all_epf_practices" guid="_gF-f0FRFEd2CWscN8Mx6rg" presentationName="All EPF Practices">
+        <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_skPXVFRFEd2CWscN8Mx6rg" name="welcome" guid="_skPXVFRFEd2CWscN8Mx6rg" presentationName="Welcome" shapeicon="guidances/supportingmaterials/resources/lib_32.gif" nodeicon="guidances/supportingmaterials/resources/lib_16.gif" variabilityBasedOnElement="_skPXVFRFEd2CWscN8Mx6rg">
+          <presentation href="guidances/supportingmaterials/welcome.uma#-wiESSYuJCZQe0miS52kk4g"/>
+        </contentElements>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_vaQe8Gr-Ed29vdqsRXf4ag" name="release_info" guid="_vaQe8Gr-Ed29vdqsRXf4ag" presentationName="Release Information">
+        <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_vaQe8Wr-Ed29vdqsRXf4ag" name="release_info_all_epf" guid="_vaQe8Wr-Ed29vdqsRXf4ag" presentationName="Publish: All EPF Practices" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif" variabilityBasedOnElement="_vaQe8Wr-Ed29vdqsRXf4ag">
+          <presentation href="guidances/supportingmaterials/release_info_all_epf.uma#-cgy293mgN56aZV5c2P163A"/>
+        </contentElements>
+      </childPackages>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9ui2nLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9ui2nLekEd-D7YZN9NgldQ"/>
+  </methodPackages>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9ui2nbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9ui2nbekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9ui2nrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9ui2nrekEd-D7YZN9NgldQ"/>
+  <bases href="../core.default.cat_def.base/plugin.uma#_MRPloEFXEdy9ENCpSugIjA"/>
+  <bases href="../core.default.nav_view.base/plugin.uma#_vsno4EKmEdyrauqpmnA8jQ"/>
+  <bases href="../core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
+  <bases href="../core.default.role_def.base/plugin.uma#_A118oMYaEdyXeo04os5BOw"/>
+  <bases href="../core.default.tool_def.base/plugin.uma#_fRdVEMYbEdyXeo04os5BOw"/>
+  <bases href="../core.default.uma_concept.base/plugin.uma#_WCUhAO8KEdmKSqa_gSYthg"/>
+  <bases href="../core.gen.common.assign/plugin.uma#_14Ft0M3pEdyuBO4ZIzcyig"/>
+  <bases href="../core.gen.common.base/plugin.uma#_ji3-gEMXEdyP_Jn83ylwUQ"/>
+  <bases href="../core.mgmt.common.assign/plugin.uma#_CX-9AM3qEdyuBO4ZIzcyig"/>
+  <bases href="../core.mgmt.common.extend_supp/plugin.uma#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+  <bases href="../core.mgmt.slot.base/plugin.uma#_vJYucEfUEdyiPI8btkmvmw"/>
+  <bases href="../core.tech.common.assign/plugin.uma#_LdRtkM3qEdyuBO4ZIzcyig"/>
+  <bases href="../core.tech.common.extend_supp/plugin.uma#_OOB2AAouEdyhlpBPrduOMw"/>
+  <bases href="../core.tech.slot.base/plugin.uma#_-bv0ELXuEduGP_98XMd0fg"/>
+  <bases href="../practice.mgmt.team_change_mgmt.assign/plugin.uma#_ugihsOxXEdyCFeiQwJE7Vg"/>
+  <bases href="../practice.mgmt.team_change_mgmt.base/plugin.uma#_44o4AOvVEdyp6czxLiQq9g"/>
+  <bases href="../practice.mgmt.iterative_dev.assign/plugin.uma#_iNwFsMhNEdygFZkm1d5NtQ"/>
+  <bases href="../practice.mgmt.iterative_dev.base/plugin.uma#_qqyzAJ6WEdyQN-zRFaRrCQ"/>
+  <bases href="../practice.mgmt.risk_value_lifecycle.base/plugin.uma#_4gXdoL8BEdyWX5Yd-9QZ1A"/>
+  <bases href="../practice.mgmt.release_planning.assign/plugin.uma#_NBRHwMh3EdygFZkm1d5NtQ"/>
+  <bases href="../practice.mgmt.release_planning.base/plugin.uma#_nKS10J6YEdyQN-zRFaRrCQ"/>
+  <bases href="../practice.mgmt.whole_team.base/plugin.uma#_40sbAJ6YEdyQN-zRFaRrCQ"/>
+  <bases href="../practice.tech.continuous_integration.assign/plugin.uma#_h_9roM3PEdyKkus0T68H3Q"/>
+  <bases href="../practice.tech.continuous_integration.base/plugin.uma#_D-ExQMktEdygFZkm1d5NtQ"/>
+  <bases href="../practice.tech.evolutionary_arch.assign/plugin.uma#_GxBjAM2sEdym_ZFqrJcXUg"/>
+  <bases href="../practice.tech.evolutionary_arch.base/plugin.uma#_4gaS4LPREduocbW-TPTq7A"/>
+  <bases href="../practice.tech.evolutionary_design.assign/plugin.uma#_XPLD8MudEdyRPtFYRAKVDg"/>
+  <bases href="../practice.tech.evolutionary_design.base/plugin.uma#_Z2cK0LPPEduocbW-TPTq7A"/>
+  <bases href="../practice.tech.concurrent_testing.assign/plugin.uma#_IItp4MuXEdyLOriywSJkoQ"/>
+  <bases href="../practice.tech.concurrent_testing.base/plugin.uma#_Hz9OMG5KEdyAHIxjZ9kpqw"/>
+  <bases href="../practice.tech.shared_vision.assign/plugin.uma#_NjNCEMrmEdyd6uFrFHNXhA"/>
+  <bases href="../practice.tech.shared_vision.base/plugin.uma#_Y9TKMLS9EduDY8LNbMCDBA"/>
+  <bases href="../practice.tech.test_driven_development.assign/plugin.uma#_00zMMMt1EdyRPtFYRAKVDg"/>
+  <bases href="../practice.tech.test_driven_development.base/plugin.uma#_DZ1rEI7-Edy7q8CKc_B8eg"/>
+  <bases href="../practice.tech.use_case_driven_dev.assign/plugin.uma#_HYAA4MriEdyd6uFrFHNXhA"/>
+  <bases href="../practice.tech.use_case_driven_dev.base/plugin.uma#_GbYfULPaEduocbW-TPTq7A"/>
+  <bases href="../practice.tech.abrd.base/plugin.uma#_XLuWYHn8Ed2ozs6whO3m5w"/>
+  <bases href="../practice.tech.abrd.assign/plugin.uma#_VVRjYHoCEd2ozs6whO3m5w"/>
+  <bases href="../practice.bus.mdev.base/plugin.uma#_HVCXcE7xEd-ttuvo_zEJ_g"/>
+  <bases href="../practice.mgmt.project_process_tailoring.base/plugin.uma#_NOBspSZLEd-QuZFPf_YdqQ"/>
+  <bases href="../practice.gen.doc_trng.base/plugin.uma#_wDZIUOCFEeC1y_NExchKwQ"/>
+  <bases href="../practice.gen.production_release.base/plugin.uma#_mYfo8OCIEeC1y_NExchKwQ"/>
+</org.eclipse.epf.uma:MethodPlugin>

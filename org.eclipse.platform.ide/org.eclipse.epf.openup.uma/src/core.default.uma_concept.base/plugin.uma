@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_WCUhAO8KEdmKSqa_gSYthg" name="core.default.uma_concept.base" guid="_WCUhAO8KEdmKSqa_gSYthg" presentationName="Default UMA Concepts" briefDescription="This plug-in describes basic concepts that help a reader to understand and navigate a published process." authors="IBM Rational" changeDate="2008-01-30T18:28:56.000+0100" changeDescription="This plug-in was base_concepts.|Simplified to just contain term definitions related to UMA." version="1.0.1">
-  <methodElementProperty xmi:id="_GoZCQBo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnMtrekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K7zMLekEd-D7YZN9NgldQ" name="Content" guid="_9K7zMLekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K7zMbekEd-D7YZN9NgldQ" name="Categories" guid="_9K7zMbekEd-D7YZN9NgldQ">
@@ -196,5 +196,6 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9K7zPLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9K7zPLekEd-D7YZN9NgldQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9K7zPbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9K7zPbekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9K7zPrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9K7zPrekEd-D7YZN9NgldQ"/>
   <bases href="../core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
 </org.eclipse.epf.uma:MethodPlugin>

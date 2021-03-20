@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_h0Gs8NONEdyqlogshP8l4g" name="inception_phase_iteration" guid="_h0Gs8NONEdyqlogshP8l4g" interfaces="d494e8">
+<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_h0Gs8NONEdyqlogshP8l4g" name="inception_phase_iteration" guid="_h0Gs8NONEdyqlogshP8l4g" interfaces="d677e8">
   <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9t9Au7ekEd-D7YZN9NgldQ" guid="_9t9Au7ekEd-D7YZN9NgldQ">
     <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_nfpeAdOOEdyqlogshP8l4g" name="initiate_project" guid="_nfpeAdOOEdyqlogshP8l4g" superActivities="_h0Gs8dONEdyqlogshP8l4g" variabilityType="extends">
       <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="../initiate_project/model.uma#_eWxZgdOEEdyqlogshP8l4g"/>
@@ -22,9 +22,9 @@
     </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_BbnZ4NQVEdyk9oc_L5Vk0g" guid="_BbnZ4NQVEdyk9oc_L5Vk0g" pred="_nfpeAdOOEdyqlogshP8l4g"/>
   </childPackages>
-  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d494e8" superActivities="_h0Gs8dONEdyqlogshP8l4g"/>
-  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_h0Gs8dONEdyqlogshP8l4g" name="inception_phase_iteration" guid="_h0Gs8dONEdyqlogshP8l4g" presentationName="Inception Phase Iteration" briefDescription="This iteration template defines the activities (and associated roles and work products) performed in a typical iteration in the Inception phase." superActivities="_h0Gs8dONEdyqlogshP8l4g" variabilityBasedOnElement="_h0Gs8dONEdyqlogshP8l4g" breakdownElements="_nfpeAdOOEdyqlogshP8l4g _uxDPEdOOEdyqlogshP8l4g _vyeP0dOOEdyqlogshP8l4g _w-Bc8dOOEdyqlogshP8l4g _h0Gs8dONEdyqlogshP8l4g d494e8">
-    <methodElementProperty xmi:id="_G9fvUBo0EeuXnIT9fOh1Fg" name="publish_ad" value="true"/>
+  <processElements xsi:type="org.eclipse.epf.uma:ProcessComponentInterface" guid="d677e8" superActivities="_h0Gs8dONEdyqlogshP8l4g"/>
+  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_h0Gs8dONEdyqlogshP8l4g" name="inception_phase_iteration" guid="_h0Gs8dONEdyqlogshP8l4g" presentationName="Inception Phase Iteration" briefDescription="This iteration template defines the activities (and associated roles and work products) performed in a typical iteration in the Inception phase." superActivities="_h0Gs8dONEdyqlogshP8l4g" variabilityBasedOnElement="_h0Gs8dONEdyqlogshP8l4g" breakdownElements="_nfpeAdOOEdyqlogshP8l4g _uxDPEdOOEdyqlogshP8l4g _vyeP0dOOEdyqlogshP8l4g _w-Bc8dOOEdyqlogshP8l4g _h0Gs8dONEdyqlogshP8l4g d677e8">
+    <methodElementProperty xmi:id="_-aWzsLekEd-D7YZN9NgldQ" name="publish_ad" value="true"/>
     <presentation href="content.uma#-SMF3QeQbQRdkgCVMy0OpuQ"/>
     <defaultContext href="../../../configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/>
   </process>

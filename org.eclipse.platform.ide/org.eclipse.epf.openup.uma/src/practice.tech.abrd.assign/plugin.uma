@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_VVRjYHoCEd2ozs6whO3m5w" name="practice.tech.abrd.assign" guid="_VVRjYHoCEd2ozs6whO3m5w" authors="Jerome Boyer / ILOG Inc" changeDate="2009-12-10T20:07:48.000+0100" version="0.4">
+  <methodElementProperty xmi:id="_-gnMzbekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
+  <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9eJqILekEd-D7YZN9NgldQ" name="Content" guid="_9eJqILekEd-D7YZN9NgldQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9eJqIbekEd-D7YZN9NgldQ" name="Categories" guid="_9eJqIbekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9eJqIrekEd-D7YZN9NgldQ" name="Domains" guid="_9eJqIrekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9eJqI7ekEd-D7YZN9NgldQ" name="Disciplines" guid="_9eJqI7ekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9eJqJLekEd-D7YZN9NgldQ" name="RoleSets" guid="_9eJqJLekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9eJqJbekEd-D7YZN9NgldQ" name="WP Types" guid="_9eJqJbekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9eJqJrekEd-D7YZN9NgldQ" name="Tools" guid="_9eJqJrekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9eJqJ7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9eJqJ7ekEd-D7YZN9NgldQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9eJqKLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9eJqKLekEd-D7YZN9NgldQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9eJqKbekEd-D7YZN9NgldQ" name="Hidden" guid="_9eJqKbekEd-D7YZN9NgldQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9eJqKrekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9eJqKrekEd-D7YZN9NgldQ" variabilityBasedOnElement="_9eJqKrekEd-D7YZN9NgldQ"/>
+        </childPackages>
+      </childPackages>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9eJqK7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9eJqK7ekEd-D7YZN9NgldQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rjm74HoEEd2ozs6whO3m5w" name="role_assignments" guid="_rjm74HoEEd2ozs6whO3m5w" presentationName="Role assignments">
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ZDA7AHqzEd2o_5d3MWaNxQ" name="review_decision_point_table.assign_role" guid="_ZDA7AHqzEd2o_5d3MWaNxQ" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_sruWzAjqEdyj5bYZ0eCR5g"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_5h_uoKcyEd-VK6zqjMaiPQ"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_Xh-X4AqBEdyPCr4G1Tb79A"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_XiII5AqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9UQZUHrQEd2o_5d3MWaNxQ" name="define_discovery_roadmap.assign_role" guid="_9UQZUHrQEd2o_5d3MWaNxQ" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_srklxgjqEdyj5bYZ0eCR5g"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_Xh-X4AqBEdyPCr4G1Tb79A"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_0a0o0MlgEdmt3adZL5Dmdw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_atuacHrhEd2l9d4UccBrvQ" name="organise_workshop.assign_role" guid="_atuacHrhEd2l9d4UccBrvQ" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_sruWxAjqEdyj5bYZ0eCR5g"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_0a0o0MlgEdmt3adZL5Dmdw"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_Xh-X4AqBEdyPCr4G1Tb79A"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_tK62oHtyEd2tkbw8c1Rm7g" name="execute_rule_discovery_roadmap.assign_role" guid="_tK62oHtyEd2tkbw8c1Rm7g" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_sruW3AjqEdyj5bYZ0eCR5g"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_Xh-X4AqBEdyPCr4G1Tb79A"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_XiII5AqBEdyPCr4G1Tb79A"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_5h_uoKcyEd-VK6zqjMaiPQ"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8PAYUH3MEd2sJcA0evSBQw" name="extract_rule_meaning.assign_role" guid="_8PAYUH3MEd2sJcA0evSBQw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_o19QgF2BEd2T6cNSe41mOg"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_Xh-X4AqBEdyPCr4G1Tb79A"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_NIxDYH3QEd2sJcA0evSBQw" name="transform_rules.assign_role" guid="_NIxDYH3QEd2sJcA0evSBQw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_8mZw8DmhEdy8N6BRpa8ByQ"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_tnGeMH9VEd26h9j0X6pKmw" name="build_test_scenario.assign_role" guid="_tnGeMH9VEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_1dlWkH3GEd2sJcA0evSBQw"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_Xh-X4AqBEdyPCr4G1Tb79A"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_XiII5AqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6_O88H9VEd26h9j0X6pKmw" name="synchronize_data_model.assign_role" guid="_6_O88H9VEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_prtzIDmiEdy8N6BRpa8ByQ"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_PP49QH9XEd26h9j0X6pKmw" name="determine_rule_implementation.assign_role" guid="_PP49QH9XEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_qzveUBk5Edyoe_hnDlTB5A"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ejjUkH9XEd26h9j0X6pKmw" name="build_object_models.assign_role" guid="_ejjUkH9XEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_ZffcIDmiEdy8N6BRpa8ByQ"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_0YDosMlgEdmt3adZL5Dmdw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_o5spAH9XEd26h9j0X6pKmw" name="build_rule_project_structure.assign_role" guid="_o5spAH9XEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_O92DQDV5EdyTBtGu8YeFfg"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wcGDcH9XEd26h9j0X6pKmw" name="prototype_rules.assign_role" guid="_wcGDcH9XEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_dds-IDmiEdy8N6BRpa8ByQ"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_XiII4wqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HUfXgH9YEd26h9j0X6pKmw" name="synchronize_with_wrms.assign_role" guid="_HUfXgH9YEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_YkGwYFtsEdykEsBjRsVfZw"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4wqBEdyPCr4G1Tb79A"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4QqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_WqkJoH9YEd26h9j0X6pKmw" name="deploy_rules.assign_role" guid="_WqkJoH9YEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_AgQVAD5QEdyA6a_I80swHw"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4QqBEdyPCr4G1Tb79A"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4wqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_s3s6MH9YEd26h9j0X6pKmw" name="define_ruleset.assign_role" guid="_s3s6MH9YEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_7L2MIDyOEdyA6a_I80swHw"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nsIXwH9ZEd26h9j0X6pKmw" name="develop_rules.assign_role" guid="_nsIXwH9ZEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_Y2CxEDzEEdyA6a_I80swHw"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4wqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CuOFEH9aEd26h9j0X6pKmw" name="develop_unit_tests.assign_role" guid="_CuOFEH9aEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_ioCPkDzEEdyA6a_I80swHw"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_0YDosMlgEdmt3adZL5Dmdw"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4wqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LEKcUH9aEd26h9j0X6pKmw" name="enhance_object_models.assign_role" guid="_LEKcUH9aEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_UXrv8Eb3EdySHMdInS9eGA"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_0YDosMlgEdmt3adZL5Dmdw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_WsRH4H9aEd26h9j0X6pKmw" name="execute_rule_set.assign_role" guid="_WsRH4H9aEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_JCHfMEXhEdy14e5PT9v3HQ"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4wqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jVeEEH9aEd26h9j0X6pKmw" name="log_issue.assign_role" guid="_jVeEEH9aEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_yGbYIEb0EdySHMdInS9eGA"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4wqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="__eP3MH9bEd26h9j0X6pKmw" name="design_models_for_bre.assign_role" guid="__eP3MH9bEd26h9j0X6pKmw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_lYC2IGDAEdyKlZvvtnMrMg"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_m2cKoH_BEd2YWI_0AZcMOA" name="develop_architecture.assign_role" guid="_m2cKoH_BEd2YWI_0AZcMOA" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_nOQHsAp6EdyPCr4G1Tb79A"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+          <output href="../practice.tech.abrd.base/plugin.uma#_6BE7QAp_EdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_u9TkEH_BEd2YWI_0AZcMOA" name="design_reference_data_integration.assign_role" guid="_u9TkEH_BEd2YWI_0AZcMOA" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_HMQasGDFEdyKlZvvtnMrMg"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="__ZVRoH_BEd2YWI_0AZcMOA" name="integrate_bre.assign_role" guid="__ZVRoH_BEd2YWI_0AZcMOA" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_6-p2EH_BEd2YWI_0AZcMOA"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_hZ1tIH_DEd2YWI_0AZcMOA" name="define_rule_life_cycle.assign_role" guid="_hZ1tIH_DEd2YWI_0AZcMOA" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_RBu1YFH7Edy72tV0zV7--Q"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_oKQRAH_DEd2YWI_0AZcMOA" name="define_ruleset_life_cycle.assign_role" guid="_oKQRAH_DEd2YWI_0AZcMOA" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_RBu1YVH7Edy72tV0zV7--Q"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_XiII4QqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_u15CkH_DEd2YWI_0AZcMOA" name="maintain_rules.assign_role" guid="_u15CkH_DEd2YWI_0AZcMOA" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_z9ORcKnrEdyzmOHu2kw1UA"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4wqBEdyPCr4G1Tb79A"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_Xh-X4AqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_s6JSoJbwEd2QCfgo-zNODQ" name="define_data_scenario.assign_role" guid="_s6JSoJbwEd2QCfgo-zNODQ" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_eAWtgFv3EdykEsBjRsVfZw"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_0ZM4MclgEdmt3adZL5Dmdw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8KeCEJbwEd2QCfgo-zNODQ" name="execute_ruleset_functional_test.assign_role" guid="_8KeCEJbwEd2QCfgo-zNODQ" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_euAb8FtuEdykEsBjRsVfZw"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_0ZM4MclgEdmt3adZL5Dmdw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_J_5g0JbxEd2QCfgo-zNODQ" name="get_rule_set_reports.assign_role" guid="_J_5g0JbxEd2QCfgo-zNODQ" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_LGd_MFtvEdykEsBjRsVfZw"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_0ZM4MclgEdmt3adZL5Dmdw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TkCJgJbxEd2QCfgo-zNODQ" name="get_sme_feedback.assign_role" guid="_TkCJgJbxEd2QCfgo-zNODQ" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_CmBe4EtaEdyEE-k1R6LmOA"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_fPoN8JbxEd2QCfgo-zNODQ" name="test_analysis.assign_role" guid="_fPoN8JbxEd2QCfgo-zNODQ" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_cik88EtZEdyEE-k1R6LmOA"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_0ZM4MclgEdmt3adZL5Dmdw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_bnsi0KR3Ed2fX-RO52WAtA" name="rule_analyst.assign_wp" guid="_bnsi0KR3Ed2fX-RO52WAtA" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_csL3wHrMEd2o_5d3MWaNxQ"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_sruW2AjqEdyj5bYZ0eCR5g"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_oz2LcDmsEdy8N6BRpa8ByQ"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_oz2LcTmsEdy8N6BRpa8ByQ"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_srklygjqEdyj5bYZ0eCR5g"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_SlELAAsbEdyPCr4G1Tb79A"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_srklwQjqEdyj5bYZ0eCR5g"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_sruW2gjqEdyj5bYZ0eCR5g"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_sruW1QjqEdyj5bYZ0eCR5g"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_DmUjsFH8Edy72tV0zV7--Q"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_hYc8UHr9Ed2l9d4UccBrvQ"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_r_GPEKR3Ed2fX-RO52WAtA" name="rule_write.assign_wp" guid="_r_GPEKR3Ed2fX-RO52WAtA" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="../core.default.role_def.base/plugin.uma#_XiII4wqBEdyPCr4G1Tb79A"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_vjWPcDzEEdyA6a_I80swHw"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_jqxtYFttEdykEsBjRsVfZw"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_BMI-QDmoEdy8N6BRpa8ByQ"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_arqeoUtZEdyEE-k1R6LmOA"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_uo748KvnEd2Pv_z50upsAg" name="develop_organization_map.assign_role" guid="_uo748KvnEd2Pv_z50upsAg" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_IFeJQKveEd2Pv_z50upsAg"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_bYUkIJyiEd23W8_-Tub7Ww"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_cJEUQKv7Ed2Pv_z50upsAg" name="define_ruleset_ownership.assign_role" guid="_cJEUQKv7Ed2Pv_z50upsAg" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_O93X4KvzEd2Pv_z50upsAg"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_bYUkIJyiEd23W8_-Tub7Ww"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wT1hMKy7Ed2aLdlF48Bk1g" name="define_policy_change_templates.assign_role" guid="_wT1hMKy7Ed2aLdlF48Bk1g" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_tzUvgKv7Ed2Pv_z50upsAg"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_XiII5AqBEdyPCr4G1Tb79A"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_juwakKy8Ed2aLdlF48Bk1g" name="plan_deployment.assign_role" guid="_juwakKy8Ed2aLdlF48Bk1g" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_E5968Kv8Ed2Pv_z50upsAg"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_iMedkKy-Ed2aLdlF48Bk1g" name="develop_process_maps.assing_role" guid="_iMedkKy-Ed2aLdlF48Bk1g" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_deyUkKv8Ed2Pv_z50upsAg"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_bYUkIJyiEd23W8_-Tub7Ww"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_RttdsKzBEd2aLdlF48Bk1g" name="monitor_improve_process.assign_role" guid="_RttdsKzBEd2aLdlF48Bk1g" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_w0x40KzAEd2aLdlF48Bk1g"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_bYUkIJyiEd23W8_-Tub7Ww"/>
+          <additionallyPerformedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_WBOf4CyTEd-ER8gMc_Ftrw" name="identify_decision_point.assign_role" guid="_WBOf4CyTEd-ER8gMc_Ftrw" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_A2d5sCyQEd-ER8gMc_Ftrw"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_Xh-X4AqBEdyPCr4G1Tb79A"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_XiII4gqBEdyPCr4G1Tb79A"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_5h_uoKcyEd-VK6zqjMaiPQ"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Od6mUGhmEd-FVuzXjnvIWA" name="define_ruleset_testing.assign_role" guid="_Od6mUGhmEd-FVuzXjnvIWA" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="../practice.tech.abrd.base/plugin.uma#_mDL5YGhkEd-FVuzXjnvIWA"/>
+          <performedBy href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+        </contentElements>
+        <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_EYx6YKr2Ed-4oa5dU5v0Eg" name="rule_architect.assign_wp" guid="_EYx6YKr2Ed-4oa5dU5v0Eg" variabilityType="contributes">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="../core.default.role_def.base/plugin.uma#_JkVWIApyEdyKK5Go8zejMw"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_6BE7QAp_EdyPCr4G1Tb79A"/>
+          <responsibleFor href="../practice.tech.abrd.base/plugin.uma#_U003IIm4Ed2cL6yqw-_-uA"/>
+        </contentElements>
+      </childPackages>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9eJqLLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9eJqLLekEd-D7YZN9NgldQ"/>
+  </methodPackages>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9eJqLbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9eJqLbekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9eJqLrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9eJqLrekEd-D7YZN9NgldQ"/>
+  <bases href="../practice.tech.abrd.base/plugin.uma#_XLuWYHn8Ed2ozs6whO3m5w"/>
+  <bases href="../core.default.role_def.base/plugin.uma#_A118oMYaEdyXeo04os5BOw"/>
+</org.eclipse.epf.uma:MethodPlugin>

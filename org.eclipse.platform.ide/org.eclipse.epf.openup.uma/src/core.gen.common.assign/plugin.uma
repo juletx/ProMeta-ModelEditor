@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_14Ft0M3pEdyuBO4ZIzcyig" name="core.gen.common.assign" guid="_14Ft0M3pEdyuBO4ZIzcyig" presentationName="General Common Assignments" briefDescription="This plug-in assigns common work products to domains." supporting="true">
-  <methodElementProperty xmi:id="_GoZpEBo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnMt7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9LYfILekEd-D7YZN9NgldQ" name="Content" guid="_9LYfILekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9LYfIbekEd-D7YZN9NgldQ" name="Categories" guid="_9LYfIbekEd-D7YZN9NgldQ">
@@ -25,6 +25,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9LYfLLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9LYfLLekEd-D7YZN9NgldQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9LYfLbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9LYfLbekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9LYfLrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9LYfLrekEd-D7YZN9NgldQ"/>
   <bases href="../core.default.cat_def.base/plugin.uma#_MRPloEFXEdy9ENCpSugIjA"/>
   <bases href="../core.default.role_def.base/plugin.uma#_A118oMYaEdyXeo04os5BOw"/>
   <bases href="../core.gen.common.base/plugin.uma#_ji3-gEMXEdyP_Jn83ylwUQ"/>

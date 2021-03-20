@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_Hz9OMG5KEdyAHIxjZ9kpqw" name="practice.tech.concurrent_testing.base" guid="_Hz9OMG5KEdyAHIxjZ9kpqw" presentationName="Concurrent Testing" briefDescription="Focus the testing effort where it will provide the greatest value, by applying agile testing principles." changeDate="2008-07-21T10:21:52.000+0200">
-  <methodElementProperty xmi:id="_GocsYRo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnM0LekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU0LekEd-D7YZN9NgldQ" name="Content" guid="_9gPU0LekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU0bekEd-D7YZN9NgldQ" name="Categories" guid="_9gPU0bekEd-D7YZN9NgldQ">
@@ -78,6 +78,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9gPU3LekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9gPU3LekEd-D7YZN9NgldQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9gPU3bekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9gPU3bekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9gPU3rekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9gPU3rekEd-D7YZN9NgldQ"/>
   <bases href="../core.gen.common.base/plugin.uma#_ji3-gEMXEdyP_Jn83ylwUQ"/>
   <bases href="../core.tech.common.extend_supp/plugin.uma#_OOB2AAouEdyhlpBPrduOMw"/>
   <bases href="../core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>

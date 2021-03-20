@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_IItp4MuXEdyLOriywSJkoQ" name="practice.tech.concurrent_testing.assign" guid="_IItp4MuXEdyLOriywSJkoQ" presentationName="Concurrent Testing Assignments" changeDate="2008-07-21T10:25:42.000+0200">
-  <methodElementProperty xmi:id="_GocsYBo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnMz7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9fyo4LekEd-D7YZN9NgldQ" name="Content" guid="_9fyo4LekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9fyo4bekEd-D7YZN9NgldQ" name="Categories" guid="_9fyo4bekEd-D7YZN9NgldQ">
@@ -54,6 +54,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9fyo7LekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9fyo7LekEd-D7YZN9NgldQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9fyo7bekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9fyo7bekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9fyo7rekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9fyo7rekEd-D7YZN9NgldQ"/>
   <bases href="../core.default.role_def.base/plugin.uma#_A118oMYaEdyXeo04os5BOw"/>
   <bases href="../core.tech.common.extend_supp/plugin.uma#_OOB2AAouEdyhlpBPrduOMw"/>
   <bases href="../core.tech.slot.base/plugin.uma#_-bv0ELXuEduGP_98XMd0fg"/>

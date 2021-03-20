@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodLibrary xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_T6l317ekEd-D7YZN9NgldQ" guid="_T6l317ekEd-D7YZN9NgldQ">
-  <methodElementProperty xmi:id="_GoYa8Bo0EeuXnIT9fOh1Fg" name="library_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnMsLekEd-D7YZN9NgldQ" name="library_synFree" value="true"/>
   <methodPlugins href="core.default.cat_def.base/plugin.uma#_MRPloEFXEdy9ENCpSugIjA"/>
   <methodPlugins href="core.default.nav_view.base/plugin.uma#_vsno4EKmEdyrauqpmnA8jQ"/>
   <methodPlugins href="core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
@@ -17,6 +17,7 @@
   <methodPlugins href="core.tech.common.base/plugin.uma#_Qyp8YGpiEd24CboUCnKL3A"/>
   <methodPlugins href="core.tech.common.extend_supp/plugin.uma#_OOB2AAouEdyhlpBPrduOMw"/>
   <methodPlugins href="core.tech.slot.base/plugin.uma#_-bv0ELXuEduGP_98XMd0fg"/>
+  <methodPlugins href="practice.bus.mdev.base/plugin.uma#_HVCXcE7xEd-ttuvo_zEJ_g"/>
   <methodPlugins href="practice.mgmt.iterative_dev.assign/plugin.uma#_iNwFsMhNEdygFZkm1d5NtQ"/>
   <methodPlugins href="practice.mgmt.iterative_dev.base/plugin.uma#_qqyzAJ6WEdyQN-zRFaRrCQ"/>
   <methodPlugins href="practice.mgmt.project_process_tailoring.assign/plugin.uma#_7uMwYDIWEd-YE6CeBfCofg"/>
@@ -28,6 +29,8 @@
   <methodPlugins href="practice.mgmt.team_change_mgmt.base/plugin.uma#_44o4AOvVEdyp6czxLiQq9g"/>
   <methodPlugins href="practice.mgmt.whole_team.assign/plugin.uma#_vtUfcEIuEd2GCesTWQms8Q"/>
   <methodPlugins href="practice.mgmt.whole_team.base/plugin.uma#_40sbAJ6YEdyQN-zRFaRrCQ"/>
+  <methodPlugins href="practice.tech.abrd.assign/plugin.uma#_VVRjYHoCEd2ozs6whO3m5w"/>
+  <methodPlugins href="practice.tech.abrd.base/plugin.uma#_XLuWYHn8Ed2ozs6whO3m5w"/>
   <methodPlugins href="practice.tech.concurrent_testing.assign/plugin.uma#_IItp4MuXEdyLOriywSJkoQ"/>
   <methodPlugins href="practice.tech.concurrent_testing.base/plugin.uma#_Hz9OMG5KEdyAHIxjZ9kpqw"/>
   <methodPlugins href="practice.tech.continuous_integration.assign/plugin.uma#_h_9roM3PEdyKkus0T68H3Q"/>
@@ -42,11 +45,16 @@
   <methodPlugins href="practice.tech.test_driven_development.base/plugin.uma#_DZ1rEI7-Edy7q8CKc_B8eg"/>
   <methodPlugins href="practice.tech.use_case_driven_dev.assign/plugin.uma#_HYAA4MriEdyd6uFrFHNXhA"/>
   <methodPlugins href="practice.tech.use_case_driven_dev.base/plugin.uma#_GbYfULPaEduocbW-TPTq7A"/>
+  <methodPlugins href="process.abrd.base/plugin.uma#_Pnn0sMruEd2sX5aq6os4oQ"/>
   <methodPlugins href="process.openup.base/plugin.uma#_Z7teANQ1EdyQ89W1tgswSQ"/>
+  <methodPlugins href="publish.abrd.base/plugin.uma#_xco1IMVNEd2pfdXgw7I2qQ"/>
+  <methodPlugins href="publish.all_epf_practices.base/plugin.uma#_bIIs0FRFEd2CWscN8Mx6rg"/>
   <methodPlugins href="publish.openup.base/plugin.uma#_4ulTgMg7EdyXeo04os5BOw"/>
   <methodPlugins href="practice.gen.doc_trng.base/plugin.uma#_wDZIUOCFEeC1y_NExchKwQ"/>
   <methodPlugins href="practice.gen.production_release.base/plugin.uma#_mYfo8OCIEeC1y_NExchKwQ"/>
   <methodPlugins href="practice.gen.doc_trng.assign/plugin.uma#_p0w9wJlfEeGlkdGl1HQlDA"/>
   <methodPlugins href="practice.gen.production_release.assign/plugin.uma#_XOu58JljEeGlkdGl1HQlDA"/>
+  <predefinedConfigurations href="configurations/all_epf_practices.uma#_QD87wFRHEd2CWscN8Mx6rg"/>
   <predefinedConfigurations href="configurations/openup.uma#_QN3nQBEHEdyM7Iu0sxfrPA"/>
+  <predefinedConfigurations href="configurations/tech.abrd.uma#_PFU-AMVeEd2n6fDcl3UsZg"/>
 </org.eclipse.epf.uma:MethodLibrary>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_wDZIUOCFEeC1y_NExchKwQ" name="practice.gen.doc_trng.base" guid="_wDZIUOCFEeC1y_NExchKwQ" presentationName="Documentation and Training" briefDescription="This practice describes how to prepare documentation for a product release and how that documentation might be used to prepare and deliver training to end users and support personnel." changeDate="2012-05-23T18:49:48.092+0200">
-  <methodElementProperty xmi:id="_GogW1Ro0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
-  <methodElementProperty xmi:id="_GogW1ho0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+  <methodElementProperty xmi:id="_wDcysuCFEeC1y_NExchKwQ" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_mnCLoJidEeGlkdGl1HQlDA" name="me_edited" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wDZIUeCFEeC1y_NExchKwQ" name="Content" guid="_wDZIUeCFEeC1y_NExchKwQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wDZIUuCFEeC1y_NExchKwQ" name="Categories" guid="_wDZIUuCFEeC1y_NExchKwQ">
@@ -20,25 +20,25 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wDZIXOCFEeC1y_NExchKwQ" name="CoreContent" guid="_wDZIXOCFEeC1y_NExchKwQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-zdZcOB8EeC1y_NExchKwQ" name="documentation_and_training" guid="_-zdZcOB8EeC1y_NExchKwQ" presentationName="Documentation and Training">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-zenoOB8EeC1y_NExchKwQ" name="documentation" guid="_-zenoOB8EeC1y_NExchKwQ">
-          <methodElementProperty xmi:id="_GogW1xo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_dKHTUJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zfOruB8EeC1y_NExchKwQ" name="develop_product_documentation" guid="_-zfOruB8EeC1y_NExchKwQ" presentationName="Develop Product Documentation" briefDescription="Because product documentation continues to be used after a development effort ends, it is important to ensure that the features developed within a particular release are clearly documented while the functionality is still fresh in the minds of team members." variabilityBasedOnElement="_-zfOruB8EeC1y_NExchKwQ" output="_-zf1tuB8EeC1y_NExchKwQ">
-            <methodElementProperty xmi:id="_GogW2Bo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_dKj_QJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
             <presentation href="tasks/develop_product_documentation.uma#-Msu85VH5rLUfl0OEAnZdIQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zfOp-B8EeC1y_NExchKwQ" name="develop_support_documentation" guid="_-zfOp-B8EeC1y_NExchKwQ" presentationName="Develop Support Documentation" briefDescription="This type of documentation is used by production support and IT operations personnel on a regular basis to answer end users' questions about a particular product, to troubleshoot issues, or to determine if an incident is a result of a defect or missed requirements." variabilityBasedOnElement="_-zfOp-B8EeC1y_NExchKwQ" output="_-zfOreB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ _-zf1tOB8EeC1y_NExchKwQ">
-            <methodElementProperty xmi:id="_GogW2Ro0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_fZdfwJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
             <presentation href="tasks/develop_support_documentation.uma#-jWMpCvzhJPOglJcxCiAYjA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zfOoOB8EeC1y_NExchKwQ" name="develop_user_documentation" guid="_-zfOoOB8EeC1y_NExchKwQ" presentationName="Develop User Documentation" briefDescription="User documentation must be developed and maintained for each Release so that the product's end users will know how to operate the system effectively." variabilityBasedOnElement="_-zfOoOB8EeC1y_NExchKwQ" output="_-zf1tOB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ">
-            <methodElementProperty xmi:id="_GogW2ho0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_hko94JifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
             <presentation href="tasks/develop_user_documentation.uma#-bkoNpaQhWX6FBG-iOZkRPg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-zf1tuB8EeC1y_NExchKwQ" name="product_documentation" guid="_-zf1tuB8EeC1y_NExchKwQ" presentationName="Product Documentation" briefDescription="Information about a specific product that has been captured in an organized format." variabilityBasedOnElement="_-zf1tuB8EeC1y_NExchKwQ">
-            <methodElementProperty xmi:id="_GogW2xo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_EPOVcKqaEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
             <presentation href="workproducts/product_documentation.uma#-NHao3cbpesderphl_fDlDw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-zfOreB8EeC1y_NExchKwQ" name="support_documentation" guid="_-zfOreB8EeC1y_NExchKwQ" presentationName="Support Documentation" briefDescription="Documents used by members of a production support team that provide information about how to service and support a specific product." variabilityBasedOnElement="_-zfOreB8EeC1y_NExchKwQ">
-            <methodElementProperty xmi:id="_GogW3Bo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_9o2YABhuEeKp-bVgqy0qKg" name="me_edited" value="true"/>
             <presentation href="workproducts/support_documentation.uma#--5bZB7Fly_OXGWALfR7CCA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-zf1tOB8EeC1y_NExchKwQ" name="user_documentation" guid="_-zf1tOB8EeC1y_NExchKwQ" presentationName="User Documentation" briefDescription="Documents that can be utilized by the end users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product." variabilityBasedOnElement="_-zf1tOB8EeC1y_NExchKwQ">
@@ -46,27 +46,27 @@
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-zeAgeB8EeC1y_NExchKwQ" name="training" guid="_-zeAgeB8EeC1y_NExchKwQ">
-          <methodElementProperty xmi:id="_GogW3Ro0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_lGsIUJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zenmeB8EeC1y_NExchKwQ" name="develop_training_materials" guid="_-zenmeB8EeC1y_NExchKwQ" presentationName="Develop Training Materials" briefDescription="This task is used to develop quality audio/visual materials that can be used to train end users and IT production support personnel." variabilityBasedOnElement="_-zenmeB8EeC1y_NExchKwQ" output="_-zeAguB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ _-zfOreB8EeC1y_NExchKwQ _-zf1tOB8EeC1y_NExchKwQ">
-            <methodElementProperty xmi:id="_GogW3ho0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_q_ZBEJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
             <presentation href="tasks/develop_training_materials.uma#-IfcWgUklth25pRzdNTE8LA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zenlOB8EeC1y_NExchKwQ" name="deliver_support_training" guid="_-zenlOB8EeC1y_NExchKwQ" presentationName="Deliver Support Training" briefDescription="Personnel who support an application need training so they can perform their jobs effectively." variabilityBasedOnElement="_-zenlOB8EeC1y_NExchKwQ" mandatoryInput="_-zeAguB8EeC1y_NExchKwQ _-zfOreB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ _-zf1tOB8EeC1y_NExchKwQ">
-            <methodElementProperty xmi:id="_GogW3xo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_q__eAJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
             <presentation href="tasks/deliver_support_training.uma#-xCz7FMvINdv3zLvonMDolQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zeAg-B8EeC1y_NExchKwQ" name="deliver_end_user_training" guid="_-zeAg-B8EeC1y_NExchKwQ" presentationName="Deliver end user Training" briefDescription="In most cases, end users of a system require training to use the application effectively." variabilityBasedOnElement="_-zeAg-B8EeC1y_NExchKwQ" mandatoryInput="_-zf1tOB8EeC1y_NExchKwQ _-zeAguB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ">
-            <methodElementProperty xmi:id="_GogW4Bo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_rAIn8JifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
             <presentation href="tasks/deliver_end_user_training.uma#-w4UHaO9nSn7-q_CMq-Ofog"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-zeAguB8EeC1y_NExchKwQ" name="training_materials" guid="_-zeAguB8EeC1y_NExchKwQ" presentationName="Training Materials" briefDescription="This work product represents all the materials needed to train end users and production support personnel on the features and inner workings of a product for a particular release." variabilityBasedOnElement="_-zeAguB8EeC1y_NExchKwQ">
-            <methodElementProperty xmi:id="_GogW4Ro0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_K5L2kKqbEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
             <presentation href="workproducts/training_materials.uma#-U5rK8ue_5v305MPzxKzQUg"/>
           </contentElements>
         </childPackages>
         <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_-zdZceB8EeC1y_NExchKwQ" name="documentation_and_training" guid="_-zdZceB8EeC1y_NExchKwQ" presentationName="Documentation and Training" briefDescription="This practice describes how to prepare documentation for a product release and how that documentation might be used to prepare and deliver training to end users and support personnel." variabilityBasedOnElement="_-zdZceB8EeC1y_NExchKwQ">
-          <methodElementProperty xmi:id="_GogW4ho0EeuXnIT9fOh1Fg" name="CategoryElementsSortType" value="Manual"/>
-          <methodElementProperty xmi:id="_GogW4xo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_Bao3EOB9EeC1y_NExchKwQ" name="CategoryElementsSortType" value="Manual"/>
+          <methodElementProperty xmi:id="_E9MKUAmzEeKmAPiw8fAOLA" name="me_edited" value="true"/>
           <presentation href="guidances/practices/documentation_and_training.uma#-cPtDc656Hgw9PuzWPtV8Iw"/>
           <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="#_-zf1tuB8EeC1y_NExchKwQ"/>
           <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="#_-zfOreB8EeC1y_NExchKwQ"/>
@@ -90,7 +90,7 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kvz6kPUmEeC8PqSK-VPp4w" name="release_info" guid="_kvz6kPUmEeC8PqSK-VPp4w" presentationName="Release Info">
         <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_nJAmkPUmEeC8PqSK-VPp4w" name="release_info_doc_and_training" guid="_nJAmkPUmEeC8PqSK-VPp4w" presentationName="Practice: Documentation and Training" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif" variabilityBasedOnElement="_nJAmkPUmEeC8PqSK-VPp4w">
-          <methodElementProperty xmi:id="_GogW5Bo0EeuXnIT9fOh1Fg" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_WYcDwJlmEeGlkdGl1HQlDA" name="me_edited" value="true"/>
           <presentation href="guidances/supportingmaterials/release_info_doc_and_training.uma#-YMjHOs9SW8oHj6-rZ9wobg"/>
         </contentElements>
       </childPackages>
@@ -98,6 +98,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wDZIXeCFEeC1y_NExchKwQ" name="CapabilityPatterns" guid="_wDZIXeCFEeC1y_NExchKwQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wDZIXuCFEeC1y_NExchKwQ" name="DeliveryProcesses" guid="_wDZIXuCFEeC1y_NExchKwQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wDZIX-CFEeC1y_NExchKwQ" name="ProcessContributions" guid="_wDZIX-CFEeC1y_NExchKwQ"/>
   <bases href="../core.default.release_copyright.base/plugin.uma#_iVydgENdEdy245g62lfWcA"/>
   <bases href="../core.gen.common.base/plugin.uma#_ji3-gEMXEdyP_Jn83ylwUQ"/>
   <bases href="../core.mgmt.common.base/plugin.uma#_Q_mBoGphEd24CboUCnKL3A"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:MethodPlugin xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmi:id="_GxBjAM2sEdym_ZFqrJcXUg" name="practice.tech.evolutionary_arch.assign" guid="_GxBjAM2sEdym_ZFqrJcXUg" presentationName="Evolutionary Architecture Assignments" briefDescription="This plug-in contains the standard category and role assignment for the Evolutionary &#xD;&#xA;Architecture practice. It is dependent on the practice plug-in, as well as on &#xD;&#xA;the plug-ins that contain the standard categories and roles being assigned." changeDate="2008-02-07T20:41:35.000+0100">
-  <methodElementProperty xmi:id="_GocsZBo0EeuXnIT9fOh1Fg" name="plugin_synFree" value="true"/>
+  <methodElementProperty xmi:id="_-gnM07ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
   <copyrightStatement href="../core.default.release_copyright.base/plugin.uma#_uuunoPsDEdmyhNQr5STrZQ"/>
   <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9iU_gLekEd-D7YZN9NgldQ" name="Content" guid="_9iU_gLekEd-D7YZN9NgldQ">
     <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9iU_gbekEd-D7YZN9NgldQ" name="Categories" guid="_9iU_gbekEd-D7YZN9NgldQ">
@@ -52,6 +52,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9iU_jLekEd-D7YZN9NgldQ" name="CapabilityPatterns" guid="_9iU_jLekEd-D7YZN9NgldQ"/>
   </methodPackages>
   <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9iU_jbekEd-D7YZN9NgldQ" name="DeliveryProcesses" guid="_9iU_jbekEd-D7YZN9NgldQ"/>
+  <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9iU_jrekEd-D7YZN9NgldQ" name="ProcessContributions" guid="_9iU_jrekEd-D7YZN9NgldQ"/>
   <bases href="../practice.tech.evolutionary_arch.base/plugin.uma#_4gaS4LPREduocbW-TPTq7A"/>
   <bases href="../core.default.cat_def.base/plugin.uma#_MRPloEFXEdy9ENCpSugIjA"/>
   <bases href="../core.default.role_def.base/plugin.uma#_A118oMYaEdyXeo04os5BOw"/>
