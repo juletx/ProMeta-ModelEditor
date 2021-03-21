@@ -237,6 +237,349 @@ INSERT INTO roles VALUES (
 
 
 
+INSERT INTO domains VALUES (
+	"_1r0bcK80Edy9cPK11VzBuQ",
+	"architecture_domain",
+	"Architecture",
+	"This is the list of work products related to the architecture domain."
+);
+
+INSERT INTO domains VALUES (
+	"_5JQLoK80Edy9cPK11VzBuQ",
+	"development_domain",
+	"Development",
+	"This is the list of work products related to the development domain."
+);
+
+INSERT INTO domains VALUES (
+	"_8M6J4K80Edy9cPK11VzBuQ",
+	"project_management_domain",
+	"Project Management",
+	"This is the list of work products related to the project management domain."
+);
+
+INSERT INTO domains VALUES (
+	"_AIcLUK81Edy9cPK11VzBuQ",
+	"requirements_domain",
+	"Requirements",
+	"This is the list of work products related to the requirements domain."
+);
+
+INSERT INTO domains VALUES (
+	"_CsgDgK81Edy9cPK11VzBuQ",
+	"test_domain",
+	"Test",
+	"This is the list of work products related to the test domain."
+);
+
+INSERT INTO domains VALUES (
+	"_UtGCIKsREd-4oa5dU5v0Eg",
+	"brd_domains",
+	"Business Rules Development",
+	"This is the list of work products in business rules development organized by domains."
+);
+
+INSERT INTO domains VALUES (
+	"_Fpj0ALrUEd-0rKmWr1vEGQ",
+	"environment_domain",
+	"Environment",
+	"This is the list of work products related to the Environment domain."
+);
+
+INSERT INTO domains VALUES (
+	"_fEIy4JoGEeGnJt_Qpwdfdg",
+	"deployment_domain",
+	"Deployment",
+	"This is the list of work products related to the deployment domain."
+);
+
+INSERT INTO domains VALUES (
+	"_fp7oAKRdEd2fX-RO52WAtA",
+	"architecture",
+	"Architecture",
+	"This is the list of work products related to BRMS architecture domain."
+);
+
+INSERT INTO work_products VALUES (
+	"_6BE7QAp_EdyPCr4G1Tb79A",
+	"decision_service_architecture",
+	"Decision Service Architecture",
+	"A decision service is a piece of logic which uses a decision engine like a rule engine in order to infer actions on the input data.",
+	"_fp7oAKRdEd2fX-RO52WAtA"
+);
+INSERT INTO work_products VALUES (
+	"_U003IIm4Ed2cL6yqw-_-uA",
+	"executable_object_model",
+	"Executable Object Model",
+	"A Java, .Net or XML schema implementation of the logical data model",
+	"_fp7oAKRdEd2fX-RO52WAtA"
+);
+INSERT INTO domains VALUES (
+	"_2GvlYJliEeGlkdGl1HQlDA",
+	"deployment_domain",
+	"Deployment",
+	"This is the list of work products related to the deployment domain."
+);
+
+INSERT INTO work_products VALUES (
+	"_-zf1tuB8EeC1y_NExchKwQ",
+	"product_documentation",
+	"Product Documentation",
+	"Information about a specific product that has been captured in an organized format.",
+	"_2GvlYJliEeGlkdGl1HQlDA"
+);
+INSERT INTO work_products VALUES (
+	"_-zfOreB8EeC1y_NExchKwQ",
+	"support_documentation",
+	"Support Documentation",
+	"Documents used by members of a production support team that provide information about how to service and support a specific product.",
+	"_2GvlYJliEeGlkdGl1HQlDA"
+);
+INSERT INTO work_products VALUES (
+	"_-zf1tOB8EeC1y_NExchKwQ",
+	"user_documentation",
+	"User Documentation",
+	"Documents that can be utilized by the end users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product.",
+	"_2GvlYJliEeGlkdGl1HQlDA"
+);
+INSERT INTO work_products VALUES (
+	"_-zeAguB8EeC1y_NExchKwQ",
+	"training_materials",
+	"Training Materials",
+	"This work product represents all the materials needed to train end users and production support personnel on the features and inner workings of a product for a particular release.",
+	"_2GvlYJliEeGlkdGl1HQlDA"
+);
+
+INSERT INTO disciplines VALUES (
+	"_qc9i0MhNEdygFZkm1d5NtQ",
+	"project_management_discipline",
+	"Project Management",
+	"This discipline explains how to coach, facilitate, and support the team, helping it to deal with risk and obstacles found when building software."
+);
+INSERT INTO disciplines VALUES (
+	"_EZo2gDIXEd-YE6CeBfCofg",
+	"environment_discipline",
+	"Environment",
+	"This discipline explains how to customize process and tools for a project or organization."
+);
+INSERT INTO disciplines VALUES (
+	"_c0d6wMh3EdygFZkm1d5NtQ",
+	"project_management_discipline",
+	"Project Management",
+	"This discipline explains how to coach, facilitate, and support the team, helping it to deal with risk and obstacles found when building software."
+);
+INSERT INTO disciplines VALUES (
+	"__QJnsOxZEdyCFeiQwJE7Vg",
+	"project_management_discipline",
+	"Project Management",
+	"This discipline explains how to coach, facilitate, and support the team, helping it to deal with risk and obstacles found when building software."
+);
+INSERT INTO disciplines VALUES (
+	"_u8WxEKshEd-4oa5dU5v0Eg",
+	"brd_disciplines",
+	"Business Rules Development",
+	"This is a group of disciplines under business rules development."
+);
+INSERT INTO disciplines VALUES (
+	"_1QK4gKshEd-4oa5dU5v0Eg",
+	"architecture",
+	"BRMS Architecture",
+	""
+);
+INSERT INTO disciplines VALUES (
+	"_1QK4gashEd-4oa5dU5v0Eg",
+	"rule_analysis",
+	"Rule Analysis",
+	""
+);
+INSERT INTO disciplines VALUES (
+	"_1QK4gqshEd-4oa5dU5v0Eg",
+	"rule_authoring",
+	"Rule Authoring",
+	""
+);
+INSERT INTO disciplines VALUES (
+	"_1QK4g6shEd-4oa5dU5v0Eg",
+	"rule_deployment",
+	"Rule Deployment",
+	""
+);
+INSERT INTO disciplines VALUES (
+	"__u-KMLRXEd-0GaneRZjjRw",
+	"rule_discovery",
+	"Rule Discovery",
+	""
+);
+INSERT INTO disciplines VALUES (
+	"_iBsdQMubEdy1o5Xnqdh1Tg",
+	"test_discipline",
+	"Test",
+	"This discipline explains how to provide feedback about the maturing system by designing, implementing, running, and evaluating tests."
+);
+INSERT INTO disciplines VALUES (
+	"_8c5BwNnVEdyNj6EOmqy5Rg",
+	"development_discipline",
+	"Development",
+	"This discipline explains how to design and implement a technical solution that conforms to the architecture and supports the requirements."
+);
+INSERT INTO disciplines VALUES (
+	"_pBQM0M2-Edym_ZFqrJcXUg",
+	"architecture_discipline",
+	"Architecture",
+	"This discipline explains how to create software architecture from architecturally significant requirements. The architecture is built in the Development discipline."
+);
+INSERT INTO disciplines VALUES (
+	"_6ByR0MueEdyRPtFYRAKVDg",
+	"development_discipline",
+	"Development",
+	"This discipline explains how to design and implement a technical solution that conforms to the architecture and supports the requirements."
+);
+INSERT INTO disciplines VALUES (
+	"_2a-s0MrmEdyd6uFrFHNXhA",
+	"requirements_discipline",
+	"Requirements",
+	"This discipline explains how to elicit, analyze, specify, validate, and manage the requirements for the system to be developed."
+);
+INSERT INTO disciplines VALUES (
+	"_TCegMMuAEdyRPtFYRAKVDg",
+	"development_discipline",
+	"Development",
+	"This discipline explains how to design and implement a technical solution that conforms to the architecture and supports the requirements."
+);
+INSERT INTO disciplines VALUES (
+	"_gRTK0MrkEdyd6uFrFHNXhA",
+	"requirements_discipline",
+	"Requirements",
+	"This discipline explains how to elicit, analyze, specify, validate, and manage the requirements for the system to be developed."
+);
+INSERT INTO disciplines VALUES (
+	"_IAGSsuB-EeC1y_NExchKwQ",
+	"to_delete_2",
+	"To Delete 2",
+	""
+);
+INSERT INTO disciplines VALUES (
+	"_IAGSsOB-EeC1y_NExchKwQ",
+	"to_delete",
+	"To Delete",
+	""
+);
+INSERT INTO disciplines VALUES (
+	"_yvumQJliEeGlkdGl1HQlDA",
+	"deployment_discipline",
+	"Deployment",
+	"This discipline explains how to plan for and deploy a solution."
+);
+INSERT INTO disciplines VALUES (
+	"_jOXI4JoMEeGnJt_Qpwdfdg",
+	"deployment_discipline",
+	"Deployment",
+	"This discipline explains how to plan for and deploy a solution."
+);
+
+INSERT INTO practices VALUES (
+	"_lFYasFImEd-S-5uzDh9e9Q",
+	"method_development",
+	"Method Development",
+	"This practice describes a method to develop method content."
+);
+INSERT INTO practices VALUES (
+	"_LR_g4J9WEdy3Nc4rvuj7bA",
+	"iterative_development",
+	"Iterative Development",
+	"Create a solution in increments. Each increment is completed in a fixed period of time, an iteration."
+);
+INSERT INTO practices VALUES (
+	"_NOBsuiZLEd-QuZFPf_YdqQ",
+	"project_process_tailoring",
+	"Project Process Tailoring",
+	"This practice describes how to select tools and an appropriate process and perform the typical tailoring required for use on a specific project."
+);
+INSERT INTO practices VALUES (
+	"_ijFkcB4sEd2bS8fFOQ7WWA",
+	"release_planning",
+	"Release Planning",
+	"The Release Planning practice embodies the concept of high-level planning for the complete project scope (macro-) and low-level (micro-) planning for the immediate and next increments or iterations."
+);
+INSERT INTO practices VALUES (
+	"_9FqrQB4sEd2bS8fFOQ7WWA",
+	"risk_value_lifecycle",
+	"Risk-Value Lifecycle",
+	"The risk-value lifecycle practice supplements the iterative development and release planning practices with the unified process lifecycle. This lifecycle identifies four phases, each of which attempts to balance value provided against risk mitigation appropriate to the phase."
+);
+INSERT INTO practices VALUES (
+	"_tz6tkB4uEd2bS8fFOQ7WWA",
+	"team_change_mgmt",
+	"Team Change Management",
+	"This is a practice for capturing change requests that are managed as part of work item management."
+);
+INSERT INTO practices VALUES (
+	"_6C4sMB4rEd2bS8fFOQ7WWA",
+	"whole_team",
+	"Whole Team",
+	"The Whole Team practice describes how a development team organizes itself to enable it to work effectively."
+);
+INSERT INTO practices VALUES (
+	"_MuX6YKcnEd-VK6zqjMaiPQ",
+	"abrd",
+	"Agile Business Rule Development",
+	"Agile Business Rule Development is a practice to implement business application using business rule management system and rule engine technology."
+);
+INSERT INTO practices VALUES (
+	"_9z1PgJ6NEdyQN-zRFaRrCQ",
+	"concurrent_testing",
+	"Concurrent Testing",
+	"This practice describes how to fold testing into agile development."
+);
+INSERT INTO practices VALUES (
+	"_rJNiMB4rEd2bS8fFOQ7WWA",
+	"continous_integration",
+	"Continuous Integration",
+	"In a Continuous Integration practice, team members integrate their work frequently (at least daily)."
+);
+INSERT INTO practices VALUES (
+	"_uVnpQB4qEd2bS8fFOQ7WWA",
+	"evolutionary_arch",
+	"Evolutionary Architecture",
+	"Analyze the major technical concerns that affect the solution, and capture those architectural decisions to ensure that those decisions are assessed and communicated."
+);
+INSERT INTO practices VALUES (
+	"_aSVhIB4qEd2bS8fFOQ7WWA",
+	"evolutionary_design",
+	"Evolutionary Design",
+	"This practice describes an approach to design that assumes that the design will evolve over time, minimizing documentation while still providing guidance for making design decisions and communicating those decisions."
+);
+INSERT INTO practices VALUES (
+	"_a7qSUB4nEd2bS8fFOQ7WWA",
+	"shared_vision",
+	"Shared Vision",
+	"This practice supports defining and communicating an overall vision for the project."
+);
+INSERT INTO practices VALUES (
+	"_FUDtMB4mEd2bS8fFOQ7WWA",
+	"test_driven_dev",
+	"Test Driven Development",
+	"This practice describes an approach to development in which test cases are defined first, then code is developed to pass the tests."
+);
+INSERT INTO practices VALUES (
+	"_w1JD4B4jEd2bS8fFOQ7WWA",
+	"use_case_driven_dev_practice",
+	"Use Case Driven Development",
+	"This practice describes how to capture requirements with a combination of use cases and system-wide requirements, and then drive development and testing from those use cases."
+);
+INSERT INTO practices VALUES (
+	"_-zdZceB8EeC1y_NExchKwQ",
+	"documentation_and_training",
+	"Documentation and Training",
+	"This practice describes how to prepare documentation for a product release and how that documentation might be used to prepare and deliver training to end users and support personnel."
+);
+INSERT INTO practices VALUES (
+	"_IAG5wOB-EeC1y_NExchKwQ",
+	"production_release",
+	"Production Release",
+	"This practice describes how to prepare and execute the release of a product (or subset thereof) into the production environment."
+);
+
 INSERT INTO delivery_processes VALUES (
 	"_SuWj4dOPEdyqlogshP8l4g",
 	"openup_lifecycle",
@@ -298,11 +641,21 @@ INSERT INTO artifacts VALUES (
 	"Vision",
 	"This artifact defines the view of the stakeholders of the technical solution to be developed. This definition is specified in terms of the key needs and features of the stakeholders. The vision contains an outline of the envisioned core requirements for the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_soyUVNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_OpsH8GpmEd24CboUCnKL3A",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_OpsH8GpmEd24CboUCnKL3A"
 );
 INSERT INTO sections VALUES (
 	"_h7AacED2EdyoefaQkqWN_Q",
@@ -323,11 +676,21 @@ INSERT INTO artifacts VALUES (
 	"Vision",
 	"This artifact defines the view of the stakeholders of the technical solution to be developed. This definition is specified in terms of the key needs and features of the stakeholders. The vision contains an outline of the envisioned core requirements for the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_soyUVNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_OpsH8GpmEd24CboUCnKL3A",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_OpsH8GpmEd24CboUCnKL3A"
 );
 INSERT INTO sections VALUES (
 	"_vbkccED2EdyoefaQkqWN_Q",
@@ -355,11 +718,21 @@ INSERT INTO artifacts VALUES (
 	"Vision",
 	"This artifact defines the view of the stakeholders of the technical solution to be developed. This definition is specified in terms of the key needs and features of the stakeholders. The vision contains an outline of the envisioned core requirements for the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_soyUVNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_OpsH8GpmEd24CboUCnKL3A",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_OpsH8GpmEd24CboUCnKL3A"
 );
 INSERT INTO sections VALUES (
 	"_yeVC0ED2EdyoefaQkqWN_Q",
@@ -377,11 +750,21 @@ INSERT INTO artifacts VALUES (
 	"Vision",
 	"This artifact defines the view of the stakeholders of the technical solution to be developed. This definition is specified in terms of the key needs and features of the stakeholders. The vision contains an outline of the envisioned core requirements for the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_soyUVNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_OpsH8GpmEd24CboUCnKL3A",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_OpsH8GpmEd24CboUCnKL3A"
 );
 INSERT INTO sections VALUES (
 	"_6uIV0ED2EdyoefaQkqWN_Q",
@@ -404,11 +787,21 @@ INSERT INTO artifacts VALUES (
 	"Vision",
 	"This artifact defines the view of the stakeholders of the technical solution to be developed. This definition is specified in terms of the key needs and features of the stakeholders. The vision contains an outline of the envisioned core requirements for the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_soyUVNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_OpsH8GpmEd24CboUCnKL3A",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_OpsH8GpmEd24CboUCnKL3A"
 );
 INSERT INTO sections VALUES (
 	"__nDMkED2EdyoefaQkqWN_Q",
@@ -425,11 +818,21 @@ INSERT INTO artifacts VALUES (
 	"Vision",
 	"This artifact defines the view of the stakeholders of the technical solution to be developed. This definition is specified in terms of the key needs and features of the stakeholders. The vision contains an outline of the envisioned core requirements for the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_soyUVNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_OpsH8GpmEd24CboUCnKL3A",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_OpsH8GpmEd24CboUCnKL3A"
 );
 INSERT INTO sections VALUES (
 	"_Af_gUEIMEd2omsDpG-BNng",
@@ -448,11 +851,21 @@ INSERT INTO artifacts VALUES (
 	"Vision",
 	"This artifact defines the view of the stakeholders of the technical solution to be developed. This definition is specified in terms of the key needs and features of the stakeholders. The vision contains an outline of the envisioned core requirements for the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_soyUVNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_OpsH8GpmEd24CboUCnKL3A",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_sopKYNOJEdyqlogshP8l4g",
+	"_OpsH8GpmEd24CboUCnKL3A"
 );
 INSERT INTO tasks VALUES (
 	"_t7pDUNOJEdyqlogshP8l4g",
@@ -478,6 +891,11 @@ INSERT INTO artifacts VALUES (
 	"Project Plan",
 	"This artifact gathers all of the information required to manage the project on a strategic level. Its main part consists of a coarse-grained plan, identifying project iterations and their goals."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_t7pDUNOJEdyqlogshP8l4g",
+	"_4ypNIO-YEdyEMtC_IfEALw"
+);
 INSERT INTO sections VALUES (
 	"_jknm8IyBEdyhZb-MhCJrlA",
 	"Estimate project size",
@@ -499,6 +917,11 @@ INSERT INTO artifacts VALUES (
 	"project_plan",
 	"Project Plan",
 	"This artifact gathers all of the information required to manage the project on a strategic level. Its main part consists of a coarse-grained plan, identifying project iterations and their goals."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_t7pDUNOJEdyqlogshP8l4g",
+	"_4ypNIO-YEdyEMtC_IfEALw"
 );
 INSERT INTO sections VALUES (
 	"_4Xg3QOFpEdyhmsbt0Xyl8A",
@@ -533,6 +956,11 @@ INSERT INTO artifacts VALUES (
 	"Project Plan",
 	"This artifact gathers all of the information required to manage the project on a strategic level. Its main part consists of a coarse-grained plan, identifying project iterations and their goals."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_t7pDUNOJEdyqlogshP8l4g",
+	"_4ypNIO-YEdyEMtC_IfEALw"
+);
 INSERT INTO sections VALUES (
 	"_lrYj0MBAEdqSgKaj2SZBmg",
 	"Evaluate risks",
@@ -561,6 +989,11 @@ INSERT INTO artifacts VALUES (
 	"Project Plan",
 	"This artifact gathers all of the information required to manage the project on a strategic level. Its main part consists of a coarse-grained plan, identifying project iterations and their goals."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_t7pDUNOJEdyqlogshP8l4g",
+	"_4ypNIO-YEdyEMtC_IfEALw"
+);
 INSERT INTO sections VALUES (
 	"_xWBhUIyBEdyhZb-MhCJrlA",
 	"Establish costs and articulate value",
@@ -581,6 +1014,11 @@ INSERT INTO artifacts VALUES (
 	"project_plan",
 	"Project Plan",
 	"This artifact gathers all of the information required to manage the project on a strategic level. Its main part consists of a coarse-grained plan, identifying project iterations and their goals."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_t7pDUNOJEdyqlogshP8l4g",
+	"_4ypNIO-YEdyEMtC_IfEALw"
 );
 INSERT INTO sections VALUES (
 	"_zeN84IyBEdyhZb-MhCJrlA",
@@ -611,6 +1049,11 @@ INSERT INTO artifacts VALUES (
 	"project_plan",
 	"Project Plan",
 	"This artifact gathers all of the information required to manage the project on a strategic level. Its main part consists of a coarse-grained plan, identifying project iterations and their goals."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_t7pDUNOJEdyqlogshP8l4g",
+	"_4ypNIO-YEdyEMtC_IfEALw"
 );
 INSERT INTO activities VALUES (
 	"_uxDPEdOOEdyqlogshP8l4g",
@@ -648,17 +1091,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_CtKCMMBHEdqSgKaj2SZBmg",
@@ -680,17 +1138,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_HzNVgIyBEdyhZb-MhCJrlA",
@@ -710,17 +1183,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_307v0MMsEdmdo9HxCRR_Gw",
@@ -751,17 +1239,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_7Hqr4MMsEdmdo9HxCRR_Gw",
@@ -781,17 +1284,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_-tp18FHjEd2IaYFd32DrjQ",
@@ -812,17 +1330,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_zjF0ANOJEdyqlogshP8l4g",
@@ -875,17 +1408,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_urvQkGSyEd2DNqLAFatITA",
@@ -917,17 +1465,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_oIZdkCbZEdqh1LYUOGRh2A",
@@ -955,17 +1518,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_xiFJwCbZEdqh1LYUOGRh2A",
@@ -986,17 +1564,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Br6VECuxEdqTIKp3l5PtzQ",
@@ -1017,17 +1610,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_0Qiv4NOJEdyqlogshP8l4g",
@@ -1071,11 +1679,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_iSiDEIx4Edyzd4h-mxj9YA",
@@ -1104,11 +1722,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_iL7cQEpqEdup0IY9DKDPkg",
@@ -1130,11 +1758,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_1YHH8DLqEdueZPye-FaNgA",
@@ -1155,11 +1793,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO activities VALUES (
 	"_vyeP0dOOEdyqlogshP8l4g",
@@ -1205,17 +1853,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_GAr3IOz3Edq2wJOsmRwmhg",
@@ -1232,17 +1895,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_fDbgkCY-EdqNHcQ-rAojXw",
@@ -1267,17 +1945,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_CD_a8JJKEdyk6dG0ehkW5Q",
@@ -1303,17 +1996,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Ql45gEI6Edyrh7YaMjqrlA",
@@ -1339,17 +2047,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_0WhHsN-eEdqiM_wFaqLjNg",
@@ -1366,17 +2089,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_FX7SINOLEdyqlogshP8l4g",
@@ -1407,11 +2145,21 @@ INSERT INTO artifacts VALUES (
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_iEvYMJLaEdyk6dG0ehkW5Q",
@@ -1431,11 +2179,21 @@ INSERT INTO artifacts VALUES (
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_kojt4JLcEdyk6dG0ehkW5Q",
@@ -1454,11 +2212,21 @@ INSERT INTO artifacts VALUES (
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_F68foNOLEdyqlogshP8l4g",
@@ -1488,11 +2256,21 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_4z8Z0UbEEdyx8quJU3Grxg",
@@ -1510,11 +2288,21 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_4z8Z0kbEEdyx8quJU3Grxg",
@@ -1533,11 +2321,21 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_HDOWUNOLEdyqlogshP8l4g",
@@ -1565,6 +2363,11 @@ INSERT INTO artifacts VALUES (
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_aDe_ILGcEdubqf8m_Zrvvg",
 	"Identify relevant Test Cases",
@@ -1589,6 +2392,11 @@ INSERT INTO artifacts VALUES (
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_LpbM8KuSEdmhFZtkg1nakg",
 	"Outline the Test Cases",
@@ -1612,6 +2420,11 @@ INSERT INTO artifacts VALUES (
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_NK18YKuSEdmhFZtkg1nakg",
 	"Identify test data needs",
@@ -1634,6 +2447,11 @@ INSERT INTO artifacts VALUES (
 	"test_case",
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Ok_mMKuSEdmhFZtkg1nakg",
@@ -1676,6 +2494,11 @@ INSERT INTO artifacts VALUES (
 	"test_case",
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
 );
 INSERT INTO activities VALUES (
 	"_w-Bc8dOOEdyqlogshP8l4g",
@@ -1726,6 +2549,11 @@ INSERT INTO artifacts VALUES (
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_sjccUN_1EdyOsumnGvWsEg",
+	"_BWf5gtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_f0y2kM25Edym_ZFqrJcXUg",
 	"Identify architecturally significant requirements",
@@ -1744,6 +2572,11 @@ INSERT INTO artifacts VALUES (
 	"architecture_notebook",
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_sjccUN_1EdyOsumnGvWsEg",
+	"_BWf5gtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_9o6Z4CSCEdqDjNgZyGMf5w",
@@ -1767,6 +2600,11 @@ INSERT INTO artifacts VALUES (
 	"architecture_notebook",
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_sjccUN_1EdyOsumnGvWsEg",
+	"_BWf5gtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_I32E4MP2EdmWKcx6ixEiwg",
@@ -1799,6 +2637,11 @@ INSERT INTO artifacts VALUES (
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_sjccUN_1EdyOsumnGvWsEg",
+	"_BWf5gtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_B899cMP2EdmWKcx6ixEiwg",
 	"Identify reuse opportunities",
@@ -1817,6 +2660,11 @@ INSERT INTO artifacts VALUES (
 	"architecture_notebook",
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_sjccUN_1EdyOsumnGvWsEg",
+	"_BWf5gtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_FVrlsMP2EdmWKcx6ixEiwg",
@@ -1866,6 +2714,11 @@ INSERT INTO artifacts VALUES (
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_sjccUN_1EdyOsumnGvWsEg",
+	"_BWf5gtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_tmvWwE5cEducxZ_XZXh-vw",
 	"Define approach for deploying the system",
@@ -1882,6 +2735,11 @@ INSERT INTO artifacts VALUES (
 	"architecture_notebook",
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_sjccUN_1EdyOsumnGvWsEg",
+	"_BWf5gtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_KBAsYMP2EdmWKcx6ixEiwg",
@@ -1912,6 +2770,11 @@ INSERT INTO artifacts VALUES (
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_sjccUN_1EdyOsumnGvWsEg",
+	"_BWf5gtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_RKSLsNp3EdyItewP9R0w7Q",
 	"Identify interfaces to external systems",
@@ -1933,6 +2796,11 @@ INSERT INTO artifacts VALUES (
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_sjccUN_1EdyOsumnGvWsEg",
+	"_BWf5gtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_Q2PRIFHSEd2zrOgIte8oWg",
 	"Verify architectural consistency",
@@ -1947,6 +2815,11 @@ INSERT INTO artifacts VALUES (
 	"architecture_notebook",
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_sjccUN_1EdyOsumnGvWsEg",
+	"_BWf5gtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Xia1QFHSEd2zrOgIte8oWg",
@@ -1964,6 +2837,11 @@ INSERT INTO artifacts VALUES (
 	"architecture_notebook",
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_sjccUN_1EdyOsumnGvWsEg",
+	"_BWf5gtOKEdyqlogshP8l4g"
 );
 INSERT INTO activities VALUES (
 	"_h0Gs8dONEdyqlogshP8l4g",
@@ -2029,17 +2907,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_CtKCMMBHEdqSgKaj2SZBmg",
@@ -2061,17 +2954,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_HzNVgIyBEdyhZb-MhCJrlA",
@@ -2091,17 +2999,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_307v0MMsEdmdo9HxCRR_Gw",
@@ -2132,17 +3055,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_7Hqr4MMsEdmdo9HxCRR_Gw",
@@ -2162,17 +3100,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_-tp18FHjEd2IaYFd32DrjQ",
@@ -2193,17 +3146,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_zjF0ANOJEdyqlogshP8l4g",
@@ -2256,17 +3224,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_urvQkGSyEd2DNqLAFatITA",
@@ -2298,17 +3281,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_oIZdkCbZEdqh1LYUOGRh2A",
@@ -2336,17 +3334,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_xiFJwCbZEdqh1LYUOGRh2A",
@@ -2367,17 +3380,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Br6VECuxEdqTIKp3l5PtzQ",
@@ -2398,17 +3426,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_0Qiv4NOJEdyqlogshP8l4g",
@@ -2452,11 +3495,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_iSiDEIx4Edyzd4h-mxj9YA",
@@ -2485,11 +3538,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_iL7cQEpqEdup0IY9DKDPkg",
@@ -2511,11 +3574,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_1YHH8DLqEdueZPye-FaNgA",
@@ -2536,11 +3609,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO activities VALUES (
 	"_YwLY4dOOEdyqlogshP8l4g",
@@ -2586,17 +3669,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_GAr3IOz3Edq2wJOsmRwmhg",
@@ -2613,17 +3711,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_fDbgkCY-EdqNHcQ-rAojXw",
@@ -2648,17 +3761,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_CD_a8JJKEdyk6dG0ehkW5Q",
@@ -2684,17 +3812,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Ql45gEI6Edyrh7YaMjqrlA",
@@ -2720,17 +3863,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_0WhHsN-eEdqiM_wFaqLjNg",
@@ -2747,17 +3905,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_FX7SINOLEdyqlogshP8l4g",
@@ -2788,11 +3961,21 @@ INSERT INTO artifacts VALUES (
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_iEvYMJLaEdyk6dG0ehkW5Q",
@@ -2812,11 +3995,21 @@ INSERT INTO artifacts VALUES (
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_kojt4JLcEdyk6dG0ehkW5Q",
@@ -2835,11 +4028,21 @@ INSERT INTO artifacts VALUES (
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_F68foNOLEdyqlogshP8l4g",
@@ -2869,11 +4072,21 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_4z8Z0UbEEdyx8quJU3Grxg",
@@ -2891,11 +4104,21 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_4z8Z0kbEEdyx8quJU3Grxg",
@@ -2914,11 +4137,21 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_HDOWUNOLEdyqlogshP8l4g",
@@ -2946,6 +4179,11 @@ INSERT INTO artifacts VALUES (
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_aDe_ILGcEdubqf8m_Zrvvg",
 	"Identify relevant Test Cases",
@@ -2970,6 +4208,11 @@ INSERT INTO artifacts VALUES (
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_LpbM8KuSEdmhFZtkg1nakg",
 	"Outline the Test Cases",
@@ -2993,6 +4236,11 @@ INSERT INTO artifacts VALUES (
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_NK18YKuSEdmhFZtkg1nakg",
 	"Identify test data needs",
@@ -3015,6 +4263,11 @@ INSERT INTO artifacts VALUES (
 	"test_case",
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Ok_mMKuSEdmhFZtkg1nakg",
@@ -3057,6 +4310,11 @@ INSERT INTO artifacts VALUES (
 	"test_case",
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
 );
 INSERT INTO activities VALUES (
 	"_aSrtcdOOEdyqlogshP8l4g",
@@ -3104,6 +4362,11 @@ INSERT INTO artifacts VALUES (
 	"architecture_notebook",
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_6RuKMN_1EdyOsumnGvWsEg",
+	"_EjG_cNOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_G_k1kBaqEduSTJywppIxVQ",
@@ -3202,6 +4465,11 @@ INSERT INTO artifacts VALUES (
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_6RuKMN_1EdyOsumnGvWsEg",
+	"_EjG_cNOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_0qoQ8CikEduQBKSg5n118w",
 	"Refine architectural mechanisms",
@@ -3222,6 +4490,11 @@ INSERT INTO artifacts VALUES (
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_6RuKMN_1EdyOsumnGvWsEg",
+	"_EjG_cNOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_82iI0FHOEd2zrOgIte8oWg",
 	"Define development architecture and test architecture",
@@ -3236,6 +4509,11 @@ INSERT INTO artifacts VALUES (
 	"architecture_notebook",
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_6RuKMN_1EdyOsumnGvWsEg",
+	"_EjG_cNOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Vdln8MP3EdmWKcx6ixEiwg",
@@ -3259,6 +4537,11 @@ INSERT INTO artifacts VALUES (
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_6RuKMN_1EdyOsumnGvWsEg",
+	"_EjG_cNOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_GFLpsFHPEd2zrOgIte8oWg",
 	"Validate the architecture",
@@ -3279,6 +4562,11 @@ INSERT INTO artifacts VALUES (
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_6RuKMN_1EdyOsumnGvWsEg",
+	"_EjG_cNOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_xIIVkMUbEdu5GrwIlTJV7g",
 	"Map the software to the hardware",
@@ -3297,6 +4585,11 @@ INSERT INTO artifacts VALUES (
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_6RuKMN_1EdyOsumnGvWsEg",
+	"_EjG_cNOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_pyyVoFHPEd2zrOgIte8oWg",
 	"Communicate decisions",
@@ -3313,6 +4606,11 @@ INSERT INTO artifacts VALUES (
 	"architecture_notebook",
 	"Architecture Notebook",
 	"This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_6RuKMN_1EdyOsumnGvWsEg",
+	"_EjG_cNOKEdyqlogshP8l4g"
 );
 INSERT INTO activities VALUES (
 	"_eyv_UdOOEdyqlogshP8l4g",
@@ -3366,6 +4664,11 @@ INSERT INTO artifacts VALUES (
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_Ci7aYFixEdusJoWkvSRO9Q",
 	"Understand the architecture",
@@ -3389,6 +4692,11 @@ INSERT INTO artifacts VALUES (
 	"design",
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_--6tYKuKEdmhFZtkg1nakg",
@@ -3416,6 +4724,11 @@ INSERT INTO artifacts VALUES (
 	"design",
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_A_LU8KuLEdmhFZtkg1nakg",
@@ -3449,6 +4762,11 @@ INSERT INTO artifacts VALUES (
 	"design",
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_ENwJwKuLEdmhFZtkg1nakg",
@@ -3486,6 +4804,11 @@ INSERT INTO artifacts VALUES (
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_KNZYAKuLEdmhFZtkg1nakg",
 	"Design internals (for large or complex elements)",
@@ -3509,6 +4832,11 @@ INSERT INTO artifacts VALUES (
 	"design",
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_OGYbwKuLEdmhFZtkg1nakg",
@@ -3568,6 +4896,11 @@ INSERT INTO artifacts VALUES (
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_mUVt8BfnEduD353bkQ4frw",
 	"Evaluate the design",
@@ -3600,6 +4933,11 @@ INSERT INTO artifacts VALUES (
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
+);
 INSERT INTO tasks VALUES (
 	"_gXo2UNOKEdyqlogshP8l4g",
 	"implement_developer_tests",
@@ -3631,6 +4969,11 @@ INSERT INTO artifacts VALUES (
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_Es64wJR-EdyVKbgqUOtqQA",
 	"Write the test setup",
@@ -3645,6 +4988,11 @@ INSERT INTO artifacts VALUES (
 	"developer_test",
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Fm4moJR-EdyVKbgqUOtqQA",
@@ -3666,6 +5014,11 @@ INSERT INTO artifacts VALUES (
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_GZaPwJR-EdyVKbgqUOtqQA",
 	"Write the test logic",
@@ -3679,6 +5032,11 @@ INSERT INTO artifacts VALUES (
 	"developer_test",
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_IMxq0JR-EdyVKbgqUOtqQA",
@@ -3695,6 +5053,11 @@ INSERT INTO artifacts VALUES (
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_JAiqEJR-EdyVKbgqUOtqQA",
 	"Write clean-up code",
@@ -3709,6 +5072,11 @@ INSERT INTO artifacts VALUES (
 	"developer_test",
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_KkDrQJR-EdyVKbgqUOtqQA",
@@ -3739,6 +5107,11 @@ INSERT INTO artifacts VALUES (
 	"developer_test",
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_hVe-oNOKEdyqlogshP8l4g",
@@ -3780,6 +5153,11 @@ INSERT INTO artifacts VALUES (
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_SW1pAJfJEdyZkIR-s-Y8wQ",
 	"Identify opportunities for reuse",
@@ -3797,6 +5175,11 @@ INSERT INTO artifacts VALUES (
 	"implementation",
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
 );
 INSERT INTO sections VALUES (
 	"_IVaTAJ-uEdyHNcWzRYqQMg",
@@ -3819,6 +5202,11 @@ INSERT INTO artifacts VALUES (
 	"implementation",
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
 );
 INSERT INTO sections VALUES (
 	"_TadCIJfJEdyZkIR-s-Y8wQ",
@@ -3873,6 +5261,11 @@ INSERT INTO artifacts VALUES (
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_WpB28JfJEdyZkIR-s-Y8wQ",
 	"Evaluate the implementation",
@@ -3919,6 +5312,11 @@ INSERT INTO artifacts VALUES (
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_XjAL4JfJEdyZkIR-s-Y8wQ",
 	"Communicate significant decisions",
@@ -3947,6 +5345,11 @@ INSERT INTO artifacts VALUES (
 	"implementation",
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
 );
 INSERT INTO tasks VALUES (
 	"_iRZNQNOKEdyqlogshP8l4g",
@@ -3981,6 +5384,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_iRZNQNOKEdyqlogshP8l4g",
+	"_dC4w4ZojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_haRocJfIEdyZkIR-s-Y8wQ",
 	"Evaluate test execution",
@@ -4008,6 +5416,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_iRZNQNOKEdyqlogshP8l4g",
+	"_dC4w4ZojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_itj1QJfIEdyZkIR-s-Y8wQ",
 	"Respond to test results",
@@ -4027,6 +5440,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_iRZNQNOKEdyqlogshP8l4g",
+	"_dC4w4ZojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_C0_fYFQAEd2ECfw27om6fw",
 	"Promote changes for integration test",
@@ -4044,6 +5462,11 @@ INSERT INTO artifacts VALUES (
 	"test_log",
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_iRZNQNOKEdyqlogshP8l4g",
+	"_dC4w4ZojEd2XAqcHTC2Siw"
 );
 INSERT INTO tasks VALUES (
 	"_Dlo8wNo8EdyzZqGyZ7hwdw",
@@ -4075,6 +5498,11 @@ INSERT INTO artifacts VALUES (
 	"build",
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
 );
 INSERT INTO sections VALUES (
 	"_kkZBgpOKEdyaRbFYa4AN4A",
@@ -4111,6 +5539,11 @@ INSERT INTO artifacts VALUES (
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
+);
 INSERT INTO sections VALUES (
 	"_kkZBhJOKEdyaRbFYa4AN4A",
 	"Test integrated elements",
@@ -4128,6 +5561,11 @@ INSERT INTO artifacts VALUES (
 	"build",
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
 );
 INSERT INTO sections VALUES (
 	"_kkZBg5OKEdyaRbFYa4AN4A",
@@ -4150,6 +5588,11 @@ INSERT INTO artifacts VALUES (
 	"build",
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
 );
 INSERT INTO sections VALUES (
 	"_kkZBgZOKEdyaRbFYa4AN4A",
@@ -4174,6 +5617,11 @@ INSERT INTO artifacts VALUES (
 	"build",
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
 );
 INSERT INTO activities VALUES (
 	"_f4VuYdOOEdyqlogshP8l4g",
@@ -4220,6 +5668,11 @@ INSERT INTO artifacts VALUES (
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_WucQ4KRKEdyLP-jEVj8Kyw",
 	"Design the Test Script",
@@ -4247,6 +5700,11 @@ INSERT INTO artifacts VALUES (
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_VN5M0KuSEdmhFZtkg1nakg",
 	"Implement the executable Test Script",
@@ -4269,6 +5727,11 @@ INSERT INTO artifacts VALUES (
 	"Test Script",
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_WvBoYKuSEdmhFZtkg1nakg",
@@ -4300,6 +5763,11 @@ INSERT INTO artifacts VALUES (
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_2IA70KRKEdyLP-jEVj8Kyw",
 	"Organize Test Scripts into suites",
@@ -4323,6 +5791,11 @@ INSERT INTO artifacts VALUES (
 	"Test Script",
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_X0dmcKuSEdmhFZtkg1nakg",
@@ -4350,6 +5823,11 @@ INSERT INTO artifacts VALUES (
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_ABwoIKRLEdyLP-jEVj8Kyw",
 	"Share and evaluate Test Scripts",
@@ -4372,6 +5850,11 @@ INSERT INTO artifacts VALUES (
 	"Test Script",
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_WttSMNOLEdyqlogshP8l4g",
@@ -4396,6 +5879,11 @@ INSERT INTO artifacts VALUES (
 	"test_log",
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_1L1yAKRLEdyLP-jEVj8Kyw",
@@ -4423,6 +5911,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_gV408KuSEdmhFZtkg1nakg",
 	"Execute Test Scripts against the build",
@@ -4449,6 +5942,11 @@ INSERT INTO artifacts VALUES (
 	"test_log",
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_sQaC4DO2EduqsLmIADMQ9g",
@@ -4494,6 +5992,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_3t6oADO2EduqsLmIADMQ9g",
 	"Provide feedback to the team",
@@ -4524,6 +6027,11 @@ INSERT INTO artifacts VALUES (
 	"test_log",
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
 );
 INSERT INTO activities VALUES (
 	"_g8cPsdOOEdyqlogshP8l4g",
@@ -4565,6 +6073,11 @@ INSERT INTO artifacts VALUES (
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_HGqkMNnTEdyNj6EOmqy5Rg",
+	"_HGqkMdnTEdyNj6EOmqy5Rg"
+);
 INSERT INTO sections VALUES (
 	"_r2aP0KuoEdmEGLSmmpF1Sg",
 	"Update the Work Item List",
@@ -4581,6 +6094,11 @@ INSERT INTO artifacts VALUES (
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_HGqkMNnTEdyNj6EOmqy5Rg",
+	"_HGqkMdnTEdyNj6EOmqy5Rg"
 );
 INSERT INTO activities VALUES (
 	"_aUsVEdONEdyqlogshP8l4g",
@@ -4646,17 +6164,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_CtKCMMBHEdqSgKaj2SZBmg",
@@ -4678,17 +6211,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_HzNVgIyBEdyhZb-MhCJrlA",
@@ -4708,17 +6256,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_307v0MMsEdmdo9HxCRR_Gw",
@@ -4749,17 +6312,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_7Hqr4MMsEdmdo9HxCRR_Gw",
@@ -4779,17 +6357,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_-tp18FHjEd2IaYFd32DrjQ",
@@ -4810,17 +6403,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_zjF0ANOJEdyqlogshP8l4g",
@@ -4873,17 +6481,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_urvQkGSyEd2DNqLAFatITA",
@@ -4915,17 +6538,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_oIZdkCbZEdqh1LYUOGRh2A",
@@ -4953,17 +6591,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_xiFJwCbZEdqh1LYUOGRh2A",
@@ -4984,17 +6637,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Br6VECuxEdqTIKp3l5PtzQ",
@@ -5015,17 +6683,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_0Qiv4NOJEdyqlogshP8l4g",
@@ -5069,11 +6752,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_iSiDEIx4Edyzd4h-mxj9YA",
@@ -5102,11 +6795,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_iL7cQEpqEdup0IY9DKDPkg",
@@ -5128,11 +6831,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_1YHH8DLqEdueZPye-FaNgA",
@@ -5153,11 +6866,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO activities VALUES (
 	"_yw_dcZlVEeGlkdGl1HQlDA",
@@ -5203,17 +6926,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_GAr3IOz3Edq2wJOsmRwmhg",
@@ -5230,17 +6968,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_fDbgkCY-EdqNHcQ-rAojXw",
@@ -5265,17 +7018,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_CD_a8JJKEdyk6dG0ehkW5Q",
@@ -5301,17 +7069,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Ql45gEI6Edyrh7YaMjqrlA",
@@ -5337,17 +7120,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_0WhHsN-eEdqiM_wFaqLjNg",
@@ -5364,17 +7162,32 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqp9OLEdyqlogshP8l4g",
 	"use_case",
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_EOm5oNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_FX7SINOLEdyqlogshP8l4g",
@@ -5405,11 +7218,21 @@ INSERT INTO artifacts VALUES (
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_iEvYMJLaEdyk6dG0ehkW5Q",
@@ -5429,11 +7252,21 @@ INSERT INTO artifacts VALUES (
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_kojt4JLcEdyk6dG0ehkW5Q",
@@ -5452,11 +7285,21 @@ INSERT INTO artifacts VALUES (
 	"Use Case",
 	"This artifact captures the system behavior to yield an observable result of value to those who interact with the system."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqp9OLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_FX7SINOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_F68foNOLEdyqlogshP8l4g",
@@ -5486,11 +7329,21 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_4z8Z0UbEEdyx8quJU3Grxg",
@@ -5508,11 +7361,21 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_4z8Z0kbEEdyx8quJU3Grxg",
@@ -5531,11 +7394,21 @@ INSERT INTO artifacts VALUES (
 	"System-Wide Requirements",
 	"This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqptOLEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_EOwqqNOLEdyqlogshP8l4g",
 	"glossary",
 	"Glossary",
 	"This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_F68foNOLEdyqlogshP8l4g",
+	"_EOwqqNOLEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_HDOWUNOLEdyqlogshP8l4g",
@@ -5563,6 +7436,11 @@ INSERT INTO artifacts VALUES (
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_aDe_ILGcEdubqf8m_Zrvvg",
 	"Identify relevant Test Cases",
@@ -5587,6 +7465,11 @@ INSERT INTO artifacts VALUES (
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_LpbM8KuSEdmhFZtkg1nakg",
 	"Outline the Test Cases",
@@ -5610,6 +7493,11 @@ INSERT INTO artifacts VALUES (
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_NK18YKuSEdmhFZtkg1nakg",
 	"Identify test data needs",
@@ -5632,6 +7520,11 @@ INSERT INTO artifacts VALUES (
 	"test_case",
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Ok_mMKuSEdmhFZtkg1nakg",
@@ -5674,6 +7567,11 @@ INSERT INTO artifacts VALUES (
 	"test_case",
 	"Test Case",
 	"This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_HDOWUNOLEdyqlogshP8l4g",
+	"_HDOWUtOLEdyqlogshP8l4g"
 );
 INSERT INTO activities VALUES (
 	"_CqFrgdOOEdyqlogshP8l4g",
@@ -5727,6 +7625,11 @@ INSERT INTO artifacts VALUES (
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_Ci7aYFixEdusJoWkvSRO9Q",
 	"Understand the architecture",
@@ -5750,6 +7653,11 @@ INSERT INTO artifacts VALUES (
 	"design",
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_--6tYKuKEdmhFZtkg1nakg",
@@ -5777,6 +7685,11 @@ INSERT INTO artifacts VALUES (
 	"design",
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_A_LU8KuLEdmhFZtkg1nakg",
@@ -5810,6 +7723,11 @@ INSERT INTO artifacts VALUES (
 	"design",
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_ENwJwKuLEdmhFZtkg1nakg",
@@ -5847,6 +7765,11 @@ INSERT INTO artifacts VALUES (
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_KNZYAKuLEdmhFZtkg1nakg",
 	"Design internals (for large or complex elements)",
@@ -5870,6 +7793,11 @@ INSERT INTO artifacts VALUES (
 	"design",
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_OGYbwKuLEdmhFZtkg1nakg",
@@ -5929,6 +7857,11 @@ INSERT INTO artifacts VALUES (
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_mUVt8BfnEduD353bkQ4frw",
 	"Evaluate the design",
@@ -5961,6 +7894,11 @@ INSERT INTO artifacts VALUES (
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
+);
 INSERT INTO tasks VALUES (
 	"_gXo2UNOKEdyqlogshP8l4g",
 	"implement_developer_tests",
@@ -5992,6 +7930,11 @@ INSERT INTO artifacts VALUES (
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_Es64wJR-EdyVKbgqUOtqQA",
 	"Write the test setup",
@@ -6006,6 +7949,11 @@ INSERT INTO artifacts VALUES (
 	"developer_test",
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Fm4moJR-EdyVKbgqUOtqQA",
@@ -6027,6 +7975,11 @@ INSERT INTO artifacts VALUES (
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_GZaPwJR-EdyVKbgqUOtqQA",
 	"Write the test logic",
@@ -6040,6 +7993,11 @@ INSERT INTO artifacts VALUES (
 	"developer_test",
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_IMxq0JR-EdyVKbgqUOtqQA",
@@ -6056,6 +8014,11 @@ INSERT INTO artifacts VALUES (
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_JAiqEJR-EdyVKbgqUOtqQA",
 	"Write clean-up code",
@@ -6070,6 +8033,11 @@ INSERT INTO artifacts VALUES (
 	"developer_test",
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_KkDrQJR-EdyVKbgqUOtqQA",
@@ -6100,6 +8068,11 @@ INSERT INTO artifacts VALUES (
 	"developer_test",
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_hVe-oNOKEdyqlogshP8l4g",
@@ -6141,6 +8114,11 @@ INSERT INTO artifacts VALUES (
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_SW1pAJfJEdyZkIR-s-Y8wQ",
 	"Identify opportunities for reuse",
@@ -6158,6 +8136,11 @@ INSERT INTO artifacts VALUES (
 	"implementation",
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
 );
 INSERT INTO sections VALUES (
 	"_IVaTAJ-uEdyHNcWzRYqQMg",
@@ -6180,6 +8163,11 @@ INSERT INTO artifacts VALUES (
 	"implementation",
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
 );
 INSERT INTO sections VALUES (
 	"_TadCIJfJEdyZkIR-s-Y8wQ",
@@ -6234,6 +8222,11 @@ INSERT INTO artifacts VALUES (
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_WpB28JfJEdyZkIR-s-Y8wQ",
 	"Evaluate the implementation",
@@ -6280,6 +8273,11 @@ INSERT INTO artifacts VALUES (
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_XjAL4JfJEdyZkIR-s-Y8wQ",
 	"Communicate significant decisions",
@@ -6308,6 +8306,11 @@ INSERT INTO artifacts VALUES (
 	"implementation",
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
 );
 INSERT INTO tasks VALUES (
 	"_iRZNQNOKEdyqlogshP8l4g",
@@ -6342,6 +8345,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_iRZNQNOKEdyqlogshP8l4g",
+	"_dC4w4ZojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_haRocJfIEdyZkIR-s-Y8wQ",
 	"Evaluate test execution",
@@ -6369,6 +8377,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_iRZNQNOKEdyqlogshP8l4g",
+	"_dC4w4ZojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_itj1QJfIEdyZkIR-s-Y8wQ",
 	"Respond to test results",
@@ -6388,6 +8401,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_iRZNQNOKEdyqlogshP8l4g",
+	"_dC4w4ZojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_C0_fYFQAEd2ECfw27om6fw",
 	"Promote changes for integration test",
@@ -6405,6 +8423,11 @@ INSERT INTO artifacts VALUES (
 	"test_log",
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_iRZNQNOKEdyqlogshP8l4g",
+	"_dC4w4ZojEd2XAqcHTC2Siw"
 );
 INSERT INTO tasks VALUES (
 	"_Dlo8wNo8EdyzZqGyZ7hwdw",
@@ -6436,6 +8459,11 @@ INSERT INTO artifacts VALUES (
 	"build",
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
 );
 INSERT INTO sections VALUES (
 	"_kkZBgpOKEdyaRbFYa4AN4A",
@@ -6472,6 +8500,11 @@ INSERT INTO artifacts VALUES (
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
+);
 INSERT INTO sections VALUES (
 	"_kkZBhJOKEdyaRbFYa4AN4A",
 	"Test integrated elements",
@@ -6489,6 +8522,11 @@ INSERT INTO artifacts VALUES (
 	"build",
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
 );
 INSERT INTO sections VALUES (
 	"_kkZBg5OKEdyaRbFYa4AN4A",
@@ -6511,6 +8549,11 @@ INSERT INTO artifacts VALUES (
 	"build",
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
 );
 INSERT INTO sections VALUES (
 	"_kkZBgZOKEdyaRbFYa4AN4A",
@@ -6535,6 +8578,11 @@ INSERT INTO artifacts VALUES (
 	"build",
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
 );
 INSERT INTO activities VALUES (
 	"_HhjJsdOOEdyqlogshP8l4g",
@@ -6581,6 +8629,11 @@ INSERT INTO artifacts VALUES (
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_WucQ4KRKEdyLP-jEVj8Kyw",
 	"Design the Test Script",
@@ -6608,6 +8661,11 @@ INSERT INTO artifacts VALUES (
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_VN5M0KuSEdmhFZtkg1nakg",
 	"Implement the executable Test Script",
@@ -6630,6 +8688,11 @@ INSERT INTO artifacts VALUES (
 	"Test Script",
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_WvBoYKuSEdmhFZtkg1nakg",
@@ -6661,6 +8724,11 @@ INSERT INTO artifacts VALUES (
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_2IA70KRKEdyLP-jEVj8Kyw",
 	"Organize Test Scripts into suites",
@@ -6684,6 +8752,11 @@ INSERT INTO artifacts VALUES (
 	"Test Script",
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_X0dmcKuSEdmhFZtkg1nakg",
@@ -6711,6 +8784,11 @@ INSERT INTO artifacts VALUES (
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_ABwoIKRLEdyLP-jEVj8Kyw",
 	"Share and evaluate Test Scripts",
@@ -6733,6 +8811,11 @@ INSERT INTO artifacts VALUES (
 	"Test Script",
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_WttSMNOLEdyqlogshP8l4g",
@@ -6757,6 +8840,11 @@ INSERT INTO artifacts VALUES (
 	"test_log",
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_1L1yAKRLEdyLP-jEVj8Kyw",
@@ -6784,6 +8872,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_gV408KuSEdmhFZtkg1nakg",
 	"Execute Test Scripts against the build",
@@ -6810,6 +8903,11 @@ INSERT INTO artifacts VALUES (
 	"test_log",
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_sQaC4DO2EduqsLmIADMQ9g",
@@ -6855,6 +8953,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_3t6oADO2EduqsLmIADMQ9g",
 	"Provide feedback to the team",
@@ -6885,6 +8988,11 @@ INSERT INTO artifacts VALUES (
 	"test_log",
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
 );
 INSERT INTO activities VALUES (
 	"_GQejYdOOEdyqlogshP8l4g",
@@ -6926,6 +9034,11 @@ INSERT INTO artifacts VALUES (
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_HGqkMNnTEdyNj6EOmqy5Rg",
+	"_HGqkMdnTEdyNj6EOmqy5Rg"
+);
 INSERT INTO sections VALUES (
 	"_r2aP0KuoEdmEGLSmmpF1Sg",
 	"Update the Work Item List",
@@ -6942,6 +9055,11 @@ INSERT INTO artifacts VALUES (
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_HGqkMNnTEdyNj6EOmqy5Rg",
+	"_HGqkMdnTEdyNj6EOmqy5Rg"
 );
 INSERT INTO activities VALUES (
 	"_8--9sZigEeGlkdGl1HQlDA",
@@ -6986,6 +9104,11 @@ INSERT INTO artifacts VALUES (
 	"Product Documentation",
 	"Information about a specific product that has been captured in an organized format."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kklJiLEeGOvpP1fVrVNA",
+	"_y7kkk5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zf1seB8EeC1y_NExchKwQ",
 	"Document each feature",
@@ -7000,6 +9123,11 @@ INSERT INTO artifacts VALUES (
 	"product_documentation",
 	"Product Documentation",
 	"Information about a specific product that has been captured in an organized format."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kklJiLEeGOvpP1fVrVNA",
+	"_y7kkk5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_-zf1s-B8EeC1y_NExchKwQ",
@@ -7017,6 +9145,11 @@ INSERT INTO artifacts VALUES (
 	"Product Documentation",
 	"Information about a specific product that has been captured in an organized format."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kklJiLEeGOvpP1fVrVNA",
+	"_y7kkk5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zfOr-B8EeC1y_NExchKwQ",
 	"Update product documentation as necessary",
@@ -7032,6 +9165,11 @@ INSERT INTO artifacts VALUES (
 	"Product Documentation",
 	"Information about a specific product that has been captured in an organized format."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kklJiLEeGOvpP1fVrVNA",
+	"_y7kkk5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zf1sOB8EeC1y_NExchKwQ",
 	"Deliver product documentation",
@@ -7046,6 +9184,11 @@ INSERT INTO artifacts VALUES (
 	"product_documentation",
 	"Product Documentation",
 	"Information about a specific product that has been captured in an organized format."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kklJiLEeGOvpP1fVrVNA",
+	"_y7kkk5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO tasks VALUES (
 	"_y7kkkpiLEeGOvpP1fVrVNA",
@@ -7096,6 +9239,11 @@ INSERT INTO artifacts VALUES (
 	"User Documentation",
 	"Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkpiLEeGOvpP1fVrVNA",
+	"_y7a0K5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zfOpeB8EeC1y_NExchKwQ",
 	"Leverage product documentation",
@@ -7112,6 +9260,11 @@ INSERT INTO artifacts VALUES (
 	"user_documentation",
 	"User Documentation",
 	"Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkpiLEeGOvpP1fVrVNA",
+	"_y7a0K5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_-zfOpOB8EeC1y_NExchKwQ",
@@ -7154,6 +9307,11 @@ INSERT INTO artifacts VALUES (
 	"User Documentation",
 	"Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkpiLEeGOvpP1fVrVNA",
+	"_y7a0K5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zfOouB8EeC1y_NExchKwQ",
 	"Write user documentation content",
@@ -7169,6 +9327,11 @@ INSERT INTO artifacts VALUES (
 	"user_documentation",
 	"User Documentation",
 	"Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkpiLEeGOvpP1fVrVNA",
+	"_y7a0K5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_-zfOoeB8EeC1y_NExchKwQ",
@@ -7186,6 +9349,11 @@ INSERT INTO artifacts VALUES (
 	"User Documentation",
 	"Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkpiLEeGOvpP1fVrVNA",
+	"_y7a0K5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zfOpuB8EeC1y_NExchKwQ",
 	"Deliver user documentation",
@@ -7200,6 +9368,11 @@ INSERT INTO artifacts VALUES (
 	"user_documentation",
 	"User Documentation",
 	"Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkpiLEeGOvpP1fVrVNA",
+	"_y7a0K5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO tasks VALUES (
 	"_y7kkkJiLEeGOvpP1fVrVNA",
@@ -7234,6 +9407,11 @@ INSERT INTO artifacts VALUES (
 	"support_documentation",
 	"Support Documentation",
 	"Documents used by members of a production support team that provide information about how to service and support a specific product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkJiLEeGOvpP1fVrVNA",
+	"_y7kkkZiLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_-zfOq-B8EeC1y_NExchKwQ",
@@ -7293,6 +9471,11 @@ INSERT INTO artifacts VALUES (
 	"Support Documentation",
 	"Documents used by members of a production support team that provide information about how to service and support a specific product."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkJiLEeGOvpP1fVrVNA",
+	"_y7kkkZiLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zfOqeB8EeC1y_NExchKwQ",
 	"Write support documentation",
@@ -7308,6 +9491,11 @@ INSERT INTO artifacts VALUES (
 	"support_documentation",
 	"Support Documentation",
 	"Documents used by members of a production support team that provide information about how to service and support a specific product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkJiLEeGOvpP1fVrVNA",
+	"_y7kkkZiLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_-zfOrOB8EeC1y_NExchKwQ",
@@ -7325,6 +9513,11 @@ INSERT INTO artifacts VALUES (
 	"Support Documentation",
 	"Documents used by members of a production support team that provide information about how to service and support a specific product."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkJiLEeGOvpP1fVrVNA",
+	"_y7kkkZiLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zfOqOB8EeC1y_NExchKwQ",
 	"Deliver support documentation",
@@ -7339,6 +9532,11 @@ INSERT INTO artifacts VALUES (
 	"support_documentation",
 	"Support Documentation",
 	"Documents used by members of a production support team that provide information about how to service and support a specific product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkJiLEeGOvpP1fVrVNA",
+	"_y7kkkZiLEeGOvpP1fVrVNA"
 );
 INSERT INTO tasks VALUES (
 	"_ofI9sJlWEeGlkdGl1HQlDA",
@@ -7393,6 +9591,11 @@ INSERT INTO artifacts VALUES (
 	"Training Materials",
 	"This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_ofI9sJlWEeGlkdGl1HQlDA",
+	"_ofSHoplWEeGlkdGl1HQlDA"
+);
 INSERT INTO sections VALUES (
 	"_-zenm-B8EeC1y_NExchKwQ",
 	"Develop user training materials",
@@ -7415,6 +9618,11 @@ INSERT INTO artifacts VALUES (
 	"training_materials",
 	"Training Materials",
 	"This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_ofI9sJlWEeGlkdGl1HQlDA",
+	"_ofSHoplWEeGlkdGl1HQlDA"
 );
 INSERT INTO sections VALUES (
 	"_-zenmuB8EeC1y_NExchKwQ",
@@ -7439,6 +9647,11 @@ INSERT INTO artifacts VALUES (
 	"Training Materials",
 	"This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_ofI9sJlWEeGlkdGl1HQlDA",
+	"_ofSHoplWEeGlkdGl1HQlDA"
+);
 INSERT INTO sections VALUES (
 	"_-zenn-B8EeC1y_NExchKwQ",
 	"Perform quality review",
@@ -7454,6 +9667,11 @@ INSERT INTO artifacts VALUES (
 	"training_materials",
 	"Training Materials",
 	"This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_ofI9sJlWEeGlkdGl1HQlDA",
+	"_ofSHoplWEeGlkdGl1HQlDA"
 );
 INSERT INTO sections VALUES (
 	"_-zennuB8EeC1y_NExchKwQ",
@@ -7471,6 +9689,11 @@ INSERT INTO artifacts VALUES (
 	"Training Materials",
 	"This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_ofI9sJlWEeGlkdGl1HQlDA",
+	"_ofSHoplWEeGlkdGl1HQlDA"
+);
 INSERT INTO sections VALUES (
 	"_-zenneB8EeC1y_NExchKwQ",
 	"Deliver training materials",
@@ -7485,6 +9708,11 @@ INSERT INTO artifacts VALUES (
 	"training_materials",
 	"Training Materials",
 	"This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_ofI9sJlWEeGlkdGl1HQlDA",
+	"_ofSHoplWEeGlkdGl1HQlDA"
 );
 INSERT INTO activities VALUES (
 	"_RQi0AdONEdyqlogshP8l4g",
@@ -7550,17 +9778,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_CtKCMMBHEdqSgKaj2SZBmg",
@@ -7582,17 +9825,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_HzNVgIyBEdyhZb-MhCJrlA",
@@ -7612,17 +9870,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_307v0MMsEdmdo9HxCRR_Gw",
@@ -7653,17 +9926,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_7Hqr4MMsEdmdo9HxCRR_Gw",
@@ -7683,17 +9971,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_-tp18FHjEd2IaYFd32DrjQ",
@@ -7714,17 +10017,32 @@ INSERT INTO artifacts VALUES (
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMNOJEdyqlogshP8l4g",
 	"iteration_plan",
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y05RQNOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_zjF0ANOJEdyqlogshP8l4g",
@@ -7777,17 +10095,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_urvQkGSyEd2DNqLAFatITA",
@@ -7819,17 +10152,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_oIZdkCbZEdqh1LYUOGRh2A",
@@ -7857,17 +10205,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_xiFJwCbZEdqh1LYUOGRh2A",
@@ -7888,17 +10251,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Br6VECuxEdqTIKp3l5PtzQ",
@@ -7919,17 +10297,32 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMdOJEdyqlogshP8l4g",
 	"risk_list",
 	"Risk List",
 	"This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMdOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_zjF0ANOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_0Qiv4NOJEdyqlogshP8l4g",
@@ -7973,11 +10366,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_iSiDEIx4Edyzd4h-mxj9YA",
@@ -8006,11 +10409,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_iL7cQEpqEdup0IY9DKDPkg",
@@ -8032,11 +10445,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_1YHH8DLqEdueZPye-FaNgA",
@@ -8057,11 +10480,21 @@ INSERT INTO artifacts VALUES (
 	"Iteration Plan",
 	"A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMNOJEdyqlogshP8l4g"
+);
 INSERT INTO artifacts VALUES (
 	"_y1MMMtOJEdyqlogshP8l4g",
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_0Qiv4NOJEdyqlogshP8l4g",
+	"_y1MMMtOJEdyqlogshP8l4g"
 );
 INSERT INTO activities VALUES (
 	"_-iix4dOOEdyqlogshP8l4g",
@@ -8115,6 +10548,11 @@ INSERT INTO artifacts VALUES (
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_Ci7aYFixEdusJoWkvSRO9Q",
 	"Understand the architecture",
@@ -8138,6 +10576,11 @@ INSERT INTO artifacts VALUES (
 	"design",
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_--6tYKuKEdmhFZtkg1nakg",
@@ -8165,6 +10608,11 @@ INSERT INTO artifacts VALUES (
 	"design",
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_A_LU8KuLEdmhFZtkg1nakg",
@@ -8198,6 +10646,11 @@ INSERT INTO artifacts VALUES (
 	"design",
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_ENwJwKuLEdmhFZtkg1nakg",
@@ -8235,6 +10688,11 @@ INSERT INTO artifacts VALUES (
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_KNZYAKuLEdmhFZtkg1nakg",
 	"Design internals (for large or complex elements)",
@@ -8258,6 +10716,11 @@ INSERT INTO artifacts VALUES (
 	"design",
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_OGYbwKuLEdmhFZtkg1nakg",
@@ -8317,6 +10780,11 @@ INSERT INTO artifacts VALUES (
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_mUVt8BfnEduD353bkQ4frw",
 	"Evaluate the design",
@@ -8349,6 +10817,11 @@ INSERT INTO artifacts VALUES (
 	"Design",
 	"This artifact describes the realization of required system functionality and serves as an abstraction of the source code."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_frOcQNOKEdyqlogshP8l4g",
+	"_frh-QtOKEdyqlogshP8l4g"
+);
 INSERT INTO tasks VALUES (
 	"_gXo2UNOKEdyqlogshP8l4g",
 	"implement_developer_tests",
@@ -8380,6 +10853,11 @@ INSERT INTO artifacts VALUES (
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_Es64wJR-EdyVKbgqUOtqQA",
 	"Write the test setup",
@@ -8394,6 +10872,11 @@ INSERT INTO artifacts VALUES (
 	"developer_test",
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_Fm4moJR-EdyVKbgqUOtqQA",
@@ -8415,6 +10898,11 @@ INSERT INTO artifacts VALUES (
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_GZaPwJR-EdyVKbgqUOtqQA",
 	"Write the test logic",
@@ -8428,6 +10916,11 @@ INSERT INTO artifacts VALUES (
 	"developer_test",
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_IMxq0JR-EdyVKbgqUOtqQA",
@@ -8444,6 +10937,11 @@ INSERT INTO artifacts VALUES (
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_JAiqEJR-EdyVKbgqUOtqQA",
 	"Write clean-up code",
@@ -8458,6 +10956,11 @@ INSERT INTO artifacts VALUES (
 	"developer_test",
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_KkDrQJR-EdyVKbgqUOtqQA",
@@ -8488,6 +10991,11 @@ INSERT INTO artifacts VALUES (
 	"developer_test",
 	"Developer Test",
 	"The Developer Test validates a specific aspect of an implementation element."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_gXo2UNOKEdyqlogshP8l4g",
+	"_gX7xQtOKEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_hVe-oNOKEdyqlogshP8l4g",
@@ -8529,6 +11037,11 @@ INSERT INTO artifacts VALUES (
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_SW1pAJfJEdyZkIR-s-Y8wQ",
 	"Identify opportunities for reuse",
@@ -8546,6 +11059,11 @@ INSERT INTO artifacts VALUES (
 	"implementation",
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
 );
 INSERT INTO sections VALUES (
 	"_IVaTAJ-uEdyHNcWzRYqQMg",
@@ -8568,6 +11086,11 @@ INSERT INTO artifacts VALUES (
 	"implementation",
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
 );
 INSERT INTO sections VALUES (
 	"_TadCIJfJEdyZkIR-s-Y8wQ",
@@ -8622,6 +11145,11 @@ INSERT INTO artifacts VALUES (
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_WpB28JfJEdyZkIR-s-Y8wQ",
 	"Evaluate the implementation",
@@ -8668,6 +11196,11 @@ INSERT INTO artifacts VALUES (
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_XjAL4JfJEdyZkIR-s-Y8wQ",
 	"Communicate significant decisions",
@@ -8696,6 +11229,11 @@ INSERT INTO artifacts VALUES (
 	"implementation",
 	"Implementation",
 	"Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_hVe-oNOKEdyqlogshP8l4g",
+	"_dC4w4JojEd2XAqcHTC2Siw"
 );
 INSERT INTO tasks VALUES (
 	"_iRZNQNOKEdyqlogshP8l4g",
@@ -8730,6 +11268,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_iRZNQNOKEdyqlogshP8l4g",
+	"_dC4w4ZojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_haRocJfIEdyZkIR-s-Y8wQ",
 	"Evaluate test execution",
@@ -8757,6 +11300,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_iRZNQNOKEdyqlogshP8l4g",
+	"_dC4w4ZojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_itj1QJfIEdyZkIR-s-Y8wQ",
 	"Respond to test results",
@@ -8776,6 +11324,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_iRZNQNOKEdyqlogshP8l4g",
+	"_dC4w4ZojEd2XAqcHTC2Siw"
+);
 INSERT INTO sections VALUES (
 	"_C0_fYFQAEd2ECfw27om6fw",
 	"Promote changes for integration test",
@@ -8793,6 +11346,11 @@ INSERT INTO artifacts VALUES (
 	"test_log",
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_iRZNQNOKEdyqlogshP8l4g",
+	"_dC4w4ZojEd2XAqcHTC2Siw"
 );
 INSERT INTO tasks VALUES (
 	"_Dlo8wNo8EdyzZqGyZ7hwdw",
@@ -8824,6 +11382,11 @@ INSERT INTO artifacts VALUES (
 	"build",
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
 );
 INSERT INTO sections VALUES (
 	"_kkZBgpOKEdyaRbFYa4AN4A",
@@ -8860,6 +11423,11 @@ INSERT INTO artifacts VALUES (
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
+);
 INSERT INTO sections VALUES (
 	"_kkZBhJOKEdyaRbFYa4AN4A",
 	"Test integrated elements",
@@ -8877,6 +11445,11 @@ INSERT INTO artifacts VALUES (
 	"build",
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
 );
 INSERT INTO sections VALUES (
 	"_kkZBg5OKEdyaRbFYa4AN4A",
@@ -8899,6 +11472,11 @@ INSERT INTO artifacts VALUES (
 	"build",
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
 );
 INSERT INTO sections VALUES (
 	"_kkZBgZOKEdyaRbFYa4AN4A",
@@ -8923,6 +11501,11 @@ INSERT INTO artifacts VALUES (
 	"build",
 	"Build",
 	"An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Dlo8wNo8EdyzZqGyZ7hwdw",
+	"_aJ1X4No7EdyzZqGyZ7hwdw"
 );
 INSERT INTO activities VALUES (
 	"_AZ58IdOPEdyqlogshP8l4g",
@@ -8969,6 +11552,11 @@ INSERT INTO artifacts VALUES (
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_WucQ4KRKEdyLP-jEVj8Kyw",
 	"Design the Test Script",
@@ -8996,6 +11584,11 @@ INSERT INTO artifacts VALUES (
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_VN5M0KuSEdmhFZtkg1nakg",
 	"Implement the executable Test Script",
@@ -9018,6 +11611,11 @@ INSERT INTO artifacts VALUES (
 	"Test Script",
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_WvBoYKuSEdmhFZtkg1nakg",
@@ -9049,6 +11647,11 @@ INSERT INTO artifacts VALUES (
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_2IA70KRKEdyLP-jEVj8Kyw",
 	"Organize Test Scripts into suites",
@@ -9072,6 +11675,11 @@ INSERT INTO artifacts VALUES (
 	"Test Script",
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_X0dmcKuSEdmhFZtkg1nakg",
@@ -9099,6 +11707,11 @@ INSERT INTO artifacts VALUES (
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_ABwoIKRLEdyLP-jEVj8Kyw",
 	"Share and evaluate Test Scripts",
@@ -9121,6 +11734,11 @@ INSERT INTO artifacts VALUES (
 	"Test Script",
 	"This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable
 	automated testing."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_Viv68NOLEdyqlogshP8l4g",
+	"_Vi5r8dOLEdyqlogshP8l4g"
 );
 INSERT INTO tasks VALUES (
 	"_WttSMNOLEdyqlogshP8l4g",
@@ -9145,6 +11763,11 @@ INSERT INTO artifacts VALUES (
 	"test_log",
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_1L1yAKRLEdyLP-jEVj8Kyw",
@@ -9172,6 +11795,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_gV408KuSEdmhFZtkg1nakg",
 	"Execute Test Scripts against the build",
@@ -9198,6 +11826,11 @@ INSERT INTO artifacts VALUES (
 	"test_log",
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
 );
 INSERT INTO sections VALUES (
 	"_sQaC4DO2EduqsLmIADMQ9g",
@@ -9243,6 +11876,11 @@ INSERT INTO artifacts VALUES (
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
+);
 INSERT INTO sections VALUES (
 	"_3t6oADO2EduqsLmIADMQ9g",
 	"Provide feedback to the team",
@@ -9273,6 +11911,11 @@ INSERT INTO artifacts VALUES (
 	"test_log",
 	"Test Log",
 	"This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_WttSMNOLEdyqlogshP8l4g",
+	"_WttSMdOLEdyqlogshP8l4g"
 );
 INSERT INTO activities VALUES (
 	"_ybaHoZlYEeGlkdGl1HQlDA",
@@ -9317,6 +11960,11 @@ INSERT INTO artifacts VALUES (
 	"Product Documentation",
 	"Information about a specific product that has been captured in an organized format."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kklJiLEeGOvpP1fVrVNA",
+	"_y7kkk5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zf1seB8EeC1y_NExchKwQ",
 	"Document each feature",
@@ -9331,6 +11979,11 @@ INSERT INTO artifacts VALUES (
 	"product_documentation",
 	"Product Documentation",
 	"Information about a specific product that has been captured in an organized format."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kklJiLEeGOvpP1fVrVNA",
+	"_y7kkk5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_-zf1s-B8EeC1y_NExchKwQ",
@@ -9348,6 +12001,11 @@ INSERT INTO artifacts VALUES (
 	"Product Documentation",
 	"Information about a specific product that has been captured in an organized format."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kklJiLEeGOvpP1fVrVNA",
+	"_y7kkk5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zfOr-B8EeC1y_NExchKwQ",
 	"Update product documentation as necessary",
@@ -9363,6 +12021,11 @@ INSERT INTO artifacts VALUES (
 	"Product Documentation",
 	"Information about a specific product that has been captured in an organized format."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kklJiLEeGOvpP1fVrVNA",
+	"_y7kkk5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zf1sOB8EeC1y_NExchKwQ",
 	"Deliver product documentation",
@@ -9377,6 +12040,11 @@ INSERT INTO artifacts VALUES (
 	"product_documentation",
 	"Product Documentation",
 	"Information about a specific product that has been captured in an organized format."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kklJiLEeGOvpP1fVrVNA",
+	"_y7kkk5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO tasks VALUES (
 	"_y7kkkpiLEeGOvpP1fVrVNA",
@@ -9427,6 +12095,11 @@ INSERT INTO artifacts VALUES (
 	"User Documentation",
 	"Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkpiLEeGOvpP1fVrVNA",
+	"_y7a0K5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zfOpeB8EeC1y_NExchKwQ",
 	"Leverage product documentation",
@@ -9443,6 +12116,11 @@ INSERT INTO artifacts VALUES (
 	"user_documentation",
 	"User Documentation",
 	"Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkpiLEeGOvpP1fVrVNA",
+	"_y7a0K5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_-zfOpOB8EeC1y_NExchKwQ",
@@ -9485,6 +12163,11 @@ INSERT INTO artifacts VALUES (
 	"User Documentation",
 	"Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkpiLEeGOvpP1fVrVNA",
+	"_y7a0K5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zfOouB8EeC1y_NExchKwQ",
 	"Write user documentation content",
@@ -9500,6 +12183,11 @@ INSERT INTO artifacts VALUES (
 	"user_documentation",
 	"User Documentation",
 	"Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkpiLEeGOvpP1fVrVNA",
+	"_y7a0K5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_-zfOoeB8EeC1y_NExchKwQ",
@@ -9517,6 +12205,11 @@ INSERT INTO artifacts VALUES (
 	"User Documentation",
 	"Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkpiLEeGOvpP1fVrVNA",
+	"_y7a0K5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zfOpuB8EeC1y_NExchKwQ",
 	"Deliver user documentation",
@@ -9531,6 +12224,11 @@ INSERT INTO artifacts VALUES (
 	"user_documentation",
 	"User Documentation",
 	"Documents that can be utilized by the End Users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkpiLEeGOvpP1fVrVNA",
+	"_y7a0K5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO tasks VALUES (
 	"_y7kkkJiLEeGOvpP1fVrVNA",
@@ -9565,6 +12263,11 @@ INSERT INTO artifacts VALUES (
 	"support_documentation",
 	"Support Documentation",
 	"Documents used by members of a production support team that provide information about how to service and support a specific product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkJiLEeGOvpP1fVrVNA",
+	"_y7kkkZiLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_-zfOq-B8EeC1y_NExchKwQ",
@@ -9624,6 +12327,11 @@ INSERT INTO artifacts VALUES (
 	"Support Documentation",
 	"Documents used by members of a production support team that provide information about how to service and support a specific product."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkJiLEeGOvpP1fVrVNA",
+	"_y7kkkZiLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zfOqeB8EeC1y_NExchKwQ",
 	"Write support documentation",
@@ -9639,6 +12347,11 @@ INSERT INTO artifacts VALUES (
 	"support_documentation",
 	"Support Documentation",
 	"Documents used by members of a production support team that provide information about how to service and support a specific product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkJiLEeGOvpP1fVrVNA",
+	"_y7kkkZiLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_-zfOrOB8EeC1y_NExchKwQ",
@@ -9656,6 +12369,11 @@ INSERT INTO artifacts VALUES (
 	"Support Documentation",
 	"Documents used by members of a production support team that provide information about how to service and support a specific product."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkJiLEeGOvpP1fVrVNA",
+	"_y7kkkZiLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_-zfOqOB8EeC1y_NExchKwQ",
 	"Deliver support documentation",
@@ -9670,6 +12388,11 @@ INSERT INTO artifacts VALUES (
 	"support_documentation",
 	"Support Documentation",
 	"Documents used by members of a production support team that provide information about how to service and support a specific product."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7kkkJiLEeGOvpP1fVrVNA",
+	"_y7kkkZiLEeGOvpP1fVrVNA"
 );
 INSERT INTO tasks VALUES (
 	"_ofI9sJlWEeGlkdGl1HQlDA",
@@ -9724,6 +12447,11 @@ INSERT INTO artifacts VALUES (
 	"Training Materials",
 	"This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_ofI9sJlWEeGlkdGl1HQlDA",
+	"_ofSHoplWEeGlkdGl1HQlDA"
+);
 INSERT INTO sections VALUES (
 	"_-zenm-B8EeC1y_NExchKwQ",
 	"Develop user training materials",
@@ -9746,6 +12474,11 @@ INSERT INTO artifacts VALUES (
 	"training_materials",
 	"Training Materials",
 	"This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_ofI9sJlWEeGlkdGl1HQlDA",
+	"_ofSHoplWEeGlkdGl1HQlDA"
 );
 INSERT INTO sections VALUES (
 	"_-zenmuB8EeC1y_NExchKwQ",
@@ -9770,6 +12503,11 @@ INSERT INTO artifacts VALUES (
 	"Training Materials",
 	"This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_ofI9sJlWEeGlkdGl1HQlDA",
+	"_ofSHoplWEeGlkdGl1HQlDA"
+);
 INSERT INTO sections VALUES (
 	"_-zenn-B8EeC1y_NExchKwQ",
 	"Perform quality review",
@@ -9785,6 +12523,11 @@ INSERT INTO artifacts VALUES (
 	"training_materials",
 	"Training Materials",
 	"This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_ofI9sJlWEeGlkdGl1HQlDA",
+	"_ofSHoplWEeGlkdGl1HQlDA"
 );
 INSERT INTO sections VALUES (
 	"_-zennuB8EeC1y_NExchKwQ",
@@ -9802,6 +12545,11 @@ INSERT INTO artifacts VALUES (
 	"Training Materials",
 	"This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_ofI9sJlWEeGlkdGl1HQlDA",
+	"_ofSHoplWEeGlkdGl1HQlDA"
+);
 INSERT INTO sections VALUES (
 	"_-zenneB8EeC1y_NExchKwQ",
 	"Deliver training materials",
@@ -9816,6 +12564,11 @@ INSERT INTO artifacts VALUES (
 	"training_materials",
 	"Training Materials",
 	"This work product represents all the materials needed to train End Users and production support personnel on the features and inner workings of a product for a particular Release."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_ofI9sJlWEeGlkdGl1HQlDA",
+	"_ofSHoplWEeGlkdGl1HQlDA"
 );
 INSERT INTO activities VALUES (
 	"_qRAugZlXEeGlkdGl1HQlDA",
@@ -9924,6 +12677,11 @@ INSERT INTO artifacts VALUES (
 	"Infrastructure",
 	"In reference to a Release Sprint, infrastructure refers to all the hardware, software, and network facilities necessary to support a deployed release."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7a0ApiLEeGOvpP1fVrVNA",
+	"_y7a0A5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_IAIu8eB-EeC1y_NExchKwQ",
 	"Procure components",
@@ -9941,6 +12699,11 @@ INSERT INTO artifacts VALUES (
 	"Infrastructure",
 	"In reference to a Release Sprint, infrastructure refers to all the hardware, software, and network facilities necessary to support a deployed release."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7a0ApiLEeGOvpP1fVrVNA",
+	"_y7a0A5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_IAIH5OB-EeC1y_NExchKwQ",
 	"Schedule components for installation",
@@ -9955,6 +12718,11 @@ INSERT INTO artifacts VALUES (
 	"infrastructure",
 	"Infrastructure",
 	"In reference to a Release Sprint, infrastructure refers to all the hardware, software, and network facilities necessary to support a deployed release."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7a0ApiLEeGOvpP1fVrVNA",
+	"_y7a0A5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_IAIH4uB-EeC1y_NExchKwQ",
@@ -9971,6 +12739,11 @@ INSERT INTO artifacts VALUES (
 	"infrastructure",
 	"Infrastructure",
 	"In reference to a Release Sprint, infrastructure refers to all the hardware, software, and network facilities necessary to support a deployed release."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7a0ApiLEeGOvpP1fVrVNA",
+	"_y7a0A5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_IAIu8OB-EeC1y_NExchKwQ",
@@ -9993,6 +12766,11 @@ INSERT INTO artifacts VALUES (
 	"infrastructure",
 	"Infrastructure",
 	"In reference to a Release Sprint, infrastructure refers to all the hardware, software, and network facilities necessary to support a deployed release."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7a0ApiLEeGOvpP1fVrVNA",
+	"_y7a0A5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO tasks VALUES (
 	"_y7az-5iLEeGOvpP1fVrVNA",
@@ -10019,6 +12797,11 @@ INSERT INTO artifacts VALUES (
 	"Backout Plan",
 	"A Backout Plan defines the criteria and procedures to be followed if a release into production needs to be rolled back."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7az-5iLEeGOvpP1fVrVNA",
+	"_y7a0BJiLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_IAIu8-B-EeC1y_NExchKwQ",
 	"Develop the backout plan (if applicable)",
@@ -10036,6 +12819,11 @@ INSERT INTO artifacts VALUES (
 	"Backout Plan",
 	"A Backout Plan defines the criteria and procedures to be followed if a release into production needs to be rolled back."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7az-5iLEeGOvpP1fVrVNA",
+	"_y7a0BJiLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_IAIu9OB-EeC1y_NExchKwQ",
 	"Update the backout plan (if applicable)",
@@ -10051,6 +12839,11 @@ INSERT INTO artifacts VALUES (
 	"backout_plan",
 	"Backout Plan",
 	"A Backout Plan defines the criteria and procedures to be followed if a release into production needs to be rolled back."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7az-5iLEeGOvpP1fVrVNA",
+	"_y7a0BJiLEeGOvpP1fVrVNA"
 );
 INSERT INTO tasks VALUES (
 	"_y7a0AJiLEeGOvpP1fVrVNA",
@@ -10076,6 +12869,11 @@ INSERT INTO artifacts VALUES (
 	"release_communications",
 	"Release Communications",
 	"This artifact provides information to concerned parties that a product (or subset) has been placed into production."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7a0AJiLEeGOvpP1fVrVNA",
+	"_y7az_ZiLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_IAJWBeB-EeC1y_NExchKwQ",
@@ -10109,6 +12907,11 @@ INSERT INTO artifacts VALUES (
 	"Release Communications",
 	"This artifact provides information to concerned parties that a product (or subset) has been placed into production."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7a0AJiLEeGOvpP1fVrVNA",
+	"_y7az_ZiLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_IAJWB-B-EeC1y_NExchKwQ",
 	"Provide commiques to deployment manager",
@@ -10126,6 +12929,11 @@ INSERT INTO artifacts VALUES (
 	"release_communications",
 	"Release Communications",
 	"This artifact provides information to concerned parties that a product (or subset) has been placed into production."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7a0AJiLEeGOvpP1fVrVNA",
+	"_y7az_ZiLEeGOvpP1fVrVNA"
 );
 INSERT INTO activities VALUES (
 	"_tcRJkZlXEeGlkdGl1HQlDA",
@@ -10330,6 +13138,11 @@ INSERT INTO artifacts VALUES (
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_HGqkMNnTEdyNj6EOmqy5Rg",
+	"_HGqkMdnTEdyNj6EOmqy5Rg"
+);
 INSERT INTO sections VALUES (
 	"_r2aP0KuoEdmEGLSmmpF1Sg",
 	"Update the Work Item List",
@@ -10346,6 +13159,11 @@ INSERT INTO artifacts VALUES (
 	"work_items_list",
 	"Work Items List",
 	"This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_HGqkMNnTEdyNj6EOmqy5Rg",
+	"_HGqkMdnTEdyNj6EOmqy5Rg"
 );
 INSERT INTO activities VALUES (
 	"_sL8xMZlXEeGlkdGl1HQlDA",
@@ -10386,6 +13204,11 @@ INSERT INTO artifacts VALUES (
 	"	
 	A Release is the transition of an increment of potentially shippable product from the development group into routine use by Customers based on a successful placement of a Release Sprint's output into the production environment."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7a0GJiLEeGOvpP1fVrVNA",
+	"_y7a0I5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_IAEdguB-EeC1y_NExchKwQ",
 	"Test the release",
@@ -10403,6 +13226,11 @@ INSERT INTO artifacts VALUES (
 	"	
 	A Release is the transition of an increment of potentially shippable product from the development group into routine use by Customers based on a successful placement of a Release Sprint's output into the production environment."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7a0GJiLEeGOvpP1fVrVNA",
+	"_y7a0I5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_IAEdhOB-EeC1y_NExchKwQ",
 	"Tag source code repository",
@@ -10418,6 +13246,11 @@ INSERT INTO artifacts VALUES (
 	"Release",
 	"	
 	A Release is the transition of an increment of potentially shippable product from the development group into routine use by Customers based on a successful placement of a Release Sprint's output into the production environment."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7a0GJiLEeGOvpP1fVrVNA",
+	"_y7a0I5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO sections VALUES (
 	"_IAEdg-B-EeC1y_NExchKwQ",
@@ -10435,6 +13268,11 @@ INSERT INTO artifacts VALUES (
 	"	
 	A Release is the transition of an increment of potentially shippable product from the development group into routine use by Customers based on a successful placement of a Release Sprint's output into the production environment."
 );
+
+INSERT INTO task_artifacts VALUES (
+	"_y7a0GJiLEeGOvpP1fVrVNA",
+	"_y7a0I5iLEeGOvpP1fVrVNA"
+);
 INSERT INTO sections VALUES (
 	"_IAEdgeB-EeC1y_NExchKwQ",
 	"Deliver release package",
@@ -10451,6 +13289,11 @@ INSERT INTO artifacts VALUES (
 	"Release",
 	"	
 	A Release is the transition of an increment of potentially shippable product from the development group into routine use by Customers based on a successful placement of a Release Sprint's output into the production environment."
+);
+
+INSERT INTO task_artifacts VALUES (
+	"_y7a0GJiLEeGOvpP1fVrVNA",
+	"_y7a0I5iLEeGOvpP1fVrVNA"
 );
 INSERT INTO tasks VALUES (
 	"_y7a0IJiLEeGOvpP1fVrVNA",

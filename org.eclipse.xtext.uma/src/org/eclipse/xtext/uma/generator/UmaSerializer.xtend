@@ -2,23 +2,28 @@ package org.eclipse.xtext.uma.generator
 
 import org.eclipse.emf.common.util.URI
 import org.eclipse.emf.ecore.resource.Resource
+import org.eclipse.epf.uma.Activity
+import org.eclipse.epf.uma.CapabilityPattern
+import org.eclipse.epf.uma.DeliveryProcess
+import org.eclipse.epf.uma.Domain
+import org.eclipse.epf.uma.Iteration
+import org.eclipse.epf.uma.MethodConfiguration
+import org.eclipse.epf.uma.MethodLibrary
+import org.eclipse.epf.uma.Phase
+import org.eclipse.epf.uma.Role
+import org.eclipse.epf.uma.RoleSet
+import org.eclipse.epf.uma.TaskDescriptor
+import org.eclipse.epf.uma.WorkProductDescriptor
 import org.eclipse.xtext.generator.AbstractGenerator
 import org.eclipse.xtext.generator.IFileSystemAccess2
 import org.eclipse.xtext.generator.IGeneratorContext
 import org.eclipse.xtext.resource.XtextResourceSet
-import org.eclipse.epf.uma.MethodLibrary
-import org.eclipse.epf.uma.Role
-import org.eclipse.epf.uma.MethodConfiguration
 
 import static extension org.eclipse.emf.common.util.URI.createPlatformResourceURI
-import org.eclipse.epf.uma.RoleSet
-import org.eclipse.epf.uma.DeliveryProcess
-import org.eclipse.epf.uma.Phase
-import org.eclipse.epf.uma.Iteration
-import org.eclipse.epf.uma.CapabilityPattern
-import org.eclipse.epf.uma.Activity
-import org.eclipse.epf.uma.TaskDescriptor
-import org.eclipse.epf.uma.WorkProductDescriptor
+import org.eclipse.epf.uma.Discipline
+import org.eclipse.epf.uma.Practice
+import org.eclipse.epf.uma.ContentPackage
+import org.eclipse.emf.ecore.EObject
 
 class UmaSerializer extends AbstractGenerator {
 
@@ -48,8 +53,8 @@ class UmaSerializer extends AbstractGenerator {
 		return input.allContents.toIterable.filter(RoleSet).reject[roles.isEmpty]
 	}
 	
-	def Iterable<Role> getRoles(RoleSet input) {
-		return input.roles.reject[presentationName.isEmpty]
+	def Iterable<Role> getRoles(RoleSet roleSet) {
+		return roleSet.roles.reject[presentationName.isEmpty]
 	}
 	
 	def Iterable<DeliveryProcess> getDeliveryProcesses(Resource input) {
@@ -60,10 +65,22 @@ class UmaSerializer extends AbstractGenerator {
 		return input.allContents.toIterable.filter(Phase).reject[briefDescription.isEmpty]
 	}
 	
+	def Iterable<Domain> getDomains(Resource input) {
+		return input.allContents.toIterable.filter(Domain).reject[briefDescription.isEmpty]
+	}
+	
+	def Iterable<Discipline> getDisciplines(Resource input) {
+		return input.allContents.toIterable.filter(Discipline).filter[briefDescription.isEmpty]
+	}
+	
+	def Iterable<Practice> getPractices(Resource input) {
+		return input.allContents.toIterable.filter(Practice).reject[briefDescription.isEmpty]
+	}
+	
 	def Iterable<Activity> getActivities(Iteration iteration) {
 		if (iteration.variabilityBasedOnElement instanceof CapabilityPattern) {
 			val capabilityPattern = iteration.variabilityBasedOnElement as CapabilityPattern
-			return capabilityPattern.breakdownElements.filter(Activity).
+			return capabilityPattern.breakdownElements.filter(Activity)
 		}
 		else {
 			return iteration.breakdownElements.filter(Activity)
@@ -82,6 +99,10 @@ class UmaSerializer extends AbstractGenerator {
 	
 	def Iterable<WorkProductDescriptor> getWorkProductDescriptors(TaskDescriptor taskDescriptor) {
 		return taskDescriptor.output
+	}
+	
+	def ContentPackage getContainer(EObject eobject) {
+		return eobject.eContainer as ContentPackage
 	}
 	
 	def compile(Resource input) '''
@@ -103,7 +124,6 @@ class UmaSerializer extends AbstractGenerator {
 			"«roleSet.briefDescription»"
 		);
 		
-		««« BEFORE "(\n" SEPARATOR "\n),(" AFTER ");\n"
 		«FOR role: roleSet.getRoles» 
 		INSERT INTO roles VALUES (
 			"«role.guid»",
@@ -115,6 +135,43 @@ class UmaSerializer extends AbstractGenerator {
 		
 		«ENDFOR»
 		
+		«ENDFOR»
+		
+		«FOR domain: input.getDomains»
+		INSERT INTO domains VALUES (
+			"«domain.guid»",
+			"«domain.name»",
+			"«domain.presentationName»",
+			"«domain.briefDescription.replaceAll("\"","\\\\\"")»"
+		);
+		
+		«FOR workProduct: domain.workProducts»
+		INSERT INTO work_products VALUES (
+			"«workProduct.guid»",
+			"«workProduct.name»",
+			"«workProduct.presentationName»",
+			"«workProduct.briefDescription.replaceAll("\"","\\\\\"")»",
+			"«domain.guid»"
+		);
+		«ENDFOR»
+		«ENDFOR»
+		
+		«FOR discipline: input.getDisciplines»
+		INSERT INTO disciplines VALUES (
+			"«discipline.guid»",
+			"«discipline.variabilityBasedOnElement.name»",
+			"«discipline.variabilityBasedOnElement.presentationName»",
+			"«discipline.variabilityBasedOnElement.briefDescription.replaceAll("\"","\\\\\"")»"
+		);
+		«ENDFOR»
+		
+		«FOR practice: input.getPractices»
+		INSERT INTO practices VALUES (
+			"«practice.guid»",
+			"«practice.name»",
+			"«practice.presentationName»",
+			"«practice.briefDescription.replaceAll("\"","\\\\\"")»"
+		);
 		«ENDFOR»
 		
 		«FOR deliveryProcess: input.deliveryProcesses»
