@@ -1,18 +1,11 @@
-INSERT INTO method_configurations VALUES (
-	"_QD87wFRHEd2CWscN8Mx6rg",
-	"all_epf_practices",
-	"All EPF Practices",
-	"This configuration is used by process authors to view the available practices.",
-	"7.5.0"
-);
-INSERT INTO method_configurations VALUES (
+INSERT INTO methodologies VALUES (
 	"_QN3nQBEHEdyM7Iu0sxfrPA",
 	"openup",
 	"OpenUP",
 	"OpenUP is a lean Unified Process that applies iterative and incremental approaches within a structured lifecycle. ",
 	"1.0.0"
 );
-INSERT INTO method_configurations VALUES (
+INSERT INTO methodologies VALUES (
 	"_PFU-AMVeEd2n6fDcl3UsZg",
 	"tech.abrd",
 	"Agile Business Rules Development",
@@ -24,7 +17,8 @@ INSERT INTO role_sets VALUES (
 	"_SHN90MYaEdyXeo04os5BOw",
 	"basic_role_set",
 	"Basic Roles",
-	"This is the list of basic software development roles."
+	"This is the list of basic software development roles.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
 INSERT INTO roles VALUES (
@@ -88,7 +82,8 @@ INSERT INTO role_sets VALUES (
 	"_A5XTkKr-Ed-4oa5dU5v0Eg",
 	"brd_role_set",
 	"Business Rules Development",
-	"List of roles which are involved in business rules development."
+	"List of roles which are involved in business rules development.",
+	"_PFU-AMVeEd2n6fDcl3UsZg"
 );
 
 INSERT INTO roles VALUES (
@@ -160,7 +155,8 @@ INSERT INTO role_sets VALUES (
 	"_Wi8j4L9yEd-AG_DXKKgAXg",
 	"environment_roles_list",
 	"Environment",
-	"This standard category lists all environment roles in software development."
+	"This standard category lists all environment roles in software development.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
 INSERT INTO roles VALUES (
@@ -184,7 +180,8 @@ INSERT INTO role_sets VALUES (
 	"_5H4hQJoJEeGnJt_Qpwdfdg",
 	"deployment_roles_list",
 	"Deployment",
-	"This standard category lists all deployment roles in software development."
+	"This standard category lists all deployment roles in software development.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
 INSERT INTO roles VALUES (
@@ -241,63 +238,72 @@ INSERT INTO domains VALUES (
 	"_1r0bcK80Edy9cPK11VzBuQ",
 	"architecture_domain",
 	"Architecture",
-	"This is the list of work products related to the architecture domain."
+	"This is the list of work products related to the architecture domain.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
 INSERT INTO domains VALUES (
 	"_5JQLoK80Edy9cPK11VzBuQ",
 	"development_domain",
 	"Development",
-	"This is the list of work products related to the development domain."
+	"This is the list of work products related to the development domain.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
 INSERT INTO domains VALUES (
 	"_8M6J4K80Edy9cPK11VzBuQ",
 	"project_management_domain",
 	"Project Management",
-	"This is the list of work products related to the project management domain."
+	"This is the list of work products related to the project management domain.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
 INSERT INTO domains VALUES (
 	"_AIcLUK81Edy9cPK11VzBuQ",
 	"requirements_domain",
 	"Requirements",
-	"This is the list of work products related to the requirements domain."
+	"This is the list of work products related to the requirements domain.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
 INSERT INTO domains VALUES (
 	"_CsgDgK81Edy9cPK11VzBuQ",
 	"test_domain",
 	"Test",
-	"This is the list of work products related to the test domain."
+	"This is the list of work products related to the test domain.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
 INSERT INTO domains VALUES (
 	"_UtGCIKsREd-4oa5dU5v0Eg",
 	"brd_domains",
 	"Business Rules Development",
-	"This is the list of work products in business rules development organized by domains."
+	"This is the list of work products in business rules development organized by domains.",
+	"_PFU-AMVeEd2n6fDcl3UsZg"
 );
 
 INSERT INTO domains VALUES (
 	"_Fpj0ALrUEd-0rKmWr1vEGQ",
 	"environment_domain",
 	"Environment",
-	"This is the list of work products related to the Environment domain."
+	"This is the list of work products related to the Environment domain.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
 INSERT INTO domains VALUES (
 	"_fEIy4JoGEeGnJt_Qpwdfdg",
 	"deployment_domain",
 	"Deployment",
-	"This is the list of work products related to the deployment domain."
+	"This is the list of work products related to the deployment domain.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
 INSERT INTO domains VALUES (
 	"_fp7oAKRdEd2fX-RO52WAtA",
 	"architecture",
 	"Architecture",
-	"This is the list of work products related to BRMS architecture domain."
+	"This is the list of work products related to BRMS architecture domain.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
 INSERT INTO work_products VALUES (
@@ -316,9 +322,10 @@ INSERT INTO work_products VALUES (
 );
 INSERT INTO domains VALUES (
 	"_2GvlYJliEeGlkdGl1HQlDA",
-	"deployment_domain",
-	"Deployment",
-	"This is the list of work products related to the deployment domain."
+	"deployment_domain.assign",
+	"",
+	"This is the list of work products related to the Documentation and Training domain.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
 INSERT INTO work_products VALUES (
@@ -354,233 +361,271 @@ INSERT INTO disciplines VALUES (
 	"_qc9i0MhNEdygFZkm1d5NtQ",
 	"project_management_discipline",
 	"Project Management",
-	"This discipline explains how to coach, facilitate, and support the team, helping it to deal with risk and obstacles found when building software."
+	"This discipline explains how to coach, facilitate, and support the team, helping it to deal with risk and obstacles found when building software.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO disciplines VALUES (
 	"_EZo2gDIXEd-YE6CeBfCofg",
 	"environment_discipline",
 	"Environment",
-	"This discipline explains how to customize process and tools for a project or organization."
+	"This discipline explains how to customize process and tools for a project or organization.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO disciplines VALUES (
 	"_c0d6wMh3EdygFZkm1d5NtQ",
 	"project_management_discipline",
 	"Project Management",
-	"This discipline explains how to coach, facilitate, and support the team, helping it to deal with risk and obstacles found when building software."
+	"This discipline explains how to coach, facilitate, and support the team, helping it to deal with risk and obstacles found when building software.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO disciplines VALUES (
 	"__QJnsOxZEdyCFeiQwJE7Vg",
 	"project_management_discipline",
 	"Project Management",
-	"This discipline explains how to coach, facilitate, and support the team, helping it to deal with risk and obstacles found when building software."
+	"This discipline explains how to coach, facilitate, and support the team, helping it to deal with risk and obstacles found when building software.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO disciplines VALUES (
 	"_u8WxEKshEd-4oa5dU5v0Eg",
 	"brd_disciplines",
 	"Business Rules Development",
-	"This is a group of disciplines under business rules development."
+	"This is a group of disciplines under business rules development.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO disciplines VALUES (
 	"_1QK4gKshEd-4oa5dU5v0Eg",
 	"architecture",
 	"BRMS Architecture",
-	""
+	"",
+	"_PFU-AMVeEd2n6fDcl3UsZg"
 );
 INSERT INTO disciplines VALUES (
 	"_1QK4gashEd-4oa5dU5v0Eg",
 	"rule_analysis",
 	"Rule Analysis",
-	""
+	"",
+	"_PFU-AMVeEd2n6fDcl3UsZg"
 );
 INSERT INTO disciplines VALUES (
 	"_1QK4gqshEd-4oa5dU5v0Eg",
 	"rule_authoring",
 	"Rule Authoring",
-	""
+	"",
+	"_PFU-AMVeEd2n6fDcl3UsZg"
 );
 INSERT INTO disciplines VALUES (
 	"_1QK4g6shEd-4oa5dU5v0Eg",
 	"rule_deployment",
 	"Rule Deployment",
-	""
+	"",
+	"_PFU-AMVeEd2n6fDcl3UsZg"
 );
 INSERT INTO disciplines VALUES (
 	"__u-KMLRXEd-0GaneRZjjRw",
 	"rule_discovery",
 	"Rule Discovery",
-	""
+	"",
+	"_PFU-AMVeEd2n6fDcl3UsZg"
 );
 INSERT INTO disciplines VALUES (
 	"_iBsdQMubEdy1o5Xnqdh1Tg",
 	"test_discipline",
 	"Test",
-	"This discipline explains how to provide feedback about the maturing system by designing, implementing, running, and evaluating tests."
+	"This discipline explains how to provide feedback about the maturing system by designing, implementing, running, and evaluating tests.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO disciplines VALUES (
 	"_8c5BwNnVEdyNj6EOmqy5Rg",
 	"development_discipline",
 	"Development",
-	"This discipline explains how to design and implement a technical solution that conforms to the architecture and supports the requirements."
+	"This discipline explains how to design and implement a technical solution that conforms to the architecture and supports the requirements.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO disciplines VALUES (
 	"_pBQM0M2-Edym_ZFqrJcXUg",
 	"architecture_discipline",
 	"Architecture",
-	"This discipline explains how to create software architecture from architecturally significant requirements. The architecture is built in the Development discipline."
+	"This discipline explains how to create software architecture from architecturally significant requirements. The architecture is built in the Development discipline.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO disciplines VALUES (
 	"_6ByR0MueEdyRPtFYRAKVDg",
 	"development_discipline",
 	"Development",
-	"This discipline explains how to design and implement a technical solution that conforms to the architecture and supports the requirements."
+	"This discipline explains how to design and implement a technical solution that conforms to the architecture and supports the requirements.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO disciplines VALUES (
 	"_2a-s0MrmEdyd6uFrFHNXhA",
 	"requirements_discipline",
 	"Requirements",
-	"This discipline explains how to elicit, analyze, specify, validate, and manage the requirements for the system to be developed."
+	"This discipline explains how to elicit, analyze, specify, validate, and manage the requirements for the system to be developed.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO disciplines VALUES (
 	"_TCegMMuAEdyRPtFYRAKVDg",
 	"development_discipline",
 	"Development",
-	"This discipline explains how to design and implement a technical solution that conforms to the architecture and supports the requirements."
+	"This discipline explains how to design and implement a technical solution that conforms to the architecture and supports the requirements.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO disciplines VALUES (
 	"_gRTK0MrkEdyd6uFrFHNXhA",
 	"requirements_discipline",
 	"Requirements",
-	"This discipline explains how to elicit, analyze, specify, validate, and manage the requirements for the system to be developed."
+	"This discipline explains how to elicit, analyze, specify, validate, and manage the requirements for the system to be developed.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO disciplines VALUES (
 	"_IAGSsuB-EeC1y_NExchKwQ",
 	"to_delete_2",
 	"To Delete 2",
-	""
+	"",
+	"_PFU-AMVeEd2n6fDcl3UsZg"
 );
 INSERT INTO disciplines VALUES (
 	"_IAGSsOB-EeC1y_NExchKwQ",
 	"to_delete",
 	"To Delete",
-	""
+	"",
+	"_PFU-AMVeEd2n6fDcl3UsZg"
 );
 INSERT INTO disciplines VALUES (
 	"_yvumQJliEeGlkdGl1HQlDA",
 	"deployment_discipline",
 	"Deployment",
-	"This discipline explains how to plan for and deploy a solution."
+	"This discipline explains how to plan for and deploy a solution.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO disciplines VALUES (
 	"_jOXI4JoMEeGnJt_Qpwdfdg",
 	"deployment_discipline",
 	"Deployment",
-	"This discipline explains how to plan for and deploy a solution."
+	"This discipline explains how to plan for and deploy a solution.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
 INSERT INTO practices VALUES (
 	"_lFYasFImEd-S-5uzDh9e9Q",
 	"method_development",
 	"Method Development",
-	"This practice describes a method to develop method content."
+	"This practice describes a method to develop method content.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_LR_g4J9WEdy3Nc4rvuj7bA",
 	"iterative_development",
 	"Iterative Development",
-	"Create a solution in increments. Each increment is completed in a fixed period of time, an iteration."
+	"Create a solution in increments. Each increment is completed in a fixed period of time, an iteration.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_NOBsuiZLEd-QuZFPf_YdqQ",
 	"project_process_tailoring",
 	"Project Process Tailoring",
-	"This practice describes how to select tools and an appropriate process and perform the typical tailoring required for use on a specific project."
+	"This practice describes how to select tools and an appropriate process and perform the typical tailoring required for use on a specific project.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_ijFkcB4sEd2bS8fFOQ7WWA",
 	"release_planning",
 	"Release Planning",
-	"The Release Planning practice embodies the concept of high-level planning for the complete project scope (macro-) and low-level (micro-) planning for the immediate and next increments or iterations."
+	"The Release Planning practice embodies the concept of high-level planning for the complete project scope (macro-) and low-level (micro-) planning for the immediate and next increments or iterations.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_9FqrQB4sEd2bS8fFOQ7WWA",
 	"risk_value_lifecycle",
 	"Risk-Value Lifecycle",
-	"The risk-value lifecycle practice supplements the iterative development and release planning practices with the unified process lifecycle. This lifecycle identifies four phases, each of which attempts to balance value provided against risk mitigation appropriate to the phase."
+	"The risk-value lifecycle practice supplements the iterative development and release planning practices with the unified process lifecycle. This lifecycle identifies four phases, each of which attempts to balance value provided against risk mitigation appropriate to the phase.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_tz6tkB4uEd2bS8fFOQ7WWA",
 	"team_change_mgmt",
 	"Team Change Management",
-	"This is a practice for capturing change requests that are managed as part of work item management."
+	"This is a practice for capturing change requests that are managed as part of work item management.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_6C4sMB4rEd2bS8fFOQ7WWA",
 	"whole_team",
 	"Whole Team",
-	"The Whole Team practice describes how a development team organizes itself to enable it to work effectively."
+	"The Whole Team practice describes how a development team organizes itself to enable it to work effectively.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_MuX6YKcnEd-VK6zqjMaiPQ",
 	"abrd",
 	"Agile Business Rule Development",
-	"Agile Business Rule Development is a practice to implement business application using business rule management system and rule engine technology."
+	"Agile Business Rule Development is a practice to implement business application using business rule management system and rule engine technology.",
+	"_PFU-AMVeEd2n6fDcl3UsZg"
 );
 INSERT INTO practices VALUES (
 	"_9z1PgJ6NEdyQN-zRFaRrCQ",
 	"concurrent_testing",
 	"Concurrent Testing",
-	"This practice describes how to fold testing into agile development."
+	"This practice describes how to fold testing into agile development.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_rJNiMB4rEd2bS8fFOQ7WWA",
 	"continous_integration",
 	"Continuous Integration",
-	"In a Continuous Integration practice, team members integrate their work frequently (at least daily)."
+	"In a Continuous Integration practice, team members integrate their work frequently (at least daily).",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_uVnpQB4qEd2bS8fFOQ7WWA",
 	"evolutionary_arch",
 	"Evolutionary Architecture",
-	"Analyze the major technical concerns that affect the solution, and capture those architectural decisions to ensure that those decisions are assessed and communicated."
+	"Analyze the major technical concerns that affect the solution, and capture those architectural decisions to ensure that those decisions are assessed and communicated.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_aSVhIB4qEd2bS8fFOQ7WWA",
 	"evolutionary_design",
 	"Evolutionary Design",
-	"This practice describes an approach to design that assumes that the design will evolve over time, minimizing documentation while still providing guidance for making design decisions and communicating those decisions."
+	"This practice describes an approach to design that assumes that the design will evolve over time, minimizing documentation while still providing guidance for making design decisions and communicating those decisions.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_a7qSUB4nEd2bS8fFOQ7WWA",
 	"shared_vision",
 	"Shared Vision",
-	"This practice supports defining and communicating an overall vision for the project."
+	"This practice supports defining and communicating an overall vision for the project.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_FUDtMB4mEd2bS8fFOQ7WWA",
 	"test_driven_dev",
 	"Test Driven Development",
-	"This practice describes an approach to development in which test cases are defined first, then code is developed to pass the tests."
+	"This practice describes an approach to development in which test cases are defined first, then code is developed to pass the tests.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_w1JD4B4jEd2bS8fFOQ7WWA",
 	"use_case_driven_dev_practice",
 	"Use Case Driven Development",
-	"This practice describes how to capture requirements with a combination of use cases and system-wide requirements, and then drive development and testing from those use cases."
+	"This practice describes how to capture requirements with a combination of use cases and system-wide requirements, and then drive development and testing from those use cases.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_-zdZceB8EeC1y_NExchKwQ",
 	"documentation_and_training",
 	"Documentation and Training",
-	"This practice describes how to prepare documentation for a product release and how that documentation might be used to prepare and deliver training to end users and support personnel."
+	"This practice describes how to prepare documentation for a product release and how that documentation might be used to prepare and deliver training to end users and support personnel.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 INSERT INTO practices VALUES (
 	"_IAG5wOB-EeC1y_NExchKwQ",
 	"production_release",
 	"Production Release",
-	"This practice describes how to prepare and execute the release of a product (or subset thereof) into the production environment."
+	"This practice describes how to prepare and execute the release of a product (or subset thereof) into the production environment.",
+	"_QN3nQBEHEdyM7Iu0sxfrPA"
 );
 
-INSERT INTO delivery_processes VALUES (
+INSERT INTO processes VALUES (
 	"_SuWj4dOPEdyqlogshP8l4g",
 	"openup_lifecycle",
 	"OpenUP Lifecycle",
@@ -621,8 +666,12 @@ INSERT INTO tasks VALUES (
 	"develop_technical_vision",
 	"Develop Technical Vision",
 	"Define the vision for the future system. Describe the problem and features based on stakeholder requests.",
-	"_nfpeAdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_nfpeAdOOEdyqlogshP8l4g",
+	"_sopKYNOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -872,8 +921,12 @@ INSERT INTO tasks VALUES (
 	"plan_the_project",
 	"Plan Project",
 	"A collaborative task that outlines an initial agreement on how the project will achieve its goals. The resulting project plan provides a summary-level overview of the project.",
-	"_nfpeAdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_nfpeAdOOEdyqlogshP8l4g",
+	"_t7pDUNOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -1072,8 +1125,12 @@ INSERT INTO tasks VALUES (
 	"plan_iteration",
 	"Plan Iteration",
 	"Plan the scope and responsibilities for a single iteration.",
-	"_uxDPEdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_uxDPEdOOEdyqlogshP8l4g",
+	"_y05RQNOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -1362,8 +1419,12 @@ INSERT INTO tasks VALUES (
 	"manage_iteration",
 	"Manage Iteration",
 	"Assess project status and identify any blocking issues and opportunities. Identify and manage exceptions, problems, and risks. Communicate project status.",
-	"_uxDPEdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_uxDPEdOOEdyqlogshP8l4g",
+	"_zjF0ANOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -1642,8 +1703,12 @@ INSERT INTO tasks VALUES (
 	"assess_results",
 	"Assess Results",
 	"Determine success or failure of the iteration. Apply the lessons learned to modify the project or improve the process.",
-	"_uxDPEdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_uxDPEdOOEdyqlogshP8l4g",
+	"_0Qiv4NOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -1826,8 +1891,12 @@ INSERT INTO tasks VALUES (
 	"identify_and_outline_requirements",
 	"Identify and Outline Requirements",
 	"This task describes how to identify and outline the requirements for the system so that the scope of work can be determined.",
-	"_vyeP0dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_vyeP0dOOEdyqlogshP8l4g",
+	"_EOm5oNOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -2121,8 +2190,12 @@ INSERT INTO tasks VALUES (
 	"detail_use_case_scenarios",
 	"Detail Use-Case Scenarios",
 	"This task describes how to detail a use-case scenarios for the system.",
-	"_vyeP0dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_vyeP0dOOEdyqlogshP8l4g",
+	"_FX7SINOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -2233,8 +2306,12 @@ INSERT INTO tasks VALUES (
 	"detail_system_wide_requirements",
 	"Detail System-Wide Requirements",
 	"This task details one or more requirement that does not apply to a specific use case.",
-	"_vyeP0dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_vyeP0dOOEdyqlogshP8l4g",
+	"_F68foNOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -2342,8 +2419,12 @@ INSERT INTO tasks VALUES (
 	"create_test_cases",
 	"Create Test Cases",
 	"Develop the test cases and test data for the requirements to be tested.",
-	"_vyeP0dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_vyeP0dOOEdyqlogshP8l4g",
+	"_HDOWUNOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -2517,8 +2598,12 @@ INSERT INTO tasks VALUES (
 	"envision_the_arch",
 	"Envision the Architecture",
 	"This task is where the \"vision\" for the architecture is developed through analysis of the architecturally significant requirements and identification of architectural constraints, decisions and objectives.",
-	"_w-Bc8dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_w-Bc8dOOEdyqlogshP8l4g",
+	"_sjccUN_1EdyOsumnGvWsEg"
 );
 
 INSERT INTO sections VALUES (
@@ -2888,8 +2973,12 @@ INSERT INTO tasks VALUES (
 	"plan_iteration",
 	"Plan Iteration",
 	"Plan the scope and responsibilities for a single iteration.",
-	"_XayTQdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_XayTQdOOEdyqlogshP8l4g",
+	"_y05RQNOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -3178,8 +3267,12 @@ INSERT INTO tasks VALUES (
 	"manage_iteration",
 	"Manage Iteration",
 	"Assess project status and identify any blocking issues and opportunities. Identify and manage exceptions, problems, and risks. Communicate project status.",
-	"_XayTQdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_XayTQdOOEdyqlogshP8l4g",
+	"_zjF0ANOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -3458,8 +3551,12 @@ INSERT INTO tasks VALUES (
 	"assess_results",
 	"Assess Results",
 	"Determine success or failure of the iteration. Apply the lessons learned to modify the project or improve the process.",
-	"_XayTQdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_XayTQdOOEdyqlogshP8l4g",
+	"_0Qiv4NOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -3642,8 +3739,12 @@ INSERT INTO tasks VALUES (
 	"identify_and_outline_requirements",
 	"Identify and Outline Requirements",
 	"This task describes how to identify and outline the requirements for the system so that the scope of work can be determined.",
-	"_YwLY4dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_YwLY4dOOEdyqlogshP8l4g",
+	"_EOm5oNOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -3937,8 +4038,12 @@ INSERT INTO tasks VALUES (
 	"detail_use_case_scenarios",
 	"Detail Use-Case Scenarios",
 	"This task describes how to detail a use-case scenarios for the system.",
-	"_YwLY4dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_YwLY4dOOEdyqlogshP8l4g",
+	"_FX7SINOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -4049,8 +4154,12 @@ INSERT INTO tasks VALUES (
 	"detail_system_wide_requirements",
 	"Detail System-Wide Requirements",
 	"This task details one or more requirement that does not apply to a specific use case.",
-	"_YwLY4dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_YwLY4dOOEdyqlogshP8l4g",
+	"_F68foNOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -4158,8 +4267,12 @@ INSERT INTO tasks VALUES (
 	"create_test_cases",
 	"Create Test Cases",
 	"Develop the test cases and test data for the requirements to be tested.",
-	"_YwLY4dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_YwLY4dOOEdyqlogshP8l4g",
+	"_HDOWUNOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -4333,8 +4446,12 @@ INSERT INTO tasks VALUES (
 	"refine_the_arch",
 	"Refine the Architecture",
 	"Refine the architecture to an appropriate level of detail to support development.",
-	"_aSrtcdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_aSrtcdOOEdyqlogshP8l4g",
+	"_6RuKMN_1EdyOsumnGvWsEg"
 );
 
 INSERT INTO sections VALUES (
@@ -4629,8 +4746,12 @@ INSERT INTO tasks VALUES (
 	"design_solution",
 	"Design the Solution",
 	"Identify the elements and devise the interactions, behavior, relations, and data necessary to realize some functionality.",
-	"_eyv_UdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_eyv_UdOOEdyqlogshP8l4g",
+	"_frOcQNOKEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -4943,8 +5064,12 @@ INSERT INTO tasks VALUES (
 	"implement_developer_tests",
 	"Implement Developer Tests",
 	"Implement one or more tests that enable the validation of the individual implementation elements through execution.",
-	"_eyv_UdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_eyv_UdOOEdyqlogshP8l4g",
+	"_gXo2UNOKEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -5118,8 +5243,12 @@ INSERT INTO tasks VALUES (
 	"implement_solution",
 	"Implement Solution",
 	"Implement source code to provide new functionality or fix defects.",
-	"_eyv_UdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_eyv_UdOOEdyqlogshP8l4g",
+	"_hVe-oNOKEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -5356,8 +5485,12 @@ INSERT INTO tasks VALUES (
 	"run_developer_tests",
 	"Run Developer Tests",
 	"Run tests against the individual implementation elements to verify that their internal structures work as specified.",
-	"_eyv_UdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_eyv_UdOOEdyqlogshP8l4g",
+	"_iRZNQNOKEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -5473,8 +5606,12 @@ INSERT INTO tasks VALUES (
 	"integrate_and_create_build",
 	"Integrate and Create Build",
 	"This task describes how to integrate all changes made by developers into the code base and perform the minimal testing to validate the build.",
-	"_eyv_UdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_eyv_UdOOEdyqlogshP8l4g",
+	"_Dlo8wNo8EdyzZqGyZ7hwdw"
 );
 
 INSERT INTO sections VALUES (
@@ -5640,8 +5777,12 @@ INSERT INTO tasks VALUES (
 	"implement_tests",
 	"Implement Tests",
 	"Implement Test Scripts to validate a Build of the solution. Organize Test Scripts into suites, and collaborate to ensure appropriate depth and breadth of test feedback.",
-	"_f4VuYdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_f4VuYdOOEdyqlogshP8l4g",
+	"_Viv68NOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -5861,8 +6002,12 @@ INSERT INTO tasks VALUES (
 	"run_tests",
 	"Run Tests",
 	"Run the appropriate tests scripts, analyze results, articulate issues, and communicate test results to the team.",
-	"_f4VuYdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_f4VuYdOOEdyqlogshP8l4g",
+	"_WttSMNOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -6050,8 +6195,12 @@ INSERT INTO tasks VALUES (
 	"request_change",
 	"Request Change",
 	"Capture and record change requests.",
-	"_g8cPsdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_g8cPsdOOEdyqlogshP8l4g",
+	"_HGqkMNnTEdyNj6EOmqy5Rg"
 );
 
 INSERT INTO sections VALUES (
@@ -6145,8 +6294,12 @@ INSERT INTO tasks VALUES (
 	"plan_iteration",
 	"Plan Iteration",
 	"Plan the scope and responsibilities for a single iteration.",
-	"_3s7aYdONEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_3s7aYdONEdyqlogshP8l4g",
+	"_y05RQNOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -6435,8 +6588,12 @@ INSERT INTO tasks VALUES (
 	"manage_iteration",
 	"Manage Iteration",
 	"Assess project status and identify any blocking issues and opportunities. Identify and manage exceptions, problems, and risks. Communicate project status.",
-	"_3s7aYdONEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_3s7aYdONEdyqlogshP8l4g",
+	"_zjF0ANOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -6715,8 +6872,12 @@ INSERT INTO tasks VALUES (
 	"assess_results",
 	"Assess Results",
 	"Determine success or failure of the iteration. Apply the lessons learned to modify the project or improve the process.",
-	"_3s7aYdONEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_3s7aYdONEdyqlogshP8l4g",
+	"_0Qiv4NOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -6899,8 +7060,12 @@ INSERT INTO tasks VALUES (
 	"identify_and_outline_requirements",
 	"Identify and Outline Requirements",
 	"This task describes how to identify and outline the requirements for the system so that the scope of work can be determined.",
-	"_yw_dcZlVEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_yw_dcZlVEeGlkdGl1HQlDA",
+	"_EOm5oNOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -7194,8 +7359,12 @@ INSERT INTO tasks VALUES (
 	"detail_use_case_scenarios",
 	"Detail Use-Case Scenarios",
 	"This task describes how to detail a use-case scenarios for the system.",
-	"_yw_dcZlVEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_yw_dcZlVEeGlkdGl1HQlDA",
+	"_FX7SINOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -7306,8 +7475,12 @@ INSERT INTO tasks VALUES (
 	"detail_system_wide_requirements",
 	"Detail System-Wide Requirements",
 	"This task details one or more requirement that does not apply to a specific use case.",
-	"_yw_dcZlVEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_yw_dcZlVEeGlkdGl1HQlDA",
+	"_F68foNOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -7415,8 +7588,12 @@ INSERT INTO tasks VALUES (
 	"create_test_cases",
 	"Create Test Cases",
 	"Develop the test cases and test data for the requirements to be tested.",
-	"_yw_dcZlVEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_yw_dcZlVEeGlkdGl1HQlDA",
+	"_HDOWUNOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -7590,8 +7767,12 @@ INSERT INTO tasks VALUES (
 	"design_solution",
 	"Design the Solution",
 	"Identify the elements and devise the interactions, behavior, relations, and data necessary to realize some functionality.",
-	"_CqFrgdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_CqFrgdOOEdyqlogshP8l4g",
+	"_frOcQNOKEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -7904,8 +8085,12 @@ INSERT INTO tasks VALUES (
 	"implement_developer_tests",
 	"Implement Developer Tests",
 	"Implement one or more tests that enable the validation of the individual implementation elements through execution.",
-	"_CqFrgdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_CqFrgdOOEdyqlogshP8l4g",
+	"_gXo2UNOKEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -8079,8 +8264,12 @@ INSERT INTO tasks VALUES (
 	"implement_solution",
 	"Implement Solution",
 	"Implement source code to provide new functionality or fix defects.",
-	"_CqFrgdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_CqFrgdOOEdyqlogshP8l4g",
+	"_hVe-oNOKEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -8317,8 +8506,12 @@ INSERT INTO tasks VALUES (
 	"run_developer_tests",
 	"Run Developer Tests",
 	"Run tests against the individual implementation elements to verify that their internal structures work as specified.",
-	"_CqFrgdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_CqFrgdOOEdyqlogshP8l4g",
+	"_iRZNQNOKEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -8434,8 +8627,12 @@ INSERT INTO tasks VALUES (
 	"integrate_and_create_build",
 	"Integrate and Create Build",
 	"This task describes how to integrate all changes made by developers into the code base and perform the minimal testing to validate the build.",
-	"_CqFrgdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_CqFrgdOOEdyqlogshP8l4g",
+	"_Dlo8wNo8EdyzZqGyZ7hwdw"
 );
 
 INSERT INTO sections VALUES (
@@ -8601,8 +8798,12 @@ INSERT INTO tasks VALUES (
 	"implement_tests",
 	"Implement Tests",
 	"Implement Test Scripts to validate a Build of the solution. Organize Test Scripts into suites, and collaborate to ensure appropriate depth and breadth of test feedback.",
-	"_HhjJsdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_HhjJsdOOEdyqlogshP8l4g",
+	"_Viv68NOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -8822,8 +9023,12 @@ INSERT INTO tasks VALUES (
 	"run_tests",
 	"Run Tests",
 	"Run the appropriate tests scripts, analyze results, articulate issues, and communicate test results to the team.",
-	"_HhjJsdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_HhjJsdOOEdyqlogshP8l4g",
+	"_WttSMNOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -9011,8 +9216,12 @@ INSERT INTO tasks VALUES (
 	"request_change",
 	"Request Change",
 	"Capture and record change requests.",
-	"_GQejYdOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_GQejYdOOEdyqlogshP8l4g",
+	"_HGqkMNnTEdyNj6EOmqy5Rg"
 );
 
 INSERT INTO sections VALUES (
@@ -9078,8 +9287,12 @@ INSERT INTO tasks VALUES (
 	"develop_product_documentation",
 	"Develop Product Documentation",
 	"Because product documentation continues to be used after a development effort ends, it is important to ensure that the features developed within a particular release are clearly documented while the functionality is still fresh in the minds of team members.",
-	"_8--9sZigEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_8--9sZigEeGlkdGl1HQlDA",
+	"_y7kklJiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -9195,8 +9408,12 @@ INSERT INTO tasks VALUES (
 	"develop_user_documentation",
 	"Develop User Documentation",
 	"User documentation must be developed and maintained for each Release so that the product's End Users will know how to operate the system effectively.",
-	"_8--9sZigEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_8--9sZigEeGlkdGl1HQlDA",
+	"_y7kkkpiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -9379,8 +9596,12 @@ INSERT INTO tasks VALUES (
 	"develop_support_documentation",
 	"Develop Support Documentation",
 	"This type of documentation is used by production support and IT operations personnel on a regular basis to answer End Users' questions about a particular product, to troubleshoot issues, or to determine if an incident is a result of a defect or missed requirements.",
-	"_8--9sZigEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_8--9sZigEeGlkdGl1HQlDA",
+	"_y7kkkJiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -9543,8 +9764,12 @@ INSERT INTO tasks VALUES (
 	"develop_training_materials",
 	"Develop Training Materials",
 	"This task is used to develop quality audio/visual materials that can be used to train End Users and IT production support personnel.",
-	"_8--9sZigEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_8--9sZigEeGlkdGl1HQlDA",
+	"_ofI9sJlWEeGlkdGl1HQlDA"
 );
 
 INSERT INTO sections VALUES (
@@ -9759,8 +9984,12 @@ INSERT INTO tasks VALUES (
 	"plan_iteration",
 	"Plan Iteration",
 	"Plan the scope and responsibilities for a single iteration.",
-	"_5v_o4dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_5v_o4dOOEdyqlogshP8l4g",
+	"_y05RQNOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -10049,8 +10278,12 @@ INSERT INTO tasks VALUES (
 	"manage_iteration",
 	"Manage Iteration",
 	"Assess project status and identify any blocking issues and opportunities. Identify and manage exceptions, problems, and risks. Communicate project status.",
-	"_5v_o4dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_5v_o4dOOEdyqlogshP8l4g",
+	"_zjF0ANOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -10329,8 +10562,12 @@ INSERT INTO tasks VALUES (
 	"assess_results",
 	"Assess Results",
 	"Determine success or failure of the iteration. Apply the lessons learned to modify the project or improve the process.",
-	"_5v_o4dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_5v_o4dOOEdyqlogshP8l4g",
+	"_0Qiv4NOJEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -10513,8 +10750,12 @@ INSERT INTO tasks VALUES (
 	"design_solution",
 	"Design the Solution",
 	"Identify the elements and devise the interactions, behavior, relations, and data necessary to realize some functionality.",
-	"_-iix4dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_-iix4dOOEdyqlogshP8l4g",
+	"_frOcQNOKEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -10827,8 +11068,12 @@ INSERT INTO tasks VALUES (
 	"implement_developer_tests",
 	"Implement Developer Tests",
 	"Implement one or more tests that enable the validation of the individual implementation elements through execution.",
-	"_-iix4dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_-iix4dOOEdyqlogshP8l4g",
+	"_gXo2UNOKEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -11002,8 +11247,12 @@ INSERT INTO tasks VALUES (
 	"implement_solution",
 	"Implement Solution",
 	"Implement source code to provide new functionality or fix defects.",
-	"_-iix4dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_-iix4dOOEdyqlogshP8l4g",
+	"_hVe-oNOKEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -11240,8 +11489,12 @@ INSERT INTO tasks VALUES (
 	"run_developer_tests",
 	"Run Developer Tests",
 	"Run tests against the individual implementation elements to verify that their internal structures work as specified.",
-	"_-iix4dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_-iix4dOOEdyqlogshP8l4g",
+	"_iRZNQNOKEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -11357,8 +11610,12 @@ INSERT INTO tasks VALUES (
 	"integrate_and_create_build",
 	"Integrate and Create Build",
 	"This task describes how to integrate all changes made by developers into the code base and perform the minimal testing to validate the build.",
-	"_-iix4dOOEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_-iix4dOOEdyqlogshP8l4g",
+	"_Dlo8wNo8EdyzZqGyZ7hwdw"
 );
 
 INSERT INTO sections VALUES (
@@ -11524,8 +11781,12 @@ INSERT INTO tasks VALUES (
 	"implement_tests",
 	"Implement Tests",
 	"Implement Test Scripts to validate a Build of the solution. Organize Test Scripts into suites, and collaborate to ensure appropriate depth and breadth of test feedback.",
-	"_AZ58IdOPEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_AZ58IdOPEdyqlogshP8l4g",
+	"_Viv68NOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -11745,8 +12006,12 @@ INSERT INTO tasks VALUES (
 	"run_tests",
 	"Run Tests",
 	"Run the appropriate tests scripts, analyze results, articulate issues, and communicate test results to the team.",
-	"_AZ58IdOPEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_AZ58IdOPEdyqlogshP8l4g",
+	"_WttSMNOLEdyqlogshP8l4g"
 );
 
 INSERT INTO sections VALUES (
@@ -11934,8 +12199,12 @@ INSERT INTO tasks VALUES (
 	"develop_product_documentation",
 	"Develop Product Documentation",
 	"Because product documentation continues to be used after a development effort ends, it is important to ensure that the features developed within a particular release are clearly documented while the functionality is still fresh in the minds of team members.",
-	"_ybaHoZlYEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_ybaHoZlYEeGlkdGl1HQlDA",
+	"_y7kklJiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -12051,8 +12320,12 @@ INSERT INTO tasks VALUES (
 	"develop_user_documentation",
 	"Develop User Documentation",
 	"User documentation must be developed and maintained for each Release so that the product's End Users will know how to operate the system effectively.",
-	"_ybaHoZlYEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_ybaHoZlYEeGlkdGl1HQlDA",
+	"_y7kkkpiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -12235,8 +12508,12 @@ INSERT INTO tasks VALUES (
 	"develop_support_documentation",
 	"Develop Support Documentation",
 	"This type of documentation is used by production support and IT operations personnel on a regular basis to answer End Users' questions about a particular product, to troubleshoot issues, or to determine if an incident is a result of a defect or missed requirements.",
-	"_ybaHoZlYEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_ybaHoZlYEeGlkdGl1HQlDA",
+	"_y7kkkJiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -12399,8 +12676,12 @@ INSERT INTO tasks VALUES (
 	"develop_training_materials",
 	"Develop Training Materials",
 	"This task is used to develop quality audio/visual materials that can be used to train End Users and IT production support personnel.",
-	"_ybaHoZlYEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_ybaHoZlYEeGlkdGl1HQlDA",
+	"_ofI9sJlWEeGlkdGl1HQlDA"
 );
 
 INSERT INTO sections VALUES (
@@ -12587,8 +12868,12 @@ INSERT INTO tasks VALUES (
 	"review_conform_to_release_controls",
 	"Review and Conform to Release Controls",
 	"Release controls normally are specified by the Deployment Manager. These controls document the requirements to which all releases must conform before being placed into the production environment.",
-	"_qRAugZlXEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_qRAugZlXEeGlkdGl1HQlDA",
+	"_y7az_piLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -12658,8 +12943,12 @@ INSERT INTO tasks VALUES (
 	"install_validate_infrastructure",
 	"Install and Validate Infrastructure",
 	"Any infrastructure components needed to support a release must be procured, installed, and tested.",
-	"_qRAugZlXEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_qRAugZlXEeGlkdGl1HQlDA",
+	"_y7a0ApiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -12777,8 +13066,12 @@ INSERT INTO tasks VALUES (
 	"develop_backout_plan",
 	"Develop Backout Plan",
 	"This task results in a plan to be used by the production support organization to roll back the release if there is a problem during or after deployment.",
-	"_qRAugZlXEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_qRAugZlXEeGlkdGl1HQlDA",
+	"_y7az-5iLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -12850,8 +13143,12 @@ INSERT INTO tasks VALUES (
 	"develop_release_communications",
 	"Develop Release Communications",
 	"Stakeholders should be notified when a product (or feature set) is placed into production.",
-	"_qRAugZlXEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_qRAugZlXEeGlkdGl1HQlDA",
+	"_y7a0AJiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -12952,8 +13249,12 @@ INSERT INTO tasks VALUES (
 	"deliver_end_user_training",
 	"Deliver End User Training",
 	"In most cases, End Users of a system require training to use the application effectively.",
-	"_tcRJkZlXEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_tcRJkZlXEeGlkdGl1HQlDA",
+	"_y7az8ZiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -13027,8 +13328,12 @@ INSERT INTO tasks VALUES (
 	"deliver_support_training",
 	"Deliver Support Training",
 	"Personnel who support an application need training so they can perform their jobs effectively.",
-	"_tcRJkZlXEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_tcRJkZlXEeGlkdGl1HQlDA",
+	"_y7az7piLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -13115,8 +13420,12 @@ INSERT INTO tasks VALUES (
 	"request_change",
 	"Request Change",
 	"Capture and record change requests.",
-	"_CoJVUdOPEdyqlogshP8l4g",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_CoJVUdOPEdyqlogshP8l4g",
+	"_HGqkMNnTEdyNj6EOmqy5Rg"
 );
 
 INSERT INTO sections VALUES (
@@ -13182,8 +13491,12 @@ INSERT INTO tasks VALUES (
 	"package_the_release",
 	"Package the Release",
 	"Each release should be built and packaged in a standard, controlled, and repeatable manner.",
-	"_sL8xMZlXEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_sL8xMZlXEeGlkdGl1HQlDA",
+	"_y7a0GJiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -13300,8 +13613,12 @@ INSERT INTO tasks VALUES (
 	"execute_deployment_plan",
 	"Execute Deployment Plan",
 	"The Deployment Plan has all the unique instructions necessary to roll out a release.",
-	"_sL8xMZlXEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_sL8xMZlXEeGlkdGl1HQlDA",
+	"_y7a0IJiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -13334,8 +13651,12 @@ INSERT INTO tasks VALUES (
 	"verify_successful_deployment",
 	"Verify Successful Deployment",
 	"Determine whether the rollout of a particular release into production has been successful or not.",
-	"_sL8xMZlXEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_sL8xMZlXEeGlkdGl1HQlDA",
+	"_y7a0KZiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -13372,8 +13693,12 @@ INSERT INTO tasks VALUES (
 	"execute_backout_plan",
 	"Execute Backout Plan (if necessary)",
 	"If a particular release into production goes wrong, the plan for cleanly reversing that deployment is executed.",
-	"_sL8xMZlXEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_sL8xMZlXEeGlkdGl1HQlDA",
+	"_y7a0HZiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (
@@ -13427,8 +13752,12 @@ INSERT INTO tasks VALUES (
 	"deliver_release_communications",
 	"Deliver Release Communications",
 	"After a product release has been declared a success and is available for use, all relevant stakeholders should receive a communique stating that fact.",
-	"_sL8xMZlXEeGlkdGl1HQlDA",
 	NULL
+);
+
+INSERT INTO activity_tasks VALUES (
+	"_sL8xMZlXEeGlkdGl1HQlDA",
+	"_y7a0JZiLEeGOvpP1fVrVNA"
 );
 
 INSERT INTO sections VALUES (

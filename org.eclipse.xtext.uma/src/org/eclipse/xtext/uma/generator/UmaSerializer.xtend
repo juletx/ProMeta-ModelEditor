@@ -46,7 +46,7 @@ class UmaSerializer extends AbstractGenerator {
 	}
 	
 	def Iterable<MethodConfiguration> getMethodConfigurations(Resource input) {
-		return input.allContents.toIterable.filter(MethodConfiguration)
+		return input.allContents.toIterable.filter(MethodConfiguration).reject[name=="all_epf_practices"]
 	}
 	
 	def Iterable<RoleSet> getRoleSets(Resource input) {
@@ -107,7 +107,7 @@ class UmaSerializer extends AbstractGenerator {
 	
 	def compile(Resource input) '''
 		«FOR methodConfiguration: input.getMethodConfigurations»
-		INSERT INTO method_configurations VALUES (
+		INSERT INTO methodologies VALUES (
 			"«methodConfiguration.guid»",
 			"«methodConfiguration.name»",
 			"«methodConfiguration.presentationName»",
@@ -121,7 +121,12 @@ class UmaSerializer extends AbstractGenerator {
 			"«roleSet.guid»",
 			"«roleSet.name»",
 			"«roleSet.presentationName»",
-			"«roleSet.briefDescription»"
+			"«roleSet.briefDescription»",
+			«IF roleSet.name == "brd_role_set"»
+			"_PFU-AMVeEd2n6fDcl3UsZg"
+			«ELSE»
+			"_QN3nQBEHEdyM7Iu0sxfrPA"
+			«ENDIF»
 		);
 		
 		«FOR role: roleSet.getRoles» 
@@ -142,7 +147,12 @@ class UmaSerializer extends AbstractGenerator {
 			"«domain.guid»",
 			"«domain.name»",
 			"«domain.presentationName»",
-			"«domain.briefDescription.replaceAll("\"","\\\\\"")»"
+			"«domain.briefDescription.replaceAll("\"","\\\\\"")»",
+			«IF domain.briefDescription.isEmpty || domain.name == "brd_domains"»
+			"_PFU-AMVeEd2n6fDcl3UsZg"
+			«ELSE»
+			"_QN3nQBEHEdyM7Iu0sxfrPA"
+			«ENDIF»
 		);
 		
 		«FOR workProduct: domain.workProducts»
@@ -161,7 +171,12 @@ class UmaSerializer extends AbstractGenerator {
 			"«discipline.guid»",
 			"«discipline.variabilityBasedOnElement.name»",
 			"«discipline.variabilityBasedOnElement.presentationName»",
-			"«discipline.variabilityBasedOnElement.briefDescription.replaceAll("\"","\\\\\"")»"
+			"«discipline.variabilityBasedOnElement.briefDescription.replaceAll("\"","\\\\\"")»",
+			«IF discipline.variabilityBasedOnElement.briefDescription.isEmpty || discipline.name == "brd_disciplines"»
+			"_PFU-AMVeEd2n6fDcl3UsZg"
+			«ELSE»
+			"_QN3nQBEHEdyM7Iu0sxfrPA"
+			«ENDIF»
 		);
 		«ENDFOR»
 		
@@ -170,12 +185,17 @@ class UmaSerializer extends AbstractGenerator {
 			"«practice.guid»",
 			"«practice.name»",
 			"«practice.presentationName»",
-			"«practice.briefDescription.replaceAll("\"","\\\\\"")»"
+			"«practice.briefDescription.replaceAll("\"","\\\\\"")»",
+			«IF practice.name == "abrd"»
+			"_PFU-AMVeEd2n6fDcl3UsZg"
+			«ELSE»
+			"_QN3nQBEHEdyM7Iu0sxfrPA"
+			«ENDIF»
 		);
 		«ENDFOR»
 		
 		«FOR deliveryProcess: input.deliveryProcesses»
-		INSERT INTO delivery_processes VALUES (
+		INSERT INTO processes VALUES (
 			"«deliveryProcess.guid»",
 			"«deliveryProcess.name»",
 			"«deliveryProcess.presentationName»",
@@ -220,8 +240,12 @@ class UmaSerializer extends AbstractGenerator {
 			"«taskDescriptor.name»",
 			"«taskDescriptor.presentationName»",
 			"«taskDescriptor.briefDescription.replaceAll("\"","\\\\\"")»",
-			"«activity.guid»",
 			NULL
+		);
+		
+		INSERT INTO activity_tasks VALUES (
+			"«activity.guid»",
+			"«taskDescriptor.guid»"
 		);
 		
 		«FOR section: taskDescriptor.selectedSteps»
