@@ -3,27 +3,30 @@ package org.eclipse.xtext.uma.generator
 import org.eclipse.emf.common.util.URI
 import org.eclipse.emf.ecore.resource.Resource
 import org.eclipse.epf.uma.Activity
+import org.eclipse.epf.uma.Artifact
 import org.eclipse.epf.uma.CapabilityPattern
+import org.eclipse.epf.uma.Deliverable
 import org.eclipse.epf.uma.DeliveryProcess
+import org.eclipse.epf.uma.Discipline
 import org.eclipse.epf.uma.Domain
+import org.eclipse.epf.uma.GuidanceDescription
 import org.eclipse.epf.uma.Iteration
 import org.eclipse.epf.uma.MethodConfiguration
 import org.eclipse.epf.uma.MethodLibrary
 import org.eclipse.epf.uma.Phase
+import org.eclipse.epf.uma.Practice
 import org.eclipse.epf.uma.Role
 import org.eclipse.epf.uma.RoleSet
+import org.eclipse.epf.uma.Section
+import org.eclipse.epf.uma.Task
 import org.eclipse.epf.uma.TaskDescriptor
-import org.eclipse.epf.uma.WorkProductDescriptor
+import org.eclipse.epf.uma.Template
 import org.eclipse.xtext.generator.AbstractGenerator
 import org.eclipse.xtext.generator.IFileSystemAccess2
 import org.eclipse.xtext.generator.IGeneratorContext
 import org.eclipse.xtext.resource.XtextResourceSet
 
 import static extension org.eclipse.emf.common.util.URI.createPlatformResourceURI
-import org.eclipse.epf.uma.Discipline
-import org.eclipse.epf.uma.Practice
-import org.eclipse.epf.uma.ContentPackage
-import org.eclipse.emf.ecore.EObject
 
 class UmaSerializer extends AbstractGenerator {
 
@@ -57,8 +60,12 @@ class UmaSerializer extends AbstractGenerator {
 		return roleSet.roles.reject[presentationName.isEmpty]
 	}
 	
+	def Iterable<Role> getRoles(Resource input) {
+		return input.allContents.toIterable.filter(Role).reject[responsibleFor.isEmpty]
+	}
+	
 	def Iterable<DeliveryProcess> getDeliveryProcesses(Resource input) {
-		return input.allContents.toIterable.filter(DeliveryProcess).reject[name=="abrd_governance" || name=="abrd_process" || name=="openUp_abrd"]
+		return input.allContents.toIterable.filter(DeliveryProcess)
 	}
 	
 	def Iterable<Phase> getPhases(Resource input) {
@@ -66,25 +73,41 @@ class UmaSerializer extends AbstractGenerator {
 	}
 	
 	def Iterable<Domain> getDomains(Resource input) {
-		return input.allContents.toIterable.filter(Domain).reject[briefDescription.isEmpty]
+		return input.allContents.toIterable.filter(Domain).filter[equals(variabilityBasedOnElement)]
 	}
 	
 	def Iterable<Discipline> getDisciplines(Resource input) {
-		return input.allContents.toIterable.filter(Discipline).filter[briefDescription.isEmpty]
+		return input.allContents.toIterable.filter(Discipline).filter[equals(variabilityBasedOnElement)]
 	}
 	
 	def Iterable<Practice> getPractices(Resource input) {
 		return input.allContents.toIterable.filter(Practice).reject[briefDescription.isEmpty]
 	}
 	
+	def Iterable<Activity> getActivities(Resource input) {
+		return input.allContents.toIterable.filter(Activity).reject(DeliveryProcess).reject(Phase).reject(CapabilityPattern).reject(Iteration)
+	}
+	
+	def Iterable<Activity> getActivities(Phase phase) {
+		return phase.breakdownElements.filter(Activity).reject(Iteration).reject(CapabilityPattern)
+	}
+	
 	def Iterable<Activity> getActivities(Iteration iteration) {
 		if (iteration.variabilityBasedOnElement instanceof CapabilityPattern) {
 			val capabilityPattern = iteration.variabilityBasedOnElement as CapabilityPattern
-			return capabilityPattern.breakdownElements.filter(Activity)
+			return capabilityPattern.breakdownElements.filter(Activity).reject(CapabilityPattern)
 		}
 		else {
-			return iteration.breakdownElements.filter(Activity)
+			return iteration.breakdownElements.filter(Activity).reject(CapabilityPattern)
 		}
+	}
+	
+	def Iterable<TaskDescriptor> getTaskDescriptors(Phase phase) {
+		return phase.breakdownElements.filter(TaskDescriptor)
+	}
+	
+	def Iterable<TaskDescriptor> getTaskDescriptors(Iteration iteration) {
+		return iteration.breakdownElements.filter(TaskDescriptor)
 	}
 	
 	def Iterable<TaskDescriptor> getTaskDescriptors(Activity activity) {
@@ -97,12 +120,68 @@ class UmaSerializer extends AbstractGenerator {
 		}
 	}
 	
-	def Iterable<WorkProductDescriptor> getWorkProductDescriptors(TaskDescriptor taskDescriptor) {
-		return taskDescriptor.output
+	def Iterable<Task> getTasks(Resource input) {
+		return input.allContents.toIterable.filter(Task).filter[performedBy.isEmpty]
 	}
 	
-	def ContentPackage getContainer(EObject eobject) {
-		return eobject.eContainer as ContentPackage
+	def Iterable<Task> getTasksRole(Resource input) {
+		return input.allContents.toIterable.filter(Task).reject[performedBy.isEmpty]
+	}
+	
+	def Iterable<Section> getSections(Task task) {
+		if (task.presentation !== null) {
+			return task.presentation.sections
+		}
+		else {
+			return newArrayList
+		}
+	}
+	
+	def Iterable<Artifact> getArtifacts(Resource input) {
+		return input.allContents.toIterable.filter(Artifact).reject[presentationName.isEmpty]
+	}
+	
+	def Iterable<Template> getTemplates(Resource input) {
+		return input.allContents.toIterable.filter(Template)
+	}
+	
+	def Iterable<Deliverable> getDeliverables(Resource input) {
+		return input.allContents.toIterable.filter(Deliverable)
+	}
+	
+	def Domain getDomain(Resource input, Artifact artifact) {
+		val domain = input.allContents.toIterable.filter(Domain).filter[workProducts.contains(artifact)].head
+		if (domain !== null) {
+			return domain.variabilityBasedOnElement as Domain
+		}
+		else {
+			return null
+		}
+	}
+	
+	def Domain getDomain(Resource input, Deliverable deliverable) {
+		val domain = input.allContents.toIterable.filter(Domain).filter[workProducts.contains(deliverable)].head
+		if (domain !== null) {
+			return domain.variabilityBasedOnElement as Domain
+		}
+		else {
+			return null
+		}
+	}
+	
+	def Discipline getDiscipline(Resource input, Task task) {
+		val discipline = input.allContents.toIterable.filter(Discipline).filter[tasks.contains(task)].head
+		if (discipline !== null) {
+			return discipline.variabilityBasedOnElement as Discipline
+		}
+		else {
+			return null
+		}
+	}
+	
+	def String getAttachments(Template template) {
+		val presentation = template.presentation as GuidanceDescription
+		return presentation.attachments
 	}
 	
 	def compile(Resource input) '''
@@ -142,44 +221,6 @@ class UmaSerializer extends AbstractGenerator {
 		
 		«ENDFOR»
 		
-		«FOR domain: input.getDomains»
-		INSERT INTO domains VALUES (
-			"«domain.guid»",
-			"«domain.name»",
-			"«domain.presentationName»",
-			"«domain.briefDescription.replaceAll("\"","\\\\\"")»",
-			«IF domain.briefDescription.isEmpty || domain.name == "brd_domains"»
-			"_PFU-AMVeEd2n6fDcl3UsZg"
-			«ELSE»
-			"_QN3nQBEHEdyM7Iu0sxfrPA"
-			«ENDIF»
-		);
-		
-		«FOR workProduct: domain.workProducts»
-		INSERT INTO work_products VALUES (
-			"«workProduct.guid»",
-			"«workProduct.name»",
-			"«workProduct.presentationName»",
-			"«workProduct.briefDescription.replaceAll("\"","\\\\\"")»",
-			"«domain.guid»"
-		);
-		«ENDFOR»
-		«ENDFOR»
-		
-		«FOR discipline: input.getDisciplines»
-		INSERT INTO disciplines VALUES (
-			"«discipline.guid»",
-			"«discipline.variabilityBasedOnElement.name»",
-			"«discipline.variabilityBasedOnElement.presentationName»",
-			"«discipline.variabilityBasedOnElement.briefDescription.replaceAll("\"","\\\\\"")»",
-			«IF discipline.variabilityBasedOnElement.briefDescription.isEmpty || discipline.name == "brd_disciplines"»
-			"_PFU-AMVeEd2n6fDcl3UsZg"
-			«ELSE»
-			"_QN3nQBEHEdyM7Iu0sxfrPA"
-			«ENDIF»
-		);
-		«ENDFOR»
-		
 		«FOR practice: input.getPractices»
 		INSERT INTO practices VALUES (
 			"«practice.guid»",
@@ -194,13 +235,163 @@ class UmaSerializer extends AbstractGenerator {
 		);
 		«ENDFOR»
 		
+		«FOR domain: input.getDomains»
+		INSERT INTO domains VALUES (
+			"«domain.guid»",
+			"«domain.name»",
+			"«domain.presentationName»",
+			"«domain.briefDescription.replaceAll("\"","\\\\\"")»",
+			«IF domain.briefDescription.isEmpty || domain.name == "brd_domains"»
+			"_PFU-AMVeEd2n6fDcl3UsZg"
+			«ELSE»
+			"_QN3nQBEHEdyM7Iu0sxfrPA"
+			«ENDIF»
+		);
+		
+		«ENDFOR»
+		
+		«FOR template: input.getTemplates»
+		INSERT INTO templates VALUES (
+			"«template.guid»",
+			"«template.name»",
+			"«template.presentationName»",
+			"«template.briefDescription.replaceAll("\"","\\\\\"")»",
+			"«template.getAttachments»"
+		);
+		«ENDFOR»
+		
+		«FOR artifact: input.getArtifacts»
+		INSERT INTO artifacts VALUES (
+			"«artifact.guid»",
+			"«artifact.name»",
+			"«artifact.presentationName»",
+			"«artifact.briefDescription.replaceAll("\"","\\\\\"")»",
+			«IF getDomain(input, artifact) !== null»
+			"«getDomain(input, artifact).guid»",
+			«ELSE»
+			NULL,
+			«ENDIF»
+			«IF !artifact.templates.isEmpty»
+			"«artifact.templates.head.guid»"
+			«ELSE»
+			NULL
+			«ENDIF»		
+		);	
+		«ENDFOR»
+		
+		«FOR artifact: input.getDeliverables»
+		INSERT INTO artifacts VALUES (
+			"«artifact.guid»",
+			"«artifact.name»",
+			"«artifact.presentationName»",
+			"«artifact.briefDescription.replaceAll("\"","\\\\\"")»",
+			«IF getDomain(input, artifact) !== null»
+			"«getDomain(input, artifact).guid»",
+			«ELSE»
+			NULL,
+			«ENDIF»
+			NULL
+		);
+		«ENDFOR»
+		
+		«FOR role: input.getRoles»
+		«FOR artifact: role.responsibleFor»
+		«IF artifact.guid !== "" && !artifact.guid.equals("_Wn7HcNcEEdqz_d2XWoVt6Q")»
+		INSERT INTO role_artifacts VALUES (
+			"«role.variabilityBasedOnElement.guid»",
+			"«artifact.guid»"
+		);
+		«ENDIF»
+		«ENDFOR»
+		«ENDFOR»
+		INSERT INTO role_artifacts VALUES (
+			"_0VxJsMlgEdmt3adZL5Dmdw",
+			"_Wn7HcNcEEdqz_d2XWoVt6Q"
+		);
+		
+		«FOR discipline: input.getDisciplines»
+		INSERT INTO disciplines VALUES (
+			"«discipline.guid»",
+			"«discipline.name»",
+			"«discipline.presentationName»",
+			"«discipline.briefDescription.replaceAll("\"","\\\\\"")»",
+			«IF discipline.briefDescription.isEmpty || discipline.name == "brd_disciplines" || discipline.name.startsWith("rule")»
+			"_PFU-AMVeEd2n6fDcl3UsZg"
+			«ELSE»
+			"_QN3nQBEHEdyM7Iu0sxfrPA"
+			«ENDIF»
+		);
+		«ENDFOR»
+		
+		«FOR task: input.getTasks»
+		INSERT INTO tasks VALUES (
+			"«task.guid»",
+			"«task.name»",
+			"«task.presentationName»",
+			"«task.briefDescription.replaceAll("\"","\\\\\"")»",
+			«IF getDiscipline(input, task) !== null»
+			"«getDiscipline(input, task).guid»"
+			«ELSE»
+			NULL
+			«ENDIF»
+		);
+		
+		«FOR section: task.getSections»
+		INSERT INTO task_sections VALUES (
+			"«section.guid»",
+			"«section.name.replaceAll("\"","\\\\\"")»",
+			"«section.name.replaceAll("\"","\\\\\"")»",
+			"«section.sectionDescription.replaceAll("\"","\\\\\"")»",
+			"«task.guid»"
+		);
+		«ENDFOR»
+		
+		«FOR artifact: task.mandatoryInput»
+		INSERT INTO input_artifacts VALUES (
+			"«task.guid»",
+			"«artifact.guid»"
+		);
+		«ENDFOR»
+		
+		«FOR artifact: task.output»
+		INSERT INTO output_artifacts VALUES (
+			"«task.guid»",
+			"«artifact.guid»"
+		);
+		«ENDFOR»
+		
+		«ENDFOR»
+		
+		«FOR task: input.getTasksRole»
+		«FOR role: task.performedBy»
+		INSERT INTO role_tasks VALUES (
+			"«role.variabilityBasedOnElement.guid»",
+			"«task.variabilityBasedOnElement.guid»"
+		);
+		«ENDFOR»
+		«ENDFOR»
+		
+		«FOR activity: input.getActivities»
+		INSERT INTO activities VALUES (
+			"«activity.guid»",
+			"«activity.name»",
+			"«activity.variabilityBasedOnElement.presentationName»",
+			"«activity.variabilityBasedOnElement.briefDescription»"
+		);
+		«ENDFOR»
+		
 		«FOR deliveryProcess: input.deliveryProcesses»
+		«var phaseNumber = 1»
 		INSERT INTO processes VALUES (
 			"«deliveryProcess.guid»",
 			"«deliveryProcess.name»",
 			"«deliveryProcess.presentationName»",
 			"«deliveryProcess.briefDescription»",
-			"«deliveryProcess.defaultContext.guid»"
+			«IF deliveryProcess.briefDescription.isEmpty || deliveryProcess.name == "openUp_abrd"»
+			"_PFU-AMVeEd2n6fDcl3UsZg"
+			«ELSE»
+			"_QN3nQBEHEdyM7Iu0sxfrPA"
+			«ENDIF»
 		);
 		
 		«FOR phase: deliveryProcess.breakdownElements.filter(Phase)»
@@ -209,7 +400,8 @@ class UmaSerializer extends AbstractGenerator {
 			"«phase.name»",
 			"«phase.presentationName»",
 			"«phase.briefDescription»",
-			"«deliveryProcess.guid»"
+			"«deliveryProcess.guid»",
+			"«phaseNumber++»"
 		);
 		
 		«FOR iteration: phase.breakdownElements.filter(Iteration)»
@@ -222,58 +414,48 @@ class UmaSerializer extends AbstractGenerator {
 		);
 		
 		«FOR activity: iteration.getActivities»
-		INSERT INTO activities VALUES (
-			"«activity.guid»",
-			"«activity.name»",
-			"«activity.variabilityBasedOnElement.presentationName»",
-			"«activity.variabilityBasedOnElement.briefDescription»"
-		);
-		
 		INSERT INTO iteration_activities VALUES (
 			"«iteration.guid»",
 			"«activity.guid»"
 		);
 		
 		«FOR taskDescriptor: activity.getTaskDescriptors»
-		INSERT INTO tasks VALUES (
-			"«taskDescriptor.guid»",
-			"«taskDescriptor.name»",
-			"«taskDescriptor.presentationName»",
-			"«taskDescriptor.briefDescription.replaceAll("\"","\\\\\"")»",
-			NULL
-		);
-		
 		INSERT INTO activity_tasks VALUES (
 			"«activity.guid»",
-			"«taskDescriptor.guid»"
+			"«taskDescriptor.task.guid»"
+		);
+		«ENDFOR»
+		«ENDFOR»
+		«FOR taskDescriptor: iteration.getTaskDescriptors»
+		INSERT INTO iteration_tasks VALUES (
+			"«iteration.guid»",
+			"«taskDescriptor.task.guid»"
+		);
+		«ENDFOR»
+		«ENDFOR»
+		
+		«FOR activity: phase.getActivities»
+		INSERT INTO phase_activities VALUES (
+			"«phase.guid»",
+			"«activity.guid»"
 		);
 		
-		«FOR section: taskDescriptor.selectedSteps»
-		INSERT INTO sections VALUES (
-			"«section.guid»",
-			"«section.name»",
-			"«section.name»",
-			"«section.sectionDescription.replaceAll("\"","\\\\\"")»",
-			"«taskDescriptor.guid»"
+		«FOR taskDescriptor: activity.getTaskDescriptors»
+		INSERT INTO activity_tasks VALUES (
+			"«activity.guid»",
+			"«taskDescriptor.task.guid»"
 		);
+		«ENDFOR»
 		
-		«FOR workProductDescriptor: taskDescriptor.output»
-		INSERT INTO artifacts VALUES (
-			"«workProductDescriptor.guid»",
-			"«workProductDescriptor.name»",
-			"«workProductDescriptor.presentationName»",
-			"«workProductDescriptor.briefDescription»"
-		);
+		«ENDFOR»
 		
-		INSERT INTO task_artifacts VALUES (
-			"«taskDescriptor.guid»",
-			"«workProductDescriptor.guid»"
+		«FOR taskDescriptor: phase.getTaskDescriptors»
+		INSERT INTO phase_tasks VALUES (
+			"«phase.guid»",
+			"«taskDescriptor.task.guid»"
 		);
 		«ENDFOR»
-		«ENDFOR»
-		«ENDFOR»
-		«ENDFOR»
-		«ENDFOR»
+		
 		«ENDFOR»
 		«ENDFOR»
 		'''
