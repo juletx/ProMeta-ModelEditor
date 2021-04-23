@@ -381,7 +381,6 @@ class UmaSerializer extends AbstractGenerator {
 		«ENDFOR»
 		
 		«FOR deliveryProcess: input.deliveryProcesses»
-		«var phaseNumber = 1»
 		INSERT INTO processes VALUES (
 			"«deliveryProcess.guid»",
 			"«deliveryProcess.name»",
@@ -400,8 +399,7 @@ class UmaSerializer extends AbstractGenerator {
 			"«phase.name»",
 			"«phase.presentationName»",
 			"«phase.briefDescription»",
-			"«deliveryProcess.guid»",
-			"«phaseNumber++»"
+			"«deliveryProcess.guid»"
 		);
 		
 		«FOR iteration: phase.breakdownElements.filter(Iteration)»

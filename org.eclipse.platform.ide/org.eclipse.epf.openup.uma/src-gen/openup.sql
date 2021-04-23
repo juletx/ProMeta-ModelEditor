@@ -8101,8 +8101,7 @@ INSERT INTO phases VALUES (
 	"Set Governance Processes",
 	"Setting Governance Processes",
 	"",
-	"_92FEQX_DEd2YWI_0AZcMOA",
-	"1"
+	"_92FEQX_DEd2YWI_0AZcMOA"
 );
 
 
@@ -8145,8 +8144,7 @@ INSERT INTO phases VALUES (
 	"Maintain Rule",
 	"Maintain Rule",
 	"",
-	"_92FEQX_DEd2YWI_0AZcMOA",
-	"2"
+	"_92FEQX_DEd2YWI_0AZcMOA"
 );
 
 
@@ -8169,8 +8167,7 @@ INSERT INTO phases VALUES (
 	"Harvesting",
 	"Cycle 1- Harvesting",
 	"",
-	"_2EcLMXqlEd2o_5d3MWaNxQ",
-	"1"
+	"_2EcLMXqlEd2o_5d3MWaNxQ"
 );
 
 
@@ -8229,8 +8226,7 @@ INSERT INTO phases VALUES (
 	"prototyping",
 	"Cycle 2- Prototyping",
 	"",
-	"_2EcLMXqlEd2o_5d3MWaNxQ",
-	"2"
+	"_2EcLMXqlEd2o_5d3MWaNxQ"
 );
 
 
@@ -8351,8 +8347,7 @@ INSERT INTO phases VALUES (
 	"Cycle3- Building",
 	"Cycle 3- Building",
 	"",
-	"_2EcLMXqlEd2o_5d3MWaNxQ",
-	"3"
+	"_2EcLMXqlEd2o_5d3MWaNxQ"
 );
 
 
@@ -8457,8 +8452,7 @@ INSERT INTO phases VALUES (
 	"Cycle 4- Integrating",
 	"Cycle 4- Integrating",
 	"",
-	"_2EcLMXqlEd2o_5d3MWaNxQ",
-	"4"
+	"_2EcLMXqlEd2o_5d3MWaNxQ"
 );
 
 
@@ -8483,8 +8477,7 @@ INSERT INTO phases VALUES (
 	"Cycle 5- Enhancing",
 	"Cycle 5- Enhancing",
 	"",
-	"_2EcLMXqlEd2o_5d3MWaNxQ",
-	"5"
+	"_2EcLMXqlEd2o_5d3MWaNxQ"
 );
 
 
@@ -8607,8 +8600,7 @@ INSERT INTO phases VALUES (
 	"Inception",
 	"Inception",
 	"",
-	"_iVgFYT3gEd-rQL4FfV6WbQ",
-	"1"
+	"_iVgFYT3gEd-rQL4FfV6WbQ"
 );
 
 INSERT INTO iterations VALUES (
@@ -8647,8 +8639,7 @@ INSERT INTO phases VALUES (
 	"Elaboration",
 	"Elaboration",
 	"",
-	"_iVgFYT3gEd-rQL4FfV6WbQ",
-	"2"
+	"_iVgFYT3gEd-rQL4FfV6WbQ"
 );
 
 INSERT INTO iterations VALUES (
@@ -8791,8 +8782,7 @@ INSERT INTO phases VALUES (
 	"Construction",
 	"Construction",
 	"",
-	"_iVgFYT3gEd-rQL4FfV6WbQ",
-	"3"
+	"_iVgFYT3gEd-rQL4FfV6WbQ"
 );
 
 INSERT INTO iterations VALUES (
@@ -8879,8 +8869,7 @@ INSERT INTO phases VALUES (
 	"Transition",
 	"Transition",
 	"",
-	"_iVgFYT3gEd-rQL4FfV6WbQ",
-	"4"
+	"_iVgFYT3gEd-rQL4FfV6WbQ"
 );
 
 
@@ -8899,8 +8888,7 @@ INSERT INTO phases VALUES (
 	"Inception Phase",
 	"Inception Phase",
 	"",
-	"_SuWj4dOPEdyqlogshP8l4g",
-	"1"
+	"_SuWj4dOPEdyqlogshP8l4g"
 );
 
 INSERT INTO iterations VALUES (
@@ -8979,8 +8967,7 @@ INSERT INTO phases VALUES (
 	"Elaboration Phase",
 	"Elaboration Phase",
 	"",
-	"_SuWj4dOPEdyqlogshP8l4g",
-	"2"
+	"_SuWj4dOPEdyqlogshP8l4g"
 );
 
 INSERT INTO iterations VALUES (
@@ -9093,8 +9080,7 @@ INSERT INTO phases VALUES (
 	"Construction Phase",
 	"Construction Phase",
 	"",
-	"_SuWj4dOPEdyqlogshP8l4g",
-	"3"
+	"_SuWj4dOPEdyqlogshP8l4g"
 );
 
 INSERT INTO iterations VALUES (
@@ -9219,8 +9205,7 @@ INSERT INTO phases VALUES (
 	"Transition Phase",
 	"Transition Phase",
 	"",
-	"_SuWj4dOPEdyqlogshP8l4g",
-	"4"
+	"_SuWj4dOPEdyqlogshP8l4g"
 );
 
 INSERT INTO iterations VALUES (
