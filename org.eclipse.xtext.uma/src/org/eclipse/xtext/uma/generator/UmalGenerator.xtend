@@ -38,7 +38,8 @@ class UmalGenerator extends AbstractGenerator {
 		
 		val inputUri = input.URI
 		val outputUri = inputUri.trimFileExtension.appendFileExtension('uma')
-		val directory = "C:\\Users\\julet\\GitHub\\ProMeta-ModelEditor\\org.eclipse.platform.ide"
+		val projectDir = System.getProperty("user.dir");
+		val directory = projectDir + "\\org.eclipse.platform.ide"
 		var outputPath = outputUri.toPlatformString(true)
 		outputPath = "file:///" + directory + outputPath;
 		
