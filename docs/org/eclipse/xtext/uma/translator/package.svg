@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="149px" preserveAspectRatio="none" style="width:277px;height:149px;" version="1.1" viewBox="0 0 277 149" width="277px" zoomAndPan="magnify"><defs><filter height="300%" id="f1mfepum27bgoh" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[dcf975f9363d46d1d824ea2d50c7dc64]
+cluster org.eclipse.xtext.uma.translator--><polygon fill="#FFFFFF" filter="url(#f1mfepum27bgoh)" points="16,6,245,6,252,29.6094,255,29.6094,255,120,16,120,16,6" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="16" x2="252" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="223" x="20" y="22.5332">org.eclipse.xtext.uma.translator</text><!--MD5=[47568d766c0ce3a797bba13d60bb56aa]
+class org.eclipse.xtext.uma.translator.UmalTranslator--><a href="UmalTranslator.html" target="_top" title="UmalTranslator.html" xlink:actuate="onRequest" xlink:href="UmalTranslator.html" xlink:show="new" xlink:title="UmalTranslator.html" xlink:type="simple"><rect codeLine="3" fill="#FEFECE" filter="url(#f1mfepum27bgoh)" height="61.8359" id="org.eclipse.xtext.uma.translator.UmalTranslator" style="stroke: #A80036; stroke-width: 1.5;" width="118" x="76" y="42"/><ellipse cx="91" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M93.7656,53.875 Q93.9219,53.6563 94.1094,53.5469 Q94.2969,53.4375 94.5156,53.4375 Q94.8906,53.4375 95.125,53.7031 Q95.3594,53.9531 95.3594,54.5625 L95.3594,56.0156 Q95.3594,56.625 95.125,56.8906 Q94.8906,57.1563 94.5156,57.1563 Q94.1719,57.1563 93.9688,56.9531 Q93.7656,56.7656 93.6563,56.25 Q93.6094,55.8906 93.4219,55.7031 Q93.0938,55.3281 92.4844,55.1094 Q91.875,54.8906 91.25,54.8906 Q90.4844,54.8906 89.8438,55.2188 Q89.2188,55.5469 88.7188,56.2969 Q88.2344,57.0469 88.2344,58.0781 L88.2344,59.1719 Q88.2344,60.4063 89.125,61.2344 Q90.0156,62.0469 91.6094,62.0469 Q92.5469,62.0469 93.2031,61.7969 Q93.5938,61.6406 94.0156,61.2031 Q94.2813,60.9375 94.4219,60.8594 Q94.5781,60.7813 94.7813,60.7813 Q95.1094,60.7813 95.3594,61.0469 Q95.625,61.2969 95.625,61.6406 Q95.625,61.9844 95.2813,62.3906 Q94.7813,62.9688 93.9844,63.2969 Q92.9063,63.75 91.6094,63.75 Q90.0938,63.75 88.8906,63.125 Q87.9063,62.625 87.2188,61.5625 Q86.5313,60.4844 86.5313,59.2031 L86.5313,58.0469 Q86.5313,56.7188 87.1406,55.5781 Q87.7656,54.4219 88.8594,53.8125 Q89.9531,53.1875 91.1875,53.1875 Q91.9219,53.1875 92.5625,53.3594 Q93.2188,53.5156 93.7656,53.875 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="86" x="105" y="62.9102">UmalTranslator</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="77" x2="193" y1="74" y2="74"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="77" x2="193" y1="82" y2="82"/><ellipse cx="87" cy="93" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="90" x="96" y="97.4189">main(String[]): void</text></a><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="190" x="34.5" y="136.3809">UMLDoclet 2.0.12, PlantUML 1.2020.16</text><!--MD5=[178619abf6e6ef60f1f6bbff58778a07]
+@startuml
+    namespace org.eclipse.xtext.uma.translator {
+
+        class UmalTranslator [[UmalTranslator.html]] {
+            {static} +main(String[]): void
+        }
+
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml
+
+PlantUML version 1.2020.16(Sun Aug 23 22:20:43 CEST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

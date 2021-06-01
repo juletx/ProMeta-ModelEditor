@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="190px" preserveAspectRatio="none" style="width:262px;height:190px;" version="1.1" viewBox="0 0 262 190" width="262px" zoomAndPan="magnify"><defs><filter height="300%" id="f11i69y4pjhk46" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a20d3a73a789911f55de4c28b44fc747]
+cluster org.eclipse.epf.uma.xslt--><polygon fill="#FFFFFF" filter="url(#f11i69y4pjhk46)" points="16,6,190,6,197,29.6094,240,29.6094,240,161,16,161,16,6" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="16" x2="197" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="168" x="20" y="22.5332">org.eclipse.epf.uma.xslt</text><!--MD5=[5bd89c588caed250300323b6eeeccb58]
+class org.eclipse.epf.uma.xslt.Xmi2Uma--><a href="Xmi2Uma.html" target="_top" title="Xmi2Uma.html" xlink:actuate="onRequest" xlink:href="Xmi2Uma.html" xlink:show="new" xlink:title="Xmi2Uma.html" xlink:type="simple"><rect codeLine="3" fill="#FEFECE" filter="url(#f11i69y4pjhk46)" height="103.3438" id="org.eclipse.epf.uma.xslt.Xmi2Uma" style="stroke: #A80036; stroke-width: 1.5;" width="192" x="32" y="42"/><ellipse cx="96.25" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M99.0156,53.875 Q99.1719,53.6563 99.3594,53.5469 Q99.5469,53.4375 99.7656,53.4375 Q100.1406,53.4375 100.375,53.7031 Q100.6094,53.9531 100.6094,54.5625 L100.6094,56.0156 Q100.6094,56.625 100.375,56.8906 Q100.1406,57.1563 99.7656,57.1563 Q99.4219,57.1563 99.2188,56.9531 Q99.0156,56.7656 98.9063,56.25 Q98.8594,55.8906 98.6719,55.7031 Q98.3438,55.3281 97.7344,55.1094 Q97.125,54.8906 96.5,54.8906 Q95.7344,54.8906 95.0938,55.2188 Q94.4688,55.5469 93.9688,56.2969 Q93.4844,57.0469 93.4844,58.0781 L93.4844,59.1719 Q93.4844,60.4063 94.375,61.2344 Q95.2656,62.0469 96.8594,62.0469 Q97.7969,62.0469 98.4531,61.7969 Q98.8438,61.6406 99.2656,61.2031 Q99.5313,60.9375 99.6719,60.8594 Q99.8281,60.7813 100.0313,60.7813 Q100.3594,60.7813 100.6094,61.0469 Q100.875,61.2969 100.875,61.6406 Q100.875,61.9844 100.5313,62.3906 Q100.0313,62.9688 99.2344,63.2969 Q98.1563,63.75 96.8594,63.75 Q95.3438,63.75 94.1406,63.125 Q93.1563,62.625 92.4688,61.5625 Q91.7813,60.4844 91.7813,59.2031 L91.7813,58.0469 Q91.7813,56.7188 92.3906,55.5781 Q93.0156,54.4219 94.1094,53.8125 Q95.2031,53.1875 96.4375,53.1875 Q97.1719,53.1875 97.8125,53.3594 Q98.4688,53.5156 99.0156,53.875 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="116.75" y="62.9102">Xmi2Uma</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="33" x2="223" y1="74" y2="74"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="33" x2="223" y1="82" y2="82"/><ellipse cx="43" cy="93" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="141" x="52" y="97.4189">getXmiFiles(String): List&lt;File&gt;</text><ellipse cx="43" cy="106.8359" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="120" x="52" y="111.2549">getExtension(File): String</text><ellipse cx="43" cy="120.6719" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="166" x="52" y="125.0908">getRelativePath(File, String): String</text><ellipse cx="43" cy="134.5078" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="90" x="52" y="138.9268">main(String[]): void</text></a><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="190" x="27" y="177.3809">UMLDoclet 2.0.12, PlantUML 1.2020.16</text><!--MD5=[37fe26aa030998ccc08c4b5e303ac485]
+@startuml
+    namespace org.eclipse.epf.uma.xslt {
+
+        class Xmi2Uma [[Xmi2Uma.html]] {
+            {static} +getXmiFiles(String): List<File>
+            {static} +getExtension(File): String
+            {static} +getRelativePath(File, String): String
+            {static} +main(String[]): void
+        }
+
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml
+
+PlantUML version 1.2020.16(Sun Aug 23 22:20:43 CEST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

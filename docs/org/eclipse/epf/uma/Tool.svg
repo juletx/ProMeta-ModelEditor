@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="205px" preserveAspectRatio="none" style="width:236px;height:205px;" version="1.1" viewBox="0 0 236 205" width="236px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ef53cn4hpodr" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c332e544c832bcd975e6b39852ca3116]
+class org.eclipse.epf.uma.Tool--><a href="Tool.html" target="_top" title="Tool.html" xlink:actuate="onRequest" xlink:href="Tool.html" xlink:show="new" xlink:title="Tool.html" xlink:type="simple"><rect codeLine="5" fill="#FEFECE" filter="url(#f1ef53cn4hpodr)" height="62.0234" id="org.eclipse.epf.uma.Tool" style="stroke: #A80036; stroke-width: 1.5;" width="210" x="7" y="107"/><ellipse cx="61.75" cy="127.0938" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M62.7031,123.7344 L62.7031,130.3906 L64.4219,130.3906 Q65.0313,130.3906 65.2969,130.625 Q65.5625,130.8594 65.5625,131.25 Q65.5625,131.625 65.2969,131.8594 Q65.0313,132.0938 64.4219,132.0938 L59.2813,132.0938 Q58.6719,132.0938 58.4063,131.8594 Q58.1406,131.625 58.1406,131.2344 Q58.1406,130.8594 58.4063,130.625 Q58.6719,130.3906 59.2813,130.3906 L61,130.3906 L61,123.7344 L59.2813,123.7344 Q58.6719,123.7344 58.4063,123.5 Q58.1406,123.2656 58.1406,122.875 Q58.1406,122.5 58.4063,122.2656 Q58.6719,122.0313 59.2813,122.0313 L64.4219,122.0313 Q65.0313,122.0313 65.2969,122.2656 Q65.5625,122.5 65.5625,122.875 Q65.5625,123.2656 65.2969,123.5 Q65.0313,123.7344 64.4219,123.7344 L62.7031,123.7344 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="28" x="114.25" y="126.5332">Tool</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="92" x="82.25" y="139.9902">org.eclipse.epf.uma</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="216" y1="147.1875" y2="147.1875"/><ellipse cx="18" cy="158.1875" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="184" x="27" y="162.6064">getToolMentors(): EList&lt;ToolMentor&gt;</text></a><!--MD5=[2ebf6b6b3a1faf8ff26b4d3cb3d8aa6c]
+class org.eclipse.epf.uma.ContentCategory--><a href="ContentCategory.html" target="_top" title="ContentCategory.html" xlink:actuate="onRequest" xlink:href="ContentCategory.html" xlink:show="new" xlink:title="ContentCategory.html" xlink:type="simple"><rect codeLine="9" fill="#FEFECE" filter="url(#f1ef53cn4hpodr)" height="40.1875" id="org.eclipse.epf.uma.ContentCategory" style="stroke: #A80036; stroke-width: 1.5;" width="140" x="42" y="7"/><ellipse cx="57" cy="27.0938" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M57.9531,23.7344 L57.9531,30.3906 L59.6719,30.3906 Q60.2813,30.3906 60.5469,30.625 Q60.8125,30.8594 60.8125,31.25 Q60.8125,31.625 60.5469,31.8594 Q60.2813,32.0938 59.6719,32.0938 L54.5313,32.0938 Q53.9219,32.0938 53.6563,31.8594 Q53.3906,31.625 53.3906,31.2344 Q53.3906,30.8594 53.6563,30.625 Q53.9219,30.3906 54.5313,30.3906 L56.25,30.3906 L56.25,23.7344 L54.5313,23.7344 Q53.9219,23.7344 53.6563,23.5 Q53.3906,23.2656 53.3906,22.875 Q53.3906,22.5 53.6563,22.2656 Q53.9219,22.0313 54.5313,22.0313 L59.6719,22.0313 Q60.2813,22.0313 60.5469,22.2656 Q60.8125,22.5 60.8125,22.875 Q60.8125,23.2656 60.5469,23.5 Q60.2813,23.7344 59.6719,23.7344 L57.9531,23.7344 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="108" x="71" y="26.5332">ContentCategory</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="92" x="79" y="39.9902">org.eclipse.epf.uma</text></a><!--MD5=[e11c35688dae559314a91de5313c8a37]
+reverse link org.eclipse.epf.uma.ContentCategory to org.eclipse.epf.uma.Tool--><path codeLine="11" d="M112,67.37 C112,80.38 112,94.65 112,106.86 " fill="none" id="org.eclipse.epf.uma.ContentCategory-backto-org.eclipse.epf.uma.Tool" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="105,67.24,112,47.24,119,67.24,105,67.24" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="190" x="14" y="192.4043">UMLDoclet 2.0.12, PlantUML 1.2020.16</text><!--MD5=[fbda006552034ba0939b6de29ca082fe]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    interface "<size:14>Tool\n<size:10>org.eclipse.epf.uma" as org.eclipse.epf.uma.Tool [[Tool.html]] {
+        {abstract} +getToolMentors(): EList<ToolMentor>
+    }
+
+    interface "<size:14>ContentCategory\n<size:10>org.eclipse.epf.uma" as org.eclipse.epf.uma.ContentCategory [[ContentCategory.html]]
+
+    org.eclipse.epf.uma.ContentCategory <|- - org.eclipse.epf.uma.Tool
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml
+
+PlantUML version 1.2020.16(Sun Aug 23 22:20:43 CEST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>
